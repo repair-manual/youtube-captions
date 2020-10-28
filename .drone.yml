@@ -1,6 +1,8 @@
 kind: pipeline
 name: Installation
 
+steps:
+
 - name: Import the captions
   image: appleboy/drone-ssh
   pull: if-not-exists
