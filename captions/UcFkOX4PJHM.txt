@@ -1,0 +1,2329 @@
+https://www.youtube.com/watch?v=UcFkOX4PJHM
+---------00:00----------
+hey everybody we're gonna try to do a
+
+---------00:01----------
+daily board repair video again so this
+
+---------00:04----------
+here is an a 1502 retina MacBook Pro
+
+---------00:07----------
+that has no power we're gonna try to
+
+---------00:09----------
+figure out why it has no power so let's
+
+---------00:11----------
+open it up
+
+---------00:11----------
+dig into this machine and see if we can
+
+---------00:14----------
+make it work again and as you can see
+
+---------00:15----------
+here it's taking 79 milli amps and also
+
+---------00:18----------
+we don't get a green light so one thing
+
+---------00:19----------
+you should know from my last video is
+
+---------00:21----------
+that the no green light could be a
+
+---------00:22----------
+number of things it could be pp3 before
+
+---------00:23----------
+too short it's a ground it could be PP 3
+
+---------00:26----------
+before to missing it could be the power
+
+---------00:27----------
+button is stuck so I'm because if the
+
+---------00:30----------
+power button is stuck pressed down its
+
+---------00:31----------
+gonna think it's trying to do an SMC
+
+---------00:33----------
+reset so I just unplug the keyboard
+
+---------00:35----------
+because the keyboard is going to be
+
+---------00:36----------
+responsible for the power button as you
+
+---------00:38----------
+can see we have no change here so I'm
+
+---------00:40----------
+going to take the board out of the case
+
+---------00:41----------
+and we're gonna see what happens there
+
+---------00:43----------
+so let's get the board out of this case
+
+---------00:44----------
+and go from there but while we're taking
+
+---------00:47----------
+the board out of the case just don't
+
+---------00:49----------
+remember that we should have definitely
+
+---------00:51----------
+send in the clowns where are the clowns
+
+---------00:54----------
+please send in the clowns
+
+---------01:00----------
+and we're gonna plug this in again now
+
+---------01:02----------
+that everything has been unplugged we're
+
+---------01:03----------
+gonna see if that makes any difference
+
+---------01:06----------
+doesn't seem to make a damn bit of
+
+---------01:08----------
+difference so we're gonna open up a
+
+---------01:10----------
+schematic for the eight to zero
+
+---------01:11----------
+- for nine to four and Paul Daniels is
+
+---------01:14----------
+lovely software available at PL Daniel's
+
+---------01:17----------
+comm that's PL Daniel's comm there's an
+
+---------01:20----------
+open-source version that you can try
+
+---------01:21----------
+that does not include the thing where
+
+---------01:23----------
+you'll automatically find signals in the
+
+---------01:27----------
+PDF that you right-click on and the
+
+---------01:28----------
+board you and vice versa but it's still
+
+---------01:30----------
+really good stuff and you should check
+
+---------01:31----------
+out his site because he's contributed a
+
+---------01:33----------
+bunch of lovely stuff to our industry
+
+---------01:35----------
+like the multimeter software that allows
+
+---------01:36----------
+you to see the voltage on screen right
+
+---------01:38----------
+over there it's good stuff picked at
+
+---------01:41----------
+random
+
+---------01:41----------
+indeed picked at random first thing
+
+---------01:43----------
+we're going to do is check PP 3 V 4 to
+
+---------01:45----------
+underscore G 3 hot what do we do here
+
+---------01:47----------
+when the Chargers not working if we take
+
+---------01:49----------
+a look we have 18 volts and ground and
+
+---------01:53----------
+adapter sense adapter sends is going to
+
+---------01:56----------
+be what allows the machine to tell that
+
+---------01:57----------
+a charge is attached and it's going to
+
+---------01:59----------
+also talk to the charger and tell the
+
+---------02:01----------
+charger hey you can turn on now I'm
+
+---------02:02----------
+attached Thank You Paul Daniels adapter
+
+---------02:08----------
+sense is going to be where the SMC
+
+---------02:09----------
+speaks to the charger says hi I am a
+
+---------02:11----------
+Macbook you can turn on now I'm a
+
+---------02:13----------
+Macbook I want my 18 volts so it's going
+
+---------02:16----------
+to speak to it over here and as you can
+
+---------02:19----------
+see there's a chip this is X on one side
+
+---------02:21----------
+and ends on the other side now where it
+
+---------02:25----------
+says end on the other side this is going
+
+---------02:29----------
+to be where the signal goes to the
+
+---------02:30----------
+computer on sis 1 wire and if we take a
+
+---------02:33----------
+look we look for sis 1 wire that goes to
+
+---------02:38----------
+which ship called the SMC that goes to a
+
+---------02:43----------
+chip called the SMC right here it's a so
+
+---------02:49----------
+the system management controller is
+
+---------02:51----------
+going to be what speaks to the charger
+
+---------02:54----------
+but it goes through a chip over here
+
+---------02:56----------
+first and in order for that chip that it
+
+---------02:59----------
+goes through to work it needs to be
+
+---------03:01----------
+getting power now if we check out that
+
+---------03:03----------
+chip over here this chip that it needs
+
+---------03:08----------
+to go through is powered on its VCC pin
+
+---------03:13----------
+and the power from there comes from this
+
+---------03:15----------
+chip a logic gate which will send 3.42
+
+---------03:18----------
+volts over here
+
+---------03:19----------
+if smc bc AC ok is present but this
+
+---------03:21----------
+logic gate gets his power from pp3 v4 to
+
+---------03:23----------
+underscore g3 Haan
+
+---------03:24----------
+so let's see if PP 3v for to underscore
+
+---------03:26----------
+g3 hot is present on this MacBook Thank
+
+---------03:29----------
+You Sonya for agreeing with my method of
+
+---------03:31----------
+anger management so it says that pp 3 v4
+
+---------03:35----------
+- on this board can be found I believe
+
+---------03:40----------
+somewhere around here there we go
+
+---------03:43----------
+BP 3 before to underscore g3 hot so
+
+---------03:46----------
+let's see what we get we're gonna turn
+
+---------03:48----------
+on Paul Daniels is lovely happy
+
+---------03:49----------
+multimeter software which Paul Daniels
+
+---------03:52----------
+was so gracious as to donate to the
+
+---------03:54----------
+stream and we are going to see what we
+
+---------04:01----------
+get
+
+---------04:01----------
+and we get 1 point 1 4 volts 1 point 1 4
+
+---------04:06----------
+volts is not what we're expecting we
+
+---------04:08----------
+need 3.42 volts so the first thing we're
+
+---------04:10----------
+gonna do as per that instruction manual
+
+---------04:13----------
+that I link to down below a guide on
+
+---------04:14----------
+board repair the first thing that we're
+
+---------04:16----------
+gonna do is see if we have a short
+
+---------04:17----------
+circuit to ground there's many reasons a
+
+---------04:19----------
+power rail cannot be present then I go
+
+---------04:21----------
+over them in that documents and one of
+
+---------04:22----------
+them is a short circuit so let's see if
+
+---------04:24----------
+a short circuit to ground is what we
+
+---------04:26----------
+have I've changed the multimeter over
+
+---------04:27----------
+here to resistance mode one probe on
+
+---------04:30----------
+ground the other on output but you have
+
+---------04:33----------
+two point eight ohms to ground two point
+
+---------04:36----------
+eight ohms to ground means that the
+
+---------04:37----------
+power is going straight to ground rather
+
+---------04:39----------
+than going to where it's supposed to be
+
+---------04:40----------
+going to so we are going to see what it
+
+---------04:43----------
+is that's getting hot using what we like
+
+---------04:46----------
+to call here the please bro camera so
+
+---------04:49----------
+here we have the please bro camera
+
+---------04:51----------
+anyway so we're gonna go to display
+
+---------04:53----------
+capture over here put the chats on the
+
+---------04:56----------
+side so I can see what's relevant and
+
+---------04:59----------
+let's see what's getting hot now the
+
+---------05:01----------
+please bro camera has what's called the
+
+---------05:03----------
+please bro button one sec let me just
+
+---------05:07----------
+copy over my power supply transform so
+
+---------05:09----------
+that this all looks proper now as you
+
+---------05:11----------
+can see the ISL is getting warm but up
+
+---------05:14----------
+here the pp 3 4 2 circuit is also
+
+---------05:16----------
+getting very warm
+
+---------05:20----------
+Yeah right there that's hot that's
+
+---------05:25----------
+peepee bus g3 hot so let's see is it
+
+---------05:30----------
+this
+
+---------05:35----------
+seems like it
+
+---------05:40----------
+looks like we may have a bad peepee 3v4
+
+---------05:43----------
+to regulator chip so let's go back to
+
+---------05:46----------
+the schematic in the board view and see
+
+---------05:48----------
+what that thing is if we go back to the
+
+---------05:50----------
+schematic and the board view and then we
+
+---------05:52----------
+go right over here you'll see that that
+
+---------05:55----------
+chip that we're having problems with it
+
+---------05:58----------
+looks like the pp3 before to regulator
+
+---------06:00----------
+itself this chip is a very simple job
+
+---------06:02----------
+with this chip does is it takes the
+
+---------06:05----------
+charger voltage which is going to be PP
+
+---------06:08----------
+18 V 5 or battery voltage P P bus g3 ha
+
+---------06:12----------
+12 point 5 volts or 18 point 5 volts and
+
+---------06:16----------
+it turns it to 3.42 volts on output now
+
+---------06:18----------
+this chip is 15 degrees hotter than the
+
+---------06:21----------
+rest of the board which tells me that
+
+---------06:22----------
+perhaps it has failed and it is most
+
+---------06:25----------
+likely what is causing my short circuit
+
+---------06:27----------
+to ground so I'm going to disconnect the
+
+---------06:29----------
+please bro machine I'm gonna say thank
+
+---------06:30----------
+you please bro machine because the
+
+---------06:32----------
+please bro machine helped me please bro
+
+---------06:34----------
+rather than have to use my brain to
+
+---------06:36----------
+solve that problem I was able to use the
+
+---------06:39----------
+please bro machine to solve that problem
+
+---------06:40----------
+so now we're going to take that chip and
+
+---------06:43----------
+we are going to replace it with another
+
+---------06:46----------
+one you know it doesn't look bad if you
+
+---------06:49----------
+take a look over here that doesn't look
+
+---------06:51----------
+like a messed up chip at all but it is
+
+---------06:53----------
+most likely what is causing my problem
+
+---------06:55----------
+now do you guys understand why it is
+
+---------06:57----------
+that I went for the PP 3 before to Ralf
+
+---------06:59----------
+first because I saw that there was no
+
+---------07:01----------
+green light and green light requires PP
+
+---------07:03----------
+3 before 2 so I put a small amount of
+
+---------07:08----------
+flux there did you get parsall from
+
+---------07:13----------
+Amazon I have a bunch of parcels from
+
+---------07:16----------
+Amazon at my apartment that I have to
+
+---------07:18----------
+bring upstairs I got uh I got a cat
+
+---------07:24----------
+litter box a bunch of cat food I have to
+
+---------07:27----------
+open and check all the little things
+
+---------07:28----------
+because usually weekly for the AMAs I'll
+
+---------07:31----------
+thank everybody who sent something and
+
+---------07:33----------
+also at work I have greenies if any of
+
+---------07:34----------
+those of you thank you so much by the
+
+---------07:36----------
+way
+
+---------07:39----------
+okay so now I've removed the chip now
+
+---------07:41----------
+the first thing I want to do is see if
+
+---------07:42----------
+that was actually the cause of my
+
+---------07:43----------
+problem all along since it was getting
+
+---------07:46----------
+warm I just want to confirm before
+
+---------07:46----------
+replace it so I'm going to measure to
+
+---------07:49----------
+see if I have a short to ground on pp3
+
+---------07:52----------
+before 2 and I actually still do have a
+
+---------07:54----------
+short 2 grams on PP 3 before - so the
+
+---------07:56----------
+regulator was getting hot because it was
+
+---------07:58----------
+pumping too much voltage into it but
+
+---------07:59----------
+that was not my actual problem all along
+
+---------08:01----------
+so I did something stupid I went off to
+
+---------08:03----------
+the thing that was getting hot rather
+
+---------08:04----------
+than going after what was actually
+
+---------08:05----------
+causing it to get hot that was dumb and
+
+---------08:07----------
+that's something that I usually know
+
+---------08:08----------
+better at but you know it's been a while
+
+---------08:10----------
+so I've been I haven't been doing as
+
+---------08:13----------
+much of the slightly more business
+
+---------08:14----------
+administration type of stuff so that has
+
+---------08:16----------
+been screwing with my skill set and
+
+---------08:17----------
+turning you back into an idiot so what I
+
+---------08:19----------
+need to do here is I need to not be lazy
+
+---------08:21----------
+and actually inject 3 point 4 volts into
+
+---------08:23----------
+the system and see what actually gets
+
+---------08:25----------
+hot and go from there so I'm going to
+
+---------08:27----------
+inject 3 point 4 volts into the system
+
+---------08:29----------
+right now and add PP 3 V 4 - using my
+
+---------08:32----------
+power supply let's just change the
+
+---------08:34----------
+voltage that the power supply puts out
+
+---------08:36----------
+because sending 18 volts into that power
+
+---------08:38----------
+line will make the board very sad so I
+
+---------08:40----------
+put the ground to ground and now I'm
+
+---------08:43----------
+going to put the 3 point 42 volts
+
+---------08:46----------
+directly on the pp 3 V 4 to
+
+---------09:04----------
+okay now we turn the outfit on and it's
+
+---------09:07----------
+using one amp so whatever's getting warm
+
+---------09:09----------
+should be fairly obvious so I'm going to
+
+---------09:12----------
+put the please bro camera back on the
+
+---------09:14----------
+screen here so you can all look at the
+
+---------09:16----------
+please bro camera now as you can see
+
+---------09:20----------
+here the ISL 6259 chip is 87 Celsius now
+
+---------09:25----------
+before I thought that the ISL was just
+
+---------09:27----------
+getting one because I had a charger
+
+---------09:29----------
+plugged in this chip was getting warm
+
+---------09:31----------
+and because it was short-circuited
+
+---------09:34----------
+so the pp3 before two chip was getting
+
+---------09:36----------
+warm it was actually getting about
+
+---------09:37----------
+warmer than this because it was
+
+---------09:39----------
+supplying this with power and it was
+
+---------09:40----------
+shorted rather than address the actual
+
+---------09:42----------
+problem I addressed the symptom of the
+
+---------09:43----------
+problem and that was dumb that was a
+
+---------09:45----------
+dumb thing for me to do it's something I
+
+---------09:47----------
+usually tell all of you not to do figure
+
+---------09:49----------
+out the root cause of the problem and
+
+---------09:50----------
+address that rather than simply dealing
+
+---------09:52----------
+with the symptoms and I would have
+
+---------09:54----------
+figured that out quicker had I actually
+
+---------09:55----------
+injected power I was being lazy the
+
+---------09:57----------
+machine was only taking 70 ml amps it
+
+---------09:59----------
+wasn't putting out enough power to
+
+---------10:00----------
+really tell if there was a short I
+
+---------10:02----------
+figured maybe I'll get lucky and
+
+---------10:03----------
+something will get hot and something did
+
+---------10:05----------
+get hot but - - things got hot at the
+
+---------10:07----------
+same time and one would have gotten much
+
+---------10:10----------
+hotter than the other if I had actually
+
+---------10:12----------
+injected voltage which I didn't do
+
+---------10:13----------
+because I was being a lazy ass and I
+
+---------10:15----------
+should probably upload this just so that
+
+---------10:16----------
+you understand why it's important to not
+
+---------10:18----------
+be a lazy ass and how being a lazy ass
+
+---------10:20----------
+can trick you so we are going to remove
+
+---------10:22----------
+my wire it's no longer needed we're
+
+---------10:24----------
+gonna replace the ISL six two five nine
+
+---------10:26----------
+with a better one if you want to know
+
+---------10:27----------
+where to find an ISO sixty five nine you
+
+---------10:29----------
+can find them in store dot rossmann
+
+---------10:31----------
+group comm okay
+
+---------10:40----------
+so this is our ISL 65:9 chip and also
+
+---------10:44----------
+check this out look there's evidence
+
+---------10:46----------
+look at that bubbling over there see
+
+---------10:49----------
+this
+
+---------11:03----------
+by the way if you want to check out get
+
+---------11:05----------
+a microscope at the similar quality to
+
+---------11:07----------
+mine you may notice that the image
+
+---------11:08----------
+quality on this thing is absolutely
+
+---------11:09----------
+amazing compared to a lot of the people
+
+---------11:11----------
+who do this it's because this microscope
+
+---------11:12----------
+allows me to get perfect focus on the
+
+---------11:15----------
+trinocular port this can be had at store
+
+---------11:19----------
+dot Rossman group com we are selling
+
+---------11:21----------
+microscopes
+
+---------11:43----------
+the chip didn't really want to come off
+
+---------11:44----------
+of the board which is actually something
+
+---------11:45----------
+that I'm used to when it comes to chips
+
+---------11:47----------
+that die they have a tendency to weld
+
+---------11:49----------
+themselves to the board and I was
+
+---------11:50----------
+expecting that to be a nasty or under it
+
+---------11:53----------
+than it actually was so now I'm going to
+
+---------11:55----------
+replace that lead-free solder with some
+
+---------12:00----------
+leaded solder and after that I'm gonna
+
+---------12:07----------
+it's gonna make it easier for me to wick
+
+---------12:08----------
+that leaded solder off of the board
+
+---------12:13----------
+solder
+
+---------12:44----------
+solder
+
+---------12:54----------
+you
+
+---------14:01----------
+so let's get an ISL 65:9 put on here and
+
+---------14:05----------
+also a new PP three before to regulator
+
+---------14:07----------
+put on there
+
+---------14:11----------
+[Music]
+
+---------14:19----------
+[Music]
+
+---------14:57----------
+this does not work as well as the other
+
+---------14:59----------
+tips that I was using
+
+---------15:00----------
+I don't know how Camille was dealing
+
+---------15:02----------
+with that he was Camille managed to find
+
+---------15:05----------
+a way to use a tweezer hot tweezers tip
+
+---------15:08----------
+on the micro setting pencil and I don't
+
+---------15:10----------
+get it
+
+---------15:17----------
+also I'm pretty sure that resistor goes
+
+---------15:19----------
+somewhere but I'm not quite sure to what
+
+---------15:26----------
+that resistor is too small to be in any
+
+---------15:28----------
+part of this board here
+
+---------15:49----------
+okay now we're gonna replace these two
+
+---------15:51----------
+chips these are chips that you could buy
+
+---------15:53----------
+on store it out rossman group comm I
+
+---------15:57----------
+they suggest you buy them now before the
+
+---------16:00----------
+prices go up do the lovely tariffs
+
+---------16:09----------
+you get an iso six two five nine down
+
+---------16:11----------
+here you can see I tend all those pads
+
+---------16:57----------
+we put a proper amount of flux there
+
+---------17:43----------
+I'm tending all little circles around
+
+---------17:45----------
+the ISL 6259 because I like little tin
+
+---------17:48----------
+circles makes me happy don't make fun of
+
+---------17:53----------
+me I like my toon circles someone said
+
+---------17:58----------
+thank you for all the effort you put
+
+---------17:59----------
+into your videos I have been a PC tech
+
+---------18:03----------
+for ten years there's no way I could
+
+---------18:04----------
+ever demonstrate what I do live like you
+
+---------18:06----------
+can I hope you consider writing a book
+
+---------18:07----------
+sometime in the future would be the Sun
+
+---------18:08----------
+zero of MacBook well a book is not
+
+---------18:11----------
+exactly the medium that I would do best
+
+---------18:13----------
+at that's why I do everything in video
+
+---------18:16----------
+but thank you very very much I really
+
+---------18:18----------
+appreciate that thank you
+
+---------18:19----------
+seriously thank you so we are going to
+
+---------18:22----------
+take this chick over here the regulator
+
+---------18:27----------
+that was actually a totally fine chip
+
+---------18:29----------
+we're gonna put it over there onto the
+
+---------18:31----------
+other board these are both chips that
+
+---------18:33----------
+can be purchased at store dot Rossman
+
+---------18:34----------
+group com
+
+---------18:36----------
+you should probably get one of them now
+
+---------18:38----------
+before we get a one or two or three
+
+---------18:40----------
+hundred percent tariff but on the rate
+
+---------18:43----------
+that we're going now what did USPS say
+
+---------18:47----------
+Lois oh this is the best part of it so
+
+---------18:49----------
+you know in that USPS video that I did a
+
+---------18:51----------
+few days ago where I said that there's
+
+---------18:55----------
+this really kind lovely amazing post
+
+---------18:57----------
+woman that really puts a lot of hard
+
+---------18:58----------
+work and effort in and she does a
+
+---------19:00----------
+perfect job remember when I said that
+
+---------19:02----------
+and I was speaking so well of that post
+
+---------19:04----------
+woman and I said anytime that she takes
+
+---------19:06----------
+a day off for vacation that's when
+
+---------19:08----------
+things go to and nobody shows up or
+
+---------19:10----------
+the person who shows up doesn't scan
+
+---------19:11----------
+stuff well guess what happened so at the
+
+---------19:14----------
+post office she came by today and
+
+---------19:16----------
+apparently I don't know if it's her
+
+---------19:18----------
+supervisor the very dude that didn't
+
+---------19:21----------
+pick up any of my packages properly or
+
+---------19:22----------
+scan them and other people are actually
+
+---------19:24----------
+blaming her they're blaming her for the
+
+---------19:26----------
+fact that a complaint was filed the one
+
+---------19:28----------
+that actually did their job properly
+
+---------19:29----------
+every day the one that in the video that
+
+---------19:30----------
+I cited in my USPS postal complaint did
+
+---------19:33----------
+a good job that's the one that they're
+
+---------19:35----------
+good that's the one they're throwing
+
+---------19:36----------
+under the bus so they're doing it
+
+---------19:38----------
+doesn't seem like anything good as
+
+---------19:40----------
+getting done there but I don't think
+
+---------19:43----------
+it's the post office I don't expect
+
+---------19:44----------
+anything my packages have not moved at
+
+---------19:47----------
+all most of those customers at this
+
+---------19:49----------
+point have gotten and another one send a
+
+---------19:51----------
+lot of the people who've complained we
+
+---------19:53----------
+just sent them another one I don't have
+
+---------19:54----------
+time to wait so
+
+---------19:56----------
+and neither did the customers at that
+
+---------19:58----------
+but such as life so we are going to go
+
+---------20:03----------
+back here and go around that ship
+
+---------20:13----------
+like so get rid of all those little
+
+---------20:15----------
+excess solder balls that came out and
+
+---------20:17----------
+then plug it in plug it in plug it in
+
+---------20:21----------
+like Glade I thought it was really
+
+---------20:24----------
+really really lame but they're they're
+
+---------20:27----------
+blaming the person that I actually said
+
+---------20:29----------
+did a good job rather than blaming the
+
+---------20:31----------
+person that I have on camera doing a bad
+
+---------20:32----------
+job like the person that I have on
+
+---------20:34----------
+camera not doing their job is the one
+
+---------20:36----------
+that's not in trouble the one that's in
+
+---------20:38----------
+trouble is the one that I made two to
+
+---------20:39----------
+three months ends up in that video and
+
+---------20:41----------
+said was a great employee
+
+---------20:42----------
+let's see what we get now so we have
+
+---------20:44----------
+replaced the shorted ship another one
+
+---------20:48----------
+the PIPA there is l6 two five nine
+
+---------20:50----------
+responsible for our pp bus g3 hot we're
+
+---------20:53----------
+gonna plug it in it's not turning on
+
+---------20:54----------
+because I still have the power supply
+
+---------20:56----------
+sets a three point 4 volts rather than
+
+---------20:58----------
+18 so we're gonna change that this is
+
+---------21:03----------
+going to be set to eighteen point five
+
+---------21:06----------
+volts on on okay as you can see we have
+
+---------21:14----------
+a green light
+
+---------21:15----------
+but it's only taking 20 milliamps so PP
+
+---------21:17----------
+3 V 4 2 has likely been restored so if I
+
+---------21:20----------
+were to measure PP 3 V 4 to the first
+
+---------21:22----------
+power rail that was missing I would bet
+
+---------21:25----------
+that I've got it
+
+---------21:29----------
+and I do now pp bus G 3 hot over here
+
+---------21:34----------
+this is the AIA by the is l6 two five
+
+---------21:37----------
+nine we're getting 12 volts that's not
+
+---------21:40----------
+what I would normally expect 12 volts
+
+---------21:43----------
+we're supposed to be getting 12 point 56
+
+---------21:44----------
+for only getting 12 okay now we got to
+
+---------21:49----------
+figure out why that's bouncing back and
+
+---------21:51----------
+forth like that see the amperage twenty
+
+---------21:52----------
+three thirty six twenty three thirty six
+
+---------21:55----------
+twenty two twenty three twenty six it's
+
+---------21:59----------
+going back and forth so that's strange
+
+---------22:01----------
+so let's take a look around that is l6
+
+---------22:03----------
+two five nine area because something
+
+---------22:05----------
+funny is going on here since those are
+
+---------22:06----------
+you getting twelve point fifty six not
+
+---------22:08----------
+that you know let's just check some of
+
+---------22:11----------
+the current sensing circuit
+
+---------22:22----------
+current sensing is measuring just fine
+
+---------22:50----------
+is charged a dcn present
+
+---------22:59----------
+painting in vaults
+
+---------23:08----------
+pp buses still 12.0 eight that's a funny
+
+---------23:11----------
+number
+
+---------23:19----------
+let's see if pp5 es5 is present TP 5vs5
+
+---------23:26----------
+goes to five volts and then three one
+
+---------23:29----------
+zero five volts three one zero okay so
+
+---------23:35----------
+we've got a short-circuit on some other
+
+---------23:37----------
+rail and we got to find it and what do
+
+---------23:42----------
+you know check it out so I noticed that
+
+---------23:45----------
+it was power cycling but I mean my power
+
+---------23:46----------
+cycling is that we were looking at the
+
+---------23:48----------
+amperage the machine was taking it was
+
+---------23:50----------
+going from 23 million 237 back and forth
+
+---------23:53----------
+back and forth back and forth that's why
+
+---------23:55----------
+it's very important of a power supply
+
+---------23:56----------
+but you that I use rather than just
+
+---------23:59----------
+using a normal charger I want to see how
+
+---------24:01----------
+much amperage is taking I want to see
+
+---------24:03----------
+what it's doing I want to know what it's
+
+---------24:04----------
+doing and just by plugging it in that
+
+---------24:06----------
+doesn't tell me what it's doing static
+
+---------24:08----------
+voltages don't give me the full story so
+
+---------24:10----------
+now what I did right now is I decided to
+
+---------24:12----------
+check another set of power rails in the
+
+---------24:13----------
+computer that come next so let's just
+
+---------24:15----------
+bring those up in the schematic and the
+
+---------24:16----------
+board view over here using paul daniels
+
+---------24:20----------
+is lovely beautiful amazing software so
+
+---------24:23----------
+if we go down here there's gonna be a
+
+---------24:25----------
+list of different power rails check this
+
+---------24:27----------
+out so it says always present rails so I
+
+---------24:30----------
+check PP but g3 hot that was present
+
+---------24:32----------
+then I decided to start checking the s5
+
+---------24:34----------
+rails has five rails and machines at him
+
+---------24:36----------
+beyond when the machine is off so PP
+
+---------24:38----------
+5vs5 PP 5vs5
+
+---------24:39----------
+was jumping up and down so then I
+
+---------24:42----------
+decided let me check PP 5 es 3 another
+
+---------24:45----------
+and PP 5 es 3 that's gonna be a rail
+
+---------24:48----------
+that supposed to be present while the
+
+---------24:49----------
+machine is hibernating just to give you
+
+---------24:51----------
+an idea G 3 hot always on as five those
+
+---------24:54----------
+are gonna be the rails that are supposed
+
+---------24:55----------
+to be on the machines off as three the
+
+---------24:57----------
+rail OS for the rails that are on when
+
+---------24:59----------
+it's hibernating s three the rails on
+
+---------25:01----------
+when it's sleeping as oh the rails that
+
+---------25:02----------
+are on when the machine is actually on
+
+---------25:04----------
+and being used so for instance s three
+
+---------25:06----------
+the machine is sleeping the RAM gets
+
+---------25:08----------
+power but the screen doesn't so RAM
+
+---------25:09----------
+would be an s3 rail s oh that is a rail
+
+---------25:13----------
+that's on the computers and use CPU v
+
+---------25:15----------
+core or LCD backlight those RS o rails
+
+---------25:18----------
+now I checked the s3 rail over here and
+
+---------25:21----------
+that one of that first s3 rail I just
+
+---------25:23----------
+happen to get lucky it's shorted to
+
+---------25:24----------
+ground zero ohms to ground on PP 5 e s3
+
+---------25:28----------
+which is what I was checking on pin 2 of
+
+---------25:31----------
+that chip over there I just happen to
+
+---------25:32----------
+know that it's there
+
+---------25:33----------
+because I've checked it a million times
+
+---------25:34----------
+already so let's take a look and see if
+
+---------25:37----------
+there's a hardy point on the board where
+
+---------25:39----------
+I can inject five volts in there so this
+
+---------25:41----------
+board didn't just have one short this
+
+---------25:43----------
+board likely has multiple shorts and we
+
+---------25:45----------
+are going to attack and make humble
+
+---------25:48----------
+every single last one of those short
+
+---------25:50----------
+circuits so let's see where I can solder
+
+---------25:54----------
+a wire to to inject 5 volt into the
+
+---------25:58----------
+board and then we're going to go up
+
+---------25:59----------
+slowly from there it looks like on this
+
+---------26:00----------
+capacitor over here I can do that right
+
+---------26:02----------
+over there so on this campus campus a
+
+---------26:07----------
+campus sitter over here we are going to
+
+---------26:09----------
+inject fire well we can inject up to 5
+
+---------26:12----------
+volts but I want to start with 1 and see
+
+---------26:15----------
+what gets warm so let me go back to my
+
+---------26:17----------
+power supply software and lower that to
+
+---------26:19----------
+1 volt yeah we do have the cursor
+
+---------26:22----------
+officer I probably broke something by
+
+---------26:24----------
+being a Paul you can code this
+
+---------26:29----------
+software as well as you like you're
+
+---------26:31----------
+never gonna be able to stop me from
+
+---------26:32----------
+being an idiot or a fool so you should
+
+---------26:36----------
+stop trying many have tried before you
+
+---------26:40----------
+and failed all right so let's just what
+
+---------26:45----------
+things on let me just turn you off at
+
+---------26:49----------
+the time being
+
+---------26:52----------
+all right we're gonna turn this on wow
+
+---------26:56----------
+it actually lowers itself 2.71 volts and
+
+---------26:59----------
+takes the full 5 amps so at 0.7 volts
+
+---------27:03----------
+we're taking a straight-up 5 amps right
+
+---------27:04----------
+here it's almost as if I sure it's
+
+---------27:07----------
+almost as if I just connected this
+
+---------27:08----------
+directly to ground itself that's
+
+---------27:10----------
+insanity Sean Hannity so let's take the
+
+---------27:15----------
+please bro camera and see what the heck
+
+---------27:17----------
+it is that could be taking all of this
+
+---------27:19----------
+power on this board so we're going to
+
+---------27:21----------
+turn on the please Braille camera the
+
+---------27:23----------
+please Braille camera is what's gonna
+
+---------27:24----------
+tell us when something's getting warm
+
+---------27:26----------
+and let's see what it is that it's
+
+---------27:28----------
+taking 5 amps at point 66 volts so it
+
+---------27:32----------
+looks like this transistor here is
+
+---------27:34----------
+getting a bit warm but let's see what
+
+---------27:38----------
+hat what's looking like on the other
+
+---------27:39----------
+side of the board yeah this area on the
+
+---------27:44----------
+other side of the board is just blank so
+
+---------27:48----------
+the only thing I've really got to go on
+
+---------27:49----------
+here is this transistor so let's see
+
+---------27:53----------
+what that transistor over there is for
+
+---------27:55----------
+shall we now if I open up the schematic
+
+---------27:57----------
+and the board view cue 7520 well what do
+
+---------28:03----------
+you know this the transistor responsible
+
+---------28:05----------
+for creating this power line imagine
+
+---------28:07----------
+that look this here is our u 75 but this
+
+---------28:12----------
+is our TPS 509 eight zero this is
+
+---------28:15----------
+responsible for creating PP 5 vs 3 and
+
+---------28:19----------
+the transistor that's going to be doing
+
+---------28:20----------
+the switching and the pulsing is broken
+
+---------28:22----------
+so the way this works the way that we're
+
+---------28:25----------
+going to get from 12 volts to 5 volts
+
+---------28:28----------
+with the switching power supply is
+
+---------28:29----------
+simple so if I want to take your 12
+
+---------28:32----------
+volts of the battery over to 5 volts the
+
+---------28:34----------
+way I do that is by sending pulses of 5
+
+---------28:36----------
+volts through I mean pulses of 12 volts
+
+---------28:39----------
+through so here I'm going to send 12
+
+---------28:40----------
+volts then 0 then 12 volts then 0
+
+---------28:43----------
+now since this is less than half that
+
+---------28:45----------
+means that I'm going to want to send
+
+---------28:46----------
+this much 12 volts this much 0 this much
+
+---------28:50----------
+12 volts this much 0 this much 12 volts
+
+---------28:53----------
+this much zero so I'm sending pulses and
+
+---------28:56----------
+what's going to happen over here if you
+
+---------28:58----------
+is that this chip is going to control
+
+---------29:02----------
+and just make this full screen and make
+
+---------29:03----------
+it easier for all of you who are
+
+---------29:04----------
+watching there at home
+
+---------29:05----------
+this chip is going to control this
+
+---------29:08----------
+transistor this transistor Scot this
+
+---------29:10----------
+over here PP VIN s 5h s whatever the
+
+---------29:12----------
+hell of it that's P P bus g3 hot that is
+
+---------29:14----------
+going to be the twelve point six volt
+
+---------29:16----------
+rail twelve point six volts goes into
+
+---------29:18----------
+the transistor the chip tells the
+
+---------29:19----------
+transistor open BAM its inch twelve
+
+---------29:21----------
+volts through the coil 2 PP 5 es 3 and
+
+---------29:24----------
+then it closes and ensign 0 volts
+
+---------29:26----------
+through then it opens and sends 12 volts
+
+---------29:29----------
+through and then it closes and send zero
+
+---------29:30----------
+volts through now that that coil is
+
+---------29:32----------
+going to do is it's not going to allow
+
+---------29:33----------
+it to switch very quickly it's not good
+
+---------29:35----------
+the coil is gonna make things slower
+
+---------29:37----------
+it's not going to send 12 0 12 0 it's
+
+---------29:39----------
+just gonna wind up setting instead of
+
+---------29:41----------
+doing 12 0 12 0 12 0 it's gonna go 5 5
+
+---------29:46----------
+so before the coil you've got 12 0 12 0
+
+---------29:48----------
+12 0 12 0 and after the coil you've got
+
+---------29:51----------
+5 it's gonna get averaged out through
+
+---------29:54----------
+that section over here where you've got
+
+---------29:55----------
+a coil going to the output and then a
+
+---------29:58----------
+bunch of capacitors to ground that's
+
+---------30:00----------
+gonna be used for smoothing and also
+
+---------30:01----------
+storing some power so that transistor is
+
+---------30:04----------
+shorted to ground so now let's take a
+
+---------30:06----------
+look at what it looks like under the
+
+---------30:07----------
+microscope because it may be telling as
+
+---------30:09----------
+to what's going on here I'm also gonna
+
+---------30:11----------
+stop sending 5 volts to this machine
+
+---------30:13----------
+because that's torturing the poor little
+
+---------30:15----------
+thing my chart my power supply is
+
+---------30:17----------
+screaming in pain right now and that is
+
+---------30:23----------
+the transistor that is our transistor
+
+---------30:28----------
+over there
+
+---------32:35----------
+okay now we're gonna take a transistor
+
+---------32:37----------
+off of the donor and put it on this this
+
+---------32:42----------
+is my donor to the right
+
+---------33:03----------
+notice that the Trent that this
+
+---------33:05----------
+transistor never left my hand now I
+
+---------33:07----------
+always have the board that I'm working
+
+---------33:09----------
+on under the microscope and the board
+
+---------33:11----------
+that I'm not working on away from it
+
+---------33:12----------
+because the board that I am stealing the
+
+---------33:15----------
+part from I don't really care if I knock
+
+---------33:18----------
+something off right next to it that's
+
+---------33:19----------
+not what matters to me what matters to
+
+---------33:21----------
+me is not losing my component not losing
+
+---------33:23----------
+my place so something that I noticed
+
+---------33:25----------
+with a lot of newbies is that what they
+
+---------33:28----------
+do is they'll have the component the
+
+---------33:30----------
+board that they're stealing the
+
+---------33:30----------
+component from in the microscope and
+
+---------33:32----------
+then they'll they'll take it off and
+
+---------33:36----------
+then they'll go oh crap well how am I
+
+---------33:38----------
+supposed to get this back onto the new
+
+---------33:41----------
+board so they put it down and then they
+
+---------33:43----------
+take the new board and they put it under
+
+---------33:44----------
+the microscope and by then the little
+
+---------33:46----------
+component that they put down it's just
+
+---------33:48----------
+gone just poof vanished bye-bye
+
+---------33:51----------
+and that's not a good thing so I usually
+
+---------33:57----------
+have the component the board that I'm
+
+---------33:59----------
+stealing a component from next to it
+
+---------34:13----------
+now we're going to turn the power supply
+
+---------34:15----------
+back to 18 volts
+
+---------34:25----------
+we're going to plug it in
+
+---------34:35----------
+see what this thing can do as you can
+
+---------34:38----------
+see it's taking 640 milliamps and the
+
+---------34:42----------
+fan is spinning the fan is spinning
+
+---------34:44----------
+because the power rails now work and the
+
+---------34:46----------
+machine is fixed so as I have this is
+
+---------34:50----------
+interesting so I had a short circuit on
+
+---------34:53----------
+pp3 before to that chip is getting hot
+
+---------34:56----------
+when in reality the ISL 65:9 had died
+
+---------34:58----------
+and the ISL 6259 after fixing that and
+
+---------35:01----------
+pbht three hot being restored in PB
+
+---------35:03----------
+three before to being restored we then
+
+---------35:05----------
+had a second short circuit on PB 5 es 3
+
+---------35:07----------
+and the way we were able to tell that
+
+---------35:09----------
+there was an issue there was I saw a
+
+---------35:11----------
+power cycling when I say power cycling I
+
+---------35:13----------
+mean that my power supply was saying
+
+---------35:15----------
+that the board was taking 23 male amps
+
+---------35:17----------
+then 37 and was going back and forth in
+
+---------35:19----------
+a steady fashion
+
+---------35:20----------
+23:37 23:37 23:37 so I decided to start
+
+---------35:25----------
+checking out the other rails pp5 es5 was
+
+---------35:28----------
+going back and forth back and forth back
+
+---------35:29----------
+and forth now what a newbie would have
+
+---------35:32----------
+done at that point they would have
+
+---------35:33----------
+started trying to troubleshoot pp5 es 5
+
+---------35:36----------
+which is not what you do PP 5 es 5 is
+
+---------35:38----------
+jumping up and down because of another
+
+---------35:41----------
+rail so one of the things to recognize
+
+---------35:43----------
+here is that the chip that creates PP 5
+
+---------35:46----------
+es 5 right over here u7 501 which is
+
+---------35:49----------
+available on stored rossmann group.com
+
+---------35:52----------
+this chip over here is not just
+
+---------35:55----------
+responsible with BP 5 es 5 it's also
+
+---------35:57----------
+responsible PP 3 B 3 s 5 and PP 5 es 3
+
+---------36:00----------
+now this one ship is providing three
+
+---------36:03----------
+different rails so let's unload me let
+
+---------36:07----------
+me try to make an analogy here so if I'm
+
+---------36:10----------
+at the gym and I am lifting weights
+
+---------36:13----------
+let's say I'm doing benchpress and the
+
+---------36:15----------
+person right next to me is doing squats
+
+---------36:19----------
+and he hurts himself if he hurts himself
+
+---------36:22----------
+doing squats that doesn't stop me from
+
+---------36:23----------
+being able to do my benchpress
+
+---------36:25----------
+however if I'm doing benchpress and
+
+---------36:27----------
+somebody takes a knife and stabs me in
+
+---------36:29----------
+the quadricep even though the quadricep
+
+---------36:31----------
+is not the set of muscles used for
+
+---------36:33----------
+benchpress I'm good I'm good that bars
+
+---------36:34----------
+gonna fall on me because you just
+
+---------36:36----------
+stabbed me in my quad the same thing is
+
+---------36:38----------
+true here whereby even though PP 5 es 5
+
+---------36:41----------
+is a totally separate rail from PP 5 es
+
+---------36:44----------
+3 PP 5 es 3 is not created from PP 5 es
+
+---------36:48----------
+5 these rails
+
+---------36:49----------
+nothing to do with one another in terms
+
+---------36:50----------
+of sharing a specific power line
+
+---------36:54----------
+they both are made by the same chip so
+
+---------36:56----------
+since they're both made by the same chip
+
+---------36:58----------
+I'm not necessarily gonna see oh is this
+
+---------36:59----------
+cap shorted to ground is there a short
+
+---------37:01----------
+here what I'm not gonna replace at cps
+
+---------37:03----------
+509 zero anything that hurts this chip
+
+---------37:06----------
+is going to hurt any of the rails it
+
+---------37:08----------
+creates so if there's a little
+
+---------37:09----------
+transistor that's hurting my TPS five
+
+---------37:12----------
+one nine eight zero this chip is gonna
+
+---------37:14----------
+go out short to ground turn off turn off
+
+---------37:16----------
+turn off now if the if this transistor
+
+---------37:19----------
+is shorted and trying to take five amps
+
+---------37:21----------
+out of this thing it's gonna go ah turn
+
+---------37:23----------
+off turn off now this chip unfortunately
+
+---------37:26----------
+it's kind of dumb you know it's it's
+
+---------37:28----------
+this chip cost a few dollars it's not a
+
+---------37:30----------
+ genius by any stretch of the
+
+---------37:32----------
+imagination so it's kind of dumb so it's
+
+---------37:34----------
+not only going to turn off this rail
+
+---------37:36----------
+over here that's shorted it's also going
+
+---------37:38----------
+to turn off this rail over here that's
+
+---------37:40----------
+not shorted so PP 5vs5 jumping up and
+
+---------37:43----------
+down was actually a red herring for the
+
+---------37:44----------
+fact that PP v es 3 was the rail that
+
+---------37:47----------
+had been stabbed in the quadricep and
+
+---------37:50----------
+the chip dropped the bar on itself
+
+---------37:53----------
+because some somebody stabbed it in its
+
+---------37:55----------
+PB v es 3 now after fixing that the
+
+---------37:59----------
+board now functions the fan spins and if
+
+---------38:01----------
+the fan spins let's face it the rest of
+
+---------38:03----------
+the board probably works no need to do
+
+---------38:04----------
+any other test and they're pretty sure
+
+---------38:05----------
+it's ready to go right back to customer
+
+---------38:08----------
+I'm kind of kidding but anyway that's it
+
+---------38:12----------
+for today and as always I hope you
+
+---------38:13----------
+learned something and again I'm gonna
+
+---------38:15----------
+try and put as much effort as I can into
+
+---------38:16----------
+doing these videos every single day I
+
+---------38:18----------
+want to have a new upload for you every
+
+---------38:20----------
+single day we're gonna do our best to
+
+---------38:22----------
+make that happen I want this to be a
+
+---------38:24----------
+consistently educational channel I got a
+
+---------38:26----------
+note from somebody recently and and I
+
+---------38:30----------
+got an email from somebody that actually
+
+---------38:31----------
+said that they were on welfare and they
+
+---------38:34----------
+are now working at a repair company
+
+---------38:36----------
+doing this very work here because they
+
+---------38:38----------
+were watching the videos and they
+
+---------38:40----------
+learned something and stories like that
+
+---------38:41----------
+are the tight getting that type of
+
+---------38:44----------
+feedback or seeing pictures of the
+
+---------38:45----------
+repair shop that people start that's the
+
+---------38:47----------
+type of stuff that actually motivates me
+
+---------38:48----------
+even if I'm really tired and I have a
+
+---------38:50----------
+lot of work to do to come back here and
+
+---------38:52----------
+do as much as I can to teach these boys
+
+---------38:54----------
+these to teach what it is I'm doing and
+
+---------38:57----------
+to also walk you through every step so
+
+---------38:59----------
+that it's easy to understand stuff
+
+---------39:01----------
+again emails like that like I could get
+
+---------39:03----------
+a thousand bad comments a day and like
+
+---------39:06----------
+one person that sends something like
+
+---------39:08----------
+that is the stuff that makes all of this
+
+---------39:09----------
+worth it and I'm going to really try to
+
+---------39:12----------
+keep paying it forward and releasing
+
+---------39:14----------
+stuff like this this educational because
+
+---------39:16----------
+it's it's just there's no feeling like
+
+---------39:18----------
+getting like getting emails like that so
+
+---------39:22----------
+that's it for today and as always I hope
+
+---------39:25----------
+you learned something
+
+---------39:55----------
+excellent data recovery not the best
+
+---------39:57----------
+camera
+
+---------40:03----------
+what happened Steve what do you think is
+
+---------40:09----------
+gonna happen if you're sitting there
+
+---------40:10----------
+it's a meter run through it you push
+

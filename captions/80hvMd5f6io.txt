@@ -1,0 +1,1027 @@
+https://www.youtube.com/watch?v=80hvMd5f6io
+---------00:00----------
+all right and today we're gonna be
+
+---------00:01----------
+working on an 8 to 0 30 24 board that
+
+---------00:03----------
+doesn't turn on so when you plug the
+
+---------00:05----------
+charger and remember these are the core
+
+---------00:06----------
+i5 i7 series board so they're supposed
+
+---------00:08----------
+to turn on automatically when you plug
+
+---------00:10----------
+the charger in on this one
+
+---------00:11----------
+you do get a green light but there is no
+
+---------00:15----------
+fan spinning so the first thing that I'm
+
+---------00:17----------
+gonna do is the same thing that I tell
+
+---------00:19----------
+all you guys to do on these boards when
+
+---------00:20----------
+you're first starting and the first
+
+---------00:22----------
+thing to do is to check your power rails
+
+---------00:24----------
+to see what is working what's not
+
+---------00:27----------
+working so it's just I don't have my
+
+---------00:28----------
+open broadcast monitor here since I gave
+
+---------00:30----------
+the monitor to the guy next door's bar
+
+---------00:33----------
+let him borrow it for his DVR since
+
+---------00:34----------
+there was some robbery or some took
+
+---------00:36----------
+place outside so I'm gonna be constantly
+
+---------00:39----------
+switching back here to make sure open
+
+---------00:40----------
+broadcaster is working so he goes to the
+
+---------00:41----------
+power rails on the first power rail here
+
+---------00:43----------
+is pp bus g3 hot so let's see what level
+
+---------00:46----------
+of power it is that I have on PPP hg3
+
+---------00:48----------
+hots what I'm gonna do over here is I'm
+
+---------00:49----------
+gonna go over to the board view software
+
+---------00:51----------
+and on the board view software I'm gonna
+
+---------00:54----------
+do this so I'm going to type and type pp
+
+---------00:58----------
+bus underscore g3 hot and this is gonna
+
+---------00:59----------
+show me everywhere in the boy that PP
+
+---------01:01----------
+buddy 3 hot shows up so that I can
+
+---------01:03----------
+measure it and let's just Britt ate this
+
+---------01:04----------
+so that it's the same way on the desk as
+
+---------01:06----------
+it is on the board view software so I
+
+---------01:09----------
+can measure for it on here right over
+
+---------01:11----------
+here on F 70/40 this is a great spot and
+
+---------01:14----------
+a great place to measure so let's get
+
+---------01:18----------
+the multimeter out so I'm gonna measure
+
+---------01:19----------
+voltage on a multimeter what I do is I
+
+---------01:21----------
+take the multimeter and I put it to
+
+---------01:22----------
+voltage DC mode which is that little
+
+---------01:24----------
+flat line over there then I'm gonna have
+
+---------01:26----------
+the black probe plugged into the comm
+
+---------01:28----------
+port the black probe is gonna go on
+
+---------01:30----------
+ground ground here is a screw hole let's
+
+---------01:35----------
+see if I can get it so you can read the
+
+---------01:36----------
+voltage it's all the way on the bottom
+
+---------01:38----------
+so we have grounds gonna be a screw hole
+
+---------01:41----------
+on the metal portion and the red is
+
+---------01:44----------
+going to be on the fuse now the
+
+---------01:46----------
+schematic says it's supposed to be 8
+
+---------01:48----------
+point something volts but as you can see
+
+---------01:49----------
+I'm getting two points something volts
+
+---------01:51----------
+three volts now that's not what I should
+
+---------01:54----------
+be getting that's wrong now what I want
+
+---------01:56----------
+to do is I want to see why is that
+
+---------01:58----------
+voltage not being created so what I'm
+
+---------01:59----------
+gonna do is I'm going to turn my
+
+---------02:00----------
+multimeter over the diode mode to check
+
+---------02:02----------
+for a short circuit to ground and what
+
+---------02:06----------
+this is going to do is it's gonna
+
+---------02:07----------
+measure the voltage drop across two
+
+---------02:09----------
+points so now I'm going to take the red
+
+---------02:11----------
+probe and the red probe is going to go
+
+---------02:13----------
+the medal by the screw hole and the
+
+---------02:15----------
+black probe is going to go on F 70/40
+
+---------02:16----------
+and 0.001 voltage drop the ground now if
+
+---------02:21----------
+I were to take a board that I shouldn't
+
+---------02:24----------
+call this board good based on how it
+
+---------02:26----------
+looks but yeah I never mind that portion
+
+---------02:28----------
+I was going to show you what a short to
+
+---------02:29----------
+what a proper board was supposed to
+
+---------02:31----------
+measure but I noticed that the board is
+
+---------02:32----------
+that I was gonna use is like the
+
+---------02:36----------
+heatsink screw holes are soldered off
+
+---------02:38----------
+the board and has a warranty sticker on
+
+---------02:40----------
+it from a motherboard repair company
+
+---------02:42----------
+whose name rhymes with you so not
+
+---------02:45----------
+touching that anyway that's a short to
+
+---------02:47----------
+ground over there now what you would do
+
+---------02:49----------
+to find something's gonna be causing
+
+---------02:51----------
+that short to ground and in a previous
+
+---------02:54----------
+video I showed you how to find a short
+
+---------02:56----------
+to ground so I'm not gonna go through
+
+---------02:57----------
+that entire thing now this time that was
+
+---------03:00----------
+when you couldn't figure it out through
+
+---------03:01----------
+visual inspection or very easily on this
+
+---------03:04----------
+one I was able to figure it out through
+
+---------03:06----------
+burning myself because while I had the
+
+---------03:09----------
+charger plugged in I touched the
+
+---------03:10----------
+component that was shorted to ground
+
+---------03:11----------
+while I picked the board up so let me
+
+---------03:13----------
+just show you what it is over I said I
+
+---------03:14----------
+saw here in the microscope so let's just
+
+---------03:17----------
+set this up so it's not all blue cuz
+
+---------03:19----------
+that's annoying
+
+---------03:20----------
+there we go I love this little optic em
+
+---------03:23----------
+this capacitor over here see that so
+
+---------03:28----------
+this I'm gonna show you what this one
+
+---------03:30----------
+looks like and then what a good one
+
+---------03:31----------
+that's not screwed up looks like that
+
+---------03:33----------
+split open this is a good capacitor see
+
+---------03:39----------
+good capacitor with just you know
+
+---------03:41----------
+standard fuzz on it from somebody who
+
+---------03:43----------
+never cleans the inside of their
+
+---------03:44----------
+computer but that's a capacitor
+
+---------03:46----------
+that's a betta destroyed capacitor
+
+---------03:48----------
+so what I'm gonna do is I'm gonna take a
+
+---------03:50----------
+capacitor off of another motherboard so
+
+---------03:52----------
+I'm gonna take another capacitor off of
+
+---------03:53----------
+another motherboard just to show you how
+
+---------03:54----------
+it is I know the specifications of this
+
+---------03:56----------
+capacitor we're gonna switch over to the
+
+---------03:58----------
+board view software and the board view
+
+---------03:59----------
+software is going to tell me what that
+
+---------04:01----------
+is so I'm gonna scroll over over here
+
+---------04:03----------
+and when I go over to the board view
+
+---------04:04----------
+software and I click on that capacitor
+
+---------04:06----------
+it tells me it's c7 514 so when I go
+
+---------04:09----------
+over here I'm gonna search for c7 5 1 4
+
+---------04:12----------
+and look it tells me 62 microfarad 11
+
+---------04:16----------
+volts case b2 it tells me all the
+
+---------04:18----------
+information that I would need to buy the
+
+---------04:20----------
+capacitor now here's the important thing
+
+---------04:21----------
+when you're going to search for these
+
+---------04:22----------
+components you're not gonna go to my
+
+---------04:24----------
+master common search for c7 514 that
+
+---------04:27----------
+doesn't make any sense he only explained
+
+---------04:29----------
+how that is so what is Cee 7/5 14 means
+
+---------04:32----------
+that means that that's the 7500 14
+
+---------04:34----------
+capacitor or whatever in this particular
+
+---------04:36----------
+circuit
+
+---------04:36----------
+that's what Apple is calling that
+
+---------04:38----------
+capacitor so that's like when you call
+
+---------04:41----------
+your mother mom right now you know who
+
+---------04:44----------
+mom is the same way that Apple knows
+
+---------04:46----------
+what that capacitor is but if you were
+
+---------04:48----------
+to go to the store and say oh I can't
+
+---------04:51----------
+find my mom do you know where she is or
+
+---------04:53----------
+do you know mom's number they're not
+
+---------04:55----------
+gonna know who your mom is you would
+
+---------04:57----------
+need to say you know like my mom's name
+
+---------04:59----------
+is Anne Smith so to the rest of the
+
+---------05:02----------
+world if you want to talk about your mom
+
+---------05:04----------
+you need to and they don't know who you
+
+---------05:05----------
+are you need to say and Smith because
+
+---------05:07----------
+that's your mother's name the same thing
+
+---------05:09----------
+is true with capacitors you can't go to
+
+---------05:11----------
+Mouser calm and say I want Cee 7/5 14
+
+---------05:13----------
+because again what the is Cee 7/5
+
+---------05:15----------
+14 they don't know that's a number that
+
+---------05:17----------
+Apple is using order to describe the
+
+---------05:19----------
+capacitor what you need to say is you
+
+---------05:20----------
+need to go over to your schematic and
+
+---------05:22----------
+then you need to like roll over over
+
+---------05:24----------
+here needs to say I need a 62 microfarad
+
+---------05:27----------
+capacitor I need this to be a 20%
+
+---------05:29----------
+tolerance or higher I need 11 volts or
+
+---------05:31----------
+higher I want it to be an electrolytic
+
+---------05:33----------
+capacitor and I want it to be in a case
+
+---------05:35----------
+be to sizing see then they're actually
+
+---------05:37----------
+gonna know what it is they need to give
+
+---------05:39----------
+you but see 7 5 14 that's no information
+
+---------05:41----------
+again and Smith who lives at 100 Wayne
+
+---------05:44----------
+Street that's information mom looking
+
+---------05:47----------
+like I don't I don't I don't know where
+
+---------05:49----------
+to find that pride on't know where to
+
+---------05:50----------
+find your mom I don't know you know
+
+---------05:52----------
+where your mom lives what her name is
+
+---------05:54----------
+what our number is I'm not gonna have
+
+---------05:55----------
+that information if you just say mom but
+
+---------05:57----------
+if you say Ann Smith who lives at this
+
+---------05:58----------
+place then I can I can help you so let's
+
+---------06:01----------
+go ahead and replace this thing with a
+
+---------06:02----------
+capacitor from a donor motherboard so
+
+---------06:06----------
+I'm gonna turn on the noisy stuff so I
+
+---------06:08----------
+already have the noisy air conditioner
+
+---------06:09----------
+on now I'm gonna have the noisy rework
+
+---------06:11----------
+station on and also the noisy air filter
+
+---------06:17----------
+me and a lot of people ask why do I have
+
+---------06:19----------
+the microphone close to my mouth and
+
+---------06:20----------
+videos wouldn't it sound better if you
+
+---------06:22----------
+use one that was a little further away
+
+---------06:23----------
+or a shotgun above your head I love
+
+---------06:25----------
+shotgun microphones from many different
+
+---------06:26----------
+things especially if we're gonna be
+
+---------06:28----------
+doing any type filming at the class or
+
+---------06:30----------
+live filming with the camcorder but let
+
+---------06:32----------
+me turn off the noise cancellation
+
+---------06:33----------
+plug-ins for a second
+
+---------06:37----------
+now they pick up the soldering iron this
+
+---------06:41----------
+is what it sounds like when my head is
+
+---------06:42----------
+buried in the microscope so if I'm
+
+---------06:44----------
+talking and I want the microphone near
+
+---------06:45----------
+me this is what it sounds like with my
+
+---------06:47----------
+head buried in the microscope and this
+
+---------06:49----------
+is with a microphone that's right next
+
+---------06:51----------
+to my face so with a microphone that is
+
+---------06:52----------
+right next to my face this is what it
+
+---------06:55----------
+sounds like can you imagine what it
+
+---------06:57----------
+would sound like if I had the microphone
+
+---------06:58----------
+further away you would not hear me at
+
+---------07:00----------
+all in this type of rework environment
+
+---------07:01----------
+it would be garbage especially if you're
+
+---------07:03----------
+one of those people who's listening to
+
+---------07:04----------
+my content on a laptop or a cash
+
+---------07:06----------
+register where you work or if you're
+
+---------07:08----------
+listening to videos that work in between
+
+---------07:09----------
+customers walking in so you could learn
+
+---------07:10----------
+and try to make some extra money on the
+
+---------07:12----------
+side doing this you give my target
+
+---------07:14----------
+audience and I realize that it's more
+
+---------07:16----------
+important that you hear my instruction
+
+---------07:19----------
+than it is that my voice sounds
+
+---------07:20----------
+perfectly natural on the microphone the
+
+---------07:22----------
+off-screen so anyway here's with the
+
+---------07:24----------
+noise the filtering plug and turn back
+
+---------07:26----------
+on it's a pretty good plugin isn't it
+
+---------07:29----------
+pretty good stuff anyway let's put it on
+
+---------07:33----------
+a little higher coz and let's get to
+
+---------07:35----------
+work here so first thing we're going to
+
+---------07:36----------
+do is remove this capacitor
+
+---------08:08----------
+remember this one is a polarized
+
+---------08:10----------
+capacitor so it's important to know
+
+---------08:11----------
+which way it went originally can't
+
+---------08:13----------
+forget that that's important okay just
+
+---------08:19----------
+finished burning myself so back to work
+
+---------08:21----------
+so remove the capacitor now playing cold
+
+---------08:26----------
+water you can soak to burn right after
+
+---------08:29----------
+you get it it actually does help burn
+
+---------08:34----------
+myself in the hot air station go on to
+
+---------08:35----------
+turn the damn hat go on that was stupid
+
+---------08:37----------
+why I put the FX 951 right behind here I
+
+---------08:40----------
+put it right next to him behind the
+
+---------08:42----------
+handle of the fr8 I want to save desk
+
+---------08:45----------
+space because you know any of you people
+
+---------08:47----------
+have actually had a chance to visit and
+
+---------08:49----------
+see my office understand that there is
+
+---------08:51----------
+no space here at this small space very
+
+---------08:54----------
+small space but yeah so it's it's I like
+
+---------08:57----------
+saving space and I like trying to be
+
+---------08:58----------
+neat but I also like not burning myself
+
+---------09:01----------
+so it's a compromise this isn't really a
+
+---------09:04----------
+great space to get my ironing because
+
+---------09:08----------
+the thing is I don't want to touch the
+
+---------09:09----------
+casing of the other capacitors which I'm
+
+---------09:11----------
+violently failing at let's use a
+
+---------09:16----------
+different tip the curvy tip is not the
+
+---------09:18----------
+tip for this application the curvy tip
+
+---------09:20----------
+is definitely not the tip for this
+
+---------09:22----------
+application you have to use the right
+
+---------09:24----------
+tip for the right application it's worth
+
+---------09:25----------
+having multiple tips if they'll help you
+
+---------09:27----------
+out because tips are 15 bucks
+
+---------09:32----------
+ok let's wait for this thing to get hot
+
+---------09:37----------
+or at 700 800 840 yep right tip for the
+
+---------09:49----------
+job gets it done
+
+---------10:01----------
+all right and we're gonna take a cap
+
+---------10:04----------
+from a donor board and it's gonna go on
+
+---------10:06----------
+this one
+
+---------10:54----------
+so in this one the top is gonna be
+
+---------10:56----------
+positive and the bottom is gonna be
+
+---------10:57----------
+grounds now I got to take a cap off
+
+---------10:59----------
+another board at the oriented properly
+
+---------11:04----------
+so this is the board I'm gonna be
+
+---------11:06----------
+stealing it from
+
+---------11:17----------
+bottom is grounds and top is positive
+
+---------11:22----------
+I'll see that's another 62 micro farad
+
+---------11:24----------
+capacitor and say okay so this is
+
+---------11:27----------
+already entered properly
+
+---------11:28----------
+hopefully the casing is close enough
+
+---------11:31----------
+that it matches I don't have this exact
+
+---------11:32----------
+board in stock because again this is
+
+---------11:34----------
+kind of old you know this is this
+
+---------11:36----------
+is 2011 11 inch air it's not really
+
+---------11:39----------
+popular enough for me to have a donor
+
+---------11:41----------
+board available for it
+
+---------12:11----------
+it's one thing Apple boards love to do
+
+---------12:13----------
+it is absorb heat and make soldering
+
+---------12:15----------
+difficult I don't really have a tip
+
+---------12:21----------
+that's gonna be good at fitting in there
+
+---------12:22----------
+so I'm not sure if I'll be able to clean
+
+---------12:24----------
+that the way I'd like to I might just
+
+---------12:26----------
+have to live with it being as is I'm not
+
+---------12:29----------
+a person who's good with living with
+
+---------12:31----------
+things as is but in this situation
+
+---------12:34----------
+that's just too tight an area for me to
+
+---------12:36----------
+do the the exact type of cleaning job
+
+---------12:38----------
+that I would like come on I could remove
+
+---------12:41----------
+the ones around it but then I'm just
+
+---------12:42----------
+kind of the same problems when I put
+
+---------12:43----------
+those ones back so I added some flux and
+
+---------12:46----------
+I'm gonna try to see what I can do about
+
+---------12:48----------
+the excess solder let me clean my iron
+
+---------12:56----------
+off as much as I can oh that actually
+
+---------13:01----------
+came out pretty good see that we're
+
+---------13:03----------
+getting this to look factory after this
+
+---------13:05----------
+gets ultrasonically cleans you may never
+
+---------13:07----------
+tell them there except for the fact that
+
+---------13:08----------
+the capacitor on the board is not the
+
+---------13:09----------
+one that you're not throwing that came
+
+---------13:11----------
+with it let's make sure it's flat with
+
+---------13:18----------
+the board and I broke it awesome check
+
+---------13:23----------
+it out that was that dumb or what I
+
+---------13:24----------
+actually pushed hard enough that I broke
+
+---------13:26----------
+what I put on the board that's pretty
+
+---------13:28----------
+dumb innit that's pretty stupid now oh
+
+---------13:31----------
+yeah that's that's dumb I caught that on
+
+---------13:34----------
+camera too you see that Louis destroying
+
+---------13:36----------
+a board caught on camera was that not
+
+---------13:39----------
+stupid or what yep okay
+
+---------13:49----------
+let us take another one
+
+---------14:24----------
+see that's one of those examples of
+
+---------14:25----------
+trying to make something perfect and
+
+---------14:27----------
+kind of screwing it up more than it was
+
+---------14:28----------
+before so I lifted the capacitor a
+
+---------14:30----------
+little on one side while I was heating
+
+---------14:33----------
+it so I wanted to flatten it back down
+
+---------14:35----------
+after I got rid of the excess solder and
+
+---------14:37----------
+I pushed and what did I do
+
+---------14:39----------
+I destroyed it try not to do that again
+
+---------14:44----------
+we're gonna so just to make sure it
+
+---------14:46----------
+doesn't lift up I'm gonna push it down
+
+---------14:48----------
+but not hard this time see before it
+
+---------14:54----------
+lift it up when I do that but this time
+
+---------14:56----------
+that's not gonna happen cuz I'm pushing
+
+---------14:57----------
+down alright that's about as good as I'm
+
+---------15:01----------
+gonna get this so now what I'm
+
+---------15:04----------
+interested in is is this actually turn
+
+---------15:06----------
+on and work so let's see what I get out
+
+---------15:09----------
+of it when I plug the charger in yeah
+
+---------15:11----------
+let's see what voltage I get and let's
+
+---------15:13----------
+also see if I get it to turn on
+
+---------15:24----------
+so when I plug the charger in the most
+
+---------15:26----------
+important thing happens here the
+
+---------15:27----------
+ultimate test the guaranteed sign that
+
+---------15:29----------
+this board is a hundred percent fully
+
+---------15:31----------
+functional and requires no further work
+
+---------15:33----------
+for me to get it's a perfect
+
+---------15:34----------
+functionality the fan is spinning is
+
+---------15:38----------
+that not beautiful or what
+

@@ -1,0 +1,952 @@
+https://www.youtube.com/watch?v=tkNncEh9xZE
+---------00:00----------
+well it's kind of working already him so
+
+---------00:02----------
+he fixed it by staring at it that's the
+
+---------00:05----------
+power of having a million subscribers in
+
+---------00:06----------
+a social media platform once you have a
+
+---------00:08----------
+million subscribers you're what's
+
+---------00:10----------
+considered an influencer and once you're
+
+---------00:12----------
+an influencer you can do things like
+
+---------00:14----------
+just influence the board to work again
+
+---------00:15----------
+simply by sitting in front of it and
+
+---------00:17----------
+talking in this voice that's right folks
+
+---------00:22----------
+attack me and get burned hey everybody
+
+---------00:34----------
+how's it going so today we're gonna be
+
+---------00:36----------
+fixing a MacBook this is an a 1466
+
+---------00:39----------
+MacBook Air that has liquid damage
+
+---------00:41----------
+before we get started I just like to
+
+---------00:42----------
+give a big shout out and thank you to
+
+---------00:44----------
+Paul Daniels Paul Daniels is responsible
+
+---------00:46----------
+for the multimeter software that you see
+
+---------00:47----------
+me using on the screen that shows up
+
+---------00:49----------
+above my head as well as the board view
+
+---------00:50----------
+software that I use for figuring out
+
+---------00:53----------
+where things are on the boards before
+
+---------00:54----------
+Paul Daniels I used to use software that
+
+---------00:56----------
+was absolutely awful that I believe
+
+---------00:58----------
+stopped production in around 1995 or
+
+---------01:00----------
+1996 called Lander X test link but
+
+---------01:03----------
+thanks to Paul Daniels open more view
+
+---------01:05----------
+and flex board view my life has been
+
+---------01:07----------
+made easier that's all the lives of my
+
+---------01:08----------
+employees I highly suggest that you
+
+---------01:10----------
+check out a software on PL Daniel's
+
+---------01:11----------
+dot-com that's PL Daniel's com that
+
+---------01:15----------
+being said we're going to get to this
+
+---------01:17----------
+machine and try and figure out what is
+
+---------01:20----------
+wrong with it let's open it up and see
+
+---------01:22----------
+what's going on with this MacBook and
+
+---------01:23----------
+see if we could make it work again David
+
+---------01:26----------
+Boyd says eli has 970 K subscribers Eli
+
+---------01:30----------
+who Eli what explain like I'm five Eli
+
+---------01:36----------
+Congrats on the 1 million just watch the
+
+---------01:38----------
+video why thank you it's very kind of
+
+---------01:41----------
+you
+
+---------01:50----------
+all right what do we have here on this
+
+---------01:58----------
+MacBook okay we're gonna turn on our
+
+---------02:01----------
+power supply have the power supply as
+
+---------02:05----------
+well as the multimeter software show up
+
+---------02:07----------
+on the screen thank you to circuit
+
+---------02:11----------
+specialists for the power supply and the
+
+---------02:14----------
+power supply software and thank you to
+
+---------02:16----------
+Paul Daniels for his multimeter software
+
+---------02:19----------
+let's just turn on the multimeter
+
+---------02:21----------
+software turn on serial mode on the
+
+---------02:24----------
+multimeter and get that stuff showing up
+
+---------02:26----------
+in the screen the big thank you to Paul
+
+---------02:29----------
+Daniels for creating some of the best
+
+---------02:31----------
+software that I've ever had the
+
+---------02:32----------
+privilege of using and my thirty years
+
+---------02:35----------
+on earth
+
+---------02:36----------
+thank you Paul Daniels okay as you can
+
+---------02:39----------
+see there's no green light on the
+
+---------02:41----------
+charger that means that the first thing
+
+---------02:43----------
+we need to do is check pp3 before to
+
+---------02:45----------
+underscore g3 hot pp3 for two is the
+
+---------02:48----------
+power rail it's going to power the
+
+---------02:49----------
+circuit that allows the computer to
+
+---------02:51----------
+speak to the charger the computer needs
+
+---------02:53----------
+to speak to the charger before the
+
+---------02:55----------
+charger light will turn green if the
+
+---------02:57----------
+charger light doesn't turn green the
+
+---------02:58----------
+chart is like machines are not gonna act
+
+---------03:00----------
+as if we plug the charger in and
+
+---------03:01----------
+nothing's going to work let's open up a
+
+---------03:03----------
+schematic for this machine and go
+
+---------03:05----------
+through it now you may wonder how do I
+
+---------03:07----------
+know that I need PP 3 before 2 in order
+
+---------03:09----------
+for the charging circuitry to work and
+
+---------03:10----------
+that's an excellent question let's look
+
+---------03:12----------
+it up on a similar machine that I have a
+
+---------03:15----------
+full schematic available for so that you
+
+---------03:17----------
+can understand why it is that I want
+
+---------03:19----------
+people read 40 to be present before I
+
+---------03:21----------
+can do any real work on the machine so
+
+---------03:24----------
+here we have our charger this is gonna
+
+---------03:27----------
+be a charge port on the board of a
+
+---------03:29----------
+different machine and we could take a
+
+---------03:31----------
+look at that in the schematic if you
+
+---------03:32----------
+take a look here you'll see that there's
+
+---------03:34----------
+three things we've got 18 volts we have
+
+---------03:36----------
+ground and we have a damper sense
+
+---------03:39----------
+adapter sense is gonna be responsible
+
+---------03:40----------
+for sense in the adapter it goes to this
+
+---------03:42----------
+chip which has several pins it has round
+
+---------03:45----------
+boring xed external like the charger is
+
+---------03:48----------
+outside the machine external from the
+
+---------03:50----------
+machine and internal like it's speaking
+
+---------03:52----------
+to something inside the machine like an
+
+---------03:53----------
+SMC chip and here it gets the power it
+
+---------03:55----------
+needs to turn on the power it needs to
+
+---------03:57----------
+turn on comes from this chip
+
+---------03:58----------
+this chip is gonna allow people for 200
+
+---------04:00----------
+Scourge III hunt pass through if smc bc
+
+---------04:02----------
+AC okay is present if you don't have to
+
+---------04:04----------
+be through before to underscore g3 hunt
+
+---------04:05----------
+this chip can't do its job now what does
+
+---------04:07----------
+assist one wire thing what it speaks to
+
+---------04:09----------
+that is a line a data line
+
+---------04:12----------
+bi-directional data line that's gonna go
+
+---------04:14----------
+to the SMC and the SMC over here is
+
+---------04:17----------
+another chip that's gonna be powered by
+
+---------04:19----------
+a happy friendly neighborhood power or
+
+---------04:21----------
+health PP through to for to underscore
+
+---------04:24----------
+g3 hot so if you take a look over here
+
+---------04:26----------
+when I click you'll find the SMC chip
+
+---------04:31----------
+over here and the SMC chip is a chip
+
+---------04:33----------
+that's powered by Pippi 304 to
+
+---------04:36----------
+underscore and g3 hot which is a power
+
+---------04:39----------
+rail that we need now the reason I
+
+---------04:41----------
+showed you this on an older board is
+
+---------04:43----------
+because in the MacBook Air that one wire
+
+---------04:45----------
+circuit is not on the motherboard it's
+
+---------04:47----------
+on the separate dcn board for which I do
+
+---------04:49----------
+not have a schematic however I'm able to
+
+---------04:52----------
+ascertain that it's the same design
+
+---------04:53----------
+because it uses chips that look
+
+---------04:55----------
+identical and it still uses a MagSafe so
+
+---------04:58----------
+let's just take a look on the schematic
+
+---------05:00----------
+and see if we can find where people
+
+---------05:02----------
+through before to underscore g3 home be
+
+---------05:04----------
+present using paul daniels is lovely
+
+---------05:06----------
+software now we're just gonna go to the
+
+---------05:08----------
+power rails page on the schematic it's
+
+---------05:12----------
+got my list of rails right over here
+
+---------05:19----------
+look at that look at that happy Lister
+
+---------05:21----------
+rails
+
+---------05:21----------
+and Wow the machine just turned on in
+
+---------05:23----------
+front of me and just chimed isn't that
+
+---------05:25----------
+lovely
+
+---------05:26----------
+let's see that again
+
+---------05:33----------
+okay that's interesting well it's kind
+
+---------05:36----------
+of working already
+
+---------05:37----------
+so we fixed it by staring at it that's
+
+---------05:40----------
+the power of having a million
+
+---------05:41----------
+subscribers in a social media platform
+
+---------05:43----------
+once you have some million subscribers
+
+---------05:45----------
+you're what's considered an influencer
+
+---------05:47----------
+and once you're an influencer you can do
+
+---------05:49----------
+things like just influence the board to
+
+---------05:50----------
+work again simply by sitting in front of
+
+---------05:52----------
+it and talking in this voice that's
+
+---------05:54----------
+right folks don't delay
+
+---------05:56----------
+become a YouTube influence or today on
+
+---------05:58----------
+social media platforms and then you can
+
+---------06:00----------
+have MacBooks that sit in front of you
+
+---------06:01----------
+just like this one that didn't work that
+
+---------06:03----------
+took 20 mili-amps that take 500
+
+---------06:06----------
+milliamps for no good reason
+
+---------06:07----------
+influencer no serious we have to figure
+
+---------06:10----------
+out what's going on with this because
+
+---------06:11----------
+that's kind of [ __ ] I could give
+
+---------06:12----------
+this back to the customer like that so
+
+---------06:15----------
+people 0 for 2 is gonna come out of this
+
+---------06:17----------
+power rail over here l 7095 so let's see
+
+---------06:25----------
+what this section of the board looks
+
+---------06:27----------
+like use PP 0 for 2 is gonna come out of
+
+---------06:30----------
+here so we got the charger power coming
+
+---------06:31----------
+in through here charger 18 volts 18
+
+---------06:35----------
+volts 18 volts goes in it goes to chip
+
+---------06:42----------
+chip makes it 3.42 and let's see if the
+
+---------06:46----------
+chip is a happy chip or sad chip oh my
+
+---------06:57----------
+well that's a little bit sad looking
+
+---------06:59----------
+let's take a look at the rest of the
+
+---------07:00----------
+machine and see what's going on with it
+
+---------07:01----------
+see if it looks sad or not my kids get
+
+---------07:12----------
+used to being an influencer I'm gonna
+
+---------07:15----------
+influence the corrosion right off this
+
+---------07:16----------
+board I'm gonna influence these
+
+---------07:19----------
+allergies right out of my sinus
+
+---------07:22----------
+you know be really cool as an influencer
+
+---------07:24----------
+I liked it I should go up to that
+
+---------07:29----------
+landlord at 124 West 30th Street and say
+
+---------07:31----------
+you know what you want me to influence
+
+---------07:33----------
+the people to want to invest in your
+
+---------07:34----------
+building hate contractor I'm gonna
+
+---------07:39----------
+influence some people to use your
+
+---------07:40----------
+company can you trade in this whole
+
+---------07:44----------
+influencer thing for anything that's
+
+---------07:45----------
+actually worthwhile yeah I don't want to
+
+---------07:50----------
+free stay at some [ __ ] three-star Hotel
+
+---------07:52----------
+or what I would really like I like free
+
+---------08:01----------
+rent for the next 10 years could I
+
+---------08:03----------
+influence that can I go to the
+
+---------08:09----------
+Department of Buildings and say hey I
+
+---------08:10----------
+like my permit expedited for the
+
+---------08:12----------
+storefront reconstruction I'm an
+
+---------08:14----------
+influencer I'll get a lot of exposure
+
+---------08:20----------
+for your Bureau and bureaucracy for
+
+---------08:22----------
+construction so that people will stop
+
+---------08:24----------
+putting paper in front of their windows
+
+---------08:26----------
+and doing all the construction illegally
+
+---------08:27----------
+without permits and flew in sir the
+
+---------08:31----------
+influencer think about it think about it
+
+---------08:42----------
+do you think I could go to the
+
+---------08:43----------
+Department of Buildings and say I'm an
+
+---------08:45----------
+influencer you should expedite my
+
+---------08:47----------
+permits so I influence people to stop
+
+---------08:48----------
+putting brown paper on the front of
+
+---------08:49----------
+their storefronts when they do
+
+---------08:50----------
+construction illegally because you take
+
+---------08:52----------
+so long it's actually worth a try
+
+---------08:57----------
+yeah let's convince people that you
+
+---------09:02----------
+don't have to break the law in order to
+
+---------09:04----------
+do basic construction in New York City
+
+---------09:07----------
+which is what everybody does every time
+
+---------09:11----------
+I see some new deli or bodega or some
+
+---------09:13----------
+[ __ ] like I always see the brown paper
+
+---------09:15----------
+up some music blaring inside so you
+
+---------09:18----------
+can't hear the construction going on
+
+---------09:20----------
+just the sound of New York
+
+---------09:23----------
+that's the sound of New York all right
+
+---------09:28----------
+so we're gonna take a look over this
+
+---------09:29----------
+entire board see what's going on here
+
+---------09:44----------
+dcn board one wire circuit chips that's
+
+---------09:47----------
+the chip that powers the chip that
+
+---------09:48----------
+allows the charge to speak to the SMC
+
+---------09:50----------
+this is the trip that actually allows
+
+---------09:51----------
+the charger to speak to the SMC
+
+---------10:02----------
+[Music]
+
+---------10:22----------
+[Music]
+
+---------10:32----------
+what the [ __ ]
+
+---------10:35----------
+[Music]
+
+---------10:48----------
+thank you how is this so stable this fan
+
+---------10:56----------
+sucks
+
+---------10:58----------
+[Music]
+
+---------11:13----------
+[Music]
+
+---------11:32----------
+come at me bro
+
+---------11:45----------
+[Music]
+
+---------11:51----------
+oh did I actually get it
+
+---------12:03----------
+right
+
+---------12:08----------
+attack me and get burned congratulations
+
+---------12:21----------
+losing me is the most non-threatening
+
+---------12:22----------
+way possible may you get everything you
+
+---------12:24----------
+deserve thank you
+
+---------12:35----------
+it's not it
+
+---------12:50----------
+very mild stuff by bios that's not gonna
+
+---------12:52----------
+affect green light mild stuff by I
+
+---------12:54----------
+believe is P P 1 vo v of RAM power by
+
+---------12:57----------
+Ram so most likely are not working was
+
+---------13:00----------
+due to nasty [ __ ] in this area so if we
+
+---------13:03----------
+clean this area the pp 3 or 2 area it's
+
+---------13:06----------
+likely gonna work just fine yeah see
+
+---------13:09----------
+this all this thing needed was a q-tip
+
+---------13:11----------
+and it's a little bit of influence from
+
+---------13:14----------
+a professional influencer
+
+---------13:48----------
+no soldering next two data for the day
+
+---------13:50----------
+for today
+
+---------14:04----------
+influence
+
+---------15:08----------
+wait for this thing to rap it cool
+
+---------16:23----------
+being an influencer was harder than I
+
+---------16:25----------
+thought
+
+---------16:30----------
+it still does the same thing it only
+
+---------16:32----------
+turns on after I influence it see I had
+
+---------16:35----------
+to reminded that I was at influencer it
+
+---------16:36----------
+wasn't use drawing any power until just
+
+---------16:38----------
+then something strange going on here
+
+---------16:49----------
+WTF WTF WTF WTF
+
+---------17:01----------
+yeah this is not how this is supposed to
+
+---------17:03----------
+work see good to do with the special
+
+---------17:04----------
+MacBook responded to your random repair
+
+---------17:06----------
+cleaning offer nope
+
+---------17:07----------
+as somebody posted the original poster
+
+---------17:10----------
+on reddit will always disappoint
+
+---------17:11----------
+guaranteed so this doesn't make watch I
+
+---------17:15----------
+tap it 0.1 volts nothing pp 3 before 2
+
+---------17:20----------
+is not being created do we have 18 volts
+
+---------17:22----------
+coming in we have 18 volts coming in so
+
+---------17:26----------
+our pp 3 before to regulator is delaying
+
+---------17:28----------
+somehow so it's taking a few seconds
+
+---------17:30----------
+before it turns on after you plug it in
+
+---------17:32----------
+so I'm going to repeal and then replace
+
+---------17:36----------
+the pp 3 before to regulator with a
+
+---------17:39----------
+better one
+
+---------17:55----------
+and influencing
+
+---------18:14----------
+yeah I really thought that I was an
+
+---------18:16----------
+influence in there for a second but that
+
+---------18:17----------
+that was a bunch of horseshit now the
+
+---------18:19----------
+board still didn't work it was just
+
+---------18:21----------
+[ __ ] with me is off his board was
+
+---------18:26----------
+[ __ ] with me
+
+---------18:40----------
+Congrats for the million thanks for
+
+---------18:41----------
+being genuine seems like a rarity I
+
+---------18:43----------
+thank you
+
+---------19:33----------
+[Music]
+
+---------20:07----------
+a greenie
+
+---------20:18----------
+I thank you Panem for that kind coming
+
+---------20:27----------
+I'm gonna influence this chip to work
+
+---------20:29----------
+even though it's chipped would not be
+
+---------20:32----------
+called a chip what did not have a chip
+
+---------20:34----------
+though this chip is gonna work
+
+---------20:45----------
+going to engage it look at that
+
+---------20:57----------
+all right now we're gonna see if this
+
+---------20:58----------
+thing turns on quicker than before don't
+
+---------21:02----------
+give me some stupid delay one two I
+
+---------21:07----------
+attach you okay that's a little better
+
+---------21:14----------
+still on the slow side okay turn off
+
+---------21:18----------
+okay one two three turn on is PP through
+
+---------21:26----------
+before to present yeah and that's just
+
+---------21:30----------
+the multimeter being slow all right
+
+---------21:32----------
+that's good so as you can see we managed
+
+---------21:35----------
+to influence this board to work again by
+
+---------21:36----------
+staring at it I'm gonna ultrasonic that
+
+---------21:39----------
+corrosion off because it could be
+
+---------21:40----------
+causing some of the funkiness and some
+
+---------21:42----------
+strange symptoms down the line but
+
+---------21:44----------
+that's it for today we we fixed the
+
+---------21:46----------
+board through the magic of having a
+
+---------21:47----------
+million subscribers on the internet as
+
+---------21:50----------
+always I hope you learned something
+

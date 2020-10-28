@@ -1,0 +1,1615 @@
+https://www.youtube.com/watch?v=TmVU3E9QtNw
+---------00:00----------
+my resistors have eyes and they're
+
+---------00:01----------
+staring back at me all right so let's
+
+---------00:05----------
+take a look here we have an a 1398 it
+
+---------00:08----------
+says not turning on hello happy holidays
+
+---------00:10----------
+I'm part of the IT department in a small
+
+---------00:11----------
+company in the Chicagoland area the user
+
+---------00:14----------
+reported the machine stops working after
+
+---------00:15----------
+the mistake of using a knockoff charger
+
+---------00:17----------
+I'm not sure if that's the case so let's
+
+---------00:19----------
+see if that is the problem let's open
+
+---------00:21----------
+this thing up and see if we can get it
+
+---------00:23----------
+working again
+
+---------00:33----------
+okay back to this
+
+---------00:44----------
+so this person said that they may have
+
+---------00:47----------
+used the knockoff charger and now the
+
+---------00:48----------
+machine is dead so the first thing I'm
+
+---------00:50----------
+gonna do is I'm going to unplug the
+
+---------00:52----------
+battery this is one of those batteries
+
+---------00:58----------
+that really doesn't want to come out so
+
+---------00:59----------
+we're gonna use a special pride tool
+
+---------01:01----------
+Bamm battery removed now we're going to
+
+---------01:06----------
+get a good old fashioned Paul Daniels
+
+---------01:08----------
+soft wire on the screen as well as a
+
+---------01:11----------
+power supply software so that I could
+
+---------01:13----------
+see how many amps this MacBook is taking
+
+---------01:16----------
+make it work again
+
+---------01:27----------
+look at that lag between the power
+
+---------01:29----------
+supply software that instantly turns on
+
+---------01:31----------
+and the Paul Daniel software that boots
+
+---------01:33----------
+up like a Hitachi 4200 rpm Drive from
+
+---------01:37----------
+2004 alright we're gonna turn on the
+
+---------01:45----------
+power supply what does this take 22 mil
+
+---------01:49----------
+am 23 May Lambs 24 milliamps this
+
+---------01:52----------
+doesn't appear to be knockoff charge of
+
+---------01:54----------
+damage to me is pp bus present P P bus
+
+---------02:01----------
+g3 hot is four point zero six volts
+
+---------02:03----------
+that's the main rail that is created by
+
+---------02:06----------
+the charger to charge the battery so
+
+---------02:08----------
+perhaps this is a knockoff charger so
+
+---------02:09----------
+we're gonna take a look at the charging
+
+---------02:10----------
+circuit on this we're getting four volts
+
+---------02:12----------
+on P P bus which may mean that this
+
+---------02:13----------
+actually is just issue from a knockoff
+
+---------02:15----------
+charge
+
+---------02:23----------
+a little piece of whoa I've never seen
+
+---------02:25----------
+this before another little piece of foam
+
+---------02:27----------
+that covers the screw right next to the
+
+---------02:29----------
+LCD connector on the a 1398 the foam is
+
+---------02:33----------
+ripped and they can cut into two pieces
+
+---------02:35----------
+that's a how the hell does that happen
+
+---------02:38----------
+that's absolute savagery someone
+
+---------02:46----------
+predicted that this board will have a
+
+---------02:47----------
+dead GPU you are an [ __ ] a pox on you
+
+---------02:52----------
+and your family
+
+---------03:01----------
+you
+
+---------03:07----------
+I can see what's wrong with this board
+
+---------03:09----------
+already can you these little bags are so
+
+---------03:15----------
+aggravating
+
+---------03:16----------
+we got bags for all the screws from the
+
+---------03:18----------
+machines but we made sure to buy the
+
+---------03:20----------
+tiniest little bags there are look at
+
+---------03:23----------
+that look at this look at this I like
+
+---------03:29----------
+bigger bag how does the that's not
+
+---------03:36----------
+what's in the box this is pure troller
+
+---------03:41----------
+II that's what I usually do is steal
+
+---------03:45----------
+from Paul I can't do that we don't do
+
+---------03:51----------
+that anymore
+
+---------04:00----------
+- Paul get nice bags and I get crappy
+
+---------04:02----------
+ones
+
+---------04:32----------
+all right let's take a look at the
+
+---------04:35----------
+schematic in the board view for this
+
+---------04:37----------
+board this is an 8 - 0 - 0 0 1 3 8 which
+
+---------04:40----------
+we don't have a schematic for so I'll
+
+---------04:41----------
+look at a schematic for a similar board
+
+---------04:49----------
+you left out a screw there if I left out
+
+---------04:52----------
+a screw then how is it the board is out
+
+---------04:55----------
+of the casing explain that smartass how
+
+---------04:57----------
+is this board out of the casing if I
+
+---------04:59----------
+left the screw in there exactly exactly
+
+---------05:04----------
+you two people oh you're talking about
+
+---------05:11----------
+this screw me this screw this that was
+
+---------05:19----------
+probably a screw to another machine
+
+---------05:23----------
+alright let's open up a schematic this
+
+---------05:26----------
+well because 8 - 0 0 0 1 6 3
+
+---------05:46----------
+alright now we're gonna take a look at
+
+---------05:49----------
+the charging circuitry which is you 7100
+
+---------05:53----------
+so this circuit is going to be what is
+
+---------05:56----------
+going to create 12 volts for the main
+
+---------05:59----------
+power rail in the machine so this is
+
+---------06:01----------
+gonna take 18 volts from up here and
+
+---------06:04----------
+it's going to send it here and make 12
+
+---------06:06----------
+and how does it do that well this is a
+
+---------06:07----------
+switching power supply this switching
+
+---------06:10----------
+power supply is going to allow the 18
+
+---------06:14----------
+volts through only sometimes so how do
+
+---------06:15----------
+we get from 18 volts at 12 many people
+
+---------06:17----------
+know what is switching power supply is
+
+---------06:18----------
+but they don't know exactly how it works
+
+---------06:20----------
+so what this is gonna do is it's gonna
+
+---------06:21----------
+open up and it's gonna allow that 18
+
+---------06:23----------
+volts from the charger up here through
+
+---------06:24----------
+and it's gonna allow 18 through 18
+
+---------06:27----------
+through then 0 18 18 0 18 18 0 18 18 0
+
+---------06:31----------
+18 18 0 really really fast so it's kind
+
+---------06:34----------
+of and in those little time increments
+
+---------06:35----------
+and that's gonna a ver job - something
+
+---------06:37----------
+around 12 well obviously being a little
+
+---------06:38----------
+crude in my description here but that's
+
+---------06:39----------
+the way it works so this chip is going
+
+---------06:41----------
+to say transistors open 18 open again 18
+
+---------06:45----------
+clothes nothing and it's gonna continue
+
+---------06:47----------
+in that pattern to give you 12 this
+
+---------06:49----------
+thing here is gonna open to allow
+
+---------06:51----------
+charger power to the machine and this
+
+---------06:53----------
+also keeps battery from going back up
+
+---------06:56----------
+here and you don't want that you don't
+
+---------06:58----------
+want a lot to allow the battery to
+
+---------06:59----------
+charge the charger you don't want to
+
+---------07:02----------
+have some sort of give it by one of
+
+---------07:03----------
+those pieces of [ __ ] from China where
+
+---------07:05----------
+you you know when you you have the
+
+---------07:08----------
+battery on the charger it chargers but
+
+---------07:10----------
+if you unplug the charger from the wall
+
+---------07:11----------
+you can still see that the battery is
+
+---------07:13----------
+trying to charge the charger that's
+
+---------07:15----------
+because they don't have something like
+
+---------07:17----------
+this here that's what this does with
+
+---------07:18----------
+this transistor up here is going to do
+
+---------07:20----------
+is you know it's going to keep the
+
+---------07:24----------
+battery from trying to charge the
+
+---------07:25----------
+charger so if you have the charger plug
+
+---------07:27----------
+into the machine but it's not plugged
+
+---------07:28----------
+into the wall you don't want the battery
+
+---------07:29----------
+to try to charge your charger so that's
+
+---------07:31----------
+what this thing does over here now this
+
+---------07:33----------
+is called a current sensing circuit over
+
+---------07:35----------
+here so let's try to zoom in let's see
+
+---------07:37----------
+how much Paul Daniels a software would
+
+---------07:39----------
+allow me to zoom that's about it thank
+
+---------07:41----------
+you Paul Daniels now what this does over
+
+---------07:43----------
+here this is called the current sensing
+
+---------07:45----------
+circuit so imagine that I'm looking at
+
+---------07:47----------
+water flow through a stream I want to
+
+---------07:49----------
+know how fast is the water flowing to
+
+---------07:51----------
+the stream I can guess based on what I
+
+---------07:53----------
+hear how much noise is it making or what
+
+---------07:55----------
+I see in the water but for the most part
+
+---------07:57----------
+I can't really tell if there's nothing
+
+---------07:59----------
+in the water and I am not making any
+
+---------08:01----------
+noise how fast or how empower 'full is
+
+---------08:03----------
+the water flowing to the stream I would
+
+---------08:05----------
+have to put my hand in the stream in
+
+---------08:06----------
+order to tell now the ISL six two five
+
+---------08:08----------
+nine chip over here that's controlling
+
+---------08:10----------
+this buck converter it is not in the
+
+---------08:12----------
+stream it is dis controlling a
+
+---------08:15----------
+transistor that is in this stream its
+
+---------08:17----------
+controlling or is a transistor in the
+
+---------08:19----------
+stream of skin it's connected to a
+
+---------08:21----------
+resistor in the stream this would be
+
+---------08:22----------
+like having your hands in the stream now
+
+---------08:24----------
+this resistor is going to have a voltage
+
+---------08:26----------
+drop from here to here it's gonna be a
+
+---------08:28----------
+really really small volts to drop but
+
+---------08:29----------
+it's a voltage drop nonetheless and that
+
+---------08:31----------
+voltage drop is going to be proportional
+
+---------08:32----------
+to how much current the system is using
+
+---------08:35----------
+so if the system is using 40 milliamps
+
+---------08:39----------
+this is going to be virtually no voltage
+
+---------08:41----------
+drop across the resistor if the system
+
+---------08:42----------
+is using five amps or eight hours or 12
+
+---------08:44----------
+amps or 16 amps then there's gonna be a
+
+---------08:46----------
+huge voltage drop across the resistor
+
+---------08:49----------
+now the way that this chip you 7100 is
+
+---------08:52----------
+going to tell how much current the
+
+---------08:54----------
+system is using it's gonna measure the
+
+---------08:55----------
+current it sounds that tip tip it's
+
+---------08:58----------
+going to measure the volt
+
+---------08:59----------
+at the top of the resister measure it at
+
+---------09:01----------
+the bottom of the resistor and then
+
+---------09:02----------
+figure out what the difference is and if
+
+---------09:04----------
+the difference is larger it's going to
+
+---------09:05----------
+know the system's using more current if
+
+---------09:07----------
+the difference is small or it thinks
+
+---------09:08----------
+it's using less current so our 7121
+
+---------09:11----------
+goes from the top of the resistor to the
+
+---------09:14----------
+chip charge of CS IP and our 71 22 sits
+
+---------09:19----------
+between the bottom of the resistor and
+
+---------09:21----------
+chargers si si n and it's going to be
+
+---------09:25----------
+able to see what's going on here now
+
+---------09:26----------
+what I want to do a quick way to measure
+
+---------09:28----------
+a current sensing circuit here is what
+
+---------09:30----------
+many people will do is they'll measure
+
+---------09:32----------
+this resistor and this resistor in this
+
+---------09:34----------
+resistor in this trace and that trace
+
+---------09:35----------
+and that race and that trace and that
+
+---------09:37----------
+that's a lot of measurements to figure
+
+---------09:39----------
+it out what I'd like to do is I like to
+
+---------09:40----------
+simply add up the I like to add up the
+
+---------09:44----------
+resistances of everything in the circuit
+
+---------09:45----------
+you have 10 ohms 0.02 ohms 10 ohms so
+
+---------09:49----------
+that's 10.0 2 ohms
+
+---------09:51----------
+I would zoom in a little more so that
+
+---------09:52----------
+you could see it but Paul Daniels a
+
+---------09:54----------
+software does not allow you to zoom past
+
+---------09:55----------
+a certain point I guess you have to pay
+
+---------09:57----------
+for the premium version for that [ __ ]
+
+---------09:58----------
+this is only the $79 version of the Paul
+
+---------10:00----------
+Daniels software recently he released
+
+---------10:02----------
+$149 version of it you've probably got a
+
+---------10:04----------
+pay phone at the 300 dollar premium
+
+---------10:06----------
+package limited edition or some [ __ ] to
+
+---------10:07----------
+be able to zoom more but you know P L
+
+---------10:11----------
+Daniels comm so let's see what we get on
+
+---------10:14----------
+our 71 on between pins 27 and 28 of the
+
+---------10:20----------
+is all six two five nine so that's going
+
+---------10:23----------
+to be over here okay let me see I missed
+
+---------10:26----------
+a bunch of chat here so let me read some
+
+---------10:27----------
+of that transistors closed the pass
+
+---------10:30----------
+current [ __ ] that open like a door you
+
+---------10:35----------
+close the contacts in a relay to pass
+
+---------10:36----------
+current god dammit I say at aluminum
+
+---------10:38----------
+instead of aluminium I spelled color
+
+---------10:40----------
+without a U and you open the transistor
+
+---------10:42----------
+to pass current not close it pull your
+
+---------10:46----------
+hair out [ __ ] America can you a
+
+---------10:48----------
+YouTube video about your bike know if I
+
+---------10:50----------
+do a YouTube video on my bike everybody
+
+---------10:52----------
+go why did you do it that way oh my god
+
+---------10:54----------
+it's not perfect it's not perfect how
+
+---------10:56----------
+dare you make something not perfect why
+
+---------10:58----------
+did you make something not perfect oh my
+
+---------10:59----------
+god this guy is such a [ __ ] my bike is
+
+---------11:02----------
+my hobby my bike is not my profession so
+
+---------11:05----------
+I put it together the way a hobbyist
+
+---------11:07----------
+would
+
+---------11:09----------
+and you know the at 1:00 or 2:00 in the
+
+---------11:11----------
+morning when he has no time so if I put
+
+---------11:13----------
+that on YouTube with an actual
+
+---------11:14----------
+viewership they are going to like
+
+---------11:17----------
+nitpick at every little thing and this
+
+---------11:18----------
+is the thing that people do on YouTube
+
+---------11:20----------
+is they look at what you do under a
+
+---------11:21----------
+fine-tooth comb and if anything could
+
+---------11:23----------
+have been done even a tiny bit better I
+
+---------11:25----------
+can't believe you're so stupid
+
+---------11:26----------
+look at the ho ho and it makes them feel
+
+---------11:28----------
+better about the fact that they live in
+
+---------11:30----------
+their parents basement at the age of 40
+
+---------11:31----------
+and I'm not giving people that
+
+---------11:33----------
+satisfaction all right so back to this
+
+---------11:38----------
+okay
+
+---------11:44----------
+now what's something that you notice up
+
+---------11:46----------
+here there should be something clearly
+
+---------11:51----------
+noticeable up here how is the new place
+
+---------11:56----------
+coming along we'll see Steve and Paul
+
+---------11:58----------
+are headed over now bad solder joint on
+
+---------12:03----------
+left cap nope all right
+
+---------12:06----------
+I'll zoom in something that you're
+
+---------12:08----------
+unable to do on Paul Daniels is software
+
+---------12:14----------
+this is something that you may have to
+
+---------12:17----------
+pay a premium for to do in the Paul
+
+---------12:18----------
+Daniel software but I'm gonna offer you
+
+---------12:20----------
+that on my stream at no additional
+
+---------12:22----------
+charge zoom look at that what do we see
+
+---------12:26----------
+here
+
+---------12:31----------
+besides the fact that my microscope
+
+---------12:34----------
+light is being silly there we go
+
+---------12:39----------
+yeah come on give me the rest there we
+
+---------12:45----------
+go
+
+---------12:45----------
+all right properly lit what do you see
+
+---------12:51----------
+my resistors have eyes and they're
+
+---------12:53----------
+staring back at me yeah all right let's
+
+---------12:57----------
+now if we were to measure the resistance
+
+---------13:00----------
+of these between these these two points
+
+---------13:07----------
+how did Kevin's STD test her now I don't
+
+---------13:10----------
+think he ever got one the test
+
+---------13:20----------
+yeah we got 7.31 kilohm so if we check
+
+---------13:23----------
+this resistor over here open line is
+
+---------13:28----------
+resisted over here open line so that
+
+---------13:32----------
+means that those resistors are totally
+
+---------13:34----------
+destroyed and any measurement I'm
+
+---------13:36----------
+getting here is actually going to be
+
+---------13:38----------
+what you see for between this cap so
+
+---------13:40----------
+what I'm really measuring is that cap of
+
+---------13:42----------
+hasit er that is between the two
+
+---------13:44----------
+resistors see 7120 is between the two
+
+---------13:48----------
+resistors and that's what we're actually
+
+---------13:49----------
+measuring here now let's get those
+
+---------13:54----------
+resistors bulldozed off the board and
+
+---------13:56----------
+replace them with some nice new fancy
+
+---------13:58----------
+resistors my flux is gone what the how
+
+---------14:08----------
+the where the where's my flux
+
+---------14:15----------
+I hope Steve drives that contractor
+
+---------14:23----------
+insane he's gonna bargain yeah what why
+
+---------14:31----------
+what Oh Steve's gonna bargain painting
+
+---------14:38----------
+insulation in office floor other stuff
+
+---------14:44----------
+I took this from you I'm sorry that's
+
+---------15:09----------
+really used to be good tweezers I'm in
+
+---------15:15----------
+trouble okay
+
+---------15:19----------
+also one thing I like to do here is any
+
+---------15:22----------
+time the current sense resistors have
+
+---------15:23----------
+been destroyed
+
+---------15:24----------
+typically the is l6 259 will also be
+
+---------15:27----------
+destroyed so I'm just gonna replace it
+
+---------15:28----------
+all
+
+---------15:36----------
+they're likely a reason those resistors
+
+---------15:38----------
+blue yes in the beginning of the stream
+
+---------15:39----------
+in the beginning of the stream
+
+---------15:49----------
+there was always
+
+---------15:58----------
+what was I saying
+
+---------16:01----------
+and the beginning of the stream they use
+
+---------16:03----------
+the knockoff charger
+
+---------16:14----------
+someone said Hannah and Hannah should
+
+---------16:16----------
+have gone good idea I will arrange that
+
+---------16:19----------
+once this is all sixty-five nine has
+
+---------16:20----------
+lifted off the board
+
+---------16:37----------
+where once she's out of the restroom
+
+---------16:41----------
+we'll go over that all right
+
+---------16:44----------
+that's settled and back to this don't
+
+---------16:55----------
+cheap out on charges someone says yeah
+
+---------16:56----------
+that's well I don't sell knockoff
+
+---------16:58----------
+chargers and I I usually just tell
+
+---------17:00----------
+people to go to Best Buy and buy the buy
+
+---------17:02----------
+the Apple charger there yeah I can't buy
+
+---------17:11----------
+up all chargers for less for a wholesale
+
+---------17:14----------
+price I have to buy it from Best Buy to
+
+---------17:16----------
+sell it here and then people people
+
+---------17:19----------
+already lose their mind when they go I
+
+---------17:21----------
+can't believe you're selling it we were
+
+---------17:23----------
+able to get the original ones for a
+
+---------17:24----------
+while for sixty to sixty-five I'm about
+
+---------17:26----------
+forty five dollars and we're selling it
+
+---------17:28----------
+for like 60 bucks
+
+---------17:29----------
+I can't believe it's 60 bucks for a
+
+---------17:30----------
+charger on Amazon it's 17 so at some
+
+---------17:33----------
+point I just gave up and said [ __ ] that
+
+---------17:35----------
+I'm not selling these anymore
+
+---------17:36----------
+so now rather than sell chargers I'll
+
+---------17:38----------
+tell people I suggest the OEM one here's
+
+---------17:41----------
+what you can buy the OEM one and then
+
+---------17:42----------
+when they don't buy the OEM one because
+
+---------17:44----------
+they don't believe me they can come here
+
+---------17:45----------
+and pay 325 for me to replace these two
+
+---------17:47----------
+resistors but I used to sell that and I
+
+---------17:51----------
+used to also sell these star tech
+
+---------17:53----------
+lightning cables they were really good I
+
+---------17:55----------
+was selling the cable for I think 10 or
+
+---------17:57----------
+11 bucks and the little charging brick
+
+---------17:58----------
+for three or four dollars this was an
+
+---------18:00----------
+amazing amazing quality charging cable
+
+---------18:02----------
+they I believe that they would actually
+
+---------18:05----------
+accept returns if you destroyed the
+
+---------18:07----------
+cable which is almost impossible to do
+
+---------18:13----------
+you know if I ever get caught for for
+
+---------18:16----------
+buying is all nine to four zeroes Tim
+
+---------18:18----------
+Cook would be able to hang me in front
+
+---------18:20----------
+of his headquarters from its star tech
+
+---------18:23----------
+charging cable and it would still work
+
+---------18:24----------
+those things are just made to last and
+
+---------18:26----------
+people never bought them they would buy
+
+---------18:28----------
+the ones that wind up destroying Tristar
+
+---------18:30----------
+the the shitty brick and the shitty
+
+---------18:32----------
+cable at the store one block down
+
+---------18:33----------
+because it was five bucks cheaper and
+
+---------18:35----------
+then they show up here for data recovery
+
+---------18:36----------
+and she's like this is something that I
+
+---------18:38----------
+learned when I started to get older
+
+---------18:40----------
+which is I'm not gonna argue with the
+
+---------18:42----------
+way the world is I'm just gonna figure
+
+---------18:44----------
+out a way to position myself to benefit
+
+---------18:46----------
+from it you know why am I going I
+
+---------18:48----------
+remember having
+
+---------18:50----------
+I in 2012 I used to have this little
+
+---------18:53----------
+thing in the front of the store it was a
+
+---------18:55----------
+demonstration this is what the Tristar
+
+---------18:57----------
+Circuit looked like on the new iPhone 5
+
+---------18:59----------
+because the iPhone 5 was the first one
+
+---------19:01----------
+have a charging circuit at the end of
+
+---------19:02----------
+2012 this is what the Tristar circuit
+
+---------19:05----------
+looks like this is what is gonna get
+
+---------19:07----------
+destroyed if you use the shitty charger
+
+---------19:09----------
+here's a bunch of pictures of shitty
+
+---------19:11----------
+charge cords for the iPhone for that
+
+---------19:13----------
+though that piece of [ __ ] from Apple
+
+---------19:14----------
+always broke here's what the good nice
+
+---------19:16----------
+start tech one looks like that never
+
+---------19:18----------
+breaks it's just a few dollars more feel
+
+---------19:20----------
+the material nobody bought it oh you're
+
+---------19:22----------
+a ripoff you're a rip off your a ripoff
+
+---------19:24----------
+okay cool you know what I'm not gonna
+
+---------19:27----------
+argue with you I'm gonna smile and say
+
+---------19:31----------
+oh yeah you can buy the ER I suggest the
+
+---------19:32----------
+OEM on the best buy this other one may
+
+---------19:34----------
+kill your phone it's right down the
+
+---------19:35----------
+block it's just five bucks but go for it
+
+---------19:37----------
+you know give it a try
+
+---------19:39----------
+I'll be here data recovery on iPhones
+
+---------19:42----------
+ranges from 300 to 650 motherboard
+
+---------19:46----------
+repair is 200 to 425 we are open and
+
+---------19:49----------
+happy to take your business we are open
+
+---------19:53----------
+and happy to take your business I agree
+
+---------19:58----------
+with you that $15 or $79 for the charger
+
+---------20:01----------
+or the newest 60 bucks of a cell in the
+
+---------20:02----------
+natural charges for that 60 bucks is a
+
+---------20:04----------
+[ __ ] ripoff I agree with you we're a
+
+---------20:08----------
+damn good deal onboard repair
+
+---------20:13----------
+so this I use knockoff charges as well
+
+---------20:20----------
+for things I just wouldn't use it
+
+---------20:22----------
+knockoff charger on an Apple product
+
+---------20:25----------
+because these things are so finicky
+
+---------20:36----------
+I use a knockoff camera a charger on my
+
+---------20:38----------
+Sony camera I have a sony a 5100 at home
+
+---------20:42----------
+and the DC adapter the DC battery
+
+---------20:45----------
+adapter for that thing costs 87 to 90
+
+---------20:48----------
+dollars plus shipping from Sony that's
+
+---------20:51----------
+just disgusting
+
+---------20:51----------
+because I paid 250 bucks for the camera
+
+---------20:54----------
+used I think was 220 or 250 probably 220
+
+---------20:57----------
+yeah cuz I bought it with a broken flash
+
+---------20:59----------
+used it doesn't hold my data and it's a
+
+---------21:03----------
+low end device so if I kill it who cares
+
+---------21:05----------
+but when it comes to something that
+
+---------21:07----------
+holds my data
+
+---------21:08----------
+I'm not chipping out on the power supply
+
+---------21:09----------
+or if it's a computer that costs 3000
+
+---------21:11----------
+bucks
+
+---------21:12----------
+no I'll cheap out on my cheap-ass camera
+
+---------21:15----------
+I'm not gonna that I use you know for
+
+---------21:18----------
+for off-the-cuff home videos also it's
+
+---------21:23----------
+kind of insulting for Sony because that
+
+---------21:25----------
+thing uses that thing uses 200 milliamps
+
+---------21:30----------
+or something like really $87 you
+
+---------21:34----------
+couldn't get a switching power supply
+
+---------21:35----------
+that doesn't ripple for less than $87
+
+---------21:46----------
+that's Sony trying to put the tip and
+
+---------21:48----------
+that's what that is what are the heat
+
+---------21:50----------
+preference on your quick it entirely
+
+---------21:52----------
+depends on the board
+
+---------22:02----------
+how much distance of the new shop I got
+
+---------22:06----------
+a look it's 15 blocks up seven blocks
+
+---------22:12----------
+west
+
+---------22:14----------
+so 15 north 7 West
+
+---------22:25----------
+what's that oh that's for you Kevin
+
+---------22:31----------
+thank you for your hard work
+
+---------22:41----------
+Kevin enjoy that's for all you enjoy and
+
+---------22:46----------
+to say thank you to JP
+
+---------22:57----------
+is this getting hot are you and plugged
+
+---------23:00----------
+in you're not are you
+
+---------23:03----------
+wait you are plugged in source nice
+
+---------23:08----------
+stations acting all messed up if not
+
+---------23:12----------
+Auto sleeping and turning stuff on
+
+---------23:14----------
+anymore and my tip is bent strange
+
+---------23:23----------
+alright let's just move that into place
+
+---------23:25----------
+I don't know how clear comes out on the
+
+---------23:27----------
+camera but it's a minor ly crooked just
+
+---------23:30----------
+enough to bother me
+
+---------23:39----------
+everybody say thank you to JP for
+
+---------23:42----------
+providing the store with sugar
+
+---------24:01----------
+but yeah when it comes to selling
+
+---------24:02----------
+chargers I just I just gave up maybe it
+
+---------24:05----------
+would be different now because you know
+
+---------24:07----------
+a worldwide name more people trust us
+
+---------24:10----------
+then and the Ida Scott's I got so tired
+
+---------24:14----------
+how much is this charge of 60 bucks 60
+
+---------24:16----------
+bucks man
+
+---------24:18----------
+at some point you just get tired of
+
+---------24:20----------
+hearing the whining I did not ask you to
+
+---------24:25----------
+purchase a $3,000 computer you made the
+
+---------24:30----------
+decision to purchase an expensive $3,000
+
+---------24:32----------
+computer now live with it yeah you
+
+---------24:40----------
+cannot buy a charger from raw from 186
+
+---------24:42----------
+First Avenue you know what you can buy
+
+---------24:45----------
+Karen sends board repair services all
+
+---------24:48----------
+right so I'm gonna wait for this to cool
+
+---------24:49----------
+off just a little bit a donor board put
+
+---------24:51----------
+it on the side use my rapid cool right
+
+---------24:54----------
+here wrap it cool that board up
+
+---------25:01----------
+all right let's see what we got here and
+
+---------25:04----------
+get let's get the meter in a voltage
+
+---------25:10----------
+mode so we can measure voltage and we're
+
+---------25:12----------
+gonna have the power supply on the
+
+---------25:13----------
+screen so we can see how many amps this
+
+---------25:14----------
+thing is taking it was taking 23 to 25
+
+---------25:16----------
+milli ampere for now when we plug it in
+
+---------25:19----------
+it takes 830 P P bus g3 hot is 12 point
+
+---------25:25----------
+59 volts and we get a fan spin so that's
+
+---------25:29----------
+it for today our issue is with the
+
+---------25:31----------
+current sensing circuit because of a
+
+---------25:32----------
+knock off charger and when using it with
+
+---------25:34----------
+a proper charger it will work again only
+
+---------25:37----------
+after you fix the current sensing
+
+---------25:39----------
+circuit to the knockoff charger
+
+---------25:40----------
+destroyed I get it I understand your
+
+---------25:42----------
+aggravation at the fact that the charger
+
+---------25:44----------
+is expensive and I'm not saying that I
+
+---------25:46----------
+don't use knockoff chargers in my own
+
+---------25:48----------
+products I will pay twenty to thirty
+
+---------25:51----------
+dollars for a DC battery adapter for my
+
+---------25:54----------
+sony a 5100 camera I will not pay ninety
+
+---------25:57----------
+dollars for that because I bought that
+
+---------25:58----------
+camera on eBay for $220 used with a
+
+---------26:01----------
+broken flash and I only use it for home
+
+---------26:03----------
+recordings or as an overhead desk camera
+
+---------26:06----------
+but this is a device that costs three
+
+---------26:09----------
+thousand dollars when you buy it since
+
+---------26:11----------
+it costs three thousand dollars that
+
+---------26:13----------
+difference between buying a twenty
+
+---------26:15----------
+dollar charger and an eighty dollar
+
+---------26:17----------
+charger in my opinion is negligible if
+
+---------26:19----------
+you're gonna spend the money to get this
+
+---------26:21----------
+expensive thing especially something as
+
+---------26:24----------
+temperamental as a Mac again remember
+
+---------26:26----------
+we're talking about a computer here that
+
+---------26:28----------
+you literally in 2019 cannot open and
+
+---------26:31----------
+close without a dying that you cannot
+
+---------26:33----------
+type on without the keyboard dying
+
+---------26:36----------
+please please get it the charger that's
+
+---------26:40----------
+made to work with it you don't want to
+
+---------26:42----------
+send any little ripple voltage to this
+
+---------26:44----------
+that is not expecting because if you do
+
+---------26:46----------
+it will die and you will end up here
+
+---------26:48----------
+with a 200 to 400 dollar bill for
+
+---------26:51----------
+something that you could have avoided if
+
+---------26:52----------
+you just spent the money upfront
+
+---------26:53----------
+save the cheap chargers for cheap [ __ ]
+
+---------26:55----------
+when it comes to your expensive stuff
+
+---------26:57----------
+spend a little bit extra on a good
+
+---------26:58----------
+charger so that this doesn't happen to
+
+---------27:00----------
+your macbook that's it for today and as
+
+---------27:02----------
+always I hope you learned something
+
+---------27:03----------
+thank you so much for watching and if
+
+---------27:05----------
+you have any questions or comments
+
+---------27:06----------
+anything on current sensing circuits and
+
+---------27:08----------
+ISL 65:9 problems when you have four
+
+---------27:10----------
+volts on P P Bush p3 ha leave them in
+
+---------27:12----------
+the comments down below see in the next
+
+---------27:14----------
+video
+

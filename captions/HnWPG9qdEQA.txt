@@ -1,0 +1,565 @@
+https://www.youtube.com/watch?v=HnWPG9qdEQA
+---------00:00----------
+next prepare we're gonna be looking at a
+
+---------00:02----------
+a 1466 that's not turning on and let's
+
+---------00:06----------
+get started okay so we're drawing 0.03
+
+---------00:09----------
+two amps on this air board this is an
+
+---------00:11----------
+eight to zero 34 37 this is getting kind
+
+---------00:13----------
+of old at this point let's open up the
+
+---------00:15----------
+schematic in the board view and get
+
+---------00:17----------
+right into it so we have to do is go
+
+---------00:19----------
+through the list of power rails see
+
+---------00:21----------
+what's missing and what's present so PP
+
+---------00:23----------
+bus g3 hot is the first rail and because
+
+---------00:25----------
+Paul Daniels at PL Daniel's dot-com
+
+---------00:28----------
+made this amazing software I can
+
+---------00:30----------
+right-click on P P bus g3 hot and it
+
+---------00:32----------
+shows me right where it is on the board
+
+---------00:33----------
+is that not amazing let's get started so
+
+---------00:37----------
+P P bus g3 hot is gonna be over here and
+
+---------00:39----------
+it's 0 volts on this side on the other
+
+---------00:43----------
+side we get 0.3 volts so that's
+
+---------00:45----------
+something we're supposed to be getting
+
+---------00:47----------
+8.6 volts over there and instead of 8.6
+
+---------00:49----------
+volts we're getting 0.32 volts but the
+
+---------00:53----------
+multimeter into resistance mode and see
+
+---------00:55----------
+if we have a short to ground at that
+
+---------00:56----------
+rail it seems like we have z35 kilohms
+
+---------00:59----------
+to ground that's not a short-circuit we
+
+---------01:02----------
+need P P 3 V 4 to in order to get P P
+
+---------01:04----------
+bus g3 hot so let's see if that's
+
+---------01:06----------
+present do we have PP 3 V 4 - we don't
+
+---------01:08----------
+we have 0.49 volts that's not good
+
+---------01:12----------
+enough so why do we only have point 4 9
+
+---------01:14----------
+volts on PP 3 before - let's see if
+
+---------01:17----------
+there's a short circuit to ground in
+
+---------01:18----------
+that line let's see if the voltage is
+
+---------01:19----------
+being taken to ground and it is we have
+
+---------01:21----------
+a 1 ohm short to ground on PP 3 V 4 -
+
+---------01:24----------
+that's no good so before we try anything
+
+---------01:26----------
+like injecting voltage in the board I
+
+---------01:27----------
+want to actually look at the board get
+
+---------01:29----------
+an idea of if there's a component that's
+
+---------01:31----------
+obviously shorted because if there's
+
+---------01:32----------
+something that's obviously shorted by
+
+---------01:34----------
+physical appearance it saves me the
+
+---------01:35----------
+hassle of attaching wires to the board
+
+---------01:38----------
+thermal camera at pouring alcohol on it
+
+---------01:40----------
+and trying to inject voltage in our
+
+---------01:42----------
+rails to figure this out so as you can
+
+---------01:44----------
+see this board is very dusty it's got
+
+---------01:47----------
+some green probe points under there it's
+
+---------01:49----------
+got a little bit of fuzz it's got quite
+
+---------01:53----------
+a bit of fuzz actually look at all look
+
+---------01:56----------
+at all that fuzz gross blue
+
+---------02:04----------
+dusty Dusty dusty so dusty haha what's
+
+---------02:13----------
+this
+
+---------02:14----------
+I sense corrosion how does that look to
+
+---------02:20----------
+you
+
+---------02:32----------
+that's for pp1 v 2s 5s MC and right next
+
+---------02:36----------
+to it is pp 3 v 4 to these three caps
+
+---------02:39----------
+are for pp 3 V 4 2 so that means that
+
+---------02:41----------
+this cap over here that looks like
+
+---------02:43----------
+garbage is for pp 3 V 4 - now I'm gonna
+
+---------02:46----------
+zoom in as much as I can on this one
+
+---------02:48----------
+capacitor and you tell me what you think
+
+---------02:51----------
+of it it's gonna be that middle one
+
+---------02:52----------
+right there we're at 45 X do you think
+
+---------02:56----------
+that that is a good capacitor or do you
+
+---------02:57----------
+think that that's a bad capacitor bada
+
+---------03:01----------
+bing so we knocked that capacitor off of
+
+---------03:03----------
+the board there's a lot of hairy stuff
+
+---------03:05----------
+over there this isn't a nice board look
+
+---------03:07----------
+at that you can actually see the disgust
+
+---------03:09----------
+in different levels as I change the zoom
+
+---------03:11----------
+so watch I'm going to adjust the zoom
+
+---------03:13----------
+slowly and you can almost kind of follow
+
+---------03:15----------
+that ball hair as it crawls up the board
+
+---------03:17----------
+from okay right to left and now look
+
+---------03:20----------
+from left to right Oh gross that is one
+
+---------03:27----------
+disgusting motherboard this motherboard
+
+---------03:30----------
+was killed by ball hair so we're going
+
+---------03:32----------
+to take that capacitor off GE TFO and
+
+---------03:36----------
+we're gonna adjust those capacitors
+
+---------03:38----------
+later make them a look a little nicer
+
+---------03:40----------
+this board is obviously gonna have to be
+
+---------03:42----------
+put through the ultrasonic cleaner
+
+---------03:43----------
+because it looks like it's got a bunch
+
+---------03:46----------
+of nasty sweaty ball hair on it and
+
+---------03:48----------
+nasty sweaty ball hair is not good for
+
+---------03:50----------
+MacBooks it breaks them I'm gonna try
+
+---------03:52----------
+plugging this in now and as you can see
+
+---------03:54----------
+we're getting a light on the charger
+
+---------03:55----------
+it's drawing amperage and if I turn it
+
+---------03:58----------
+around you'll see that the fan is gonna
+
+---------04:00----------
+start spinning
+
+---------04:00----------
+now the 34:37 board is one of those
+
+---------04:02----------
+boards from 2013-14 where it turns on
+
+---------04:05----------
+off on off on off on but once it's done
+
+---------04:07----------
+with that cycle you'll see that it turns
+
+---------04:08----------
+on and stays on and that is how ball
+
+---------04:10----------
+hair that is sweaty can actually kill a
+
+---------04:12----------
+Macbook motherboard that's all it took
+
+---------04:14----------
+to kill this MacBook motherboard ball
+
+---------04:16----------
+hair with sweat on it look at this from
+
+---------04:19----------
+here see this what does your ball here
+
+---------04:26----------
+look like you say fungal ball hair
+
+---------04:30----------
+somebody's speaking from experience how
+
+---------04:34----------
+do you know it fungal ball hair looks
+
+---------04:36----------
+like you said you don't like Elon Musk
+
+---------04:38----------
+and Tesla but could you say why I want
+
+---------04:39----------
+to know your opinion I'm not a big fan
+
+---------04:41----------
+of Tesla because they seem to be the
+
+---------04:43----------
+apple of cars
+
+---------04:45----------
+it when it comes to longevity
+
+---------04:49----------
+repairability they very much seem to be
+
+---------04:52----------
+going in the direction of Apple except
+
+---------04:54----------
+with cars yeah I mean you on most
+
+---------05:00----------
+definitely cares more about the company
+
+---------05:02----------
+than as an Apple and he and he cares
+
+---------05:03----------
+more about the quality and the products
+
+---------05:05----------
+he puts out it's not well you know he's
+
+---------05:06----------
+his products are not gonna be getting
+
+---------05:08----------
+killed by ball here but and they
+
+---------05:09----------
+restrict the parts like crazy Paul was
+
+---------05:12----------
+showing me this other on this site the
+
+---------05:14----------
+other day this automotive parts site
+
+---------05:15----------
+this is what you can buy for every other
+
+---------05:17----------
+car and this is what's available for
+
+---------05:18----------
+Tesla it's like two or three things
+
+---------05:24----------
+everybody is better service than Apple
+
+---------05:26----------
+it's a similar pattern be highly
+
+---------05:29----------
+innovative focus on the highest and
+
+---------05:31----------
+clientele
+
+---------05:32----------
+make products that are vert that are
+
+---------05:35----------
+kind of rentable not repairable all
+
+---------05:41----------
+right so this this one can get dumped in
+
+---------05:43----------
+the ultrasonic cleaner and then I'll
+
+---------05:45----------
+show you what it looks like at the end
+
+---------05:46----------
+once all the ball hair has been removed
+
+---------05:48----------
+from the board it's gonna look amazing
+
+---------05:50----------
+you're gonna like it it's gonna be a
+
+---------05:52----------
+beautiful beautiful board all right now
+
+---------05:54----------
+we can check out what the board looks
+
+---------05:56----------
+like after its left to crest ultrasonic
+
+---------05:57----------
+cleaner and as you can see it's looking
+
+---------05:59----------
+pretty nice I'm gonna zoom in on the
+
+---------06:01----------
+caps right over here where all of that
+
+---------06:02----------
+nasty junk was and as you can see all of
+
+---------06:05----------
+its been removed I could touch that up a
+
+---------06:07----------
+little bit you could see that Vitus add
+
+---------06:09----------
+a little bit of flux and touch it up
+
+---------06:10----------
+with the hakko FM 2032 iron link in the
+
+---------06:13----------
+description below it'll look just
+
+---------06:14----------
+perfect and as if i zoom out and I look
+
+---------06:17----------
+over the rest of the board you'll see
+
+---------06:18----------
+that all the evidence of that janky
+
+---------06:21----------
+looking nasty ball hair has been removed
+
+---------06:23----------
+as always check out crest ultrasonic
+
+---------06:26----------
+cleaners available on store rossmann
+
+---------06:28----------
+group.com is your macbook disgusting is
+
+---------06:31----------
+your MacBook filled to the brim with
+
+---------06:33----------
+sweaty pubic hair if that's the case you
+
+---------06:36----------
+need an ultrasonic cleaner and store dot
+
+---------06:38----------
+rossmann group.com
+
+---------06:40----------
+is the place to get it to you and store
+
+---------06:42----------
+dot Rosman group comm you can find an
+
+---------06:44----------
+ultrasonic cleaner tailored to your
+
+---------06:46----------
+specific need whether you need something
+
+---------06:47----------
+that's small for a cellphone board like
+
+---------06:49----------
+a p 230 or a large ultrasonic cleaner
+
+---------06:51----------
+like the P 1200 for a larger touch bar
+
+---------06:54----------
+we've got you covered
+
+---------06:55----------
+we've even got large special order types
+
+---------06:57----------
+of ultrasonic cleaners like the
+
+---------06:58----------
+P 2,600 H 45 that are great for car
+
+---------07:01----------
+parts and Firearms with over 1000 5 star
+
+---------07:04----------
+reviews on shopper approved comm you
+
+---------07:06----------
+can't go wrong don't delay
+
+---------07:08----------
+buy today also make sure to check out my
+
+---------07:11----------
+friendly Lou's music channel
+
+---------07:13----------
+she just started in a YouTube channel
+
+---------07:14----------
+that she plans on putting all new music
+
+---------07:16----------
+videos and covers on and she's actually
+
+---------07:18----------
+a pretty decent singer
+
+---------07:19----------
+none of that mellow diner auto-tune
+
+---------07:21----------
+I'll include a link in the description
+
+---------07:23----------
+below
+
+---------07:23----------
+as always I hope you learned something
+
+---------07:25----------
+thanks for watching I'll see you in the
+
+---------07:27----------
+next video
+

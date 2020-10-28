@@ -1,0 +1,1156 @@
+https://www.youtube.com/watch?v=US-Iia5Er7E
+---------00:00----------
+and then the charger is going to go hey
+
+---------00:06----------
+everybody how's it going so today we've
+
+---------00:07----------
+got yet another liquid damage MacBook we
+
+---------00:09----------
+have an a 1707 that's not powering on
+
+---------00:14----------
+let's get started working on this
+
+---------00:16----------
+MacBook die corona die die mosquito die
+
+---------00:34----------
+back to this
+
+---------01:02----------
+all right so here that five volts is
+
+---------01:07----------
+taking 38 MLM so we're not making our
+
+---------01:09----------
+way up to 20 volts which is my first
+
+---------01:12----------
+problem so I'm just gonna take the board
+
+---------01:13----------
+out of the case and see what's going on
+
+---------01:15----------
+by the way as always I unplug the
+
+---------01:17----------
+battery before taking that measurement
+
+---------01:18----------
+because I want to know how much power
+
+---------01:20----------
+the board is taking without having it
+
+---------01:21----------
+charge the battery look at this MacBook
+
+---------01:26----------
+it's a MacBook and I'm opening it all up
+
+---------01:29----------
+don't you love the MacBook don't you
+
+---------01:32----------
+enjoy the MacBook don't you think that
+
+---------01:34----------
+this MacBook is so pretty and witty and
+
+---------01:40----------
+wise
+
+---------01:57----------
+it's a good idea station for under $100
+
+---------02:00----------
+at that point probably a lighter and
+
+---------02:02----------
+compressed air now seriously I had good
+
+---------02:05----------
+luck with that save more money I've been
+
+---------02:11----------
+there I've done that I've tried to find
+
+---------02:13----------
+it and just be either really like I know
+
+---------02:15----------
+it's not the answer anybody wants to
+
+---------02:17----------
+hear just save more money buy used find
+
+---------02:20----------
+someone who's quitting the profession
+
+---------02:22----------
+and go from there
+
+---------02:27----------
+also take a look it's a little one of
+
+---------02:30----------
+those little fluffy wish thingies see
+
+---------02:32----------
+this so if you every now and then
+
+---------02:35----------
+they'll be flying around the air and
+
+---------02:37----------
+I'll grab it so that I can make a wish
+
+---------02:40----------
+see this see that yeah I remember those
+
+---------02:47----------
+days I remember the stupid [ __ ] I used
+
+---------02:50----------
+to wish for too so that means I get a
+
+---------02:57----------
+wish I get a wish okay
+
+---------03:05----------
+things that we always look over when
+
+---------03:07----------
+this machine is stuck at 5 volts might
+
+---------03:10----------
+as well just go over it on the flex
+
+---------03:12----------
+board view for yet another you know
+
+---------03:15----------
+another time 8 to 0-2 zero zero two
+
+---------03:20----------
+eight one let's go from here and see
+
+---------03:25----------
+what's going on with it
+
+---------03:26----------
+so as I go over every other day as I
+
+---------03:31----------
+continuously go over this exact same set
+
+---------03:34----------
+of boards with the exact same set of
+
+---------03:35----------
+problems you could tell I'm starting to
+
+---------03:38----------
+get bored of it you click here and you
+
+---------03:41----------
+see that the charger is going to speak
+
+---------03:45----------
+to that CD 3215 chip see that this is
+
+---------03:49----------
+the charge port charge port over here
+
+---------03:56----------
+and that's gonna speak to this this here
+
+---------04:02----------
+is a USBC port controller as it says on
+
+---------04:05----------
+the schematic up here USB C port
+
+---------04:07----------
+controller this chip is gonna have a
+
+---------04:10----------
+conversation with the charger the chip
+
+---------04:12----------
+is going to say you're putting out 5
+
+---------04:14----------
+volts do you think I'm a GoPro do I look
+
+---------04:16----------
+like a [ __ ] cellphone to you I'm a
+
+---------04:18----------
+matte book I've quad-core CPU and a
+
+---------04:21----------
+graphics card I need 20 volts and then
+
+---------04:24----------
+the charger is gonna go and then it
+
+---------04:30----------
+turns on but the chip doesn't appear to
+
+---------04:32----------
+be doing that right now because MacBook
+
+---------04:35----------
+so we need to do is figure out why it is
+
+---------04:38----------
+we're stuck at 5 volts and this way this
+
+---------04:40----------
+little USB see at Mader comes in really
+
+---------04:42----------
+handy because the USB see at meter
+
+---------04:44----------
+allows me to tell what is going on and
+
+---------04:47----------
+this is something you can get at store
+
+---------04:49----------
+dot Rostelecom don't delay by today so
+
+---------04:53----------
+we are going to see first see if this
+
+---------04:56----------
+chip is even being told to turn on so
+
+---------04:58----------
+this trip it's gonna be powered by VN
+
+---------05:01----------
+voltage in voltage in this is usually at
+
+---------05:05----------
+the top not the left of the right on the
+
+---------05:07----------
+MacBook cymatics do you go over here and
+
+---------05:09----------
+that's BP 33 underscore g3 not so let's
+
+---------05:11----------
+see if 53 v3 underscore g3 God is
+
+---------05:13----------
+present on this macbook motherboard is
+
+---------05:16----------
+it I don't know how to find out let's
+
+---------05:19----------
+measure you know it looks like the zero
+
+---------05:26----------
+volts is present alright so now we got
+
+---------05:28----------
+to do is get to figure out where people
+
+---------05:30----------
+every three underscore g3 how it comes
+
+---------05:31----------
+from so where does it come from well one
+
+---------05:37----------
+way to find out now shall we
+
+---------05:38----------
+look yeah where is the massive protest
+
+---------05:43----------
+for right to repair are you kidding me I
+
+---------05:45----------
+can't I can barely get people to show up
+
+---------05:46----------
+at hearings I can barely get people to
+
+---------05:52----------
+show up at hearings
+
+---------06:00----------
+yeah I'm definitely not a good protest
+
+---------06:03----------
+activist whatever the hell you call it
+
+---------06:05----------
+I'm not good at it I suck I'm pretty bad
+
+---------06:10----------
+at it pretty obnoxiously bad at it
+
+---------06:13----------
+actually but is what it is okay so where
+
+---------06:20----------
+were we
+
+---------06:21----------
+oh yes 2 P 3 P 3
+
+---------06:31----------
+so it's gonna come out of this chip u16
+
+---------06:34----------
+I know three well let's take a look at
+
+---------06:35----------
+you sixteen I know three so we zoom in
+
+---------06:37----------
+on this chip over here what you see is
+
+---------06:40----------
+that this chip as an enable signal and
+
+---------06:47----------
+we need that enable signal to be present
+
+---------06:48----------
+in order for it to turn on let's see if
+
+---------06:51----------
+it is that's pin 10 right 10 10 it's
+
+---------06:54----------
+gonna be the one in the corner over here
+
+---------06:56----------
+so this is gonna be a little hard to
+
+---------06:58----------
+look at and technically you would be
+
+---------07:00----------
+able to see it if you really turned on
+
+---------07:02----------
+your squinting but I'm starting to get
+
+---------07:05----------
+old so I don't trust my squinting we're
+
+---------07:11----------
+gonna focus here on the good old
+
+---------07:12----------
+microscope camera look at that bright
+
+---------07:15----------
+light and measure because remember we
+
+---------07:20----------
+can't blame the chip for not creating
+
+---------07:23----------
+the voltage if it's not being told to
+
+---------07:24----------
+turn on
+
+---------07:38----------
+we have one point nine volts that's all
+
+---------07:41----------
+that's some weak [ __ ] that's not a real
+
+---------07:43----------
+enable yeah that's not sometimes the
+
+---------07:49----------
+tone of your voice reminds me when Bob
+
+---------07:50----------
+Ross talks but then you go right back to
+
+---------07:51----------
+being Lois I get that a lot
+
+---------07:55----------
+thank you so here's what's weird here's
+
+---------08:00----------
+what I find strange all right so I have
+
+---------08:02----------
+two volts on the enable pin right two
+
+---------08:05----------
+volts over here on this enable I'm
+
+---------08:07----------
+supposed that five that's what I usually
+
+---------08:08----------
+get in a working board by the way for
+
+---------08:09----------
+any of you were wondering what a good
+
+---------08:11----------
+way to enter field are doing stuff like
+
+---------08:13----------
+this is regardless of the field you're
+
+---------08:14----------
+entering out I find it's really helpful
+
+---------08:16----------
+is to have a known good and compare and
+
+---------08:19----------
+contrast that with the one that you have
+
+---------08:20----------
+that's broken so this way you kinda have
+
+---------08:22----------
+an idea of how things are supposed to be
+
+---------08:24----------
+because you may have questions on this
+
+---------08:25----------
+how many volts is that supposed to be I
+
+---------08:27----------
+don't know you have a working one it
+
+---------08:29----------
+makes it a lot easier so I'm used to
+
+---------08:30----------
+having five volts on the enable now I
+
+---------08:31----------
+have to that's weird very weird
+
+---------08:34----------
+also I have five volts over here and one
+
+---------08:39----------
+volt there this diode should not be
+
+---------08:41----------
+dropping the voltage that much that's
+
+---------08:43----------
+crazy
+
+---------08:44----------
+so that means there's probably a
+
+---------08:45----------
+short-circuit over here which I can't
+
+---------08:47----------
+measure so I'm gonna measure and see if
+
+---------08:48----------
+there's a short over here if there's not
+
+---------08:50----------
+I may just blame this diode over either
+
+---------08:52----------
+way let's take some measurements and see
+
+---------08:55----------
+what's going on I'm gonna turn the
+
+---------08:57----------
+multimeter back to resistance mode and
+
+---------09:02----------
+see if I have a short circuit to ground
+
+---------09:04----------
+over here so 88 ohms that that's kind of
+
+---------09:07----------
+[ __ ] up yeah I would not exceed 9 that
+
+---------09:10----------
+low do I have a short to ground on I'm
+
+---------09:14----------
+short to ground here no short to ground
+
+---------09:17----------
+here short to ground okay that's that's
+
+---------09:21----------
+not like a full short but it's still way
+
+---------09:23----------
+lower than it should be so the only
+
+---------09:25----------
+things I have in that section if you
+
+---------09:26----------
+take a look at the schematic and board
+
+---------09:28----------
+view is a cap a cap and a chip okay so
+
+---------09:32----------
+let's take let's just see so we have
+
+---------09:35----------
+this cap over here piece of [ __ ] and
+
+---------09:43----------
+on the other side of the board we have
+
+---------09:55----------
+this now this has trolled me before this
+
+---------09:58----------
+has told me before and I'd like to show
+
+---------09:59----------
+you how its told me because I've
+
+---------10:01----------
+actually replaced all of those and still
+
+---------10:02----------
+not had the issue salt this is happening
+
+---------10:06----------
+before and prior videos and we're not
+
+---------10:07----------
+gonna fall for it again there's actually
+
+---------10:09----------
+another cap along that line right here
+
+---------10:15----------
+under the is l9 239 ship see right there
+
+---------10:18----------
+but it's not shown in the schematic in
+
+---------10:20----------
+that area
+
+---------10:23----------
+unfortunately it too is clean it too is
+
+---------10:29----------
+clean that's weird that's definitely
+
+---------10:35----------
+weird
+
+---------10:39----------
+so I'm going to inject 5 volts into this
+
+---------10:42----------
+board in that section and see what
+
+---------10:43----------
+happens
+
+---------10:44----------
+we're gonna put 5 volts into that board
+
+---------10:47----------
+and see what goes on I blame Paul
+
+---------10:50----------
+Daniels software for missing the
+
+---------10:51----------
+capacitors Joseph W fun well that's not
+
+---------10:54----------
+really fair because he didn't make the
+
+---------10:55----------
+schematic Paul Daniels did not make the
+
+---------10:58----------
+schematic however my phone has something
+
+---------11:02----------
+where if I type the wrong thing in my
+
+---------11:04----------
+phone is auto correct
+
+---------11:05----------
+so Paul Daniels the software could have
+
+---------11:07----------
+auto correct I mean if my phone is auto
+
+---------11:09----------
+correct you can actually buy an Android
+
+---------11:11----------
+phone for less money than what Paul
+
+---------11:13----------
+Daniels is charging for flex board view
+
+---------11:15----------
+and that phone is auto correct for every
+
+---------11:17----------
+single word in the alphabet so I don't
+
+---------11:19----------
+understand what Paul Daniels gets off
+
+---------11:20----------
+selling software without auto correct
+
+---------11:22----------
+[ __ ] shame absolute utter shame shame
+
+---------11:25----------
+shame shame shame shame shame shame
+
+---------11:31----------
+shame shame shame shame
+
+---------11:42----------
+Oh Catherine I'm so sorry I was hoping
+
+---------11:45----------
+the best for you in your little kitty
+
+---------11:46----------
+last night that's terrible yeah Mike my
+
+---------11:51----------
+grandpa you might know my dad used to
+
+---------11:53----------
+say that that's one the stick the
+
+---------11:55----------
+crappiest part about owning animals is
+
+---------11:57----------
+that you outlive them because he my dad
+
+---------12:00----------
+had a lot of animals growing up he was
+
+---------12:02----------
+always around a bunch of animals and he
+
+---------12:04----------
+loved his animals but Catherine is one
+
+---------12:10----------
+of the nicest members of the YouTube
+
+---------12:12----------
+chef I'm sorry to hear that that
+
+---------12:13----------
+happened since them well wishes to
+
+---------12:16----------
+Catherine in the youtubes chef
+
+---------12:17----------
+she lost the kitten it's one of the
+
+---------12:21----------
+saddest feelings on earth I had a kitty
+
+---------12:25----------
+named Tiffany in 2009 it smelled really
+
+---------12:27----------
+really awful for some reason out of the
+
+---------12:29----------
+blue absolutely awful and I went to give
+
+---------12:32----------
+her a little bath in the sink and she
+
+---------12:33----------
+just found of dying in my hands in the
+
+---------12:34----------
+sink and man i won I was crying for like
+
+---------12:39----------
+an hour
+
+---------12:43----------
+it really does screw you up inside she
+
+---------12:47----------
+must have had something
+
+---------12:56----------
+Clinton's he's getting up he's getting
+
+---------12:58----------
+old he's getting up there I haven't take
+
+---------13:00----------
+him to the vet the check his eyesight
+
+---------13:02----------
+out
+
+---------13:17----------
+all right so we're putting out five amps
+
+---------13:22----------
+but this stupid software doesn't see
+
+---------13:24----------
+anything because this way this is gotta
+
+---------13:27----------
+be you gotta be trolling
+
+---------13:38----------
+okay so for a moment it was putting on
+
+---------13:40----------
+five amps and now it's a nod was there a
+
+---------13:43----------
+short that I just burned out the worst
+
+---------13:45----------
+part is it didn't show up on the screen
+
+---------13:57----------
+did I burn my wire or something
+
+---------14:11----------
+[Music]
+
+---------14:17----------
+let's see
+
+---------14:25----------
+repair shopper shaheed but I don't
+
+---------14:29----------
+really recommend it right now I want to
+
+---------14:32----------
+see if they're able to fix this bug or
+
+---------14:34----------
+it's been double posting stuff to
+
+---------14:35----------
+QuickBooks because that's actually gonna
+
+---------14:37----------
+take me a week or two to fix this one
+
+---------14:38----------
+bug that came up or was randomly double
+
+---------14:40----------
+posting things to QuickBooks if they're
+
+---------14:43----------
+able to fix that I'll be able to
+
+---------14:45----------
+recommend it happily and heartily as I
+
+---------14:46----------
+always have
+
+---------14:51----------
+alright so it took five amps for a
+
+---------14:53----------
+moment and then immediately cleared I
+
+---------14:55----------
+don't get that at all cuz this cap does
+
+---------14:58----------
+not looking exploded that cap actually
+
+---------15:01----------
+did that cap explode or is that just
+
+---------15:03----------
+flux from the nearby soldering it's just
+
+---------15:07----------
+flux from nearby soldering yeah email
+
+---------15:11----------
+Dan at rossmann group common task boy
+
+---------15:13----------
+were out of stock spam the [ __ ] out of
+
+---------15:17----------
+him you have my support
+
+---------15:43----------
+the little under big caps smoked
+
+---------15:52----------
+this one you mean this one left
+
+---------16:39----------
+high voltage
+
+---------16:43----------
+now since we had a short-circuit over
+
+---------16:45----------
+there that means that my diode is
+
+---------16:47----------
+probably going to be bad a lot of the
+
+---------16:49----------
+times when that happens the diode gets
+
+---------16:51----------
+whacked so we're gonna take that off as
+
+---------16:54----------
+well hello
+
+---------17:04----------
+now we have the not fun part to get to
+
+---------17:41----------
+this donor board I have here is really
+
+---------17:43----------
+cool look at this it's got numbers of
+
+---------17:45----------
+stuff on it this is crazy look it even
+
+---------17:48----------
+as this it even has a square around a
+
+---------17:50----------
+BGA chip to help the Machine align it
+
+---------17:53----------
+and it's insanity it's absolute insanity
+
+---------17:58----------
+Sean Hannity
+
+---------19:32----------
+all right 600 ohms a thousand ohms so
+
+---------19:35----------
+that's way up from where our short was
+
+---------19:37----------
+initially let's see what happens now
+
+---------19:41----------
+also I'm gonna put my donor board back
+
+---------19:43----------
+rather than leave it on the desk hi hi
+
+---------19:45----------
+did an amazing job cleaning up a lot of
+
+---------19:49----------
+stuff in the office since he returned by
+
+---------19:50----------
+the way everybody a say thank you to hai
+
+---------19:52----------
+hai for returning and B say thank you to
+
+---------19:55----------
+hi hi for open clean the office which
+
+---------19:56----------
+makes the doing these videos easier and
+
+---------19:58----------
+less of a miserable nightmare because
+
+---------19:59----------
+things look nicer so say thank you to
+
+---------20:02----------
+hai hai at Ross Magoo calm for the
+
+---------20:04----------
+excellent work alright so it just did a
+
+---------20:07----------
+little boot looping thingy why you boot
+
+---------20:09----------
+loop on me why you boot loop yes 20
+
+---------20:14----------
+volts haha look at that 19 volts 1.1
+
+---------20:19----------
+amps ban let's go over why it was not
+
+---------20:23----------
+turning on so as I went over the charger
+
+---------20:30----------
+needs to put out 20 volts not 5 volts
+
+---------20:34----------
+this is not like a normal laptop charger
+
+---------20:36----------
+where can I just put out 18 all the time
+
+---------20:37----------
+this is USB C this has different options
+
+---------20:40----------
+in it it has brain so it needs the
+
+---------20:43----------
+machine itself Tiff's a brain to tell it
+
+---------20:45----------
+that what it wants needs to know what it
+
+---------20:47----------
+is you want out of it you know just like
+
+---------20:49----------
+any relationship it's not gonna work if
+
+---------20:50----------
+you can't communicate your needs so this
+
+---------20:52----------
+charter was putting out 5 volts because
+
+---------20:54----------
+this MacBook was enable of communicating
+
+---------20:56----------
+its needs the cd32 15 ships the USB C
+
+---------20:59----------
+port controller of which there is one
+
+---------21:00----------
+chip one USB C port controller for each
+
+---------21:03----------
+USB C port the machine is powered by a
+
+---------21:06----------
+power rail called PP 3 V 3 underscore g3
+
+---------21:08----------
+huh that power rail was missing so he
+
+---------21:10----------
+went over to the chip that's responsible
+
+---------21:11----------
+for creating it and we saw that it's a
+
+---------21:13----------
+naval signal was low it was 2 volts but
+
+---------21:15----------
+it's used to that being 5 volts knowing
+
+---------21:16----------
+from machines that we have that are
+
+---------21:18----------
+known good and just from experience by
+
+---------21:20----------
+the way you should always have some sort
+
+---------21:22----------
+of known good machine that you could
+
+---------21:24----------
+test with if you're learning it's an
+
+---------21:25----------
+it's excellent way to accelerate the
+
+---------21:27----------
+learning process when you know what it's
+
+---------21:29----------
+supposed to be because then you can work
+
+---------21:32----------
+your way from what it's supposed to be
+
+---------21:34----------
+what you have you can make that journey
+
+---------21:36----------
+but you need to know where you're going
+
+---------21:38----------
+and having a known good where you know
+
+---------21:41----------
+where you should be going is gonna help
+
+---------21:42----------
+you a lot if you don't know where you're
+
+---------21:44----------
+going it doesn't matter if you
+
+---------21:46----------
+map you're probably not gonna get there
+
+---------21:47----------
+now we looked at that area and we looked
+
+---------21:51----------
+at the schematic and on the schematic
+
+---------21:54----------
+it says no we we're supposed to be
+
+---------22:00----------
+getting the charger voltage in here
+
+---------22:01----------
+which is five volts because this hasn't
+
+---------22:03----------
+turned at 20 yet and on the other side
+
+---------22:05----------
+of this I should be seeing that with a
+
+---------22:07----------
+really small voltage drop from the diode
+
+---------22:09----------
+but I shouldn't be seeing a 3 or 4
+
+---------22:11----------
+voltage drop from the diode which men
+
+---------22:13----------
+either the diode was bad or there's a
+
+---------22:15----------
+reason that I went bad typically you
+
+---------22:16----------
+short the ground over here and one of
+
+---------22:18----------
+these caps was bad so I couldn't tell
+
+---------22:20----------
+which cap was bad what I did is I shoved
+
+---------22:23----------
+5 volts in there and then that cap went
+
+---------22:25----------
+boom but bang exploded and once it
+
+---------22:27----------
+exploded I replaced it I also replaced a
+
+---------22:29----------
+diode because I figured if you were
+
+---------22:30----------
+asking too much current to come through
+
+---------22:32----------
+here that it would die and at that point
+
+---------22:33----------
+it worked and now we have a working map
+
+---------22:36----------
+now the real question here is why is it
+
+---------22:39----------
+that this Matt why did that just die for
+
+---------22:41----------
+no reason on a Macbook with no liquid
+
+---------22:43----------
+damage with no liquids no liquid
+
+---------22:46----------
+anywhere on this math book
+
+---------22:48----------
+why would that cap just decide to die
+
+---------22:50----------
+blow up explode stop working and cease
+
+---------22:54----------
+to be a working that Brooke Apple I mean
+
+---------22:58----------
+anyway do I really have to tell you
+
+---------23:00----------
+twice anyway that's it for today and as
+
+---------23:02----------
+always I hope you learned something
+
+---------23:04----------
+thank you so much for watching and I'll
+
+---------23:06----------
+see you all in the next video bye now
+

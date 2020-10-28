@@ -1,0 +1,577 @@
+https://www.youtube.com/watch?v=lUW9_nHZMMU
+---------00:00----------
+all right so today we're going to be
+
+---------00:01----------
+getting started on an eight to zero zero
+
+---------00:03----------
+zero four to six board this doesn't
+
+---------00:05----------
+appear to turn on properly and since I
+
+---------00:07----------
+randomly picked it from the pile I'm
+
+---------00:08----------
+sure it'll be a difficult one
+
+---------00:09----------
+so we're gonna do here is we're going to
+
+---------00:13----------
+plug it in turn on the power supply and
+
+---------00:15----------
+it does give us a green light but no fan
+
+---------00:17----------
+spin so I'm gonna open up a schematic
+
+---------00:19----------
+for the most similar board to this one
+
+---------00:21----------
+and we're gonna see if we can solve it
+
+---------00:22----------
+and the most similar board that I'm
+
+---------00:24----------
+gonna find to this one would be an eight
+
+---------00:28----------
+two zero zero zero one six three and
+
+---------00:32----------
+being how random this board was from the
+
+---------00:35----------
+pile I guarantee it's gonna be a really
+
+---------00:36----------
+difficult one so first thing we're gonna
+
+---------00:42----------
+do is check the list of power rails and
+
+---------00:44----------
+see which rails show up and which rails
+
+---------00:46----------
+don't where can we find our list of
+
+---------00:50----------
+rails it's gonna be on page 84 because
+
+---------00:53----------
+why wouldn't the most important part of
+
+---------00:55----------
+it be on page 84 so the first rail here
+
+---------00:58----------
+is pp bus g3 hot that's gonna be present
+
+---------01:01----------
+on a fuse that's right over here and I
+
+---------01:04----------
+can see that fuse without using a
+
+---------01:06----------
+microscope because it's a very small
+
+---------01:08----------
+fuse so I'm gonna do this I'm gonna do
+
+---------01:11----------
+this and it looks like we get one point
+
+---------01:14----------
+5 volts 1.5 volts is not appropriate now
+
+---------01:17----------
+the chip that creates pp bus g3 Hunt is
+
+---------01:19----------
+on this side of the board and this is
+
+---------01:20----------
+the board that was picked at random
+
+---------01:22----------
+it's probably not gonna be an easy
+
+---------01:24----------
+repair so let's take a look at the part
+
+---------01:26----------
+of the board that creates people bus g3
+
+---------01:27----------
+huh
+
+---------01:27----------
+oh look one bad capacitor my mind
+
+---------01:31----------
+imagine that imagine that
+
+---------01:42----------
+random
+
+---------02:11----------
+what
+
+---------02:28----------
+all right so let's see yeah good night
+
+---------02:36----------
+so let's go ahead and fix this board
+
+---------02:39----------
+shall we so I'm not gonna trust at ISL
+
+---------02:43----------
+65:9 very much what am I going to trust
+
+---------02:48----------
+the stuff around it
+
+---------03:13----------
+all right pass it are removed now we're
+
+---------03:17----------
+going to check around the current
+
+---------03:18----------
+sensing circuit and see if we're getting
+
+---------03:20----------
+the impedance that we would expect I
+
+---------03:22----------
+would typically expect around 20 ohms in
+
+---------03:25----------
+between here and here and it looks like
+
+---------03:27----------
+we get 12 million ohms this resistor
+
+---------03:30----------
+over here is measuring 10 ohms this
+
+---------03:33----------
+resistor here is measuring 10 ohms but
+
+---------03:36----------
+from here to here 10 point 3
+
+---------03:48----------
+eighteen point four million now we show
+
+---------03:51----------
+you why this is bad this is supposed to
+
+---------03:57----------
+go to here this is then supposed to go
+
+---------04:01----------
+to here and from there it's supposed to
+
+---------04:05----------
+go to here how is that gonna happen when
+
+---------04:08----------
+it's all corroded up and broken I would
+
+---------04:18----------
+lower the airflow to 90 or 80 we're
+
+---------04:25----------
+gonna scrape scrape scrape away now if
+
+---------04:30----------
+we take a look at the schematic in the
+
+---------04:31----------
+board view when we look at you seventy
+
+---------04:33----------
+one hundred which is this chip will see
+
+---------04:34----------
+that our problem here is a problem with
+
+---------04:36----------
+current sensing yep in 27 and 28 10 27
+
+---------04:41----------
+and 28 this is for current sensing the
+
+---------04:46----------
+way this works as the charge is gonna be
+
+---------04:48----------
+up here the adapter voltage is gonna
+
+---------04:50----------
+come here from adapter it's gonna go
+
+---------04:52----------
+through Q 70 180 and then it's going to
+
+---------04:55----------
+go to this current sense resistor before
+
+---------04:57----------
+it goes to these two transistors which
+
+---------04:58----------
+are gonna switch your 18 volts into 12
+
+---------05:01----------
+volts by turning it on and off and on
+
+---------05:03----------
+and off again it's gonna get even doubt
+
+---------05:05----------
+through the coil and what these
+
+---------05:06----------
+capacitors going to ground over here to
+
+---------05:08----------
+create a nice twelve point six volts on
+
+---------05:09----------
+P P bus g3 hot now all charger voltage
+
+---------05:13----------
+is gonna be going through this circuit
+
+---------05:14----------
+as a result of that this resistor over
+
+---------05:17----------
+here is going to have all the charger
+
+---------05:20----------
+voltage going through it now there's
+
+---------05:21----------
+gonna be a teeny tiny voltage drop
+
+---------05:23----------
+across that resistor and the voltage
+
+---------05:24----------
+drop across that resistor is going to be
+
+---------05:27----------
+directly proportional to the amount of
+
+---------05:30----------
+current going through the circuit more
+
+---------05:32----------
+current going through the circuit
+
+---------05:33----------
+greater voltage drop across our 7120 now
+
+---------05:36----------
+what's gonna measure the voltage drop
+
+---------05:38----------
+across our 7120 to make that
+
+---------05:40----------
+determination use 70 100 you 70 100 is
+
+---------05:43----------
+gonna measure that on pinched 27 and 28
+
+---------05:45----------
+now instead of attaching you 70 100
+
+---------05:47----------
+directly to the top in the bottom of our
+
+---------05:49----------
+71 20 so that you could see with the
+
+---------05:51----------
+voltage differences they have a 10 ohm
+
+---------05:53----------
+resistor in between our 71 21 and our 71
+
+---------05:56----------
+22 so a quick way to test the circuit is
+
+---------05:59----------
+working is to measure the resist
+
+---------06:01----------
+between pens 27 and 28 the resistance
+
+---------06:05----------
+between Finch 27 and 28 should be the
+
+---------06:07----------
+sum of all the resistances in series so
+
+---------06:10----------
+we should have 10 ohms plus 0.02 plus
+
+---------06:15----------
+and ohms if you don't have that it's not
+
+---------06:18----------
+working properly and the resistance that
+
+---------06:20----------
+we were getting was in the millions
+
+---------06:22----------
+which is no good see look at this no
+
+---------06:26----------
+good
+
+---------06:29----------
+35 point 17 million ohms impossible so
+
+---------06:34----------
+let's see where the break in the line is
+
+---------06:36----------
+it's not here that's 10 like it's
+
+---------06:38----------
+supposed to be it's not there it's not
+
+---------06:42----------
+this resistor is this no is it this yes
+
+---------06:53----------
+so from here to here is broken so we can
+
+---------06:56----------
+fix this easily with a micro pencil you
+
+---------07:01----------
+can get a micro pencil using the
+
+---------07:03----------
+affiliate links below check out the t30
+
+---------07:05----------
+- kn tip available on the hakko 2032
+
+---------07:09----------
+iron don't delay bye today
+
+---------07:19----------
+first thing I'm gonna do if there was
+
+---------07:21----------
+water over there I'm not gonna trust the
+
+---------07:23----------
+solder joints on this ISL I just they're
+
+---------07:27----------
+probably good but I would like to touch
+
+---------07:30----------
+them up
+
+---------07:45----------
+next thing to do is touch up the point
+
+---------07:48----------
+that's actually broken and that's gonna
+
+---------07:55----------
+be the right side and I imagine that's
+
+---------07:57----------
+broken because of something that Alex
+
+---------07:59----------
+did why would Alex break this I'm not
+
+---------08:04----------
+sure what he had against this little
+
+---------08:07----------
+board
+
+---------08:12----------
+all right let's get in there
+
+---------08:16----------
+solder solder and the brake becomes
+
+---------08:20----------
+obvious look at that
+
+---------08:29----------
+ouch see the break between here and here
+
+---------08:36----------
+nah touching well we're gonna make them
+
+---------08:41----------
+touch that sounds kind of dirty can't
+
+---------08:47----------
+make things touch supposedly at n-b-c
+
+---------08:50----------
+you can't hug
+
+---------08:59----------
+yeah that capacitors gross - let's get
+
+---------09:02----------
+rid of that tree the article because
+
+---------09:08----------
+moto wrote about I don't read articles
+
+---------09:10----------
+that Gizmodo writes honestly it came out
+
+---------09:14----------
+of Gizmodo it's usually probably
+
+---------09:19----------
+alright so there's a hole in the board
+
+---------09:21----------
+over there so I'm probably not gonna
+
+---------09:22----------
+Reese odd or what that is I do have a
+
+---------09:24----------
+faint memory from an older border pair
+
+---------09:26----------
+that it's not necessarily very important
+
+---------09:28----------
+so I'm gonna put that capacitor that's
+
+---------09:31----------
+supposed to be their back and after I
+
+---------09:33----------
+put the capacitor then I'm gonna run a
+
+---------09:34----------
+little wire
+
+---------10:45----------
+I like for that wire to be nice and flat
+
+---------10:47----------
+if possible and there we go nice and
+
+---------10:50----------
+flat already attached to the trace and
+
+---------10:52----------
+just because I'm a crazy person I'm
+
+---------10:53----------
+gonna even reattach it to the chip
+
+---------10:55----------
+itself because I wouldn't
+
+---------11:13----------
+all right
+
+---------12:16----------
+this board has fan spin look at that fan
+
+---------12:20----------
+spin so what was the problem with this
+
+---------12:23----------
+model board well it seemed like the
+
+---------12:25----------
+issue with our board was that the
+
+---------12:26----------
+current sensing circuit wasn't working
+
+---------12:28----------
+and the reason the current sensing
+
+---------12:29----------
+circuit wasn't working is because it was
+
+---------12:30----------
+corrosion over here right where our
+
+---------12:33----------
+seven one two two meets you seven one
+
+---------12:37----------
+zero zero so we learned what a current
+
+---------12:39----------
+sensing circuit is we learned how the
+
+---------12:41----------
+current sensing circuit works and we
+
+---------12:43----------
+learned that this current sensing
+
+---------12:45----------
+circuit failure causes this chip to
+
+---------12:47----------
+realize oh my god look at the difference
+
+---------12:50----------
+up here we have 18 volts and down here
+
+---------12:52----------
+we have zero that's way too big a
+
+---------12:55----------
+difference that must mean the charger is
+
+---------12:57----------
+using too much voltage shut it down and
+
+---------12:59----------
+a decreases our pp bus g3 hot over here
+
+---------13:02----------
+to one point 7 volts from its standard
+
+---------13:04----------
+voltage of twelve point six so that's it
+
+---------13:08----------
+for that and as always I hope you
+
+---------13:10----------
+learned something
+
+---------13:18----------
+you
+

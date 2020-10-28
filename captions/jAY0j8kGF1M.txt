@@ -1,0 +1,1702 @@
+https://www.youtube.com/watch?v=jAY0j8kGF1M
+---------00:00----------
+all right so today we're gonna be going
+
+---------00:01----------
+over a MacBook Air that has no backlight
+
+---------00:03----------
+it has no backlight because of liquid
+
+---------00:04----------
+damage
+
+---------00:05----------
+I know boring we've done videos in the
+
+---------00:07----------
+no backlight thing a lot so it's this is
+
+---------00:12----------
+nothing crazy new but let's just go over
+
+---------00:15----------
+it anyway so I'm gonna get the
+
+---------00:17----------
+multimeter in a view that you can see
+
+---------00:18----------
+now the first thing that I like to do
+
+---------00:20----------
+here anytime that you have the first
+
+---------00:26----------
+thing to check is that TP 3 V 4 2 is
+
+---------00:28----------
+present let's plug it in because that's
+
+---------00:33----------
+what's needed for the one wire circuit
+
+---------00:41----------
+which works it turns on so why am i
+
+---------00:46----------
+checking PP 3 V 4 2 and it dunks ah it
+
+---------00:51----------
+has no backlight alright so first thing
+
+---------00:53----------
+you're gonna want to do if you have an
+
+---------00:55----------
+issue with what is wrong with this let's
+
+---------01:05----------
+see
+
+---------01:16----------
+okay chimes but there's nothing on the
+
+---------01:19----------
+screen all right so the first thing that
+
+---------01:20----------
+we're gonna want to do is make sure that
+
+---------01:22----------
+there is an actual image on the screen
+
+---------01:23----------
+of some sort and that the screen itself
+
+---------01:25----------
+is getting power so let's go over that
+
+---------01:26----------
+in the schematic diagram here so I'm
+
+---------01:28----------
+gonna open a schematic for this board
+
+---------01:32----------
+let's see this is the eight two zero
+
+---------01:34----------
+zero zero one six five the newest newest
+
+---------01:41----------
+2015-16 MacBook Air board let's split
+
+---------01:47----------
+this so that I can see what's on the
+
+---------01:49----------
+screen here and let's open the board
+
+---------01:52----------
+viewer okay so on J 8300 JT 300 is going
+
+---------01:58----------
+to be LCD connector so let me just show
+
+---------02:01----------
+you here okay so J 8300 over here is the
+
+---------02:05----------
+LCD connector we go to J 8300 so the
+
+---------02:12----------
+first thing I want to do is figure out
+
+---------02:13----------
+what is actually powering this screen
+
+---------02:15----------
+time now let's just go over the sequence
+
+---------02:17----------
+again the first thing that you should
+
+---------02:18----------
+have first thing that you should have is
+
+---------02:20----------
+CPU v core as in after it turns on it
+
+---------02:23----------
+goes don't you want a nice long dong you
+
+---------02:26----------
+don't want any of that half dong where
+
+---------02:28----------
+it goes to and turns off you want a nice
+
+---------02:30----------
+as Sonny would say you want a nice long
+
+---------02:32----------
+dong once you have a nice long dong
+
+---------02:34----------
+after that you're gonna want the image
+
+---------02:36----------
+after you get the image then you get the
+
+---------02:38----------
+backlight so now that we know that so we
+
+---------02:41----------
+have CPU v core now what do you think
+
+---------02:44----------
+here is going to power the LCD so let's
+
+---------02:48----------
+see what we have here we have LCD
+
+---------02:50----------
+backlight well that's powering LCD
+
+---------02:52----------
+backlight but that's not powering the
+
+---------02:53----------
+LCD we have s/m bus lines if you google
+
+---------02:57----------
+what sm buses you'll see that that's for
+
+---------02:58----------
+communication that's not necessarily
+
+---------03:00----------
+power LED return so this is where all
+
+---------03:03----------
+different backlight lines are going to
+
+---------03:06----------
+get a return to the LED driver you have
+
+---------03:09----------
+DisplayPort something man probably not
+
+---------03:13----------
+you have PP 3 v 3 and it's as voltage 3
+
+---------03:16----------
+point 3 PP 3 V 3 for the LCD so 3.3
+
+---------03:20----------
+volts for the LCD I think that sounds
+
+---------03:22----------
+like a good one we have this all these
+
+---------03:24----------
+different DisplayPort channels
+
+---------03:25----------
+DisplayPort internal aux Channel I'm
+
+---------03:28----------
+guessing DisplayPort internal
+
+---------03:30----------
+m/l may-maybe main line and auxilary
+
+---------03:33----------
+channel I'm just guessing here if I
+
+---------03:36----------
+went to the college for this and then
+
+---------03:38----------
+over here we have a bunch of ground so
+
+---------03:39----------
+I'm gonna take a wild guess that I need
+
+---------03:41----------
+to have on pin 18 and 19 3.3 volts to
+
+---------03:44----------
+power the LCD so let's go over and see
+
+---------03:46----------
+if we have 3.3 volts to power the LCD so
+
+---------03:50----------
+I'm gonna take my multimeter make sure
+
+---------03:52----------
+it's in voltage mode and we're going to
+
+---------03:55----------
+check that there's 3.3 volts on the LCD
+
+---------04:00----------
+now how am I gonna know where that is
+
+---------04:02----------
+right so it pins 18 and 19 so if I go
+
+---------04:04----------
+back over here I'll see that I can check
+
+---------04:08----------
+what pin of the connector is what by the
+
+---------04:10----------
+way big public service announcement here
+
+---------04:12----------
+if you bought a schematic for a
+
+---------04:13----------
+motherboard from a company that did not
+
+---------04:16----------
+give you the board view you got
+
+---------04:18----------
+file a chargeback file a PayPal claim
+
+---------04:21----------
+you got there's no if ands or
+
+---------04:24----------
+buts about it I hate that crap it sucks
+
+---------04:26----------
+it's and I don't I am sick and
+
+---------04:29----------
+tired of seeing it I got fooled by that
+
+---------04:31----------
+many years ago and it drove me nuts I
+
+---------04:32----------
+was wondering how am I supposed to know
+
+---------04:34----------
+where all this stuff is on the board and
+
+---------04:35----------
+they had so the board view but they
+
+---------04:37----------
+weren't selling it or they would want
+
+---------04:38----------
+more money for it or no that
+
+---------04:41----------
+give me the board views with the
+
+---------04:42----------
+schematic that you stole or give
+
+---------04:45----------
+me or or give it away for free
+
+---------04:47----------
+like seriously yeah that drives me nuts
+
+---------04:49----------
+when come it's one thing that resell
+
+---------04:51----------
+Apple's schematics that they probably
+
+---------04:53----------
+stole from Apple I get that but to
+
+---------04:55----------
+actually only sell a portion of its that
+
+---------04:57----------
+it's useless that's so you need
+
+---------04:59----------
+to get the board view along with the
+
+---------05:00----------
+schematic if you found some deep dark
+
+---------05:02----------
+corner of the internet where they're
+
+---------05:04----------
+charging money for this make sure you're
+
+---------05:06----------
+getting the board view and the schematic
+
+---------05:08----------
+if you didn't get both PayPal claimed so
+
+---------05:12----------
+back here we're going to check on pins
+
+---------05:14----------
+18 and 19 of the LCD connector we got
+
+---------05:17----------
+the multimeter over there nice and
+
+---------05:19----------
+out-of-focus as always if my videos were
+
+---------05:21----------
+in focus you probably wouldn't be here
+
+---------05:23----------
+you guys have gotten used to this
+
+---------05:26----------
+production quality of this channel by
+
+---------05:27----------
+now so we have 3.3 volts in the LCD now
+
+---------05:30----------
+what we have to do is we have to check
+
+---------05:32----------
+and see that yeah okay we have no we're
+
+---------05:39----------
+gonna be checking back live voltage so
+
+---------05:40----------
+the first thing we want to do is make
+
+---------05:42----------
+sure that the LCD is turning on
+
+---------05:43----------
+so let's just go over what's going to be
+
+---------05:45----------
+doing that in the screen over here so
+
+---------05:48----------
+this is going to be the LCD connector
+
+---------05:50----------
+now we want to see what over here is
+
+---------05:52----------
+going to be providing power to the LCD
+
+---------05:53----------
+remember that remember the sequence of
+
+---------05:55----------
+things first thing that has to happen is
+
+---------05:57----------
+that the machine is gonna turn on and go
+
+---------05:59----------
+down second thing that's going to happen
+
+---------06:02----------
+is it's going to send power to the LCD
+
+---------06:03----------
+third thing that's gonna happen is that
+
+---------06:05----------
+it's going to send backlight so we can't
+
+---------06:07----------
+get backlight if we don't have power to
+
+---------06:09----------
+the LCD so it looks like over here we
+
+---------06:11----------
+have to check on pins 18 and 19 of the
+
+---------06:14----------
+LCD connector and when I measure there I
+
+---------06:17----------
+get I am wrong pin down there we go
+
+---------06:29----------
+3.3 volts so now that we have 3.3 volts
+
+---------06:31----------
+we can move on to checking the backlight
+
+---------06:32----------
+circuit so what I'm gonna want to do
+
+---------06:34----------
+over here is I'm gonna want to check on
+
+---------06:35----------
+the backlight pins and see what voltage
+
+---------06:36----------
+I'm getting because different voltages
+
+---------06:38----------
+will tell me different things zero volts
+
+---------06:41----------
+are close to zero volts will mean a
+
+---------06:42----------
+break in the line meaning somewhere in
+
+---------06:44----------
+the backlight boost circuit something is
+
+---------06:46----------
+cut off whether it's a fuse that's dead
+
+---------06:48----------
+whether it's a trace and the board
+
+---------06:50----------
+that's destroyed a destroyed component
+
+---------06:52----------
+that's in line with the circuit so what
+
+---------06:54----------
+do I mean by in line let's just go over
+
+---------06:56----------
+here and check this out this is the
+
+---------07:03----------
+backlight boost circuit if you don't
+
+---------07:04----------
+know how a DC to DC boost circuit works
+
+---------07:06----------
+do not pass go do not spend $200 do not
+
+---------07:09----------
+watch the rest of this video watch the
+
+---------07:11----------
+video on how a boost circuit works or
+
+---------07:13----------
+else this is confusing I break down this
+
+---------07:15----------
+very confusing convoluted mess and is
+
+---------07:18----------
+something very basic to understand but
+
+---------07:19----------
+you have to watch that before this will
+
+---------07:21----------
+make sense so if there's a break like
+
+---------07:24----------
+the fuse is in line the transistor is in
+
+---------07:26----------
+line the inductor is in line the diode
+
+---------07:28----------
+is in line if anything here is broken
+
+---------07:29----------
+whether it's the line itself or the
+
+---------07:31----------
+component you will not get voltage you
+
+---------07:33----------
+get something really really low I know
+
+---------07:35----------
+that's not happening because I have 20
+
+---------07:36----------
+volts now on a working Matt Gare I get
+
+---------07:39----------
+25 to 27 volts that's 20 so it's telling
+
+---------07:43----------
+me that it's trying to do some boosting
+
+---------07:45----------
+because if you notice in the beginning
+
+---------07:46----------
+of this circuit if the input of the
+
+---------07:49----------
+circuit is pp bus g3 hot right and pp
+
+---------07:52----------
+bus g3 hot on this model MacBook is
+
+---------07:54----------
+supposed to be
+
+---------07:57----------
+let's see PP but where does it say what
+
+---------07:59----------
+voltage that's supposed to be does it do
+
+---------08:06----------
+you tell me that Apple are you gonna be
+
+---------08:08----------
+nice enough to tell me what that's
+
+---------08:09----------
+supposed to be
+
+---------08:18----------
+you've got to be me
+
+---------08:20----------
+that they don't okay I don't hear you
+
+---------08:22----------
+they don't have the list of power ills
+
+---------08:24----------
+for some reason on this one yet voltage
+
+---------08:26----------
+eight not eighty six volts its eight
+
+---------08:29----------
+point six volts the Apple engineer was
+
+---------08:30----------
+on crack that day and yeah they that
+
+---------08:33----------
+it's eight point six volts so this
+
+---------08:35----------
+circuit is designed to take eight point
+
+---------08:37----------
+six volts and turn that into twenty six
+
+---------08:40----------
+volts so we're taking eight and we're
+
+---------08:42----------
+turning into 220 which means if there's
+
+---------08:43----------
+something going on there it's just a
+
+---------08:45----------
+little bit short of what it's supposed
+
+---------08:46----------
+to be so what could cause that to happen
+
+---------08:49----------
+now if we it could be that this chip is
+
+---------08:53----------
+not boost in the way it's supposed to it
+
+---------08:54----------
+could be that the PWM signal is not
+
+---------08:57----------
+present the way it's supposed to so what
+
+---------08:59----------
+does the PWM signal what does that do
+
+---------09:00----------
+well if you google LP 8550 which is the
+
+---------09:03----------
+model of this chip if you google that
+
+---------09:04----------
+we're going to notice is you get a data
+
+---------09:06----------
+sheet that tells you exactly what every
+
+---------09:07----------
+single thing there does and bkl
+
+---------09:31----------
+the fact that there's 20 volts means
+
+---------09:33----------
+that there isn't a break in the circuit
+
+---------09:34----------
+so if you had a break in the circuit in
+
+---------09:36----------
+any inline component for example q7 706
+
+---------09:39----------
+is inline so this is the line this thing
+
+---------09:42----------
+over here is the line that you probably
+
+---------09:43----------
+barely see my cursor moving on at one
+
+---------09:44----------
+frame a second here and this is a fuse
+
+---------09:47----------
+so this is within the line this is
+
+---------09:49----------
+within the line so I know that there's
+
+---------09:50----------
+nothing that's gonna be broken in line
+
+---------09:52----------
+however if we go over to over here and
+
+---------09:55----------
+we see that we have 20 volts then we
+
+---------09:57----------
+have to kind of look through what is it
+
+---------09:59----------
+that's causing it to not boost all the
+
+---------10:00----------
+way why are we only getting 20 volts
+
+---------10:02----------
+into the 27 now if you google LP 8550 if
+
+---------10:05----------
+you google LP 8550 you're gonna get a
+
+---------10:07----------
+datasheet for it it's gonna tell you
+
+---------10:09----------
+that pwm is going to set the brightness
+
+---------10:11----------
+so you know on the MacBook any other
+
+---------10:12----------
+brightness button you can hit the
+
+---------10:13----------
+brightness button up and you get more
+
+---------10:15----------
+brightness and use the brightness button
+
+---------10:16----------
+down and you get less brightness the way
+
+---------10:18----------
+that works is them on this machine the
+
+---------10:20----------
+CPU is going to send a signal a PWM
+
+---------10:23----------
+signal over to you seven seven zero one
+
+---------10:26----------
+the reason it's the CPU in here is
+
+---------10:27----------
+because remember on the Haswell
+
+---------10:29----------
+ultrabook platforms the CPU and the PCH
+
+---------10:32----------
+are integrated into one so usually is
+
+---------10:33----------
+the PCH sending the signal here it's the
+
+---------10:35----------
+CPU sending that signal because the
+
+---------10:37----------
+platform controller hub is integrated
+
+---------10:39----------
+into the CPU here backlight PDL PWM is
+
+---------10:42----------
+gonna be a little little wave and the
+
+---------10:44----------
+bigger the wave or the bigger the pulses
+
+---------10:47----------
+then the more the brightness you get the
+
+---------10:49----------
+lower the pulses the lower the
+
+---------10:52----------
+brightness you get so we can go and
+
+---------10:53----------
+check that out right now and try to see
+
+---------10:55----------
+what's going on so first things first is
+
+---------10:56----------
+I'm gonna unplug some of this stuff so
+
+---------10:58----------
+it's easy for me to access the bottom of
+
+---------10:59----------
+the board the backlight circuit is on
+
+---------11:01----------
+the bottom of this board which is pan in
+
+---------11:03----------
+the ass because it makes it hard to
+
+---------11:04----------
+measure and troubleshoot
+
+---------11:13----------
+excuse me alright so also another thing
+
+---------11:17----------
+to take note of by the way sometimes if
+
+---------11:19----------
+there's corrosion on the cable that goes
+
+---------11:21----------
+between the DCN board and the board that
+
+---------11:23----------
+can also cause your no backlight issue
+
+---------11:25----------
+or your voltage being a little too low
+
+---------11:26----------
+so you know when you close the computer
+
+---------11:28----------
+when you close the computer it knows
+
+---------11:30----------
+that it's closed it knows to go to sleep
+
+---------11:32----------
+it knows to lower the lower the
+
+---------11:34----------
+backlight brightness all the way down it
+
+---------11:36----------
+does that by asserting a signal called a
+
+---------11:39----------
+Trina man on the asserting by getting
+
+---------11:41----------
+rid of a signal called SMC underscore
+
+---------11:44----------
+lid when that signal is not present I'm
+
+---------11:47----------
+pretty sure you should double check them
+
+---------11:48----------
+when that signal is not present the
+
+---------11:50----------
+computers going to think that it's
+
+---------11:51----------
+closed so if there's any type of up
+
+---------11:54----------
+between the DCN board which is where
+
+---------11:56----------
+that's that a sensor is and the machine
+
+---------11:59----------
+it's going to think that it's closed all
+
+---------12:01----------
+the time and it's gonna give you that
+
+---------12:02----------
+issue so let's so one of the things I
+
+---------12:06----------
+should do is actually check that DC in
+
+---------12:08----------
+Boyde connector before I go nuts with
+
+---------12:12----------
+this but first let's get this thing out
+
+---------12:14----------
+of the case which is always a pain in
+
+---------12:15----------
+the ass
+
+---------12:24----------
+you
+
+---------12:27----------
+now the connector itself looks fine to
+
+---------12:30----------
+me
+
+---------12:32----------
+Niecy and Boyd looks fine to me and
+
+---------12:34----------
+let's check that flex cable the flex
+
+---------12:38----------
+cable looks good I have no problems with
+
+---------12:43----------
+this flex cable perhaps it's a little
+
+---------12:44----------
+bit out of focus but again if these
+
+---------12:47----------
+videos had good production quality you
+
+---------12:48----------
+probably wouldn't recognize that you
+
+---------12:50----------
+were on my youtube channel you would
+
+---------12:52----------
+think you were on somebody else's so I
+
+---------12:54----------
+now we look at the LED driver area and
+
+---------12:58----------
+yeah so as you can see the LED driver
+
+---------13:01----------
+area looks like and balls or as
+
+---------13:03----------
+grade-a under a would say and
+
+---------13:05----------
+bollocks
+
+---------13:06----------
+that's the UK version of and balls
+
+---------13:09----------
+so let's replace that because if it's
+
+---------13:11----------
+not I'm just gonna jump to replacing it
+
+---------13:16----------
+because here's the thing this is the
+
+---------13:18----------
+resistor for PWM looks fine this is a
+
+---------13:21----------
+resistor for something that I'm honest
+
+---------13:23----------
+you don't remember off the top of my
+
+---------13:24----------
+head and it looks like but I don't
+
+---------13:26----------
+know what it's for so I'm just not going
+
+---------13:27----------
+to care and this is the LED driver which
+
+---------13:30----------
+has you know and ball juice coming
+
+---------13:33----------
+out from the side of it everywhere so
+
+---------13:34----------
+let's just get rid of that altogether
+
+---------13:35----------
+and replace and see what we get
+
+---------13:43----------
+I'm gonna take my JB see
+
+---------13:51----------
+it's on 82% air that's a little high you
+
+---------13:56----------
+know it's screw it I'm gonna use their
+
+---------13:57----------
+high it's a lot of people a lot of
+
+---------14:00----------
+people who are coming to the the
+
+---------14:02----------
+tutoring and also people who are we're
+
+---------14:05----------
+commenting or going you know the chip
+
+---------14:06----------
+keeps blowing away and I lower the air
+
+---------14:08----------
+it so it doesn't left all over the air
+
+---------14:10----------
+so it doesn't blow away and I want to
+
+---------14:11----------
+get rid of that myth it's a big myth
+
+---------14:13----------
+that you need to do that watch when you
+
+---------14:16----------
+align a chip properly and when you're
+
+---------14:17----------
+doing the job boom I shouldn't use the
+
+---------14:19----------
+word proper for almost anything I do but
+
+---------14:21----------
+my version of proper watch you'll see I
+
+---------14:24----------
+can have the air on nice and high chips
+
+---------14:27----------
+never gonna blow away we turn the air
+
+---------14:29----------
+filter on
+
+---------15:04----------
+looks like doesn't it
+
+---------15:41----------
+you can see the fumes getting sucked
+
+---------15:43----------
+into the filter it's not good to a now
+
+---------15:46----------
+this stuff
+
+---------15:53----------
+don't touch up the end of my little
+
+---------15:54----------
+resistor there I've got the flux on
+
+---------15:57----------
+there so I'll suck up all that lead-free
+
+---------16:01----------
+ and let's get some wick
+
+---------16:15----------
+the wick was directly in front of me
+
+---------16:17----------
+before
+
+---------16:28----------
+hmm
+
+---------16:31----------
+aha it is still in front me
+
+---------17:03----------
+now notice how I'm not pushing the wick
+
+---------17:06----------
+around with my hands what I'm doing is
+
+---------17:08----------
+I'm pulling with the wick so this way
+
+---------17:13----------
+I'm less likely to rip a path let the
+
+---------17:17----------
+wick do the work
+
+---------17:18----------
+another thing point out here see when I
+
+---------17:23----------
+grab the wick a big mistake that people
+
+---------17:24----------
+make is what they do is they take the
+
+---------17:27----------
+wick by the tweezer so they get shitty
+
+---------17:29----------
+control over it they can't really push
+
+---------17:30----------
+or you know do much like this and
+
+---------17:33----------
+they're dragging this with them the
+
+---------17:34----------
+other thing people will do that's even
+
+---------17:35----------
+worse is they'll grab the wick with
+
+---------17:38----------
+their finger or they'll have a really
+
+---------17:40----------
+long wick pulled out so since it's long
+
+---------17:42----------
+it's further away you have less control
+
+---------17:43----------
+and you're burning yourself copper
+
+---------17:45----------
+conducts heat don't hold a piece of
+
+---------17:47----------
+copper that you're heating to 840
+
+---------17:49----------
+degrees Fahrenheit that's silly
+
+---------17:51----------
+so what I do is first thing I like to do
+
+---------17:53----------
+is I like to make sure that the wick is
+
+---------17:54----------
+itself is nice and short and now that
+
+---------17:57----------
+the wick is short I'm gonna have it
+
+---------17:59----------
+let's wrap it around here as much as I
+
+---------18:01----------
+can and then I hold it by the plastic so
+
+---------18:05----------
+rather than burn my hand what I'm doing
+
+---------18:08----------
+is I'm Brit see let's see if you can see
+
+---------18:09----------
+that I can't see what you see in that
+
+---------18:14----------
+little shitty camera viewfinder so this
+
+---------18:16----------
+is the hmm I might as well do it
+
+---------18:19----------
+close-up
+
+---------18:29----------
+staring off face detect that's some
+
+---------18:36----------
+autofocus okay how about this
+
+---------18:41----------
+okay this is the wick don't hold it like
+
+---------18:44----------
+this stop focusing on me there we
+
+---------18:49----------
+go
+
+---------18:49----------
+you want to hold it like this by the
+
+---------18:53----------
+plastic nobody gives a if the
+
+---------18:56----------
+plastic burn see these burns see all
+
+---------18:57----------
+this see this burn burn burn burn
+
+---------19:02----------
+that's all places where you would be
+
+---------19:04----------
+burning yourself instead of the plastic
+
+---------19:06----------
+there's no reason to burn yourself
+
+---------19:08----------
+there's no reason to burn yourself and
+
+---------19:10----------
+you could be burning a disposable
+
+---------19:11----------
+ piece of plastic that you're
+
+---------19:13----------
+gonna throw away anyway so stop that now
+
+---------19:23----------
+let's take a look where were we here
+
+---------19:25----------
+okay we've done that now let's just
+
+---------19:27----------
+clean it up a little bit take an
+
+---------19:29----------
+anti-static paper towel it's an
+
+---------19:32----------
+anti-static alcohol from the anti-static
+
+---------19:34----------
+alcohol container and scrub it with my
+
+---------19:37----------
+anti-static finger and now we should get
+
+---------19:43----------
+it off now the issue with the paper
+
+---------19:46----------
+towel is that if you don't use it
+
+---------19:48----------
+properly like I just did it's going to
+
+---------19:50----------
+leave streaks so what you should do is
+
+---------19:52----------
+if you have a bad paper towel because
+
+---------19:54----------
+you ran out of clean room wipers wipe it
+
+---------19:56----------
+like this one direction don't go back
+
+---------19:58----------
+and forth don't twist especially if it's
+
+---------20:00----------
+a q-tip but if you do if you use a q-tip
+
+---------20:02----------
+in a rolling motion like this all the
+
+---------20:04----------
+fibers are going if you're using a q-tip
+
+---------20:08----------
+all of the fibers are gonna get rolled
+
+---------20:10----------
+back around the q-tip if you do it like
+
+---------20:12----------
+in a rolling motion versus back and
+
+---------20:14----------
+forth back and forth leaves them on
+
+---------20:15----------
+board if you're gonna use a paper towel
+
+---------20:17----------
+one - not that that's bad just like this
+
+---------20:22----------
+so while the fibers are gonna get stuck
+
+---------20:24----------
+on your paper towel there's a couple of
+
+---------20:26----------
+hints on how to use not the right stuff
+
+---------20:29----------
+and get good the results you would have
+
+---------20:31----------
+gotten if you use the right stuff to
+
+---------20:32----------
+begin with sometimes I forget I've kind
+
+---------20:35----------
+of gotten used to this because I've been
+
+---------20:36----------
+using these cleanroom wipers this whole
+
+---------20:37----------
+time down on my last one until my new
+
+---------20:42----------
+shipment comes so I don't want to waste
+
+---------20:45----------
+it on something as stupid as an LED
+
+---------20:47----------
+driver so now we're going to get ready
+
+---------20:52----------
+to place a new chip
+
+---------20:57----------
+let's just get make sure there's no
+
+---------20:59----------
+oxidation by the balls there we would
+
+---------21:01----------
+not want to be like Apple with their
+
+---------21:03----------
+iPhone 6 touch I see if your
+
+---------21:06----------
+soldering is as bad as apples
+
+---------21:08----------
+manufacturing shame on you
+
+---------21:10----------
+seriously because it just look at the
+
+---------21:14----------
+iPhone 6 D solder a touch I see do it it
+
+---------21:17----------
+does not take much to do better than
+
+---------21:19----------
+Apple it really doesn't flux down there
+
+---------21:25----------
+okay I grab an LED driver well the new
+
+---------21:34----------
+position that I got for this for this
+
+---------21:37----------
+ drawer of mice parts it's put
+
+---------21:41----------
+right where I can't access the bottom
+
+---------21:42----------
+few drawers because of the desk being in
+
+---------21:45----------
+the way one of the issues of having a
+
+---------21:48----------
+business in New York City is you have no
+
+---------21:50----------
+room for anything so let's get a new LED
+
+---------21:53----------
+driver on there
+
+---------22:08----------
+you always have to note the orientation
+
+---------22:09----------
+of the chip one of the things I learned
+
+---------22:11----------
+from practical board or Perry school is
+
+---------22:13----------
+that if you put the chip on the wrong
+
+---------22:15----------
+way it's not just gonna up the
+
+---------22:16----------
+backlight circuitry or short rails it'll
+
+---------22:18----------
+actually make the Machine beep every now
+
+---------22:20----------
+and then all right so my air is on 84%
+
+---------22:25----------
+which for anybody uses the JBC JTA nose
+
+---------22:28----------
+is an obnoxious amount of air watch
+
+---------22:31----------
+here's my trick to not blowing the chip
+
+---------22:33----------
+away you ready first things first
+
+---------22:35----------
+once you have a little line there you're
+
+---------22:37----------
+gonna push down on the center of it so
+
+---------22:40----------
+I'm gonna line it and try to align it
+
+---------22:42----------
+fail to align it because I suck at this
+
+---------22:44----------
+I'm gonna push it down in the middle now
+
+---------22:47----------
+I want to be able to push down and kind
+
+---------22:50----------
+of move back and forth and not have the
+
+---------22:51----------
+chip move more of a distance than the
+
+---------22:55----------
+diameter of the balls of the of the pads
+
+---------22:59----------
+see the diameter of the pad see how big
+
+---------23:01----------
+the pad is I don't want that I don't
+
+---------23:03----------
+want the chip itself to be able to move
+
+---------23:04----------
+further than that so when I push down
+
+---------23:05----------
+and I do this it's okay if it moves a
+
+---------23:08----------
+little but it can't move more than
+
+---------23:09----------
+diameter or the pad that means it's
+
+---------23:10----------
+become unstuck from the pad friction is
+
+---------23:12----------
+gonna make that stick to the pad now
+
+---------23:14----------
+once that part is done it dropped my
+
+---------23:16----------
+expensive tweezers like an idiot and
+
+---------23:18----------
+then I'm gonna heat from far away so I
+
+---------23:21----------
+start from far away now what I'm doing
+
+---------23:26----------
+here is I want the flux to become like a
+
+---------23:29----------
+very very thin liquid because right now
+
+---------23:33----------
+it's a very tacky liquid but when you
+
+---------23:35----------
+heat it up it becomes a very thin liquid
+
+---------23:38----------
+like water thin is not the word that I
+
+---------23:42----------
+want but the word that I'm looking for
+
+---------23:43----------
+is escaping me right now when I'll wait
+
+---------23:48----------
+for there to be no puddle around the
+
+---------23:49----------
+chip you see right now there's a huge
+
+---------23:52----------
+puddle around the chip I want to wait
+
+---------23:53----------
+till there's like a tiny little ripple
+
+---------23:54----------
+around the chip and nothing else and
+
+---------23:57----------
+once I'm there now you can even hear
+
+---------24:00----------
+that's a lot of air I'm an e5 84 % now
+
+---------24:05----------
+see I'm gonna go in on the chip very
+
+---------24:07----------
+close and it's not blowing away look I
+
+---------24:09----------
+can't even make a dance dance
+
+---------24:11----------
+dance see the chip is dancing at 84% air
+
+---------24:15----------
+on the JBC JTA it's fine you know why
+
+---------24:18----------
+it's fine because surface tension
+
+---------24:22----------
+he wants to stick to the pads it's only
+
+---------24:25----------
+gonna come off if you have flux on there
+
+---------24:27----------
+you just blow it away or it's not
+
+---------24:29----------
+aligned properly to begin with if the
+
+---------24:30----------
+chip is properly aligned it's not coming
+
+---------24:32----------
+off of those pads also I think I may
+
+---------24:35----------
+have touched those two resistors with
+
+---------24:36----------
+the wick it looks like those pads were
+
+---------24:38----------
+starved so I added a little flux and a
+
+---------24:39----------
+little solder and now you're gonna see
+
+---------24:41----------
+that I have a backlight that turns on
+
+---------24:42----------
+it's gonna work and you get that 27
+
+---------24:46----------
+volts it's a great number
+
+---------24:57----------
+this stuff is noisy as hell noisy
+
+---------25:25----------
+this is obviously gonna have to have a
+
+---------25:27----------
+run through the ultrasonic cleaner
+
+---------25:29----------
+because it doesn't look very nice hello
+
+---------25:36----------
+display flex cable where'd you go you're
+
+---------25:41----------
+hiding from me ah nevermind camouflaged
+
+---------25:45----------
+camouflaged itself great
+
+---------25:58----------
+take the cable
+
+---------26:30----------
+yay light oh oh you can't see the light
+
+---------26:35----------
+because on the newer models it boots
+
+---------26:36----------
+into this black BS so now you have to
+
+---------26:39----------
+wait for the instead of the gray BS so
+
+---------26:43----------
+now you have to wait for the question
+
+---------26:44----------
+mark folder but I can see the light on
+
+---------26:46----------
+my side so I'm excited I know you don't
+
+---------26:49----------
+trust me
+
+---------26:50----------
+that's fine I'll sit here and wait for
+
+---------26:54----------
+the question mark which is gonna take
+
+---------26:56----------
+forever to show up because I didn't plug
+
+---------26:58----------
+in the trackpad and the keyboard which
+
+---------27:02----------
+means TS here we go
+
+---------27:04----------
+and that's that as always I hope you
+
+---------27:07----------
+learned something and remember every
+
+---------27:11----------
+single one of these machines every
+
+---------27:13----------
+single one that you get to work again
+
+---------27:15----------
+when some when somebody at the Genius
+
+---------27:17----------
+Bar said it shouldn't work again is
+
+---------27:18----------
+money that's not going into Apple's
+
+---------27:21----------
+pockets for purchase of a new device
+
+---------27:22----------
+it's also stuff that's not winding up in
+
+---------27:25----------
+a landfill that's gonna pollute the
+
+---------27:27----------
+earth and it's money not coming out of
+
+---------27:29----------
+the pockets of consumers that shouldn't
+
+---------27:30----------
+have so it's all good stuff all around
+
+---------27:33----------
+I love making this stuff work again
+
+---------27:35----------
+because every single time one of these
+
+---------27:37----------
+boards works again it's like a big
+
+---------27:38----------
+middle finger to Apple Inc that's it for
+
+---------27:45----------
+today
+

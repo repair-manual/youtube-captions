@@ -1,0 +1,997 @@
+https://www.youtube.com/watch?v=fwMj6-t_nPE
+---------00:00----------
+today we're going to be working on
+
+---------00:01----------
+another MacBook this is an a 1708
+
+---------00:04----------
+MacBook this is a non touch bar so USBC
+
+---------00:07----------
+13-inch MacBook Pro it appears to be
+
+---------00:11----------
+having issues due to liquid damage let's
+
+---------00:13----------
+open up the bottom of the case and see
+
+---------00:15----------
+what it looks like on the inside so if
+
+---------00:17----------
+we look inside this MacBook it doesn't
+
+---------00:19----------
+look too bad
+
+---------00:20----------
+it has minor corrosion over here and it
+
+---------00:24----------
+has some corrosion by the backlight
+
+---------00:26----------
+circuit and it has some coercion by the
+
+---------00:28----------
+TPS five one nine eight zero if I had to
+
+---------00:31----------
+guess the lethal corrosion killing this
+
+---------00:33----------
+MacBook is not going to be the backlight
+
+---------00:35----------
+circuit is not going to be this stuff by
+
+---------00:37----------
+the trackpad it's going to be what's by
+
+---------00:39----------
+the TPS five four nine eight zero the
+
+---------00:42----------
+TPS five one nine nine zero is gonna be
+
+---------00:44----------
+responsible for your 3.3 volt rail your
+
+---------00:47----------
+5 volt s5 rail and your 5 volt as for
+
+---------00:50----------
+rail without these rails the machine
+
+---------00:52----------
+will not work or turn on they are the
+
+---------00:54----------
+most integral rails in contrast to the
+
+---------00:57----------
+backlight and the stuff by the trackpad
+
+---------00:59----------
+because who really gives a crap about
+
+---------01:00----------
+the trackpad you don't need a trackpad
+
+---------01:02----------
+what you need is a trackball
+
+---------01:04----------
+I don't care if this machine is a
+
+---------01:05----------
+trackpad when I'm done I could care less
+
+---------01:07----------
+because when I'm done with this I'm
+
+---------01:09----------
+going to give the customer a trackball
+
+---------01:11----------
+and if they don't want a trackball they
+
+---------01:14----------
+clearly don't have taste and they have
+
+---------01:16----------
+no business being my customer so let's
+
+---------01:19----------
+go on and take this board out of the
+
+---------01:20----------
+machine and see what it is that this
+
+---------01:22----------
+board is doing
+
+---------01:31----------
+I can't reach anything in there look at
+
+---------01:33----------
+this the amount of space from my iron is
+
+---------01:35----------
+non-existent I can't even touch that
+
+---------01:37----------
+stuff up like the t30 can will not even
+
+---------01:40----------
+fit in there wow that's crazy
+
+---------01:51----------
+I think there's a backlight sense line
+
+---------01:53----------
+there that went out
+
+---------02:00----------
+yeah I see a broken feedback mount
+
+---------02:04----------
+feedback current sensing trace there
+
+---------02:21----------
+all right so the issue here we're gonna
+
+---------02:24----------
+have is no backlight and as can be seen
+
+---------02:26----------
+here this probe point that's missing
+
+---------02:28----------
+this is for gonna be back like current
+
+---------02:30----------
+sensing so if I look up you 8,400 and we
+
+---------02:32----------
+look up in 9 on the chip this is going
+
+---------02:35----------
+to this resistor over here and this is a
+
+---------02:38----------
+current sense resistor there's gonna be
+
+---------02:40----------
+a really low voltage drop across this
+
+---------02:42----------
+resistor and the voltage drop across the
+
+---------02:44----------
+resistor is going to be proportional to
+
+---------02:45----------
+the amount of current that the system is
+
+---------02:47----------
+using so this over here is going to be a
+
+---------02:52----------
+current sensing circuit so if this trace
+
+---------02:55----------
+is destroyed if pin 9 is totally broken
+
+---------03:01----------
+then it's going to see a permanent
+
+---------03:04----------
+voltage drop because you can have eight
+
+---------03:05----------
+volt here or 12 volts here and zero
+
+---------03:07----------
+volts there so it's got to turn off the
+
+---------03:10----------
+back light circuit and a result of
+
+---------03:12----------
+turning off the back light circuit it's
+
+---------03:14----------
+gonna be no backlight and if there's no
+
+---------03:17----------
+backlight then the computer is gonna
+
+---------03:20----------
+wind up in my cube so let's take a look
+
+---------03:23----------
+at that let's see if we can bring that
+
+---------03:26----------
+back to where it was before so we're
+
+---------03:28----------
+gonna have to find out where this goes
+
+---------03:29----------
+and run a little jumper wire inside the
+
+---------03:34----------
+board
+
+---------04:06----------
+all right so let's see what pin 9
+
+---------04:08----------
+supposed to connect to that's going to a
+
+---------04:12----------
+resistor on the other side of the board
+
+---------04:15----------
+oh boy that's gonna be quite the jumper
+
+---------04:18----------
+water ok so we got to run a jumper wire
+
+---------04:21----------
+to the other side of the board this
+
+---------04:24----------
+seems like a great job to do tomorrow
+
+---------04:49----------
+Louis why you still at work I am still
+
+---------04:51----------
+at work because there are map books that
+
+---------04:53----------
+need to be fixed
+
+---------05:04----------
+all right so we're gonna solder a new
+
+---------05:06----------
+LED driver on here and then run a wire
+
+---------05:10----------
+to the other side
+
+---------05:19----------
+okay so we had a little bit of flux now
+
+---------05:25----------
+we are going to get a new LED driver
+
+---------05:28----------
+chip which by the way if you need a new
+
+---------05:31----------
+LED driver chip you can find them at
+
+---------05:33----------
+store Dodd rossmann group.com
+
+---------06:42----------
+all right
+
+---------07:22----------
+all right so now it's time to get that
+
+---------07:25----------
+current sensing wire running which ones
+
+---------07:27----------
+do you like flat like wiggle wiggle and
+
+---------07:29----------
+which ones do you gently press down on
+
+---------07:30----------
+them I gently press down on QFN packages
+
+---------07:38----------
+where I can see all the connections and
+
+---------07:40----------
+I wiggle wiggle the ones that are ball
+
+---------07:42----------
+grid array meaning there's balls
+
+---------07:44----------
+everywhere it's not just on connections
+
+---------07:46----------
+on the outside so we have to run a wire
+
+---------07:49----------
+from the side of the board to the other
+
+---------07:52----------
+yeah don't see a via here
+
+---------08:02----------
+or is there is there a nub oh knob yes
+
+---------08:10----------
+yes knob
+
+---------08:12----------
+show me the nub bye now bye don't mean
+
+---------08:16----------
+noob boo
+
+---------08:24----------
+please tell me that's not a ground plane
+
+---------08:35----------
+mmm
+
+---------08:41----------
+oh I see you I see you can I even solder
+
+---------08:46----------
+to you or you're just gonna break in a
+
+---------08:47----------
+piece as a second I touch you there we
+
+---------08:52----------
+go
+
+---------10:17----------
+there we go so we dug we found the nub
+
+---------10:21----------
+and now let's see if this has a
+
+---------10:23----------
+backlight on its screen
+
+---------10:36----------
+let's see if it works someone said that
+
+---------10:39----------
+is an awesome repair we don't know if
+
+---------10:41----------
+it's fixed this could still be a dead
+
+---------10:44----------
+pile of junk let's see if this works
+
+---------10:47----------
+yeah 30 to 60 milliamps alright this one
+
+---------10:51----------
+will have to wait until tomorrow I am
+
+---------10:54----------
+getting tired running out of steam so
+
+---------10:57----------
+we're gonna work on this one tomorrow
+
+---------10:58----------
+when I'm fresh I have been streaming for
+
+---------11:01----------
+five and a half hours now let's get
+
+---------11:05----------
+started on this MacBook so we were
+
+---------11:07----------
+working on this one yesterday remember
+
+---------11:09----------
+so see what we did here we ran a wire to
+
+---------11:14----------
+that little via look at that look at
+
+---------11:20----------
+that I was hoping that would be good but
+
+---------11:24----------
+after we were done with all that the
+
+---------11:26----------
+thing I didn't even want to turn on so
+
+---------11:28----------
+now let's take a look at the TPS five or
+
+---------11:30----------
+nine eight zero area now keep in mind
+
+---------11:32----------
+this was actually turning on prior to us
+
+---------11:34----------
+running this jumper over here so I like
+
+---------11:37----------
+to look back to the last thing I did
+
+---------11:39----------
+before something stopped working so I
+
+---------11:41----------
+ran a jumper to where I thought back
+
+---------11:44----------
+like current sensing was there's a
+
+---------11:45----------
+chance that that when I dug into the
+
+---------11:47----------
+board that what I was actually hitting
+
+---------11:48----------
+was ground so first thing I want to do
+
+---------11:50----------
+here is see if PP bus g-3 hot is shorted
+
+---------11:53----------
+to ground and it is but it wasn't short
+
+---------11:58----------
+at the ground prior so this was not
+
+---------12:01----------
+shorted to ground prior to me running
+
+---------12:03----------
+this jumper wire so I'm gonna unsolder
+
+---------12:05----------
+this jumper wire that I ran yesterday
+
+---------12:06----------
+for what I thought was back like current
+
+---------12:09----------
+sensing
+
+---------12:15----------
+okay now let's see if we're still short
+
+---------12:18----------
+it's a ground on pipi bus g3 hot
+
+---------12:22----------
+we're not yesterday when I ran that wire
+
+---------12:25----------
+I thought I was running it to the via
+
+---------12:27----------
+for backlight output but that view is
+
+---------12:29----------
+destroyed and when I dug into the board
+
+---------12:30----------
+to try and find the nub what I actually
+
+---------12:32----------
+found was ground so I wired my backlight
+
+---------12:35----------
+circuit directly to ground
+
+---------12:36----------
+great job dumbass so let me show you
+
+---------12:39----------
+what was going on here so here we have
+
+---------12:42----------
+the backlight circuit and on these
+
+---------12:43----------
+machines Apple decided to give people a
+
+---------12:45----------
+break on these constantly burning LCD
+
+---------12:48----------
+connectors and destroyed fuses by and
+
+---------12:51----------
+burned up boards by putting a current
+
+---------12:53----------
+sensing circuit in this is a resistor
+
+---------12:56----------
+that has a really low resistance and the
+
+---------12:59----------
+backlight driver over here is going to
+
+---------13:01----------
+measure the voltage at the beginning and
+
+---------13:04----------
+the end of that resistor if it sees that
+
+---------13:07----------
+there's a big voltage difference it's
+
+---------13:08----------
+going to assume that the system is using
+
+---------13:10----------
+a lot of current and then this
+
+---------13:11----------
+transistor is going to turn itself off
+
+---------13:13----------
+because there's a short to ground
+
+---------13:14----------
+somewhere or it's using too much current
+
+---------13:16----------
+to keep it from blowing up or doing
+
+---------13:19----------
+something bad this over here is my pp
+
+---------13:24----------
+bus g3 hot backlight input and what I
+
+---------13:27----------
+did because I'm a dumbass is I actually
+
+---------13:31----------
+soldered this straight to ground so I
+
+---------13:35----------
+thought that when this nub was broken
+
+---------13:38----------
+what I thought I was doing is I thought
+
+---------13:40----------
+that when I dug a little bit that I
+
+---------13:41----------
+found the nub and then I soldered it to
+
+---------13:43----------
+it but I didn't I actually soldered it
+
+---------13:45----------
+to ground right inside the board no good
+
+---------13:49----------
+so what I'm going to have to do before
+
+---------13:52----------
+hopefully before I throw up since I'm
+
+---------13:54----------
+not feel oh oh okay shouldn't I said
+
+---------13:58----------
+that what I have to do here is run that
+
+---------14:01----------
+wire to the other side of the board
+
+---------14:03----------
+which I was hoping to avoid doing that's
+
+---------14:05----------
+not going to be fun so let's go ahead
+
+---------14:07----------
+and see where this goes so that pin on
+
+---------14:10----------
+the LED backlight driver is going to be
+
+---------14:14----------
+pin nine and you're going to the other
+
+---------14:19----------
+side of the board and that's going to be
+
+---------14:22----------
+going down here to this
+
+---------14:26----------
+pen which is right here so that's where
+
+---------14:31----------
+this wire is gonna have to go okay we
+
+---------14:35----------
+can do that that shouldn't be too
+
+---------14:36----------
+difficult and hopefully after we do that
+
+---------14:39----------
+we have LCD backlight
+
+---------14:52----------
+okay so we're gonna take this wire and
+
+---------14:56----------
+place it on this MacBook
+
+---------15:06----------
+let's try to either's next oh boy
+
+---------15:10----------
+the nauseousness is coming uh-oh must
+
+---------15:16----------
+fix MacBook cannot get nauseous MacBook
+
+---------15:21----------
+is not fixed yet cannot throw up on
+
+---------15:25----------
+MacBook
+
+---------15:32----------
+would like to throw up on MacBook
+
+---------15:54----------
+okay now we turn this around and this
+
+---------15:59----------
+wire is gonna have to make its way
+
+---------16:01----------
+around the board to this area over here
+
+---------16:11----------
+we're gonna run this wire around here
+
+---------16:15----------
+this is so not this is this is gonna be
+
+---------16:19----------
+bad or Jesus I have no trust in this
+
+---------16:28----------
+wire
+
+---------16:31----------
+okay and we're gonna run this all the
+
+---------16:34----------
+way to that pad
+
+---------16:43----------
+first we're going to see if this turns
+
+---------16:45----------
+on but the amperage it takes then we're
+
+---------16:48----------
+going to see what it outputs to a screen
+
+---------16:49----------
+if anything
+
+---------17:04----------
+all right so we're taking 600 ml amps so
+
+---------17:07----------
+this machine is capable of turning on
+
+---------17:10----------
+now we're going to see if it produces a
+
+---------17:12----------
+picture on the screen okay so we're
+
+---------17:15----------
+gonna plug this in and see if we get an
+
+---------17:17----------
+image or a question mark folder I'm
+
+---------17:19----------
+shooting for a question mark folder here
+
+---------17:21----------
+so let's see what voltage we get on
+
+---------17:22----------
+backlight output all right so it appears
+
+---------17:24----------
+that this now appears to have a question
+
+---------17:29----------
+mark folder which means that we have
+
+---------17:31----------
+fixed our issue so we had two issues on
+
+---------17:34----------
+this MacBook that I'm gonna go over so
+
+---------17:38----------
+the first issue that we had on this
+
+---------17:39----------
+MacBook was that the three volt and the
+
+---------17:42----------
+5 volt rails were not working properly
+
+---------17:43----------
+due to their being corrosion around the
+
+---------17:46----------
+TPS 500/0 chip and if we look here
+
+---------17:49----------
+you'll see this was where we originally
+
+---------17:52----------
+had our corrosion around the TPS 5:09
+
+---------17:55----------
+8-0 IC the second issue that we had was
+
+---------17:58----------
+a backlight issue we had corrosion
+
+---------18:00----------
+around you 8400 u 8400 is the backlight
+
+---------18:05----------
+chip now what I did here I thought that
+
+---------18:08----------
+what I could do is fix the current
+
+---------18:10----------
+sensing circuit because pin 9 over here
+
+---------18:13----------
+is where the corrosion was this vo is
+
+---------18:15----------
+broken right here and this is a current
+
+---------18:19----------
+sensing circuit the way a current
+
+---------18:21----------
+sensing circuit works is this going to
+
+---------18:22----------
+be a current sensing resistor over here
+
+---------18:25----------
+and there is going to be a small voltage
+
+---------18:29----------
+drop across it the voltage drop across
+
+---------18:31----------
+the current sensing resistor I will not
+
+---------18:34----------
+go home I have MacBooks to fix my fever
+
+---------18:37----------
+will get better when I fix my MacBook
+
+---------18:39----------
+the more of a voltage drop there is from
+
+---------18:41----------
+this side of the resistor to this side
+
+---------18:42----------
+of the resistor the more current is
+
+---------18:43----------
+going through it now
+
+---------18:44----------
+between here and here this was broken
+
+---------18:48----------
+and since that was broken this
+
+---------18:50----------
+transistor is never going to open
+
+---------18:51----------
+because if it thinks that there's 12
+
+---------18:53----------
+volts here and 0 volts here it's gonna
+
+---------18:55----------
+think oh my god we're using millions and
+
+---------18:56----------
+millions of amps this is never going to
+
+---------18:58----------
+turn on so I tried to find the nub where
+
+---------19:02----------
+I could attach this to this I tried to
+
+---------19:04----------
+do what it is March Schaefer and Jesse
+
+---------19:06----------
+Jones do it iPad rehab very often which
+
+---------19:08----------
+is find the nub because sometimes if you
+
+---------19:10----------
+scrape down into the board a little bit
+
+---------19:12----------
+you can find the nub and that's what I
+
+---------19:14----------
+did here and I thought that I found the
+
+---------19:16----------
+nub I thought I found it you could see
+
+---------19:18----------
+where there is a nub you see this little
+
+---------19:21----------
+it looks like a set of eyes over here so
+
+---------19:23----------
+this is where this current sensing one's
+
+---------19:25----------
+going this is where this current sensing
+
+---------19:27----------
+one is going and that was not actually
+
+---------19:31----------
+enough that over there
+
+---------19:33----------
+was ground I dug a little too much
+
+---------19:36----------
+either that or it wasn't that I dug a
+
+---------19:38----------
+little too much it was that the probe
+
+---------19:39----------
+point was likely damaged entirely so we
+
+---------19:42----------
+ran a wire to that point and I tried to
+
+---------19:44----------
+run the wire at the same direction as
+
+---------19:47----------
+the trace and the board said the trace
+
+---------19:49----------
+and the board was going like this I
+
+---------19:50----------
+don't want to have a wire going like
+
+---------19:51----------
+this because then you have a very small
+
+---------19:53----------
+teeny tiny point where they cross where
+
+---------19:55----------
+you have connection I wanted the wire to
+
+---------19:57----------
+be running like this right over it so
+
+---------20:00----------
+that it would have make a better
+
+---------20:02----------
+connection and be stronger so you can
+
+---------20:04----------
+see that this V this trace is going up
+
+---------20:06----------
+into the right and the wire is running
+
+---------20:09----------
+along it as well we are going to Rio
+
+---------20:11----------
+sonic this board to get rid of that
+
+---------20:13----------
+corrosion over there not corrosion that
+
+---------20:15----------
+the flux residue and all that
+
+---------20:17----------
+I'm gonna run use some of that green uvh
+
+---------20:19----------
+nine-hundred stuff available at story
+
+---------20:21----------
+dot Russman group.com don't delay buy
+
+---------20:24----------
+some green UV curing mask at everyday
+
+---------20:26----------
+low prices on stored rossmann group comm
+
+---------20:29----------
+today and after that this machine should
+
+---------20:33----------
+be good to go back on the way to the
+
+---------20:34----------
+customer and hopefully they'll stop
+
+---------20:38----------
+calling me and asking me for status
+
+---------20:40----------
+updates while I'm sitting here with a
+
+---------20:42----------
+102 fever so I am going to take some
+
+---------20:45----------
+more vitamin C water over here drink it
+
+---------20:48----------
+and then we're gonna move on to the next
+
+---------20:50----------
+macbook vitamin c water your health is
+
+---------20:59----------
+more important than manic books
+
+---------21:01----------
+I wish unfortunately I have one purpose
+
+---------21:03----------
+in life it is to fix MacBooks
+

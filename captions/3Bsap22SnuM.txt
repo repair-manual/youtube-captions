@@ -1,0 +1,1915 @@
+https://www.youtube.com/watch?v=3Bsap22SnuM
+---------00:00----------
+okay so today we're gonna start with an
+
+---------00:01----------
+eight to zero thirty seven eighty seven
+
+---------00:03----------
+board that's not turning on its can not
+
+---------00:05----------
+completely dead so if I plug in a
+
+---------00:07----------
+charger here you'll see that I can get a
+
+---------00:10----------
+green and then an orange light on it
+
+---------00:12----------
+however the fan doesn't spin it never
+
+---------00:14----------
+turns on so let's try and figure out why
+
+---------00:16----------
+that is so the first thing that we would
+
+---------00:18----------
+usually do in this situation
+
+---------00:19----------
+is check out to see if there is any
+
+---------00:22----------
+powell rails missing anytime you have a
+
+---------00:23----------
+no power situation it's a safe
+
+---------00:25----------
+assumption that a power rail that you
+
+---------00:26----------
+would need is missing and that's why
+
+---------00:28----------
+you're not getting power so first things
+
+---------00:30----------
+first I'm going to open up the schematic
+
+---------00:33----------
+and board view software over here so
+
+---------00:35----------
+that you can see everything so let's
+
+---------00:37----------
+just get to the proper page where you
+
+---------00:39----------
+can see that stuff okay so well f4 and
+
+---------00:47----------
+you should be able to see the schematic
+
+---------00:48----------
+in the board view now so let's scroll
+
+---------00:51----------
+down a little bit
+
+---------00:52----------
+now the most important page for me on
+
+---------00:54----------
+this schematic is the page that lists
+
+---------00:56----------
+every single power rail one by one so I
+
+---------00:59----------
+don't know where it is on this schematic
+
+---------01:01----------
+they used to have it on pages like right
+
+---------01:03----------
+in the beginning around page five six
+
+---------01:05----------
+and seven and these two have a diagram
+
+---------01:07----------
+on pages one and two and now I have no
+
+---------01:09----------
+idea where the hell they put any of this
+
+---------01:11----------
+
+
+---------01:11----------
+let's see so that's open thirty seven
+
+---------01:18----------
+eighty seven here we go
+
+---------01:19----------
+so let's see what page are we looking
+
+---------01:23----------
+for here
+
+---------01:32----------
+yep only Apple so when it comes to
+
+---------01:35----------
+things that are important like power
+
+---------01:37----------
+rails most most manufacturers will put
+
+---------01:39----------
+that on the first page because it's the
+
+---------01:41----------
+most important thing when you're dealing
+
+---------01:43----------
+with an Apple schematic it'll be on page
+
+---------01:45----------
+81 out of 94 that's that's a nice middle
+
+---------01:49----------
+finger if I've ever seen one
+
+---------01:50----------
+so the first power rail here is pp bus
+
+---------01:52----------
+g3 hot and the schematic says that
+
+---------01:54----------
+that's supposed to be twelve point eight
+
+---------01:56----------
+volts so I'm gonna use the board view
+
+---------01:58----------
+software I'm just gonna type in pp bus
+
+---------01:59----------
+underscore g3 hot and it's gonna show me
+
+---------02:01----------
+everywhere that pp bus g3 hot shows up
+
+---------02:03----------
+on the board I'm gonna arrange the board
+
+---------02:06----------
+view software so that it's in the same
+
+---------02:07----------
+orientation that I have the board in the
+
+---------02:09----------
+table somehow the board view software
+
+---------02:11----------
+always knows how to open itself up so
+
+---------02:13----------
+that it's in a different orientation
+
+---------02:14----------
+than it is on the table so I'm gonna
+
+---------02:17----------
+plug in the MagSafe and we're just going
+
+---------02:19----------
+to take the multimeter and let's see
+
+---------02:21----------
+what voltage I get so at that point we
+
+---------02:27----------
+put this into voltage mode now there's
+
+---------02:29----------
+gonna be two voltage modes and your
+
+---------02:30----------
+multimeter one is gonna usually have a
+
+---------02:31----------
+little wavy line that's for AC and the
+
+---------02:33----------
+other one is going to have a straight
+
+---------02:34----------
+line that's for DC we're looking at
+
+---------02:37----------
+measuring DC voltage here all these
+
+---------02:38----------
+voltages are supposed to be DC so set
+
+---------02:41----------
+your multimeter to measure DC voltage
+
+---------02:42----------
+take the black probe here I'm gonna put
+
+---------02:45----------
+it on ground which is gonna be a screw
+
+---------02:46----------
+hole or any one of these large metal
+
+---------02:49----------
+connecting or looking things on the
+
+---------02:50----------
+board so I usually use a screw hole and
+
+---------02:52----------
+then we're gonna take the red probe and
+
+---------02:54----------
+put it where the board view said ppbut
+
+---------02:57----------
+g3 hot is supposed to show up and I get
+
+---------02:59----------
+four point zero eight volts now in the
+
+---------03:01----------
+schematic it's systems were supposed to
+
+---------03:02----------
+get twelve point eight volts so the
+
+---------03:04----------
+first thing I'm gonna want to do here is
+
+---------03:05----------
+try and figure out why it is I don't
+
+---------03:07----------
+have the voltage that I'm supposed to so
+
+---------03:09----------
+let's move over to the chip that's
+
+---------03:10----------
+responsible for it which is you 7100
+
+---------03:13----------
+which is actually it's not used I'm in
+
+---------03:15----------
+the wrong schematic aren't I
+
+---------03:16----------
+I am in the wrong schematic right now I
+
+---------03:19----------
+think I have to Sumatra windows open and
+
+---------03:21----------
+it's kind of screwing with me
+
+---------03:22----------
+I do don't I okay here we go so let's go
+
+---------03:26----------
+over to you seventy one hundred which is
+
+---------03:30----------
+usually the first thing that I check in
+
+---------03:32----------
+no power cases around this area so
+
+---------03:33----------
+useless let's take a look at this under
+
+---------03:36----------
+the microscope so I'm going to use the
+
+---------03:38----------
+board view software to show me where you
+
+---------03:40----------
+70 100 is it is at c4 components and
+
+---------03:43----------
+it'll show
+
+---------03:44----------
+it'll open a window that allows you to
+
+---------03:46----------
+type in the name of a component and then
+
+---------03:48----------
+it will show you where it is on the
+
+---------03:49----------
+board of course it's gonna show you
+
+---------03:50----------
+where it is on the board and the
+
+---------03:52----------
+opposite relation that the board is on
+
+---------03:53----------
+the desk it always knows exactly what
+
+---------03:56----------
+way I have the board in the desk so that
+
+---------03:57----------
+it can open it in the opposite way and
+
+---------03:59----------
+this is you 7100 so let's take a look in
+
+---------04:02----------
+that area and we're also gonna look in
+
+---------04:03----------
+the schematic and see if you have any
+
+---------04:04----------
+idea what's going on now if you look at
+
+---------04:07----------
+it under the microscope which I should
+
+---------04:08----------
+probably plug in before I say let's look
+
+---------04:10----------
+at it under the microscope you uh let's
+
+---------04:13----------
+wait a second for that to turn on yeah
+
+---------04:16----------
+come on good little microscope there we
+
+---------04:19----------
+go
+
+---------04:20----------
+alright so let's look at that area and
+
+---------04:22----------
+see if anything looks particularly funny
+
+---------04:24----------
+now does anything look bad here to you
+
+---------04:26----------
+this is one of those cave area those
+
+---------04:28----------
+cases where if it looks bad it as bad is
+
+---------04:31----------
+actually a something that you can use so
+
+---------04:35----------
+yeah come on I'll give you guys a second
+
+---------04:37----------
+to tell me if anything looks bad there
+
+---------04:38----------
+this is not our usual liquid damage case
+
+---------04:41----------
+there's no liquid damage of this machine
+
+---------04:43----------
+but there's something else didn't get it
+
+---------04:48----------
+yet still not okay
+
+---------04:53----------
+I'll show you let's get my tweezers
+
+---------05:00----------
+see this with a little hole in the
+
+---------05:02----------
+middle of it
+
+---------05:03----------
+that's no good so let's just zoom in a
+
+---------05:05----------
+little more because I know you may be
+
+---------05:06----------
+saying what do you mean a hole in it I
+
+---------05:07----------
+can't tell with YouTube compression what
+
+---------05:09----------
+the hell that is all right so let's zoom
+
+---------05:12----------
+in a little more so that you can see
+
+---------05:13----------
+what I'm talking about
+
+---------05:26----------
+now on the Left resistor it's a little
+
+---------05:29----------
+less pronounced than it is on the right
+
+---------05:30----------
+resistor on the Left resistor it looks
+
+---------05:32----------
+like a little bit of brown in the center
+
+---------05:33----------
+of the resistor and a tiny protrusion
+
+---------05:35----------
+but on the right resistor it's a very
+
+---------05:37----------
+clearly pronounced black dot and that
+
+---------05:39----------
+clearly pronounced black dot is where
+
+---------05:41----------
+the resistor itself blew up so when
+
+---------05:43----------
+resistors die resistors don't usually
+
+---------05:45----------
+die where they go from being let's say
+
+---------05:47----------
+10 ohms to being zero ohms they don't
+
+---------05:49----------
+die where they turn into a wire they die
+
+---------05:51----------
+in the opposite way that lets say a
+
+---------05:52----------
+capacitor usually dies on these in these
+
+---------05:54----------
+boards where the resistor turns into
+
+---------05:56----------
+just a pile of mush so it usually fails
+
+---------05:59----------
+open where it doesn't pass any
+
+---------06:02----------
+electricity at all so let's just go over
+
+---------06:04----------
+what that is for in the schematic here
+
+---------06:06----------
+and show you what that circuit does so
+
+---------06:14----------
+this is our 7021 in our 7022 this is
+
+---------06:18----------
+part of a current sensing circuit that
+
+---------06:20----------
+uses the shunt resistor our 7120 to go
+
+---------06:22----------
+to the il-62 v 9 in order to tell the
+
+---------06:25----------
+Machine how much amperage that buck
+
+---------06:27----------
+converter is using so this here this u
+
+---------06:29----------
+7100 circuit is a buck converter if you
+
+---------06:31----------
+don't know what a buck converter is
+
+---------06:32----------
+watch the buck converter series videos
+
+---------06:34----------
+that I've done that explain exactly what
+
+---------06:36----------
+a buck converter is so long story short
+
+---------06:38----------
+this takes the 16 to 18 volts from your
+
+---------06:41----------
+charger and turns it into 12 point 8
+
+---------06:43----------
+volts for the machine a run off of and
+
+---------06:45----------
+that's what this entire thing does so it
+
+---------06:47----------
+pretty much switches back and forth back
+
+---------06:48----------
+and forth between 16 0 16 0 in ordered
+
+---------06:51----------
+its average it out to 12 to get you to
+
+---------06:53----------
+12 volts now the computer is going to
+
+---------06:55----------
+want to know how much current this
+
+---------06:57----------
+circuit is using let's say there's a
+
+---------06:58----------
+short circuit inside your machine let's
+
+---------07:00----------
+say something bad happens or liquid gets
+
+---------07:02----------
+spilled on it the machine is not going
+
+---------07:04----------
+to
+
+---------07:05----------
+I'll tell the charger to stay on because
+
+---------07:07----------
+if you have to charge or stay on when
+
+---------07:09----------
+there's a short circuit to ground or
+
+---------07:10----------
+there's liquid spill the charger may
+
+---------07:12----------
+blow up or to get destroyed or something
+
+---------07:14----------
+terrible may happen so there's something
+
+---------07:15----------
+called current sensing going on here and
+
+---------07:17----------
+what it does is it tries to tell how
+
+---------07:19----------
+much current the system is using now
+
+---------07:21----------
+this is usually not a noticeable voltage
+
+---------07:24----------
+drop across the resistor it's not like
+
+---------07:25----------
+you have 12 volts on one side and 1 volt
+
+---------07:27----------
+in the other but across this resistor
+
+---------07:29----------
+there's going to be a really really
+
+---------07:31----------
+really really really tiny voltage drop
+
+---------07:33----------
+and the ISL 6259 is going to measure the
+
+---------07:37----------
+difference in voltage between the top of
+
+---------07:38----------
+this resistor and the
+
+---------07:40----------
+this resistor however the ISL 65:9 here
+
+---------07:42----------
+does not have a direct path to the top
+
+---------07:44----------
+and the bottom of this resistor what it
+
+---------07:46----------
+has is these two resistors in between so
+
+---------07:49----------
+that you know if anything gets goes
+
+---------07:51----------
+wrong in the current sensing area
+
+---------07:52----------
+instead of blowing up the is all six two
+
+---------07:54----------
+five nine which costs you no more money
+
+---------07:56----------
+than let's say a resistor it just blows
+
+---------07:58----------
+up these two stupid little resistors
+
+---------07:59----------
+instead of destroying your entire system
+
+---------08:01----------
+which is a good thing because this chip
+
+---------08:03----------
+connects directly to the SMC it connects
+
+---------08:05----------
+directly to several other things so you
+
+---------08:06----------
+don't want 16 volts potentially going to
+
+---------08:08----------
+your SMC with a surge just because the
+
+---------08:11----------
+current sensing circuitry decided to go
+
+---------08:13----------
+poof or do something silly so you have
+
+---------08:15----------
+these resistors in between now there's
+
+---------08:18----------
+gonna be a small voltage drop across our
+
+---------08:20----------
+7120 now that voltage drop is going to
+
+---------08:23----------
+be proportional to how much current or
+
+---------08:24----------
+amperage the system is using and this is
+
+---------08:26----------
+how the use 70 100 is able to report to
+
+---------08:28----------
+the SMC how much how many amps the
+
+---------08:30----------
+charger is using you'll also see we have
+
+---------08:32----------
+a current sensing circuit over here it's
+
+---------08:34----------
+the exact same thing except over here
+
+---------08:35----------
+it's for the battery and these two
+
+---------08:38----------
+resistors went poof now one great way to
+
+---------08:40----------
+figure out if this entire if anything in
+
+---------08:43----------
+the circuit is wrong instead of having
+
+---------08:44----------
+to see is the eye path from the is all
+
+---------08:47----------
+to the resistor good is the path from
+
+---------08:48----------
+the root this resistor to the shunt
+
+---------08:49----------
+resistor good is this resistor good is
+
+---------08:51----------
+the path from the shunt resistor are
+
+---------08:52----------
+7021 good and is the path from our 7021
+
+---------08:55----------
+to this good what you can do to measure
+
+---------08:57----------
+the entire circuit in one measurement is
+
+---------08:59----------
+measure the resistance between pins 27
+
+---------09:02----------
+and 28 because if you measure the
+
+---------09:03----------
+resistance between these two pins and
+
+---------09:04----------
+everything is working the number that
+
+---------09:06----------
+you should get should be this a the
+
+---------09:10----------
+series addition of the sum I'm being an
+
+---------09:13----------
+idiot series edition where the did
+
+---------09:15----------
+I get that from the sum of all the
+
+---------09:18----------
+resistors in the circuit so our 7022 is
+
+---------09:20----------
+10 ohms our 7020 is 0.02 ohms in our
+
+---------09:24----------
+7021 is 10 ohms so you should get twenty
+
+---------09:27----------
+point zero two ohms if you measure bits
+
+---------09:29----------
+you inch 20 pins 27 and 28 and when I
+
+---------09:32----------
+measure between between twins between
+
+---------09:35----------
+between twins well that's that kind of
+
+---------09:40----------
+sounds like the name of a porno between
+
+---------09:42----------
+twins when I measure between pins 27 and
+
+---------09:46----------
+28
+
+---------09:47----------
+I get four point 64 million ohms which
+
+---------09:50----------
+is very far off from the twenty point
+
+---------09:51----------
+zero two that I'm supposed to get so
+
+---------09:53----------
+most likely those two
+
+---------09:54----------
+sisters are bad and they have to go and
+
+---------09:56----------
+when they do go there's a very good
+
+---------09:57----------
+chance that this will actually work so
+
+---------09:59----------
+let's get started
+
+---------10:00----------
+turn on the hot air turn on the air
+
+---------10:04----------
+filter and off they go
+
+---------10:20----------
+well these are standard people tweezers
+
+---------10:23----------
+by the way these are not the regular
+
+---------10:24----------
+ones I use look it out unfit they seem
+
+---------10:27----------
+for this job I mean
+
+---------10:36----------
+like asking an elephant to sign his name
+
+---------10:39----------
+with a fine point pen
+
+---------11:16----------
+yeah there was a little bit of dirt in
+
+---------11:18----------
+there
+
+---------11:27----------
+clean that out okay now let's grab two
+
+---------11:31----------
+more 10 ohm resistors
+
+---------11:49----------
+they come prepare it I have a spool of
+
+---------11:51----------
+them
+
+---------12:06----------
+these trees are awful oh and they get
+
+---------12:11----------
+magnetized super easy seriously this is
+
+---------12:18----------
+dog
+
+---------12:21----------
+I really should just get up and get my
+
+---------12:23----------
+other tweezers I don't know why are
+
+---------12:24----------
+these came from you
+
+---------12:43----------
+okay let's just do this one at a time
+
+---------13:06----------
+if this video does anything it denotes
+
+---------13:08----------
+the importance of using good tweezers
+
+---------13:11----------
+let's get good tweezers right now let's
+
+---------13:13----------
+try to do that same job except now with
+
+---------13:15----------
+a proper tool this actually is this is
+
+---------13:20----------
+the proper tool but it's a broken
+
+---------13:21----------
+version of it these traces are really
+
+---------13:22----------
+messed up but you'll see how much easier
+
+---------13:24----------
+everything is when you just have the
+
+---------13:26----------
+proper tool see nothing it's way too
+
+---------13:32----------
+much flux I do that so I can get trolled
+
+---------13:36----------
+by eevblog people I'm just gonna start
+
+---------13:41----------
+adding flux to everything I'm gonna
+
+---------13:43----------
+start a cooking channel and have Amtech
+
+---------13:46----------
+5:59 on everything see good tool it's
+
+---------13:54----------
+like spam thank you
+
+---------14:03----------
+by the way if you're wondering what
+
+---------14:04----------
+caused this 99% chance this was a
+
+---------14:08----------
+knockoff charger now what a lot of
+
+---------14:15----------
+people do also that I want to point out
+
+---------14:16----------
+here that's wrong
+
+---------14:18----------
+they put place the resistor and then
+
+---------14:20----------
+they try the hot air it I don't know
+
+---------14:23----------
+what it is but so many people have
+
+---------14:24----------
+something against simply holding the
+
+---------14:27----------
+resistor in place like I just did that
+
+---------14:28----------
+and I got it right in the pads but that
+
+---------14:32----------
+doesn't always happen most of the time
+
+---------14:34----------
+in these videos you'll see that I'm what
+
+---------14:37----------
+I do is I hold the resistor while I'm
+
+---------14:41----------
+putting it down this way I can ensure
+
+---------14:44----------
+that it doesn't move okay everything
+
+---------14:47----------
+there looks like it's back in place I
+
+---------14:49----------
+can put my 10 ohm resistor spool away
+
+---------14:53----------
+I'm sad that I lost one but that's what
+
+---------14:55----------
+I get for being lazy
+
+---------15:02----------
+kick off all the noisy stuff
+
+---------15:19----------
+still dead ha all right now we continue
+
+---------15:25----------
+let's see what we get
+
+---------15:27----------
+so PP buzz g3 hot is three point nine
+
+---------15:37----------
+six seven hmm
+
+---------15:39----------
+did I really fix my current sensing
+
+---------15:41----------
+circuit let's go back to resistance mode
+
+---------15:44----------
+measurements here I'm gonna measure the
+
+---------15:46----------
+resistance between pins 27 and 28 which
+
+---------15:48----------
+were for the current sensing circuit and
+
+---------15:51----------
+let's see I should ideally I should have
+
+---------15:52----------
+twenty point zero two and I have four
+
+---------15:57----------
+point 65 ohms again huh let's see I put
+
+---------16:00----------
+in a 10 ohm resistor and that 10 ohm
+
+---------16:04----------
+resistor is readings 4.52 kilo ohms
+
+---------16:06----------
+great I put in a 10 ohm resistor that
+
+---------16:11----------
+resistor is reading 143 ohms
+
+---------16:20----------
+WTF let's try this again
+
+---------16:25----------
+let's see what 1/16 of a watt is what I
+
+---------16:30----------
+have my resistors at and the schematic
+
+---------16:32----------
+says that those are supposed to be 1/16
+
+---------16:35----------
+of a watt 5% 5% tolerance so so what the
+
+---------16:40----------
+ is something else killing it that's
+
+---------16:44----------
+always possible that something else is
+
+---------16:46----------
+killing it alright so I tried to do the
+
+---------16:52----------
+quote unquote correct thing and take the
+
+---------16:54----------
+resistors out of a new spool now I'm
+
+---------16:56----------
+going to do the incorrect thing and make
+
+---------16:59----------
+make the trolls angry and just take the
+
+---------17:02----------
+resistor off of I'm just gonna take the
+
+---------17:06----------
+resistors off of a donor board see what
+
+---------17:08----------
+happens here fine
+
+---------17:10----------
+ it
+
+---------17:14----------
+and this time gonna measure the
+
+---------17:16----------
+resistance before I turn it on and after
+
+---------17:19----------
+I turn it on we'll see what's causing
+
+---------17:23----------
+this
+
+---------17:58----------
+that's a nice certified preowned
+
+---------18:00----------
+resistor
+
+---------18:07----------
+another certified preowned resistor I in
+
+---------18:13----------
+ceará
+
+---------18:18----------
+flow it in a place
+
+---------18:23----------
+okay now this time I'm gonna measure the
+
+---------18:26----------
+impedance or resistance before and after
+
+---------18:31----------
+so before I turn it on 10 ohms good
+
+---------18:39----------
+stuff the other one 10 ohms good stuff
+
+---------18:45----------
+okay now I'm gonna plug the charger in
+
+---------18:49----------
+and I'm gonna look under the microscope
+
+---------18:50----------
+at those resistors while I'm plugging
+
+---------18:53----------
+the charger in see if anything funny
+
+---------18:56----------
+happens here and your funny business
+
+---------18:59----------
+happening here
+
+---------19:07----------
+I don't see anything blow up
+
+---------19:14----------
+I also don't see anything turning on
+
+---------19:17----------
+well let's see
+
+---------19:19----------
+pp bus g3 hard at this point is
+
+---------19:30----------
+4.02
+
+---------19:41----------
+resistance of my resistors is 316 oh
+
+---------19:50----------
+okay okay and 1.5 million kilohms so now
+
+---------19:58----------
+I'm gonna do is I'm going to measure for
+
+---------19:59----------
+a short to ground anywhere around that
+
+---------20:01----------
+area to see if that's what's killing me
+
+---------20:03----------
+and of course this is interesting so on
+
+---------20:10----------
+this side let's do this in split view so
+
+---------20:12----------
+you can see what the I'm talking
+
+---------20:14----------
+about
+
+---------20:14----------
+alright so check this out so this on the
+
+---------20:18----------
+top that's where it's coming from the
+
+---------20:19----------
+shunt resistor on the bottom of each
+
+---------20:20----------
+resistor that's where it's going to the
+
+---------20:21----------
+chip so over here I have undyed more
+
+---------20:25----------
+0.48 one which is not a short two
+
+---------20:28----------
+grounds at all and on this side over
+
+---------20:30----------
+here
+
+---------20:31----------
+I have zero point zero one three which
+
+---------20:34----------
+in the context of this circuit is a
+
+---------20:36----------
+short to ground so let's take a look
+
+---------20:39----------
+here we're going to take the hot air and
+
+---------20:42----------
+what if I this capacitor over here is
+
+---------20:44----------
+actually going to ground so what if this
+
+---------20:46----------
+capacitor here is what's bad and it
+
+---------20:48----------
+wasn't that the resistors were bad but
+
+---------20:49----------
+rather that this capacitor is actually
+
+---------20:51----------
+killing my current sensing circuit
+
+---------20:52----------
+because one of the things you may notice
+
+---------20:53----------
+there's actually on each one of these
+
+---------20:55----------
+current sensing lines there is a
+
+---------20:57----------
+capacitor going to ground now it could
+
+---------21:01----------
+be something different it could be that
+
+---------21:03----------
+the ISL itself is bad or it could be
+
+---------21:05----------
+that this capacitor is bad but there's
+
+---------21:06----------
+only one way to figure that out
+
+---------21:07----------
+so let's disconnect the capacitor and
+
+---------21:09----------
+see if that's bad if that's going to
+
+---------21:12----------
+ground so I do this and I do this and I
+
+---------21:17----------
+still have a zero point zero one three
+
+---------21:18----------
+measurement which means and let me just
+
+---------21:20----------
+show you where that is on the schematic
+
+---------21:22----------
+it's time to actually put this in a
+
+---------21:23----------
+context so right over here so they just
+
+---------21:26----------
+make sure I'm in the right space are
+
+---------21:29----------
+7021 right over here
+
+---------21:30----------
+alright this end of the resistor there
+
+---------21:33----------
+is a short circuit to ground now there
+
+---------21:35----------
+are two ways that this could be shorted
+
+---------21:36----------
+to ground it could be shorted to ground
+
+---------21:37----------
+by sea 7121 which I just removed which
+
+---------21:40----------
+did not remove the short or the u7 7100
+
+---------21:43----------
+this could have failed and also shorted
+
+---------21:44----------
+to ground so the use 7100 is what failed
+
+---------21:47----------
+because when I remove the capacitor we
+
+---------21:48----------
+still have the same exact trait so now
+
+---------21:50----------
+we have to replace you 7,000 and I also
+
+---------21:52----------
+have to you seventy 100
+
+---------21:54----------
+I have to replace the buck converter I
+
+---------21:55----------
+see but then we also have to replace the
+
+---------21:57----------
+damn current sensing resistors again
+
+---------21:59----------
+because I'm an idiot who didn't realize
+
+---------22:00----------
+that the first time around
+
+---------22:02----------
+great alright so this is the third time
+
+---------22:07----------
+that I'm gonna be replacing the same
+
+---------22:08----------
+thing because I was being an idiot
+
+---------22:22----------
+so first things first is to put that
+
+---------22:24----------
+capacitor back on because that capacitor
+
+---------22:26----------
+did nothing wrong
+
+---------22:41----------
+and now is to remove the current sensing
+
+---------22:44----------
+resistors which we have to replace and
+
+---------22:46----------
+also of course the ISL 6259 which was
+
+---------22:49----------
+the culprit all along
+
+---------23:00----------
+there's no space in this desk I tried to
+
+---------23:03----------
+move the board up so you can see it
+
+---------23:04----------
+better in the microscope camera and I do
+
+---------23:07----------
+that and they hit the damn keyboard move
+
+---------23:10----------
+the keyboard up in the keyboard it's the
+
+---------23:11----------
+television New York is great you don't
+
+---------23:14----------
+have space for here
+
+---------23:40----------
+that's me soldering like an ape
+
+---------23:42----------
+recording to shock on eevblog I kind of
+
+---------23:45----------
+enjoy soldering like an ape though it's
+
+---------23:48----------
+like my I should make that my logo like
+
+---------23:52----------
+instead of a sheep I should also have an
+
+---------23:54----------
+ape logo me an ape next to it so why I
+
+---------24:00----------
+don't really post on forums like a lot
+
+---------24:01----------
+of people have suggested that I post on
+
+---------24:03----------
+these online forums and it's like what
+
+---------24:04----------
+why would I bother really
+
+---------24:07----------
+what the would I go out of my way
+
+---------24:09----------
+to do that it's mostly just a bunch of
+
+---------24:14----------
+truth it's kind of like the same reason
+
+---------24:16----------
+that I'm not really you know the most
+
+---------24:18----------
+sociable person you know meeting new
+
+---------24:22----------
+people sucks just a bunch of people that
+
+---------24:26----------
+are gonna go out of their way to insult
+
+---------24:30----------
+people they don't even know it like
+
+---------24:38----------
+other things I say on this channel about
+
+---------24:39----------
+people but they're usually people that I
+
+---------24:41----------
+know are people who have personally
+
+---------24:42----------
+caused me loss of money loss of time or
+
+---------24:45----------
+it's gone out of their way to make my
+
+---------24:47----------
+life difficult but like and I'm sure
+
+---------24:50----------
+that that's gonna get more widespread
+
+---------24:54----------
+the more subscribers that I get it's
+
+---------24:56----------
+like a lot of that crap that I read
+
+---------24:57----------
+online it's like there's like a lot of
+
+---------24:59----------
+hate when I had like 4000 subscribers
+
+---------25:02----------
+even back then I really didn't care
+
+---------25:04----------
+about joining forums and talking to
+
+---------25:06----------
+people very much honest about this stuff
+
+---------25:08----------
+it's just so much snark and who needs it
+
+---------25:14----------
+okay I'd rather stay here in my my
+
+---------25:19----------
+jungle and be an ape kind of like being
+
+---------25:23----------
+an ape
+
+---------25:26----------
+eat my banana play my Donkey Kong
+
+---------26:02----------
+hello
+
+---------26:08----------
+hello
+
+---------26:12----------
+hello
+
+---------26:15----------
+what's up that was it how's it going
+
+---------26:22----------
+Sean tired what can I do for you two
+
+---------26:50----------
+fine scrambled for me does it I would I
+
+---------27:06----------
+would
+
+---------27:07----------
+cake if you run GPU test does it for the
+
+---------27:10----------
+desert crash is it it was a dropped was
+
+---------27:15----------
+the liquid damaged or was it something
+
+---------27:17----------
+random make make them do it again and
+
+---------27:29----------
+demand and demand a 2015 retina for all
+
+---------27:32----------
+of her troubles I mean it's mostly that
+
+---------27:38----------
+I would just charge you can charge them
+
+---------27:41----------
+to back up their data or you could just
+
+---------27:42----------
+take the SSD out and just ask for a tip
+
+---------27:44----------
+and be nice but either that that machine
+
+---------27:47----------
+is just gonna be a [ __ ] if you
+
+---------27:48----------
+actually try to fix it for the ladies so
+
+---------27:50----------
+what I would do is I would just tell
+
+---------27:52----------
+them - I can take the SSD out for you
+
+---------27:54----------
+and put it in a little bag and you can
+
+---------27:56----------
+take this to Apple and just have them
+
+---------27:58----------
+replace the board for again it could be
+
+---------28:01----------
+the screen it could be the MUX which is
+
+---------28:03----------
+what switches between internal graphics
+
+---------28:04----------
+and next internal graphics and the GPU
+
+---------28:07----------
+because there are different pathways for
+
+---------28:09----------
+the ground I think there's different
+
+---------28:10----------
+pathways in that machine for the
+
+---------28:11----------
+graphics to get to the external monitor
+
+---------28:13----------
+versus the regular so it I'm pretty sure
+
+---------28:16----------
+it's the graphics chip though just from
+
+---------28:18----------
+what you've described and she just
+
+---------28:19----------
+probably got another shitty board from
+
+---------28:20----------
+Apple
+
+---------28:30----------
+what you should do because the thing is
+
+---------28:32----------
+Apple is very likely to do that and pull
+
+---------28:34----------
+some so what I would do is I
+
+---------28:36----------
+would tell tell the customer to tell
+
+---------28:38----------
+Apple the last time I went here they
+
+---------28:40----------
+took the SSD out of the computer and put
+
+---------28:42----------
+it in a bag for me so what you're gonna
+
+---------28:43----------
+do is tell her to tell the Genius Bar
+
+---------28:45----------
+clerk that the last time I was here
+
+---------28:47----------
+about this issue they said that they
+
+---------28:49----------
+could take my SSD out and that they did
+
+---------28:51----------
+it because that that works
+
+---------28:54----------
+I've used that on people before and that
+
+---------28:55----------
+works they they because they come back
+
+---------28:56----------
+and they tell me yeah work thank you or
+
+---------28:59----------
+otherwise they're just going to wipe her
+
+---------29:00----------
+data and be pricks for no reason
+
+---------29:12----------
+I was happy to see that you fixed the
+
+---------29:14----------
+one with the keyboard issue after the
+
+---------29:16----------
+class that was funny you called in the
+
+---------29:42----------
+middle of a YouTube video so you're
+
+---------29:43----------
+actually gonna what this phone call is
+
+---------29:44----------
+gonna wind up being in a YouTube video
+
+---------29:46----------
+so if this vid if this board works and
+
+---------29:48----------
+doesn't go on fire this will actually
+
+---------29:49----------
+serve as my advertising Thank You Sean
+
+---------30:00----------
+see you later
+
+---------30:02----------
+and just as he says that the board
+
+---------30:05----------
+actually works see Sean calling was my
+
+---------30:06----------
+good luck charm he was a he was a
+
+---------30:08----------
+student that came to the class and he
+
+---------30:10----------
+also came to my personal tutoring here
+
+---------30:12----------
+for for a week he went from not fixing
+
+---------30:15----------
+back light fuses on this stuff to -
+
+---------30:19----------
+fixing like quarter fan spin and like
+
+---------30:22----------
+LVDS MUX issues and no keyboard because
+
+---------30:25----------
+I had to run jumper wires all over the
+
+---------30:27----------
+board and it's pretty cool I like like
+
+---------30:28----------
+the thing I like about Sean is he's one
+
+---------30:30----------
+of those people that is down-to-earth
+
+---------30:32----------
+honest and humble so even if he knows
+
+---------30:34----------
+something or he knows something that you
+
+---------30:35----------
+don't know he's not gonna act like an
+
+---------30:36----------
+[ __ ] about it he's always a downer
+
+---------30:38----------
+'the humble really nice guy like you
+
+---------30:40----------
+know not like most of the [ __ ] that
+
+---------30:42----------
+I meet in New York but you know I'm
+
+---------30:44----------
+really happy when I see people like that
+
+---------30:46----------
+that are successful like again I still
+
+---------30:48----------
+remember there was this one dude that
+
+---------30:49----------
+came here and he said you know I've just
+
+---------30:52----------
+been working at a recycling company for
+
+---------30:53----------
+a really short period of time before
+
+---------30:55----------
+that I was a pizza store clerk and I
+
+---------30:57----------
+worked at a pizza store and hehe and
+
+---------31:00----------
+there was another person that I had here
+
+---------31:02----------
+at the same time and he was really it
+
+---------31:04----------
+was particularly insecure person and
+
+---------31:06----------
+he's asking about you know the
+
+---------31:07----------
+backgrounds of all the people coming and
+
+---------31:08----------
+he's like pizza store well how was he
+
+---------31:10----------
+gonna expect to learn this when he came
+
+---------31:12----------
+here from a pizza store well the first
+
+---------31:14----------
+guy at the pizza store dude fixed over
+
+---------31:16----------
+21 boards within less than a month of
+
+---------31:18----------
+going back home it was company and the
+
+---------31:20----------
+guy he was making fun of the pizza store
+
+---------31:22----------
+guy has
+
+---------31:23----------
+it's not fixed over 20 boards so you
+
+---------31:27----------
+know it's just one of those things where
+
+---------31:28----------
+you know I really like seeing humble
+
+---------31:30----------
+people become successful you know it's
+
+---------31:33----------
+just you know cherry on top when it's
+
+---------31:36----------
+because of my teaching but yeah check it
+
+---------31:39----------
+out so we had a current sensing issue
+
+---------31:40----------
+and the current sensing issue with the
+
+---------31:42----------
+current sensing circuit went dead went
+
+---------31:44----------
+dead after the current section current
+
+---------31:47----------
+sensing section of the ISL 6259 which is
+
+---------31:50----------
+the buck converter chip over here doe I
+
+---------31:54----------
+just closed the window by doing that
+
+---------31:56----------
+when dead so went dead was the current
+
+---------32:00----------
+sensing section of you 7100 it shorted
+
+---------32:02----------
+to ground right on this pin and on CSI P
+
+---------32:06----------
+and when that happened it would kill
+
+---------32:08----------
+this resistor because you pretty much be
+
+---------32:10----------
+sending the 16 volts from the discharger
+
+---------32:13----------
+the 16 volts coming to the charge would
+
+---------32:14----------
+pretty much get shorted to ground at
+
+---------32:15----------
+this particular point and this it's
+
+---------32:18----------
+actually good again if this resistor
+
+---------32:20----------
+wasn't there you'd be shorting the
+
+---------32:21----------
+charger to ground and destroying a lot
+
+---------32:23----------
+more stuff so it's good that our 7121 is
+
+---------32:25----------
+there it's good that our 7121 kept it
+
+---------32:27----------
+from dying and it's good that this works
+
+---------32:28----------
+because it means I get to give it back
+
+---------32:30----------
+to my customer and yeah that's pretty
+
+---------32:33----------
+cool
+

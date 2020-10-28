@@ -1,0 +1,787 @@
+https://www.youtube.com/watch?v=QSsXeTbhXfo
+---------00:00----------
+hi today I want to go over a very very
+
+---------00:02----------
+common Fault on Apple boards when you
+
+---------00:04----------
+don't hear a chime on startup and there
+
+---------00:06----------
+was some sort of liquid damage and that
+
+---------00:08----------
+is in the power circuit for the CPU so
+
+---------00:12----------
+there is a buck converter that does
+
+---------00:14----------
+something that converts a higher DC
+
+---------00:16----------
+voltage into a lower DC voltage using a
+
+---------00:19----------
+switching power supply so on the back of
+
+---------00:22----------
+this board honestly I don't even
+
+---------00:24----------
+remember off the top of my head where it
+
+---------00:25----------
+is but somewhere in the back of this
+
+---------00:26----------
+board there were two transistors that go
+
+---------00:29----------
+from the high power supply of the board
+
+---------00:31----------
+to ground and they create a bunch of
+
+---------00:34----------
+little pulses that tell the CPU to turn
+
+---------00:35----------
+on so I demonstrated this to you in a
+
+---------00:37----------
+prior video and I explained what this is
+
+---------00:40----------
+so if you don't know what this is or how
+
+---------00:41----------
+this works if looking at this confuses
+
+---------00:43----------
+the crap out of you look at the other
+
+---------00:45----------
+video it's the eight to zero
+
+---------00:47----------
+30:23 video or I explained how the CPU
+
+---------00:50----------
+power supply works in a MacBook it's a
+
+---------00:52----------
+very very very very overly basic
+
+---------00:54----------
+explanation but it's enough that you're
+
+---------00:56----------
+not going to be incredibly confused when
+
+---------00:57----------
+you see it now one of the things that
+
+---------01:00----------
+goes wrong very often in this circuit
+
+---------01:02----------
+because all you guys are always looking
+
+---------01:03----------
+for the quick answer for the monkey-see
+
+---------01:05----------
+monkey-do crap where you know somebody
+
+---------01:07----------
+just gives you the quick answer to
+
+---------01:08----------
+everything and one of the things that
+
+---------01:10----------
+I'm always telling you is that there are
+
+---------01:11----------
+no quick and easy answers for everything
+
+---------01:13----------
+that you actually have to think that you
+
+---------01:14----------
+have to use your brain but on some cases
+
+---------01:16----------
+the answer is just so obvious that you
+
+---------01:19----------
+know and it's such a common issue that
+
+---------01:21----------
+it's something that you should look for
+
+---------01:22----------
+and I truly hate this because I'm
+
+---------01:24----------
+encouraging this idea to look for the
+
+---------01:26----------
+one little thing that's wrong I don't
+
+---------01:28----------
+want you like going through a checklist
+
+---------01:29----------
+of things I want you using your brain to
+
+---------01:31----------
+find what the actual issue is but
+
+---------01:33----------
+whatever I might as well show this to
+
+---------01:35----------
+you so this happens on a ton of them
+
+---------01:37----------
+it's called the CPU I MVP ton resistor
+
+---------01:39----------
+let me show you where this is up here so
+
+---------01:46----------
+so this this 90.9 kilohm resistor and in
+
+---------01:50----------
+the case of some of the newer Apple
+
+---------01:51----------
+boards like the eight to zero 33 30 it's
+
+---------01:53----------
+actually gonna be a couple of higher ohm
+
+---------01:56----------
+resistors so it's usually like two 180
+
+---------01:58----------
+kilometres or something like that this
+
+---------02:00----------
+thing is very often dead now this is on
+
+---------02:02----------
+a MacBook Air it's going from the 8 volt
+
+---------02:04----------
+power supply and on a MacBook Pro it's
+
+---------02:06----------
+from the 12 volt power supply so this is
+
+---------02:08----------
+coming from a very very high voltage up
+
+---------02:10----------
+here because that pp VI NS v HS
+
+---------02:12----------
+competing whatever the [ __ ] that's
+
+---------02:14----------
+called that is coming from the 12 point
+
+---------02:16----------
+6 volts that the computer is using to
+
+---------02:18----------
+pretty much turn itself on so anytime
+
+---------02:20----------
+you have a fault and it's a fault that's
+
+---------02:22----------
+happening at a higher voltage like
+
+---------02:23----------
+something happening on PP but g3 huh
+
+---------02:25----------
+which is the 12 point 6 volt voltage
+
+---------02:27----------
+that the whole board runs on any time
+
+---------02:29----------
+you have a fault on backlight which is
+
+---------02:31----------
+you know upwards of 30 40 50 volts
+
+---------02:34----------
+you're gonna have some issues and you
+
+---------02:37----------
+think they're going to be very very
+
+---------02:38----------
+obvious
+
+---------02:39----------
+when you look at the motherboard so
+
+---------02:41----------
+let's get an idea what this board looked
+
+---------02:43----------
+like here just go down on this table a
+
+---------02:46----------
+little bit and do some zoom
+
+---------03:05----------
+here we go so there is my fix now very
+
+---------03:08----------
+often that resistor is destroyed you can
+
+---------03:10----------
+kiss that resistor goodbye in virtually
+
+---------03:11----------
+every case where I've had to do
+
+---------03:13----------
+something like this what I've had to do
+
+---------03:15----------
+is I mean the resistor itself is
+
+---------03:17----------
+completely gone on one side and most of
+
+---------03:20----------
+the time the pad is too so most of the
+
+---------03:21----------
+time you're not just replacing this
+
+---------03:23----------
+resistor because when this blows it
+
+---------03:24----------
+blows in such a violent fashion that the
+
+---------03:27----------
+pad for it is actually messed up in
+
+---------03:28----------
+addition to the actual resistor so let
+
+---------03:32----------
+me show you what that looks like under
+
+---------03:33----------
+the microscope
+
+---------03:35----------
+alrighty where are you go so microscope
+
+---------03:41----------
+so let's take a look at this so as I
+
+---------03:44----------
+said this is an LVDS wire from an a 1150
+
+---------03:47----------
+MacBook Pro this is nothing special I
+
+---------03:49----------
+have a lot of these still left as you
+
+---------03:51----------
+can see here so this is what I'm using
+
+---------03:54----------
+it works very very well for the task
+
+---------03:56----------
+that's at hand here it's insulated which
+
+---------04:03----------
+is nice it's free and above all the most
+
+---------04:06----------
+important trade of this wire it's right
+
+---------04:09----------
+next to me so I mean how can you argue
+
+---------04:11----------
+with that so it's going from here so one
+
+---------04:14----------
+of the things that I did to figure out
+
+---------04:16----------
+what I'm supposed to do here is show you
+
+---------04:19----------
+on the schematic I mean on the board
+
+---------04:21----------
+view so I'm looking for pp VIN
+
+---------04:25----------
+underscore s v underscore HS underscore
+
+---------04:28----------
+computing underscore I sense that is a
+
+---------04:31----------
+mouthful all right so one of the things
+
+---------04:33----------
+that I do is I use a feature called nets
+
+---------04:36----------
+on this which is going to allow me to
+
+---------04:38----------
+look at every single part of the board
+
+---------04:41----------
+that has a specific signal or a specific
+
+---------04:43----------
+voltage running to it so here's what I'm
+
+---------04:47----------
+gonna do with this okay let's zoom a
+
+---------04:51----------
+little so I hit n and on my other screen
+
+---------04:55----------
+because this program is a piece of
+
+---------04:56----------
+garbage that hasn't been updated since
+
+---------04:57----------
+1995 I'm not kidding look it up by the
+
+---------05:03----------
+way well you people asking me like
+
+---------05:04----------
+what's the name of the software that I
+
+---------05:06----------
+use like half at the time I am zoomed in
+
+---------05:08----------
+on the software and you can see the bar
+
+---------05:10----------
+I mean could you like pick pause and
+
+---------05:12----------
+write it down or something before you
+
+---------05:14----------
+ask because I mean it's not I'm not
+
+---------05:16----------
+trying to be a dick truly but it just
+
+---------05:17----------
+makes it seem like you're not even
+
+---------05:18----------
+trying
+
+---------05:19----------
+to learn this and there is so much
+
+---------05:21----------
+learning that you have to do there's so
+
+---------05:23----------
+much trying and trial and error and
+
+---------05:25----------
+research that you have to do to get this
+
+---------05:26----------
+type of work done when I see that I
+
+---------05:28----------
+literally zoomed in on the software
+
+---------05:30----------
+where you can clearly see the name of it
+
+---------05:32----------
+and you are asking me what software I
+
+---------05:34----------
+use what did what this does and again
+
+---------05:37----------
+I'm gonna sound like a dick for saying
+
+---------05:38----------
+this it makes it sound like you look
+
+---------05:40----------
+like you have not even tried and if you
+
+---------05:43----------
+haven't even tried with something that's
+
+---------05:44----------
+simple then you're probably not gonna
+
+---------05:46----------
+try with the rest of the difficult to
+
+---------05:48----------
+figure it out which is why I haven't
+
+---------05:49----------
+answered these questions again it's not
+
+---------05:51----------
+me trying to be a dick even though it's
+
+---------05:52----------
+gonna seem like it but if you don't have
+
+---------05:54----------
+it in your head to look for the answers
+
+---------05:56----------
+when they're literally right in front of
+
+---------05:58----------
+you how are you how do you expect to
+
+---------06:00----------
+start doing this like truly I mean this
+
+---------06:03----------
+requires some some work and a lot of
+
+---------06:05----------
+research unless you're just a boring
+
+---------06:08----------
+genius which I am not who just was born
+
+---------06:10----------
+knowing that smc be [ __ ] smc bc a [ __ ]
+
+---------06:14----------
+goes high only when charger AC it works
+
+---------06:17----------
+all right so when I do this what it's
+
+---------06:20----------
+doing right now is it's pretty much
+
+---------06:21----------
+showing me every point on the board that
+
+---------06:24----------
+this shows up so instead of me having a
+
+---------06:26----------
+look to find you know go through all the
+
+---------06:28----------
+components and see which one is closest
+
+---------06:29----------
+I can simply see where the closest point
+
+---------06:33----------
+is where I can steal this from so here
+
+---------06:35----------
+is the resistor that when that got
+
+---------06:37----------
+[ __ ] right over here that pad is blown
+
+---------06:39----------
+off so what I said I got a new 90.9
+
+---------06:41----------
+kiloohm resistor it's actually won right
+
+---------06:44----------
+by the backlight circuit on an eight to
+
+---------06:45----------
+zero twenty eight fifty I have a lot of
+
+---------06:47----------
+eight to zero twenty eight fifty s here
+
+---------06:49----------
+because it is a piece of crap on fixable
+
+---------06:51----------
+board so that's the one that I have the
+
+---------06:53----------
+most of to steal components off of so I
+
+---------06:55----------
+have that little resistor there see ya
+
+---------06:57----------
+can you lock the door and this is the
+
+---------07:01----------
+nearest point from which I can steal so
+
+---------07:03----------
+what I did as you can see in the
+
+---------07:05----------
+microscope is I ran a wire from that
+
+---------07:07----------
+capacitor very scientific very
+
+---------07:09----------
+methodical and right over to here and as
+
+---------07:19----------
+you can see here I cut out some footage
+
+---------07:21----------
+because my camera actually froze but
+
+---------07:23----------
+this is that board with the wire on it
+
+---------07:24----------
+and it is I do have a white screen here
+
+---------07:27----------
+that white screen is soon going to turn
+
+---------07:29----------
+into a question mark folder which I'll
+
+---------07:30----------
+show you and sometimes you could just
+
+---------07:32----------
+tell them people
+
+---------07:33----------
+the kind of asking the wrong question
+
+---------07:34----------
+it's like are you certified how much is
+
+---------07:36----------
+that part that you're putting in even
+
+---------07:38----------
+cost like is Apple gonna know that you
+
+---------07:41----------
+were there why are they gonna know that
+
+---------07:43----------
+you're there
+
+---------07:44----------
+well jackass because you decided to
+
+---------07:46----------
+spill on Coca Cola on your $2,700
+
+---------07:48----------
+computer and as a result of that I had
+
+---------07:50----------
+two choices I could tell you [ __ ] you
+
+---------07:53----------
+you have to buy a new computer or would
+
+---------07:55----------
+you like me to put this wire on and
+
+---------07:57----------
+charge you two hundred bucks so that you
+
+---------07:58----------
+could be on your merry way and most
+
+---------08:01----------
+people would want the 200 bucks and be
+
+---------08:03----------
+on their merry way but on rare occasion
+
+---------08:06----------
+there are people that actually value
+
+---------08:08----------
+Apple not being able to tell that you
+
+---------08:09----------
+were there so much that they would
+
+---------08:11----------
+simply rather buy a new machine and
+
+---------08:13----------
+that's that's truly a level of a
+
+---------08:14----------
+paranoia that I'm you're not it really
+
+---------08:16----------
+interested in dealing with and as you
+
+---------08:19----------
+can see this is the same board same wire
+
+---------08:22----------
+beautiful and it works just fine
+
+---------08:25----------
+so yeah the CPU I am VP underscore ton
+
+---------08:28----------
+resistor is something that blows very
+
+---------08:31----------
+very often it is a very very common
+
+---------08:32----------
+fault and it's something that you should
+
+---------08:35----------
+look for when your computer is not
+
+---------08:36----------
+chiming if you have no V core and also
+
+---------08:39----------
+another thing a lot of people they
+
+---------08:41----------
+mistake no CPU vcore for no video so a
+
+---------08:45----------
+lot of the times they turn it on
+
+---------08:46----------
+everything works and they've got no
+
+---------08:49----------
+nothing on the screen and a lot of the
+
+---------08:50----------
+times in these tickets I'll even see
+
+---------08:52----------
+technicians putting in no video they'll
+
+---------08:54----------
+try a new screen they'll try all this
+
+---------08:56----------
+crap to get video to work they'll even
+
+---------08:58----------
+check the backlight fuse and it's if
+
+---------08:59----------
+your [ __ ] is not chiming if this is not
+
+---------09:02----------
+chiming and if you actually measure it
+
+---------09:04----------
+on the multimeter and you see that there
+
+---------09:06----------
+is no vcore stop do not pass go do not
+
+---------09:10----------
+do it try to do anymore [ __ ] do not plug
+
+---------09:12----------
+in the screen into it because you have
+
+---------09:13----------
+no V core you need CPU v core the CPU
+
+---------09:16----------
+has to be powered before you can look at
+
+---------09:18----------
+anything else so think about the last
+
+---------09:21----------
+board that you had where it had no you
+
+---------09:23----------
+said no video did it really have no
+
+---------09:25----------
+video and that's something that's really
+
+---------09:27----------
+easy to misdiagnose on this board
+
+---------09:28----------
+because sometimes sometimes the GPU
+
+---------09:31----------
+[ __ ] up so badly that it doesn't even
+
+---------09:34----------
+chime anymore and it keeps the computer
+
+---------09:36----------
+from booting properly and this is at a
+
+---------09:39----------
+2-0 2915 board if I forgot to mention
+
+---------09:41----------
+which is one of the one of the like that
+
+---------09:43----------
+up there with the crappiest mother boys
+
+---------09:45----------
+that
+
+---------09:46----------
+has ever made so it's just something to
+
+---------09:48----------
+be cautious of something to think about
+
+---------09:49----------
+hopefully you learned something and
+
+---------09:52----------
+that's it for today
+

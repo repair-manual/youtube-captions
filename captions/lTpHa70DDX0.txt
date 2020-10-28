@@ -1,0 +1,802 @@
+https://www.youtube.com/watch?v=lTpHa70DDX0
+---------00:02----------
+hey everybody how's it going so today
+
+---------00:04----------
+we're gonna be getting started on a 1990
+
+---------00:06----------
+MacBook that's not turning on so the
+
+---------00:20----------
+batteries unplug and it looks like we're
+
+---------00:22----------
+taking 20 milliamps at 5.15 volts 20
+
+---------00:25----------
+milliamps is not very good it's supposed
+
+---------00:26----------
+to be giving us about 200 milliamps and
+
+---------00:28----------
+then jump up to 20 volts which is not
+
+---------00:31----------
+doing G b3 b3 g 3 hot RTC is right there
+
+---------00:34----------
+and that power line is going into the
+
+---------00:37----------
+chip and it's gonna provide voltage on V
+
+---------00:39----------
+in do you get we get 0 volts on PP 3 V 3
+
+---------00:41----------
+RT C well we get 3 volts there so let's
+
+---------00:45----------
+chase back and take a look at where PP 3
+
+---------00:47----------
+V 3 underscore g3 ha underscore RTC
+
+---------00:49----------
+comes from alright pp 3 V 3 underscore
+
+---------00:51----------
+g3 hot is going to come out of you 6960
+
+---------00:54----------
+let's take a look at you 69 6 2 u 69 60s
+
+---------00:57----------
+right here now before we blame the chip
+
+---------00:59----------
+for not making it let's see if it's
+
+---------01:01----------
+actually getting its enable and its
+
+---------01:03----------
+enable is gonna be present on our 6 968
+
+---------01:05----------
+our 6 9 6 8 over here is going to be
+
+---------01:09----------
+charge or enable MV R if we go over here
+
+---------01:12----------
+to use 6960 i'm gonna check and see if
+
+---------01:14----------
+there's voltage on the enable so let's
+
+---------01:16----------
+find that that's gonna be over here the
+
+---------01:18----------
+resistor I need for measuring enable is
+
+---------01:20----------
+gonna be the second one down and there's
+
+---------01:25----------
+no enable now where does that enable
+
+---------01:28----------
+come from if you look over here are 6 9
+
+---------01:31----------
+6 8 is going to go to this chip you 7000
+
+---------01:39----------
+and you 7000 is over here
+
+---------01:47----------
+the ISL 9 to 4 0 so that chip needs to
+
+---------01:51----------
+make the enable in order for this to
+
+---------01:52----------
+work let's take a look at what that
+
+---------01:54----------
+looks like on the board right over here
+
+---------01:55----------
+our intersil ISL 9 2 4 0 so here what
+
+---------01:59----------
+I'd like to do is give this chip a minor
+
+---------02:01----------
+reflow I'm just gonna put the syringe
+
+---------02:03----------
+for flux over it put some flux there and
+
+---------02:05----------
+you're gonna notice that right as I do
+
+---------02:06----------
+that there is an immediate crack evident
+
+---------02:09----------
+on the bottom right of this trip these
+
+---------02:10----------
+are very very fragile chips and it's
+
+---------02:14----------
+very easy for them to crack if there's
+
+---------02:15----------
+any sort of drop or shocks of the
+
+---------02:17----------
+machine and they do die very often it's
+
+---------02:20----------
+very common that this chip dies whether
+
+---------02:22----------
+it's the iso 9241 this machine or the
+
+---------02:24----------
+iso nine two three nine in the two
+
+---------02:26----------
+thousand sixteen and seventeen machines
+
+---------02:28----------
+as you can see from these many videos
+
+---------02:30----------
+that i'm going to link to above where
+
+---------02:31----------
+you can watch a border pair where the
+
+---------02:34----------
+primary causes that stopped working
+
+---------02:36----------
+was the inner sole chip so this is
+
+---------02:41----------
+really not an uncommon repair by any
+
+---------02:44----------
+means it's a chip that is regularly
+
+---------02:47----------
+required if you want to do repairs on
+
+---------02:49----------
+these machines as you can see there's no
+
+---------02:54----------
+change it's taking the exact same amount
+
+---------02:56----------
+of power it was before and it stuck at
+
+---------02:58----------
+twenty volts because we don't have PP
+
+---------03:00----------
+3v3 underscore g3 hot which just as with
+
+---------03:03----------
+all the older machines the a 1707 is the
+
+---------03:05----------
+a 1708 SDA 1706 s is required for the
+
+---------03:09----------
+USB C port controller to speak to the
+
+---------03:11----------
+charger and tell the charger to put out
+
+---------03:13----------
+20 volts rather than 5 volts it's only
+
+---------03:15----------
+putting out 20 volts because it's not
+
+---------03:17----------
+able to communicate with the machine now
+
+---------03:18----------
+on the older machines when something
+
+---------03:19----------
+like this would happen I would simply
+
+---------03:21----------
+buy an ISL nine to three nine few bucks
+
+---------03:23----------
+and replace it even if it costs more
+
+---------03:25----------
+than a few bucks that's fine this board
+
+---------03:27----------
+goes for over twelve fifteen hundred
+
+---------03:28----------
+dollars so that that's a nice way to you
+
+---------03:31----------
+know save a customer over a thousand
+
+---------03:32----------
+bucks for something that often was not
+
+---------03:34----------
+their fault whereas on this machine here
+
+---------03:36----------
+with the new one the difference is that
+
+---------03:38----------
+I can't buy an is all nine two four zero
+
+---------03:40----------
+which means that this board which cost
+
+---------03:42----------
+about $1,500 is now a brick completely
+
+---------03:45----------
+utterly useless now you may want why
+
+---------03:47----------
+can't you buy that chip
+
+---------03:48----------
+well what Apple does is they tell
+
+---------03:50----------
+Intersil slash Renaissance don't sell
+
+---------03:52----------
+this chip to anybody but us don't sell
+
+---------03:54----------
+this chip to any other sub vendors don't
+
+---------03:56----------
+sell it to Mouser don't sell if the
+
+---------03:58----------
+digi-key don't sell to other people in
+
+---------03:59----------
+China
+
+---------04:00----------
+sure that we're the only people that can
+
+---------04:02----------
+get this chip to work on our product
+
+---------04:03----------
+what that means is that this $1500 board
+
+---------04:06----------
+is now a doorstep thanks to Apple now
+
+---------04:09----------
+you may wonder Lois why don't you just
+
+---------04:11----------
+become an Apple Authorized repair
+
+---------04:12----------
+service Apple authorized service
+
+---------04:14----------
+provider then you can get access to this
+
+---------04:15----------
+wrong if I was an Apple authorized
+
+---------04:18----------
+service provider I would not be able to
+
+---------04:19----------
+buy an ISO nine two four zero if I
+
+---------04:21----------
+walked into an Apple store I took every
+
+---------04:23----------
+certification they have jumped through
+
+---------04:25----------
+every single hoop I still would not be
+
+---------04:26----------
+able to get that chip this $1500 board
+
+---------04:29----------
+is now worth nothing as a result of the
+
+---------04:33----------
+way that they treat independent repair
+
+---------04:35----------
+centers and their customers would it
+
+---------04:37----------
+kill them to make a chip that used to be
+
+---------04:39----------
+available available again like it but if
+
+---------04:41----------
+you go back to 2009 10 11 12 13 14 15 16
+
+---------04:45----------
+17 the world ends because I was able to
+
+---------04:48----------
+buy a charging chip there's no argument
+
+---------04:50----------
+to be made that this is for security
+
+---------04:51----------
+purposes or for data security what this
+
+---------04:53----------
+chip does is it says make a power rail
+
+---------04:56----------
+that allows a charger to turn on put 20
+
+---------04:59----------
+volts of the computer charge the battery
+
+---------05:01----------
+and read how much current the battery is
+
+---------05:04----------
+using that's it and if you go back two
+
+---------05:06----------
+thousand nine ten 11 12 13 14 15 16 17
+
+---------05:10----------
+18 where I could buy in is L 6 2 5 8 or
+
+---------05:13----------
+buy in is L 6 2 5 9 or buy an iso nine
+
+---------05:16----------
+two three nine did the world end where
+
+---------05:18----------
+computers blowing up left and right
+
+---------05:20----------
+where consumers pissed off at how much
+
+---------05:22----------
+data I stole and just uploaded to Flickr
+
+---------05:24----------
+account
+
+---------05:25----------
+were they pissed off that I was jerking
+
+---------05:27----------
+off to pictures of them I saw in their
+
+---------05:28----------
+encrypted SSD because I had access to a
+
+---------05:30----------
+chip that charges the battery no but
+
+---------05:34----------
+that's what people want you to think
+
+---------05:35----------
+that's what the lobbyists want you to
+
+---------05:37----------
+think when they speak at these anti
+
+---------05:39----------
+right to a pair here with their traffic
+
+---------05:41----------
+images is for me to not be able to have
+
+---------05:43----------
+access to a chip that costs a few
+
+---------05:45----------
+dollars at a price premium so that I can
+
+---------05:47----------
+make a $1,500 board not be a doorstop
+
+---------05:50----------
+this repair is going to end at this
+
+---------05:51----------
+point because I don't have the ability
+
+---------05:53----------
+to get in is l9 c40 nobody's been able
+
+---------05:56----------
+to source an ISO 9404 a on it somebody's
+
+---------06:00----------
+able to find me an is all 94 zero there
+
+---------06:02----------
+maybe if you know nice for 4 figure
+
+---------06:04----------
+awarding it for you but at the end of
+
+---------06:06----------
+the day know regardless of what I've
+
+---------06:08----------
+said nobody's been able to source it so
+
+---------06:10----------
+this is where this repair comes to an
+
+---------06:12----------
+end and if people don't start to
+
+---------06:14----------
+be consider say hey you know I'm not
+
+---------06:16----------
+gonna buy your products if you do this
+
+---------06:18----------
+in the future then this is the future
+
+---------06:21----------
+that we're headed towards so I'm gonna
+
+---------06:22----------
+be cutting this repair short because
+
+---------06:24----------
+there's absolutely nothing I could do at
+
+---------06:25----------
+this point to make this work again and
+
+---------06:27----------
+since this machine has an SSD that
+
+---------06:29----------
+soldered onto the board and no longer
+
+---------06:30----------
+has a lifeboat connector and it's
+
+---------06:32----------
+encrypted by the t2 chip I also have to
+
+---------06:34----------
+tell this customer that there's no way
+
+---------06:35----------
+for them to get access to their data
+
+---------06:36----------
+because a five dollar chip that allows
+
+---------06:40----------
+the battery to charge and creates a
+
+---------06:42----------
+power of allows the charger to turn on
+
+---------06:44----------
+is not made available even if you don't
+
+---------06:46----------
+want to sell to the end consumer even if
+
+---------06:48----------
+you don't want to sell to third-party
+
+---------06:49----------
+repair or even authorized repair shops
+
+---------06:51----------
+or deal with the resale of chips is it
+
+---------06:53----------
+really necessary for you to go to the
+
+---------06:55----------
+OEM of that chip and say hey I know that
+
+---------06:57----------
+this is a standard charge controller can
+
+---------06:59----------
+you change one tiny piece of it so that
+
+---------07:02----------
+it only works with our machine and then
+
+---------07:04----------
+never sell it to anybody else ever again
+
+---------07:07----------
+is that the future that we want is this
+
+---------07:10----------
+something that is necessary do you want
+
+---------07:12----------
+to live in a world when you go to a
+
+---------07:13----------
+mouse or digikey.com there's no chips
+
+---------07:16----------
+there because 98% of them were just
+
+---------07:17----------
+taken off the market because they got
+
+---------07:19----------
+used in other people's refrigerators
+
+---------07:20----------
+toasters and computers and that they
+
+---------07:22----------
+don't want anybody being able to fix can
+
+---------07:23----------
+you imagine a future where you go to
+
+---------07:25----------
+autozone and all of the shelves are
+
+---------07:27----------
+completely empty and you're never able
+
+---------07:29----------
+to fix your own car because Chevy and
+
+---------07:31----------
+Honda and Ford and Toyota and all these
+
+---------07:34----------
+companies made agreements with the
+
+---------07:35----------
+manufacturers of all the car parts and
+
+---------07:37----------
+said don't sell these to anybody but us
+
+---------07:39----------
+this is not necessary and as a
+
+---------07:41----------
+free-market capitalist this is something
+
+---------07:44----------
+that is honestly killing free market
+
+---------07:46----------
+capitalism the concept of trying to
+
+---------07:49----------
+restrict the market by having this type
+
+---------07:51----------
+of chokehold on it where you're actually
+
+---------07:53----------
+telling companies that want to be able
+
+---------07:55----------
+to sell these products that they cannot
+
+---------07:57----------
+sell these products even if you dislike
+
+---------07:59----------
+me even if you hate me even if you love
+
+---------08:02----------
+Apple products you love using them
+
+---------08:04----------
+they're great and you think everything I
+
+---------08:06----------
+do is trash from just a pure
+
+---------08:09----------
+self-interest point of view advocating
+
+---------08:12----------
+for this type of behavior goes against
+
+---------08:14----------
+your own self-interest because some day
+
+---------08:16----------
+something may happen to that product a
+
+---------08:18----------
+little bit out of warranty when you
+
+---------08:19----------
+don't have the extra money to just buy a
+
+---------08:21----------
+new one and you may actually want that
+
+---------08:23----------
+to work again or dare I say the most
+
+---------08:25----------
+recent backup for something very
+
+---------08:27----------
+important was the
+
+---------08:28----------
+today and you added a lot of important
+
+---------08:29----------
+stuff today and you need that thing to
+
+---------08:31----------
+turn on again at some point you're going
+
+---------08:33----------
+to be in a position where this is gonna
+
+---------08:36----------
+bother you and what I'm advocating for
+
+---------08:37----------
+is not that you like me that you
+
+---------08:39----------
+subscribe or that you enjoy what I do or
+
+---------08:41----------
+that you agree with my opinions moving
+
+---------08:43----------
+outside of that partisan us-versus-them
+
+---------08:45----------
+god I make a gotcha moment crap that
+
+---------08:47----------
+people so quickly fall into is this
+
+---------08:50----------
+really a point that is worth defending
+
+---------08:53----------
+is this really something that's worth
+
+---------08:54----------
+advocating for even if you are on the
+
+---------08:56----------
+Pro Apple side because on the pro repair
+
+---------08:58----------
+side even I'm able to look at certain
+
+---------09:00----------
+things like a factory in China taking an
+
+---------09:03----------
+Apple logo and stamping it on products
+
+---------09:05----------
+that are not even remotely an Apple
+
+---------09:07----------
+product and say you know what no that's
+
+---------09:08----------
+wrong that's not something I'm gonna
+
+---------09:10----------
+defend that's something I'm going to
+
+---------09:11----------
+call out because it is it's reasonable
+
+---------09:13----------
+it's something that the other side is
+
+---------09:14----------
+saying is wrong and I'm able to say
+
+---------09:16----------
+that's something that would piss me off
+
+---------09:17----------
+too so even if you are in the Pro Apple
+
+---------09:20----------
+side can you kind of somewhat understand
+
+---------09:22----------
+how a particular action or tactic like
+
+---------09:24----------
+this might aggravate people who were on
+
+---------09:26----------
+the repair side that's not the way
+
+---------09:28----------
+manufacturing technology or anything
+
+---------09:30----------
+worked in this country for the longest
+
+---------09:32----------
+time up until very recently and it's not
+
+---------09:34----------
+something that's going to change unless
+
+---------09:36----------
+a large group of people say you know
+
+---------09:38----------
+what I'm not dealing with it anymore and
+
+---------09:40----------
+what I'm suggesting is not that you like
+
+---------09:42----------
+is not that you subscribe it's not that
+
+---------09:44----------
+you even agree with everything it is I
+
+---------09:46----------
+have to say but just ask think is this
+
+---------09:48----------
+really the best way to go going forward
+
+---------09:50----------
+that's it for today and as always I hope
+
+---------09:52----------
+you learned something
+

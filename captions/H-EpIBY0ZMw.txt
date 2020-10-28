@@ -1,0 +1,742 @@
+https://www.youtube.com/watch?v=H-EpIBY0ZMw
+---------00:00----------
+all right so today we're gonna try to
+
+---------00:01----------
+fix a board that has no USB no
+
+---------00:03----------
+DisplayPort and Who am I kidding
+
+---------00:05----------
+probably no firewire after a very bad
+
+---------00:08----------
+spill in the LCD connector region so
+
+---------00:10----------
+let's go over a little bit of what this
+
+---------00:12----------
+looks like because this is one of those
+
+---------00:13----------
+jobs where it's not really about looking
+
+---------00:15----------
+at the schematic and the board view it's
+
+---------00:16----------
+more about just using your brain and
+
+---------00:18----------
+looking at all the little things that
+
+---------00:21----------
+are corroded so let's see yeah I mean
+
+---------00:30----------
+when you look at let's say this this
+
+---------00:35----------
+this that that this this this this yeah
+
+---------00:53----------
+this is I mean it should be kind of
+
+---------00:55----------
+obvious what's going on here so that's
+
+---------00:57----------
+just a lot of a lot of crap now the
+
+---------01:00----------
+firewire firewire is one of those things
+
+---------01:03----------
+or like if it's a couple of little
+
+---------01:05----------
+issues I'll do my best to make it work
+
+---------01:07----------
+again but when it comes to some larger
+
+---------01:11----------
+BGA chip for an interface that I know
+
+---------01:14----------
+for a fact that the person is not going
+
+---------01:16----------
+to use yeah if you want firewire in this
+
+---------01:21----------
+particular case
+
+---------01:23----------
+you're welcome more than absolutely more
+
+---------01:25----------
+than welcome to good Apple that that's
+
+---------01:29----------
+that's what I have to say there but for
+
+---------01:31----------
+USB and DisplayPort let's see what I can
+
+---------01:33----------
+do so firewire will be a bonus if I can
+
+---------01:39----------
+get firewire I consider it a bonus if I
+
+---------01:41----------
+can't get firewire than so first
+
+---------01:43----------
+things first on this USB thing let's get
+
+---------01:56----------
+beep
+
+---------02:15----------
+okay but it's gonna get a couple of
+
+---------02:17----------
+wires going my favorite wire over here
+
+---------02:24----------
+is this may look familiar to you
+
+---------02:26----------
+a 1286 2011/12 battery wire
+
+---------03:13----------
+there's gonna be a lot more where that
+
+---------03:15----------
+came from
+
+---------03:22----------
+I don't really trust that chip so that's
+
+---------03:26----------
+gonna that's gonna get to go
+
+---------03:59----------
+what I need is always the board that's
+
+---------04:01----------
+not available in my donor Ben here we go
+
+---------04:04----------
+donor board okay
+
+---------06:13----------
+that's it is new uni tweezers to
+
+---------06:16----------
+do this right
+
+---------06:36----------
+there we go running in line with where
+
+---------06:40----------
+the trace was on the board it's how I
+
+---------06:41----------
+like it
+
+---------08:06----------
+okaythat's reconnected
+
+---------08:26----------
+so much garbage
+
+---------08:40----------
+jeez
+
+---------08:47----------
+again like I do my I like bringing back
+
+---------08:49----------
+firewire don't get me wrong but like
+
+---------08:51----------
+seriously
+
+---------09:21----------
+yeah screw it I'll just put a wire from
+
+---------09:23----------
+here to there
+
+---------09:39----------
+that's not flat on the board however
+
+---------09:40----------
+that's something that's totally fixable
+
+---------09:42----------
+once I have a wire to length so the wire
+
+---------09:45----------
+right now is cut to the length that I
+
+---------09:46----------
+want it now I can worry about things
+
+---------09:48----------
+like making it nice and flat on the
+
+---------09:49----------
+board
+
+---------10:47----------
+yeah fight you know what firewire is
+
+---------10:50----------
+just this is just
+
+---------10:54----------
+yeah about about that protocol that
+
+---------10:57----------
+virtually nobody's used for the past
+
+---------10:59----------
+like seven years now yeah again it's one
+
+---------11:05----------
+of those things like if you know the
+
+---------11:07----------
+person's using firewire and you know
+
+---------11:09----------
+that like even if I fix this board if
+
+---------11:11----------
+they said that they use firewire for
+
+---------11:12----------
+like recording sessions or something I
+
+---------11:14----------
+would just say buy a new one like I'm
+
+---------11:16----------
+not no don't don't rely on what I'm
+
+---------11:17----------
+doing for them but yeah firewires
+
+---------11:22----------
+know hey not spending three hours on
+
+---------11:32----------
+that to realize that it doesn't work
+
+---------11:37----------
+let's see
+
+---------11:57----------
+what a corroded pile corroded piece of
+
+---------12:03----------
+ alright let's see if we get
+
+---------12:06----------
+anything for USB so what I'm gonna do
+
+---------12:16----------
+here is try to test USB and DisplayPort
+
+---------12:18----------
+all in just one test so what I did here
+
+---------12:21----------
+is I took the HDMI plug out of my
+
+---------12:23----------
+microscope camera over here and I
+
+---------12:26----------
+plugged it into this HDMI to a mini
+
+---------12:28----------
+DisplayPort adapter that I have that's
+
+---------12:30----------
+going straight to the MacBook I don't
+
+---------12:32----------
+have a screen plugged in because I
+
+---------12:33----------
+wanted to just boot directly there and
+
+---------12:35----------
+then I plugged in an SSD with this USB 3
+
+---------12:38----------
+2 SATA enclosure so when this turns on
+
+---------12:42----------
+it should it show you something on the
+
+---------12:46----------
+screen so if I see that its booting into
+
+---------12:47----------
+an operating system on the screen I know
+
+---------12:49----------
+that DisplayPort is good and I'll also
+
+---------12:51----------
+know that the USB is good so I might as
+
+---------12:53----------
+well test both ports so I'm gonna switch
+
+---------12:55----------
+the screen over here so that you can see
+
+---------12:56----------
+both at the same time and plug this in
+
+---------12:59----------
+and let's see what we get ok so it's
+
+---------13:05----------
+turning on I can see it the see the fan
+
+---------13:08----------
+spinning blinked because this is a you
+
+---------13:13----------
+know this is used to going to a monitor
+
+---------13:15----------
+or not an HDMI DVI capture card again if
+
+---------13:20----------
+I see an Apple logo and it starts
+
+---------13:22----------
+booting that means I'm good but I'm also
+
+---------13:24----------
+going to test it with the other USB port
+
+---------13:25----------
+just for the hell of it because I
+
+---------13:27----------
+honestly don't even remember which USB
+
+---------13:28----------
+port it is I'm supposed to be testing so
+
+---------13:30----------
+I might as well go for both again if you
+
+---------13:33----------
+reset p.m. this would be much faster and
+
+---------13:35----------
+it also be faster if I just held down
+
+---------13:37----------
+option and chose the drive that I wanted
+
+---------13:38----------
+to boot from I don't have a keyboard
+
+---------13:39----------
+plugged in and when you see what the
+
+---------13:41----------
+size of my desk is you kind of get why I
+
+---------13:42----------
+may have chosen not to all right so one
+
+---------13:46----------
+USB is good not sure with this this USB
+
+---------13:50----------
+is bad
+
+---------13:51----------
+yikes alright so let's see if the other
+
+---------13:52----------
+USB works let's just narrow this down
+
+---------13:54----------
+here so I plugged the other USB in and
+
+---------13:57----------
+let's see what happens so the first one
+
+---------13:59----------
+didn't work the USB that's closest to
+
+---------14:02----------
+the SD card reader didn't work but the
+
+---------14:05----------
+second one the one that's closest to
+
+---------14:06----------
+DisplayPort work so at least we know we
+
+---------14:08----------
+got something going on here
+
+---------14:10----------
+the DisplayPort works where it didn't
+
+---------14:12----------
+before but we still have a problem with
+
+---------14:13----------
+that bottom USB so let's take a look at
+
+---------14:15----------
+why the bottom USB could not be working
+
+---------14:17----------
+when to turn this off and let's go back
+
+---------14:20----------
+to here so the bottom USB is what we're
+
+---------14:22----------
+looking at okay so let's first things
+
+---------14:28----------
+first is to see which one is the bottom
+
+---------14:29----------
+USB the bottom USB is J 4600 so let's
+
+---------14:35----------
+just move this off to the side let's
+
+---------14:38----------
+take a look at J 4600 here for a second
+
+---------14:56----------
+so J 4600 no this does not go to a USB
+
+---------15:03----------
+MUX or a USB hub it goes straight to the
+
+---------15:10----------
+PCH yay so that yeah let's take a closer
+
+---------15:16----------
+look on the board and let's see if
+
+---------15:17----------
+there's anything that looks out of place
+
+---------15:18----------
+because I'd rather there be something
+
+---------15:20----------
+that looks out of place right in that
+
+---------15:22----------
+section rather than a being that the PCH
+
+---------15:24----------
+itself is fried and that's why we don't
+
+---------15:26----------
+have a USB port so let's see so we're
+
+---------15:32----------
+looking for the USB that's closest here
+
+---------15:35----------
+so something that appears to be fried
+
+---------15:41----------
+there's no big surprise here so this is
+
+---------15:43----------
+the you know let's take a look on the oh
+
+---------15:45----------
+of course you can't see because I don't
+
+---------15:47----------
+have the HDMI cable plugged in just plug
+
+---------15:50----------
+that back in yeah you could see over
+
+---------15:56----------
+here this is the USB that I did that
+
+---------15:58----------
+this should happen to so I can't really
+
+---------16:01----------
+say that I trust this very much so let's
+
+---------16:03----------
+just take a look at what my handiwork
+
+---------16:05----------
+was going to on schematic here
+
+---------16:19----------
+all right so we have let's just let me
+
+---------16:23----------
+figure out where I am the capacitor chip
+
+---------16:34----------
+under it and so this inductor is the one
+
+---------16:37----------
+L 4605 so what's up with that what do
+
+---------16:42----------
+you do V bus so you take PP 5 vs 3 and
+
+---------16:50----------
+you deliver it to the USB port
+
+---------17:23----------
+see how my donor board what that section
+
+---------17:26----------
+looks like
+
+---------17:33----------
+all right so this is going there but it
+
+---------17:36----------
+also has to make it all the way over
+
+---------17:37----------
+here you couldn't see that my let's go
+
+---------17:43----------
+check it out so on this board this I all
+
+---------17:48----------
+I did is kind of half sad with this to
+
+---------17:49----------
+that but this has to make it all the way
+
+---------17:51----------
+over here and measure zero ohms on the
+
+---------17:53----------
+meter that's what I'm getting on this
+
+---------17:55----------
+one so on this board over here see from
+
+---------18:01----------
+this to this has got a measure zero ohms
+
+---------18:06----------
+right here for PP 5 vs 3 so what I did
+
+---------18:08----------
+is I just attached the inductor here
+
+---------18:10----------
+it's a kind of some of the traits
+
+---------18:11----------
+scraping over here but that is not
+
+---------18:13----------
+making its way to there so yeah that's
+
+---------18:16----------
+that's what the mistake that I made on
+
+---------18:18----------
+this one so PP 5 vs 3 USB AF from L 4605
+
+---------18:22----------
+has to make its way not just over to
+
+---------18:24----------
+this this trays large trace on the board
+
+---------18:27----------
+it also has to make its way over there
+
+---------18:28----------
+and it's not because the trace is
+
+---------18:29----------
+disconnected from the via the hole over
+
+---------18:31----------
+here so what I have to do is I have to
+
+---------18:32----------
+fill up that hole no no no funny jokes
+
+---------18:36----------
+there now and put solder in it and then
+
+---------18:42----------
+attach it to there and then I should
+
+---------18:44----------
+have USB for lots of flux
+
+---------18:58----------
+get in there get in there
+
+---------19:18----------
+want to flow that hole full of nice
+
+---------19:20----------
+fresh cider
+
+---------19:30----------
+okay now I'm gonna run a wire doesn't
+
+---------19:34----------
+have to be anything crazy
+
+---------19:36----------
+nothing nuts this new you know this not
+
+---------19:38----------
+like a USB port is gonna be taking 30
+
+---------19:40----------
+amps or anything
+
+---------19:41----------
+let's get myself
+
+---------20:13----------
+okay now let's redo our test so what I'm
+
+---------20:18----------
+gonna do here is I'm gonna take the HDMI
+
+---------20:22----------
+plug out of the camera and the plug in
+
+---------20:24----------
+DisplayPort again and then I'm gonna
+
+---------20:29----------
+take the SSD and I'm gonna plug it into
+
+---------20:30----------
+that USB port that wasn't working before
+
+---------20:32----------
+I'm gonna turn the capture setup on and
+
+---------20:35----------
+set it to capture the EDA's mini
+
+---------20:38----------
+DisplayPort output from the MacBook
+
+---------20:41----------
+Board and then we're gonna turn it on so
+
+---------20:43----------
+let's do this first okay we have the
+
+---------20:46----------
+dual capture setup and now it should see
+
+---------20:49----------
+the drive hopefully or or it'll smoke
+
+---------20:53----------
+there's a chance it'll smoke but I don't
+
+---------20:54----------
+think it'll smoke it looks like my wires
+
+---------20:56----------
+going where it's supposed to what do you
+
+---------21:02----------
+think Apple our smoke
+
+---------21:11----------
+can't believe I missed that I see I
+
+---------21:14----------
+reconnected the inductor to the trace
+
+---------21:16----------
+but the trace itself was not connected
+
+---------21:18----------
+to the via therefore nothing was working
+
+---------21:21----------
+basic basic basic basic and I still
+
+---------21:25----------
+missed it
+
+---------21:42----------
+aha an apple which means that that's
+
+---------21:45----------
+good any and FireWire no no none none
+
+---------21:50----------
+none but still that's that and again I
+
+---------21:54----------
+hope you learned something this is again
+
+---------21:55----------
+this is not really something where you
+
+---------21:57----------
+have a lot of really detailed you know
+
+---------22:00----------
+detailed schematic reading and anything
+
+---------22:02----------
+like that it's just a lot of it was just
+
+---------22:04----------
+look it looks nasty
+
+---------22:06----------
+and then touching up this stuff that
+
+---------22:07----------
+looks nasty you still have to know how
+
+---------22:10----------
+to do all the schematic stuff for you
+
+---------22:11----------
+know more advanced work but yeah yeah
+
+---------22:15----------
+that's that
+

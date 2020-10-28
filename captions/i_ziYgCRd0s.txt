@@ -1,0 +1,949 @@
+https://www.youtube.com/watch?v=i_ziYgCRd0s
+---------00:00----------
+hi so today we're going to start off
+
+---------00:03----------
+with an 8 to 0 2879 board that only
+
+---------00:08----------
+charges the battery when it is off or
+
+---------00:10----------
+asleep which is annoying now this board
+
+---------00:13----------
+honestly was an embarrassment for me for
+
+---------00:16----------
+the amount of time that it took to
+
+---------00:17----------
+figure this out firstly while I've
+
+---------00:20----------
+solved many note charging or not turning
+
+---------00:23----------
+on issues I've never ever ever ever had
+
+---------00:27----------
+only charges when it's asleep or off and
+
+---------00:29----------
+does not charge when it's on that is
+
+---------00:31----------
+that that is that is just absurd to me
+
+---------00:33----------
+confusing and secondly it wasn't obvious
+
+---------00:36----------
+liquid or physical damage so let me show
+
+---------00:38----------
+you what I mean by obvious liquid a
+
+---------00:40----------
+physical damage this one does not have
+
+---------00:41----------
+any obvious liquid damage so I'm going
+
+---------00:44----------
+to show you one replacing just to give
+
+---------00:45----------
+you an idea here was this resistor here
+
+---------00:50----------
+okay and this resistor above it which is
+
+---------00:52----------
+actually really up looking and I
+
+---------00:54----------
+should replace that if to actually prove
+
+---------00:56----------
+the job but anyway it works and as you
+
+---------00:59----------
+can see the probe points around this
+
+---------01:01----------
+look totally fine there's nothing funny
+
+---------01:03----------
+about now let me see if I can show you
+
+---------01:05----------
+on a dead board what I mean by probe
+
+---------01:07----------
+points looking up the board
+
+---------01:09----------
+actually has a way of telling you what
+
+---------01:12----------
+where to start looking when something
+
+---------01:16----------
+doesn't work so before I use my brain I
+
+---------01:18----------
+can get a hint we find a board here that
+
+---------01:21----------
+I can use as an example these are all
+
+---------01:25----------
+dead and like I've used these two
+
+---------01:28----------
+second
+
+---------01:29----------
+set up profiles on the BGA machine so
+
+---------01:32----------
+they don't even have most I don't even
+
+---------01:33----------
+have CPUs or gpus the totally so if
+
+---------01:36----------
+I drop them I don't
+
+---------01:37----------
+okay so you see how some of these Pro
+
+---------01:40----------
+points right by this connector or red
+
+---------01:42----------
+really brown like can I reach my hand
+
+---------01:46----------
+here like that they're and you
+
+---------01:51----------
+can see that they're or like this
+
+---------01:52----------
+little red probe points here
+
+---------02:00----------
+oh come on focus you
+
+---------02:06----------
+there we go okay now that's not a water
+
+---------02:08----------
+damage indicator those are actual probes
+
+---------02:10----------
+on the motherboard so that instead of
+
+---------02:12----------
+having to measure at a component lead
+
+---------02:14----------
+when these component leads are really
+
+---------02:15----------
+small it allows you to just measure at
+
+---------02:18----------
+those points it makes life a lot easier
+
+---------02:21----------
+when you're measuring around anyway a
+
+---------02:23----------
+lot of the times those points will be
+
+---------02:24----------
+bright red or really or F
+
+---------02:26----------
+corrosion on them or even be missing and
+
+---------02:28----------
+that will give me an idea hey start here
+
+---------02:31----------
+here's a hint so when the board is not
+
+---------02:33----------
+physically or liquid damaged and you
+
+---------02:34----------
+have no probe points like that that are
+
+---------02:37----------
+off and the board itself has an issue
+
+---------02:39----------
+that I've never experienced before
+
+---------02:41----------
+I wind up looking like the jacket is
+
+---------02:44----------
+trying to figure it out and that's what
+
+---------02:45----------
+I was here so the board charges the
+
+---------02:48----------
+battery just fine when it's asleep or
+
+---------02:51----------
+off but when you take it out of sleep it
+
+---------02:53----------
+doesn't it doesn't do it and I looked
+
+---------02:55----------
+around this for quite a bit and I simply
+
+---------02:58----------
+couldn't figure it out because at first
+
+---------02:59----------
+I didn't even notice the pattern I just
+
+---------03:01----------
+thought that it wasn't charging I didn't
+
+---------03:03----------
+notice that when I I closed it that it
+
+---------03:05----------
+would start charging because most of the
+
+---------03:06----------
+times I would close the computer to
+
+---------03:08----------
+start working on and remove the board
+
+---------03:09----------
+the first thing that I was doing was
+
+---------03:11----------
+ripping out the charger because I'm not
+
+---------03:13----------
+going to take all the screws out of this
+
+---------03:14----------
+of all the things on so it took me at
+
+---------03:16----------
+least a day to figure the
+
+---------03:18----------
+pattern out that it's not charging the
+
+---------03:20----------
+battery unless it's in sleep mode which
+
+---------03:23----------
+I just feel [ __ ] for but I guess you
+
+---------03:26----------
+know didn't learn so onto the on so what
+
+---------03:31----------
+actually fixed it so there are these two
+
+---------03:33----------
+resistors over here and their job is to
+
+---------03:36----------
+sense the current that's coming through
+
+---------03:38----------
+from the adapter and there's also a
+
+---------03:40----------
+similar circuit for the battery that's
+
+---------03:41----------
+meant to measure the voltage coming from
+
+---------03:43----------
+the battery now this is something that I
+
+---------03:45----------
+didn't know was here before and
+
+---------03:48----------
+again I'm totally open to people going
+
+---------03:53----------
+I've always been open to saying what it
+
+---------03:56----------
+is I don't know because as one of my
+
+---------03:59----------
+great mentors and first employer said
+
+---------04:01----------
+everything that I've learned in life
+
+---------04:03----------
+worthwhile was from not being afraid to
+
+---------04:05----------
+show just how stupid I am
+
+---------04:06----------
+if you don't tell people that you don't
+
+---------04:08----------
+know something they'll never have an
+
+---------04:09----------
+opportunity to tell you what it is and
+
+---------04:10----------
+don't know anyway so there are two
+
+---------04:14----------
+resistors here that's in their job is to
+
+---------04:16----------
+sense the current coming from the
+
+---------04:17----------
+adapter now with those two resistors do
+
+---------04:21----------
+there's one on each side of a resistor
+
+---------04:24----------
+from the from the charger so you have
+
+---------04:26----------
+the charger the charger itself is going
+
+---------04:28----------
+through a bunch of transistors to tell
+
+---------04:29----------
+that tell it whether or not it should
+
+---------04:30----------
+come on send voltage or not send voltage
+
+---------04:32----------
+and at the end of that there's a
+
+---------04:33----------
+resistive at 0.02 ohm something like
+
+---------04:36----------
+zero points or look at it schematic here
+
+---------04:40----------
+can you see how bright this table is
+
+---------04:42----------
+I've always dreamed having a work
+
+---------04:44----------
+environment this right so by the way
+
+---------04:46----------
+that's since I didn't get enough shelves
+
+---------04:48----------
+at IKEA I have a wire coming from the
+
+---------04:52----------
+PCI Express with my data recovery
+
+---------04:54----------
+machine that is going over this monitor
+
+---------04:57----------
+which is being used as a pulley to keep
+
+---------04:59----------
+the lights up on this side of the table
+
+---------05:00----------
+until IKEA gets the shelves in
+
+---------05:03----------
+stock that I need and then it goes over
+
+---------05:05----------
+here that's five LED strips that is just
+
+---------05:09----------
+ridiculously bright and three of them
+
+---------05:11----------
+are actually different brands and
+
+---------05:13----------
+different color tones so you get almost
+
+---------05:15----------
+a full spectrum of lighting so let's
+
+---------05:18----------
+back to
+
+---------05:20----------
+like to work in okay where are we here
+
+---------05:28----------
+okay so yeah the charger is coming
+
+---------05:30----------
+through here here here so right here are
+
+---------05:34----------
+71 so this is a 0.02 ohm resistor
+
+---------05:37----------
+there's going to be a voltage drop
+
+---------05:38----------
+across this but it's going to be so
+
+---------05:40----------
+ small and inconsequential that
+
+---------05:42----------
+it's not gonna actually affect the
+
+---------05:43----------
+functionality of the computer because
+
+---------05:45----------
+again it's 0.02 ohms so you have this
+
+---------05:50----------
+here whoops
+
+---------05:52----------
+pointing to where I'm supposed to be let
+
+---------05:54----------
+me zoom out okay see them so this is the
+
+---------05:57----------
+resistor this is the charger now over
+
+---------05:59----------
+here you have a resistor that's going to
+
+---------06:03----------
+the ISL and on the other side of this
+
+---------06:05----------
+you got a resistant that's going to the
+
+---------06:06----------
+ISO point of this is to measure the
+
+---------06:08----------
+current that's being used so debate now
+
+---------06:11----------
+the thing is the currents that is being
+
+---------06:13----------
+used is going to affect the voltage drop
+
+---------06:16----------
+here the voltage drop is going to be
+
+---------06:17----------
+affected by the current that is actually
+
+---------06:20----------
+being pulled by the computer so by
+
+---------06:21----------
+measuring the voltage drop which is
+
+---------06:23----------
+something this can do this chip cannot
+
+---------06:25----------
+measure current but it will measure a
+
+---------06:26----------
+voltage drop across two different points
+
+---------06:28----------
+if you give it those two different
+
+---------06:30----------
+points you can actually deduce what
+
+---------06:32----------
+amount of currents the computer is using
+
+---------06:34----------
+now this is supposed to be 10 ohms and
+
+---------06:36----------
+this is supposed to be 10 ohms so that
+
+---------06:37----------
+on each side of this you get an even
+
+---------06:39----------
+measurement now one of these is 500 kilo
+
+---------06:41----------
+ohms and the other one was 2.8 million
+
+---------06:44----------
+ohms so this was getting a completely
+
+---------06:48----------
+ up reading not only was the power
+
+---------06:50----------
+going to this chip so low that it
+
+---------06:51----------
+probably couldn't even detect or
+
+---------06:53----------
+read anything at all but this was so out
+
+---------06:57----------
+of whack that it would have thought
+
+---------06:59----------
+either that there is a huge and rush of
+
+---------07:01----------
+current so that there's no current being
+
+---------07:03----------
+used there's some sort of stupid silly
+
+---------07:04----------
+ because these were off by a
+
+---------07:06----------
+magnitude of about 5 times res here
+
+---------07:09----------
+they're equal now what I don't
+
+---------07:11----------
+understand and what you're not I'd love
+
+---------07:14----------
+for somebody to tell me is if it noticed
+
+---------07:16----------
+that there was a ridiculous amount of
+
+---------07:18----------
+volt of current being used why doesn't
+
+---------07:21----------
+it just turn the Machine off altogether
+
+---------07:22----------
+because again the only thing that I can
+
+---------07:24----------
+deduce here is that when the machine is
+
+---------07:26----------
+on it's using more power and since the
+
+---------07:28----------
+circuit that detects how much power the
+
+---------07:30----------
+charge how much power is coming from the
+
+---------07:31----------
+charger is that when they can
+
+---------07:34----------
+pewter is on it probably thought oh my
+
+---------07:36----------
+god it's using way too much power let me
+
+---------07:37----------
+turn off charging to the battery why
+
+---------07:40----------
+wouldn't just why wouldn't it in
+
+---------07:41----------
+addition to that also turn off power to
+
+---------07:43----------
+the machine itself because it thinks
+
+---------07:45----------
+it's grabbing too much
+
+---------07:46----------
+am I wrong am i right and then is there
+
+---------07:49----------
+something I'm missing again I would
+
+---------07:51----------
+absolutely love to be educated because I
+
+---------07:53----------
+enjoy learning anyway so we'll replace
+
+---------07:56----------
+these two as you can see it's charging
+
+---------07:59----------
+and when I turn the computer on I got
+
+---------08:06----------
+the fan spinning and just see you can
+
+---------08:12----------
+see the reflections of all those LEDs
+
+---------08:13----------
+which is total overkill but I love it
+
+---------08:15----------
+and we got the Apple on it is still
+
+---------08:18----------
+charging and I'm up to 73% and before I
+
+---------08:22----------
+started making this video I was at
+
+---------08:23----------
+something like 14 so I'm winning but
+
+---------08:26----------
+yeah my question is if it thought that
+
+---------08:29----------
+there was so much current coming through
+
+---------08:30----------
+when it was on that it's wanted to stop
+
+---------08:32----------
+charging the battery why not just stop
+
+---------08:34----------
+turning the computer on isn't turning
+
+---------08:36----------
+the computer on if it is if this adapter
+
+---------08:39----------
+is getting skull-fuck so bad that it
+
+---------08:40----------
+doesn't have the ability to charge the
+
+---------08:42----------
+battery if the computer thinks that's
+
+---------08:43----------
+true
+
+---------08:44----------
+wouldn't that adapt to be going on fire
+
+---------08:45----------
+just from powering the computer on again
+
+---------08:48----------
+maybe I'm missing something and and I'd
+
+---------08:50----------
+land again I would absolutely love to
+
+---------08:52----------
+learn so by all means if you know more
+
+---------08:54----------
+than me I would love to hear from you
+
+---------08:56----------
+either way it does work and that's you
+
+---------09:00----------
+know as much as I'd like to know more
+
+---------09:02----------
+I'm happy that I solve the problem
+
+---------09:04----------
+because that means that I can
+
+---------09:06----------
+get the money now another thing I wanted
+
+---------09:09----------
+to make a little point I want to make
+
+---------09:10----------
+you as I get a lot of live chat requests
+
+---------09:13----------
+or phone calls from people saying my
+
+---------09:14----------
+battery doesn't charge what chip
+
+---------09:16----------
+controls the charging I can tell you
+
+---------09:19----------
+what chip controls the charging you zoom
+
+---------09:21----------
+in on it right here but frankly having
+
+---------09:24----------
+that information is not going to help
+
+---------09:26----------
+you here we go so it's that but what's
+
+---------09:29----------
+the point of knowing what trip controls
+
+---------09:30----------
+the charging if there are many different
+
+---------09:32----------
+reasons that it it could not be working
+
+---------09:35----------
+now if somebody for example if somebody
+
+---------09:37----------
+comes in says their screen is cracked
+
+---------09:39----------
+you know okay I have to replace the
+
+---------09:41----------
+screen but if somebody comes in and says
+
+---------09:42----------
+my computer is slow well it could be
+
+---------09:45----------
+slow because their home internet sucks
+
+---------09:46----------
+it could be slow because they have a
+
+---------09:48----------
+virus it could be slow because their
+
+---------09:49----------
+drive is dying it could be slow because
+
+---------09:51----------
+their fan died and you know the machines
+
+---------09:55----------
+is running really hot and throttling
+
+---------09:57----------
+itself there are many different reasons
+
+---------09:58----------
+so I can't really help you without
+
+---------10:01----------
+having an idea of what's going on and
+
+---------10:03----------
+sometimes I'll say you know there could
+
+---------10:05----------
+be many different things can you measure
+
+---------10:06----------
+this that or the other and people just
+
+---------10:08----------
+think I'm being rude or a dick or you
+
+---------10:10----------
+know I'm trying to hold this information
+
+---------10:11----------
+hostage from them and some people have
+
+---------10:14----------
+ego you know gone so far as to say
+
+---------10:16----------
+you on live chat over this ridiculous
+
+---------10:18----------
+ when I'll state this and honestly
+
+---------10:22----------
+if you have to use your brain I mean
+
+---------10:25----------
+again I don't even understand some of
+
+---------10:27----------
+what it is I did but I did have to use
+
+---------10:30----------
+my brain in order to deduce it so if I
+
+---------10:33----------
+you don't even know what I'm doing some
+
+---------10:34----------
+of the time and I've been doing this for
+
+---------10:35----------
+many years don't think that you're just
+
+---------10:38----------
+going to replace one thing and that's
+
+---------10:40----------
+going to fix all of your problems
+
+---------10:41----------
+another example people will also often
+
+---------10:44----------
+asked about this chip over here because
+
+---------10:46----------
+it'll get corroded the 71 49 and on the
+
+---------10:50----------
+older 2530 and 23 27 boards that is a
+
+---------10:53----------
+hat 11 27 now this is a transistor and
+
+---------10:57----------
+it has three legs that are redundant and
+
+---------10:59----------
+oftentimes with liquid damage one of
+
+---------11:00----------
+those legs will be completely corroded
+
+---------11:02----------
+to and people will ask me what is
+
+---------11:03----------
+the name of that so I can replace it you
+
+---------11:06----------
+can go ahead and replace it but that
+
+---------11:07----------
+chip is used to taking 18 19 volts and
+
+---------11:09----------
+it is a
+
+---------11:10----------
+so you know it's a transistor with a
+
+---------11:12----------
+huge heat it's it's not going to die if
+
+---------11:14----------
+you're bored if this thing actually
+
+---------11:18----------
+managed to blow if you managed to blow
+
+---------11:21----------
+this up you would not have a
+
+---------11:23----------
+motherboard anymore this would be
+
+---------11:24----------
+ vaporized beyond any repair
+
+---------11:27----------
+I have not replaced this thing once in
+
+---------11:29----------
+many many years
+
+---------11:30----------
+it's an but people will just see this
+
+---------11:32----------
+one thing is burned how do I replace it
+
+---------11:33----------
+I want a new charger I see and again
+
+---------11:35----------
+unfortunately it is not that easy there
+
+---------11:38----------
+is really no shortcut around using your
+
+---------11:40----------
+brain don't replace the backlight I see
+
+---------11:43----------
+because you have no backlight don't
+
+---------11:44----------
+replace the charger I see because it's
+
+---------11:45----------
+not charging and if you go ahead and do
+
+---------11:48----------
+it I encourage you to go ahead and do it
+
+---------11:49----------
+because I don't want you to take my word
+
+---------11:51----------
+for you're not going to believe me I
+
+---------11:52----------
+want you to actually do it to figure out
+
+---------11:54----------
+that it doesn't work for yourself and
+
+---------11:56----------
+that there is no shortcut to using your
+
+---------11:58----------
+brain
+

@@ -1,0 +1,931 @@
+https://www.youtube.com/watch?v=L-5ZVKgP-aI
+---------00:00----------
+okay so today we're gonna be going over
+
+---------00:01----------
+a board that had no backlight I finally
+
+---------00:03----------
+found a better place to put the camera
+
+---------00:05----------
+than where it was before it was right
+
+---------00:07----------
+next to me so every time I got up to get
+
+---------00:08----------
+apart I had the good fortune of knocking
+
+---------00:11----------
+into the tripod and cursing so there's
+
+---------00:14----------
+this space where there used to be a
+
+---------00:16----------
+window where we knocked the window out
+
+---------00:18----------
+to install the this you know Chinese
+
+---------00:21----------
+restaurant looking ventilation thingy in
+
+---------00:24----------
+here and that's that that is where the
+
+---------00:28----------
+camera is right now sitting between the
+
+---------00:30----------
+two rooms so yeah you could see my
+
+---------00:32----------
+office as a mess you can get a full view
+
+---------00:34----------
+of it now so yeah you may be wondering
+
+---------00:36----------
+like why do I store the paper towels
+
+---------00:37----------
+that we get why is there a mop bucket
+
+---------00:39----------
+over there and like when you see this
+
+---------00:41----------
+why don't I have that in the janitorial
+
+---------00:43----------
+closet I don't have that in the storage
+
+---------00:44----------
+closet and you know again when you when
+
+---------00:47----------
+you're in New York in like a space
+
+---------00:48----------
+that's this big cost about four thousand
+
+---------00:50----------
+bucks I mean you really you'll begin to
+
+---------00:53----------
+appreciate the decisions that I make in
+
+---------00:55----------
+terms of space so yeah my office you
+
+---------00:57----------
+know at the $7000 rework machine and all
+
+---------01:00----------
+this dis diagnostic setup sits next to a
+
+---------01:03----------
+mop bucket some boxes and a big big box
+
+---------01:06----------
+full of toilet paper so today we're
+
+---------01:09----------
+gonna be doing a board that has no
+
+---------01:11----------
+backlight I actually already did it I'm
+
+---------01:12----------
+not gonna have as much time for these
+
+---------01:13----------
+videos over the next week and a half two
+
+---------01:15----------
+weeks because my technician is out on
+
+---------01:18----------
+surgical leave so I have to do all of
+
+---------01:20----------
+the board repairs and all of the regular
+
+---------01:22----------
+repairs for the next two weeks that's
+
+---------01:24----------
+yeah that that's gonna be fun
+
+---------01:27----------
+so this is a board that had no backlight
+
+---------01:29----------
+I'm just going to go over a little bit
+
+---------01:30----------
+of it with you
+
+---------01:31----------
+not everything as you can see I already
+
+---------01:33----------
+have it working you probably don't know
+
+---------01:35----------
+if you can see that let's see what is it
+
+---------01:37----------
+that you see come on
+
+---------01:39----------
+yeah see question mark so that is uh
+
+---------01:42----------
+that is working so I'm gonna show you
+
+---------01:44----------
+what I did in the microscope camera my
+
+---------01:50----------
+desk is a mess it's always a mess my
+
+---------01:54----------
+desk is never ever clean alright so
+
+---------02:00----------
+you're gonna see here is this let's see
+
+---------02:05----------
+if you can guess where the blown thing
+
+---------02:06----------
+was just to make sure the cameras the
+
+---------02:09----------
+right way there we go so that's the LED
+
+---------02:12----------
+driver chip over there this
+
+---------02:13----------
+it hasn't really been cleaned yet so it
+
+---------02:15----------
+still looks like like crap same so right
+
+---------02:19----------
+over here was blown yeah though those
+
+---------02:22----------
+people the salespeople you need
+
+---------02:25----------
+the ABC fire extinguisher you need the
+
+---------02:29----------
+heavy-duty fire extinguisher for your
+
+---------02:30----------
+200 square foot office that has
+
+---------02:33----------
+ya over here you're going to see what
+
+---------02:36----------
+I'm a wire that wire is going underneath
+
+---------02:38----------
+the chip and then it's going all the way
+
+---------02:40----------
+in here so this little via thing in the
+
+---------02:43----------
+board and it was it was kind of messed
+
+---------02:45----------
+up so what I did is I filled it with
+
+---------02:46----------
+solder as much as I could I kind of
+
+---------02:48----------
+chipped away at it with with this to get
+
+---------02:50----------
+the nasty part out and then I filled it
+
+---------02:52----------
+with solder and then I put a wire over
+
+---------02:53----------
+there it's a battery wire coming from
+
+---------02:55----------
+Nia and ago one of these things so this
+
+---------02:58----------
+is a dead battery that you know we
+
+---------03:00----------
+replaced for a customer I kept the old
+
+---------03:02----------
+wiring and all that stuff and that's
+
+---------03:04----------
+that and as you can see it has a
+
+---------03:05----------
+backlight so just to give you a little
+
+---------03:07----------
+bit of the theory behind it let me open
+
+---------03:09----------
+up a schematic and show you what was
+
+---------03:11----------
+blown yeah this was an interesting one
+
+---------03:15----------
+because that that is not really the one
+
+---------03:17----------
+that usually blows usually what blows is
+
+---------03:19----------
+the feedback for yeah and I can show you
+
+---------03:23----------
+what that is in a second soon as the
+
+---------03:26----------
+screen captures up
+
+---------03:33----------
+well did you just see what that just did
+
+---------03:36----------
+that is pretty sick okay so here is the
+
+---------03:41----------
+schematic so I've gone over the back
+
+---------03:43----------
+light circuit countless times already
+
+---------03:45----------
+thought to show you what was not
+
+---------03:46----------
+connected so again the way it DC to DC
+
+---------03:48----------
+booze circuit works is you have your
+
+---------03:50----------
+standard voltage going through here so
+
+---------03:52----------
+here this is the standard 12 volts from
+
+---------03:53----------
+P P bus g3 hot that's what this is over
+
+---------03:55----------
+here yeah if you go to the first page
+
+---------03:59----------
+you'll be able to see what power rails
+
+---------04:00----------
+come from once you may be wondering what
+
+---------04:02----------
+does pp bus underscore s o underscore
+
+---------04:04----------
+LCD backlight if you have half a brain
+
+---------04:06----------
+you'll see that this twelve point six
+
+---------04:07----------
+volts and guess that it's pp bus g3 hot
+
+---------04:09----------
+since that's the only twelve point six
+
+---------04:10----------
+volt rail in the computer but if you
+
+---------04:12----------
+don't have half a brain that is what the
+
+---------04:14----------
+schematic here is for but the schematic
+
+---------04:15----------
+is going to do is if the page down
+
+---------04:18----------
+button on my keyboard ever gets to
+
+---------04:21----------
+working on there III I'm out of range
+
+---------04:24----------
+I'm like two feet away from the computer
+
+---------04:25----------
+instead of one so this piece of
+
+---------04:28----------
+Logitech he it's a K 330 don't buy this
+
+---------04:30----------
+piece of crap keyboard from Logitech and
+
+---------04:33----------
+yes those are new batteries you know
+
+---------04:35----------
+people always troll me with the
+
+---------04:36----------
+batteries like the computer is here I'm
+
+---------04:37----------
+tapping it the keyboard is here like it
+
+---------04:39----------
+has to be over here or else you don't
+
+---------04:40----------
+just go yeah that's for another another
+
+---------04:44----------
+time anyway let's find where the well
+
+---------04:48----------
+here we go so we're very close to a list
+
+---------04:51----------
+of power rails here so here we go I see
+
+---------04:54----------
+you in the upper left corner here so pp
+
+---------04:58----------
+bus g3 huh then it tells you all the
+
+---------05:00----------
+ones that are derivative of this and PPP
+
+---------05:02----------
+underscore s o underscore LCD backlight
+
+---------05:04----------
+is there so back to you 9701 so I can
+
+---------05:07----------
+show you what I'm talking about here so
+
+---------05:08----------
+this is 12 volts and the way any DC to
+
+---------05:11----------
+DC boost circuit works is you have your
+
+---------05:12----------
+voltage the inductor is over here right
+
+---------05:16----------
+in front of that voltage and then you
+
+---------05:17----------
+have a little switch that's going to
+
+---------05:19----------
+switch that to ground now what's gonna
+
+---------05:21----------
+happen is when you switch it to ground
+
+---------05:22----------
+instead of asking the electricity to
+
+---------05:24----------
+move through here slowly you're asking
+
+---------05:26----------
+it to move through there very very
+
+---------05:27----------
+quickly which is going to cause it's
+
+---------05:30----------
+just a basic way to explain it's like
+
+---------05:32----------
+stopping short in the car so when you
+
+---------05:34----------
+stop short in a car you're going 50 or
+
+---------05:35----------
+60 miles an hour and you hit the brakes
+
+---------05:37----------
+instantly you're moving forward really
+
+---------05:39----------
+really fast and that that energy is
+
+---------05:41----------
+pretty much I consider is that energy is
+
+---------05:44----------
+gonna be boosted that energy is
+
+---------05:47----------
+what's going to the backlight so imagine
+
+---------05:49----------
+if you take all those you know all that
+
+---------05:50----------
+stopping short over and over and over
+
+---------05:52----------
+again and you know and you combine it
+
+---------05:55----------
+and you store it and you don't have 12
+
+---------05:56----------
+volts anymore you get something like 50
+
+---------05:58----------
+I'm not gonna go into how a DC to DC
+
+---------06:00----------
+boost circuit works here no am I going
+
+---------06:01----------
+to go into a long-winded explanation of
+
+---------06:04----------
+advanced electronics theory we're just
+
+---------06:06----------
+going to keep it short - what I did to
+
+---------06:07----------
+make this work so I can get my three
+
+---------06:09----------
+hundred twenty-five bucks so right over
+
+---------06:11----------
+here this was blown so this is the part
+
+---------06:14----------
+that actually switches the SW here is
+
+---------06:16----------
+stands for switch and the the via going
+
+---------06:19----------
+from this to this was kind of kind of
+
+---------06:22----------
+gone and now one of the ways that you
+
+---------06:24----------
+can troubleshoot this as I've always
+
+---------06:26----------
+explained in these circuits if you want
+
+---------06:28----------
+to know what's going on in the output of
+
+---------06:30----------
+a circuit if you want to know what's
+
+---------06:31----------
+going on throughout a circuit what you
+
+---------06:32----------
+can do is you can take your multimeter
+
+---------06:34----------
+and you put it in diode mode because
+
+---------06:37----------
+it's faster than the resistance mode
+
+---------06:39----------
+there's no way to not be captured on
+
+---------06:42----------
+camera with it over there so you might
+
+---------06:43----------
+as well just walk by and give up one of
+
+---------06:47----------
+these days you're good people are gonna
+
+---------06:48----------
+see that you work here
+
+---------06:49----------
+I know it's embarrassing anyway back to
+
+---------06:54----------
+where I was so one of the things you can
+
+---------06:56----------
+do is use a diode mode measurement to
+
+---------06:57----------
+ground on the output of whatever power
+
+---------06:59----------
+row that you're interested in so right
+
+---------07:01----------
+here let's see me just put the
+
+---------07:02----------
+multimeter in diode mode you probably
+
+---------07:04----------
+can't see that so I won't narrate so
+
+---------07:06----------
+when I put that over here I get 0.5 to 4
+
+---------07:11----------
+that is a number that is of interest to
+
+---------07:13----------
+me because that is a number that is what
+
+---------07:14----------
+it's supposed to be now what you can do
+
+---------07:16----------
+is you can simply compare working boards
+
+---------07:17----------
+to non-working boards that get an idea
+
+---------07:19----------
+of what it's supposed to be so you have
+
+---------07:20----------
+working board you measure and you have
+
+---------07:22----------
+bet non-working board you measure now
+
+---------07:23----------
+there are many different places in the
+
+---------07:25----------
+circuit that a fault can occur and one
+
+---------07:27----------
+of the things this will tell you when
+
+---------07:28----------
+you find out where the faults occurred
+
+---------07:30----------
+and then you measure the number now the
+
+---------07:32----------
+next time when you get that number
+
+---------07:33----------
+you'll know exactly what the fault is so
+
+---------07:36----------
+usually if you have a number that's
+
+---------07:37----------
+between 0.45 3 to 0.5 11 the feedback
+
+---------07:41----------
+for you which is the one that most often
+
+---------07:43----------
+blows is blown so that's after the boost
+
+---------07:47----------
+after the boost there is this little
+
+---------07:49----------
+feedback via that goes to here and what
+
+---------07:52----------
+that does is it tells the chip what it's
+
+---------07:54----------
+actually doing so if that is not there
+
+---------07:57----------
+it's not going to switch and it's not
+
+---------07:58----------
+going to boost now here what I was
+
+---------08:00----------
+getting was
+
+---------08:01----------
+Oh point five six one which is out of
+
+---------08:02----------
+range in a different direction so I
+
+---------08:04----------
+looked a little closer and I saw this so
+
+---------08:06----------
+now I have a number in my head for when
+
+---------08:07----------
+that happens so next time instead of
+
+---------08:09----------
+even having a look at the circuit
+
+---------08:11----------
+instead of even having to take the
+
+---------08:11----------
+microscope out I'm gonna know when I
+
+---------08:13----------
+have a number that looks like that the
+
+---------08:15----------
+first place to look at is not gonna be
+
+---------08:16----------
+the feedback via it's going to be the
+
+---------08:19----------
+switch so this is the importance of
+
+---------08:20----------
+diode mode measurements this is the
+
+---------08:21----------
+important of keeping a database in your
+
+---------08:23----------
+head or in Excel or ever it is you know
+
+---------08:25----------
+that it's going to be safe of resistance
+
+---------08:27----------
+or diode mode measurements to ground
+
+---------08:29----------
+every single spot in a circuit so that
+
+---------08:31----------
+you can get an idea of where the flaw is
+
+---------08:33----------
+and also maybe what the flaw is based on
+
+---------08:36----------
+the number you get and then you compare
+
+---------08:37----------
+that to the first time that you
+
+---------08:39----------
+troubleshoot so again you don't have to
+
+---------08:41----------
+spend you know 10 or 20 or 30 minutes
+
+---------08:43----------
+troubleshooting the same issue that you
+
+---------08:45----------
+troubleshoot it before if you have a set
+
+---------08:47----------
+of points instead of data that you
+
+---------08:49----------
+expect that those points for specific
+
+---------08:51----------
+problems you seem to go and then there
+
+---------08:53----------
+you go you have an idea it's a quick way
+
+---------08:55----------
+of measuring the whole circuit so that
+
+---------08:57----------
+is what happened over there and as you
+
+---------08:58----------
+can see my remedy for this was I love
+
+---------09:03----------
+open broadcast software have I said I
+
+---------09:05----------
+love open broadcast software so I'm not
+
+---------09:08----------
+gonna have to put a transition in there
+
+---------09:10----------
+it's just gonna work let's see what I
+
+---------09:12----------
+get on the microscope here so yeah I
+
+---------09:13----------
+have this wire that I decided to run
+
+---------09:16----------
+underneath the chip to the ball and that
+
+---------09:20----------
+about did it yeah 30 X you're not gonna
+
+---------09:25----------
+see much let's see get the light up a
+
+---------09:28----------
+little bit yeah pretty cool huh
+
+---------09:34----------
+so right where if I move even the
+
+---------09:38----------
+slightest bit at 30 X it's gonna run
+
+---------09:39----------
+away let's see if I can point this out
+
+---------09:41----------
+so right where the color is lighter over
+
+---------09:43----------
+there well yeah I don't have the hands
+
+---------09:48----------
+to be in there good at narrator at this
+
+---------09:50----------
+try that again so right over here where
+
+---------09:53----------
+the color is lighter on the lower left
+
+---------09:54----------
+that is one part see and on the top
+
+---------10:01----------
+where it's kind of more brownish reddish
+
+---------10:03----------
+that is the other part and that was
+
+---------10:06----------
+blown so right over here was plumb so
+
+---------10:08----------
+that little wire bridge is the gap and
+
+---------10:11----------
+then you have a working backlight now a
+
+---------10:13----------
+lot of the times you're going to be
+
+---------10:14----------
+so unlucky and that's one of the reasons
+
+---------10:16----------
+I'm happy about this repair because I
+
+---------10:17----------
+got lucky is that the actual thing going
+
+---------10:20----------
+through the board is gone and what
+
+---------10:22----------
+you're gonna have to do it actually fix
+
+---------10:23----------
+this issue is you're going to poke a
+
+---------10:24----------
+hole through the board then run the wire
+
+---------10:26----------
+through the board and then solder it to
+
+---------10:28----------
+the other end and that is that is
+
+---------10:30----------
+nightmarish hell and that's so
+
+---------10:31----------
+I got pretty lucky here that that didn't
+
+---------10:33----------
+happen either we just split in the
+
+---------10:34----------
+middle again that almost never happens
+
+---------10:36----------
+that never happens where it splits in
+
+---------10:37----------
+the board side it always splits when
+
+---------10:39----------
+it's going into that hole in the board
+
+---------10:41----------
+to go to the other side because on the
+
+---------10:42----------
+other side of the board is the inductor
+
+---------10:44----------
+also known as the coil I prefer to call
+
+---------10:46----------
+it an inductor most of the people who
+
+---------10:48----------
+call it an inductor know that it's not
+
+---------10:49----------
+what goes bad most of the people who use
+
+---------10:51----------
+the word coil are usually the idiots on
+
+---------10:53----------
+the internet who tell you that you have
+
+---------10:54----------
+to replace the coil when you have no
+
+---------10:56----------
+backlight and if you're one of those
+
+---------10:57----------
+people you're one of those people you're
+
+---------10:59----------
+again just to start watching these
+
+---------11:01----------
+videos and start learning and stop
+
+---------11:02----------
+listening to the that you read
+
+---------11:04----------
+on the internet but yeah that's about
+
+---------11:06----------
+that I have a working board I'm happy
+
+---------11:08----------
+I'm going to put this back together so I
+
+---------11:10----------
+can collect some money now hopefully
+
+---------11:12----------
+you'll learn something
+

@@ -1,0 +1,1261 @@
+https://www.youtube.com/watch?v=cLyn1fa86Lc
+---------00:00----------
+okay so today we're going to be going
+
+---------00:01----------
+over a no backlight board it's a month
+
+---------00:03----------
+MacBook Air I want to go over a little
+
+---------00:05----------
+bit of how you can kind of figure out
+
+---------00:06----------
+where the faults may lie so one of the
+
+---------00:09----------
+things I like to do is I like to take
+
+---------00:11----------
+the multimeter put it in diode mode put
+
+---------00:13----------
+red probe on ground and put black probe
+
+---------00:16----------
+on back light output and over here I get
+
+---------00:18----------
+point five seven two now on a working
+
+---------00:21----------
+board that is backlight I usually get
+
+---------00:23----------
+point five one nine two point five four
+
+---------00:26----------
+six when it's an LP 8550 base board what
+
+---------00:29----------
+I mean by LP 8550 based is that the
+
+---------00:31----------
+backlight circuitry is based on the LP
+
+---------00:34----------
+8550 chipset so if I were to move over
+
+---------00:37----------
+to the schematic over here after I close
+
+---------00:39----------
+out of all the personal stuff I don't
+
+---------00:42----------
+want you seeing on my monitor
+
+---------00:47----------
+you're going to see this
+
+---------00:50----------
+you
+
+---------00:52----------
+so this is what I mean when I say LP
+
+---------00:55----------
+8550 based this is the LCD backlight
+
+---------00:58----------
+driver and when i zoom in ahem when i
+
+---------01:02----------
+zoom in okay I guess Adobe just doesn't
+
+---------01:06----------
+want me to zoom in today so whatever it
+
+---------01:08----------
+says LP 8550 I know YouTube probably
+
+---------01:10----------
+sodomize it you probably can't see that
+
+---------01:12----------
+I don't know why my PDF reader is not
+
+---------01:17----------
+allowing me to zoom today and I'm just
+
+---------01:21----------
+too tired to fight it and find out why
+
+---------01:26----------
+yeah no clue but yeah that's this is an
+
+---------01:30----------
+LP 8550 baseboard and that's what I have
+
+---------01:32----------
+so first thing I'm going to do is run it
+
+---------01:43----------
+through the ultrasonic cleaner this
+
+---------01:45----------
+board came from a place I've been
+
+---------01:47----------
+telling them to buy an ultrasonic
+
+---------01:48----------
+cleaner for the past year and a half
+
+---------01:50----------
+they have not and so the LED driver
+
+---------01:53----------
+which looks just fine but right next to
+
+---------01:55----------
+the LED driver you have some of that so
+
+---------01:58----------
+I'm pretty sure that this was liquid
+
+---------01:59----------
+damaged and before I even bother
+
+---------02:02----------
+replacing stuff I'm going to make sure
+
+---------02:04----------
+that it's cleaned off so we toss it in
+
+---------02:07----------
+the Machine and
+
+---------02:14----------
+from there and see see what we get
+
+---------02:19----------
+alright so this has been run through the
+
+---------02:21----------
+ultrasonic cleaner and now that it was
+
+---------02:23----------
+run through the ultrasonic we are going
+
+---------02:25----------
+to get to work so that did not fix the
+
+---------02:28----------
+no backlight issue it still has no
+
+---------02:29----------
+backlight on the LCD and my diode mode
+
+---------02:32----------
+measurements that of being what it was
+
+---------02:34----------
+supposed to be which is between point
+
+---------02:35----------
+five one nine and point five four six I
+
+---------02:37----------
+had something like I think point five
+
+---------02:39----------
+six one just double-check and see if
+
+---------02:41----------
+that's still the case point five seven
+
+---------02:44----------
+four so here's the cool part about diode
+
+---------02:47----------
+mode measurements and you know it's like
+
+---------02:50----------
+a resistance measurement when it comes
+
+---------02:52----------
+to checking resistances in a circuit to
+
+---------02:55----------
+ground but instead of taking forever
+
+---------02:57----------
+it just happens like that it's like
+
+---------02:59----------
+thing and what you can start doing is
+
+---------03:00----------
+you can start associating certain
+
+---------03:01----------
+numbers with certain problems so for
+
+---------03:03----------
+example I know to associate if the
+
+---------03:05----------
+feedback via is blown so let me just
+
+---------03:07----------
+bring up the schematic here so that I
+
+---------03:09----------
+could show you what it is I'm talking
+
+---------03:10----------
+about look at that my PDF here oh let me
+
+---------03:13----------
+zoom it again nevermind
+
+---------03:15----------
+spoke too soon so for example I've
+
+---------03:17----------
+noticed that if this is blown from d7
+
+---------03:20----------
+701 to the feedback pin of the LP 8550
+
+---------03:25----------
+that my measurement is going to be
+
+---------03:27----------
+something like 0.45 32.5 11 I've noticed
+
+---------03:32----------
+that if this switch part is broken so
+
+---------03:35----------
+from here to here is broken that my
+
+---------03:37----------
+measurement is going to be something
+
+---------03:38----------
+like point five five zero two point six
+
+---------03:42----------
+if I've noticed that if this chip is
+
+---------03:46----------
+internally broken and shorted to ground
+
+---------03:48----------
+completely that I'll have a point zero
+
+---------03:50----------
+zero one or point zero zero seven or if
+
+---------03:52----------
+the LCD connector is a short side of it
+
+---------03:54----------
+if it's point two five six or something
+
+---------03:56----------
+like that then I also know that it's the
+
+---------03:58----------
+LP 8550 and the way I know this is
+
+---------04:00----------
+because every single time I have a
+
+---------04:01----------
+problem I measure it using the diode
+
+---------04:03----------
+mode measurements and what I do is I
+
+---------04:05----------
+make an association in my head with
+
+---------04:06----------
+whatever it is that I found
+
+---------04:07----------
+so again feedback so when I see feedback
+
+---------04:10----------
+via is not working before I'll actually
+
+---------04:11----------
+fix it I'll measure it and then I'll
+
+---------04:13----------
+have that my head so that for the next
+
+---------04:15----------
+time when I start troubleshooting a
+
+---------04:16----------
+circuit that has an issue I can just
+
+---------04:18----------
+measure it you know just get a general
+
+---------04:20----------
+idea what it is I have to do so here I'm
+
+---------04:22----------
+pretty sure that the switch portion of
+
+---------04:23----------
+the chip is bad you're not going to be
+
+---------04:26----------
+reusing that chip anyway so we do
+
+---------04:28----------
+here turn on the fume extractor since
+
+---------04:30----------
+again I don't want to get myself any
+
+---------04:32----------
+horrible diseases
+
+---------04:33----------
+inhaling solder all day
+
+---------04:37----------
+I'm going to get my spool of chips
+
+---------04:39----------
+because as I tell you you should always
+
+---------04:41----------
+stock things that you're going to use
+
+---------04:42----------
+regularly and you do need to stock this
+
+---------04:46----------
+stuff love still being sick and we're
+
+---------04:53----------
+going to get started so hopefully my
+
+---------04:54----------
+microscope setup is working come on
+
+---------04:57----------
+there we go and we're going to replace
+
+---------05:02----------
+this little thing I really got I wonder
+
+---------05:10----------
+if those like marks on it is that actual
+
+---------05:13----------
+dirt because I've compressed there that
+
+---------05:14----------
+stuff out before is that actual dirt or
+
+---------05:17----------
+is that just like permanent scratches I
+
+---------05:20----------
+guess I'll find out later one of these
+
+---------05:25----------
+days I'll get around to cleaning on the
+
+---------05:26----------
+inside of the trinocular port of the
+
+---------05:28----------
+microscope
+
+---------05:43----------
+look a little sadder ball
+
+---------06:09----------
+you
+
+---------07:15----------
+now I shouldn't use that tip to begin
+
+---------07:17----------
+with that's not the really the right one
+
+---------07:19----------
+when you use this flat tip over here to
+
+---------07:22----------
+do the wicking did anybody ask you to
+
+---------07:28----------
+beep did anybody ask if you could beep
+
+---------07:32----------
+anybody say it was okay for you to beep
+
+---------07:36----------
+if you beep even one more time if you
+
+---------07:39----------
+try to beep if you try to beep even one
+
+---------07:44----------
+more effing time oh you're gonna get it
+
+---------07:50----------
+you are gonna get it you're
+
+---------07:53----------
+gonna so hack go make some annoying
+
+---------07:56----------
+product sometimes Sharky never beeps Zam
+
+---------08:02----------
+out doesn't beep that looks like crud
+
+---------08:17----------
+you're going to use the most
+
+---------08:19----------
+professional cleaning tool there is
+
+---------08:20----------
+which is the end of my index finger a
+
+---------08:23----------
+cheap Amazon comm paper towel and some
+
+---------08:27----------
+alcohol
+
+---------08:35----------
+oh yeah that's how you do it oh I can't
+
+---------08:47----------
+wait to see the trolls that I get on
+
+---------08:48----------
+this one
+
+---------08:49----------
+people are gonna scream there's
+
+---------08:55----------
+no es de protection you can be knocking
+
+---------08:59----------
+off the resistors oh my god oh my
+
+---------09:02----------
+profession no you you know a
+
+---------09:08----------
+professional is it got here ten minutes
+
+---------09:11----------
+ago it'll be fixed ten minutes from now
+
+---------09:14----------
+and I'll never be back that's
+
+---------09:16----------
+professional really when you know what
+
+---------09:30----------
+you're doing you can do things the way
+
+---------09:31----------
+you want when you don't know what you're
+
+---------09:33----------
+doing doesn't matter if you follow a
+
+---------09:35----------
+guide or a manual it will all come out
+
+---------09:37----------
+super up I know I've been there
+
+---------09:48----------
+okay so what's this talking about over
+
+---------09:50----------
+here I'm not really happy with that
+
+---------09:55----------
+Oh
+
+---------10:04----------
+is this is a 34:37
+
+---------10:21----------
+Oh your ground I don't care about that
+
+---------10:34----------
+you'll be fine
+
+---------10:36----------
+I see you got ground over there already
+
+---------10:39----------
+here why am I even driving myself nuts
+
+---------10:42----------
+over nothing
+
+---------10:43----------
+alrighty now we're gonna put flux oh my
+
+---------10:48----------
+that's too much flux oh no it's not
+
+---------10:51----------
+gonna work now No oh hey get the
+
+---------11:05----------
+balls get the flux on the board make
+
+---------11:07----------
+sure it's all nice and flexy flex itty
+
+---------11:10----------
+flexed and for the
+
+---------11:18----------
+during times so I had my hot air station
+
+---------11:20----------
+with a lower so that'll be enough to
+
+---------11:22----------
+blow away the excess flux that I can see
+
+---------11:25----------
+stuff and by the time it heats up I'll
+
+---------11:27----------
+be ready to saddle my chip because the
+
+---------11:29----------
+excess flux will be blown away now once
+
+---------11:38----------
+it melts in a place it's going to be
+
+---------11:40----------
+like kind of moving back and forth
+
+---------11:41----------
+that's what I'm looking for
+
+---------11:54----------
+that's what I was looking for back
+
+---------11:55----------
+my hot air station actually worked and
+
+---------11:57----------
+wasn't a piece of let's see if that
+
+---------12:02----------
+melted I can't trust that's the thing
+
+---------12:04----------
+even your tools suck you can't trust
+
+---------12:05----------
+them anymore I used to just trust it I
+
+---------12:08----------
+saw it move back and forth well that
+
+---------12:11----------
+ain't melted for well that's awful
+
+---------12:14----------
+that's I may just go on and buy myself
+
+---------12:20----------
+one of those pacer well er once today
+
+---------12:22----------
+because I can't deal with this whole hot
+
+---------12:24----------
+air station being a piece of thing
+
+---------12:26----------
+alright this is by the way this supposed
+
+---------12:29----------
+to be easy job it really is like
+
+---------12:31----------
+this is this is a great example of why
+
+---------12:33----------
+you don't buy crap tools so even though
+
+---------12:35----------
+this is not a crap tool this is an
+
+---------12:36----------
+expensive hack Oh tool it's working like
+
+---------12:38----------
+an IOU right now this is what happens
+
+---------12:41----------
+when you buy Iowa remember how I said it
+
+---------12:43----------
+you're supposed to start moving back and
+
+---------12:44----------
+forth and that's how you'll know that
+
+---------12:46----------
+you're good never started moving back
+
+---------12:48----------
+and forth because it never heated up
+
+---------12:49----------
+enough here you go so see it kind of
+
+---------12:58----------
+moved in a place there and when I move
+
+---------13:01----------
+the iron back and forth you can see the
+
+---------13:03----------
+chip dancing is the other chip is kind
+
+---------13:04----------
+of dancing that's how you know that the
+
+---------13:07----------
+balls are liquidus you want the balls to
+
+---------13:09----------
+be liquidus for a decent amount of time
+
+---------13:10----------
+because almost all the balls can be
+
+---------13:12----------
+liquidus but the center balls that are
+
+---------13:14----------
+hard to get to cannot be liquidus and if
+
+---------13:15----------
+they're not liquid is that you didn't
+
+---------13:17----------
+really do anything see that's the way
+
+---------13:20----------
+they're supposed to look so you got to
+
+---------13:22----------
+see what it's like to solder with an
+
+---------13:23----------
+Iowa station and then you got to see
+
+---------13:25----------
+what it's like to solder with a hako
+
+---------13:26----------
+station even though this is not acting
+
+---------13:27----------
+like a hackle in one of the points that
+
+---------13:29----------
+I keep trying to get across in this
+
+---------13:30----------
+channel I don't want to just show you
+
+---------13:31----------
+how to do the work right I want to show
+
+---------13:33----------
+you how it gets done wrong so that you
+
+---------13:35----------
+know what to avoid it because that's
+
+---------13:37----------
+that's something that I really wish had
+
+---------13:39----------
+happened with me cuz like you know I
+
+---------13:41----------
+don't need to just know how to do it
+
+---------13:43----------
+right I need to know what's wrong I need
+
+---------13:45----------
+to know what to avoid doing just as much
+
+---------13:47----------
+as I need to know what I should be doing
+
+---------13:50----------
+nobody really points that stuff out
+
+---------13:53----------
+because they're kind of afraid to like
+
+---------13:55----------
+even everyone everybody just kind of
+
+---------13:57----------
+thinks that you should just look like
+
+---------13:58----------
+you're a genius and everything goes
+
+---------14:00----------
+perfectly all the time how dare we be
+
+---------14:02----------
+unprofessional and show something that
+
+---------14:04----------
+isn't absolutely perfect I don't give a
+
+---------14:06----------
+ if you know somebody trolls is like
+
+---------14:08----------
+you're unprofessional
+
+---------14:09----------
+this doesn't that's not perfect or blah
+
+---------14:12----------
+blah blah well like everything you do it
+
+---------14:14----------
+comes out perfect like your
+
+---------14:15----------
+tools work 100% all the time like you
+
+---------14:17----------
+have all the time in the world like
+
+---------14:19----------
+you've never made a mistake
+
+---------14:20----------
+no you're human just like me I'm sorry
+
+---------14:24----------
+to tell you you are you are you make
+
+---------14:27----------
+mistakes your day doesn't always go
+
+---------14:29----------
+perfectly your boards don't always come
+
+---------14:32----------
+out working you sometimes have to go
+
+---------14:34----------
+back in because you get you thought it
+
+---------14:36----------
+was one thing and I want to being
+
+---------14:37----------
+another you get bad chipsets in the mail
+
+---------14:39----------
+and the DHL just like I do like you know
+
+---------14:46----------
+you're all human just like me and this
+
+---------14:49----------
+channel is meant for humans not for a
+
+---------14:53----------
+little like robots then brainiacs
+
+---------14:59----------
+channel is for regular people that want
+
+---------15:02----------
+to learn something I might as well
+
+---------15:08----------
+diode mode measurement with the new chip
+
+---------15:10----------
+it's going to be a little up
+
+---------15:11----------
+because the chips never had any power
+
+---------15:12----------
+run through it before so let's see what
+
+---------15:15----------
+I get
+
+---------15:15----------
+Oh point five one four so I said that
+
+---------15:19----------
+I'm used to it being between point five
+
+---------15:21----------
+one nine and point five four six point
+
+---------15:25----------
+five one four is much closer to that
+
+---------15:26----------
+than point five seven two and point six
+
+---------15:29----------
+like I was getting before
+
+---------15:49----------
+the next video I do you'll most likely
+
+---------15:51----------
+see a new hot air station on my desk
+
+---------15:53----------
+because by then I will probably have
+
+---------15:55----------
+tossed net FR 801 out of window that's
+
+---------16:00----------
+the proper burial for it I mean really
+
+---------16:01----------
+the thing is given me about I don't
+
+---------16:04----------
+remember exactly when I bought it I
+
+---------16:05----------
+think it's given me about like good six
+
+---------16:06----------
+years of loyal loyal honest service and
+
+---------16:10----------
+people have said like open it and chest
+
+---------16:13----------
+test the cable do this that and the
+
+---------16:14----------
+other and here's I know this is again
+
+---------16:16----------
+this is legitimately stupid like I'm not
+
+---------16:18----------
+even gonna come criticize you for
+
+---------16:20----------
+telling me I'm stupid for saying this
+
+---------16:21----------
+but I hate fixing tools I really do like
+
+---------16:24----------
+I know it sounds silly but I I would
+
+---------16:27----------
+rather have I'd rather just pay more
+
+---------16:29----------
+money to get stuff to get all the stuff
+
+---------16:31----------
+in my desk to actually work then have to
+
+---------16:33----------
+think about fixing tools because I have
+
+---------16:35----------
+a certain amount of brain power in my
+
+---------16:38----------
+day in patients that I can put towards
+
+---------16:40----------
+towards figuring this stuff out and I
+
+---------16:42----------
+really don't like wasting it on
+
+---------16:44----------
+something that has just no return like I
+
+---------16:47----------
+fixed the hacker what I can't you know
+
+---------16:49----------
+nobody's gonna pay me for that oh so
+
+---------16:54----------
+replacing the element I put off for a
+
+---------16:55----------
+decent amount of time but yeah I hate
+
+---------16:57----------
+fixing tools I really do because then if
+
+---------17:00----------
+you fix the tool and you up fixing
+
+---------17:01----------
+the tool in
+
+---------17:03----------
+then you know you wasted time and it
+
+---------17:06----------
+doesn't work and and it's never gonna
+
+---------17:09----------
+work the way it used to and that I'd I
+
+---------17:12----------
+have honest agents it really comes down
+
+---------17:13----------
+to luck I mean I have just such bad luck
+
+---------17:15----------
+when it comes to repairing my own tools
+
+---------17:17----------
+it's awful it's a joke anyway so the
+
+---------17:21----------
+diode mode measurement is what I want it
+
+---------17:23----------
+to be and I have a light I obviously got
+
+---------17:26----------
+to cover the user name because as I've
+
+---------17:28----------
+learned you guys really like to stalk
+
+---------17:30----------
+people when I leave names up there so
+
+---------17:33----------
+there give a light shining apple the
+
+---------17:40----------
+Apple is shining but I can't show you
+
+---------17:42----------
+because there's a label back there and
+
+---------17:43----------
+that this camera zoomed in a little too
+
+---------17:45----------
+good so you'll see it but yeah that's
+
+---------17:47----------
+that so diode mode measurements make it
+
+---------17:49----------
+really really easy to get an idea of
+
+---------17:51----------
+what's wrong what's going on and what to
+
+---------17:53----------
+do to fix it again if my diode mode
+
+---------17:54----------
+measurement there was point five four
+
+---------17:56----------
+four I probably would look somewhere
+
+---------17:58----------
+about the lp 8550 maybe I would have
+
+---------18:01----------
+looked for the enable circuitry maybe I
+
+---------18:02----------
+would have looked for another PWM signal
+
+---------18:05----------
+missing but when you know what to look
+
+---------18:07----------
+for and when you have these measurements
+
+---------18:08----------
+in your head for all the different
+
+---------18:10----------
+circuits it makes it easy is this chip
+
+---------18:12----------
+pulling this down is that you're pulling
+
+---------18:14----------
+this down is this line missing is that
+
+---------18:15----------
+line missing diode one measurement get a
+
+---------18:18----------
+good multimeter get a nice multimeter if
+
+---------18:20----------
+you want to be able to have measurements
+
+---------18:21----------
+that are close too close to mine you can
+
+---------18:24----------
+get a fluke 15b expect to pay about a
+
+---------18:26----------
+hundred bucks for it get the fine probes
+
+---------18:28----------
+for an extra fifteen or thirty bucks on
+
+---------18:30----------
+Amazon to put on them you know I don't
+
+---------18:32----------
+have the model number in front of me and
+
+---------18:34----------
+everybody's going to ask and I'm going
+
+---------18:35----------
+to forget to put it here but you'll find
+
+---------18:37----------
+you just like find these fine tip probes
+
+---------18:39----------
+see these have a number on them of
+
+---------18:43----------
+course they don't why would you put a
+
+---------18:44----------
+number on it when it would make it
+
+---------18:46----------
+useful for reordering but yeah makes it
+
+---------18:49----------
+a lot easier you know some people have
+
+---------18:51----------
+like you know soldered needles on to it
+
+---------18:55----------
+that's just a chit sounds like torture
+
+---------18:57----------
+when you can buy that crap for fifteen
+
+---------18:59----------
+bucks but yeah that's it for today so
+
+---------19:01----------
+board was dead board had no backlight
+
+---------19:04----------
+board has back line I talked a little
+
+---------19:05----------
+bit about how I did the estimate how I
+
+---------19:07----------
+figured out I talked a little bit about
+
+---------19:09----------
+how I determined that the chip was the
+
+---------19:11----------
+problem how I use measurements to
+
+---------19:13----------
+determine that the chip is the problem
+
+---------19:14----------
+you saw me solder it
+
+---------19:15----------
+you saw the improper way to
+
+---------19:17----------
+you saw what you're most likely doing if
+
+---------19:19----------
+you have a $50 higher station than you
+
+---------19:21----------
+saw what's gonna happen you have a good
+
+---------19:22----------
+hot air station again the thing is even
+
+---------19:24----------
+when it wasn't melting the chip on
+
+---------19:26----------
+properly one of the things you probably
+
+---------19:27----------
+noticed is that it was melting solder
+
+---------19:28----------
+the components around the chip we're
+
+---------19:30----------
+actually getting hot you can see that
+
+---------19:31----------
+they were liquid is but the itself was
+
+---------19:33----------
+now and that's the thing with bad that's
+
+---------19:34----------
+the thing with bad tools that's the
+
+---------19:36----------
+thing about when tools don't work
+
+---------19:37----------
+because you're gonna think it's you
+
+---------19:38----------
+you're gonna think it's your method
+
+---------19:40----------
+you're not going to think that it's the
+
+---------19:41----------
+shitty tool because again it was slow
+
+---------19:43----------
+roasting everything and that's not what
+
+---------19:44----------
+you want you don't want hot air to slow
+
+---------19:46----------
+roast things you want hot air to be like
+
+---------19:48----------
+sort of flamethrower we're in
+
+---------19:50----------
+this specific spot you're just you give
+
+---------19:51----------
+you dislike owning it with heat like I
+
+---------19:54----------
+usually have things set to really high
+
+---------19:56----------
+heat and I just controlled my hand like
+
+---------19:58----------
+I don't control temperature by going in
+
+---------19:59----------
+the irony going I want 740 degrees now
+
+---------20:03----------
+instead of 650 degrees now no I do this
+
+---------20:06----------
+I want 650 oh I want 750 oh I want 800
+
+---------20:10----------
+like you know eat it's just how close
+
+---------20:11----------
+you to the board and you get this feel
+
+---------20:13----------
+for your tools when you have a good tool
+
+---------20:14----------
+you know exactly what the temperature
+
+---------20:16----------
+supposed to be so that yeah that's how I
+
+---------20:18----------
+know when it's soldered when I see it
+
+---------20:19----------
+when I when it moves in a place that's
+
+---------20:21----------
+great then what moves in a place I go
+
+---------20:23----------
+closer and then I move it around and
+
+---------20:24----------
+when I see that the chip is dancing I
+
+---------20:26----------
+know that it's liquidus and I want it to
+
+---------20:27----------
+be liquidus for a few seconds so that
+
+---------20:29----------
+every single ball melts and then I'm
+
+---------20:31----------
+half
+

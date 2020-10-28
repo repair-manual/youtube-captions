@@ -1,0 +1,1714 @@
+https://www.youtube.com/watch?v=wbqwi24xEqc
+---------00:00----------
+hi welcome today's stream where I'm
+
+---------00:01----------
+gonna be going over what I believe to be
+
+---------00:03----------
+apples next recall this is going to be
+
+---------00:06----------
+of the 12 inch a 15 34 2015 model
+
+---------00:09----------
+MacBook it's because a specific failure
+
+---------00:11----------
+continues to occur on these machines
+
+---------00:13----------
+even when there is no evidence of liquid
+
+---------00:15----------
+damage no evidence of physical damage
+
+---------00:17----------
+and no evidence of use of a knockoff
+
+---------00:19----------
+charger this is consistent and has been
+
+---------00:21----------
+coming into our store on a regular basis
+
+---------00:23----------
+and it's been happening enough within a
+
+---------00:26----------
+short enough time period that I believe
+
+---------00:28----------
+that they're eventually going to get
+
+---------00:30----------
+pushed into put doing an extended
+
+---------00:31----------
+warranty recall assuming that the people
+
+---------00:33----------
+that buy these products actually hold
+
+---------00:35----------
+them accountable so I'm gonna show you
+
+---------00:36----------
+what the issue is how we diagnose it how
+
+---------00:39----------
+we repair it and with any luck hopefully
+
+---------00:42----------
+Apple will start covering these so that
+
+---------00:43----------
+we we don't have to so let's get into it
+
+---------00:47----------
+so the issue manifests itself like this
+
+---------00:49----------
+we're going to plug the charger in and
+
+---------00:52----------
+I'm gonna show you what we get on the
+
+---------00:55----------
+DCN so let's plug in the charger let's
+
+---------00:58----------
+get the multimeter going so you could
+
+---------01:00----------
+see it on the screen here all right get
+
+---------01:04----------
+the serial mode on by the way it's weird
+
+---------01:08----------
+I didn't receive notification that would
+
+---------01:10----------
+explain why there's only 232 viewers
+
+---------01:12----------
+thank you yeah
+
+---------01:14----------
+YouTube does that to certain channels
+
+---------01:16----------
+where they stop sending out their
+
+---------01:17----------
+notifications I guess I'm on the list or
+
+---------01:20----------
+something yeah I wonder how that
+
+---------01:22----------
+happened anyway
+
+---------01:24----------
+so let's check this out so this over
+
+---------01:27----------
+here is the board view and this is the
+
+---------01:30----------
+charging port over here this is where
+
+---------01:31----------
+the voltage is going to come in from the
+
+---------01:33----------
+charger and you have F 4700 which is a
+
+---------01:36----------
+fuse which is going to be taking the
+
+---------01:38----------
+voltage from the charger so we're going
+
+---------01:40----------
+to find F 4700 right here
+
+---------01:46----------
+so this is the fuse sitting between the
+
+---------01:49----------
+charger and the machine and typically
+
+---------01:51----------
+this is going to be 20 volts coming from
+
+---------01:53----------
+the charger but if you check what we get
+
+---------01:56----------
+on this device when I measure we're
+
+---------02:04----------
+going to get less
+
+---------02:09----------
+hmm ahem we're getting zero volts I
+
+---------02:15----------
+don't see if that's all plugged in
+
+---------02:17----------
+properly
+
+---------02:33----------
+here we go this how to change how it was
+
+---------02:36----------
+plugged in so we're getting five point
+
+---------02:38----------
+two volts but five point two volts is
+
+---------02:40----------
+wrong this is USB see this USB C charger
+
+---------02:43----------
+is something that supposed to be working
+
+---------02:45----------
+at 20 volts why is it only working at
+
+---------02:47----------
+five instead of twenty why isn't the
+
+---------02:49----------
+charger putting out the twenty it's
+
+---------02:51----------
+supposed to why isn't the computer
+
+---------02:52----------
+telling the charger to put out the
+
+---------02:54----------
+twenty volts that it's supposed to well
+
+---------02:55----------
+let's dive it and find out so if we look
+
+---------02:57----------
+over the schematic here you'll see there
+
+---------02:59----------
+is communication that occurs between the
+
+---------03:01----------
+charger and the computer so if we were
+
+---------03:06----------
+to just put the schematic fullscreen for
+
+---------03:08----------
+a moment let that take center stage
+
+---------03:11----------
+you'll see we have a bunch of
+
+---------03:13----------
+bi-directional data lines some of these
+
+---------03:15----------
+bi-directional data lines are for things
+
+---------03:17----------
+like over here you have for display port
+
+---------03:20----------
+for USB for more DisplayPort but I'm not
+
+---------03:23----------
+really interested in that so much as I
+
+---------03:25----------
+am interested in actual power going back
+
+---------03:28----------
+and forth between the two so I want to
+
+---------03:30----------
+try to figure out how this machine
+
+---------03:32----------
+negotiates the how this machine
+
+---------03:35----------
+negotiates for the Chargers what
+
+---------03:36----------
+bi-directional data lines responsible
+
+---------03:38----------
+for talking to it and telling it give me
+
+---------03:40----------
+20 volts not of this none of this
+
+---------03:43----------
+low-voltage 5 volt BS so let's just take
+
+---------03:46----------
+a look at some of this so LS I'm gonna
+
+---------03:49----------
+take a guess that that's low speed USB
+
+---------03:50----------
+USB 3 that's gonna be high speed USB
+
+---------03:53----------
+this is gonna be the other sort of low
+
+---------03:55----------
+speed USB so we have to find where what
+
+---------03:58----------
+else could be here so over here we have
+
+---------04:00----------
+a chip that says charger detection and
+
+---------04:03----------
+it has a bi-directional data line over
+
+---------04:05----------
+here that's gonna go to all of this
+
+---------04:11----------
+stuff that's so that talk so let's just
+
+---------04:16----------
+try it fun to do some pattern
+
+---------04:17----------
+recognition here what are the all these
+
+---------04:18----------
+things have in common so we have this IC
+
+---------04:21----------
+for charge of detection and it's powered
+
+---------04:24----------
+off of PP 3 V 3 R 3 V 0 underscore Aon
+
+---------04:27----------
+we have this one over here this also
+
+---------04:31----------
+does some communication 85 CC one this
+
+---------04:33----------
+is a bi-directional data line this
+
+---------04:37----------
+bi-directional data line goes to this
+
+---------04:43----------
+where H goes to the charger this is also
+
+---------04:47----------
+powered by pp 3 V 3 R 3 V 0
+
+---------04:50----------
+Aon and if we check out these
+
+---------04:52----------
+bi-directional data lines bi-directional
+
+---------04:55----------
+I mean they talk to each other these
+
+---------04:57----------
+chips are also powered by pp 3 V 3 R 3 V
+
+---------05:00----------
+0 Aon so while on the older MacBook Pros
+
+---------05:04----------
+in the older MacBook Air is the first
+
+---------05:06----------
+power rail that was most important to
+
+---------05:07----------
+get the charger turning on was pp 3 V 4
+
+---------05:10----------
+to underscore g3 huh it seems like on
+
+---------05:12----------
+these machines one of the power rails
+
+---------05:13----------
+I'm most interested in is pp 3 V 3 R 3 V
+
+---------05:17----------
+0 so let's see if that's present over
+
+---------05:19----------
+here and let's see what we get so while
+
+---------05:21----------
+it's still plugged in we're going to
+
+---------05:23----------
+check out pp 3 v 3 R 3 V 0 so first
+
+---------05:28----------
+thing I've got to do is find out where I
+
+---------05:31----------
+can find that on the board so let's see
+
+---------05:36----------
+Pepe 3 V 3 R 3 V 0 a
+
+---------05:40----------
+o n where do we find you okay so I can
+
+---------05:52----------
+find you right over here so we're gonna
+
+---------05:54----------
+take a look there and see what we get so
+
+---------05:57----------
+I got the multimeter set to voltage
+
+---------06:00----------
+measurements and
+
+---------06:15----------
+looks like we're getting point 5 volts
+
+---------06:24----------
+0.5 volts is a far cry from the 3.3
+
+---------06:27----------
+volts I would expect to get at PP 3 v 3
+
+---------06:30----------
+so first thing I want to do let's see if
+
+---------06:32----------
+there's a short circuit to ground maybe
+
+---------06:34----------
+we got a short circuit to ground maybe
+
+---------06:35----------
+that's a problem so but the multimeter
+
+---------06:38----------
+into voltage mode I mean into resistance
+
+---------06:42----------
+mode and let's see if there's a short
+
+---------06:44----------
+circuit
+
+---------06:45----------
+so remember PP 3 V 3 R 3 V 0 it's going
+
+---------06:49----------
+to be right over here and that is over
+
+---------06:52----------
+here so we're gonna measure and see what
+
+---------06:56----------
+our resistance to ground is and our
+
+---------06:58----------
+resistance to ground is six point seven
+
+---------07:00----------
+ohms six point seven ohms is way too low
+
+---------07:04----------
+on a working board that's gonna be much
+
+---------07:05----------
+higher than that which means that we
+
+---------07:06----------
+have a short circuit on that line so now
+
+---------07:08----------
+we have to do is figure out where that
+
+---------07:10----------
+short circuit is and we're going to do
+
+---------07:12----------
+that by injecting voltage into the line
+
+---------07:13----------
+so I am going to get a set of banana
+
+---------07:17----------
+plugs and solder a wire to that section
+
+---------07:22----------
+of the board and then we're going to
+
+---------07:25----------
+inject 3.42 volts into the board so I'm
+
+---------07:28----------
+gonna turn on this little power supply I
+
+---------07:30----------
+got a link to it in the description
+
+---------07:31----------
+below if you want to know where to find
+
+---------07:32----------
+something like this variable output
+
+---------07:34----------
+power supply we're gonna set this down
+
+---------07:36----------
+to one volt to be really conservative
+
+---------07:39----------
+let's just 1.5 volts right now that's it
+
+---------07:43----------
+and plug this in so I'm gonna have one
+
+---------07:46----------
+wire that's going to be going to ground
+
+---------07:49----------
+just gonna chop this up a little bit and
+
+---------07:52----------
+we're gonna try to find our
+
+---------07:53----------
+short-circuit
+
+---------08:03----------
+now we're just gonna find a finer ground
+
+---------08:07----------
+here that I don't mind soldering to
+
+---------08:10----------
+[Music]
+
+---------08:15----------
+perhaps a screw hole joke Rogen on
+
+---------08:19----------
+twitch this stream borked his twitch not
+
+---------08:22----------
+working yet again I what a website now
+
+---------08:27----------
+that the trade stream seems to be
+
+---------08:28----------
+working on twitch I can't sorry for
+
+---------08:30----------
+blaming twitch seems like twitch is
+
+---------08:32----------
+doing just fine his stream lab working
+
+---------08:40----------
+that's a good question I'll do I
+
+---------08:48----------
+too late to check now into soldering so
+
+---------08:51----------
+we're going to turn the iron on
+
+---------08:56----------
+[Music]
+
+---------09:03----------
+come on there we go iron will it beeped
+
+---------09:07----------
+see how much faster that works when you
+
+---------09:09----------
+actually turn it on I'm just gonna this
+
+---------09:13----------
+is just some quick and dirty soldering
+
+---------09:15----------
+job there nothing too crazy okay now we
+
+---------09:19----------
+got to find a place on the board that we
+
+---------09:21----------
+can solder to PP 3 V 3 R 3 V 0
+
+---------09:34----------
+so let's find that now
+
+---------09:42----------
+all right anything on this other side
+
+---------09:43----------
+that's so I can put it let's say right
+
+---------09:46----------
+over here
+
+---------09:49----------
+this stuff is all pretty small so I
+
+---------09:55----------
+might have to solder a wire to a wire or
+
+---------10:02----------
+just cheat and use jason's
+
+---------10:22----------
+okay so I'm gonna tin this section so
+
+---------10:29----------
+this over here represents pp 3 B 3 R 3 V
+
+---------10:31----------
+0 I'm just gonna tin that little
+
+---------10:33----------
+capacitor and then I'm gonna solder a
+
+---------10:38----------
+teeny tiny jumper wire to it
+
+---------11:08----------
+time to find a teeny-tiny jumper wire
+
+---------11:27----------
+yeah use some of that alright beautiful
+
+---------11:36----------
+okay
+
+---------11:47----------
+okay that's good and now attach that to
+
+---------11:54----------
+this and we'll be set
+
+---------12:21----------
+scrape away some of the enamel and the
+
+---------12:23----------
+jumper wire the enamel wire
+
+---------12:36----------
+and this wire is going to the positive
+
+---------12:38----------
+of the power splice the whole idea here
+
+---------12:40----------
+is we're going to inject some voltage
+
+---------12:42----------
+directly into that 3.3 volt line and
+
+---------12:46----------
+we're gonna see what gets hot on that
+
+---------12:49----------
+rail and I'm going to do something today
+
+---------12:58----------
+that I don't usually do and I'm actually
+
+---------13:01----------
+gonna use this Union or pair thermal
+
+---------13:03----------
+imaging thing for this once I find out
+
+---------13:07----------
+where the plug is go so you'll be able
+
+---------13:15----------
+to see what it is that a short-circuited
+
+---------13:20----------
+this thing isn't all terrible when you
+
+---------13:23----------
+actually know to hit that Chinese button
+
+---------13:30----------
+so let's let's get this thing brought up
+
+---------13:32----------
+on the desk so now that we've got that
+
+---------13:34----------
+soldered on we're going to inject some
+
+---------13:37----------
+power in let's get the thermal cam up
+
+---------13:40----------
+here thermal camera BAM and we're hey
+
+---------13:49----------
+where'd I go I want to see me here we go
+
+---------14:01----------
+okay so this is our board okay I'm gonna
+
+---------14:25----------
+turn this on and at 1.5 volts as you
+
+---------14:34----------
+can't see because they have the refresh
+
+---------14:37----------
+rate it looks like we're at 1.5 volts we
+
+---------14:39----------
+are using point two amps so let's go
+
+---------14:48----------
+back to the thermal imager now the thing
+
+---------14:50----------
+I didn't like about this thermal imaging
+
+---------14:52----------
+software is that even when you select
+
+---------14:54----------
+English and even though this thing costs
+
+---------14:56----------
+nine hundred US dollars that's right
+
+---------14:59----------
+nine hundred dollars the button that
+
+---------15:01----------
+actually does most of the work is in
+
+---------15:03----------
+Chinese so once you figure that out you
+
+---------15:07----------
+hit the button and this $900 thermal
+
+---------15:10----------
+imager which you can get from union
+
+---------15:11----------
+repair will tell you what the hottest
+
+---------15:14----------
+thing on the board is so over here most
+
+---------15:18----------
+of the board is 26 Celsius as you can
+
+---------15:19----------
+see but if you click over here right
+
+---------15:23----------
+where it lights up that chip is 44
+
+---------15:25----------
+Celsius and if I were to up the voltage
+
+---------15:30----------
+on this a little bit like to let's say
+
+---------15:33----------
+1.8 or 2 volts it would become even more
+
+---------15:35----------
+obvious and just start glowing yeah so
+
+---------15:38----------
+at 2 volts that's at 52 Celsius at 2.4
+
+---------15:48----------
+volts that chip is at 60 Celsius so
+
+---------15:51----------
+let's see what that chip is and what it
+
+---------15:52----------
+does didn't you say in a previous video
+
+---------15:56----------
+that you wouldn't use thermal imaging
+
+---------15:58----------
+because it's mostly useless yes so let
+
+---------16:01----------
+me this is just so that I could show you
+
+---------16:02----------
+visually now this thing is $900 so let
+
+---------16:05----------
+me just show you how it is I would find
+
+---------16:07----------
+that short-circuit if I did not want to
+
+---------16:09----------
+spend $900 on a thermal imager but
+
+---------16:11----------
+rather was limited to spending a dollar
+
+---------16:13----------
+at the
+
+---------16:14----------
+corner store on let's say alcohol so
+
+---------16:17----------
+this here is the area and I would take
+
+---------16:21----------
+something like I would turn off the
+
+---------16:23----------
+power supply like so and I would pour
+
+---------16:26----------
+alcohol on the board like so and then
+
+---------16:30----------
+when you turn on the power supply see
+
+---------16:32----------
+how that would just happen as soon as I
+
+---------16:33----------
+turned on the power supply that it got
+
+---------16:35----------
+hot and the alcohol went away so that's
+
+---------16:37----------
+the reason that I don't spend the money
+
+---------16:39----------
+on the thermal imager
+
+---------16:40----------
+because whatever a thermal imager can do
+
+---------16:43----------
+it with today's technology you can do as
+
+---------16:45----------
+well if not better with canned air
+
+---------16:49----------
+turned upside down so that it shoots out
+
+---------16:51----------
+freeze spray actual freeze spray or
+
+---------16:53----------
+alcohol so watch it's off on and it
+
+---------16:56----------
+instantly evaporates so the issue that
+
+---------16:58----------
+we have here is this chip just to be
+
+---------17:02----------
+clear there's no way in hell that I'm
+
+---------17:04----------
+endorsing that somebody spend $900 in
+
+---------17:06----------
+this thermal imager it was just using it
+
+---------17:07----------
+to show you what it looks like just so
+
+---------17:09----------
+that were all 110 percent clear on that
+
+---------17:11----------
+I am solely using that because it was
+
+---------17:13----------
+sent to me as a review unit for free but
+
+---------17:17----------
+to continue let's look at the schematic
+
+---------17:19----------
+and board view and see what it is we
+
+---------17:22----------
+find there so this chip this is the one
+
+---------17:25----------
+that's getting hot is you 4700 so let's
+
+---------17:28----------
+look that up on the schematic and see
+
+---------17:30----------
+what that's for you 4700 is responsible
+
+---------17:33----------
+for shorting PP 3 v 3 R 3 v 0 Aon to
+
+---------17:37----------
+ground so this chip let's see let's just
+
+---------17:41----------
+see you get an idea of what it talks to
+
+---------17:43----------
+I'm gonna get the schematic solely on
+
+---------17:44----------
+the screen so that you can see this and
+
+---------17:47----------
+all of its glory nice and zoomed in psi
+
+---------17:55----------
+Q says but now you have the show error
+
+---------17:56----------
+button in Chinese I gotta say the one
+
+---------17:58----------
+thing that Union repair managed to do
+
+---------18:00----------
+that Paul Daniels never could was create
+
+---------18:02----------
+a fine default button I've been asking
+
+---------18:05----------
+Paul Daniels to create a fine fault
+
+---------18:07----------
+button for like four years now you're
+
+---------18:09----------
+the Bob Ross up top repair thank you
+
+---------18:17----------
+so let's just go take a look at what
+
+---------18:21----------
+this talks to so the connection enable
+
+---------18:25----------
+what's that do it looks like that talks
+
+---------18:29----------
+to a chip that deals with
+
+---------18:31----------
+current-limiting that sends five volts
+
+---------18:35----------
+to deals with five volts of the charger
+
+---------18:39----------
+okay it does that it has a
+
+---------18:41----------
+bi-directional data line called BP PD
+
+---------18:43----------
+connection detect so it deals with the
+
+---------18:46----------
+host port host port micro interface it's
+
+---------18:50----------
+responsible for quite a few different
+
+---------18:51----------
+things but what's important to us is
+
+---------18:54----------
+that it's shorting PP 3 V 3 R 3 V 0 to
+
+---------18:56----------
+ground and that will not do which means
+
+---------18:59----------
+that it has got to go and if it's going
+
+---------19:01----------
+to go then that means we need to replace
+
+---------19:02----------
+it with something else so what are we
+
+---------19:04----------
+going to replace it with and how are we
+
+---------19:06----------
+going to find a replacement chip said
+
+---------19:10----------
+how would you find a replacement chip I
+
+---------19:13----------
+wonder where you'd go check out store
+
+---------19:19----------
+dot Rossmann group comm today where you
+
+---------19:20----------
+can buy all sorts of chipsets voltage
+
+---------19:23----------
+controllers fuses filters soldering
+
+---------19:25----------
+equipment ultrasonics flux and even
+
+---------19:27----------
+solder paste search for the chip based
+
+---------19:29----------
+on the number in the schematic and have
+
+---------19:31----------
+a list bro be brought up immediately
+
+---------19:33----------
+watch as it tells you exactly which
+
+---------19:35----------
+boards it's compatible with also exactly
+
+---------19:38----------
+what the issues typically are with that
+
+---------19:41----------
+chip not only does it tell you exactly
+
+---------19:42----------
+which chip to buy for your machine
+
+---------19:44----------
+it also tells you what the common fixes
+
+---------19:46----------
+are that that's what the common faults
+
+---------19:49----------
+are that that chip causes not sure which
+
+---------19:51----------
+chips to buy just search by your model
+
+---------19:53----------
+motherboard and it'll bring up
+
+---------19:54----------
+everything compatible with your board
+
+---------19:56----------
+Ross and repair group your supply store
+
+---------19:59----------
+your know what was it they said with
+
+---------20:01----------
+Modell sporting goods you how to answer
+
+---------20:02----------
+the phone your hometown sporting goods
+
+---------20:04----------
+store Ross from the repair group your
+
+---------20:06----------
+hometown MacBook chip store anyway so I
+
+---------20:10----------
+got to keep that up so that I can
+
+---------20:11----------
+actually find out which bin it's in so I
+
+---------20:15----------
+can find this chip in e6 so I'm gonna
+
+---------20:20----------
+get myself a new chip we're gonna repeal
+
+---------20:22----------
+and replace this one and hopefully have
+
+---------20:24----------
+a board that will turn on the charger so
+
+---------20:26----------
+I'm gonna get you get a replacement one
+
+---------20:28----------
+and I will be right back
+
+---------21:00----------
+one thing I really want to drive home
+
+---------21:02----------
+while you're looking at this board
+
+---------21:04----------
+do you see liquid damage do you see
+
+---------21:06----------
+physical damage do you see anything by
+
+---------21:08----------
+that any corrosion anything at all that
+
+---------21:10----------
+would indicate that the user mistreated
+
+---------21:12----------
+the machine there's no proof there's
+
+---------21:14----------
+nothing and I would say that is we've
+
+---------21:17----------
+literally gotten one machine ever that
+
+---------21:20----------
+had this issue where there was any sign
+
+---------21:22----------
+that the user treated it poorly good
+
+---------21:24----------
+night
+
+---------21:24----------
+but everything else every single time
+
+---------21:29----------
+this has gone bad it was just out of
+
+---------21:32----------
+nowhere just listen
+
+---------21:34----------
+they bring a mint-condition machine and
+
+---------21:37----------
+it's just dead how much money does this
+
+---------21:42----------
+cost if you look it up Paul let's see
+
+---------21:44----------
+what does this computer actually cost
+
+---------21:46----------
+new I'm curious so we're gonna do here
+
+---------21:50----------
+is I'm gonna cover the surrounding area
+
+---------21:52----------
+with a metal shield thank you to Kareem
+
+---------21:56----------
+Holley I appreciate that so we're gonna
+
+---------21:59----------
+cover the surrounding stuff with this
+
+---------22:01----------
+little iPhone shield so we don't heat it
+
+---------22:03----------
+up too much and we're gonna get a
+
+---------22:05----------
+replacement chip going on there stop
+
+---------22:12----------
+saying repeal and replace I have a new
+
+---------22:14----------
+reason to say it more regularly now okay
+
+---------22:23----------
+13 is $1600 for this machine and how
+
+---------22:27----------
+many USB ports does it have one port
+
+---------22:33----------
+yeah this thing starts at $1,300 $1,300
+
+---------22:44----------
+I'm sure there's gonna be more people on
+
+---------22:46----------
+that forum that I was linking to in the
+
+---------22:48----------
+keyboard thread saying sir MacRumors is
+
+---------23:00----------
+such a cesspool sometimes seriously
+
+---------23:03----------
+these I mean the though I can't I just
+
+---------23:08----------
+can't identify with the degree to which
+
+---------23:10----------
+people who share interests who share
+
+---------23:12----------
+concerns bash and crap on each other
+
+---------23:16----------
+just so that their corporate overlords
+
+---------23:19----------
+is not either that they don't get angry
+
+---------23:22----------
+at their corporate overlords it's just
+
+---------23:24----------
+it's it's hilarious
+
+---------23:25----------
+it said at the same time but if you read
+
+---------23:28----------
+that forum it's like oh you can't expect
+
+---------23:30----------
+stuff to wet what worked forever I
+
+---------23:32----------
+should have bought Apple Care hey you
+
+---------23:34----------
+can't expect stuff to work longer than
+
+---------23:36----------
+14 months what are you crazy
+
+---------23:39----------
+really really
+
+---------23:47----------
+all right so we're gonna that's zoom in
+
+---------23:53----------
+on this for you should go to epic here
+
+---------23:57----------
+you know what you should have bought you
+
+---------23:59----------
+should have bought a $600 computer
+
+---------24:01----------
+because not only would this not happen
+
+---------24:04----------
+but you could buy tooth it's genuinely
+
+---------24:08----------
+sad because there are so many things
+
+---------24:09----------
+that Apple does to for people better
+
+---------24:12----------
+than what Windows or PC based machines
+
+---------24:16----------
+will do for people or like traditional
+
+---------24:17----------
+PCs will do for people or $99 like your
+
+---------24:22----------
+Lenovo Paul there are a lot of things
+
+---------24:25----------
+that they do better and they they they
+
+---------24:26----------
+have a market of people that will just
+
+---------24:28----------
+buy their stuff under a virtue that like
+
+---------24:32----------
+where it's just it's just their default
+
+---------24:34----------
+is just I'm gonna buy this I'm not even
+
+---------24:35----------
+gonna research how do you screw that up
+
+---------24:38----------
+but it it's like they're trying to screw
+
+---------24:41----------
+it up I don't get it I don't get it you
+
+---------24:44----------
+know treat your users better don't take
+
+---------24:49----------
+for granted the fact that you have
+
+---------24:50----------
+customers there's any lesson I've ever
+
+---------24:51----------
+learned I don't take for granted the
+
+---------24:53----------
+fact that people want to give you money
+
+---------25:03----------
+I Petri hipsters drive savers video is a
+
+---------25:07----------
+cesspool a bunch of we trust drive
+
+---------25:09----------
+savers who the hell are you STFU drive
+
+---------25:11----------
+savers is great yeah except for the fact
+
+---------25:14----------
+that Jessa recovered a phone that they
+
+---------25:16----------
+didn't and she doesn't have a
+
+---------25:19----------
+two-million-dollar clean room she has a
+
+---------25:22----------
+two million dollar house but not a two
+
+---------25:23----------
+million dollar clean room there's a
+
+---------25:26----------
+difference
+
+---------25:37----------
+okay I shouldn't assume then usually I
+
+---------25:39----------
+don't zoom in much because as soon as I
+
+---------25:41----------
+push down on anything it goes out of
+
+---------25:43----------
+focus but we got the chip soldered on
+
+---------25:45----------
+there there we go beautiful beautiful
+
+---------25:49----------
+it's a little crooked but that's my
+
+---------25:54----------
+that's my signature someone says
+
+---------25:56----------
+Stockholm Syndrome
+
+---------25:57----------
+yeah you can like what a company does
+
+---------25:59----------
+for you but still you can like the
+
+---------26:00----------
+products they produce but still be angry
+
+---------26:02----------
+when they do something stupid
+
+---------26:04----------
+I love Lenovo they did super fish that
+
+---------26:07----------
+was dumb you got to call them out when
+
+---------26:09----------
+they do something dumb and you got to
+
+---------26:11----------
+call them out when they screw you over
+
+---------26:17----------
+don't let yourself get screwed okay
+
+---------26:26----------
+we're gonna give this a second to cool
+
+---------26:28----------
+off give this a moment and cool off here
+
+---------26:36----------
+just pick up that little bit bit of
+
+---------26:38----------
+solder blob over there clean that off a
+
+---------26:41----------
+little later we'll clean off that screw
+
+---------26:43----------
+hole later once we confirm that this
+
+---------26:44----------
+whole thing works beautifully all right
+
+---------26:57----------
+stop trolling Maisy she said oh my go in
+
+---------27:00----------
+a two million dollar house Maisy go to
+
+---------27:02----------
+Zillow learn ask your mom how to use
+
+---------27:04----------
+Zillow and you'll find out that your mom
+
+---------27:06----------
+is a two million dollar house
+
+---------27:11----------
+what ceiling lights do you use I use
+
+---------27:15----------
+some cheap LED t8 tubes that I got from
+
+---------27:18----------
+eBay so we're just gonna wait a second
+
+---------27:24----------
+for this to cool off I would send a
+
+---------27:29----------
+phone to Jessa before I sent it to app
+
+---------27:31----------
+to drive savers I would send a phone to
+
+---------27:34----------
+Jessa
+
+---------27:34----------
+if Jessa was two thousand dollars and
+
+---------27:37----------
+drive savers was two hundred I would
+
+---------27:39----------
+still send my phone to Jessa
+
+---------27:40----------
+that's this we have a two million dollar
+
+---------27:48----------
+clue how are you feeling today we'll see
+
+---------27:56----------
+if this works so let's plug this in
+
+---------27:58----------
+all right ready for the moment of truth
+
+---------28:01----------
+get my multimeter on-screen or they got
+
+---------28:04----------
+to get myself a smaller keyboard for
+
+---------28:06----------
+this desk I have the keyboard sitting in
+
+---------28:10----------
+between my water bottle and the thermal
+
+---------28:14----------
+camera it actually kind of makes things
+
+---------28:18----------
+fit perfectly all right so let's go back
+
+---------28:21----------
+to our DC in fuse over here this is the
+
+---------28:24----------
+DC input fuse we're gonna put the meter
+
+---------28:26----------
+in voltage mode get the range set right
+
+---------28:29----------
+plug this in and let's see if it
+
+---------28:32----------
+communicates properly with the charger
+
+---------28:35----------
+and gives me the 20 volts that I want 20
+
+---------28:39----------
+volts great job dumbass
+
+---------28:46----------
+yeah let's try that 20 volts yeah and
+
+---------28:52----------
+don't shoot your multimeter to ground
+
+---------28:54----------
+did you hear that I wonder if everybody
+
+---------28:57----------
+else heard that alright we're getting 20
+
+---------28:59----------
+volts and now just to confirm that it's
+
+---------29:01----------
+turning on because we keep in mind this
+
+---------29:03----------
+model does not have a fan I can't I
+
+---------29:05----------
+can't check fan spin
+
+---------29:06----------
+I'm gonna check CPU vcore so cpu v core
+
+---------29:10----------
+is gonna be somewhere
+
+---------29:11----------
+all the way by the CPU over here let C
+
+---------29:15----------
+be PVC CSO CPU okay we're gonna check on
+
+---------29:29----------
+some of these caps all the way down here
+
+---------29:31----------
+check that this thing is turning on
+
+---------29:33----------
+working beautiful alright this is the c
+
+---------29:46----------
+p-- 1.58 volts so we've got cpu v core
+
+---------29:52----------
+we've got the charger working and all as
+
+---------29:55----------
+well
+
+---------29:55----------
+all fixed working great so this is what
+
+---------29:58----------
+I think the next Apple recall is going
+
+---------30:00----------
+to be I think it's gonna be the 12-inch
+
+---------30:02----------
+MacBook from 2015 the a 1534 model you
+
+---------30:06----------
+can tell if you have this board inside
+
+---------30:07----------
+if it has a model number eight to zero
+
+---------30:10----------
+zero zero zero four five that's the a
+
+---------30:13----------
+1534 12-inch MacBook from 2015 you bet
+
+---------30:17----------
+that a lot of people are gonna be
+
+---------30:18----------
+reporting these as having random
+
+---------30:20----------
+failures or randomly being dead and it's
+
+---------30:23----------
+not different causes and every single
+
+---------30:24----------
+one of them 99.999% of the time that
+
+---------30:27----------
+somebody reports that this machine is
+
+---------30:28----------
+completely dead out of the blue no you
+
+---------30:31----------
+just out of nowhere it's going to be u
+
+---------30:33----------
+4700 died and shorted pp 3 V 3 R 3 V 0
+
+---------30:38----------
+to ground that is that is a serious
+
+---------30:41----------
+issue this does not require liquid it
+
+---------30:44----------
+doesn't require physical damage it
+
+---------30:46----------
+doesn't require misuse from the user it
+
+---------30:48----------
+just happens
+
+---------30:50----------
+it goes poof and that's that so if you
+
+---------30:53----------
+are getting these machines in your shop
+
+---------30:55----------
+check this out this is gonna be a very
+
+---------30:56----------
+common issue that you're gonna need to
+
+---------30:58----------
+be aware of it so that you can offer
+
+---------31:00----------
+this service to your customers so that
+
+---------31:01----------
+you could fix these damaged machines and
+
+---------31:03----------
+that's it for today and as always I hope
+
+---------31:05----------
+you learned something and if you're a
+
+---------31:07----------
+customer that bought this machine from
+
+---------31:09----------
+Apple and you have this issue please by
+
+---------31:11----------
+all means shove it in their face make
+
+---------31:14----------
+sure that they know about this so that
+
+---------31:16----------
+they stop getting away with giving users
+
+---------31:20----------
+thirteen hundred to eighteen hundred
+
+---------31:22----------
+dollar products that work for a year or
+
+---------31:23----------
+two and die of
+
+---------31:25----------
+fall to their own the only reason they
+
+---------31:26----------
+get away with this stuff is because
+
+---------31:28----------
+users let them get away with it you can
+
+---------31:30----------
+enjoy their products you can appreciate
+
+---------31:32----------
+their products you can use them to be
+
+---------31:34----------
+productive that's all great stuff but
+
+---------31:36----------
+don't let them bend you over don't let
+
+---------31:38----------
+them take your money and not give you
+
+---------31:40----------
+what you pay for that's it for today
+

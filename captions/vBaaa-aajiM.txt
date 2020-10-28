@@ -1,0 +1,841 @@
+https://www.youtube.com/watch?v=vBaaa-aajiM
+---------00:00----------
+we have a Macbook that appears to have
+
+---------00:01----------
+flickering issues on the screen it had
+
+---------00:03----------
+water spilled on it let's open up this
+
+---------00:05----------
+MacBook and try and figure out why it's
+
+---------00:07----------
+flickering MacBook random random the LED
+
+---------00:18----------
+driver on the board looks fine
+
+---------00:20----------
+the display circuitry looks fine
+
+---------00:23----------
+the LCD connector looks fine back light
+
+---------00:27----------
+output caps fine I mean you've got a
+
+---------00:29----------
+solder ball over here but I mean let's
+
+---------00:31----------
+face it this is a MacBook if you expect
+
+---------00:33----------
+this thing to be put together or solder
+
+---------00:35----------
+together in a really nice manner than
+
+---------00:37----------
+you're you're out of your mind let's see
+
+---------00:41----------
+if there's a short to ground on
+
+---------00:43----------
+backlight output that could be causing
+
+---------00:44----------
+our issue
+
+---------00:45----------
+you got the multimeter here we're just
+
+---------00:47----------
+gonna Paul it turn on Paul Daniels is
+
+---------00:49----------
+execrable software and pray that it
+
+---------00:51----------
+works let's see if we have got a short
+
+---------00:54----------
+to ground on backlight output and it
+
+---------00:58----------
+appears that we don't now we're going to
+
+---------01:01----------
+see if there's a short to ground the
+
+---------01:02----------
+backlight output with the screwed
+
+---------01:04----------
+plugged in and also one thing that could
+
+---------01:06----------
+often cause often caused flickering is
+
+---------01:10----------
+if the Machine thinks it's going to
+
+---------01:11----------
+sleep so remember there's a magnet in
+
+---------01:13----------
+the display and the purpose of the
+
+---------01:15----------
+magnet in the display is so that when
+
+---------01:18----------
+you close it a hall sensor which senses
+
+---------01:21----------
+magnetism in the computer will tell that
+
+---------01:24----------
+it's closed so when you close the
+
+---------01:26----------
+Machine the magnet that's in the lid of
+
+---------01:28----------
+the screen so let's say this is your
+
+---------01:30----------
+computer this is your keyboard this is
+
+---------01:31----------
+your screen
+
+---------01:32----------
+you got the magnet here when you close
+
+---------01:34----------
+it the computer will see that the magnet
+
+---------01:36----------
+got there and then we'll tell the
+
+---------01:37----------
+computer to shut off and while I was
+
+---------01:41----------
+moving around over here I noticed that
+
+---------01:43----------
+around our sleep sensor we have some
+
+---------01:47----------
+corrosion so let's just open this up on
+
+---------01:49----------
+the schematic in the board view so that
+
+---------01:50----------
+you can get a better understanding of
+
+---------01:52----------
+what this chip is and what it does this
+
+---------01:55----------
+is an 8 to 0-4 t24 board similar to the
+
+---------01:59----------
+u-20 34:36 for the h20 35:36 but I want
+
+---------02:03----------
+to be accurate when I have the right
+
+---------02:04----------
+schematic on hand so let's open that up
+
+---------02:06----------
+and we're going to take a look and as
+
+---------02:08----------
+you can see the area that has its
+
+---------02:10----------
+corrosion on it is J
+
+---------02:12----------
+5250 J 5250 is going to be our Hall
+
+---------02:15----------
+sensor this is going to be the hall
+
+---------02:17----------
+sensor that reads the value and outputs
+
+---------02:21----------
+accordingly so as you could see here we
+
+---------02:23----------
+have SMC lid and so2 it is going to go
+
+---------02:27----------
+to the SMC and tell the machine when the
+
+---------02:30----------
+machine thinks it's closed so perhaps
+
+---------02:31----------
+the flickering is because intermittently
+
+---------02:33----------
+it thinks it's closed when it's not
+
+---------02:35----------
+actually closed due to the corroded
+
+---------02:37----------
+nasty Hall sensor we're going to replace
+
+---------02:40----------
+that and hopefully this MacBook will no
+
+---------02:42----------
+longer flicker with the backlight while
+
+---------02:44----------
+it's working just remove that Hall
+
+---------02:46----------
+sensor we're gonna remove that Hall
+
+---------02:49----------
+sensor and replace it with another one
+
+---------02:52----------
+and see if this works and after that
+
+---------02:55----------
+we're gonna fix another MacBook and
+
+---------02:57----------
+another MacBook and another MacBook and
+
+---------02:59----------
+another MacBook and another MacBook at
+
+---------03:02----------
+random because if we weren't fixing
+
+---------03:07----------
+MacBooks well what the hell else is
+
+---------03:10----------
+there to do with life so remove this
+
+---------03:12----------
+disgusting looking Hall sensor because
+
+---------03:15----------
+this may solve our problem and allow us
+
+---------03:17----------
+to get to the next MacBook even faster
+
+---------03:21----------
+so that we can we'll fill our role and
+
+---------03:23----------
+our mission in life
+
+---------04:24----------
+now these ports are going to be semi
+
+---------04:26----------
+casualties of this because they have
+
+---------04:28----------
+plastic ports right next to the damn
+
+---------04:31----------
+sleep sensor you're just gonna have to
+
+---------04:35----------
+live with the fact that they're gonna
+
+---------04:36----------
+see a little bit of heat
+
+---------04:42----------
+they will be casualties of disrepair
+
+---------04:54----------
+euphoria your options are to toss that
+
+---------04:57----------
+piece of garbage out and get a machine
+
+---------04:59----------
+that's not a 2011
+
+---------05:33----------
+[Music]
+
+---------06:09----------
+now this is a probe point over here and
+
+---------06:12----------
+it appears to be corroded and this is a
+
+---------06:17----------
+probe point that appears to be
+
+---------06:18----------
+connecting something so we got to figure
+
+---------06:21----------
+out what that is and why it's so
+
+---------06:23----------
+corroded but why it so corrode where
+
+---------06:25----------
+it's going so that we can reattach it
+
+---------06:27----------
+with a jumper wire I'll point it out so
+
+---------06:33----------
+right you see this resistor right above
+
+---------06:37----------
+it you've got this
+
+---------06:43----------
+the cameras not doing a great job of
+
+---------06:45----------
+showing you it it's much easier to see
+
+---------06:47----------
+it in the microscope itself rather than
+
+---------06:52----------
+the camera but we are going to have to
+
+---------06:55----------
+fix this trace is that is an important
+
+---------06:57----------
+trace that is where PP 3v4 to underscore
+
+---------07:01----------
+g3 HOD is going to go over to this hat
+
+---------07:14----------
+that's what if I adjust the exposure
+
+---------07:21----------
+there we go all right so as you can see
+
+---------07:24----------
+this is blown out and this is where pp3
+
+---------07:28----------
+before to is going to make its way over
+
+---------07:29----------
+there so I am going to have to scrape a
+
+---------07:32----------
+little bit over here
+
+---------08:09----------
+and it exposed the copper now I have
+
+---------08:13----------
+something that I can solder to after I
+
+---------08:19----------
+solder to it I'll be able to put a
+
+---------08:20----------
+jumper wire there and once I put a
+
+---------08:22----------
+jumper wire there I'll be able to put a
+
+---------08:24----------
+new hall sensor
+
+---------08:29----------
+into place
+
+---------08:32----------
+and it'll work great and then after that
+
+---------08:35----------
+I can fix the next MacBook and the next
+
+---------08:40----------
+MacBook after that and the next MacBook
+
+---------08:42----------
+after that from now until the end of
+
+---------08:45----------
+time
+
+---------08:59----------
+isn't that exciting folks
+
+---------09:26----------
+oh yes
+
+---------10:06----------
+all right all fixed tripled up on my
+
+---------10:09----------
+wire there now it's time to get the hall
+
+---------10:11----------
+sensor off of my donor board and solder
+
+---------10:14----------
+it to this one I can't wait to get this
+
+---------10:18----------
+done so that I can fulfill my mission of
+
+---------10:21----------
+fixing yet another MacBook after another
+
+---------10:23----------
+MacBook after another MacBook after
+
+---------10:24----------
+another MacBook after another MacBook
+
+---------10:26----------
+after another MacBook after another
+
+---------10:28----------
+MacBook after another MacBook after
+
+---------10:30----------
+another MacBook after another MacBook
+
+---------10:31----------
+after another MacBook so that maybe just
+
+---------10:34----------
+maybe 20 to 30 years from now I might
+
+---------10:37----------
+purchase a home
+
+---------11:12----------
+[Music]
+
+---------11:43----------
+[Music]
+
+---------11:55----------
+Jesus Christ I am being a here
+
+---------12:14----------
+[Music]
+
+---------12:16----------
+the connector can heat it
+
+---------12:35----------
+[Music]
+
+---------12:42----------
+[Music]
+
+---------13:22----------
+[Music]
+
+---------14:05----------
+Oh have to censor fact be hall sensor
+
+---------14:09----------
+after all sensor
+
+---------14:12----------
+happy that you have to be happy all
+
+---------14:15----------
+sensible all right now to show you just
+
+---------14:20----------
+how happy that little USB port is
+
+---------14:45----------
+okay perhaps that USB port is not as
+
+---------14:47----------
+happy as I thought it would be let's do
+
+---------14:50----------
+a little bit of surgery here
+
+---------15:13----------
+[Music]
+
+---------15:34----------
+ah
+
+---------15:45----------
+okay
+
+---------15:48----------
+right that's a lot of pins to wick
+
+---------15:51----------
+another part here that's not fun is
+
+---------15:54----------
+getting every single one of those pins
+
+---------15:55----------
+to be free of solder because watch I'm
+
+---------15:57----------
+gonna add solder to all of them and then
+
+---------15:59----------
+try to wick it out but it's not gonna
+
+---------16:00----------
+want to come out of all of them that's
+
+---------16:02----------
+where the pain in the ass is gonna come
+
+---------16:04----------
+from you'll see in a moment
+
+---------16:45----------
+what do you know gute wick is so awesome
+
+---------16:48----------
+that it's actually getting through the
+
+---------16:49----------
+board any boys have you fixed in these
+
+---------16:51----------
+years I will make these holes free any
+
+---------16:56----------
+way I can
+
+---------16:56----------
+any way I can
+
+---------17:24----------
+it doesn't want to go in the home
+
+---------17:28----------
+this hole does not appear to want to let
+
+---------17:30----------
+me in the hole has good taste
+
+---------17:50----------
+it's hard to twist the wick and make it
+
+---------17:52----------
+nice and pointy at the end with gloves
+
+---------17:54----------
+on and I really don't want to touch this
+
+---------17:56----------
+wick without gloves on
+
+---------18:09----------
+and that then pushed through nicely
+
+---------18:11----------
+beautiful beautiful sod of that
+
+---------18:15----------
+beautiful USB port onto the board
+
+---------18:40----------
+those pins are not very long actually
+
+---------18:43----------
+really really short and she wonder how
+
+---------18:45----------
+the hell any of this is gonna make it
+
+---------18:50----------
+there's a lot of flux and a lot of
+
+---------18:52----------
+solder flow is going to be important
+
+---------18:53----------
+here
+
+---------20:04----------
+that USB port looks perfectly straight
+
+---------20:07----------
+to me
+
+---------20:17----------
+and I could do just to make sure that
+
+---------20:19----------
+thing is nicely soldered in the same
+
+---------20:22----------
+thing I did before but just in Reverse
+
+---------20:23----------
+I'm going to push down on the USB port
+
+---------20:26----------
+while ice heat the solder from the
+
+---------20:28----------
+bottom just to make sure it's pushed in
+
+---------20:35----------
+there nicely
+
+---------20:40----------
+naturally yeah I don't really have a way
+
+---------20:41----------
+to do this without warping the board
+
+---------20:43----------
+it's probably not the best idea let's I
+
+---------20:46----------
+want to avoid warping the board to get
+
+---------20:48----------
+it if this is close to the desk as I can
+
+---------20:50----------
+you know this is the way to do it
+
+---------22:52----------
+all right this board is pretty toasted
+
+---------22:55----------
+let's see if we have a flickering screen
+
+---------22:58----------
+though because if we don't have a
+
+---------22:59----------
+flickering screen we might have just
+
+---------23:01----------
+accomplished something
+
+---------23:12----------
+hmm the smoke disappeared I'm sure it's
+
+---------23:16----------
+just fine now Oh a just a little puff to
+
+---------23:19----------
+let me know that it was ready there we
+
+---------23:23----------
+go
+
+---------23:23----------
+you have an Apple logo no flickering a
+
+---------23:28----------
+beautiful Apple logo with no flickering
+
+---------23:30----------
+joy so this has been fixed this works so
+
+---------23:36----------
+we had to replace the sleep sensor and
+
+---------23:38----------
+because I'm an idiot who botched the
+
+---------23:40----------
+replacement of the sleep sensor and
+
+---------23:41----------
+messed up the USB port we replaced the
+
+---------23:43----------
+USB port because if I botch something
+
+---------23:46----------
+while fixing it then I will fix what I
+
+---------23:48----------
+botched because that's the honorable
+
+---------23:50----------
+thing to do so that's about it for this
+
+---------23:52----------
+board works good the sleep sensor was
+
+---------23:55----------
+causing the SMC lid signal to go up and
+
+---------23:58----------
+down and up and down due to corrosion
+
+---------23:59----------
+most likely corrosion in the pp3 before
+
+---------24:01----------
+- via that was actually going to the
+
+---------24:04----------
+sleep sensor so I may have just been
+
+---------24:06----------
+able to get away with just putting a
+
+---------24:07----------
+wire there and not even replace in the
+
+---------24:08----------
+sleep sensor at all but if I had not
+
+---------24:10----------
+replace the sleep sensor and it wound up
+
+---------24:12----------
+coming back a month or two later because
+
+---------24:13----------
+it needed a sleep sensor for warranty I
+
+---------24:16----------
+would have felt pretty pretty stupid and
+
+---------24:18----------
+pretty bad especially about wasting
+
+---------24:19----------
+their time if there's something I can do
+
+---------24:21----------
+to keep it from coming back for warranty
+
+---------24:22----------
+later if there's something that I can do
+
+---------24:24----------
+just to make sure I get like a 1 or 2
+
+---------24:26----------
+percent extra chance that thing's
+
+---------24:27----------
+actually going to work without having to
+
+---------24:29----------
+come back ever again I will do it even
+
+---------24:31----------
+if it winds up wasting stupid amounts of
+
+---------24:32----------
+my time like this one but it worked so
+
+---------24:35----------
+that's that as always I hope you learned
+
+---------24:38----------
+something with that we move on to the
+
+---------24:40----------
+next MacBook it is 12:10 a.m. it is
+
+---------24:43----------
+Wednesday morning which is a perfect
+
+---------24:45----------
+time to you know take another stack of
+
+---------24:47----------
+Mac books from the queue and get them
+
+---------24:48----------
+fixed
+
+---------24:56----------
+you
+
+---------25:04----------
+do you have a Macbook that needs to be
+
+---------25:06----------
+fixed come by our store which is open to
+
+---------25:08----------
+the public in 186 First Avenue in
+
+---------25:10----------
+Manhattan are you located outside of New
+
+---------25:12----------
+York no problem
+
+---------25:14----------
+send us a machine from anywhere in the
+
+---------25:15----------
+world by going to our website and
+
+---------25:17----------
+clicking on the mailbox or simply
+
+---------25:19----------
+heading over to send your macbook comm
+
+---------25:21----------
+that send your macbook comm will you be
+
+---------25:24----------
+redirected to our mail and instructions
+
+---------25:27----------
+page that includes the form and the
+
+---------25:29----------
+directions on how to send us a MacBook
+
+---------25:31----------
+for repair we have a live chat where you
+
+---------25:34----------
+can speak with us about the repair that
+
+---------25:35----------
+you need a phone number where a
+
+---------25:37----------
+representative will pick up during our
+
+---------25:39----------
+open hours and a contact form where you
+
+---------25:41----------
+can contact us about repairs
+

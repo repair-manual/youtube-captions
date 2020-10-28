@@ -1,0 +1,988 @@
+https://www.youtube.com/watch?v=7UBy7L3YzLg
+---------00:04----------
+so today we're gonna be looking at an 8
+
+---------00:06----------
+- 0 - 0 0 165 MacBook Board that doesn't
+
+---------00:10----------
+turn on let's see if we can figure out
+
+---------00:12----------
+what's wrong with this MacBook and make
+
+---------00:13----------
+it work again so that we can join the
+
+---------00:15----------
+innovation economy now we're gonna put
+
+---------00:18----------
+this on the desk first thing we're gonna
+
+---------00:20----------
+do is see how much power it's drawing
+
+---------00:22----------
+from our power supply when we turn the
+
+---------00:25----------
+power supply on you want to check out
+
+---------00:26----------
+Paul Daniels a software check out PL
+
+---------00:28----------
+Daniel's comm a website that has a
+
+---------00:31----------
+wealth of quality software on it as you
+
+---------00:34----------
+can see over here it's drawing 36
+
+---------00:37----------
+milliamp s' now usually 22 milli amps is
+
+---------00:41----------
+indicative of p.m. sleep best for our
+
+---------00:43----------
+missing 100 milliamps all says power
+
+---------00:46----------
+good issue 200 Mel am short to ground
+
+---------00:48----------
+MPP bus 36 male amps I'm not quite sure
+
+---------00:51----------
+so what I do here is I've got my power
+
+---------00:54----------
+supply on my desk this here is my power
+
+---------00:56----------
+supply you can't see the terrible camera
+
+---------00:58----------
+angle because of my tiny store and this
+
+---------01:01----------
+is it plugging into the board itself I'm
+
+---------01:04----------
+using that as a power supply and I like
+
+---------01:06----------
+to use it as a power supply because it
+
+---------01:08----------
+tells me interesting things that I
+
+---------01:10----------
+wouldn't otherwise know unless I
+
+---------01:12----------
+measured a bunch of stuff on the board
+
+---------01:14----------
+it kind of gives me an idea at a glance
+
+---------01:16----------
+what could be wrong with the board so
+
+---------01:18----------
+let's go over and figure out what it is
+
+---------01:20----------
+so it's that power God so we're gonna
+
+---------01:22----------
+take a look through our power rails page
+
+---------01:24----------
+on the schematic and the board view
+
+---------01:26----------
+which somebody was polite enough to
+
+---------01:28----------
+provide by the way thank you everybody
+
+---------01:30----------
+just I've I think it's important every
+
+---------01:35----------
+now and then to start our stream off
+
+---------01:37----------
+with a thank you to the brave men and
+
+---------01:38----------
+women that go out there everyday and put
+
+---------01:41----------
+schematics on the internet so that
+
+---------01:43----------
+people like me can find them and then
+
+---------01:45----------
+use them to repair these products so
+
+---------01:46----------
+just a moment of silence and
+
+---------01:48----------
+appreciation for all the hard work of
+
+---------01:50----------
+those individuals all the work effort
+
+---------01:53----------
+and risk that they took so that we could
+
+---------01:54----------
+have schematics
+
+---------02:09----------
+now going back over here let's see what
+
+---------02:13----------
+our power rails page looks like now
+
+---------02:14----------
+remember the g3 hot rails are the ones
+
+---------02:16----------
+that have to be present first g3 hotter
+
+---------02:17----------
+rails that are on all the time as five
+
+---------02:19----------
+are gonna be rails that are on when the
+
+---------02:21----------
+computers off s4 rails that are on when
+
+---------02:23----------
+it's hibernating s3 rails that are on
+
+---------02:26----------
+when it's sleeping as o rails that are
+
+---------02:28----------
+on when the computer is actually working
+
+---------02:29----------
+and these are typically listed as a
+
+---------02:31----------
+suffix of the actual name of the rail in
+
+---------02:34----------
+the list see ya so let's check and see
+
+---------02:38----------
+what we've got on our g3 hot rails over
+
+---------02:41----------
+here so I'm gonna go over to the g3 hunt
+
+---------02:44----------
+rails and the first one we have is a pp
+
+---------02:46----------
+bus g3 hot now remember in order to get
+
+---------02:48----------
+a green light in the charger and for
+
+---------02:50----------
+anything to work PP 3 before two it's
+
+---------02:51----------
+got to be the first rail that shows up
+
+---------02:52----------
+but we know that P P through four tubes
+
+---------02:54----------
+got to be there because we've got a
+
+---------02:57----------
+light in the charger so so the pp bus is
+
+---------03:00----------
+gonna show up on this fuse on one side
+
+---------03:03----------
+of the fuse we get 0 volts on the other
+
+---------03:05----------
+side of the fuse we get 8.59 volts hmm
+
+---------03:08----------
+let's take a look what that fuse is for
+
+---------03:11----------
+what's going on down there let's see if
+
+---------03:14----------
+we can figure it out why it doesn't work
+
+---------03:18----------
+all right
+
+---------03:23----------
+this is a fuse for the PPP sg3 on so
+
+---------03:26----------
+over here we've have the ISL six two
+
+---------03:28----------
+five nine which is gonna take our power
+
+---------03:30----------
+from the charger up here 18 volts from
+
+---------03:33----------
+the adapter it's gonna switch on/off
+
+---------03:34----------
+on/off on/off you're gonna get pulses of
+
+---------03:36----------
+eighteen going over here and after the
+
+---------03:38----------
+coil with those capacitors to ground
+
+---------03:40----------
+it's gonna get even down to a smooth
+
+---------03:41----------
+nice eight point five volts and then we
+
+---------03:43----------
+got eight point five volts here zero
+
+---------03:45----------
+over there meaning that I the fuse is
+
+---------03:47----------
+probably blown let's just double check
+
+---------03:49----------
+and see if that happens to be the case
+
+---------03:51----------
+we're going to unplug the charger we're
+
+---------03:54----------
+going to have the multimeter in ohms
+
+---------03:56----------
+mode we're gonna measure that fuse and
+
+---------03:59----------
+the fuse appears to be dead six million
+
+---------04:02----------
+ohms darkside 1355 says for only $80 I
+
+---------04:08----------
+get to complain about Paul Daniels as
+
+---------04:10----------
+software what a deal I agree it's an
+
+---------04:13----------
+excellent deal and the fuse is blown now
+
+---------04:16----------
+many people at this point would say well
+
+---------04:17----------
+Lewis just replaced a fuse why don't you
+
+---------04:19----------
+replace the fuse replace the fuse and
+
+---------04:20----------
+it'll work but for placing the fuse
+
+---------04:23----------
+isn't gonna do something because on this
+
+---------04:24----------
+side of the fuse we have able to this
+
+---------04:25----------
+side we have zero volts something
+
+---------04:27----------
+happened on this side of the fuse that
+
+---------04:29----------
+destroyed that fuse so the thing is over
+
+---------04:32----------
+this is not gonna blow unless something
+
+---------04:35----------
+bad happened on the other side so we
+
+---------04:37----------
+have to figure out what it is that
+
+---------04:38----------
+happened on the other side and I'm gonna
+
+---------04:40----------
+guess that there's a short-circuit if we
+
+---------04:42----------
+were to measure on the other side of
+
+---------04:43----------
+that fuse so if you do this you'll see 2
+
+---------04:47----------
+ohms 0.9 ohms 1.5 well point three point
+
+---------04:51----------
+five point six point five point four
+
+---------04:53----------
+point yeah there's a short-circuit on
+
+---------04:55----------
+the other side of the fuse let's take a
+
+---------04:58----------
+look over the board and see if there's
+
+---------04:59----------
+anything that looks obviously wrong with
+
+---------05:01----------
+it
+
+---------05:12----------
+why hello what are you for that
+
+---------05:16----------
+capacitor right there
+
+---------05:18----------
+now let's see what that cap is for we
+
+---------05:22----------
+switch over to my schematic and my board
+
+---------05:24----------
+view powered by PL Daniels comm where
+
+---------05:29----------
+you can find Paul Daniels amazing
+
+---------05:31----------
+software must-have for anybody doing Mac
+
+---------05:35----------
+the board repair you'll see that is a
+
+---------05:37----------
+kapap CD seven five eight four and with
+
+---------05:42----------
+the magic of paul daniels of software i
+
+---------05:44----------
+can simply click on this PDF button over
+
+---------05:47----------
+here and will show me where it is on the
+
+---------05:49----------
+schematic and board view on the
+
+---------05:50----------
+schematic itself right here that is a
+
+---------05:53----------
+cap for the creation and P P 3 P 3 S 5
+
+---------05:57----------
+that is a cap on the input to the chip
+
+---------05:59----------
+that does it and that cap is on a rail
+
+---------06:01----------
+called PD bus s 5 HS other I sense what
+
+---------06:04----------
+is P P bus has 5 a high side I sense and
+
+---------06:07----------
+what does that have to do with P P bus G
+
+---------06:09----------
+3 on that's an excellent question let's
+
+---------06:12----------
+dig in and find out so as you can see
+
+---------06:13----------
+here that is P P bus G 3 on P P bus G 3
+
+---------06:17----------
+hot is going to go through a current
+
+---------06:18----------
+sensing resistor to become P P bus s 5
+
+---------06:21----------
+high side other I sense now the idea
+
+---------06:23----------
+over here with the current sensing
+
+---------06:24----------
+resistor we're gonna want to tell how
+
+---------06:26----------
+much power certain parts of the machine
+
+---------06:27----------
+are taken so P P P three hunters a lot
+
+---------06:30----------
+of different stuff and it breaks off
+
+---------06:31----------
+into different areas so we already have
+
+---------06:33----------
+a current sensing circuit on the chip
+
+---------06:34----------
+that creates PP budget III hots
+
+---------06:35----------
+tell us how much power much current PP
+
+---------06:37----------
+best III hot is using as a power rail
+
+---------06:39----------
+well let's say this breaks off into the
+
+---------06:41----------
+3 and 5 volt rails right let's say it
+
+---------06:42----------
+breaks off into creating those now we
+
+---------06:44----------
+want to know how much power that's taken
+
+---------06:45----------
+so we have a current sensing resistor
+
+---------06:47----------
+between here and there is gonna be a
+
+---------06:48----------
+teeny tiny voltage drop across this
+
+---------06:50----------
+resistor and that voltage drop is going
+
+---------06:53----------
+to be proportional to the amount of
+
+---------06:56----------
+current the system is using in this chip
+
+---------06:58----------
+is gonna read what that voltage drop is
+
+---------06:59----------
+and then it's going to send it over to
+
+---------07:01----------
+the SMC which is then going to know how
+
+---------07:03----------
+much current that part of the system is
+
+---------07:05----------
+using and you can typically see that in
+
+---------07:06----------
+the sensor section of any sort of
+
+---------07:07----------
+hardware monitor software so this is
+
+---------07:10----------
+attached to peak at best g3 hot so you
+
+---------07:12----------
+may think of people rush wise there are
+
+---------07:13----------
+people got short PhD 3 hot so when
+
+---------07:16----------
+people budget s 5 HS other I senses the
+
+---------07:18----------
+rail that actually has a bad component
+
+---------07:20----------
+on it because they're interlinked
+
+---------07:22----------
+by this beautiful little resistor over
+
+---------07:23----------
+here so we're gonna mercilessly remove
+
+---------07:25----------
+the
+
+---------07:26----------
+capacitor with a quick 861 DW hot every
+
+---------07:28----------
+workstation available at store dot
+
+---------07:30----------
+Rossmann group comm
+
+---------08:06----------
+now we're gonna see if our short-circuit
+
+---------08:08----------
+went away I turn on a multimeter
+
+---------08:10----------
+software well the quick Beyonce lets any
+
+---------08:17----------
+point if you want to buy a cheaper there
+
+---------08:20----------
+are websites that sell the things
+
+---------08:21----------
+cheaper but though that if I were to
+
+---------08:24----------
+sell at the price that that site is
+
+---------08:25----------
+selling it out I think I'd make two
+
+---------08:27----------
+dollars a unit so I just said I'll screw
+
+---------08:29----------
+that somebody else wants to make two to
+
+---------08:31----------
+four dollars a unit selling it then
+
+---------08:33----------
+that's all their business but I have
+
+---------08:37----------
+employees to feed so I was selling them
+
+---------08:40----------
+more competitive prices prior to the
+
+---------08:42----------
+tariff thing the tariff thing really
+
+---------08:43----------
+really screwed me but the thing is it
+
+---------08:45----------
+screwed everybody evenly so that means
+
+---------08:47----------
+the other dudes selling this must be
+
+---------08:48----------
+selling it with a you know five dollar
+
+---------08:50----------
+profit margin on it I just can't afford
+
+---------08:53----------
+to keep items in the store that I paid
+
+---------08:55----------
+like you know I can't afford to sell
+
+---------08:57----------
+stuff at a three percent profit margin
+
+---------08:58----------
+if it takes up space in this store this
+
+---------09:01----------
+this place has no space so the idea with
+
+---------09:03----------
+the gear that I sell is all the
+
+---------09:06----------
+educational material here is a hundred
+
+---------09:08----------
+percent free but if you want to see us
+
+---------09:11----------
+make five you know ten twenty bucks buy
+
+---------09:14----------
+something on store down Rossman group
+
+---------09:15----------
+com
+
+---------09:16----------
+but yeah if you want a cheaper I think
+
+---------09:17----------
+tea equipment is selling the thing for
+
+---------09:19----------
+to 68 to 69 I think it goes down to 255
+
+---------09:22----------
+if you buy it in there if you log in and
+
+---------09:25----------
+register and registering for them is
+
+---------09:27----------
+free just make up some fake email so you
+
+---------09:28----------
+don't get spammed all right so this here
+
+---------09:32----------
+is for five kilohms so our short is gone
+
+---------09:37----------
+now obviously that fuse is still gonna
+
+---------09:39----------
+be blown so we got to remove that fuse
+
+---------09:40----------
+and repeal and replace it with a new one
+
+---------09:57----------
+but before we replace that fuse this
+
+---------10:00----------
+video is brought to you by our sponsors
+
+---------10:02----------
+at store osmond group comm thank you for
+
+---------10:05----------
+supporting our sponsors that help keep
+
+---------10:06----------
+us in business on store dot Rosman group
+
+---------10:08----------
+comm you can find chips-- supplies
+
+---------10:11----------
+ultrasonics flux soldering stations and
+
+---------10:14----------
+more with 4.9 stars on shopper approved
+
+---------10:16----------
+same-day shipping from new york city and
+
+---------10:18----------
+free continental shipping over $30 you
+
+---------10:21----------
+can't lose
+
+---------10:22----------
+we even offer free support unless you
+
+---------10:24----------
+are pleased bro live chat inter adding
+
+---------10:26----------
+new products every day if you buy today
+
+---------10:28----------
+we'll throw in a special offer that your
+
+---------10:29----------
+order will actually go through properly
+
+---------10:31----------
+what are you waiting for
+
+---------10:32----------
+go to store dot Roskam group comm to get
+
+---------10:34----------
+yourself some authentic antique flux
+
+---------10:36----------
+don't delay buy today yeah
+
+---------10:42----------
+get rekt at block
+
+---------10:59----------
+might as well got the capacitor pads as
+
+---------11:01----------
+well
+
+---------11:28----------
+someone says by the way you are the
+
+---------11:30----------
+cheapest in the flux seems we asked the
+
+---------11:33----------
+thing with flux it's like if I'm only
+
+---------11:35----------
+gonna make two or three bucks
+
+---------11:36----------
+I'm fine making two to three dollars off
+
+---------11:38----------
+of something that cost me maybe nine or
+
+---------11:39----------
+eleven dollars right I'm not okay making
+
+---------11:42----------
+two to three dollars off of something
+
+---------11:43----------
+that cost me $220
+
+---------12:54----------
+all right I'm going to go find a donor
+
+---------12:57----------
+board that I can get these parts from
+
+---------13:09----------
+now that you were considering fluency
+
+---------13:10----------
+you joined the team trees hi probably
+
+---------13:13----------
+not I live in I live in Brooklyn miss my
+
+---------13:16----------
+store is in 1st Avenue and 12th in
+
+---------13:18----------
+Manhattan not really sure there's any
+
+---------13:20----------
+place that I can plant the tree if I
+
+---------13:21----------
+wanted to have you ever heard the saying
+
+---------13:24----------
+a Tree Grows in Brooklyn look up the
+
+---------13:32----------
+hook up where that saying came from A
+
+---------13:34----------
+Tree Grows in Brooklyn what are they
+
+---------13:40----------
+getting at with that saying
+
+---------14:44----------
+all right so now we're gonna wait for
+
+---------14:45----------
+the board to Druitt they cool off using
+
+---------14:48----------
+rapid cool technology all right let's
+
+---------14:52----------
+see if this board turns on we're gonna
+
+---------14:54----------
+plug it in and see what comes up what do
+
+---------14:57----------
+you say guys
+
+---------14:58----------
+500 milliamps 500 milliamps you think so
+
+---------15:00----------
+1 200 500 milliamps by the way did you
+
+---------15:10----------
+guys see that when it blinked a 502
+
+---------15:11----------
+blink - 559 and stay there for a bit
+
+---------15:13----------
+559 that's right yeah yeah yeah look at
+
+---------15:23----------
+that 559 this board's got taste so
+
+---------15:29----------
+that's about it
+
+---------15:30----------
+this board had a short circuit on P P
+
+---------15:33----------
+bus s five high side other I sense and
+
+---------15:36----------
+that short circuit on this was causing
+
+---------15:40----------
+PP bus g3 hot to not be present because
+
+---------15:43----------
+the fuse blew the fuse blew because it
+
+---------15:46----------
+was a short on PBS g3 hot the shirt was
+
+---------15:48----------
+on PPP three hot because was on PP bus
+
+---------15:50----------
+s five high side other I sense which
+
+---------15:53----------
+it's connected to because this is
+
+---------15:54----------
+actually the same thing as this it's
+
+---------15:56----------
+just going through a current sense
+
+---------15:57----------
+resistors so that the machine is able to
+
+---------15:59----------
+keep track of how much current
+
+---------16:00----------
+everything that's at being used after
+
+---------16:02----------
+this point is taking so people bus hi s
+
+---------16:05----------
+five high side of the current I sense
+
+---------16:07----------
+whatever is going to be used by the TPS
+
+---------16:10----------
+five or nine eight zero chip here to
+
+---------16:12----------
+create the PP 5 vs for rail and pp 3 b3
+
+---------16:17----------
+s five rail as well as the PP 5 BS 5
+
+---------16:20----------
+rail so everything that this chip is
+
+---------16:21----------
+making is gonna be measured by this
+
+---------16:24----------
+current sense resistor over here that's
+
+---------16:27----------
+it for today and as always I hope you
+
+---------16:28----------
+learned something another MacBook being
+
+---------16:30----------
+returned to its rightful owner without
+
+---------16:32----------
+having to pay the Apple Store tax of 750
+
+---------16:34----------
+to $1,500 and as always I hope you
+
+---------16:38----------
+learned something thank you so much for
+
+---------16:40----------
+watching thank you so much for the
+
+---------16:41----------
+support and thank you so much for
+
+---------16:43----------
+passing the stuff on by helping other
+
+---------16:45----------
+people learn by fixing stuff and just by
+
+---------16:47----------
+generally getting other people excited
+
+---------16:49----------
+with what we do by either saving the
+
+---------16:51----------
+money or giving them that happy little
+
+---------16:53----------
+kick of dopamine when they make
+
+---------16:54----------
+something work again
+
+---------16:55----------
+and see the fan spin even if it is on
+
+---------16:57----------
+some Apple product
+

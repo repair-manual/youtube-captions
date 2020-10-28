@@ -1,0 +1,2929 @@
+https://www.youtube.com/watch?v=xQFFo_8HEe8
+---------00:00----------
+hi so if you thought the explanations on
+
+---------00:01----------
+some of the previous videos I did were
+
+---------00:03----------
+bad wait till you get to this one so I'm
+
+---------00:05----------
+gonna be explaining again a lot less
+
+---------00:07----------
+since my main technician is on vacation
+
+---------00:09----------
+meaning I have to work a lot faster
+
+---------00:11----------
+which means I don't have time to show
+
+---------00:12----------
+you everything and explain everything
+
+---------00:15----------
+since I these boards got to get in and
+
+---------00:17----------
+they got to go out so this has no green
+
+---------00:20----------
+light on the charge right now as I have
+
+---------00:22----------
+said in previous videos in order to have
+
+---------00:24----------
+a green light on the charger you need
+
+---------00:25----------
+the one wire circuit to be working the
+
+---------00:26----------
+one wire circuit on these machines
+
+---------00:28----------
+requires that PP 3 V 4 to underscore g3
+
+---------00:31----------
+hot be present so what I do is I'm going
+
+---------00:33----------
+to measure here to see if I have voltage
+
+---------00:35----------
+on pp 3 V 4 - I do not have anything on
+
+---------00:39----------
+pp 3 V 4 - so what I'm gonna do now is
+
+---------00:41----------
+check to see if there is a short off to
+
+---------00:42----------
+ground on the bus by putting my
+
+---------00:44----------
+multimeter here into diode mode putting
+
+---------00:48----------
+red probe on ground and then red probe
+
+---------00:51----------
+on each side of the inductor 4 PP 3 V 4
+
+---------00:55----------
+- now what I notice here is that there
+
+---------00:57----------
+is no short to ground so what I'm gonna
+
+---------00:59----------
+do now is see if there's actual power
+
+---------01:01----------
+going in to the chip that supplies this
+
+---------01:03----------
+so let's take a look at how that works
+
+---------01:06----------
+so very very quickly here because again
+
+---------01:08----------
+I said I am gonna be keeping my
+
+---------01:09----------
+explanation short because I do have to
+
+---------01:12----------
+get on with this I cannot explain
+
+---------01:14----------
+everything when I am the only person
+
+---------01:15----------
+doing all this because then people
+
+---------01:18----------
+are going to start going so over here
+
+---------01:32----------
+this is the 3 point 42 volt power supply
+
+---------01:35----------
+so we don't have any power over here
+
+---------01:37----------
+there is no shorten either side of that
+
+---------01:39----------
+so let's see if power is going into it
+
+---------01:41----------
+let's see if the charger power is going
+
+---------01:42----------
+in over here now again I'm not gonna
+
+---------01:44----------
+show you me looking for it on the board
+
+---------01:46----------
+view I already know where this crap is
+
+---------01:47----------
+because I've been doing this for a long
+
+---------01:50----------
+ time so I am just going to go
+
+---------01:53----------
+back to my multimeter view I'm gonna
+
+---------01:57----------
+make that back to full screen we're
+
+---------01:59----------
+gonna see if power is there or we change
+
+---------02:02----------
+this back to voltage mode and let's see
+
+---------02:05----------
+so is power going into the chip
+
+---------02:13----------
+sure is it sure was until I was stopped
+
+---------02:17----------
+touching that properly was so it is
+
+---------02:19----------
+right
+
+---------02:24----------
+that's good
+
+---------02:28----------
+now let's go over here let's try where
+
+---------02:34----------
+this diode is so power is going through
+
+---------02:36----------
+there let's see if it's on the other
+
+---------02:38----------
+side over here measuring on the diode of
+
+---------02:42----------
+course let's go back to full screening
+
+---------02:44----------
+it
+
+---------02:49----------
+Oh
+
+---------02:51----------
+and our is there okay so now we're gonna
+
+---------02:59----------
+go and look at something else so we're
+
+---------03:01----------
+going to see if we have power on this
+
+---------03:03----------
+resistor are six nine nine five going
+
+---------03:06----------
+here now there's a ton pin you know I'm
+
+---------03:09----------
+not gonna go through googling it and how
+
+---------03:10----------
+to find it out because I've shown you
+
+---------03:12----------
+how to use Google at least three damn
+
+---------03:13----------
+times in these videos but what I'm gonna
+
+---------03:14----------
+say over here is that the ton pin
+
+---------03:16----------
+usually sets switching frequency for a
+
+---------03:18----------
+switching power supply the way this
+
+---------03:20----------
+power supply works and again if you want
+
+---------03:21----------
+to see how a switching power supply
+
+---------03:22----------
+works look at the look at any of the
+
+---------03:25----------
+videos I've done on buck converters look
+
+---------03:26----------
+at the video I did for a MacBook Air 30
+
+---------03:29----------
+23 CPU the core I've explained it a
+
+---------03:32----------
+million times already
+
+---------03:33----------
+but the buck converter or any type of
+
+---------03:35----------
+that some kind of switching power supply
+
+---------03:36----------
+like that works based on switching a
+
+---------03:38----------
+higher power to create a lower power or
+
+---------03:41----------
+switching a lower power to ground
+
+---------03:42----------
+through an inductor to make it into a
+
+---------03:43----------
+higher power the whole it mainly works
+
+---------03:45----------
+on switching now this power supply as
+
+---------03:48----------
+you can see over here has two different
+
+---------03:50----------
+inputs it has an input for PP brush g3
+
+---------03:52----------
+ha which is a twelve point six volt
+
+---------03:53----------
+power supply and it also has an input
+
+---------03:55----------
+for pp 18 V five which is an eighteen
+
+---------03:58----------
+point five volt power supply now this is
+
+---------04:01----------
+always gonna be making three point four
+
+---------04:03----------
+six five volts as its output it says
+
+---------04:06----------
+right over here V out three point four
+
+---------04:07----------
+six five this power line is always gonna
+
+---------04:09----------
+be that much but it has two different
+
+---------04:11----------
+inputs so how is this chip going to
+
+---------04:13----------
+manage well the way it does it is by
+
+---------04:14----------
+having this little ton pin I have no
+
+---------04:16----------
+idea why ton means that but I know it
+
+---------04:18----------
+because if Google's enough datasheets
+
+---------04:19----------
+and that's what this pin usually does
+
+---------04:21----------
+what it does is it references the power
+
+---------04:24----------
+over here to set the switching frequency
+
+---------04:25----------
+so if we have an 18 volt input we're
+
+---------04:28----------
+going to have we're gonna have a slower
+
+---------04:30----------
+switching rate to get to three point
+
+---------04:32----------
+four then only if we add 12 volts
+
+---------04:34----------
+because again to make 12 into three
+
+---------04:35----------
+you're gonna need more pulses than you
+
+---------04:37----------
+would need to make 18 into three so
+
+---------04:40----------
+let's see if this works so we're
+
+---------04:42----------
+gonna go and measure on the other side
+
+---------04:45----------
+of the board where our six nine nine
+
+---------04:46----------
+five is again I am NOT gonna show like
+
+---------04:49----------
+usually I go through whom where is this
+
+---------04:52----------
+component and I'm not doing that this
+
+---------04:55----------
+time around because I I don't I've shown
+
+---------04:58----------
+you how to use the board view software
+
+---------04:59----------
+you know how to use the board view
+
+---------05:01----------
+software I don't feel like wasting time
+
+---------05:02----------
+showing you it and again these
+
+---------05:04----------
+components are
+
+---------05:05----------
+that I checked so often on these a 1278
+
+---------05:08----------
+boards that it's ingrained in my head I
+
+---------05:10----------
+know exactly what they are as you can
+
+---------05:12----------
+see here instead of having 16 volts on
+
+---------05:14----------
+that resistor I have almost nothing
+
+---------05:17----------
+which means that the internal board via
+
+---------05:20----------
+is probably blown and destroyed so this
+
+---------05:23----------
+is where I'm going a reference to board
+
+---------05:24----------
+view to see which one of those is pin 1
+
+---------05:26----------
+I want to see which one is pin 1 because
+
+---------05:28----------
+that is where I'm going to be going to
+
+---------05:31----------
+run my wire so let's see so pin 1 over
+
+---------05:36----------
+here it's gonna be on the left so what
+
+---------05:38----------
+I'm gonna do here first thing I'm gonna
+
+---------05:39----------
+do is measure that resistor to ensure
+
+---------05:41----------
+that it is the 1 million ohms that the
+
+---------05:43----------
+schematic tells me that it should be so
+
+---------05:44----------
+we're going to go back to resistance
+
+---------05:46----------
+mode on the multimeter we're gonna
+
+---------05:48----------
+measure that resistor to see if it is
+
+---------05:50----------
+actually functioning and good and works
+
+---------05:53----------
+and it's good it works so now what I'm
+
+---------05:59----------
+going to do is I'm gonna run wire from
+
+---------06:01----------
+the diode so what I'm gonna do where the
+
+---------06:04----------
+voltage breaks off just to show you is
+
+---------06:06----------
+right over here so between pin 3 of this
+
+---------06:09----------
+diode and pin wanted this resistor so
+
+---------06:11----------
+this and this is no good so let's see
+
+---------06:15----------
+where pin 3 that pin 3 that diode I
+
+---------06:18----------
+believe is the bottom one pretty pretty
+
+---------06:19----------
+sure so what I'm gonna do now is I'm
+
+---------06:22----------
+going to take a wire that I took from a
+
+---------06:25----------
+macbook pro battery right here
+
+---------06:29----------
+trim it and I'm going to solder it on
+
+---------06:31----------
+and see where I go from there this board
+
+---------06:33----------
+looked like a complete nightmare when I
+
+---------06:37----------
+got it so I have no expectations of that
+
+---------06:39----------
+being the only thing wrong with it I
+
+---------06:40----------
+fully expect to have to do a lot more
+
+---------06:42----------
+extra additional to make this
+
+---------06:44----------
+work but this is here a nice start so
+
+---------06:46----------
+let's get started I'm gonna tin my wire
+
+---------06:48----------
+on both sides and get ready to get this
+
+---------06:51----------
+thing out of here I shouldn't really
+
+---------07:01----------
+even be working on this this is one of
+
+---------07:03----------
+those things where like person dropped
+
+---------07:05----------
+it off two hours ago person actually
+
+---------07:08----------
+called an hour ago like a mother
+
+---------07:12----------
+this is motherboard repair
+
+---------07:14----------
+why the isn't it done yet why don't
+
+---------07:16----------
+you do it your damn self
+
+---------07:17----------
+I wish you the best of luck finding
+
+---------07:23----------
+somebody else to do this in that
+
+---------07:25----------
+timeframe really honestly good luck good
+
+---------07:28----------
+ luck but is what it is is what
+
+---------07:34----------
+it is
+
+---------07:34----------
+ah this is wouldn't it help if I
+
+---------07:41----------
+actually showed you what I was doing on
+
+---------07:43----------
+the screen that would help a little bit
+
+---------07:47----------
+I think miss just with the whole
+
+---------07:50----------
+understanding of the process okay
+
+---------08:04----------
+so nasty disgusting flux
+
+---------08:15----------
+headed way too much there for a second
+
+---------08:23----------
+now I'm damn sure that those two points
+
+---------08:26----------
+are actually meant to be touching but
+
+---------08:28----------
+because I don't 100% remember I'm gonna
+
+---------08:33----------
+measure because if they are I'm not
+
+---------08:35----------
+gonna bother painting it perfectly and
+
+---------08:39----------
+they are actually meant to be touching
+
+---------08:40----------
+which is totally fine that I could
+
+---------08:42----------
+enjoin them that matter so now it's time
+
+---------08:44----------
+to stick my wire there let's get the
+
+---------08:48----------
+wire in there
+
+---------09:28----------
+Oh
+
+---------09:46----------
+you know I should have put that on the
+
+---------09:48----------
+other way always thinking of the right
+
+---------09:53----------
+thing to do after I already did the
+
+---------09:55----------
+wrong thing that is me what I said about
+
+---------10:00----------
+not heating solder without adding new
+
+---------10:03----------
+solder our new flux it is important you
+
+---------10:07----------
+know so we take this go right here I
+
+---------10:19----------
+hope that my hand will stay straight for
+
+---------10:21----------
+even quarter of a seconds so
+
+---------10:24----------
+that I can solder that
+
+---------10:25----------
+Who am I kidding and yes Who am I
+
+---------10:30----------
+kidding indeed okay take this will you
+
+---------10:35----------
+run you around here little wires going
+
+---------10:38----------
+around the world it's taking a nice trip
+
+---------10:41----------
+making a nice before it stops at its
+
+---------10:52----------
+destination I noticed that I have moved
+
+---------10:54----------
+myself off here we go okay ten the other
+
+---------11:05----------
+end of the wire
+
+---------11:15----------
+turn the end of the resistor where are
+
+---------11:20----------
+you you're hiding behind blur
+
+---------11:41----------
+okay then it looks good
+
+---------11:44----------
+Who am I kidding I'm looks disgusting
+
+---------11:46----------
+but I mean good in terms that it will
+
+---------11:48----------
+work
+
+---------11:49----------
+I should never call something that's
+
+---------11:50----------
+covered in poisonous flux and disgusting
+
+---------11:53----------
+nasty good that is really kind of
+
+---------11:56----------
+pushing it that doesn't look good it
+
+---------12:00----------
+looks like it causes cancer but it looks
+
+---------12:02----------
+good for the purposes that it will work
+
+---------12:04----------
+and allow me to have a functioning
+
+---------12:07----------
+mother boy okay now again remember you
+
+---------12:11----------
+want to put the wire as close to the
+
+---------12:12----------
+board as possible so that is absolutely
+
+---------12:13----------
+unacceptable said it creates the least
+
+---------12:16----------
+amount of tension all righty
+
+---------12:23----------
+and even like even when you're done with
+
+---------12:25----------
+all that like literally be pushing this
+
+---------12:26----------
+thing to the board and then you know
+
+---------12:30----------
+have it soldered on there that you know
+
+---------12:33----------
+for a fact that okay so that is that is
+
+---------12:40----------
+terrible that was actually God all for
+
+---------12:42----------
+humiliating so let's try that again
+
+---------12:43----------
+we're gonna alrighty
+
+---------12:50----------
+so that is tend gonna take my wire which
+
+---------12:53----------
+is a really bad job of tenting just the
+
+---------12:56----------
+second to go cut that we are going to
+
+---------12:59----------
+splice it again strip it again turn it
+
+---------13:05----------
+again flux it again I can't wait to get
+
+---------13:19----------
+my nice hackle tweezers back this is
+
+---------13:21----------
+some Vedas I have no idea how Vitas
+
+---------13:24----------
+tweezers made it into my store but they
+
+---------13:26----------
+don't know they suck like myheco
+
+---------13:29----------
+tweezers they're bent for good reason
+
+---------13:31----------
+because they've been banged and beaten
+
+---------13:33----------
+these are bent from just like grabbing
+
+---------13:37----------
+wire that's him I ordered a bunch today
+
+---------13:42----------
+five best five dollars and seventeen
+
+---------13:45----------
+cents you will ever spend on tweezers
+
+---------13:46----------
+let me tell you that much
+
+---------13:49----------
+hey somebody why are pushed I can drag
+
+---------14:09----------
+the board across the table by the wire
+
+---------14:11----------
+all righty let's see what happens when I
+
+---------14:14----------
+plug this in does it go on fire does it
+
+---------14:19----------
+go on fire but also still lacking in the
+
+---------14:22----------
+green light Department so we're gonna go
+
+---------14:24----------
+back and continue measuring and see
+
+---------14:26----------
+what's going on so all right we are
+
+---------14:31----------
+still in resistance mode we change that
+
+---------14:33----------
+to voltage mode they can bend this a
+
+---------14:35----------
+little so we can both see it without me
+
+---------14:37----------
+having a look at the screen all the time
+
+---------14:39----------
+so at that point that I just ran that
+
+---------14:43----------
+wire to there is 16 and the other end is
+
+---------14:57----------
+remember that resistor actually did
+
+---------14:59----------
+measure the image that it's supposed to
+
+---------15:00----------
+right and it does go into my u 6990 so
+
+---------15:08----------
+that is supposed to go on a which kind
+
+---------15:09----------
+of u 6990 I should actually measure and
+
+---------15:11----------
+make sure there's continuity there let's
+
+---------15:14----------
+see
+
+---------15:29----------
+okay so of my you 6990 that goes into
+
+---------15:34----------
+pin number three and number three of you
+
+---------15:37----------
+6990 then three is going to be over
+
+---------15:50----------
+there what if the you 6990 is bad what
+
+---------15:57----------
+if it's saw a surge in I think that
+
+---------16:02----------
+resistor saw a sort of surge on one part
+
+---------16:04----------
+and saw a surge from the highest voltage
+
+---------16:06----------
+line in the computer so this is
+
+---------16:09----------
+reasonable to expect that maybe there's
+
+---------16:12----------
+something wrong maybe maybe I should
+
+---------16:14----------
+replace that resistor even though it
+
+---------16:15----------
+looks nice what have I got to lose thing
+
+---------16:18----------
+one eight cents it's probably fine
+
+---------16:22----------
+there's a 99% chance that there's zero
+
+---------16:24----------
+wrong with that resistor bother before I
+
+---------16:28----------
+Drive myself nuts before I Rana I might
+
+---------16:32----------
+as well just humor myself before we go
+
+---------16:37----------
+on doing that though what I'd like to do
+
+---------16:38----------
+is I'd like to actually see that there's
+
+---------16:39----------
+continuity between that resistor and the
+
+---------16:41----------
+other side of the board
+
+---------16:42----------
+so working about the multimeter in a
+
+---------16:44----------
+mode where it's going to make a loud
+
+---------16:46----------
+beeping noise when the two probes have
+
+---------16:49----------
+continuity so in these two
+
+---------16:57----------
+the multimeter will beep which children
+
+---------16:59----------
+you're never gonna hear because I have
+
+---------17:00----------
+the air filter and the air conditioner
+
+---------17:02----------
+and the other air filter and the hot air
+
+---------17:06----------
+station and the noise reduction thingy
+
+---------17:08----------
+that helps that you don't hear all that
+
+---------17:10----------
+crap this is the part that sucks
+
+---------17:23----------
+this really sucks this is like this is
+
+---------17:26----------
+the least fun game that there is in
+
+---------17:27----------
+Boyde okay
+
+---------17:37----------
+okay so that's good so what i can assume
+
+---------17:40----------
+now is that maybe there's a problem with
+
+---------17:42----------
+you 6990 cuz now before it wasn't
+
+---------17:45----------
+getting any power on the ton rail
+
+---------17:47----------
+now it is getting power there it's just
+
+---------17:48----------
+not doing anything with it so I can I
+
+---------17:51----------
+can reasonably blame it remember when
+
+---------18:06----------
+you're doing any soldering on the bottom
+
+---------18:07----------
+the BGA Ram slot is the bottom slot so
+
+---------18:09----------
+you should not have memory in it because
+
+---------18:11----------
+if you do it's very easy for it to break
+
+---------18:17----------
+and fall off so be careful with this
+
+---------18:21----------
+because you're doing soldering near a
+
+---------18:22----------
+ram slot that's soldered in a really
+
+---------18:24----------
+shitty way and my wire just flew off
+
+---------18:28----------
+because it's right next to the thing
+
+---------18:29----------
+that I need to replace and the thing I
+
+---------18:36----------
+need to replace is stuck to the board
+
+---------18:38----------
+which gives me a good int which makes me
+
+---------18:41----------
+believe that it's probably messed up
+
+---------18:48----------
+probably for cockta in some way
+
+---------18:54----------
+and the board I want to take it from has
+
+---------18:56----------
+had that stolen already lovely this
+
+---------19:01----------
+board has not had it stolen already good
+
+---------19:03----------
+good okay we're gonna steal the PP 3v4 -
+
+---------19:09----------
+ from here I have the heat turn down
+
+---------19:14----------
+but it is it's still a pain in the ass
+
+---------19:17----------
+to not burn the RAM slot when working in
+
+---------19:18----------
+the microscope working outside the RAM
+
+---------19:20----------
+slot it's possible but working outside
+
+---------19:24----------
+the microscope it is possible working in
+
+---------19:25----------
+the microscope you have to work at this
+
+---------19:27----------
+ridiculous angle on this so that makes
+
+---------19:31----------
+it a little difficult
+
+---------21:39----------
+these tweezers that I have is so bad I'm
+
+---------21:42----------
+actually just trying to use my hand to
+
+---------21:43----------
+do this they're really awful
+
+---------21:49----------
+vitas tweezers wherever the helis came
+
+---------21:52----------
+from this is the this is the l2 computer
+
+---------21:58----------
+of tweezers okay
+
+---------22:03----------
+pp 3 V 4 to show me pp 3 V 4 2
+
+---------22:56----------
+okay for curiosity's sake let's replace
+
+---------22:59----------
+this resistor
+
+---------23:59----------
+my stupid TV wants to power off even
+
+---------24:02----------
+though there's a signal going to it
+
+---------24:03----------
+unless I touch something on the remote
+
+---------24:05----------
+it's because I don't have a monitor I
+
+---------24:07----------
+have a C key a cheap ass seeking
+
+---------24:23----------
+making this neat can be accomplished
+
+---------24:25----------
+later making this work see progress so
+
+---------24:36----------
+even though that resistor measured a
+
+---------24:38----------
+perfect 1 million ohms even though the
+
+---------24:43----------
+resistors said that it worked
+
+---------24:45----------
+that piece of did not what don't
+
+---------24:48----------
+don't ask me don't don't ask me
+
+---------24:50----------
+why see now on the other side of that
+
+---------24:53----------
+resistor I have a voltage that's more
+
+---------24:55----------
+what I was expecting
+
+---------24:56----------
+pp 3 before - is it was presents for a
+
+---------25:01----------
+second and then it went away
+
+---------25:03----------
+what here we go that's because I moved
+
+---------25:06----------
+to kick the charger with my foot there
+
+---------25:08----------
+from a second see that now pp bus g3 hot
+
+---------25:12----------
+is where it's supposed to be an oh dear
+
+---------25:15----------
+God something is burning
+
+---------25:16----------
+ok let's see something just burned me
+
+---------25:23----------
+what just burned me hmm let's see the
+
+---------25:29----------
+red spot is over here I was touching the
+
+---------25:32----------
+board like this I have a hole in my hand
+
+---------25:36----------
+over here which points to ah this
+
+---------25:39----------
+steaming pile of with a bunch of
+
+---------25:41----------
+red next to it could you have burned me
+
+---------25:44----------
+Oh hells yeah you burned me okay so next
+
+---------25:50----------
+ problem to get to let's see what
+
+---------25:56----------
+is burning me here let's
+
+---------26:06----------
+this is actually spin a fan that would
+
+---------26:07----------
+be something to see right now see if
+
+---------26:09----------
+we've made any progress do you turn on
+
+---------26:13----------
+are you still dead
+
+---------26:17----------
+greenlight no fan spin okay something
+
+---------26:26----------
+here is burning but what now who here
+
+---------26:29----------
+remembers my video on how to find a
+
+---------26:31----------
+short without a $6,300 camera does
+
+---------26:34----------
+anybody remember the video on how to
+
+---------26:36----------
+find a short without a $6,300 camera I'm
+
+---------26:38----------
+gonna show you how we do it let me just
+
+---------26:40----------
+get my tool now as you all know I firmly
+
+---------26:43----------
+believe that using your brain is far
+
+---------26:45----------
+better a solution than spending money so
+
+---------26:48----------
+what we're gonna do here is put water
+
+---------26:51----------
+I've got water 9 to 99% alcohol on the
+
+---------26:54----------
+board and let's see where it disappears
+
+---------26:56----------
+from first I really should get my I have
+
+---------26:59----------
+these little syringes with these fine
+
+---------27:01----------
+needles but I use them all for different
+
+---------27:03----------
+types of kester flux over there and I
+
+---------27:05----------
+don't think I have one left to use here
+
+---------27:07----------
+so I'm just gonna pour it from the tape
+
+---------27:08----------
+cap eventually the alcohol is going to
+
+---------27:12----------
+evaporate and whatever it evaporates
+
+---------27:14----------
+that's where the short to ground is
+
+---------27:16----------
+whatever but it's not evaporating
+
+---------27:23----------
+because I want to show you how to do
+
+---------27:24----------
+something in a video so here's the thing
+
+---------27:27----------
+I can try really hard to figure out
+
+---------27:29----------
+where the specific shortest or I could
+
+---------27:31----------
+just replace all this because I by
+
+---------27:33----------
+the dead boards for like 15 20 bucks and
+
+---------27:37----------
+and I don't care so this chip yeah your
+
+---------27:42----------
+bad and just for the hell of it these
+
+---------27:48----------
+caps that look really really Brown over
+
+---------27:50----------
+that area before they are getting tossed
+
+---------27:53----------
+off too so let's get started I am NOT
+
+---------27:56----------
+I'm not taking out a multimeter I'm not
+
+---------27:58----------
+measuring resistors I'm not measuring
+
+---------27:59----------
+tabs I'm using common sense that thing
+
+---------28:03----------
+burned me I know what power I know it
+
+---------28:05----------
+creates power for a 5 volt line it has
+
+---------28:08----------
+red on it it can GTFO
+
+---------28:19----------
+but yeah this is one of those things
+
+---------28:21----------
+that you really got to think about in
+
+---------28:23----------
+terms of brain usage you I mean that
+
+---------28:25----------
+resistor measured fine it measured
+
+---------28:29----------
+it really did it measured fine it wasn't
+
+---------28:32----------
+carrying power
+
+---------28:33----------
+that's why knowing what you what to
+
+---------28:35----------
+expect is so important it's so much more
+
+---------28:38----------
+important than this basic measurements
+
+---------28:39----------
+and this is really a common-sense aspect
+
+---------28:42----------
+that's important here like that because
+
+---------28:45----------
+I just felt like you know if it's just
+
+---------28:49----------
+basic common sense like if 16 volts
+
+---------28:52----------
+that's a very high power 16 18 volts
+
+---------28:54----------
+rush to a point destroyed the board via
+
+---------28:56----------
+why would it not destroy the little 1
+
+---------28:58----------
+million ohm resistor in front of it you
+
+---------29:00----------
+know I mean like logic and common sense
+
+---------29:03----------
+just dictated that resistors should be
+
+---------29:05----------
+destroyed because you know it's like a
+
+---------29:10----------
+bulldozer hits you and only and the
+
+---------29:13----------
+bumper the bulldozer is damaged but the
+
+---------29:15----------
+person is not like that that makes no
+
+---------29:17----------
+sense you know the person should be an
+
+---------29:19----------
+extreme pain in the hospital the same
+
+---------29:22----------
+here even though the resistor measured a
+
+---------29:24----------
+perfect 1 million ohms it didn't weren't
+
+---------29:26----------
+so even though it was measuring right
+
+---------29:28----------
+with the multimeter when it was actually
+
+---------29:29----------
+tasked at carrying a high voltage it
+
+---------29:32----------
+failed so we replace it and all this for
+
+---------29:36----------
+good then again did I take out the
+
+---------29:38----------
+multimeter they won't know I died I got
+
+---------29:40----------
+burned I said the thing that burned me
+
+---------29:42----------
+can leave so and that's what I'm doing
+
+---------29:46----------
+now I'm gonna replace the thing that
+
+---------29:47----------
+burned me with another one uh-huh yeah
+
+---------29:50----------
+this is a very common chip to go bad
+
+---------29:51----------
+that's why I have a spool of it you know
+
+---------29:54----------
+if you're doing anything regularly for a
+
+---------29:56----------
+living and looking to make money at it
+
+---------29:57----------
+you should be prepared so you know I do
+
+---------30:02----------
+this regularly I have spools of chips
+
+---------30:04----------
+you know if you do iPhone screen repair
+
+---------30:07----------
+you should not have to overnight screens
+
+---------30:09----------
+to have them for people I see all these
+
+---------30:11----------
+posts in these dumbass like Facebook
+
+---------30:14----------
+groups well I used to I deleted my
+
+---------30:16----------
+facebook out of just fundamental
+
+---------30:18----------
+frustration with the human race but
+
+---------30:20----------
+where people were like these people are
+
+---------30:23----------
+impatient they don't want to wait this
+
+---------30:25----------
+that and the other and it's like you
+
+---------30:27----------
+advertise you say like
+
+---------30:28----------
+fix iPhones we are the best of fixing
+
+---------30:31----------
+iPhones we do this with iPhones you
+
+---------30:34----------
+don't got a screen for a 5s like really
+
+---------30:38----------
+really it's the it must be the customer
+
+---------30:41----------
+it must be that impatient customer
+
+---------30:43----------
+that's the problem not you for being a
+
+---------30:46----------
+cheap idiot that doesn't stock
+
+---------30:48----------
+of $35 part no it's it's damn it's all
+
+---------30:51----------
+then it's all of them that's the thing
+
+---------30:55----------
+like you can either choose to sit there
+
+---------30:56----------
+and [ __ ] about it or you can choose to
+
+---------30:59----------
+set up your business in a manner where
+
+---------31:01----------
+you can make money at it I know which
+
+---------31:04----------
+one I'm gonna choose ya needless to say
+
+---------31:15----------
+there's a reason that Jessa is gonna be
+
+---------31:17----------
+teaching the soldering portion of the
+
+---------31:19----------
+motherboard repair school that we're
+
+---------31:21----------
+doing and I am gonna be doing how to use
+
+---------31:24----------
+your brain diagnostics troubleshooting
+
+---------31:28----------
+because I suck at soldering this is such
+
+---------31:37----------
+a two-year-old job that I'm doing such a
+
+---------31:41----------
+two-year-old's Joe
+
+---------31:46----------
+okay just in case any of you are the
+
+---------32:03----------
+ones that also burn me you can GTFO this
+
+---------32:08----------
+cap and GTFO
+
+---------32:39----------
+I think a bent tip is really good if you
+
+---------32:41----------
+suck like I do at soldering even after
+
+---------32:43----------
+17 years of it because it lets you get
+
+---------32:45----------
+under things you see what I did there so
+
+---------32:47----------
+I saw that this pin wasn't really
+
+---------32:49----------
+connected the way I wanted it to be so
+
+---------32:51----------
+what I did was I put the I I just I can
+
+---------32:53----------
+actually touch it and I can feel the
+
+---------32:56----------
+ridge so I can feel the feedback in my
+
+---------32:57----------
+wrist so I know that I actually got in
+
+---------32:59----------
+there and I touched it with the solder
+
+---------33:01----------
+which is cool
+
+---------33:03----------
+at least cool to me probably you don't
+
+---------33:05----------
+give a of it I'm silly with what I
+
+---------33:10----------
+find interesting and entertaining these
+
+---------33:27----------
+boards that I'm stealing this stuff from
+
+---------33:29----------
+pretty well baked
+
+---------33:39----------
+uh-huh let's see what is that stuff you
+
+---------33:45----------
+actually can't see the terrible mistake
+
+---------33:46----------
+I made because my office and the pollen
+
+---------33:48----------
+spring bottle is in the way I may just
+
+---------33:50----------
+keep it like that okay so those two
+
+---------33:53----------
+points that are touching those are yeah
+
+---------33:55----------
+they're they can't touch yeah they can't
+
+---------33:58----------
+touch no no way okay so get rid
+
+---------34:02----------
+of that and
+
+---------34:16----------
+short gone
+
+---------34:22----------
+does the fan spin now here if the fan
+
+---------34:34----------
+spins we're still not done I mean don't
+
+---------34:35----------
+get me wrong they don't mean that we
+
+---------34:36----------
+made some progress we still have other
+
+---------34:41----------
+things to do because this also has
+
+---------34:44----------
+corrosion by the CPU I am VP 10 pins
+
+---------34:50----------
+what are you doing with Sharkey get
+
+---------34:54----------
+given back
+
+---------34:58----------
+you stole Sharkey be doing sure
+
+---------35:04----------
+ok now the fan spins and it turns on
+
+---------35:07----------
+now again 99% of the time I would say
+
+---------35:09----------
+that this is done but here we can't
+
+---------35:12----------
+because his other to be done
+
+---------35:14----------
+see over here show you into the
+
+---------35:17----------
+multimeter and show you into the
+
+---------35:19----------
+microscope not a multimeter
+
+---------35:20----------
+so this resistor over here and this
+
+---------35:25----------
+resistor over here these two look like
+
+---------35:28----------
+complete let's measure the
+
+---------35:32----------
+resistance see what we get remember one
+
+---------35:50----------
+measure
+
+---------35:51----------
+resistance of a single resistor it
+
+---------35:52----------
+doesn't matter which end of the resistor
+
+---------35:54----------
+you put the probe point put it on either
+
+---------35:56----------
+one okay you know what I don't even give
+
+---------36:05----------
+a that these are measuring what
+
+---------36:06----------
+they're supposed to I don't trust them
+
+---------36:08----------
+they were getting swapped so what do you
+
+---------36:12----------
+what do I mean by this so remember what
+
+---------36:13----------
+I said about the tun pin being for
+
+---------36:15----------
+setting switching frequency let me show
+
+---------36:19----------
+you more of that okay you're probably
+
+---------36:22----------
+confused to hell at this point what do I
+
+---------36:24----------
+mean with these two resistors and again
+
+---------36:26----------
+I'm gonna keep this very very short
+
+---------36:28----------
+because as I said I have boards to fix I
+
+---------36:30----------
+have a la a big pile over here I do not
+
+---------36:33----------
+have time for this because when I'm done
+
+---------36:34----------
+with all these boards I gotta fix all
+
+---------36:36----------
+the regular all the regular laptops too
+
+---------36:38----------
+and so the tech is back from knee
+
+---------36:41----------
+surgery so this is a control trip that
+
+---------36:44----------
+controls the buck regulator buck
+
+---------36:47----------
+converter buck buck horse whatever per
+
+---------36:50----------
+CPU vcore over here now this chip can
+
+---------36:54----------
+work in many different laptops it can
+
+---------36:56----------
+work on laptops that run off with five
+
+---------36:57----------
+volts we left laptops on off of eight
+
+---------36:59----------
+volts of laptops on off of 12 volts
+
+---------37:01----------
+obviously in order to know what the
+
+---------37:03----------
+switching frequency should be it needs
+
+---------37:05----------
+to know what the input power supply is
+
+---------37:07----------
+so this can actually adapt it can set
+
+---------37:09----------
+the switching frequency differently to
+
+---------37:11----------
+get output the same power based on the
+
+---------37:13----------
+input power supply so let's say I have
+
+---------37:16----------
+five slices of 12 volts right I'm gonna
+
+---------37:18----------
+have more power with five slices of 12
+
+---------37:20----------
+volts than I would with five slices of
+
+---------37:22----------
+eight volts so if I were running off of
+
+---------37:24----------
+an 8 volt power supply
+
+---------37:26----------
+I may need eight or nine slices of it to
+
+---------37:28----------
+get 1 volt for CPU v core vs. with a 12
+
+---------37:32----------
+volt power supply since it's a larger
+
+---------37:33----------
+input power I may only need three or
+
+---------37:36----------
+five volt slices to get to one volt of
+
+---------37:39----------
+CPU v cord so what this does is it
+
+---------37:41----------
+measures the input power in order to set
+
+---------37:43----------
+the switching frequency again if you
+
+---------37:45----------
+want to see what switching frequency is
+
+---------37:46----------
+search for a 2 0 - 3 0 - 3 CPU v core
+
+---------37:51----------
+video I show you how a buck converter
+
+---------37:53----------
+works I show you it on an oscilloscope
+
+---------37:54----------
+you can actually see the pulses you can
+
+---------37:56----------
+see the spikes and you can get a general
+
+---------37:58----------
+visual representation of what's going on
+
+---------38:00----------
+not gonna do that here because this is a
+
+---------38:02----------
+practical video and I just
+
+---------38:03----------
+to get it done this is I just I don't
+
+---------38:21----------
+okay I don't I don't like knowing that I
+
+---------38:25----------
+have 15 or 20 or whatever things to get
+
+---------38:28----------
+to it's just it's an annoying feeling so
+
+---------38:33----------
+let's get and admit it it may sound like
+
+---------38:37----------
+an excuse to you but it is it is the
+
+---------38:40----------
+truth that doing videos does slow the
+
+---------38:42----------
+process down like this this would be
+
+---------38:44----------
+done already if I wasn't explaining if I
+
+---------38:46----------
+wasn't switching back and forth on the
+
+---------38:48----------
+camera here and also speaking speaking
+
+---------38:50----------
+in general just slows down my workflow
+
+---------38:52----------
+without all of that this gets done a lot
+
+---------38:55----------
+faster but I do like having the
+
+---------38:56----------
+opportunity to show you how to do this
+
+---------38:59----------
+in effect and the only way to really
+
+---------39:02----------
+keep this interesting is to do them you
+
+---------39:04----------
+know now it's not like if I finish this
+
+---------39:06----------
+and I say this is what you should look
+
+---------39:07----------
+for and this is what you should do it's
+
+---------39:09----------
+boring when you do it in real time it's
+
+---------39:11----------
+kind of interesting because you get to
+
+---------39:13----------
+see the thought process in real time and
+
+---------39:15----------
+you also get to see the things that made
+
+---------39:16----------
+me look like an idiot in real time
+
+---------39:17----------
+because that's the thing that nobody
+
+---------39:19----------
+understands like nobody nobody respects
+
+---------39:22----------
+how hard it is to do this type of work
+
+---------39:23----------
+they really down especially
+
+---------39:26----------
+again like you saw the resistor measured
+
+---------39:29----------
+properly it looked it looked good in
+
+---------39:32----------
+Mission properly you know is
+
+---------39:33----------
+dead like it's it's hard enough to find
+
+---------39:38----------
+out on these boards what components work
+
+---------39:40----------
+and what don't yeah that is hard enough
+
+---------39:42----------
+that's that's enough education and
+
+---------39:45----------
+enough time enough nightmare enough
+
+---------39:46----------
+misery but then when they actually work
+
+---------39:48----------
+when they show that they work and they
+
+---------39:51----------
+don't that is like and this is
+
+---------39:55----------
+why doing these in real time is so
+
+---------39:56----------
+important to me so what I have here this
+
+---------39:58----------
+is also this is fireside current sensing
+
+---------40:00----------
+I'm not even a whole tidge sense for pp
+
+---------40:03----------
+bushed III out I'm honestly not even
+
+---------40:05----------
+gonna show you it on the schematic
+
+---------40:06----------
+because I just got to get this done but
+
+---------40:08----------
+I'm not gonna measure it I just know
+
+---------40:10----------
+that this computer's gonna fail sensor
+
+---------40:11----------
+tests and run slower because that
+
+---------40:13----------
+looks like so
+
+---------40:17----------
+let's just replace that before this
+
+---------40:21----------
+becomes a nightmare
+
+---------40:33----------
+this area the board is also where most
+
+---------40:35----------
+of the SMC sensor crab goes so let's
+
+---------40:39----------
+just take a quick visual inspection here
+
+---------40:41----------
+and see if any of the vias are corroded
+
+---------40:43----------
+or blown none of them appear to be so
+
+---------40:50----------
+I'm gonna just replace that and call it
+
+---------40:52----------
+a day
+
+---------40:53----------
+oh but I've stolen it from everything
+
+---------40:55----------
+already yeah a big surprise there okay
+
+---------41:01----------
+oh my god I forgot to steal it from this
+
+---------41:02----------
+one I must have forgot that this board
+
+---------41:04----------
+was here I never forget to steal
+
+---------41:06----------
+important stuff like that okay and as
+
+---------41:13----------
+usual don't heat the BIOS chip try to
+
+---------41:15----------
+avoid heating the BIOS chip while doing
+
+---------41:16----------
+this many of them are pieces of and
+
+---------41:18----------
+BIOS program on these things sucks like
+
+---------41:20----------
+there are all these places where they
+
+---------41:21----------
+say we have a guide on how to do it we
+
+---------41:23----------
+have a guide on how to do it just read
+
+---------41:24----------
+here and then you read and it has
+
+---------41:26----------
+absolutely nothing to do with your
+
+---------41:29----------
+machine nothing to do with the process
+
+---------41:31----------
+and they like you it's it's in tonight
+
+---------41:34----------
+man you don't want to learn how to
+
+---------41:35----------
+program BIOS issues because you burned
+
+---------41:37----------
+your BIOS chip so just don't burn your
+
+---------41:41----------
+BIOS you don't burn it you'll be good
+
+---------41:47----------
+okay flexi flexi flexi this is a rabbit
+
+---------41:57----------
+hole board this is one of usually I try
+
+---------41:59----------
+to put these in the bottom of the pile I
+
+---------42:01----------
+don't know why I didn't put this in the
+
+---------42:02----------
+bottom of the pile that's another thing
+
+---------42:05----------
+I'm gonna be teaching at this course by
+
+---------42:06----------
+the way avoiding rabbit hole boards had
+
+---------42:08----------
+a deal with rabbit hole boards where
+
+---------42:10----------
+it's a rabbit hole to hell and you're
+
+---------42:12----------
+just gonna spend a lot of time on
+
+---------42:13----------
+something at the expense of everything
+
+---------42:14----------
+else because again this is it's just one
+
+---------42:16----------
+problem after another after another
+
+---------42:17----------
+after another like it's not I'm
+
+---------42:19----------
+replacing that one wire replacing the
+
+---------42:21----------
+wire on the resistor that Dan highside
+
+---------42:24----------
+Caron sensing and
+
+---------42:25----------
+oh it's just awful it's one thing after
+
+---------42:29----------
+another after another they could drive
+
+---------42:32----------
+you to drink so let's see if we have the
+
+---------42:45----------
+basics working on this pile of okay
+
+---------42:53----------
+let's take a little bit of a snap
+
+---------42:54----------
+kinnear wait a second what am i using
+
+---------43:04----------
+this one I just got alcohol oh yeah it
+
+---------43:08----------
+is my alcohol bottles came in thank God
+
+---------43:10----------
+I was tired of using methyl ethyl ketone
+
+---------43:12----------
+I really I you may be wondering why I'm
+
+---------43:15----------
+doing this instead of using a dispenser
+
+---------43:16----------
+I don't know if you've seen the earlier
+
+---------43:18----------
+videos how often I used to fight with
+
+---------43:20----------
+that little dispenser just to get it to
+
+---------43:21----------
+do anything it did really that I've
+
+---------43:23----------
+tried a lot of those little desk
+
+---------43:25----------
+dispensers where you just tap it and the
+
+---------43:26----------
+alcohol comes out here's what happened
+
+---------43:28----------
+here's what happens in the real world
+
+---------43:29----------
+everything that all of those that I buy
+
+---------43:30----------
+from the cheap ones off of ebay to the
+
+---------43:32----------
+good ones from all-spec what happens
+
+---------43:34----------
+with a little alcohol dispenser hate
+
+---------43:36----------
+wired microphones is that it's happened
+
+---------43:39----------
+nothing comes out you tap it again
+
+---------43:41----------
+nothing comes that use happen again you
+
+---------43:42----------
+finally go and you hit it and the
+
+---------43:44----------
+alcohol just sprays everywhere it goes
+
+---------43:45----------
+in your eye I was sick and tired of
+
+---------43:47----------
+getting alcohol in my eye and I was sick
+
+---------43:49----------
+and tired of getting angry at an alcohol
+
+---------43:50----------
+dispenser so until I find one that is
+
+---------43:54----------
+not a piece of this will do for me
+
+---------44:09----------
+all righty
+
+---------44:15----------
+and the CPU heatsink we're gonna use a
+
+---------44:17----------
+different part of the paper towel to
+
+---------44:19----------
+clean that because I don't want to be
+
+---------44:21----------
+just rubbing old thermal paste around
+
+---------44:23----------
+with alcohol and then we use a dry part
+
+---------44:26----------
+of the napkin to remove the liquid you
+
+---------44:30----------
+want to have a clean CPU heats
+
+---------44:32----------
+especially with Apple products because
+
+---------44:33----------
+apple products have no cooling like the
+
+---------44:35----------
+cooling in almost every Apple product
+
+---------44:37----------
+I've ever encountered is this complete
+
+---------44:39----------
+garbage like there's no thought towards
+
+---------44:42----------
+actual ventilation so everything that
+
+---------44:45----------
+you do to keep the ventilation from
+
+---------44:47----------
+working at its best is going actually
+
+---------44:49----------
+harming cuz again right out not even
+
+---------44:51----------
+after dust after years of the fan
+
+---------44:53----------
+getting beat up it's not like you have
+
+---------44:55----------
+to wait for the for the ventilation to
+
+---------44:57----------
+be become out of the box the
+
+---------44:58----------
+ventilation on these products is good it
+
+---------45:00----------
+is crap like any Apple the only laptops
+
+---------45:04----------
+that I know that don't have a vent hole
+
+---------45:05----------
+on the bottom they don't have vent holes
+
+---------45:07----------
+by the fan that just they have this one
+
+---------45:09----------
+little thing in the back with a little
+
+---------45:11----------
+slits it's terrible it's terrible it's
+
+---------45:16----------
+terrible is not having a wireless
+
+---------45:17----------
+microphone oh okay
+
+---------45:20----------
+so let's put this thing back together so
+
+---------45:26----------
+yeah don't compromise the ventilation on
+
+---------45:28----------
+an Apple product it's already
+
+---------45:30----------
+compromised from the moment that you buy
+
+---------45:31----------
+it I also use the this tunic TX for
+
+---------45:35----------
+thermal paste hey I was actually enough
+
+---------45:37----------
+of a nerd to go to a bunch of different
+
+---------45:39----------
+websites and compare review results of
+
+---------45:41----------
+different thermal paste a long time ago
+
+---------45:43----------
+I don't trust one specific site but when
+
+---------45:45----------
+every specific site is showing that like
+
+---------45:47----------
+the worst case scenario is the tunic is
+
+---------45:49----------
+1 Celsius better than Arctic silver and
+
+---------45:51----------
+the best-case scenario is that it's like
+
+---------45:54----------
+four or five degrees better than the
+
+---------45:55----------
+Arctic silver 5 I'll go with what most
+
+---------45:59----------
+of the sites say and get it again it is
+
+---------46:04----------
+important because these machines have
+
+---------46:07----------
+really really bad really bad there I'm
+
+---------46:10----------
+all designed like really really bad
+
+---------46:13----------
+thermal design
+
+---------46:16----------
+so everything that I can do on my end to
+
+---------46:19----------
+keep it cooler is good the results in a
+
+---------46:23----------
+lower likelihood of somebody coming back
+
+---------46:25----------
+and saying you fix this a month ago and
+
+---------46:29----------
+now it does X where X is something that
+
+---------46:33----------
+is not my fault at all but they kind of
+
+---------46:35----------
+feel like it's my fault because they
+
+---------46:37----------
+already paid me and it still doesn't
+
+---------46:40----------
+work again you always want to try to
+
+---------46:43----------
+avoid that like at whatever it is you
+
+---------46:44----------
+can do within reason to keep people from
+
+---------46:48----------
+coming back and saying that something
+
+---------46:49----------
+that doesn't work is your fault it's
+
+---------46:52----------
+something you should do so if you see
+
+---------46:55----------
+all these stupid little problems you
+
+---------46:58----------
+should come up with ways to resolve them
+
+---------46:59----------
+before they actually become problems
+
+---------47:04----------
+you
+
+---------47:07----------
+unless you just you just love fighting
+
+---------47:09----------
+with people all day I prefer to make
+
+---------47:12----------
+money off of happy customers so hmm I do
+
+---------47:17----------
+what I can to keep this working all
+
+---------47:20----------
+righty
+
+---------47:25----------
+same thing here like actually put the
+
+---------47:27----------
+adhesive over the speakers again so that
+
+---------47:30----------
+they don't jiggle around if this thing
+
+---------47:34----------
+jiggles or it don't get me wrong laptop
+
+---------47:35----------
+speakers sound like like there's
+
+---------47:37----------
+nothing I can do to not make the speaker
+
+---------47:38----------
+sound like crap it will always sound
+
+---------47:40----------
+like complete garbage but if it sounds
+
+---------47:43----------
+like stable garbage that's better than
+
+---------47:45----------
+if it sounds like rattling garbage
+
+---------47:46----------
+because before it broke it sounded like
+
+---------47:48----------
+stable garbage if it sounds like garbage
+
+---------47:51----------
+with a little bit of rattling in the
+
+---------47:52----------
+background from not being stuck on
+
+---------47:54----------
+properly and again it's one of those
+
+---------47:57----------
+things where the person's gonna think to
+
+---------47:58----------
+themself
+
+---------47:59----------
+you know this is not worth going back
+
+---------48:01----------
+for this is not even worth mentioning
+
+---------48:02----------
+but my computer sounded a certain way
+
+---------48:04----------
+before and now it doesn't and the only
+
+---------48:07----------
+thing they're gonna think about is that
+
+---------48:08----------
+the last time that sounded good was
+
+---------48:10----------
+before they brought it to you and yeah
+
+---------48:13----------
+this it's just all these little things
+
+---------48:15----------
+that people do that you don't think
+
+---------48:17----------
+about that add up so use your brain try
+
+---------48:22----------
+to do things right as often as you can
+
+---------48:25----------
+where people are going to notice where
+
+---------48:27----------
+there's gonna be an actual difference a
+
+---------48:29----------
+noticeable difference between it being
+
+---------48:31----------
+done right and being done like okay
+
+---------48:41----------
+stick that on there
+
+---------48:47----------
+you
+
+---------48:49----------
+oh I'm going to be in
+
+---------48:53----------
+seeing how fast this runs off of the
+
+---------48:56----------
+battery also I'm gonna be interested if
+
+---------48:59----------
+this thing even chimes since there was
+
+---------49:00----------
+that crud by the CPU v core circuit that
+
+---------49:02----------
+I showed you even though I did replace
+
+---------49:05----------
+it I'm still I'm always a little
+
+---------49:06----------
+skeptical the first boot always a little
+
+---------49:09----------
+skeptical so
+
+---------49:17----------
+see there are machines where I see the
+
+---------49:19----------
+fan spin and then I end the video
+
+---------49:21----------
+because I know that it's gonna work and
+
+---------49:23----------
+then there are videos like this where I
+
+---------49:25----------
+know that there that that there's a good
+
+---------49:28----------
+chance of something else being dead and
+
+---------49:30----------
+because of that I feel compelled to go
+
+---------49:33----------
+through this and show you that the work
+
+---------49:35----------
+works well I said before if the stuff
+
+---------49:38----------
+that I'm doing doesn't work as I'm
+
+---------49:40----------
+incapable you shouldn't be sending me
+
+---------49:43----------
+things like the second I'd proved to you
+
+---------49:45----------
+that I am incompetent at my profession
+
+---------49:48----------
+you should stop listening to me and I
+
+---------49:51----------
+don't mean incompetent in terms of
+
+---------49:52----------
+making one mistake because there are a
+
+---------49:53----------
+lot of people that like to troll
+
+---------49:55----------
+especially on the Internet where you get
+
+---------49:56----------
+to hide behind a computer and hide
+
+---------49:58----------
+behind nobody knowing what you do or
+
+---------50:00----------
+what you've done or not done in life and
+
+---------50:02----------
+say oh my God look at that one thing he
+
+---------50:04----------
+got wrong what an idiot
+
+---------50:05----------
+when I say incompetence I mean that like
+
+---------50:08----------
+repeatedly you prove that you are
+
+---------50:10----------
+incapable of producing so once I show
+
+---------50:14----------
+you that about me if I do show you that
+
+---------50:16----------
+about me I encourage you to stop
+
+---------50:17----------
+watching my content and to stop
+
+---------50:20----------
+listening to my channel so I'm always
+
+---------50:24----------
+trying to get the point across here and
+
+---------50:26----------
+always showing you the basics that
+
+---------50:31----------
+aren't that the work that's done
+
+---------50:33----------
+actually works
+
+---------50:39----------
+I always I don't want to watch people
+
+---------50:41----------
+who I don't feel are qualified I want to
+
+---------50:44----------
+listen to people who I don't feel
+
+---------50:45----------
+they're qualified
+
+---------50:49----------
+I don't think you should have to listen
+
+---------50:51----------
+to people who are unqualified
+
+---------50:58----------
+battery has no charge surprise surprise
+
+---------51:01----------
+computer had no one wire circuit so I
+
+---------51:09----------
+guess showing you that this works
+
+---------51:10----------
+quickly off of the battery is gonna have
+
+---------51:12----------
+to wait for later CPU Vee Korres
+
+---------51:14----------
+presents because it chimes and you see
+
+---------51:16----------
+an apple
+
+---------51:19----------
+I see an orange light
+
+---------51:23----------
+the charger which indicates that well
+
+---------51:25----------
+you can't see that because I've had them
+
+---------51:26----------
+shiny this room is how bright this room
+
+---------51:29----------
+is I should say IRA what I'm thinking of
+
+---------51:32----------
+doing is I'm actually thinking just so
+
+---------51:33----------
+that you can see things here better is
+
+---------51:34----------
+putting some diffusers over those lights
+
+---------51:36----------
+Edison to find some good light diffusers
+
+---------51:38----------
+as you can imagine that is severely low
+
+---------51:42----------
+on my list of daily priorities but it is
+
+---------51:43----------
+something I should do if I want it to
+
+---------51:45----------
+this video-content and the channel
+
+---------51:47----------
+you're a little bit more seriously
+
+---------51:48----------
+because this room is terrible for video
+
+---------51:50----------
+so it should boot in a second then I
+
+---------51:52----------
+want to be able to show you that it
+
+---------51:53----------
+charges and that the mouse doesn't move
+
+---------51:56----------
+around slow on the screen on the battery
+
+---------52:00----------
+but I forgot this computer uses a hard
+
+---------52:02----------
+drive which mean it's going to take
+
+---------52:03----------
+forever
+
+---------52:03----------
+I also accidentally unplug the Mac safe
+
+---------52:06----------
+great job
+
+---------52:11----------
+this is gonna take a while to boot I
+
+---------52:13----------
+hate computers with hard drives I can't
+
+---------52:15----------
+use computers with hard drives I'm far
+
+---------52:17----------
+too spoiled at this point of my life
+
+---------52:29----------
+you
+
+---------52:35----------
+so it's at 0% so I'm gonna close it for
+
+---------52:37----------
+a few minutes let it charge after a
+
+---------52:39----------
+charge is a little bit I will show you
+
+---------52:41----------
+back on the camera that when the mouse
+
+---------52:43----------
+moves that it's not slow okay so let's
+
+---------52:45----------
+see if this thing is had at any time to
+
+---------52:47----------
+charge if we've gotten anywhere with
+
+---------52:49----------
+charging it so it looks like we're still
+
+---------52:53----------
+add only a couple of bars let's see how
+
+---------52:56----------
+much power that is that's 12% so we're
+
+---------53:03----------
+gonna be looking for here is that when
+
+---------53:05----------
+you move the mouse around that the mouse
+
+---------53:06----------
+cursor can move around fairly quickly
+
+---------53:09----------
+now I'm gonna try to do this without
+
+---------53:11----------
+revealing the person's name because I
+
+---------53:15----------
+learned my lesson from doing that
+
+---------53:17----------
+just like I should have learned my
+
+---------53:18----------
+lesson on buying a wired microphone so
+
+---------53:26----------
+alright and this is to prove that we
+
+---------53:29----------
+don't have any issues as a result of
+
+---------53:32----------
+that corroded looking transistor so I'm
+
+---------53:35----------
+doing here is I'm moving the mouse in
+
+---------53:37----------
+this out of focus so what I'm gonna do
+
+---------53:41----------
+here is I'm gonna move the mouse around
+
+---------53:42----------
+in this how to focus screen and you can
+
+---------53:45----------
+see that the mouse is moving at a fair
+
+---------53:47----------
+rate which means that we don't have that
+
+---------53:49----------
+slowness issue when it's running off of
+
+---------53:51----------
+just the battery that you would if that
+
+---------53:52----------
+piece was messed up I'm done it works
+
+---------53:57----------
+hope you learn something
+

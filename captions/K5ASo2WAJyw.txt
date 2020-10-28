@@ -1,0 +1,1204 @@
+https://www.youtube.com/watch?v=K5ASo2WAJyw
+---------00:00----------
+hi today I'm going to be working on a
+
+---------00:01----------
+board for somebody who tried to replace
+
+---------00:03----------
+their own hard drive and as a result of
+
+---------00:04----------
+trying to replace their own hard drive
+
+---------00:05----------
+the machine is dead one of the things
+
+---------00:08----------
+that I like to talk about with labor
+
+---------00:09----------
+rates in general is when you set labor
+
+---------00:12----------
+rates set it according to the dumbest
+
+---------00:15----------
+thing you've ever had an employee do and
+
+---------00:17----------
+you'll notice that you have a lot less
+
+---------00:19----------
+guilt in terms of setting labor rates
+
+---------00:20----------
+for things that you find simple so you
+
+---------00:22----------
+know there are a lot of things where
+
+---------00:23----------
+people will do it for free you're on the
+
+---------00:25----------
+house because they find that it's just
+
+---------00:27----------
+such an easy thing to do but even in
+
+---------00:30----------
+again just think of this like this
+
+---------00:32----------
+person tried to replace a hard drive and
+
+---------00:33----------
+they're not I'm not saying they're dumb
+
+---------00:34----------
+they didn't seem dumb when they came in
+
+---------00:36----------
+but this is supposed to be the simplest
+
+---------00:38----------
+thing to do inside of a laptop computer
+
+---------00:40----------
+and while doing this seemingly easy task
+
+---------00:44----------
+which I'm not going to sit here and say
+
+---------00:46----------
+is difficult this is easy as I
+
+---------00:48----------
+would tell my own my own sixty
+
+---------00:49----------
+six-year-old dad that you can do this
+
+---------00:51----------
+yourself you don't need me for it the
+
+---------00:53----------
+board died and you know it's just one of
+
+---------00:56----------
+those things where it's you know I don't
+
+---------00:59----------
+feel bad that that things cost money
+
+---------01:00----------
+I'll always tell people when something
+
+---------01:02----------
+is very very simple and easy and you
+
+---------01:05----------
+know for the love of God please don't
+
+---------01:06----------
+pay me for it but when I accept money
+
+---------01:08----------
+for things it's like this is why so
+
+---------01:11----------
+we're going to do here is we're going to
+
+---------01:13----------
+start measuring around to see why this
+
+---------01:14----------
+is dead this is an eight to zero 3115
+
+---------01:18----------
+board so the first thing that I should
+
+---------01:21----------
+have here is 12 volts on P P buzz g3 hot
+
+---------01:26----------
+and that is 12 volts the second thing
+
+---------01:29----------
+that we should have is pp 3 v 4 2 at
+
+---------01:31----------
+3.42 volts and we have that third thing
+
+---------01:34----------
+we should have is pp 5vs5 at 5 volts and
+
+---------01:38----------
+we have that the fourth thing we should
+
+---------01:41----------
+have is pp 5 vs 3 at 5 volts and we
+
+---------01:46----------
+don't have ok so look now we get to
+
+---------01:49----------
+hunt and figure out why we don't have pp
+
+---------01:52----------
+5 V s 3
+
+---------02:04----------
+the first thing I'm going to do is
+
+---------02:06----------
+unplug this person's drive cable next
+
+---------02:13----------
+thing I'm going to do is I'm going to
+
+---------02:15----------
+remove a chip that is responsible for
+
+---------02:17----------
+sending the end trip signal so to give
+
+---------02:19----------
+you an idea of what the end trip signal
+
+---------02:21----------
+is and what I'm talking about here so as
+
+---------02:23----------
+I said in one of the other videos and
+
+---------02:25----------
+what is an enable signal and how does an
+
+---------02:27----------
+integrated circuit work a lot of chips
+
+---------02:29----------
+that are responsible for there we go so
+
+---------02:33----------
+a lot of chips that are responsible for
+
+---------02:35----------
+power rails in a machine have something
+
+---------02:38----------
+called an enable pin or an end trip
+
+---------02:39----------
+circuit so it's not going to actually
+
+---------02:41----------
+start the power supply working until it
+
+---------02:45----------
+sees that there's power at the enable
+
+---------02:47----------
+pin the way this works is the opposite
+
+---------02:50----------
+once it will be off if you send the end
+
+---------02:54----------
+trip signal to ground and being trolled
+
+---------02:58----------
+here here we go
+
+---------03:04----------
+it'll be off if you send any trip to
+
+---------03:05----------
+ground but if you stop sending end trip
+
+---------03:07----------
+to ground so this is n trip over here it
+
+---------03:09----------
+will turn itself on so I want to see
+
+---------03:11----------
+what that PP 5 vs 3 voltage becomes when
+
+---------03:16----------
+I decide to get rid of the end trip
+
+---------03:18----------
+signal does it not go up at all does it
+
+---------03:20----------
+go up does it go up only partially
+
+---------03:22----------
+because the chip is not working properly
+
+---------03:24----------
+the only way to find out is to remove
+
+---------03:26----------
+this chip q70 221 we're going to remove
+
+---------03:29----------
+that and see what happens so CEQ 72 to 1
+
+---------03:34----------
+that brings us over here on the
+
+---------03:36----------
+motherboard and let's see what happens
+
+---------03:40----------
+when we take that off let's see if we
+
+---------03:41----------
+get any progress let's see if anything
+
+---------03:43----------
+turns on so we're going to switch over
+
+---------03:44----------
+here to the microscope camera alright so
+
+---------03:46----------
+unfortunately for a short period of time
+
+---------03:48----------
+actually for a damn near 10 minutes of
+
+---------03:50----------
+troubleshooting there was no sound
+
+---------03:52----------
+because I forgot to plug my microphone
+
+---------03:54----------
+back in and that video just doesn't
+
+---------03:56----------
+really make sense without it so what I'm
+
+---------03:57----------
+going to do here is I'm going to explain
+
+---------03:58----------
+what happened during that time that
+
+---------04:00----------
+there was no video so the first thing
+
+---------04:01----------
+that I tried to do is I removed cue 72
+
+---------04:04----------
+21 on the schematic for an 8 - 0 31 15
+
+---------04:07----------
+board now here's the way you 70-200
+
+---------04:09----------
+works if it's it will always have a
+
+---------04:12----------
+voltage on the entropy and it will
+
+---------04:13----------
+always be trying to produce PP 5 es 3
+
+---------04:16----------
+however if the voltage that's created by
+
+---------04:18----------
+you 70-200 the end tripping get shorted
+
+---------04:21----------
+to ground let's say by a transistor
+
+---------04:24----------
+that's going to ground based on an input
+
+---------04:26----------
+signal to enable or disable the power
+
+---------04:28----------
+line then it will not create that
+
+---------04:30----------
+voltage rail so the first thing I did is
+
+---------04:31----------
+I removed Q 72 21 and I wanted to see if
+
+---------04:34----------
+it was if it would start creating a
+
+---------04:36----------
+voltage rail you know the again if it
+
+---------04:37----------
+would create let's say one or two volts
+
+---------04:39----------
+I'd know that something with the buck
+
+---------04:40----------
+converter was up if it would
+
+---------04:43----------
+create a full voltage then I don't maybe
+
+---------04:45----------
+something with the PCH was up the
+
+---------04:47----------
+PCH is what sends the signal to Q 72 21
+
+---------04:50----------
+to tell it that it should start going on
+
+---------04:53----------
+creating power and not letting power
+
+---------04:55----------
+through so that u 7200 n trip pin can
+
+---------04:58----------
+get shorted to ground or not get shorted
+
+---------05:00----------
+to gram I wanted to see what it was is
+
+---------05:02----------
+this a volt is this a chip problem where
+
+---------05:05----------
+it's not creating power at all or is
+
+---------05:06----------
+this a problem with the enable circuitry
+
+---------05:08----------
+that's the first thing you want to do it
+
+---------05:09----------
+again before you start troubleshooting a
+
+---------05:11----------
+circuit that may be working see if it's
+
+---------05:13----------
+simply not being told to turn on I did
+
+---------05:15----------
+that and I got nowhere I got 0 volts so
+
+---------05:18----------
+then I tried checking for a short to
+
+---------05:20----------
+ground using my multimeter and you can
+
+---------05:22----------
+see how I've checked for short to ground
+
+---------05:23----------
+countless times in other videos what I
+
+---------05:25----------
+did I put the multimeter to diode mode
+
+---------05:26----------
+after the multimeter was in diode 1 I
+
+---------05:28----------
+picked the red probe on ground but the
+
+---------05:31----------
+red probe on thank you magnet the red
+
+---------05:33----------
+probe on ground the black probe on where
+
+---------05:35----------
+pp5 es3 is supposed to be and there was
+
+---------05:37----------
+no short so then what I wanted to do is
+
+---------05:39----------
+I wanted to see if there was the only
+
+---------05:40----------
+problem I wanted to see if that was all
+
+---------05:42----------
+that was wrong with it
+
+---------05:43----------
+so what I did is I put the power supply
+
+---------05:45----------
+to 5 volts I attached the ground of the
+
+---------05:48----------
+power supply to the computer and then I
+
+---------05:49----------
+attached the power of the power supply
+
+---------05:53----------
+the plus at 5 volts to where pp5 es3 is
+
+---------05:56----------
+supposed to be on the board and when I
+
+---------05:57----------
+was done with all this it still didn't
+
+---------05:59----------
+work then when I decided to do is I
+
+---------06:02----------
+decided you know what what went wrong
+
+---------06:04----------
+with this so the problem with this
+
+---------06:05----------
+machine is that the the hard drive the
+
+---------06:08----------
+guy tried to replace is on hard drive
+
+---------06:09----------
+and it didn't work the hard drive is
+
+---------06:11----------
+only powered by PP 5 ESL PP 5 ESO is
+
+---------06:14----------
+created from PP 5 es 3 which is
+
+---------06:17----------
+controlled by you 7201 so if anything
+
+---------06:20----------
+funky happened during the hard drive
+
+---------06:21----------
+replacement the most likely place that I
+
+---------06:23----------
+should look to you know on my brain is
+
+---------06:26----------
+you 7201 and or you 7200 and
+
+---------06:31----------
+that's what I did and then I wind up
+
+---------06:32----------
+replacing this chip and that's the step
+
+---------06:34----------
+that you're going to see next and then
+
+---------06:35----------
+you're going to see if that works
+
+---------06:36----------
+so again one of the things I wanted to
+
+---------06:38----------
+mention that I was mentioning in that
+
+---------06:39----------
+video a portion of the video that got
+
+---------06:41----------
+erased is on power lines in the machine
+
+---------06:43----------
+so pp5 vs3 is not a different power line
+
+---------06:49----------
+than pp5 ESO so what is five es OPP
+
+---------06:53----------
+olace cramming pp just think that stands
+
+---------06:55----------
+for power you know not piss PPE power
+
+---------06:58----------
+then 5 V 5 volts now SOS 3s 5 that's
+
+---------07:03----------
+probably where you're getting confused
+
+---------07:04----------
+as all means that's a power rail when
+
+---------07:07----------
+the computers on so s our power states
+
+---------07:09----------
+so that's what the S is state as five
+
+---------07:11----------
+computer is off as three computer is
+
+---------07:14----------
+hibernating or computer is sleeping and
+
+---------07:16----------
+as Oh computer is on now there are
+
+---------07:20----------
+things that you need to have 5 volts on
+
+---------07:22----------
+there are places you need to have 5
+
+---------07:23----------
+volts on e or even when the computer is
+
+---------07:25----------
+sleeping so that you know it retains you
+
+---------07:27----------
+you the contents of your memory and it's
+
+---------07:29----------
+ready to go as soon as you hit the power
+
+---------07:30----------
+button again but there are also parts of
+
+---------07:32----------
+this computer that are only on when it's
+
+---------07:35----------
+in an Esso state for example the CPU
+
+---------07:37----------
+there's no reason for the CPU to be
+
+---------07:39----------
+using power there's no reason for the
+
+---------07:40----------
+graphics chip to be using power while
+
+---------07:42----------
+it's sleeping so those are only on when
+
+---------07:44----------
+it's in an Esso state there's no need to
+
+---------07:46----------
+create a different 5 volt for both of
+
+---------07:47----------
+these there's absolutely no need but so
+
+---------07:49----------
+what we do here with the Apple designers
+
+---------07:51----------
+and most motherboard designers do is
+
+---------07:53----------
+they simply take the power from that s3
+
+---------07:55----------
+rail and then they say okay when we tell
+
+---------07:58----------
+you to send the power from the s3 rail
+
+---------08:00----------
+through to all this other stuff so
+
+---------08:02----------
+they'll be a transistor in between the
+
+---------08:04----------
+s3 rail and all the components on the S
+
+---------08:07----------
+or that need s o power like the CPU like
+
+---------08:11----------
+the hard drive like the graphics chip
+
+---------08:13----------
+and so on and so forth so that's how
+
+---------08:15----------
+that works so when a part of the
+
+---------08:17----------
+computer sends a signal to that little
+
+---------08:19----------
+transistor it'll allow all that pp5 es3
+
+---------08:21----------
+power to become PP 5 ESO power the hard
+
+---------08:24----------
+drive is powered by PP 5 ESO this chip
+
+---------08:26----------
+controls PP 5 vs 3 PP 5 es 5 pp 3 V 3 s
+
+---------08:31----------
+5 it has nothing to do with with PP 5
+
+---------08:34----------
+ESL but PP 5 ESO comes from PP 5 es 3
+
+---------08:38----------
+and that is why the this chip got blown
+
+---------08:42----------
+up up at with the hard drive
+
+---------08:44----------
+something
+
+---------08:44----------
+ up happen with the five volts
+
+---------08:46----------
+going to the hard drive that up
+
+---------08:47----------
+the chip that creates PP 5 es 3 which is
+
+---------08:50----------
+responsible for PP 5 ESL this is all
+
+---------08:52----------
+stuff you'll see if you simply search
+
+---------08:54----------
+the schematic if you simply look through
+
+---------08:55----------
+and have a diagnostic mindset and you
+
+---------08:57----------
+using your brain and then that that's
+
+---------08:59----------
+that okay I just had my my food I'm a
+
+---------09:02----------
+little fatter and a little bit more
+
+---------09:05----------
+comfortable now let's get started I'm
+
+---------09:08----------
+replacing some of this stuff here okay
+
+---------09:15----------
+get the machine under the microscope and
+
+---------09:20----------
+this must replace this chip like at
+
+---------09:25----------
+least 50% of the border pairs that I do
+
+---------09:27----------
+there's always a PP 5 vs 3 always a TP s
+
+---------09:32----------
+5 1 1 2 5 related problem let's get this
+
+---------09:36----------
+here so I don't get cancer as I always
+
+---------09:37----------
+like to say I don't like cancer I don't
+
+---------09:40----------
+wish to get cancer
+
+---------09:41----------
+I wish cancer on anybody well I'm sure
+
+---------09:47----------
+there is some that I do I just can't
+
+---------09:48----------
+think of their names right now ok remove
+
+---------09:59----------
+the old one oh you want to see don't you
+
+---------10:02----------
+aren't you guys selfish
+
+---------10:16----------
+now I notice I think it's in focus up
+
+---------10:18----------
+here and then I look at the screen and
+
+---------10:20----------
+it's not in focus and I want to get it
+
+---------10:21----------
+in focus on the screen it looks much
+
+---------10:23----------
+better up here than I and I thought it
+
+---------10:25----------
+would ever look so hey now we're going
+
+---------10:29----------
+to take some time because this is the
+
+---------10:31----------
+new hako heating element that I got
+
+---------10:32----------
+there's nothing like my old trusty five
+
+---------10:36----------
+year old tacho eating element that was
+
+---------10:37----------
+originally on here of course the chips
+
+---------10:50----------
+not ready to go you've only had 15 20
+
+---------10:54----------
+seconds of the heat at 8:00 in the air
+
+---------10:56----------
+at 15 okay
+
+---------11:05----------
+this thing ain't what it used to be
+
+---------11:27----------
+too much on the center pad that's my
+
+---------11:32----------
+signature soldering of all the
+
+---------11:36----------
+things I like to up when soldering
+
+---------11:39----------
+doing a qfn package too much solder on
+
+---------11:42----------
+the center pad
+
+---------11:54----------
+and
+
+---------12:33----------
+disgusting isn't it oh my god that's
+
+---------12:38----------
+gross this guy's an idiot he doesn't
+
+---------12:43----------
+know what he's doing he's a idiot
+
+---------13:14----------
+Hey
+
+---------13:16----------
+where it's supposed to be sitting this
+
+---------13:22----------
+tip is bent a lot more than it used to
+
+---------13:24----------
+be so see how it's bent now I'm going to
+
+---------13:28----------
+be showing you what the newer tip looks
+
+---------13:29----------
+like when it comes in it's going to be a
+
+---------13:31----------
+lot better than this and more suited to
+
+---------13:32----------
+this this work I'm excited
+
+---------13:39----------
+supposed to come in tomorrow
+
+---------13:42----------
+I love Amazon Prime for that and you
+
+---------13:45----------
+know that they're losing money I mean it
+
+---------13:47----------
+wasn't just the shipping prices and I
+
+---------13:48----------
+know that it wasn't even just guessing
+
+---------13:50----------
+about it it wasn't just looking at the
+
+---------13:53----------
+weight and then the price and then
+
+---------13:55----------
+laughing at the idea that FedEx would
+
+---------13:56----------
+give them the rates that they give them
+
+---------13:58----------
+that's not it it's the it's just every
+
+---------14:01----------
+single time I use Amazon Prime now it's
+
+---------14:03----------
+like we'll give you this digital
+
+---------14:05----------
+download for free please for the love of
+
+---------14:07----------
+God just don't choose today shipping
+
+---------14:09----------
+like they have all these ways that are
+
+---------14:11----------
+begging you not to use the prime which
+
+---------14:14----------
+is which makes me happy because it means
+
+---------14:17----------
+that they're losing money so I actually
+
+---------14:19----------
+make sure to use the one day every time
+
+---------14:21----------
+even though I know they're losing off of
+
+---------14:23----------
+it because I know that they'll often say
+
+---------14:24----------
+like the difference between two day
+
+---------14:25----------
+shipping and one day shipping is like a
+
+---------14:27----------
+dollar or two and I know that that's not
+
+---------14:29----------
+it I know they're paying more than a
+
+---------14:30----------
+dollar for the difference between it so
+
+---------14:32----------
+I'll always choose that shipping knowing
+
+---------14:33----------
+that they're going to lose money on it
+
+---------14:34----------
+because I love seeing Amazon lose money
+
+---------14:36----------
+because they're their and how
+
+---------14:38----------
+they treat people on the Amazon
+
+---------14:39----------
+Marketplace they're worse than even so
+
+---------14:42----------
+like customer buys something on Friday
+
+---------14:45----------
+with next day shipping customer files A
+
+---------14:48----------
+to Z claim on Saturday because he
+
+---------14:50----------
+doesn't understand that Saturday is not
+
+---------14:52----------
+a business day because he's an idiot
+
+---------14:53----------
+you don't reply within 24 hours because
+
+---------14:57----------
+it's Sunday in your home with your kids
+
+---------14:59----------
+or enjoying your life or doing something
+
+---------15:01----------
+other than dealing with some rag
+
+---------15:03----------
+who decides to file a charge back
+
+---------15:04----------
+because he doesn't know understand how
+
+---------15:05----------
+the world works and then on
+
+---------15:07----------
+Monday you get you know the they win the
+
+---------15:11----------
+claim and you know what also happens on
+
+---------15:13----------
+Monday their package arrives they have
+
+---------15:16----------
+their money back and it's just a
+
+---------15:18----------
+azan as a thing like eBay there are a
+
+---------15:21----------
+lot of things I hate about eBay I would
+
+---------15:22----------
+never sell on eBay again and as much as
+
+---------15:23----------
+I hate eBay I kind of understand why
+
+---------15:25----------
+they are the way they are Amazon is just
+
+---------15:28----------
+come unnecessary
+
+---------15:30----------
+just really really mean for no
+
+---------15:34----------
+reason and it's really stupid so as you
+
+---------15:37----------
+can see here my theory was correct I was
+
+---------15:40----------
+will open this you can see that I
+
+---------15:41----------
+actually fixed something not just making
+
+---------15:44----------
+all this crap up
+
+---------15:45----------
+I mean before as you saw I didn't turn
+
+---------15:47----------
+on now this was missing PP 5 es 3 and
+
+---------15:50----------
+when I put 5 volts on PP 5 es 3 it still
+
+---------15:54----------
+wasn't turning on so what I did is I
+
+---------15:56----------
+checked I still suspected that chip
+
+---------15:58----------
+because the 5 volt power rail is the
+
+---------16:00----------
+only thing going to the drive the only
+
+---------16:01----------
+power going to the drive so something
+
+---------16:02----------
+had to mess up with the 5 volt power
+
+---------16:03----------
+line
+
+---------16:04----------
+I added 5 volts there and it still
+
+---------16:06----------
+didn't turn on I checked for a short in
+
+---------16:07----------
+the 5 volt rail none was present and I
+
+---------16:10----------
+really was confused and then I saw that
+
+---------16:11----------
+pp 3 v 3 was not present pp 3 V 3 is a
+
+---------16:15----------
+power rail pp 3 B 3 s 5 and pp 3 B 3 s 3
+
+---------16:18----------
+they're both power rails that are
+
+---------16:19----------
+created by the same u 7,200 chip so what
+
+---------16:22----------
+I decided to do again I'm pretty sure I
+
+---------16:23----------
+could turn this off you guys know that
+
+---------16:25----------
+it works now so I decided to do is I
+
+---------16:27----------
+decided to replace the chip that's
+
+---------16:28----------
+responsible for both and when I did it
+
+---------16:31----------
+worked perfectly so you get what you're
+
+---------16:33----------
+going to notice the more you watch this
+
+---------16:34----------
+channel the more you're going to notice
+
+---------16:36----------
+that TPS 5 1 1 2 5 it really is a chip
+
+---------16:38----------
+that you should have spools of like this
+
+---------16:40----------
+over here this may seem like a big spool
+
+---------16:42----------
+to you guys that don't do board repair
+
+---------16:44----------
+this is this is like a one-week supply
+
+---------16:46----------
+for me this will be gone by the end of
+
+---------16:48----------
+the week it really is that popular chip
+
+---------16:50----------
+and really just die that often on does
+
+---------16:53----------
+this mean that you're going to start
+
+---------16:54----------
+every one of your board repairs by
+
+---------16:55----------
+replacing this because Luis said that it
+
+---------16:57----------
+dies often no you're going to use your
+
+---------16:58----------
+ brain you're going to use the
+
+---------17:00----------
+schematic and the board view and
+
+---------17:01----------
+everything I've taught you here to find
+
+---------17:02----------
+out what your problem is before you jump
+
+---------17:05----------
+to the conclusion that you can just
+
+---------17:06----------
+follow somebody else's solution to
+
+---------17:09----------
+somebody else's problem and apply it to
+
+---------17:10----------
+your problem and have it work but at the
+
+---------17:12----------
+same time if this is something that Oh
+
+---------17:17----------
+ fever this is something that you
+
+---------17:20----------
+need to you should have in stock if
+
+---------17:22----------
+you're doing this and again this just
+
+---------17:24----------
+think if you think this all becomes a
+
+---------17:27----------
+lot easier tell me that was on camera so
+
+---------17:32----------
+I have this yeah I have the air filter
+
+---------17:34----------
+here this actually sucked up my spool of
+
+---------17:36----------
+chips oh that's not funny I hope they're
+
+---------17:39----------
+still in there when I open it
+
+---------17:42----------
+either way you know what even if it's
+
+---------17:45----------
+not that entire spool of chips cause far
+
+---------17:49----------
+less than I'm charging this guy from
+

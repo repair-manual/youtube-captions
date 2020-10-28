@@ -1,0 +1,811 @@
+https://www.youtube.com/watch?v=s9Mv0LMt4rA
+---------00:00----------
+hi today I'm gonna be continuing with
+
+---------00:02----------
+the component-level motherboard repair
+
+---------00:04----------
+video series one thing to know if you're
+
+---------00:06----------
+new to the channel this is not the video
+
+---------00:07----------
+you should start at because I am moving
+
+---------00:09----------
+a little bit quickly as I am trying to
+
+---------00:10----------
+catch up after getting back from
+
+---------00:12----------
+practical board repair school I've been
+
+---------00:13----------
+away for a week which means I have a lot
+
+---------00:15----------
+of work to do which means I'm not really
+
+---------00:17----------
+gonna be going through every single step
+
+---------00:19----------
+with the schematic on the screen I am
+
+---------00:21----------
+gonna be skipping through so if you are
+
+---------00:22----------
+not familiar with this video series
+
+---------00:24----------
+already watch the older videos in this
+
+---------00:26----------
+series if you want to learn board or
+
+---------00:28----------
+pair probably not this one so the first
+
+---------00:30----------
+thing I do is I go to see if I have a
+
+---------00:31----------
+green light in the charger when I plug
+
+---------00:33----------
+the charger in and I don't have a green
+
+---------00:35----------
+light now one of the things that I look
+
+---------00:36----------
+for is that there is three point 42
+
+---------00:39----------
+volts on PP 3 v 4 to when I go to
+
+---------00:41----------
+measure 4 PP 3 V 4 - on this board I get
+
+---------00:44----------
+0 volts so now what I'm gonna do is I'm
+
+---------00:47----------
+gonna check for a short to ground so
+
+---------00:48----------
+when I check for a short to ground I
+
+---------00:50----------
+mean diode mode red probe on ground
+
+---------00:52----------
+black probe on P B 3 B 4 - I get 0 volts
+
+---------00:56----------
+no zero volt drop which means that there
+
+---------00:58----------
+is no voltage drop between my pal rail
+
+---------01:00----------
+and ground which is bad so what I'm
+
+---------01:02----------
+going to do now is I'm going to
+
+---------01:04----------
+disconnect the inductor that sits
+
+---------01:06----------
+between the pp 3 V 4 - power supply in
+
+---------01:09----------
+the board I want to see what side my
+
+---------01:11----------
+short-circuit is on so I have to wait
+
+---------01:14----------
+for this thing to heat up anyway so even
+
+---------01:16----------
+if I wanted to move really fast here
+
+---------01:18----------
+there's not I gotta wait for this data
+
+---------01:20----------
+so since I'm gonna wait for it to heat
+
+---------01:21----------
+up I might as well show you what it is
+
+---------01:23----------
+I'm moving here so I'm removing l69 9 v
+
+---------01:29----------
+alright so this is what I'm going to be
+
+---------01:31----------
+removing good open broadcaster make sure
+
+---------01:39----------
+you're still all right so this is pp 3 V
+
+---------01:42----------
+4 to underscore G 3 hot power supply now
+
+---------01:45----------
+this is where pp 3 V 4 2 is being
+
+---------01:47----------
+created and this is where it's sending
+
+---------01:49----------
+it to the machine is it this side that's
+
+---------01:51----------
+shorted or this side that's shorted is
+
+---------01:52----------
+it the machine side where all the
+
+---------01:54----------
+components being powered by PB 3 before
+
+---------01:56----------
+- were shorted or is it the chip that's
+
+---------01:57----------
+creating I don't know so I'm gonna
+
+---------01:59----------
+remove this and then we're gonna see so
+
+---------02:01----------
+what I'm doing here is I'm trying to
+
+---------02:02----------
+isolate the cause of the of the fault
+
+---------02:04----------
+think of it like you got two kids that
+
+---------02:06----------
+are really misbehaving right so you got
+
+---------02:08----------
+two kids that are misbehaving and
+
+---------02:10----------
+they're screaming and they're bitching
+
+---------02:12----------
+and shits
+
+---------02:13----------
+knocked down the room one way to figure
+
+---------02:15----------
+out which kids at fault because kids
+
+---------02:16----------
+never admit which one is actually the
+
+---------02:17----------
+one doing the the stuff that's wrong it
+
+---------02:20----------
+would be to put the kids in two separate
+
+---------02:22----------
+rooms so you put each kid into a
+
+---------02:23----------
+separate room and then you observe and
+
+---------02:25----------
+see what's going on so if you walk in a
+
+---------02:27----------
+one room and you see that the kid is is
+
+---------02:30----------
+sitting down everything's there the way
+
+---------02:32----------
+it's supposed to and acting nice and you
+
+---------02:34----------
+won't in the other room and everything's
+
+---------02:35----------
+not go over and broken and the kid is
+
+---------02:37----------
+screaming then you'll you'll kind of get
+
+---------02:39----------
+an idea which kid probably started it
+
+---------02:41----------
+same thing here I really don't know
+
+---------02:43----------
+which side this short is on so just to
+
+---------02:45----------
+narrow things down a little bit I am
+
+---------02:47----------
+going to remove the coil and the coil
+
+---------02:50----------
+flew away but luckily I caught it so
+
+---------02:53----------
+let's see what side the short is on so
+
+---------02:56----------
+I'm going to check on both sides now if
+
+---------03:00----------
+it's on the left side that means it's
+
+---------03:01----------
+the creating a creation of pp3 before to
+
+---------03:03----------
+that short that's not shorted at all
+
+---------03:07----------
+good measurement and the system side is
+
+---------03:10----------
+zero point zero zero zero voltage drop
+
+---------03:12----------
+which means that there is a short to
+
+---------03:14----------
+ground on the system side now the way
+
+---------03:16----------
+that I'm gonna find that is I'm going to
+
+---------03:18----------
+solder a wire from my power supply to
+
+---------03:21----------
+where 3.42 voltage buzzer show up on the
+
+---------03:24----------
+board right there and I'm gonna sigh to
+
+---------03:30----------
+the ground of the power supply to my
+
+---------03:32----------
+screw now what's gonna happen here is
+
+---------03:34----------
+whatever component is shorting my bp3
+
+---------03:37----------
+before to the ground is going to get
+
+---------03:39----------
+really really hot really boiling hot and
+
+---------03:42----------
+that's going to make it easy for me to
+
+---------03:44----------
+figure out which one it is so yeah
+
+---------03:49----------
+that's just standard you know wire that
+
+---------03:52----------
+I cut out of an Ethernet patch cord
+
+---------03:56----------
+nothing special here just ten the wire
+
+---------03:59----------
+so it sticks better
+
+---------04:04----------
+the board pad has been tend and now the
+
+---------04:06----------
+wire has been tinned doesn't have to be
+
+---------04:11----------
+the greatest outer join in the world
+
+---------04:12----------
+it's not like this is permanent work
+
+---------04:14----------
+this is just for testing only but it's a
+
+---------04:18----------
+ if it falls off so all right so
+
+---------04:22----------
+now that is attached and now what I'm
+
+---------04:24----------
+going to do is we're gonna go over to my
+
+---------04:25----------
+HP 65-42 a power supply here I mean I
+
+---------04:30----------
+set the power supply to three point four
+
+---------04:34----------
+to five volts and the current as high as
+
+---------04:37----------
+it goes and we're gonna turn it on and
+
+---------04:40----------
+it's putting zero point zero zero four
+
+---------04:44----------
+amps which is not a short at all
+
+---------04:48----------
+man that's well let's see if
+
+---------04:51----------
+the rest of the machine works so let's
+
+---------04:53----------
+see if this thing will turn on and give
+
+---------04:56----------
+me as sunny would say a nice long dong
+
+---------04:59----------
+so I'm going to put the RAM in I'm going
+
+---------05:08----------
+to put a speaker on it and a fan and I'm
+
+---------05:13----------
+going to plug it in we're just gonna put
+
+---------05:15----------
+pp 3 v 4 2 and then plug it in and see
+
+---------05:18----------
+if this works
+
+---------05:18----------
+so PP 3 V 4 2 is going and plugging it
+
+---------05:23----------
+in I get a green light
+
+---------05:25----------
+I get fan spin the fan is spinning and
+
+---------05:30----------
+do I get a nice long dong no dong what
+
+---------05:39----------
+it does turn on that gives me some hope
+
+---------05:46----------
+let's see what I get on a screen this is
+
+---------05:49----------
+great I love this little wireless body
+
+---------05:51----------
+pack thing that I got for this mic they
+
+---------05:53----------
+should have gotten this a long time ago
+
+---------05:54----------
+getting up is so much easier when doing
+
+---------05:57----------
+a video not having an XLR cable drape
+
+---------06:00----------
+around everywhere right so I have to get
+
+---------06:05----------
+the proper LCD cable out of here
+
+---------06:09----------
+you're not proper you're burned alright
+
+---------06:12----------
+so I can walk to the next room with ease
+
+---------06:14----------
+oh boy this is great I can walk to the
+
+---------06:18----------
+next room without having to unplug
+
+---------06:20----------
+and plug it back in this is gonna be
+
+---------06:23----------
+great for my exercise
+
+---------06:38----------
+okay I have the proper LCD cable turn
+
+---------06:42----------
+this off I'm turning it off from the
+
+---------06:45----------
+power supply now let's see what I get on
+
+---------06:48----------
+the screen if I get anything so I didn't
+
+---------06:50----------
+get a nice long dong but that doesn't
+
+---------06:52----------
+necessarily mean that we're done for
+
+---------06:53----------
+just yet okay turn it on charger one
+
+---------06:59----------
+wire circuit go go go and it turns on so
+
+---------07:02----------
+it has a brain this thing has the
+
+---------07:04----------
+ability to turn on and work which is you
+
+---------07:07----------
+know again that's good news the problem
+
+---------07:10----------
+here again is that there's something
+
+---------07:12----------
+keeping PP 3 before 2 from appearing now
+
+---------07:15----------
+one of the things that I'm kind of
+
+---------07:16----------
+afraid of right now that I really hope
+
+---------07:17----------
+didn't happen what if the short circuit
+
+---------07:19----------
+was so minor that I blew it out of the
+
+---------07:23----------
+board immediately by just putting 3.42
+
+---------07:26----------
+volts through now if there's no short
+
+---------07:28----------
+now what's gonna happen is this probably
+
+---------07:30----------
+some capacitor is something that blew
+
+---------07:32----------
+and I can't see it because this board
+
+---------07:34----------
+honestly looks perfectly fine it looks
+
+---------07:36----------
+beautiful it looks like water never
+
+---------07:38----------
+touched it it looks like a knockoff
+
+---------07:40----------
+charger never touched it it looks like
+
+---------07:42----------
+it's original owner never touched it
+
+---------07:44----------
+which we can really just kind of worries
+
+---------07:46----------
+me so let's see what happens when I
+
+---------07:47----------
+remove the power supply let's see if the
+
+---------07:50----------
+short circuit is still there and you
+
+---------07:52----------
+know again cuz when the machine is off
+
+---------07:54----------
+what I don't have the charger plugged in
+
+---------07:55----------
+or any of that stuff it's delivering
+
+---------07:58----------
+0.04 amps which honestly is not it's
+
+---------08:02----------
+just it's just not really a
+
+---------08:03----------
+short-circuit that that's nothing so I'm
+
+---------08:07----------
+going to try and measure for a
+
+---------08:08----------
+short-circuit again so I'm in diode mode
+
+---------08:12----------
+on the multimeter I have red probe on
+
+---------08:15----------
+ground black probe on PP 3v for 2 and it
+
+---------08:20----------
+looks like it went away I have no idea
+
+---------08:22----------
+what the happened I really have no
+
+---------08:25----------
+damn clue and this is a board that looks
+
+---------08:28----------
+pretty good nothing really wrong with it
+
+---------08:31----------
+so this is one of those things where I'm
+
+---------08:33----------
+gonna be checking every single little
+
+---------08:34----------
+feature I mean like how many can you
+
+---------08:37----------
+read all the cycles from the battery
+
+---------08:39----------
+microphone does the microphone input
+
+---------08:42----------
+work webcams like all these stupid
+
+---------08:44----------
+little things to make sure that every
+
+---------08:47----------
+single little thing works because
+
+---------08:48----------
+something may actually wind up not
+
+---------08:49----------
+working on here when it leaves
+
+---------08:52----------
+and I don't I don't want that to happen
+
+---------08:54----------
+but you have to kind of know which ones
+
+---------08:56----------
+that's going to be on and on something
+
+---------08:59----------
+where the short magically disappears and
+
+---------09:01----------
+you don't even see a poof and yeah I'm
+
+---------09:03----------
+seared the power supply did not draw
+
+---------09:04----------
+anything it wasn't like it spiked for an
+
+---------09:06----------
+amp or two amps or three ohms for a
+
+---------09:08----------
+second in the one away I mean it's stuck
+
+---------09:10----------
+at zero point zero for amperage use
+
+---------09:13----------
+which is nothing oh stop doing it listen
+
+---------09:18----------
+coil come back here mouthful okay we're
+
+---------09:28----------
+gonna twist you in a place in a second
+
+---------09:45----------
+seriously oh wait duh my air is turned
+
+---------09:49----------
+up too high that's pretty dumb stop that
+
+---------09:55----------
+and I could use some sleep
+
+---------09:58----------
+here's the thing about teaching so after
+
+---------10:02----------
+a week of like answering questions on
+
+---------10:04----------
+board repair you may want a short break
+
+---------10:07----------
+from border pair but you can't take that
+
+---------10:10----------
+break from border care when you haven't
+
+---------10:11----------
+been fixing boards for a week because
+
+---------10:13----------
+you could you come back to work at the
+
+---------10:15----------
+business that you own where you're the
+
+---------10:16----------
+only one that fixes boards what do you
+
+---------10:18----------
+think is gonna be if you are not there
+
+---------10:20----------
+for a week a week's worth of board
+
+---------10:23----------
+repair there's a chance I put this coil
+
+---------10:26----------
+on upside down that would be
+
+---------10:27----------
+embarrassing I really hope I didn't do
+
+---------10:29----------
+that
+
+---------10:29----------
+oh god it's never the coil unless the
+
+---------10:33----------
+coil is upside down that would be
+
+---------10:37----------
+embarrassing
+
+---------11:00----------
+I'm about as happy as I'm going to get
+
+---------11:02----------
+with that so same idea same principle so
+
+---------11:07----------
+I got that on there's no more power
+
+---------11:09----------
+supply in the mix I'm gonna plug the
+
+---------11:11----------
+screen and the fan and all the RAM and
+
+---------11:13----------
+all that good stuff in and we're gonna
+
+---------11:14----------
+see if this thing turns on so before it
+
+---------11:16----------
+had zero green light it was totally dead
+
+---------11:18----------
+useless worthless junk and again second
+
+---------11:22----------
+board today
+
+---------11:23----------
+I have no clue what I did but I fixed it
+
+---------11:27----------
+and we get a green light and we get a
+
+---------11:30----------
+fan spin and we get uh bada-bing
+
+---------11:32----------
+bada-boom a working machine
+
+---------11:35----------
+so again microphone circuitry got a goal
+
+---------11:39----------
+for that because some of that is powered
+
+---------11:40----------
+by pp 3 V 4 2 sometimes there are some
+
+---------11:42----------
+annoying little caps and the audio
+
+---------11:44----------
+circuit that happened to go that could
+
+---------11:45----------
+be what happened here and there is
+
+---------11:47----------
+something that I have to put in the
+
+---------11:48----------
+notes to test for you know knowing how
+
+---------11:50----------
+all this stuff works makes it a lot
+
+---------11:51----------
+easier to not look like an idiot
+
+---------11:53----------
+so I've been through this chromatic
+
+---------11:54----------
+enough times to know that there are
+
+---------11:55----------
+annoying things in the pp 3 V 4 - line
+
+---------11:57----------
+by the audio circuitry that just for
+
+---------11:59----------
+some reason decide to do stupid things
+
+---------12:01----------
+for no reason but this worked it's
+
+---------12:04----------
+finished I'm happy hope you learned
+
+---------12:07----------
+something
+

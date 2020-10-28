@@ -1,0 +1,1267 @@
+https://www.youtube.com/watch?v=e2r42X60CYI
+---------00:00----------
+what okay this must be addressed before
+
+---------00:02----------
+that wrong screws aha this is so
+
+---------00:06----------
+triggering okay you know what I just
+
+---------00:07----------
+can't look at that section because I'm
+
+---------00:09----------
+never gonna get to you but what the hell
+
+---------00:10----------
+wrong screw wrong screw no what is this
+
+---------00:15----------
+why is this not even this goes under the
+
+---------00:19----------
+speaker Wi-Fi card goes under speaker
+
+---------00:22----------
+not over speaker that's wrong ah ah
+
+---------00:28----------
+action hey everybody how's it going
+
+---------00:30----------
+today we've got an 8 12 78 it's got no
+
+---------00:32----------
+USB ports now there's a couple of ways
+
+---------00:34----------
+that we're gonna go about
+
+---------00:35----------
+troubleshooting this the first thing I'm
+
+---------00:36----------
+interested in is it is it both USB ports
+
+---------00:39----------
+not working or is it one USB port not
+
+---------00:41----------
+working because if it's one USB port not
+
+---------00:43----------
+working that's gonna be a different
+
+---------00:45----------
+problem because often there are
+
+---------00:46----------
+different USB hubs in some of these
+
+---------00:48----------
+older machines for each port so for
+
+---------00:51----------
+example some USB port hubs may also
+
+---------00:54----------
+include stuff like Bluetooth or the
+
+---------00:57----------
+webcam or the SD card reader or the
+
+---------01:00----------
+keyboard so if there are certain groups
+
+---------01:02----------
+of items not working this helps me
+
+---------01:03----------
+narrow down what it is if it's both USB
+
+---------01:05----------
+ports not working it's often not going
+
+---------01:06----------
+to be the hub because there are
+
+---------01:08----------
+different USB hubs her port so if it's
+
+---------01:10----------
+both not working could be a power issue
+
+---------01:12----------
+where the chip in common between the two
+
+---------01:14----------
+which is the power supply could have
+
+---------01:16----------
+failed you never know so it's very
+
+---------01:17----------
+interesting detective work here and I'd
+
+---------01:19----------
+like to walk you through it so let's
+
+---------01:21----------
+open this up and see what's going on and
+
+---------01:24----------
+see if there's anything obvious going on
+
+---------01:26----------
+here and then try it with a u USB to see
+
+---------01:32----------
+which ports have failed wow this is old
+
+---------01:36----------
+this is a Sandy Bridge CPU Sandy Bridge
+
+---------01:40----------
+alright nothing looks too out of place
+
+---------01:43----------
+by the USB section which is right over
+
+---------01:45----------
+here let's open up a schematic for this
+
+---------01:47----------
+eight to zero twenty nine thirty six
+
+---------01:49----------
+this ancient piece of kit right here so
+
+---------01:52----------
+check this out let's go over to USB so
+
+---------01:55----------
+see this external USB a goes to USB hub
+
+---------02:01----------
+two external USB B goes to USB hub one
+
+---------02:04----------
+so if one port is not working we could
+
+---------02:08----------
+potentially blame a hub but if both
+
+---------02:09----------
+ports are not working then whatever is
+
+---------02:11----------
+in common between them is usually what's
+
+---------02:13----------
+wrong
+
+---------02:13----------
+which is either power supply easy or PCH
+
+---------02:17----------
+Paul Q so let's go over to the power
+
+---------02:22----------
+circuit so I can show you what I mean
+
+---------02:23----------
+when I say what they have in common well
+
+---------02:26----------
+if you take a look over here you
+
+---------02:28----------
+46-hundred has two outputs
+
+---------02:30----------
+it has PP 5 es 3 a 5 volt power rail in
+
+---------02:33----------
+and then it outputs to each USB over
+
+---------02:36----------
+here and over here now usually these
+
+---------02:41----------
+filters over here don't actually blow
+
+---------02:43----------
+because this chip if it detects a
+
+---------02:45----------
+short-circuit automatically turns off
+
+---------02:47----------
+power to the port which is really cool
+
+---------02:48----------
+but most of the time when there's a
+
+---------02:50----------
+short to ground that's actually the that
+
+---------02:52----------
+ship itself the power wise I see that
+
+---------02:54----------
+it's failed so I'm gonna grab a USB
+
+---------02:57----------
+drive and see which port it is one or
+
+---------03:01----------
+both of them that are not working
+
+---------03:02----------
+holding down the option key my auto
+
+---------03:09----------
+focus is kind of working funky in my
+
+---------03:11----------
+camera today
+
+---------03:11----------
+what the hell Sony WTF focus you so the
+
+---------03:19----------
+that port is not working let's try the
+
+---------03:21----------
+other one neither port appears to be
+
+---------03:28----------
+functioning now we're going to see if we
+
+---------03:34----------
+have 5 volts in either port
+
+---------04:19----------
+zero volts on USB zero volts on USB so
+
+---------04:27----------
+I'm gonna unplug power going to the
+
+---------04:29----------
+system it's fine I'm not booted into an
+
+---------04:30----------
+operating system so I don't throw about
+
+---------04:32----------
+corrupting any drives and we're going to
+
+---------04:34----------
+see if we get a short to ground no short
+
+---------04:40----------
+no short interesting okay now we're
+
+---------04:46----------
+gonna take a look at the power IC itself
+
+---------04:50----------
+which is U 4600 now remember for this to
+
+---------04:53----------
+turn on DDR reg enable has to be present
+
+---------04:55----------
+on pins four and five so you have input
+
+---------04:58----------
+PP 5 es 3 obviously that rail is present
+
+---------05:01----------
+because if it wasn't the board wouldn't
+
+---------05:02----------
+turn on PP 5 es 3 we got that you have
+
+---------05:05----------
+to have output which we don't have at
+
+---------05:07----------
+either filter and technically it is
+
+---------05:10----------
+possible that both filters blue but
+
+---------05:12----------
+those filters never blow so I'm not
+
+---------05:13----------
+worried about that when I say filters I
+
+---------05:14----------
+mean L 4605 in l 46:15 it's what sits
+
+---------05:18----------
+between the USB port in this chip it's
+
+---------05:20----------
+kind of acting as a fuse and also acting
+
+---------05:22----------
+to prevent you if you plug a device that
+
+---------05:25----------
+requires a large inrush of current that
+
+---------05:27----------
+it doesn't destroy the chip so let's see
+
+---------05:30----------
+what I get on pins 4 & 5 of this
+
+---------05:32----------
+beautiful chip and see if it's being
+
+---------05:33----------
+enabled and told to turn on also what's
+
+---------05:35----------
+really interesting and funny here is
+
+---------05:36----------
+they use a DDR reg enable signal to turn
+
+---------05:40----------
+on the USB that's kind of lazy I guess
+
+---------05:44----------
+any time you want your RAM to be powered
+
+---------05:46----------
+you also want USB to be powered because
+
+---------05:48----------
+Ram is gonna be powered in an s3 state
+
+---------05:50----------
+when the machine is sleeping and USB is
+
+---------05:53----------
+also going to be expected to work when
+
+---------05:54----------
+the machine is in an s3 state and
+
+---------05:56----------
+sleeping I just kind of find that
+
+---------05:57----------
+interesting that they use a ramp our
+
+---------05:59----------
+signal for the for this very very
+
+---------06:02----------
+strange
+
+---------06:03----------
+okay 3.3 n so the chip is being told to
+
+---------06:08----------
+output power
+
+---------06:14----------
+see we get on pins 8 or 9
+
+---------06:23----------
+see your L see your own way to point
+
+---------06:27----------
+eight okay that's four that's messed up
+
+---------06:29----------
+this shouldn't be 2.8 so time to remove
+
+---------06:36----------
+that chip and put a new one it's being
+
+---------06:37----------
+told with power on and it's not and
+
+---------06:39----------
+there's no short to ground on output
+
+---------06:40----------
+keeping it from powering on so I'm gonna
+
+---------06:43----------
+billion the chip there's nothing in that
+
+---------06:47----------
+area that I really have to worry about
+
+---------06:48----------
+burning on this board see this is an
+
+---------06:50----------
+obvious you got that experience be
+
+---------06:52----------
+careful with if you're ever gonna do
+
+---------06:53----------
+repairs with the board in the housing
+
+---------06:55----------
+but this is one where I can and I feel
+
+---------06:57----------
+really worried about ruining anything
+
+---------07:09----------
+I'm getting a phone call my delivery
+
+---------07:10----------
+[ __ ] that's my food and this short
+
+---------07:13----------
+Bluetooth doesn't have it's not smart
+
+---------07:14----------
+like the job or anything I can't go
+
+---------07:16----------
+answer come on [ __ ] come out before the
+
+---------07:19----------
+phone calls come on want my food
+
+---------07:22----------
+hello yes be right there my friend thank
+
+---------07:27----------
+you so much I just find my keys oh boy
+
+---------07:34----------
+my food is here oh boy oh boy oh boy oh
+
+---------07:37----------
+boy oh boy
+
+---------07:39----------
+lentils mmm
+
+---------08:18----------
+you know if I usually if I work by the
+
+---------08:20----------
+ISL at that point I usually take the RAM
+
+---------08:22----------
+out at least because the weight of the
+
+---------08:24----------
+RAM will pull the RAM slot a little if
+
+---------08:28----------
+you're heating it but this is far enough
+
+---------08:29----------
+away from the RAM slot that I don't have
+
+---------08:30----------
+to care just barely buy enough I'm gonna
+
+---------08:36----------
+use low airflow you'll see this will
+
+---------08:38----------
+slip right into place
+
+---------08:40----------
+oh that was beautiful so satisfying
+
+---------08:45----------
+putting too much solder on the center
+
+---------08:47----------
+pad is so satisfying I love it mm thick
+
+---------08:51----------
+Center pad twosies
+
+---------08:58----------
+now I got my micro pencil tip back I can
+
+---------09:01----------
+do this and this micro pencil tip cuts
+
+---------09:06----------
+through ground that is we come back this
+
+---------09:09----------
+little solder ball after you think it go
+
+---------09:41----------
+that's audible really doesn't want to
+
+---------09:43----------
+get sucked up by the micro pencil stop
+
+---------09:47----------
+not just remove it from the board no
+
+---------09:49----------
+biggie
+
+---------09:50----------
+all right let's see if we got USB we
+
+---------09:53----------
+have USB I can eat if we don't have USB
+
+---------09:55----------
+I cannot eat I have not earned a meal
+
+---------09:57----------
+yet I should fix at least three MacBooks
+
+---------10:00----------
+before what okay this must be addressed
+
+---------10:02----------
+before that wrong screws aha this is so
+
+---------10:06----------
+triggering okay you know what I just
+
+---------10:08----------
+can't look at that section because I'm
+
+---------10:09----------
+never gonna get to you but what the hell
+
+---------10:11----------
+wrong screw wrong screw no what is this
+
+---------10:16----------
+why is this not even this goes under the
+
+---------10:20----------
+speaker Wi-Fi card goes under speaker
+
+---------10:23----------
+not over speaker that's wrong ah ah no
+
+---------10:30----------
+I'm not gonna find screws for that right
+
+---------10:32----------
+now [ __ ] that it's midnight and I didn't
+
+---------10:34----------
+do that you did all right
+
+---------10:41----------
+it's wrong you can't leave it like that
+
+---------10:45----------
+no hey see what is this - show me show
+
+---------10:53----------
+me a USB you [ __ ] come on what
+
+---------11:05----------
+no power oh there we go okay now we have
+
+---------11:10----------
+one USB port not working so that port
+
+---------11:13----------
+works top port works bottom port says
+
+---------11:18----------
+what's wrong with bottom port do we
+
+---------11:21----------
+seriously have two issues on USB power
+
+---------11:22----------
+really really now
+
+---------11:25----------
+indeed his copass [ __ ] hiss alright
+
+---------11:29----------
+let's take a look at the board so it
+
+---------11:31----------
+looks like the port closest to the
+
+---------11:32----------
+display connector is the one that has a
+
+---------11:35----------
+problem that is gonna be J 46:10 J 46:10
+
+---------11:39----------
+is external USB B that goes to the
+
+---------11:43----------
+camera the IR and the IR controller so
+
+---------11:45----------
+we can test if this is a hub or
+
+---------11:46----------
+something else by trying the webcam so
+
+---------11:49----------
+I'm gonna boot up into or Hans operating
+
+---------11:50----------
+system and see if the webcam works
+
+---------11:52----------
+because if the webcam works then that
+
+---------11:54----------
+means it's not the USB hub it's
+
+---------11:56----------
+something upstream of the hub you
+
+---------11:57----------
+understand this may be an interesting
+
+---------11:59----------
+one to solve because it's gonna have
+
+---------12:00----------
+multiple problems so I'm gonna open up
+
+---------12:03----------
+photobooth in this operating system by
+
+---------12:05----------
+the way this is gonna boot at USB 2
+
+---------12:07----------
+because this piece of [ __ ] had USB 2 in
+
+---------12:09----------
+2011 I think it's time for me to start
+
+---------12:11----------
+eating my lentils I don't I don't have
+
+---------12:14----------
+the patience to wait for this to boot up
+
+---------12:16----------
+over USB 2 that's gonna be painful this
+
+---------12:19----------
+USB hub could be bad but if the camera
+
+---------12:21----------
+is working then I know that it's not
+
+---------12:24----------
+gonna be the USB hub see this is the
+
+---------12:26----------
+webcam connector J 3 for l2 they share a
+
+---------12:28----------
+common hub it could be something else
+
+---------12:31----------
+external USB this external USB J 46:10
+
+---------12:35----------
+it may also be the port that goes to the
+
+---------12:37----------
+SMC MUX chip so check this out you can
+
+---------12:39----------
+actually program the SMC over USB see
+
+---------12:42----------
+this over here USB SMC debug MUX see
+
+---------12:46----------
+this this allows you to have not have
+
+---------12:51----------
+the USB signal go to the PCH the SA
+
+---------12:54----------
+it'll actually the USB signal the USB
+
+---------12:57----------
+end will go straight to the SMC so you
+
+---------12:59----------
+could actually deal with the SMC via UA
+
+---------13:02----------
+you could plug something in via USB and
+
+---------13:03----------
+go straight to the system management
+
+---------13:04----------
+controller if it's enabled if USB
+
+---------13:08----------
+debugging enable L gets pulled up so
+
+---------13:10----------
+this is or down which is really cool but
+
+---------13:12----------
+that actually is for the port that's
+
+---------13:14----------
+working so this circuit is not going to
+
+---------13:16----------
+be a part of the problem
+
+---------13:17----------
+this circuit over here
+
+---------13:19----------
+is the port that doesn't have anything
+
+---------13:20----------
+to do with that so that's gonna point to
+
+---------13:21----------
+either a bad hub bad port or bad filter
+
+---------13:25----------
+now usually it's bad hub or bad filter
+
+---------13:27----------
+I'm gonna figure out if it's bad hub or
+
+---------13:29----------
+bad filter by logging in and seeing a
+
+---------13:32----------
+photo booth works with the webcam I
+
+---------13:34----------
+don't know what kind of weird sick porn
+
+---------13:37----------
+Orhan has on the desktop here so we're
+
+---------13:38----------
+gonna keep that private I don't want to
+
+---------13:40----------
+embarrass him in case he's got you know
+
+---------13:42----------
+some sort of like anime foot fetish or
+
+---------13:45----------
+something you're just gonna keep that
+
+---------13:49----------
+off the desktop for now
+
+---------13:58----------
+okay do they still have photobooth in
+
+---------14:00----------
+here yeah they do
+
+---------14:01----------
+alright so for open photobooth
+
+---------14:18----------
+I'm gonna cover all the point that Orhan
+
+---------14:20----------
+has in here so as you can see the camera
+
+---------14:22----------
+is working so since the camera is
+
+---------14:24----------
+working on this machine that means that
+
+---------14:27----------
+it's either an issue with the USB hub or
+
+---------14:29----------
+the filter for that port now let's take
+
+---------14:31----------
+a look inside that port eat your lentils
+
+---------14:34----------
+Luis do it I don't have USB it when I
+
+---------14:37----------
+have USB I'm allowed to eat my food only
+
+---------14:39----------
+once I have USB Khmer I eat my food I
+
+---------14:41----------
+haven't earned eating food yet food is a
+
+---------14:45----------
+privilege not a right
+
+---------14:49----------
+eating food before you fix customers
+
+---------14:52----------
+MacBook is not a V is not a human right
+
+---------14:55----------
+okay let's see is that port getting
+
+---------15:00----------
+power we should check that [ __ ] and also
+
+---------15:02----------
+see if the filter is kind of funky so
+
+---------15:05----------
+that's the port that's closest up let's
+
+---------15:07----------
+see where that filter is so if we look
+
+---------15:09----------
+on the board view that's gonna be L
+
+---------15:12----------
+46:10 that's for the data and then we
+
+---------15:15----------
+have D 46:10 which is going to be the
+
+---------15:17----------
+diode for data so you know what I made
+
+---------15:20----------
+do I may just replace this end that at
+
+---------15:22----------
+the same time let's go for it or you're
+
+---------15:26----------
+just gonna replace both at once
+
+---------15:28----------
+just pure savage with it savage beast
+
+---------15:34----------
+mode activated
+
+---------15:40----------
+and then I can eat the food but I am NOT
+
+---------15:45----------
+we got a deadline the queue is behind we
+
+---------15:52----------
+must fix things the queue is behind the
+
+---------15:57----------
+budget is gonna fix fix fix
+
+---------16:08----------
+six
+
+---------16:10----------
+and for there's no mac left to fix so
+
+---------16:14----------
+come on come off the board you know that
+
+---------16:25----------
+Diagon filter gun
+
+---------16:38----------
+dependable
+
+---------16:41----------
+[Music]
+
+---------17:00----------
+okay next donor board
+
+---------18:11----------
+your power chip is making good contact
+
+---------18:14----------
+pretty hot it bro cool down for a second
+
+---------18:29----------
+you know satyr blobs
+
+---------18:36----------
+rapid cool mofo Wow both USB ports work
+
+---------18:39----------
+that's the bottom USB port BAM
+
+---------18:42----------
+unplug top USB port BAM
+
+---------18:46----------
+so looks like over here we were having
+
+---------18:49----------
+both USB ports didn't work
+
+---------18:51----------
+now what happens of two USB ports have
+
+---------18:53----------
+in common the two things they both have
+
+---------18:55----------
+in common are a PCH which is like your
+
+---------18:59----------
+South Bridge in North Bridge all in one
+
+---------19:00----------
+or B the power chip now since the PCH is
+
+---------19:04----------
+a chip with hundreds and hundreds of
+
+---------19:06----------
+balls takes about an hour to replace and
+
+---------19:08----------
+the power trip is something that takes a
+
+---------19:10----------
+few you know minutes to replace I
+
+---------19:11----------
+decided to start diagnosing what would
+
+---------19:13----------
+be easy
+
+---------19:14----------
+rather than would be hard and also
+
+---------19:15----------
+that's something that even if we're not
+
+---------19:16----------
+we don't have an easy versus hard
+
+---------19:17----------
+judgement it's measuring the power lines
+
+---------19:20----------
+show it very easily that power wasn't
+
+---------19:22----------
+present both ports at that point I
+
+---------19:23----------
+replaced a power trip when getting power
+
+---------19:25----------
+to both ports but only one port is
+
+---------19:27----------
+working now once we have only one port
+
+---------19:29----------
+working I decided to check out the
+
+---------19:31----------
+schematic and see where this goes and if
+
+---------19:34----------
+you take a look at the schematic over
+
+---------19:36----------
+here where it shows you here we go where
+
+---------19:40----------
+it shows you how the USB ports work the
+
+---------19:42----------
+USB port that was working goes to a
+
+---------19:43----------
+different USB hub than the port that was
+
+---------19:45----------
+not working so no there a couple of
+
+---------19:47----------
+issues here could be an issue somewhere
+
+---------19:48----------
+else in the USB circuit eclis upstream
+
+---------19:50----------
+or it could be here now the way I test
+
+---------19:53----------
+that if the USB hub is the problem is by
+
+---------19:55----------
+checking what else is connected to it we
+
+---------19:56----------
+have a camera the IR sensor which is
+
+---------19:58----------
+that little remote that used to come I
+
+---------20:00----------
+think optional if you bought in a 1181
+
+---------20:02----------
+MacBook that evere remote in the box for
+
+---------20:03----------
+controlling iTunes
+
+---------20:04----------
+nobody [ __ ] uses that thing with in
+
+---------20:06----------
+it with with the 2012 or 2015 MacBook
+
+---------20:08----------
+but apparently the circuitry is still
+
+---------20:10----------
+included even though nobody in that
+
+---------20:11----------
+right mind uses that thing so the camera
+
+---------20:14----------
+was working I tried photobooth and I was
+
+---------20:16----------
+getting a picture which meant the USB
+
+---------20:18----------
+hub had to be good so it had to be
+
+---------20:19----------
+something with this USB so now if we
+
+---------20:21----------
+scroll back to where the USB was over
+
+---------20:24----------
+here it really really are running out of
+
+---------20:26----------
+things that it could be it could be the
+
+---------20:28----------
+data line between the USB hub and the
+
+---------20:31----------
+USB port it may could be the filter
+
+---------20:32----------
+there that filters gonna get rid of EMI
+
+---------20:34----------
+and radio frequencies and all that [ __ ]
+
+---------20:36----------
+it could be this diode to ground that's
+
+---------20:38----------
+bad or it could be the actual port
+
+---------20:40----------
+itself replacing the port is really hard
+
+---------20:42----------
+replacing these two is really easy and
+
+---------20:43----------
+it's honestly a coin toss at that point
+
+---------20:45----------
+as to what it is now people would say
+
+---------20:47----------
+how do you know that it's the
+
+---------20:49----------
+Coyle versus the port why wouldn't you
+
+---------20:52----------
+measure it with an oscilloscope and look
+
+---------20:54----------
+at the waveforms it's like dude you're
+
+---------20:56----------
+overcomplicating it this component cost
+
+---------20:58----------
+cents you can get off of a donor board
+
+---------21:00----------
+and if you're at all proficient with
+
+---------21:03----------
+soldering that takes what like all of
+
+---------21:05----------
+them 90 seconds to replace and it's it's
+
+---------21:08----------
+something that I replaced very quickly
+
+---------21:09----------
+and it's easier to do that than it is to
+
+---------21:11----------
+log out the oscilloscope not kidding
+
+---------21:13----------
+looking at the oscilloscope will take me
+
+---------21:15----------
+more time and then I had to just set up
+
+---------21:18----------
+and put on the bench and then they have
+
+---------21:19----------
+to use brain power does that look like a
+
+---------21:21----------
+working USB signal or not one of the
+
+---------21:22----------
+funny things I find when people are
+
+---------21:24----------
+always mentioning getting an
+
+---------21:25----------
+oscilloscope or using an oscilloscope is
+
+---------21:27----------
+they think once they can see waveforms
+
+---------21:28----------
+on the screen that they're gonna be able
+
+---------21:30----------
+to solve everything and when they get it
+
+---------21:31----------
+and they just see a little bit on the
+
+---------21:33----------
+screen they just go okay it's a nicely
+
+---------21:36----------
+squiggly stuff in the screen so what I
+
+---------21:37----------
+do to fix so that's about that that's
+
+---------21:40----------
+how we fixed and diagnosed as USB issue
+
+---------21:42----------
+what was interesting about this one is
+
+---------21:44----------
+that there were actually two separate
+
+---------21:45----------
+USB issues this is a very sneaky one a
+
+---------21:47----------
+no power and B issue and data line these
+
+---------21:50----------
+two may have been unrelated unless the
+
+---------21:52----------
+USB port somebody shorted something and
+
+---------21:54----------
+maybe sent five volts to the data line
+
+---------21:56----------
+which killed the filter but I don't
+
+---------21:58----------
+think that that filter is gonna die just
+
+---------22:00----------
+because he put five holes through I
+
+---------22:01----------
+think it's really interesting that we
+
+---------22:02----------
+had two different faults at the same
+
+---------22:03----------
+time not quite sure it would've caused
+
+---------22:04----------
+it but it does appear to work so at this
+
+---------22:07----------
+point I'm going to eat my lentils that
+
+---------22:08----------
+arrived because I'm hungry it's 12:00
+
+---------22:10----------
+12:00 a.m. and I think that that's
+
+---------22:12----------
+excellent time to eat my dinner just
+
+---------22:14----------
+leave notes for this ticket so that the
+
+---------22:16----------
+customer knows that they're just about
+
+---------22:17----------
+done he's got a q-tip dead area a little
+
+---------22:19----------
+bit so there's no flux remaining test it
+
+---------22:20----------
+make sure it works for a while doesn't
+
+---------22:22----------
+fail and then this should be ready for
+
+---------22:23----------
+them to pick up tomorrow
+

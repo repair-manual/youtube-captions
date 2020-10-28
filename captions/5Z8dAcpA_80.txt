@@ -1,0 +1,289 @@
+https://www.youtube.com/watch?v=5Z8dAcpA_80
+---------00:00----------
+here we have a MacBook that is a claimed
+
+---------00:01----------
+no power problem let's take a look at
+
+---------00:03----------
+this MacBook all right this is using 200
+
+---------00:06----------
+milliamps which means either short to
+
+---------00:08----------
+ground on PP h g3 hot or no cpu vcore oh
+
+---------00:10----------
+nevermind we are at 12 point 6 volts so
+
+---------00:13----------
+you're not short-circuited just yet PP 5
+
+---------00:15----------
+es 5 present PP 5 vs 4 present PP 5 vs o
+
+---------00:26----------
+present CPU v core missing alright so we
+
+---------00:33----------
+don't have a short circuit we have a
+
+---------00:34----------
+missing power rail situation so let's
+
+---------00:36----------
+open up t 8 - 0 - 3 4 7 6 board view all
+
+---------00:40----------
+rights the CPU VR enabled that's going
+
+---------00:42----------
+to enable v core and it seems like that
+
+---------00:44----------
+actually comes from the CPU so the CPU
+
+---------00:47----------
+is going to enable itself wow that's
+
+---------00:52----------
+something
+
+---------01:00----------
+you're not telling the CPU to turn on
+
+---------01:03----------
+why are you not telling the CPU to turn
+
+---------01:05----------
+on little bored mmm it all says power
+
+---------01:07----------
+good present interesting office power
+
+---------01:11----------
+good is not present my it salsas power
+
+---------01:15----------
+good not present okay so we have to
+
+---------01:17----------
+figure out why else's power good is not
+
+---------01:19----------
+present before we figure out the CPU v
+
+---------01:20----------
+core issue
+
+---------01:21----------
+so what rails are gonna be required for
+
+---------01:23----------
+all says power good we need PP v ESO DP
+
+---------01:29----------
+v es I was there all right we need P P 3
+
+---------01:33----------
+V 3 s Oh didi 3 s I was there we need P
+
+---------01:38----------
+P 1 V 5 s so give you one of your 5 s I
+
+---------01:43----------
+was there crap
+
+---------01:44----------
+alright what else do we need we need P 1
+
+---------01:48----------
+v 5s oh you already checked that though
+
+---------01:53----------
+we need PG 5 v s4 RS 3 I believe I
+
+---------02:00----------
+already checked that one it has to be
+
+---------02:02----------
+there or else oh he wouldn't be getting
+
+---------02:03----------
+PP 5 year BP yeah 5v so all right P P 1
+
+---------02:10----------
+vo 5 soo has to be present and then DDR
+
+---------02:13----------
+I guess to be denied impress myself
+
+---------02:14----------
+let's see P P 1 vo 5 s o after this this
+
+---------02:21----------
+board will go to Paul who's not here
+
+---------02:26----------
+today's which means it'll go back to me
+
+---------02:29----------
+that's not good
+
+---------02:35----------
+and it's 1.1 that's present so let's
+
+---------02:38----------
+check DDR egg DDR egg P good and what
+
+---------02:46----------
+rel is this this is gonna be something
+
+---------02:49----------
+created by you 7400 let's check DD let's
+
+---------02:54----------
+check you 7400 alright so you're going
+
+---------03:02----------
+to create DDR P P 1 V 3 v let's check
+
+---------03:12----------
+that rail keep u 1 V 3 v
+
+---------03:21----------
+one fee 3/5 is 2 point 7 volts an
+
+---------03:25----------
+interesting all right let's check that
+
+---------03:27----------
+area let's see what we get
+
+---------03:29----------
+oh hello little chip that's green when
+
+---------03:32----------
+the rest of the board is nice and clean
+
+---------03:34----------
+what do you know so it looks like we
+
+---------03:37----------
+were missing CPU v core when I looked
+
+---------03:40----------
+the enable wasn't present now
+
+---------03:43----------
+I also noticed that all says power good
+
+---------03:46----------
+wasn't present I figured CPU V core is
+
+---------03:48----------
+gonna turn on at the end I figured we
+
+---------03:49----------
+were at the end since we had SL where
+
+---------03:51----------
+else we had an SL rail present however
+
+---------03:53----------
+this is one of those very rare cases
+
+---------03:55----------
+where even though we were in an Esso
+
+---------03:58----------
+state we were missing an s3 rail
+
+---------04:00----------
+typically g3 hot rails have to be
+
+---------04:02----------
+present then s5 then is 4th and s3 than
+
+---------04:04----------
+SL I was in an Esso state because we
+
+---------04:07----------
+have us over else yep one of my Asturias
+
+---------04:10----------
+is not right
+
+---------04:11----------
+and that was causing all this power good
+
+---------04:14----------
+to be missing so I checked all says
+
+---------04:15----------
+power good all says Powell goo is
+
+---------04:16----------
+missing I go down the list of rails and
+
+---------04:18----------
+on this board that was seemingly very
+
+---------04:20----------
+clean there is actually a little bit of
+
+---------04:23----------
+green and that's no good so we are going
+
+---------04:26----------
+to just take that and repeal get some
+
+---------04:34----------
+flux over there
+
+---------04:45----------
+this MacBook will spin the fan
+
+---------05:00----------
+didn't someone think you swearing this
+
+---------05:02----------
+3-weeks thing Paul is sick
+
+---------05:04----------
+somebody has to fix MacBooks while Paul
+
+---------05:06----------
+is sick MacBooks demand to be fixed
+
+---------05:17----------
+[Applause]
+
+---------06:23----------
+there's my WIC
+
+---------08:19----------
+so someone's employed plants and flowers
+
+---------08:21----------
+but all y'all put the jack so the audio
+
+---------08:26----------
+open circuit
+
+---------08:28----------
+oh poor MacBook yeah
+
+---------08:39----------
+what you do
+
+---------08:42----------
+oh that's own of the Krusty
+
+---------08:51----------
+and it spins with dad we move on to the
+
+---------08:55----------
+next MacBook
+

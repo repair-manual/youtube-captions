@@ -1,0 +1,1291 @@
+https://www.youtube.com/watch?v=gfQ6Qz0US2Y
+---------00:00----------
+okay so today we're going to see if I'm
+
+---------00:01----------
+aging smarter or dumber so this is a
+
+---------00:03----------
+board from the same tech box of the
+
+---------00:05----------
+stuff that they said that had never been
+
+---------00:07----------
+touched and again this this is just the
+
+---------00:09----------
+type of that you get when you
+
+---------00:10----------
+buy from a company like ascent tech so
+
+---------00:11----------
+see where they said they've never
+
+---------00:12----------
+touched it before do you see how there's
+
+---------00:14----------
+flux around the BIOS chip and you see
+
+---------00:16----------
+how there's all that stuff that means
+
+---------00:18----------
+that you're a bunch of stupid who
+
+---------00:19----------
+think that I'm dumb enough to believe
+
+---------00:21----------
+that and it's one of these things where
+
+---------00:23----------
+everybody thinks it's the BIOS chip and
+
+---------00:25----------
+I understand why why they would do that
+
+---------00:27----------
+because they lacked the intelligence to
+
+---------00:29----------
+do anything other than replace BIOS chip
+
+---------00:30----------
+and if that doesn't fix it then toss it
+
+---------00:32----------
+in the trash we're going to see if we
+
+---------00:33----------
+could reverse engineer they're scamming
+
+---------00:35----------
+and see if I've gotten anywhere with
+
+---------00:36----------
+this so the original problem with this
+
+---------00:39----------
+that was noted is missing p.m. sleep s4l
+
+---------00:42----------
+so let's open the schematic here this is
+
+---------00:44----------
+for the 8 to 0 31:15 board let's see now
+
+---------00:50----------
+when p.m. sleep s4l is missing it's
+
+---------00:53----------
+usually either board is totally dead
+
+---------00:55----------
+what are you usually having some type of
+
+---------00:57----------
+issue with the clock circuit sometimes
+
+---------00:59----------
+missing PM sleep s4l is bios sometimes
+
+---------01:02----------
+it is the BIOS but Mo's and sometimes
+
+---------01:04----------
+it's a bad piece eh but you have to have
+
+---------01:06----------
+a reason for the PC H to go bad this
+
+---------01:08----------
+just chip is going to go bad if you if
+
+---------01:10----------
+you spill something on it which I don't
+
+---------01:12----------
+see here it's going to go bad if you
+
+---------01:14----------
+drop it which the machine didn't really
+
+---------01:16----------
+look like that it happened to it which
+
+---------01:18----------
+means that I am going to check in the
+
+---------01:21----------
+clock area and see if there's anything
+
+---------01:22----------
+funny around that so let's just go over
+
+---------01:27----------
+what the clock circuit does and its
+
+---------01:29----------
+purpose while I'm waiting for another
+
+---------01:30----------
+nasty board to dry in the oven so you
+
+---------01:37----------
+ever watch a political debate you see
+
+---------01:39----------
+where the candidates are talking back
+
+---------01:40----------
+and forth and this guy gets 5 minutes
+
+---------01:43----------
+that guy gets 5 minutes
+
+---------01:44----------
+this guy gets 30 seconds to respond that
+
+---------01:46----------
+guy gets 30 seconds to respond the
+
+---------01:48----------
+entire reason a political debate can
+
+---------01:49----------
+work is because while you're talking I'm
+
+---------01:51----------
+not talking and vice-versa
+
+---------01:52----------
+now sometimes once they start arguing
+
+---------01:54----------
+you'll notice that they're all talking
+
+---------01:56----------
+at the same time because neither of them
+
+---------01:59----------
+are on a clock neither of them are you
+
+---------02:00----------
+know following the rules when they stop
+
+---------02:02----------
+following the rules what you realize
+
+---------02:03----------
+it's impossible to understand what the
+
+---------02:05----------
+ any of them are talking about and
+
+---------02:06----------
+the same is true here so this may want
+
+---------02:08----------
+to talk this may want to talk this may
+
+---------02:11----------
+want to talk and that's all done on
+
+---------02:13----------
+clock and in order for this whole thing
+
+---------02:15----------
+to work you know you talk on this cycle
+
+---------02:17----------
+then you talk on that cycle and so on
+
+---------02:18----------
+and so forth I'm not a computer engineer
+
+---------02:20----------
+I don't know you know exactly how the
+
+---------02:22----------
+clock works but what I do know is that
+
+---------02:23----------
+you need a clock in order for any of
+
+---------02:24----------
+this stuff to actually work and that is
+
+---------02:26----------
+controlled on this machine by this chip
+
+---------02:29----------
+so this is a real-time clock chip so
+
+---------02:31----------
+let's look around the u 2600 area good
+
+---------02:33----------
+again it's not dropped doesn't really
+
+---------02:35----------
+look like anything you know a lot of bad
+
+---------02:37----------
+stuff happen so let's just take a look
+
+---------02:40----------
+in that general area and see what we get
+
+---------02:42----------
+so when I look in this general area I
+
+---------02:43----------
+see signs that there was some type of
+
+---------02:45----------
+liquid see the red probe points over
+
+---------02:47----------
+here see there that's red probe points
+
+---------02:50----------
+that's no good now when you look over to
+
+---------02:52----------
+the right that area looks nice but this
+
+---------02:54----------
+is in the general vicinity of where you
+
+---------02:56----------
+see the red probe points now if I go
+
+---------02:57----------
+back to the board view over here you'll
+
+---------02:59----------
+see that that component that I am
+
+---------03:02----------
+complaining about that I'm saying looks
+
+---------03:03----------
+a little bit corroded has nothing to do
+
+---------03:06----------
+with with the clock that's actually for
+
+---------03:09----------
+thunderbolt circuits let me just try to
+
+---------03:10----------
+get this bored view software to
+
+---------03:13----------
+work let's see it's rotating for no
+
+---------03:19----------
+reason and so what I'm looking at the
+
+---------03:21----------
+corroded point is over here this is yeah
+
+---------03:24----------
+PB 15 V this is for the t29 boost
+
+---------03:27----------
+circuit that is for thunderbolt but it's
+
+---------03:29----------
+right next to this so that kind of tells
+
+---------03:31----------
+me water
+
+---------03:31----------
+was here so let's take a look at this
+
+---------03:34----------
+clock Jim now is there anything over
+
+---------03:36----------
+here looks kind of funny to you anything
+
+---------03:38----------
+over here that's kind nasty will give
+
+---------03:45----------
+you a hint
+
+---------03:46----------
+Genny tweezers to give you a hint thank
+
+---------03:50----------
+you
+
+---------03:50----------
+let's see see a lot of these joints look
+
+---------03:55----------
+nice then you zoom down a little further
+
+---------03:57----------
+and you can see that this one over here
+
+---------04:00----------
+it looks a little right there so
+
+---------04:03----------
+let's see what that joint is for now
+
+---------04:05----------
+that joint when you look over on the
+
+---------04:08----------
+board view software is the actual see
+
+---------04:13----------
+come on this baseboard view software
+
+---------04:15----------
+really sucks ass look at this it's
+
+---------04:17----------
+turning around without me telling it to
+
+---------04:19----------
+constantly oh you piece of
+
+---------04:23----------
+garbage
+
+---------04:27----------
+okay so that's right over here PPV RTC
+
+---------04:30----------
+underscore g3 op so PPV RTC underscore
+
+---------04:33----------
+g3 huh on pin 1 let's see what this is
+
+---------04:36----------
+for so that is the this is power 4 I'm
+
+---------04:43----------
+guessing the RTC Circuit PPV voltage for
+
+---------04:46----------
+RTC circuit in g3 hot meaning that it
+
+---------04:48----------
+should be on all the time and this is
+
+---------04:57----------
+going to be going straight to the PCH so
+
+---------05:01----------
+this is going to be powering the clock
+
+---------05:02----------
+circuit features and functionality for
+
+---------05:03----------
+the PCH so at this point what do you
+
+---------05:06----------
+think is the problem the BIOS or the
+
+---------05:10----------
+clock chip hmm common sense tells me the
+
+---------05:13----------
+cloth we have a clock related problem
+
+---------05:15----------
+the clock chip is located right next to
+
+---------05:18----------
+where there was liquid damage and one of
+
+---------05:20----------
+the joints is up so what I the
+
+---------05:22----------
+question I have for the Ascend tech
+
+---------05:23----------
+ that sold this to me is why did
+
+---------05:26----------
+you with the BIOS chip now I
+
+---------05:29----------
+already know the answer it's because
+
+---------05:30----------
+you're an idiot but what are you going
+
+---------05:33----------
+to do let's see if we can make back some
+
+---------05:35----------
+of the money that I that it sent X
+
+---------05:38----------
+scammed me out of n see we can do with
+
+---------05:43----------
+this clock area so here I have a very
+
+---------05:48----------
+similar board an 8 to 0 31 15 as you can
+
+---------05:51----------
+see it is it is certified perfect for
+
+---------05:55----------
+getting parts from turn on the air
+
+---------06:00----------
+filter
+
+---------06:08----------
+we turn on the iron
+
+---------06:38----------
+I'm squeezing the chip because I don't
+
+---------06:40----------
+care about this old one
+
+---------07:05----------
+yeah no good
+
+---------07:11----------
+yeah hairy tweezer
+
+---------08:05----------
+you
+
+---------08:06----------
+get rid of the junky old solder
+
+---------08:19----------
+okay
+
+---------08:25----------
+now I'm going to take the chip off of my
+
+---------08:27----------
+donor board to my left
+
+---------08:52----------
+I know that little side of that
+
+---------08:55----------
+shout-out is about to get owned
+
+---------08:57----------
+it is flux around the chip take out my
+
+---------09:03----------
+micro pencil
+
+---------09:20----------
+venire have you fixed your board yet
+
+---------09:27----------
+what'd she say after you are done I see
+
+---------09:51----------
+sure does
+
+---------09:53----------
+okay
+
+---------10:00----------
+and the fan still doesn't spin which
+
+---------10:03----------
+means this will never see the light of
+
+---------10:04----------
+YouTube because YouTube only gets to see
+
+---------10:08----------
+when I win at least the fan quarter fan
+
+---------10:13----------
+spins it's kind of progress though why
+
+---------10:28----------
+are these people this
+
+---------11:03----------
+I hate these people this company sent a
+
+---------11:10----------
+bunch of boards they said they never
+
+---------11:11----------
+touched them they came with flux all
+
+---------11:13----------
+over them
+
+---------11:14----------
+and I bought them yeah for decorative
+
+---------11:23----------
+purposes
+
+---------11:45----------
+you need a lot more than this I can tell
+
+---------11:47----------
+oh I didn't fix the board alright I
+
+---------11:58----------
+decided to come back to this board and I
+
+---------11:59----------
+think I figured out what's wrong with it
+
+---------12:01----------
+so I actually decided to move on to
+
+---------12:02----------
+another one and I just was off-camera
+
+---------12:04----------
+since my drive it filled up a space so
+
+---------12:06----------
+let's just look a little bit of the
+
+---------12:07----------
+schematic over here to show you what it
+
+---------12:09----------
+is I was good with the path that I was
+
+---------12:10----------
+on and what I was looking to do so
+
+---------12:12----------
+usually when something like that happens
+
+---------12:13----------
+usually it's something to do with the
+
+---------12:16----------
+RTC circuit and that was where I was
+
+---------12:18----------
+going so you notice I saw that pin one
+
+---------12:20----------
+on that chip that's responsible for RTC
+
+---------12:22----------
+looked bad so when I go over here pin
+
+---------12:26----------
+one looked bad so what I started doing
+
+---------12:27----------
+is I started looking at everything along
+
+---------12:29----------
+ppv RTC underscore g3 out I noticed that
+
+---------12:32----------
+on the PCH side one of these capacitors
+
+---------12:34----------
+over here didn't really look very good
+
+---------12:36----------
+so what I decided to do is I decided to
+
+---------12:38----------
+look I ever I replace these two and
+
+---------12:40----------
+nothing happened and then I decided to
+
+---------12:41----------
+look at the third one which is over here
+
+---------12:43----------
+C 22 33 and here's the weird part so
+
+---------12:46----------
+along this rail along this rail I saw
+
+---------12:48----------
+over here I saw three volts over here I
+
+---------12:52----------
+saw three volts but then when I get over
+
+---------12:54----------
+here you can see that the V is broken
+
+---------12:55----------
+and if you look at the way the schematic
+
+---------12:57----------
+is laid out see 22 33 is the one that's
+
+---------13:00----------
+closest to the PCH so see 22 33 is going
+
+---------13:03----------
+to be the one that's feeding the PCH the
+
+---------13:06----------
+signal so even if you have power here
+
+---------13:08----------
+and here if the line over here is broken
+
+---------13:10----------
+to that it's not going to work and guess
+
+---------13:13----------
+what the problem is you can see that I
+
+---------13:14----------
+actually fixed it and then unfixed it
+
+---------13:16----------
+just to confirm that that was indeed
+
+---------13:18----------
+critical and that is how this is working
+
+---------13:20----------
+so again the way you figure this out and
+
+---------13:22----------
+the way I figure that out if the
+
+---------13:23----------
+schematic says it but it's just not
+
+---------13:25----------
+something that clicked into my head
+
+---------13:26----------
+until you actually and see actually look
+
+---------13:28----------
+at it and see it so let's go over here
+
+---------13:30----------
+and put the capacitor back on and then
+
+---------13:32----------
+also put my jumper back on there so that
+
+---------13:35----------
+this pile of can work and after
+
+---------13:39----------
+that we will we'll go over everything so
+
+---------13:42----------
+I'm going to find a donor board here
+
+---------13:44----------
+another donor that I can take that cap
+
+---------13:46----------
+off of I have to wait for my higher
+
+---------13:48----------
+station
+
+---------13:48----------
+to get hot so one of the things that
+
+---------13:49----------
+kills me with this hack oh here is if
+
+---------13:51----------
+you have the air too low and the heat to
+
+---------13:53----------
+high the red dot will go off which is
+
+---------13:54----------
+the heat and it will stop heating but
+
+---------13:57----------
+one of the reasons this is really
+
+---------13:58----------
+annoying is you know you have to wait
+
+---------14:00----------
+for the turn back on again here we go
+
+---------14:01----------
+sometimes I also he start hitting start
+
+---------14:04----------
+and stop over and over again in the
+
+---------14:06----------
+hopes that it'll fix it because like
+
+---------14:07----------
+when the station is new you can have it
+
+---------14:09----------
+kind of low but then as time goes on you
+
+---------14:10----------
+have to have it on high the leaders a
+
+---------14:12----------
+minute of air on higher the thing is I
+
+---------14:14----------
+don't want to use this thing on high all
+
+---------14:15----------
+the time I don't really want to blow an
+
+---------14:16----------
+air blowing hot air really hot all the
+
+---------14:19----------
+time so let's take a capacitor and put
+
+---------14:23----------
+it there
+
+---------14:23----------
+and see if we are better than a CENTAC
+
+---------14:26----------
+so again remember what a Sentech did is
+
+---------14:28----------
+I see flux around the BIOS chip so what
+
+---------14:31----------
+they did what they probably did to this
+
+---------14:32----------
+computer is they swap the BIOS chip with
+
+---------14:35----------
+another BIOS turn from another board and
+
+---------14:36----------
+when that didn't work the monkey idiot
+
+---------14:39----------
+that works at a cent tech said let's put
+
+---------14:41----------
+this in the pile of stuff that we sell
+
+---------14:42----------
+to idiots that are dumb enough to buy
+
+---------14:44----------
+the computers from us that we can't
+
+---------14:46----------
+refurbish after with them so
+
+---------14:48----------
+since this was with by an idiot
+
+---------14:50----------
+that worked for a cent Tech which is a
+
+---------14:52----------
+really got off a company that none of
+
+---------14:53----------
+the people who watch this channel should
+
+---------14:56----------
+ever purchase something from you know
+
+---------14:58----------
+that means that the BIOS is also
+
+---------15:01----------
+probably not gonna have a clean any
+
+---------15:02----------
+region so one of the things they have to
+
+---------15:03----------
+understand what with the BIOS is that on
+
+---------15:06----------
+any of these Intel Core I platforms so
+
+---------15:09----------
+and I I you know the i-5 and the i7 s
+
+---------15:10----------
+what you have to realize is that there's
+
+---------15:12----------
+a section of the BIOS that speaks to the
+
+---------15:15----------
+PCH and if for any reason you you're
+
+---------15:18----------
+using a different BIOS or a different
+
+---------15:20----------
+PCH than the original one that that's
+
+---------15:22----------
+going to be up and the way that
+
+---------15:24----------
+you fix this is by putting in a clean
+
+---------15:26----------
+area region so think of it like when you
+
+---------15:28----------
+connect to an SSH server for the first
+
+---------15:30----------
+time let's say you set up a little SSH
+
+---------15:31----------
+server in your house and then use your
+
+---------15:33----------
+putty client on your PC and you go to
+
+---------15:34----------
+connect to that server it's going to say
+
+---------15:36----------
+do you want to save this key do you want
+
+---------15:37----------
+to connect now let's say that you
+
+---------15:39----------
+something happens to your SSH server it
+
+---------15:41----------
+gets hit by a bomb or whatever and you
+
+---------15:43----------
+have to reinstall the operating system
+
+---------15:44----------
+but the IP address of the server you
+
+---------15:46----------
+keep the same and all the other details
+
+---------15:47----------
+your SSH client is going to go hey do
+
+---------15:49----------
+you want to connect to this warning
+
+---------15:51----------
+warning this is a different server than
+
+---------15:52----------
+the one you were connecting to before
+
+---------15:54----------
+because the code is changed and the same
+
+---------15:56----------
+thing is true of the BIOS and the PCH
+
+---------15:58----------
+the BIOS is going to see the PCs is
+
+---------16:00----------
+change or in this case the PCH will see
+
+---------16:02----------
+BIOS is different as a different Emmy
+
+---------16:04----------
+region and what that will do is it will
+
+---------16:06----------
+cause the computer to do a lot of really
+
+---------16:08----------
+stupid things so when you look up with
+
+---------16:09----------
+the Intel management engineers it's for
+
+---------16:11----------
+a lot of different things related to
+
+---------16:13----------
+security and I'm not going to get into
+
+---------16:15----------
+it here because to be honest with you I
+
+---------16:16----------
+didn't fully read up on exactly what it
+
+---------16:18----------
+does I don't know exactly what its
+
+---------16:19----------
+original purposes what I do know about
+
+---------16:21----------
+the Intel management engine region is
+
+---------16:23----------
+that whatever Intel coded this
+
+---------16:25----------
+like this is you know this is going to
+
+---------16:26----------
+be his what he leaves behind to the
+
+---------16:28----------
+world is that when the management engine
+
+---------16:30----------
+doesn't match up properly it's not that
+
+---------16:33----------
+the computer is not going to work it's
+
+---------16:35----------
+not not going to boot because if
+
+---------16:36----------
+something is not secure it's not going
+
+---------16:38----------
+to ask for a password what it's going to
+
+---------16:39----------
+do is it's going to are really slow when
+
+---------16:41----------
+you try to connect the Wi-Fi it'll work
+
+---------16:42----------
+half of the time when you go to
+
+---------16:44----------
+youtube.com it'll work but then when you
+
+---------16:45----------
+try to play a video at a lag again this
+
+---------16:48----------
+what that has nothing to do with
+
+---------16:49----------
+security to me I really don't understand
+
+---------16:51----------
+the functional purpose of making the
+
+---------16:52----------
+computer run really really stupidly slow
+
+---------16:54----------
+and have a lot of random glitches for no
+
+---------16:56----------
+reason that's that just seems like
+
+---------16:58----------
+somebody's prank just you know just just
+
+---------17:00----------
+to be an
+
+---------17:00----------
+so usually Apple are the ones that are
+
+---------17:03----------
+being for no reason but in this
+
+---------17:04----------
+case it's actually this will you know
+
+---------17:06----------
+Apple is a by Intel is biting off of
+
+---------17:10----------
+Apple and just deciding to be an
+
+---------17:12----------
+for no reason so let's connect this and
+
+---------17:14----------
+see what we get so I've connected the
+
+---------17:22----------
+charger in as you can see the fan is
+
+---------17:24----------
+spinning which means that I'm good so
+
+---------17:27----------
+let's go back over what was wrong here
+
+---------17:30----------
+so we're missing p.m. sleep s4l and if
+
+---------17:33----------
+we go over to the schematic you're going
+
+---------17:35----------
+to see that p.m. sleep as for elves for
+
+---------17:37----------
+a lot of different things that are
+
+---------17:38----------
+important so this is the enable signal
+
+---------17:41----------
+for several different states in the
+
+---------17:44----------
+computer without p.m. sleep s4l you're
+
+---------17:52----------
+going to be missing a lot of different
+
+---------17:54----------
+signals
+
+---------17:55----------
+you're going to be missing p1 v v cpu en
+
+---------17:57----------
+you're going to be missing you're going
+
+---------18:00----------
+to be missing all of the s3 enables you
+
+---------18:04----------
+know you're missing TV 3b 3s 3p 5 vs 3
+
+---------18:07----------
+DDR reg you're going to be missing
+
+---------18:10----------
+almost everything and PM sleep as 4l
+
+---------18:12----------
+comes from the PCH so the PCH is not
+
+---------18:15----------
+producing it for some reason
+
+---------18:16----------
+so then you kind of have to see what is
+
+---------18:17----------
+it that is produced what how is the PCH
+
+---------18:20----------
+producing this so when you go on this
+
+---------18:21----------
+page you're going to see a lot of
+
+---------18:22----------
+different things so you're going to see
+
+---------18:26----------
+all the outputs on the yeah this is one
+
+---------18:27----------
+of the questions that I have for a lot
+
+---------18:29----------
+of new people so you see a bunch of
+
+---------18:30----------
+outputs on the right and inputs on the
+
+---------18:32----------
+left
+
+---------18:33----------
+what is your first assumption my first
+
+---------18:35----------
+assumption is that to get the outputs on
+
+---------18:37----------
+the right that I'm going to need all the
+
+---------18:38----------
+inputs on the left more confusingly so
+
+---------18:43----------
+RTC is not on this page boo but now I
+
+---------18:48----------
+know that the clock has to be present in
+
+---------18:50----------
+order for the PCH to actually do
+
+---------18:51----------
+anything if that three volt clock rail
+
+---------18:53----------
+is not present it won't do anything and
+
+---------18:55----------
+it's not like this is something where I
+
+---------18:57----------
+read a manual and on page 69 of the
+
+---------19:00----------
+logic board repair manual that says that
+
+---------19:02----------
+RTC if the RTC is not present you'll be
+
+---------19:04----------
+missing p.m. sleep s4l it's really just
+
+---------19:06----------
+a case of me noticing again I've done
+
+---------19:08----------
+this before in some of the earlier
+
+---------19:09----------
+videos I have quarter fans been my clock
+
+---------19:11----------
+trip is covered in green stuff my p.m.
+
+---------19:13----------
+sleep s4l is going everywhere I get rid
+
+---------19:16----------
+of the green stuff on the clock trip and
+
+---------19:17----------
+it works now I have a little you know
+
+---------19:19----------
+this a little mental note in my head on
+
+---------19:20----------
+here there was a corroded trace so let's
+
+---------19:24----------
+just go back to that capacitor so over
+
+---------19:26----------
+here this trace was missing so this
+
+---------19:28----------
+stuff over here was gone along with this
+
+---------19:31----------
+cap now I put it back there and PM sleep
+
+---------19:34----------
+s4l is there so it's really it's one
+
+---------19:35----------
+it's just in an analytical thinking
+
+---------19:37----------
+mindset of you look over it you poke
+
+---------19:40----------
+around you see what's going on and then
+
+---------19:42----------
+when you see that something looks like
+
+---------19:44----------
+it's wrong then you're going to fix that
+
+---------19:47----------
+little thing that's wrong then you're
+
+---------19:48----------
+going to see what happened as a result
+
+---------19:49----------
+of it so just constant constant analysis
+
+---------19:51----------
+so clock signal was missing that clock
+
+---------19:54----------
+signal clock voltage was missing to the
+
+---------19:56----------
+PCH the PCH didn't fpm sleep s4l so now
+
+---------19:59----------
+it's in the it's in the bank up here
+
+---------20:01----------
+that I know that if I'm missing RTC
+
+---------20:02----------
+voltage to the PCH they don't get any
+
+---------20:04----------
+missing it
+
+---------20:05----------
+my PM sleep best for El and it just gets
+
+---------20:07----------
+put in the bank for later which is cool
+
+---------20:10----------
+means that even though I'm old and just
+
+---------20:12----------
+turned 27 I still have the ability to
+
+---------20:14----------
+learn and that's that oh and remember
+
+---------20:17----------
+obviously yeah but never buy from ascent
+
+---------20:19----------
+tech they're on the list of they'll to
+
+---------20:21----------
+ them
+

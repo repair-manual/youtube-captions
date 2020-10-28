@@ -1,0 +1,472 @@
+https://www.youtube.com/watch?v=8oCUI1H1K28
+---------00:00----------
+all right so today we're gonna get
+
+---------00:01----------
+started working on another dead MacBook
+
+---------00:04----------
+eight two zero zero zero two eight one
+
+---------00:07----------
+board and it appears to be dead
+
+---------00:10----------
+we're gonna plug it in and see what my
+
+---------00:12----------
+USB see amp meter says USB C amp meter
+
+---------00:15----------
+says that this MacBook is taking zero
+
+---------00:17----------
+point zero three two zero point zero six
+
+---------00:21----------
+amps going back and forth we're going to
+
+---------00:24----------
+check out our peril rails and see if
+
+---------00:26----------
+there's any power rails that are missing
+
+---------00:27----------
+I feel like a MacBook I feel like a
+
+---------00:39----------
+MacBook today I look like - look at
+
+---------00:48----------
+this hair is this being Italian
+
+---------00:53----------
+sucks sometimes your hair does the
+
+---------00:55----------
+silliest things like what is this
+
+---------00:57----------
+who made that not me all right so the
+
+---------01:02----------
+first rail that we need to check for
+
+---------01:04----------
+here on the schematic is pp bus g3 hot
+
+---------01:07----------
+now I most likely have PP 3 V 3
+
+---------01:10----------
+underscore g3 hot because that rails
+
+---------01:12----------
+required to get 20 volts on the on the
+
+---------01:16----------
+charger the charger is at 20 volts which
+
+---------01:20----------
+means that it's able to communicate with
+
+---------01:21----------
+the cd32 15 chip which is going to
+
+---------01:23----------
+control USBC charging and that chip is
+
+---------01:26----------
+powered by P P 3 P 3 underscore g3 huh
+
+---------01:27----------
+so that's why we're not going straight
+
+---------01:30----------
+to the other g3 hot rails like pp 3 v3
+
+---------01:32----------
+underscore g3 hot because I know that
+
+---------01:34----------
+that has to be there since I'm getting
+
+---------01:35----------
+20 volts in the charger we're going to
+
+---------01:37----------
+check for our pp bus and PP bus g3 hot
+
+---------01:40----------
+is something I can find right down here
+
+---------01:45----------
+so let's see where that is on this board
+
+---------01:48----------
+and I'm going to punish you by putting
+
+---------01:51----------
+my face at the bottom of the microscope
+
+---------01:53----------
+camera yep so we are looking for the pp
+
+---------02:02----------
+bus g3 huh
+
+---------02:04----------
+and the pp bus is gonna be right here
+
+---------02:08----------
+we're gonna put this on the screen using
+
+---------02:11----------
+Paul Daniels as amazing software and see
+
+---------02:15----------
+what we get on this P P bus g3 hot
+
+---------02:27----------
+let's see if Paul Daniels our software
+
+---------02:29----------
+will turn on and work look it worked I
+
+---------02:34----------
+love when that happens
+
+---------02:37----------
+so measure and P P bus is zero volts
+
+---------02:46----------
+alright so now before we check for a
+
+---------02:48----------
+short to ground which is one of the
+
+---------02:50----------
+things you should do with power rails
+
+---------02:51----------
+missing and if you're unsure what you
+
+---------02:53----------
+should do in a power rails missing you
+
+---------02:54----------
+check in the description below there's
+
+---------02:56----------
+gonna be a guide it's a nice little
+
+---------02:58----------
+PowerPoint presentation and how to get
+
+---------03:00----------
+started with a component level boarder
+
+---------03:01----------
+pair on MacBooks one of the first things
+
+---------03:03----------
+that i'm gonna do is check and see if
+
+---------03:05----------
+there's a short to ground I'm gonna put
+
+---------03:07----------
+the multimeter in 2 ohms mode and let's
+
+---------03:12----------
+see over here what our resistance is to
+
+---------03:14----------
+ground 3.5 ohms that clearly indicates
+
+---------03:20----------
+that there's a short-circuit
+
+---------03:21----------
+so now we have two things that we can do
+
+---------03:23----------
+we can look around the board or we can
+
+---------03:26----------
+inject voltage into the board and try to
+
+---------03:28----------
+see what section gets hot on a thermal
+
+---------03:30----------
+imaging camera I don't feel good and
+
+---------03:32----------
+getting a thermal imaging camera would
+
+---------03:34----------
+require turning around looking down
+
+---------03:36----------
+picking something up hooking it up
+
+---------03:38----------
+running the software changing the scene
+
+---------03:40----------
+and open broadcaster and I kind of I
+
+---------03:42----------
+want to sneeze and kind of throw up just
+
+---------03:44----------
+even thinking about doing all that work
+
+---------03:45----------
+much less actually doing it so we're
+
+---------03:48----------
+gonna do on this board since I'm sick is
+
+---------03:50----------
+we're just gonna look around the board
+
+---------03:51----------
+with the microscope and pray that we
+
+---------03:53----------
+could find the short circuit on our pp
+
+---------03:55----------
+bus g3 hot so let's go for it alright so
+
+---------03:59----------
+you all tell me when it is that you see
+
+---------04:01----------
+something that looks like it's
+
+---------04:03----------
+potentially short circuited
+
+---------04:23----------
+can't wait to get the better computer
+
+---------04:24----------
+setup so that I'll be able to stream and
+
+---------04:26----------
+far better quality than before using the
+
+---------04:31----------
+thread Ripper I can't wait to get my
+
+---------04:33----------
+thread Ripper that's gonna be so awesome
+
+---------04:40----------
+yep whoa whoa whoa
+
+---------04:49----------
+now what's that capacitor for well
+
+---------04:51----------
+there's one way to find out let's load
+
+---------04:54----------
+up our schematic and board view software
+
+---------04:55----------
+and that is capacitor on TP bus HS C GPU
+
+---------05:07----------
+but what is pp bus HS GPU
+
+---------05:17----------
+what does it mean where does that come
+
+---------05:19----------
+from
+
+---------05:29----------
+hmmm that comes from our 5990 what's our
+
+---------05:33----------
+$59.99 $59.99 sensing resistor where P P
+
+---------05:38----------
+bus g3 HOD comes in and P P bus HS GPU
+
+---------05:43----------
+comes out this allows you to tell how
+
+---------05:45----------
+much current it's using there's gonna be
+
+---------05:47----------
+a teeny tiny voltage drop across this
+
+---------05:48----------
+resistor this chip over here is going to
+
+---------05:50----------
+measure that voltage drop by measuring
+
+---------05:52----------
+the beginning and the end of the
+
+---------05:54----------
+resistor and it's gonna tell how much
+
+---------05:55----------
+amperage this is using everything after
+
+---------05:59----------
+P P bus HS GPU is using by telling the
+
+---------06:02----------
+voltage difference between the two
+
+---------06:03----------
+that's gonna act as a current sense
+
+---------06:05----------
+resistor now that is indeed on our pp
+
+---------06:08----------
+bus g3 hot line so we're going to remove
+
+---------06:11----------
+that cap and pray that once I remove
+
+---------06:14----------
+that cap everything just works again
+
+---------06:16----------
+easily like all the boards that I pick
+
+---------06:18----------
+at random Paul you watching random
+
+---------06:20----------
+random random are you watching Paul do
+
+---------06:24----------
+note that this board has no liquid
+
+---------06:26----------
+damage no signs of a drop damage it just
+
+---------06:28----------
+decided to die because it's a MacBook
+
+---------06:43----------
+random
+
+---------06:51----------
+what thread rep are you planning on
+
+---------06:52----------
+getting I got the 2950 ex
+
+---------06:59----------
+damn that's one crack - looking
+
+---------07:01----------
+capacitor
+
+---------07:29----------
+you
+
+---------07:37----------
+you
+
+---------08:08----------
+most of the cost of shipping back with
+
+---------08:10----------
+you from your
+
+---------08:11----------
+I don't know may want to check with your
+
+---------08:14----------
+local Phoenix or Postal Service I'm the
+
+---------08:17----------
+terrible postage calculator I'm a pretty
+
+---------08:20----------
+good board repair technician but
+
+---------08:22----------
+unfortunately a terrible postage
+
+---------08:23----------
+calculator all right keep this onto the
+
+---------08:29----------
+board
+
+---------08:34----------
+it's a beautiful beautiful capacitor in
+
+---------08:39----------
+this filthy dirty MacBook next we plug
+
+---------08:52----------
+this in in the MacBook we'll turn on
+
+---------09:02----------
+as can be seen here ahem
+
+---------09:08----------
+here we go this MacBook is taking 1.6
+
+---------09:12----------
+amps which means this MacBook is turning
+
+---------09:15----------
+on look at that beautiful I know you
+
+---------09:22----------
+want to see a picture on the screen
+
+---------09:24----------
+don't you you won't just trust me when I
+
+---------09:26----------
+say that it works
+
+---------09:27----------
+I thought we'd built up trust you and I
+
+---------09:29----------
+between all this time show me a picture
+
+---------09:32----------
+on that screen ahem
+
+---------09:42----------
+there we go Apple logo aha it works this
+
+---------09:50----------
+touch bar MacBook that was picked at
+
+---------09:51----------
+random has been fixed in under ten
+
+---------09:54----------
+minutes that's how we find a short
+
+---------10:02----------
+circuit that's how we find a short
+
+---------10:06----------
+circuit and a move it just adds simple
+
+---------10:10----------
+folks
+

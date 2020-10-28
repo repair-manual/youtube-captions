@@ -1,0 +1,760 @@
+https://www.youtube.com/watch?v=8u04q4VibxE
+---------00:00----------
+all right so today we're going to be
+
+---------00:01----------
+going over a retina MacBook Pro that
+
+---------00:03----------
+does not see the SSD so here I have an
+
+---------00:05----------
+SSD in here that is well you're not
+
+---------00:08----------
+gonna see anyway because the
+
+---------00:10----------
+ screen is cracked but you can
+
+---------00:14----------
+tell that I haven't booted into an
+
+---------00:15----------
+operating system because when I hit the
+
+---------00:17----------
+caps lock key it doesn't illuminate so
+
+---------00:19----------
+see that's caps lock I'm hitting caps
+
+---------00:21----------
+lock and it's not illuminating because
+
+---------00:23----------
+I'm not in an operating system this is
+
+---------00:25----------
+again one of those machines where I
+
+---------00:27----------
+wonder how in God's name you make any
+
+---------00:28----------
+money this is you know I have a lot of
+
+---------00:31----------
+these wholesale companies that send
+
+---------00:32----------
+these things and I really don't get and
+
+---------00:34----------
+I just don't get it so the SSD circuitry
+
+---------00:37----------
+went bad which means your SSD is
+
+---------00:38----------
+probably dead your battery is exploding
+
+---------00:41----------
+and the screen is cracked on a computer
+
+---------00:43----------
+that if I were to go on Craigslist right
+
+---------00:45----------
+now is worth about 850 bucks and yeah
+
+---------00:49----------
+anyway so let's go on and try to figure
+
+---------00:50----------
+out why it is the SSD doesn't work so
+
+---------00:53----------
+this is an eight to zero thirty four
+
+---------00:54----------
+seventy six board I'm gonna take the SSD
+
+---------00:57----------
+out for a second here and we're gonna go
+
+---------00:59----------
+over what's wrong with it so let's open
+
+---------01:02----------
+the schematic here and let me just make
+
+---------01:04----------
+sure that you can see it so this over
+
+---------01:06----------
+here is the SSD connector so this is
+
+---------01:08----------
+where the SSD connects to the machine J
+
+---------01:10----------
+3700 let's see what's going on in the J
+
+---------01:14----------
+3700 page so this is the SSD itself this
+
+---------01:25----------
+is where it plugs into the computer so
+
+---------01:29----------
+the SSD is going to be getting a three
+
+---------01:31----------
+volt power line this here is four
+
+---------01:39----------
+o'clock so SSD reset L so anytime you
+
+---------01:46----------
+see something like a reset signal like
+
+---------01:47----------
+this what's usually going on is
+
+---------01:49----------
+something has to stabilize it before
+
+---------01:52----------
+something else turns on so for example
+
+---------01:54----------
+in the older boards let's just go over
+
+---------01:56----------
+an example let's go back here and let me
+
+---------01:58----------
+show you what I mean so I'm gonna go
+
+---------01:59----------
+over to an older schematic here this is
+
+---------02:01----------
+gonna be for one of the older boards and
+
+---------02:02----------
+let me just show you an idea what the
+
+---------02:04----------
+whole idea behind the reset circuit is
+
+---------02:06----------
+so for example there are chips like the
+
+---------02:09----------
+SMC that are very very sensitive they
+
+---------02:11----------
+need to be running off a very specific
+
+---------02:12----------
+power line
+
+---------02:13----------
+however the SMC is what turns on before
+
+---------02:15----------
+everything else turns on so which means
+
+---------02:17----------
+that that's gonna try to turn on before
+
+---------02:18----------
+all the power is stabilizing the
+
+---------02:20----------
+computer so over here you have you 6990
+
+---------02:22----------
+creating PB 3 V 4 2 for the SMC and then
+
+---------02:26----------
+this chip creates SMC reset L which goes
+
+---------02:29----------
+to the SMC the SMC is not going to try
+
+---------02:32----------
+to turn on before it gets that reset
+
+---------02:33----------
+signal because if it tries to turn on
+
+---------02:35----------
+before the reset signal it's going to
+
+---------02:37----------
+crash because PP 3 before 2 is not
+
+---------02:39----------
+stabilized this is a line that comes on
+
+---------02:41----------
+before everything else this can be fed
+
+---------02:42----------
+from either 12 or 16 volts it takes a
+
+---------02:44----------
+second for that tune to stabilize and
+
+---------02:45----------
+the same thing is going to be true of
+
+---------02:47----------
+the SSD here so this I'm I'm taking the
+
+---------02:51----------
+guest just because I don't feel like
+
+---------02:52----------
+googling and looking it up that this has
+
+---------02:53----------
+something to do with reset so let's see
+
+---------02:57----------
+you get an SSD reset L I'm gonna guess
+
+---------03:00----------
+comes from the PCH which in this machine
+
+---------03:01----------
+is integrated into the CPU so let's try
+
+---------03:05----------
+to figure out what here would have been
+
+---------03:06----------
+yeah so that comes from this which is
+
+---------03:10----------
+integrated into the CPU alright so now
+
+---------03:12----------
+we're gonna look for some hints to
+
+---------03:13----------
+figure out where it is we should be
+
+---------03:14----------
+looking first
+
+---------03:15----------
+now remember PP 3 V 4 to underscore G 3
+
+---------03:17----------
+haunt is a rail that very often has
+
+---------03:19----------
+issues with ripple because that rail
+
+---------03:21----------
+starts at 18 volts from the charger and
+
+---------03:23----------
+is being used to create three you know
+
+---------03:25----------
+again you you plug in a knockoff charge
+
+---------03:27----------
+or anything funky happens with your
+
+---------03:28----------
+charge or anything funky happens with
+
+---------03:29----------
+water that little three point four volt
+
+---------03:32----------
+signal for a split second may go all the
+
+---------03:33----------
+way up to 16 and that causes very nasty
+
+---------03:35----------
+things to happen so let's see if let's
+
+---------03:37----------
+see what's going on here because we have
+
+---------03:38----------
+a few things in this page we have P P 3
+
+---------03:40----------
+v 3s o which is powering a few things in
+
+---------03:44----------
+the SSD and also some of these other
+
+---------03:45----------
+pieces around it and then we have pp 3 V
+
+---------03:47----------
+4 2 powering this supervisor in the
+
+---------03:50----------
+clock circuit over here so I'm gonna
+
+---------03:52----------
+take a guess that something's going on
+
+---------03:53----------
+with P P the one that's powered by pp 3
+
+---------03:55----------
+before 2 because that's the power rail
+
+---------03:57----------
+that usually has some damage done to it
+
+---------03:58----------
+so let's go under here and see if
+
+---------04:03----------
+anything supports my conclusion which is
+
+---------04:06----------
+a computer guess so this is the SSD
+
+---------04:09----------
+connector now none of the pins are bad
+
+---------04:13----------
+on this none of the pins on this connect
+
+---------04:14----------
+to show any damage on the inside but if
+
+---------04:17----------
+you do color adjust in the camera over
+
+---------04:19----------
+you're gonna see that one of them has
+
+---------04:20----------
+the tiniest bit of dread right over here
+
+---------04:24----------
+that's 1 2 3
+
+---------04:25----------
+that's pin number 6
+
+---------04:29----------
+if you go back to the screen capture
+
+---------04:32----------
+let's see 1 2 3 4 5 so we go to pin
+
+---------04:39----------
+numbers see the six pin down 1 2 3 4 5
+
+---------04:44----------
+and that's ground so yeah the fact that
+
+---------04:49----------
+that pin looks a little messy I don't
+
+---------04:51----------
+really care because that's grounds we
+
+---------04:52----------
+give it a so let's go back and go
+
+---------04:54----------
+over the board and see if we find
+
+---------04:55----------
+anything that gives us a clue let's flip
+
+---------04:58----------
+it I wonder what this is over here so
+
+---------05:13----------
+this over here is going to be okay this
+
+---------05:16----------
+is not the right orientation that's okay
+
+---------05:20----------
+here we go
+
+---------05:20----------
+so what I'm looking at over here that
+
+---------05:22----------
+looks kind of nasty is the these three
+
+---------05:24----------
+caps right by here and this is 4 what do
+
+---------05:28----------
+you know this is 4 this is the input for
+
+---------05:30----------
+creating pp 3 V 4 2 and in this chip
+
+---------05:32----------
+over here let's see so let's just point
+
+---------05:34----------
+this out so this chip these are the
+
+---------05:36----------
+these are the three caps and this is the
+
+---------05:38----------
+chip and that doesn't really look great
+
+---------05:40----------
+you can see it doesn't really look great
+
+---------05:41----------
+even after the oil you know the
+
+---------05:44----------
+ultrasonic bath which surprises me
+
+---------05:45----------
+because this particular place likes to
+
+---------05:47----------
+use some kind of radioactive ultrasonic
+
+---------05:49----------
+cleaner instead of a standard one so
+
+---------05:51----------
+usually all their stuff comes in like
+
+---------05:52----------
+with the board scorched off much less
+
+---------05:54----------
+any liquid residue on it so we're gonna
+
+---------05:56----------
+go over here let's and see what that's
+
+---------06:01----------
+for I'm 99.9% certain that that's for
+
+---------06:04----------
+creating PP 3 V 4 2 and that there was
+
+---------06:06----------
+ripple on the circuit for creating PP 3
+
+---------06:08----------
+V 4 2 so that's you 70-90 number this
+
+---------06:13----------
+thing turns on it actually works so yeah
+
+---------06:14----------
+that is for the 3 point 42 volt power
+
+---------06:16----------
+supply so let's go back to SSD reset
+
+---------06:20----------
+over here and let's look at what you
+
+---------06:21----------
+3740 looks like
+
+---------06:28----------
+so we go over to you 37 40 that's gonna
+
+---------06:31----------
+be over here let's go to you 37 40 and
+
+---------06:39----------
+as you can see that also has a little
+
+---------06:41----------
+bit of you know junk on it so see this
+
+---------06:44----------
+capacitor is 4 P P 3 V 4 2 which is the
+
+---------06:47----------
+input for the VDD pen of this chip which
+
+---------06:50----------
+is the what's going to turn it on and
+
+---------06:52----------
+it's almost missing a side right over
+
+---------06:54----------
+there see this slit that so there was
+
+---------06:57----------
+clearly ripple on pp 3 V 4 - and that
+
+---------06:59----------
+ripple probably killed the clock
+
+---------07:00----------
+isolation for the SSD so let's turn on
+
+---------07:06----------
+all the noisy get some work done
+
+---------07:43----------
+thanks awhile for this thing to eat up
+
+---------08:17----------
+yikes nasty isn't
+
+---------08:43----------
+you'll number one of flux take the tube
+
+---------08:46----------
+off with the cap off the tube if you
+
+---------08:49----------
+actually want to use it
+
+---------08:50----------
+wouldn't that be smart
+
+---------09:29----------
+you
+
+---------10:16----------
+I'm obviously using the wrong solder tip
+
+---------10:19----------
+for this application
+
+---------10:26----------
+you
+
+---------10:37----------
+I'm obviously still using the wrong side
+
+---------10:40----------
+application
+
+---------10:48----------
+you
+
+---------10:56----------
+oh well prepared
+
+---------11:00----------
+ up alright so I don't really
+
+---------11:03----------
+expect that I'm gonna get much better of
+
+---------11:05----------
+a pad than the little stand out of
+
+---------11:07----------
+it that I have right there so I'm gonna
+
+---------11:09----------
+remove that chip and we're gonna put a
+
+---------11:11----------
+new capacitor on that line and hopefully
+
+---------11:14----------
+I get an SSD
+
+---------11:20----------
+okay so we've taken off the chip this is
+
+---------11:33----------
+where you have to be a bit of an
+
+---------11:34----------
+investigator
+
+---------11:48----------
+nice laddering is off isn't that awful
+
+---------11:54----------
+can you believe people pay me for this
+
+---------11:56----------
+
+
+---------11:57----------
+I can't
+
+---------13:03----------
+I'm never much trust for that trace you
+
+---------13:06----------
+know where that pad is that you know you
+
+---------13:10----------
+saw what I was looking at right
+
+---------14:21----------
+this person
+
+---------14:42----------
+he's probably overkill but only paranoid
+
+---------14:47----------
+I just don't I don't want to see this
+
+---------15:02----------
+stuff again a lot of what I do comes out
+
+---------15:08----------
+of my desire to not see something again
+
+---------15:09----------
+after I have fixed it
+
+---------15:38----------
+okay
+
+---------16:26----------
+all right so now let's see if this thing
+
+---------16:29----------
+is a working SSD
+
+---------16:50----------
+I hate reassembling a 15:02 it's
+
+---------16:53----------
+incredibly annoying like really really
+
+---------16:59----------
+above and beyond annoying with where
+
+---------17:01----------
+they put all these little things and
+
+---------17:02----------
+yeah why who does this being a
+
+---------17:11----------
+dentist is annoying I say I say
+
+---------17:35----------
+you
+
+---------17:47----------
+this is really probably the dumbest test
+
+---------17:50----------
+I could possibly do but I know that the
+
+---------17:53----------
+SSD works even though you can't see
+
+---------17:55----------
+on the screen because let's see I can
+
+---------17:57----------
+lower the brightness and I can up the
+
+---------17:59----------
+brightness so I mean you still see a
+
+---------18:02----------
+cracked and up screen but like
+
+---------18:04----------
+I'm in an operating system and capslock
+
+---------18:05----------
+works so this is good to go so just to
+
+---------18:12----------
+recap what it is we did to figure this
+
+---------18:14----------
+out so this is the page with the SSD
+
+---------18:17----------
+connector everything worked fine on here
+
+---------18:19----------
+except for one pin and that pin was for
+
+---------18:21----------
+ground so that really didn't have much
+
+---------18:22----------
+to do with it so I look around that I
+
+---------18:24----------
+see a few other things on this page the
+
+---------18:25----------
+other things I see on this page are
+
+---------18:26----------
+powered by a P P 3 P 3 s o which is a
+
+---------18:28----------
+very stable power rail and P P 3 v 4 - 2
+
+---------18:31----------
+G 3 ha which is a very unstable power
+
+---------18:34----------
+rail in the case of liquid damage I go
+
+---------18:36----------
+around that area on the board and I
+
+---------18:37----------
+noticed that not only are the caps 4 P P
+
+---------18:40----------
+3 V 4 - a little messed with not only is
+
+---------18:42----------
+there corrosion there which I am gonna
+
+---------18:43----------
+have to clean up later but I also
+
+---------18:44----------
+noticed that there is a cap right along
+
+---------18:47----------
+here see 3740 that's actually missing
+
+---------18:49----------
+one end which it can only lead me to
+
+---------18:51----------
+believe that this chip so a voltage
+
+---------18:53----------
+spike this is something that controls
+
+---------18:56----------
+SSD reset so what I do is I replace it
+
+---------18:59----------
+and all is good in the boots and that's
+
+---------19:01----------
+it and I hope you learned something
+

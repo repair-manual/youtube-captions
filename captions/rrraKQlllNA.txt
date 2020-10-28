@@ -1,0 +1,1597 @@
+https://www.youtube.com/watch?v=rrraKQlllNA
+---------00:00----------
+hi today I'm gonna be going over a
+
+---------00:01----------
+retina MacBook Pro board for the a 1425
+
+---------00:04----------
+model that's not turning on as you can
+
+---------00:06----------
+see when I take the board and I plug the
+
+---------00:08----------
+Mac SAV charger in I don't get a light
+
+---------00:11----------
+on the charger which denotes that
+
+---------00:13----------
+something is obviously wrong so ya know
+
+---------00:16----------
+nobody's gonna pay to use a machine that
+
+---------00:18----------
+doesn't turn on so I'm gonna go over why
+
+---------00:19----------
+it doesn't turn on we're gonna
+
+---------00:20----------
+troubleshoot this and we're gonna try to
+
+---------00:21----------
+figure out what's going on and you'll
+
+---------00:24----------
+get to see most of my thought process in
+
+---------00:26----------
+real time I'm gonna measure things with
+
+---------00:27----------
+you in real time I'm not gonna be doing
+
+---------00:29----------
+this where you can't see what I'm
+
+---------00:30----------
+working on and where you can't see my
+
+---------00:32----------
+thought process or I just show it not
+
+---------00:34----------
+working then I show some fast forwarded
+
+---------00:35----------
+ then it works again you're actually
+
+---------00:37----------
+gonna learn something from this so let's
+
+---------00:39----------
+get started so the first thing that I
+
+---------00:40----------
+want to do is I want to see if power is
+
+---------00:42----------
+actually getting through on the main
+
+---------00:44----------
+part where the DC and board gets into
+
+---------00:46----------
+the computer so I'm gonna open up the
+
+---------00:48----------
+schematic here and I'm gonna show you
+
+---------00:49----------
+where that is on my schematic so let's
+
+---------00:53----------
+change over an open broadcaster so where
+
+---------00:56----------
+you can see my schematic let's zoom in a
+
+---------01:00----------
+little bit
+
+---------01:00----------
+now this over here J 9000 this is the
+
+---------01:03----------
+DCN board so over here you're gonna have
+
+---------01:05----------
+a DC onboard fuse so I'm gonna plug this
+
+---------01:07----------
+in and we're gonna see if we get power
+
+---------01:09----------
+over there now over here at F 6905 well
+
+---------01:15----------
+I'm gonna check where F 6905 is on here
+
+---------01:18----------
+by the way I know a lot of you people go
+
+---------01:19----------
+how do you know where the components are
+
+---------01:20----------
+it's not magic it is software software
+
+---------01:24----------
+it tells me everything
+
+---------01:25----------
+so I go over here this software sucks
+
+---------01:29----------
+but it's it's better than guessing I
+
+---------01:31----------
+know that why these people get away with
+
+---------01:33----------
+having this software it's
+
+---------01:35----------
+because you know it's either this or
+
+---------01:37----------
+nothing so when I measure I know you
+
+---------01:39----------
+can't see the multimedia left - trust me
+
+---------01:41----------
+I get 16 volts so if you can't follow
+
+---------01:43----------
+along with exactly what I'm what I'm
+
+---------01:45----------
+doing by watching the multimeter at
+
+---------01:47----------
+least you can follow along the thought
+
+---------01:48----------
+process so I'm gonna skip ahead of all
+
+---------01:50----------
+this stuff just because I kind of what I
+
+---------01:51----------
+do is I like to look at the end of a
+
+---------01:53----------
+circuit in the beginning of a circuit
+
+---------01:54----------
+and kind of get an idea of what's going
+
+---------01:56----------
+on so that I can kind of figure out
+
+---------01:58----------
+quicker where it is I should be focusing
+
+---------02:00----------
+now as I've mentioned in a million
+
+---------02:02----------
+videos you need PP 3 v 4 to underscore
+
+---------02:04----------
+g3 hot for the one wire circuit to work
+
+---------02:06----------
+the one wire circuit is what allows the
+
+---------02:08----------
+charger to talk to the SMC and when the
+
+---------02:11----------
+charger talks to the SMC then it'll do
+
+---------02:13----------
+things like turn
+
+---------02:13----------
+your green light and turn on your pals
+
+---------02:15----------
+in your computer but without that you're
+
+---------02:16----------
+screwed I don't want to explain exactly
+
+---------02:18----------
+all the one wire circuit works in this
+
+---------02:19----------
+video
+
+---------02:20----------
+so what I'll encourage you to do is look
+
+---------02:22----------
+at a video entitled what is the one wire
+
+---------02:24----------
+circuit and what is its purpose I've
+
+---------02:25----------
+done that and I've talked about the one
+
+---------02:27----------
+wire circuit in many other videos feel
+
+---------02:29----------
+free to search through my channel again
+
+---------02:30----------
+it's not a paid video it's a free video
+
+---------02:32----------
+so if you want to learn what that does
+
+---------02:34----------
+and how it works you can learn for free
+
+---------02:36----------
+so you need PP 3 V 4 to underscore G 3
+
+---------02:39----------
+hot to have the 1 wire circuit working
+
+---------02:41----------
+and if that sounds confusing when I say
+
+---------02:43----------
+pp whatever G 3 Hado and all that crap
+
+---------02:44----------
+all I'm talking about is a voltage rail
+
+---------02:46----------
+so you know how on your desktop you when
+
+---------02:48----------
+you look at those molex connectors you
+
+---------02:49----------
+have a black wire or a yellow wire and a
+
+---------02:51----------
+red wire the yellow wire is for the 12
+
+---------02:54----------
+volt rail the computer the red wires for
+
+---------02:55----------
+the 5 volt rail and the black is ground
+
+---------02:57----------
+you need to have those different power
+
+---------02:59----------
+wheels present to your desktop is not
+
+---------03:00----------
+actually going to work and the same is
+
+---------03:02----------
+true on a laptop you have different
+
+---------03:03----------
+power rails your charger may be putting
+
+---------03:05----------
+out 16 or 18 volts but your CPU runs off
+
+---------03:07----------
+of one volt other parts of your machine
+
+---------03:09----------
+may run off a fan runs of 5 volts you
+
+---------03:11----------
+know you have other parts of your
+
+---------03:13----------
+machine that need different voltages to
+
+---------03:14----------
+run off of and for that we have
+
+---------03:15----------
+different power rails now pp3 v4 - is a
+
+---------03:18----------
+three point 42 volt power supply if you
+
+---------03:21----------
+don't know how to find any schematic you
+
+---------03:22----------
+could simply do what I do I looked at
+
+---------03:24----------
+this and I said what the is a pp 3
+
+---------03:26----------
+V 4 - I measured it with my multimeter
+
+---------03:27----------
+on voltage mode and I saw that there was
+
+---------03:29----------
+three point 42 volts there and something
+
+---------03:31----------
+went off in my brain something went off
+
+---------03:33----------
+in my brain that said hmm it says peep
+
+---------03:35----------
+it's IC 3 v 4 - I get 3.42 volts I'm
+
+---------03:38----------
+gonna chop off the pp and pretend the V
+
+---------03:40----------
+is a decimal point and since then I've
+
+---------03:42----------
+been very very happy when I see pp 5v I
+
+---------03:45----------
+assume 5 volts when I say pp 3 V 3 its
+
+---------03:48----------
+3.3 volts that's supposed to be there
+
+---------03:49----------
+it's just a good way of figuring out
+
+---------03:51----------
+what's supposed to be in different
+
+---------03:52----------
+places so I need this now when I measure
+
+---------03:55----------
+pp 3 V 4 to underscore G 3 ha let's try
+
+---------03:58----------
+it measuring it on L 6 9 9 5 and let's
+
+---------04:01----------
+see what I get
+
+---------04:05----------
+so I go over my board view and it tells
+
+---------04:08----------
+me where L 6 9 9 5 is I honestly don't
+
+---------04:10----------
+remember off the top of my head because
+
+---------04:11----------
+I'm not very familiar with the 8 14 25
+
+---------04:13----------
+retina board it's not a board I get in
+
+---------04:15----------
+very often and when I check out my
+
+---------04:18----------
+schematic I get 0 volts I mean on my
+
+---------04:22----------
+multimeter I get 0 volts so what I'm
+
+---------04:24----------
+gonna do here is I'm gonna unplug this
+
+---------04:25----------
+and then I'm gonna use my
+
+---------04:27----------
+multimeter here and diode mode to see if
+
+---------04:29----------
+there's a short to ground so one of the
+
+---------04:31----------
+things you want to figure out at this
+
+---------04:32----------
+part is is there a short to ground
+
+---------04:34----------
+that's keeping that power line from
+
+---------04:35----------
+going where it supposed to or is it
+
+---------04:37----------
+simply not producing the power because
+
+---------04:39----------
+if there's a short to ground the chip
+
+---------04:40----------
+can be good and pre producing power it's
+
+---------04:42----------
+just that something is pulling it down
+
+---------04:43----------
+and I get a measurement on my multimeter
+
+---------04:45----------
+that tells me that there's no short to
+
+---------04:46----------
+ground I get zero point two eight three
+
+---------04:48----------
+that's not a short to ground on a major
+
+---------04:50----------
+power line so there's no short to ground
+
+---------04:52----------
+so now what I'm gonna try to do is I'm
+
+---------04:53----------
+gonna kinda keep measuring and try to
+
+---------04:56----------
+find out where it is power goes away so
+
+---------04:58----------
+let's skip ahead of all this stuff over
+
+---------04:59----------
+here and try right over here on input so
+
+---------05:03----------
+let's see what I get on D 6905 so let's
+
+---------05:08----------
+look for D six 905 okay that's over
+
+---------05:15----------
+there again I'm not searching for you
+
+---------05:18----------
+I'm actually looking for me because on
+
+---------05:19----------
+this board I really forget where most of
+
+---------05:21----------
+the things are in the it doesn't follow
+
+---------05:23----------
+a much different concept from other
+
+---------05:25----------
+boards it's just I get it
+
+---------05:26----------
+I get I seriously get one of these a
+
+---------05:28----------
+month to work on so I have 16 volts so
+
+---------05:31----------
+the input of my chips is what this tells
+
+---------05:33----------
+me over here the input of this chip is
+
+---------05:35----------
+getting the 16 volts but I'm not
+
+---------05:38----------
+outputting anything and I'm not
+
+---------05:39----------
+outputting anything even though there's
+
+---------05:41----------
+no short to ground so the problem lies
+
+---------05:43----------
+somewhere over here so this is where I
+
+---------05:46----------
+decide I want to look at that part of
+
+---------05:47----------
+the circuit and get an idea what it
+
+---------05:48----------
+looks like so let's go use 6990 and
+
+---------05:54----------
+tells me that this is over here alright
+
+---------05:57----------
+and of course you're open in a different
+
+---------05:58----------
+way then I have the board already
+
+---------05:59----------
+entered on the desk it wouldn't have it
+
+---------06:01----------
+any other way now would you nice we're
+
+---------06:03----------
+gonna go over here in the microscope and
+
+---------06:05----------
+okay so now we're gonna go in the
+
+---------06:07----------
+microscope we're gonna look at that area
+
+---------06:09----------
+let's just get the microscope camera
+
+---------06:10----------
+adjusted since remember I got this cool
+
+---------06:12----------
+new feature this man it's not really new
+
+---------06:14----------
+which is something I've always been here
+
+---------06:16----------
+that I never actually knew about or I
+
+---------06:18----------
+can adjust the way it looks which is
+
+---------06:20----------
+pretty damn cool so this is the area
+
+---------06:22----------
+where that chip is this thing doesn't
+
+---------06:26----------
+have a manual so if I know it you
+
+---------06:28----------
+know a e&w be mean but I'm not
+
+---------06:31----------
+interested in googling okay hmm
+
+---------06:38----------
+wonder what's wrong with my board as the
+
+---------06:40----------
+chip responsible for that power rail
+
+---------06:42----------
+yeah so is it any wonder that this
+
+---------06:44----------
+doesn't work I mean really obsessed with
+
+---------06:47----------
+this light now I'm a big I'm
+
+---------06:49----------
+becoming a color OCD freak
+
+---------06:52----------
+anyway so we're gonna remove that
+
+---------06:54----------
+because that's no good there's no
+
+---------06:56----------
+purpose in keeping something that looks
+
+---------06:57----------
+like that on the board okay catch my
+
+---------07:07----------
+breath and take this crap off extra
+
+---------07:12----------
+points if you don't burn the keyboard
+
+---------07:13----------
+back like a nectar
+
+---------07:32----------
+one of my pet peeves about Apple
+
+---------07:34----------
+products is they all have this circuit
+
+---------07:35----------
+that is meant to take 18 point 5 volts
+
+---------07:38----------
+from the charger or 12 point 6 volts
+
+---------07:40----------
+from the battery and to turn that into
+
+---------07:43----------
+3.42 volts they all have this and
+
+---------07:45----------
+every single one uses a different
+
+---------07:47----------
+ chip even though it's the same
+
+---------07:49----------
+crap every single year from 2000 at the
+
+---------07:51----------
+very least to my knowledge every circuit
+
+---------07:53----------
+from 2008 to the present is the same
+
+---------07:55----------
+ it's you know turn the 18 whatever
+
+---------07:57----------
+volts from the charger and 18 volts in
+
+---------08:00----------
+the charger or 12 volts from the battery
+
+---------08:01----------
+and to this and they all use a different
+
+---------08:06----------
+chip to do it which is just I don't get
+
+---------08:09----------
+it just like and I scratched off a pad
+
+---------08:20----------
+yeah troll is gonna troll Oh what I
+
+---------08:25----------
+scratched off is unconnected so you
+
+---------08:27----------
+if you're trouble unconnected that's
+
+---------08:30----------
+awesome okay so what I need to connect
+
+---------08:34----------
+as the the broken cap to that'll be
+
+---------08:38----------
+something that'll be easy so first
+
+---------08:40----------
+things first we're just gonna get rid of
+
+---------08:41----------
+that cap as I say I tested it with my
+
+---------08:44----------
+eyes and my eyes tell me that it's bad
+
+---------08:46----------
+don't leave nasty like that on
+
+---------08:49----------
+motherboards really there's no reason to
+
+---------08:54----------
+okay by the way when you rip off pads
+
+---------08:57----------
+and they come off really easy you here's
+
+---------08:59----------
+the thing with these boards so if you
+
+---------09:01----------
+try the sod or something on for example
+
+---------09:03----------
+like a little piece of like this so
+
+---------09:05----------
+see this board over here it's you could
+
+---------09:09----------
+if you use the same temperature in the
+
+---------09:10----------
+same air setting that you use the solder
+
+---------09:12----------
+onto an Apple board onto some single
+
+---------09:15----------
+layer prototype piece of crap like this
+
+---------09:16----------
+the solder is going to stay wet for a
+
+---------09:19----------
+good 20 or 30 seconds afterwards because
+
+---------09:21----------
+it's not meant for that level of heat
+
+---------09:23----------
+you don't need that much heat but then
+
+---------09:24----------
+you work on a multi-layer PC board like
+
+---------09:26----------
+this that just is meant to you know be
+
+---------09:29----------
+like one large heatsink for all these
+
+---------09:31----------
+components and one of the things are
+
+---------09:32----------
+gonna notice is that you need a lot more
+
+---------09:33----------
+heat for this so when you have your iron
+
+---------09:36----------
+set to that level of heat and you're
+
+---------09:37----------
+used to working with it and then you go
+
+---------09:39----------
+over something that is not heatsink to
+
+---------09:40----------
+not connect it it's gonna come right off
+
+---------09:44----------
+so one of the things I'm gonna do here I
+
+---------09:47----------
+know I got that fancy magnet wire I
+
+---------09:49----------
+don't really feel like it's necessary
+
+---------09:50----------
+that I use a fancy magnet wire here I'm
+
+---------09:53----------
+just going to use a battery wire because
+
+---------09:56----------
+it's it's slimmer and it's gonna be
+
+---------09:58----------
+easier to route to that specific area at
+
+---------10:02----------
+least I think it will be okay
+
+---------10:19----------
+you
+
+---------10:27----------
+you
+
+---------11:16----------
+that's what I'm looking for okay now
+
+---------11:21----------
+what I'm looking for is a retina board
+
+---------11:22----------
+that's similar to that but it has a hole
+
+---------11:25----------
+in it here we go
+
+---------11:27----------
+do you think I'm gonna order that part
+
+---------11:29----------
+off now sir did you ki no cuz this
+
+---------11:32----------
+person is gonna scream bloody murder if
+
+---------11:34----------
+I tell them they have to wait a week and
+
+---------11:35----------
+a half for their boy to get fixed they
+
+---------11:37----------
+will scream and they will [ __ ] and they
+
+---------11:40----------
+will cry had somebody recently you
+
+---------11:47----------
+actually had their customer oh
+
+---------11:49----------
+where'd you go seriously
+
+---------12:01----------
+well okay let's just grab another one
+
+---------12:05----------
+with the same type yeah well as I was
+
+---------12:07----------
+saying I had somebody actually huh
+
+---------12:09----------
+wholesale customer well I should say ex
+
+---------12:11----------
+wholesale customer at this point because
+
+---------12:13----------
+ if I'm ever fixing these boys again
+
+---------12:15----------
+hey the post office was like a day or
+
+---------12:19----------
+two late and delivering some so
+
+---------12:20----------
+they had their customer call here to ask
+
+---------12:24----------
+where their board was and it's like um
+
+---------12:25----------
+your boards in the mail it's really not
+
+---------12:28----------
+much I can do and a well a weren't
+
+---------12:32----------
+you're not our customer you're this
+
+---------12:33----------
+other company's customer you need to
+
+---------12:35----------
+deal with them the whole point of the
+
+---------12:37----------
+whole sale thing is not the whole point
+
+---------12:39----------
+of like us giving you a discount as
+
+---------12:40----------
+you've easy to deal with that's the
+
+---------12:41----------
+thing you have to understand so once you
+
+---------12:43----------
+become a pain in the ass to deal with
+
+---------12:44----------
+you're really not a wholesale customer
+
+---------12:46----------
+anymore you understand like there's no
+
+---------12:47----------
+point okay once you actually start once
+
+---------12:49----------
+we have to deal with things like I'm
+
+---------12:51----------
+pissed off that the mail was one day
+
+---------12:53----------
+late and delivering this you're you're
+
+---------12:55----------
+being a customer and I hate to say
+
+---------12:58----------
+things like this but really like one of
+
+---------12:59----------
+the worst things that you one of the
+
+---------13:00----------
+worst insults that you can give somebody
+
+---------13:02----------
+NIT let's say your helpdesk
+
+---------13:04----------
+administrator a systems administrator
+
+---------13:05----------
+one of the worst insults that a systems
+
+---------13:07----------
+administrator can give you is to say
+
+---------13:08----------
+that you're being a user and one of the
+
+---------13:10----------
+worst insults like a repair shop can
+
+---------13:12----------
+give you is hey you're being a customer
+
+---------13:13----------
+and not to install customers but if
+
+---------13:15----------
+you're like a wholesale place that wants
+
+---------13:17----------
+to send things in and you're you know
+
+---------13:19----------
+acting like a quote unquote customer
+
+---------13:22----------
+that is really just that's the worst
+
+---------13:25----------
+thing you can do honestly like when I
+
+---------13:26----------
+went on when we're giving you a hundred
+
+---------13:27----------
+or a hundred fifty bucks off of
+
+---------13:28----------
+something retail price the hold it is
+
+---------13:31----------
+like that is that implication there that
+
+---------13:32----------
+like I'm charging you less money than
+
+---------13:34----------
+other people therefore like if the mail
+
+---------13:37----------
+is a day lay you know you deal with it
+
+---------13:39----------
+because you are a store you know what
+
+---------13:41----------
+it's like you know I have no control
+
+---------13:44----------
+over that don't give you a customer our
+
+---------13:47----------
+number and say oh [ __ ] at that but yeah
+
+---------13:49----------
+there was another one where it was like
+
+---------13:52----------
+oh this this thing is not working after
+
+---------13:54----------
+you fixed it and it wound up being a ram
+
+---------13:58----------
+but they were bitching like a customer
+
+---------14:00----------
+that just got some fixed and had a quote
+
+---------14:02----------
+unquote another issue that's like you're
+
+---------14:05----------
+paying for a wholesale board repair and
+
+---------14:07----------
+your RAM is keeping your from
+
+---------14:10----------
+working again and
+
+---------14:11----------
+I have what what right do you a and if
+
+---------14:14----------
+you if you're paying like the actual
+
+---------14:15----------
+border pay rate I'll get it and I'll
+
+---------14:17----------
+deal with you like a customer but when
+
+---------14:19----------
+you're paying a wholesale rate just like
+
+---------14:20----------
+STFU but anyway I don't know where this
+
+---------14:23----------
+came from but yeah I'm not ordering this
+
+---------14:24----------
+part off of Mouser yeah you have to
+
+---------14:26----------
+understand like the level of impatience
+
+---------14:29----------
+that people have here there is no way in
+
+---------14:31----------
+hell I'm ordering this crab off of
+
+---------14:33----------
+Mouser and waiting for to get here what
+
+---------14:34----------
+I do is I have a bunch of dead boards
+
+---------14:36----------
+sitting in a pile and they're not dead
+
+---------14:38----------
+boards that were liquid damaged or
+
+---------14:39----------
+ up because I you're taking stuff
+
+---------14:41----------
+off a liquid damaged boards to do this
+
+---------14:43----------
+but you're gonna find very often is that
+
+---------14:45----------
+it doesn't work and that's what you what
+
+---------14:46----------
+I try to find is these boys that have
+
+---------14:48----------
+the hole in it and you could find them
+
+---------14:49----------
+on Alibaba David advanced reworks who
+
+---------14:53----------
+sells them to you find these boys that
+
+---------14:55----------
+have the holes in them and the whole
+
+---------14:57----------
+idea is they were never liquid damage
+
+---------14:59----------
+they were just Quality Assurance crap
+
+---------15:00----------
+from the factory supposedly who the hell
+
+---------15:02----------
+knows and the whole idea behind that is
+
+---------15:05----------
+that you're getting boards that maybe
+
+---------15:07----------
+like I had one fault in the in the PCH
+
+---------15:10----------
+of the CPU so now it's scrapped but all
+
+---------15:12----------
+the other things are good so you have
+
+---------15:13----------
+every single little working piece that
+
+---------15:15----------
+you need so if you have a theory or
+
+---------15:16----------
+something you want to test instead of
+
+---------15:17----------
+waiting all day or a week or two weeks
+
+---------15:20----------
+to get parts and you can simply steal it
+
+---------15:22----------
+off of another board you don't have to
+
+---------15:23----------
+look in the board view to see where it
+
+---------15:24----------
+went if you're just ripping off a bunch
+
+---------15:26----------
+of parts because you had it's the same
+
+---------15:28----------
+board so it's right there you can see it
+
+---------15:31----------
+alright so now we're gonna measure
+
+---------15:33----------
+voltage with that new chip there on the
+
+---------15:35----------
+inductor and I get lovely
+
+---------15:38----------
+okay so let's see what it is that is
+
+---------15:41----------
+doing that
+
+---------16:08----------
+unfortunately I got to do this outside
+
+---------16:10----------
+of the microscope because I would never
+
+---------16:11----------
+ever run if it my probe in there I can't
+
+---------16:14----------
+even see it under them outside of the
+
+---------16:15----------
+microscope there's my problem small
+
+---------16:18----------
+enough to hit in there
+
+---------16:28----------
+and it's getting the 16 volts hmm okay
+
+---------16:33----------
+now it just turned on which means
+
+---------16:35----------
+improperly soldered which means some
+
+---------16:39----------
+more all right I should clean that a
+
+---------16:48----------
+little bit let's get the alcohol on the
+
+---------16:50----------
+toothbrush clean it out a little bit
+
+---------16:51----------
+after cleaning it out a little bit what
+
+---------16:53----------
+I'm going to want to do is put some flux
+
+---------16:55----------
+in there push reheat and be happy video
+
+---------17:01----------
+again a few if you are a wholesale
+
+---------17:04----------
+customer this is just a note never ever
+
+---------17:06----------
+ever give your customers our number if
+
+---------17:09----------
+you cannot deal with your customers I
+
+---------17:11----------
+understand I totally understand and I
+
+---------17:13----------
+sympathize with you if you don't know
+
+---------17:14----------
+how to deal with your people but if you
+
+---------17:16----------
+can't deal with your people then you can
+
+---------17:20----------
+fix the boards yourself you know like
+
+---------17:23----------
+there's I would say I would say a good
+
+---------17:28----------
+283 tickets that are open right now for
+
+---------17:31----------
+me and we are a group of about three or
+
+---------17:35----------
+four people that have to deal with two
+
+---------17:36----------
+over two hundred eighty three tickets
+
+---------17:38----------
+right now and we do it so like if you
+
+---------17:40----------
+can't deal with it like two or three of
+
+---------17:42----------
+them I'm sorry yeah my my heart you know
+
+---------17:45----------
+my heart pumps piss for you really you
+
+---------17:47----------
+know you got you have to deal with your
+
+---------17:53----------
+people if you can't buy by pet the hets
+
+---------18:00----------
+others do it or pay retail
+
+---------18:08----------
+I don't have any guilt there again I'm
+
+---------18:10----------
+sitting here taking time out of my day
+
+---------18:12----------
+to show you how to do this stuff
+
+---------18:14----------
+yourself so you don't have to pay me
+
+---------18:16----------
+like you have options so you know you
+
+---------18:21----------
+really do okay
+
+---------18:23----------
+ain't nobody else on the internet giving
+
+---------18:26----------
+you a step-by-step diagram guide how to
+
+---------18:28----------
+on how to do this stuff so you know if
+
+---------18:33----------
+it doesn't work out with me you can
+
+---------18:35----------
+still watch my content for free still
+
+---------18:38----------
+learn once it heats in a place we push
+
+---------18:45----------
+that in
+
+---------19:00----------
+there's no point even trying to examine
+
+---------19:01----------
+that in an angle because I won't see it
+
+---------19:02----------
+because of the damn cap anyway you know
+
+---------19:09----------
+it is pretty though
+
+---------19:16----------
+see that that's a fan spinning see this
+
+---------19:23----------
+it's an orange light which means I'm
+
+---------19:27----------
+happy so I hope you learned something
+
+---------19:30----------
+alright so let's take a look at the
+
+---------19:32----------
+finished product here let's get this all
+
+---------19:35----------
+auto adjusting going on I'm hooked on
+
+---------19:38----------
+this auto adjusting alright yeah so this
+
+---------19:44----------
+was broken a little thing and we put a
+
+---------19:49----------
+little wire there now I'm gonna cover it
+
+---------19:54----------
+my favorite stuff in the world which is
+
+---------19:55----------
+a pile of green maybe let me try a
+
+---------19:58----------
+pile of black for today actually I
+
+---------20:00----------
+don't like this black pen from all-spec
+
+---------20:01----------
+because it's harder to actually get the
+
+---------20:03----------
+the liquid out of it it's the CW 3300 G
+
+---------20:06----------
+and then I have this CW 3300 B which is
+
+---------20:09----------
+a black version of it
+
+---------20:10----------
+somebody suggest that I get this because
+
+---------20:12----------
+it would be harder to see on the board
+
+---------20:14----------
+but the reality is that it's just more
+
+---------20:16----------
+of a pain in the ass to get out of the
+
+---------20:17----------
+out of the thing yeah and it just comes
+
+---------20:20----------
+out looking much messier than the green
+
+---------20:22----------
+ maybe that's just because I suck at
+
+---------20:24----------
+applying it opens the idea that I can't
+
+---------20:26----------
+apply this because I suck at applying it
+
+---------20:30----------
+but ultimately it's just harder to get
+
+---------20:33----------
+it out of the damn tube like I'm pushing
+
+---------20:35----------
+on the tube
+
+---------20:36----------
+squeezing while I'm pushing the pen down
+
+---------20:38----------
+and sure again whatever is for I trust
+
+---------20:50----------
+them
+
+---------20:57----------
+I'm making a disgraceful mess of that
+
+---------20:59----------
+I'm actually getting the insulate the
+
+---------21:01----------
+the the black everywhere other than
+
+---------21:03----------
+the other than the a jumper wire
+
+---------21:08----------
+let me show you why I prefer green
+
+---------21:11----------
+by the way this is this is a good good
+
+---------21:12----------
+thing because you may you may really not
+
+---------21:14----------
+assume watching this video that there's
+
+---------21:16----------
+any difference between these buck
+
+---------21:17----------
+Collard you may think that they're all
+
+---------21:18----------
+the same and this is one of the things
+
+---------21:19----------
+that I hate about buying things on the
+
+---------21:20----------
+internet and not being able to try them
+
+---------21:22----------
+I mean you you would never know that
+
+---------21:24----------
+just because these are a different color
+
+---------21:25----------
+even though it's the same product that
+
+---------21:26----------
+one works better than the other so watch
+
+---------21:28----------
+what the green does so you see if
+
+---------21:29----------
+the green is more liquidus so I'm
+
+---------21:32----------
+able to get it in between that capacitor
+
+---------21:33----------
+and that in a I see that I replace see
+
+---------21:37----------
+that like I'm pushing and it flows like
+
+---------21:40----------
+liquid now it's gonna cure the same way
+
+---------21:41----------
+the black stuff cures it's gonna cure
+
+---------21:43----------
+and you're not gonna be it's not gonna
+
+---------21:45----------
+be liquidus anymore after it cures and
+
+---------21:46----------
+it's gonna cure quickly but now
+
+---------21:48----------
+obviously I got a little bit of a mess
+
+---------21:49----------
+there because I decided to put the I
+
+---------21:51----------
+decided to put the black crap in
+
+---------21:53----------
+addition to the green crap how do I just
+
+---------21:54----------
+started with the green it would have
+
+---------21:55----------
+been better but the reason that the
+
+---------21:57----------
+green conformal coating is better is
+
+---------21:59----------
+because it flows nicely and now finally
+
+---------22:01----------
+the thing here is that this is this
+
+---------22:04----------
+conformal coating pen there's a green
+
+---------22:06----------
+one you can see this is this is beat-up
+
+---------22:08----------
+and this is old and this is a pen that
+
+---------22:10----------
+I've had for over a year now whereas the
+
+---------22:12----------
+black pen is actually it's literally
+
+---------22:14----------
+it's been used once or twice and it's
+
+---------22:16----------
+maybe a few months old at that
+
+---------22:18----------
+so yeah well when you go to buy the
+
+---------22:20----------
+conformal coating pen to do that you
+
+---------22:21----------
+want to get the CW 3,300 G from all-spec
+
+---------22:24----------
+not the CW 3300 B again you may think
+
+---------22:28----------
+the only difference is color but as you
+
+---------22:29----------
+can see one of the colors flows like
+
+---------22:31----------
+garbage and one of the colors flows
+
+---------22:32----------
+nicely Green is a lovely color and now
+
+---------22:34----------
+you want it to look professional and now
+
+---------22:36----------
+you want it to look absolutely like it
+
+---------22:38----------
+was originally but really who cares I
+
+---------22:40----------
+care that it works and the black stuff
+
+---------22:42----------
+sucks
+

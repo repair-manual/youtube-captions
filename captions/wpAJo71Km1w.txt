@@ -1,0 +1,1450 @@
+https://www.youtube.com/watch?v=wpAJo71Km1w
+---------00:00----------
+hi so today I'm gonna be going over an
+
+---------00:01----------
+eight to zero twenty nine thirty six
+
+---------00:03----------
+board that does not turn on so here we
+
+---------00:06----------
+have the board and the issue with it is
+
+---------00:08----------
+that you will get a green light on the
+
+---------00:10----------
+charger but it does not actually turn on
+
+---------00:13----------
+so let's plug it in so I can show you so
+
+---------00:18----------
+as you can see I have a green light but
+
+---------00:22----------
+my fan is not spinning so we have to
+
+---------00:25----------
+troubleshoot what's going on here so now
+
+---------00:27----------
+one of the things I've shown you and
+
+---------00:29----------
+prior videos is that one of the
+
+---------00:31----------
+beautiful things that you'll find and
+
+---------00:33----------
+the schematic is that on the beginning
+
+---------00:36----------
+of the schematic you'll see a list of
+
+---------00:38----------
+power rails that should be present so
+
+---------00:40----------
+you don't actually have to work in guess
+
+---------00:41----------
+to see what should and should not be
+
+---------00:43----------
+present you can simply look at it and it
+
+---------00:46----------
+will give you a nice little list well
+
+---------00:49----------
+when I say nice I'm being a little being
+
+---------00:52----------
+a little bit of a troll because as you
+
+---------00:54----------
+could see it's kind of long so you have
+
+---------00:56----------
+all these rails from top to bottom here
+
+---------00:58----------
+and let's point and show you
+
+---------01:12----------
+so you have pp bus g3 Haunt which is the
+
+---------01:15----------
+12 volt rail that the machine runs off
+
+---------01:17----------
+of so let's measure that and I'm gonna
+
+---------01:23----------
+measure that in the multimeter although
+
+---------01:28----------
+this you could see the meter a little
+
+---------01:29----------
+bit even though it's probably them and
+
+---------01:31----------
+still invisible and be hidden behind a
+
+---------01:33----------
+pole in spring bottle so over here I've
+
+---------01:38----------
+got you know I do this this is backlit
+
+---------01:41----------
+you can actually see it and the board
+
+---------01:47----------
+view will tell you what these points are
+
+---------01:48----------
+so if I want to measure P P Buster III
+
+---------01:50----------
+huh what I can do is I can go to the
+
+---------01:51----------
+board view software that I have open
+
+---------01:53----------
+over here I can click n type P P bus
+
+---------01:57----------
+underscore g3 hot hit okay it will zoom
+
+---------02:01----------
+me out because it's a piece of and
+
+---------02:03----------
+then it will show me all the points on
+
+---------02:04----------
+the board along which P P bus g3 yacht
+
+---------02:07----------
+shows up so one of the places it shows
+
+---------02:12----------
+up is this big white fuse over here so
+
+---------02:14----------
+I'm gonna measure and I see on the
+
+---------02:17----------
+oscilloscope I see 12 point 7 volts you
+
+---------02:20----------
+see how it just jump there that's a jump
+
+---------02:22----------
+into twelve point seven I don't feel
+
+---------02:23----------
+like zooming in and figured he can trust
+
+---------02:25----------
+me when I say that as 12 point 7 the
+
+---------02:27----------
+next power rail here is one that is
+
+---------02:30----------
+dragged from P P bus g3 hot so I'm not
+
+---------02:33----------
+gonna bother testing that P P bus s 5 HS
+
+---------02:35----------
+computing I sense I don't I don't care
+
+---------02:37----------
+about that because that is actually
+
+---------02:39----------
+drawn from PP bus g3 huh it's aim for
+
+---------02:41----------
+this then we have P P bus P P dcin
+
+---------02:43----------
+underscore g3 hot that's the 18 point 5
+
+---------02:46----------
+volt rail the machine that's the 18
+
+---------02:48----------
+point 5 volt rail that comes from the
+
+---------02:49----------
+charger now the charger gives the board
+
+---------02:53----------
+power to create P P bus g3 huh so if I
+
+---------02:55----------
+already have g PP bus g3 huh why do I
+
+---------02:57----------
+care about this DC n power L I don't pp
+
+---------03:01----------
+3 V 4 2 I know I have as I've explained
+
+---------03:03----------
+in other videos how the 1 wire circuit
+
+---------03:05----------
+works the one wire circuit is has a
+
+---------03:07----------
+logic gate in it that is powered off of
+
+---------03:09----------
+pp 3 V 4 2 so if I have a green line my
+
+---------03:11----------
+charger obviously I have that so
+
+---------03:12----------
+checking that is pointless
+
+---------03:13----------
+PPV RTC underscore g3 hot that is a
+
+---------03:17----------
+different supply it's I'm not really
+
+---------03:20----------
+interested in seeing if I have clock
+
+---------03:22----------
+signal yet because it doesn't turn off
+
+---------03:23----------
+even
+
+---------03:24----------
+if I did not have clock even if I did
+
+---------03:25----------
+not have clock at least see the fan spin
+
+---------03:27----------
+it would spin and then it would turn off
+
+---------03:28----------
+RTC is one of the clocks and the machine
+
+---------03:31----------
+that synchronizes the you know
+
+---------03:32----------
+everything so that it knows what to do
+
+---------03:34----------
+and turns on this you know works when I
+
+---------03:38----------
+say turns on and I mean turns on like
+
+---------03:39----------
+actually fan spins I mean you know CPU
+
+---------03:43----------
+PCH all that good stuff
+
+---------03:45----------
+next is pp 5vs5 let's see if I have pp
+
+---------03:50----------
+5vs5 I hit an over here PP 5v underscore
+
+---------03:53----------
+s5 and where does it show up PP 5vs5
+
+---------03:59----------
+shows up over here on the main board so
+
+---------04:05----------
+right next to you 7200 so I touch the
+
+---------04:07----------
+oscilloscope probe over here to that
+
+---------04:09----------
+part of the board and I see five volts
+
+---------04:11----------
+okay so all the power supplies are
+
+---------04:13----------
+checking out so far let's check the next
+
+---------04:15----------
+one next one is pp 5 vs 3 so let's check
+
+---------04:18----------
+PP 5 vs 3 I check PP 5 V underscore s 3
+
+---------04:22----------
+and what do I have here so let's bring
+
+---------04:27----------
+it to the side of the board this is a
+
+---------04:29----------
+point where I can check it let's see I
+
+---------04:34----------
+can check that power supply right here
+
+---------04:38----------
+so when I plug this oscilloscope test
+
+---------04:41----------
+lead here to check for PP 5 vs 3 I get 0
+
+---------04:45----------
+see now I'm interested because one of
+
+---------04:47----------
+the rails is missing now the 5 volt rail
+
+---------04:49----------
+is one of the rails that you need in
+
+---------04:51----------
+order for the thing to turn off so PP 5
+
+---------04:53----------
+es 3 will get turned into PP 5 vs o s 3
+
+---------04:56----------
+means it's oh it's on its present when
+
+---------04:59----------
+the machine is off or sleeping or
+
+---------05:00----------
+something or hibernating whatever and SL
+
+---------05:02----------
+means that rail is presence when the
+
+---------05:04----------
+machine itself is actually on so there
+
+---------05:07----------
+is something on the machine that says
+
+---------05:08----------
+when you plug this in when you plug the
+
+---------05:10----------
+MagSafe in and when you are turning the
+
+---------05:13----------
+machine on turn PP 5 es 3 and a PP 5 es
+
+---------05:15----------
+o let whatever is present at PP 5 vs 3
+
+---------05:18----------
+flow to PP 5 years so to turn the
+
+---------05:19----------
+machine on and that that's not present
+
+---------05:22----------
+so one of the things I want to do first
+
+---------05:23----------
+before I actually start with it
+
+---------05:25----------
+is see if there is a short to ground on
+
+---------05:27----------
+that power rail so I'm putting my
+
+---------05:29----------
+multimeter in diode mode because it
+
+---------05:30----------
+gives me very very quick measurements
+
+---------05:31----------
+I'm gonna put my red probe on ground and
+
+---------05:34----------
+my black probe here right where I tried
+
+---------05:36----------
+to measure PP 5 es 3
+
+---------05:44----------
+what I have here is not a short to
+
+---------05:46----------
+ground at all I have a fairly healthy
+
+---------05:48----------
+reading so I'm not real I'm getting a
+
+---------05:50----------
+very very I'm getting a very high
+
+---------05:54----------
+voltage drop to ground so now what I'm
+
+---------05:56----------
+interested in the scene will this thing
+
+---------05:57----------
+actually turn on if I just put five
+
+---------06:00----------
+volts there so what I'm gonna do right
+
+---------06:01----------
+now is put five volts there using this
+
+---------06:04----------
+HP Agilent power supply that I got so
+
+---------06:07----------
+watch what I do here so I'm just gonna
+
+---------06:09----------
+make a space to solder my ground wire
+
+---------06:13----------
+Here I am going to put some solder on
+
+---------06:18----------
+that little space and then I'm going to
+
+---------06:22----------
+put the wires so this here is a bench
+
+---------06:25----------
+power supply it's a youlet Packard 65 42
+
+---------06:28----------
+a it is old probably older than me it is
+
+---------06:31----------
+old but it is good old it is a
+
+---------06:33----------
+linear power supply which is very
+
+---------06:35----------
+inefficient however even though it is
+
+---------06:37----------
+inefficient it is a linear supply with
+
+---------06:40----------
+very very low ripple so you can use it
+
+---------06:41----------
+for powering it's very very accurate so
+
+---------06:44----------
+when you say I want five point zero zero
+
+---------06:46----------
+two volts it will give you five point
+
+---------06:48----------
+zero zero two volts which is cool if
+
+---------06:50----------
+you're a nerd or you want to use it to
+
+---------06:52----------
+power cool things or audio circuits or
+
+---------06:54----------
+things where you
+
+---------06:55----------
+ripple actually matters but I mainly got
+
+---------06:58----------
+it because it was 120 bucks and I needed
+
+---------07:00----------
+a bench power supply and if I want to
+
+---------07:02----------
+buy a new bench power supply for a
+
+---------07:03----------
+hundred fifty bucks you will get
+
+---------07:05----------
+something that is kind of a piece of
+
+---------07:07----------
+
+
+---------07:07----------
+whereas if I'm willing to buy used and
+
+---------07:09----------
+wait for a while I got this I got this
+
+---------07:11----------
+to replace my Lenovo which finally hit
+
+---------07:14----------
+the bucket so what I'm gonna do here is
+
+---------07:18----------
+I'm gonna set my bench power supply when
+
+---------07:21----------
+I set the voltage to it to five volts
+
+---------07:23----------
+and then we're gonna set the maximum
+
+---------07:24----------
+current the two amps because there's
+
+---------07:26----------
+there's really no reason to provide more
+
+---------07:27----------
+than two amps to this if it does
+
+---------07:28----------
+that means there's a short of some kind
+
+---------07:30----------
+they don't want to blow things up so
+
+---------07:32----------
+what I'm gonna do is I'm gonna plug this
+
+---------07:33----------
+in and then as soon as I plug it in and
+
+---------07:35----------
+I see the light turn green I'm gonna
+
+---------07:37----------
+turn the power on on this bench power
+
+---------07:39----------
+supply and I want to see if it turns on
+
+---------07:42----------
+Blair
+
+---------07:46----------
+and it did turn on you can see here
+
+---------07:49----------
+remember these core i5 i7 boards
+
+---------07:51----------
+actually do turn on on their own and as
+
+---------07:53----------
+you can see I have a spinning fan and as
+
+---------07:56----------
+you can also see on the bench power
+
+---------07:57----------
+supply here you probably can because
+
+---------07:59----------
+it's covered by a [ __ ] of wires
+
+---------08:01----------
+and numerous pole and spring bottles is
+
+---------08:02----------
+that my power supply is delivering four
+
+---------08:05----------
+point nine nine nine volts at 0.18 amps
+
+---------08:07----------
+which means it is actually delivering
+
+---------08:09----------
+power to the firewall rail it is doing
+
+---------08:10----------
+something now one of the things I want
+
+---------08:14----------
+to do is actually check out why that
+
+---------08:17----------
+ ain't working so I know that I've
+
+---------08:19----------
+gotten somewhere I know that if I have
+
+---------08:20----------
+power on that line at you know the
+
+---------08:22----------
+computers not going to blow up that it
+
+---------08:24----------
+is good is okay so I'm gonna just remove
+
+---------08:27----------
+that wire that I put there and let's
+
+---------08:36----------
+take a look under the microscope to get
+
+---------08:37----------
+a closer look a better idea of what is
+
+---------08:39----------
+going on let me turn this off and also
+
+---------08:45----------
+let me show you on the schematic what
+
+---------08:46----------
+we're looking at I'm using the wrong
+
+---------08:51----------
+soldering iron tip for this this is a
+
+---------08:52----------
+micro tip that i'm using to remove a
+
+---------08:54----------
+huge blob that I made alright
+
+---------08:59----------
+oh into the microscope we go so first
+
+---------09:03----------
+things first actually before the
+
+---------09:05----------
+microscope is schematic let's get a
+
+---------09:07----------
+little bit of learning done here so the
+
+---------09:08----------
+power supply that is missing is pp 5 vs
+
+---------09:10----------
+3 so let's see what PP 5 vs 3 is for
+
+---------09:13----------
+what it does and man I really need to
+
+---------09:16----------
+get a camera person for this
+
+---------09:18----------
+alright so PP 5 V underscore s 3 come on
+
+---------09:27----------
+show me where you're made from
+
+---------09:33----------
+okay well I'm gonna cheat because I
+
+---------09:34----------
+already know where it's made for me I
+
+---------09:35----------
+want to save time I'm gonna search for
+
+---------09:37----------
+that ship okay so this is the chip that
+
+---------09:41----------
+makes PP 5 vs 3 now to explain a little
+
+---------09:46----------
+bit of how this thing works there is an
+
+---------09:48----------
+end trip signal over here that when you
+
+---------09:50----------
+go to turn the machine on goes up to 3
+
+---------09:52----------
+volts if that signal is allowed to go up
+
+---------09:55----------
+to 3 volts for a second it will actually
+
+---------09:58----------
+turn the rail on but if that is not
+
+---------10:00----------
+allowed to go up it won't turn it on so
+
+---------10:02----------
+you have a little transistor down here
+
+---------10:03----------
+that will actually take that and send it
+
+---------10:06----------
+straight to ground right over here
+
+---------10:07----------
+depending on what the PCH of the mCP
+
+---------10:10----------
+tells the computer that it ought to do
+
+---------10:12----------
+you also have other things here that are
+
+---------10:14----------
+important to know about so this control
+
+---------10:17----------
+ PDF reader so this chip controls
+
+---------10:20----------
+this buck regulator here this buck
+
+---------10:22----------
+regulated takes 12 volt pulses it makes
+
+---------10:24----------
+a bunch of 12 volt pulses and sends
+
+---------10:26----------
+those 12 volt pulses to the input of
+
+---------10:27----------
+this inductor where those 12 volt pulses
+
+---------10:29----------
+then turn into 5 volts for the machine
+
+---------10:32----------
+once we get this working I'll show you
+
+---------10:33----------
+what the input and the output look like
+
+---------10:34----------
+so this chip does use 7200 which is TPS
+
+---------10:37----------
+500 to 5 this chip right here it
+
+---------10:39----------
+controls these two transistors which
+
+---------10:42----------
+then make power for the inductor which
+
+---------10:45----------
+then gets smooth out into a nice 5 volts
+
+---------10:46----------
+it was on so one of the things that I'd
+
+---------10:48----------
+like to do when I find a problem is try
+
+---------10:50----------
+to find a story I like to try to follow
+
+---------10:51----------
+a story I like to follow science but I
+
+---------10:54----------
+also like to see why it actually happens
+
+---------10:57----------
+so there's the science and then there's
+
+---------10:58----------
+a real-world application of the science
+
+---------11:00----------
+so let's try to get a look here and see
+
+---------11:02----------
+what's going on so I'm gonna go on to
+
+---------11:04----------
+the microscope but I'm gonna look at
+
+---------11:05----------
+this chip and I'm gonna try to get an
+
+---------11:07----------
+idea of what exactly happened and in
+
+---------11:08----------
+what order it happens so I know what to
+
+---------11:10----------
+do so this here is my TPS 5 1 1 2 5 and
+
+---------11:16----------
+this is the chip and as you can see over
+
+---------11:19----------
+here there is a red probe point this is
+
+---------11:21----------
+the kind of thing that I want I want to
+
+---------11:23----------
+see that and I want you to look at that
+
+---------11:24----------
+and have an innate understanding of what
+
+---------11:27----------
+went on in the circuit as soon as you
+
+---------11:28----------
+see that so I want you to have an idea
+
+---------11:30----------
+of how the electricity passed through
+
+---------11:32----------
+the circuit I want you have an idea
+
+---------11:33----------
+exactly what it is that happened in
+
+---------11:35----------
+order for the destruction to occur and
+
+---------11:37----------
+that's something that you're gonna get
+
+---------11:40----------
+with experience but it's also something
+
+---------11:42----------
+you're gonna get just by looking at the
+
+---------11:44----------
+board so that little ribby time you see
+
+---------11:45----------
+those red probe
+
+---------11:46----------
+it's usually indicative of water damage
+
+---------11:48----------
+of some kind that landed there and does
+
+---------11:50----------
+something going through that wasn't
+
+---------11:51----------
+supposed to so let's get a look at the
+
+---------11:53----------
+board view and see what that's supposed
+
+---------11:54----------
+to be so that probe point is I really
+
+---------12:08----------
+need a joystick for this thing I would
+
+---------12:10----------
+David I didn't need to make them joy
+
+---------12:12----------
+stick for this board view software
+
+---------12:13----------
+because it is so goddamn frustrating
+
+---------12:15----------
+sometimes to use with okay so so over
+
+---------12:22----------
+here we have this is the pro point that
+
+---------12:25----------
+I'm talking about right here and that is
+
+---------12:26----------
+p5 vs3 underscore VB ST underscore R so
+
+---------12:31----------
+now I'm gonna open up the schematic
+
+---------12:32----------
+before I open up the schematic p5 vs3
+
+---------12:36----------
+underscore VB ST underscore R I want to
+
+---------12:39----------
+see every point that this shows up on
+
+---------12:40----------
+this board and of course when I do that
+
+---------12:42----------
+it zooms me out completely so that I
+
+---------12:43----------
+can't see because that is how this
+
+---------12:45----------
+crappy software works it is what it is
+
+---------12:47----------
+asn't been updated since 1995 so that
+
+---------12:50----------
+pro point you have this capacitor and
+
+---------12:52----------
+this resistor right next to it simple C
+
+---------12:53----------
+70 to 60 and our 70 to 60 so let's see
+
+---------12:57----------
+what those look like over here on the
+
+---------12:59----------
+schematic so our 70 to 60 so that is a
+
+---------13:03----------
+resistor that goes from here we go so we
+
+---------13:07----------
+have the output of this buck regulator
+
+---------13:10----------
+so this buck regulator over here is
+
+---------13:11----------
+going to take the 12 volt pulses from
+
+---------13:14----------
+the pp bus g3 hot rail it's going to
+
+---------13:16----------
+make pulses that go through the inductor
+
+---------13:18----------
+and it's three notes with the inductor
+
+---------13:20----------
+is gonna do it's gonna take those pulses
+
+---------13:21----------
+of twelve point six and zero twelve
+
+---------13:24----------
+point six and zero point six and zero
+
+---------13:25----------
+and it's gonna smooth it out it's gonna
+
+---------13:27----------
+average it into what is going to become
+
+---------13:29----------
+five volts so what this does that little
+
+---------13:31----------
+resistor it sends a signal back to the u
+
+---------13:34----------
+7200 that's pretty much let it know what
+
+---------13:36----------
+those pulses are doing so let's see what
+
+---------13:39----------
+that resistor looks like so I'm gonna
+
+---------13:41----------
+put my multimeter back into resistance
+
+---------13:43----------
+mode to measure resistance and I'm gonna
+
+---------13:45----------
+check for our 70 to 60 and I want you to
+
+---------13:49----------
+pay attention and tell me what it is you
+
+---------13:51----------
+see because hopefully we have found the
+
+---------13:54----------
+cause of a problem wouldn't that be cool
+
+---------13:57----------
+so our 70 to 60 is located right
+
+---------14:00----------
+over here and when I look at our 7260
+
+---------14:02----------
+and I put the probes of the multimeter
+
+---------14:04----------
+to it to measure it instead of getting 0
+
+---------14:06----------
+ohms I get o L which is more ohms than I
+
+---------14:11----------
+want so let's try replacing that with a
+
+---------14:13----------
+resistor from a donor board we're gonna
+
+---------14:15----------
+take a donor board that's just like the
+
+---------14:18----------
+board that I have here and I'm gonna
+
+---------14:20----------
+look at that resistor on a donor board
+
+---------14:22----------
+and I'm gonna measure its resistance
+
+---------14:23----------
+just to make sure my multimeter is not
+
+---------14:25----------
+not broken just to make sure I haven't
+
+---------14:27----------
+lost my mind and let's see what I can so
+
+---------14:33----------
+if here is on a donor board which I've
+
+---------14:35----------
+already apparently stolen a bunch of
+
+---------14:37----------
+stuff from what can I say and I get 0
+
+---------14:42----------
+ohms so this tells me that I have found
+
+---------14:45----------
+the potential cause of my problem so
+
+---------14:48----------
+let's continue on to replace that
+
+---------14:50----------
+resistor and see what happens and see if
+
+---------14:52----------
+we get a working board out of this
+
+---------14:53----------
+because there is a good chance at this
+
+---------14:54----------
+point that we can't get a working board
+
+---------14:55----------
+by simply replacing a simple resistor
+
+---------14:58----------
+wouldn't that be cool if we didn't have
+
+---------14:59----------
+to do a lot of work and a lot of misery
+
+---------15:02----------
+all righty so so we're gonna take that
+
+---------15:08----------
+resistor right here
+
+---------15:15----------
+goodbye john-boy mmm
+
+---------15:24----------
+and I'm gonna take some solder I'm gonna
+
+---------15:31----------
+make sure that I'm not running out of
+
+---------15:32----------
+disk space I almost forgot to check and
+
+---------15:36----------
+see that I'm not running out of disk
+
+---------15:37----------
+space that would be smart because I am
+
+---------15:39----------
+doing a video in real time I have three
+
+---------15:46----------
+hundred twenty five gigabytes left so
+
+---------15:47----------
+I'm good now I have three twenty four
+
+---------15:49----------
+now I have three twenty three Wow all
+
+---------15:52----------
+right so doing two raw video at x264
+
+---------15:58----------
+streams in real time is yeah
+
+---------16:02----------
+something else that's 60 frames a second
+
+---------16:07----------
+so he just put a little Mike alrighty
+
+---------16:12----------
+and we are going to take a resistor off
+
+---------16:14----------
+here also if enough power went through
+
+---------16:20----------
+that resistor to blow it there's a good
+
+---------16:21----------
+chance that my chip is blown up as well
+
+---------16:34----------
+ah
+
+---------16:41----------
+so I might as well replace the chip but
+
+---------16:44----------
+I'm curious to see if this on its own
+
+---------16:46----------
+solves my issue so let's see what
+
+---------16:50----------
+happens I'm gonna plug this in okay and
+
+---------16:55----------
+let's see if I got a grip some fan
+
+---------16:57----------
+turning on
+
+---------17:03----------
+okay so as you can see my fan is now
+
+---------17:06----------
+spinning and as we like the joke here
+
+---------17:09----------
+because there are many outsourced repair
+
+---------17:11----------
+centers that will actually this is this
+
+---------17:13----------
+is their testing we are done now
+
+---------17:16----------
+seriously there we have a running joke
+
+---------17:17----------
+here because there are a couple of
+
+---------17:18----------
+outsourced repair centers whose name I
+
+---------17:20----------
+am NOT going to mention who they say
+
+---------17:23----------
+that they test every board before they
+
+---------17:24----------
+send it back but they see the fan spin
+
+---------17:27----------
+and then they're done and honestly I've
+
+---------17:29----------
+started to understand why that is
+
+---------17:30----------
+because you think you've got it and
+
+---------17:31----------
+you've solved this problem and it's like
+
+---------17:33----------
+oh I'm at the top of how I could
+
+---------17:35----------
+possibly feel I couldn't possibly feel
+
+---------17:37----------
+any better than how I feel right now
+
+---------17:38----------
+so why ruin it by plugging a screen in
+
+---------17:41----------
+and seeing that you know there's no CPU
+
+---------17:43----------
+vcore that it doesn't work why ruin this
+
+---------17:45----------
+beautiful moment by seeing that it works
+
+---------17:47----------
+but no unfortunately unfortunately I do
+
+---------17:50----------
+provide service to a decent standard of
+
+---------17:51----------
+quality which means that I have to
+
+---------17:53----------
+actually make sure this thing works
+
+---------17:55----------
+before I send it back to the customer
+
+---------17:57----------
+which means that yeah I can't just say
+
+---------18:00----------
+that them I'm done because I saw the fan
+
+---------18:02----------
+spin but that would be cool wouldn't it
+
+---------18:04----------
+oh boy that would be cool if I was right
+
+---------18:08----------
+done right now
+
+---------18:10----------
+so again this is this is the importance
+
+---------18:12----------
+of using your brain this is the
+
+---------18:13----------
+importance of science isn't the
+
+---------18:14----------
+importance of combining science with the
+
+---------18:15----------
+basic know-how of just looking at things
+
+---------18:17----------
+to get an idea of what's going on
+
+---------18:19----------
+because so many people are gonna say
+
+---------18:20----------
+replace the chip that makes that voltage
+
+---------18:21----------
+the chip wasn't bad the chip was fine
+
+---------18:25----------
+there's no reason to replace the chip
+
+---------18:28----------
+absolutely no reason to replace the chip
+
+---------18:30----------
+when the chip is clearly good so
+
+---------19:24----------
+all righty so I have the screen turning
+
+---------19:27----------
+on which means my CPU must be good and
+
+---------19:34----------
+once I get that question mark folder I
+
+---------19:36----------
+will be happy now I'm not gonna run a SD
+
+---------19:38----------
+and do all that stuff on camera because
+
+---------19:40----------
+frankly that is just a complete and
+
+---------19:42----------
+utter waste of bandwidth and video and
+
+---------19:43----------
+as you all know who watching this series
+
+---------19:45----------
+I do use Time Warner Cable to upload
+
+---------19:48----------
+these videos which means that this video
+
+---------19:50----------
+if I make it any longer than it is right
+
+---------19:52----------
+now will take literally days to upload
+
+---------19:54----------
+to YouTube including all the drops and
+
+---------19:55----------
+garbage that you get when you pay Time
+
+---------19:57----------
+Warner business class cable $175 a month
+
+---------20:00----------
+for an internet connection that is worth
+
+---------20:01----------
+then the 56k modem that I had when I was
+
+---------20:04----------
+12 years old so let's see okay as you
+
+---------20:07----------
+can see I have a flashing question mark
+
+---------20:09----------
+folder which means obviously most of my
+
+---------20:11----------
+functions of my machine are good again
+
+---------20:12----------
+we could have issues with current
+
+---------20:14----------
+sensing we could have issues with other
+
+---------20:16----------
+things but this thing came in totally
+
+---------20:17----------
+dead and now it's working so now I can
+
+---------20:19----------
+put it in the bin of machines that need
+
+---------20:21----------
+testing to make sure that all
+
+---------20:23----------
+functionality is okay and I can take it
+
+---------20:25----------
+out of the bin of quote unquote
+
+---------20:26----------
+completely boards that are
+
+---------20:28----------
+sitting on my desk so hopefully you
+
+---------20:30----------
+learned something from this hopefully
+
+---------20:31----------
+you learned my troubleshooting process a
+
+---------20:33----------
+little bit just a little bit of what I
+
+---------20:34----------
+go through to figure out what's wrong
+
+---------20:35----------
+with the board again I did not I did not
+
+---------20:37----------
+do anything to make this look easier
+
+---------20:39----------
+than it is I did not start working on it
+
+---------20:41----------
+I did not start soldering on it I did
+
+---------20:43----------
+not start doing preliminary Diagnostics
+
+---------20:44----------
+before I turn the camera on all of this
+
+---------20:46----------
+was done in real-time to show you just
+
+---------20:49----------
+how simple it can be when you have the
+
+---------20:51----------
+right mindset when you're thinking in
+
+---------20:54----------
+the right way when you're thinking
+
+---------20:54----------
+analytically and when you have the right
+
+---------20:56----------
+tools in front of you and when you have
+
+---------20:58----------
+the willingness to learn
+

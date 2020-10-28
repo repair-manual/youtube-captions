@@ -1,0 +1,1081 @@
+https://www.youtube.com/watch?v=7VltAzdVwqc
+---------00:06----------
+all right so usually I do these videos
+
+---------00:08----------
+in real time but part of the deal that
+
+---------00:11----------
+I've
+
+---------00:13----------
+that she will only fix motherboards if
+
+---------00:15----------
+nobody ever sees that she exists which
+
+---------00:17----------
+means that she can never find out that I
+
+---------00:19----------
+posted the Halloween pictures from two
+
+---------00:20----------
+years ago to the company Facebook I'm
+
+---------00:22----------
+getting a dirty look right now anyway so
+
+---------00:24----------
+we're gonna go over what was wrong here
+
+---------00:26----------
+first thing I'm gonna do is going to
+
+---------00:27----------
+show you what it is that we actually
+
+---------00:30----------
+soldered here
+
+---------00:31----------
+I call it current sensing somebody else
+
+---------00:34----------
+calls it common-sense which is actually
+
+---------00:36----------
+pretty cool things learning is occurring
+
+---------00:38----------
+here so we're gonna flow this under the
+
+---------00:41----------
+microscope and see so it hasn't gotten
+
+---------00:44----------
+cleaned yet so there's a little wire
+
+---------00:46----------
+that's run here and this is an important
+
+---------00:48----------
+one because we used to outsource this
+
+---------00:49----------
+type of business to this terrible well
+
+---------00:52----------
+used to be great company that now I
+
+---------00:54----------
+don't do business with anymore because
+
+---------00:56----------
+again the board repairs would always
+
+---------00:58----------
+come back they wouldn't work the parts
+
+---------01:01----------
+would have liquid damage we're currently
+
+---------01:02----------
+I'm confident that the people who watch
+
+---------01:04----------
+this channel are going to hear from that
+
+---------01:06----------
+person eventually because my resolution
+
+---------01:09----------
+to this set was pretty much you want me
+
+---------01:12----------
+to pay you this much money you I kind of
+
+---------01:16----------
+want to pay you this much money let's
+
+---------01:18----------
+meet somewhere in the middle since a lot
+
+---------01:20----------
+of your never actually worked and
+
+---------01:22----------
+you never took it back but that's a
+
+---------01:23----------
+story for another video
+
+---------01:24----------
+so anyway point here is what what this
+
+---------01:27----------
+what this place would often do and again
+
+---------01:29----------
+the entire idea behind this board repair
+
+---------01:31----------
+series was them allow you guys to be
+
+---------01:33----------
+independent from and to take
+
+---------01:35----------
+your money and send you non-working
+
+---------01:36----------
+so what they used to do with something
+
+---------01:38----------
+like this so they used to replace this
+
+---------01:40----------
+chip when this chip was bad you've seen
+
+---------01:42----------
+me replace in the is L six two five nine
+
+---------01:43----------
+the buck converter chip the buck
+
+---------01:46----------
+converter controller chip in many videos
+
+---------01:48----------
+so well I they used to do is they able
+
+---------01:51----------
+to place the chip and they've replaced
+
+---------01:53----------
+the resistor around it but they wouldn't
+
+---------01:55----------
+do anything about the pathway between
+
+---------01:56----------
+the resistors and the chip so what would
+
+---------01:57----------
+happen it would work for them and then
+
+---------01:59----------
+that little stain of a wire
+
+---------02:01----------
+would wind up coming back here broken
+
+---------02:03----------
+you know they like it jostle doubt just
+
+---------02:06----------
+from shipping their little piece of ash
+
+---------02:08----------
+or corroded crap would break and it
+
+---------02:11----------
+wouldn't charge or whatever quarter fan
+
+---------02:12----------
+spin or it wouldn't work and you know
+
+---------02:14----------
+what the customer would say I'm not
+
+---------02:16----------
+gonna give you another week with my
+
+---------02:17----------
+computer they would take it back I
+
+---------02:19----------
+wouldn't get credit for it and blah blah
+
+---------02:20----------
+blah but hopefully from watching this
+
+---------02:22----------
+channel you're gonna learn to avoid that
+
+---------02:24----------
+ so what this is over here is
+
+---------02:26----------
+a current sensing circuit so the whole
+
+---------02:28----------
+idea here is that you have just open up
+
+---------02:31----------
+the actual schematic so that you can see
+
+---------02:32----------
+what I'm talking about because that's
+
+---------02:33----------
+where this is gonna make a lot more
+
+---------02:35----------
+sense so we open up the schematic now
+
+---------02:38----------
+over here you have a current sensing
+
+---------02:39----------
+circuit so one of the things we're gonna
+
+---------02:40----------
+do here is I'm not only gonna go over
+
+---------02:41----------
+what a current sensing circuit is we're
+
+---------02:43----------
+also gonna go over what Apple could have
+
+---------02:45----------
+actually done to prevent this problem
+
+---------02:46----------
+from happening because the problem that
+
+---------02:47----------
+happened with this computer is not a
+
+---------02:49----------
+problem that should have ever actually
+
+---------02:50----------
+occurred now whole way a current sensing
+
+---------02:53----------
+circuit works is it's going to try to
+
+---------02:55----------
+tell how much current or wattage the
+
+---------02:57----------
+system is actually using so this chip
+
+---------03:00----------
+over here the ISL six two five nine that
+
+---------03:02----------
+controls the charger in the battery it
+
+---------03:04----------
+is not actually in the stream so it's
+
+---------03:06----------
+not it for example if you want to tell
+
+---------03:08----------
+how fast current is moving through a
+
+---------03:09----------
+stream you're gonna put your hand in the
+
+---------03:11----------
+stream and you're gonna feel how fast
+
+---------03:12----------
+the water is passing through it if the
+
+---------03:14----------
+water is not passing through very hard
+
+---------03:15----------
+you're gonna feel on your hands the
+
+---------03:17----------
+waters not moving if you're at Niagara
+
+---------03:18----------
+Falls and you put your hand in you'll
+
+---------03:20----------
+feel the water is moving really really
+
+---------03:21----------
+quickly but you have to have your hand
+
+---------03:24----------
+in the stream to tell that now let's say
+
+---------03:25----------
+you're not right by the water let's say
+
+---------03:27----------
+you're behind the fence you're behind
+
+---------03:28----------
+that fence at Niagara Falls that
+
+---------03:30----------
+separates you from the water so that you
+
+---------03:32----------
+don't kill yourself you're not gonna be
+
+---------03:33----------
+able to tell how much current is going
+
+---------03:35----------
+through the string so what you may do is
+
+---------03:36----------
+you may send your friend down there to
+
+---------03:38----------
+put his hands in the stream and tell you
+
+---------03:40----------
+how fast the water is moving and that's
+
+---------03:42----------
+exactly what we're doing over here so
+
+---------03:44----------
+this is me behind the fence this over
+
+---------03:46----------
+here is going to be the Niagara Falls
+
+---------03:48----------
+and this resistor is going to be my
+
+---------03:50----------
+friend who's in the stream so we have
+
+---------03:52----------
+the charging power this is the charger
+
+---------03:54----------
+power going through the top of the
+
+---------03:55----------
+circuit over here and it's going to go
+
+---------03:57----------
+through this resistor now resistors
+
+---------03:59----------
+don't have a voltage drop resistors are
+
+---------04:01----------
+gonna have the same voltage in one side
+
+---------04:02----------
+as the other if it's just in a circuit
+
+---------04:04----------
+the thing is this specific type of
+
+---------04:06----------
+resistor in this specific type of
+
+---------04:07----------
+circuit it's gonna have a really really
+
+---------04:08----------
+small voltage drop it's gonna be very
+
+---------04:10----------
+very negligible it's gonna be like
+
+---------04:12----------
+0.0001 volts or whatever but the
+
+---------04:15----------
+important thing is that the voltage drop
+
+---------04:16----------
+in the circuit is going to be
+
+---------04:18----------
+proportional to the amount of current
+
+---------04:20----------
+the system is using so the voltage drop
+
+---------04:22----------
+will be greater if the system is using
+
+---------04:24----------
+five amps then it will be if the system
+
+---------04:26----------
+was using let's say a quarter of an amp
+
+---------04:28----------
+now what is happening over here is that
+
+---------04:30----------
+the is L six two five nine chip this is
+
+---------04:33----------
+communicating with this current sensing
+
+---------04:35----------
+resistor so what it's doing is it's
+
+---------04:36----------
+reading the voltage at the top and the
+
+---------04:38----------
+bottom so the whole idea here is the
+
+---------04:40----------
+this chip is going to read the voltage
+
+---------04:42----------
+at the top in the bottom of that
+
+---------04:43----------
+resistor so that it knows what the
+
+---------04:45----------
+voltage drop is so it's gonna be able to
+
+---------04:47----------
+tell okay you have 12 volts at the top
+
+---------04:49----------
+of that resistor and you have eleven
+
+---------04:50----------
+point nine volts at the bottom of it so
+
+---------04:52----------
+there's a zero point 1 volt difference
+
+---------04:54----------
+and inside this chip there's a table of
+
+---------04:56----------
+values so what's gonna say okay I see a
+
+---------04:58----------
+point 1 voltage drop that means that the
+
+---------05:00----------
+computer is using 3 amps so some
+
+---------05:02----------
+Engineer actually sat here at some point
+
+---------05:04----------
+measuring exactly what the voltage drop
+
+---------05:06----------
+would be across that resistor depending
+
+---------05:08----------
+on how much amperage the computer is
+
+---------05:10----------
+using and after they measured all that
+
+---------05:11----------
+they programmed it into this chip I
+
+---------05:13----------
+don't know exactly how that's programmed
+
+---------05:15----------
+I'm that's not what we're getting into
+
+---------05:17----------
+in this video we're not engineers we're
+
+---------05:18----------
+just Troubleshooters we're trying to
+
+---------05:19----------
+figure out why something's not working
+
+---------05:20----------
+now the whole idea behind how this works
+
+---------05:22----------
+is it's going to measure the voltage
+
+---------05:23----------
+drop from the top to the bottom so let's
+
+---------05:25----------
+say that you have 12 volts at the top 12
+
+---------05:27----------
+point 6 volts and at the bottom of it
+
+---------05:29----------
+you have 12 point five nine 9 it's going
+
+---------05:31----------
+to think man the computer is not really
+
+---------05:32----------
+using a lot of energy if it sees 12
+
+---------05:34----------
+point 6 volts at the top and then it
+
+---------05:35----------
+sees 12 point five five zero it's gonna
+
+---------05:39----------
+sing the computer is using a little more
+
+---------05:40----------
+energy now what do you think is gonna
+
+---------05:41----------
+happen if one of these resistors blows
+
+---------05:43----------
+or the pathway blows between the chip
+
+---------05:46----------
+and the resistor what do you think's
+
+---------05:47----------
+gonna happen if one of those resistors
+
+---------05:48----------
+blows if one of those resistors blows or
+
+---------05:50----------
+the pathway blows now it's going to
+
+---------05:52----------
+think that okay I got twelve point six
+
+---------05:54----------
+in the top here and I have zero on the
+
+---------05:56----------
+bottom there so it's gonna think that
+
+---------05:58----------
+the computer is using millions and
+
+---------06:00----------
+millions of watts when it's not using
+
+---------06:02----------
+millions and millions of watts
+
+---------06:03----------
+and when even the computer is gonna do
+
+---------06:05----------
+it thinks it's using millions of watts
+
+---------06:06----------
+it's gonna turn on and then a split
+
+---------06:09----------
+second later once it detects the current
+
+---------06:10----------
+it is going to shut off so you're going
+
+---------06:12----------
+to get the most dreaded problem that you
+
+---------06:14----------
+have on a Macbook motherboard which is
+
+---------06:15----------
+quarter fan span where the fan goes and
+
+---------06:17----------
+then just turns off which is a complete
+
+---------06:20----------
+ nightmare so what happened on
+
+---------06:23----------
+this board is that we had a quarter fan
+
+---------06:26----------
+span issue because this resistor over
+
+---------06:29----------
+here was working but the pathway between
+
+---------06:31----------
+that resistor and the actual chip itself
+
+---------06:33----------
+was bad so going back over here to the
+
+---------06:35----------
+schematic are 70 51 was good this went
+
+---------06:38----------
+to here this had to point to ohms
+
+---------06:41----------
+across to here but there was no
+
+---------06:44----------
+continuity between this resistor and
+
+---------06:47----------
+this actual pin and now here's how this
+
+---------06:50----------
+problem could have been prevented here's
+
+---------06:52----------
+why this happened in the first place you
+
+---------06:53----------
+may be wondering
+
+---------06:54----------
+as a battery current sensing issue take
+
+---------06:56----------
+place when I have the battery unplugged
+
+---------06:57----------
+because in the beginning I had the
+
+---------06:59----------
+battery unplugged while I was working on
+
+---------07:00----------
+this machine well here is what happens
+
+---------07:03----------
+so you have this buck converter here
+
+---------07:05----------
+taking 18 volts from the charger and
+
+---------07:07----------
+turning it into 12 volts for the system
+
+---------07:09----------
+and it's going to show up over here that
+
+---------07:11----------
+means it's going to show up here here
+
+---------07:12----------
+here because that's all connected by a
+
+---------07:14----------
+line here and then here this is where
+
+---------07:17----------
+the battery is coming from the battery
+
+---------07:18----------
+and this is also where the charger power
+
+---------07:20----------
+is coming through to charge the battery
+
+---------07:21----------
+over here so you have your current
+
+---------07:23----------
+sensing resistor right here now that
+
+---------07:26----------
+means that you're gonna have 12 volts
+
+---------07:28----------
+here 12 volts there which means you're
+
+---------07:31----------
+gonna have 12 volts here and 12 volts
+
+---------07:33----------
+there and if this resistor is bad or
+
+---------07:35----------
+this pathway is blown even though the
+
+---------07:37----------
+battery is not plugged in the battery
+
+---------07:38----------
+current sensing circuits gonna be going
+
+---------07:40----------
+which means that you're gonna see 12
+
+---------07:42----------
+volts here or 12 volts here and then 0
+
+---------07:44----------
+volts over here so what's going to think
+
+---------07:47----------
+that this is not working the way it
+
+---------07:49----------
+should now what you could do to make
+
+---------07:51----------
+this a little smarter is you could put
+
+---------07:53----------
+the current sensing resistor in the
+
+---------07:55----------
+current sensing circuit behind over here
+
+---------07:57----------
+so that you're not you're not really
+
+---------07:59----------
+gonna see that if if the battery if it's
+
+---------08:03----------
+not being told charge the battery or
+
+---------08:05----------
+work off the battery but instead of
+
+---------08:07----------
+having this current sensing resistor
+
+---------08:09----------
+over here you had it over here and you
+
+---------08:12----------
+know I always just kind of be curious
+
+---------08:14----------
+how the system would work if I actually
+
+---------08:15----------
+rewired it and rerigged it so that this
+
+---------08:17----------
+was over here instead of over here what
+
+---------08:20----------
+if what I still have the same problem
+
+---------08:21----------
+because again why is battery current
+
+---------08:23----------
+sensing issue why is a battery current
+
+---------08:25----------
+sensing issue keeping the machine from
+
+---------08:27----------
+turning on when I don't I didn't have a
+
+---------08:30----------
+battery plugged into the computer it's
+
+---------08:32----------
+because that battery current sensing
+
+---------08:33----------
+circuit is still actually in the circuit
+
+---------08:35----------
+even when you're using just a charger
+
+---------08:37----------
+but again all you have to do is look and
+
+---------08:40----------
+run a wire again the thing that you
+
+---------08:42----------
+really really really kills me and
+
+---------08:44----------
+again I'm gonna clean this it's gonna go
+
+---------08:46----------
+through the ultrasonic so if you're a
+
+---------08:47----------
+troll about that just just GTFO but what
+
+---------08:51----------
+really kills me is when a company will
+
+---------08:53----------
+say that doesn't look good let's replace
+
+---------08:54----------
+that and we'll even if they're feeling
+
+---------08:57----------
+great though replace to resist it nobody
+
+---------09:00----------
+checks the pathway if you don't check
+
+---------09:02----------
+the pathway if the pathway looks like
+
+---------09:04----------
+complete crap what do you think is going
+
+---------09:07----------
+to happen when
+
+---------09:08----------
+gets back to the customer what do you
+
+---------09:10----------
+think is gonna happen when that machine
+
+---------09:11----------
+makes its way back from your country to
+
+---------09:13----------
+theirs from your state so there is it's
+
+---------09:15----------
+it's going to fail
+
+---------09:17----------
+you you tap the board like this and that
+
+---------09:19----------
+little little truth like stain of a
+
+---------09:22----------
+trace that's made of little ashes is
+
+---------09:24----------
+going to disintegrate and die and it
+
+---------09:27----------
+won't work but it will work if you do
+
+---------09:29----------
+this stuff properly and this is this is
+
+---------09:31----------
+the this is the stupid kind of
+
+---------09:33----------
+ that I was dealing with for
+
+---------09:35----------
+years and years and years on end when I
+
+---------09:38----------
+was outsourcing this type of stuff to
+
+---------09:40----------
+other companies and any anagen here's
+
+---------09:42----------
+the I talked about this in one of the
+
+---------09:44----------
+employee videos about excuses here's the
+
+---------09:46----------
+thing with that if you don't know how to
+
+---------09:49----------
+do the work that your employees are
+
+---------09:50----------
+doing you're always going to be
+
+---------09:53----------
+vulnerable to to them making things up
+
+---------09:55----------
+because it's gonna sound plausible so if
+
+---------09:58----------
+somebody says that you know this job is
+
+---------10:00----------
+supposed to take five hours this is what
+
+---------10:03----------
+I have to do look at how hard it is then
+
+---------10:05----------
+you as somebody who doesn't really know
+
+---------10:07----------
+how to do that may go I understand but
+
+---------10:09----------
+then if you do that exact same job and
+
+---------10:11----------
+then you realize I did that job in five
+
+---------10:14----------
+minutes and I cut no corners even though
+
+---------10:16----------
+it looked hard then you'll understand
+
+---------10:18----------
+that person's full of and and I was
+
+---------10:22----------
+in the same in the same position when I
+
+---------10:23----------
+looked at the stuff that this person did
+
+---------10:25----------
+you have to keep in mind that my history
+
+---------10:27----------
+my history is was with game consoles
+
+---------10:30----------
+when I was nine years old working on you
+
+---------10:32----------
+know modding the original PlayStation
+
+---------10:33----------
+and after that was advanced
+
+---------10:35----------
+troubleshooting in least in circuits but
+
+---------10:38----------
+of audio gear so amplifiers tape
+
+---------10:41----------
+machines consoles equalizers compressors
+
+---------10:46----------
+1951 to 1988 I mean 1951 to 1988 was
+
+---------10:52----------
+that was the range I mean surface-mount
+
+---------10:55----------
+was not there yet I didn't open anything
+
+---------10:57----------
+that actually had surface mount
+
+---------10:59----------
+technology on it so it was a really
+
+---------11:00----------
+different world so when I was looking at
+
+---------11:02----------
+the stuff this person and their staff
+
+---------11:04----------
+was doing I was just thinking to myself
+
+---------11:05----------
+you know I'm never gonna figure this out
+
+---------11:07----------
+this is impossible but then when you
+
+---------11:09----------
+actually get to the point of figuring
+
+---------11:10----------
+that stuff out and you realize how to do
+
+---------11:12----------
+it and then you go and then I go back
+
+---------11:13----------
+and I listen to all I just read all
+
+---------11:15----------
+these excuses and all this and
+
+---------11:18----------
+all of this you know oh yeah if you have
+
+---------11:21----------
+a
+
+---------11:21----------
+Jean that is a retina or an air and you
+
+---------11:23----------
+have to change the bios it's going to
+
+---------11:26----------
+run slow it's it's gonna run slow
+
+---------11:28----------
+because you guys are idiots who don't
+
+---------11:29----------
+know what an Emmy region is it's not
+
+---------11:31----------
+gonna run slow because it's opposed to
+
+---------11:33----------
+it's not that Oh a wire may have fell
+
+---------11:36----------
+off during shipping or oh you may have
+
+---------11:38----------
+broke into putting into the machine no
+
+---------11:40----------
+it's that you didn't check the
+
+---------11:42----------
+video or the trace right next to
+
+---------11:44----------
+the liquid damage chip before you send
+
+---------11:46----------
+it back here because that saves you one
+
+---------11:49----------
+or ten seconds and it's laziness I used
+
+---------11:53----------
+to get tribute that to it being really
+
+---------11:54----------
+really difficult and really really hard
+
+---------11:56----------
+to figure out now as somebody who knows
+
+---------11:58----------
+it now I can attribute it to laziness
+
+---------11:59----------
+but you have to kind of know it in order
+
+---------12:01----------
+to know if the person who's making up
+
+---------12:02----------
+the excuse full of and that's that
+

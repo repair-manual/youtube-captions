@@ -1,0 +1,1087 @@
+https://www.youtube.com/watch?v=PDKlWu1eDFA
+---------00:00----------
+so today we're going to be working on
+
+---------00:01----------
+another MacBook let's open up this
+
+---------00:03----------
+MacBook and see if it can be fixed this
+
+---------00:05----------
+is an a 1708 MacBook non touch bar USB
+
+---------00:08----------
+see model that is not turning on if
+
+---------00:11----------
+you're looking for some complete
+
+---------00:12----------
+disrespect
+
+---------00:14----------
+check out this screen here you can buy a
+
+---------00:19----------
+screen for an a 1150 or a 12-11 MacBook
+
+---------00:21----------
+Pro a perfect birthday present for a
+
+---------00:24----------
+friend or significant other we want to
+
+---------00:26----------
+fluorescently backlit screen that has a
+
+---------00:27----------
+property ID code so they're a eleven
+
+---------00:29----------
+fifty or a twelve eleven ATI Radeon X
+
+---------00:31----------
+1600 based MacBook can have a proper
+
+---------00:33----------
+screen again it'll be signed with a
+
+---------00:36----------
+loving message from Luis Rosberg may or
+
+---------00:39----------
+may not include lyrics to hit tools
+
+---------00:41----------
+message to Harry man back the first
+
+---------00:43----------
+thing we to do here is unplug the
+
+---------00:44----------
+battery because the battery is going to
+
+---------00:47----------
+take a different amount of amperage
+
+---------00:49----------
+depending on how charges which is going
+
+---------00:51----------
+to mess up my readings so the first
+
+---------00:53----------
+thing that I do when I'm diagnosing this
+
+---------00:54----------
+is I plug it in to the charger and then
+
+---------00:57----------
+with this little USB C amp meter and
+
+---------00:59----------
+this is going to tell me how much power
+
+---------01:00----------
+the board is taking but if the board is
+
+---------01:02----------
+also delivering power to the battery
+
+---------01:03----------
+then we're going to have two separate
+
+---------01:05----------
+variables that we're measuring at the
+
+---------01:06----------
+same time which means we're actually
+
+---------01:07----------
+measuring nothing I want to know how
+
+---------01:09----------
+much power the board is taking by itself
+
+---------01:11----------
+not the board plus the battery so this
+
+---------01:14----------
+board is able to make its way to 20
+
+---------01:15----------
+volts which means the cd32 15 ships are
+
+---------01:18----------
+communicating with a charger on these
+
+---------01:20----------
+machines the cd32 15 ships are the USBC
+
+---------01:22----------
+muxes they need to communicate with the
+
+---------01:24----------
+charger in order to tell the charger I'm
+
+---------01:26----------
+not a cell phone I'm a momma go pro I'm
+
+---------01:28----------
+a MacBook
+
+---------01:29----------
+I want 20 volts not 5 and that's clearly
+
+---------01:33----------
+being done but the zero amp draw means
+
+---------01:35----------
+that either our power rules are not
+
+---------01:36----------
+being told to come on or there is a dead
+
+---------01:38----------
+short circuit that's and one of the
+
+---------01:40----------
+chips is noticing that there's a dead
+
+---------01:41----------
+short circuit in deciding not to create
+
+---------01:43----------
+a new power for the machine the only way
+
+---------01:45----------
+to figure that out would be to take this
+
+---------01:46----------
+board out of the case and go from there
+
+---------01:48----------
+alright so the first thing we're gonna
+
+---------01:49----------
+check is our pp bus now PP 3v3
+
+---------01:51----------
+undersquare g3 Honda's the first rail we
+
+---------01:53----------
+need for this to work however we already
+
+---------01:55----------
+have that because we're getting 20 volts
+
+---------01:57----------
+in the charger in order get 20 volts in
+
+---------01:58----------
+the charger these two chips need to be
+
+---------02:00----------
+able to communicate with the charger and
+
+---------02:01----------
+these two chips are powered by PP 3 V 3
+
+---------02:02----------
+and R squared u 3 dots we have that so
+
+---------02:04----------
+the first row we're gonna check and see
+
+---------02:05----------
+if we have PP bus g3 huh cause that's
+
+---------02:06----------
+the rail that everything else going to
+
+---------02:07----------
+create it from and down here we take a
+
+---------02:09----------
+look and we see that we've got 0
+
+---------02:11----------
+and zero volts now we're gonna do is are
+
+---------02:13----------
+gonna see if we have a short to ground
+
+---------02:14----------
+on our pp bus point 5 ohms so now before
+
+---------02:21----------
+we go crazy trying to figure out you
+
+---------02:24----------
+know if there's a short that we can
+
+---------02:27----------
+detect on thermal camera I just want to
+
+---------02:28----------
+look at the board itself and see if
+
+---------02:30----------
+there's anything obvious because if
+
+---------02:31----------
+there's an obvious thing that's causing
+
+---------02:32----------
+the short-circuit like let's say a
+
+---------02:34----------
+capacitor that's clearly exploded that
+
+---------02:36----------
+saves me a step of having to go back to
+
+---------02:37----------
+the office and steals thermal camera and
+
+---------02:39----------
+plug it in and all that good stuff so
+
+---------02:41----------
+we're gonna turn on our good old
+
+---------02:43----------
+handy-dandy microscope camera which I am
+
+---------02:47----------
+very happy to have this is the last one
+
+---------02:49----------
+that I can find has this tubes see this
+
+---------02:51----------
+if you buy any other camera from AM
+
+---------02:54----------
+scope or Oh mono at the microscope calm
+
+---------02:56----------
+or AM scope at any other company it is
+
+---------02:58----------
+that really long microscope tube try on
+
+---------03:01----------
+the trinocular port and it sucks the
+
+---------03:03----------
+image quality is getting it has the
+
+---------03:05----------
+chromatic abrasions it's it's out of
+
+---------03:06----------
+focus and certain areas are not and
+
+---------03:08----------
+others just it's not the same as this
+
+---------03:11----------
+I've tried so many things to get it good
+
+---------03:12----------
+this is beautiful I love this one
+
+---------03:14----------
+but this one will not fit on the newer
+
+---------03:16----------
+microscopes that I get from them even if
+
+---------03:18----------
+the same model this one over here
+
+---------03:19----------
+beautiful one of a kind
+
+---------03:22----------
+I'm never letting Kevin let somebody
+
+---------03:24----------
+steal this never never it's my
+
+---------03:28----------
+microscope camera ok I cannot see any
+
+---------03:30----------
+obviously exploded capacitor or IC hmm
+
+---------03:40----------
+yeah that's not
+
+---------03:54----------
+all right now though Thank You Nash for
+
+---------03:56----------
+the $5 by the way I have several air
+
+---------04:00----------
+purifiers actually I have I have two
+
+---------04:03----------
+alive air purifiers and two other ones
+
+---------04:05----------
+in the store and I change them as often
+
+---------04:07----------
+as I can
+
+---------04:08----------
+the thing is I don't know where the dead
+
+---------04:10----------
+rat smell is coming from and now have
+
+---------04:17----------
+you found where the dead rat smell is
+
+---------04:18----------
+coming from
+
+---------04:21----------
+yeah can you perhaps figure out where
+
+---------04:23----------
+that can you find the dead rat and know
+
+---------04:30----------
+what if it's not here but it's there's
+
+---------04:33----------
+somebody a homeless man died in the
+
+---------04:35----------
+basement no cuz that's happened to me
+
+---------04:37----------
+before not the homeless man dying in the
+
+---------04:38----------
+basement did I ever tell you that the
+
+---------04:41----------
+basement story all right so there was a
+
+---------04:43----------
+so I went downstairs and I had this
+
+---------04:46----------
+thing open and had the gate open let it
+
+---------04:47----------
+started to stream and I noticed oh crap
+
+---------04:48----------
+the basements open I lock it and then I
+
+---------04:50----------
+come back out about 4 or 5 hours later
+
+---------04:52----------
+when I'm done with a long stream and
+
+---------04:53----------
+then and I hear banging and then I open
+
+---------04:56----------
+it's like you locked me down then I said
+
+---------04:57----------
+you broke into my [ __ ] basement
+
+---------04:58----------
+[ __ ]
+
+---------04:59----------
+III don't check my basement to see if
+
+---------05:02----------
+there's a homeless man sleeping in it
+
+---------05:03----------
+hope you there's a seam there Oreo does
+
+---------05:06----------
+I tell him don't go in the closet don't
+
+---------05:07----------
+go in the closet I open the closet to
+
+---------05:09----------
+get my jacket you runs in I closed the
+
+---------05:10----------
+door and then I kept that come home and
+
+---------05:12----------
+he's going oh oh oh it's like you
+
+---------05:14----------
+[ __ ] [ __ ] I told you not to go in
+
+---------05:16----------
+the closet we've been over this every
+
+---------05:17----------
+single day for two years but yeah so
+
+---------05:21----------
+just make sure there's no homeless
+
+---------05:22----------
+person down there also take a box cutter
+
+---------05:23----------
+with you in case the homeless person
+
+---------05:25----------
+down there as a weapon or at least a
+
+---------05:28----------
+nice sharp set of tweezers
+
+---------05:37----------
+and I was a trooper all right so I'm not
+
+---------05:40----------
+finding anything obvious on here so
+
+---------05:41----------
+we're gonna turn on the power supply
+
+---------05:42----------
+that I fixed the other day had to make
+
+---------05:44----------
+sure to make my credibility back from
+
+---------05:46----------
+that little Internet where were your
+
+---------05:48----------
+[ __ ] that said I don't have
+
+---------05:50----------
+credibility because I don't know
+
+---------05:52----------
+everything so we fixed that power supply
+
+---------05:53----------
+in the proper manner no I am going to
+
+---------05:56----------
+put that on my board I'm gonna put a
+
+---------05:57----------
+volt into the gonna put one volt into PP
+
+---------06:01----------
+bus and see what comes out actually one
+
+---------06:04----------
+thing we can do so check this out this
+
+---------06:06----------
+is a good trick so I only invited 2.8
+
+---------06:08----------
+volts into that which even if the CPU
+
+---------06:09----------
+MOSFET was short it would be fine so I'm
+
+---------06:12----------
+gonna check my resistance between my PP
+
+---------06:16----------
+buzz g3 hot and my CPU coils so remember
+
+---------06:24----------
+so 3.6 ohms to ground so remember TP
+
+---------06:27----------
+pressure short it's a crown cpu v core
+
+---------06:30----------
+is always going to be a very low
+
+---------06:31----------
+resistance to ground but at least it's
+
+---------06:32----------
+high enough that I don't think it's
+
+---------06:34----------
+something too terrible 3.6 ohms is good
+
+---------06:36----------
+so we're not directly shorted so if that
+
+---------06:39----------
+was zero then I would say CPU MOSFETs
+
+---------06:41----------
+are what is short it's pp bus and that's
+
+---------06:43----------
+what's causing our issue but it's not
+
+---------06:45----------
+now I don't feel like walking to the
+
+---------06:46----------
+back of the store to get the the thermal
+
+---------06:50----------
+cam I'm being really lazy so what I'm
+
+---------06:55----------
+gonna do is you know
+
+---------07:07----------
+how come you don't work in the back of
+
+---------07:08----------
+the store because I don't that's because
+
+---------07:12----------
+I don't because I work up here
+
+---------07:15----------
+that's why okay so anything obviously
+
+---------07:21----------
+shortened oh I see smoke really pretty
+
+---------07:28----------
+small look at that see compact pro
+
+---------07:33----------
+requires no walking to the back yeah but
+
+---------07:39----------
+that requires money
+
+---------07:41----------
+I broke I spent all my money on data
+
+---------07:44----------
+recovery stuff no more money I'm out of
+
+---------07:48----------
+money
+
+---------07:49----------
+okay which one of these caps is it I'm
+
+---------07:52----------
+pretty sure that it's the one all the
+
+---------07:53----------
+way on the right because if you notice
+
+---------07:56----------
+the capacitor all the way on the right
+
+---------07:57----------
+is the one that has no like liquid on it
+
+---------08:00----------
+so every time I do this the liquid heats
+
+---------08:02----------
+away from those caps but it's totally
+
+---------08:04----------
+gone from this one so here we're going
+
+---------08:09----------
+to see how the taught tweezers are at
+
+---------08:11----------
+fixing that
+
+---------08:13----------
+[Music]
+
+---------08:15----------
+turn off the voltage and let's see how
+
+---------08:19----------
+long it takes I'm gonna school so the
+
+---------08:21----------
+tweezers just beeped I'm holding it up
+
+---------08:22----------
+like this let's see how long it takes
+
+---------08:24----------
+for the cats come off in the board to
+
+---------08:25----------
+drop one two three four five six seven
+
+---------08:33----------
+eight nine ten this is one of the
+
+---------08:38----------
+reasons I hate hot tweezers look at the
+
+---------08:39----------
+sweeps
+
+---------08:40----------
+one two three four useless piece of [ __ ]
+
+---------08:49----------
+how the [ __ ] is Jessie used those is
+
+---------08:51----------
+beyond me aha tweezers and you may say
+
+---------08:55----------
+that's a big component point taken it
+
+---------08:57----------
+does that even with zero four zero two
+
+---------08:58----------
+as it drives me up a [ __ ] wall
+
+---------09:12----------
+and one to yank
+
+---------09:21----------
+Spock ha geezers
+
+---------09:24----------
+[Music]
+
+---------09:32----------
+alright you got the rest of that
+
+---------09:34----------
+capacitor that I knocked off over there
+
+---------09:38----------
+and we got rid of any of the junk left
+
+---------09:40----------
+over on the pad now we get as long as a
+
+---------09:50----------
+donor board and replace that capacitor
+
+---------09:53----------
+with a better one well feel happier more
+
+---------10:01----------
+products the Loess upgrade to thread
+
+---------10:03----------
+ripper - are you effing kidding it spent
+
+---------10:05----------
+3000 bucks on this one already
+
+---------10:07----------
+hell no I wasn't spending three or four
+
+---------10:10----------
+hundred dollars on water cooling that
+
+---------10:11----------
+actually worked now this system is far
+
+---------10:15----------
+too high-end already now it gets twenty
+
+---------10:17----------
+five thousand and twenty six thousand on
+
+---------10:19----------
+CPU benchmark so if you got a CPU
+
+---------10:20----------
+benchmarks website you'll see the my
+
+---------10:22----------
+thread Ripper 29 50 X 25 thousands for
+
+---------10:25----------
+my old machine it was a core i7 5820k or
+
+---------10:30----------
+57 20 or 50 930 I forget was the six
+
+---------10:34----------
+core 3.3 gigahertz hazlo whichever one
+
+---------10:36----------
+was in 64 3.3 two guards as well it was
+
+---------10:39----------
+about a 12 or a 13 thousand I think was
+
+---------10:41----------
+like 11 or 12 thousand on there so I
+
+---------10:43----------
+typically do not upgrade my CPU until
+
+---------10:46----------
+the score on CPU benchmark is a full
+
+---------10:49----------
+double of what it was in the old one
+
+---------10:50----------
+because if it's not twice as fast then
+
+---------10:53----------
+I'm putting a lot of effort in a lot of
+
+---------10:54----------
+time and a lot of money into it for no
+
+---------10:56----------
+reason
+
+---------10:57----------
+that's why I really don't get people
+
+---------10:59----------
+that are constantly at constantly
+
+---------11:00----------
+upgrading this they're always looking at
+
+---------11:04----------
+these benchmarks all the time because
+
+---------11:05----------
+there was there was a time where every
+
+---------11:07----------
+in a year to 18 months you were getting
+
+---------11:09----------
+some genuine really cool improvements
+
+---------11:11----------
+and now that just doesn't exist anymore
+
+---------11:14----------
+you know you can it it took five years
+
+---------11:17----------
+after I bought that processor to get
+
+---------11:20----------
+twice the performance and you have to
+
+---------11:22----------
+keep in mind that doubling of the
+
+---------11:23----------
+performance also came at three times the
+
+---------11:25----------
+price so my the six core has well 3.3
+
+---------11:28----------
+gigahertz that I got I bought that for
+
+---------11:31----------
+340 or $350 in free shipping at the time
+
+---------11:34----------
+whereas the thread Ripper it that one
+
+---------11:36----------
+cost me over
+
+---------11:37----------
+$900 so after five years you still had
+
+---------11:41----------
+to pay three times as much money than he
+
+---------11:42----------
+did five years ago in order to get twice
+
+---------11:45----------
+the performance so I'm not really
+
+---------11:48----------
+excited I don't know I'm not excited
+
+---------11:50----------
+about upgrading stuff at all
+
+---------11:51----------
+there's no real there's no reason for it
+
+---------11:56----------
+for the amount of money that you have to
+
+---------11:58----------
+spend to get an upgrade that way you're
+
+---------12:01----------
+really going to notice a genuine
+
+---------12:02----------
+difference you have to spend a stupid
+
+---------12:05----------
+amount of money now if there's some sort
+
+---------12:07----------
+of system out there where I could have
+
+---------12:08----------
+you know four Xeon CPUs and if I could
+
+---------12:11----------
+have four Xeon CPUs in one machine then
+
+---------12:14----------
+sure I would do it you know if I had the
+
+---------12:17----------
+money to get four Xeon CPUs in one
+
+---------12:19----------
+computer then I could see you buy the
+
+---------12:21----------
+best Xeon there is you buy four of them
+
+---------12:22----------
+that's an upgrade pay this incremental
+
+---------12:25----------
+stuff like this there's no excitement
+
+---------12:27----------
+amazing I used to have a twenty five
+
+---------12:30----------
+thousand benchmark score and now I have
+
+---------12:32----------
+a twenty six thousand CPU benchmarks for
+
+---------12:35----------
+no no boring and as can be seen here it
+
+---------12:42----------
+is taking five hundred milliamps which
+
+---------12:44----------
+means it is turning on and working so it
+
+---------12:46----------
+just had one bad capacitor we were able
+
+---------12:48----------
+to find the short without use of the
+
+---------12:49----------
+thermal camera just by injecting voltage
+
+---------12:51----------
+using our power supply and I remember if
+
+---------12:53----------
+you do have a short circuit on P P bunch
+
+---------12:54----------
+d3 hot I would check if you have a short
+
+---------12:57----------
+circuit between TP h g3 hot and the
+
+---------12:59----------
+coils of any other other power supplies
+
+---------13:00----------
+the reason I would do that is let P P by
+
+---------13:02----------
+Z 3 hot is the power rail that is going
+
+---------13:04----------
+to be responsible for creating all the
+
+---------13:06----------
+other power L so these systems are gonna
+
+---------13:07----------
+have PP 5 vs 5 PP 5 vs 4 PP FIV s3 p p3
+
+---------13:11----------
+v 3s 3p B 3 B 3 s o P P 1 V ADA so if
+
+---------13:14----------
+you have the V core CPU v core so all
+
+---------13:16----------
+the main power rails in the Commission
+
+---------13:18----------
+are created using this line that is 12
+
+---------13:21----------
+volts so let's say one of the high side
+
+---------13:23----------
+MOSFETs that is the switching so it says
+
+---------13:25----------
+okay 12 volts now no 12 volts 12 volts
+
+---------13:27----------
+now no 12 volts 12 volts now no 12 volts
+
+---------13:29----------
+to create a smaller power line with the
+
+---------13:31----------
+5 volt to the 3 volt line let's say that
+
+---------13:33----------
+one of those is shorted so it's always
+
+---------13:36----------
+on you don't want to put voltage into
+
+---------13:39----------
+your pp bus which is 12 volts and if
+
+---------13:42----------
+your 12 volts is shorted to your 5 volt
+
+---------13:44----------
+line or your 3 volt line or your 1 ball
+
+---------13:45----------
+line because then whatever voltage you
+
+---------13:47----------
+inject it in is now going to be going
+
+---------13:49----------
+directly into
+
+---------13:51----------
+those lower rails which is why I stick
+
+---------13:53----------
+to a voltage that is lower than the
+
+---------13:54----------
+lowest rail when I'm injecting so even
+
+---------13:56----------
+though I do make that measurement to
+
+---------13:57----------
+make sure that my main power line my PP
+
+---------14:00----------
+much d3 hot is not shorted to any of the
+
+---------14:02----------
+other coils what I do is I also make
+
+---------14:05----------
+sure that the voltage and the power
+
+---------14:07----------
+supply is that of the lowest rail in the
+
+---------14:10----------
+machine so let's say CPU V core is 0.9
+
+---------14:12----------
+volts
+
+---------14:12----------
+just in case PP bus is shorting to
+
+---------14:14----------
+everything I make sure that I set the
+
+---------14:16----------
+power supply to point 8 volts and try to
+
+---------14:18----------
+find the short that way this way even if
+
+---------14:20----------
+I do a Mitch measurement or make a
+
+---------14:22----------
+mistake and pbht 3 hot it is shorted
+
+---------14:24----------
+through another power line or through
+
+---------14:26----------
+another FET I'm not skull-fucking the
+
+---------14:29----------
+entire machine so we just see if this
+
+---------14:32----------
+gives us a picture on the screen ok and
+
+---------14:34----------
+this light is actually blowing out the
+
+---------14:36----------
+light of the MacBook so you can't see
+
+---------14:38----------
+that there's a question mark folder
+
+---------14:39----------
+there see question mark folder and if I
+
+---------14:46----------
+booted into the operating system I'd be
+
+---------14:47----------
+able to raise the brightness so this
+
+---------14:49----------
+board has been fixed it just needed that
+
+---------14:51----------
+one little capacitor knocked off of the
+
+---------14:54----------
+board another machine saved from the
+
+---------14:56----------
+Genius Bar another machine saved from
+
+---------14:58----------
+the hands of this individual
+

@@ -1,0 +1,1138 @@
+https://www.youtube.com/watch?v=_LlSuV1JX_w
+---------00:00----------
+hi so today I'm gonna be going over an
+
+---------00:01----------
+eight to zero 3330 board that I already
+
+---------00:03----------
+fixed and as I said what the employees
+
+---------00:05----------
+not here I haven't really had the time
+
+---------00:06----------
+that I wanted to do the videos so in
+
+---------00:08----------
+order to get some of the board repairs
+
+---------00:10----------
+done I'm just doing some of them off
+
+---------00:11----------
+camera while the during the stores open
+
+---------00:14----------
+hours obviously I can't have a camcorder
+
+---------00:16----------
+here and talk during business hours
+
+---------00:17----------
+because it's hi how can I help you
+
+---------00:21----------
+hi how can I help you and it's just like
+
+---------00:23----------
+every five seconds as an interruption it
+
+---------00:25----------
+would be absolutely impossible so now
+
+---------00:27----------
+that that is over I want to talk a
+
+---------00:28----------
+little bit about what it is I did to fix
+
+---------00:30----------
+this board what was wrong with it and
+
+---------00:32----------
+you know what what happened what my
+
+---------00:35----------
+thought process was the entire time so
+
+---------00:38----------
+this board had a dcn board that was
+
+---------00:40----------
+completely destroyed let's see if I have
+
+---------00:43----------
+the original one just so that you can
+
+---------00:44----------
+get an idea of what that looked like
+
+---------00:46----------
+under the microscope here so let's just
+
+---------00:48----------
+get the DCN board under the microscope
+
+---------00:50----------
+so you can see what this thing looks
+
+---------00:51----------
+like it looks really really
+
+---------00:54----------
+really really badly that is yeah so when
+
+---------00:58----------
+you see a dcn board that looks like that
+
+---------01:00----------
+you should know that you're in for some
+
+---------01:01----------
+board damage so the first thing that was
+
+---------01:03----------
+wrong on this board was that the DCN
+
+---------01:05----------
+board fuse was destroyed so this never
+
+---------01:08----------
+gets destroyed I knew I was in some for
+
+---------01:09----------
+some fun after this because I replaced
+
+---------01:11----------
+maybe two of these in years so that is
+
+---------01:14----------
+the DCN board fuse poorly Enfocus
+
+---------01:17----------
+surrounded by the flux that I forgot to
+
+---------01:19----------
+clean away now let's just show you what
+
+---------01:22----------
+that is on the schematic over here so
+
+---------01:24----------
+let's go over to schematic this is for
+
+---------01:28----------
+the eight to zero 3330 motherboard PPD
+
+---------01:32----------
+soon
+
+---------01:44----------
+okay let's see what the name of that
+
+---------01:45----------
+fuse is that I replaced here you are
+
+---------01:49----------
+bored
+
+---------01:50----------
+yes there you are there you are
+
+---------01:57----------
+okay so f6 905 is what I replaced f6 905
+
+---------02:03----------
+now I replace this in a head continuity
+
+---------02:05----------
+but I still wasn't getting power through
+
+---------02:06----------
+the entire machine so what I did is I
+
+---------02:09----------
+replaced the inrush limiter let me show
+
+---------02:11----------
+you that so the charger power after
+
+---------02:14----------
+there the charger power goes over here
+
+---------02:18----------
+see this page this is charger power
+
+---------02:20----------
+coming in its gonna go through this
+
+---------02:22----------
+transistor it's going to go through this
+
+---------02:24----------
+current sensing resistor and then this
+
+---------02:27----------
+buck converter over here is going to
+
+---------02:28----------
+turn that 18 volts of charger voltage
+
+---------02:31----------
+into 12 point 6 volts for the machine
+
+---------02:33----------
+over here now the problem is is that
+
+---------02:36----------
+this you know I replace this and I start
+
+---------02:40----------
+getting power but I'm only getting one
+
+---------02:41----------
+volt out on the outside of this so I get
+
+---------02:44----------
+16 volts going into it I have one volt
+
+---------02:46----------
+on the other side of it which means that
+
+---------02:47----------
+something is wrong over here so here's
+
+---------02:49----------
+what I did to do is whether or not I had
+
+---------02:51----------
+additional problems or whether or not
+
+---------02:53----------
+this dual MOSFET thingy over here was
+
+---------02:56----------
+bad so if you google this and you look
+
+---------02:59----------
+it up you'll see that these are two P
+
+---------03:01----------
+channel MOSFET so ver here I believe
+
+---------03:03----------
+it's very least this one's a p-channel
+
+---------03:04----------
+MOSFET over here now the way this is
+
+---------03:06----------
+going to work here's how this works this
+
+---------03:08----------
+is gonna open and let power through from
+
+---------03:10----------
+the source to the drain this is gonna
+
+---------03:11----------
+open from here to here only if the power
+
+---------03:14----------
+on the gate is lower than the power on
+
+---------03:16----------
+the source so the way this works and pay
+
+---------03:18----------
+attention here is I need to get the
+
+---------03:21----------
+power on the gate lower than the power
+
+---------03:22----------
+of the source now you have a voltage
+
+---------03:24----------
+divider over here right CR 70 85 and on
+
+---------03:27----------
+I 70 86 so if this volt in now and it
+
+---------03:30----------
+attaches to this u 7000 chip so if u
+
+---------03:33----------
+7000 shorts this to ground over here so
+
+---------03:37----------
+let's just get a zoomed out view so this
+
+---------03:39----------
+is a voltage divider look what my video
+
+---------03:41----------
+is and what is a voltage divider if you
+
+---------03:42----------
+don't know what that is this here is a
+
+---------03:44----------
+voltage divider you have 16 volts over
+
+---------03:46----------
+here you have where you want the power
+
+---------03:47----------
+to go over here and then you have
+
+---------03:49----------
+another resistor between what you want
+
+---------03:50----------
+the power to go and a ground source but
+
+---------03:52----------
+instead of putting that to ground you
+
+---------03:54----------
+put it to the u 7000 which can switch
+
+---------03:55----------
+and say okay let
+
+---------03:57----------
+this voltage divider go to ground let
+
+---------03:59----------
+this resistor over here go through me
+
+---------04:01----------
+and travel to ground or don't provide a
+
+---------04:04----------
+path to ground now this voltage divider
+
+---------04:06----------
+is not going to work if the bottom of it
+
+---------04:08----------
+over here is not given a path to ground
+
+---------04:09----------
+it will work if that is given a path to
+
+---------04:11----------
+ground so what I did over here is I
+
+---------04:13----------
+wanted to check the voltages in this
+
+---------04:15----------
+area now I have 16 volts at the top I
+
+---------04:17----------
+had 6 volts over here and I had 0 over
+
+---------04:19----------
+here this means that this voltage
+
+---------04:21----------
+divider is working so if I have 6 volts
+
+---------04:23----------
+at the gate and I have 16 volts at the
+
+---------04:25----------
+source that means that this being a
+
+---------04:28----------
+p-channel MOSFET should open on the
+
+---------04:30----------
+power through the computer right it
+
+---------04:31----------
+wasn't so when it wasn't doing that
+
+---------04:33----------
+again I realized this chip that I had
+
+---------04:35----------
+replaced it was actually bad and I know
+
+---------04:37----------
+this may surprise you this may surprise
+
+---------04:39----------
+a lot of you but when you buy these
+
+---------04:41----------
+boards on Alibaba for 15 dollars you
+
+---------04:44----------
+really cannot expect that every
+
+---------04:46----------
+component that you get on them works
+
+---------04:47----------
+especially when I toss them back in the
+
+---------04:49----------
+bin like that you may wonder Louis why
+
+---------04:51----------
+do you have to buy this stuff on dead
+
+---------04:52----------
+boards anyway why can't you just buy
+
+---------04:54----------
+that Direct really piece there's two
+
+---------04:57----------
+reasons for that the first reason that
+
+---------05:00----------
+I'm going to give you is that customers
+
+---------05:03----------
+don't want to wait so the amount of time
+
+---------05:05----------
+it's gonna take for that thing to get
+
+---------05:06----------
+here is actually gonna cause them to
+
+---------05:07----------
+decline repair the second thing that I
+
+---------05:09----------
+again did this entire business is based
+
+---------05:11----------
+on customer impatience that's an
+
+---------05:12----------
+important thing the reason that I'm able
+
+---------05:14----------
+to make money over other businesses
+
+---------05:16----------
+other businesses will say we can do that
+
+---------05:17----------
+in two days I say it'll be an hour they
+
+---------05:19----------
+say it'll take a week I say it'll take
+
+---------05:21----------
+two days they say it'll take an hour I
+
+---------05:23----------
+say it'll take five minutes oh because
+
+---------05:25----------
+you have to realize everybody walking
+
+---------05:26----------
+into this type of business they want the
+
+---------05:28----------
+service to be completed before they've
+
+---------05:31----------
+actually given you the machine I've had
+
+---------05:33----------
+people actually asked like so what is it
+
+---------05:34----------
+what's wrong with it and they were
+
+---------05:35----------
+irritated that I couldn't tell them that
+
+---------05:37----------
+before they let the machine or the
+
+---------05:39----------
+device leave their hands there's a lot
+
+---------05:41----------
+of impatience going on there so if I
+
+---------05:43----------
+have every single little piece I need on
+
+---------05:44----------
+those boards that's far more valuable to
+
+---------05:47----------
+me than it being actually new there are
+
+---------05:49----------
+pieces where it is valuable to be that
+
+---------05:51----------
+it is new I do not want to install a
+
+---------05:53----------
+used GPU that I ripped off another board
+
+---------05:56----------
+because again those are parts where you
+
+---------05:58----------
+it really getting a used one is really
+
+---------06:00----------
+bad that you want something that is new
+
+---------06:03----------
+out of the box I'm not going to install
+
+---------06:05----------
+a screen that is used because again that
+
+---------06:09----------
+it scratches over time it gets dry
+
+---------06:11----------
+to overtime but a little resistor is
+
+---------06:12----------
+something like that you know that's
+
+---------06:14----------
+gonna last far a lot like that that that
+
+---------06:16----------
+little transistor if nobody does
+
+---------06:18----------
+anything anyway that will outlive all of
+
+---------06:19----------
+us seriously thank you you don't have to
+
+---------06:21----------
+worry about that little thing dying at
+
+---------06:23----------
+all just because it's it's it's because
+
+---------06:26----------
+it's used so anyway so let's try to find
+
+---------06:27----------
+this thing right so let's just say I
+
+---------06:28----------
+need this little piece so right over
+
+---------06:30----------
+here I go to one website the first
+
+---------06:32----------
+result that shows up on Google is a PDF
+
+---------06:36----------
+let's see what that PDF is so that's a
+
+---------06:38----------
+PDF datasheet so it's a from
+
+---------06:41----------
+International rectifier and look I'm
+
+---------06:43----------
+right it says dual common drain
+
+---------06:45----------
+p-channel MOSFETs and again if you go
+
+---------06:48----------
+back to the transistor video if you want
+
+---------06:50----------
+to know difference between P and n
+
+---------06:52----------
+channel from a very very basic
+
+---------06:53----------
+standpoint meaning that for this
+
+---------06:56----------
+specific type of usage a p-channel means
+
+---------06:59----------
+that when the gate is lower than the
+
+---------07:01----------
+source you let power through and when
+
+---------07:03----------
+the gate is the source or higher than
+
+---------07:05----------
+the source power doesn't go through
+
+---------07:06----------
+again very very oversimplified
+
+---------07:08----------
+explanation solely for laptop schematics
+
+---------07:11----------
+and laptop troubleshooting you know
+
+---------07:13----------
+again people were getting really up in
+
+---------07:15----------
+arms over my definition of a transistor
+
+---------07:17----------
+they were really up in arms over like
+
+---------07:19----------
+the you know you didn't mention it's not
+
+---------07:20----------
+a linear device and blahblahblah and
+
+---------07:22----------
+it's like I'm I'm trying to
+
+---------07:24----------
+simplify a laptop circuit for somebody
+
+---------07:26----------
+who even after watching every one of
+
+---------07:29----------
+these videos in my oversimplified
+
+---------07:30----------
+definitions doesn't understand how this
+
+---------07:32----------
+works and you want me to get into the
+
+---------07:34----------
+linearity and the device and everything
+
+---------07:35----------
+when they don't even get that like if
+
+---------07:37----------
+I'm talking about how an audio amplifier
+
+---------07:38----------
+works then it's gonna be very very
+
+---------07:41----------
+important for me to say yes a transistor
+
+---------07:42----------
+is more than just a variable resistor
+
+---------07:44----------
+yes it is not linear yes there are
+
+---------07:46----------
+things you have to do to get linear
+
+---------07:47----------
+function within specific regions or
+
+---------07:49----------
+something close to linear function
+
+---------07:50----------
+within specific frequencies and
+
+---------07:53----------
+amplitudes and amplification zing yeah
+
+---------07:54----------
+again if I'm discussing a high-end video
+
+---------07:57----------
+or audio amplifier we need to talk about
+
+---------08:00----------
+that we don't need to talk about this
+
+---------08:02----------
+for that so if you want to troll and
+
+---------08:03----------
+call me an idiot and blah blah blah
+
+---------08:04----------
+whatever I can live with that because
+
+---------08:06----------
+what I'm trying to do here is what I'm
+
+---------08:08----------
+trying to explain how a specific thing
+
+---------08:09----------
+works I want you to understand that
+
+---------08:11----------
+specific thing and again if I make a
+
+---------08:13----------
+video talking about how you know you
+
+---------08:15----------
+want to fix addcom and para sound and
+
+---------08:18----------
+Rotel amplifiers I'm gonna talk about a
+
+---------08:20----------
+transistor a little differently than I
+
+---------08:22----------
+do here but for the just for laptop
+
+---------08:24----------
+circuits from Mac
+
+---------08:25----------
+circuit's when we're looking at a
+
+---------08:27----------
+p-channel MOSFET the voltage and the
+
+---------08:29----------
+source is it's not gonna go through the
+
+---------08:32----------
+drain unless the voltage and the gate
+
+---------08:33----------
+it's lower than the voltage of the
+
+---------08:35----------
+source so if the voltage in the gate is
+
+---------08:36----------
+lower than the voltage of the source and
+
+---------08:37----------
+a p-channel MOSFET power goes through
+
+---------08:39----------
+the opposite is true for an end channel
+
+---------08:41----------
+anyway
+
+---------08:41----------
+back to what I was trying to do here so
+
+---------08:43----------
+I'm trying to look up a way to buy this
+
+---------08:44----------
+thing right wait let's go to Google
+
+---------08:47----------
+Shopping nothing there's nothing let's
+
+---------08:51----------
+try a Bay com let's search for that
+
+---------08:53----------
+piece nothing let's go to Mouser comm in
+
+---------08:57----------
+search for this piece nothing let's go
+
+---------09:02----------
+to digi-key comm and search for this
+
+---------09:04----------
+piece nothing and here's the thing that
+
+---------09:08----------
+you got to realize here's why I'm sick
+
+---------09:10----------
+and tired of this as a business so
+
+---------09:11----------
+people will go like why are why do you
+
+---------09:14----------
+always say that this is a terrible
+
+---------09:15----------
+profession why do you say that you know
+
+---------09:17----------
+that computer repair is going away why
+
+---------09:19----------
+do you say that you know you should be
+
+---------09:20----------
+looking at do things other than
+
+---------09:21----------
+motherboard repair I enjoyed doing this
+
+---------09:23----------
+to some extent but one thing that really
+
+---------09:25----------
+really tires me and then I get irritated
+
+---------09:26----------
+at is that there is no support from the
+
+---------09:28----------
+manufacturer for any of these products
+
+---------09:30----------
+if I want to install a security system
+
+---------09:31----------
+not only are they my encouraged to go to
+
+---------09:35----------
+the manufacturers schooling in classes
+
+---------09:38----------
+on how to use their equipment but they
+
+---------09:40----------
+will offer me ongoing support for if I
+
+---------09:42----------
+want to do that let's say you want to be
+
+---------09:43----------
+in the security industry the people who
+
+---------09:45----------
+get you licensed want to teach you how
+
+---------09:47----------
+to do this stuff the people who you deal
+
+---------09:50----------
+with as your vendors they will suggest
+
+---------09:51----------
+ways that you can do things better and
+
+---------09:53----------
+things that may save you money and
+
+---------09:55----------
+things that you should have that you
+
+---------09:56----------
+probably don't have they work with you
+
+---------09:58----------
+in the laptop motherboard repair
+
+---------10:00----------
+business you are considered a prick if
+
+---------10:02----------
+you're like me and you give away
+
+---------10:03----------
+information on how to do this like there
+
+---------10:05----------
+are so many people that think that what
+
+---------10:06----------
+I'm doing needs to stop that I am just
+
+---------10:08----------
+ruining a business by teaching people
+
+---------10:10----------
+how to do things
+
+---------10:11----------
+manufacturers think that again like if
+
+---------10:13----------
+they give me a source for that little
+
+---------10:16----------
+transistor that the world is going to
+
+---------10:18----------
+ end you are constantly working
+
+---------10:21----------
+against the grain to get anything done
+
+---------10:23----------
+I'm sick and tired of working against
+
+---------10:25----------
+the grain I want to work in an industry
+
+---------10:26----------
+where if I need this dual p-channel
+
+---------10:29----------
+MOSFET that I can simply go to a website
+
+---------10:31----------
+order it give them money again take my
+
+---------10:34----------
+money and it shows up I don't want to
+
+---------10:37----------
+work in an industry where I have to lay
+
+---------10:39----------
+you know a import boards with
+
+---------10:41----------
+holes in them and pray that the
+
+---------10:42----------
+works
+
+---------10:43----------
+anyone so you can't buy this thing
+
+---------10:45----------
+anywhere so that's why I use donor
+
+---------10:47----------
+boards so I replace that for the second
+
+---------10:50----------
+time and it worked and the way I was
+
+---------10:51----------
+able to tell that it wasn't working the
+
+---------10:53----------
+way it was supposed to the way I was
+
+---------10:54----------
+able to tell that the transistor that I
+
+---------10:56----------
+took off was bad so that I wouldn't you
+
+---------10:59----------
+know go ahead and start driving myself
+
+---------11:00----------
+nuts in the rest of the board was again
+
+---------11:02----------
+just by using my brain a little
+
+---------11:04----------
+remember again a p-channel MOSFET is
+
+---------11:06----------
+going open when the voltage and the
+
+---------11:08----------
+source is higher than the voltage in the
+
+---------11:11----------
+gate this here in the datasheet says
+
+---------11:13----------
+it's a p-channel MOSFET so again let's
+
+---------11:15----------
+go back to my schematic let's go back to
+
+---------11:17----------
+my board schematic here so I measured it
+
+---------11:21----------
+all these points so I have 16 volts over
+
+---------11:23----------
+here this goes to the source I have 16
+
+---------11:25----------
+volts here I have 6 volts on my gate
+
+---------11:27----------
+none of my output I have one so this is
+
+---------11:30----------
+not letting power through when it
+
+---------11:32----------
+supposed to which means that it is yeah
+
+---------11:33----------
+so I replace the dual p-channel MOSFET
+
+---------11:37----------
+again the reason you by the way the
+
+---------11:39----------
+reason I say transistor when a lot of
+
+---------11:40----------
+you say like you should say Mouse fed or
+
+---------11:42----------
+whatever it's not a transistor a MOSFET
+
+---------11:45----------
+kind of is a type of transistor and B
+
+---------11:47----------
+transistor is just an easier thing to
+
+---------11:49----------
+say when it's late and I'm tired than a
+
+---------11:51----------
+dual p-channel MOSFET in rush limiter
+
+---------11:54----------
+like excuse me for abbreviating and as
+
+---------11:56----------
+you can see the fan spins which means
+
+---------11:59----------
+that as I like to joke on this channel
+
+---------12:01----------
+I'm done and all is good so that's that
+
+---------12:04----------
+and again this is how you can figure out
+
+---------12:06----------
+is it the part that's bad or is it
+
+---------12:08----------
+something around the part that's bad
+
+---------12:09----------
+because again let's go back to this if I
+
+---------12:12----------
+have if I have 16 volts on my gate and
+
+---------12:16----------
+16 volts on my source and it's not
+
+---------12:17----------
+opening am I gonna replace this no I'm
+
+---------12:21----------
+not gonna replace this because it's not
+
+---------12:22----------
+being told to open but if I have 16
+
+---------12:24----------
+volts on my source and 6 volts on my
+
+---------12:26----------
+gate and it's not opening am I going to
+
+---------12:28----------
+replace that true that a dual p channel
+
+---------12:31----------
+in rush limit or reverse current
+
+---------12:34----------
+protection MOSFET yes I am because it's
+
+---------12:37----------
+not doing the job that it is supposed to
+
+---------12:39----------
+and that's that so I hope you learned
+
+---------12:43----------
+something sorry that it wasn't in real
+
+---------12:44----------
+time I just haven't at the time to do a
+
+---------12:45----------
+lot of these in real time was the staff
+
+---------12:48----------
+on vacation but when I can if I have
+
+---------12:50----------
+time instead of reassembling the Machine
+
+---------12:52----------
+a medial
+
+---------12:52----------
+what I'm gonna try to do with some of
+
+---------12:53----------
+these videos instead of reassembling it
+
+---------12:55----------
+immediately and when I do fix these
+
+---------12:57----------
+boards over the course of the day with
+
+---------12:58----------
+the customers calling me and people
+
+---------13:00----------
+walking in and blah blah blah I'm gonna
+
+---------13:02----------
+put these boards to the side I'm gonna
+
+---------13:04----------
+put the computer to the side and once I
+
+---------13:05----------
+close and I'm done I'm gonna explain
+
+---------13:07----------
+what I did so that I can still kind of
+
+---------13:08----------
+give you the insight that I do into
+
+---------13:10----------
+these repairs even if you're not
+
+---------13:11----------
+necessarily watching the soldering job
+
+---------13:13----------
+in real time
+

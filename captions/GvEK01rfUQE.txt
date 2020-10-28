@@ -1,0 +1,1003 @@
+https://www.youtube.com/watch?v=GvEK01rfUQE
+---------00:00----------
+so today we're gonna be getting started
+
+---------00:01----------
+on an 8 - 0 - 30 476 board that doesn't
+
+---------00:04----------
+turn on as can be seen here on my power
+
+---------00:07----------
+supply
+
+---------00:07----------
+well it's only drawing 0.02 amps and
+
+---------00:12----------
+there's no fan spins we have to fire to
+
+---------00:15----------
+figure out why there's no fan spin on
+
+---------00:17----------
+this board that was picked at random so
+
+---------00:23----------
+we already know that we have a PP 3 v 4
+
+---------00:27----------
+- because we're getting a light in the
+
+---------00:28----------
+charger so that we don't have to check
+
+---------00:30----------
+we're gonna go through and check every
+
+---------00:31----------
+other rail one by one in the first rail
+
+---------00:34----------
+that we're going to check here is our pp
+
+---------00:36----------
+bus let's see if PP bus G 3 hot is G 3
+
+---------00:40----------
+hot so first thing to do is check right
+
+---------00:43----------
+here on our seven zero zero five and
+
+---------00:48----------
+let's see what we get we get a PP bus 12
+
+---------00:54----------
+point 59 volts next PPV RTC underscore
+
+---------00:58----------
+g3 hot let's see if that's present 3.3
+
+---------01:13----------
+volts next rail PP 5 es 5 someone said
+
+---------01:21----------
+too many pause would work for you but my
+
+---------01:24----------
+hand is like a vibrator that's not what
+
+---------01:28----------
+I'm looking for maybe in my personal
+
+---------01:31----------
+life but definitely not in my work life
+
+---------01:33----------
+PP 5vs5
+
+---------01:34----------
+is measuring back and forth back and
+
+---------01:39----------
+forth
+
+---------01:40----------
+interesting 5 volts 1 volt 5 volts back
+
+---------01:49----------
+to 1 volt back up to 5 volts alright so
+
+---------01:54----------
+there's something going on in that area
+
+---------01:55----------
+let's take a look at what chips that's
+
+---------01:58----------
+going to create PP v vs v it appears to
+
+---------02:01----------
+come out of you 7501 let's scroll down
+
+---------02:04----------
+to you 7501 and take a look at what's
+
+---------02:06----------
+going on in this area u7 501 is
+
+---------02:09----------
+responsible for three things the first
+
+---------02:12----------
+thing it's responsible for
+
+---------02:13----------
+is the creation of pp5 es for the second
+
+---------02:17----------
+thing it's responsible for is the
+
+---------02:18----------
+creation of PP v es 5c v out the third
+
+---------02:21----------
+thing it's responsible for is the
+
+---------02:22----------
+creation of PP 3 V 3 s 5 let's see if
+
+---------02:25----------
+any of the rails along that line are
+
+---------02:27----------
+shorted to ground and let's also take a
+
+---------02:29----------
+look at what the board looks like along
+
+---------02:31----------
+that area
+
+---------02:31----------
+I'm gonna scroll over my microscope
+
+---------02:33----------
+camera over here and bring it over to
+
+---------02:35----------
+that section of the board alright see
+
+---------02:38----------
+what we have here and as we can see we
+
+---------02:44----------
+have a poorly soldered chip and some
+
+---------02:47----------
+flux residue in the area you can see
+
+---------02:49----------
+that there's poor soldering because well
+
+---------02:51----------
+some of these joints have you know these
+
+---------02:56----------
+nice little slopes to them on the other
+
+---------02:59----------
+side they don't so let's look at the
+
+---------03:02----------
+chip from the side see this this is flat
+
+---------03:05----------
+so this here is a joint that's the zoom
+
+---------03:10----------
+so this here is a joint on third pin
+
+---------03:14----------
+this crap over here is not that's
+
+---------03:17----------
+garbage
+
+---------03:19----------
+now improper soldering could be causing
+
+---------03:22----------
+this but before I do any of that I'd
+
+---------03:23----------
+like to see if there's any sort of short
+
+---------03:24----------
+to ground you could also tell that not
+
+---------03:26----------
+enough flux was used because this part
+
+---------03:28----------
+over here is sticking up see you see how
+
+---------03:30----------
+the solder is kind of sticking up over
+
+---------03:31----------
+here that means all the flux inside of
+
+---------03:34----------
+that solder had been burned away which
+
+---------03:36----------
+is why you get this cruddy looking joint
+
+---------03:38----------
+over here so yeah I can just kind of
+
+---------03:41----------
+chip away at this excess and the reason
+
+---------03:43----------
+that's there is because whoever was
+
+---------03:44----------
+doing this job did not use enough flux
+
+---------03:47----------
+remember the adage that Paul s likes to
+
+---------03:50----------
+say the bigger the gob the better the
+
+---------03:52----------
+job this way you won't wind up with
+
+---------03:55----------
+shitty solder joints like this one over
+
+---------03:56----------
+here which were clearly caused by
+
+---------03:58----------
+somebody not using the proper amount of
+
+---------04:00----------
+flux so first thing we're gonna do first
+
+---------04:07----------
+thing we're gonna do is use the proper
+
+---------04:09----------
+amount of flux before we even get to
+
+---------04:16----------
+that we're gonna see if there's a short
+
+---------04:17----------
+circuit to ground than any of these
+
+---------04:18----------
+rails first rail we're going to check
+
+---------04:20----------
+for is PP v V s v
+
+---------04:26----------
+twenty-one kilohms to ground that rail
+
+---------04:29----------
+can be jumping even if it's not shorted
+
+---------04:30----------
+if this chip over here which creates
+
+---------04:32----------
+that rail along with the others is
+
+---------04:34----------
+messed up so this chip is creating PP 3
+
+---------04:37----------
+V 3 s 5 PP 5 es 4 and P P 3 V 3 s 5
+
+---------04:41----------
+let's take a look at pp 3 V 3 s 5 and
+
+---------04:44----------
+see if that's shorted to ground because
+
+---------04:45----------
+any one of those are shorted to ground
+
+---------04:46----------
+it can cause this funky power cycling
+
+---------04:49----------
+that we're seeing here 12 kilo ohms next
+
+---------04:57----------
+up is pp 5 es 4 PP 5 es 4 has a zero
+
+---------05:18----------
+point 4 ohm short to ground which means
+
+---------05:21----------
+that's where we need to be looking so we
+
+---------05:23----------
+have to inject some voltage into that
+
+---------05:25----------
+rail and see what gets hot but first
+
+---------05:28----------
+thing I'm gonna do before I even do that
+
+---------05:30----------
+is I'm going to remove this chip that
+
+---------05:31----------
+was clearly soldered with the incorrect
+
+---------05:33----------
+amount of flux
+
+---------05:39----------
+remember folks the bigger the gob the
+
+---------05:42----------
+better the job now most likely somebody
+
+---------05:45----------
+started messing with this chip because
+
+---------05:49----------
+they saw that pp5 bs4 was missing so
+
+---------05:51----------
+they thought power rail missing me
+
+---------05:54----------
+replace chip that create power rail me
+
+---------05:58----------
+not try to figure out what's actually
+
+---------05:59----------
+wrong me no care what actual problem is
+
+---------06:02----------
+me no use brain me replace chip and then
+
+---------06:06----------
+me sent to Lois and then me the putt the
+
+---------06:09----------
+decline Lois repair quote that's most
+
+---------06:13----------
+likely how this usually goes which is
+
+---------06:15----------
+why we don't accept do-it-yourself jobs
+
+---------06:16----------
+however I'm gonna take this chip off
+
+---------06:21----------
+because I don't know how much heat was
+
+---------06:23----------
+applied to it usually I'd say the chip
+
+---------06:25----------
+is fine there's no need to mess with it
+
+---------06:27----------
+we just to resolve the short on PP 5 vs
+
+---------06:28----------
+4 but I don't know how much heat was
+
+---------06:30----------
+used while soldering this chip and I
+
+---------06:32----------
+don't feel like a chip going back on the
+
+---------06:34----------
+board that has a chance of failing again
+
+---------06:36----------
+because it was touched by a buffoon it's
+
+---------06:40----------
+not good for business
+
+---------06:41----------
+so as you can see the short is still
+
+---------06:42----------
+there hem ahem as you can see the short
+
+---------06:46----------
+circuit on PP 5 es 4 is still there
+
+---------06:48----------
+because it was never that shipped at
+
+---------06:50----------
+fault to begin with so why somebody
+
+---------06:52----------
+started screwing with that rather than
+
+---------06:53----------
+using their brain and simply measuring
+
+---------06:55----------
+for shorts is beyond me but what are you
+
+---------07:00----------
+gonna do maybe once I have a million
+
+---------07:04----------
+subscribers people will start watching
+
+---------07:06----------
+this stuff and learning before raping
+
+---------07:08----------
+their MacBook
+
+---------07:13----------
+you know one thing that I've been
+
+---------07:14----------
+thinking about recently and people in
+
+---------07:18----------
+the chat tell me if I get any facts
+
+---------07:19----------
+wrong here because I don't remember
+
+---------07:20----------
+everything but there was this subway
+
+---------07:23----------
+case I was told about where they got in
+
+---------07:27----------
+trouble for calling it a five dollar
+
+---------07:29----------
+footlong since it somebody measured it
+
+---------07:32----------
+and saw that it was like ten or eleven
+
+---------07:33----------
+inches and not a foot so they were
+
+---------07:35----------
+saying false advertising I'm kind of
+
+---------07:37----------
+thinking to doing something similar with
+
+---------07:39----------
+Apple so I've had this series going
+
+---------07:43----------
+or things geniuses say and a lot of the
+
+---------07:46----------
+times they tell you you got to replace
+
+---------07:47----------
+everything when in reality it's a card
+
+---------07:49----------
+it's a cable it's a pin or whatever and
+
+---------07:51----------
+they're saying you have to replace
+
+---------07:52----------
+everything now I don't think that that's
+
+---------07:55----------
+fraud because a lot of people have been
+
+---------07:57----------
+saying it's fraud and they're clearly
+
+---------07:59----------
+misrepresenting what they're doing and
+
+---------08:01----------
+they're purposely screwing people over I
+
+---------08:03----------
+don't think that's what it is you know a
+
+---------08:05----------
+lot of people have said maybe they just
+
+---------08:06----------
+don't know any better but where the
+
+---------08:08----------
+fraud comes in in my opinion is when
+
+---------08:10----------
+people say that they are geniuses
+
+---------08:12----------
+because when I google genius is defined
+
+---------08:15----------
+as an IQ of 145 and above so you're
+
+---------08:18----------
+calling them the Genius Bar and you're
+
+---------08:20----------
+calling them geniuses but my question is
+
+---------08:23----------
+have you is that is an IQ test part of
+
+---------08:27----------
+your internal standards prior to hiring
+
+---------08:29----------
+people that you are advertising to the
+
+---------08:31----------
+public as geniuses because if everybody
+
+---------08:34----------
+at the Genius Bar has an IQ of above 145
+
+---------08:37----------
+that's cool but if the people at the
+
+---------08:39----------
+Genius Bar do not have an IQ of 145 or
+
+---------08:41----------
+above that is misrepresentation false
+
+---------08:44----------
+advertising and that I think actually
+
+---------08:46----------
+has a case for fraud but it's just
+
+---------08:48----------
+something that's been kind of going
+
+---------08:50----------
+around in my head you tell me what you
+
+---------08:53----------
+think of that anyway we're just going to
+
+---------08:55----------
+go back and find out where it is that I
+
+---------08:57----------
+can place PP 5 vs wire 4 PP 5 es 4 so we
+
+---------09:04----------
+could find that short-circuit and you
+
+---------09:08----------
+know go back to having a happy little
+
+---------09:09----------
+board so like this there's a nice big
+
+---------09:11----------
+honking capacitor up here and I'm gonna
+
+---------09:16----------
+solder a wire to that mark what do you
+
+---------09:20----------
+think of my Genius Bar suit idea
+
+---------09:25----------
+because everybody in that reddit thought
+
+---------09:27----------
+was saying this is fraud you know they
+
+---------09:29----------
+shouldn't be that they shouldn't be
+
+---------09:31----------
+telling people they need repairs they
+
+---------09:32----------
+didn't and somebody made a good argument
+
+---------09:33----------
+it has to be willful misrepresentation
+
+---------09:35----------
+or we and you have to know that what
+
+---------09:37----------
+you're doing is wrong and they probably
+
+---------09:40----------
+don't know what the actual fault is so
+
+---------09:43----------
+it's not fraud but if you're calling
+
+---------09:44----------
+somebody a genius when they don't have
+
+---------09:46----------
+an IQ of 145 I think that there's a case
+
+---------09:50----------
+to be made that that's fraud less than
+
+---------09:52----------
+average intelligence Park or list or not
+
+---------09:55----------
+you know just like moderate IQ of 1 to
+
+---------09:58----------
+120 bar what's wrong with that it would
+
+---------10:05----------
+be one thing if they actually had Mensa
+
+---------10:06----------
+people working there and they called it
+
+---------10:08----------
+a Genius Bar but they're not geniuses
+
+---------10:13----------
+there's nothing about them that's genius
+
+---------10:16----------
+it's a lie dirty dirty lie like with
+
+---------10:21----------
+Geek Squad you could say that they are
+
+---------10:23----------
+geeks because geek is a subjective term
+
+---------10:27----------
+genius is not let's get the thermal
+
+---------10:29----------
+camera on the desk I don't want to use
+
+---------10:33----------
+my face as you guys know I just recently
+
+---------10:36----------
+turned 30 so it's it's really all
+
+---------10:38----------
+downhill from here
+
+---------10:39----------
+you thought I was ugly before see me
+
+---------10:41----------
+come back in a few years there's nothing
+
+---------10:43----------
+worse than being over 30 there's nothing
+
+---------10:48----------
+worse than being over 30 do you smell
+
+---------10:50----------
+that short mark gee I wonder what it is
+
+---------10:55----------
+Wow 195 Celsius and this is a cracked
+
+---------10:59----------
+capacitor so there's a couple of signs
+
+---------11:02----------
+here that you can tell make it obvious
+
+---------11:04----------
+that this is the bad capacitor the
+
+---------11:07----------
+primary sign here that I think you can
+
+---------11:09----------
+all see is that it's cracked along the
+
+---------11:12----------
+upper left corner see that when i zoom
+
+---------11:15----------
+in a little bit that is one nasty
+
+---------11:19----------
+capacitor
+
+---------11:45----------
+is it just me or are more cracks forming
+
+---------11:47----------
+in that if that cap looks really mad
+
+---------12:07----------
+Oh mark check it out Paul check it out
+
+---------12:17----------
+come here you're gonna miss it you're
+
+---------12:21----------
+gonna miss it oh you missed it you
+
+---------12:27----------
+missed it oh here we go damn it you
+
+---------12:38----------
+missed it
+
+---------12:41----------
+that was so cool
+
+---------12:44----------
+short is gone all right we can put this
+
+---------12:47----------
+back together and give it back to the
+
+---------12:48----------
+customer now right it's those moments
+
+---------12:50----------
+that make me happy that I got a job that
+
+---------12:52----------
+doesn't require college I get to blow
+
+---------12:54----------
+ up and make money how does that
+
+---------12:57----------
+happen says nasarah that happens because
+
+---------13:00----------
+it's a Mac now we're gonna fix that
+
+---------13:01----------
+section of the board by adding the
+
+---------13:03----------
+proper amount of flux
+
+---------14:00----------
+site ducky 101 says my is less than
+
+---------14:03----------
+that well clearly you're dating the
+
+---------14:06----------
+wrong person
+
+---------14:40----------
+we have the proper amount of flux on the
+
+---------14:42----------
+board beautiful now we just tin the pads
+
+---------14:49----------
+for that little capacitor
+
+---------15:07----------
+did you turn off power of course I did
+
+---------15:10----------
+I'm not gonna solder on a board that has
+
+---------15:13----------
+power going through it I don't have
+
+---------15:16----------
+Alzheimer's all right let's get
+
+---------15:21----------
+ourselves a new capacitor and a new TPS
+
+---------15:23----------
+five one nine eight zero
+
+---------16:10----------
+now back to our TPS five one nine eight
+
+---------16:12----------
+zero area for somebody improperly
+
+---------16:15----------
+soldered on or tried to mess with the
+
+---------16:18----------
+TPS five one nine eight zero chip that
+
+---------16:20----------
+was most likely fine
+
+---------16:27----------
+this has 4k at 60 Hertz and now I
+
+---------16:29----------
+changed the cable 4k at 30 before
+
+---------16:40----------
+the chip snaps into place so now we take
+
+---------16:43----------
+the iron away wait for it to cool off
+
+---------16:46----------
+now we push down on the center of it
+
+---------16:48----------
+once it's in place and now it's gonna be
+
+---------16:51----------
+nice and close to the board then we when
+
+---------16:58----------
+we put the proper amount of flux for
+
+---------16:59----------
+cleaning up the around the board all
+
+---------17:03----------
+right we're gonna we're gonna remove my
+
+---------17:08----------
+soldered wire from the power supply
+
+---------17:13----------
+59 Hertz
+
+---------17:27----------
+you
+
+---------17:35----------
+well
+
+---------17:37----------
+ okay so now we're gonna see if this
+
+---------17:42----------
+works
+
+---------17:42----------
+so we have we fixed the PP five es
+
+---------17:45----------
+Fourth Circuit we entered the poor
+
+---------17:47----------
+soldering and we taught the lesson that
+
+---------17:49----------
+the bigger the gob the better the job
+
+---------17:51----------
+that being said let's see if it turns on
+
+---------17:55----------
+where you're going to take this Mac safe
+
+---------17:58----------
+plug it into this MacBook turn on the
+
+---------18:03----------
+power supply
+
+---------18:07----------
+turn on the powers yes we went from 0.02
+
+---------18:16----------
+amp usage to zero amp usage wait yeah oh
+
+---------18:21----------
+never mind
+
+---------18:23----------
+so my MagSafe is so burned you have to
+
+---------18:26----------
+jiggle it in order to get it to work
+
+---------18:27----------
+let's see we're using point 4 amps now
+
+---------18:30----------
+the fan is spinning and this MacBook now
+
+---------18:32----------
+works so that is how you clear a short
+
+---------18:35----------
+that's how you replace a qfn I mean
+
+---------18:37----------
+that's how much flux you're supposed to
+
+---------18:38----------
+use while soldering on a macbook that's
+
+---------18:40----------
+it for today and as always I hope you
+
+---------18:44----------
+learned something what did we learn
+
+---------18:45----------
+today we learned how to find a short
+
+---------18:50----------
+circuit by injecting voltage we learned
+
+---------18:52----------
+that if a chip creates multiple power
+
+---------18:55----------
+rails rather than blame the chip if one
+
+---------18:58----------
+of those power rails is going up and
+
+---------18:59----------
+down check for a short to ground then
+
+---------19:01----------
+everywhere else responsible for that
+
+---------19:03----------
+chip creates 2 5 volt rails and 1 3 volt
+
+---------19:05----------
+rail and if even one of them is shorted
+
+---------19:07----------
+to ground all of them will stop working
+
+---------19:09----------
+pp 3 B 3 s 5 and PP 5 V S 5 were both
+
+---------19:14----------
+jumping even though they had no short to
+
+---------19:16----------
+ground because PP 5 es 4 was jumping and
+
+---------19:18----------
+PP 5 es 4 was jumping because it had a
+
+---------19:20----------
+short to ground now we have a beautiful
+
+---------19:23----------
+working board I have a document that I
+
+---------19:26----------
+linked to below if you'd like to learn
+
+---------19:27----------
+any of the stuff where you could watch
+
+---------19:28----------
+any of the other playlists and at this
+
+---------19:30----------
+point we're just going to go back to
+
+---------19:31----------
+going through our statuses and fixing
+
+---------19:33----------
+boards
+

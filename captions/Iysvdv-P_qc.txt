@@ -1,0 +1,1060 @@
+https://www.youtube.com/watch?v=Iysvdv-P_qc
+---------00:00----------
+okay so today we're going to be going
+
+---------00:01----------
+over another a 1398 retina with no video
+
+---------00:04----------
+and this is the model that Apple
+
+---------00:06----------
+recalled for the graphics chip issue
+
+---------00:08----------
+which means that we have to replace the
+
+---------00:09----------
+graphics chip right because it's always
+
+---------00:11----------
+the graphics chip it's always something
+
+---------00:12----------
+that you got a heat gun or reball or
+
+---------00:15----------
+reflow because that's what a forum said
+
+---------00:17----------
+or maybe it's a display cable every
+
+---------00:20----------
+forum says it's always a display cable
+
+---------00:22----------
+can it only be the display cable so the
+
+---------00:24----------
+problem can be something that somebody
+
+---------00:26----------
+else will fix for five dollars and you
+
+---------00:30----------
+know I am so sick and tired of reading
+
+---------00:32----------
+these posts where it's the same
+
+---------00:33----------
+over and over again which is let's not
+
+---------00:35----------
+use our brain to figure out what's wrong
+
+---------00:37----------
+rather let's hope that it's either the
+
+---------00:40----------
+cheapest thing there and come up with a
+
+---------00:41----------
+bunch of wishful thinking as to
+
+---------00:43----------
+why is the cheapest thing or let's just
+
+---------00:46----------
+like run for the heat gun because some
+
+---------00:48----------
+video posted to YouTube 10 years ago
+
+---------00:50----------
+about an HP showed it working after they
+
+---------00:52----------
+did that and it's all just a bunch of
+
+---------00:54----------
+crap so the first thing that I'm going
+
+---------00:56----------
+to do here is see if the screen itself
+
+---------00:59----------
+is actually getting power so this is a
+
+---------01:01----------
+different screen that was put on here
+
+---------01:03----------
+the original screen on this computer was
+
+---------01:06----------
+cracked it was replaced by the end user
+
+---------01:08----------
+after they replaced that they went from
+
+---------01:10----------
+having a cracked screen to having no
+
+---------01:12----------
+screen so let's just see if this is even
+
+---------01:14----------
+getting power to turn on so let's just
+
+---------01:17----------
+look over the schematic here hey I'm
+
+---------01:20----------
+getting a phone call just like two
+
+---------01:22----------
+people that have my personal cell phone
+
+---------01:24----------
+number how is this possible hello hello
+
+---------01:34----------
+hello oh well I have to set the to
+
+---------01:41----------
+block private number private number is
+
+---------01:43----------
+always I have that block to the
+
+---------01:45----------
+store if you call with call a caller ID
+
+---------01:47----------
+set to anonymous number or something it
+
+---------01:49----------
+just doesn't let the call through
+
+---------01:50----------
+because it's always some call and hang
+
+---------01:52----------
+up anyway back to work here so
+
+---------01:54----------
+let's take a look at where the LCD is
+
+---------01:56----------
+going to get power by going to that page
+
+---------01:58----------
+on the schematic and don't don't get too
+
+---------02:01----------
+confused here alright check it out
+
+---------02:05----------
+schematic LCD panel interface so Jay
+
+---------02:09----------
+9000 is the LCD connector and then you
+
+---------02:12----------
+have a bunch of stuff over here I know I
+
+---------02:14----------
+know confusing confusing what the
+
+---------02:16----------
+is all this DP int PP whatever the
+
+---------02:19----------
+okay let's try to make this simple ppv
+
+---------02:22----------
+out LCD backlight that's for backlight
+
+---------02:25----------
+we don't have a picture yet so I'm
+
+---------02:26----------
+ignoring that led return LED return
+
+---------02:30----------
+that's going to be for the LED backlight
+
+---------02:32----------
+I'm ignoring this I don't have that yet
+
+---------02:34----------
+LCD HPD it actually kind of sounds like
+
+---------02:38----------
+an STD I'm ignoring that because that
+
+---------02:41----------
+comes out from the LCD I'm not
+
+---------02:42----------
+interested in that yet here we go DP for
+
+---------02:45----------
+displayport DisplayPort internal aux
+
+---------02:48----------
+DisplayPort internal DisplayPort
+
+---------02:50----------
+internal all this stuff this may be
+
+---------02:52----------
+important for if my image is corrupt or
+
+---------02:55----------
+if I'm getting ass like a pug you know
+
+---------02:57----------
+the screens light is coming on but I'm
+
+---------02:59----------
+not getting a picture or something like
+
+---------03:00----------
+that now let's go down here to what this
+
+---------03:03----------
+is so this over here is going to be
+
+---------03:05----------
+power for the LCD so here it says LCD
+
+---------03:09----------
+power enabled let's break this down
+
+---------03:10----------
+because right now you think this is a
+
+---------03:11----------
+bunch of confusing stuff that you can't
+
+---------03:13----------
+understand because it's all abbreviated
+
+---------03:14----------
+with tiny numbers and symbols and
+
+---------03:16----------
+squiggly lines LCD / n let's buy some
+
+---------03:19----------
+vowels LCD power and able so when this
+
+---------03:22----------
+signal comes in here the LCD power will
+
+---------03:24----------
+be turned on like it says over here
+
+---------03:26----------
+where it says on V in voltage in let's
+
+---------03:30----------
+buy a word voltage in V out let's buy a
+
+---------03:32----------
+word voltage out so when now let's use
+
+---------03:36----------
+common sense after buying all our vowels
+
+---------03:38----------
+and words when LCD power enable goes to
+
+---------03:41----------
+the on pin it's going to allow PP 5 vs 0
+
+---------03:45----------
+which is 5 volts for the LCD 5 volts
+
+---------03:48----------
+IV for the LCD to go to the input and
+
+---------03:51----------
+then get shot out is 5 volts for the LCD
+
+---------03:57----------
+bunch of other crap that you don't need
+
+---------03:59----------
+to know now that's going to go over to
+
+---------04:01----------
+this inductor which in this case is
+
+---------04:03----------
+being uses a fuse if you don't know what
+
+---------04:05----------
+the component is honestly just
+
+---------04:07----------
+gloss over it in the beginning just just
+
+---------04:09----------
+just don't care just try to keep it as
+
+---------04:10----------
+simple as possible try to understand the
+
+---------04:12----------
+concept rather than understanding what
+
+---------04:14----------
+every individual component does I'm not
+
+---------04:16----------
+saying that you shouldn't learn what an
+
+---------04:17----------
+inductor does I'm not saying you
+
+---------04:19----------
+shouldn't learn what a capacitor does
+
+---------04:20----------
+this is all very important stuff but in
+
+---------04:22----------
+the absolute beginning if you're one of
+
+---------04:23----------
+those people looking at this going how
+
+---------04:25----------
+the should I get what any of this
+
+---------04:26----------
+is just try to look try to understand
+
+---------04:28----------
+the overall concept because when you
+
+---------04:30----------
+understand the overall concept
+
+---------04:31----------
+everything else is just going to kind of
+
+---------04:33----------
+flow in a place LCD power enable is
+
+---------04:35----------
+going to turn this chip on when this
+
+---------04:36----------
+trip turns on 5 volts for the LCD is
+
+---------04:39----------
+going to go from the input to the output
+
+---------04:40----------
+and it's going to follow this little
+
+---------04:42----------
+line where it's going to go to the LCD
+
+---------04:43----------
+on pinch 28 29 and 30 it says over here
+
+---------04:46----------
+PP 5v which you can imply mean or assume
+
+---------04:50----------
+means 5 volts if you can't assume that
+
+---------04:51----------
+you can check where it says voltage
+
+---------04:53----------
+equals five bolts right under it which
+
+---------04:55----------
+confirms that it's five volts and from
+
+---------04:57----------
+there we're going to measure when we
+
+---------04:58----------
+turn this thing on what do we get on
+
+---------05:00----------
+pinch 28 29 and 30 so I am going to look
+
+---------05:05----------
+at that area let's just get it so you
+
+---------05:07----------
+can see everything in here so we have my
+
+---------05:10----------
+multimeter on the table going to set its
+
+---------05:12----------
+a voltage mode we're going to set it to
+
+---------05:14----------
+where there's a V see the V V for
+
+---------05:18----------
+voltage and then there's going to be DC
+
+---------05:19----------
+voltage that we're measuring look at my
+
+---------05:21----------
+video on AC vs. DC voltage if you want
+
+---------05:23----------
+to understand why it is that the screen
+
+---------05:25----------
+runs off of DC voltage I the video in
+
+---------05:27----------
+the basic electronics video series that
+
+---------05:29----------
+explains what AC vs. DC voltage is
+
+---------05:31----------
+you're going to set it to the little
+
+---------05:33----------
+flat line of volts on volts and we're
+
+---------05:36----------
+going to take the black probe and we're
+
+---------05:37----------
+going to put it on ground which is a
+
+---------05:38----------
+screw hole or anything like that and
+
+---------05:40----------
+we're going to turn this thing on and
+
+---------05:43----------
+you tell me what I get let's see if you
+
+---------05:46----------
+can even see it so I'm going to take the
+
+---------05:48----------
+black pro but I'm going to put it on a
+
+---------05:50----------
+screw hole the red probe here and since
+
+---------05:53----------
+I did that I can't actually turn it on
+
+---------05:55----------
+because I ran into space here we go
+
+---------05:56----------
+let's see can you see the voltage that
+
+---------06:00----------
+I'd get so I'm measuring right net
+
+---------06:01----------
+induct
+
+---------06:02----------
+and I get two point eight volts two
+
+---------06:04----------
+point seven volts two point eight volts
+
+---------06:05----------
+so that's not good now let's check the
+
+---------06:07----------
+other side of the inductor the reason
+
+---------06:09----------
+I'm checking the other side of the
+
+---------06:10----------
+inductor is because I want to see where
+
+---------06:11----------
+the voltage stops once I see where the
+
+---------06:13----------
+voltage stops I'll know that that's
+
+---------06:15----------
+where I have to troubleshoot and I get
+
+---------06:16----------
+to point i was getting two point eight
+
+---------06:17----------
+volts on the other side of the inductor
+
+---------06:19----------
+as well so now let's go a little bit
+
+---------06:21----------
+back in this stitch in this is a
+
+---------06:22----------
+schematic over here so we have two point
+
+---------06:25----------
+eight volts here and two point eight
+
+---------06:26----------
+volts here now let's see what i have on
+
+---------06:28----------
+v out of you 8300 again what we want to
+
+---------06:30----------
+do here is you want to see where the
+
+---------06:32----------
+signal is stopping so I'm just going to
+
+---------06:34----------
+turn this off I'm just going to unplug
+
+---------06:35----------
+it I have the SSD unplug so I don't have
+
+---------06:37----------
+to worry about up the operating
+
+---------06:38----------
+system and let's go to you 8300 i'm
+
+---------06:41----------
+going to do over here is actually I'm in
+
+---------06:44----------
+the wrong schematic believe it or not
+
+---------06:45----------
+this is actually the wrong schematic
+
+---------06:47----------
+imagine it let's open the proper
+
+---------06:50----------
+schematic for this board it's probably
+
+---------06:51----------
+gonna be the same alright see it's
+
+---------06:53----------
+the same it's the same
+
+---------06:54----------
+layout though don't be a troll and say
+
+---------06:57----------
+that everything I said is irrelevant
+
+---------06:58----------
+because I had the wrong schematic open
+
+---------06:59----------
+it's literally the exact same layout
+
+---------07:01----------
+except the inductor is labeled l nine
+
+---------07:03----------
+thousand and the chip is labeled you
+
+---------07:04----------
+9000 big deal so we see on the board
+
+---------07:07----------
+view and then we type in you 9000 and
+
+---------07:09----------
+it's going to bring me over to you 9000
+
+---------07:12----------
+well it's not going to bring me over to
+
+---------07:13----------
+it's actually going to move my entire
+
+---------07:15----------
+board off of the screen because this
+
+---------07:17----------
+software sucks forcing me to find it but
+
+---------07:20----------
+it's going to highlight you 9000 now
+
+---------07:21----------
+let's see on pins four and five what do
+
+---------07:24----------
+I get so I'm pins four and five over
+
+---------07:26----------
+here let's see what I get we're going to
+
+---------07:29----------
+find you 9000 you 9000 is over here and
+
+---------07:32----------
+we measure and what do you we get so you
+
+---------07:36----------
+get four point 82 so that's a lady just
+
+---------07:38----------
+turn it on and off again because i think
+
+---------07:39----------
+the voltage is actually going up as i
+
+---------07:41----------
+keep the to keep it plugged in all right
+
+---------07:44----------
+so we going to turn it on and off and
+
+---------07:45----------
+now i'm just going to measure at that
+
+---------07:46----------
+point at the moment that the machine
+
+---------07:48----------
+turns on and i'm getting two point seven
+
+---------07:53----------
+volts now let's see what I'm getting at
+
+---------07:55----------
+input so input of you 9000 is 5 volts so
+
+---------08:03----------
+now i know that you something inside of
+
+---------08:05----------
+you 9000 is keeping voltage from going
+
+---------08:07----------
+through now the last thing to do before
+
+---------08:08----------
+I blame you 9000 is the check and see if
+
+---------08:11----------
+this is actually being told to turn on
+
+---------08:12----------
+so as you can see on the schematic
+
+---------08:14----------
+diagram over here
+
+---------08:16----------
+pin number one is going to be on where
+
+---------08:18----------
+LCD power enable comes in and we need to
+
+---------08:20----------
+have signal there we need to have
+
+---------08:22----------
+something there in order for this to
+
+---------08:23----------
+work and what I get on my multimeter is
+
+---------08:25----------
+3.3 volts at that point so now I can
+
+---------08:27----------
+logically determine that you 9000 is why
+
+---------08:30----------
+pp5 ESO LCD is not passing through and
+
+---------08:32----------
+becoming pp5 ER 3v3 underscore SW
+
+---------08:35----------
+underscore LCD underscore license so
+
+---------08:38----------
+let's now I can logically conclude that
+
+---------08:39----------
+I can replace you 9000 and while I may
+
+---------08:42----------
+not have an image at that point at the
+
+---------08:43----------
+very least I've solved one of my primary
+
+---------08:45----------
+problems see no reef lowing with a heat
+
+---------08:49----------
+gun no replacing screen cable just think
+
+---------08:55----------
+now I have to find one of those boards
+
+---------08:57----------
+in my in my crap pile aha I found one
+
+---------09:10----------
+that's not missing that component that's
+
+---------09:12----------
+rare Oh trust me that is very rare it's
+
+---------09:17----------
+actually find what I'm looking for in
+
+---------09:19----------
+that pile turn on all the loud stuff and
+
+---------09:28----------
+I'm going to turn the air down on my
+
+---------09:30----------
+soldering station a little bit because
+
+---------09:31----------
+that's very close to the LCD connector
+
+---------09:33----------
+so and I'd love and I'd like to not burn
+
+---------09:36----------
+the plastic I know that I mean Who am I
+
+---------09:37----------
+kidding i am going to burn the plastic
+
+---------09:39----------
+but i'd like to not try and not burn the
+
+---------09:40----------
+plastic if possible so less air means
+
+---------09:43----------
+it's not going to blow around the
+
+---------09:44----------
+surrounding area as much which means
+
+---------09:47----------
+there's hope of me not burning the
+
+---------09:48----------
+plastic so what I did there is I got
+
+---------09:52----------
+really close in on the chip because the
+
+---------09:54----------
+closer I am to the chip the less the
+
+---------09:55----------
+heat is distributed around the area of
+
+---------09:57----------
+it in the less likely i am to burn the
+
+---------09:59----------
+LCD connector there yep so it's in view
+
+---------10:02----------
+you can see everything I should put this
+
+---------10:05----------
+on the screen in front of me just so I
+
+---------10:06----------
+can see without looking to the left ok
+
+---------10:11----------
+so we're going on the ink
+
+---------10:15----------
+I that's me soldering like an ape I have
+
+---------10:20----------
+to live up to the EV black stereotype as
+
+---------10:25----------
+stated by shock I think I said this in
+
+---------10:29----------
+one of the last videos but I mean I'm
+
+---------10:31----------
+thinking of actually adding ish an ape
+
+---------10:32----------
+to my logo next to the sheep it would be
+
+---------10:39----------
+pretty cool we're like in your tooth out
+
+---------10:40----------
+I've had the same logo for like a really
+
+---------10:44----------
+long time I should switch it up now to
+
+---------10:49----------
+piss off oneness from YouTube who says
+
+---------10:52----------
+that I use unauthorized uncertified used
+
+---------10:58----------
+arts pulled from other PCBs this is one
+
+---------11:04----------
+jackass that was saying you know you
+
+---------11:06----------
+can't expect them to do component level
+
+---------11:08----------
+repair because how are they going to
+
+---------11:09----------
+stock parts for all of this and the
+
+---------11:12----------
+thing is I mean if I'm able to stock
+
+---------11:14----------
+parts for all this then why the
+
+---------11:15----------
+ can't you I mean like the same guy
+
+---------11:17----------
+is criticizing that I use used stuff
+
+---------11:19----------
+right like a part that I pulled off of
+
+---------11:20----------
+another motherboard but that same guy is
+
+---------11:23----------
+explaining how even a multi-billion
+
+---------11:25----------
+dollar company can't find it worthwhile
+
+---------11:27----------
+to stock every single part that they
+
+---------11:28----------
+need well firstly if I was a
+
+---------11:30----------
+multi-billion dollar company yes I would
+
+---------11:32----------
+have spools filled with all these parts
+
+---------11:34----------
+which is totally impractical because the
+
+---------11:36----------
+like they were used parts that you
+
+---------11:38----------
+shouldn't use when they're used like for
+
+---------11:40----------
+example like there's a difference
+
+---------11:43----------
+between buying a used car and buying
+
+---------11:45----------
+let's say used Underpants you know I
+
+---------11:47----------
+mean one is used and it's commonly
+
+---------11:49----------
+accepted that it's it's probably going
+
+---------11:52----------
+to work and one is used than just kind
+
+---------11:53----------
+of disgusting and you know again I would
+
+---------11:55----------
+not use a use graphics chip because as
+
+---------11:57----------
+you put time on that graphic strip it's
+
+---------11:58----------
+going to be more and more likely to die
+
+---------12:00----------
+every single time you use it and it's
+
+---------12:02----------
+you put in this little overheating just
+
+---------12:04----------
+awful environment but something like
+
+---------12:07----------
+like this chip that chip is going at
+
+---------12:08----------
+that that trip is going to outlive all
+
+---------12:10----------
+of us that chip is going to last a very
+
+---------12:11----------
+long time so I see no reason for it to
+
+---------12:13----------
+be wrong that I you know that i use a
+
+---------12:15----------
+used one especially if it gives me the
+
+---------12:18----------
+the benefit of being able to give it
+
+---------12:22----------
+back to the customer faster you know
+
+---------12:25----------
+it's not really a question of whether I
+
+---------12:27----------
+do the repair slow or fast that's a
+
+---------12:28----------
+question of whether or not
+
+---------12:29----------
+they leave it here at all now if I tell
+
+---------12:31----------
+somebody well every time I need to test
+
+---------12:34----------
+this to see what's wrong with it and get
+
+---------12:35----------
+a component it's going to take me a week
+
+---------12:37----------
+they're not going to leave anything here
+
+---------12:39----------
+they're just gonna buy a new one and but
+
+---------12:42----------
+if I were a multi-billion dollar company
+
+---------12:43----------
+yeah I would have people on staff that
+
+---------12:45----------
+did nothing but have you know deal with
+
+---------12:48----------
+a huge wall of parts that was catalogued
+
+---------12:50----------
+with like a little touch screen thingy
+
+---------12:51----------
+where I'd say I need this chip in the
+
+---------12:53----------
+the bin would just come out
+
+---------12:54----------
+automatically and I'd be able to walk up
+
+---------12:56----------
+to it if i were an apple i would do that
+
+---------13:00----------
+there's no reason why you can't do that
+
+---------13:03----------
+as a multi-billion dollar company as you
+
+---------13:06----------
+can see the screen works which means
+
+---------13:08----------
+that fixed it so it was you 9000 which
+
+---------13:10----------
+is what sends PP 5 vs 4 over to our pp5
+
+---------13:14----------
+ESO I honestly don't remember off the
+
+---------13:16----------
+top of my head over to the LCD when the
+
+---------13:18----------
+PCH tells it to ya like i do have been
+
+---------13:22----------
+here if you know common stuff like the
+
+---------13:25----------
+stuff that i regularly use because if i
+
+---------13:28----------
+use it regularly it's the eventually i'm
+
+---------13:29----------
+going to run out of it on the donor
+
+---------13:30----------
+boards but stuff like that that i
+
+---------13:31----------
+replace you know twice a year or once a
+
+---------13:34----------
+year and I just don't buy that's that
+
+---------13:37----------
+hope you learned something
+

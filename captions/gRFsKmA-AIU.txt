@@ -1,0 +1,943 @@
+https://www.youtube.com/watch?v=gRFsKmA-AIU
+---------00:00----------
+I see it Apple of the screen but I don't
+
+---------00:02----------
+see a backlight so nothing here looks
+
+---------00:04----------
+that bad the first thing that I want to
+
+---------00:07----------
+do is check out the backlight voltage
+
+---------00:09----------
+because different backlight voltages
+
+---------00:10----------
+will mean different things
+
+---------00:11----------
+backlight is legit zero volts alright so
+
+---------00:14----------
+there's a couple of things that we're
+
+---------00:15----------
+going to be searching for and checking
+
+---------00:18----------
+for here we have these data lines over
+
+---------00:21----------
+here that go between the screen and the
+
+---------00:23----------
+LED driver odd pits 15 and 16
+
+---------00:26----------
+respectively on pins 15 and 16 that is
+
+---------00:29----------
+going to go to pins 3 and 4 of the LCD
+
+---------00:34----------
+connector these are data lines and these
+
+---------00:36----------
+are pulled up by our 775 2 and our 7 7 5
+
+---------00:41----------
+3 they are pulled up to PP 5 ESO which
+
+---------00:45----------
+is 5 volts so I should be seeing about 5
+
+---------00:47----------
+volts on each of those data lines so
+
+---------00:51----------
+what I'm gonna double check and see what
+
+---------00:53----------
+I'm getting there on those two data
+
+---------00:54----------
+lines the fan is blowing air at me and
+
+---------00:57----------
+it's cold
+
+---------00:58----------
+maybe 4 point 6 volts there and 4 point
+
+---------01:03----------
+6 volts there some guys think that's
+
+---------01:07----------
+good if it is communicating with the
+
+---------01:11----------
+screen now what I'm interested in seeing
+
+---------01:13----------
+is what happens if I unplug the screen
+
+---------01:16----------
+so I just unplug the screen and those
+
+---------01:19----------
+should be pulled up all the way to 5
+
+---------01:20----------
+because there's nothing there that could
+
+---------01:22----------
+be pulling it down and I get five point
+
+---------01:25----------
+two and five point two alright so the
+
+---------01:29----------
+screen is indeed able to communicate
+
+---------01:32----------
+with the system is is you 7700 receiving
+
+---------01:36----------
+the power it needs to turn on
+
+---------01:43----------
+that's supposed to be on pins 5 and 18
+
+---------01:45----------
+so in pin 5
+
+---------01:46----------
+I should be getting 5 volts which I am
+
+---------01:53----------
+and then on pin 18 so chip is getting
+
+---------02:02----------
+the power it needs to turn on next up I
+
+---------02:05----------
+want to see if it's being told to turn
+
+---------02:06----------
+on so it's getting the power needs to
+
+---------02:08----------
+turn on but let's see what we get a
+
+---------02:09----------
+backlight enable we're gonna check over
+
+---------02:12----------
+here
+
+---------02:13----------
+backlight enable is 3 point 4 volts all
+
+---------02:16----------
+right so it's being told to turn off
+
+---------02:18----------
+next up we're going to check and see if
+
+---------02:20----------
+this transistor is opening Q 7700 is a
+
+---------02:24----------
+p-channel MOSFET meaning that it's only
+
+---------02:25----------
+got open to voltage in the gate pin 3 is
+
+---------02:27----------
+lower than the voltage at the source pin
+
+---------02:29----------
+4 so let's look for a Q 7700 and check
+
+---------02:33----------
+for the voltage up it's three dead pins
+
+---------02:36----------
+for AHA and three is twelve point five
+
+---------02:39----------
+the LED driver is not telling this to
+
+---------02:42----------
+open now there is a couple of reasons
+
+---------02:44----------
+that can be happening could be a bad LED
+
+---------02:47----------
+driver could be an issue with current
+
+---------02:49----------
+sensing so there is a current sensing
+
+---------02:52----------
+resistor here are 77 HUD REE and it's
+
+---------02:57----------
+going to sound as this system over here
+
+---------02:59----------
+with this LED driver is going a sense
+
+---------03:03----------
+how much current is going through the
+
+---------03:05----------
+system after the fuse and if it thinks
+
+---------03:06----------
+too much is going through because
+
+---------03:08----------
+there's too much of a difference in the
+
+---------03:09----------
+voltage from this side of the resistor
+
+---------03:10----------
+that side of the resistor it's gonna
+
+---------03:11----------
+turn off let's just make sure all those
+
+---------03:13----------
+pathways are good here and that's going
+
+---------03:15----------
+to be on pins 11 and 10 of the chip 11
+
+---------03:22----------
+in 10 so obviously if I'm going to
+
+---------03:24----------
+measure it resistance I got to turn the
+
+---------03:25----------
+power off let's see what are we out here
+
+---------03:29----------
+between pins 11 and 10 damn this is not
+
+---------03:32----------
+easy to measure the resistance here
+
+---------03:38----------
+Oh point five so current sensing circuit
+
+---------03:43----------
+is doing its job
+
+---------03:44----------
+nothing is corroded here at all yet this
+
+---------03:50----------
+is not opening
+
+---------04:09----------
+hmm what could be wrong here
+
+---------04:28----------
+nope here we are at three point four
+
+---------04:30----------
+volts in SMC lids so it's not a Hall
+
+---------04:32----------
+sensor
+
+---------05:16----------
+now imagine that this is something we
+
+---------05:19----------
+would have never seen if we didn't
+
+---------05:21----------
+remove the LED driver now let's see if
+
+---------05:24----------
+as somebody watching is paying attention
+
+---------05:27----------
+and can tell me what it is that's wrong
+
+---------05:32----------
+with this MacBooks backlight ugly pad
+
+---------05:35----------
+thing very good now what is that pad
+
+---------05:37----------
+going to be for one way to find out
+
+---------05:40----------
+we're gonna check the schematic in the
+
+---------05:41----------
+board view and this is this is a really
+
+---------05:43----------
+trolling board because we would have
+
+---------05:44----------
+never seen that there was no sign of
+
+---------05:46----------
+corrosion to let us know that that was
+
+---------05:48----------
+there now if we look this is for LCD
+
+---------05:51----------
+backlight feedback following the very
+
+---------05:53----------
+same failures that occur in many other
+
+---------05:55----------
+Mac books the feedback pad of the chip
+
+---------05:58----------
+is burned over here and if we look at
+
+---------06:01----------
+where at what LCD feedback is that is
+
+---------06:04----------
+going to be going to this voltage
+
+---------06:05----------
+divider over here which takes the
+
+---------06:08----------
+voltage from the output and sends it
+
+---------06:11----------
+back to the chip so that it could see
+
+---------06:12----------
+what it's creating this is a DC to DC
+
+---------06:14----------
+booster it's going to be switching
+
+---------06:15----------
+constantly in order to take a low
+
+---------06:18----------
+voltage like 12.5 and turn it into a
+
+---------06:20----------
+high voltage like 36 to 50 however if it
+
+---------06:23----------
+doesn't know what it's creating it's
+
+---------06:25----------
+going to want to stop out of safety
+
+---------06:27----------
+reasons so let's say you're driving in
+
+---------06:29----------
+your car and somebody throws a towel
+
+---------06:30----------
+over your face you're gonna smash on the
+
+---------06:32----------
+brakes because if you can't see where
+
+---------06:33----------
+you're going while you're speeding
+
+---------06:36----------
+yourself up you're gonna want to stop
+
+---------06:37----------
+and the same is true for this it's not
+
+---------06:39----------
+gonna produce a backlight if it can't
+
+---------06:40----------
+see what it's creating that's why we got
+
+---------06:42----------
+a pulse in the beginning instead of
+
+---------06:43----------
+nothing we got that quick pulse and then
+
+---------06:46----------
+it would decrease the voltage because it
+
+---------06:48----------
+couldn't see what it was creating and
+
+---------06:49----------
+that was because this pad over here is
+
+---------06:52----------
+burned because it's a MacBook now why
+
+---------06:54----------
+did this pad go burning why did this pad
+
+---------06:57----------
+burn why did this circuit die when there
+
+---------06:59----------
+are no signs of corrosion
+
+---------07:01----------
+no signs of liquid damage no signs of
+
+---------07:03----------
+physical damage no sign of anything that
+
+---------07:06----------
+had ever been abused in this MacBook
+
+---------07:07----------
+whatsoever why did that pageant
+
+---------07:09----------
+magically burn because it's a MacBook
+
+---------07:12----------
+it's a MacBook course it's going to
+
+---------07:15----------
+randomly break for no reason Mac - Mac -
+
+---------07:18----------
+Mac so let's fix this little MacBook and
+
+---------07:22----------
+make it all better again and do a little
+
+---------07:24----------
+bit of scrapy scraping
+
+---------07:27----------
+a little bit of scraping scraping and
+
+---------07:30----------
+we're gonna reveal the copper below the
+
+---------07:32----------
+corrosion look at that nice copper now
+
+---------07:37----------
+we're going to add some flux
+
+---------07:47----------
+it thought different it sure did it
+
+---------07:53----------
+dared to think different and then it
+
+---------07:55----------
+died
+
+---------08:04----------
+so something I've been thinking about
+
+---------08:06----------
+doing for the 1 million subscriber
+
+---------08:07----------
+special I'm not sure if this is a good
+
+---------08:09----------
+idea but I've been thinking of taking
+
+---------08:11----------
+the show on the road
+
+---------08:13----------
+what do you think of let's say we had a
+
+---------08:16----------
+huge projector and a table and a bunch
+
+---------08:20----------
+of broken MacBooks and we had a and some
+
+---------08:25----------
+sort of bleachers where we could have
+
+---------08:26----------
+like in a thousand person audience watch
+
+---------08:29----------
+the show and have something like that at
+
+---------08:35----------
+some venue in Manhattan for the thousand
+
+---------08:37----------
+I mean the 1 million subscriber special
+
+---------08:44----------
+so when I say what is the problem with
+
+---------08:47----------
+this board everybody could actually yell
+
+---------08:49----------
+out or we could have specific guesses
+
+---------08:51----------
+where different people have microphones
+
+---------08:52----------
+or something like that
+
+---------08:55----------
+I'm just gonna reinforce that pad with a
+
+---------08:57----------
+wire because we have about six months to
+
+---------09:07----------
+go until we are at a million and that's
+
+---------09:10----------
+gonna be quite a that's quite the number
+
+---------09:12----------
+I always thought that I would have about
+
+---------09:15----------
+two to three hundred subscribers at most
+
+---------09:17----------
+like the max I ever thought would be
+
+---------09:20----------
+that of the repair shops that will exist
+
+---------09:22----------
+like if all 300 repair shops that do
+
+---------09:25----------
+this stuff worldwide that do you know
+
+---------09:28----------
+component level stuff on macbook
+
+---------09:29----------
+swatched maybe I would get 300 that's if
+
+---------09:32----------
+I got every single one of them to watch
+
+---------09:33----------
+so that was my that was actually my high
+
+---------09:36----------
+estimate when I started doing this my
+
+---------09:38----------
+highest iment was maybe if I become
+
+---------09:41----------
+explosively popular I'll have 3,000
+
+---------09:43----------
+subscribers I mean 300 subscribers like
+
+---------09:46----------
+a Rossman convention perhaps.perhaps
+
+---------09:52----------
+Ross Khan yeah Ross Khan but people
+
+---------09:58----------
+named Ross van con you out of their
+
+---------09:59----------
+money
+
+---------09:59----------
+Ross huh
+
+---------10:02----------
+the Rossman foundation what if I named
+
+---------10:06----------
+it after my cat I'll name the meetup
+
+---------10:10----------
+after my cat we could call it the
+
+---------10:12----------
+Clinton Foundation great idea
+
+---------10:14----------
+Clinton calm
+
+---------10:27----------
+dammit keep losing the damn diet
+
+---------10:39----------
+I'm kind of curious who would actually
+
+---------10:41----------
+show up to this if anybody would at all
+
+---------10:45----------
+how many people watching this stream
+
+---------10:48----------
+would show up to a series of live shows
+
+---------10:51----------
+for a live show in person like where we
+
+---------10:55----------
+had a stage we'd have all the MacBooks
+
+---------10:58----------
+there we'd have a book we'd have a set
+
+---------11:00----------
+up we have all the donor boards and we'd
+
+---------11:04----------
+have maybe one or two thousand people in
+
+---------11:06----------
+an audience I'm kind of curious if this
+
+---------11:09----------
+is a good idea or a complete and utter
+
+---------11:11----------
+waste of time Paul Daniels would be the
+
+---------11:13----------
+guest of honor Paul Daniels would
+
+---------11:15----------
+definitely be a guest of honor I would
+
+---------11:17----------
+pay for Paul Daniels his hotel in flight
+
+---------11:19----------
+from Australia and for his food and all
+
+---------11:22----------
+of his stuff for being one of the people
+
+---------11:26----------
+to like really get involved in the
+
+---------11:28----------
+industry and put a lot of effort into
+
+---------11:29----------
+making things better with his software
+
+---------11:31----------
+so I'd love to I would be I would be
+
+---------11:34----------
+above thrilled to have Paul Daniels have
+
+---------11:36----------
+his own booth as a guest of honor
+
+---------11:50----------
+nasarah would be able to have her own
+
+---------11:52----------
+booth talking about how she was able to
+
+---------11:54----------
+put mobile fix out of business in just
+
+---------11:57----------
+six months
+
+---------12:04----------
+Paul would definitely be there
+
+---------12:21----------
+Paul Daniels would be showing off his
+
+---------12:23----------
+new software onstage hopefully it would
+
+---------12:26----------
+go better than Windows 98 and the BSOD
+
+---------12:28----------
+thing maybe it would maybe it wouldn't
+
+---------12:40----------
+and there goes my jumper oh well we'll
+
+---------12:45----------
+fix that in a moment I would definitely
+
+---------12:48----------
+try to fly out Duke as a guest of honor
+
+---------12:51----------
+Duke would definitely be a guest of
+
+---------12:53----------
+honor
+
+---------12:54----------
+[Applause]
+
+---------13:01----------
+Duke was an inspiration to me in this
+
+---------13:03----------
+field so I would absolutely have Duke
+
+---------13:05----------
+out as a guest of honor Paul will have a
+
+---------13:10----------
+booth that everybody can bring they're
+
+---------13:11----------
+missing their PM sleeve s4l missing
+
+---------13:13----------
+boards - I'm thinking Paul would
+
+---------13:15----------
+actually have a booth with his Alma so
+
+---------13:17----------
+that Tim and everybody could bring their
+
+---------13:19----------
+boards that have dead CPUs and Paul
+
+---------13:20----------
+could just replace them all do the event
+
+---------13:22----------
+in front of an apple store so when
+
+---------13:23----------
+customers buy a MacBook they could give
+
+---------13:24----------
+it to you to fix whoa that know what
+
+---------13:29----------
+Central Park what if we do the show live
+
+---------13:31----------
+in Central Park what if we do it right
+
+---------13:33----------
+across the street from the 59th Street
+
+---------13:35----------
+Apple store could I set up a little gas
+
+---------13:37----------
+powered or a battery powered soldering
+
+---------13:40----------
+set up right across the street from an
+
+---------13:42----------
+Apple store has anybody ever tried to
+
+---------13:44----------
+get a street permit for this that would
+
+---------13:46----------
+totally be worth getting a street permit
+
+---------13:48----------
+for let's see if this board works now
+
+---------13:50----------
+that we fixed our feedback let's see
+
+---------13:52----------
+there a street vendor inside here
+
+---------13:53----------
+because if there's a street vendor
+
+---------13:55----------
+inside here then that means that
+
+---------13:56----------
+somebody was allowed to get a permit so
+
+---------13:59----------
+I'm looking for like a hot dog vendor or
+
+---------14:00----------
+something wait here we go hot dog hot
+
+---------14:02----------
+dog okay how far is this dude from Apple
+
+---------14:05----------
+Store this guy was able to legally get a
+
+---------14:07----------
+permit BAM here we go here we go folks
+
+---------14:11----------
+that guy was able to legally get a
+
+---------14:13----------
+permit we got like a good six months for
+
+---------14:15----------
+this idea do it as a charity yeah you
+
+---------14:17----------
+know that would actually probably that
+
+---------14:18----------
+would make it easier to do that would
+
+---------14:20----------
+make it easier to do if we did it as a
+
+---------14:21----------
+charity okay so I need to get a street
+
+---------14:24----------
+permit to have Mike little cart my
+
+---------14:27----------
+little cart will be my macbook repair
+
+---------14:29----------
+cart
+
+---------14:29----------
+I'd have to invite Jessa I would need
+
+---------14:31----------
+Jessa to help me with the phone side of
+
+---------14:33----------
+things this could be good I think what
+
+---------14:34----------
+we could do is we could do a mobile cart
+
+---------14:36----------
+repair event and then we could also have
+
+---------14:39----------
+some sort of instead of doing a live
+
+---------14:42----------
+show we could have a little cart for the
+
+---------14:44----------
+repair event and then we could have some
+
+---------14:46----------
+sort of party nearby and then a party
+
+---------14:48----------
+would be the celebration of the 1
+
+---------14:49----------
+million and this now the funds from the
+
+---------14:54----------
+party let's say we charge 20 or 30 bucks
+
+---------14:57----------
+tit for the tickets for the party that
+
+---------14:59----------
+could fund the permit to have my little
+
+---------15:03----------
+live truck this is gonna be great
+
+---------15:05----------
+all right first let's see if we got a
+
+---------15:06----------
+backlight on here as you can see we have
+
+---------15:08----------
+a light on the screen meaning that our
+
+---------15:10----------
+little jumper wire has fixed this so the
+
+---------15:13----------
+feedback happened to blow up why the
+
+---------15:15----------
+blew up and there's no liquid damage or
+
+---------15:17----------
+no physical damage it's a Mac I can't
+
+---------15:20----------
+tell you that
+
+---------15:20----------
+but what I can do is run a jumper wire
+
+---------15:22----------
+and fix it for you take your money or if
+
+---------15:26----------
+you don't want to give me your money
+
+---------15:27----------
+because I'm a New York City jackass with
+
+---------15:30----------
+a douche bag accent you could follow the
+
+---------15:32----------
+instructions in my video and all the
+
+---------15:33----------
+other videos just like it that you'll
+
+---------15:35----------
+find down below and fix it yourself and
+
+---------15:37----------
+that's it for this one and I hope you
+
+---------15:40----------
+learned something
+
+---------15:40----------
+but Dad let's move on to the next
+
+---------15:43----------
+MacBook
+

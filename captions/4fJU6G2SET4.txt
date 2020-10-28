@@ -1,0 +1,1360 @@
+https://www.youtube.com/watch?v=4fJU6G2SET4
+---------00:00----------
+hi so today we're gonna be discussing a
+
+---------00:01----------
+no backlight issue this is brought to me
+
+---------00:03----------
+by a friend who is being driven nuts by
+
+---------00:05----------
+it it's an eight to zero twenty five
+
+---------00:07----------
+twenty three board for an a twelve
+
+---------00:09----------
+eighty six from 2009 make a you know
+
+---------00:11----------
+little piece of I usually prefer
+
+---------00:14----------
+avoiding working on these but for a
+
+---------00:16----------
+friend that will always help so let's
+
+---------00:18----------
+take a look here and see what's going on
+
+---------00:20----------
+so when I shrink this so you can see
+
+---------00:23----------
+what's going on a microscope camera you
+
+---------00:24----------
+will see some nasty nasty
+
+---------00:28----------
+so to give you an idea of what's going
+
+---------00:29----------
+on here let's get a pair of tweezers
+
+---------00:33----------
+okay my desk is disgusting so I can't
+
+---------00:35----------
+find a set of tweezers it's about time
+
+---------00:38----------
+for me to go home tired and dead tired
+
+---------00:41----------
+alright so over here you're gonna see a
+
+---------00:43----------
+wire and this wires going for my power
+
+---------00:45----------
+supply and it's going to a pin on the LP
+
+---------00:48----------
+eighty five forty three and that's a
+
+---------00:49----------
+ground wire so I have this this a power
+
+---------00:51----------
+supply here that I use for testing
+
+---------00:53----------
+purposes I can use it for finding shorts
+
+---------00:55----------
+and I can also use it to provide power
+
+---------00:56----------
+to where I think power should be if
+
+---------00:58----------
+there's no power now one of the things
+
+---------01:00----------
+that went wrong on this and just go over
+
+---------01:02----------
+to the screen capture I love this
+
+---------01:05----------
+software I love open broadcaster
+
+---------01:06----------
+software like somebody made a comment
+
+---------01:08----------
+recently on my channel about how yeah
+
+---------01:10----------
+finally open source software that
+
+---------01:11----------
+actually works and yes this this this
+
+---------01:14----------
+does work I know I know it's
+
+---------01:16----------
+surprising because it's open source
+
+---------01:17----------
+software for multimedia purposes you
+
+---------01:19----------
+wouldn't expect it to work but it does
+
+---------01:21----------
+and it's cross-platform and it's free i
+
+---------01:23----------
+mean i don't have you these people
+
+---------01:25----------
+hundred bucks if you need something
+
+---------01:26----------
+anything remotely like this try it out
+
+---------01:28----------
+and please donate to them please please
+
+---------01:30----------
+show that people are actually willing to
+
+---------01:31----------
+pay for open source software that
+
+---------01:33----------
+doesn't suck because there is a severe
+
+---------01:35----------
+lack of it when it comes to any type of
+
+---------01:37----------
+you know video editing video recording
+
+---------01:40----------
+production kind of stuff like that
+
+---------01:42----------
+anyway so here's what was going on i've
+
+---------01:45----------
+talked about the backlight circuited
+
+---------01:46----------
+enough other videos that i don't feel
+
+---------01:48----------
+like i have to go into how this thing
+
+---------01:49----------
+works here at long story short this is a
+
+---------01:51----------
+DC blue circuit so you have input here
+
+---------01:53----------
+which is twelve point six volts you have
+
+---------01:55----------
+a backlight controller over here this is
+
+---------01:57----------
+an inductor also known as a coil also
+
+---------02:00----------
+known as the thing that never goes bad
+
+---------02:01----------
+so if you read on a forum and you have
+
+---------02:03----------
+no backlight you need to replace the
+
+---------02:04----------
+coil no you need to X because that form
+
+---------02:06----------
+is filled with idiots over here
+
+---------02:08----------
+you have a diode and over here you have
+
+---------02:10----------
+output of backlight now to give you a
+
+---------02:12----------
+very very very
+
+---------02:13----------
+quick and dirty and nasty introduction
+
+---------02:15----------
+how a DC booze circuit works this is an
+
+---------02:18----------
+inductor the power that goes through an
+
+---------02:19----------
+inductor is gonna go through it in a
+
+---------02:21----------
+funny way compared to how it would just
+
+---------02:22----------
+go through a straight wire now this over
+
+---------02:25----------
+here is actually gonna take this 12
+
+---------02:27----------
+volts that's coming along here it's
+
+---------02:28----------
+actually gonna short it to ground an
+
+---------02:29----------
+interval is very very now what that's
+
+---------02:31----------
+gonna do is that's gonna cause the power
+
+---------02:32----------
+that's coming through here to zoom
+
+---------02:34----------
+through here as fast as possible but
+
+---------02:36----------
+then it's gonna stop because the right
+
+---------02:38----------
+over here with this chip is shorting it
+
+---------02:39----------
+to ground is gonna go away so you're
+
+---------02:41----------
+gonna have power coming in going and
+
+---------02:42----------
+stop going in stop in stop and this
+
+---------02:44----------
+constant starting and stopping short
+
+---------02:46----------
+with the inductor behind it it's gonna
+
+---------02:48----------
+cause voltage to build up in the
+
+---------02:50----------
+inductor so you're not gonna have 12
+
+---------02:51----------
+volts you're gonna have 12 volts 16
+
+---------02:53----------
+volts 18 volts 20 volts 30 volts 40
+
+---------02:55----------
+volts and that is going to get sent out
+
+---------02:57----------
+this way so it goes through this diode
+
+---------02:58----------
+these capacitors smooth it out so
+
+---------03:00----------
+instead of looking like a bunch of
+
+---------03:01----------
+pulses of it just looks like a
+
+---------03:02----------
+straight line and that's what allows you
+
+---------03:05----------
+to start out with 12 volts and actually
+
+---------03:07----------
+get out to 40 or 50 obviously you're not
+
+---------03:09----------
+gonna have the same current capability
+
+---------03:10----------
+that you would if you were just sending
+
+---------03:12----------
+12 volts because you're boosting the
+
+---------03:13----------
+voltage at you know at the same starting
+
+---------03:15----------
+voltage without adding anything so but
+
+---------03:17----------
+this is a screen you don't need a lot of
+
+---------03:19----------
+power to power a screen it's an LED
+
+---------03:20----------
+backlit screen for a laptop so what
+
+---------03:22----------
+happened here is this diode was open so
+
+---------03:25----------
+a diode is supposed to pass electricity
+
+---------03:27----------
+in one direction but I've resistance to
+
+---------03:28----------
+it in another direction this diode was
+
+---------03:30----------
+open which means that you know 20 30 40
+
+---------03:32----------
+50 volts for the screen over here was
+
+---------03:35----------
+actually going backwards and so what I
+
+---------03:38----------
+thought is so this is a 12 volt circuit
+
+---------03:41----------
+over here so everything going backwards
+
+---------03:42----------
+over here once this diode blew for a
+
+---------03:44----------
+split second there was an up to 50 volts
+
+---------03:46----------
+that went back this way and probably
+
+---------03:47----------
+sodomized everything I replaced LED
+
+---------03:50----------
+driver no luck I looked in the area you
+
+---------03:53----------
+know the after the diode was blown
+
+---------03:54----------
+you know caps were good there again the
+
+---------03:56----------
+coil keep in mind the coil will never
+
+---------03:59----------
+die I can repeat with me the coil will
+
+---------04:01----------
+never die it's not the inductors
+
+---------04:03----------
+if you look at just you just look at
+
+---------04:05----------
+what this looks like you'll
+
+---------04:06----------
+understand what I mean I mean like let
+
+---------04:07----------
+me just bring it up on the microscope
+
+---------04:09----------
+just so you can get a better
+
+---------04:10----------
+appreciation of why this thing will
+
+---------04:12----------
+never die and why all these people on
+
+---------04:14----------
+internet forums they tell you that the
+
+---------04:15----------
+coil is what is bad or just complete
+
+---------04:17----------
+ idiot ignorant dumb ass
+
+---------04:21----------
+so let's find it over here
+
+---------04:24----------
+and
+
+---------04:26----------
+Yeah right so the coil is so the
+
+---------04:32----------
+inductor so see okay you see this you
+
+---------04:36----------
+see this this is not good this good
+
+---------04:38----------
+you're not gonna break this this is you
+
+---------04:40----------
+can't see it because it's outside of my
+
+---------04:42----------
+viewable range okay I see that that
+
+---------04:44----------
+that's you're never gonna break this
+
+---------04:46----------
+this is huge this is a huge coil that is
+
+---------04:49----------
+no you you're not breaking that so
+
+---------04:50----------
+people who say that that's what blows
+
+---------04:51----------
+again they're idiots don't listen to
+
+---------04:54----------
+them they're dumb okay back here so you
+
+---------04:56----------
+have this now I went backwards and
+
+---------04:58----------
+backwards and backwards until I got over
+
+---------04:59----------
+here this is the next step
+
+---------05:01----------
+see this so this says critical in its
+
+---------05:03----------
+voltage into the LP eight five four
+
+---------05:05----------
+three I'm not sure what this is supposed
+
+---------05:07----------
+to be so since I'm not sure what this is
+
+---------05:09----------
+supposed to be as you can see on pin 23
+
+---------05:11----------
+I don't know what that's supposed to be
+
+---------05:12----------
+I decided that I would use my brain so
+
+---------05:15----------
+the way that I decided to use my brain
+
+---------05:17----------
+is I decided to Google this LP eight
+
+---------05:20----------
+five four three number over here when I
+
+---------05:22----------
+google it I get a datasheet now when I
+
+---------05:24----------
+look at the data sheet you're gonna get
+
+---------05:25----------
+to something called pin description so
+
+---------05:27----------
+it's gonna tell you what every pin
+
+---------05:28----------
+actually does so it says on pin 23 input
+
+---------05:30----------
+power supply 5.5 to 22 volts see pen 23
+
+---------05:34----------
+VN input power supply 5.5 to 25 three
+
+---------05:38----------
+volt so it gives me an idea
+
+---------05:39----------
+now over here when I follow this VN up
+
+---------05:41----------
+this way you're gonna we go up here it
+
+---------05:44----------
+shows me that it has power that comes to
+
+---------05:46----------
+these transistors so remember drain to
+
+---------05:48----------
+source source to drain over here this is
+
+---------05:51----------
+pretty much like it's it's either open
+
+---------05:52----------
+or it's closed think of it like a wire
+
+---------05:53----------
+so the when everything's working right
+
+---------05:55----------
+with this system when it's receiving the
+
+---------05:57----------
+voltage as opposed to this goes through
+
+---------05:58----------
+here this goes through here so the way
+
+---------06:00----------
+this works is this is pp 5 vs oh this is
+
+---------06:03----------
+5 volts from the computers one of the
+
+---------06:05----------
+main power rails and Phi is it says 5.5
+
+---------06:09----------
+222 is acceptable let's just assume that
+
+---------06:10----------
+5 volts is good enough now it's going
+
+---------06:13----------
+through here it's going through here you
+
+---------06:15----------
+remember how it transistor works drain
+
+---------06:17----------
+to source is just like a resistor that
+
+---------06:19----------
+turns into a wire eventually depending
+
+---------06:20----------
+on what's at the gate you're going
+
+---------06:22----------
+through here then it goes through here
+
+---------06:24----------
+and then it goes through here so and now
+
+---------06:30----------
+this power is not is gonna get sent to
+
+---------06:32----------
+ground depending on whether backlight
+
+---------06:34----------
+enabled here is doing so the whole idea
+
+---------06:36----------
+here is this is 5 volts input for the
+
+---------06:38----------
+chip this is a 5 volt power rail
+
+---------06:39----------
+the chip needs to actually function it
+
+---------06:41----------
+needs that you know you have 12 point 6
+
+---------06:43----------
+volts here that's not power for the chip
+
+---------06:44----------
+this pp bus underscore s o underscore
+
+---------06:47----------
+LCD back that underscore power is not
+
+---------06:49----------
+what actually POW is the chip what
+
+---------06:50----------
+powers the chip is this 5 volt input
+
+---------06:54----------
+this 12 point 6 volts over here that's
+
+---------06:56----------
+power that the chip is going to
+
+---------06:57----------
+transform in a 50 but that's not what
+
+---------06:59----------
+actually powers the chip and allows it
+
+---------07:01----------
+to do what it's doing that's just the
+
+---------07:02----------
+power rail that the chip will then be
+
+---------07:04----------
+controlling once it turns on V in is the
+
+---------07:06----------
+power that the chip actually needs in
+
+---------07:08----------
+order to turn on and get to work and
+
+---------07:09----------
+that is only going to show up when this
+
+---------07:11----------
+backlight enable signal is over here or
+
+---------07:13----------
+else that 5 volt power supply for the
+
+---------07:15----------
+chip is going to get shorted to ground
+
+---------07:17----------
+now when I measured over here I notice
+
+---------07:20----------
+that there wasn't 5 volts over there and
+
+---------07:21----------
+these resistors were measuring the way
+
+---------07:23----------
+they were supposed to be and these
+
+---------07:24----------
+transistors were measuring the way that
+
+---------07:26----------
+they were supposed to be so what do you
+
+---------07:28----------
+do well what you do is you put if you
+
+---------07:32----------
+try to put 5 volts on that rail and see
+
+---------07:34----------
+if it fix the problem and that's what
+
+---------07:35----------
+you can see on the microscope so in the
+
+---------07:37----------
+microscope what you're gonna be able to
+
+---------07:38----------
+see is that on 5 volts I have a piece of
+
+---------07:42----------
+cat 5 wire which is why I'm very very
+
+---------07:44----------
+careful about what I'm doing in my desk
+
+---------07:45----------
+because I know if I touch that thing the
+
+---------07:46----------
+wrong way is going to rip that pad off
+
+---------07:48----------
+of the board completely and it's just
+
+---------07:50----------
+gonna be a miserable miserable nightmare
+
+---------07:51----------
+so as you can see there I have that
+
+---------07:53----------
+piece of cat 5 wire I had to trim it a
+
+---------07:55----------
+little bit so you have little leave one
+
+---------07:56----------
+strand of it going from my HP Agilent 65
+
+---------08:00----------
+42 a power supply to there so that I can
+
+---------08:02----------
+send 5 volts and if you want to see if
+
+---------08:05----------
+that fixes my problem you could see what
+
+---------08:07----------
+happens when I decide to turn on my
+
+---------08:09----------
+power supply so my power supply here is
+
+---------08:11----------
+set to 5 volts so when I turn my power
+
+---------08:14----------
+supply on when I hit the button what
+
+---------08:16----------
+happens but a light I get a light in a
+
+---------08:20----------
+flashing question mark which means that
+
+---------08:22----------
+I fixed my problem now this is gonna
+
+---------08:24----------
+require a little bit of arts and crafts
+
+---------08:25----------
+which I hate so my friend is gonna be
+
+---------08:27----------
+doing that himself because what happened
+
+---------08:29----------
+here is those resistors are actually on
+
+---------08:31----------
+the other side of the board so I'm just
+
+---------08:33----------
+gonna remove this I'm gonna unplug it
+
+---------08:35----------
+what I'm doing so that I could show you
+
+---------08:36----------
+a little bit of what I mean and you know
+
+---------08:38----------
+once I unplug this he and he's gonna be
+
+---------08:40----------
+on his own such is life so I'm gonna
+
+---------08:44----------
+show you what I mean in the microscope
+
+---------08:45----------
+let me shrink myself since you don't
+
+---------08:49----------
+need to see me anymore
+
+---------08:52----------
+I'm also going to show you what some of
+
+---------08:54----------
+the hints look like all right yeah I
+
+---------08:58----------
+didn't have the air filter on
+
+---------09:06----------
+there's a lot of flux there I'll have to
+
+---------09:08----------
+clean that so see that is the pin right
+
+---------09:10----------
+there see that that is the pin that I
+
+---------09:12----------
+pointed to with the soldering iron now
+
+---------09:13----------
+see how it goes to that see how that
+
+---------09:15----------
+doesn't really look very nice anymore
+
+---------09:17----------
+yeah it doesn't look very nice now when
+
+---------09:20----------
+you see something like that that
+
+---------09:21----------
+actually goes to the other side of the
+
+---------09:22----------
+board those when they when you see
+
+---------09:25----------
+something coming from a trace from a pad
+
+---------09:27----------
+and it's going a circle and there's a
+
+---------09:29----------
+hole in the middle that's actually going
+
+---------09:31----------
+to be going to something on the other
+
+---------09:32----------
+side of the board so what I want to do
+
+---------09:34----------
+here is I want to show you at the other
+
+---------09:35----------
+side of the board looks like I'm gonna
+
+---------09:42----------
+show you where those little resistors
+
+---------09:44----------
+are so what I showed you there was that
+
+---------09:46----------
+there were some resistors in that
+
+---------09:47----------
+circuit just in case you forget what
+
+---------09:49----------
+they look like let me just show it to
+
+---------09:50----------
+you again on the screen capturing tool
+
+---------09:53----------
+so right over here you see you have our
+
+---------09:56----------
+97.1 you have a nine seven thirty-five
+
+---------09:58----------
+you have a nine seven no two
+
+---------10:00----------
+so those are all going to be in this
+
+---------10:04----------
+area that I'm about to show you
+
+---------10:23----------
+yeah so what's over here and you you can
+
+---------10:25----------
+you can guess well you know where the
+
+---------10:28----------
+voltage that is messed up as opposed to
+
+---------10:29----------
+be like hint to this this goes to the
+
+---------10:31----------
+other side of the board so what my
+
+---------10:33----------
+friend is going to have to do is when he
+
+---------10:35----------
+has the time to come here he's going to
+
+---------10:36----------
+have to make a hole in the board in that
+
+---------10:39----------
+area and then he's gonna have to run a
+
+---------10:41----------
+wire because the trace from one side of
+
+---------10:46----------
+the board to the other side of the board
+
+---------10:47----------
+is actually blown these are points that
+
+---------10:48----------
+are very very easy to break because
+
+---------10:49----------
+they're very very small very very thin
+
+---------10:51----------
+so he's going to do he's but he's most
+
+---------10:53----------
+likely going to do he's going to take a
+
+---------10:55----------
+piece of battery wire like this which is
+
+---------10:58----------
+pretty good it's good stuff for this so
+
+---------11:00----------
+this is an a 1278 battery connector
+
+---------11:02----------
+that's broken he's going to take a
+
+---------11:03----------
+little wire like this he's gonna make a
+
+---------11:05----------
+little hole on the board using something
+
+---------11:07----------
+that he can man he can use to poke
+
+---------11:09----------
+through the whole thing like this and
+
+---------11:11----------
+he's gonna poke the wire through and
+
+---------11:12----------
+he's going to solder it on both ends to
+
+---------11:14----------
+where it's supposed to go and that's
+
+---------11:15----------
+going to fix the problem you know again
+
+---------11:17----------
+not all backlight issues are simple a
+
+---------11:19----------
+lot of people like again this this is
+
+---------11:21----------
+one of the reasons that I don't no
+
+---------11:22----------
+longer have it no back like coupon so
+
+---------11:23----------
+hey I used to have a bit no back like
+
+---------11:25----------
+coupon meaning if your only issue is no
+
+---------11:26----------
+backlight you would get the service for
+
+---------11:29----------
+cheaper not even just the fact that
+
+---------11:31----------
+nobody who sent use the no back like
+
+---------11:32----------
+coupon actually had no backlight your
+
+---------11:33----------
+issue as your computer was totally dead
+
+---------11:35----------
+and that's why you had no backlight but
+
+---------11:36----------
+also sometimes they're a pain in the ass
+
+---------11:38----------
+again I mean he he's not dumb easy you
+
+---------11:41----------
+know he's he has experience with this
+
+---------11:42----------
+not to mention he was trained by the
+
+---------11:44----------
+best not gonna say who but the point is
+
+---------11:47----------
+you know sometimes you have these issues
+
+---------11:49----------
+that are just a pain in the ass and it's
+
+---------11:50----------
+not as simple as you think it's going to
+
+---------11:52----------
+be just because it's a no backlight
+
+---------11:53----------
+doesn't mean it's gonna be easy so again
+
+---------11:55----------
+just to go over it again on the screen
+
+---------11:57----------
+capturing tool let me shrink this so you
+
+---------12:00----------
+can see the screen capturing tool you
+
+---------12:03----------
+know this is a DC to DC boost circuit
+
+---------12:05----------
+you start out with twelve point six
+
+---------12:07----------
+volts over here and it's going to go
+
+---------12:10----------
+through an inductor now what you're
+
+---------12:12----------
+gonna do is right after the inductor
+
+---------12:13----------
+you're gonna short it to ground but
+
+---------12:14----------
+you're gonna you're going to short it to
+
+---------12:16----------
+ground in with the changing frequency so
+
+---------12:18----------
+it's gonna go to the ground and stop go
+
+---------12:20----------
+to ground and stop go to ground and stop
+
+---------12:21----------
+and that's going to create pulsing so
+
+---------12:24----------
+the voltage is gonna get ripped through
+
+---------12:26----------
+this inductor which it doesn't like you
+
+---------12:28----------
+can read about that if you read up or go
+
+---------12:30----------
+to college and learn about how DC to DC
+
+---------12:32----------
+boost circuits work I'm not gonna
+
+---------12:33----------
+explain it the scientific way here I
+
+---------12:35----------
+don't have the vocabulary to know
+
+---------12:37----------
+do I care to make things more difficult
+
+---------12:38----------
+for you - no reason but think of it like
+
+---------12:40----------
+stopping short in a car like for that
+
+---------12:42----------
+one moment that you're going like this
+
+---------12:43----------
+you're going really really fast and
+
+---------12:45----------
+thinking about stopping short over and
+
+---------12:46----------
+over again you know think about the
+
+---------12:48----------
+energy that happens every time you do
+
+---------12:49----------
+that and that's what you're doing here
+
+---------12:50----------
+so this chip is shorting that twelve
+
+---------12:52----------
+point six volts the ground but very very
+
+---------12:54----------
+quickly than stopping very very quickly
+
+---------12:55----------
+than stopping through a coil which is a
+
+---------12:57----------
+pain in the ass to get the power through
+
+---------12:59----------
+and what it happens is you wind up
+
+---------13:01----------
+getting that voltage built up in the
+
+---------13:02----------
+coil so you have 12 instead of it just
+
+---------13:04----------
+being 12 volts you have 12 volts then 12
+
+---------13:06----------
+volts then 12 volts you wind up with
+
+---------13:08----------
+something like 36 volts and again you
+
+---------13:09----------
+don't have the same amperage that you
+
+---------13:11----------
+would have if it was just a straight 36
+
+---------13:13----------
+volts but the voltage itself is actually
+
+---------13:16----------
+higher and then you put that through a
+
+---------13:18----------
+diode and that winds up going out so
+
+---------13:20----------
+that you don't have all that power going
+
+---------13:21----------
+back through here and causing a
+
+---------13:23----------
+[ __ ]
+
+---------13:23----------
+now this diode itself was open which
+
+---------13:26----------
+wound up blowing things that came before
+
+---------13:28----------
+it so the LPA t5 43 didn't look any good
+
+---------13:31----------
+on the Sun definitely not on this
+
+---------13:34----------
+section and mainly the this voltage in
+
+---------13:37----------
+that the point directly right behind it
+
+---------13:39----------
+was burned to we fixed that and it
+
+---------13:41----------
+works you saw that when I hit the on
+
+---------13:43----------
+button on my power supply that it all
+
+---------13:44----------
+worked
+
+---------13:45----------
+hopefully you learned something today
+
+---------13:46----------
+hopefully you learned something about
+
+---------13:47----------
+how a DC to DC boost circuit works when
+
+---------13:50----------
+you actually want to not just take
+
+---------13:51----------
+voltage and bring it down I've talked
+
+---------13:52----------
+about that in other videos how you take
+
+---------13:54----------
+a higher voltage like five volts or
+
+---------13:56----------
+eight volts or 12 volts and turn it into
+
+---------13:57----------
+one volt for CPU vcore this is how you
+
+---------13:59----------
+do the opposite this is how you take 12
+
+---------14:01----------
+volts new machines main rail and turn
+
+---------14:03----------
+that into 36 39 or 50 volts required the
+
+---------14:06----------
+power of the backlight on the screen
+
+---------14:07----------
+without any other power supply so
+
+---------14:09----------
+hopefully you learned a little bit about
+
+---------14:10----------
+the backlight circuit hopefully you
+
+---------14:11----------
+learned a little bit of basic
+
+---------14:12----------
+electronics again DC blue circuit ignore
+
+---------14:15----------
+all the again you're gonna read pages
+
+---------14:17----------
+upon pages of electronics theory and
+
+---------14:19----------
+you're just gonna want to kill yourself
+
+---------14:20----------
+it's just it's very simple you yeah and
+
+---------14:22----------
+all this entire page of stuff but chip
+
+---------14:24----------
+is there just stop the car short over
+
+---------14:26----------
+and over again it's those little stops
+
+---------14:28----------
+and stops and starts and stops and
+
+---------14:29----------
+starts and getting slammed through that
+
+---------14:31----------
+case the 12 volts and brings it up to 36
+
+---------14:33----------
+to 39 I know a lot of people who are
+
+---------14:35----------
+good with electronics I know a lot of
+
+---------14:36----------
+electronics professors a lot of hardcore
+
+---------14:38----------
+electronics diehard do-it-yourself
+
+---------14:40----------
+people are gonna hate me because I'm
+
+---------14:42----------
+explaining it in a way that I am but the
+
+---------14:44----------
+point here is not to explain it well you
+
+---------14:46----------
+you understand the formulas and you
+
+---------14:48----------
+understand all the nonsense behind it
+
+---------14:49----------
+all I want you to do is
+
+---------14:51----------
+understand in your head a basic idea of
+
+---------14:53----------
+how that works without having to get a
+
+---------14:55----------
+master's degree in college without
+
+---------14:56----------
+having to sit through a six-month course
+
+---------14:57----------
+without having to know what the little
+
+---------14:59----------
+symbols and the thin the theories mean I
+
+---------15:00----------
+want you to be able to look at this and
+
+---------15:02----------
+innately understand what's going on in
+
+---------15:04----------
+your brain with the knowledge that you
+
+---------15:06----------
+already have and if you can do that I've
+
+---------15:07----------
+done my job
+

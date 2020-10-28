@@ -1,0 +1,565 @@
+https://www.youtube.com/watch?v=lvMrfQ3CHmE
+---------00:00----------
+all right so today we're gonna go over
+
+---------00:01----------
+when it is proper to replace an LED
+
+---------00:03----------
+driver versus when you should
+
+---------00:04----------
+troubleshoot other things in the circuit
+
+---------00:06----------
+so right now we have an old piece of
+
+---------00:08----------
+crap in H 1278 and on this machine you
+
+---------00:11----------
+get no backlight but you do get a chime
+
+---------00:14----------
+so the first thing that you want to look
+
+---------00:15----------
+for before doing any troubleshooting in
+
+---------00:16----------
+a backlight circuit is does it turn on
+
+---------00:18----------
+and chime now for some reason this
+
+---------00:20----------
+decided to not turn on a chime because I
+
+---------00:21----------
+hit the record button on the camera
+
+---------00:22----------
+which is very very typical so what I do
+
+---------00:25----------
+is I look at the Machine and I like to
+
+---------00:27----------
+see
+
+---------00:28----------
+am I getting a picture the first thing
+
+---------00:29----------
+above all else that I'm interested in is
+
+---------00:31----------
+do I get a picture on the screen so here
+
+---------00:34----------
+if I put this up to the lighting you'll
+
+---------00:37----------
+see that I have a picture actually you
+
+---------00:40----------
+can't see I have a picture because this
+
+---------00:41----------
+user is really really disgusting and
+
+---------00:43----------
+nasty and as a screen that's so
+
+---------00:45----------
+dirty that you can't see there's
+
+---------00:46----------
+anything showing up on it so you're just
+
+---------00:48----------
+gonna have to trust me when I say that
+
+---------00:49----------
+there is indeed something there I can
+
+---------00:52----------
+see through the dirt sadly my camera
+
+---------00:53----------
+cannot so the first thing you need is a
+
+---------00:57----------
+picture on the screen no picture on the
+
+---------00:58----------
+screen
+
+---------00:58----------
+no troubleshooting back light now we're
+
+---------01:00----------
+gonna go check out the board a little
+
+---------01:02----------
+bit so let's just switch over to the
+
+---------01:04----------
+screen capture over here and find the
+
+---------01:07----------
+board view in this schematic so this is
+
+---------01:09----------
+an 8 - 0 31 15 okay we switch oh ah that
+
+---------01:15----------
+made me deaf software alright
+
+---------01:18----------
+so let's check out the backlight area
+
+---------01:28----------
+you
+
+---------01:32----------
+alright so there are a few basic things
+
+---------01:33----------
+I want to check the first thing I want
+
+---------01:35----------
+to see is is there power on backlight an
+
+---------01:37----------
+able over here so this needs to get 3
+
+---------01:41----------
+volts or 2 point 7 volts at bkl
+
+---------01:43----------
+underscore en if I don't have power
+
+---------01:44----------
+there then this is not gonna not gonna
+
+---------01:47----------
+do it first thing we do is check out the
+
+---------01:49----------
+bkl underscore en area so let's go over
+
+---------01:52----------
+to that well the schematic that I have
+
+---------01:56----------
+open just changed I don't remember doing
+
+---------01:58----------
+that that's scary
+
+---------02:00----------
+okay so here we go so bkl en now this is
+
+---------02:04----------
+gonna tell me a few things over here BK
+
+---------02:06----------
+FB k le n is 3 volts the first thing
+
+---------02:08----------
+that I know is that the computer detects
+
+---------02:09----------
+a screen because these signals over here
+
+---------02:11----------
+would not allow the backlight power to
+
+---------02:13----------
+flow through to that part of the circuit
+
+---------02:14----------
+because backlight enable voltage comes
+
+---------02:16----------
+from this be pp bus SW LCD backlight per
+
+---------02:20----------
+over here you see pp bus SW LCD
+
+---------02:22----------
+backlight per and that would not show up
+
+---------02:26----------
+if this was an opening this is not going
+
+---------02:28----------
+to open unless these to open and allow
+
+---------02:30----------
+this voltage divider to allow this
+
+---------02:31----------
+transverse that are open and this is not
+
+---------02:33----------
+gonna come through if the computers not
+
+---------02:34----------
+turning on and also seeing a screen
+
+---------02:36----------
+if this fuse is blown that's also not
+
+---------02:38----------
+gonna work so what I do is if I see 3
+
+---------02:40----------
+volts there I can rule out the fact that
+
+---------02:42----------
+this entire circuit could be part of the
+
+---------02:44----------
+problem so let's see what I get
+
+---------02:46----------
+so at backlight enable when I choose
+
+---------02:48----------
+voltage on the multimeter I get two
+
+---------02:57----------
+point seven volts so it is being told to
+
+---------02:58----------
+turn up okay what's up next what's up
+
+---------03:01----------
+next is bkl underscore pwm now this is
+
+---------03:05----------
+going to be what sets the brightness
+
+---------03:06----------
+it's gonna be a little pulse that sets
+
+---------03:07----------
+brightness best measured with an
+
+---------03:09----------
+oscilloscope but you can totally get by
+
+---------03:11----------
+measuring this with a multimeter there's
+
+---------03:13----------
+no reason to buy an oscilloscope to
+
+---------03:14----------
+measure this I get three point zero nine
+
+---------03:16----------
+five volts which is high enough to set
+
+---------03:18----------
+brightness that is doing its job now I
+
+---------03:21----------
+can't really check if five volt is going
+
+---------03:23----------
+to this chip because I can't I can't
+
+---------03:25----------
+shove this thing underneath the I can't
+
+---------03:28----------
+shove this thing under underneath the
+
+---------03:30----------
+chip and touch the ball that's that's
+
+---------03:33----------
+not possible so at this point the chip
+
+---------03:35----------
+is being told to turn on I can check out
+
+---------03:37----------
+the capacitor I can check out this
+
+---------03:38----------
+capacitor that's on the rail over here
+
+---------03:40----------
+to see if there's five volts at least
+
+---------03:42----------
+being sent to it and I have that
+
+---------03:45----------
+so all of that is good at this point I
+
+---------03:48----------
+have every reason to believe the LED
+
+---------03:50----------
+driver is bad let's just go over this
+
+---------03:52----------
+again so a it sees a screen B its if the
+
+---------03:56----------
+chip is being told to turn on there's
+
+---------03:58----------
+power going through the circuit and
+
+---------03:59----------
+there's no reason for this to not be
+
+---------04:01----------
+turning on I can now logically conclude
+
+---------04:03----------
+that it's time to replace the chip but
+
+---------04:05----------
+you can't replace that LED driver chip
+
+---------04:07----------
+just because you just because you have
+
+---------04:08----------
+no backlight there are so many reasons
+
+---------04:10----------
+that you could have no backlight that
+
+---------04:11----------
+have absolutely nothing to do with the
+
+---------04:13----------
+chip being bad but under these
+
+---------04:15----------
+circumstances once you've gone through
+
+---------04:16----------
+this initial assessment and you get
+
+---------04:19----------
+those measurements now you can at the
+
+---------04:20----------
+very least say maybe I have a problem
+
+---------04:21----------
+with my LED driver so with that being
+
+---------04:24----------
+said I'm gonna grab myself another LED
+
+---------04:26----------
+driver and we'll get started
+
+---------04:30----------
+okay over here we can see the LED driver
+
+---------04:32----------
+chip it looks like it's pretty in focus
+
+---------04:35----------
+so we're going to turn the air filter on
+
+---------04:38----------
+and get started
+
+---------04:57----------
+now it's freezing in here so it may take
+
+---------05:00----------
+longer to remove components then it
+
+---------05:02----------
+takes when it's not freezing in the
+
+---------05:04----------
+office now I'm gonna remove the micro
+
+---------05:15----------
+soldering pencil to put on the proper
+
+---------05:17----------
+iron for this so it's gonna beep that's
+
+---------05:21----------
+what hacker stuff does it beeps really
+
+---------05:23----------
+annoyingly for no reason I think that's
+
+---------05:28----------
+their way of telling you you should buy
+
+---------05:29----------
+a more expensive station sometimes I
+
+---------05:31----------
+wonder if hako owns JBC and pastes and
+
+---------05:35----------
+some of these other companies or if
+
+---------05:36----------
+they're a subsidiary of them and they
+
+---------05:38----------
+purposely make they're geared to
+
+---------05:39----------
+annoying things just to add value to
+
+---------05:40----------
+other products because as I said in them
+
+---------05:42----------
+in the video at the JBC versus the hack
+
+---------05:45----------
+oh yeah the hot air station it has some
+
+---------05:48----------
+benefits but the actual soldering tools
+
+---------05:50----------
+they just the hand soldering or doing
+
+---------05:52----------
+you know these these irons I really I
+
+---------05:55----------
+could not notice a difference at all it
+
+---------05:57----------
+seemed the same to me the only
+
+---------05:58----------
+difference is that the JBC one doesn't
+
+---------06:00----------
+ at you every time you turned it on
+
+---------06:02----------
+and off and switch now that that's worth
+
+---------06:11----------
+an extra thousand dollars or so for the
+
+---------06:12----------
+gear but it's don't get me wrong it's
+
+---------06:16----------
+tempting at times trust me there it's
+
+---------06:19----------
+quite tempting at times
+
+---------06:24----------
+okay so at this point we find the new
+
+---------06:27----------
+LED driver
+
+---------06:36----------
+now the reason I'm doing this is I
+
+---------06:38----------
+actually want I don't want the flux that
+
+---------06:40----------
+just be on the board I want it to get on
+
+---------06:41----------
+the boat every single solder ball as
+
+---------06:43----------
+well because the solder balls are what
+
+---------06:48----------
+actually need the flux on them so now I
+
+---------06:50----------
+take this most important thing as always
+
+---------06:54----------
+the chip is sitting flat on the board
+
+---------06:56----------
+and then it's a nice solid physical
+
+---------06:59----------
+connection before we even get the
+
+---------07:00----------
+soldered connection
+
+---------07:20----------
+okay it just dropped now we move the hot
+
+---------07:24----------
+air back and forth so that the chip kind
+
+---------07:25----------
+of dances a little that's how I know
+
+---------07:26----------
+that all the balls have melted and move
+
+---------07:28----------
+it away I can be confident that it was
+
+---------07:32----------
+soldered properly now I get to see if
+
+---------07:37----------
+this thing actually works
+
+---------07:40----------
+so did I is that the proper diagnosis to
+
+---------07:44----------
+the problem or have I just been talking
+
+---------07:45----------
+out of my ass for ten minutes let's see
+
+---------07:49----------
+oh cool I have not been talking out of
+
+---------07:59----------
+my ass for ten minutes
+
+---------08:00----------
+see light so it was the chip and that's
+
+---------08:03----------
+how you can tell if it's the chip versus
+
+---------08:04----------
+something else and those are the test
+
+---------08:06----------
+points that you should probe and check
+
+---------08:07----------
+voltage on before you decide to replace
+
+---------08:08----------
+a chip that may actually work and that's
+
+---------08:11----------
+that for today
+

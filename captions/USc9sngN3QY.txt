@@ -1,0 +1,2125 @@
+https://www.youtube.com/watch?v=USc9sngN3QY
+---------00:00----------
+now we can get started on the fun stuff
+
+---------00:01----------
+so today we have an 8 to 0 30 23 that is
+
+---------00:05----------
+not turning on this is older than life
+
+---------00:09----------
+itself
+
+---------00:10----------
+Tim Harmon was probably if still a fetus
+
+---------00:12----------
+when this thing came out this is eight
+
+---------00:14----------
+to zero
+
+---------00:15----------
+30:23 sorry Tim but the you know this is
+
+---------00:18----------
+this is old I have no idea why somebody
+
+---------00:20----------
+would agree to get this fixed but
+
+---------00:21----------
+somebody did probably in spite of our
+
+---------00:24----------
+best efforts to convince them otherwise
+
+---------00:25----------
+so we're going to go through it so this
+
+---------00:27----------
+doesn't power on and first thing that
+
+---------00:31----------
+you'll notice is well it's dead the fan
+
+---------00:37----------
+is not spinning and the light is not
+
+---------00:39----------
+present than the charger so the first
+
+---------00:41----------
+thing we have to do is figure out why
+
+---------00:43----------
+there's no live president the charger so
+
+---------00:45----------
+I'm gonna try and walk you through this
+
+---------00:46----------
+circuit he got quite a bunch of new
+
+---------00:50----------
+viewership from the time that I was
+
+---------00:51----------
+doing my other videos so I should go
+
+---------00:55----------
+over how these circuits work again just
+
+---------00:57----------
+for those of you who are new so let's
+
+---------01:00----------
+fire up the schematic and get to it now
+
+---------01:07----------
+in order for you to get a light on the
+
+---------01:09----------
+charger the charger has to talk to a
+
+---------01:11----------
+chip on the motherboard this is a smart
+
+---------01:13----------
+charger it's not like those of PC
+
+---------01:15----------
+chargers that are usually dumb and don't
+
+---------01:17----------
+have any type of communication it wants
+
+---------01:20----------
+to speak to something so that's going to
+
+---------01:22----------
+happen over here now this looks really
+
+---------01:25----------
+confusing but let me just try and narrow
+
+---------01:26----------
+it down so it's less so this is the
+
+---------01:28----------
+charging port right you have 20 volts
+
+---------01:31----------
+that's your charger you have ground and
+
+---------01:33----------
+then you have adapter sense adapter
+
+---------01:35----------
+sense is going to be the line upon which
+
+---------01:37----------
+the charger right over here on the
+
+---------01:39----------
+charge port this is the charge port
+
+---------01:41----------
+talks to the computer now instead of let
+
+---------01:44----------
+it and that's going to happen on this
+
+---------01:45----------
+line called sis 1 wire so adapter sense
+
+---------01:47----------
+is gonna go Boop and by over here stands
+
+---------01:51----------
+for bi-directional data line and you
+
+---------01:53----------
+just copy one wire and you'll see that
+
+---------01:55----------
+that goes to a chip called the SMC you
+
+---------02:00----------
+5,000 C it's gonna go right here
+
+---------02:07----------
+says one wire bi-directional data line
+
+---------02:10----------
+to you 5,000 which is as you can see
+
+---------02:13----------
+down here the SMC this is the SMC I'm
+
+---------02:20----------
+sure they're fine with me using it to
+
+---------02:21----------
+fix their stuff Apple loves me anyway
+
+---------02:23----------
+some we continue so that is this
+
+---------02:27----------
+communication has to occur you 5,000
+
+---------02:29----------
+needs the talk to the charger so that
+
+---------02:32----------
+now the read is a reason that we don't
+
+---------02:33----------
+tie the adapter sense line on the
+
+---------02:35----------
+charger straight to the SMC and that's
+
+---------02:37----------
+sim this is a data line right and this
+
+---------02:40----------
+is a data line that operates on three
+
+---------02:42----------
+point 42 volts so if you were to measure
+
+---------02:44----------
+this side of this resistor when
+
+---------02:45----------
+everything's working its 3.42 volts and
+
+---------02:48----------
+this resistor is going to pull that
+
+---------02:49----------
+signal up so it goes something like this
+
+---------02:51----------
+so every time one of these chips wants
+
+---------02:54----------
+to talk it's going to short that data
+
+---------02:55----------
+line to ground so let's say you have
+
+---------02:57----------
+three point 42 volt so it's like that
+
+---------02:58----------
+and you have n zero voltage down here
+
+---------03:02----------
+you can have communication between those
+
+---------03:03----------
+two but if there's no pull-up resistor
+
+---------03:06----------
+and there's no three volts then there's
+
+---------03:07----------
+nothing to pull down which means you
+
+---------03:09----------
+have nothing to write on it's kind of
+
+---------03:11----------
+like if you know if you're writing on a
+
+---------03:12----------
+piece of paper on loosely if you need a
+
+---------03:13----------
+top line bottom line you're right in the
+
+---------03:15----------
+middle so that works off of 3.42 volts
+
+---------03:18----------
+now the problem comes in when you're
+
+---------03:21----------
+drunk so let's say some drunkard comes
+
+---------03:23----------
+by and is trying to plug in their
+
+---------03:25----------
+MacBook after some late night gig to
+
+---------03:28----------
+make some more music you know they're
+
+---------03:31----------
+just falling all over themselves like
+
+---------03:33----------
+doing this and it doesn't want to charge
+
+---------03:36----------
+well what do you think's gonna happen
+
+---------03:38----------
+what probably happened in that case is
+
+---------03:40----------
+the drunk person plugging it in
+
+---------03:42----------
+improperly may let the 20 volt section
+
+---------03:45----------
+of their charger hit where the adapter
+
+---------03:47----------
+sends pin is going to be and that's not
+
+---------03:49----------
+good because if 20 volts goes to the
+
+---------03:52----------
+circuit that's expecting 3 volts of data
+
+---------03:54----------
+then it goes so in order to keep that
+
+---------03:59----------
+from happening we have you 7000 so the
+
+---------04:01----------
+way you 7,000 works is it's a buffer
+
+---------04:04----------
+between xed external as in your charger
+
+---------04:07----------
+chargers external because it's outside
+
+---------04:08----------
+the computer and the SMC int internal
+
+---------04:13----------
+because the SMC chip is inside the
+
+---------04:15----------
+computer so the way this chip works is
+
+---------04:16----------
+it says hi are you a three point 42 volt
+
+---------04:19----------
+data line come right in
+
+---------04:21----------
+you twenty volts of DC and that's the
+
+---------04:24----------
+way that works so it keeps that 20 volts
+
+---------04:26----------
+of DC from going there if some drunk
+
+---------04:28----------
+dude is like doing this trying to plug
+
+---------04:29----------
+it in it's it's called one wire
+
+---------04:31----------
+protection now in order for this chip to
+
+---------04:34----------
+work it needs to get voltage on its VCC
+
+---------04:37----------
+pin a lot of these chips here are going
+
+---------04:39----------
+to have pins on them that are for power
+
+---------04:42----------
+input and they're usually at the top
+
+---------04:44----------
+when it comes to anything that starts
+
+---------04:46----------
+with a u anything that's a one of these
+
+---------04:48----------
+little IC chips integrated circuits so
+
+---------04:50----------
+it's going to be V in for voltage in VCC
+
+---------04:54----------
+VDD something like that but you need to
+
+---------04:56----------
+have voltage up here at the top for it
+
+---------04:58----------
+to turn on so for example this is my
+
+---------05:01----------
+microscope camera right here this is the
+
+---------05:03----------
+power adapter that plugs into the wall
+
+---------05:05----------
+and I'm plugging it in so I did there is
+
+---------05:08----------
+I just plugged in my voltage in or VCC
+
+---------05:10----------
+or VDD pen you know from my phone even
+
+---------05:14----------
+you know you may call this the VCC or
+
+---------05:16----------
+the VDD pin V that all that means is the
+
+---------05:19----------
+power that's needed for the thing to
+
+---------05:20----------
+turn on so this chip up here needs that
+
+---------05:25----------
+this chip needs three 0.42 volts at its
+
+---------05:29----------
+VCC pin or it won't turn on but what
+
+---------05:31----------
+turns this chip on what turns this chip
+
+---------05:34----------
+on is gonna be the voltage that comes
+
+---------05:36----------
+from this line so we got to follow this
+
+---------05:38----------
+line where does it go okay so it goes
+
+---------05:40----------
+left and right so if we follow this up
+
+---------05:42----------
+and we go to the left it goes to a
+
+---------05:44----------
+capacitor which then goes to ground
+
+---------05:47----------
+ground is zero volts grounders nothing
+
+---------05:49----------
+so this can't be it
+
+---------05:50----------
+it's not that that's not power in the
+
+---------05:51----------
+chip alright let's go on but over here
+
+---------05:54----------
+where you have a line goes to a 2 kilo
+
+---------05:56----------
+ohm resistor that then goes to a data
+
+---------05:57----------
+line and data lines don't power chip so
+
+---------06:00----------
+that's not it
+
+---------06:00----------
+we need power so that's not so we go
+
+---------06:03----------
+back over here when we go to and up here
+
+---------06:05----------
+this is a logic gate okay maybe this
+
+---------06:07----------
+doesn't so this is a logic gate that's
+
+---------06:09----------
+powered by Pepe 3 V 4 to underscore g3
+
+---------06:13----------
+hod so the way this works is this logic
+
+---------06:15----------
+gate is gonna take 3.42 volts and shoot
+
+---------06:18----------
+it out so if a and B are present then
+
+---------06:21----------
+you get Y so this trip is gonna pass
+
+---------06:23----------
+through
+
+---------06:23----------
+Pepe 3 before to underscore g3 hot if
+
+---------06:26----------
+SMC bc AC ok is present so what are the
+
+---------06:30----------
+important things here in order to get a
+
+---------06:31----------
+green light well the first thing that we
+
+---------06:32----------
+need is for this trip to turn on
+
+---------06:35----------
+for this step to turn on this chip needs
+
+---------06:37----------
+to turn on for this chip to turn on we
+
+---------06:39----------
+need SM CBC AC okay and pp3 v4 - so in
+
+---------06:42----------
+order to get a green light
+
+---------06:43----------
+we need pipi 3v4 - and sm c bc AC okay
+
+---------06:47----------
+now the air makes this a little bit
+
+---------06:49----------
+trickier
+
+---------06:49----------
+the reason the air makes this trickier
+
+---------06:51----------
+is because it's not in the schematic
+
+---------06:52----------
+we're actually looking at a schematic -
+
+---------06:54----------
+a retina board if you look over here on
+
+---------06:56----------
+the air schematic for the machine that
+
+---------06:58----------
+we have in front of us you'll notice
+
+---------07:01----------
+that since one wire goes to a connector
+
+---------07:06----------
+called J 4700 and then it goes over here
+
+---------07:11----------
+to you 4900 which is the SMC but you
+
+---------07:13----------
+never get to see any of those chips and
+
+---------07:15----------
+the reason that is is because on the
+
+---------07:17----------
+MacBook Airs
+
+---------07:18----------
+all of that circuitry is contained on
+
+---------07:20----------
+the DCN board not the main logic board
+
+---------07:22----------
+and the schematics that we can find are
+
+---------07:24----------
+only for the main logic board so it's
+
+---------07:25----------
+important that you understand how this
+
+---------07:27----------
+circuit works before you get into
+
+---------07:28----------
+troubleshooting the MacBook Air because
+
+---------07:30----------
+if you don't know how the one wire
+
+---------07:31----------
+circuit works on a normal board and
+
+---------07:33----------
+you're never gonna figure it out in a
+
+---------07:34----------
+MacBook Air board because those
+
+---------07:35----------
+components are not even included in this
+
+---------07:36----------
+CAMAC but I if we know what they look
+
+---------07:39----------
+like on a normal board then we can find
+
+---------07:41----------
+them on a MacBook Air board so if we
+
+---------07:44----------
+were to look on the schematic for the
+
+---------07:46----------
+for the older devices like the one that
+
+---------07:50----------
+I just showed you
+
+---------07:53----------
+we'll be able to see what these two
+
+---------07:55----------
+components look like so according to
+
+---------07:58----------
+mrs. maddack for the older device in the
+
+---------08:04----------
+the retina that I showed you this here
+
+---------08:08----------
+is that's you 7,000 and this here is you
+
+---------08:16----------
+7 0 0 1 this is a fairly beaten up donor
+
+---------08:19----------
+board that I'm just using it to show you
+
+---------08:20----------
+so this is would be you 7,000 and that's
+
+---------08:24----------
+q7 0 0 1 now we know that the 1 wire
+
+---------08:27----------
+circuit on this MacBook Air is gonna be
+
+---------08:29----------
+on the DCN board so we're gonna take a
+
+---------08:31----------
+look for that see if we could find it
+
+---------08:34----------
+see we have I'm gonna drag my microscope
+
+---------08:38----------
+over let's see if we see anything that
+
+---------08:41----------
+looks similar familiar
+
+---------08:46----------
+and anything at all so we do have a DZ
+
+---------08:49----------
+in board and RDC in board as you can see
+
+---------08:52----------
+looks quite nasty
+
+---------08:54----------
+it looks very nasty you looks like
+
+---------09:00----------
+garbage actually Oh gross yeah yeah blue
+
+---------09:14----------
+yeah shouldn't get obsessed with that
+
+---------09:19----------
+just another day at work touch things
+
+---------09:23----------
+that people probably dust in the toy
+
+---------09:25----------
+litter or whatever so we're gonna remove
+
+---------09:28----------
+the DCN board take a look at that and
+
+---------09:31----------
+see if we can find out where that where
+
+---------09:33----------
+that one wire circuits hiding because
+
+---------09:35----------
+maybe hiding on the other side of the
+
+---------09:36----------
+machine and go from there
+
+---------10:10----------
+if that is not the dumbest ringtone
+
+---------10:14----------
+anybody noticed the ringtones that get
+
+---------10:16----------
+included with Android phones on Verizon
+
+---------10:19----------
+nowadays are such garbage so I think we
+
+---------10:32----------
+got him okay time to silence that phone
+
+---------10:35----------
+that is the dumbest ringtone Jesus
+
+---------10:39----------
+Christ you know so we look down here and
+
+---------10:45----------
+what do you know looks like we got a one
+
+---------10:47----------
+wire circuit so well one of the things
+
+---------10:50----------
+we need is for pay 3v4 to underscore g3
+
+---------10:53----------
+hot to make its way there so I'm just
+
+---------10:55----------
+gonna take the board out of the machine
+
+---------10:56----------
+plug it in and see if we're able to get
+
+---------10:59----------
+that first thing I got to do is take the
+
+---------11:10----------
+board out where is the Italian guy I am
+
+---------11:16----------
+the Italian guy
+
+---------11:59----------
+all right so let's get the multimeter on
+
+---------12:03----------
+get this offer on so you can see it on
+
+---------12:06----------
+the screen yeah look at that we fancy
+
+---------12:11----------
+okay and let's see if we're getting our
+
+---------12:18----------
+voltage where we're supposed to so I
+
+---------12:19----------
+need to get PP 3 V 4 2 G 3 hot in order
+
+---------12:22----------
+for this to work so let's see if we have
+
+---------12:24----------
+2 B 3 B 4 2 why do you answer the phone
+
+---------12:31----------
+hello instead of Rosberg group or
+
+---------12:33----------
+something professional sounding I think
+
+---------12:36----------
+hello is quite professional sounding
+
+---------12:37----------
+ off would be unprofessional
+
+---------12:38----------
+sounding I used to answer the phone
+
+---------12:40----------
+rossmann group how can I help you and
+
+---------12:42----------
+when I answered the phone Rossmann group
+
+---------12:44----------
+how can I help you what people would do
+
+---------12:46----------
+is they would say hi is this Rossmann
+
+---------12:47----------
+group and that happened enough times
+
+---------12:49----------
+that I just said it I'm just gonna
+
+---------12:50----------
+say hi like I'm gonna say raus raus and
+
+---------12:53----------
+repair how can I help you
+
+---------12:54----------
+and then they say hi is this from their
+
+---------12:56----------
+parents like what the did I just
+
+---------12:57----------
+say so I gave up at some point it's like
+
+---------13:00----------
+a I'm just gonna say hello hello
+
+---------13:05----------
+works for me
+
+---------13:07----------
+like I figure if they're gonna ask
+
+---------13:09----------
+anyway cuz when I say hello and somebody
+
+---------13:11----------
+says is this Rossman repair I don't get
+
+---------13:13----------
+that little kick of like what kind of
+
+---------13:15----------
+idiot are you
+
+---------13:16----------
+cuz that kind of sets me into a it's
+
+---------13:19----------
+silly but like if you're gonna answer
+
+---------13:20----------
+the phone let's say 600 times in a day
+
+---------13:22----------
+then you have to figure out ways to
+
+---------13:24----------
+answer the phone that are not going to
+
+---------13:26----------
+or the small annoying aspects of it
+
+---------13:28----------
+aren't gonna aggravate you so if I say
+
+---------13:31----------
+we're awesome and repair how can I help
+
+---------13:32----------
+you and they say is this rossmann repair
+
+---------13:34----------
+the first thing that comes into my head
+
+---------13:36----------
+is
+
+---------13:37----------
+and you're dumb and that sets the tone
+
+---------13:39----------
+of the conversation negatively so I try
+
+---------13:41----------
+to do things that don't set the tone of
+
+---------13:42----------
+the conversation negatively particularly
+
+---------13:45----------
+because I'm not really a call center
+
+---------13:47----------
+type person anyway so it looks like
+
+---------13:48----------
+we're getting one point twenty nine
+
+---------13:50----------
+volts so that one point two nine is not
+
+---------13:54----------
+three point four two we're supposed to
+
+---------13:56----------
+be getting 3.42 volts there so I am
+
+---------13:59----------
+going to look up where that is on the
+
+---------14:01----------
+schematic so let's try and figure out
+
+---------14:02----------
+what creates the three point 42 volt
+
+---------14:04----------
+power supply and go from there
+
+---------14:06----------
+so let's look that up yeah I'm not
+
+---------14:10----------
+really a call center person I would get
+
+---------14:12----------
+fired from a call center very quickly
+
+---------14:13----------
+like I it's different answering the
+
+---------14:15----------
+phone for myself because I'm answering
+
+---------14:17----------
+the phone from my business but so I have
+
+---------14:19----------
+the liberty of kind of coming up with a
+
+---------14:21----------
+way to answer the phone and speak so
+
+---------14:24----------
+that I limit my frustration and that
+
+---------14:27----------
+definitely helps that definitely helps
+
+---------14:28----------
+or the worst was I used to work at
+
+---------14:30----------
+Modell sporting goods and they used to
+
+---------14:32----------
+make us a welcome tomorrow mulled ale
+
+---------14:34----------
+Sporting Goods your hometown sporting
+
+---------14:36----------
+goods store how many we assist you today
+
+---------14:37----------
+they actually expected us to say that
+
+---------14:39----------
+for six dollars an hour
+
+---------14:40----------
+welcome to Modell sporting goods your
+
+---------14:42----------
+hometown sporting goods store how can we
+
+---------14:44----------
+assist you today it's like you know
+
+---------14:46----------
+hello or sporting goods I just answered
+
+---------14:50----------
+the phone sporting goods you know you
+
+---------14:51----------
+can fire me and replace me I'm not
+
+---------14:53----------
+saying that she that used to drive me up
+
+---------14:56----------
+a damn wall welcome to Modell's your
+
+---------15:01----------
+hometown spoil it
+
+---------15:03----------
+Wesley Van Pelt makes a good point I
+
+---------15:10----------
+wonder I'm Aldo Sporting Goods doing
+
+---------15:13----------
+okay so
+
+---------15:21----------
+3.42 volts that's right here this is the
+
+---------15:26----------
+three point 42 volt supply now the three
+
+---------15:29----------
+point 42 volt supply has to be on before
+
+---------15:31----------
+anything else works
+
+---------15:32----------
+it's what the SMC runs off of it's
+
+---------15:34----------
+important so this is one of the few
+
+---------15:36----------
+rails that has to be present before
+
+---------15:38----------
+everything else which means that it
+
+---------15:39----------
+needs to have two inputs the battery and
+
+---------15:41----------
+the charger then you see a diode over
+
+---------15:44----------
+here and there's a reason for this
+
+---------15:45----------
+so Pippy busts g3 hot is a power rail
+
+---------15:47----------
+that's either from the battery or
+
+---------15:48----------
+created by the charger and this over
+
+---------15:51----------
+here is the charger so this becomes a
+
+---------15:54----------
+problem so we can't tie the two together
+
+---------15:56----------
+because if we tie the two together that
+
+---------15:58----------
+means that we would be sending the 18
+
+---------16:02----------
+volts from the charger to the battery
+
+---------16:04----------
+the diode sits here to keep the voltage
+
+---------16:07----------
+from the charger from entering the
+
+---------16:09----------
+battery so if the battery is not plugged
+
+---------16:12----------
+into the computer P P 3 V 4 2 will be
+
+---------16:14----------
+powered by the charger if the battery is
+
+---------16:17----------
+plugged into the computer and the
+
+---------16:18----------
+charger is not plugged in the 3 point 42
+
+---------16:21----------
+volt line will be powered by the battery
+
+---------16:23----------
+if the battery is plugged in and the
+
+---------16:26----------
+charger is plugged in the Machine will
+
+---------16:28----------
+be PP 3.42 volt rail will be powered by
+
+---------16:31----------
+the charger but this is an important one
+
+---------16:36----------
+that charger voltage will not be allowed
+
+---------16:38----------
+to go back into the battery because the
+
+---------16:42----------
+diode existing if your employees get
+
+---------16:45----------
+away with answering hello - I mean they
+
+---------16:47----------
+can if they want as long as the answer
+
+---------16:48----------
+people's questions in their somewhat
+
+---------16:51----------
+cheerful and you know I don't really
+
+---------16:54----------
+care what they say like if they say you
+
+---------16:56----------
+know I don't want them saying like what
+
+---------16:58----------
+do you want you know then that's BS but
+
+---------17:01----------
+whatever works if you're answering the
+
+---------17:03----------
+phone 600 times a day I'm not making a
+
+---------17:05----------
+mistake
+
+---------17:05----------
+welcome to Ross and repair your hometown
+
+---------17:08----------
+repair shop how quick now I'm not I
+
+---------17:10----------
+can't believe I can't believe somebody
+
+---------17:13----------
+ever actually see expected people who
+
+---------17:15----------
+made $6 an hour to say that like you're
+
+---------17:17----------
+lucky we down in your show up to work
+
+---------17:19----------
+much anyway so let's find that area
+
+---------17:21----------
+let's find the circuit and let's try and
+
+---------17:23----------
+figure out what's wrong with it so we're
+
+---------17:25----------
+going to go up to the board view
+
+---------17:27----------
+software here which is going to show us
+
+---------17:29----------
+where that is so the first thing I want
+
+---------17:30----------
+to do is find that chip
+
+---------17:33----------
+and that chip was you 6990 so we have to
+
+---------17:36----------
+find it on the donor board you 6990 nots
+
+---------17:43----------
+gonna be right here right here
+
+---------17:50----------
+not a pretty area is it looks pretty
+
+---------17:52----------
+messed up so you got to try and figure
+
+---------17:55----------
+out what's going on so the first thing I
+
+---------17:56----------
+want to do is their voltage on input so
+
+---------17:59----------
+I'm gonna check right over here on pin 6
+
+---------18:01----------
+of the I see where it says voltage in
+
+---------18:03----------
+and we're gonna see if we're getting the
+
+---------18:05----------
+voltage in that we need for this to turn
+
+---------18:07----------
+on and work so I got my multimeter
+
+---------18:10----------
+probes I got my multimeter showing up on
+
+---------18:13----------
+screen all fancy say something nice to G
+
+---------18:17----------
+I don't know if I have the ability to
+
+---------18:19----------
+say something nice to 4chan 4chan never
+
+---------18:23----------
+says anything nice to me well for two
+
+---------18:30----------
+dollars I should probably say something
+
+---------18:31----------
+nice to G I suppose by not saying
+
+---------18:36----------
+something mean to G L have been saying
+
+---------18:37----------
+something nice to G why not just pick up
+
+---------18:46----------
+the phone with bada-bing that's a good
+
+---------18:48----------
+one maybe I should I have to practice my
+
+---------18:51----------
+Staten Island accent why are you
+
+---------18:55----------
+streaming on Twitch cuz I reset my
+
+---------18:56----------
+stream key and I forgot to put it on
+
+---------18:58----------
+restream this is six people that watch
+
+---------19:01----------
+my twitch stream will miss out on it
+
+---------19:08----------
+I work for two dollars and fifty cents
+
+---------19:11----------
+an hour well I hope you were able to
+
+---------19:12----------
+negotiate not answering the phone
+
+---------19:13----------
+annoyingly you missed a donation from
+
+---------19:21----------
+Wesley how's that new year's resolution
+
+---------19:27----------
+going oh no I saw it I saw I'm aware of
+
+---------19:31----------
+how bad my new year's resolution is
+
+---------19:32----------
+going okay so back to what's important
+
+---------19:40----------
+pin six and six is the voltage in pin
+
+---------19:43----------
+and we need pin six which is the voltage
+
+---------19:47----------
+in pin to be getting 18 volts from the
+
+---------19:49----------
+charger so let's check that out
+
+---------19:52----------
+it's right here and it looks like it's
+
+---------19:56----------
+getting 18 volts that's a good thing
+
+---------20:00----------
+okay so we're gonna move on now the next
+
+---------20:04----------
+thing to do is the try and see if the
+
+---------20:07----------
+output is short circuited to grab so
+
+---------20:09----------
+before we do any type of resistance
+
+---------20:10----------
+measurements we're gonna turn the power
+
+---------20:12----------
+off do this do this and it looks like we
+
+---------20:22----------
+have nine point eighty three kilo ohms
+
+---------20:23----------
+of resistance 9000 ohms is not as short
+
+---------20:27----------
+to ground nine million so small million
+
+---------20:38----------
+dollar loan small nine thousand home
+
+---------20:40----------
+loan so we don't have a shirt to ground
+
+---------20:46----------
+so let's so now let's just think about
+
+---------20:50----------
+what our issue is here our issue is not
+
+---------20:53----------
+that the power rail is missing we have
+
+---------20:56----------
+the power rail the power rail is there
+
+---------20:57----------
+it's one point 32 volts it's not zero
+
+---------20:59----------
+volts and the issue is also not a lack
+
+---------21:02----------
+of input keep up the good work man thank
+
+---------21:04----------
+you to charles wang the issue is not
+
+---------21:07----------
+that the power rail is missing it's
+
+---------21:08----------
+there partially it's not short-circuited
+
+---------21:10----------
+to ground because it's 9,000 ohms and
+
+---------21:13----------
+the input voltage is there so this
+
+---------21:15----------
+leaves us to two possible conclusions
+
+---------21:17----------
+behind door number one the chip creating
+
+---------21:19----------
+the rail is bad and it's not regulating
+
+---------21:21----------
+it properly
+
+---------21:22----------
+behind door number two some process
+
+---------21:24----------
+outside of the chip that's responsible
+
+---------21:26----------
+for regulating the precise voltage is
+
+---------21:28----------
+not working properly causing the voltage
+
+---------21:31----------
+to be loved
+
+---------21:31----------
+now one of the processes that's going to
+
+---------21:34----------
+regulate the voltage of a chip is
+
+---------21:35----------
+something called feedback now let's say
+
+---------21:38----------
+you're driving on the road you being
+
+---------21:40----------
+able to see through the windshield is
+
+---------21:41----------
+feedback if your windshield were to
+
+---------21:43----------
+become entirely covered with snow then
+
+---------21:46----------
+you wouldn't be able to see what's one
+
+---------21:47----------
+of the things you would do if you can't
+
+---------21:48----------
+see you probably drive slower or stop
+
+---------21:51----------
+altogether the chip also has a way of
+
+---------21:53----------
+seeing what it's creating so with the
+
+---------21:55----------
+way that this chip is going to work is
+
+---------21:57----------
+it's going to pulse back and forth it's
+
+---------22:00----------
+going to work back and forth and the
+
+---------22:03----------
+chip through it's working is going to
+
+---------22:05----------
+take the 18 volts from the input and
+
+---------22:07----------
+it's going to slice it up so over here
+
+---------22:10----------
+you can have 18 volts 0 volts 18 volts 0
+
+---------22:12----------
+volts 18 volts 0 volts 18 volts 0 volts
+
+---------22:15----------
+18 volts 0 volts and then through this
+
+---------22:17----------
+coil it's then going to get averaged
+
+---------22:20----------
+down to three point 42 volts and that's
+
+---------22:22----------
+why this is called SW this is called SW
+
+---------22:25----------
+4 switch now one of the things you need
+
+---------22:27----------
+to know here is how often should we
+
+---------22:28----------
+switch should I switch fast or should I
+
+---------22:30----------
+switch slower well the way it's going to
+
+---------22:32----------
+tell that is by looking at the output it
+
+---------22:35----------
+wants to see what it's creating and
+
+---------22:36----------
+that's what FB is here for FB is for
+
+---------22:39----------
+feedback wants to see what it's doing
+
+---------22:40----------
+and wants to see words driving the same
+
+---------22:42----------
+way that you want to see out the window
+
+---------22:43----------
+now the way that this is going to be
+
+---------22:45----------
+accomplished is through our 6 995 and
+
+---------22:48----------
+our 6 996 this is a voltage divider it's
+
+---------22:51----------
+the way this works is that one resistor
+
+---------22:54----------
+goes between output and your destination
+
+---------22:57----------
+which is our six nine and five are six
+
+---------22:59----------
+nine and five sits between here and
+
+---------23:02----------
+destination and then your second
+
+---------23:04----------
+resistor is going to sit between
+
+---------23:05----------
+destination and ground a voltage divider
+
+---------23:07----------
+lowers your voltage so the idea with the
+
+---------23:11----------
+voltage divider is that it's going to
+
+---------23:13----------
+send a little bit to feedback so you can
+
+---------23:14----------
+see what it's doing now what are the
+
+---------23:16----------
+cases within which the chip is going to
+
+---------23:18----------
+produce less voltage so if the chips
+
+---------23:21----------
+thinks it's creating too much voltage it
+
+---------23:23----------
+may adjust itself to produce less spend
+
+---------23:27----------
+a couple of bucks on dinner tonight's is
+
+---------23:28----------
+flying guy SFO thank you I appreciate
+
+---------23:31----------
+that thank you
+
+---------23:34----------
+I see some over here this is supposed to
+
+---------23:40----------
+lower the voltage are six nine and five
+
+---------23:42----------
+and are six nine nine six this is a
+
+---------23:43----------
+voltage divider now let's say that are
+
+---------23:45----------
+six nine nine six died this went away
+
+---------23:48----------
+this stopped working and stopped
+
+---------23:50----------
+conducting the ground our six nine nine
+
+---------23:52----------
+five would be directly tying this to
+
+---------23:54----------
+feedback and without our six nine nine
+
+---------23:56----------
+six going to ground the voltage would
+
+---------23:58----------
+not be lowered at this feedback pin that
+
+---------24:00----------
+would mean that the feedback pin is
+
+---------24:02----------
+receiving a voltage that's too high if
+
+---------24:04----------
+the feedback voltage was too high then
+
+---------24:06----------
+the chip may compensate by slowing down
+
+---------24:08----------
+the switching process therefore
+
+---------24:10----------
+producing less voltage so suspect number
+
+---------24:12----------
+one is that see six nine and five is
+
+---------24:15----------
+shorted which means that all of this is
+
+---------24:18----------
+going to feedback so feedback is too
+
+---------24:20----------
+high or are six nine nine six is bad if
+
+---------24:23----------
+our six nine ninety six is bad or
+
+---------24:24----------
+doesn't have a path to ground then all
+
+---------24:26----------
+of the voltage from here we'll end up at
+
+---------24:28----------
+feedback that's one of my path something
+
+---------24:31----------
+going funky in the feedback circuit the
+
+---------24:33----------
+second hypothesis is that the chip
+
+---------24:35----------
+itself is bad so let's take a look back
+
+---------24:37----------
+on the board and let's find these few so
+
+---------24:39----------
+we're going to go back to go back here
+
+---------24:43----------
+and check out our six nine nine six our
+
+---------24:47----------
+six nine nine five and see 6 9 9 5 r 6 9
+
+---------24:56----------
+9 6 r 6 9 9 5 c 6 9 and 5 and go from
+
+---------25:03----------
+there
+
+---------25:20----------
+let's get a better view how many
+
+---------25:27----------
+gingerly boards do you get in a month
+
+---------25:29----------
+huh gingerly oh look it's sensitive I
+
+---------25:41----------
+would say about five probably five that
+
+---------25:45----------
+are that are truly nasty I would say get
+
+---------25:47----------
+five that are truly gingerly all right
+
+---------25:50----------
+so it looks like pin two of our six nine
+
+---------25:53----------
+nine five leads to this over here see
+
+---------25:56----------
+this and this was corroded this has
+
+---------25:59----------
+green stuff on it that has gingerly
+
+---------26:01----------
+stuff on it as the censoring algorithm
+
+---------26:04----------
+would say
+
+---------26:17----------
+okay so our six nine and five is
+
+---------26:20----------
+supposed to be 348 kilohms and that's
+
+---------26:26----------
+here oh you can't see because I didn't
+
+---------26:36----------
+put the meter on right whoops
+
+---------26:48----------
+all right so the meter software is
+
+---------26:50----------
+garbage so it's not registering on the
+
+---------26:53----------
+screen but what I'm getting over here is
+
+---------26:55----------
+164 there we go
+
+---------26:56----------
+it's registering on the screen beautiful
+
+---------26:59----------
+and up here for the second resistor I
+
+---------27:07----------
+should be getting 200 kilo ohms and I'm
+
+---------27:12----------
+getting 140 around there all right it's
+
+---------27:16----------
+going up so that seems to be working
+
+---------27:18----------
+properly as well oh that's an
+
+---------27:21----------
+interesting one so now the next thing I
+
+---------27:22----------
+want to do is I want to check the
+
+---------27:24----------
+connection between two of our 695 and
+
+---------27:27----------
+pin one of our six nine nine six and two
+
+---------27:30----------
+of our six nine and five and pin one of
+
+---------27:33----------
+our six nine and six let's check that
+
+---------27:35----------
+and see if that is connected and they
+
+---------27:41----------
+are that's weird this is probably that
+
+---------27:44----------
+funny moment where I'm going to turn it
+
+---------27:45----------
+on and it's going to work and holy crap
+
+---------27:48----------
+that's all I had to do I had to scrape
+
+---------27:50----------
+that little piece so this over here was
+
+---------27:54----------
+connecting this resistor to that
+
+---------27:57----------
+resistor inside the board and by
+
+---------27:58----------
+scraping this I literally got it to turn
+
+---------28:01----------
+on like I'm not kidding
+
+---------28:03----------
+why wait so before we did not have a
+
+---------28:06----------
+light and now we have a light on the
+
+---------28:09----------
+charger expose yourself to the board and
+
+---------28:12----------
+it will turn on I mean that that was
+
+---------28:14----------
+what I was gonna try next trust me and
+
+---------28:20----------
+I'm gonna check CPU v core now let's
+
+---------28:23----------
+check CPU v core to see if this thing is
+
+---------28:24----------
+actually turning on no nope it turned
+
+---------28:31----------
+off damn alright so we got back to the
+
+---------28:34----------
+drawing board back to the drawing board
+
+---------28:42----------
+okay first question that's Dan that
+
+---------28:47----------
+almost worked for a minute
+
+---------28:49----------
+are we getting PP three before - nope
+
+---------28:53----------
+1.8 okay so I think the first thing to
+
+---------28:59----------
+do is to reconnect that area of the
+
+---------29:01----------
+board go over these nasty probe points
+
+---------29:08----------
+and ultimately restart this crappy
+
+---------29:10----------
+multimeter software
+
+---------29:23----------
+I'm getting 1.8 volts and the dumbass
+
+---------29:25----------
+B&K precision multimeter software that
+
+---------29:28----------
+never works right is measuring is sewing
+
+---------29:32----------
+62 volts on screen I have no idea why
+
+---------29:35----------
+this software is as terrible as it is
+
+---------29:36----------
+for how much money this multimeter costs
+
+---------29:38----------
+being a B and K should be completely
+
+---------29:41----------
+ashamed of themselves for allowing this
+
+---------29:45----------
+product to exist at the price that it
+
+---------29:47----------
+does but I know
+
+---------29:49----------
+so we let's run over that point a little
+
+---------29:51----------
+bit some solder and some flux make it
+
+---------29:57----------
+nice and pretty
+
+---------30:12----------
+[Music]
+
+---------30:55----------
+[Music]
+
+---------31:22----------
+so I'm gonna I'm gonna be having a guest
+
+---------31:24----------
+on shortly right after I had this issue
+
+---------31:27----------
+with Yelp where this employee was
+
+---------31:30----------
+sharing my friend's personal data I
+
+---------31:32----------
+pointed this out she gets fired she has
+
+---------31:35----------
+her best friend who was you know like
+
+---------31:39----------
+best friend and class on Facebook and
+
+---------31:41----------
+and Yelp and LinkedIn and all that leave
+
+---------31:43----------
+a bad review using her Yelp Polly
+
+---------31:45----------
+account that was totally fake and I
+
+---------31:48----------
+managed to go through and prove that it
+
+---------31:49----------
+was a fake review and then it wind up
+
+---------31:51----------
+getting removed and then she had her
+
+---------31:53----------
+Yelp account deleted and somebody came
+
+---------31:56----------
+to interview me her name is Kaylee
+
+---------31:58----------
+Milliken about a movie called billion
+
+---------32:01----------
+dollar bully and it's been about almost
+
+---------32:03----------
+two years in production but she's
+
+---------32:05----------
+finally ready to strain it so I'm gonna
+
+---------32:08----------
+be having her on for an interview soon
+
+---------32:10----------
+along with the Associate Producer
+
+---------32:11----------
+so that should be fun that should be fun
+
+---------32:15----------
+hope hope to see you all around for that
+
+---------32:20----------
+that's
+
+---------32:25----------
+you might just wind up replacing that
+
+---------32:27----------
+chip as well I don't really trust him
+
+---------32:30----------
+yeah let's just go for it let's tear it
+
+---------32:35----------
+right off
+
+---------32:38----------
+this area was corroded and nasty in that
+
+---------32:40----------
+ships just a few dollars so
+
+---------32:48----------
+but magnification is this microscope
+
+---------32:50----------
+running at right now at 13 or 14 X
+
+---------33:05----------
+Paul did make some software it's just I
+
+---------33:07----------
+don't know where to get it he sent me
+
+---------33:09----------
+one revision of it and I couldn't figure
+
+---------33:11----------
+out how to use it because I'm an idiot
+
+---------33:12----------
+so I'm gonna I'm eventually gonna try
+
+---------33:16----------
+Paul Daniels as new a revision hopefully
+
+---------33:18----------
+I have a brain for it hey how's it going
+
+---------33:23----------
+have a seat ears will be next
+
+---------33:45----------
+she's the wrong tip for this but what
+
+---------33:47----------
+the hell
+
+---------34:38----------
+found a laptop yesterday that had the
+
+---------34:40----------
+bomb ballast circuit for the CFL arc
+
+---------34:42----------
+over to the aluminum case and the fuse
+
+---------34:43----------
+didn't go off huh was it an apple that
+
+---------34:49----------
+would kind of that's
+
+---------34:55----------
+this is one of those chips that doesn't
+
+---------34:57----------
+have a daughter a circle on it you
+
+---------35:00----------
+bastards all right
+
+---------35:04----------
+okay lgor oh that's lame
+
+---------35:16----------
+I guess they have the underline you
+
+---------35:19----------
+should put a dot there
+
+---------35:29----------
+Joseph says I discovered this the other
+
+---------35:31----------
+day and been watched a bunch I've never
+
+---------35:33----------
+owned anything from Apple
+
+---------35:34----------
+sounds like you're ahead of the game
+
+---------35:35----------
+already
+
+---------35:52----------
+what do you do Chris
+
+---------35:59----------
+michael mann says i don't allow people
+
+---------36:01----------
+to bring apple products on my property
+
+---------36:06----------
+that seems like going you're going a
+
+---------36:08----------
+little overboard
+
+---------36:15----------
+[Music]
+
+---------36:22----------
+okay I'm gonna get my micro tip to
+
+---------36:24----------
+finish it
+
+---------36:25----------
+Paul stole my micro tip just because I
+
+---------36:28----------
+stole his does not make that fair
+
+---------36:33----------
+[Music]
+
+---------36:35----------
+I appreciate your $2 but you're asking a
+
+---------36:38----------
+little bit too much for your $2 what do
+
+---------36:45----------
+you think this is a Vernon Jackson strip
+
+---------36:47----------
+club or something
+
+---------37:05----------
+show me a light
+
+---------37:15----------
+okay let's see if we have CPU Vico that
+
+---------37:21----------
+circuit looks pretty nice we go over
+
+---------37:24----------
+here measure at the coil hey it's
+
+---------37:34----------
+turning on we have V core which means
+
+---------37:37----------
+I'm done that's that's that's Quality
+
+---------37:40----------
+Assurance testing we do here and submit
+
+---------37:42----------
+next up what did you bring
+

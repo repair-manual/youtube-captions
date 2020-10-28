@@ -1,0 +1,787 @@
+https://www.youtube.com/watch?v=X2UlXmMMn6Y
+---------00:09----------
+this takes 100 80 milliamps
+
+---------00:12----------
+that's a strange number let's get the
+
+---------00:14----------
+board out of this MacBook and try to
+
+---------00:16----------
+figure out why it's taking a hundred 80
+
+---------00:17----------
+milliamps if it was taking 20 to 40
+
+---------00:20----------
+milliamps typically that means p.m.
+
+---------00:22----------
+sleep s4l is missing our s 4 and s 3
+
+---------00:25----------
+rails are incoming on if it's taking 250
+
+---------00:28----------
+milliamps there's a short to ground on a
+
+---------00:30----------
+main power line like PP bus g3 hot and
+
+---------00:32----------
+you got to find it but a hundred to one
+
+---------00:35----------
+hundred 80 milliamps is a strange number
+
+---------00:37----------
+that can often mean that an Esso rail is
+
+---------00:41----------
+not coming on or Austin's power good is
+
+---------00:44----------
+missing but all says power good being
+
+---------00:46----------
+missing is not common on this 2013-14 8
+
+---------00:50----------
+1502 MacBook Pro if you take a look at
+
+---------00:53----------
+the upper right corner of this board
+
+---------00:55----------
+you'll see that there's a little spot of
+
+---------00:57----------
+corrosion and on the microscope it
+
+---------01:00----------
+becomes very apparent that there is some
+
+---------01:04----------
+serious corrosion over here let's open
+
+---------01:06----------
+up the schematic and board view and try
+
+---------01:08----------
+and see what it is that is that that
+
+---------01:11----------
+corrosion would be affecting so this
+
+---------01:13----------
+would be an 8 - 0 - 30 476 board I'm
+
+---------01:18----------
+going to open it here on the schematic
+
+---------01:20----------
+and the board view and show you them on
+
+---------01:21----------
+the screen now most of the corrosion
+
+---------01:24----------
+that you see here is Bayou 1950 u 1950
+
+---------01:29----------
+is a dual logic gate the way this logic
+
+---------01:32----------
+gate works is when you have your two
+
+---------01:34----------
+inputs over here and they're present you
+
+---------01:37----------
+get your 1 output and then there's gonna
+
+---------01:39----------
+be another logic gate here or if you get
+
+---------01:41----------
+your two inputs you get your 1 output
+
+---------01:43----------
+this logic gate is powered by the pp 3 v
+
+---------01:46----------
+4 to underscore G 3 hot power rail
+
+---------01:49----------
+that's 3.42 volts this logic gate will
+
+---------01:53----------
+result in signal called p.m. PCH sis
+
+---------01:57----------
+power ok and also a p.m. SOP good which
+
+---------02:00----------
+is going to result in p.m. PCH power ok
+
+---------02:03----------
+if we look at that section of the
+
+---------02:06----------
+schematic
+
+---------02:10----------
+you'll see that there is an obvious
+
+---------02:12----------
+pattern going on here this is the power
+
+---------02:14----------
+management section of the PCH which is
+
+---------02:16----------
+the platform controller hub which in
+
+---------02:18----------
+this machine is included in the CPU now
+
+---------02:22----------
+what you'll notice is that there's a
+
+---------02:24----------
+bunch of signals on the left that say in
+
+---------02:26----------
+and a bunch of signals on the right that
+
+---------02:28----------
+say out so in order to get the outs you
+
+---------02:31----------
+need the ends and many of these that you
+
+---------02:35----------
+see over here like p.m. sleeve s5l p.m.
+
+---------02:38----------
+sleep s4l p.m. sleep s3l are required to
+
+---------02:41----------
+turn on many of the power rails so what
+
+---------02:44----------
+what's gonna happen is that we are not
+
+---------02:46----------
+going to get the machine to turn on the
+
+---------02:47----------
+system power management is not gonna
+
+---------02:48----------
+work of p.m. PCH power ok and p.m. PCH
+
+---------02:51----------
+sis power ok you're not present and
+
+---------02:53----------
+they're most likely not present because
+
+---------02:54----------
+the part of the board that makes them
+
+---------02:56----------
+present looks like this no good so what
+
+---------03:02----------
+we're going to do is we are going to add
+
+---------03:04----------
+some flux there we go we've got some
+
+---------03:09----------
+flux around the board and then we're
+
+---------03:12----------
+going to use the hot air station to heat
+
+---------03:14----------
+up and remove that chip which is most
+
+---------03:16----------
+likely bad or seriously corroded now
+
+---------03:19----------
+many people will ask why is it that we
+
+---------03:22----------
+are adding flux and working on the board
+
+---------03:23----------
+prior to cleaning it and that's an
+
+---------03:25----------
+excellent question the reason that we
+
+---------03:27----------
+are adding flux to the board in doing
+
+---------03:30----------
+work on the board before we clean it is
+
+---------03:32----------
+because cleaning the board itself can
+
+---------03:35----------
+actually indeed damage it to some extent
+
+---------03:37----------
+so when you have all of this all of this
+
+---------03:41----------
+corrosion and all this junk a lot of the
+
+---------03:42----------
+stuff that's really green that occurs
+
+---------03:45----------
+from the components and their solder
+
+---------03:48----------
+joints kind of decaying and corroding
+
+---------03:50----------
+away now when that occurs what I'd like
+
+---------03:53----------
+to do is I'd like to use the hot air and
+
+---------03:55----------
+and the flux to resolder anything that
+
+---------03:59----------
+is kind of cold solder joint I don't
+
+---------04:02----------
+want that solder to get swept away while
+
+---------04:05----------
+I'm cleaning think of it as if you let's
+
+---------04:08----------
+say that you just dropped a bunch of
+
+---------04:10----------
+your valuables you and let's say you
+
+---------04:12----------
+made a mess on the floor you may want to
+
+---------04:14----------
+sweep the floor but you want to pick up
+
+---------04:15----------
+your valuables first before you sweep
+
+---------04:17----------
+all that stuff away into the trash same
+
+---------04:19----------
+is true here I want to clean the system
+
+---------04:22----------
+but I don't want to clean
+
+---------04:23----------
+before I've made sure that the valuable
+
+---------04:25----------
+stuff is soldered there
+
+---------04:27----------
+the second reason I'm not going into the
+
+---------04:28----------
+cleaning before getting started working
+
+---------04:31----------
+on the board is because if I clean then
+
+---------04:33----------
+get started working on the board I have
+
+---------04:35----------
+no hints this little green stuff is a
+
+---------04:37----------
+little map as to what it is that matters
+
+---------04:39----------
+on the board and I don't want to get rid
+
+---------04:41----------
+of that map just for the sake of it
+
+---------04:44----------
+being clean we are definitely going to
+
+---------04:45----------
+clean this this is going to go through
+
+---------04:47----------
+an ultrasonic cleaning and it's going to
+
+---------04:49----------
+look great after the ultrasonic cleaning
+
+---------04:50----------
+process is done all the flux will be
+
+---------04:52----------
+removed from the board
+
+---------04:53----------
+all the contaminants will be removed
+
+---------04:55----------
+from the board but I don't want to do
+
+---------04:56----------
+that just yet so let's get started we're
+
+---------05:00----------
+gonna use the hot air station which by
+
+---------05:02----------
+the way we have in stock on store dot
+
+---------05:04----------
+Rostelecom now at 220 230 volts as well
+
+---------05:07----------
+as the 110 volt version
+
+---------05:13----------
+and we're gonna remove you 1950
+
+---------05:39----------
+now as you can probably see once you
+
+---------05:41----------
+1950 has been removed you'll see that
+
+---------05:48----------
+one of the pads is not like the others
+
+---------05:50----------
+and the pad that is the most gross is
+
+---------05:52----------
+going to be this pad in the upper left
+
+---------05:54----------
+corner that is for you 1950 and that is
+
+---------05:58----------
+for this is where P P 3 V 4 2 is going
+
+---------06:01----------
+to go into the chip as you can see I'm
+
+---------06:03----------
+breaking my new year's resolution for
+
+---------06:05----------
+the 15 million time by using tweezers to
+
+---------06:08----------
+scrape the board rather than reaching
+
+---------06:09----------
+for an exacto knife that's right next to
+
+---------06:11----------
+me I should stop doing that
+
+---------06:13----------
+this is going to be the pad for P P 3 V
+
+---------06:16----------
+4 to underscore G 3 hot the reason that
+
+---------06:18----------
+the corrosion occurs here is because
+
+---------06:20----------
+while all these other pins are signaling
+
+---------06:22----------
+pins which is going to be really low
+
+---------06:23----------
+amperage this is going to be power so
+
+---------06:26----------
+over here you have where P P 3 P 4 to
+
+---------06:28----------
+the main power line is going into the
+
+---------06:31----------
+chip that's where the most damage is
+
+---------06:32----------
+going to occur and that pad was totally
+
+---------06:35----------
+corroded away so we are going to do here
+
+---------06:38----------
+is scrape away at the board now with an
+
+---------06:40----------
+exacto knife should have links to all
+
+---------06:43----------
+the stuff in the video description down
+
+---------06:44----------
+below and we're gonna bring our pad back
+
+---------06:46----------
+so now we have something that looks like
+
+---------06:49----------
+a pad back and now that we've got the
+
+---------06:51----------
+pad back we're going to add a little bit
+
+---------06:53----------
+of flux and we are going to resolder
+
+---------06:56----------
+those pads and then place another chip
+
+---------06:59----------
+on there and that should solve our
+
+---------07:01----------
+problem with this little retina MacBook
+
+---------07:03----------
+Pro ok so we're just gonna take the
+
+---------07:09----------
+soldering iron some fresh solder this is
+
+---------07:14----------
+the FM 2032 handpiece with the t30 -
+
+---------07:19----------
+can't imp link in the description down
+
+---------07:21----------
+below it's very good for micro soldering
+
+---------07:25----------
+I like it and there we go
+
+---------07:32----------
+I did my preliminary scraping and yep
+
+---------07:38----------
+everything there is gonna be great now
+
+---------07:42----------
+there's that resistor under that looks
+
+---------07:44----------
+like it could look a little bit better I
+
+---------07:46----------
+don't really want to try and save that
+
+---------07:49----------
+resistor even though I probably could
+
+---------07:51----------
+see it's kind of like filing your nails
+
+---------07:54----------
+it's just a little bit of filing see
+
+---------07:56----------
+that now it's all nice and clean again
+
+---------08:01----------
+but that resistor looked a little
+
+---------08:03----------
+beat-up now it doesn't look beat up
+
+---------08:06----------
+anymore looks like it could be a happy
+
+---------08:09----------
+little resistor yeah we'll replace it
+
+---------08:14----------
+anyway but see I could have saved that
+
+---------08:16----------
+resistor it's just I don't wanna can I
+
+---------08:22----------
+get some scraping in the pad under it
+
+---------08:24----------
+some scraping on the side of the
+
+---------08:27----------
+resistor you got yourself a setup okay
+
+---------08:33----------
+so now I am going to grab myself a
+
+---------08:37----------
+replacement resistor or a replacement
+
+---------08:39----------
+capacitor and a replacement chip
+
+---------08:48----------
+and then this board should take the
+
+---------08:50----------
+proper amount of amperage and after
+
+---------08:52----------
+that's done it probably work again
+
+---------09:17----------
+now I got the chip there but I haven't
+
+---------09:19----------
+soldered in place cuz I'm gonna tremor
+
+---------09:21----------
+I'm gonna have to apply heat again to
+
+---------09:23----------
+put the resistor in the capacitor there
+
+---------09:25----------
+and I figured that the heat from putting
+
+---------09:27----------
+the resistor and the capacitor there
+
+---------09:28----------
+will be enough to heat the chip into
+
+---------09:30----------
+place I don't feel like heating it any
+
+---------09:32----------
+more than what is necessary
+
+---------09:41----------
+all right now everything there is kind
+
+---------09:43----------
+of moved in a place I'm gonna push it
+
+---------09:45----------
+down on the chip because I wanted to
+
+---------09:46----------
+make a really nice connection with the
+
+---------09:47----------
+board no need to have a bunch of excess
+
+---------09:50----------
+solder that it's sitting on and then the
+
+---------09:52----------
+excess is gonna come out the bottom and
+
+---------09:54----------
+then I'm just gonna grab that with the
+
+---------09:57----------
+knife tip which is the t30 - can it's
+
+---------10:00----------
+gonna wait for it to beep up and once it
+
+---------10:02----------
+beeps beeps it'll mean that it's heat it
+
+---------10:04----------
+up there we go beautiful beautiful it is
+
+---------10:13----------
+a little nasty resistor over here it's
+
+---------10:15----------
+just a pulldown resistor to crown it's
+
+---------10:16----------
+no big deal it's not a critical resistor
+
+---------10:18----------
+make it look a little nicer here
+
+---------10:20----------
+pulldown resistor for LCD power enable
+
+---------10:23----------
+you could take off that resistor and the
+
+---------10:25----------
+Machine still work just fine no big deal
+
+---------10:28----------
+there now let us take a look about the
+
+---------10:31----------
+surrounding area change the exposure on
+
+---------10:33----------
+the microscope camera and it looks like
+
+---------10:36----------
+this is probably gonna be a happy little
+
+---------10:39----------
+board I can't imagine anything else
+
+---------10:41----------
+being wrong with this board or having
+
+---------10:43----------
+any sort of CPU problems all of our
+
+---------10:46----------
+corrosion was on a circuit for 3.42
+
+---------10:49----------
+volts so it's not like we're dealing
+
+---------10:50----------
+with corrosion by the CPU MOSFETs and
+
+---------10:52----------
+the last board I was working on on
+
+---------10:54----------
+stream we had corrosion by the CPU
+
+---------10:56----------
+MOSFETs and what that often does is it
+
+---------10:57----------
+sends 8 or 12 volts to the CPU because 8
+
+---------11:01----------
+or 12 volts is going through that chip
+
+---------11:02----------
+and that chip connects to the CPU so
+
+---------11:05----------
+when you corrosion there you have a chip
+
+---------11:06----------
+that's meant for 1 volt getting 8 volt
+
+---------11:08----------
+that's bad here we have a chip that's
+
+---------11:11----------
+suppose is sends 3 volt signals and it's
+
+---------11:14----------
+power line is 3.3 volts so it's not it's
+
+---------11:17----------
+not something where I'm really
+
+---------11:19----------
+excessively worried about there being a
+
+---------11:21----------
+lot of damage so I think as soon as we
+
+---------11:24----------
+turn this on plug this in that we should
+
+---------11:27----------
+be able to see a happy little fan spin
+
+---------11:29----------
+and once we have a happy little fan spin
+
+---------11:31----------
+we can return this MacBook to its owner
+
+---------11:34----------
+who will probably be happy that they
+
+---------11:36----------
+saved a lot of money off of what they
+
+---------11:38----------
+would have spent at the Apple store and
+
+---------11:39----------
+as you can see there we've got a happy
+
+---------11:42----------
+little fan spin and yep yeah that's
+
+---------11:45----------
+pretty much all there is to it folks so
+
+---------11:47----------
+we just we're on here and the pp 3 v 4
+
+---------11:51----------
+to underscore G 3 hot it goes to pin 8
+
+---------11:54----------
+which is the power
+
+---------11:55----------
+of this logic gate and the connection
+
+---------11:59----------
+was broken because the pads over here
+
+---------12:02----------
+yeah as well as over here were
+
+---------12:04----------
+completely corroded away and just a
+
+---------12:08----------
+little bit of scraping with the iron and
+
+---------12:09----------
+a little bit a little bit of flux a
+
+---------12:11----------
+little bit of solder it's all this
+
+---------12:13----------
+little board needed and now we can move
+
+---------12:15----------
+on to the next MacBook the next MacBook
+
+---------12:20----------
+the next MacBook
+

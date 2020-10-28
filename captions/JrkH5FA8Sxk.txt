@@ -1,0 +1,637 @@
+https://www.youtube.com/watch?v=JrkH5FA8Sxk
+---------00:00----------
+still only taking 10 to 20 mili-amps I
+
+---------00:02----------
+see but why is it only taking 10 to 20
+
+---------00:04----------
+mili-amps let's go through our power
+
+---------00:06----------
+rails and try and figure that out it's
+
+---------00:07----------
+clear that we have P P 3 V 3 underscore
+
+---------00:10----------
+G 3 hot if we didn't have P P 3 V 3
+
+---------00:12----------
+underscore G 3 hot we would not be
+
+---------00:14----------
+getting 20 volts on the charger the
+
+---------00:17----------
+charger has to communicate with chips
+
+---------00:18----------
+called the CD 32 15s a USBC muxing chip
+
+---------00:22----------
+in order to output 20 volts instead of 5
+
+---------00:25----------
+volts and that CD 32 15 ship and
+
+---------00:28----------
+associated circuitry is powered by the
+
+---------00:30----------
+PP 3 V 3 underscore g3 hot rail which is
+
+---------00:32----------
+similar to PP 3 V 4 to underscore g3 hot
+
+---------00:35----------
+in the older MacBooks let me open a
+
+---------00:37----------
+schematic and board view for this one so
+
+---------00:38----------
+that we can go through the power rails
+
+---------00:40----------
+try and figure out which one's whistling
+
+---------00:42----------
+why it's missing and fix it for the
+
+---------00:44----------
+first we're gonna check on is our pp bus
+
+---------00:46----------
+everybody along the PP bus our PP bus is
+
+---------00:52----------
+present next up PP 5 es 5 PP 5 es 5 can
+
+---------00:58----------
+be found on the opposite side of the
+
+---------01:00----------
+board let's see what we get in our PP 5
+
+---------01:02----------
+es 5 a steady 5 volts lovely on to the
+
+---------01:10----------
+next power rail PP 3 V 3 S 4 let's see
+
+---------01:13----------
+if we're up to an S 4 State at this
+
+---------01:15----------
+point maybe we are maybe we're not one
+
+---------01:19----------
+way to find out mmm we're not making it
+
+---------01:26----------
+to an S 4 State hmm but PP 5 es 5 is
+
+---------01:31----------
+there well let's see if every other s 5
+
+---------01:33----------
+rail is present as well let's see if we
+
+---------01:35----------
+have PP 3 V 3 underscore s 5 we need to
+
+---------01:38----------
+make sure we have all of our s 5 rails
+
+---------01:39----------
+present and it looks like it is so we
+
+---------01:43----------
+have our s 5 s we don't have our s fours
+
+---------01:45----------
+hmm so I'm thinking that I probably
+
+---------01:49----------
+shouldn't have looked over this part as
+
+---------01:50----------
+quickly as I did these Pro points look I
+
+---------01:54----------
+hate using this word it's one of the
+
+---------01:56----------
+worst words on earth and it's been
+
+---------01:58----------
+co-opted by some of the worst people
+
+---------02:00----------
+problematic I do have to find a synonym
+
+---------02:02----------
+for that so I never used that word again
+
+---------02:04----------
+my apologies to anybody I may have
+
+---------02:05----------
+offended those two Pro points are for
+
+---------02:07----------
+back light data line now do I really
+
+---------02:10----------
+care about backlight day
+
+---------02:11----------
+when the computers not even turning on
+
+---------02:13----------
+no that's not gonna be cause for concern
+
+---------02:17----------
+we're going to check and see what else
+
+---------02:19----------
+may be wrong here what else could be
+
+---------02:20----------
+cause for concern let's check out our s4
+
+---------02:23----------
+rails since the s5 rails appear to be
+
+---------02:25----------
+there as five rails appear to be doing
+
+---------02:27----------
+the job also I am kind of curious to see
+
+---------02:29----------
+if this chip that was right near where
+
+---------02:31----------
+the liquid damage was is not doing its
+
+---------02:34----------
+job or simply not being told to do its
+
+---------02:36----------
+job one way to find out we're gonna take
+
+---------02:38----------
+a look at pin three and see if PP 3 V 3
+
+---------02:41----------
+S 4 is being told to turn on or not
+
+---------02:44----------
+because perhaps it's simply not there
+
+---------02:45----------
+because the chip is bad even though it
+
+---------02:48----------
+is being told to turn on you never know
+
+---------02:55----------
+alright it's not being told to turn on
+
+---------02:58----------
+I wonder where p.m. a NP 3 V 3 S 4 comes
+
+---------03:02----------
+from
+
+---------03:27----------
+alright time to check and see if any of
+
+---------03:29----------
+these s4 rails that are not working have
+
+---------03:31----------
+short circuits on them perhaps that's
+
+---------03:33----------
+what's causing them to be problematic I
+
+---------03:38----------
+just use that word for real problematic
+
+---------03:43----------
+plah plah problematic not a problem just
+
+---------03:49----------
+problematic to kill homes to ground not
+
+---------03:56----------
+shorted let's go through the rest of our
+
+---------03:59----------
+rails and try and figure out what's
+
+---------04:00----------
+missing
+
+---------04:01----------
+what is this pp 3 v 3s 5g nonsense when
+
+---------04:05----------
+did they start adding a G yeah pp 3 B 3
+
+---------04:07----------
+f 5 g apparently is a separate rail from
+
+---------04:10----------
+PPC VCS 5
+
+---------04:20----------
+pp 3v3 s5g is missing I wonder if it
+
+---------04:25----------
+shorted to ground what the hell is this
+
+---------04:29----------
+nonsense we have P P 3 P 3 s 5 and Q 3 v
+
+---------04:32----------
+3s 5g who comes up with this crap
+
+---------04:36----------
+alright we it so 2 kilohms to ground
+
+---------04:38----------
+that is not shorted now you got to
+
+---------04:40----------
+figure out where this rail comes from so
+
+---------04:44----------
+where do you come from
+
+---------04:44----------
+pp 3 B 3 s 5 G here we go so this takes
+
+---------04:51----------
+people 3 B 3 s 5 and turns it into P P 3
+
+---------04:54----------
+P 3 s 5 g u 8205 is a chip that's
+
+---------04:58----------
+located right under the cpu so we need
+
+---------05:02----------
+to do here is see if this chip is being
+
+---------05:04----------
+told to turn on p.m. e ed P 3 V 3 s 5 G
+
+---------05:09----------
+is a signal that's going to be going to
+
+---------05:11----------
+this chip that tells it to turn on
+
+---------05:12----------
+that's supposed to be showing up at a
+
+---------05:14----------
+specific pin how am I supposed to tell
+
+---------05:16----------
+which pin that is though and Paul
+
+---------05:18----------
+Daniels a software doesn't even work
+
+---------05:20----------
+well I'm going to take a guess that
+
+---------05:22----------
+these two pins over here are combined
+
+---------05:26----------
+together and Paul Daniels is software
+
+---------05:28----------
+sees it as one pin because Paul Daniels
+
+---------05:31----------
+is software is problematic now let's
+
+---------05:35----------
+plug this thing in and see what we're
+
+---------05:37----------
+getting at the enable put this back in a
+
+---------05:40----------
+voltage mode and it's not even being
+
+---------05:44----------
+asked to turn on we're not even getting
+
+---------05:47----------
+PP 3 v 3s 5g p.m. en p3 v 3s 5g is a
+
+---------05:58----------
+signal that comes from
+
+---------06:04----------
+are seven eight eight four or does it
+
+---------06:11----------
+interesting where does this signal come
+
+---------06:14----------
+from this is quite the phantom signal
+
+---------06:18----------
+hello hello Olly Olly oxen free
+
+---------06:27----------
+okay this signal comes out of you 7800
+
+---------06:31----------
+which is our p.m. I see and are seven
+
+---------06:36----------
+eight eight four is going to be the zero
+
+---------06:38----------
+ohm resistor though how is that to
+
+---------06:40----------
+happen this all comes back to you 7800
+
+---------06:42----------
+which is the PMI see the PMI si can be
+
+---------06:45----------
+seen right over here in oh my oh my
+
+---------06:49----------
+Jesus what is that what is this what are
+
+---------06:55----------
+those little capacitors doing over there
+
+---------06:57----------
+it looks like they're touching ah PB bus
+
+---------07:02----------
+PM I see is touching ground P P bus P P
+
+---------07:08----------
+bus PM I see is touching ground that's
+
+---------07:12----------
+awful and problematic problematic what
+
+---------07:18----------
+are we going to do well we're gonna re
+
+---------07:22----------
+hop PM I see cuz that'll fix it and
+
+---------07:25----------
+maybe replace those two capacitors with
+
+---------07:27----------
+ones that work that are not as
+
+---------07:29----------
+problematic
+
+---------08:34----------
+we ha p.m. I see bro
+
+---------08:41----------
+I learned to rehab the TMI sea to fix
+
+---------08:44----------
+the board from my mentor Jesse Jones
+
+---------08:47----------
+that iPad rehab if you're unsure how to
+
+---------08:50----------
+fix a motherboard always try rerouting
+
+---------08:53----------
+the PM IC because that's what Jessa
+
+---------08:55----------
+Jones at iPad rehab would want you to do
+
+---------08:58----------
+Jesse Jones especially likes receiving
+
+---------09:01----------
+phones somebody already was courteous
+
+---------09:03----------
+enough to reflow the PM IC for her
+
+---------09:05----------
+saving her valuable time especially if
+
+---------09:09----------
+it's an under filled PM I see with his
+
+---------09:11----------
+underfill keeping the ball squished
+
+---------09:13----------
+together always make sure to reflow your
+
+---------09:15----------
+under-filled p.m. IC before sending your
+
+---------09:17----------
+board to Jesse Jones at iPad rehab now
+
+---------09:20----------
+we're gonna put those two capacitors
+
+---------09:22----------
+back
+
+---------09:26----------
+now
+
+---------09:30----------
+No
+
+---------09:31----------
+there's no place to grab it by
+
+---------09:37----------
+at least Trump knows where to grab it by
+
+---------09:39----------
+where do I grab it by
+
+---------10:11----------
+okay now we wait for it to cool off a
+
+---------10:14----------
+little bit let's see if we have any
+
+---------10:16----------
+different results now that we have re
+
+---------10:18----------
+hot at our pm I see plug this in let's
+
+---------10:23----------
+see how many amps were taking before
+
+---------10:24----------
+we're taking 10 to 20 milliamps at 20
+
+---------10:26----------
+volts and now it looks like we are
+
+---------10:29----------
+taking 450 Miller amps at 20 volts which
+
+---------10:35----------
+means that we are likely turning on so
+
+---------10:38----------
+our Rehan ting of our p.m. IC might have
+
+---------10:40----------
+just fixed it oh boy alright let's see
+
+---------10:43----------
+if we get picture on the screen there's
+
+---------10:46----------
+nothing I like more than fixing a board
+
+---------10:48----------
+using the advice that I learned from
+
+---------10:49----------
+Jesse Jones at iPad rehab from practical
+
+---------10:52----------
+board repair school there's nothing I
+
+---------10:54----------
+like more than deferring to my friend
+
+---------10:56----------
+and confidant and her showcasing that
+
+---------11:01----------
+she knows that she does indeed know how
+
+---------11:04----------
+to make not only iPhones work but Mac
+
+---------11:06----------
+books work it's good old Mac Book gives
+
+---------11:09----------
+me a happy little Apple logo
+
+---------11:22----------
+as you can see we get an Apple logo on
+
+---------11:24----------
+the screen the machine is booting up and
+
+---------11:26----------
+thanks to our rehiring of the PM IC
+
+---------11:29----------
+which we learned from Jesse Jones that
+
+---------11:31----------
+I've had rehab who teaches practical
+
+---------11:32----------
+board repair school this MacBook works
+
+---------11:34----------
+just fine thank you very much Jesse
+
+---------11:36----------
+Jones and as always from Jessa I hope
+
+---------11:39----------
+you learned something that being said
+
+---------11:40----------
+we're going to move on to the next
+
+---------11:42----------
+MacBook
+
+---------11:50----------
+you
+
+---------11:57----------
+do you have a Macbook that needs to be
+
+---------11:59----------
+fixed come by our store which is open to
+
+---------12:01----------
+the public in 186 First Avenue in
+
+---------12:03----------
+Manhattan are you located outside of New
+
+---------12:05----------
+York no problem
+
+---------12:07----------
+send us a machine from anywhere in the
+
+---------12:08----------
+world by going to our website and
+
+---------12:10----------
+clicking on the mailbox or simply
+
+---------12:12----------
+heading over to send your macbook comm
+
+---------12:15----------
+that send your macbook comm will you be
+
+---------12:18----------
+redirected to our mail and instructions
+
+---------12:20----------
+page that includes the form and the
+
+---------12:22----------
+directions on how to send us a MacBook
+
+---------12:24----------
+for repair we have a live chat where you
+
+---------12:27----------
+can speak with us about the repair that
+
+---------12:29----------
+you need a phone number where a
+
+---------12:30----------
+representative will pick up during our
+
+---------12:32----------
+open hours and a contact form where you
+
+---------12:34----------
+can contact us about repairs
+

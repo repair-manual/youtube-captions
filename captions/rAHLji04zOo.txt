@@ -1,0 +1,1474 @@
+https://www.youtube.com/watch?v=rAHLji04zOo
+---------00:00----------
+okay so today we're gonna be going over
+
+---------00:01----------
+a dead MacBook Air motherboard so when I
+
+---------00:05----------
+plug the charger in it doesn't turn on I
+
+---------00:08----------
+don't have a fan plugged into it so you
+
+---------00:10----------
+can't see it not turning on but you can
+
+---------00:13----------
+distress me that don't work so if I drag
+
+---------00:16----------
+the oscilloscope over a little bit
+
+---------00:35----------
+you'll be able to see that where I want
+
+---------00:37----------
+to have a 5 volt rail
+
+---------00:41----------
+then I have a novel trail
+
+---------00:49----------
+you
+
+---------00:52----------
+see I got nothing take it away put it
+
+---------00:56----------
+there take
+
+---------00:57----------
+put it there you may wonder how I know
+
+---------00:58----------
+to measure them well as I said the
+
+---------00:59----------
+schematic will actually give you a list
+
+---------01:01----------
+of power rails in the machine and one of
+
+---------01:03----------
+the things I complained about in a prior
+
+---------01:04----------
+video is how on the older boards they
+
+---------01:06----------
+would give you that list of power rails
+
+---------01:08----------
+very very quickly on page one or two on
+
+---------01:10----------
+the newer boards they give you that list
+
+---------01:12----------
+of power rails on page 62 because
+
+---------01:14----------
+there's nothing like putting the thing
+
+---------01:15----------
+that you need to know first on page 62
+
+---------01:17----------
+of the schematic but that's Apple so if
+
+---------01:19----------
+we go through I have PP buddy three hard
+
+---------01:22----------
+I measured that I have PP dcn obviously
+
+---------01:26----------
+if I have P P brush d3 hot which is a
+
+---------01:28----------
+power rail in the machine the DCN is
+
+---------01:30----------
+working because this didn't work I
+
+---------01:33----------
+wouldn't have anything pp 3 V 4 2 is
+
+---------01:36----------
+present I know P P 3 before to his
+
+---------01:38----------
+present because I have an orange and a
+
+---------01:40----------
+green light on my charger as I've
+
+---------01:41----------
+explained in previous videos you need PP
+
+---------01:44----------
+you need the 1 wire circuit working to
+
+---------01:45----------
+have a light on the charger and the one
+
+---------01:48----------
+wire circuit is powered off of pp 3 v 4
+
+---------01:50----------
+to 1 2 squared g3 hunt I've covered that
+
+---------01:52----------
+in many other videos so if that's
+
+---------01:53----------
+confusing you could simply search my
+
+---------01:54----------
+channel you can use the search feature
+
+---------01:56----------
+on the channel search for one wire and
+
+---------01:58----------
+you'll find that I have pp 5vs5 that's
+
+---------02:02----------
+great but then I'm missing pp 5v
+
+---------02:04----------
+underscore s 4 RS 3 so let's look at how
+
+---------02:07----------
+that power supply works
+
+---------02:16----------
+I'm sick
+
+---------02:17----------
+tired of being sick and tired all right
+
+---------02:25----------
+all right so that's made by you 7501
+
+---------02:28----------
+right now before I go checking anything
+
+---------02:32----------
+in this chip and seeing that anything
+
+---------02:34----------
+works the first thing I want to do is
+
+---------02:36----------
+remember what I explained in the
+
+---------02:37----------
+integrated circuits video one of the
+
+---------02:39----------
+things that you should look for before
+
+---------02:40----------
+you troubleshoot all the resistors and
+
+---------02:42----------
+the capacitors and all that nonsense in
+
+---------02:43----------
+a circuit is that you should see that
+
+---------02:45----------
+it's actually being told to turn on so a
+
+---------02:47----------
+lot of these chips simply have enabled
+
+---------02:49----------
+pads like cen 1 and en enable so where
+
+---------02:53----------
+am I going to find that so I'm gonna
+
+---------02:54----------
+look on my
+
+---------02:57----------
+you
+
+---------02:59----------
+so I'm gonna look on my board view my so
+
+---------03:04----------
+on my board you're gonna and I'm gonna
+
+---------03:05----------
+type that it's gonna show me everywhere
+
+---------03:07----------
+on the board that that shows up when I
+
+---------03:09----------
+go to look for it again I'm actually
+
+---------03:12----------
+skipping past a lot of stuff here I'm
+
+---------03:14----------
+not looking to see if any of those
+
+---------03:15----------
+resistors are bad I'm not looking to see
+
+---------03:16----------
+if anything and in between is bad I want
+
+---------03:18----------
+to go to the top of the chain and see if
+
+---------03:20----------
+that's even that even exists and when I
+
+---------03:23----------
+look my multimeter says that I have zero
+
+---------03:26----------
+volts so that supposed to be 3 volts so
+
+---------03:29----------
+p.m. underscore sleep underscore s4
+
+---------03:32----------
+underscore l that comes from the PCH
+
+---------03:37----------
+which is integrated into the CPU in this
+
+---------03:39----------
+model to CEO here this is system power
+
+---------03:41----------
+management u zero five zero zero so if I
+
+---------03:46----------
+go to this and I put u zero five zero
+
+---------03:47----------
+zero I see that that is the CPU now the
+
+---------03:51----------
+reason the CPU on the Haswell models is
+
+---------03:53----------
+a little bit bigger than it was on the
+
+---------03:54----------
+Ivy Bridge models if you noticed on the
+
+---------03:56----------
+air it is is because these don't have a
+
+---------03:58----------
+PC H so you used to have a North you
+
+---------04:01----------
+know your CPU used to have a Northbridge
+
+---------04:03----------
+and Southbridge then Intel moved over to
+
+---------04:05----------
+having a CPU and having an MCP it
+
+---------04:07----------
+integrated all the functions of the
+
+---------04:08----------
+North Bridge South Bridge graphics chip
+
+---------04:11----------
+and a one thing then you had a CPU and a
+
+---------04:15----------
+PC H so instead of calling in an MCP now
+
+---------04:17----------
+they call it a PC H since there was no
+
+---------04:20----------
+longer a discrete graphics chip inside
+
+---------04:23----------
+of the mCP the graphic was in the CPU
+
+---------04:25----------
+they started calling them that the the
+
+---------04:28----------
+other thing that there's all the
+
+---------04:29----------
+managing of the USB and the screen and
+
+---------04:32----------
+all that good stuff at PCH now the MC
+
+---------04:35----------
+now the PCH is actually integrated into
+
+---------04:37----------
+the CPU so this is a signal that used to
+
+---------04:40----------
+come from the mCP or the PCH now it's
+
+---------04:42----------
+coming from the CPU so see all these
+
+---------04:43----------
+different sleep signals they are there
+
+---------04:45----------
+to get the computer in different states
+
+---------04:47----------
+so you know to get it into an S 5 state
+
+---------04:49----------
+and that's for state and that's three
+
+---------04:50----------
+state and ISO state all of this is
+
+---------04:52----------
+coming from here and it's not there so
+
+---------04:54----------
+this is gonna cause me to look at one or
+
+---------04:57----------
+two things so the PCH is not sending a
+
+---------05:01----------
+signal that I need to start an S 4 power
+
+---------05:03----------
+rail so is it my PCH or is it the BIOS
+
+---------05:08----------
+so let's look over here and we're gonna
+
+---------05:10----------
+take a look and try to get an idea
+
+---------05:12----------
+what's going on
+
+---------05:13----------
+so I look over here let's see if my what
+
+---------05:17----------
+my CPU looks like my CPU looks pretty
+
+---------05:21----------
+I'm not really complaining about
+
+---------05:23----------
+anything here CPU looks is this the this
+
+---------05:28----------
+is upside down it okay better I can't
+
+---------05:33----------
+really say I'm complaining about how any
+
+---------05:35----------
+of this looks
+
+---------05:39----------
+but then I now let's see what the BIOS
+
+---------05:42----------
+chip looks like let me just show you a
+
+---------05:43----------
+BIOS chip on the schematic here so this
+
+---------05:50----------
+is the spi ROM
+
+---------05:52----------
+it's the efi chip whether you know on
+
+---------05:55----------
+pcs they call it a bios chip and this
+
+---------05:58----------
+has this has a lot of important
+
+---------05:59----------
+information
+
+---------06:07----------
+you
+
+---------06:10----------
+you'll see that where it communicates
+
+---------06:11----------
+with other parts of the machine
+
+---------06:18----------
+you
+
+---------06:21----------
+you
+
+---------06:28----------
+you
+
+---------06:42----------
+you
+
+---------06:46----------
+over here this is listed under PCH net
+
+---------06:49----------
+properties
+
+---------06:56----------
+you
+
+---------07:00----------
+all of this gets listed under PCH net
+
+---------07:04----------
+properties so you can see that this the
+
+---------07:06----------
+liens on this biochip are communicating
+
+---------07:08----------
+with the PCH now I look at the BIOS chip
+
+---------07:17----------
+that doesn't look very nice everyone I'm
+
+---------07:19----------
+talking
+
+---------07:19----------
+when I talk about those red pro points
+
+---------07:21----------
+looking for those red probe points so
+
+---------07:23----------
+let's set my multimeter to a motor it's
+
+---------07:25----------
+gonna excuse me but it's going to beep
+
+---------07:30----------
+every time there's continuity you know
+
+---------07:35----------
+the noise reduction thing that I got
+
+---------07:36----------
+going on is actually so good that you
+
+---------07:38----------
+probably won't be able to hear the
+
+---------07:39----------
+beeping of the multimeter alright so
+
+---------07:42----------
+from here this obviously there's nothing
+
+---------07:47----------
+going on there let's see so we got
+
+---------07:51----------
+nothing
+
+---------07:54----------
+surprisingly that beeps
+
+---------07:57----------
+that does not beep at all we just get so
+
+---------08:01----------
+from there to there
+
+---------08:04----------
+so those traces are corroded to have
+
+---------08:06----------
+corroded and junk now I'm gonna check
+
+---------08:08----------
+and see that those resistors are
+
+---------08:11----------
+actually still decent so let's look up
+
+---------08:15----------
+their values I'm gonna look up their
+
+---------08:18----------
+their values here
+
+---------08:22----------
+you
+
+---------08:26----------
+hey 60 100 161 2361 1461 17 well I put
+
+---------08:32----------
+them in order Apple well I put them in
+
+---------08:35----------
+order
+
+---------08:35----------
+let's see it's a 61 our - let's put back
+
+---------08:41----------
+in a regular resistance mode 6101 is
+
+---------08:44----------
+supposed to be 3.3 K
+
+---------08:47----------
+you
+
+---------08:49----------
+you
+
+---------08:52----------
+that's fine next one sixty one twenty
+
+---------08:57----------
+three edges at V to make that happen by
+
+---------08:59----------
+the way verbose mode it shows everything
+
+---------09:00----------
+in there alright sixty one twenty three
+
+---------09:06----------
+are six one two three that's supposed to
+
+---------09:10----------
+be twenty four point nine ohms
+
+---------09:18----------
+it's fine 6114 supposed to be 24.9 and
+
+---------09:26----------
+the bottom one is supposed to be 15 so
+
+---------09:28----------
+you got twenty four point nine let's see
+
+---------09:30----------
+we got there
+
+---------09:33----------
+enough
+
+---------09:38----------
+and good enough so now the job is going
+
+---------09:44----------
+to be once come on stay put you piece of
+
+---------09:49----------
+
+
+---------09:52----------
+is going to be recreating those traces
+
+---------09:54----------
+now there's also a really damn good
+
+---------09:56----------
+chance the biochip itself is messed up
+
+---------09:58----------
+but we're not going to know until we get
+
+---------10:00----------
+past this point so
+
+---------10:04----------
+you
+
+---------10:07----------
+we're going to scrape away some of the
+
+---------10:09----------
+stuff on the board like so
+
+---------10:13----------
+Oh side to side side
+
+---------10:15----------
+to side side to side side to side we're
+
+---------10:18----------
+going to do that here
+
+---------10:21----------
+you
+
+---------10:26----------
+you
+
+---------10:30----------
+we're gonna run little little little
+
+---------10:32----------
+tiny tiny little wires and I'm gonna
+
+---------10:36----------
+scream and curse every step of the way
+
+---------10:37----------
+because I hate this
+
+---------10:42----------
+you
+
+---------10:44----------
+you
+
+---------10:48----------
+this one's actually still good
+
+---------10:53----------
+I'm gonna see if this beeps through
+
+---------10:54----------
+after I just let's just scratch away and
+
+---------10:58----------
+see if soldering will actually fix this
+
+---------11:02----------
+yeah so here there was nothing left
+
+---------11:04----------
+there's no point in edging away any
+
+---------11:06----------
+further there got my alcohol dispenser
+
+---------11:11----------
+that never works back it only works in
+
+---------11:14----------
+you smash in at that point the alcohol
+
+---------11:15----------
+goes into your eye
+
+---------11:20----------
+you
+
+---------11:25----------
+you
+
+---------11:32----------
+the air filter on don't feel like
+
+---------11:36----------
+killing myself some people have said you
+
+---------11:41----------
+know you don't get cancer from that you
+
+---------11:42----------
+only get emphysema or you only get this
+
+---------11:44----------
+other I don't want any of those things I
+
+---------11:46----------
+mean what is like is that supposed to
+
+---------11:49----------
+pacify me oh you're not gonna get you
+
+---------11:52----------
+know you're not gonna get cancer you're
+
+---------11:53----------
+only going to get emphysema get the
+
+---------11:56----------
+out of here I don't plan on getting any
+
+---------11:58----------
+of those things
+
+---------14:33----------
+absolutely awful
+
+---------14:55----------
+on to the next one plenty of time for
+
+---------15:07----------
+cleaning once this is all done
+
+---------15:18----------
+I hate running wires that you can barely
+
+---------15:20----------
+see
+
+---------17:30----------
+I had I clean the little fibers away
+
+---------17:34----------
+yeah I should have just got the brush
+
+---------17:37----------
+instead of using a q-tip at the end
+
+---------17:41----------
+it'll be time to properly ultrasonic and
+
+---------17:43----------
+brush this off but that's if it works by
+
+---------17:49----------
+all means if it works then I will spend
+
+---------17:51----------
+time on that
+
+---------18:13----------
+you
+
+---------20:00----------
+nice try I get it you want to touch
+
+---------20:08----------
+something that's totally unrelated to
+
+---------20:09----------
+what I'm trying to solder you to and
+
+---------20:12----------
+that's cool
+
+---------20:12----------
+wire I know that your job is to make my
+
+---------20:15----------
+life miserable to try to up my
+
+---------20:18----------
+attempts to make money that's part of
+
+---------20:21----------
+the game that you're gonna lose you are
+
+---------20:28----------
+gonna lose I get that that's
+
+---------20:39----------
+part of the game okay
+
+---------21:09----------
+you
+
+---------21:18----------
+all right
+
+---------21:21----------
+so if I measure for five volts where was
+
+---------21:23----------
+no five volts before
+
+---------21:27----------
+as you can see it just jumped the five
+
+---------21:31----------
+so when I take it away zero five zero
+
+---------21:33----------
+five and also one of the most important
+
+---------21:36----------
+things in the world is happening here
+
+---------21:37----------
+which is that the fan is spinning so
+
+---------21:41----------
+here the problem was we had a missing
+
+---------21:43----------
+sleep signal after what was most likely
+
+---------21:47----------
+water damage I honestly don't remember
+
+---------21:49----------
+fairly certain this one was liquid
+
+---------21:51----------
+damage and the sleep signal is missing
+
+---------21:53----------
+the sleep signal is what tells it okay
+
+---------21:56----------
+enter an S five state enter an S four
+
+---------21:58----------
+state enter an s3 state it's what sets
+
+---------21:59----------
+the power states of the machine we
+
+---------22:01----------
+didn't have any of the s4 voltages
+
+---------22:02----------
+coming on without the s4 voltage is
+
+---------22:04----------
+coming on you're not gonna see the s 3s
+
+---------22:06----------
+and the SOS coming on so I honestly
+
+---------22:08----------
+don't remember off the top of my head
+
+---------22:09----------
+with s4 is I know s5 is off or I think
+
+---------22:12----------
+s4 is hibernate s3 is suspend and SL was
+
+---------22:17----------
+on I'm not an expert on it I just know
+
+---------22:19----------
+that I want to get to SL and I was going
+
+---------22:22----------
+down my list of power rails on a notice
+
+---------22:23----------
+that an s4 power rail was missing and
+
+---------22:25----------
+that chipset on the board looked totally
+
+---------22:26----------
+fine one of the s4 power rails is
+
+---------22:28----------
+missing so I showed you how we looked
+
+---------22:29----------
+through that list of power rails on page
+
+---------22:31----------
+62
+
+---------22:31----------
+because MacBook Airs decided to put it
+
+---------22:33----------
+on page 62 instead of page two or three
+
+---------22:35----------
+like any normal any normal documentation
+
+---------22:39----------
+person would and the power rail was
+
+---------22:42----------
+missing so that power rail was
+
+---------22:44----------
+ultimately enabled by that sleep signal
+
+---------22:46----------
+that sleep signal comes from the PCH
+
+---------22:48----------
+which is integrated into the CPU and
+
+---------22:50----------
+that was missing that's integrated with
+
+---------22:51----------
+the BIOS when we look at the BIOS chip
+
+---------22:53----------
+or the SPI ROM chip to put it more
+
+---------22:54----------
+properly since MacBooks don't have a
+
+---------22:56----------
+BIOS they have an SPI ROM it was
+
+---------23:00----------
+corroded the little traces were corroded
+
+---------23:02----------
+going between the BIOS chip and the
+
+---------23:04----------
+resistors and we replaced that I didn't
+
+---------23:06----------
+even check to see if he had a sleep
+
+---------23:07----------
+signal anymore because I know we do
+
+---------23:09----------
+because we have five volts with is
+
+---------23:11----------
+supposed to be 5 volts and the fan spins
+
+---------23:13----------
+and turns on so again there's gonna be a
+
+---------23:15----------
+lot of people who do silly things and
+
+---------23:17----------
+this is one of the things about BGA
+
+---------23:18----------
+rework that really gets me is that
+
+---------23:20----------
+people think that the machine fixes the
+
+---------23:22----------
+boards they think that if you just get
+
+---------23:23----------
+the machine you're set and like they
+
+---------23:26----------
+would totally replace an MCP they would
+
+---------23:28----------
+totally replace a PCH or a CPU because
+
+---------23:30----------
+they look on the schematic and it says
+
+---------23:31----------
+on the schematic that the PCH creates
+
+---------23:34----------
+the sleep signal the PCH is not working
+
+---------23:36----------
+let's replace the chip the chip is fine
+
+---------23:39----------
+it's the traces that are bad and that's
+
+---------23:41----------
+the things I want to get across is if
+
+---------23:42----------
+you have your brain you don't have to
+
+---------23:43----------
+spend money on tools because most of the
+
+---------23:46----------
+time you don't need them you just need
+
+---------23:48----------
+your brain that's 325 plus tax okay so
+
+---------23:55----------
+as I said you can always clean the mess
+
+---------23:57----------
+up later and I've been getting some
+
+---------23:58----------
+comments recently where people go you
+
+---------24:00----------
+know that's it doesn't work you
+
+---------24:02----------
+know you need to clean it immediately
+
+---------24:04----------
+and no I really don't know here's the
+
+---------24:08----------
+here's the thing and if I spend time
+
+---------24:09----------
+cleaning that I'm gonna break my
+
+---------24:11----------
+20-minute rule which is to not spend
+
+---------24:12----------
+more than 20 minutes on a board and
+
+---------24:14----------
+that's something that I take seriously
+
+---------24:15----------
+and not to waste time on so you know if
+
+---------24:18----------
+you look here in the microscope camera
+
+---------24:19----------
+you'll see that it comes out pretty neat
+
+---------24:22----------
+I mean you know again this is after
+
+---------24:25----------
+obviously you can see there's some dirt
+
+---------24:27----------
+on them there's some dirt on the lens so
+
+---------24:30----------
+like over there you can see that that's
+
+---------24:31----------
+junk in the trinocular part of the
+
+---------24:33----------
+microscope because it doesn't come with
+
+---------24:35----------
+you know you spend like a thousand bucks
+
+---------24:37----------
+on the setup and you don't get sent
+
+---------24:39----------
+something that will close the top board
+
+---------24:40----------
+so you don't get dust in it when you're
+
+---------24:41----------
+moving it back and forth but needless to
+
+---------24:42----------
+say that is complaint for another video
+
+---------24:45----------
+so that is this besides a little piece
+
+---------24:47----------
+of dust over there whatever this thing
+
+---------24:49----------
+is that decided to stick around
+
+---------24:51----------
+what are you piece of sawdust would get
+
+---------24:54----------
+out of there sure you know you can see
+
+---------24:58----------
+that it's for the most part is pretty
+
+---------24:59----------
+neat I'm not gonna say it's the
+
+---------25:02----------
+prettiest thing in the world by any
+
+---------25:03----------
+means but it works and that's that so
+
+---------25:06----------
+what I'm gonna do here is put it put it
+
+---------25:11----------
+back together so that you can see that
+
+---------25:14----------
+it actually works you know again you got
+
+---------25:17----------
+to see the fan spin and the fan spinning
+
+---------25:18----------
+is pretty damn cool and you got to see
+
+---------25:21----------
+though it didn't work and that it did
+
+---------25:23----------
+work and you got to see what I did to
+
+---------25:24----------
+get there but ultimately at the end of
+
+---------25:27----------
+the day I want to show you that the work
+
+---------25:31----------
+that gets done actually works cuz again
+
+---------25:33----------
+again if this is very important if I'm
+
+---------25:36----------
+showing you how to do things and I'm
+
+---------25:37----------
+telling you this is what you should do
+
+---------25:39----------
+this is why you should do it this way
+
+---------25:40----------
+and then I show it to you not working
+
+---------25:43----------
+like why would you listen to me what is
+
+---------25:46----------
+the point you know
+
+---------25:49----------
+what is the I feel like for this channel
+
+---------25:52----------
+to be at all relevant and you know for
+
+---------25:57----------
+any piece of information I really be
+
+---------25:58----------
+relevant that you should should be able
+
+---------26:02----------
+to demonstrate that it's actually
+
+---------26:03----------
+correct
+
+---------26:08----------
+okay it was pretty clean after all the
+
+---------26:12----------
+work I did but I still wanted to make
+
+---------26:13----------
+get rid of any sort of gunk that would
+
+---------26:15----------
+get in between the new thermal paste so
+
+---------26:18----------
+we got some new thermal paste here this
+
+---------26:21----------
+is the boring part of the reassembly you
+
+---------26:27----------
+know I haven't been
+
+---------26:30----------
+for the past few weekends I had to hire
+
+---------26:33----------
+somebody to work since I had something
+
+---------26:35----------
+else I had to do and one of the things I
+
+---------26:37----------
+noticed when I came back so on the
+
+---------26:39----------
+weekends there's no none of the other
+
+---------26:40----------
+people here that you know that fix
+
+---------26:42----------
+things except except really really basic
+
+---------26:44----------
+stuff except me so I had to do all the
+
+---------26:47----------
+regulars to regular jobs and when I
+
+---------26:49----------
+notice is just how I have really gotten
+
+---------26:52----------
+over any of this like I used to and I
+
+---------26:55----------
+feel really bad saying this out loud but
+
+---------26:56----------
+I used to get excited even at the really
+
+---------26:59----------
+really mundane one day and stuff because
+
+---------27:01----------
+it was it was money in the bank like
+
+---------27:03----------
+every time I did something and it worked
+
+---------27:04----------
+I was profiting off of it and that was
+
+---------27:07----------
+pretty cool and then now it's goods it's
+
+---------27:09----------
+not about greed it's just about a lack
+
+---------27:11----------
+of desire to do things where there's no
+
+---------27:13----------
+brain work involved I mean there's I it
+
+---------27:18----------
+sounds greedy but there's really not you
+
+---------27:19----------
+can't pay me enough money to do the same
+
+---------27:21----------
+thing over and over again it's just I
+
+---------27:23----------
+will lose my mind and I really I get it
+
+---------27:27----------
+scant so and when I was sitting here
+
+---------27:30----------
+doing the same like thing over and over
+
+---------27:33----------
+and over and like reassembling the same
+
+---------27:34----------
+thing how to do like six or seven
+
+---------27:36----------
+MacBook Airs screens in a row I damn
+
+---------27:38----------
+near wanted to shoot myself I mean
+
+---------27:40----------
+really it was incredibly incredibly
+
+---------27:43----------
+boring and you know what you're starting
+
+---------27:45----------
+you know what the middle is gonna be
+
+---------27:48----------
+like you know you're ending you know
+
+---------27:49----------
+exactly what you're doing every step of
+
+---------27:51----------
+the way there's no adventure there's no
+
+---------27:53----------
+fun there's no there's no detective work
+
+---------27:56----------
+there's no figuring anything out it's
+
+---------27:57----------
+yeah replace keyboard okay I know
+
+---------27:59----------
+exactly which hundred fifty screw is I'm
+
+---------28:02----------
+gonna have to take out I know exactly
+
+---------28:04----------
+how much it's going to suck as I'm
+
+---------28:06----------
+unscrewing each one of them is and it's
+
+---------28:09----------
+just boring it has no patience from
+
+---------28:12----------
+mundane mundane work anymore
+
+---------28:16----------
+you
+
+---------28:20----------
+you
+
+---------28:25----------
+you
+
+---------28:27----------
+seriously jackass you up the fan
+
+---------28:32----------
+connector I'll have to take a look at
+
+---------28:35----------
+that later
+
+---------28:41----------
+you know a lot of people say that
+
+---------28:43----------
+wholesale clients are better because you
+
+---------28:45----------
+have to deal with less but you
+
+---------28:48----------
+really don't I mean wholesale clients
+
+---------28:50----------
+are often actually worse than the end
+
+---------28:51----------
+consumers like in terms of just breaking
+
+---------28:56----------
+ that you're not supposed to break
+
+---------28:57----------
+and arguing I mean
+
+---------29:24----------
+the other whole like take unplugging
+
+---------29:25----------
+cables and play
+
+---------29:26----------
+back in and again you know it's the
+
+---------29:29----------
+exact same thing every time it's just
+
+---------29:32----------
+boring so boring
+
+---------29:39----------
+okay so I've put it back together not
+
+---------29:42----------
+completely it's still you know not all
+
+---------29:45----------
+screwed in but as you can see I can turn
+
+---------29:50----------
+it on it does chime and it is going to
+
+---------29:53----------
+boot into a working operating system
+
+---------29:55----------
+which means that the work that we did
+
+---------29:56----------
+work it's not doing any of that nonsense
+
+---------29:57----------
+where it runs really slow and yeah we're
+
+---------30:01----------
+pretty much set so this is a working
+
+---------30:03----------
+border pair and again don't jump into
+
+---------30:06----------
+the idea of replacing an MCP replacing a
+
+---------30:09----------
+PCH replacing a vulgar or a chipset when
+
+---------30:12----------
+in reality your problem is a circuit
+
+---------30:14----------
+problem 99.999999%
+
+---------30:18----------
+of the problems you're going to
+
+---------30:19----------
+encounter are circuit problems requiring
+
+---------30:21----------
+circuit rework and trace rework and
+
+---------30:24----------
+running little jumpers and replacing
+
+---------30:25----------
+resistors and small ICS they're not
+
+---------30:27----------
+replacing big chips so a lot of the time
+
+---------30:29----------
+when you think that the big chip is at
+
+---------30:30----------
+fault
+
+---------30:31----------
+just look a little bit closer and you're
+
+---------30:32----------
+gonna see again if you use your brain
+
+---------30:33----------
+you're gonna see it's probably something
+
+---------30:35----------
+else
+

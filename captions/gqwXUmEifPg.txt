@@ -1,0 +1,877 @@
+https://www.youtube.com/watch?v=gqwXUmEifPg
+---------00:00----------
+today I'm going to be going over a
+
+---------00:00----------
+common problem on MacBook Airs which is
+
+---------00:02----------
+that on a DC power supply when you plug
+
+---------00:04----------
+it in it's only pulling between 2 to 250
+
+---------00:07----------
+milliamps so I take these MagSafe
+
+---------00:09----------
+adapters I always start with an 85 watt
+
+---------00:11----------
+because I want the tip to tell the
+
+---------00:12----------
+computer that it's 85 watt in case I'm
+
+---------00:14----------
+plugging it into a pro I always take
+
+---------00:16----------
+these adapters and what I do is I
+
+---------00:18----------
+snipped the tip off and then I plug it
+
+---------00:20----------
+into a DC power supply this way I'm not
+
+---------00:22----------
+always going through adapters and
+
+---------00:24----------
+killing them and I also get to see
+
+---------00:26----------
+exactly how much power that it's being
+
+---------00:28----------
+drawn from the DC power supply so if I
+
+---------00:31----------
+plug this in as you'll see it is dead
+
+---------00:34----------
+now if I go over to my DC power supply
+
+---------00:36----------
+over here just take my camera move it
+
+---------00:39----------
+around the store you'll see that well
+
+---------00:44----------
+the first thing you'll see is that
+
+---------00:45----------
+Paul's HDMI port got destroyed by me
+
+---------00:48----------
+trying to plug in the wrong cable but
+
+---------00:50----------
+the second thing you'll see here is that
+
+---------00:52----------
+I'm drawing about 200 milliamps anywhere
+
+---------00:57----------
+from 180 to 200 milliamps when I have it
+
+---------00:59----------
+set to 18 volt and it's dead over here
+
+---------01:02----------
+you'll see that we have a power rails
+
+---------01:03----------
+page and on this page of rails we have
+
+---------01:06----------
+suffix and prefix so the prefix is going
+
+---------01:09----------
+to tell us how many volts the power L is
+
+---------01:12----------
+typically so P P 3 V 4 - that's 3.42
+
+---------01:14----------
+volts pp 5 vs 5 PP 5 v 5 volts and the
+
+---------01:21----------
+suffix is going to tell us the state
+
+---------01:23----------
+that that rail will be on so s 5 means
+
+---------01:25----------
+be on while the machine is off s 4 that
+
+---------01:29----------
+power out should be present when the
+
+---------01:30----------
+machine is hibernating s oh that should
+
+---------01:32----------
+be present when the machine is on so s 5
+
+---------01:35----------
+is going to be when the machines off S 4
+
+---------01:37----------
+is gonna be when it's hibernating s 3 is
+
+---------01:39----------
+when it's in suspend as always going to
+
+---------01:41----------
+be when the machine is on and working
+
+---------01:43----------
+and the CPU and everything should be on
+
+---------01:45----------
+and working now the what this usually
+
+---------01:48----------
+means when we are taking about a hundred
+
+---------01:49----------
+80 milliamps on the airs to the 8 - 0 34
+
+---------01:52----------
+37 s and also the eight two zero zero
+
+---------01:54----------
+zero one six five s is that all the Esso
+
+---------01:57----------
+rails are going to be present it besides
+
+---------01:59----------
+one so let's see if that is the case
+
+---------02:01----------
+here so I'm going to get my camera zoom
+
+---------02:04----------
+down on my meter since I still haven't
+
+---------02:06----------
+gotten a multimeter that reliably works
+
+---------02:10----------
+with the machine in Windows
+
+---------02:14----------
+got to buy myself a new one since this
+
+---------02:17----------
+one's acting up so let's turn this thing
+
+---------02:19----------
+into voltage mode and see what we get if
+
+---------02:24----------
+I try to measure let's say PP 5 vs L so
+
+---------02:27----------
+PP 5 ESO is going to be present around
+
+---------02:29----------
+my fan connector over here so I could
+
+---------02:32----------
+just go over to my fan connector area
+
+---------02:37----------
+and let's take a look and see what it is
+
+---------02:41----------
+that I get so if I do this and I do this
+
+---------02:46----------
+as you'll see I do get 5 volts which
+
+---------02:49----------
+means that one of my SL rails is likely
+
+---------02:51----------
+missing now if I were to check for
+
+---------02:53----------
+something like let's say CPU v core
+
+---------02:55----------
+which is also an Esso rail the CPU is
+
+---------02:57----------
+supposed to turn on while the thing is
+
+---------02:59----------
+on if we move over here for CPU you'll
+
+---------03:02----------
+see that I'm getting 0 volts so let's
+
+---------03:07----------
+take a look through the board and see if
+
+---------03:09----------
+there's an obvious cause for us not
+
+---------03:12----------
+having our voltage so if we look through
+
+---------03:18----------
+it's furry this board is a furry it's
+
+---------03:24----------
+quite a fairy board and if you go to the
+
+---------03:28----------
+bottom of it
+
+---------03:34----------
+m-yeah gross
+
+---------03:38----------
+so let's see what this area the board is
+
+---------03:41----------
+for since that is fairly disgusting now
+
+---------03:43----------
+if you were to go over to our board view
+
+---------03:45----------
+software that is oh here we go
+
+---------03:53----------
+queue 8150 and queue 8150 is going to be
+
+---------03:58----------
+for the all sis power good circuit so
+
+---------04:02----------
+the way this works is most of the
+
+---------04:04----------
+primary power well shoot out a P good
+
+---------04:06----------
+signal as you can see here the so DDR
+
+---------04:09----------
+reg P good P 1 vo 5 s so P good P 5 vs 4
+
+---------04:12----------
+P good one v8 s 3 P good and so on and
+
+---------04:17----------
+so forth and if any one of those is
+
+---------04:18----------
+missing it'll pull the rail down and all
+
+---------04:21----------
+says power good is pulled up by p.m.
+
+---------04:23----------
+sleeve s 3 buff L on our 8167 so if any
+
+---------04:27----------
+one of those rails is missing we are
+
+---------04:28----------
+screwed now to be in an Esso state you
+
+---------04:33----------
+have to have all the rails below
+
+---------04:34----------
+so let's if we're in an S 4 state we can
+
+---------04:36----------
+immediately assume that all the S 5
+
+---------04:37----------
+rails are working if we're in an s3
+
+---------04:39----------
+state we can assume all the S 5 and his
+
+---------04:41----------
+four rails are working and if we're in
+
+---------04:42----------
+an Esso state we can assume that all the
+
+---------04:44----------
+s 5 s 4 and s 3 rails are working the s
+
+---------04:47----------
+o rails are going to be created by the
+
+---------04:49----------
+rails that came before it you cannot be
+
+---------04:51----------
+in an Esso State if you're missing S 4 S
+
+---------04:53----------
+5 rails that's and think of it like a
+
+---------04:55----------
+pyramid it's a hierarchy it has to work
+
+---------04:57----------
+that way and it has to progress in that
+
+---------04:59----------
+linear fashion all right so let's just
+
+---------05:03----------
+clean up this area over here a little
+
+---------05:07----------
+bit I'm just gonna add some of flux kick
+
+---------05:12----------
+on my fume extractor
+
+---------05:18----------
+and get to work so
+
+---------05:24----------
+we're just gonna do a little bit of a
+
+---------05:26----------
+cleanup job
+
+---------05:41----------
+if any of the joints are cracked they
+
+---------05:43----------
+should get fixed through this process
+
+---------06:08----------
+[Music]
+
+---------06:15----------
+you know I'm gonna take some solder and
+
+---------06:17----------
+make those resistors a little bit nicer
+
+---------06:20----------
+than they were before
+
+---------06:27----------
+and give it like filing your nails just
+
+---------06:30----------
+gently filing your nails like so now
+
+---------06:37----------
+that some of these resistors will be
+
+---------06:39----------
+fine some of them will be too far gone
+
+---------06:42----------
+and I don't want to see which ones those
+
+---------06:44----------
+are so for example something like that
+
+---------06:48----------
+while corroded can be made silver again
+
+---------06:51----------
+that one can be made shiny again but
+
+---------06:55----------
+some of these will not be made shiny
+
+---------06:57----------
+again and those are the ones that we're
+
+---------07:01----------
+going to be repealing and replacing with
+
+---------07:05----------
+better ones
+
+---------07:28----------
+there we go
+
+---------07:32----------
+get rid of some of the junk on that
+
+---------07:34----------
+joint
+
+---------07:46----------
+so much flux so reflective
+
+---------07:56----------
+I won't have a nice tiny small healthy
+
+---------07:58----------
+mound of solder on each and there I
+
+---------08:01----------
+think we have now it's time to grab a
+
+---------08:04----------
+nice resistant set from a nice-looking
+
+---------08:07----------
+donor board a pretty donor board that
+
+---------08:11----------
+doesn't have any corrosion on it a
+
+---------08:14----------
+fitter happier more productive donor do
+
+---------08:20----------
+we have that well it seems that we do
+
+---------08:22----------
+now one thing that I like to do here
+
+---------08:24----------
+that I talk about on stream a lot is I
+
+---------08:27----------
+don't put the board that I'm stealing
+
+---------08:29----------
+from under the microscope I put the
+
+---------08:31----------
+board that I'm working on under the
+
+---------08:32----------
+microscope and the reason for that is if
+
+---------08:35----------
+I pick up this component and then I try
+
+---------08:37----------
+to move this board under the microscope
+
+---------08:38----------
+whatever I have in my tweezers is gonna
+
+---------08:40----------
+fall down and it's also not efficient if
+
+---------08:42----------
+I'm stealing numerous components at a
+
+---------08:44----------
+time so I all right now I don't really
+
+---------08:47----------
+particularly care about accuracy or on
+
+---------08:51----------
+the donor board because I'm going to be
+
+---------08:53----------
+you know it's junk so if I happen to
+
+---------08:56----------
+knock something off on the donor I don't
+
+---------08:58----------
+particularly care that's something I
+
+---------09:00----------
+care about on the board that I am
+
+---------09:01----------
+soldering up but not so much on the
+
+---------09:04----------
+board that I'm stealing from so like
+
+---------09:07----------
+just for example there I just so happen
+
+---------09:09----------
+to knock something off because I wasn't
+
+---------09:10----------
+looking for the microscope but it's
+
+---------09:13----------
+broken anyway so I don't particularly
+
+---------09:15----------
+have to care so I can just grab another
+
+---------09:18----------
+one and do this
+
+---------09:46----------
+okay we put everything back we're gonna
+
+---------09:49----------
+use them grassman patented rapid cool
+
+---------09:52----------
+technology to cool off the board prior
+
+---------09:54----------
+to running any electricity through it so
+
+---------09:59----------
+there we go we got some rapid cool
+
+---------10:00----------
+technology going on BAM
+
+---------10:04----------
+beautiful mwah what a perfect looking
+
+---------10:08----------
+little board fitter happier more
+
+---------10:14----------
+productive sitter happier more
+
+---------10:21----------
+productive fitter happier more
+
+---------10:26----------
+productive
+
+---------10:34----------
+[Music]
+
+---------10:36----------
+and
+
+---------10:41----------
+yeah I should just replace that one -
+
+---------10:43----------
+shouldn't I alright alright oh please
+
+---------10:50----------
+you're right when you're right you're
+
+---------10:53----------
+right
+
+---------10:53----------
+and you're alright Tesla place
+
+---------11:04----------
+and that one's missing from this donor
+
+---------11:08----------
+okay
+
+---------11:17----------
+that's Karma for you
+
+---------11:20----------
+I lose a resistor and then I need a
+
+---------11:22----------
+resistor that's karma karma Holies all
+
+---------11:39----------
+right now let's go for another round of
+
+---------11:40----------
+the rapid cool technology
+
+---------11:53----------
+hmm
+
+---------11:58----------
+should have done that when there was
+
+---------11:59----------
+flux on the board the I suppose better
+
+---------12:02----------
+late than never make everything look a
+
+---------12:05----------
+little bit sexier all right now let's
+
+---------12:11----------
+see if we get a fan spin do you think
+
+---------12:14----------
+we're gonna have a fan spin oh yeah and
+
+---------12:20----------
+as we can see if we move my camera over
+
+---------12:26----------
+we're grabbing a nice healthy six to
+
+---------12:29----------
+seven hundred milliamps sometimes going
+
+---------12:31----------
+down a five hundred but still completely
+
+---------12:33----------
+healthy
+
+---------12:34----------
+so just to recap when we have the issue
+
+---------12:41----------
+where we're drawing about 180 to 220
+
+---------12:44----------
+milliamps that's typically an issue
+
+---------12:46----------
+where every Sol is present but the
+
+---------12:48----------
+Machine is not turning on this can be
+
+---------12:50----------
+caused by platform reset el being held
+
+---------12:52----------
+low which is a nightmare most of the
+
+---------12:53----------
+time it's simply being held low by an
+
+---------12:55----------
+issue in the all sister would circle or
+
+---------12:57----------
+it's being held low or it's being held
+
+---------12:59----------
+there because one of the SL rails is
+
+---------13:02----------
+missing and remember you need all the
+
+---------13:03----------
+Esso rails to work in order for the
+
+---------13:05----------
+machine to turn on if one of the Esso
+
+---------13:07----------
+rails is missing it's gonna do that
+
+---------13:08----------
+thing where you know it thinks it's on
+
+---------13:10----------
+but it's not really on and that's
+
+---------13:12----------
+something that you can tell by attaching
+
+---------13:14----------
+a MagSafe to a DC power supply and being
+
+---------13:18----------
+able to read the amount of amperage that
+
+---------13:19----------
+it's putting out I knew that I did not
+
+---------13:21----------
+have to check for p.m. sleep s4l missing
+
+---------13:24----------
+I know I didn't have to check for PP 5
+
+---------13:25----------
+es 5 missing I'm not gonna check PMDs W
+
+---------13:28----------
+power good I'm not gonna check anything
+
+---------13:29----------
+for the lower rails because this setup
+
+---------13:32----------
+has allowed me to tell instantaneously
+
+---------13:34----------
+where my issue likely lies and just like
+
+---------13:37----------
+with diode mode measurements where you
+
+---------13:38----------
+make a diode mode measurement to ground
+
+---------13:40----------
+on certain parts of the board so maybe
+
+---------13:42----------
+you've seen me do something like the red
+
+---------13:44----------
+probe on grounds and black probe on
+
+---------13:47----------
+backlight output and then diode mode the
+
+---------13:49----------
+same way that I can tell instantly if
+
+---------13:51----------
+it's the feedback trace blown 0.469 0.5
+
+---------13:55----------
+11 bad LED driver 0.2 to 0.3 bad switch
+
+---------13:59----------
+price point 2 to point 3 or broken LCD
+
+---------14:02----------
+connector 0.007 I can tell here very
+
+---------14:06----------
+quickly exactly what the issue is with
+
+---------14:08----------
+the board by writing down the amount of
+
+---------14:11----------
+amps that
+
+---------14:12----------
+using and then correlating that to the
+
+---------14:14----------
+problem once I figured it out so then
+
+---------14:15----------
+the important thing if you're doing
+
+---------14:17----------
+repairs day-in day-out same thing over
+
+---------14:19----------
+and over and over again is that you can
+
+---------14:21----------
+limit the amount of time that you spend
+
+---------14:23----------
+using your brain if you can go through
+
+---------14:26----------
+your day without having to use your
+
+---------14:27----------
+brain much on the repetitive problems
+
+---------14:30----------
+that means that you can use your brain
+
+---------14:31----------
+for the new problems and the money is
+
+---------14:33----------
+always going to be long-term in figuring
+
+---------14:35----------
+out those new problems and writing them
+
+---------14:37----------
+down and then coming up with a way to
+
+---------14:39----------
+allow others to follow in your footsteps
+
+---------14:42----------
+to figure it out the more you can create
+
+---------14:45----------
+a manual for yourself by using things
+
+---------14:47----------
+like a diode mode measurement so the
+
+---------14:48----------
+amperage readings from the power supply
+
+---------14:50----------
+the easier it is to train newbies who
+
+---------14:53----------
+may not know every single signature
+
+---------14:54----------
+fault like you do and as to how to do
+
+---------14:57----------
+this type of work and also the quicker
+
+---------14:59----------
+and more productive you can be so that's
+
+---------15:00----------
+it for today and as always I hope you
+
+---------15:02----------
+learned something and if this
+
+---------15:03----------
+information has helped you in any way
+
+---------15:05----------
+shape or form we would HIGHLY appreciate
+
+---------15:06----------
+it if you click below and what a hot-air
+
+---------15:09----------
+station a tool anything multimeter
+
+---------15:12----------
+probes you got multimeter probes we got
+
+---------15:14----------
+hot air stations we got flux and solder
+
+---------15:17----------
+paste and chipsets for all sorts of mac
+
+---------15:19----------
+books from 2008 to the present and also
+
+---------15:22----------
+its iPhones from I think 2012 to the
+
+---------15:26----------
+present
+
+---------15:26----------
+connectors Tristar chestnut backlight
+
+---------15:30----------
+circuitry Wi-Fi say we got everything
+
+---------15:33----------
+you should check it out so that's it or
+
+---------15:34----------
+no as always thanks for watching
+

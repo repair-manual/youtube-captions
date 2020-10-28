@@ -1,0 +1,1027 @@
+https://www.youtube.com/watch?v=kdNhQLN9Vto
+---------00:00----------
+all right on this next MacBook it says
+
+---------00:02----------
+it doesn't power on and as you can see
+
+---------00:04----------
+their battery has been replaced on this
+
+---------00:07----------
+which means that somebody has opened
+
+---------00:08----------
+this and messed with it before the first
+
+---------00:11----------
+thing that I'm going to do is plug it in
+
+---------00:12----------
+and see what happens when I plug it in
+
+---------00:14----------
+so here I'm gonna take my DC end board
+
+---------00:17----------
+and it looks like we're grabbing 0.02
+
+---------00:20----------
+amps on the charger that's no good next
+
+---------00:24----------
+thing I'm gonna do is unplug everything
+
+---------00:27----------
+that's attached to the board and see
+
+---------00:29----------
+what's messed up so it looks like they
+
+---------00:32----------
+ripped the speaker connector that's fine
+
+---------00:35----------
+see that's okay you're allowed to break
+
+---------00:37----------
+your own stuff this is an end user no
+
+---------00:39----------
+insult to end-users by the way keep in
+
+---------00:42----------
+mind that when I say all these things
+
+---------00:44----------
+about repair shops that should be
+
+---------00:46----------
+ashamed of themselves and I'm saying you
+
+---------00:47----------
+don't know what's F you're doing I'm
+
+---------00:49----------
+being mean to them because they're
+
+---------00:51----------
+advertising they're professional
+
+---------00:52----------
+services to others when they have no
+
+---------00:54----------
+idea what they're doing it's not even
+
+---------00:55----------
+like they're making educated mistakes
+
+---------00:57----------
+they're just fed up for no reason with
+
+---------00:59----------
+no knowledge but that's wrong because
+
+---------01:01----------
+they are screwing up other people's
+
+---------01:03----------
+stuff if you want to screw up your own
+
+---------01:04----------
+stuff then you know go ahead more power
+
+---------01:06----------
+to you as long as you're not messing
+
+---------01:08----------
+with the high voltage electronics or
+
+---------01:10----------
+stuff that's gonna really hurt you I got
+
+---------01:12----------
+no problem with somebody destroying
+
+---------01:13----------
+their own belongings so they replace
+
+---------01:16----------
+their own battery the first thing that
+
+---------01:17----------
+I'd like to look at is the battery
+
+---------01:19----------
+charging chip since the battery charging
+
+---------01:20----------
+chip is gonna be responsible for
+
+---------01:22----------
+charging the battery and that what this
+
+---------01:24----------
+board has described as this issue is not
+
+---------01:27----------
+charging the battery or it's dead after
+
+---------01:30----------
+replacing the battery so if we were to
+
+---------01:32----------
+look this here is our battery charging
+
+---------01:35----------
+chip so as you can see the battery
+
+---------01:37----------
+charger chip is the ISL 6259 ignore
+
+---------01:40----------
+Apple when they say it's an ISL six two
+
+---------01:41----------
+five eight they're high it is indeed an
+
+---------01:44----------
+ISL six two five nine speaking of high
+
+---------01:46----------
+watch Paul Daniel is a software crash on
+
+---------01:48----------
+me let's try that again let's try that
+
+---------01:51----------
+again Paul alright use 7000 here we go
+
+---------01:53----------
+so you 7,000 my pp bus supply and
+
+---------01:56----------
+battery charging I see that's gonna be
+
+---------01:59----------
+right over here on the board and we're
+
+---------02:01----------
+just gonna bring my microscope over to
+
+---------02:03----------
+that section we're gonna get it nice and
+
+---------02:05----------
+focused and oh look at what happened
+
+---------02:07----------
+when that person plugged in that battery
+
+---------02:09----------
+that didn't come from story dot Rosman
+
+---------02:11----------
+group dark enough
+
+---------02:13----------
+I can't I can't show that hard but
+
+---------02:15----------
+really I could try to show that hard I
+
+---------02:17----------
+could go in hardcore with it if I wanted
+
+---------02:18----------
+to I could go really hardcore with it if
+
+---------02:21----------
+I wanted to this is what happens when
+
+---------02:22----------
+you don't buy a battery from store osman
+
+---------02:25----------
+group da I can't even finish that
+
+---------02:26----------
+sentence the straight face but there's
+
+---------02:27----------
+more going on here than you may imagine
+
+---------02:29----------
+not only is the chip itself burned to
+
+---------02:32----------
+the point of having a [ __ ] hole in it
+
+---------02:34----------
+two holes in it Wow
+
+---------02:36----------
+but look at the difference between this
+
+---------02:39----------
+resistor down here and that resistor up
+
+---------02:41----------
+there look at this this resistor has a
+
+---------02:45----------
+hole in it this resistor has a hole in
+
+---------02:49----------
+it that resistor has a hole in it that
+
+---------02:51----------
+resistor has a hole in it god damn that
+
+---------02:55----------
+battery this MacBook up that battery
+
+---------02:58----------
+just took this back book and broke its
+
+---------03:01----------
+back to Tess and made it humble old
+
+---------03:03----------
+country way as Iron Sheik would say so
+
+---------03:05----------
+let's go over what these individual
+
+---------03:07----------
+components are for here on schematic and
+
+---------03:08----------
+the board view software created by our
+
+---------03:11----------
+friends at Paul Daniels now let's take a
+
+---------03:13----------
+look at this resistor R 70 51 what are
+
+---------03:16----------
+you for oh it seems that you're part of
+
+---------03:18----------
+a current sensing circuit so what's
+
+---------03:19----------
+current sensing let's go over what
+
+---------03:21----------
+something like current sensing is so we
+
+---------03:23----------
+have two current sensing circuits here
+
+---------03:24----------
+one for the battery and one for the
+
+---------03:26----------
+charger let's go over that really quick
+
+---------03:28----------
+I'm gonna start with the charger current
+
+---------03:30----------
+sensing circuit so this strip over here
+
+---------03:31----------
+you 7-thousand this chip has four jobs
+
+---------03:34----------
+the first is creating a green light it
+
+---------03:36----------
+controls the charger AC okay signal
+
+---------03:37----------
+which was responsible for creating a
+
+---------03:39----------
+green light in the MagSafe
+
+---------03:40----------
+the second job of this chip is to take
+
+---------03:42----------
+the 18 volts from the adapter up here
+
+---------03:44----------
+where it says from adapter open up this
+
+---------03:46----------
+inrush a limiter transistor and allow
+
+---------03:48----------
+that 18 volts through the system the
+
+---------03:50----------
+third job is to take the adapter voltage
+
+---------03:52----------
+that eighteen point five volts use these
+
+---------03:54----------
+two transistors to divvy it up into 12
+
+---------03:56----------
+point 56 volts and the fourth job of
+
+---------03:58----------
+this chip is to regulate charging of the
+
+---------04:00----------
+battery it's going open q70 55 over here
+
+---------04:04----------
+and allow the battery to charge when
+
+---------04:06----------
+conditions are proper for the battery to
+
+---------04:08----------
+charge now one of the things this does
+
+---------04:09----------
+is allow 18 volts through and it's going
+
+---------04:12----------
+to come through right at this point
+
+---------04:13----------
+after Q 7080 which is the inrush limiter
+
+---------04:17----------
+and that's gonna go to our 70 20 our 70
+
+---------04:19----------
+20 is a 0.02 ohm resistor that resistor
+
+---------04:23----------
+has a very low resistance it's not going
+
+---------04:25----------
+to affect the system it
+
+---------04:26----------
+meaningful way however there is going to
+
+---------04:28----------
+be a teeny tiny voltage drop across that
+
+---------04:30----------
+resistor the voltage drop across our
+
+---------04:32----------
+7020 is going to be proportional to the
+
+---------04:36----------
+current draw of the system so if the
+
+---------04:39----------
+system is drawing a lot of current
+
+---------04:41----------
+because it's using a lot of power and a
+
+---------04:42----------
+lot of wattage then it's going to have a
+
+---------04:44----------
+larger voltage drop across this resistor
+
+---------04:47----------
+then it would have if it was drawing a
+
+---------04:49----------
+teeny tiny miss crater as Cartman would
+
+---------04:51----------
+say amount of current or wattage now the
+
+---------04:54----------
+ISL 1659 is going to figure out how many
+
+---------04:57----------
+amps the system is using by checking the
+
+---------05:00----------
+difference in voltage at the top in the
+
+---------05:02----------
+bottom of this resistor so if I get
+
+---------05:03----------
+eighteen point five volts at the top in
+
+---------05:05----------
+eighteen point four nine nine nine volts
+
+---------05:07----------
+at the bottom it thinks okay it's not
+
+---------05:09----------
+really using much if it has 18 volts at
+
+---------05:11----------
+the top of this and then like 17 volts
+
+---------05:13----------
+at the bottom of this resistor it's a
+
+---------05:14----------
+holy crap system is using way too much
+
+---------05:16----------
+power turn it off turn it off and it's
+
+---------05:18----------
+gonna regulate turning off of this
+
+---------05:19----------
+transistor it's gonna turn this
+
+---------05:21----------
+transistor that off that goes to the
+
+---------05:22----------
+battery so that things don't fry now the
+
+---------05:24----------
+ISO six two five nine is not directly
+
+---------05:27----------
+attached to our 7020 it has a line si si
+
+---------05:30----------
+n in Si Si P these lines over here go to
+
+---------05:34----------
+resistors that then attach to the
+
+---------05:37----------
+charging voltage so you have a 10 ohm
+
+---------05:38----------
+resistor between the is L six two five
+
+---------05:40----------
+nine and the top of the current sensing
+
+---------05:42----------
+resistor and then you have a 10 ohm
+
+---------05:43----------
+resistor between the is L six two five
+
+---------05:45----------
+nine and the bottom of the current
+
+---------05:46----------
+sensing resistor and then you got the
+
+---------05:48----------
+same concept going on here for the
+
+---------05:49----------
+battery so you have this circuit that's
+
+---------05:50----------
+going to measure the amount of current
+
+---------05:52----------
+that the charger is taking on are
+
+---------05:54----------
+seventy twenty and then right as the
+
+---------05:55----------
+battery transistor opens the first thing
+
+---------05:58----------
+that it's going to go to here is our 70
+
+---------06:03----------
+50 our 70 50 is the current sense
+
+---------06:06----------
+resistor for the battery and you've got
+
+---------06:08----------
+a two points who in a zero ohm resistor
+
+---------06:10----------
+that then go to the is L six two five
+
+---------06:12----------
+nine and as you can see that entire
+
+---------06:15----------
+system on this board was destroyed by
+
+---------06:20----------
+that battery look at this chip that chip
+
+---------06:22----------
+has got a hole on it that resistor is
+
+---------06:26----------
+hurt this resistor is not even a part of
+
+---------06:28----------
+the current sensing circuit and it's
+
+---------06:29----------
+hurt this resistor is part of the
+
+---------06:32----------
+current sensing circuit and it's sad
+
+---------06:33----------
+that resistor is sad that resistor is
+
+---------06:36----------
+sad and just to confirm my findings I'm
+
+---------06:38----------
+gonna measure and resist
+
+---------06:39----------
+and smote on the meter and see what each
+
+---------06:41----------
+of these are so according to the
+
+---------06:43----------
+schematic this is supposed to be 10 ohms
+
+---------06:44----------
+up here let's see if you're still 10
+
+---------06:46----------
+ohms a hundred 16 Killah ohms this one
+
+---------06:51----------
+over here is supposed to be 10 ohms 7
+
+---------06:54----------
+kilo ohms so yeah this stuff alls got to
+
+---------06:56----------
+go it's all disgusting so we're gonna do
+
+---------06:58----------
+let's put a little bit of flux on the
+
+---------07:00----------
+board and we're gonna windshield-wiper
+
+---------07:02----------
+off the things that are bad
+
+---------07:19----------
+let's make it nice and pretty again
+
+---------07:29----------
+this Boyd's gonna look beautiful just
+
+---------07:31----------
+you wait and see
+
+---------07:44----------
+now before we put the last resistor on
+
+---------07:46----------
+I'll add some flux because I'm going to
+
+---------07:49----------
+expect it all to get float in a place on
+
+---------07:50----------
+that final heating
+
+---------07:58----------
+see how everything just kind of bounced
+
+---------07:59----------
+in a place that's beautiful except for
+
+---------08:05----------
+my resistor it tried to run away and
+
+---------08:08----------
+it's punishment is that it goes on the
+
+---------08:10----------
+board upside down now how do you like
+
+---------08:11----------
+that resistor
+
+---------08:12----------
+I also remember this is the board that's
+
+---------08:16----------
+gonna have that you 8900 problem so it
+
+---------08:19----------
+would be nice if I read the decider
+
+---------08:21----------
+joints in the GPU buck converter before
+
+---------08:23----------
+that happened because these always wind
+
+---------08:26----------
+up being bad
+
+---------08:31----------
+[Music]
+
+---------08:37----------
+look at how much better the joints in
+
+---------08:39----------
+the bottom look in contrast to the
+
+---------08:41----------
+joints on the right let's look at this
+
+---------08:43----------
+look at this and then look at that look
+
+---------08:46----------
+at this that nice garbage nice garbage
+
+---------08:55----------
+sexy joints disgusting joints do we get
+
+---------08:59----------
+a fan spin yeah I'm no fan spin alright
+
+---------09:03----------
+so let's see what we get on PP Bush g3
+
+---------09:05----------
+ha that's the rail that's created by the
+
+---------09:07----------
+ship that had all the burned components
+
+---------09:09----------
+around it BP bus is supposed to be 12
+
+---------09:11----------
+point 56 volts and our BP bus they get
+
+---------09:16----------
+zero well then zero hmm
+
+---------09:22----------
+are you perhaps short-circuited to
+
+---------09:24----------
+ground oh you are a little peepee bus
+
+---------09:27----------
+well one way to find out what is
+
+---------09:30----------
+shorting my pp bus well let's put some
+
+---------09:32----------
+voltage into my pp bus and find out
+
+---------09:36----------
+we have ground solder there and the hot
+
+---------09:41----------
+of our pp bus g3 hot soldered here okay
+
+---------09:49----------
+so we're drawing 2.7 amps in 1.2 volts
+
+---------09:55----------
+alright so with the thermal camera on
+
+---------09:59----------
+I'm gonna hit the magic Chinese button
+
+---------10:00----------
+at the top that is gonna tell us what
+
+---------10:03----------
+the hottest component is and the winner
+
+---------10:04----------
+is this thing cuz right under it is 38
+
+---------10:07----------
+Celsius around that it's 34 Celsius but
+
+---------10:09----------
+this chip itself is 50 Celsius so let's
+
+---------10:12----------
+see what that chip is for what do you do
+
+---------10:14----------
+why are you burning my board that chip
+
+---------10:16----------
+is Q 70 35 q 70 35 is one of the two
+
+---------10:21----------
+MOSFETs that creates PP punch g3 hot so
+
+---------10:23----------
+the way this works is this is gonna take
+
+---------10:25----------
+the 18 volts from the charger these two
+
+---------10:27----------
+transistors are gonna turn on and off
+
+---------10:29----------
+and on and off and on and off so you're
+
+---------10:31----------
+going to get 18 volts 0 18 volts 0 18
+
+---------10:35----------
+volts 0 its switching constantly and the
+
+---------10:37----------
+idea that the 18 and the 0 and the 18
+
+---------10:39----------
+and the zero is gonna average out to 12
+
+---------10:41----------
+point 56 volts that's why we call it a
+
+---------10:43----------
+switching power supply because it's
+
+---------10:44----------
+switches this transistor is supposed to
+
+---------10:45----------
+switch but it's not switching it's
+
+---------10:47----------
+broken so it's stuck on all the time
+
+---------10:48----------
+since it's stuck on all the time it's
+
+---------10:50----------
+taking our P
+
+---------10:51----------
+phoebus g3 hot and short-circuiting at
+
+---------10:54----------
+the ground and the reason we call it a
+
+---------10:55----------
+short-circuit is instead of the 18 volts
+
+---------10:58----------
+making its way here then switching and
+
+---------11:00----------
+going to the system instead of it going
+
+---------11:03----------
+where it's intended it stops short
+
+---------11:05----------
+the longer the circuit would be if it
+
+---------11:07----------
+went everywhere in the system the short
+
+---------11:09----------
+of it is if it goes to ground before it
+
+---------11:12----------
+gets to go where it's supposed to now
+
+---------11:13----------
+I'm gonna replace you 7,000 Q 70 30 and
+
+---------11:16----------
+Q 70 35 as a trio just to ensure that
+
+---------11:20----------
+none of this nonsense winds up happening
+
+---------11:22----------
+again let's say Q 70 30 is shorted it's
+
+---------11:24----------
+gonna kill you 7,000 then u 7,000 is
+
+---------11:27----------
+killed so when I replace the dead you Q
+
+---------11:29----------
+7030 it's gonna kill that which is gonna
+
+---------11:31----------
+kill this so they're all gonna wind up
+
+---------11:32----------
+killing each other together so when you
+
+---------11:34----------
+have a bad transistor run a buck
+
+---------11:35----------
+converter particularly a top MOSFET the
+
+---------11:37----------
+bottom MOSFETs usually not as important
+
+---------11:39----------
+when you have a bad top MOSFET you'd
+
+---------11:40----------
+want to replace all three of them as a
+
+---------11:42----------
+piece just so that it doesn't keep
+
+---------11:43----------
+happening so I'm gonna wind up getting
+
+---------11:45----------
+myself another donor and go from there
+
+---------11:47----------
+now one of the fun parts of this repair
+
+---------11:49----------
+is going to be not knocking off this
+
+---------11:51----------
+Trackpad connector so I'm gonna put a
+
+---------11:53----------
+little metal shield over it all of this
+
+---------11:55----------
+[ __ ] from one bad battery life battery
+
+---------11:57----------
+took this MacBook and made it it's [ __ ]
+
+---------13:03----------
+now
+
+---------13:14----------
+witness
+
+---------13:26----------
+man let's get this transits thrown
+
+---------13:28----------
+nicely
+
+---------14:06----------
+kinder gentler fitter happier ISL 65:9
+
+---------14:11----------
+kind ler gentler fitter happier more
+
+---------14:16----------
+productive creating pp bus g3 hot kinder
+
+---------14:22----------
+fitter happier more productive kinder
+
+---------14:27----------
+fitter happier more productive not
+
+---------14:32----------
+thinking too much kinder City happier
+
+---------14:36----------
+more productive not thinking too much
+
+---------14:41----------
+still kisses with saliva kinder fitter
+
+---------14:46----------
+happier more productive this board will
+
+---------14:51----------
+be kinder fitter happier more productive
+
+---------14:56----------
+kinder fitter happier more productive
+
+---------15:01----------
+kinder fitter happier more productive
+
+---------15:06----------
+happier more productive
+
+---------15:10----------
+I'd like a burrito please may I please
+
+---------15:13----------
+have some food sir I would like a
+
+---------15:16----------
+burrito please I hope I fixed enough
+
+---------15:18----------
+boards that I can get a burrito today I
+
+---------15:21----------
+think I've done enough for my masters I
+
+---------15:23----------
+think I may just go and get myself one I
+
+---------15:26----------
+think I may get one with some nice spicy
+
+---------15:29----------
+hot sauce let's see what we get
+
+---------15:31----------
+what amperage usage oh thank god alright
+
+---------15:34----------
+as you can see we get fan spin fan spin
+
+---------15:38----------
+baby which means it works so this
+
+---------15:42----------
+battery here to this machine up worse
+
+---------15:45----------
+than any knockoff battery I've ever seen
+
+---------15:47----------
+in my life it's gonna show you the label
+
+---------15:49----------
+on this battery so that nobody ever buys
+
+---------15:50----------
+a battery that looks like this battery
+
+---------15:52----------
+whoever made this battery be ashamed so
+
+---------15:56----------
+you don't got to buy my battery at store
+
+---------15:58----------
+dot rossmann group comm but for F sake
+
+---------16:01----------
+at the very least to buy a good battery
+
+---------16:03----------
+because if you don't that's what will
+
+---------16:05----------
+happen that's it for today and as always
+
+---------16:08----------
+I hope that you learned something I'll
+
+---------16:10----------
+see you in the next one thanks for
+
+---------16:12----------
+watching and I'm out of here
+
+---------16:13----------
+time for a burrito to be fitter happier
+
+---------16:18----------
+more productive
+
+---------16:20----------
+more working at the gym
+
+---------16:29----------
+you
+

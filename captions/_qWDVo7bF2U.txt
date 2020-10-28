@@ -1,0 +1,454 @@
+https://www.youtube.com/watch?v=_qWDVo7bF2U
+---------00:00----------
+all right so today we're gonna be going
+
+---------00:01----------
+over a board that doesn't turn on and we
+
+---------00:03----------
+got a couple of telltale signs yeah that
+
+---------00:05----------
+really hinted what it is that's going on
+
+---------00:06----------
+so one of the first things that you see
+
+---------00:08----------
+when you look at this board is that the
+
+---------00:09----------
+battery itself is exploding or as Apple
+
+---------00:12----------
+would like to call it so they don't get
+
+---------00:13----------
+sued expanding so the battery itself is
+
+---------00:16----------
+expanding and then also when you look
+
+---------00:18----------
+under the microscope if you got the user
+
+---------00:20----------
+brain cap on what you'll notice into the
+
+---------00:22----------
+microscope is that in the CPU vcore area
+
+---------00:25----------
+these capacitors look really really
+
+---------00:27----------
+nasty see that one in the middle that
+
+---------00:29----------
+bulging exploding pile of see that
+
+---------00:35----------
+no good now let me just I don't even
+
+---------00:39----------
+have to open the schematic to know
+
+---------00:40----------
+what's going on here that capacitor is
+
+---------00:42----------
+for providing power to CPU vcore that
+
+---------00:45----------
+capacitor over there is a I could pass
+
+---------00:49----------
+it over there comes from the pp bus g3
+
+---------00:51----------
+hot rail that's the a volt power line
+
+---------00:53----------
+that burns through through through
+
+---------00:54----------
+Rhodes off that gets created by the
+
+---------00:56----------
+charger or that is always present with
+
+---------00:58----------
+the battery so the battery's direct
+
+---------01:00----------
+output is the pp bus g3 huh the power is
+
+---------01:02----------
+always present so since that power rail
+
+---------01:05----------
+is directly shorted to ground what
+
+---------01:06----------
+you're doing is you're shorting the
+
+---------01:07----------
+battery output to ground and the battery
+
+---------01:09----------
+ain't really happy with that which is
+
+---------01:11----------
+why the batteries exploding so the first
+
+---------01:12----------
+thing that we're gonna do to try to fix
+
+---------01:14----------
+this pile of crap here is and this this
+
+---------01:18----------
+is not a board repair where I feel it is
+
+---------01:20----------
+even necessary to remove the board
+
+---------01:22----------
+because there's just there's really just
+
+---------01:25----------
+nothing to see on the other side there's
+
+---------01:26----------
+not much to analyze here the first thing
+
+---------01:28----------
+to do is to remove that exploded
+
+---------01:30----------
+capacitor and replace it with one that
+
+---------01:33----------
+is and see if the short goes away and
+
+---------01:35----------
+then once the short goes away we're
+
+---------01:36----------
+gonna replace it with one that's not
+
+---------01:37----------
+exploded let's wait for this thing to
+
+---------01:43----------
+heat up
+
+---------01:49----------
+this is the fun part here super fun part
+
+---------01:53----------
+smelling and exploded capacitor as you
+
+---------01:55----------
+heat it
+
+---------02:22----------
+the air filters not doing jack
+
+---------02:25----------
+right now the fume extractors doing
+
+---------02:28----------
+nothing moving these is just a [ __ ]
+
+---------02:45----------
+okay usually I so what I say to do is to
+
+---------02:50----------
+tap it to make sure that it's fully
+
+---------02:51----------
+liquidus and then lift it here I'm doing
+
+---------02:53----------
+the opposite I don't want to overheat
+
+---------02:55----------
+that entire area I don't feel like
+
+---------02:56----------
+eating every capacitor and then causing
+
+---------02:58----------
+every other capacitor to explode in
+
+---------02:59----------
+tandem so I'm and those are very very
+
+---------03:01----------
+large pads on the board and I know that
+
+---------03:04----------
+with the thermal mass and the that
+
+---------03:06----------
+section of the board and also with how
+
+---------03:07----------
+big this component is it's not going to
+
+---------03:08----------
+come off easy so I am actually actively
+
+---------03:10----------
+pulling the entire time there
+
+---------03:29----------
+hey let's wake up the old nasty
+
+---------03:32----------
+lead-free solder STFU heck Oh
+
+---------04:41----------
+this is big enough stuff that I feel
+
+---------04:43----------
+kind of silly doing it under a
+
+---------04:44----------
+microscope it's more important to me
+
+---------04:46----------
+that I can hold the iron straight up
+
+---------04:48----------
+because holding the iron straight up
+
+---------04:50----------
+here is going to give me the advantage
+
+---------04:51----------
+of having more heat and you need a lot
+
+---------04:53----------
+of heat to remove that and I want to
+
+---------04:55----------
+concentrate the heat I want to make sure
+
+---------04:57----------
+the heat sticks to that particular area
+
+---------05:02----------
+let's find the same board Oh what do you
+
+---------05:11----------
+know I've stolen all of that on the same
+
+---------05:13----------
+board alright okay let's see if a
+
+---------05:17----------
+different board uses the same thing this
+
+---------05:20----------
+is the part where I wish I had quadruple
+
+---------05:22----------
+monitors on for schematic one for board
+
+---------05:24----------
+view one for schematic for a second
+
+---------05:26----------
+board one for board view of a second
+
+---------05:28----------
+board okay so the capacitor that
+
+---------05:32----------
+exploded of course you open in the
+
+---------05:37----------
+opposite way I have the on the desk
+
+---------05:39----------
+why would you ever open the way I have
+
+---------05:41----------
+the board in the desk
+
+---------05:42----------
+let's see master that exploded was c75
+
+---------05:48----------
+14 and ground is on the right
+
+---------05:50----------
+so c75 14
+
+---------06:09----------
+well the PDF reader is finding that
+
+---------06:11----------
+let's see if my short went away on that
+
+---------06:14----------
+bus
+
+---------06:17----------
+that's a 62 okay 62 rod poly capacitor
+
+---------06:28----------
+my short to ground has gone away lovely
+
+---------06:41----------
+okay now let's see if this yeah like
+
+---------06:46----------
+take a capacitor from this 3437 board
+
+---------06:49----------
+okay what was I
+
+---------06:51----------
+ah yes looking on a 3437 board and
+
+---------06:55----------
+seeing if those capacitors are usable
+
+---------06:58----------
+okay so let's open the 34 37 34 37 board
+
+---------07:05----------
+view and at 34 37 board view okay so
+
+---------07:16----------
+recording good software
+
+---------07:28----------
+see 73-70
+
+---------07:42----------
+these are rated 262 microfarad oh but
+
+---------07:48----------
+you're a tantalum poly and not a regular
+
+---------07:50----------
+poly oh boy that makes me mad
+
+---------07:53----------
+I hate tantalum I do hate tantalum but
+
+---------07:59----------
+and what are you gonna do hopefully it
+
+---------08:05----------
+doesn't blow up in my face okay
+
+---------08:17----------
+girl alright I'll take it
+
+---------08:35----------
+you just explode
+
+---------08:40----------
+ tantalum okay take two
+
+---------08:49----------
+so what editing would be come in handy
+
+---------09:05----------
+for obvious reasons I'm not going to
+
+---------09:07----------
+plug that battery back in I enjoy having
+
+---------09:13----------
+my face
+
+---------09:29----------
+will you turn on if you turn on will you
+
+---------09:31----------
+work or will you explode
+
+---------09:33----------
+what were the fan spins didn't do that
+
+---------09:36----------
+when I had one volt on PP bish g3 hot
+
+---------09:38----------
+hey you're a chime and are you gonna
+
+---------09:42----------
+boot no you're not gonna boot because I
+
+---------09:44----------
+left the SSD on the table and I
+
+---------09:49----------
+had dumbass alright boot come on show
+
+---------09:58----------
+the camera that Louis knows how to fix a
+
+---------10:00----------
+motherboard there we go so we had here
+
+---------10:03----------
+as a short to ground again the hints my
+
+---------10:06----------
+battery is exploding my battery directly
+
+---------10:08----------
+provides PP bus g3 Han oh look at that
+
+---------10:10----------
+component that looks completely
+
+---------10:12----------
+destroyed and skull-fucked and what do
+
+---------10:14----------
+you know it runs off a pp bus g3 art and
+
+---------10:16----------
+as a path directly to ground and this
+
+---------10:19----------
+board was giving me about 1.3 1.8 volts
+
+---------10:22----------
+on pp bus g3 hop friend that's that's
+
+---------10:25----------
+not what I was supposed to get I'm
+
+---------10:26----------
+supposed to get what I'm supposed to get
+
+---------10:27----------
+eight so we are all fixed we're good and
+
+---------10:31----------
+that's that I did not have to use a
+
+---------10:33----------
+short finder I did not have to use a
+
+---------10:36----------
+bench power supply all I had to use was
+
+---------10:39----------
+my brain that's that the brain is pretty
+
+---------10:43----------
+awesome isn't it can make some good
+
+---------10:45----------
+money using your brain
+

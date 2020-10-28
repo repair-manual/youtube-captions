@@ -1,0 +1,724 @@
+https://www.youtube.com/watch?v=ywvDgn7JR_c
+---------00:00----------
+hey everybody how's it going today I'm
+
+---------00:02----------
+gonna be working on an a 1707 it's not
+
+---------00:04----------
+powering on let's open this MacBook up
+
+---------00:06----------
+take a look on the inside of it and see
+
+---------00:08----------
+if we can figure out why it's not
+
+---------00:09----------
+powering it on fix it and make it work
+
+---------00:11----------
+again all right
+
+---------00:13----------
+so what we have here is a machine that
+
+---------00:15----------
+has a t2 chip zero corrosion whatsoever
+
+---------00:21----------
+none looks perfectly clean no liquid no
+
+---------00:29----------
+blown up capacitors so what I do with
+
+---------00:33----------
+all these machines as I unplug the
+
+---------00:35----------
+battery I plug in the charger with the
+
+---------00:40----------
+amp meter and let's see how much it's
+
+---------00:42----------
+taking 5 volts 300 milliamps 400,000
+
+---------00:51----------
+homes to ground on PP bus g3 huh so we
+
+---------00:54----------
+don't have a short to ground on a PT bus
+
+---------00:56----------
+next CD 32 15 ship let's see if that PP
+
+---------01:01----------
+3 v3 whatever the hell rel is present
+
+---------01:04----------
+there we go this one are you sure it's a
+
+---------01:07----------
+ground
+
+---------01:10----------
+okay let's kill ohms
+
+---------01:12----------
+it's not showing the K on the screen
+
+---------01:14----------
+probably miss cropped it but 36 kilohms
+
+---------01:16----------
+that's not that's not a serious problem
+
+---------01:19----------
+here
+
+---------01:24----------
+okay we're still when I plug it in we're
+
+---------01:26----------
+still taking 300 milliamps 3.3 volts on
+
+---------01:30----------
+PP 3 V 3 there is nothing even slightly
+
+---------01:36----------
+corroded here
+
+---------01:44----------
+now the cd32 15's would be responsible
+
+---------01:46----------
+for getting us up to 20 volts but they
+
+---------01:49----------
+look to be totally fine and in this
+
+---------01:51----------
+machine they speaks tutitu chip you know
+
+---------01:56----------
+what yeah
+
+---------01:59----------
+bane of my existence right here
+
+---------02:13----------
+what do the notes say maybe it'll give
+
+---------02:17----------
+us an idea some history perhaps
+
+---------02:19----------
+something we can use to learn and
+
+---------02:24----------
+understand the issue right after
+
+---------02:26----------
+executing the latest security update the
+
+---------02:28----------
+computer died hmm corrupt e to farm
+
+---------02:34----------
+where's his PR enough so yeah what are
+
+---------02:36----------
+you doing with the firmware when the
+
+---------02:37----------
+thing won't even turn on well like yeah
+
+---------02:40----------
+corrupt t2 firmware this too got a DFU
+
+---------02:43----------
+it well what do you do when the thing is
+
+---------02:44----------
+stuck at 5 volts how are you even
+
+---------02:46----------
+getting into DFU mode when it's stuck in
+
+---------02:48----------
+5 volts I'm gonna give this as a present
+
+---------02:50----------
+to Chris see if we had a camera outside
+
+---------02:53----------
+I'll be able to show you the look on his
+
+---------02:54----------
+face when we hand this to him so you
+
+---------02:56----------
+have d fut2 machine oh wow so I can stop
+
+---------03:01----------
+getting yeah I've been running scared
+
+---------03:03----------
+from those for the past three months
+
+---------03:04----------
+when they're perfectly clean 5 volts
+
+---------03:06----------
+12.5 PP busted just yeah
+
+---------03:09----------
+and how many worked so you're saying
+
+---------03:14----------
+that this you can destroy the entire
+
+---------03:16----------
+hardware of the Machine through an
+
+---------03:17----------
+operating system update yeah how the
+
+---------03:21----------
+[ __ ] it's on 20 books and 0.5 amps and I
+
+---------03:45----------
+don't
+
+---------03:46----------
+a small ray single can you show how we
+
+---------03:54----------
+do this can we make a video of this you
+
+---------03:58----------
+I make video but you okay I'll be you be
+
+---------04:01----------
+the brain I'd be the English Oh deal we
+
+---------04:06----------
+need somebody attractive to be the face
+
+---------04:07----------
+stuff let's do it video you're gonna be
+
+---------04:11----------
+famous
+
+---------04:12----------
+okay I'll be faint you tell me what this
+
+---------04:18----------
+okay I show on camera you do you
+
+---------04:22----------
+translate between the three of us for
+
+---------04:25----------
+one youtuber parent okay folks I'm gonna
+
+---------04:28----------
+show you what to do this is an issue
+
+---------04:30----------
+that's been driving me nuts for quite a
+
+---------04:31----------
+while because I'm an idiot I didn't
+
+---------04:33----------
+realize that this was something that's
+
+---------04:35----------
+fairly easily fixable by putting the
+
+---------04:37----------
+machine and do off DFU mode and
+
+---------04:39----------
+connecting it to another machine okay so
+
+---------04:41----------
+here's the machine this is a very common
+
+---------04:43----------
+issue where it's taking five volts on
+
+---------04:45----------
+the charge port but P P bus g3 hot is
+
+---------04:47----------
+twelve point three to twelve point five
+
+---------04:48----------
+volts so what we're gonna do in the
+
+---------04:51----------
+machine is totally clean no liquid
+
+---------04:52----------
+damage no short-circuit on the board so
+
+---------04:54----------
+we're gonna take a USB cable and we're
+
+---------04:57----------
+going to plug in our other computer that
+
+---------04:59----------
+we have that we use for this over here
+
+---------05:00----------
+this is uh yeah so and we're gonna run
+
+---------05:04----------
+this program this is Apple configurator
+
+---------05:06----------
+to which I believe you can get from the
+
+---------05:09----------
+App Store so now I'm gonna plug this in
+
+---------05:11----------
+and how do you choose which port you
+
+---------05:12----------
+plug this into so you have to plug it
+
+---------05:14----------
+into the master port so now once I've
+
+---------05:16----------
+plugged it in see this computer I have
+
+---------05:19----------
+plugged in with a USB CD USBC cable you
+
+---------05:21----------
+can buy these on on Amazon for like
+
+---------05:23----------
+twelve bucks the original Apple one and
+
+---------05:25----------
+I get this on the screen so once I see
+
+---------05:27----------
+this on the screen what I do is double
+
+---------05:32----------
+click there of course I'm totally not
+
+---------05:36----------
+taking credit for the Polish genius
+
+---------05:38----------
+behind me that's doing all of this for
+
+---------05:39----------
+me I would never do that
+
+---------05:45----------
+now so we go to action then we click
+
+---------05:48----------
+restore and now it is restoring it
+
+---------05:55----------
+yeah that means it's seeing the t2
+
+---------05:57----------
+that's communicating with it and bumping
+
+---------06:00----------
+back the firmware to whatever this has
+
+---------06:03----------
+which is probably an older version
+
+---------06:08----------
+and all right now we're gonna try it
+
+---------06:10----------
+with a charger plugged in now let's try
+
+---------06:20----------
+that again with it plugged into the
+
+---------06:21----------
+charger
+
+---------06:31----------
+it's taking longer than before when it
+
+---------06:33----------
+failed so I'm hoping that means success
+
+---------06:39----------
+whoa okay
+
+---------06:42----------
+so it says installing OS now it's not
+
+---------06:44----------
+done yet with installing the OS but if
+
+---------06:47----------
+you take a look this machine that before
+
+---------06:49----------
+was not booting at all with stuck at 5
+
+---------06:51----------
+volts is now giving us an Apple logo on
+
+---------06:54----------
+the screen a progress bar and the fan is
+
+---------06:56----------
+spinning ok actually after a few minutes
+
+---------07:00----------
+you will get an error over here because
+
+---------07:04----------
+this is an apple so that you have to
+
+---------07:10----------
+turn off this machine this one no
+
+---------07:15----------
+because you can't do another DFU mode so
+
+---------07:23----------
+it locks to one DFU mode you have to
+
+---------07:25----------
+restart the machine because they won't
+
+---------07:27----------
+be what you do what happens so this
+
+---------07:30----------
+machine know that is Linde of you for
+
+---------07:32----------
+this machine huh won't let you plug in
+
+---------07:34----------
+another machine into it cuz it'll just
+
+---------07:36----------
+air out so you have to restart that
+
+---------07:37----------
+clear out so it clears all its cache
+
+---------07:39----------
+isn't and when that's fresh and turned
+
+---------07:40----------
+on again you can do another machine wait
+
+---------07:45----------
+so this is just gonna stay at installing
+
+---------07:46----------
+OS forever yeah yeah you can actually we
+
+---------07:51----------
+have to wait for it but for this last
+
+---------07:59----------
+piece and see if it boots into an
+
+---------08:00----------
+operating system
+
+---------08:39----------
+what is it installing from this or is
+
+---------08:51----------
+installing from its itself 38 minutes
+
+---------08:56----------
+remaining so basically whatever update
+
+---------08:59----------
+failed is probably happening right now
+
+---------09:00----------
+because we reverted the update and I was
+
+---------09:03----------
+gonna try to update itself with a
+
+---------09:05----------
+working update hopefully with this
+
+---------09:17----------
+nothing so this is the machine that we
+
+---------09:19----------
+used to do the DFU mode is Accra physis
+
+---------09:24----------
+we can't you can't close yeah you can't
+
+---------09:31----------
+this is like a praying mantis when it
+
+---------09:33----------
+has sex and then the female eats its
+
+---------09:34----------
+head yeah yeah fine I'm doing for sweet
+
+---------09:42----------
+Donna yeah
+
+---------09:45----------
+and actually no because we go here we
+
+---------09:49----------
+see still old Apple control of
+
+---------09:54----------
+controller from this is so [ __ ] buggy
+
+---------09:58----------
+never refreshed yeah so we'll see if
+
+---------10:02----------
+that works shortly yeah thank you very
+
+---------10:04----------
+much Chris any time with that being said
+
+---------10:07----------
+I can edit you out of the video and
+
+---------10:08----------
+pretend I came up with this on my own
+
+---------10:10----------
+nobody will be the wiser all right so
+
+---------10:13----------
+we'll come back in 28 minutes to figure
+
+---------10:14----------
+out what's going on with that machine
+
+---------10:16----------
+okay back to this computer that we had
+
+---------10:18----------
+over here so it just finished updating
+
+---------10:20----------
+it actually took about 38 minutes but it
+
+---------10:23----------
+finally finished
+
+---------10:25----------
+you got the Apple logo on the screen
+
+---------10:28----------
+here and it booted and you can see the
+
+---------10:32----------
+image over there I'm just covering their
+
+---------10:34----------
+name it boots and you know trackpad
+
+---------10:37----------
+works
+
+---------10:37----------
+fan is spinning screen is on so that's
+
+---------10:41----------
+about it so very often you'll have this
+
+---------10:43----------
+problem with the t2 chip MacBook Pros
+
+---------10:46----------
+where the machine will just will have
+
+---------10:50----------
+five volts on a USBC charger
+
+---------10:52----------
+it'll be taking drawing 300 milliamps
+
+---------10:54----------
+but not turning on a PP but g3 huh will
+
+---------10:57----------
+be present there'll be no corrosion
+
+---------10:59----------
+anywhere on the board and often it's
+
+---------11:01----------
+just corrupt t2 we way that you fix this
+
+---------11:04----------
+is you can download that little tool you
+
+---------11:06----------
+have to install it on another one of
+
+---------11:08----------
+these machines so we have an office a
+
+---------11:10----------
+1989 over there that we installed it on
+
+---------11:13----------
+then you run the little program as we
+
+---------11:15----------
+showed before you have this machine
+
+---------11:17----------
+plugged in on the other end it's going
+
+---------11:19----------
+to turn on it's gonna reboot once it's
+
+---------11:21----------
+going to say it failed it's gonna go
+
+---------11:23----------
+through with the update again and it's
+
+---------11:24----------
+gonna take about 28 minutes for that
+
+---------11:26----------
+process it'll say it failed the second
+
+---------11:28----------
+time you hit restart and then it just
+
+---------11:30----------
+boots up into the operating system and
+
+---------11:31----------
+it works
+
+---------11:32----------
+why does this happen randomly Apple why
+
+---------11:35----------
+is it that when you bring it to the
+
+---------11:36----------
+store they say you're gonna have to pay
+
+---------11:37----------
+about over a thousand dollars to fix it
+
+---------11:39----------
+Apple Apple Apple that's it for today
+
+---------11:46----------
+and as always I hope you learned
+
+---------11:48----------
+something this was a nightmare but now
+
+---------11:51----------
+it's not because we know what's wrong
+
+---------11:52----------
+with it
+
+---------11:53----------
+I didn't figure this thing out either
+
+---------11:55----------
+the other guy who works here did one of
+
+---------11:57----------
+the things that makes me really happy is
+
+---------11:58----------
+that I've gotten to this
+
+---------11:59----------
+the point of success at my company where
+
+---------12:01----------
+I can hire people smarter than me to
+
+---------12:02----------
+just figure things out it's great I
+
+---------12:04----------
+don't have to use my brain anymore I
+
+---------12:06----------
+could use his brain this is this great
+
+---------12:08----------
+feeling when you build something that
+
+---------12:09----------
+moved that goes far beyond yourself and
+
+---------12:11----------
+I just I don't have words to describe it
+
+---------12:13----------
+there are people working here that are
+
+---------12:15----------
+considerably smarter than me they just
+
+---------12:16----------
+figure things out on their own and then
+
+---------12:18----------
+teach me it's beautiful
+
+---------12:19----------
+very humble and grateful to have people
+
+---------12:22----------
+like Chris working here and Camille they
+
+---------12:24----------
+figure this thing out that is awesome
+
+---------12:27----------
+they just took the time on their own to
+
+---------12:29----------
+figure this [ __ ] out they stayed late
+
+---------12:31----------
+did overtime just sat here searched I'm
+
+---------12:36----------
+a lucky guy I'll see you on the next
+
+---------12:38----------
+video thanks for watching and as always
+
+---------12:39----------
+I hope you learned something
+

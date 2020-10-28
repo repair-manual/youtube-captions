@@ -1,0 +1,934 @@
+https://www.youtube.com/watch?v=v_8yxaEL5xU
+---------00:00----------
+hi looks like we're here so let's get
+
+---------00:03----------
+started so today I've got an eight to
+
+---------00:05----------
+zero 3435 board it actually appears to
+
+---------00:08----------
+be turning on because I get my CPU
+
+---------00:10----------
+starts to get hot when I plug it in but
+
+---------00:13----------
+for some reason I get no green light on
+
+---------00:16----------
+my charger so I'm gonna walk through
+
+---------00:18----------
+what's causing this and then perhaps
+
+---------00:21----------
+leave early but don't tell anybody cause
+
+---------00:23----------
+they'll be jealous
+
+---------00:24----------
+so my CPU is getting warm but I have no
+
+---------00:27----------
+green light in the charger now I always
+
+---------00:29----------
+usually walk through the one wire
+
+---------00:30----------
+circuit with with you before I go
+
+---------00:33----------
+through this but I can't because this is
+
+---------00:34----------
+a MacBook Air where the one wire circuit
+
+---------00:36----------
+is hidden on the DCN board so let's see
+
+---------00:39----------
+if I can just walk you through this on
+
+---------00:41----------
+an older board and then we'll get to how
+
+---------00:43----------
+its laid out on the newer board so the
+
+---------00:47----------
+entire purpose of the one wire system is
+
+---------00:49----------
+to ensure that the charger voltage never
+
+---------00:53----------
+goes into the sensor voltage so what
+
+---------00:54----------
+would I mean by that well the charger
+
+---------00:56----------
+for a MacBook has three basic concepts
+
+---------00:59----------
+18 volts which is power to the board
+
+---------01:02----------
+ground which is obviously needed to
+
+---------01:04----------
+complete the connection and then we have
+
+---------01:06----------
+this other line cig which has adapter
+
+---------01:08----------
+sense this is where it gets a little bit
+
+---------01:10----------
+more different than what it's like on
+
+---------01:11----------
+typical PC chargers because PC charges
+
+---------01:14----------
+usually have hot and ground they don't
+
+---------01:16----------
+have a sense line here we have a sense
+
+---------01:17----------
+line the charger is going to want to
+
+---------01:20----------
+talk with the Machine and then the
+
+---------01:21----------
+Machine is going to want to talk with
+
+---------01:22----------
+the charger before you get that green
+
+---------01:23----------
+light into turning on so the problem
+
+---------01:26----------
+that occurs here you would think that
+
+---------01:27----------
+you could just attach the adapter sense
+
+---------01:28----------
+line over here directly to the system
+
+---------01:31----------
+management controller so adapter sense
+
+---------01:32----------
+goes to this chip before it goes to this
+
+---------01:34----------
+one wire which goes to this chip over
+
+---------01:37----------
+here you 4,900 which is the SMC now
+
+---------01:42----------
+every now and then the DCN board is
+
+---------01:45----------
+going to fail so this thing over here
+
+---------01:46----------
+let's say this thing [ __ ] up and it
+
+---------01:48----------
+decides to send 18 volts to the adapter
+
+---------01:50----------
+sense line the adapter sense line is a 3
+
+---------01:52----------
+volt line right the after sense is a 3
+
+---------01:54----------
+volt line yet this is an 18 volt line so
+
+---------01:57----------
+what happens if this goes to that and it
+
+---------01:58----------
+goes straight to the SMC well then the
+
+---------02:00----------
+SMC is
+
+---------02:01----------
+so you 6900 exists to stop 18 volts from
+
+---------02:05----------
+going to the SMC in the event of a DC n
+
+---------02:07----------
+board failure by the way if you ever
+
+---------02:09----------
+want to be able to tell if it in DC and
+
+---------02:11----------
+board has failed what you can do is you
+
+---------02:12----------
+can measure the
+
+---------02:13----------
+after sense line on the DCN board if
+
+---------02:15----------
+you're getting DC in mains voltage on if
+
+---------02:18----------
+you're getting that 16 volts in the
+
+---------02:19----------
+charger on it you know your DC and board
+
+---------02:21----------
+has failed this is particularly useful
+
+---------02:22----------
+in machines like the older unibody is
+
+---------02:24----------
+where you have to take apart the entire
+
+---------02:25----------
+motherboard just to replace the DC on
+
+---------02:27----------
+board if I want to tell if it's the
+
+---------02:29----------
+motherboard of the DCN board really
+
+---------02:30----------
+quickly I'll measure the adapter sense
+
+---------02:32----------
+line on the DCN board and then I and
+
+---------02:34----------
+then I can say no it's your mother but
+
+---------02:36----------
+you didn't take it out and I go no no
+
+---------02:37----------
+you're getting three volts and adapter
+
+---------02:39----------
+sense that means your DC and board is
+
+---------02:40----------
+good now pay me
+
+---------02:41----------
+come on pay me pay my money so over here
+
+---------02:45----------
+this is on one of the older boards and I
+
+---------02:48----------
+can show you what you 6900 and you 6901
+
+---------02:52----------
+these two components for the one wire
+
+---------02:53----------
+circuit look like on one of these older
+
+---------02:56----------
+boards and then you can tell me if you
+
+---------02:59----------
+can find it for me on the newer one geez
+
+---------03:07----------
+these boards of Albany just ripped off
+
+---------03:13----------
+alright so we're going to go over to an
+
+---------03:16----------
+older board over here and show you what
+
+---------03:19----------
+these two look like so on the older
+
+---------03:22----------
+board this is you 6900 over here this is
+
+---------03:27----------
+a nasty looking board and this is you
+
+---------03:30----------
+6901 so this is what these two look like
+
+---------03:33----------
+you 6900 you 6901 you 6900 you 6901 160
+
+---------03:42----------
+901 now remember what those two look
+
+---------03:43----------
+like and remember this circuits you have
+
+---------03:45----------
+SM CBC AC okay coming here to power this
+
+---------03:48----------
+trip yeah not power to send a signal
+
+---------03:50----------
+that tells us logic gate to open in send
+
+---------03:52----------
+PP 3 V 4 2 over 2 u 6900 so you need SM
+
+---------03:55----------
+CBC AC okay you need PP 3 V 4 2 to power
+
+---------03:58----------
+this logic gate and then you need sis 1
+
+---------04:02----------
+wire to go back and talk to the computer
+
+---------04:04----------
+now let's look at Miska Matic from a
+
+---------04:06----------
+MacBook Air over here we have sis under
+
+---------04:09----------
+school one wire and that's going to a DS
+
+---------04:13----------
+that's going to this l io connector and
+
+---------04:16----------
+then SMC bc AC ok is going to that l io
+
+---------04:19----------
+connector and PP 3 V 4 2 is going that
+
+---------04:21----------
+connector which is J
+
+---------04:24----------
+j92 500 that's over here and if we look
+
+---------04:30----------
+at that connector on this board probably
+
+---------04:34----------
+looks just fine let's see so we look at
+
+---------04:40----------
+this and that's a pretty looking
+
+---------04:43----------
+connector I see nothing wrong with that
+
+---------04:45----------
+connector looks fine by me so let's plug
+
+---------04:54----------
+it in and let's see if you can tell me
+
+---------04:58----------
+where you find you sixty nine hundred
+
+---------05:00----------
+you 6901 on this dcn board if at all so
+
+---------05:06----------
+let's look around the DCN board over
+
+---------05:08----------
+here then hey well we don't have a
+
+---------05:12----------
+schematic for the DCN board but that
+
+---------05:15----------
+looks pretty familiar what do you know
+
+---------05:19----------
+we have you 6901 and you sixty nine
+
+---------05:23----------
+hundred so we could do at this point is
+
+---------05:27----------
+see if we're getting PP 3v for two on
+
+---------05:30----------
+you 6901 on this dcn board so let's
+
+---------05:35----------
+check that out and by the way I'm not
+
+---------05:38----------
+sure check it out I've got a surprise
+
+---------05:40----------
+for everybody here I got it back alright
+
+---------05:46----------
+so on our main motherboard it looks like
+
+---------05:49----------
+we are getting 3.42 volts but when we go
+
+---------05:53----------
+on to the DCN board over here it looks
+
+---------05:57----------
+like we're getting 0.03 volts for PP 3
+
+---------06:00----------
+before - I wonder where that's coming
+
+---------06:02----------
+from
+
+---------06:03----------
+so if we look over here you'll notice
+
+---------06:07----------
+that there is a rip on my dcn board and
+
+---------06:11----------
+this may just be very lucky wouldn't it
+
+---------06:14----------
+be cool if this is a DC and board repair
+
+---------06:16----------
+I feel so cheap
+
+---------06:18----------
+fixing a DC in word but you can see here
+
+---------06:20----------
+that we have a break in the DCN board so
+
+---------06:22----------
+what I can do well what I could do I
+
+---------06:25----------
+could replace the DC and board but for
+
+---------06:28----------
+fun what we can do is we can scrape away
+
+---------06:30----------
+the copper you could scrape away the
+
+---------06:33----------
+that what's covering the copper trace
+
+---------06:35----------
+and then complete it so over here
+
+---------06:38----------
+you have all these points that are
+
+---------06:39----------
+designed for testing I don't know if
+
+---------06:40----------
+it's for me or a machine or the Apple
+
+---------06:42----------
+it's probably for the guys at the Genius
+
+---------06:44----------
+Bar because I'm convinced you know when
+
+---------06:45----------
+you walk into the Genius Bar they they
+
+---------06:46----------
+take out the multimeter immediately and
+
+---------06:48----------
+get straight to work so you're looking
+
+---------06:50----------
+to do here with these all these are all
+
+---------06:52----------
+four these are test points now the
+
+---------06:53----------
+problem is these are exposed that they
+
+---------06:56----------
+can be corroded so for example see this
+
+---------06:58----------
+over here this cannot be corroded
+
+---------07:00----------
+because it's coated by something this
+
+---------07:02----------
+over here is not going to be corroded
+
+---------07:04----------
+because it's coated but where they with
+
+---------07:06----------
+this over here this bare copper or this
+
+---------07:09----------
+bare metal that can be corroded and when
+
+---------07:12----------
+water hits it so I'm going to do
+
+---------07:14----------
+something here that I never thought I
+
+---------07:15----------
+would do in my life which is repair a
+
+---------07:18----------
+dcn board I mean if this is not as cheap
+
+---------07:21----------
+as it gets I don't know what is so let's
+
+---------07:23----------
+get to work and we are gonna fix a DC
+
+---------07:26----------
+end point yes I am V I am that cheap
+
+---------07:28----------
+alright so reminds me of the places that
+
+---------07:32----------
+used to fix the iPhone 4 home button
+
+---------07:35----------
+because they didn't want to pay a dollar
+
+---------07:36----------
+to to replace it so let's get to it
+
+---------07:40----------
+and it turn on my fume extractor here
+
+---------07:42----------
+you should never be breathing in any of
+
+---------07:43----------
+these fumes and flux and junk and crap
+
+---------07:46----------
+it's not good for you now the problem
+
+---------07:48----------
+here is that this DC end board is not
+
+---------07:50----------
+going to sit down on the desk nicely
+
+---------07:51----------
+because it doesn't have any weight to it
+
+---------07:54----------
+so this is going to be a bit of a pain
+
+---------07:59----------
+in the ass
+
+---------08:02----------
+well let's see if we can make it work
+
+---------08:04----------
+Chris what are you having your queue for
+
+---------08:06----------
+the day
+
+---------08:15----------
+so you've got a little bit of flux there
+
+---------08:26----------
+and this is how we do it I'm really
+
+---------08:32----------
+liking this turned around office thing I
+
+---------08:33----------
+love being able to sit down and actually
+
+---------08:35----------
+feel comfortable in my chair it's been a
+
+---------08:39----------
+long time since I've been able to do
+
+---------08:40----------
+this it's actually been since I had that
+
+---------08:43----------
+alternative office in the beginning of
+
+---------08:45----------
+2015
+
+---------08:52----------
+now we're going to run a nice little
+
+---------08:55----------
+jumper wire which I'm sure I didn't
+
+---------08:59----------
+throw away while I was turning my office
+
+---------09:01----------
+back aha of course I didn't
+
+---------09:18----------
+the hole on the floor is no longer
+
+---------09:19----------
+sucking me in the hole in the floor is
+
+---------09:21----------
+back there so I'm no longer victim to it
+
+---------09:24----------
+it's great I love it I have an office
+
+---------09:28----------
+that I don't hate anymore I shouldn't
+
+---------09:30----------
+say that that I don't incredibly I don't
+
+---------09:33----------
+hate actually I thought that's the right
+
+---------09:35----------
+way to put dislike maybe hate now I just
+
+---------09:39----------
+got to fix my damn stereo again and I'll
+
+---------09:41----------
+be set all right so I got my wire
+
+---------09:48----------
+beautiful
+
+---------10:00----------
+now we're going to plug this thing in
+
+---------10:02----------
+and we're going to have a green light
+
+---------10:03----------
+and this will be my cheapest repair that
+
+---------10:08----------
+I've ever done fixing a DC
+
+---------10:12----------
+import what light I just prepared a DC n
+
+---------10:17----------
+board
+
+---------10:17----------
+I feel so sunny oh yeah no no I look
+
+---------10:24----------
+this is the wire you can't see
+
+---------10:27----------
+because of the damn chat window
+
+---------10:32----------
+swag
+
+---------10:35----------
+well did I don't have a fan plugged in
+
+---------10:37----------
+but the CPU gets hot so I'm assuming I
+
+---------10:39----------
+have a fan spin yeah I mean that's what
+
+---------10:42----------
+you have to do on the new machine
+
+---------10:43----------
+because they don't have the they don't
+
+---------10:45----------
+have a fan that spins anymore
+
+---------10:46----------
+immediately will flux smoke on it
+
+---------10:50----------
+Quality Assurance baby it's not like
+
+---------10:54----------
+we're gonna get Apple Authorized anyway
+
+---------10:55----------
+might as well not give a
+
+---------11:05----------
+oh man so that was that
+
+---------11:12----------
+anyone triggered with the wire not
+
+---------11:13----------
+looking isolated it'll get conformal
+
+---------11:18----------
+coated that's what this stuff's for you
+
+---------11:21----------
+have two ultrasonic at first and then I
+
+---------11:23----------
+got this silicon modified conformal
+
+---------11:29----------
+coating it's awesome
+
+---------11:39----------
+that is how we do it
+
+---------11:45----------
+thank you for sharing your knowledge
+
+---------11:47----------
+we'll do the same I like very much
+
+---------11:52----------
+liking to pay it forward attitude that
+
+---------11:54----------
+is the right way to go through it
+
+---------11:57----------
+whatever I learn I try to pay forward
+
+---------11:59----------
+and I hope all of you will do the same
+
+---------12:02----------
+okay let's see what else do I got oh god
+
+---------12:08----------
+oh god no oh I have a terrible one I
+
+---------12:12----------
+have a terrible one and I think I may
+
+---------12:14----------
+just wind up doing that later because
+
+---------12:16----------
+that looks like yeah yeah that's
+
+---------12:18----------
+demoralizing okay so I'll be back later
+
+---------12:22----------
+because the rest of the stuff that I
+
+---------12:23----------
+have to do is completely demoralizing
+
+---------12:25----------
+and a complete waste of time to do on
+
+---------12:26----------
+camera none of it will work so that's it
+
+---------12:29----------
+for today on our very very short stream
+
+---------12:31----------
+and as always I hope you learned
+
+---------12:32----------
+something but be let's see I'm working
+
+---------12:37----------
+on a hardware mod plus PC software to
+
+---------12:40----------
+convert the BM I got to resize my damn
+
+---------12:45----------
+chat window BM to 35 to a serial
+
+---------12:47----------
+multimeter for when your tech power dies
+
+---------12:49----------
+again I'll let you know when it's ready
+
+---------12:50----------
+thank you for the videos thank you for
+
+---------12:51----------
+the new multimeter yeah what I'm doing
+
+---------12:54----------
+here is well I guess we should go over
+
+---------12:56----------
+another topic here so this is probably
+
+---------12:59----------
+gonna get me in some but my mother
+
+---------13:00----------
+from about 4 or 5 years old taught me of
+
+---------13:03----------
+this concept called the infinite
+
+---------13:04----------
+warranty or she's my mother used to call
+
+---------13:06----------
+this the lifetime warranty so my mother
+
+---------13:08----------
+used to I didn't get a lot of toys as a
+
+---------13:10----------
+kid like once a year we would go to Toys
+
+---------13:11----------
+R Us and I would get something but it
+
+---------13:13----------
+would very much piss her off that a lot
+
+---------13:14----------
+of the toys would have a three month
+
+---------13:15----------
+warranty and many of those toys would
+
+---------13:17----------
+fail for months in and you would go back
+
+---------13:20----------
+to Toys R Us and if you were honest and
+
+---------13:21----------
+said this doesn't work they would go
+
+---------13:23----------
+ you you know three month warranty
+
+---------13:24----------
+blah blah blah so my mother used to do
+
+---------13:27----------
+is she would buy me another one of the
+
+---------13:29----------
+toy that that stopped working after it
+
+---------13:32----------
+stopped working and then she would
+
+---------13:33----------
+return the old one in the box with a new
+
+---------13:35----------
+one using the receipt for the for the
+
+---------13:37----------
+new toy and she used to call this the
+
+---------13:39----------
+lifetime warranty which is pretty much
+
+---------13:42----------
+what I plan on doing with this tech
+
+---------13:44----------
+power piece of right here every
+
+---------13:46----------
+time it dies cuz again I mean yeah it's
+
+---------13:48----------
+50 but it's 50 bucks is 50 bucks I mean
+
+---------13:50----------
+I know I know I can't expect the world
+
+---------13:52----------
+to me $50 multimeter but no I'm not
+
+---------13:55----------
+going no I'm not going to spend 50 bucks
+
+---------13:56----------
+in a multimeter that lasts too
+
+---------13:58----------
+weeks but I do want a multimeter that I
+
+---------14:00----------
+can use with the with the software here
+
+---------14:02----------
+so I'm just going to keep buying it I'm
+
+---------14:04----------
+going to keep sending it back and keep
+
+---------14:05----------
+buying it and keep sending it back and
+
+---------14:07----------
+keep buying it and keep sending it back
+
+---------14:09----------
+yeah
+
+---------14:11----------
+thanks mom lifetime warranty so that's
+
+---------14:14----------
+it for today and I hope that you learned
+
+---------14:16----------
+something
+

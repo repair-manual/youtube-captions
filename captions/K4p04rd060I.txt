@@ -1,0 +1,1486 @@
+https://www.youtube.com/watch?v=K4p04rd060I
+---------00:00----------
+all right so today I'm going to be going
+
+---------00:01----------
+over an air board that I have already
+
+---------00:02----------
+fixed I'm going to show you what was
+
+---------00:04----------
+wrong with it what my thought processes
+
+---------00:05----------
+and I'm going to explain a little bit of
+
+---------00:06----------
+how some of the power circuitry works so
+
+---------00:09----------
+in this air board when I plugged it in I
+
+---------00:11----------
+had half a volt on ppbut g3 hot so I'm
+
+---------00:14----------
+going to open up the schematic here so
+
+---------00:16----------
+that I can show you where I find the
+
+---------00:18----------
+list of voltage rails and how I have any
+
+---------00:20----------
+idea what the hell I'm talking about or
+
+---------00:21----------
+what I'm looking at because one of the
+
+---------00:22----------
+first problems a lot of people have is
+
+---------00:24----------
+they have a let's say you have a
+
+---------00:26----------
+multimeter and you know what it is how
+
+---------00:29----------
+to how to look for voltages and how to
+
+---------00:31----------
+measure voltages but you don't know what
+
+---------00:32----------
+you're actually supposed to be measuring
+
+---------00:33----------
+away you're supposed to be measuring it
+
+---------00:34----------
+that's that's a big problem and that's
+
+---------00:36----------
+what this document here is for that you
+
+---------00:38----------
+know I have to go onto a onto a Russian
+
+---------00:42----------
+forum and give them lots of money in
+
+---------00:43----------
+order to get because you know they're
+
+---------00:45----------
+you actually get this [ __ ] from the
+
+---------00:46----------
+manufacturer there they actually tell
+
+---------00:47----------
+you how to fix their own [ __ ]
+
+---------00:48----------
+products know that that would make life
+
+---------00:50----------
+easy so I'm going to scroll here here we
+
+---------00:55----------
+go so this page is called power aliases
+
+---------00:58----------
+now as I've explained everything on the
+
+---------00:59----------
+airs and the retinas is more miserable
+
+---------01:01----------
+than on the regular machines and that's
+
+---------01:03----------
+even down to the schematics because on
+
+---------01:05----------
+regular schematics for regular old a
+
+---------01:07----------
+1278 and a 1280 sixes you used to get
+
+---------01:10----------
+this print you used to get this whole
+
+---------01:11----------
+list on page one two and three now you
+
+---------01:14----------
+get it on page 62 I mean not at the end
+
+---------01:18----------
+not at the beginning and on page 62 if
+
+---------01:20----------
+this this is the first place you should
+
+---------01:22----------
+look when you have any problem with a
+
+---------01:23----------
+computer not turning on the first place
+
+---------01:25----------
+page [ __ ] 62 so yeah heirs are just
+
+---------01:29----------
+that so P P bus g3 hot over here it says
+
+---------01:32----------
+it's supposed to be eight point six
+
+---------01:33----------
+volts I measure it and I get half a volt
+
+---------01:35----------
+now one of the things I've talked about
+
+---------01:37----------
+many many other videos here is about the
+
+---------01:39----------
+one wire circuit so in order for this
+
+---------01:41----------
+the turn green in order for this to
+
+---------01:43----------
+actually do any communicating with the
+
+---------01:46----------
+computers SMC and for the SMC to
+
+---------01:48----------
+communicate with the charger so that the
+
+---------01:49----------
+charger can turn itself on you need the
+
+---------01:51----------
+one wire circuit to be working and the
+
+---------01:53----------
+one wire circuit works off of the pp 3v4
+
+---------01:57----------
+to power rail if you watch my one wire
+
+---------01:59----------
+circuit video you'll understand how that
+
+---------02:00----------
+is
+
+---------02:01----------
+I checked the TP 3v for two circuit on
+
+---------02:03----------
+here and it's zero volts so one of the
+
+---------02:05----------
+things that I did was I looked around
+
+---------02:07----------
+the three-point 42 volt power area and I
+
+---------02:11----------
+noticed that there was one resistor that
+
+---------02:12----------
+didn't look the way that it should
+
+---------02:14----------
+so let me just bring that up here under
+
+---------02:15----------
+the microscope and unfortunately I have
+
+---------02:18----------
+already fixed it so you're not going to
+
+---------02:19----------
+get to see what the old resistor looked
+
+---------02:21----------
+like but well what are you going to do
+
+---------02:25----------
+so right over here this resistor had a
+
+---------02:28----------
+bunch of brown on the other end and this
+
+---------02:32----------
+is a particularly important one so I've
+
+---------02:34----------
+talked before about what the what this
+
+---------02:36----------
+tun pin does on the CPU v core power
+
+---------02:39----------
+rail so if you search for a video called
+
+---------02:41----------
+CPU I M VP underscore t o n you're going
+
+---------02:46----------
+to see my talk on that and that's an
+
+---------02:47----------
+important pin for power supplies where
+
+---------02:49----------
+you have different inputs so let me just
+
+---------02:52----------
+open up the schematic here so I can show
+
+---------02:54----------
+you
+
+---------02:56----------
+what that does
+
+---------02:59----------
+you
+
+---------03:03----------
+you
+
+---------03:06----------
+so let me explain how this works every
+
+---------03:09----------
+power rail in the machine has a single
+
+---------03:11----------
+input so for example the five volt power
+
+---------03:14----------
+supply comes from the 12 volt power
+
+---------03:15----------
+supply the three volt power supply comes
+
+---------03:18----------
+from the 12 volt power supply the CPU
+
+---------03:20----------
+vcore line comes from either the five of
+
+---------03:21----------
+the 12 volt power supply I forget they
+
+---------03:23----------
+all have inputs that are the same so
+
+---------03:25----------
+this so the switching power supply knows
+
+---------03:27----------
+exactly how often to do the switching in
+
+---------03:30----------
+order to get your desired output this
+
+---------03:32----------
+power supply here the P P 3 V 4 to
+
+---------03:34----------
+underscore G 3 hot power supply this one
+
+---------03:37----------
+has to turn on first remember this is
+
+---------03:38----------
+the one that's going to turn on the SMC
+
+---------03:40----------
+and also other functions this needs to
+
+---------03:41----------
+come on before anything else so if this
+
+---------03:44----------
+needs to come on before P P but G 3 hot
+
+---------03:46----------
+comes on and let's say your battery is
+
+---------03:49----------
+dead so you don't have P P but G 3 out
+
+---------03:51----------
+you need this to create it this has to
+
+---------03:53----------
+come directly from the 18 volts from the
+
+---------03:55----------
+charger because again this has to come
+
+---------03:57----------
+first the charger is going to create PP
+
+---------03:59----------
+but G 3 hot but in order to turn the
+
+---------04:00----------
+charger on you need PP 3 V 4 2 to be
+
+---------04:03----------
+present which means you need to turn
+
+---------04:05----------
+this on directly from the 18 volts over
+
+---------04:06----------
+here so if that's the case you're going
+
+---------04:09----------
+to be getting power and directly from
+
+---------04:11----------
+the DC and rail so over here you can see
+
+---------04:13----------
+this is the direct 18 volts this is
+
+---------04:15----------
+direct 18 volts coming from the charge
+
+---------04:18----------
+port so over here that's the charge port
+
+---------04:20----------
+and then it's coming through here to
+
+---------04:22----------
+here to this chip so this chip is going
+
+---------04:25----------
+to turn the 18 point 5 volts to 3.42
+
+---------04:28----------
+volts now let's say that we don't have
+
+---------04:32----------
+the charger plug let's say we don't have
+
+---------04:34----------
+the charger plugged in let's say we have
+
+---------04:35----------
+a full battery then this chip is going
+
+---------04:37----------
+to be getting its power from PP but g3
+
+---------04:40----------
+hot remember in order for the computer
+
+---------04:41----------
+to create PP bus g3 hot which is the 8
+
+---------04:43----------
+volt rail for the entire machine the
+
+---------04:45----------
+charger has to be plugged in however if
+
+---------04:47----------
+the battery is present the machine
+
+---------04:49----------
+itself is not going to be creating that
+
+---------04:51----------
+rail it's simply going to be running off
+
+---------04:53----------
+of the 8 volts that's already there in
+
+---------04:54----------
+the battery so in that case we're going
+
+---------04:56----------
+to be getting power to create 3.42 volts
+
+---------04:59----------
+from the battery now this chip is going
+
+---------05:02----------
+to have to switch at a different
+
+---------05:03----------
+frequency if it's turning 18 point 5
+
+---------05:05----------
+volts or 3.42 volts gonna have to switch
+
+---------05:07----------
+less often than if it's changing 8 volts
+
+---------05:10----------
+into 3.42 volts so how does this chip
+
+---------05:14----------
+know what it's how often it's supposed
+
+---------05:16----------
+to be switching what tells it well
+
+---------05:18----------
+is the ton pad on the VC puv courtship
+
+---------05:22----------
+on it max chip that I was talking about
+
+---------05:23----------
+in the other video and here it's this
+
+---------05:25----------
+shdn over here so right after this diode
+
+---------05:30----------
+is going to be either 18 volts if we if
+
+---------05:32----------
+we powering from the charger or eight
+
+---------05:35----------
+volts for powering from the battery
+
+---------05:37----------
+that's going to go to VN but also it
+
+---------05:40----------
+goes to this little pin over here and if
+
+---------05:42----------
+I search for this chip I'm pretty sure
+
+---------05:44----------
+we'll be able to find a PDF that tells
+
+---------05:46----------
+us that this sets the switching
+
+---------05:47----------
+frequency again we already have voltage
+
+---------05:49----------
+input why would we need another input
+
+---------05:51----------
+from the same place well that is to set
+
+---------06:00----------
+you
+
+---------06:03----------
+and that's this for this voltage divider
+
+---------06:06----------
+here for setting the switching frequency
+
+---------06:08----------
+so our 7080 is what was blown
+
+---------06:12----------
+so we're going to search and this is one
+
+---------06:15----------
+of the things I really encourage you to
+
+---------06:16----------
+do because keep in mind that the people
+
+---------06:18----------
+who were doing this a long time before
+
+---------06:19----------
+you they didn't have Firefox they
+
+---------06:21----------
+couldn't hit ctrl K and just look all
+
+---------06:23----------
+this stuff up instantly now there's a
+
+---------06:25----------
+good chance that we're not going to find
+
+---------06:26----------
+a datasheet
+
+---------06:31----------
+you
+
+---------06:36----------
+yeah there's a good chance that all
+
+---------06:37----------
+these data sheets will be [ __ ] hey
+
+---------06:40----------
+what do you know it's not [ __ ] cool
+
+---------06:42----------
+is this for the same chip
+
+---------06:47----------
+okay my chip is AED this one is a close
+
+---------06:51----------
+enough for rock and roll so let's see so
+
+---------06:54----------
+we're trying to figure out what pin
+
+---------06:56----------
+eight does I want to show you that
+
+---------06:57----------
+that's what pen eight does now here's
+
+---------07:00----------
+the thing when you look at documents
+
+---------07:01----------
+like this keep in mind that you are not
+
+---------07:04----------
+an engineer you are not designing the
+
+---------07:06----------
+stuff you are not you know again you
+
+---------07:08----------
+that's not the purpose of it we're
+
+---------07:10----------
+looking at this document with the
+
+---------07:11----------
+intention of learning one simple thing
+
+---------07:14----------
+right that's the only reason that we're
+
+---------07:16----------
+looking at this oh this I don't care
+
+---------07:19----------
+about feedback voltage line regulation
+
+---------07:21----------
+or switch VCE SAT now no no no no no not
+
+---------07:28----------
+nothing I get that I care about pin out
+
+---------07:30----------
+that's what I care what do these
+
+---------07:32----------
+different pins do that's the dummy
+
+---------07:34----------
+section of the document that's what
+
+---------07:36----------
+we're looking for so let's see if we can
+
+---------07:37----------
+find the dummy section of the document
+
+---------07:39----------
+the dummy section of it is where they
+
+---------07:41----------
+pretty much list the pins and they tell
+
+---------07:43----------
+you what each one of the pins do and
+
+---------07:45----------
+most data sheets have that so here we go
+
+---------07:49----------
+so we're looking for which shdn the shdn
+
+---------07:52----------
+pin is used to put this and shut down
+
+---------07:55----------
+mode
+
+---------08:00----------
+okay so I'm totally and completely wrong
+
+---------08:04----------
+uh it does not do that at all I thought
+
+---------08:09----------
+it did something and that's not what it
+
+---------08:10----------
+did I am completely and utterly wrong I
+
+---------08:14----------
+thought that that was what this is for
+
+---------08:16----------
+and that's not what that's for at all
+
+---------08:22----------
+so the shdn pin is used to put this into
+
+---------08:25----------
+shutdown mode tie that to ground to
+
+---------08:28----------
+shutdown this apply two volts or more
+
+---------08:31----------
+for normal operation okay so that
+
+---------08:34----------
+doesn't set switching frequency again
+
+---------08:35----------
+I'm open to the idea that I don't know
+
+---------08:37----------
+everything and again that's one of the
+
+---------08:39----------
+reasons that I am always suggesting that
+
+---------08:41----------
+you Google and you use your brain and
+
+---------08:42----------
+try to figure things out and that's why
+
+---------08:44----------
+I'm very very happy that I'm able to
+
+---------08:45----------
+Google and learn and find data sheets
+
+---------08:48----------
+because you know again a lot of people
+
+---------08:49----------
+they they have this idea that all this
+
+---------08:51----------
+information that I know I was just kind
+
+---------08:52----------
+of born with it now I'm just you know
+
+---------08:54----------
+I'm just an [ __ ] when I don't decide
+
+---------08:56----------
+to give it away it's true that that's
+
+---------08:58----------
+not the case it's over here I again and
+
+---------09:00----------
+there was a time where to figure this
+
+---------09:02----------
+out you have to call the manufacturer
+
+---------09:04----------
+you'd have to deal with a bunch of
+
+---------09:05----------
+Representatives you'd have to deal with
+
+---------09:07----------
+a lot of annoying nonsense and maybe a
+
+---------09:10----------
+few weeks later if you're lucky in the
+
+---------09:11----------
+mail you may get a data sheet may not
+
+---------09:14----------
+now it's just Google so it's right right
+
+---------09:16----------
+over here it says apply two volts or
+
+---------09:19----------
+more for normal operation and if there
+
+---------09:21----------
+is nothing there it's simply going to
+
+---------09:23----------
+shut down so let's take another look at
+
+---------09:25----------
+our schematic over here now this is
+
+---------09:28----------
+going to be either eight volts or 18
+
+---------09:30----------
+volts right and there's a resistor going
+
+---------09:32----------
+from here to here otherwise this is
+
+---------09:35----------
+simply not going to work there's going
+
+---------09:38----------
+to be zero volts there so if this
+
+---------09:39----------
+resistor is blown if our 7080 is blown
+
+---------09:42----------
+do you think I'm going to have three
+
+---------09:44----------
+point forty two volts no I'm not it's
+
+---------09:46----------
+not I'm not going to have any voltage
+
+---------09:47----------
+and it's not going to work but if I
+
+---------09:51----------
+replace that resistor then
+
+---------09:56----------
+we get something that looks like this
+
+---------10:01----------
+you
+
+---------10:03----------
+em the new airs do this stupid crap
+
+---------10:06----------
+where it turns on and off and on and off
+
+---------10:09----------
+and on and off then on after you take
+
+---------10:11----------
+the battery out or something and then
+
+---------10:13----------
+plug it back in but
+
+---------10:18----------
+you
+
+---------10:22----------
+you
+
+---------10:24----------
+you
+
+---------10:29----------
+come on come on boot don't make me look
+
+---------10:32----------
+like an idiot
+
+---------10:38----------
+you
+
+---------10:40----------
+you
+
+---------10:52----------
+ya don't need you stalking my customers
+
+---------10:54----------
+but needless to say we're good
+
+---------10:59----------
+you
+
+---------11:01----------
+one of the things I want to get across
+
+---------11:03----------
+here is knowing how to go down the right
+
+---------11:05----------
+rabbit hole so the problem here again I
+
+---------11:08----------
+had 0.5 volts on PP but g3 hot now when
+
+---------11:11----------
+a newbie is going to do is look at the
+
+---------11:12----------
+schematic and see that that was the
+
+---------11:13----------
+first voltage listed on that page and
+
+---------11:14----------
+they're going to go oh I need PP but g3
+
+---------11:17----------
+hard to be a volt and they're going to
+
+---------11:19----------
+start trying to figure out why PP but g3
+
+---------11:21----------
+hot doesn't work they're going to look
+
+---------11:22----------
+at that circuit so they're going to look
+
+---------11:24----------
+at what creates it if they're smart
+
+---------11:26----------
+they're probably going to go to you so
+
+---------11:27----------
+you know 70 100 and they're going to
+
+---------11:29----------
+search this area and they're going to
+
+---------11:31----------
+measure and look just look at how much
+
+---------11:33----------
+stuff there is to measure in this area
+
+---------11:34----------
+like look at all the crap that they're
+
+---------11:37----------
+going to wind up measuring and try to
+
+---------11:38----------
+see ypp but g3 hot isn't working and
+
+---------11:40----------
+this is what's called again this is
+
+---------11:42----------
+going to be become a rabbit hole to help
+
+---------11:43----------
+for this person because this entire
+
+---------11:45----------
+circuit works so I and I know that I
+
+---------11:48----------
+need 3.42 volts for the one wire circuit
+
+---------11:50----------
+I know that I need the one wire circuit
+
+---------11:52----------
+the turn on the charger I know that
+
+---------11:53----------
+without the one wire circuit working
+
+---------11:55----------
+then this chip over here is never ever
+
+---------11:58----------
+ever going to do its job I know that I
+
+---------12:02----------
+know that the one wire circuit
+
+---------12:03----------
+communicates with the SMC I know that
+
+---------12:05----------
+the SMC communicates with this chip and
+
+---------12:07----------
+I know that because in previous
+
+---------12:08----------
+schematics this was made just a little
+
+---------12:10----------
+bit simpler so if I were to go to an
+
+---------12:14----------
+older board over here like this one I'm
+
+---------12:18----------
+going to show you how I first figured
+
+---------12:19----------
+out how this worked because again I
+
+---------12:21----------
+don't know what I didn't know it one
+
+---------12:22----------
+wire protection worked I didn't know
+
+---------12:24----------
+what power supply turned on worked at
+
+---------12:25----------
+first I don't know that one thing turns
+
+---------12:27----------
+on the other a lot of people just kind
+
+---------12:28----------
+of think I'm born with this information
+
+---------12:30----------
+and it's it's I'm really not it's not
+
+---------12:32----------
+like I went to a school where they just
+
+---------12:33----------
+explained this to you so one time I just
+
+---------12:35----------
+said you know what there's no power
+
+---------12:37----------
+let me look by the MagSafe DC power jack
+
+---------12:39----------
+and what I noticed is right by the
+
+---------12:41----------
+MagSafe DC power jack there's this
+
+---------12:42----------
+little line called adapter sense that
+
+---------12:44----------
+talks to this chip and this chip is
+
+---------12:46----------
+powered from this one based on this
+
+---------12:48----------
+little logic gate over here this little
+
+---------12:50----------
+logic gate comes from the power supply
+
+---------12:52----------
+for pp bunch d3 hot if the PP by GTI
+
+---------12:54----------
+power supply doesn't work it's never
+
+---------12:56----------
+going to allow this signal to be high
+
+---------12:57----------
+which will never turn this on see where
+
+---------13:00----------
+it says VCC over here that means that's
+
+---------13:02----------
+that's power input for a chip so like
+
+---------13:03----------
+here they call it V in here they call it
+
+---------13:06----------
+VCC who really gives a [ __ ] you know I'm
+
+---------13:08----------
+telling you that's what it isn't just
+
+---------13:09----------
+just believe me and that so that's going
+
+---------13:11----------
+to send 3.42 volts to here for this to
+
+---------13:13----------
+work so this has what's called
+
+---------13:15----------
+bi-directional data line with sis one
+
+---------13:17----------
+wire so that data line is actually
+
+---------13:19----------
+created see this a little resistor over
+
+---------13:21----------
+here that's a pull-up resistor so that
+
+---------13:24----------
+pull-up resistor is going to allow a
+
+---------13:25----------
+data line between the external source of
+
+---------13:28----------
+adapter sense coming from your adapter
+
+---------13:30----------
+and the end internal source which is
+
+---------13:33----------
+this one wire which communicates with em
+
+---------13:40----------
+the SMC you 4,900 the system management
+
+---------13:43----------
+controller so I would just think to
+
+---------13:45----------
+myself me why is it that the SMC wants
+
+---------13:48----------
+to talk to the charger oh it's a system
+
+---------13:50----------
+management controller oh that controls
+
+---------13:52----------
+charging and looking at the battery and
+
+---------13:54----------
+things in the system oh maybe it wants
+
+---------13:55----------
+to talk to the adapter to tell it to
+
+---------13:56----------
+turn on and that's when I figured out
+
+---------13:58----------
+that if this that you know let's say if
+
+---------14:00----------
+this has water on it and this little
+
+---------14:02----------
+line is missing is pp 3 V 4 2 is missing
+
+---------14:05----------
+that this logic gate is not going to
+
+---------14:06----------
+work which is not going to send power
+
+---------14:08----------
+through over here which is not going to
+
+---------14:10----------
+allow this little pull-up resistor to
+
+---------14:12----------
+create the data line with this over here
+
+---------14:14----------
+adapter sends can talk to the SMC and
+
+---------14:16----------
+it's not going to work on this newer
+
+---------14:18----------
+system it's a little bit more difficult
+
+---------14:21----------
+because you don't really have that putt
+
+---------14:24----------
+direct connection you like you don't
+
+---------14:25----------
+again I can read this to UM blue in the
+
+---------14:27----------
+face unless it's right next to one
+
+---------14:29----------
+another and I have a reason to think
+
+---------14:30----------
+that something is true I'm not going to
+
+---------14:32----------
+just jump to that conclusion is all that
+
+---------14:33----------
+information in the schematic yes but
+
+---------14:35----------
+it's not there annotated it's not there
+
+---------14:37----------
+in a manner where I can really read it
+
+---------14:38----------
+and get gained a good understanding of
+
+---------14:40----------
+it
+
+---------14:40----------
+so when I'm on this play a part of the
+
+---------14:44----------
+schematic here's one of the things that
+
+---------14:45----------
+I want you I want you to be thinking
+
+---------14:46----------
+here's kind of the mindset that I want
+
+---------14:48----------
+to be teaching it being so again what I
+
+---------14:52----------
+said here is that it's really important
+
+---------14:53----------
+that you know that you needed to look
+
+---------14:55----------
+for PP 342 missing not that PP but g3
+
+---------14:58----------
+hot is missing and that you need to know
+
+---------14:59----------
+the order of it because again when you
+
+---------15:01----------
+go to that page 61 on the on this sheet
+
+---------15:03----------
+when you go to page 61 or 63 or whatever
+
+---------15:06----------
+it was it doesn't give you the order
+
+---------15:08----------
+that these power supplies need to be on
+
+---------15:10----------
+the board it doesn't we start with PP
+
+---------15:12----------
+bus g3 hot 1-2-3 you it pp 3 before 2 is
+
+---------15:16----------
+5 in if this made any goddamn sense this
+
+---------15:20----------
+thing over here would be on the top this
+
+---------15:22----------
+would be listed this would be listed in
+
+---------15:24----------
+the chronological order that the power
+
+---------15:25----------
+supplies need to show up so pp bus g3
+
+---------15:27----------
+hot is missing
+
+---------15:28----------
+pp 3v4 two are also missing but you need
+
+---------15:31----------
+one to create the other you should be
+
+---------15:33----------
+looking for the one that's missing that
+
+---------15:35----------
+you need first but how do you know which
+
+---------15:36----------
+one is missing that's needed first you
+
+---------15:38----------
+need to use your brain and look on the
+
+---------15:39----------
+schematic because Apple are to money for
+
+---------15:42----------
+lack of a better way to say it there
+
+---------15:43----------
+does [ __ ] that don't want to tell
+
+---------15:45----------
+you if this again if this document made
+
+---------15:47----------
+any goddamn sense PP 3v4 to underscore
+
+---------15:49----------
+g3 on with the at the top because you
+
+---------15:52----------
+need that power rail before you get PP
+
+---------15:54----------
+buzz g3 hop PP bunch g3 hot is listed
+
+---------15:57----------
+first even though that's a power rail
+
+---------15:59----------
+it's going to show up second because the
+
+---------16:01----------
+people making this document they're not
+
+---------16:02----------
+making this document for you that's one
+
+---------16:04----------
+of the things you need to understand
+
+---------16:05----------
+when you're looking at these documents
+
+---------16:06----------
+these documents are made by somebody who
+
+---------16:09----------
+simply they just need to get it done
+
+---------16:11----------
+because that's their you know 40 or
+
+---------16:12----------
+$50,000 your job to do is to sit here
+
+---------16:15----------
+and print out documentation for things
+
+---------16:17----------
+that the engineers tell them they're not
+
+---------16:18----------
+that and that's really that so it's okay
+
+---------16:21----------
+so what power rails are in the machine
+
+---------16:22----------
+okay these are let's just list them it's
+
+---------16:24----------
+not really about making it easier for
+
+---------16:26----------
+you to troubleshoot it because when it
+
+---------16:29----------
+comes down to it to their job they were
+
+---------16:32----------
+never going to be troubleshooting this
+
+---------16:33----------
+so it doesn't really make sense for them
+
+---------16:34----------
+to come up with a practical way to
+
+---------16:35----------
+explain it to but the way that you
+
+---------16:37----------
+explain it to yourself practically in
+
+---------16:39----------
+the way that you figure this out and the
+
+---------16:40----------
+way I want you to be thinking so that
+
+---------16:41----------
+you can figure this out on your own in
+
+---------16:43----------
+five or ten minutes is look over here so
+
+---------16:46----------
+PPD CN underscore g3 hot that is coming
+
+---------16:49----------
+in over here that is the charger the
+
+---------16:51----------
+charger is where all of this stuff
+
+---------16:52----------
+begins right this is where it begins now
+
+---------16:54----------
+right after the charger the first thing
+
+---------16:57----------
+you see is not the line to ppbut g3 hop
+
+---------16:59----------
+is not the line of five volt supply is
+
+---------17:01----------
+not the line to any other supply the
+
+---------17:03----------
+first thing that you see after the
+
+---------17:05----------
+charger is pp 3 d4 - so what this should
+
+---------17:08----------
+do in your head what this should do is
+
+---------17:09----------
+tell you that this is probably the one
+
+---------17:10----------
+that I should look at first so if I'm
+
+---------17:12----------
+missing PP 3 V 4 - and I'm missing pp
+
+---------17:14----------
+bus g3 huh the first line that you
+
+---------17:16----------
+should look at is pp 3 V 4 - because
+
+---------17:19----------
+it's the one that's right after the
+
+---------17:20----------
+charger and then you'll be chasing the
+
+---------17:22----------
+right rabbit hole again if I have a
+
+---------17:24----------
+choice between spending my time
+
+---------17:25----------
+measuring all the resistors in this
+
+---------17:27----------
+circuit and then I have a choice between
+
+---------17:29----------
+measuring all the resistors in this
+
+---------17:30----------
+circuit I'm going to waste a lot of time
+
+---------17:32----------
+if I measure everything in this circuit
+
+---------17:34----------
+because that doesn't have to turn on
+
+---------17:36----------
+first and not only would that doesn't
+
+---------17:38----------
+have to turn on first but every single
+
+---------17:40----------
+thing in that circuit was obviously fine
+
+---------17:42----------
+so again the document is not going to
+
+---------17:44----------
+make it easier for you they're not going
+
+---------17:45----------
+to tell you the order in which things
+
+---------17:47----------
+are supposed to happen you're really
+
+---------17:48----------
+gonna have to figure that out for you're
+
+---------17:49----------
+on your own
+
+---------17:50----------
+because vegan these documents they're
+
+---------17:53----------
+made they're just made as just the bare
+
+---------17:55----------
+minimum documentation to say this is
+
+---------17:57----------
+what's on this board this is what's in
+
+---------17:59----------
+the circuit this is not a service manual
+
+---------18:01----------
+this is not there to make your life
+
+---------18:03----------
+easier it's but if you decide if you
+
+---------18:05----------
+learn how to decipher the content that's
+
+---------18:07----------
+there it will start to make your life
+
+---------18:09----------
+easier
+

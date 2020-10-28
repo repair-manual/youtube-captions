@@ -1,0 +1,1042 @@
+https://www.youtube.com/watch?v=3GNkrQgiwJs
+---------00:00----------
+all right so today we're gonna be
+
+---------00:01----------
+working on a MacBook Air that is dead
+
+---------00:02----------
+and doesn't turn on this is an
+
+---------00:05----------
+interesting one so this is somebody who
+
+---------00:06----------
+came here about six months ago because
+
+---------00:09----------
+they they had up their operating
+
+---------00:10----------
+system install and installed a bunch of
+
+---------00:12----------
+ that they weren't supposed to so we
+
+---------00:13----------
+fixed that for them and then they come
+
+---------00:15----------
+back about seven or eight months later
+
+---------00:16----------
+and the machine is a hundred percent
+
+---------00:18----------
+absolutely positively dead and guess who
+
+---------00:22----------
+gets blamed for it yeah no absolutely
+
+---------00:26----------
+not
+
+---------00:26----------
+so let's see so let's go over what could
+
+---------00:28----------
+be possibly be wrong here so this is a
+
+---------00:30----------
+MacBook Air board this is the eight to
+
+---------00:32----------
+zero dash 3209 so I'm going to plug in
+
+---------00:35----------
+the charger here and see what we find
+
+---------00:36----------
+now as I've said in many other videos on
+
+---------00:39----------
+this channel which you should watch
+
+---------00:40----------
+before watching this one because I'm not
+
+---------00:41----------
+gonna go over every single little thing
+
+---------00:43----------
+from the beginning because I got a lot
+
+---------00:44----------
+of stuff to do but I have done that in
+
+---------00:46----------
+other videos the PP + g3 hot rail is the
+
+---------00:49----------
+primary rail for most of the machine and
+
+---------00:51----------
+that's supposed to be eight point four
+
+---------00:53----------
+volts in a MacBook Air you'll see that
+
+---------00:55----------
+in the schematic and on this one it's
+
+---------00:56----------
+point six nine six so what's going to
+
+---------00:59----------
+cause that to happen let's see if it's a
+
+---------01:01----------
+short to ground so I put the multimeter
+
+---------01:02----------
+in ohms mode and let's see if when I get
+
+---------01:05----------
+here so there is zero point zero two
+
+---------01:10----------
+almost aground on my main power rail hmm
+
+---------01:14----------
+that's no good so let's put this thing
+
+---------01:16----------
+on and see if anything actually gets hot
+
+---------01:19----------
+now I remember when there's a shirt to
+
+---------01:21----------
+ground um PB Maestri three hot PP brush
+
+---------01:23----------
+D three hot powers a lot of different
+
+---------01:25----------
+things and one of the things that it
+
+---------01:26----------
+powers is the buck converter for the CPU
+
+---------01:28----------
+so let's say one of the high side
+
+---------01:30----------
+MOSFETs and again if you don't know how
+
+---------01:31----------
+buck converter works you should look at
+
+---------01:33----------
+my videos where I've talked about how a
+
+---------01:34----------
+buck converter works before we get to
+
+---------01:35----------
+this one so let's say one of those is
+
+---------01:37----------
+shorted so it's a the whole idea with a
+
+---------01:39----------
+buck converter is the transistor is
+
+---------01:40----------
+going to switch on and then off and then
+
+---------01:42----------
+on and off and then on and then off and
+
+---------01:44----------
+that eight volts you can have a pulse of
+
+---------01:46----------
+eight than zero the Nathan zero the
+
+---------01:47----------
+Nathan zero and through an inductor and
+
+---------01:49----------
+a bunch of capacitors that eight and
+
+---------01:50----------
+zero 8 and 0 and 0 will be averaged out
+
+---------01:52----------
+to something like 1 volt let's say that
+
+---------01:55----------
+that transistor is stuck it's on all the
+
+---------01:57----------
+time because it's broken what's going to
+
+---------02:00----------
+happen is it's going to send the entire
+
+---------02:02----------
+8 volts through so that's why I'm not
+
+---------02:04----------
+gonna just plug in the power supply here
+
+---------02:05----------
+and see if anything gets hot because on
+
+---------02:07----------
+the a20 3209 board you very often have
+
+---------02:09----------
+one of the high side CPU MOSFETs go bad
+
+---------02:12----------
+and you'll be able to tell because
+
+---------02:13----------
+you know again the thing is this is a
+
+---------02:15----------
+smart mission little machine it knows
+
+---------02:17----------
+that there's a short circuit so it's
+
+---------02:19----------
+going to limit the charger power so that
+
+---------02:20----------
+PP buys g3 hot is only putting out 0.5
+
+---------02:23----------
+volts
+
+---------02:27----------
+nothing is hot yet hmm let's see now if
+
+---------02:33----------
+I were to remove that CPU heatsink but
+
+---------02:35----------
+the CPU get hot that's one way cuz they
+
+---------02:38----------
+here's the thing if I just shove 8 volts
+
+---------02:40----------
+in there you know what's gonna happen if
+
+---------02:42----------
+that's going straight to the CPU my CPU
+
+---------02:44----------
+will see 8 volts my board will be dead
+
+---------02:47----------
+and then the person who blamed me for
+
+---------02:49----------
+killing their board because I you know I
+
+---------02:52----------
+had the audacity to remove mackeeper
+
+---------02:54----------
+from their computer they'll actually be
+
+---------02:56----------
+right I will have killed it and I am NOT
+
+---------02:58----------
+going to give this person that
+
+---------02:59----------
+satisfaction
+
+---------03:02----------
+customer customer the things like I get
+
+---------03:05----------
+it cuz I've had a lot of issues with
+
+---------03:06----------
+webhosts and Dru recently where I had a
+
+---------03:09----------
+web developer do something and then
+
+---------03:10----------
+right after they do it something else
+
+---------03:11----------
+doesn't work and like that and it seemed
+
+---------03:14----------
+like at 157 and stopped working and 156
+
+---------03:17----------
+is when you SSH 10 it's like out of
+
+---------03:19----------
+here but but stuff like this you really
+
+---------03:22----------
+you're gonna have people that they
+
+---------03:24----------
+really hold you responsible for
+
+---------03:25----------
+everything I mean like you install open
+
+---------03:27----------
+office in 2012 in 2017 their power
+
+---------03:30----------
+supply dies that computer guy
+
+---------03:32----------
+you know it's one of the it happens a
+
+---------03:35----------
+lot yeah CPU is getting warm and it's
+
+---------03:41----------
+not the caps that are next to the CPU
+
+---------03:43----------
+either or is it oh is it so the CPU is
+
+---------03:52----------
+oh you're boiling I didn't even have to
+
+---------03:57----------
+inject voltage here let's go over to my
+
+---------04:00----------
+short detection test by the way you may
+
+---------04:01----------
+notice that this looks a little better I
+
+---------04:03----------
+got some new capture Hardware recently
+
+---------04:04----------
+unfortunately I only bought one just to
+
+---------04:06----------
+see how it works the whole idea is
+
+---------04:08----------
+there's a color space the issues so my
+
+---------04:11----------
+original HDMI dongle wasn't able to deal
+
+---------04:13----------
+with the 4 2 2 color that comes out of
+
+---------04:15----------
+the camera in the microscope camera so
+
+---------04:17----------
+it was limiting and estimating things
+
+---------04:19----------
+I'm not smart enough to know how this
+
+---------04:21----------
+works but what I do know is that the
+
+---------04:22----------
+$300 USB dongle that I have actually
+
+---------04:24----------
+works worse than $189 Blackmagic thing
+
+---------04:27----------
+so when I used an HDMI splitter just to
+
+---------04:30----------
+see what it would look like in the
+
+---------04:31----------
+picture-in-picture directing the TV and
+
+---------04:33----------
+through the capture hardware the
+
+---------04:34----------
+Blackmagic looks exactly the same as the
+
+---------04:36----------
+direct output from the camcorder to the
+
+---------04:38----------
+monitor whereas the major well thing I
+
+---------04:41----------
+had doesn't look exact but what do you
+
+---------04:43----------
+expect for a HDMI device anyway
+
+---------04:45----------
+so let's take a look over here and let's
+
+---------04:48----------
+do a little bit of short detection so my
+
+---------04:51----------
+method of short detection again I am a
+
+---------04:52----------
+cheapskate I don't buy free spray I'm a
+
+---------04:54----------
+ cheapskate I'm not gonna spend
+
+---------04:55----------
+20 bucks on a little can of no so
+
+---------04:58----------
+what I do is I just put alcohol all over
+
+---------05:00----------
+the board and then I look for the region
+
+---------05:02----------
+that the alcohol disappears from first
+
+---------05:05----------
+hmm where is it sizzling hmm what is the
+
+---------05:11----------
+cause of my short is it that capacitor
+
+---------05:18----------
+or that is sizzling it's actually kind
+
+---------05:21----------
+of hard to tell there because it could
+
+---------05:22----------
+be the left one of the right now
+
+---------05:23----------
+it's you see I a DUI and spending
+
+---------05:27----------
+money on freeze spray I am a cheapskate
+
+---------05:29----------
+I'm not gonna buy I'm not buying an
+
+---------05:32----------
+x-ray machine I'm not buying a FLIR cam
+
+---------05:34----------
+I am sticking to alcohol because it will
+
+---------05:37----------
+evaporate instantly so mm which
+
+---------05:40----------
+capacitor is up my board
+
+---------05:46----------
+so I actually could have run voltage
+
+---------05:48----------
+through there and I wouldn't have killed
+
+---------05:49----------
+anything but still it's always good to
+
+---------05:50----------
+be safe and again that was burning even
+
+---------05:53----------
+at the 0.5 volts that I had see you saw
+
+---------05:55----------
+that the voltage that I had on PP buzz
+
+---------05:57----------
+g3 huh the voltage that I was getting
+
+---------05:59----------
+was actually it was 0.5 volts 0.5 volts
+
+---------06:04----------
+is not aligned it was still enough for
+
+---------06:05----------
+you to see that there was a short there
+
+---------06:06----------
+so let's get my Weller station hot here
+
+---------06:08----------
+so that I can remove that thing and we
+
+---------06:10----------
+are gonna remove that thing so here we
+
+---------06:13----------
+go so let's get the Weller hot nice and
+
+---------06:15----------
+ready now that's a big capacitor so it's
+
+---------06:17----------
+gonna be a little bit of a pain in the
+
+---------06:18----------
+ass to get off so I'm gonna get the
+
+---------06:19----------
+Weller turned up nice and high make sure
+
+---------06:24----------
+that I keep this unplugged this nozzles
+
+---------06:27----------
+a little probably a little too big I
+
+---------06:29----------
+should put on the smaller one oh well
+
+---------06:35----------
+come on get my cap off hey I almost
+
+---------06:39----------
+forgot to turn on the air filter whoa
+
+---------06:41----------
+that's a big no-no around here no
+
+---------06:43----------
+soldering without the air filter
+
+---------07:00----------
+this boy these boards are really hard to
+
+---------07:02----------
+remove things from it absorbs heat much
+
+---------07:05----------
+better than their older models I don't
+
+---------07:08----------
+know if that's really good thing all
+
+---------07:12----------
+right so now that I'm not gonna be able
+
+---------07:14----------
+to side of that with the standard micro
+
+---------07:16----------
+pencil that I have here
+
+---------07:17----------
+I need the bigger iron so I'm gonna
+
+---------07:22----------
+unplug this one be shut the up with
+
+---------07:37----------
+a hack I decided to make this
+
+---------07:39----------
+thing do that I really I want to meet
+
+---------07:41----------
+the person who decided to make this
+
+---------07:43----------
+thing beep I want to force them to sleep
+
+---------07:45----------
+in a room with this I want to tie them
+
+---------07:48----------
+to a chair oh shut your mouth
+
+---------07:53----------
+it also doesn't like when you switch
+
+---------07:54----------
+irons that's its way of telling you to
+
+---------07:56----------
+buy the eff m203 instead of the 951 and
+
+---------07:59----------
+just switching irons all the time watch
+
+---------08:02----------
+it'll shut up in a second it will shut
+
+---------08:06----------
+up there we go
+
+---------08:13----------
+didn't have to do anything just you just
+
+---------08:16----------
+have to wait it out you know it's like
+
+---------08:19----------
+marriage
+
+---------08:26----------
+all righty
+
+---------08:31----------
+okay we've got some solder over there
+
+---------08:34----------
+sold dirt I mean solder I don't want to
+
+---------08:37----------
+piss anybody off now and let's grab a
+
+---------08:42----------
+capacitor let's find a boy that has
+
+---------08:47----------
+those capacitors left on them this is
+
+---------08:50----------
+going to be a tough one I've stolen
+
+---------08:53----------
+almost every capacitor in that area from
+
+---------08:55----------
+every board you can imagine this is a
+
+---------08:58----------
+very common problem having donor boards
+
+---------09:02----------
+is a good thing it makes life a lot
+
+---------09:03----------
+easier
+
+---------09:35----------
+seriously you're not polarized are you
+
+---------09:44----------
+that would really suck since
+
+---------09:54----------
+you know what I'm a [ __ ] and I freak I
+
+---------09:59----------
+don't it'll actually take me less time
+
+---------10:01----------
+to walk over here then it would have
+
+---------10:02----------
+find the schematic and see if that's
+
+---------10:04----------
+polarized I know I'm being an idiot
+
+---------10:08----------
+I should just look in the schematic to
+
+---------10:09----------
+see if it's polarized and if so what way
+
+---------10:11----------
+but it will literally take me less time
+
+---------10:13----------
+to simply walk over here and look at
+
+---------10:15----------
+another board that is the same type in a
+
+---------10:18----------
+wall to open the PDF then open the board
+
+---------10:20----------
+view then find that cab then in control
+
+---------10:22----------
+F I mean just saying it takes time can
+
+---------10:24----------
+you imagine actually doing it would just
+
+---------10:26----------
+be so much wasted time
+
+---------10:39----------
+so what is your orientation
+
+---------10:49----------
+okay em in the lower right corner so I
+
+---------10:56----------
+would have had the orientation wrong why
+
+---------10:58----------
+isn't it a good thing that I checked and
+
+---------11:01----------
+again if it's not polarized it won't
+
+---------11:04----------
+really matter oh well let's blow this on
+
+---------11:09----------
+the board
+
+---------11:24----------
+so once it blows its way on the board
+
+---------11:26----------
+then I push it down because I want to
+
+---------11:27----------
+make sure that it's actually not just
+
+---------11:29----------
+floating on the side or again it's
+
+---------11:30----------
+really important to have things flat on
+
+---------11:31----------
+the motherboard because if they are off
+
+---------11:33----------
+the motherboard then it's easier to
+
+---------11:35----------
+knock them off get some it gives you
+
+---------11:37----------
+leverage to knock it off we don't want
+
+---------11:40----------
+leverage to knock our components off of
+
+---------11:42----------
+the board that's not a good thing at all
+
+---------11:57----------
+but isn't that a pain-in-the-ass area to
+
+---------11:59----------
+get to just wanna you make the joint
+
+---------12:03----------
+look a little nicer get rid of the
+
+---------12:06----------
+excess under there so there's already
+
+---------12:07----------
+some flux and yeah don't go nuts
+
+---------12:12----------
+touching it up no reason to go nuts
+
+---------12:14----------
+touching the joint that's a big problem
+
+---------12:17----------
+there's actually this great article
+
+---------12:19----------
+online that I want to feature in another
+
+---------12:20----------
+video it's on IPC certifications and how
+
+---------12:25----------
+I why the guy thinks that the entire
+
+---------12:27----------
+idea behind IPC certification is crap
+
+---------12:29----------
+and not really just why IPC
+
+---------12:31----------
+certification is crap I shouldn't say
+
+---------12:32----------
+that but while a lot of the rework
+
+---------12:34----------
+industry is really kind of full of
+
+---------12:35----------
+the whole idea is that a lot of the
+
+---------12:38----------
+times they're telling you to rework
+
+---------12:40----------
+joints that look that aren't
+
+---------12:42----------
+cosmetically perfect but that are
+
+---------12:43----------
+electrically sound and really good
+
+---------12:45----------
+joints the whole idea being that you're
+
+---------12:48----------
+going to rework a joint and that the
+
+---------12:50----------
+joint that you're reworking is a joint
+
+---------12:52----------
+that is fine but by heating it you're
+
+---------12:54----------
+now heating the component attached to it
+
+---------12:57----------
+again and the more you heat the
+
+---------12:58----------
+component the greater likelihood it is
+
+---------13:00----------
+that it's going to fail so you're making
+
+---------13:01----------
+stuff that looks nice but it's actually
+
+---------13:03----------
+a ticking time bomb compared to before
+
+---------13:04----------
+and you're actually paying a rework err
+
+---------13:06----------
+labor to sit there and rework joints
+
+---------13:09----------
+that would have otherwise been goods
+
+---------13:10----------
+you're increasing the cost of the
+
+---------13:11----------
+product that you're selling which is
+
+---------13:12----------
+crap and oh come on give me a green
+
+---------13:17----------
+light you had one before you mofo there
+
+---------13:22----------
+we go it was just being a troll as you
+
+---------13:24----------
+can see fan here is spinning see well
+
+---------13:28----------
+you can't see cuz there you go fan is
+
+---------13:34----------
+spinning so we fixed the problem and you
+
+---------13:37----------
+know I was just the capacitor shorted to
+
+---------13:39----------
+ground on the line I had again I didn't
+
+---------13:40----------
+even open the schematic to do this I
+
+---------13:42----------
+haven't opened the schematic or the
+
+---------13:43----------
+board view I guess I should do that
+
+---------13:45----------
+because at the end of the video I always
+
+---------13:47----------
+like to give you a little recap of what
+
+---------13:48----------
+it is we did to actually fix the problem
+
+---------13:50----------
+so that would be a nice thing to do here
+
+---------13:52----------
+so what I'm gonna do is I'm going to
+
+---------13:53----------
+switch over to the view where you can
+
+---------13:55----------
+see what's on my computer screen let's
+
+---------13:57----------
+find the capacitor that capacitor was I
+
+---------14:01----------
+believe this one C 76 20 so C 76 20 so
+
+---------14:10----------
+this is a
+
+---------14:11----------
+for the CPU vc cio 1.05 sol regulator so
+
+---------14:16----------
+this is the power line that comes on the
+
+---------14:18----------
+cpu before v cores presence so the
+
+---------14:20----------
+certain parts of the cpu turn on before
+
+---------14:22----------
+V core turns on and this is one of them
+
+---------14:23----------
+and PP VIN s oh whatever let's see where
+
+---------14:28----------
+that comes from
+
+---------14:28----------
+so that is a sub rail of pp VIN make
+
+---------14:32----------
+sure this is still gone yeah alright if
+
+---------14:34----------
+it's a sub rail of PPV ns5 bla bla bla
+
+---------14:37----------
+bla bla bla is a sub rail of pp bus G 3
+
+---------14:40----------
+hop pp best G 3 hot is the rail that we
+
+---------14:42----------
+shorted to ground this is G 3 hot
+
+---------14:44----------
+meaning always present rails why they
+
+---------14:46----------
+call it G three hottest beyond maybe
+
+---------14:48----------
+always present meaning it should
+
+---------14:49----------
+probably always be there it's his
+
+---------14:51----------
+voltage 8.4 my voltage on was 0.5 and
+
+---------14:55----------
+that's again this is I've gone over this
+
+---------14:57----------
+problem in a few other videos it's a
+
+---------14:58----------
+basic basic short to ground it's not
+
+---------15:02----------
+always going to be that capacitor it's
+
+---------15:03----------
+not always going to be that that is
+
+---------15:05----------
+shorted to ground on this board you will
+
+---------15:06----------
+always have to figure out what the
+
+---------15:08----------
+problem is for yourself you can't apply
+
+---------15:10----------
+my solution to your problem because you
+
+---------15:12----------
+may have a different problem than the
+
+---------15:14----------
+problem I have again what I'm trying to
+
+---------15:15----------
+get across with these videos it's not
+
+---------15:17----------
+that you do monkey-see monkey-do you're
+
+---------15:18----------
+like oh I'm gonna remove the same
+
+---------15:19----------
+capacitor lewiston my board will turn on
+
+---------15:21----------
+what if that's not the capacitor that's
+
+---------15:23----------
+wrong on your board what I'm trying to
+
+---------15:24----------
+do is I'm trying to get you used to
+
+---------15:26----------
+analytical thinking and problem solving
+
+---------15:28----------
+so that regardless of what your problem
+
+---------15:29----------
+is even if your problem is different
+
+---------15:31----------
+from my problem that you can solve it
+
+---------15:32----------
+for your house itself so hopefully this
+
+---------15:34----------
+has helped you
+

@@ -1,0 +1,1231 @@
+https://www.youtube.com/watch?v=4NZz0j7UpaE
+---------00:00----------
+okay so today I'm gonna be going over a
+
+---------00:01----------
+macbook air boy that's not turning on
+
+---------00:03----------
+this is an eight to zero dash 3209 I
+
+---------00:05----------
+want to go over a little bit of the
+
+---------00:07----------
+troubleshooting process how I figure out
+
+---------00:08----------
+what's wrong with it so this board has
+
+---------00:10----------
+already been through an ultrasonic
+
+---------00:11----------
+cleaner it came in for liquid damage
+
+---------00:13----------
+from my friend Sonny who has taken my
+
+---------00:17----------
+practical board repair course no less
+
+---------00:20----------
+than three times already which is why
+
+---------00:22----------
+I'm a little fed up this is here but I
+
+---------00:26----------
+digress
+
+---------00:27----------
+so let's get started on what's wrong
+
+---------00:30----------
+with it so the first thing that I like
+
+---------00:31----------
+to do with any of these boards as I like
+
+---------00:33----------
+to talk about you know what I call the
+
+---------00:34----------
+Holy Trinity of MacBook power which is
+
+---------00:37----------
+12 volts 5 volts and 3 volts or in this
+
+---------00:40----------
+case it's going to be 8 volts 5 volts
+
+---------00:42----------
+and 3 volts so these boards have three
+
+---------00:44----------
+main voltage rails which is pp bus g3
+
+---------00:47----------
+hot which is twelve point six volts or
+
+---------00:48----------
+eight volts in an air pp 3 v 4 2 which
+
+---------00:51----------
+is the three point 42 volt power line
+
+---------00:53----------
+you need up for the one wire circuit to
+
+---------00:54----------
+work and then you have the 5 volt rail
+
+---------00:57----------
+so PP 5 es 4 is 4 PP 5vs5 or PP 5 es 3
+
+---------01:01----------
+whatever it is in your particular
+
+---------01:02----------
+machine so in this machine I check for
+
+---------01:04----------
+PP bus g3 hot and my multimeter is
+
+---------01:07----------
+telling me that I have 8.3 good I have
+
+---------01:11----------
+an orange light in the charger so
+
+---------01:13----------
+obviously I have my pp 3 v mi PPE 3 V 4
+
+---------01:17----------
+2 now let's check for other voltages on
+
+---------01:19----------
+this board okay at this point I'm going
+
+---------01:21----------
+to check for PP 5 vs 3 so let's see
+
+---------01:26----------
+where that is so I check and I look over
+
+---------01:29----------
+here and of course the board is in a
+
+---------01:32----------
+different orientation than it is to make
+
+---------01:33----------
+aah hurts my brain let's say so I have
+
+---------01:39----------
+right over here I'm gonna check ok so I
+
+---------01:44----------
+do have PP 5 vs 3 now I'm also
+
+---------01:48----------
+interested in what state I'm in so if I
+
+---------01:49----------
+f PP 5 es 3 the machine is clearly
+
+---------01:51----------
+making it to an S 3 state now I may be
+
+---------01:55----------
+interested to see if it's in an Esso
+
+---------01:57----------
+state but mean because the DIA and the
+
+---------01:59----------
+air the newer air is all these core i5
+
+---------02:01----------
+platforms they're supposed to turn on as
+
+---------02:03----------
+soon as you plug the charger and it's
+
+---------02:04----------
+not like it waits for you to hit the
+
+---------02:06----------
+power button to turn it on so let's see
+
+---------02:08----------
+what I got I get 4 PP 5 eso
+
+---------02:13----------
+all right also if you want to know where
+
+---------02:15----------
+I'm finding these lists of voltage rails
+
+---------02:18----------
+if you erased it if you want to see
+
+---------02:21----------
+where I'm finding this list of all the
+
+---------02:22----------
+drills it's actually right here in the
+
+---------02:24----------
+schematic make sure there we go yeah so
+
+---------02:28----------
+you're gonna see a page that lists all
+
+---------02:30----------
+the voltage rails and the voltage that
+
+---------02:31----------
+you should expect to see at that
+
+---------02:32----------
+particular location and you'll learn
+
+---------02:35----------
+over time which ones you want to check
+
+---------02:37----------
+first and which ones you want to check
+
+---------02:38----------
+later so now that I've checked PP 5vs5
+
+---------02:48----------
+PP 5 es 3 let's check PP 5 es o because
+
+---------02:52----------
+if I have that voltage then that means
+
+---------02:53----------
+that the computer itself is turning on
+
+---------02:55----------
+and it means that I need to figure out
+
+---------02:57----------
+what a so voltage is missing so PP 5 ESO
+
+---------03:02----------
+is present I have five point zero four
+
+---------03:05----------
+volts there that means that the machine
+
+---------03:06----------
+itself is in an Esso state which means
+
+---------03:09----------
+that I have an SL power rail that is
+
+---------03:11----------
+missing so let's see which SL power rail
+
+---------03:13----------
+is missing so there are different states
+
+---------03:15----------
+for the machine as five off as three
+
+---------03:17----------
+sleeping s ou on so this machine right
+
+---------03:21----------
+now believe it or not it's actually on
+
+---------03:23----------
+the fan isn't spinning nothing shows up
+
+---------03:25----------
+on the screen but there are voltage
+
+---------03:26----------
+rails on for it to be on it wants to be
+
+---------03:28----------
+on so let's look for PP 3 V 3 s Oh make
+
+---------03:32----------
+sure open broadcaster is still recording
+
+---------03:34----------
+here okay people where can I measure PP
+
+---------03:39----------
+3 v 3s Oh
+
+---------03:47----------
+but it turned the board around again
+
+---------03:49----------
+roar
+
+---------04:04----------
+pp 3 B 3 s I was there okay let's go to
+
+---------04:08----------
+the next one so the next s over line is
+
+---------04:10----------
+going to be P p1 v8 underscore s all
+
+---------04:13----------
+underscore reg pp 1 v8 underscore s so
+
+---------04:17----------
+where does that show up ok this shows up
+
+---------04:19----------
+over let's see where is that power line
+
+---------04:26----------
+ok shows up over here so I go to measure
+
+---------04:30----------
+and I seen one point seven eight and a
+
+---------04:38----------
+little bit of corrosion and the machine
+
+---------04:43----------
+itself actually just turned on it's
+
+---------04:45----------
+pretty interesting because this was not
+
+---------04:48----------
+turning on before it was actually dead
+
+---------04:49----------
+this is pretty interesting let's show
+
+---------04:57----------
+you that area
+
+---------05:03----------
+so this does this look like stuff that I
+
+---------05:06----------
+want to keep here so keep in mind I'm
+
+---------05:08----------
+missing an SL power rail that's why this
+
+---------05:10----------
+board is here I'm missing an Esso line
+
+---------05:12----------
+and this is what one of my lines
+
+---------05:15----------
+looks like so what I'm gonna do right
+
+---------05:17----------
+now again this is kind of funny because
+
+---------05:18----------
+this board did not work and as soon as I
+
+---------05:20----------
+went to measure it showed up and it
+
+---------05:21----------
+worked which is really funny because the
+
+---------05:24----------
+fan was actually spinning it was not
+
+---------05:26----------
+spinning just just a second ago
+
+---------05:34----------
+that is funny and the preliminary tests
+
+---------05:37----------
+also showed that it was missing an S oh
+
+---------05:39----------
+wow and it's decided to start working
+
+---------05:42----------
+because I was filming it it's pretty
+
+---------05:44----------
+cool cuz this was dead like I mean I
+
+---------05:47----------
+know people are not gonna believe me now
+
+---------05:48----------
+but does this was dead before hey
+
+---------05:50----------
+what I'm not making this up oh man well
+
+---------05:54----------
+I made the point I'm trying to get
+
+---------05:55----------
+across here that was supposed to
+
+---------05:57----------
+measure zero a point I'm trying to get
+
+---------06:01----------
+across here is if you see that you're in
+
+---------06:04----------
+an Esso state meaning that you have SL
+
+---------06:06----------
+power rails showing up on your machine
+
+---------06:16----------
+you
+
+---------07:22----------
+all right you have a nice day man all
+
+---------07:27----------
+right
+
+---------07:36----------
+my soldering goes downhill terribly when
+
+---------07:38----------
+I'm trying to multitask and sell a
+
+---------07:41----------
+douchebag while simultaneously soldering
+
+---------07:43----------
+so yes so the world war was okay so this
+
+---------07:46----------
+was missing an Esso rail because I knew
+
+---------07:49----------
+that much because it was in an Esso
+
+---------07:51----------
+state but it wasn't on and I know that
+
+---------07:53----------
+from the moment I plugged this
+
+---------07:54----------
+charger and that the fan wasn't spinning
+
+---------07:56----------
+I know that much and I know that when he
+
+---------08:00----------
+brought it that the fan wasn't spending
+
+---------08:01----------
+because I was actually at his shop
+
+---------08:03----------
+trolling him on what could potentially
+
+---------08:04----------
+be wrong with this board and I know that
+
+---------08:07----------
+it was dead I know that the other guy
+
+---------08:09----------
+here put it on my desk because it was
+
+---------08:11----------
+dead and when I decide to put it up to
+
+---------08:13----------
+start doing a video and I get to
+
+---------08:15----------
+the rail that was most likely the one
+
+---------08:17----------
+that didn't work they decided to turn on
+
+---------08:18----------
+I have no explanation for this but
+
+---------08:22----------
+it's how it works
+
+---------08:23----------
+it really is it just it's set up to make
+
+---------08:25----------
+me look like an idiot
+
+---------08:26----------
+all the time anyway it was just another
+
+---------08:32----------
+10-minute phone call with somebody that
+
+---------08:34----------
+wants to know why I can't fix their
+
+---------08:36----------
+motherboard and guarantee your
+
+---------08:38----------
+motherboard repair inside of less than a
+
+---------08:40----------
+day and that's the thing like this is a
+
+---------08:42----------
+pretty good chance that I actually can
+
+---------08:43----------
+do that stuff pretty quickly it's just
+
+---------08:45----------
+just just don't start doing that
+
+---------08:47----------
+where you're like trying to get me to
+
+---------08:48----------
+guarantee it cuz that's just that's not
+
+---------08:51----------
+gonna happen I mean that's all I have to
+
+---------08:54----------
+say there so this little resistor is
+
+---------08:57----------
+gone and oh boy it looks like it goes to
+
+---------09:00----------
+something that's gonna be a to get
+
+---------09:03----------
+a wire going to so are 79 86 that pad is
+
+---------09:06----------
+ and that's not gonna be a fun
+
+---------09:09----------
+thing to run a wire to I just know that
+
+---------09:12----------
+that's gonna be a signal that I'm not
+
+---------09:13----------
+gonna find anywhere other than near the
+
+---------09:14----------
+CPU or something so p.m. p1 v8s oen so
+
+---------09:19----------
+here is the problem so let me let me let
+
+---------09:21----------
+me explain what was going on here let me
+
+---------09:23----------
+explain why guy took my course three
+
+---------09:26----------
+times still breaking ports to me
+
+---------09:28----------
+remember when I said check your power
+
+---------09:30----------
+rails to see what's not turning on this
+
+---------09:33----------
+page tells you all the power wells that
+
+---------09:35----------
+should be present in your machine so
+
+---------09:36----------
+when you go to this page over here
+
+---------09:38----------
+you should check every single one of
+
+---------09:40----------
+these with your multimeter and if one is
+
+---------09:41----------
+not showing up then you should go to
+
+---------09:42----------
+that area and see why and when I went to
+
+---------09:47----------
+that area for
+
+---------09:48----------
+pp1 VA de sol i see a huge honking thing
+
+---------09:52----------
+of water right over here right by the
+
+---------09:55----------
+Enable now just to be safe
+
+---------09:56----------
+just to be safe so this doesn't
+
+---------09:58----------
+come back I did replace this chip and
+
+---------09:59----------
+there was a good chance of that chip
+
+---------10:00----------
+itself was actually fine I replaced it
+
+---------10:02----------
+just to be safe the most likely issue
+
+---------10:04----------
+here was that this big pile of green
+
+---------10:06----------
+ on the Enable was keeping p.m.
+
+---------10:08----------
+sleep s 3rl from going to the p1 v8 s Oh
+
+---------10:13----------
+enable of the chip this chip was not
+
+---------10:15----------
+being told to turn on there was no
+
+---------10:16----------
+voltage at the enable because the sleep
+
+---------10:17----------
+signal p.m. sleep s 3 RL which I have to
+
+---------10:20----------
+find out on a wire to that resistor was
+
+---------10:23----------
+not getting to that chip and oh wow this
+
+---------10:26----------
+is pretty nice there's actually a probe
+
+---------10:27----------
+point here where I can grab that
+
+---------10:28----------
+resistor - what's up Tashi
+
+---------10:31----------
+all right so I was being bothered
+
+---------10:33----------
+non-stop yesterday so unfortunately I
+
+---------10:35----------
+wasn't able to do the soldering on
+
+---------10:36----------
+camera on the weekend instead of having
+
+---------10:38----------
+my regular staff here I have one
+
+---------10:40----------
+part-timer and just about any time
+
+---------10:43----------
+somebody wants to give them a hard time
+
+---------10:45----------
+for no reason because they can kind of
+
+---------10:47----------
+sense that somebody who is not the owner
+
+---------10:50----------
+is there they will just dig their claws
+
+---------10:52----------
+and and I just had a help with that and
+
+---------10:56----------
+since I had to keep answering the phone
+
+---------10:57----------
+I didn't have time to show you how this
+
+---------10:59----------
+was done so anyway so what I wound up
+
+---------11:01----------
+doing here to make this work is I
+
+---------11:03----------
+scraped away where that resistor was
+
+---------11:06----------
+where that was messed up so let me just
+
+---------11:08----------
+show you that on here on the on the
+
+---------11:10----------
+board view software I me just open up
+
+---------11:11----------
+the board view software and switch it
+
+---------11:13----------
+over so that you could see what it is
+
+---------11:14----------
+I'm talking about so as I said the
+
+---------11:16----------
+problem was that this chip was not being
+
+---------11:18----------
+told to turn on at the area just kind of
+
+---------11:20----------
+look like
+
+---------11:21----------
+let's just fine the chip here we go so
+
+---------11:23----------
+right over here where p1 v8s oen is p1
+
+---------11:28----------
+VA de sol en that is created from PM
+
+---------11:31----------
+sleep s 3 RL and this pad over here was
+
+---------11:34----------
+gone and that area looked like complete
+
+---------11:35----------
+ so I kept scraping and scraping and
+
+---------11:38----------
+scraping away and eventually I saw there
+
+---------11:40----------
+was a very very small little piece of
+
+---------11:41----------
+copper that I could solder it to and
+
+---------11:43----------
+when I did that the board turned on and
+
+---------11:44----------
+worked but I didn't want to necessarily
+
+---------11:46----------
+trust that that was going to be enough
+
+---------11:47----------
+so what I did is I put a wire from where
+
+---------11:52----------
+p.m. sleep s whatever was and I ran a
+
+---------11:55----------
+wire to that point so if that pad just
+
+---------11:57----------
+so happens to fail which I doubt it will
+
+---------11:59----------
+but if the pad just so happens to fail I
+
+---------12:01----------
+now have a
+
+---------12:02----------
+why are there and let me just show you
+
+---------12:03----------
+what the wire looks like and the
+
+---------12:05----------
+microscope so yeah I also conformal
+
+---------12:09----------
+coded it so that I wouldn't have to
+
+---------12:11----------
+worry about the thing moving around and
+
+---------12:12----------
+after I could inform oh yeah so after I
+
+---------12:14----------
+did all the soldering I put it in the
+
+---------12:16----------
+ultrasonic cleaner after the ultrasonic
+
+---------12:18----------
+cleaner I put it in the alcohol then I
+
+---------12:19----------
+put it in the oven to get rid of any of
+
+---------12:22----------
+the residue after the oven I applied the
+
+---------12:24----------
+conformal coating then I put it back in
+
+---------12:26----------
+the oven to cure and this is what it
+
+---------12:28----------
+looks like so yeah it's it's kind of a
+
+---------12:32----------
+pile of green but it's a pile of
+
+---------12:34----------
+green that I don't have to worry
+
+---------12:35----------
+about so you know let's say this wire
+
+---------12:37----------
+here do you know something touches it
+
+---------12:38----------
+the wire doesn't move like over here I
+
+---------12:41----------
+touched and the wire is not you know
+
+---------12:43----------
+it's not moving I'll have to worry about
+
+---------12:45----------
+the wire moving I don't worry about
+
+---------12:46----------
+things coming off which is a great part
+
+---------12:48----------
+of conformal coating and I green wire
+
+---------12:50----------
+this whole thing all the way over there
+
+---------12:52----------
+so it's a big ole mess of green and just
+
+---------12:55----------
+to go back to the schematic to reiterate
+
+---------12:56----------
+what it is I did so let's go back over
+
+---------12:59----------
+here to the schematic for this
+
+---------13:00----------
+particular model and open it up in full
+
+---------13:03----------
+screen so that it's easy to see okay so
+
+---------13:09----------
+Sonny said check Q 7950 so what I want
+
+---------13:12----------
+to do here is I want to look and see
+
+---------13:13----------
+just how close Sonny was to being right
+
+---------13:15----------
+so Q 7950 is a logic gate for the Esso
+
+---------13:19----------
+rail P good circuit so what this does is
+
+---------13:22----------
+if P P 3v3 s o is present pp 1 B 5 s 3
+
+---------13:26----------
+RS o is present and P P 1 vo 5 s o over
+
+---------13:29----------
+here is present if those three signals
+
+---------13:31----------
+are present you get all system power
+
+---------13:33----------
+good and all system power good is one of
+
+---------13:36----------
+the signals that is required in order
+
+---------13:37----------
+for the Machine actually turn on so you
+
+---------13:39----------
+were very very close you noticed that
+
+---------13:41----------
+your machine is not giving you an S o P
+
+---------13:43----------
+good which means that something is wrong
+
+---------13:45----------
+with the s o States OS l rails are
+
+---------13:48----------
+coming on but you notice that you're
+
+---------13:49----------
+missing all system power good and you
+
+---------13:51----------
+were on the right track the problem is
+
+---------13:53----------
+that after noticing that your s l rails
+
+---------13:55----------
+were not there one of the done one of
+
+---------13:58----------
+the right things to do would have been
+
+---------13:59----------
+to go to page seven of the schematic
+
+---------14:00----------
+here and when you go to page seven of
+
+---------14:02----------
+the schematic you'll get a list of power
+
+---------14:07----------
+rails and you should have went through
+
+---------14:09----------
+and checked every single one of your s l
+
+---------14:10----------
+rails let's see which one is missing
+
+---------14:11----------
+again when your machine is not working
+
+---------14:13----------
+go through this list and go
+
+---------14:16----------
+to the rails and then when you figure it
+
+---------14:17----------
+and then try to figure out why one of
+
+---------14:18----------
+them is not working if one of them is
+
+---------14:20----------
+missing so if you're missing one go to
+
+---------14:21----------
+that area is there corrosion is it not
+
+---------14:23----------
+being told to turn on is another chip
+
+---------14:25----------
+not sending the signal that's needed for
+
+---------14:27----------
+that to turn on and over here when I got
+
+---------14:29----------
+to P P One V ADA so I decided let me see
+
+---------14:32----------
+where P P 1 V ADA so is created and I
+
+---------14:36----------
+hit enter on here a few times and
+
+---------14:38----------
+eventually it brings me to a page where
+
+---------14:40----------
+I get to see what chip is responsible
+
+---------14:42----------
+for creating P P 1 v8s oh and what's
+
+---------14:46----------
+responsible for creating PP 1 v8s Oh is
+
+---------14:48----------
+you 7720 I decided let me look on the
+
+---------14:50----------
+microscope for where you 7720 s which
+
+---------14:53----------
+means in the board view I type C then I
+
+---------14:55----------
+tell you 7720 this is gonna tell me
+
+---------14:57----------
+where you 7720 is and then when I zoomed
+
+---------14:59----------
+in on it in the microscope I noticed
+
+---------15:01----------
+that it looked like complete now
+
+---------15:03----------
+one of the things you're also going to
+
+---------15:03----------
+notice here is that P P 1 v ADA so is
+
+---------15:05----------
+responsible for creating P P 1 vo v so
+
+---------15:09----------
+let's see how P P 1 V 8 s o is required
+
+---------15:11----------
+for creating P P 1 vo 5 P P 1 vo 5 now
+
+---------15:15----------
+check the sound queue let's see you said
+
+---------15:18----------
+that Q 7950 was the one that you were
+
+---------15:22----------
+suspect of so P P 1 vo 5 is one of the
+
+---------15:25----------
+voltages that's required for all system
+
+---------15:27----------
+power good one of the other things that
+
+---------15:28----------
+I keep telling you is if power L is
+
+---------15:30----------
+missing
+
+---------15:31----------
+don't just troubleshoot that power L
+
+---------15:32----------
+check the power rail above it so for
+
+---------15:34----------
+example if P P 5vs5 is missing see if
+
+---------15:37----------
+you have P P bunch D 3 hot first if your
+
+---------15:39----------
+5 volt rail is missing then check the 12
+
+---------15:41----------
+volt rail to see if the 12 volts RL is
+
+---------15:43----------
+there the 5 volt rail is created from
+
+---------15:45----------
+the 12 volt rail so if your 12 volt rail
+
+---------15:47----------
+is missing your 5 volt circuitry can be
+
+---------15:49----------
+perfectly fine but it's not actually
+
+---------15:50----------
+gonna create 5 volts since you're
+
+---------15:51----------
+missing the 12 over here you need those
+
+---------15:54----------
+three voltage drill so pp 1 B 5 s 3 you
+
+---------15:56----------
+need PP 3 V 3 and which are rails that
+
+---------15:58----------
+we had any but you don't have P P 1 vo 5
+
+---------16:01----------
+I know you don't have P P 1 vo 5 because
+
+---------16:03----------
+you don't have P P 1 V 8 you need pp 1 B
+
+---------16:05----------
+8 to create P P 1 vo 5 so if you you
+
+---------16:08----------
+were very very close you saw that Q 7950
+
+---------16:11----------
+is where you is where something messed
+
+---------16:13----------
+up for you so you notice that you're not
+
+---------16:14----------
+getting all system power good now if you
+
+---------16:16----------
+checked here you would see that you have
+
+---------16:17----------
+P P 1 V 5 s 3 RSL you would have checked
+
+---------16:20----------
+then you would have seen that you had pp
+
+---------16:21----------
+3 V 3 s oh but you were missing P P 1 vo
+
+---------16:23----------
+5 so you go to P P 1 vo 5
+
+---------16:31----------
+and you could see in this diagram over
+
+---------16:34----------
+here the PP one bo v is created from PP
+
+---------16:36----------
+1 v 8 and this is where the trouble this
+
+---------16:39----------
+is where you got stuck in the
+
+---------16:40----------
+troubleshooting and sadly this is where
+
+---------16:43----------
+having taken 200 bucks for ten minutes
+
+---------16:45----------
+of my time but this is where you got
+
+---------16:48----------
+stuck and hopefully by seeing it whole
+
+---------16:50----------
+you learn and you don't make the same
+
+---------16:52----------
+mistake next time is again these
+
+---------16:55----------
+mistakes are expensive but that's about
+
+---------16:57----------
+that for today and I hope you learned
+
+---------16:59----------
+something and oh I have to show that it
+
+---------17:02----------
+works don't I I have to show that this
+
+---------17:04----------
+thing actually turns on that's a
+
+---------17:06----------
+tradition that I have going here that
+
+---------17:08----------
+you see that I am NOT just making this
+
+---------17:09----------
+ up
+
+---------17:10----------
+okay so let's turn it on and see if it
+
+---------17:12----------
+works before I give it back to sunny
+
+---------17:22----------
+you
+
+---------17:58----------
+okay it Dung's after the dong it turns
+
+---------18:01----------
+on let's see that this is the machine
+
+---------18:08----------
+that Sonny gave me that actually has a
+
+---------18:10----------
+dead SSD so you're not gonna see much at
+
+---------18:13----------
+this point well let's see if we get to a
+
+---------18:15----------
+question mark folder that'll show that
+
+---------18:17----------
+the thing at least has it has its brain
+
+---------18:18----------
+going that is one toshiba SSD there
+
+---------18:27----------
+oh okay
+
+---------18:31----------
+not dead SSD beautiful amazing lovely it
+
+---------18:37----------
+works we're done hope you learned
+
+---------18:41----------
+something
+

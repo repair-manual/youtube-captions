@@ -1,0 +1,3715 @@
+https://www.youtube.com/watch?v=G1g7BVp1fQY
+---------00:00----------
+hi so today I'm gonna be going over a
+
+---------00:01----------
+couple of boards that are dead so this
+
+---------00:03----------
+is a MacBook Air eight to zero 34:37
+
+---------00:06----------
+motherboard that was sent in with the
+
+---------00:08----------
+problem that it is dead it has no power
+
+---------00:10----------
+now when I plugged the DCN board him I
+
+---------00:12----------
+get a orange light on the charger and
+
+---------00:15----------
+that orange light in the charger means
+
+---------00:16----------
+that the 3pp 3v4 to power rail is
+
+---------00:20----------
+working as I've mentioned in other
+
+---------00:21----------
+videos the one wire circuit is powered
+
+---------00:22----------
+off of that power rail so what I want to
+
+---------00:25----------
+know now is why is this not turning on
+
+---------00:26----------
+so all the core i5 and core i7 series
+
+---------00:29----------
+MacBooks anybody who is plugged in more
+
+---------00:31----------
+than two or three these knows that all
+
+---------00:32----------
+the core i5 and i7 series besides on
+
+---------00:35----------
+occasion the 2010 8 1286 well just turn
+
+---------00:37----------
+itself on automatically so if it doesn't
+
+---------00:39----------
+turn itself on automatically if it
+
+---------00:41----------
+doesn't enter that Esso state
+
+---------00:42----------
+automatically you can assume that
+
+---------00:44----------
+something is wrong this was sent in by
+
+---------00:46----------
+some people that really don't have much
+
+---------00:48----------
+business touching or refurbishing
+
+---------00:50----------
+computers it's just kind of one of those
+
+---------00:52----------
+companies that has like a lot of
+
+---------00:53----------
+fancy-schmancy branding but that doesn't
+
+---------00:55----------
+know how to do anything and one of the
+
+---------00:57----------
+things that you'll see here is that I
+
+---------00:58----------
+mean like on half of the machines that
+
+---------01:00----------
+were sent all the little connectors were
+
+---------01:02----------
+just kind of ripped off so let me just
+
+---------01:03----------
+plug in the microscope here so that I
+
+---------01:05----------
+can show you what I'm talking about
+
+---------01:07----------
+under the microscope camera how people
+
+---------01:09----------
+like this get business is beyond me I
+
+---------01:11----------
+really think people just like they they
+
+---------01:13----------
+they will they prefer branding to
+
+---------01:14----------
+knowledge like it's not about branding
+
+---------01:16----------
+it's about you know the prettiness of
+
+---------01:18----------
+the website and a fancy lame and all
+
+---------01:20----------
+that other [ __ ] but that is the world
+
+---------01:23----------
+that we live in
+
+---------01:24----------
+so let's look over here yeah this is the
+
+---------01:26----------
+kind of [ __ ] I'm talking about like you
+
+---------01:27----------
+couldn't leave the the latch on even one
+
+---------01:30----------
+of these it would have just it would
+
+---------01:31----------
+have killed you to leave the latch on
+
+---------01:32----------
+one of these which is why that most of
+
+---------01:34----------
+these machines are going to the bottom
+
+---------01:36----------
+of the pile so when I get stuff that's
+
+---------01:37----------
+been pre [ __ ] with as usual bottom of
+
+---------01:40----------
+the pile why am I gonna reward people
+
+---------01:42----------
+that destroyed resada miters or
+
+---------01:44----------
+skull-fuck something before sending it
+
+---------01:46----------
+here you know I kind of want to reward
+
+---------01:48----------
+the people that said you know what I
+
+---------01:49----------
+shouldn't touch this because I have no
+
+---------01:51----------
+idea what the [ __ ] I'm doing let me give
+
+---------01:52----------
+it to somebody else but I digress off
+
+---------01:55----------
+rant and on to measuring on to fixing
+
+---------01:58----------
+and we're gonna do that now so let's see
+
+---------02:01----------
+if this thing is and trying to enter an
+
+---------02:03----------
+Esso state that's the first thing so you
+
+---------02:05----------
+got s5 s3 and esos when you plug the
+
+---------02:07----------
+charger in its supposed to instantly
+
+---------02:08----------
+kind of try to go to an Esso state so
+
+---------02:11----------
+I'm gonna open the board view and
+
+---------02:13----------
+so the schematic for an eight to zero
+
+---------02:15----------
+3437 so that we can go through the power
+
+---------02:17----------
+rails and see what's what's present
+
+---------02:19----------
+what's missing and try to get an idea of
+
+---------02:21----------
+what it is that's going on oh another
+
+---------02:23----------
+thing this place does is they kind of
+
+---------02:24----------
+include little tidbits of like where
+
+---------02:27----------
+they think the damage is the rich with
+
+---------02:30----------
+the sticker
+
+---------02:30----------
+I am 99.9% certain that just because
+
+---------02:34----------
+they are the ones that put that sticker
+
+---------02:35----------
+there that they are [ __ ] wrong so I
+
+---------02:38----------
+am gonna be completely ignoring that I
+
+---------02:40----------
+am just pretending it's not there even
+
+---------02:43----------
+though there is actual board damage
+
+---------02:45----------
+under the sticker I just don't care I am
+
+---------02:47----------
+so confident I am so confident that has
+
+---------02:49----------
+nothing to do with the problem that I'm
+
+---------02:52----------
+just gonna totally [ __ ] ignore it all
+
+---------02:53----------
+right so let's go over to the page of
+
+---------02:56----------
+the schematic over here where you're
+
+---------02:58----------
+going to see a list of power rails I
+
+---------03:00----------
+believe they move that to page 63 or 67
+
+---------03:03----------
+that used to be on page one two or three
+
+---------03:05----------
+well I put the most important part of
+
+---------03:07----------
+the schematic in the beginning why not
+
+---------03:08----------
+put it all the way at the end so that
+
+---------03:09----------
+it's impossible to find why do we do
+
+---------03:11----------
+that because Apple hates you
+
+---------03:13----------
+that is exactly why so first things
+
+---------03:15----------
+first I know that I have P P 3 P 4 2
+
+---------03:17----------
+because the 1 wire circuit is working I
+
+---------03:19----------
+guess yeah like my charger so first
+
+---------03:21----------
+thing I'm gonna do right now let's check
+
+---------03:23----------
+for P P bus G 3 hot let's just see if
+
+---------03:26----------
+you can see my multimeter let's see if
+
+---------03:29----------
+that shows up an open broadcaster it
+
+---------03:31----------
+does it's not amazing but yeah you can
+
+---------03:35----------
+see it so let's see P P bus g3 hot is
+
+---------03:40----------
+giving me supposed to be 8 point
+
+---------03:43----------
+something 8.5 close enough alright next
+
+---------03:47----------
+on the list PP 5vs5 so when I go over to
+
+---------03:50----------
+the board view software just to give you
+
+---------03:52----------
+an idea of what here we go
+
+---------03:55----------
+board view software it looks like so ok
+
+---------03:58----------
+PP 5v underscore s5 let's see it shows
+
+---------04:03----------
+me on the board where it is I can flip
+
+---------04:05----------
+this make sure it still stays plugged in
+
+---------04:09----------
+okay PP 5vs5 this supposed to be over
+
+---------04:12----------
+here 5 volts beautiful so I switch back
+
+---------04:20----------
+over to the PDF reader I hate 1080 P I
+
+---------04:22----------
+miss my 4k TV this is not only is 1080p
+
+---------04:25----------
+suck but this is like a crappy
+
+---------04:27----------
+should 1080p monitor so it's like one of
+
+---------04:30----------
+those $100 one so it's a real piece of
+
+---------04:32----------
+[ __ ] I'm gonna skip PPV RTC g3 ha
+
+---------04:35----------
+because that probably comes from here
+
+---------04:37----------
+which works
+
+---------04:38----------
+let's see PP 5 vs 4 RS 3 are you present
+
+---------04:42----------
+let's see if you're on my motherboard
+
+---------04:44----------
+alright let's see at the time that's
+
+---------04:52----------
+gonna be over here glad so bottom the
+
+---------04:57----------
+left of the SPI ROM chip the big
+
+---------05:00----------
+capacitor over there I get 0 mofo
+
+---------05:15----------
+mofo I'm looking at the right place
+
+---------05:20----------
+right okay so that's missing now against
+
+---------05:25----------
+I don't know the best of memory I'm just
+
+---------05:27----------
+going to open a new notepad plus plus
+
+---------05:28----------
+file and make a note that that is
+
+---------05:30----------
+missing so this is missing
+
+---------05:36----------
+alrighty obviously PP 5 ESO is going to
+
+---------05:42----------
+be missing because PP 5 es 4 is not
+
+---------05:43----------
+present let's see if any other rails are
+
+---------05:46----------
+going this the system is probably not
+
+---------05:48----------
+even close to an Esso state oh let's see
+
+---------05:51----------
+pp 3 B 3 so
+
+---------06:22----------
+yeah not even close so we are not
+
+---------06:24----------
+getting to s oh okay now let's see let's
+
+---------06:29----------
+see if P P so P P 5 vs 4 underscore PP 5
+
+---------06:34----------
+V underscore s 4 RS 3 is not present
+
+---------06:36----------
+let's see if P P 3 V 3 S 4 is present so
+
+---------06:38----------
+is it 1s for real that's missing on all
+
+---------06:40----------
+as for rails that's missing if 1s for
+
+---------06:43----------
+rail is missing that may just mean that
+
+---------06:45----------
+my chip is bad or something that's
+
+---------06:47----------
+around there is bad risk every s for L
+
+---------06:49----------
+is missing that means that the signal is
+
+---------06:51----------
+just not going out to turn any of the S
+
+---------06:53----------
+4 rails on so let's see if P P 3 B 3 S 4
+
+---------06:55----------
+is there right so we go over here PP 3 B
+
+---------06:59----------
+3 S 4 Oh
+
+---------07:01----------
+1080p sucks [ __ ] and ball is it really
+
+---------07:03----------
+does I don't know why I'm bitching there
+
+---------07:08----------
+are people doing this
+
+---------07:09----------
+in other countries where there 1366 by
+
+---------07:12----------
+768 is like the best thing that ever
+
+---------07:15----------
+happened to them and I am bitching about
+
+---------07:18----------
+being stuck at 1080p alright so we are
+
+---------07:22----------
+missing P P 3 V 3 s 4 so pretty much
+
+---------07:27----------
+whatever enables all the S 4 rails is
+
+---------07:29----------
+[ __ ] so now we kind of go to start
+
+---------07:32----------
+exploring and let's let's see what areas
+
+---------07:34----------
+look kind of [ __ ] on this board and
+
+---------07:36----------
+we're gonna just go and click around and
+
+---------07:38----------
+see what's relevant and what's not
+
+---------07:40----------
+relevant so the first part that looks
+
+---------07:42----------
+fuked is this part under this red
+
+---------07:44----------
+sticker here so this is where they
+
+---------07:45----------
+they're trying to tell me what they
+
+---------07:46----------
+think is the problem so let's see what
+
+---------07:49----------
+that ship and I agree that does look
+
+---------07:51----------
+[ __ ] but again I I just I just I am
+
+---------07:54----------
+not offended the self estimate because
+
+---------07:55----------
+it is so often wrong and particularly
+
+---------07:58----------
+with this set of people but let's see
+
+---------08:02----------
+what does this chip and what the [ __ ]
+
+---------08:04----------
+does it do you are you 30 to 20 and I
+
+---------08:09----------
+have a feeling that you're for
+
+---------08:10----------
+DisplayPort or something that I don't
+
+---------08:11----------
+care about you 30 to 20 you 30 to 20 you
+
+---------08:17----------
+are for Thunderbolt I don't give a
+
+---------08:23----------
+flying [ __ ] about Thunder ball right now
+
+---------08:26----------
+Thunderbolt can bite my ass really I
+
+---------08:29----------
+mean that you don't turn on why the [ __ ]
+
+---------08:31----------
+would I care about Thunderbolt let's
+
+---------08:33----------
+just see if that chip is shorting PB 3v3
+
+---------08:35----------
+as
+
+---------08:36----------
+for the ground that's the only thing
+
+---------08:38----------
+that I care about right now are you
+
+---------08:40----------
+shorting pp 3 B 3 is for the ground so
+
+---------08:43----------
+let's go back and see where PPP V 3 S 4
+
+---------08:45----------
+is and let's just see if it's shorted to
+
+---------08:50----------
+ground I don't know yeah I care I don't
+
+---------08:52----------
+give a [ __ ] about thunderbolt on a
+
+---------08:54----------
+computer that doesn't turn on [ __ ]
+
+---------08:56----------
+Thunderbolt Thunder that is that can be
+
+---------08:59----------
+worried about at a later time you it
+
+---------09:03----------
+again I'm always talking about sequence
+
+---------09:04----------
+in order ok so dialed one measurement to
+
+---------09:07----------
+ground is 0.33 5 that is not a short a
+
+---------09:09----------
+short is when you tap the blue leads
+
+---------09:11----------
+together and you get 0 so when I put
+
+---------09:14----------
+these two leads together and it's a zero
+
+---------09:16----------
+that means that there's a zero voltage
+
+---------09:17----------
+drop across the points that's a short
+
+---------09:19----------
+when I put it there and I get point
+
+---------09:20----------
+three three five that is not a short so
+
+---------09:23----------
+what's telling the s4 rails to turn on
+
+---------09:26----------
+is not is not doing its job so let's
+
+---------09:28----------
+kind of try to find out what that is so
+
+---------09:30----------
+let's go back to the schematic and okay
+
+---------09:33----------
+so let's just go over to where PP 5vo
+
+---------09:36----------
+whatever s4 rs3 is created and let's see
+
+---------09:40----------
+what tells us to turn on shall we all
+
+---------09:43----------
+right so what makes this is it you yes
+
+---------09:46----------
+it's you here we go PP 5 es 4 RS 3 so
+
+---------09:50----------
+this is told to turn on by enable 1 P 5
+
+---------09:55----------
+vs 4 RS 3 n well what did I just do
+
+---------09:58----------
+there there we go so yeah so yeah P 5 vs
+
+---------10:04----------
+4 RS 3 enable R so this goes where do
+
+---------10:08----------
+you go alright 7 5 5 1 this turns to
+
+---------10:11----------
+this where do you come from and I always
+
+---------10:13----------
+say measure the front of the circuit in
+
+---------10:14----------
+the back of the circuit to save yourself
+
+---------10:16----------
+time so this goes out based on p.m.
+
+---------10:20----------
+sleep best for L is PM sleep best for L
+
+---------10:24----------
+present on my board let's see if p.m.
+
+---------10:27----------
+sleep s4 L is present on my board okay
+
+---------10:34----------
+where is an easy place to measure it no
+
+---------10:37----------
+I don't want to measure under the SMC
+
+---------10:39----------
+you know I don't want to measure on that
+
+---------10:41----------
+little tiny piece of crap I measure on
+
+---------10:44----------
+that resistor oh yeah I'll [ __ ] with
+
+---------10:46----------
+that resistor that looks like something
+
+---------10:48----------
+I can actually I have a chance
+
+---------10:49----------
+of touching okay so when I measure p.m.
+
+---------10:55----------
+sleep s4l on multimeter let's see what
+
+---------10:59----------
+it is I get so it's supposed to be right
+
+---------11:04----------
+here next to this can barely see it
+
+---------11:07----------
+tiny bullshit-ass resistor 0.197 and on
+
+---------11:15----------
+the other side I get 0.197 so that's the
+
+---------11:22----------
+thing that's what's interesting it's not
+
+---------11:23----------
+zero but it's not three it's like it's
+
+---------11:26----------
+trying to do something so on both sides
+
+---------11:28----------
+of that resistor I get [ __ ] so it's
+
+---------11:30----------
+trying to put something out but it's not
+
+---------11:32----------
+really doing what it's supposed to so
+
+---------11:35----------
+let's go down the line and kind of see
+
+---------11:36----------
+what else is going on with this board
+
+---------11:37----------
+with the other power else so we're gonna
+
+---------11:39----------
+go back to I think page 63 is what I
+
+---------11:41----------
+said has the power rails on it
+
+---------11:42----------
+Oh get over here okay oh I can't wait
+
+---------11:49----------
+for the rest of my staff to come back I
+
+---------11:51----------
+can't wait to be able to go to sleep
+
+---------11:53----------
+again go in asleep was so nice you
+
+---------11:58----------
+notice it when you don't get to go to
+
+---------12:00----------
+sleep anymore how much you missed it
+
+---------12:01----------
+when you you were able to also see PP 3
+
+---------12:05----------
+V 3 S 5 let's see if you are present pp
+
+---------12:15----------
+3 B 3 s 5 ok there's a lot of places to
+
+---------12:21----------
+measure that thank God
+
+---------12:27----------
+so what yeah Wow alright on that little
+
+---------12:39----------
+piece of [ __ ] up here we're supposed to
+
+---------12:40----------
+see something pp 3 B 3 s 5 is there and
+
+---------12:47----------
+P P 3 B 3 S 4 is not so we're just gonna
+
+---------12:50----------
+continue making the list of the power
+
+---------12:52----------
+rails that are missing
+
+---------12:57----------
+I know that the sl1 is missing if the
+
+---------13:02----------
+s41 is missing so no need to check that
+
+---------13:04----------
+okay let's see what PP 3v3 sauce is
+
+---------13:07----------
+talking about and also PP 3v3 a PP 3v3
+
+---------13:11----------
+underscore sus P P 3 P 3 yes alright so
+
+---------13:19----------
+over here that is it is gone hmm
+
+---------13:27----------
+and you power my BIOS chip that's no
+
+---------13:32----------
+good
+
+---------13:33----------
+I need PP 3 V 3 underscore sauce
+
+---------13:36----------
+so this is where sequence comes into
+
+---------13:38----------
+play this is what I'm always talking
+
+---------13:39----------
+about sequence and now it's more
+
+---------13:41----------
+important to understand sequence and now
+
+---------13:43----------
+the circuit actually works than it is to
+
+---------13:44----------
+just be guessing all the time so my ezza
+
+---------13:47----------
+so I'm missing p.m. underscore sleep
+
+---------13:49----------
+underscore s 4 underscore L right p.m.
+
+---------13:51----------
+sleep best for L that's a signal I need
+
+---------13:54----------
+for a lot of my ass for rails to turn on
+
+---------13:55----------
+right I'm missing this let's go over
+
+---------13:58----------
+here so you can see that now this signal
+
+---------14:02----------
+comes from the CPU or well it comes from
+
+---------14:06----------
+the PCH which on this board is inside
+
+---------14:08----------
+the CPU right so I'm missing p.m. sleep
+
+---------14:10----------
+as for L was I just talking about wow
+
+---------14:19----------
+I'm drawing a complete blank as to where
+
+---------14:21----------
+my train of thought was just there ah
+
+---------14:23----------
+there so anyway so the SPI ROM tells
+
+---------14:26----------
+this what to do so this is the SPI ROM
+
+---------14:28----------
+chip use 6100 or otherwise known as the
+
+---------14:31----------
+BIOS you know just because at BIOS is
+
+---------14:33----------
+easier to say than SPI ROM chip now this
+
+---------14:36----------
+tells that what to do so if I'm not
+
+---------14:39----------
+getting power on this chip because my pp
+
+---------14:42----------
+3v3 sauce is missing so let's see what
+
+---------14:43----------
+pen aid over here so VI let's see pin 8
+
+---------14:46----------
+is VDD critical I need this well the
+
+---------14:52----------
+critical is not on pin 8 that's just
+
+---------14:53----------
+critical as the chip I'm losing my mind
+
+---------14:56----------
+I need to go to sleep
+
+---------14:57----------
+v DD v N or VCC those pins are the pins
+
+---------15:01----------
+that you see when I forgot what I was
+
+---------15:05----------
+talking about again
+
+---------15:09----------
+what was I doing on this page what was I
+
+---------15:13----------
+looking at I wasn't looking at this not
+
+---------15:15----------
+looking at SPI bus termination okay here
+
+---------15:18----------
+we go
+
+---------15:19----------
+spi ROM VDD VCC or VN those are the pins
+
+---------15:24----------
+on the chip that are used to power it to
+
+---------15:26----------
+turn it on so like you know on a light
+
+---------15:27----------
+bulb you have the positive you apply
+
+---------15:30----------
+power to that end of the light bulb and
+
+---------15:32----------
+it turns on same thing here this chip
+
+---------15:34----------
+will not turn on if you don't have
+
+---------15:35----------
+supply power to that pin so the bios
+
+---------15:37----------
+chip the SPI ROM chip talks to the PCH
+
+---------15:40----------
+it's gonna tell the PCH to do things
+
+---------15:42----------
+like read these signals and then do this
+
+---------15:44----------
+and do that and turn on and all sorts of
+
+---------15:46----------
+stuff that again if you're a computer
+
+---------15:47----------
+engineer you're gonna understand a lot
+
+---------15:48----------
+better than I am but the BIOS chip is
+
+---------15:51----------
+required for the PCH to send any of
+
+---------15:53----------
+those signals if you take a perfectly
+
+---------15:54----------
+working board and you just take away
+
+---------15:55----------
+power to the BIOS chip you won't get any
+
+---------15:57----------
+of those signals out of the PCH you
+
+---------15:58----------
+won't get p.m. sleep s4l you won't get
+
+---------16:00----------
+PM sleep s3l in any of those so sequence
+
+---------16:04----------
+I'm not gonna focus on oh let me heat
+
+---------16:07----------
+gun my CPU oh let me destroy my CPU oh
+
+---------16:10----------
+let me send three volts to that PM sleep
+
+---------16:13----------
+s4l signal to see if that's gonna get
+
+---------16:15----------
+everything working because I don't have
+
+---------16:17----------
+a working BIOS chip again sequence so
+
+---------16:19----------
+let's check what PP 3 V 3 sus is talking
+
+---------16:22----------
+about again if you went down a rabbit
+
+---------16:24----------
+hole checking every single component on
+
+---------16:26----------
+them and figure out what I was talking
+
+---------16:31----------
+about again alright then I'm sure I'll
+
+---------16:34----------
+remember later so let's see what PPD v3
+
+---------16:36----------
+undersquare sauce comes from so PP 3 B 3
+
+---------16:41----------
+underscore sauce comes from not there
+
+---------16:47----------
+that's a pull up to create Rissa Marissa
+
+---------16:49----------
+Marissa Marissa
+
+---------16:52----------
+ok pp 3 V 3 sauce boy well yeah I'm
+
+---------17:02----------
+gonna solve this half asleep or not
+
+---------17:09----------
+here we go I think I passed it 3.3 volts
+
+---------17:14----------
+uh switch so PP 3 B 3 underscore well PA
+
+---------17:19----------
+mouthful
+
+---------17:20----------
+alright PP 3 B 3 s 5 is here right we
+
+---------17:23----------
+saw that we saw the PP 3 B 3 is 5 is
+
+---------17:25----------
+present now this trip when it gets P 3 V
+
+---------17:28----------
+3 sus and Nabal is going to let out pp 3
+
+---------17:31----------
+B 3 sus fad which after this resistor
+
+---------17:34----------
+which I guess is not here because it
+
+---------17:36----------
+says omit terms of the pp 3 B 3 sauce I
+
+---------17:39----------
+don't have to look up with this chip
+
+---------17:40----------
+does this is just common [ __ ] sense
+
+---------17:42----------
+it says sus which you have V in and V
+
+---------17:45----------
+out in an on pin so maybe just maybe if
+
+---------17:49----------
+you get if you have 3.3 volts on the in
+
+---------17:52----------
+and you have the on has voltage on it
+
+---------17:55----------
+then you'll have power on out so let's
+
+---------17:57----------
+see what you 80/20 looks like on this
+
+---------17:59----------
+board you 80/20 and let's see if that
+
+---------18:02----------
+looks good or far this is one of those
+
+---------18:04----------
+things where you can't see what it looks
+
+---------18:05----------
+like because it's covered and [ __ ]
+
+---------18:08----------
+under fill' you you [ __ ] pieces of
+
+---------18:11----------
+[ __ ] looks oh my God look at this
+
+---------18:15----------
+[ __ ] right
+
+---------18:16----------
+so what pisses me off about new Apple
+
+---------18:18----------
+products mainly what the [ __ ] is this
+
+---------18:21----------
+what what is the meaning and the purpose
+
+---------18:24----------
+of this [ __ ] like [ __ ] you there's
+
+---------18:28----------
+no measure there's no measuring anything
+
+---------18:30----------
+on that [ __ ] out of here and I'm not
+
+---------18:33----------
+wasting time we're moving under fill'
+
+---------18:34----------
+we're gonna try to find probe points to
+
+---------18:36----------
+that because I don't got time or sanity
+
+---------18:40----------
+or sleep to remove thunder fill okay so
+
+---------18:48----------
+TVs are available where do you show up
+
+---------18:52----------
+on him where is your probe point all
+
+---------18:55----------
+right so thank God right next to that
+
+---------18:57----------
+chip you're gonna see a resistor and
+
+---------19:04----------
+this so our 8190 what what are you for
+
+---------19:08----------
+are you 190 I will look for that later
+
+---------19:13----------
+let's see if we have this P 3 V 3 sus
+
+---------19:16----------
+and Nabal see what I'm talking about no
+
+---------19:19----------
+no no no yes
+
+---------19:22----------
+so this okay I just pointed at the
+
+---------19:24----------
+monitor with my hands thinking that you
+
+---------19:26----------
+would see that whoops this P 3 P 3 sus
+
+---------19:28----------
+enable I'm gonna measure and let's see
+
+---------19:30----------
+what we get over there so let's plug
+
+---------19:31----------
+this thing back in just try not to fall
+
+---------19:34----------
+asleep company that's charging twice is
+
+---------19:39----------
+what I do for board repair not doing any
+
+---------19:41----------
+of the work needs their board back and
+
+---------19:44----------
+figure this [ __ ] out okay we get nothing
+
+---------19:51----------
+and next to it at that probe point there
+
+---------19:54----------
+is no rights let's see where does p3 v3
+
+---------20:00----------
+sauce and Abel come from p3 v3 sauce and
+
+---------20:04----------
+navel let's see let's chase this down
+
+---------20:06----------
+let's chase this rabbit and kill it okay
+
+---------20:11----------
+you come from p.m. sleeps us L ok this
+
+---------20:17----------
+is becoming a quite the rabbit hole so
+
+---------20:19----------
+p.m. sleep sauce L is going to come from
+
+---------20:25----------
+the PCH Y which is not gonna be doing
+
+---------20:33----------
+much because of the lack of BIOS yay
+
+---------20:36----------
+okay this is where this becomes a
+
+---------20:38----------
+[ __ ] let's see yeah let's figure
+
+---------20:42----------
+this [ __ ] out right here so the other
+
+---------20:54----------
+side I get absolute [ __ ] so now we're
+
+---------21:02----------
+gonna just let's take a step back from
+
+---------21:05----------
+this because this is becoming a circular
+
+---------21:07----------
+loop so this the voltage that I need to
+
+---------21:10----------
+turn on the BIOS is missing the enable
+
+---------21:12----------
+to turn that on comes in the PCH PCH is
+
+---------21:15----------
+not gonna do much because the BIOS isn't
+
+---------21:17----------
+on the BIOS is along because P P 3 B 3
+
+---------21:18----------
+sus is missing sus is missing because
+
+---------21:22----------
+there's a missing enable signal the
+
+---------21:24----------
+enable signal comes from the PCH PCH
+
+---------21:26----------
+isn't turning on because the BIOS is not
+
+---------21:28----------
+powered BIOS is not powered because it's
+
+---------21:30----------
+missing 3.30 that
+
+---------21:32----------
+become known now step back step back new
+
+---------21:38----------
+approach now we go through and do that
+
+---------21:42----------
+whole physical inspection [ __ ] but
+
+---------21:44----------
+the thing with physical inspection now
+
+---------21:46----------
+that I've gone through the board and
+
+---------21:47----------
+I've gone through my problem I kinda
+
+---------21:49----------
+have I have context I kind of have an
+
+---------21:52----------
+idea of what it is I'm gonna be looking
+
+---------21:54----------
+for so when I see physical damage or a
+
+---------21:56----------
+nasty [ __ ] I'm going to have an idea of
+
+---------21:58----------
+what is relevant and what is just
+
+---------22:00----------
+[ __ ] for example the Thunderbolt
+
+---------22:04----------
+total [ __ ]
+
+---------22:15----------
+so I see some red stuff I'm gonna start
+
+---------22:17----------
+looking up what the red stuff is all
+
+---------22:24----------
+right so charger reset L is a little
+
+---------22:26----------
+nasty now I'm just kind of grasping at
+
+---------22:30----------
+straws but what the SMC reset L is
+
+---------22:37----------
+responsible for sending that charger
+
+---------22:38----------
+signal is SMC reset present because if
+
+---------22:43----------
+SMC reset isn't present then my ass MC
+
+---------22:45----------
+is not going to do the things that's
+
+---------22:46----------
+supposed to Oh like you'll get a light
+
+---------22:51----------
+but the S the SMC is not really gonna
+
+---------22:53----------
+work the way it's supposed to sometimes
+
+---------22:56----------
+you don't even get a light when SMC
+
+---------22:57----------
+reset is missing feel like I'm onto
+
+---------22:59----------
+something here all right so charger
+
+---------23:01----------
+reset L look nasty so I looked up that
+
+---------23:03----------
+probe point didn't look the way I wanted
+
+---------23:06----------
+it to so that's over here charger reset
+
+---------23:09----------
+L yeah so what I did is I looked that up
+
+---------23:13----------
+from the schematic and then that that
+
+---------23:15----------
+came from SMC recent L so let's look up
+
+---------23:20----------
+SMC reset L series come from all right I
+
+---------23:30----------
+moved the multimeter out of the way the
+
+---------23:31----------
+camera because it's just easier to use
+
+---------23:33----------
+that way so you just have to trust me
+
+---------23:34----------
+when I tell you what Volta does I read
+
+---------23:36----------
+yeah it makes life a little easier for
+
+---------23:39----------
+me to have that desk space free okay now
+
+---------23:46----------
+when I look in that area let's see let's
+
+---------23:53----------
+check out that piece its SMC reset
+
+---------23:58----------
+present unfortunately it is I can't
+
+---------24:01----------
+blame you missing for anything it's not
+
+---------24:03----------
+working but these points over here don't
+
+---------24:05----------
+look very nice before she goes oh it's
+
+---------24:12----------
+absolute [ __ ] I don't care about CPU
+
+---------24:15----------
+voltage sense I don't give a flying [ __ ]
+
+---------24:16----------
+of a [ __ ] about LCD backlight sense
+
+---------24:19----------
+because this doesn't even turn on
+
+---------24:30----------
+ah let's see if voltage for the crystal
+
+---------24:41----------
+is present
+
+---------24:49----------
+who the power well I said before that I
+
+---------24:51----------
+didn't care about which is really stupid
+
+---------24:54----------
+of me to say that but that's probably
+
+---------24:55----------
+what's wrong okay
+
+---------24:59----------
+ladies and gentlemen I am an idiot all
+
+---------25:02----------
+right so let's let's go on and talk
+
+---------25:03----------
+about what's going on here
+
+---------25:05----------
+so PPV RTC g3 hot is one of the power
+
+---------25:08----------
+rails that I skipped over because I I
+
+---------25:11----------
+was just being an idiot this is cool
+
+---------25:13----------
+it's good to have me being an idiot on
+
+---------25:14----------
+camera because if I make stupid mistakes
+
+---------25:17----------
+then you'll kind of learn how to not
+
+---------25:18----------
+make those stupid mistakes so a PPP RTC
+
+---------25:22----------
+g3 huh three volt right three volts so
+
+---------25:28----------
+I'm gonna take my multimeter and move it
+
+---------25:31----------
+over here just so that you can see and
+
+---------25:32----------
+confirm that I'm an idiot
+
+---------25:34----------
+alright so I went over here to measure
+
+---------25:37----------
+it and I have 0.3 you know you can't see
+
+---------25:43----------
+that because the lighting here is too
+
+---------25:45----------
+obnoxious 0.3 that's not three that's
+
+---------25:56----------
+one tenth of what I actually [ __ ]
+
+---------25:58----------
+need and move over here I like you
+
+---------26:01----------
+better over here so now we're gonna go
+
+---------26:04----------
+and find out hmm this is slavery it's
+
+---------26:19----------
+worth it though my staff they they're
+
+---------26:21----------
+some of the best people that you're ever
+
+---------26:24----------
+gonna find seriously I'm not I'm not
+
+---------26:25----------
+saying that just cuz I think they may
+
+---------26:27----------
+watch this I know that they never ever
+
+---------26:29----------
+watch any of this stuff but they they
+
+---------26:32----------
+are the best staff that you can buy did
+
+---------26:35----------
+I say buy rent higher that's the word
+
+---------26:38----------
+I'm looking for higher but seriously
+
+---------26:40----------
+they and they are that they are as good
+
+---------26:42----------
+as it gets
+
+---------26:42----------
+you're not gonna find better people than
+
+---------26:45----------
+those they absolutely positively deserve
+
+---------26:49----------
+two weeks of additional vacation to have
+
+---------26:52----------
+fun in another country when you have
+
+---------26:56----------
+people that are constantly looking out
+
+---------26:57----------
+for you who are constantly
+
+---------27:00----------
+you know not just doing their job like
+
+---------27:02----------
+looking for all these little things that
+
+---------27:03----------
+could go wrong and just to fix them like
+
+---------27:05----------
+this is one of the things that I brag
+
+---------27:06----------
+about so you know there was an inspector
+
+---------27:09----------
+that came in right and the inspectors
+
+---------27:10----------
+for the the for the in New York they're
+
+---------27:12----------
+always looking for something they will
+
+---------27:14----------
+find something there is a 900-page book
+
+---------27:16----------
+and they are it's even says in the book
+
+---------27:19----------
+we are allowed to change the rules
+
+---------27:21----------
+anytime we want we can change any of
+
+---------27:23----------
+this and it's your responsibility to ask
+
+---------27:26----------
+us for updated codes we don't have to
+
+---------27:28----------
+tell you when we change the stupid [ __ ]
+
+---------27:30----------
+you have to look for it yourself so
+
+---------27:32----------
+things like for example not having your
+
+---------27:34----------
+license number on the top of the receipt
+
+---------27:36----------
+that's a fine not having your license
+
+---------27:38----------
+number on the business cards that's fine
+
+---------27:41----------
+so we switched over POS systems and I
+
+---------27:44----------
+used to have my license number on there
+
+---------27:46----------
+is my receipt I learned that the first
+
+---------27:47----------
+time but then I didn't on this so he we
+
+---------27:51----------
+noticed that the license number was
+
+---------27:53----------
+missing from a few of the receipts so
+
+---------27:54----------
+that dude actually dials like he did
+
+---------27:58----------
+something with the phone or something he
+
+---------27:59----------
+dialed over so it would look like he was
+
+---------28:02----------
+dealing with a customer then he goes
+
+---------28:04----------
+into repair she'll you know kinda buy
+
+---------28:06----------
+time he goes into the backend of repair
+
+---------28:07----------
+shop but with the monitor tilted back he
+
+---------28:10----------
+edits the HTML to put put in there the
+
+---------28:13----------
+license number of my business then he
+
+---------28:17----------
+prints a receipt he Quinn says ok I'm
+
+---------28:19----------
+printing a receipt for you right now and
+
+---------28:21----------
+then he printed for the customer that
+
+---------28:22----------
+they think he was pretending to be on
+
+---------28:23----------
+the phone with it comes out there and he
+
+---------28:25----------
+shows it to him he's like here see like
+
+---------28:27----------
+how many people are gonna do that how
+
+---------28:28----------
+many people for any salary are actually
+
+---------28:30----------
+gonna come up with some convoluted
+
+---------28:31----------
+little scheme to pretend that they're on
+
+---------28:33----------
+the phone so that they can change it in
+
+---------28:35----------
+in the backend of your POS system to
+
+---------28:37----------
+avoid you getting a fine they're not
+
+---------28:39----------
+gonna do that they're gonna say sorry
+
+---------28:41----------
+here's your fine and inspector came by
+
+---------28:42----------
+but like people like that like those are
+
+---------28:44----------
+the people that I'm saying that you
+
+---------28:45----------
+should hire so when I'm talking to you
+
+---------28:47----------
+about you know getting rid of people
+
+---------28:50----------
+that are not really building your
+
+---------28:52----------
+business or helping your business that's
+
+---------28:54----------
+what I'm talking about the people that I
+
+---------28:56----------
+have I'm will most likely never find
+
+---------28:58----------
+these people again over the course of my
+
+---------28:59----------
+life I'll find new employees I'll find
+
+---------29:01----------
+your dedicated people but people with
+
+---------29:03----------
+that that just general mindset of what
+
+---------29:05----------
+is going on around me at all times how
+
+---------29:07----------
+can I make what's going on around me
+
+---------29:09----------
+work better at all times like I know
+
+---------29:11----------
+that I'm most likely never gonna find
+
+---------29:13----------
+again anyway so PPV are TCG three hot
+
+---------29:17----------
+back to this [ __ ]
+
+---------29:18----------
+so PPV are TCG three hot comes out of
+
+---------29:22----------
+you nineteen hundred and this also
+
+---------29:24----------
+creates the clock for the PCH okay we're
+
+---------29:27----------
+starting to get somewhere here so 32
+
+---------29:30----------
+kilohertz right which you know I didn't
+
+---------29:32----------
+check this you know I didn't check this
+
+---------29:34----------
+because every single [ __ ] board that I
+
+---------29:37----------
+have checked this on for like at least
+
+---------29:39----------
+six months even when this water on the
+
+---------29:41----------
+chip has the 32 killer its clock signal
+
+---------29:43----------
+I know I need it and I know if I don't
+
+---------29:45----------
+have it that my PCH won't work or my mCP
+
+---------29:47----------
+won't work but it's never missing it's
+
+---------29:49----------
+always there I've just kind of gotten
+
+---------29:51----------
+used to having it and even though that's
+
+---------29:53----------
+the first thing you should check on the
+
+---------29:54----------
+oscilloscope which by the way is not on
+
+---------29:56----------
+my desk because I forgot to bring it out
+
+---------29:58----------
+here that's probably one of the reasons
+
+---------29:59----------
+I didn't [ __ ] check it is yeah I
+
+---------30:03----------
+should have checked that I'm an idiot
+
+---------30:05----------
+and I should not be doing this I should
+
+---------30:07----------
+not be teaching a class and how to fix
+
+---------30:09----------
+boards or putting up a youtube series
+
+---------30:11----------
+telling people on how to do it because
+
+---------30:12----------
+I'm [ __ ] clueless I'm not using my
+
+---------30:14----------
+brain so PPV anyway so PCH clock 32k RTC
+
+---------30:19----------
+x1 that now if you know anything about
+
+---------30:22----------
+how computers work you probably know
+
+---------30:23----------
+that they work based on a clock so four
+
+---------30:26----------
+different components to talk to one
+
+---------30:28----------
+another or four different company not
+
+---------30:29----------
+for different stuff but the vendor does
+
+---------30:31----------
+work in tandem they have to be working
+
+---------30:33----------
+on a clock think of your like audio if
+
+---------30:36----------
+any of you guys that work in audio and
+
+---------30:37----------
+you have you notes say you have a
+
+---------30:39----------
+digital to analog converter and you want
+
+---------30:41----------
+to run another one so let's say you have
+
+---------30:43----------
+two digital to analog converters so
+
+---------30:45----------
+instead of having sixteen channels you
+
+---------30:47----------
+have 32 channels because you want more
+
+---------30:48----------
+tracks you need to link them together
+
+---------30:50----------
+we're also going to get something called
+
+---------30:52----------
+jitter which is a nightmare and
+
+---------30:54----------
+[ __ ] of terrible awful sound
+
+---------30:56----------
+because they're not working at the exact
+
+---------30:58----------
+same time so this track is gonna be kind
+
+---------31:00----------
+of moved in phase versus this one it's
+
+---------31:01----------
+just a whole mess same is true here we
+
+---------31:04----------
+have a CPU a PCH you have other parts of
+
+---------31:06----------
+the computer you have Thunderbolt the
+
+---------31:07----------
+USB controller hub all sorts of other
+
+---------31:09----------
+things that only to work in tandem so
+
+---------31:11----------
+I'm sending data while I'm listening to
+
+---------31:13----------
+data I'm sending it back while you're
+
+---------31:15----------
+listening this all needs to happen on
+
+---------31:17----------
+the clock if I'm talking at the same
+
+---------31:19----------
+time that you're talking we're just
+
+---------31:21----------
+nobody's gonna hear anything and it's
+
+---------31:22----------
+just gonna be [ __ ] so while people
+
+---------31:24----------
+were very often interrupt one another
+
+---------31:26----------
+and you know we won't be able to
+
+---------31:27----------
+understand what the [ __ ] is going on
+
+---------31:29----------
+because we're interrupting and debating
+
+---------31:30----------
+just watch a political debate if you
+
+---------31:32----------
+want to see an example of this a
+
+---------31:33----------
+political debate is the result that
+
+---------31:35----------
+resulting mess at the end where
+
+---------31:37----------
+everybody's kind of yelling at the same
+
+---------31:38----------
+time that happens because humans don't
+
+---------31:41----------
+have are not smart enough to have a you
+
+---------31:44----------
+19:52 create a clock signal so that you
+
+---------31:46----------
+talk while you shut the [ __ ] up then you
+
+---------31:48----------
+shut the [ __ ] up set he can talk without
+
+---------31:50----------
+a clock signal nothing is gonna happen
+
+---------31:52----------
+and that ship is putting out 0.3 volts
+
+---------31:55----------
+instead of 3 volts now that goes over to
+
+---------31:59----------
+my PCH I've done an awful job of
+
+---------32:01----------
+explaining that because I just my brain
+
+---------32:04----------
+is just dead right now so I'll probably
+
+---------32:06----------
+get a bunch of trolls on that shut up
+
+---------32:12----------
+Sharky but you know oh well [ __ ] those
+
+---------32:17----------
+people anyway so that goes to the CPU
+
+---------32:20----------
+anyway so this ship is probably [ __ ]
+
+---------32:23----------
+let's see what you 1900 looks like so
+
+---------32:26----------
+let's go over here you 1900 you 1900 you
+
+---------32:34----------
+1900 looks like [ __ ] and balls alright
+
+---------32:42----------
+look at that little get a [ __ ] up
+
+---------32:43----------
+[ __ ] little capacitor alright and
+
+---------32:47----------
+that's a little red pro point buy there
+
+---------32:49----------
+that's right by my BIOS chip okay time
+
+---------32:52----------
+to turn on the iron and finally get
+
+---------32:54----------
+something done so that's another sign of
+
+---------33:00----------
+it like an idiot touched board by the
+
+---------33:02----------
+way if you got a few people who want to
+
+---------33:03----------
+be able to tell this stuff I mean even
+
+---------33:05----------
+though I'm dead tired and even though
+
+---------33:07----------
+it's the end of the day and I really
+
+---------33:08----------
+just like I I'm not thinking straight
+
+---------33:10----------
+I think extreme I brain is not working
+
+---------33:15----------
+at more than 8 percent capacity right
+
+---------33:18----------
+now so I don't touch my soldering iron
+
+---------33:20----------
+until I know that I have a diagnosis and
+
+---------33:23----------
+you saw that where I kind of realized
+
+---------33:24----------
+that I was spinning my wheels and once I
+
+---------33:27----------
+got to the point where I realized that
+
+---------33:28----------
+I'm spinning my wheels and I have a
+
+---------33:29----------
+circular problem so you know I don't
+
+---------33:32----------
+have 3.3 PC H is not producing PM sleep
+
+---------33:35----------
+signal from my fist for rails my ass for
+
+---------33:38----------
+I need
+
+---------33:39----------
+sleep signal from the PCH PCH needs the
+
+---------33:42----------
+BIOS to work BIOS doesn't work because
+
+---------33:44----------
+it's missing three volts missing three
+
+---------33:46----------
+volts because the PCH is not putting out
+
+---------33:48----------
+a sus enable signal sus it's like the
+
+---------33:51----------
+circular [ __ ] I realized at that point
+
+---------33:53----------
+that I should take a step back and just
+
+---------33:56----------
+kind of start over because I may have
+
+---------33:59----------
+made a mistake and I did make a mistake
+
+---------34:01----------
+I didn't check a rail and I'll when I'm
+
+---------34:03----------
+editing this I'll probably figure out
+
+---------34:04----------
+the stupid [ __ ] reason that I had for
+
+---------34:07----------
+skipping over that rail but yeah just
+
+---------34:10----------
+don't do that that's dumb
+
+---------34:12----------
+all right so I have a donor board here
+
+---------34:14----------
+and I'm gonna take that part from the
+
+---------34:16----------
+donor board along with that cap and I'm
+
+---------34:18----------
+gonna put it on here now I also didn't
+
+---------34:20----------
+manage to check whether this chip has
+
+---------34:21----------
+voltage going into it so the VDD pin of
+
+---------34:24----------
+this chip is but I'm pretty sure that
+
+---------34:26----------
+it's fine because PPV pp 3 b3 s5 is the
+
+---------34:31----------
+V is at the VDD pin so that's what's
+
+---------34:34----------
+gonna be powering it and pp 3 b3 s5 was
+
+---------34:37----------
+fine and the trace that I don't think
+
+---------34:40----------
+that there's any trace damage there I
+
+---------34:41----------
+didn't see any except for the PPV RTC 3v
+
+---------34:45----------
+whatever the [ __ ] was out so let's this
+
+---------34:50----------
+is carry on with my scheduled replacing
+
+---------34:53----------
+of this crap by the way if you notice
+
+---------35:00----------
+that it seems like I saw her a lot
+
+---------35:01----------
+easier than you even though I suck at it
+
+---------35:03----------
+it's probably because you have a $100 ie
+
+---------35:05----------
+piece of [ __ ] and I have a hotter
+
+---------35:07----------
+station that I spent $650 on so this
+
+---------35:12----------
+chip is gonna come off very quickly and
+
+---------35:14----------
+on the newer air boards but these newer
+
+---------35:16----------
+air boards you're gonna notice that it's
+
+---------35:17----------
+really difficult to take a lot of these
+
+---------35:18----------
+components off because every year they
+
+---------35:22----------
+come up with a new way to have these
+
+---------35:23----------
+boards you know just kind of act as a
+
+---------35:25----------
+heat sink and if you're using a shitty
+
+---------35:29----------
+soldering iron and then you're kind of
+
+---------35:31----------
+screwed
+
+---------35:32----------
+like as time goes on your cheapness will
+
+---------35:35----------
+screw you more and more
+
+---------35:50----------
+come on heat up mofo beep mofo
+
+---------35:55----------
+beep you Martha okay let's get rid of
+
+---------36:00----------
+that shitty old leather that free solder
+
+---------36:06----------
+junk goodbye Martha
+
+---------36:38----------
+you know what would be funny if I fix
+
+---------36:41----------
+this and Thunderbolt works because that
+
+---------36:43----------
+chip that's [ __ ] up it's it's that
+
+---------36:45----------
+looks [ __ ] up I shouldn't say is
+
+---------36:47----------
+[ __ ] up is the Thunderbolt ship and
+
+---------36:49----------
+again just just because it's these
+
+---------36:50----------
+people just because I I know who sent
+
+---------36:53----------
+this board I know the level of knowledge
+
+---------36:55----------
+they have I know some of this this [ __ ]
+
+---------36:57----------
+that they have done in the past I I just
+
+---------37:00----------
+just something tells me that that
+
+---------37:01----------
+Thunderbolt ship is good just because
+
+---------37:03----------
+they said it wasn't and look here it
+
+---------37:06----------
+looks like there may be a missing
+
+---------37:07----------
+component I'm not sure if it's no
+
+---------37:08----------
+stuffed or not one way to find out see
+
+---------37:14----------
+that you trolls I didn't leave a single
+
+---------37:15----------
+strand on the board single strand of
+
+---------37:19----------
+q-tips oh [ __ ] off so this right over
+
+---------37:22----------
+here this this kind of implies that they
+
+---------37:24----------
+used to be something there let's see
+
+---------37:27----------
+what mr. donor board has to say about
+
+---------37:28----------
+that
+
+---------37:29----------
+actually don't avoid says nothing okay
+
+---------37:34----------
+never mind
+
+---------37:35----------
+stupid theory probably know stuff all
+
+---------37:38----------
+right so let's replace that ship [ __ ]
+
+---------37:40----------
+wait what do you mean replace the ship
+
+---------37:42----------
+but solder on the pads jackass alright
+
+---------37:44----------
+let's put some solder on the pads and
+
+---------37:45----------
+then replace thank you for this [ __ ]
+
+---------37:50----------
+syringe oh okay I put too much [ __ ] says
+
+---------37:59----------
+is my hallmark people like to complain
+
+---------38:02----------
+about it and I love to not care all
+
+---------38:05----------
+right so let's heat up
+
+---------38:24----------
+oh [ __ ] too much cider on the Senate pad
+
+---------38:28----------
+that's another hallmark of my not being
+
+---------38:34----------
+able to solder is actually a hallmark of
+
+---------38:35----------
+mine oh well you'll see it's not gonna
+
+---------38:41----------
+matter in a second anyway
+
+---------38:50----------
+I lost the orientation of the chip I
+
+---------38:54----------
+clipped [ __ ] mofo mobile luckily I have
+
+---------39:07----------
+another one thanks to David at Advance
+
+---------39:13----------
+tree works for providing me with these
+
+---------39:14----------
+donor boards at a reasonable price
+
+---------39:20----------
+very quickly - thank you David Center
+
+---------39:27----------
+Pat is too much solder oh no what are we
+
+---------39:30----------
+gonna do the center pad is too much
+
+---------39:31----------
+solder I guess you can't side of the
+
+---------39:33----------
+chip oh wait I forgot I don't care
+
+---------39:37----------
+humble okay let's get mr. Kirby tip I
+
+---------39:42----------
+love mr. Kirby tip it fixes all of my
+
+---------39:45----------
+fuck-ups Sharky just [ __ ] about my
+
+---------39:49----------
+fuck-ups with Kirby tip every tip
+
+---------39:51----------
+actually does something about it if I
+
+---------40:05----------
+know how to solder I'd be dangerous
+
+---------40:30----------
+feeling this board is gonna have
+
+---------40:31----------
+Thunderbolts right out the box
+
+---------40:34----------
+something's just
+
+---------40:43----------
+hey don't popcorn the crystal right next
+
+---------40:46----------
+door
+
+---------41:13----------
+okay now time for that little capacitor
+
+---------41:15----------
+to get humbled
+
+---------41:34----------
+whoops
+
+---------41:37----------
+I did everything I shouldn't while I was
+
+---------41:39----------
+doing that I left a piece of corrosion i
+
+---------41:45----------
+tipped over my chip soldered everything
+
+---------41:49----------
+on sideways and I got flux on my finger
+
+---------41:56----------
+mofo alright so I'm gonna take a
+
+---------41:59----------
+bathroom break to wash the flux off of
+
+---------42:03----------
+my finger and what do you know the fan
+
+---------42:09----------
+spins because I fixed my problem now
+
+---------42:12----------
+what again what I'm really interested in
+
+---------42:14----------
+here what I really want to know does
+
+---------42:16----------
+Thunderbolt work because if this is
+
+---------42:18----------
+DisplayPort on this [ __ ] works let's see
+
+---------42:21----------
+if that's just for display port of
+
+---------42:22----------
+Thunderbolt I just got it I got to see
+
+---------42:23----------
+this
+
+---------42:24----------
+I mean but I really got to do is go home
+
+---------42:26----------
+and meet my bed but you 3220 I don't
+
+---------42:31----------
+even know if that's just DisplayPort
+
+---------42:33----------
+Thunderbolt both you 3220 and I'm kind
+
+---------42:37----------
+of too tired to figure it out right now
+
+---------42:43----------
+Thunderbolt
+
+---------42:45----------
+DDC dad DDC clock oh yeah you are four
+
+---------42:50----------
+screens so I don't have to have a
+
+---------42:52----------
+Thunderbolt device I can just use my
+
+---------42:53----------
+crappy little VGA Thunderbolt
+
+---------42:56----------
+DisplayPort thingy that I have here C DD
+
+---------42:59----------
+C if you just search just Google and
+
+---------43:02----------
+you'll find out with this this stuff DD
+
+---------43:04----------
+C is the circuit that allows the screen
+
+---------43:06----------
+to talk to the graphics chip and vice
+
+---------43:08----------
+versa so I know that that is something
+
+---------43:09----------
+to do with the screen so we're gonna
+
+---------43:11----------
+take a short break while I wash the flux
+
+---------43:13----------
+off my hands take a piss
+
+---------43:15----------
+okay time to put this back together and
+
+---------43:19----------
+see what's going on and then go home oh
+
+---------43:27----------
+my Kitty's gonna miss me he's gonna
+
+---------43:30----------
+scream at me when I get home my kitty
+
+---------43:32----------
+gets so pissed off when I don't pay
+
+---------43:35----------
+attention to him you have no idea when I
+
+---------43:38----------
+come home late he just runs up to me and
+
+---------43:40----------
+goes
+
+---------43:44----------
+is adorable I love my kitty cat he's the
+
+---------43:48----------
+cutest kitty cat I've ever met
+
+---------43:50----------
+turn off air filter turn off hackle turn
+
+---------43:56----------
+off the little microscope light oh I
+
+---------44:01----------
+need to iron this shirt you know it was
+
+---------44:04----------
+actually good when I woke up this
+
+---------44:06----------
+morning I think part of what makes a
+
+---------44:07----------
+shirt start to look like this is not
+
+---------44:09----------
+lack of ironing so much as it is 12 to
+
+---------44:12----------
+14 hour work day like my shirt kind of
+
+---------44:15----------
+starts to take on characteristics that I
+
+---------44:17----------
+feel this is gonna boot slow as [ __ ]
+
+---------44:21----------
+because it doesn't have a battery and I
+
+---------44:23----------
+don't feel like getting up to get a
+
+---------44:24----------
+battery oh well let's see if you have a
+
+---------44:30----------
+working keyboard you're gonna make
+
+---------44:31----------
+anything easy for me a piece of [ __ ] I
+
+---------44:33----------
+have here I have an F at SSD and I have
+
+---------44:36----------
+a USB 3 thingy here so that I can boot
+
+---------44:39----------
+into an operating system
+
+---------44:41----------
+come here mofo yes option key works
+
+---------44:47----------
+awesome I can boot into an operating
+
+---------44:51----------
+system I want to see that that Thunder
+
+---------44:53----------
+both [ __ ] works good yeah visual
+
+---------44:55----------
+inspection really only gets you so far
+
+---------44:57----------
+at the end of the day what you need is a
+
+---------45:00----------
+[ __ ] brain Oh God
+
+---------45:02----------
+oh okay so my SSD for some reason has
+
+---------45:05----------
+Snow Leopard on it which is never gonna
+
+---------45:07----------
+boot in this computer what do I have on
+
+---------45:12----------
+here tell me one of these is a operating
+
+---------45:14----------
+system I can use Mavericks Yosemite give
+
+---------45:17----------
+me something here we go
+
+---------45:19----------
+Yosemite but it's on a hard drive which
+
+---------45:21----------
+means it's gonna take forever to boot
+
+---------45:23----------
+okay it's like hard drives like hard
+
+---------45:26----------
+drives are kind of like lead paint or
+
+---------45:28----------
+asbestosis it's just one of those things
+
+---------45:30----------
+that we need to eradicate completely
+
+---------45:32----------
+they are they're a [ __ ] cancer on the
+
+---------45:34----------
+world they really are I mean when I use
+
+---------45:38----------
+a computer with a hard drive and I click
+
+---------45:40----------
+the search button and then before I
+
+---------45:42----------
+haven't even had to search term in yet
+
+---------45:44----------
+but I see a pin wheel no no no no none
+
+---------45:48----------
+of that none of that random waiting [ __ ]
+
+---------45:50----------
+that needs to be done with it's one
+
+---------45:52----------
+thing if there was no solution but
+
+---------45:53----------
+knowing that there's a solution and
+
+---------45:54----------
+seeing that crap
+
+---------45:55----------
+all right so let's unplug this thing
+
+---------45:57----------
+because it's the only [ __ ]
+
+---------45:58----------
+Thunderbolt port accessory I have in the
+
+---------46:01----------
+whole store which people are gonna troll
+
+---------46:03----------
+because I have a laptop top repair shop
+
+---------46:06----------
+don't you test the Thunderbolt port full
+
+---------46:08----------
+functionality no I don't and I half the
+
+---------46:11----------
+time and actually cut it out of the
+
+---------46:12----------
+board like an appendix so what do you
+
+---------46:15----------
+think of that you purists would be so
+
+---------46:19----------
+[ __ ] pissed right now if you knew
+
+---------46:21----------
+that oh my god okay check it out so
+
+---------46:28----------
+let's do one chip again Lee here's the
+
+---------46:30----------
+thing with that [ __ ] with that self
+
+---------46:32----------
+estimate [ __ ] if you listen to your
+
+---------46:33----------
+customers look that's the issue I see
+
+---------46:37----------
+that's corroding replace that one ship
+
+---------46:39----------
+that's corroded oh your Thunderbolt chip
+
+---------46:41----------
+is corroded well guess what [ __ ]
+
+---------46:43----------
+Thunderbolt works [ __ ]
+
+---------46:47----------
+not only does Thunderbolt work but your
+
+---------46:52----------
+machine was dead so why point out the
+
+---------46:56----------
+Thunderbolt chip look at me moving the
+
+---------46:58----------
+mouse and trying to get it to show up on
+
+---------46:59----------
+here I'm being an idiot right now but
+
+---------47:02----------
+still Thunderbolt is [ __ ] fine I knew
+
+---------47:07----------
+it I knew the Thunderbolt gonna be fine
+
+---------47:11----------
+man my [ __ ] serious like this this is
+
+---------47:15----------
+why I like I love my I love all the
+
+---------47:17----------
+policies that I have my business I love
+
+---------47:19----------
+them and they all have good reason you
+
+---------47:20----------
+know if you like I don't I don't do that
+
+---------47:25----------
+thing with like the like the no fix you
+
+---------47:28----------
+pay if you have your own estimate I
+
+---------47:29----------
+firmly believe that if you bring your
+
+---------47:31----------
+own estimate that you should be
+
+---------47:32----------
+responsible for that right so and I'm
+
+---------47:35----------
+being kind of harsh just I'm honestly
+
+---------47:36----------
+being a dick because I'm tired and I
+
+---------47:38----------
+want to go home it's it's not like they
+
+---------47:40----------
+wanted me to replace that one ship they
+
+---------47:42----------
+they they they were probably just trying
+
+---------47:43----------
+to be helpful and put a little sticker
+
+---------47:44----------
+on was broken but so I'm going to see a
+
+---------47:46----------
+poster which is like you know this and
+
+---------47:47----------
+replace this and it's like just and I'm
+
+---------47:49----------
+just trying to make a general point here
+
+---------47:50----------
+I'm not really making fun of these
+
+---------47:53----------
+people why I will I am making fun of
+
+---------47:54----------
+these people but I'm not making fun of
+
+---------47:56----------
+them in this particular case for that
+
+---------47:57----------
+particular thing it's just it's a thing
+
+---------47:59----------
+that happens all the time are people
+
+---------48:00----------
+like I want you to replace just this
+
+---------48:01----------
+chip I want you to replace justice Jack
+
+---------48:03----------
+I want to know how much is it replace
+
+---------48:05----------
+these two resistors by the BIOS chip I
+
+---------48:07----------
+know they're bad
+
+---------48:08----------
+3:25 plus tax you know why do you know
+
+---------48:11----------
+why because when I say it's 50 bucks to
+
+---------48:13----------
+replace those resistors when I say it's
+
+---------48:15----------
+50 bucks to replace those two resistors
+
+---------48:17----------
+you know what's gonna happen when it's
+
+---------48:19----------
+not those two resistors and I say okay
+
+---------48:20----------
+give me the 50 bucks and doesn't turn on
+
+---------48:21----------
+you're not gonna want to take
+
+---------48:23----------
+responsibility for your estimate being
+
+---------48:25----------
+bad you're not you're gonna think that I
+
+---------48:27----------
+[ __ ] it up
+
+---------48:28----------
+you're gonna think that either I [ __ ]
+
+---------48:29----------
+it up because I'm an idiot or even worse
+
+---------48:31----------
+you're gonna think that I [ __ ] it up
+
+---------48:33----------
+on purpose
+
+---------48:34----------
+so that I could now upsell you on
+
+---------48:36----------
+motherboard or pal and that creates
+
+---------48:38----------
+conflict and conflict more time I spend
+
+---------48:40----------
+with conflict the less time I spend
+
+---------48:42----------
+dealing with customers I want to deal
+
+---------48:43----------
+with the less time I spend in the
+
+---------48:44----------
+microscope the last time I spent making
+
+---------48:46----------
+money so what do I do I eliminate
+
+---------48:48----------
+conflict what's a great way to eliminate
+
+---------48:50----------
+it away okay how about we just don't
+
+---------48:52----------
+have a lower tier of service how about
+
+---------48:54----------
+there isn't any I'll just replace what
+
+---------48:56----------
+you want me to replace or 50 bucks
+
+---------48:57----------
+there's no motivation to upsell you
+
+---------49:00----------
+because there's no upselling we start up
+
+---------49:03----------
+here there is nothing down here I have
+
+---------49:06----------
+nothing else to offer you so there's no
+
+---------49:08----------
+reason for me to lie and now there's no
+
+---------49:10----------
+reason for me to lie there's no conflict
+
+---------49:12----------
+which is beautiful but again like people
+
+---------49:14----------
+people in general they just they
+
+---------49:17----------
+understand the concept I can explain it
+
+---------49:19----------
+to them if your estimate is wrong you
+
+---------49:21----------
+will have to pay anyway because I
+
+---------49:23----------
+started doing something not because I'm
+
+---------49:25----------
+of my estimate I spent an hour of time
+
+---------49:27----------
+going down your rabbit hole if I go down
+
+---------49:30----------
+my rabbit hole for an hour that's on me
+
+---------49:33----------
+because I screwed up but if why would I
+
+---------49:36----------
+go down your rabbit hole for an hour and
+
+---------49:38----------
+not get paid at the end of it why should
+
+---------49:40----------
+I have that one hour of my life taken
+
+---------49:42----------
+away from me because you were wrong
+
+---------49:44----------
+see if I'm wrong I deserve that hour of
+
+---------49:47----------
+my life taken away with no compensation
+
+---------49:48----------
+but if you are wrong and you ask me to
+
+---------49:51----------
+do something why should I have that time
+
+---------49:53----------
+taken away that's why a lot of people
+
+---------49:54----------
+have these business models where you
+
+---------49:56----------
+have to pay them regardless of whether
+
+---------49:57----------
+they fix it if you tell them to do a
+
+---------49:58----------
+certain thing but the reality here is no
+
+---------50:02----------
+matter how you explain it to people no
+
+---------50:03----------
+matter how clear you make it at the end
+
+---------50:06----------
+of the day when they're handing you $50
+
+---------50:09----------
+to get back something that doesn't work
+
+---------50:11----------
+they're going to feel bad about it and
+
+---------50:14----------
+when people feel again this is this is
+
+---------50:16----------
+the problem with feelings that's why I
+
+---------50:17----------
+just I feel like feelings have no place
+
+---------50:19----------
+in technology and why I'm just sick and
+
+---------50:20----------
+tired of hearing
+
+---------50:21----------
+I feel this and I feel that is because
+
+---------50:24----------
+it takes away from your rational
+
+---------50:25----------
+thinking rationally speaking you [ __ ]
+
+---------50:28----------
+up rationally speaking you know you
+
+---------50:29----------
+[ __ ] up rationally speaking in this
+
+---------50:31----------
+particular segment of the world again
+
+---------50:33----------
+well you may know way more about me than
+
+---------50:35----------
+I do about chemistry astrology
+
+---------50:37----------
+car repair but politics I know more than
+
+---------50:40----------
+you do about component-level border
+
+---------50:42----------
+paper but you decided that you wanted me
+
+---------50:47----------
+to do this because you know better than
+
+---------50:49----------
+me
+
+---------50:49----------
+okay that's great but you're gonna feel
+
+---------50:52----------
+bad when you get back that thing that
+
+---------50:53----------
+doesn't work so now the feeling that
+
+---------50:56----------
+that silly feeling that makes no sense
+
+---------50:57----------
+is going to overcome the rational
+
+---------50:59----------
+thought that maybe this guy was right
+
+---------51:01----------
+who does this for 12 hours a day every
+
+---------51:03----------
+single day of the year for many years
+
+---------51:05----------
+versus me who I just looked at this [ __ ]
+
+---------51:08----------
+and I just came up with this idea in my
+
+---------51:09----------
+head that this is wrong because I'm just
+
+---------51:11----------
+such a genius yeah I know they're not
+
+---------51:13----------
+gonna think that rational thought
+
+---------51:14----------
+they're just gonna feel bad and then
+
+---------51:16----------
+that that feeling bad kind of gets
+
+---------51:17----------
+compounded and then they start using
+
+---------51:19----------
+that as fuel for all their their
+
+---------51:22----------
+accusations and for their arguments and
+
+---------51:25----------
+for their bad reviews and it's again
+
+---------51:27----------
+just get rid of it
+
+---------51:28----------
+just have one basic tear of service
+
+---------51:30----------
+which is either pay me or [ __ ] you at
+
+---------51:34----------
+this price and it just gets rid of all
+
+---------51:36----------
+that because you know what I find so
+
+---------51:38----------
+often is that people are not willing to
+
+---------51:40----------
+pay for the consequences of their
+
+---------51:43----------
+mistakes they don't want to so and it
+
+---------51:46----------
+doesn't matter what you say it doesn't
+
+---------51:48----------
+matter what you do it doesn't matter
+
+---------51:49----------
+what you get them to sign if you tell
+
+---------51:51----------
+somebody I will charge you $50 to
+
+---------51:54----------
+replace this charge port because you
+
+---------51:56----------
+asked me to replace this charge port and
+
+---------51:57----------
+if I replace that charge port and it
+
+---------51:59----------
+still doesn't turn on that's on you you
+
+---------52:02----------
+could say that a thousand times but if
+
+---------52:05----------
+if you give it back to them you say I
+
+---------52:07----------
+replace your charge port here is voltage
+
+---------52:09----------
+going through to every part of the board
+
+---------52:11----------
+your board don't work they're gonna go
+
+---------52:12----------
+man you [ __ ] it up or man I don't want
+
+---------52:15----------
+to pay your man it's a professional man
+
+---------52:17----------
+I feel like I got it again I don't want
+
+---------52:20----------
+to deal with that I don't I totally
+
+---------52:22----------
+understand that for so many of these
+
+---------52:24----------
+devices it makes absolutely no [ __ ]
+
+---------52:27----------
+sense to pay what it is I'm asking you
+
+---------52:30----------
+to pay I get that and I'm honest with
+
+---------52:33----------
+you and I'll tell you you should not pay
+
+---------52:34----------
+me to do that
+
+---------52:35----------
+but at the same time don't try to get me
+
+---------52:37----------
+to change my business model I get so
+
+---------52:40----------
+many calls it's like how much to replace
+
+---------52:42----------
+my back left fuse how much to replace
+
+---------52:44----------
+see seven seven seven one how much would
+
+---------52:46----------
+it be to replace this chip no you know
+
+---------52:49----------
+why cuz again I'll replace that chip
+
+---------52:51----------
+it's still gonna be dead because you're
+
+---------52:53----------
+wrong and if I even had the time if I
+
+---------52:55----------
+had the time in the day to explain to
+
+---------52:58----------
+you why you were wrong I would be here
+
+---------52:59----------
+fixing motherboards at 1:00 to 3:00 in
+
+---------53:01----------
+the morning if I even had the time to
+
+---------53:02----------
+explain why you're on this ghetto get
+
+---------53:03----------
+away from them you're probably wrong and
+
+---------53:06----------
+when you are wrong you are not gonna
+
+---------53:08----------
+want to pay that fifty bucks
+
+---------53:10----------
+and there will be conflict and you can
+
+---------53:12----------
+say that you'll be fine paying it but
+
+---------53:13----------
+again I've been doing this now for about
+
+---------53:15----------
+seventeen and a half years
+
+---------53:17----------
+and in that seventeen and a half years I
+
+---------53:19----------
+really honestly truthfully cannot
+
+---------53:21----------
+remember a single [ __ ] time or I have
+
+---------53:23----------
+taken money and not made something
+
+---------53:25----------
+better where the other person has not
+
+---------53:27----------
+been pissed off or argued about it and
+
+---------53:29----------
+where I felt good I don't feel good
+
+---------53:31----------
+taking money without doing something I
+
+---------53:33----------
+don't feel good being a part of failure
+
+---------53:35----------
+at the end of the day as mean as
+
+---------53:37----------
+terrible as a lot of people think I am
+
+---------53:39----------
+from this YouTube channel at the end of
+
+---------53:40----------
+the day even if you are the reason that
+
+---------53:43----------
+I wasted an hour of my life even if I
+
+---------53:46----------
+know deep down inside that I I followed
+
+---------53:48----------
+this path I replaced this chip and I
+
+---------53:51----------
+wasted my time doing it because you
+
+---------53:52----------
+wanted me to do it when it was the wrong
+
+---------53:54----------
+thing to do and it wasn't the actual
+
+---------53:55----------
+proper fix and I know that you should
+
+---------53:58----------
+have to pay me I don't have it in me to
+
+---------53:59----------
+take that money I really honestly don't
+
+---------54:01----------
+somewhere deep down inside I can only
+
+---------54:03----------
+take money if I know that I've improved
+
+---------54:05----------
+a device I've built a system that works
+
+---------54:08----------
+I can't I can't take money and be a part
+
+---------54:10----------
+of putting [ __ ] up crap back into the
+
+---------54:12----------
+world I can't take money without knowing
+
+---------54:15----------
+that I've actually provided something of
+
+---------54:17----------
+value if I have not provided something
+
+---------54:19----------
+of value I I don't feel good about
+
+---------54:20----------
+taking money and I just can't do it but
+
+---------54:23----------
+I know that if I don't take money for my
+
+---------54:25----------
+time that I am going to stop paying rent
+
+---------54:28----------
+and I'm not gonna have all these nice
+
+---------54:29----------
+things and I'm not gonna have a stayer
+
+---------54:31----------
+money to pay a staff and I'm not gonna
+
+---------54:33----------
+have a business and I'll be screwed so I
+
+---------54:35----------
+don't know if at that type of tier and
+
+---------54:36----------
+again I really strongly advise everybody
+
+---------54:39----------
+who is doing anything like this is a
+
+---------54:41----------
+living so come up with a no fix no pay
+
+---------54:44----------
+solution that works for you come up with
+
+---------54:46----------
+a no fix no pay business model that
+
+---------54:48----------
+works for you and if
+
+---------54:49----------
+you really honestly legitimately realize
+
+---------54:51----------
+that there is absolutely no way to make
+
+---------54:53----------
+no fix no pay work for you look at what
+
+---------54:55----------
+it is you're offering look at the
+
+---------54:56----------
+services you're offering
+
+---------54:57----------
+are you offering services that are high
+
+---------54:59----------
+value are you kind of doing something
+
+---------55:00----------
+where you're just all like you're all
+
+---------55:02----------
+fighting and arguing over pennies
+
+---------55:04----------
+nickels and dimes so you really can't
+
+---------55:06----------
+have that because every single one of
+
+---------55:07----------
+those pennies is that very important and
+
+---------55:10----------
+if that's it try to move on to doing
+
+---------55:12----------
+something else again like I'm told I
+
+---------55:14----------
+understand why you don't want to pay me
+
+---------55:15----------
+300 bucks to replace a connector I get
+
+---------55:18----------
+it I understand I will happily refer you
+
+---------55:20----------
+to other people I will happily show you
+
+---------55:21----------
+to people that will more than happily do
+
+---------55:23----------
+that for 35 or 40 bucks and that's okay
+
+---------55:26----------
+just don't ask me to change my business
+
+---------55:29----------
+model on account of you my business
+
+---------55:31----------
+model allows me to get a lot of things
+
+---------55:33----------
+done in a very very short tiny period of
+
+---------55:36----------
+time as just one person and without that
+
+---------55:39----------
+business model without that structure I
+
+---------55:41----------
+have my business would lose its it we
+
+---------55:44----------
+just lose its dignity it would lose its
+
+---------55:46----------
+ability to to avoid [ __ ] so it
+
+---------55:49----------
+would avoid its ability to get all those
+
+---------55:51----------
+things done in a short period of time
+
+---------55:53----------
+and make a lot of people happy because
+
+---------55:54----------
+once you start going down the rabbit
+
+---------55:55----------
+hole you start spending time on conflict
+
+---------55:58----------
+you don't spend time fixing stuff you
+
+---------56:00----------
+don't spend time fixing stuff you don't
+
+---------56:01----------
+give it back to the customer then you
+
+---------56:02----------
+have to spend time arguing with all the
+
+---------56:04----------
+other customers that you didn't fix
+
+---------56:05----------
+things for and then you spend all that
+
+---------56:07----------
+time arguing with them so you're not
+
+---------56:09----------
+spending time fixing stuff so then you
+
+---------56:10----------
+spend time arguing with the other people
+
+---------56:11----------
+that you're not fixing stuff for it just
+
+---------56:13----------
+creates this dangerous cycle which is
+
+---------56:15----------
+what all these repair stores go down
+
+---------56:16----------
+which is what I'm trying to get all you
+
+---------56:18----------
+guys to avoid through this video series
+
+---------56:20----------
+I'm probably talking out of my ass
+
+---------56:22----------
+because it's really late and I'm really
+
+---------56:25----------
+tired so I'll call it a day here and
+
+---------56:27----------
+yeah board works and I'm quite happy I'm
+
+---------56:31----------
+gonna test that I'm gonna run a SD on it
+
+---------56:33----------
+if everything works it'll go back to the
+
+---------56:34----------
+customer and thank you for watching and
+
+---------56:36----------
+as always I hope you learned something
+

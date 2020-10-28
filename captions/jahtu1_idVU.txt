@@ -1,0 +1,1039 @@
+https://www.youtube.com/watch?v=jahtu1_idVU
+---------00:00----------
+as I said in the YouTube community page
+
+---------00:01----------
+today I was gonna bring you yet another
+
+---------00:03----------
+Apple design flaw many of the design
+
+---------00:05----------
+flaws that I've discussed in apple
+
+---------00:06----------
+products affect products from two
+
+---------00:08----------
+thousand eight nine ten eleven twelve
+
+---------00:10----------
+thirteen fifteen
+
+---------00:12----------
+however today we're gonna get to a flaw
+
+---------00:15----------
+that's affecting machines from 2016 17
+
+---------00:17----------
+and 18 I want it to be clear when I say
+
+---------00:20----------
+this that it's not just pure hatred for
+
+---------00:22----------
+Apple products that I do this it's
+
+---------00:24----------
+because I hope that the consumers of
+
+---------00:25----------
+Apple products when they realize that
+
+---------00:27----------
+their design in this way ask the company
+
+---------00:29----------
+can you do better as a trillion dollar
+
+---------00:31----------
+company that sells three thousand dollar
+
+---------00:33----------
+machines can you do just a little bit
+
+---------00:36----------
+better than something we would expect
+
+---------00:37----------
+from a first-year intern so today we're
+
+---------00:39----------
+going to be going over a very common
+
+---------00:40----------
+problem on the 13 and 15 inch MacBook
+
+---------00:43----------
+Pros with USB C charge ports which is no
+
+---------00:47----------
+image I want to go over the design flaw
+
+---------00:48----------
+that causes no image how it manifests
+
+---------00:50----------
+itself what it looks like and why this
+
+---------00:53----------
+is a really bad design and contrast
+
+---------00:55----------
+older machines with many of the design
+
+---------00:57----------
+flaws that I discuss here I'm talking
+
+---------00:59----------
+about things like a scamp failing or
+
+---------01:01----------
+this thing being placed in the wrong
+
+---------01:02----------
+place and stuff where you could okay
+
+---------01:04----------
+it's kind of understandable that this
+
+---------01:05----------
+mistake could occur and it sucks that
+
+---------01:07----------
+you didn't fix it after a few years but
+
+---------01:09----------
+understandable to some extent here this
+
+---------01:12----------
+is just objectively terrible in a way
+
+---------01:16----------
+that I would like to show you so let's
+
+---------01:18----------
+go over how it is that some of the older
+
+---------01:21----------
+MacBook Pros are designed when it comes
+
+---------01:22----------
+to image circuitry before we get to
+
+---------01:24----------
+anything else so I'm gonna open up a
+
+---------01:27----------
+schematic to an older MacBook Pro this
+
+---------01:31----------
+is gonna be the LCD connector on let's
+
+---------01:34----------
+say a 2012 MacBook Pro and this is
+
+---------01:37----------
+similar to the design that was used into
+
+---------01:39----------
+later years so if we were to look at all
+
+---------01:42----------
+the signals over here on this LCD
+
+---------01:44----------
+connector you'll see that we have three
+
+---------01:46----------
+volts over here then we have a bunch of
+
+---------01:48----------
+data lines LVDS data lines and these are
+
+---------01:51----------
+all data lines that are going to be
+
+---------01:53----------
+somewhere between one and three volts
+
+---------01:55----------
+and then all the way at the end we have
+
+---------01:57----------
+a not connected pin which is typically
+
+---------02:00----------
+going to be grounded and then we have
+
+---------02:02----------
+the high voltage of LCD backlight so LCD
+
+---------02:05----------
+backlight is typically going to be
+
+---------02:06----------
+somewhere between 26 and 50 volts that's
+
+---------02:08----------
+a high voltage line and you typically
+
+---------02:09----------
+want to separate that from your low
+
+---------02:11----------
+voltage data lines this is a basic basic
+
+---------02:13----------
+principle
+
+---------02:13----------
+design I'm sure someone like Dave Jones
+
+---------02:15----------
+over at eevblog who you should check out
+
+---------02:17----------
+could definitely explain this in more
+
+---------02:19----------
+depth in detail than I can so let's take
+
+---------02:21----------
+a look at the screen circuit in a
+
+---------02:24----------
+13-inch 2015-16 macbook pro before the
+
+---------02:27----------
+touch bar so we have all these
+
+---------02:29----------
+DisplayPort image lines over here very
+
+---------02:31----------
+similar layout to where you had the LVDS
+
+---------02:33----------
+lines separate from the power lines then
+
+---------02:35----------
+you have a few ground pins over here and
+
+---------02:39----------
+the ground pins are going to be
+
+---------02:41----------
+separating the image data lines from the
+
+---------02:44----------
+5 volts the screen needs to work and
+
+---------02:45----------
+then up here you're going to have a 5
+
+---------02:49----------
+volt data line for the backlight circuit
+
+---------02:52----------
+you have a not connected pin which is
+
+---------02:54----------
+going to be grounded and then after the
+
+---------02:57----------
+grounds at pin you have LCD backlight so
+
+---------02:59----------
+same thing as is true from the 2012
+
+---------03:02----------
+model to the 2015 model is that you have
+
+---------03:05----------
+separation between your data lines down
+
+---------03:08----------
+here which are low voltage lines and
+
+---------03:10----------
+your 39 to 40 low volt backlight line
+
+---------03:13----------
+now let's take a look at how it is the
+
+---------03:16----------
+newer MacBook Pros are designed so this
+
+---------03:19----------
+is going to be what I have on my desk so
+
+---------03:20----------
+this over here is a MacBook Pro touch
+
+---------03:23----------
+bar from 2016-17 this is the LCD
+
+---------03:27----------
+connector which is going to be attaching
+
+---------03:30----------
+to the screen now let's take a look at
+
+---------03:31----------
+what that looks like on the board view
+
+---------03:33----------
+software if we were to find the LCD
+
+---------03:37----------
+connector on the schematic you'll see
+
+---------03:39----------
+that over here we have a backlight pin
+
+---------03:41----------
+on pin 43 see this ppv out Sol LCD
+
+---------03:46----------
+backlight that's going to be somewhere
+
+---------03:47----------
+between 38 to 50 volts and right next to
+
+---------03:50----------
+it with no separation no ground pin no
+
+---------03:52----------
+nothing
+
+---------03:53----------
+you have DisplayPort aux Channel now
+
+---------03:56----------
+let's take a look at where DisplayPort
+
+---------03:58----------
+aux channel is going to be going to that
+
+---------04:00----------
+goes to a much chip on the other side of
+
+---------04:03----------
+the board see this so this is a much
+
+---------04:05----------
+chip now the purpose of the MUX is to
+
+---------04:07----------
+take the graphics from the Intel
+
+---------04:08----------
+integrated within the CPU and then the
+
+---------04:10----------
+graphics from the AMD or the Nvidia
+
+---------04:12----------
+chipset and switch between them
+
+---------04:13----------
+seamlessly so that when you're switching
+
+---------04:15----------
+between the Intel integrated graphics
+
+---------04:17----------
+and the high-definition discrete
+
+---------04:19----------
+graphics card that you don't see messing
+
+---------04:23----------
+up on the screen and you don't have to
+
+---------04:24----------
+reboot to change graphics chip so you
+
+---------04:26----------
+don't need like a physical switch to do
+
+---------04:27----------
+it
+
+---------04:27----------
+the purpose of the MUX that is going to
+
+---------04:29----------
+be analyzing the image for both of them
+
+---------04:31----------
+so if we look over here you'll see that
+
+---------04:34----------
+the data line which is typically
+
+---------04:36----------
+somewhere between 1 and 3 volts is
+
+---------04:39----------
+sitting right next to the 40 to 50 volt
+
+---------04:43----------
+backlight line with no pin in between
+
+---------04:47----------
+there's no separation there now you may
+
+---------04:49----------
+think that's not a big deal what could
+
+---------04:50----------
+possibly happen if you have a 40 to 50
+
+---------04:53----------
+volt power line right next to a 1 to 3
+
+---------04:55----------
+volt data line on a micro connector well
+
+---------04:58----------
+this is what happens let's bring that up
+
+---------05:00----------
+in the microscope so you can see why
+
+---------05:02----------
+this is some of the dumbest design I've
+
+---------05:04----------
+ever seen that so if we look at this
+
+---------05:06----------
+cable you can see where there is burning
+
+---------05:10----------
+in the corner look at that see that no
+
+---------05:17----------
+good that is where things are jumping
+
+---------05:20----------
+around that is in the original cable now
+
+---------05:22----------
+you may say this is not a big deal Lois
+
+---------05:25----------
+you can just replace the MUX chip it's
+
+---------05:26----------
+easy to row you just have to replace
+
+---------05:28----------
+this one chip and then everything's fine
+
+---------05:30----------
+easy breezy beautiful covergirl as that
+
+---------05:32----------
+commercial from 20 years ago that I
+
+---------05:34----------
+can't get out of my head would say but
+
+---------05:36----------
+what about the machines that don't have
+
+---------05:38----------
+a discrete graphics chip what about the
+
+---------05:39----------
+a 1708 and a 1706 13 inch MacBook Pro
+
+---------05:43----------
+glad you asked let's check out what
+
+---------05:45----------
+those look like on the schematic and
+
+---------05:47----------
+board view over here all right so we're
+
+---------05:49----------
+just going to take a look at the display
+
+---------05:50----------
+connector over here same terrible awful
+
+---------05:54----------
+design you have right over here you have
+
+---------05:56----------
+backlight line right next to DisplayPort
+
+---------06:00----------
+line and let's see where this goes to
+
+---------06:04----------
+now remember this only has one graphics
+
+---------06:07----------
+chip not too so that DisplayPort line is
+
+---------06:10----------
+going to go straight to the CPU so what
+
+---------06:16----------
+happens on this machine when there's any
+
+---------06:19----------
+teeny tiny malfunction any sort of thing
+
+---------06:22----------
+that's gonna make the voltage go from
+
+---------06:23----------
+this pin over here to this pin over here
+
+---------06:25----------
+you see yes you send 40 volts straight
+
+---------06:28----------
+to your CPU and you destroy the CPU
+
+---------06:30----------
+these CPUs cost anywhere from 150 to 450
+
+---------06:35----------
+dollars depending on which one you got
+
+---------06:37----------
+in your machine further they're not
+
+---------06:39----------
+available to people like me if I want to
+
+---------06:41----------
+get a CPU
+
+---------06:41----------
+the best thing that I'm going to get is
+
+---------06:43----------
+a CPU that somebody in China ripped off
+
+---------06:46----------
+of a donor board most likely destroyed
+
+---------06:48----------
+in the process which is why even if you
+
+---------06:50----------
+have the $7,000 machinery to replace a
+
+---------06:51----------
+CPU good luck getting one for a touch
+
+---------06:54----------
+bar so yes Apple designed a machine in a
+
+---------06:56----------
+manner where if there's any teeny tiny
+
+---------06:59----------
+malfunction rather than that 40 to 50
+
+---------07:02----------
+volt power line going to ground as a
+
+---------07:04----------
+safety it's going to send that 40 to 50
+
+---------07:06----------
+volts straight to your CPU all because
+
+---------07:09----------
+they didn't decide to put a pin in
+
+---------07:11----------
+between the two as they've been doing
+
+---------07:12----------
+for over 10 years now which is the basic
+
+---------07:15----------
+common sense of design I'm sure Dave
+
+---------07:17----------
+Jones a TV blog could talk more about
+
+---------07:18----------
+why this is a thing and how even first
+
+---------07:21----------
+year engineering students would be
+
+---------07:23----------
+taught something like this yet for some
+
+---------07:25----------
+reason a multitrillion-dollar company
+
+---------07:27----------
+has decided to just make machines that
+
+---------07:28----------
+kill their CPUs so if you have a touch
+
+---------07:31----------
+bar that has no image no backlight
+
+---------07:33----------
+there's nothing like that it's most
+
+---------07:36----------
+likely because your CPU got 40 to 50
+
+---------07:38----------
+volts and you can check your screen
+
+---------07:39----------
+cable to get an idea of whether this
+
+---------07:40----------
+happened because when that happens when
+
+---------07:42----------
+that CPU gets that little shock of 40 to
+
+---------07:44----------
+50 volts it's very easily visible now
+
+---------07:48----------
+when this happens with to the 13-inch
+
+---------07:50----------
+machines there's honestly not much we
+
+---------07:52----------
+can do because of the 13-inch machines
+
+---------07:53----------
+again you need to replace the CPU and we
+
+---------07:56----------
+cannot get those with the 15-inch
+
+---------07:57----------
+machines there is hope and you are able
+
+---------07:59----------
+to replace a chip called the much chip
+
+---------08:01----------
+so the first diagnosis that we do on the
+
+---------08:03----------
+15-inch machines to see if there's even
+
+---------08:05----------
+any sort of hope of it is we like to
+
+---------08:08----------
+compare what the image that we get on
+
+---------08:10----------
+the internal screen to what it is we get
+
+---------08:12----------
+from the USBC app so I'm going to check
+
+---------08:17----------
+that here so let's see what it is that
+
+---------08:19----------
+we get on the on the screen here so I'm
+
+---------08:23----------
+gonna plug this thing in so you can see
+
+---------08:25----------
+what type of image we get and I'm gonna
+
+---------08:29----------
+give it a minute as can be seen no
+
+---------08:32----------
+picture not just no backlight no picture
+
+---------08:35----------
+no nothing no screen activation totally
+
+---------08:38----------
+invisible
+
+---------08:38----------
+now I'm gonna unplug the machine and I'm
+
+---------08:41----------
+gonna unplug the screen in the machine
+
+---------08:43----------
+and we're going to see what happens if
+
+---------08:45----------
+we plug it into my microscope adapter so
+
+---------08:51----------
+this is HDMI cable just get the okay
+
+---------08:55----------
+take this plug the HDMI over here and
+
+---------09:02----------
+let's see what it is we get on the
+
+---------09:04----------
+screen image as you can see this has the
+
+---------09:13----------
+capability to send an image to an
+
+---------09:14----------
+external screen but not an internal
+
+---------09:16----------
+screen and that's because within the MUX
+
+---------09:19----------
+the circuit to send the image to the
+
+---------09:23----------
+internal screen has gotten 50 volts sent
+
+---------09:27----------
+to it as a result of this this lovely
+
+---------09:29----------
+lovely design here so we're gonna do is
+
+---------09:32----------
+we're gonna find that MUX and we're
+
+---------09:34----------
+gonna replace it with a new one and by
+
+---------09:37----------
+we I mean most likely Paul since I'm
+
+---------09:39----------
+probably gonna come pre balling it and
+
+---------09:41----------
+ask him to save me he's a good guy he
+
+---------09:46----------
+gets he deserves more credit
+
+---------09:47----------
+I believe you can actually buy this chip
+
+---------09:49----------
+off of Mouser let's see if you can get
+
+---------09:50----------
+this thing off of Mouser and here we go
+
+---------09:52----------
+so it looks like you can actually get
+
+---------09:54----------
+this chip off a Mouser and soon maybe
+
+---------09:57----------
+even office store tower Rossmann group
+
+---------09:58----------
+calm all right non stalked call for
+
+---------10:01----------
+quote that this means something special
+
+---------10:03----------
+so non stalked call for quote means that
+
+---------10:06----------
+most likely Apple is being all jealous
+
+---------10:09----------
+like jealous ex-girlfriend D and saying
+
+---------10:11----------
+I don't want you talking to nobody else
+
+---------10:14----------
+I don't want you selling this to anybody
+
+---------10:17----------
+but us but this is made by nxp and it
+
+---------10:21----------
+looks less so this is probably gonna be
+
+---------10:22----------
+something similar to like the ISL six to
+
+---------10:25----------
+five nine or again like good luck
+
+---------10:26----------
+finding stuff like this yeah you never
+
+---------10:29----------
+non-stock yeah see that see that that
+
+---------10:32----------
+that's Apple right there that's fixing
+
+---------10:33----------
+Apple products the chips they are they
+
+---------10:36----------
+are very jealous ex-girlfriend II when
+
+---------10:38----------
+it comes to stuff like that so but it
+
+---------10:40----------
+looks like there are other sellers and
+
+---------10:42----------
+this is definitely gonna be something
+
+---------10:43----------
+that we're gonna be stocking soon on
+
+---------10:45----------
+stored our rossmann group comm we're
+
+---------10:47----------
+gonna sell what Mouser refuses to and
+
+---------10:50----------
+now there is a little bit of trickiness
+
+---------10:53----------
+here is that this chip is located
+
+---------10:55----------
+between the CPU and the GPU so you want
+
+---------10:58----------
+to not burn your CPU or your GPU while
+
+---------11:01----------
+you're doing this so just a little bit
+
+---------11:03----------
+of skill building so I'm
+
+---------11:04----------
+gonna have a I'm gonna use a high-tech
+
+---------11:06----------
+heatsink over here which is going to be
+
+---------11:10----------
+a metal spudger with rubber rubber
+
+---------11:13----------
+surrounding it like that and we're going
+
+---------11:16----------
+to use that to cover so that I can
+
+---------11:19----------
+remove that MUX
+
+---------11:34----------
+I'm gonna lower my air a little bit I'm
+
+---------11:36----------
+not going to use 120 air like I usually
+
+---------11:38----------
+would
+
+---------11:49----------
+enjoy a shot of Jagermeister for this
+
+---------11:51----------
+great content thank you very much
+
+---------11:52----------
+let me try to put it towards something a
+
+---------11:54----------
+little bit more nutritious doing my best
+
+---------11:57----------
+then drink less eat less got to get back
+
+---------12:01----------
+in shape
+
+---------12:09----------
+when you leave Apple don't reply to her
+
+---------12:11----------
+texts her email says mr. name I can't
+
+---------12:13----------
+say on stream how's it going Chris long
+
+---------12:23----------
+remember I'm not gonna pull up on this
+
+---------12:25----------
+ship until I see that it can move left
+
+---------12:28----------
+and right because if I'm pulling up on
+
+---------12:30----------
+it I'm probably gonna pull it up while
+
+---------12:31----------
+the joint is still half cold so now I
+
+---------12:33----------
+see since I was squeezing the ship hard
+
+---------12:35----------
+that it was able to move left and right
+
+---------12:37----------
+so I'm gonna pull it off and there you
+
+---------12:39----------
+go those are the balls under my chip and
+
+---------12:45----------
+also this is the proper orientation of
+
+---------12:46----------
+the chip first thing to do is just suck
+
+---------12:53----------
+up all my balls there
+
+---------13:05----------
+you know Paul if we can buy this chip
+
+---------13:07----------
+Preval this actually this is not gonna
+
+---------13:08----------
+be a repair so I was thinking that we
+
+---------13:12----------
+work out a deal where I was kind of
+
+---------13:14----------
+thinking I do the 15 inch ones you do
+
+---------13:17----------
+the 13 inch ones what do you say what's
+
+---------13:20----------
+wrong with that why because they're
+
+---------13:23----------
+smaller I figured it would save space on
+
+---------13:24----------
+your desk cause you don't want your desk
+
+---------13:26----------
+to be all cluttered and stuff I don't
+
+---------13:27----------
+mind my desk being a little bit
+
+---------13:28----------
+cluttered all right so we got a nice
+
+---------13:35----------
+amount of Amtech nc5 v 9 v 2 TF flux and
+
+---------13:38----------
+were just gonna run a solder ball over
+
+---------13:39----------
+there pick up all of that junky
+
+---------13:41----------
+lead-free solder that I don't want to
+
+---------13:43----------
+use and gently touch the board not
+
+---------13:45----------
+enough that we're pulling off the the
+
+---------13:49----------
+covering and the coating off of the
+
+---------13:53----------
+traces but just enough that we have
+
+---------13:55----------
+gotten rid of all the lead-free junk so
+
+---------13:58----------
+now we're going to take another board
+
+---------14:00----------
+with another MUX chip
+
+---------14:34----------
+you
+
+---------16:38----------
+look at Paul's workmanship here we
+
+---------16:43----------
+allowed to bash this board to pieces if
+
+---------16:44----------
+after all this work it doesn't have an
+
+---------16:45----------
+image on the internal screen
+
+---------16:58----------
+you
+
+---------17:48----------
+Oh Apple logo Apple logo okay
+
+---------17:51----------
+all right so this is the Apple logo
+
+---------17:53----------
+which means we have fixed the issue by
+
+---------17:55----------
+replacing the mocks
+
+---------18:15----------
+it is 8 o'clock yep off the clock thank
+
+---------18:22----------
+you everybody for watching and as always
+
+---------18:24----------
+I hope you learned something
+

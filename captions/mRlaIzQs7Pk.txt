@@ -1,0 +1,823 @@
+https://www.youtube.com/watch?v=mRlaIzQs7Pk
+---------00:00----------
+all right so today we're gonna be going
+
+---------00:01----------
+over an eight to zero 3435 motherboard
+
+---------00:04----------
+that has no backlight now one of the
+
+---------00:06----------
+very very common issues with these when
+
+---------00:08----------
+they have no backlight is backlight
+
+---------00:10----------
+fuses blown so when I go over here do
+
+---------00:12----------
+you measure the backlight fuse you're
+
+---------00:14----------
+going to see on the screen there that
+
+---------00:15----------
+the backlight fuse is blown because oh
+
+---------00:18----------
+well now if I were to measure resistance
+
+---------00:22----------
+to ground on backlight output over here
+
+---------00:24----------
+like this you've noticed that my number
+
+---------00:27----------
+is really really low which indicates a
+
+---------00:29----------
+short to ground there's no purpose in
+
+---------00:31----------
+replacing the fuse there's no purpose in
+
+---------00:33----------
+replacing any fuse in any circuit if
+
+---------00:35----------
+there's a short to ground because the
+
+---------00:37----------
+fuse itself is just going to blow again
+
+---------00:39----------
+right after you do that so what I'm
+
+---------00:41----------
+going to do here or try to figure out
+
+---------00:43----------
+what it is that's shorted to ground now
+
+---------00:44----------
+the connector itself doesn't really look
+
+---------00:46----------
+like it's shorted to ground it doesn't
+
+---------00:47----------
+look any particular form of nasty so if
+
+---------00:50----------
+I were to go over to the connector over
+
+---------00:51----------
+here let's just may see this I can see
+
+---------00:54----------
+what it is you guys are seeing you know
+
+---------00:58----------
+connector doesn't really strike me as
+
+---------01:00----------
+nasty what does strike me as nasty is
+
+---------01:04----------
+that capacitor that capacitor let's just
+
+---------01:07----------
+see what the LED driver looks like for
+
+---------01:08----------
+the hell of it yeah I mean the LED
+
+---------01:12----------
+driver doesn't really look nasty um so
+
+---------01:15----------
+my guess is gonna be on the capacitor
+
+---------01:18----------
+even though the capacitor is very rarely
+
+---------01:19----------
+what is short it's a ground now here's
+
+---------01:21----------
+what makes this entire process a little
+
+---------01:23----------
+bit more difficult than other type of
+
+---------01:24----------
+short detection so let's say I'm wrong
+
+---------01:26----------
+in the short is actually inside the LCD
+
+---------01:28----------
+connector if I'm wrong and the short is
+
+---------01:30----------
+inside the LCD connector and I send
+
+---------01:32----------
+voltage to the board it's gonna take a
+
+---------01:34----------
+lot to actually get two pieces of metal
+
+---------01:37----------
+that are touching hot it's not gonna be
+
+---------01:39----------
+like a resistor or a capacitor or
+
+---------01:40----------
+inductor or anything like that that's
+
+---------01:42----------
+shorted it's it's it's just a big hunk
+
+---------01:45----------
+of metal so if I wind up putting heat
+
+---------01:48----------
+power through the board to try to expose
+
+---------01:50----------
+that short I'm going to I end up burning
+
+---------01:53----------
+my entire motherboard which is which is
+
+---------01:55----------
+no good so I can't use my standard short
+
+---------01:57----------
+detection method when I have a connector
+
+---------02:00----------
+on the line so I'm just gonna start by
+
+---------02:02----------
+removing this really nasty looking
+
+---------02:05----------
+capacitor and go from there and hope
+
+---------02:07----------
+that perhaps this solves my problem
+
+---------02:11----------
+who knows it's rarely if ever the output
+
+---------02:16----------
+capacitors but let's see I could always
+
+---------02:19----------
+be wrong
+
+---------02:29----------
+so I've turned the heat up on my fr 801
+
+---------02:32----------
+all the way this is a big piece to get
+
+---------02:34----------
+off on a board that is a lot of internal
+
+---------02:36----------
+heat sinking
+
+---------02:37----------
+I shouldn't say internal heat sinking
+
+---------02:39----------
+because I don't feel it's the right
+
+---------02:40----------
+thing to say
+
+---------02:41----------
+I forget that all this board material is
+
+---------02:44----------
+is it just absorbs heat a lot more than
+
+---------02:47----------
+the older board material I know I'm
+
+---------02:49----------
+using the wrong terminology for it
+
+---------02:50----------
+because I'm sick and stuffed up and
+
+---------02:52----------
+tired but okay so let's see so my short
+
+---------02:56----------
+seems to have gone away so as you could
+
+---------02:58----------
+see on the multimeter here when I put
+
+---------02:59----------
+the red probe on ground and the black
+
+---------03:01----------
+probe on backlight output it's not the
+
+---------03:04----------
+number that I want the number that I
+
+---------03:05----------
+want is somewhere between point five one
+
+---------03:07----------
+nine and point five four six but that is
+
+---------03:10----------
+much closer to the number that I want
+
+---------03:11----------
+and it is going up and up and up so I
+
+---------03:13----------
+can make the assumption that that it was
+
+---------03:15----------
+the cause of my problem and that if I
+
+---------03:17----------
+just get myself another capacitor and
+
+---------03:19----------
+replace the fuse that there's a good
+
+---------03:20----------
+chance that I have backlight let's go
+
+---------03:24----------
+ahead and do that righty so let's get a
+
+---------03:28----------
+tip that's a little bit more appropriate
+
+---------03:30----------
+for the task here
+
+---------03:40----------
+who the made that thing decide to
+
+---------03:43----------
+do that I want to know who it hako
+
+---------03:44----------
+thought it would be a good idea to just
+
+---------03:46----------
+make the eye and beep incessantly when
+
+---------03:47----------
+you want it plugged in like what is
+
+---------03:49----------
+there to be warned about shut the
+
+---------03:50----------
+up
+
+---------03:51----------
+warned me when this thing is just
+
+---------03:52----------
+sitting out like this hot really like
+
+---------03:55----------
+don't don't warn me when the
+
+---------03:56----------
+thing is has no tip that's just dumb I
+
+---------03:59----------
+know who comes up with this
+
+---------04:03----------
+okay so get some flux here beep I would
+
+---------04:10----------
+unplug the speaker in it but I just love
+
+---------04:11----------
+hearing that beep that says I'm ready
+
+---------04:13----------
+let's go beep beep I'm ready
+
+---------04:25----------
+I'll make that a little bit smaller yeah
+
+---------04:30----------
+what are you gonna do
+
+---------04:33----------
+so take capacitor off of donor board and
+
+---------04:39----------
+here's one of the things that I know
+
+---------04:40----------
+this newbies doing it's silly
+
+---------04:42----------
+yeah they'll put this into the
+
+---------04:44----------
+microscope and then they'll take then
+
+---------04:45----------
+they'll put the component in the table
+
+---------04:47----------
+so they'll take the component off of the
+
+---------04:48----------
+donor board inside the microscope
+
+---------04:49----------
+they'll put the donor board component on
+
+---------04:51----------
+the table they'll take their board
+
+---------04:52----------
+they'll put it back onto the microscope
+
+---------04:54----------
+to pick the component up off the table
+
+---------04:55----------
+and put it there that's a lot of work I
+
+---------04:57----------
+ripped the board that I'm working on
+
+---------04:59----------
+under the microscope this is the one
+
+---------05:01----------
+where I need to precisely place the
+
+---------05:03----------
+component then when I'm done for
+
+---------05:05----------
+removing the component I outside of the
+
+---------05:08----------
+microscope not caring about accurate
+
+---------05:10----------
+decision of any kinds I'll remove the
+
+---------05:12----------
+component that I want to steal from the
+
+---------05:14----------
+donor motherboard because again I'm not
+
+---------05:16----------
+placing it I'm ripping it off why do I
+
+---------05:18----------
+need a microscope why do any precision
+
+---------05:20----------
+why would I take this out just have to
+
+---------05:21----------
+put it back in because again this is all
+
+---------05:23----------
+about efficiency because a lot of the
+
+---------05:24----------
+time you're replacing components not
+
+---------05:26----------
+knowing what is wrong but just to try to
+
+---------05:28----------
+diagnose a problem when you're doing
+
+---------05:30----------
+that being able to do things quickly is
+
+---------05:31----------
+really really important so now let's
+
+---------05:33----------
+switch back to the microscope camera and
+
+---------05:35----------
+I'm gonna heat up the board I'm gonna
+
+---------05:38----------
+wait for the solder on the board to melt
+
+---------05:40----------
+before I place this then I'd placed this
+
+---------05:44----------
+I blocked the hot air flow for a second
+
+---------05:46----------
+so oh well I have it pushed down there
+
+---------05:50----------
+just in case it wasn't pushed down there
+
+---------05:52----------
+I'm gonna add a little flux and push
+
+---------05:55----------
+from the top because I want the
+
+---------05:56----------
+capacitor to be flat in the board then
+
+---------05:59----------
+once I'm convinced it's flat in the
+
+---------06:00----------
+board I'll go over it with the bevel
+
+---------06:02----------
+chip soldering iron okay so we got you
+
+---------06:08----------
+in place now last move here is going to
+
+---------06:14----------
+be a little bit of flux on each side
+
+---------06:23----------
+wait for my beveled tip to heat up come
+
+---------06:28----------
+on heat MOFA beep
+
+---------06:39----------
+okay and we do the same for the other
+
+---------06:42----------
+side
+
+---------06:50----------
+so I'm making sure that I'm touching
+
+---------06:51----------
+both the capacitor and I'm also pressing
+
+---------06:54----------
+now to make sure that I'm touching the
+
+---------06:55----------
+pad I want to heat everything that I
+
+---------06:57----------
+want the side of the floater
+
+---------06:59----------
+that's good I'm happy and now that
+
+---------07:04----------
+there's no excess solder make it flow in
+
+---------07:09----------
+a place nicely okay now it's sitting
+
+---------07:15----------
+exactly where it should be sitting from
+
+---------07:16----------
+the factory to see what I did there when
+
+---------07:18----------
+I was done placing it I was done
+
+---------07:19----------
+removing the excess solder but some flux
+
+---------07:21----------
+still left there i heated it up and the
+
+---------07:23----------
+surface tension pretty much pulled it in
+
+---------07:25----------
+a place so if each one of those solder
+
+---------07:27----------
+joints each one of those pads with
+
+---------07:30----------
+solder on it is gonna have an equal
+
+---------07:31----------
+amount of power to you know kind of be
+
+---------07:33----------
+like quicksand and pull my component in
+
+---------07:34----------
+the place so both of those pads are kind
+
+---------07:37----------
+of pulling the component into place so
+
+---------07:39----------
+since they both have about an equal
+
+---------07:40----------
+amount of power it's gonna wind up
+
+---------07:41----------
+centering my component to where it's
+
+---------07:43----------
+supposed to be and where it's more
+
+---------07:45----------
+structurally sound on the board now with
+
+---------07:47----------
+that said actually why did I turn off my
+
+---------07:49----------
+air filter where I have a backlight
+
+---------07:50----------
+fused to replace Oh dumbass all right so
+
+---------07:56----------
+that's the fuse
+
+---------08:02----------
+with the pee
+
+---------08:13----------
+no I can't replace it because I don't
+
+---------08:16----------
+have a real workstation yeah yeah you
+
+---------08:19----------
+keep coming up with excuses I'll keep
+
+---------08:24----------
+doing it myself boys the way that works
+
+---------08:29----------
+so many people say I can't replace the
+
+---------08:31----------
+fuse because I don't have a rework
+
+---------08:32----------
+station I can't take the fuse off
+
+---------08:34----------
+because I don't have a hot-air station
+
+---------08:35----------
+did you see me use a hot-air station to
+
+---------08:37----------
+take that fuse off yeah you can place it
+
+---------08:41----------
+without a rework station as well this is
+
+---------08:45----------
+one thing that really kills me is that
+
+---------08:46----------
+that whole argument if you don't
+
+---------08:48----------
+understand I'm just starting out I can't
+
+---------08:50----------
+buy a hot-air station
+
+---------08:51----------
+well I do understand I didn't start out
+
+---------08:55----------
+with a hot-air station I made do with
+
+---------08:56----------
+what I had and did their job the right
+
+---------08:58----------
+way whereas your you use so that I could
+
+---------09:01----------
+make the money I needed to buy a hot-air
+
+---------09:04----------
+station or as you refused to do that and
+
+---------09:06----------
+somehow expect my sympathy
+
+---------09:08----------
+no no so you can see it is possible to
+
+---------09:14----------
+place it's not gonna be the prettiest
+
+---------09:15----------
+looking thing in the world but it is
+
+---------09:16----------
+possible now if I were smart what I
+
+---------09:18----------
+would have done is I would have I would
+
+---------09:20----------
+have only put solder on one pad so that
+
+---------09:22----------
+I could have to slay perfectly flat with
+
+---------09:24----------
+the board but I didn't do that because
+
+---------09:26----------
+at the end of the day I do have a
+
+---------09:27----------
+hot-air station so I can just do this
+
+---------09:36----------
+but ultimately if I didn't have a
+
+---------09:37----------
+hot-air station I could have one pad
+
+---------09:39----------
+flat one pad soldered solder it's ville
+
+---------09:41----------
+one pad then solder the other pad
+
+---------09:42----------
+manually once AI have the component down
+
+---------09:45----------
+on the board and I'd be fine so I'm
+
+---------09:49----------
+gonna double check to make sure that the
+
+---------09:50----------
+fuse that I just put on there is good
+
+---------09:51----------
+and I'm also gonna make sure that I
+
+---------09:52----------
+don't have a short to ground before I
+
+---------09:54----------
+decide to power this on because that
+
+---------09:55----------
+would be really silly if I powered this
+
+---------09:57----------
+on with a short to ground so fuse is
+
+---------10:02----------
+good and back light output says not
+
+---------10:08----------
+short it to ground so at this point I
+
+---------10:10----------
+think I'm good - try the board and see
+
+---------10:13----------
+if it works so let's see what do you
+
+---------10:16----------
+think I get back light or fire back
+
+---------10:21----------
+light or fire
+
+---------10:47----------
+okay so I'm gonna plug the screen in you
+
+---------10:51----------
+plug the power n now let me give me five
+
+---------11:02----------
+minutes
+
+---------11:04----------
+either I plugged the fanon and the DCN
+
+---------11:10----------
+board cable and let's see what we get on
+
+---------11:13----------
+the screen the other thing that I think
+
+---------11:14----------
+would be smart to do and something that
+
+---------11:16----------
+you should do whenever you have a no
+
+---------11:17----------
+backlight problem just to rule out the
+
+---------11:20----------
+screen is make sure that you have a
+
+---------11:22----------
+backlight and make sure that there's no
+
+---------11:24----------
+short to ground after you plug the
+
+---------11:25----------
+screen in because if you have it short
+
+---------11:28----------
+to ground after you plug the screen and
+
+---------11:29----------
+then you're back to the original fault
+
+---------11:30----------
+case so I have plugged the screen in and
+
+---------11:35----------
+my measurement here is 0.5 to 1 no short
+
+---------11:43----------
+to ground okay so let's do this I am
+
+---------11:49----------
+confident that this will have a
+
+---------11:51----------
+backlight oh you're a 2013 you're gonna
+
+---------11:57----------
+turn on turn off turn on turn off turn
+
+---------12:00----------
+on turn off annoying little okay so
+
+---------12:07----------
+this will be a forearm exercise come on
+
+---------12:12----------
+show me a question mark fine don't see
+
+---------12:17----------
+that that's a light I'm good
+
+---------12:20----------
+I have no heatsink plugged in so I'm not
+
+---------12:21----------
+gonna keep that on all day and that's
+
+---------12:24----------
+that sorry with a Haswell ultrabook
+
+---------12:27----------
+processor I'm totally fine with five
+
+---------12:29----------
+seconds without a heatsink in a freezing
+
+---------12:31----------
+room so that's that and I hope that you
+
+---------12:35----------
+learned something
+

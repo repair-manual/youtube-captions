@@ -1,0 +1,619 @@
+https://www.youtube.com/watch?v=m2IpCawa3wg
+---------00:00----------
+hey everybody how's it goin so today
+
+---------00:01----------
+we're gonna get started on a 1398 that's
+
+---------00:03----------
+not powering on the customer says that
+
+---------00:04----------
+it was kernel panicking for a really
+
+---------00:06----------
+long time and then eventually stopped
+
+---------00:07----------
+turning on this is the model that's
+
+---------00:09----------
+known for its you 8900 chip defect where
+
+---------00:11----------
+the chip dead powers the controls the
+
+---------00:14----------
+power supply for the graphics card will
+
+---------00:16----------
+come off the board not the graphics chip
+
+---------00:18----------
+itself but the chip that powers the GPU
+
+---------00:21----------
+so let's see if that's what's happening
+
+---------00:24----------
+here is it could be that or it could be
+
+---------00:26----------
+something else that's keeping because
+
+---------00:27----------
+sometimes people can't really tell if
+
+---------00:29----------
+their machine is turning on or not think
+
+---------00:32----------
+about it these things turn on with the
+
+---------00:33----------
+fans very quiet they don't have a little
+
+---------00:34----------
+notification LED like they used to have
+
+---------00:36----------
+on the top and so let's plug in the
+
+---------00:41----------
+power supply and see what happens
+
+---------00:43----------
+so it looks like this is taking 283
+
+---------00:47----------
+milliamps which is a strange number
+
+---------00:49----------
+that's often the number that's taken
+
+---------00:51----------
+when pbht three hot is shorted to ground
+
+---------00:52----------
+let's see if that's the case here I mean
+
+---------00:55----------
+have my multimeter in voltage mode let's
+
+---------01:02----------
+say we get one point 7 volts and the
+
+---------01:03----------
+good old P P bus g3r that is very short
+
+---------01:07----------
+of what we're actually supposed to be
+
+---------01:08----------
+getting so let's see if we have a short
+
+---------01:12----------
+to ground on keeping us you know do this
+
+---------01:17----------
+there's this sister grounds on P P bus
+
+---------01:19----------
+is 30 SC 32 arms
+
+---------01:27----------
+32 38 39 at that's kinda that's a
+
+---------01:34----------
+short-circuit right there so it's not a
+
+---------01:35----------
+total short-circuit but it's enough of a
+
+---------01:37----------
+short-circuit yeah let's take the board
+
+---------01:40----------
+out of this machine and see what we can
+
+---------01:42----------
+do it
+
+---------01:43----------
+283 milliamps I'm thinking if there's a
+
+---------01:45----------
+PP bus short 280 milliamps has got to be
+
+---------01:47----------
+visible on here
+
+---------02:40----------
+it's the whole area it's gonna be one of
+
+---------02:43----------
+them damn transistors
+
+---------02:53----------
+30 Celsius 33
+
+---------03:08----------
+one of the transistors in the GPU buck
+
+---------03:10----------
+converters was doing it
+
+---------03:49----------
+which one is it
+
+---------04:26----------
+now this I can't put more than a volt
+
+---------04:28----------
+into because if it is actually shorter
+
+---------04:30----------
+that means I'm going to be sending two
+
+---------04:32----------
+volts to the GPU and that's very bad
+
+---------04:42----------
+yeah pp buses shorted and getting to two
+
+---------04:45----------
+volts this is the only area that's hot
+
+---------04:47----------
+it's got to be one of these GPU MOSFETs
+
+---------04:50----------
+it's got to be if he was having random
+
+---------04:53----------
+crashes and then it died as a GPU
+
+---------04:54----------
+monster I'm going in I'm going in
+
+---------05:11----------
+oh yeah
+
+---------06:24----------
+[Music]
+
+---------07:10----------
+[Music]
+
+---------07:44----------
+let's see if our short-circuit is still
+
+---------07:45----------
+there
+
+---------07:48----------
+don't be thirty-nine ohms all right so
+
+---------07:51----------
+it looks like we're in the kilohms now
+
+---------07:52----------
+rather than the ohms so it was those
+
+---------07:55----------
+transistors that were shorted and if we
+
+---------07:57----------
+take a look at aboard you for an 8 to 0
+
+---------08:00----------
+39 in 33 32 the Paul Daniels software
+
+---------08:05----------
+should have it in vertical view because
+
+---------08:07----------
+drunk so those transistors were removed
+
+---------08:11----------
+q 89 30 q 89 61 q 89 31
+
+---------08:16----------
+these are transistors for the GPU buck
+
+---------08:18----------
+converter so this is going to be
+
+---------08:19----------
+responsible for creating GPU V core now
+
+---------08:22----------
+one of them what means that this may
+
+---------08:23----------
+have shorted as I said on this board the
+
+---------08:25----------
+GPU buck converter chip itself actually
+
+---------08:27----------
+starts to become D soldered from the
+
+---------08:29----------
+board and when that happens it could
+
+---------08:33----------
+cause those transistors to malfunction
+
+---------08:36----------
+which most likely happened here let's
+
+---------08:39----------
+see what the solder joints there look
+
+---------08:40----------
+like let's see what that is beautiful
+
+---------08:44----------
+look at that pure Apple Inc right there
+
+---------09:05----------
+so we're gonna replace those transistors
+
+---------09:07----------
+and also reefs out of this chip and then
+
+---------09:08----------
+this gentleman should have less GPU
+
+---------09:10----------
+crashing if any at all and also it'll
+
+---------09:12----------
+turn on because P P brush g3 how it
+
+---------09:14----------
+won't be short it's a ground by really
+
+---------09:16----------
+bad GPU viekera MOSFETs
+
+---------09:27----------
+it's a nice Antec nc5 v 9 v 2 TF lux
+
+---------10:06----------
+okay this works
+
+---------10:09----------
+that's beautiful
+
+---------10:15----------
+now we are going to move some of that
+
+---------10:18----------
+flux away
+
+---------10:27----------
+now create some nice solder joints over
+
+---------10:35----------
+here I saw a soul there's some new
+
+---------10:37----------
+transistors to the board
+
+---------10:53----------
+so I decided as part of the board
+
+---------10:55----------
+because this is gonna have a very high
+
+---------10:57----------
+thermal mass you have to realize that
+
+---------10:59----------
+the GPU is going to be using thirty five
+
+---------11:04----------
+forty five watts so this section of the
+
+---------11:07----------
+board has to pass a lot of power
+
+---------11:17----------
+and in order for the solder to stick to
+
+---------11:19----------
+the pad that's good that's got to get
+
+---------11:20----------
+hot but the entire board is absorbing
+
+---------11:24----------
+the heat think you like the difference
+
+---------11:27----------
+between punching without your body and
+
+---------11:28----------
+then punching using all putting your
+
+---------11:31----------
+body into the punch
+
+---------13:01----------
+hello
+
+---------13:20----------
+hi aurilla
+
+---------13:23----------
+boy I was trying to turn my camera gear
+
+---------13:25----------
+off he's putting his foot on the foot
+
+---------13:26----------
+pedal for the power it's everything
+
+---------13:46----------
+franchising the repair shop that's a bad
+
+---------13:48----------
+idea the thing is this is the ultimate
+
+---------13:51----------
+anti franchise business it really is
+
+---------13:53----------
+there's like the the main selling point
+
+---------13:56----------
+we have over all the other people is
+
+---------13:58----------
+that we know what the [ __ ] were doing in
+
+---------13:59----------
+the franchises of the places that you
+
+---------14:01----------
+know our long screwing [ __ ] and
+
+---------14:03----------
+outsourcing crap would all it needs is a
+
+---------14:05----------
+trackpad cable so what I'd rather do is
+
+---------14:08----------
+I'd like I don't mind growing the place
+
+---------14:10----------
+so that we get a lot of business I'm ok
+
+---------14:12----------
+with that again that's why I'm looking
+
+---------14:13----------
+at a 2,200 square foot space that are
+
+---------14:15----------
+moving into and that's why I'm working
+
+---------14:17----------
+until you know 3:00 2:00 in the morning
+
+---------14:21----------
+in order to pay for that and make that
+
+---------14:23----------
+happen
+
+---------14:23----------
+but I want it to be a place of the best
+
+---------14:26----------
+of the best in the business and I want
+
+---------14:28----------
+to foster an environment where I'm
+
+---------14:29----------
+working with the best of the best and I
+
+---------14:32----------
+can attract the best of the best and I
+
+---------14:34----------
+can look over you know I don't want to
+
+---------14:36----------
+micromanage everybody but I don't want
+
+---------14:37----------
+it to be some kind of hands-off [ __ ]
+
+---------14:39----------
+where I show up once a year after doing
+
+---------14:40----------
+an interview with somebody and I'd like
+
+---------14:42----------
+a little bit more input in that if my
+
+---------14:45----------
+name's attached to it
+
+---------16:20----------
+rapid cool technology so we're gonna do
+
+---------16:26----------
+here is see if this thing gives us a
+
+---------16:28----------
+picture on the screen now and also turns
+
+---------16:30----------
+on do we still have a short on P P bus
+
+---------16:32----------
+all that good stuff hopefully it works
+
+---------16:37----------
+show me a question mark folder baby
+
+---------16:43----------
+let's see if this thing gives me a
+
+---------16:45----------
+question mark folder all right question
+
+---------16:48----------
+mark folder so you can see we got a
+
+---------16:49----------
+question mark folder so this seems to
+
+---------16:50----------
+work so this customer said that the
+
+---------16:52----------
+issue they were having with this machine
+
+---------16:53----------
+is that it was turning on and then
+
+---------16:55----------
+turning off having your standard
+
+---------16:57----------
+graphics kernel panicking which happens
+
+---------16:58----------
+at this machine because the GPU buck
+
+---------17:00----------
+converted ship starts to come desolder
+
+---------17:02----------
+from the board as the board warps inside
+
+---------17:03----------
+the casing however he also had a
+
+---------17:05----------
+different problem which is that it
+
+---------17:06----------
+stopped turning up I was kind of curious
+
+---------17:08----------
+did you mean actually stop turning on it
+
+---------17:10----------
+do you mean it's turning on but no video
+
+---------17:12----------
+on the screen and you can't tell if it's
+
+---------17:13----------
+turning on because it has no status LEDs
+
+---------17:15----------
+on it and it was actually not turning on
+
+---------17:17----------
+I opened it up and I see that there's a
+
+---------17:19----------
+short I'm to ground PP but g3 huh that's
+
+---------17:21----------
+the main power line twelve point six
+
+---------17:22----------
+volts it comes from the battery and the
+
+---------17:24----------
+charger that sure makes it as well that
+
+---------17:25----------
+power line is where every other line in
+
+---------17:27----------
+the system is typically going to come
+
+---------17:29----------
+from including GPU graph V core now when
+
+---------17:32----------
+we use the thermal camera to try to
+
+---------17:33----------
+figure out where the short was the part
+
+---------17:34----------
+that was getting hot were the three
+
+---------17:36----------
+MOSFETs that were actually creating
+
+---------17:37----------
+power for the GPU so what I'm guessing
+
+---------17:40----------
+happened is that when the GPU V core
+
+---------17:42----------
+controller chip started to die maybe it
+
+---------17:44----------
+started to tell the MOSFETs to do things
+
+---------17:46----------
+they shouldn't been doing which resulted
+
+---------17:48----------
+in those MOSFETs dying as well so we
+
+---------17:50----------
+redid the transistors we just wiped them
+
+---------17:54----------
+off the board and replace them but at
+
+---------17:55----------
+the same time we also redid the
+
+---------17:57----------
+soldering on the GPU buck converter chip
+
+---------17:59----------
+controller so that this would not happen
+
+---------18:02----------
+again and this is all that needs to be
+
+---------18:04----------
+do is ultrasonic now cleaned up a little
+
+---------18:06----------
+bit the fan grommet that the customer
+
+---------18:09----------
+appears to have long screwed needs to be
+
+---------18:10----------
+put back on the board and then this will
+
+---------18:11----------
+be ready to be sent back to the customer
+
+---------18:13----------
+so that's it for today and as always I
+
+---------18:14----------
+hope that you have learned something
+

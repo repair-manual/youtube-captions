@@ -1,0 +1,460 @@
+https://www.youtube.com/watch?v=Qil4DzBgm3I
+---------00:00----------
+welcome to phone Mart how may I help you
+
+---------00:03----------
+iPhone 4 where is the iPhone 4 I need an
+
+---------00:06----------
+iPhone 4s let the MacBooks pile up your
+
+---------00:09----------
+health is more important no actually it
+
+---------00:11----------
+isn't
+
+---------00:12----------
+let's see what's wrong with little
+
+---------00:13----------
+MacBook little MacBook is only taking 9
+
+---------00:16----------
+milliamp s' why is little MacBook only
+
+---------00:19----------
+taking 9 mill amps
+
+---------00:20----------
+one way to find out let's get this
+
+---------00:22----------
+MacBook Board out of here and now the
+
+---------00:24----------
+MacBook is taking thirty five milliamps
+
+---------00:25----------
+but not turning on
+
+---------00:27----------
+let's check the power rails on this
+
+---------00:28----------
+MacBook the first thing we're going to
+
+---------00:30----------
+do is go through the list of power rails
+
+---------00:31----------
+let's check our PP bus PP Buster III
+
+---------00:34----------
+Hunt is supposed to be eight point six
+
+---------00:36----------
+volts if you go to the other side of the
+
+---------00:39----------
+board and we check our PP bus what do we
+
+---------00:45----------
+get eight point six volts on PP bus next
+
+---------00:50----------
+round PP v RTC underscore g3 hot
+
+---------00:53----------
+let's do we get on this one alright 3.3
+
+---------00:57----------
+volts next up PP 5 vs 5 5 volts
+
+---------01:04----------
+pp 5 vs 4 appears to be missing and it's
+
+---------01:12----------
+not being told to turn on imagine that
+
+---------01:15----------
+so p.m. sleep s4l is missing on this
+
+---------01:18----------
+board let's see if it's pulsing so we're
+
+---------01:21----------
+gonna check over here for the enable do
+
+---------01:25----------
+you pulse my friend
+
+---------01:32----------
+aha and now we have corrosion here is
+
+---------01:37----------
+the reason that perhaps we are not
+
+---------01:39----------
+getting tall Singh look at that what's
+
+---------01:42----------
+this this is you 1950 your 1950 is going
+
+---------01:46----------
+to be to logic gates in one this logic
+
+---------01:49----------
+gate says if all says power good and CPU
+
+---------01:52----------
+V arm power go to present send out p.m.
+
+---------01:56----------
+SOP good and if p.m. SOP good or present
+
+---------01:59----------
+an SMC delay power get a present from
+
+---------02:00----------
+the SMC then allow sis power ok to come
+
+---------02:05----------
+out and go to the PCH this signal is
+
+---------02:08----------
+going to be needed p.m. PCH power ok is
+
+---------02:11----------
+important for many things p.m. PCH power
+
+---------02:15----------
+ok is going to be one of the signals in
+
+---------02:16----------
+the PCH system power management section
+
+---------02:18----------
+and remember we need all of the inputs
+
+---------02:21----------
+in order to get all of the outputs and
+
+---------02:24----------
+one of the outputs on this side is PM
+
+---------02:26----------
+sleep s4l p.m. sleep s4l is going to be
+
+---------02:31----------
+what turns on my 5 volt rail here so if
+
+---------02:35----------
+we look by 5 volt as for rail is not
+
+---------02:39----------
+turning on over here that turns on or is
+
+---------02:43----------
+enabled 1 p 5 vs 4 RS 3 p good as
+
+---------02:46----------
+present p 5 vs 4 RS 3 p good is going to
+
+---------02:54----------
+come p 5 vs 4 RS 3 enable
+
+---------03:13----------
+and that comes from PM's leave s4l so
+
+---------03:16----------
+this is going to explain our entire
+
+---------03:18----------
+problem right here
+
+---------03:24----------
+[Applause]
+
+---------03:31----------
+burn corroded ship burned
+
+---------04:06----------
+now of the eight pads here which is the
+
+---------04:10----------
+one that's corroded the one that's
+
+---------04:13----------
+corroded appears to be pad responsible
+
+---------04:19----------
+for power so we take a look on a board
+
+---------04:23----------
+view software here the pp3 before to
+
+---------04:25----------
+underscore g3 hard power pad one that
+
+---------04:27----------
+delivers power is the one that is broke
+
+---------04:38----------
+I do
+
+---------04:41----------
+what
+
+---------04:45----------
+now
+
+---------04:47----------
+no I didn't write on any battery yet
+
+---------05:07----------
+this conical tip is disgusting
+
+---------06:17----------
+we have revealed the pad
+
+---------06:27----------
+now we're gonna take a chip from a donor
+
+---------06:37----------
+all right that's gonna settle in a place
+
+---------06:39----------
+in a moment
+
+---------06:49----------
+beautiful
+
+---------06:55----------
+push down on the board
+
+---------07:27----------
+as can be seen the fan spins which means
+
+---------07:31----------
+that we're done with our worked here
+
+---------07:32----------
+today so this board was missing p.m.
+
+---------07:35----------
+sleep s4l we went through the list of
+
+---------07:37----------
+powell rails pp5 es 4 RS 3 was missing
+
+---------07:40----------
+when we looked we noticed that the
+
+---------07:42----------
+enable was missing that enable tracks
+
+---------07:44----------
+back to p.m. sleep s4l which comes from
+
+---------07:46----------
+the cpu / PCH which usually means short
+
+---------07:51----------
+to ground somewhere bios or spi ROM
+
+---------07:53----------
+traces broken so it's not communicating
+
+---------07:55----------
+and initiating the PCH to turn on these
+
+---------07:57----------
+rails or CPUs dead in this case it wound
+
+---------08:01----------
+up being you 1950 was broken and missing
+
+---------08:04----------
+the 3 point 42 volts going to the chip
+
+---------08:06----------
+so he restored it and it worked and
+
+---------08:09----------
+here's the funny part II is the really
+
+---------08:11----------
+interesting part of this entire scenario
+
+---------08:12----------
+p.m. sleep best for all was missing
+
+---------08:14----------
+right well typically you need p.m. sleep
+
+---------08:17----------
+s4l to be present before p.m. PCH power
+
+---------08:21----------
+ok comes to be present so let me show
+
+---------08:23----------
+you this so this is responsible for
+
+---------08:27----------
+taking all this power good and CPU VRP
+
+---------08:30----------
+good and making p.m. SOP good and then
+
+---------08:33----------
+if p.m. sop good is present with SMC
+
+---------08:35----------
+delayed power good then you get p.m. PCH
+
+---------08:38----------
+says power ok but keep in mind all
+
+---------08:41----------
+sisters not going to show up until
+
+---------08:43----------
+you're in an Esso state and if we're
+
+---------08:45----------
+missing p.m. sleep s4l then we're not
+
+---------08:47----------
+even in the nest for state so how is it
+
+---------08:49----------
+that p.m. sleep s4 L was not showing up
+
+---------08:52----------
+because a chip was broken that creates a
+
+---------08:56----------
+signal that only shows up when you're in
+
+---------08:58----------
+an Esso state I repeat you need to be in
+
+---------09:01----------
+an Esso state to have all sis pal good
+
+---------09:04----------
+be present this chip is only going to
+
+---------09:06----------
+create these signals if you're in an
+
+---------09:07----------
+Esso state that chip being damaged
+
+---------09:10----------
+caused us to not even be in an s4 state
+
+---------09:14----------
+I don't get it but I don't need to know
+
+---------09:20----------
+because I made the fan spin see see you
+
+---------09:26----------
+think I'm smart I'm not I'm a janitor I
+
+---------09:29----------
+walk across the board with my little mop
+
+---------09:32----------
+and my mr. clean I just do it in a
+
+---------09:34----------
+microscope is all and you think I'm
+
+---------09:36----------
+special for that because I do it in a
+
+---------09:38----------
+microscope and you do it in the aisles
+
+---------09:40----------
+of Walgreens but it's
+
+---------09:41----------
+all the same principle I have no idea
+
+---------09:44----------
+why this works
+
+---------09:45----------
+I really don't and I probably won't for
+
+---------09:48----------
+a very long time again just to be clear
+
+---------09:51----------
+here all sisterhood this signal is not
+
+---------09:55----------
+present until we're in an Esso state
+
+---------09:56----------
+this this chip take CPU VRP good and
+
+---------10:00----------
+also spare good and makes p.m. SOP good
+
+---------10:03----------
+of it and then takes PM sop good and SMC
+
+---------10:06----------
+delayed power good and makes p.m. sis
+
+---------10:08----------
+PCH power ok our problem with this board
+
+---------10:12----------
+was that we were missing an s4 line
+
+---------10:15----------
+because the enable for the s4 line was
+
+---------10:17----------
+not present how is it that by fixing a
+
+---------10:21----------
+chip area that all only deals with SLE
+
+---------10:24----------
+power signals that we fixed our s4 rail
+
+---------10:29----------
+but I fixed it and that's all that
+
+---------10:31----------
+matters is an adult you don't have to
+
+---------10:33----------
+know why it works you just have to know
+
+---------10:35----------
+that it works and then you can collect
+
+---------10:37----------
+the money with that we move on to the
+
+---------10:39----------
+next board repair I also want an iPhone
+
+---------10:42----------
+4 don't even get me started with that
+
+---------10:45----------
+ where is my iPhone 4 I want an
+
+---------10:48----------
+iPhone 4 get the out of my store
+

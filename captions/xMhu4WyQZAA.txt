@@ -1,0 +1,1042 @@
+https://www.youtube.com/watch?v=xMhu4WyQZAA
+---------00:00----------
+today I'm gonna go over a very very
+
+---------00:01----------
+common fault on on no backlight issues
+
+---------00:06----------
+on unibody MacBook Pros and also the air
+
+---------00:08----------
+machines and that is the feedback trace
+
+---------00:10----------
+being disconnected so one of the things
+
+---------00:14----------
+that Hanigan
+
+---------00:14----------
+you should not apply the solution to
+
+---------00:16----------
+your problem if your problems a
+
+---------00:17----------
+different one but one of the things that
+
+---------00:19----------
+happens very often is that the feedback
+
+---------00:21----------
+trace is missing going back to the
+
+---------00:25----------
+backlight boost I see so in this case
+
+---------00:27----------
+this is a 2013 model MacBook Air so
+
+---------00:30----------
+let's take a look at how this thing
+
+---------00:31----------
+works so you have 12 volts coming or 8
+
+---------00:33----------
+volts in the case of this machine coming
+
+---------00:35----------
+in through here and that is going to get
+
+---------00:37----------
+combined with the boost of the boost
+
+---------00:41----------
+backlight boost circuit so that's this
+
+---------00:43----------
+over here now this is going to go
+
+---------00:46----------
+through a diode and after the diode is
+
+---------00:48----------
+pph VSOs w LCD backlight or PP vo + SW
+
+---------00:52----------
+backlight whatever it is it's different
+
+---------00:54----------
+from board to board but the point is
+
+---------00:55----------
+right over here you gonna see something
+
+---------00:56----------
+that seems like backlight output that's
+
+---------00:58----------
+gonna go straight to your LVDS connector
+
+---------00:59----------
+or in this case your DisplayPort
+
+---------01:01----------
+connector which connects to your screen
+
+---------01:02----------
+and puts out a happy 31 or something
+
+---------01:05----------
+volts of backlight now over here is
+
+---------01:07----------
+something called a feedback tray so what
+
+---------01:08----------
+this does is it it pretty much tells the
+
+---------01:10----------
+lp 8550 how what it's doing so what the
+
+---------01:14----------
+lp 8550 is doing this year but that's
+
+---------01:16----------
+gonna be combining with this other
+
+---------01:17----------
+voltage here and you know on the other
+
+---------01:19----------
+side of the diode now it actually wants
+
+---------01:22----------
+to know look what it's doing if it
+
+---------01:24----------
+doesn't know what it's doing it's gonna
+
+---------01:25----------
+stop working and not do so right
+
+---------01:28----------
+here you have a trace where there's
+
+---------01:29----------
+gonna be a lot of power going through it
+
+---------01:31----------
+because this is pretty much the highest
+
+---------01:33----------
+voltage you have in the entire machine
+
+---------01:34----------
+as you can see over here it can it can
+
+---------01:36----------
+go upwards of 50 volts so right over
+
+---------01:38----------
+here this voltage 50 it's not really
+
+---------01:40----------
+gonna go that high but it has the
+
+---------01:42----------
+potential to and if you get liquid if
+
+---------01:44----------
+you get liquid on this machine while the
+
+---------01:46----------
+backlight is all the way up in the right
+
+---------01:47----------
+spot it will just it will skull-fuck and
+
+---------01:50----------
+ruin everything
+
+---------01:50----------
+so let me show you what one of the first
+
+---------01:54----------
+hints here that my feedback trace was
+
+---------01:56----------
+going to be destroyed
+
+---------02:05----------
+as you can see now under the microscope
+
+---------02:09----------
+this area is very up looking i
+
+---------02:13----------
+also scraped away to try to get to the
+
+---------02:15----------
+feedback trace but as you can see over
+
+---------02:16----------
+here there's no probe point now that is
+
+---------02:18----------
+the boost diode over there so that was
+
+---------02:20----------
+the d7 7:01 so that is the boost I out
+
+---------02:24----------
+on the bottom now on the board view over
+
+---------02:30----------
+here you're not gonna be able to see any
+
+---------02:32----------
+of this crap so you just have to trust
+
+---------02:33----------
+me that little trace that is missing
+
+---------02:39----------
+which is right here is okay let's zoom
+
+---------02:47----------
+this software sucks so bad ice well my
+
+---------02:50----------
+god it sucks this is such useless
+
+---------02:53----------
+software except for the fact that it
+
+---------02:55----------
+allows me to do my job okay so this
+
+---------02:59----------
+little crap over here is pp vou TSW LCD
+
+---------03:03----------
+beck let feedback so this here is the
+
+---------03:05----------
+feedback trace so now when I see that I
+
+---------03:08----------
+have an idea that this circuit is my
+
+---------03:11----------
+feedback is missing now one of the cool
+
+---------03:13----------
+things you can do with this software one
+
+---------03:14----------
+of the very very few redeeming qualities
+
+---------03:16----------
+of this piece-of-junk is that it allows
+
+---------03:20----------
+me to my bluetooth mouse dad
+
+---------03:26----------
+say about that
+
+---------03:28----------
+so yeah that's now one of the cool
+
+---------03:29----------
+things about this software is that I can
+
+---------03:31----------
+actually find every single point on the
+
+---------03:32----------
+motherboard and that that has feedback
+
+---------03:35----------
+and this is something that is pretty
+
+---------03:38----------
+cool pp vou TSW LCD bouquet OT feedback
+
+---------03:43----------
+now after doing this I was very very sad
+
+---------03:47----------
+to find out that the only points on the
+
+---------03:50----------
+board where that exists are on that pad
+
+---------03:54----------
+that doesn't exist and underneath the
+
+---------03:59----------
+ backlight ship because on this
+
+---------04:01----------
+board on the newer one on the ones that
+
+---------04:04----------
+are not retina is on the one but on the
+
+---------04:05----------
+newer Aires and on the and on the old
+
+---------04:09----------
+newer unibody that is under the chip
+
+---------04:12----------
+that is that is that is right right
+
+---------04:15----------
+there that sucks I'm gonna post some
+
+---------04:17----------
+pictures
+
+---------04:18----------
+what it is I did and I'm also going to
+
+---------04:19----------
+show you here in the microscope what I
+
+---------04:21----------
+did to get that done
+
+---------04:23----------
+let me just wheel my chair over without
+
+---------04:27----------
+going over this wire
+
+---------04:37----------
+you
+
+---------05:51----------
+all right so this over here is the
+
+---------05:55----------
+backlight output so I was clicking
+
+---------05:57----------
+around to try to find a probe point so I
+
+---------05:58----------
+would have to run a wire to the other
+
+---------05:59----------
+side of the board those to our backlight
+
+---------06:02----------
+output so I ran the wire around here all
+
+---------06:06----------
+the way underneath the chip and this is
+
+---------06:09----------
+this is what you got Ennis
+
+---------06:21----------
+see that now one of the short now in my
+
+---------06:25----------
+case it was obvious because as I said
+
+---------06:26----------
+now you can see what my feedback looked
+
+---------06:30----------
+like over here I mean it looked like it
+
+---------06:33----------
+was destroyed but it's not always gonna
+
+---------06:37----------
+be that easy
+
+---------06:37----------
+yeah ghin like you can see that that
+
+---------06:40----------
+that probe point is totally missing it
+
+---------06:42----------
+got burnt to hell and back one of the
+
+---------06:45----------
+things you can do to give yourself an
+
+---------06:47----------
+idea is use your multimeter now you can
+
+---------06:53----------
+now the thing is when that feedback
+
+---------06:55----------
+point is in the trace exists and there
+
+---------06:58----------
+is feedback between it so when that
+
+---------07:00----------
+feedback trace exists in the circuit and
+
+---------07:02----------
+when the output of back light is
+
+---------07:04----------
+attached to this chip there's going to
+
+---------07:07----------
+be a different reading when you measure
+
+---------07:09----------
+the output of the chip to ground in
+
+---------07:11----------
+resistance mode or in diode mode so what
+
+---------07:14----------
+I'm looking for here is usually 0.5 to
+
+---------07:16----------
+6.5 31 I got 0.53 3 again it's not it's
+
+---------07:22----------
+always gonna be a little bit different
+
+---------07:23----------
+it's always going to be a little bit
+
+---------07:25----------
+different even on boards that are the
+
+---------07:27----------
+same because these chips all have
+
+---------07:28----------
+different tolerances they've all been
+
+---------07:30----------
+abused differently etc etc you know your
+
+---------07:32----------
+multimeter may feel different that day
+
+---------07:34----------
+so over here I get 0.533 I'm expecting
+
+---------07:37----------
+two point five two six two point five
+
+---------07:39----------
+three one I'm happy with that before I
+
+---------07:42----------
+was getting something very very low now
+
+---------07:45----------
+again this chip over here this chip over
+
+---------07:47----------
+here it goes to ground and as I've said
+
+---------07:50----------
+in the previous video everything has to
+
+---------07:52----------
+go to ground in an electrical circuit in
+
+---------07:54----------
+order for it to actually working
+
+---------07:55----------
+somewhere in that circuit there has to
+
+---------07:57----------
+be a connection to ground in order to
+
+---------07:58----------
+complete the circuit there's to be a
+
+---------08:00----------
+connection to ground or there has to be
+
+---------08:01----------
+a connection to something below ground
+
+---------08:03----------
+you know like minus 15 minus 120
+
+---------08:06----------
+whatever it is so that you can actually
+
+---------08:07----------
+have a circuit that works there has to
+
+---------08:09----------
+be someplace for the electricity to go
+
+---------08:11----------
+for to want to go you know if I'm
+
+---------08:13----------
+connecting feedback to here somewhere
+
+---------08:15----------
+I'm gonna get some kind of connection to
+
+---------08:17----------
+ground or I'm gonna get a decreased
+
+---------08:19----------
+connection to ground whatever it is that
+
+---------08:21----------
+value between the output of the circuit
+
+---------08:23----------
+which is here and ground is going to
+
+---------08:25----------
+change based on whether I have other
+
+---------08:27----------
+connections going to this to this boost
+
+---------08:30----------
+I see so if you measure here on a board
+
+---------08:33----------
+that works and then you
+
+---------08:35----------
+measure on board that the board that
+
+---------08:36----------
+you're working on you get a massively
+
+---------08:38----------
+different reading you have an idea this
+
+---------08:40----------
+is you know this is some place where I
+
+---------08:42----------
+should start or now I know that I have a
+
+---------08:44----------
+problem with this circuit and if you
+
+---------08:46----------
+think you have a problem with the
+
+---------08:47----------
+feedback trays before you go nuts and
+
+---------08:49----------
+lift the chip and put a wire into there
+
+---------08:51----------
+you can just measure it again if you
+
+---------08:53----------
+measure and you measure on a good board
+
+---------08:54----------
+and you get point five three two and on
+
+---------08:56----------
+your board you get point five three
+
+---------08:57----------
+three there's no point in driving
+
+---------08:59----------
+yourself nuts the problem is elsewhere
+
+---------09:01----------
+maybe you have a blown fuse maybe you
+
+---------09:02----------
+have a bad screen cable you know often
+
+---------09:04----------
+blown fuse but but if you get a reading
+
+---------09:07----------
+that's like point five eight - but like
+
+---------09:09----------
+point you know six or point four eight
+
+---------09:12----------
+four then you know that you need to you
+
+---------09:15----------
+know check this out now the way I did
+
+---------09:17----------
+that was the first thing is I used a
+
+---------09:20----------
+broken screen cable so the two wires
+
+---------09:22----------
+that I like to use when doing these
+
+---------09:23----------
+types of work the first thing that I use
+
+---------09:26----------
+is mole that mold dominium crap that you
+
+---------09:30----------
+use aa knife to get rid of Samsung glass
+
+---------09:32----------
+on the phone I use that a lot because
+
+---------09:35----------
+it's very sturdy it's very thick but
+
+---------09:38----------
+here that would have been too much so
+
+---------09:40----------
+the problem here is that this is a ball
+
+---------09:42----------
+grid array chip and if I put that wire
+
+---------09:44----------
+into there with that thickness it
+
+---------09:46----------
+would've actually lifted the chip up so
+
+---------09:47----------
+that might as well stare so the problem
+
+---------09:52----------
+I would have had there is it would have
+
+---------09:53----------
+been lifting the chip up and if I have
+
+---------09:55----------
+that lifting the chip up so the problem
+
+---------09:57----------
+if I'd use that mold denim wire is it
+
+---------09:59----------
+would have actually been lifting the
+
+---------10:00----------
+chip because when I would have put the
+
+---------10:02----------
+chip there and soldered it if that wire
+
+---------10:03----------
+came out it would have made the entire
+
+---------10:05----------
+trip to this and all the balls would
+
+---------10:06----------
+have made contact with the board so what
+
+---------10:08----------
+I use is this this is a screen cable for
+
+---------10:11----------
+an a 1150 MacBook Pro from 2006 I have a
+
+---------10:15----------
+ton of these these computers are
+
+---------10:16----------
+completely completely worthless garbage
+
+---------10:20----------
+jack they are worthless I
+
+---------10:23----------
+don't even care if those things are
+
+---------10:25----------
+refurbish Apple I don't even care if
+
+---------10:26----------
+they work they make Android phones now
+
+---------10:28----------
+probably that kill that thing in
+
+---------10:30----------
+computational power I have no need for
+
+---------10:32----------
+them so I literally had us went in there
+
+---------10:34----------
+I grabbed it I ripped this
+
+---------10:36----------
+screen cable out I don't care if it's
+
+---------10:37----------
+good I need it to make money
+
+---------10:39----------
+the amount of money I'm gonna make
+
+---------10:40----------
+fixing this computer is probably five
+
+---------10:42----------
+times more than that machine is
+
+---------10:43----------
+been worth in the last five years so I
+
+---------10:46----------
+ripped this out and then I start to
+
+---------10:48----------
+strip the wire now there's about twenty
+
+---------10:51----------
+thirty what I don't even remember this
+
+---------10:53----------
+but I think twenty or thirty wires
+
+---------10:54----------
+inside of that one screen cable so you
+
+---------10:57----------
+cut it up like so and then you strip it
+
+---------11:01----------
+back so I'm using X light 175 M I'm not
+
+---------11:05----------
+using wire strippers that are made for
+
+---------11:07----------
+this I don't even think they make wire
+
+---------11:08----------
+strippers that I made for wires that are
+
+---------11:09----------
+this then so I just do it by hand and by
+
+---------11:11----------
+I side with my X alight 175 M this is
+
+---------11:15----------
+about a ten eleven dollar tool that's
+
+---------11:16----------
+very worth having you can just you can
+
+---------11:17----------
+get rid of stripped screws with it and
+
+---------11:19----------
+you can also strip wires with it and
+
+---------11:21----------
+then I after I've taken this apart and
+
+---------11:24----------
+I've split so that I have one single
+
+---------11:26----------
+cable then I take one strand of that
+
+---------11:30----------
+cable so I take that one little strand
+
+---------11:32----------
+of this wire which I don't even
+
+---------11:34----------
+think this camera as good as it is
+
+---------11:36----------
+you're gonna be able to see like look at
+
+---------11:37----------
+it look at that it's not focusing on
+
+---------11:39----------
+that it's focusing on me let's see if I
+
+---------11:41----------
+get out of the way yeah you're never
+
+---------11:43----------
+gonna see this and I say yeah I
+
+---------11:46----------
+take that and then I solder it in now
+
+---------11:48----------
+what I do is I lifted the old backlight
+
+---------11:51----------
+I see and I ten all the pads properly
+
+---------11:55----------
+and then I solder this wire there now
+
+---------11:58----------
+one of the ways that I keep this wire on
+
+---------12:00----------
+the board I have a solder that has no
+
+---------12:02----------
+clean flux inside of it so I use Kester
+
+---------12:04----------
+leaded solder but I also buy the solder
+
+---------12:06----------
+when you go to all - spec com that's all
+
+---------12:08----------
+- spec com - by solder to do this type
+
+---------12:11----------
+of work with you can actually choose the
+
+---------12:13----------
+type of flux inside that you want you
+
+---------12:14----------
+want to choose a Kester's leaded solder
+
+---------12:16----------
+with no clean flux now as I said this
+
+---------12:19----------
+flux is what allows the solder to flow
+
+---------12:21----------
+but one of the things cool things about
+
+---------12:23----------
+no clean flux if you use a lot of it it
+
+---------12:25----------
+creates this kind of I don't know how to
+
+---------12:28----------
+say it's like a jelly ish thing on the
+
+---------12:30----------
+motherboard
+
+---------12:37----------
+so you get this jelly is kind of thing
+
+---------12:39----------
+on the board and it's actually gonna
+
+---------12:42----------
+allow this to stick and stay there good
+
+---------12:44----------
+as you may imagine you're not moving
+
+---------12:45----------
+this why our tweezers like there I've
+
+---------12:47----------
+never found the set of tweezers that
+
+---------12:48----------
+actually allow you to physically grab
+
+---------12:50----------
+this it's just not happening if you try
+
+---------12:52----------
+to grab with your hand you're just gonna
+
+---------12:53----------
+rage so what I do is I simply I put a
+
+---------12:56----------
+bunch of that solder on the board I
+
+---------12:58----------
+weigh and I flick it away and then
+
+---------13:00----------
+there's a lot of that no clean flux
+
+---------13:01----------
+leftover which is kind of like jelly
+
+---------13:03----------
+--is-- stuff so I push this wire onto
+
+---------13:05----------
+the board and then I slowly move it in
+
+---------13:07----------
+there and then I solder it not to the
+
+---------13:10----------
+middle of the BGA pad i solder it
+
+---------13:12----------
+straight right off to the side because
+
+---------13:14----------
+again I don't want this to I don't want
+
+---------13:16----------
+this wire moving around and up
+
+---------13:18----------
+the ball and moving the ball around so
+
+---------13:20----------
+one of the things you may notice is that
+
+---------13:21----------
+this wire is all the way to the right of
+
+---------13:23----------
+the ball but I make sure that it's
+
+---------13:24----------
+soldered there properly then I put the
+
+---------13:26----------
+BGA chip on top of it and again I clean
+
+---------13:29----------
+the flux I usually clean the flux in
+
+---------13:31----------
+this case I actually left that no clean
+
+---------13:33----------
+flux on there so I left all that gooey
+
+---------13:37----------
+bunkie flux on there so that I with that
+
+---------13:39----------
+backlight IC would not move at all I did
+
+---------13:42----------
+not want that backlight I see moving one
+
+---------13:44----------
+bit after I pushed it on there so I
+
+---------13:46----------
+pushed it on there as hard as I can I
+
+---------13:47----------
+made sure it was aligned and then I
+
+---------13:49----------
+heated it as I usually would and i
+
+---------13:51----------
+soldered it straight to the board I also
+
+---------13:53----------
+while I was working I captain tape they
+
+---------13:55----------
+used that orange heat resistant tape
+
+---------13:56----------
+over this so that I wouldn't desolder it
+
+---------13:59----------
+from those two pads that I soldered it
+
+---------14:02----------
+to so that it would have backlight and
+
+---------14:04----------
+now I have a machine that boots in his
+
+---------14:06----------
+backlight and unfortunately I have a
+
+---------14:08----------
+very very high load of machines to do I
+
+---------14:10----------
+love showing you that it works after
+
+---------14:13----------
+it's done I don't have the time nor the
+
+---------14:15----------
+inclination to do that with this one
+
+---------14:17----------
+because it requires walking over there
+
+---------14:18----------
+and walking back over here and the
+
+---------14:21----------
+people who work here already giving me
+
+---------14:23----------
+funny looks because it's like I'm doing
+
+---------14:25----------
+these videos in the middle of the day
+
+---------14:26----------
+instead of fixing while they are
+
+---------14:27----------
+answering all the phones and I don't
+
+---------14:30----------
+really need an employee revolt on my
+
+---------14:31----------
+hands so I'm gonna go back to work now
+
+---------14:33----------
+hopefully you learned something from
+
+---------14:35----------
+this if you have any questions post them
+
+---------14:36----------
+below and as always hopefully you
+
+---------14:40----------
+learned something
+
+---------14:46----------
+one piece
+

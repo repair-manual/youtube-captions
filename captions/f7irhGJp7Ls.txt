@@ -1,0 +1,526 @@
+https://www.youtube.com/watch?v=f7irhGJp7Ls
+---------00:00----------
+all right so let's check this out so we
+
+---------00:02----------
+have an a 1398 board that won't turn on
+
+---------00:05----------
+so first thing I'm gonna do is plug in
+
+---------00:07----------
+the charger and see what I get and it's
+
+---------00:09----------
+drawing 0.168 amps on my power supply
+
+---------00:12----------
+0.168 amps is actually a really nice
+
+---------00:14----------
+number see if we're drawing 0.02 amps
+
+---------00:18----------
+that would mean that I'm most likely
+
+---------00:20----------
+missing p.m. sleep s4l that's no fun
+
+---------00:23----------
+why are you hissing o p.m. sleep s4l I
+
+---------00:27----------
+have proof I would hiss at that as well
+
+---------00:29----------
+so it's not missing p.m. slave s4l so
+
+---------00:31----------
+I'm not gonna go that doesn't make me
+
+---------00:35----------
+want to hiss we may actually get off
+
+---------00:36----------
+easy with there being some short on some
+
+---------00:38----------
+power rail that's gonna be easy breezy
+
+---------00:40----------
+to figure out so the reaction to
+
+---------00:42----------
+yesterday's video is interesting
+
+---------00:44----------
+actually feel a little bit bad now I
+
+---------00:45----------
+feel a little little little mean I mean
+
+---------00:48----------
+like the guy the guy deserved to get
+
+---------00:50----------
+served but some of the comments he's
+
+---------00:53----------
+getting sheesh somebody's got to
+
+---------00:55----------
+practice how they hit the report spam
+
+---------00:58----------
+button that guy was a [ __ ] since dock
+
+---------01:00----------
+vault yeah that's the thing I tried to
+
+---------01:02----------
+do the video where I was respectfully
+
+---------01:05----------
+stating my case and it started out that
+
+---------01:07----------
+way and by the time I got to the end of
+
+---------01:08----------
+the video I just you can see my patients
+
+---------01:11----------
+went down the further I was going I
+
+---------01:12----------
+started that off with the best of
+
+---------01:14----------
+intentions I started that video off with
+
+---------01:16----------
+the absolute best of intentions and that
+
+---------01:20----------
+is what it turned into
+
+---------01:21----------
+I mean I couldn't that's the thing it's
+
+---------01:25----------
+not I don't care if somebody likes Apple
+
+---------01:27----------
+I don't care if they if you know if you
+
+---------01:29----------
+like Final Cut Pro and logic and you
+
+---------01:30----------
+like iMessage integrating with the
+
+---------01:32----------
+computer that that's great that's cool I
+
+---------01:34----------
+have no problem with that but I don't
+
+---------01:36----------
+like when Apple uses the fact that they
+
+---------01:39----------
+have this great ecosystem to abuse their
+
+---------01:42----------
+customers and to make them think that
+
+---------01:43----------
+there's something wrong with them when
+
+---------01:45----------
+it's actually something wrong with Apple
+
+---------01:46----------
+that bothers me on EP bus g3 hot we get
+
+---------01:49----------
+12 point 57 all right so let's move on
+
+---------01:51----------
+to the next rail PPV RTC g3 hot 3.3 BP 5
+
+---------01:57----------
+es 5 comes next 5 volts and it's
+
+---------02:03----------
+consistent EP 5 vs 4
+
+---------02:13----------
+is there all right so we're in an s4
+
+---------02:15----------
+state let's see is BP 5 es 3 their 0.13
+
+---------02:25----------
+so we're not an s3 state let's try and
+
+---------02:28----------
+figure out why we're not in s3 state
+
+---------02:29----------
+where does PB 5 years 3 come from that's
+
+---------02:32----------
+gonna come from this FET that's gonna
+
+---------02:33----------
+come from P 5 es 3 en el enable all
+
+---------02:36----------
+right so that's gonna come from P 5 es 3
+
+---------02:38----------
+and that's gonna come from p f-- p.m.
+
+---------02:40----------
+sleep best for oh no no no no damn it
+
+---------02:44----------
+Paul's hiss was correct when Paul hissed
+
+---------02:46----------
+it was entirely on point we may be
+
+---------02:48----------
+missing p.m. sleep as for L yes it's
+
+---------02:52----------
+0.05 but that doesn't make any sense
+
+---------02:54----------
+that's not a valid state I say all right
+
+---------02:57----------
+well let's see if P V 3 V 3 s 5 is
+
+---------02:59----------
+present by the way thank you for the 100
+
+---------03:01----------
+rube excellent video on bengay deniers
+
+---------03:03----------
+may ask when and how did you learn about
+
+---------03:05----------
+Tyler Tyler Tyler syv Tech I learned
+
+---------03:08----------
+about tylose I've tech from all of you
+
+---------03:10----------
+commenting constantly for the past three
+
+---------03:12----------
+months saying please respond to this
+
+---------03:15----------
+person and I don't do response videos
+
+---------03:16----------
+it's not my thing but it was the f every
+
+---------03:20----------
+single day somebody would ask and then I
+
+---------03:21----------
+saw I don't thing is I don't care if you
+
+---------03:23----------
+defend Apple products I don't care what
+
+---------03:25----------
+I what I care about is when you say that
+
+---------03:26----------
+it didn't happen
+
+---------03:27----------
+don't deny the experience of the users
+
+---------03:29----------
+don't deny the experience of the abuse
+
+---------03:31----------
+that's all I'm asking it didn't pissed
+
+---------03:33----------
+me off in the sense of you're defending
+
+---------03:34----------
+apples bad products fine whatever
+
+---------03:36----------
+it pissed me off from the sense that
+
+---------03:38----------
+you're denying the experience of the
+
+---------03:40----------
+abuse it's like listening to somebody
+
+---------03:42----------
+defend a you know Chris Brown after he
+
+---------03:44----------
+beat Rihanna that kind of thing some
+
+---------03:46----------
+missing p.m. sleep best for L so p.m.
+
+---------03:48----------
+sleeve s4l is gonna come from the PCH
+
+---------03:50----------
+the PCH is gonna create that signal
+
+---------03:52----------
+that's where it starts and the PCH is
+
+---------03:54----------
+powered by P P 3 V 3 is 5 so we have P P
+
+---------03:57----------
+3 B 3 s 5 but we're missing p.m. sleep s
+
+---------04:00----------
+for L so let's take a look around the
+
+---------04:01----------
+PCH area and see if anything that looks
+
+---------04:03----------
+nasty it's gonna give this board a nice
+
+---------04:04----------
+look over you'll put this thing back
+
+---------04:07----------
+together
+
+---------04:07----------
+ok now let's have a vote let's let chat
+
+---------04:09----------
+decide let's live chat decide all right
+
+---------04:11----------
+check this out now come back here we're
+
+---------04:13----------
+gonna we're gonna see who's the side in
+
+---------04:15----------
+this all right if somebody puts the
+
+---------04:17----------
+machine back together like this is the
+
+---------04:20----------
+person who didn't notice it equally
+
+---------04:21----------
+culpable as the person who did
+
+---------04:23----------
+okay so who did it wait so you're saying
+
+---------04:26----------
+he did it I miss being a one-person
+
+---------04:33----------
+business sometimes holy [ __ ] Daniel says
+
+---------04:35----------
+he didn't but you okay if you see this
+
+---------04:42----------
+if you see the cable plug didn't read
+
+---------04:43----------
+like this if the cable was plugged in
+
+---------04:46----------
+like this instead of the other way
+
+---------04:47----------
+around why are you lying about then
+
+---------04:49----------
+either being the one that put it back
+
+---------04:50----------
+together tell me hey come here Dan I'd
+
+---------04:57----------
+say yeah yeah okay I think it's time
+
+---------04:59----------
+that you two settle this the way that
+
+---------05:00----------
+you're supposed to with violence all
+
+---------05:02----------
+right so I would say J come on okay both
+
+---------05:47----------
+of you both of you go outside and
+
+---------05:48----------
+whoever manages whoever manages to come
+
+---------05:50----------
+back in will be the person who still
+
+---------05:52----------
+works here
+
+---------06:03----------
+okay Steve can you decide who still
+
+---------06:05----------
+works here in the half hour I can't do
+
+---------06:07----------
+city that sounds like a job for
+
+---------06:08----------
+management so back to white p.m. sleep
+
+---------06:12----------
+s4l is missing on this eight to zero
+
+---------06:14----------
+zero zero four to six board it appears
+
+---------06:16----------
+we have PP bus g3 huh we have PP 5vs5 we
+
+---------06:19----------
+have PP 3 V 3 is 5 but we're missing the
+
+---------06:21----------
+M sleep as for L however p.m. sleep s
+
+---------06:24----------
+for L is not in a valid state it's not
+
+---------06:26----------
+zero volt it's not 3.3 volts 0.06 volts
+
+---------06:29----------
+which doesn't seem to be correct so
+
+---------06:38----------
+that's not a valid state or it's got a
+
+---------06:42----------
+little a couple of tubes on it but
+
+---------06:44----------
+certainly not enough cubes the hahahaha
+
+---------06:46----------
+what is this what's that oh did I get an
+
+---------06:49----------
+easy one I got an easy p.m. sleep is for
+
+---------06:52----------
+L missing
+
+---------06:53----------
+look at that look at the solder balls
+
+---------06:56----------
+that was an interesting stereo ooh I'm
+
+---------06:59----------
+curious what that is because I gotta add
+
+---------07:01----------
+this to my list of things that kill p.m.
+
+---------07:03----------
+sleep us 4 L so what are you you're the
+
+---------07:05----------
+USB port power switch so could a USB
+
+---------07:08----------
+port power switch do this this is also
+
+---------07:10----------
+interesting not heat gun you can see the
+
+---------07:13----------
+way that this failed this hasn't been
+
+---------07:14----------
+touched before
+
+---------07:15----------
+those are solder balls that popped out
+
+---------07:16----------
+as a result of the chip burning and if
+
+---------07:18----------
+you look really close in on the chip
+
+---------07:19----------
+you'll see that it's burned and that on
+
+---------07:21----------
+the top of it it's actually bent
+
+---------07:23----------
+see that it's not an even surface I'm
+
+---------07:25----------
+gonna try to get this at an angled view
+
+---------07:27----------
+for you so that you can see what I mean
+
+---------07:28----------
+when I say that's not an even surface
+
+---------07:30----------
+alright see do you see that in the
+
+---------07:32----------
+middle of the chip it's sticking up a
+
+---------07:33----------
+little bit so I bet if I take this USB
+
+---------07:36----------
+power port circuitry off that we're
+
+---------07:38----------
+gonna have a fan spin
+
+---------07:52----------
+yeah the all right so I'm going to plug
+
+---------07:54----------
+this machine in and as you can see our
+
+---------07:57----------
+PM sleeve s4o problem is gone it's
+
+---------07:58----------
+turning on and it works
+

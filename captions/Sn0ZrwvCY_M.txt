@@ -1,0 +1,1315 @@
+https://www.youtube.com/watch?v=Sn0ZrwvCY_M
+---------00:00----------
+here we have an a 1707 MacBook Pro
+
+---------00:02----------
+that's not turning on let's open this
+
+---------00:03----------
+machine up and see if we can figure out
+
+---------00:04----------
+why it's not turning on and make it work
+
+---------00:06----------
+again make it into a happy little touch
+
+---------00:08----------
+bar if such a thing even exists all
+
+---------00:11----------
+right so as always the first thing that
+
+---------00:12----------
+we typically like to do here is see how
+
+---------00:15----------
+much power the board is taking without
+
+---------00:16----------
+the batteries so I'm just gonna unplug
+
+---------00:18----------
+the battery so that on my USB see ya
+
+---------00:20----------
+meter I can see how much power the board
+
+---------00:22----------
+is drawing mmm how many Am's does this
+
+---------00:26----------
+take all right we're taking 200 80
+
+---------00:29----------
+milliamps and it appears that we're
+
+---------00:32----------
+stuck at five point one two volts and
+
+---------00:34----------
+not moving from there let's try and
+
+---------00:36----------
+figure out why we're stuck at five point
+
+---------00:38----------
+one two volts and not moving so we're
+
+---------00:40----------
+gonna take all the screws out of this
+
+---------00:42----------
+machine there's a lot of different T 3
+
+---------00:43----------
+and T 5 screws all of different sizes of
+
+---------00:45----------
+course this is a MacBook inside the
+
+---------00:47----------
+machine we're just gonna unscrew every
+
+---------00:49----------
+single one of them looks like we have 43
+
+---------00:51----------
+people watching even though there's
+
+---------00:52----------
+typically two to five hundred maybe
+
+---------00:55----------
+sometimes 700 watching this stream so
+
+---------00:56----------
+does the big shout out to youtube for
+
+---------00:58----------
+not giving people notifications Paul is
+
+---------01:00----------
+actually unable to get to the stream
+
+---------01:01----------
+even if he clicks onto the channel the
+
+---------01:03----------
+greatness of YouTube okay so we are
+
+---------01:07----------
+gonna take all the screws out of this
+
+---------01:08----------
+machine and we're gonna make this thing
+
+---------01:11----------
+work it's gonna work great
+
+---------01:12----------
+beautifully once we're done and
+
+---------01:15----------
+hopefully I can show you what it is I
+
+---------01:17----------
+did why I did it and you can understand
+
+---------01:19----------
+so that you could take one of these
+
+---------01:20----------
+machines and make them work again - with
+
+---------01:22----------
+the way Apple tells people you got to
+
+---------01:24----------
+spend fourteen or fifteen hundred
+
+---------01:25----------
+dollars to fix it there's a lot of these
+
+---------01:28----------
+that are probably just getting disposed
+
+---------01:29----------
+of or tossed out and the real goldmine
+
+---------01:32----------
+with these is not even the stuff that's
+
+---------01:33----------
+been recycled it's been it's the stuff
+
+---------01:35----------
+that's just sitting in someone's night
+
+---------01:37----------
+table drawer next to their bed under
+
+---------01:39----------
+their bed because they just don't know
+
+---------01:40----------
+what to do with it they don't have the
+
+---------01:42----------
+money to spend on fixing it based on the
+
+---------01:44----------
+price that they think it's gonna cost
+
+---------01:45----------
+this untapped market they're just tens
+
+---------01:49----------
+of thousands of these machines that are
+
+---------01:51----------
+probably sitting dead for silly reasons
+
+---------01:52----------
+and if you can figure out how to make
+
+---------01:55----------
+them work again and you can find where
+
+---------01:57----------
+they are then you can make a little bit
+
+---------02:00----------
+of extra money for yourself while also
+
+---------02:04----------
+making an owner very happy you're not
+
+---------02:06----------
+just the teacher you're also entertainer
+
+---------02:07----------
+do the GoFundMe let us enjoy better
+
+---------02:08----------
+content thank you very much as you okay
+
+---------02:10----------
+so the issue that we have with this
+
+---------02:11----------
+machine is that it's sucker five point
+
+---------02:12----------
+two volts why stuck at five
+
+---------02:13----------
+two votes only taken 200 milliamps it's
+
+---------02:15----------
+supposed to be giving us 20 volts and
+
+---------02:20----------
+1.5 amps but as you can see it's stuck
+
+---------02:22----------
+at five point one two volts twenty
+
+---------02:23----------
+hundred eighty million now the first
+
+---------02:24----------
+thing we got to do is see if VP 33
+
+---------02:26----------
+undersquare j-3 hot as president 53 or
+
+---------02:27----------
+3m square G 3 Altis president CD 32 15s
+
+---------02:29----------
+won't turn on disease you thirty sees
+
+---------02:30----------
+teens don't turn on it means that the
+
+---------02:32----------
+charger is not going to go up to 20 volt
+
+---------02:34----------
+and it's gonna stay at 5 volts thinking
+
+---------02:35----------
+it's a GoPro or a cell phone it's the
+
+---------02:37----------
+first thing we got to do here or see if
+
+---------02:38----------
+I were getting our rail of PB 3 V 3
+
+---------02:41----------
+underscore G 3 hot 1.7 1.8 interesting
+
+---------02:56----------
+hmm so P P 3 V 3 underscore G 3 hot is
+
+---------03:00----------
+trying to enable itself but it's failing
+
+---------03:02----------
+to go all the way up partial short on PP
+
+---------03:04----------
+3 V 3 under square G 3 hot perhaps one
+
+---------03:06----------
+way to find out let's see if the enable
+
+---------03:10----------
+is there we're going to take the
+
+---------03:12----------
+schematic in the board view to an 8 - 0
+
+---------03:14----------
+- 0 0 to 8 1 and check it out see what
+
+---------03:18----------
+we get so that is the enable signal for
+
+---------03:21----------
+P P 3 V 3 underscore G 3 hot let's just
+
+---------03:23----------
+make sure it's being enabled it probably
+
+---------03:24----------
+is just being partially shorted to
+
+---------03:26----------
+ground you put the ball in the pocket or
+
+---------03:34----------
+else it gets the hose again
+
+---------03:36----------
+5 volts enable is present only getting
+
+---------03:41----------
+1.8 volts over there hmm let's see what
+
+---------03:46----------
+our resistance the ground is on that
+
+---------03:48----------
+rail to see why we're only getting 1.8
+
+---------03:50----------
+instead of 3.3 a hundred sixty ohms
+
+---------03:56----------
+that's not right we have a short-circuit
+
+---------03:58----------
+ladies and gentlemen have you ever had a
+
+---------04:03----------
+hundred sixty ohms to ground on PP 3 V 3
+
+---------04:05----------
+Pole
+
+---------04:09----------
+alright let's take a look around the
+
+---------04:11----------
+board and see if anything looks nasty
+
+---------04:13----------
+it looks dusty it's always possible the
+
+---------04:16----------
+dust is covering corrosion it's so much
+
+---------04:19----------
+dust absolutely filthy
+
+---------04:27----------
+put the ball in the pocket now one
+
+---------04:30----------
+hundred sixty ohms wouldn't be that
+
+---------04:32----------
+terrible if it was a high voltage like
+
+---------04:34----------
+twelve rate the being that's a low
+
+---------04:36----------
+voltage like three it's gonna be hard to
+
+---------04:37----------
+see anything if it is shorted alright so
+
+---------04:40----------
+let's take a look at some homes law
+
+---------04:42----------
+calculator so if we have Earthsea 3.3
+
+---------04:46----------
+volts at 160 ohms 160 ohms that mean
+
+---------04:51----------
+that would take 0.06 watts I'm never
+
+---------04:55----------
+gonna see that so injecting voltage to
+
+---------04:58----------
+find the short is barely an option here
+
+---------05:00----------
+because while that is a short circuit
+
+---------05:02----------
+it's not gonna be about putting out
+
+---------05:04----------
+enough that I'm gonna be able to
+
+---------05:05----------
+visually see it whoa 1 amp
+
+---------05:10----------
+how is it taking 1 amp it's at 160 ohms
+
+---------05:13----------
+at 3 volts ohms law calculator said
+
+---------05:15----------
+according to mr. ohm it's lying sack of
+
+---------05:19----------
+ he said that it's gonna be taking
+
+---------05:22----------
+point is it's gonna be taking 0.02 amps
+
+---------05:25----------
+but when I do this and amp whoa 3.3
+
+---------05:33----------
+volts at 160 ohms ohm is a lying sack of
+
+---------05:36----------
+crap okay its 3.3 volts at 160 ohms how
+
+---------05:41----------
+many watts or amps is the short going to
+
+---------05:44----------
+pull
+
+---------05:51----------
+okay so something on this board is going
+
+---------05:53----------
+to be taking out yeah I saw the dust
+
+---------05:56----------
+start to leave one of the chips so what
+
+---------05:58----------
+is taking an ampere now also one of the
+
+---------06:01----------
+things I want you to get is do you
+
+---------06:02----------
+understand why it is that I am looking
+
+---------06:04----------
+for PP 3 B 3 underscore G 3 huh
+
+---------06:06----------
+so I'm not getting 20 volts in the
+
+---------06:08----------
+charger the charge is only putting out 5
+
+---------06:10----------
+volts my USBC amp meter that i put
+
+---------06:12----------
+between the charger and the machine is
+
+---------06:13----------
+what is telling me that it's stuck at 5
+
+---------06:16----------
+volts now as to why it is that that
+
+---------06:18----------
+matters why is it why is pp 3 2 B 3
+
+---------06:20----------
+underscore G 3 hot matter there let's go
+
+---------06:22----------
+to the chip that's going to do the
+
+---------06:23----------
+actual communication with the with the
+
+---------06:28----------
+charger so that's going to be the C D
+
+---------06:29----------
+32:15 there's one CD 32:15 it's a USB C
+
+---------06:32----------
+port controller as you can read over
+
+---------06:34----------
+here and there's one of them per port
+
+---------06:36----------
+now if you check out over here you'll
+
+---------06:41----------
+see it's this chip gets its power V in
+
+---------06:44----------
+voltage in from P P 3 V 3 underscore G 3
+
+---------06:49----------
+hot so I went to check that rail and
+
+---------06:50----------
+when I check the rail that's when I
+
+---------06:53----------
+noticed that it was 1.8 volts rather
+
+---------06:56----------
+than 3.3 volts now as it says in the
+
+---------06:58----------
+little instruction manual I post in the
+
+---------07:00----------
+bottom all my videos when you're not
+
+---------07:02----------
+missing a power rail is it being enabled
+
+---------07:04----------
+we have five volts the enable check is
+
+---------07:06----------
+the chip bad it's always possible but
+
+---------07:09----------
+not sure yet is it being shorted to
+
+---------07:11----------
+ground let's see that because it's
+
+---------07:12----------
+easier to see if it's shorted to ground
+
+---------07:13----------
+than it is to try another trip we did
+
+---------07:15----------
+and we saw it's 160 ohms which means
+
+---------07:17----------
+something on the line has to be shorted
+
+---------07:18----------
+so what I decided to do the way your
+
+---------07:20----------
+short to ground works
+
+---------07:21----------
+short to ground when they say Oh what is
+
+---------07:22----------
+something is short rather than the
+
+---------07:24----------
+electricity making its way all the way
+
+---------07:25----------
+around the circuit is that one of the
+
+---------07:27----------
+things that's connected to ground shorts
+
+---------07:29----------
+so instead of it making all the way over
+
+---------07:31----------
+here something is connecting the ground
+
+---------07:33----------
+more than it should so instead of the
+
+---------07:35----------
+power making its way all the way through
+
+---------07:37----------
+the circuit this one thing shoves it all
+
+---------07:39----------
+the ground now electricity and is
+
+---------07:42----------
+essentially energy energy is heat so if
+
+---------07:45----------
+what I could do here is I could take 3.3
+
+---------07:48----------
+volts or my power supply something much
+
+---------07:50----------
+stronger than that little chip on
+
+---------07:51----------
+the board you know this thing over here
+
+---------07:53----------
+what do you think is more powerful this
+
+---------07:56----------
+power supply that I have over here this
+
+---------07:58----------
+thing that weighs like 10 pounds or that
+
+---------08:01----------
+teeny tiny little chip on the
+
+---------08:03----------
+board obviously it's going to be the
+
+---------08:04----------
+power
+
+---------08:05----------
+supply so I tell the power supply to put
+
+---------08:07----------
+3.3 volts into the rail I attach the
+
+---------08:09----------
+grounds of the power supply to the
+
+---------08:10----------
+grounds of the board and whatever it is
+
+---------08:12----------
+on the board that is causing my
+
+---------08:15----------
+short-circuit is gonna get really hot
+
+---------08:16----------
+because remember electricity is energy
+
+---------08:18----------
+energy is heat so then I use the heat to
+
+---------08:20----------
+figure out what the problem is this is
+
+---------08:22----------
+actually how I met Jesse Jones at CTIA
+
+---------08:23----------
+we were the two people there that both
+
+---------08:25----------
+used our face to fight shorts in the
+
+---------08:27----------
+board
+
+---------08:28----------
+we're the only two in the room that
+
+---------08:29----------
+we're doing that and that's how we
+
+---------08:31----------
+started a friendship now well Paul was
+
+---------08:34----------
+up there I noticed that on this very
+
+---------08:36----------
+disgusting filthy board that one of
+
+---------08:38----------
+these chips actually are the dust start
+
+---------08:39----------
+leaving it and I'm gonna show you which
+
+---------08:41----------
+one that is so today just in case you
+
+---------08:43----------
+don't have a high end thermal camera
+
+---------08:44----------
+because I'm constantly showing you how
+
+---------08:45----------
+this works on a high end thermal cam
+
+---------08:47----------
+we're gonna show you how to find the
+
+---------08:49----------
+short using something that's really
+
+---------08:51----------
+cheap liquid like alcohol all right so
+
+---------08:54----------
+what we're gonna do here is we're going
+
+---------08:55----------
+to turn the power supply off enjoy this
+
+---------08:57----------
+and you speak it right to repair hearing
+
+---------08:59----------
+intelligence is amazing thank you very
+
+---------09:00----------
+much how you remind me but no thank you
+
+---------09:05----------
+for getting that song stuck back in my
+
+---------09:06----------
+head that's evil so I'm gonna turn off
+
+---------09:09----------
+the power supply for a second and I
+
+---------09:12----------
+think it was right over here so now what
+
+---------09:15----------
+we do is we put the alcohol over the
+
+---------09:16----------
+chips and put the light all the way up
+
+---------09:19----------
+and you should be able to see when I
+
+---------09:21----------
+turn it on which chip it is and it's the
+
+---------09:25----------
+one on the left you see how the alcohol
+
+---------09:26----------
+is evaporating from the chip on the Left
+
+---------09:28----------
+far more than the chip on the right the
+
+---------09:31----------
+next thing that we're gonna do here to
+
+---------09:33----------
+see if that's the thing that's wrong is
+
+---------09:34----------
+we're gonna take Steve's finger and
+
+---------09:36----------
+we're gonna put it on the chip touch the
+
+---------09:37----------
+chip so it looks like our CD 32:15 is
+
+---------09:40----------
+what's wrong and oh my god look at that
+
+---------09:41----------
+there's some green dust right there so
+
+---------09:42----------
+you see how the pubic hair is in this
+
+---------09:44----------
+area you have little bits of green by
+
+---------09:45----------
+them those little bits of green are
+
+---------09:47----------
+likely corrosion so maybe some water a
+
+---------09:49----------
+humidity made its way in there see those
+
+---------09:52----------
+are green pubes alright so we're gonna
+
+---------09:57----------
+do now is we're gonna replace that CD
+
+---------09:59----------
+3215 if you need a CD 3215 by the way if
+
+---------10:03----------
+anybody was curious as to where it is
+
+---------10:05----------
+they could get a CD 3215 while I ready
+
+---------10:07----------
+the board for one getrekt ad buck this
+
+---------10:11----------
+video is brought to you by our sponsors
+
+---------10:13----------
+at store dot Rosman group com thank you
+
+---------10:16----------
+for supporting our sponsors that helped
+
+---------10:17----------
+keep us in business
+
+---------10:18----------
+on store dot Rosman group.com you can
+
+---------10:21----------
+find chips-- supplies ultrasonics flux
+
+---------10:24----------
+soldering stations and more with 4.9
+
+---------10:26----------
+stars on shopper approved same-day
+
+---------10:28----------
+shipping from new york city and free
+
+---------10:30----------
+continental shipping over $30 you can't
+
+---------10:32----------
+lose
+
+---------10:33----------
+we even offer free support unless you
+
+---------10:35----------
+are pleased bro live chat inter adding
+
+---------10:37----------
+new products every day if you buy today
+
+---------10:39----------
+we'll throw in a special offer that your
+
+---------10:40----------
+order will actually go through properly
+
+---------10:42----------
+what are you waiting for go to store dot
+
+---------10:44----------
+Roskam group comm to get yourself some
+
+---------10:46----------
+authentic and tech flux don't delay
+
+---------10:48----------
+buy today and put a little bit of Amtech
+
+---------10:53----------
+flux
+
+---------11:06----------
+remember just enough
+
+---------11:22----------
+now before we do something stupid we're
+
+---------11:25----------
+gonna see if the short is gone 15
+
+---------11:30----------
+kilohms that's much better than we had
+
+---------11:33----------
+before which was a hundred sixty ohms
+
+---------11:36----------
+then again just as I said there's no
+
+---------11:40----------
+reason to trust mr. ohm
+
+---------11:41----------
+mr. ohm did us dirty there's no rhyme or
+
+---------11:47----------
+reason for why mr. homn did us so dirty
+
+---------11:51----------
+supposed to take 0.02 or 6 watts or amps
+
+---------11:54----------
+and the thing is taking away more don't
+
+---------11:59----------
+make a damn bit of sense Paul even
+
+---------12:01----------
+double check my math did you ever expect
+
+---------12:09----------
+ohm to let you down like that Paul I
+
+---------12:11----------
+[Music]
+
+---------12:18----------
+like my meter
+
+---------12:19----------
+it never gets anything wrong I ever
+
+---------12:24----------
+appealed Ohm's law is a
+
+---------12:31----------
+ohm is dead
+
+---------12:39----------
+maybe that could be the merge that we
+
+---------12:40----------
+get a set of multimeters that use like
+
+---------12:42----------
+Paul's law or something every way if you
+
+---------12:50----------
+use a q-tip instead of a clean room
+
+---------12:52----------
+thingy that you turn it around over and
+
+---------12:55----------
+over other than back and forth this way
+
+---------12:57----------
+if any of the hairs come off they still
+
+---------12:59----------
+kind of getting wrapped around the q-tip
+
+---------13:10----------
+put a little bit of flux this is the
+
+---------13:14----------
+right amount of flux I'm not using more
+
+---------13:17----------
+flux than I should because my store my
+
+---------13:19----------
+online store that sells flux is going to
+
+---------13:21----------
+help fund the new store location we're
+
+---------13:22----------
+moving to I would never do something
+
+---------13:23----------
+like that we're using the right amount
+
+---------13:27----------
+of flux Paul is getting with the program
+
+---------13:35----------
+Paul understands that a proper desk an
+
+---------13:40----------
+even floor
+
+---------13:42----------
+light fixtures that allow you to see
+
+---------13:45----------
+things properly but you know floor
+
+---------13:46----------
+that's actually true level as Rick and
+
+---------13:48----------
+Morty would say wow it's so oh my god oh
+
+---------13:57----------
+Christ
+
+---------13:58----------
+yeah true level morning come on
+
+---------14:01----------
+we're leaving for school reality is
+
+---------14:05----------
+poison what's his deal can't fund that
+
+---------14:10----------
+if we're selling honest amounts of flux
+
+---------14:12----------
+but you got to sell an Adam Newman
+
+---------14:14----------
+amount of flux oh yeah look at that look
+
+---------14:16----------
+at that chip that chip is stacked as
+
+---------14:19----------
+high as we works debt are you invested
+
+---------14:25----------
+in soft Bank Paul
+
+---------14:29----------
+it's good to know that some people make
+
+---------14:30----------
+even stupider investments than I did
+
+---------14:52----------
+I never bought into the we work thing I
+
+---------14:54----------
+was meeting people in the park in 2009
+
+---------14:56----------
+and 10 in Herald Square probably just
+
+---------14:59----------
+travel to them if there's no point in
+
+---------15:01----------
+paying 2 to 700 bucks for a desk when I
+
+---------15:03----------
+have no dignity and I'm sharing the
+
+---------15:04----------
+space with hundreds upon hundreds of
+
+---------15:06----------
+people at that point I'm better
+
+---------15:08----------
+literally better off just having a table
+
+---------15:10----------
+at a park
+
+---------15:24----------
+30 milliamps is being used when I inject
+
+---------15:27----------
+3.3 into the board that's a good thing
+
+---------15:30----------
+how short is gone now I'm going to just
+
+---------15:33----------
+desolder that wire that I put on the PP
+
+---------15:38----------
+3v3 creation point and we are gonna see
+
+---------15:49----------
+if this works before Paul ultrasonic
+
+---------15:51----------
+something paul's a selfish bastard he
+
+---------15:55----------
+wants to do his job but if he uses the
+
+---------15:57----------
+ultrasonic cleaner it screws up my
+
+---------15:59----------
+microphone one of millions of problems
+
+---------16:01----------
+that will be solved if I get a new
+
+---------16:02----------
+location why can't we put the old row
+
+---------16:04----------
+sonica yeah good times let's see what
+
+---------16:11----------
+happens here do you turn on or do you go
+
+---------16:14----------
+to Paul alright so the boot sequence is
+
+---------16:16----------
+proper using 20 milliamps on five volts
+
+---------16:18----------
+then 20 volts at one point to two amps
+
+---------16:22----------
+see that that's a proper looking boot
+
+---------16:24----------
+sequence there see let's just plug it in
+
+---------16:30----------
+the other port
+
+---------16:42----------
+as what happens when I can ultrasonic
+
+---------16:45----------
+something
+
+---------16:59----------
+so that is the proper boot sequence
+
+---------17:00----------
+there we go we fixed our problem we had
+
+---------17:02----------
+a short circuit aground on the power
+
+---------17:03----------
+will require for powering the cd32 15
+
+---------17:05----------
+that's going to talk to the charger and
+
+---------17:06----------
+tell the charger it's about 20 volt
+
+---------17:08----------
+instead of 5 we cleared our short
+
+---------17:09----------
+circuit we found our short circuit by
+
+---------17:11----------
+checking for the
+
+---------17:58----------
+raising the Rangers
+
+---------18:00----------
+[Applause]
+
+---------18:04----------
+so it looks like we had a short-circuit
+
+---------18:06----------
+aground on PP 3300 scourge III hunt
+
+---------18:08----------
+that's the power eletric wired for the
+
+---------18:09----------
+cd32 15 to speak to the charger 16 is
+
+---------18:12----------
+the chip that is he called a USBC port
+
+---------18:14----------
+controller and the charger is not going
+
+---------18:16----------
+to be at 20 volts it's gonna be a 5 volt
+
+---------18:19----------
+until it speaks to the computer and
+
+---------18:20----------
+realizes that it's a MacBook and not a
+
+---------18:21----------
+GoPro it would suck if a USBC charger
+
+---------18:24----------
+decided to send 20 volts to your phone
+
+---------18:25----------
+or 20 volts to a gopro so there needs to
+
+---------18:27----------
+be that basic communication first and
+
+---------18:29----------
+that communication is not going to
+
+---------18:30----------
+happen if the cd32 15 is not powering on
+
+---------18:31----------
+the cdc 15 is not powering on because
+
+---------18:34----------
+people are three underscore g3 how is
+
+---------18:35----------
+missing
+
+---------18:36----------
+these PPP three underscore g3 hot is the
+
+---------18:38----------
+primary power rail responsible for
+
+---------18:40----------
+powering the CD 32 15 s now when we went
+
+---------18:42----------
+to take a look at the PP 30 before 300
+
+---------18:44----------
+square G 300 signal was present on pin
+
+---------18:46----------
+10 were getting five point one volts
+
+---------18:48----------
+there from the ISO nine to 39 however we
+
+---------18:50----------
+were only getting 1.8 volts in output
+
+---------18:51----------
+when we check to see what the impedance
+
+---------18:53----------
+the ground was an output we're getting a
+
+---------18:54----------
+hundred sixty ohms which it doesn't mean
+
+---------18:56----------
+a short to ground so we decided to do is
+
+---------18:58----------
+inject 3.3 volts from external power
+
+---------19:00----------
+supply into the board when we did so we
+
+---------19:01----------
+noticed that there was one CD 32 1500
+
+---------19:03----------
+was getting hot that's gonna be the CD
+
+---------19:04----------
+32 15 that's sending all the energy to
+
+---------19:06----------
+ground that's gonna be the CD 32 15 that
+
+---------19:08----------
+is internally damaged and shorting could
+
+---------19:10----------
+be 3v3 undersquare g3 hot when we
+
+---------19:11----------
+replace that chip with a new chip from
+
+---------19:12----------
+stored across from group comm the board
+
+---------19:14----------
+did turn on take 20 volts and work as
+
+---------19:16----------
+intended hopefully this video is
+
+---------19:17----------
+educational hopefully you learn
+
+---------19:19----------
+something from it hopefully you'll be
+
+---------19:20----------
+able to take one of these machines that
+
+---------19:21----------
+Apple says sorry you have to pay us 1500
+
+---------19:24----------
+or whatever for another one and fix it
+
+---------19:26----------
+for the customer or for yourself save
+
+---------19:27----------
+yourself some money keep the machine
+
+---------19:29----------
+from going into a landfill and above all
+
+---------19:30----------
+feel that nice happy little piece of
+
+---------19:32----------
+dopamine rush to go through your head
+
+---------19:33----------
+when you make something work again you
+
+---------19:35----------
+see the fan spin on something somebody
+
+---------19:37----------
+else told you you couldn't fix it's an
+
+---------19:38----------
+amazing feeling and 11 years in it just
+
+---------19:41----------
+it doesn't get old that's it for today
+
+---------19:43----------
+and as always I hope you learned
+
+---------19:44----------
+something
+

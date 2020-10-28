@@ -1,0 +1,1099 @@
+https://www.youtube.com/watch?v=cFYMu8Y2G08
+---------00:00----------
+all right so today we're gonna be going
+
+---------00:01----------
+over an eight to zero 31:15 board and
+
+---------00:03----------
+has no green light in the charger and
+
+---------00:05----------
+also PP bus g3 hot is completely missing
+
+---------00:08----------
+an absent so let's go over some of the
+
+---------00:10----------
+things that we should go over when
+
+---------00:11----------
+there's no green light in the charger so
+
+---------00:13----------
+in order for there to be a green light
+
+---------00:15----------
+in the charger let's just open up a
+
+---------00:17----------
+schematic here and get to where we
+
+---------00:19----------
+explain everything
+
+---------00:26----------
+wrong maybe yeah this is good enough all
+
+---------00:32----------
+right so let's go over it to what's
+
+---------00:33----------
+going to give us a green light so what
+
+---------00:35----------
+has to happen for this to occur I'm
+
+---------00:37----------
+gonna go through this step-by-step the
+
+---------00:41----------
+first thing that has to happen is that
+
+---------00:43----------
+the 16 to 18 volts has to come in from
+
+---------00:45----------
+the charger over here after that sick
+
+---------00:47----------
+Wow even and seriously you're still at 3
+
+---------00:51----------
+frames per second Oh what so this
+
+---------00:54----------
+instead how about this
+
+---------01:06----------
+this
+
+---------01:14----------
+man oh well that's a little better so
+
+---------01:17----------
+first we have the 16 18 volts coming in
+
+---------01:19----------
+from the charger now that's going to
+
+---------01:21----------
+lead down to a voltage divider if you
+
+---------01:23----------
+don't know what a voltage divider is
+
+---------01:24----------
+watch my other videos on what a voltage
+
+---------01:26----------
+divider is I've covered this it's gonna
+
+---------01:28----------
+turn the 16 volts into 4 volts for the
+
+---------01:30----------
+charger AC and pin the charger AC and
+
+---------01:32----------
+pin will then get its 3.90 4 volts
+
+---------01:34----------
+once it has that voltage then charger AC
+
+---------01:37----------
+ok is going to come out of pin 14 over
+
+---------01:40----------
+here now charger AC ok is going to come
+
+---------01:43----------
+out assuming that the current sense
+
+---------01:45----------
+resistors are not telling the chip oh my
+
+---------01:48----------
+god that's using too much current turn
+
+---------01:49----------
+off the charger so if we go over to
+
+---------01:51----------
+where charger AC ok shows up you'll see
+
+---------01:56----------
+that charger AC ok on the top of the
+
+---------01:58----------
+schematic winds up turning into smc bc
+
+---------02:01----------
+AC ok so we go up to the top of the
+
+---------02:04----------
+schematic and we see that there's a
+
+---------02:05----------
+little logic gate if you don't know what
+
+---------02:07----------
+a logic gate is you can watch some of my
+
+---------02:08----------
+other videos where I talk about what a
+
+---------02:09----------
+logic gate is now the way this logic
+
+---------02:12----------
+gate works is if there is voltage
+
+---------02:14----------
+present on the input pins a and B then
+
+---------02:16----------
+whatever's on pin 5 which is 3 point 4
+
+---------02:19----------
+volts will be passed through pin 4 so if
+
+---------02:22----------
+smc bc AC ok is present then 3 point 4
+
+---------02:25----------
+volts from PP 3 V 4 2 is going to be
+
+---------02:28----------
+passed on to this IC now the VCC pin is
+
+---------02:31----------
+a pin that stop hitting each other you
+
+---------02:35----------
+clearly hit him well he's clearly smart
+
+---------02:41----------
+enough to hit you when I'm not looking
+
+---------02:42----------
+so I can only assume that you hit him
+
+---------02:44----------
+first employ his man anyway so this over
+
+---------02:54----------
+here is on the VCC pin there's going to
+
+---------02:56----------
+be three point four volts and the VCC
+
+---------02:58----------
+pin is kind of like of the end pin what
+
+---------03:01----------
+a VN or a VCC pin is is pretty much
+
+---------03:03----------
+power to turn it on so for example this
+
+---------03:04----------
+is my microscope camera I have this
+
+---------03:06----------
+cheap little you know crappy little
+
+---------03:08----------
+war-war power supply and I'm plugging it
+
+---------03:10----------
+into the VCC or the VN pin that's pretty
+
+---------03:13----------
+much power to turn it on now once you
+
+---------03:15----------
+have power on that what's going to
+
+---------03:17----------
+happen is this chip over here is going
+
+---------03:20----------
+to allow the external the charger which
+
+---------03:22----------
+is the adapter sense line this is the
+
+---------03:24----------
+charge port over here by the way J 6900
+
+---------03:26----------
+it's going to allow the adapter sense
+
+---------03:28----------
+meaning sensing the adapter to talk to
+
+---------03:30----------
+the SIS one wire line which is on the
+
+---------03:34----------
+SMC and this is this overhears the SMC
+
+---------03:36----------
+so this is going to give me a green
+
+---------03:38----------
+light in the charger so let's go through
+
+---------03:40----------
+here and go through step by step and see
+
+---------03:42----------
+if everything is going the way it's
+
+---------03:44----------
+supposed to shall we and logical order
+
+---------03:46----------
+so first things first on D seven zero
+
+---------03:50----------
+zero five on pin one and two I should
+
+---------03:52----------
+see sixteen volts so let's find d700
+
+---------03:56----------
+five on my board view software so I'm
+
+---------03:59----------
+gonna look for dese I mean I'm gonna
+
+---------04:00----------
+switch the screen even though the you go
+
+---------04:03----------
+you're gonna wind up seeing it at the
+
+---------04:06----------
+you know the whole two frames a second
+
+---------04:07----------
+ I just I needed for my own
+
+---------04:09----------
+convenience so I'm gonna switch over
+
+---------04:11----------
+here yeah
+
+---------04:13----------
+display capture and yeah sorry I need to
+
+---------04:17----------
+be able to see this both at a time
+
+---------04:19----------
+and I don't want to with open
+
+---------04:20----------
+broadcaster anymore and create new
+
+---------04:22----------
+scenes every time I need to do this so
+
+---------04:24----------
+we're gonna look for D whoops d700 v and
+
+---------04:30----------
+that's down here right now let's turn on
+
+---------04:36----------
+the microscope camera
+
+---------05:02----------
+sixteen volts right okay now we're going
+
+---------05:04----------
+to check at the voltage divider let's
+
+---------05:06----------
+see if pin 3 has charger ACN
+
+---------05:16----------
+so always upside-down remember it's
+
+---------05:18----------
+always gonna be different on the screen
+
+---------05:20----------
+than it is on the motherboard
+
+---------05:21----------
+that's the way the software's program I
+
+---------05:24----------
+own the right resistor yeah I'm on that
+
+---------05:27----------
+one of the right resistors so we got 4
+
+---------05:29----------
+volts so 4 volts going to DC n good now
+
+---------05:32----------
+let's see if we have charger AC ok
+
+---------05:34----------
+coming out charger AC ok is going to be
+
+---------05:39----------
+on pin 14 which is this one so 0.4
+
+---------05:53----------
+now I'm gonna unplug the charger from
+
+---------05:56----------
+the motherboard and now I'm gonna check
+
+---------05:57----------
+the resistance of the entire current
+
+---------05:59----------
+sensing circuit so we're gonna see if
+
+---------06:02----------
+this game if you don't know what current
+
+---------06:03----------
+sensing is you could watch many of my
+
+---------06:04----------
+other videos on what current sensing is
+
+---------06:06----------
+remember I just I've been doing this
+
+---------06:07----------
+channel you know I've been doing this
+
+---------06:08----------
+content for 2 or 3 years now I really
+
+---------06:10----------
+can't go over every single thing every
+
+---------06:11----------
+single time so I'm just gonna tell you
+
+---------06:13----------
+to view other videos that I've done when
+
+---------06:14----------
+I explain how this works by the way a
+
+---------06:16----------
+lot of people asked in my other video
+
+---------06:17----------
+why don't I check on the probe pads why
+
+---------06:20----------
+don't I do I am i checking on the legs
+
+---------06:21----------
+of the chip which is a pain in the ass
+
+---------06:22----------
+when I can check the total resistance in
+
+---------06:24----------
+the pets the reason for that is that
+
+---------06:27----------
+very often there can actually be some
+
+---------06:29----------
+kind of burn that you can't even see so
+
+---------06:31----------
+the laminate is still intact but under
+
+---------06:33----------
+it the copper is broken from a spike of
+
+---------06:34----------
+voltage and when I measure on the pads
+
+---------06:38----------
+I'll see infinite resistance I mean when
+
+---------06:40----------
+I measure on the pins of the chip I'll
+
+---------06:42----------
+see infinite resistance but when I
+
+---------06:44----------
+measure over here it'll be just fine
+
+---------06:45----------
+see if I measure over here I'm totally
+
+---------06:48----------
+leaving out from here to here and from
+
+---------06:50----------
+here to here I'm not testing that at all
+
+---------06:51----------
+and I want to test all of that which is
+
+---------06:52----------
+precisely why I always measure at the
+
+---------06:55----------
+legs of the chip I cannot tell you how
+
+---------06:56----------
+many students I've had come here that
+
+---------06:58----------
+got owned because they were measuring at
+
+---------07:01----------
+the pads instead of at the pins of the
+
+---------07:03----------
+chip and every time they do that they
+
+---------07:05----------
+would get some easy measurement on the
+
+---------07:06----------
+pads but they wouldn't notice that this
+
+---------07:08----------
+- that was actually broken so yes there
+
+---------07:11----------
+trust me there is a reason for
+
+---------07:12----------
+everything I do it dick I mean I don't
+
+---------07:14----------
+use the thing I don't
+
+---------07:15----------
+I know that I'm wrong every now and then
+
+---------07:17----------
+and I'm always open to people giving
+
+---------07:19----------
+their opinions or giving advice but well
+
+---------07:21----------
+I'm doing something very specific like
+
+---------07:23----------
+that and I get like you know 20 comments
+
+---------07:26----------
+saying Louis you're doing it wrong
+
+---------07:27----------
+measuring this can you give me a little
+
+---------07:29----------
+bit of benefit of the doubt that maybe
+
+---------07:30----------
+there's an actual reason I'm doing it
+
+---------07:32----------
+that way maybe I'm doing it that way
+
+---------07:33----------
+because over the past 6 or 7 thousand of
+
+---------07:37----------
+these that I've done I've realized that
+
+---------07:39----------
+there was a point to it because there is
+
+---------07:40----------
+a point you're just like everyone want
+
+---------07:41----------
+you to think about this instead of
+
+---------07:43----------
+saying Louis you're doing it wrong you
+
+---------07:44----------
+could say hmm you could be measuring on
+
+---------07:47----------
+the probe points I see that you should
+
+---------07:49----------
+you could probably measure on the probe
+
+---------07:50----------
+points who want to be in it would be a
+
+---------07:51----------
+lot easier for you have you considered
+
+---------07:53----------
+doing that and then I could say well I
+
+---------07:55----------
+have considered doing that but the
+
+---------07:57----------
+reason I don't do it is because it
+
+---------07:58----------
+doesn't test the trace between the probe
+
+---------08:01----------
+points and the I see you know you may
+
+---------08:05----------
+learn something cuz again I don't know
+
+---------08:06----------
+everything I'm always open to the fact
+
+---------08:08----------
+that I may be able to learn something
+
+---------08:09----------
+from somebody else maybe you should be
+
+---------08:11----------
+too anyway so beyond from that and trust
+
+---------08:15----------
+me I'm not talking about any one
+
+---------08:16----------
+specific person because I got I would
+
+---------08:19----------
+say between comments and messages
+
+---------08:21----------
+because I get a lot more messages than I
+
+---------08:22----------
+do comments and stuff like that there's
+
+---------08:24----------
+at least like 20 or 30 of them so I'm
+
+---------08:26----------
+not calling out any one person
+
+---------08:27----------
+specifically now the current sensing is
+
+---------08:31----------
+fine now if you look closer on this chip
+
+---------08:34----------
+and you get a little bit of a hint that
+
+---------08:36----------
+it's up so you're it's supposed
+
+---------08:40----------
+to say is L 6 2 5 9 a HRT ZF 2 4 4 and
+
+---------08:45----------
+the 4 4 is kind of exploded
+
+---------08:46----------
+that means the chip itself is probably
+
+---------08:48----------
+ so I'm gonna turn the air filter
+
+---------08:50----------
+on as high as it goes remove the chip
+
+---------08:52----------
+replace it and see if after this is done
+
+---------08:55----------
+we get something
+
+---------09:04----------
+come on turn on turn on little JB see I
+
+---------09:08----------
+dropped this thing off the desk all the
+
+---------09:09----------
+time this thing this guy I mean I love
+
+---------09:12----------
+the JBC station but this whole
+
+---------09:13----------
+counterweight thing is such a
+
+---------09:14----------
+piece of watch this let me just
+
+---------09:16----------
+turn it off so I don't kill myself like
+
+---------09:17----------
+it's not gonna do it on camera but look
+
+---------09:20----------
+it's so easy to knock this thing over
+
+---------09:21----------
+every time I get up I have this under
+
+---------09:23----------
+the desk but it's not like spooled or
+
+---------09:25----------
+anything so every time I get up to go to
+
+---------09:26----------
+the bathroom I wind up knocking into
+
+---------09:28----------
+this thing it tries me crazy I'm
+
+---------09:30----------
+walking along I'm walking along and I'm
+
+---------09:33----------
+it moves this way it swings back and
+
+---------09:36----------
+then when it swings back it just knocks
+
+---------09:37----------
+itself off the desk and that's the thing
+
+---------09:39----------
+like I mean myheco FR 801 i am less able
+
+---------09:44----------
+to knock that out of the little
+
+---------09:46----------
+bent paperclip that's holding it in than
+
+---------09:49----------
+this the hakko was $600 when I bought it
+
+---------09:52----------
+this is $1,800 what the anyway
+
+---------09:56----------
+rant over on that because even though
+
+---------09:57----------
+it's 1,800 bucks I did get it for free
+
+---------10:00----------
+so I can't really [ __ ] but I can but I
+
+---------10:04----------
+shouldn't but I do
+
+---------10:05----------
+but I shouldn't story in my life now
+
+---------10:13----------
+goodbye little ISL chip let's just put
+
+---------10:17----------
+some flux to remove it a little easier I
+
+---------10:19----------
+usually like making my life hard but in
+
+---------10:21----------
+this instance I'll make it a little
+
+---------10:23----------
+easier okay and we always have to use
+
+---------10:30----------
+more flux than is necessary or else
+
+---------10:32----------
+you're not going to annoy the engineers
+
+---------10:33----------
+it's imperative to annoy the engineers
+
+---------10:40----------
+that's I mean that's almost become part
+
+---------10:43----------
+of what I like what I enjoy about doing
+
+---------10:45----------
+these videos at this point just knowing
+
+---------10:51----------
+that an engineer troll is watching this
+
+---------10:54----------
+cursing screaming going that's not the
+
+---------10:56----------
+way you do it I don't know what it is
+
+---------10:59----------
+but I get a kick out of it
+
+---------11:18----------
+this is one of those areas where if
+
+---------11:21----------
+you're one of those people who thinks
+
+---------11:22----------
+that the aten 8 5 8 is the same as an
+
+---------11:24----------
+$1,800 JBC this is where you'll notice a
+
+---------11:27----------
+difference because this part of the
+
+---------11:30----------
+board has very high thermal mass and it
+
+---------11:32----------
+takes a lot of heat to get anything done
+
+---------11:34----------
+it's very difficult for novices that to
+
+---------11:36----------
+solder around this part even people that
+
+---------11:37----------
+are you know that have been doing well
+
+---------11:40----------
+on other stuff it I notice a lot of
+
+---------11:43----------
+people screw up here particularly
+
+---------11:45----------
+because it's just really difficult this
+
+---------11:48----------
+is a multi-layer PCB and this area is
+
+---------11:51----------
+meant to deal with a lot of power the
+
+---------11:55----------
+middle pad is kind of more of a heat
+
+---------11:56----------
+sink than anything else more than a
+
+---------11:58----------
+grounding pad so I mean if you have a
+
+---------12:07----------
+preheater it takes away some of the it
+
+---------12:09----------
+definitely takes away some of the
+
+---------12:11----------
+challenge if you have a preheater but if
+
+---------12:14----------
+I remember not having a preheater
+
+---------12:16----------
+the first time I tried that Aten thing
+
+---------12:18----------
+and I tried removing this chip I'm not
+
+---------12:19----------
+kidding I was sitting there for six
+
+---------12:21----------
+minutes
+
+---------12:21----------
+I just Jessa and I just threw the thing
+
+---------12:24----------
+in the trash like at max
+
+---------12:26----------
+temperature 6 minutes in the chip was
+
+---------12:29----------
+still not off the board just a joke
+
+---------12:37----------
+and I'm not against cheap trust me
+
+---------12:39----------
+I mean IIIi use I mean I use a
+
+---------12:44----------
+titanium rod and a screwdriver to it's
+
+---------12:46----------
+you know to fix not fix I guess to
+
+---------12:49----------
+straighten out
+
+---------12:50----------
+iPhones well I used to when I actually
+
+---------12:53----------
+did screen repairs I don't need more but
+
+---------12:55----------
+you get the point I use alcohol instead
+
+---------12:58----------
+of a FLIR cam to detect shorts because I
+
+---------13:01----------
+feel that the FLIR cam is going to take
+
+---------13:02----------
+me the exact same amount of time except
+
+---------13:04----------
+cost me a bunch more money in most cases
+
+---------13:07----------
+um I'm open to spending money when it
+
+---------13:09----------
+makes sense but I don't spend money when
+
+---------13:11----------
+it doesn't make sense I'm cheap
+
+---------13:13----------
+trust me I'm very cheap but when it
+
+---------13:16----------
+comes to like that the reason I
+
+---------13:17----------
+don't use those cheap stations is I
+
+---------13:20----------
+can't get anything done I've tried and
+
+---------13:25----------
+it really gets into perspective when you
+
+---------13:27----------
+do something like let's say try to
+
+---------13:28----------
+solder a chip to let's say you're
+
+---------13:30----------
+soldering an SP you know a spi ROM chip
+
+---------13:34----------
+to the little BIOS programmer board that
+
+---------13:36----------
+I have that thing has no thermal mass
+
+---------13:39----------
+it's a single layer if I use the same
+
+---------13:41----------
+temperature that I'm using right now to
+
+---------13:42----------
+get this off I'm not kidding you'll see
+
+---------13:45----------
+that the solder stays molten for over 25
+
+---------13:47----------
+seconds like you can count 25 seconds it
+
+---------13:50----------
+stays molten because it's it's just too
+
+---------13:54----------
+hot we sell these chips by the way on
+
+---------13:58----------
+the mail-in dot repair website so if you
+
+---------14:00----------
+want is L six two five nine chips you
+
+---------14:03----------
+can buy them there I have tons of spools
+
+---------14:06----------
+available discounts if you buy more oh
+
+---------14:13----------
+yeah when I mean of course the aten is
+
+---------14:16----------
+gonna be fine for that stuff like single
+
+---------14:17----------
+layer but when I actually try to do work
+
+---------14:19----------
+on here I mean I try it I want that
+
+---------14:21----------
+thing to work I'm a cheapskate I'm a big
+
+---------14:23----------
+cheapskate
+
+---------14:24----------
+I like wooden cheap does the job I
+
+---------14:26----------
+don't like spending money for no reason
+
+---------14:27----------
+but I would just be torturing myself
+
+---------14:30----------
+using that stuff
+
+---------14:41----------
+I'll try a different method than I
+
+---------14:43----------
+usually use usually ice out of this chip
+
+---------14:45----------
+on by just shoving it in there and then
+
+---------14:47----------
+cleaning up everything afterwards you're
+
+---------14:50----------
+probably gonna do this time to tap it in
+
+---------14:57----------
+BAM
+
+---------14:58----------
+now I want to get it nice and flat in
+
+---------14:59----------
+the board push down it being flat on the
+
+---------15:03----------
+board is the most important thing see
+
+---------15:11----------
+you think it's soldered you think it is
+
+---------15:13----------
+and you do this and you see that you got
+
+---------15:16----------
+all these voids
+
+---------15:44----------
+let's make this look Factory shall we
+
+---------15:47----------
+like
+
+---------15:52----------
+the t30 - can tip from Jaco on the echo
+
+---------15:57----------
+FM 2032 iron
+
+---------16:06----------
+aka idiot-proof if I can solder
+
+---------16:10----------
+with this thing anybody can hack owes
+
+---------16:16----------
+not paying me to say that either
+
+---------16:19----------
+Echo's too smart a company to have
+
+---------16:21----------
+people like me endorsing
+
+---------16:28----------
+I like an air filter okay
+
+---------16:43----------
+all the excess just gets tossed onto the
+
+---------16:47----------
+iron so not really a such thing as too
+
+---------16:51----------
+much here because I'm making sure that
+
+---------16:53----------
+all the excess goes to the iron not
+
+---------16:56----------
+trying to get excess stuck on the board
+
+---------16:57----------
+okay now let's see if we have any change
+
+---------17:01----------
+in activity let's turn off the the wind
+
+---------17:04----------
+turbine here oh it's good to stay
+
+---------17:19----------
+hydrated throughout your day hey you're
+
+---------17:24----------
+supposed to be sleeping sleep any change
+
+---------17:31----------
+yay look the fan spins and the light is
+
+---------17:38----------
+green could I ask for anything more so
+
+---------17:42----------
+that's that for today and as always I
+
+---------17:44----------
+hope you learned something
+

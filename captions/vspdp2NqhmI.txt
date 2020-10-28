@@ -1,0 +1,952 @@
+https://www.youtube.com/watch?v=vspdp2NqhmI
+---------00:00----------
+Paul will get his iPhone for when he
+
+---------00:01----------
+comes back when I came to work today
+
+---------00:02----------
+apparently he went to some Rangers game
+
+---------00:04----------
+or something
+
+---------00:05----------
+so someone noticed I got a haircut
+
+---------00:11----------
+I have helmet hair can you tell I have
+
+---------00:14----------
+helmet hair you know why I have helmet
+
+---------00:16----------
+there though that's right
+
+---------00:20----------
+I love my birthing 60 amps with a
+
+---------00:24----------
+battery that can actually output up to
+
+---------00:25----------
+90 that's awesome
+
+---------00:28----------
+alright so today we're gonna be going
+
+---------00:30----------
+over the MacBook a 17:07 board that does
+
+---------00:34----------
+not turn on let's try and see if we can
+
+---------00:36----------
+figure out what's wrong with this
+
+---------00:37----------
+MacBook so this looks like an eight two
+
+---------00:39----------
+zero zero zero two eight one board and
+
+---------00:43----------
+the first thing we're gonna do is see if
+
+---------00:45----------
+we get five volts we're 20 volts on the
+
+---------00:48----------
+charger so I have this little USB C amp
+
+---------00:51----------
+meter here and after three seconds it's
+
+---------00:57----------
+stuck at 5.20 two volts you can usually
+
+---------00:59----------
+tell if it's gonna be at five or 20
+
+---------01:01----------
+because when it stuck at five volts it
+
+---------01:02----------
+usually uses ten mill amps and when it
+
+---------01:04----------
+go it's about to go to 20 volts you'll
+
+---------01:06----------
+see it's using a hundred to three
+
+---------01:09----------
+hundred milliamps so let's try and
+
+---------01:11----------
+figure out why this is now these are the
+
+---------01:14----------
+chips over here that talk to the USBC
+
+---------01:17----------
+charger here here here and here
+
+---------01:22----------
+and those chips are the CD 32 15 s
+
+---------01:25----------
+available on store dot Rossman group.com
+
+---------01:28----------
+don't delay buy today get the c zero
+
+---------01:30----------
+zero version rather than the bo3 so it
+
+---------01:31----------
+actually charges that chip needs PP 3v3
+
+---------01:35----------
+underscore g3 hot to work so first thing
+
+---------01:37----------
+we're gonna do is we're gonna check this
+
+---------01:38----------
+rail which is pp 3 v3 underscore g3 hot
+
+---------01:41----------
+and open up a schematic and board view
+
+---------01:42----------
+so that you can check it out now just
+
+---------01:44----------
+like you needed PP 3 v 4 to on the older
+
+---------01:47----------
+MacBooks to get a green light on this
+
+---------01:49----------
+one you need PP 3 V 3 underscore g3 hot
+
+---------01:51----------
+to get 20 volts in the charger so it's
+
+---------01:53----------
+essentially the same general idea as the
+
+---------01:55----------
+old boards where there's this is the
+
+---------01:57----------
+power rail that has to show up before
+
+---------01:58----------
+you get all the others so I'm gonna get
+
+---------02:00----------
+this schematic and board view on the
+
+---------02:02----------
+screen
+
+---------02:06----------
+so first thing we're gonna do is we're
+
+---------02:08----------
+gonna take a look at the PP through
+
+---------02:09----------
+three underscore g3 hot area
+
+---------02:11----------
+so this is where Pippa through p3
+
+---------02:12----------
+underscore jihad is going to be created
+
+---------02:14----------
+now the first thing I'm interested in
+
+---------02:16----------
+before I blame the chip or anything once
+
+---------02:18----------
+it actually see if it's creating Pippa
+
+---------02:19----------
+through v3 underscore g3 odds we're
+
+---------02:21----------
+gonna look on L eighteen sixty nine
+
+---------02:25----------
+hundred over there and see what we're
+
+---------02:27----------
+getting
+
+---------02:49----------
+as you can see we're getting zero volts
+
+---------02:51----------
+and Pepa 3v3 undersquare g3 yacht
+
+---------02:53----------
+so now we want to see why pepper three
+
+---------02:54----------
+to three underscore g3 hot is missing
+
+---------02:56----------
+which means we're going to go to u6 t
+
+---------02:58----------
+903 and zoomin now which one of the pins
+
+---------03:01----------
+on here do you think is gonna be
+
+---------03:02----------
+responsible for turning the chip on like
+
+---------03:05----------
+which pin do I have to send voltage on
+
+---------03:06----------
+it to for this to turn on there's gonna
+
+---------03:10----------
+be two pins now the first is going to be
+
+---------03:12----------
+here sup sup stands for supply and if
+
+---------03:15----------
+you don't know what it's stood for you
+
+---------03:16----------
+can kind of guess a little bit but it's
+
+---------03:18----------
+kind of like a combination of playing
+
+---------03:19----------
+wheel of fortune and also playing also
+
+---------03:22----------
+looking at what's here it says from USB
+
+---------03:25----------
+C source so this is the charging voltage
+
+---------03:27----------
+going into the chips this is charger
+
+---------03:30----------
+voltage it says from so it's obvious to
+
+---------03:32----------
+me that this is going to be input and it
+
+---------03:34----------
+says sup which is gonna stand for supply
+
+---------03:36----------
+and then you have another pin over here
+
+---------03:39----------
+says en en is going to be for enable and
+
+---------03:44----------
+if you weren't sure what those things
+
+---------03:45----------
+were you can always simply Google max
+
+---------03:47----------
+seven seven five nine six you'll find a
+
+---------03:50----------
+datasheet for it
+
+---------03:51----------
+this company is has not gone full Apple
+
+---------03:53----------
+yet in terms of hiding data sheets for
+
+---------03:55----------
+every single one of their chips like
+
+---------03:56----------
+Intersil did so you know they didn't
+
+---------04:00----------
+cook to Apple and hiding all their data
+
+---------04:02----------
+sheets from everybody but they will
+
+---------04:03----------
+likely soon as soon as I say that so we
+
+---------04:06----------
+need this enable signal to be present so
+
+---------04:08----------
+let's just see if our enable signal is
+
+---------04:09----------
+actually present that's going to be on
+
+---------04:11----------
+pin 10 of the chip and that's small
+
+---------04:13----------
+enough that I'm likely gonna need a
+
+---------04:14----------
+microscope to get in there so pin 10 is
+
+---------04:16----------
+gonna be right down here we are gonna
+
+---------04:18----------
+get my microscope focused
+
+---------04:24----------
+in that area go go gadget microscope go
+
+---------04:31----------
+go
+
+---------04:37----------
+and let's see what we get on pin 10
+
+---------04:42----------
+let's also see if spectrum can manage to
+
+---------04:45----------
+actually allow me to stream at 1/3 of
+
+---------04:48----------
+the bandwidth that I pay for for more
+
+---------04:51----------
+than five minutes you may have noticed
+
+---------04:52----------
+they haven't been uploading lately
+
+---------04:53----------
+that's because at the store I have no
+
+---------04:55----------
+internet
+
+---------04:56----------
+do I pay 400 nine dollars a month for
+
+---------04:59----------
+that Internet absolutely and I paid for
+
+---------05:01----------
+that Internet for them near seven years
+
+---------05:04----------
+yes
+
+---------05:05----------
+has it been absolute trash with past 7
+
+---------05:07----------
+years every single day whether it's Time
+
+---------05:09----------
+Warner or the red spectrum some things
+
+---------05:11----------
+never change their trash ok zero volts
+
+---------05:18----------
+on enable which means that the chip is
+
+---------05:19----------
+not being asked to turn on so I can't
+
+---------05:21----------
+blame the chip I can't blame a
+
+---------05:22----------
+short-circuit after if it's not even
+
+---------05:24----------
+being asked to turn on I can't blame a
+
+---------05:25----------
+chip it's not you know you can't blame
+
+---------05:27----------
+somebody for not doing their job if they
+
+---------05:29----------
+never we're at we're told what their job
+
+---------05:31----------
+was or what it is they're supposed to do
+
+---------05:33----------
+or that they're supposed to show up so
+
+---------05:34----------
+we're gonna look for where that enable
+
+---------05:35----------
+signal comes from and go from there so
+
+---------05:37----------
+if I look over here the first thing I'm
+
+---------05:39----------
+gonna do is try to figure out where this
+
+---------05:41----------
+comes from
+
+---------05:41----------
+so this is gonna cop p.m. en p3 v3
+
+---------05:44----------
+underscore g3 hot now usually I would
+
+---------05:47----------
+check the zero ohm resistor over here
+
+---------05:48----------
+our 69 21 to see if that resistor is bad
+
+---------05:51----------
+but for my experience it never ever ever
+
+---------05:52----------
+ever ever ever goes bad so I'm just kind
+
+---------05:54----------
+of jumping over that because I kind of
+
+---------05:56----------
+want to finish up my work quick today so
+
+---------05:57----------
+I can get a burrito
+
+---------05:58----------
+so that signal is going to come from
+
+---------06:01----------
+this trip over here you 7000 which is
+
+---------06:03----------
+the is l9 239 this chip is very similar
+
+---------06:06----------
+to the ISL 65:9 in fact it's so similar
+
+---------06:08----------
+to the ISL 6259 that in Apple's own
+
+---------06:11----------
+schematic they labeled at the is l6 two
+
+---------06:13----------
+five nine great [ __ ] engineering great
+
+---------06:16----------
+job schematic team telling us that we
+
+---------06:19----------
+are not qualified to work on your
+
+---------06:20----------
+product when you can't even get the
+
+---------06:21----------
+names of the chip right what look at Lee
+
+---------06:23----------
+this is l6 259 use 7000 I click it again
+
+---------06:28----------
+and it's an ISO nine two three nine is
+
+---------06:34----------
+it an ISL nine two six nine or an iso
+
+---------06:37----------
+nine two three nine I don't know are we
+
+---------06:40----------
+supposed to put more cooling in the
+
+---------06:41----------
+iodine MacBook so it doesn't throttle I
+
+---------06:43----------
+don't know
+
+---------06:44----------
+just an Apple engineer how can I be
+
+---------06:47----------
+expected to be useful anyway back to
+
+---------06:50----------
+this so this is the is l9 2 3 9 chip and
+
+---------06:52----------
+we can find it right over here and this
+
+---------06:55----------
+is gonna be the end of the line for that
+
+---------06:57----------
+signal that's probably gonna be the
+
+---------06:58----------
+cause of my problem so let's just check
+
+---------07:00----------
+it out yep that's my good old eye a
+
+---------07:02----------
+saddle 9 2 3 9 or is L 6 2 5 9 depending
+
+---------07:07----------
+on whether you're not you're the stoned
+
+---------07:09----------
+Apple engineer that wrote that schematic
+
+---------07:10----------
+and then by the way everybody if you
+
+---------07:12----------
+need a nice aisle 93 9 you're not sure
+
+---------07:14----------
+where to find it cuz Apple won't tell
+
+---------07:15----------
+you if you want to know where to find it
+
+---------07:17----------
+and Intersil won't let you get don't
+
+---------07:19----------
+worry about it cuz we got you covered
+
+---------07:20----------
+you've just get over here to store it
+
+---------07:21----------
+out Rostelecom and buy an is l9 239
+
+---------07:26----------
+which is actually in stock it says out
+
+---------07:28----------
+of stock for some strange reason even
+
+---------07:30----------
+though it's in stock because Nike didn't
+
+---------07:33----------
+update the inventor mikey mikey is l9
+
+---------07:40----------
+two three nine says out of stock but we
+
+---------07:42----------
+have over 15 of them let's get a show up
+
+---------07:49----------
+is in stock very soon thank you very
+
+---------07:51----------
+much Danny Garcia
+
+---------07:52----------
+so that chips gonna be showing up in
+
+---------07:53----------
+stock soon either that or there's gonna
+
+---------07:55----------
+be another employee that's stuck in the
+
+---------07:56----------
+basement we're gonna turn this place
+
+---------08:00----------
+into C sad solutions so fast his head's
+
+---------08:04----------
+gonna spin right off by the way we're
+
+---------08:08----------
+still looking for employees so if you
+
+---------08:09----------
+want a job try an email help at rossmann
+
+---------08:12----------
+group comm you have excellent benefits
+
+---------08:13----------
+acts lovely working conditions for
+
+---------08:15----------
+anybody who can count the inventory so
+
+---------08:16----------
+that being said let's move on to
+
+---------08:19----------
+replacing this chip
+
+---------08:23----------
+okay so first thing I'm gonna do is take
+
+---------08:26----------
+a hot every workstation is l9 239 it
+
+---------08:29----------
+says out of stock it says out of stock
+
+---------08:41----------
+says it in the URL x5 inventory alright
+
+---------08:53----------
+so
+
+---------09:05----------
+okay I'm gonna use my hot air I believe
+
+---------09:08----------
+I have a six point five millimeter
+
+---------09:10----------
+nozzle here thank you for the burrito
+
+---------09:13----------
+and thank you Malta
+
+---------09:15----------
+mcnutty I appreciate that it's very kind
+
+---------09:32----------
+to Goodson spectrum hates PP bus
+
+---------09:35----------
+apparently they do apparently they do
+
+---------09:40----------
+they're not very nice people their
+
+---------09:42----------
+inspection they don't care if you have
+
+---------09:44----------
+internet or not late as kids they get
+
+---------09:46----------
+their four hundred nine dollars plus tax
+
+---------09:47----------
+a month
+
+---------09:55----------
+I really do want to try to beam the
+
+---------09:57----------
+files that I get at home here cuz all I
+
+---------09:59----------
+can get here is da Verizon DSL which is
+
+---------10:02----------
+actually down more often than the my DSL
+
+---------10:05----------
+is down more often than the DEM cable is
+
+---------10:08----------
+because I actually got this pfSense
+
+---------10:10----------
+router that does load balancing so what
+
+---------10:13----------
+what I do is I have a router that when
+
+---------10:15----------
+Time Warner goes down or spectrum goes
+
+---------10:17----------
+down it automatically switches over to
+
+---------10:19----------
+the Verizon DSL without you noticing
+
+---------10:20----------
+it's supposed to be you know instant
+
+---------10:22----------
+kind of thing but the reality is that I
+
+---------10:24----------
+actually have more downtime with Verizon
+
+---------10:26----------
+DSL than I do with the Time Warner
+
+---------10:27----------
+making it completely useless as a
+
+---------10:29----------
+redundant connection New York City
+
+---------10:31----------
+Internet well I yelled at Mikey to do it
+
+---------10:38----------
+that means that it was your fault all
+
+---------10:40----------
+along it was you are you pocketing chips
+
+---------10:48----------
+empty your pockets take off your shoes
+
+---------10:51----------
+dump kick
+
+---------10:55----------
+can't trust Kevin
+
+---------11:18----------
+what is that green stuff on the end of
+
+---------11:19----------
+my flux much gross yeah we're gonna suck
+
+---------11:24----------
+up all those balls because there's
+
+---------11:25----------
+nothing I enjoy doing more on stream
+
+---------11:27----------
+than sucking up a bunch of balls alright
+
+---------11:34----------
+I suck up all those balls mmm
+
+---------11:39----------
+I love sucking up balls especially on
+
+---------11:42----------
+livestream
+
+---------11:45----------
+remove those two capacitors over that I
+
+---------11:49----------
+wrecked with while I was busy sucking up
+
+---------11:52----------
+the balls
+
+---------12:02----------
+and we're gonna run yourselves for a new
+
+---------12:05----------
+ISL ship mmm
+
+---------12:08----------
+beautiful let's see if I was right and
+
+---------12:12----------
+if the problem is the ISL oh along by
+
+---------12:16----------
+the way this is this chip is such a
+
+---------12:17----------
+[ __ ] that the board can have zero
+
+---------12:19----------
+corrosion and this can happen it just
+
+---------12:21----------
+dies like poof out of thin air just poof
+
+---------12:47----------
+I really like to beam files from my home
+
+---------12:50----------
+to the store that would be lovely
+
+---------12:51----------
+it's only about five miles away I have a
+
+---------12:55----------
+really tall building I'm gonna beam the
+
+---------12:59----------
+files from my apartment here this you
+
+---------13:00----------
+watch we watch Time Warner fastest
+
+---------13:08----------
+yeah see how that ship just fell now I'm
+
+---------13:11----------
+gonna Hennis y'all this back and forth
+
+---------13:13----------
+to make that should dance in a place
+
+---------13:15----------
+dance chick dance yes yep
+
+---------13:20----------
+thanks for the free lesson that
+
+---------13:21----------
+successfully fist my own Mac never
+
+---------13:23----------
+thought I'd carry out uh Cindy work
+
+---------13:24----------
+well congratulations I'm glad you
+
+---------13:26----------
+figured something out must feel good to
+
+---------13:28----------
+get that nice dopamine rush at the end
+
+---------13:29----------
+when something actually works speaking
+
+---------13:31----------
+of something actually working let's cool
+
+---------13:33----------
+this thing off for a moment and see if I
+
+---------13:36----------
+get 20 volts in my charger if I do and
+
+---------13:40----------
+that's another machine out of the queue
+
+---------13:59----------
+[Music]
+
+---------14:02----------
+mm-hmm
+
+---------14:06----------
+okay so what are we trust more is all 93
+
+---------14:08----------
+nine from Apple or ISO 93 9 from store
+
+---------14:11----------
+cross new group comm one way to find out
+
+---------14:14----------
+my friends one way to find out zoom in
+
+---------14:18----------
+with that crappy Sony stock lens from my
+
+---------14:21----------
+Chico camera plug this thing in and see
+
+---------14:24----------
+what we get
+
+---------14:25----------
+Oh check that out
+
+---------14:29----------
+Rhett 20 point three volts and one point
+
+---------14:31----------
+four amps now this is my equivalent on
+
+---------14:35----------
+the new MacBooks of fan spin and it's
+
+---------14:38----------
+gonna turn off and turn on again because
+
+---------14:40----------
+it's complaining that it doesn't have a
+
+---------14:41----------
+battery attached sometimes they do that
+
+---------14:44----------
+when they come back from the dead but as
+
+---------14:45----------
+can be seen this is turning on and
+
+---------14:47----------
+working meaning our fix worked and that
+
+---------14:50----------
+our chip from stored out Rossmann group
+
+---------14:52----------
+comm save the day so that's it for today
+
+---------14:55----------
+and as always I hope you learned
+
+---------14:56----------
+something
+
+---------15:04----------
+[Music]
+
+---------15:12----------
+I didn't hit record
+
+---------15:16----------
+so now I can't upload that as a main
+
+---------15:18----------
+Channel video oh that makes me sad much
+
+---------15:26----------
+sad
+
+---------15:35----------
+oh wow
+
+---------15:38----------
+time for a burrito so dad I'll speak to
+
+---------15:41----------
+you see you all later
+

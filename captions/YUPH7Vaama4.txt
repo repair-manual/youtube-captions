@@ -1,0 +1,2245 @@
+https://www.youtube.com/watch?v=YUPH7Vaama4
+---------00:00----------
+all right so today we're gonna be going
+
+---------00:01----------
+over a retina that is completely dead so
+
+---------00:04----------
+first thing I'm gonna do here just wipe
+
+---------00:05----------
+off the desk before I start a little bit
+
+---------00:07----------
+of Windex and a paper towel Windex is
+
+---------00:09----------
+one of those things that I love using on
+
+---------00:11----------
+almost everything alrighty now that
+
+---------00:23----------
+that's done let's see what's going on
+
+---------00:26----------
+with this retina board now first thing
+
+---------00:29----------
+I'm gonna try doing is I'm going to take
+
+---------00:31----------
+my charger and plug it in what do I get
+
+---------00:36----------
+I get no light what's the first thing
+
+---------00:39----------
+that I have to check if I have no light
+
+---------00:40----------
+the first thing that I have to check if
+
+---------00:42----------
+you've watched my video is on what power
+
+---------00:44----------
+rail comes first the importance of
+
+---------00:45----------
+sequence and my one wire circuit videos
+
+---------00:47----------
+is that P P 3 V 4 to underscore g3 Han
+
+---------00:50----------
+has to come first so let's take a look
+
+---------00:52----------
+and try to see if we have that on this
+
+---------00:54----------
+board so I'm just gonna take my
+
+---------00:56----------
+multimeter and turn it because with this
+
+---------00:57----------
+cool new camera angle you might actually
+
+---------00:59----------
+stand a chance at seeing what the
+
+---------01:01----------
+is on my desk there we go BAM
+
+---------01:04----------
+okay voltage also for all those people
+
+---------01:08----------
+that say superglue is not something that
+
+---------01:10----------
+you should use for repair and I remember
+
+---------01:12----------
+there's this one total [ __ ] that said
+
+---------01:13----------
+the three years ago like I should not be
+
+---------01:15----------
+in repair of electronics because I used
+
+---------01:17----------
+superglue there is a use for it
+
+---------01:20----------
+this multimeter thing kept falling down
+
+---------01:22----------
+because I've dropped it so many times
+
+---------01:23----------
+that I up the entire base of the
+
+---------01:25----------
+back this is now super glued in place so
+
+---------01:28----------
+that I don't worry about falling all the
+
+---------01:29----------
+time so anyway let's move on here PP 3 V
+
+---------01:35----------
+4 2 is the rail that has to come up
+
+---------01:37----------
+first so how do I find PP 3 V 4 2 you
+
+---------01:39----------
+may be wondering if you're a new viewer
+
+---------01:41----------
+to the channel well let me show you over
+
+---------01:43----------
+here with the board view software how I
+
+---------01:46----------
+would find that and if you don't know
+
+---------01:48----------
+why I need that so rail come first I
+
+---------01:50----------
+would highly suggest you check out my
+
+---------01:51----------
+older videos like my 1 wire circuit
+
+---------01:53----------
+videos where I go over this in great
+
+---------01:55----------
+detail but we're not gonna do that just
+
+---------01:58----------
+right now so now we're gonna move over
+
+---------02:00----------
+to here I still haven't figured out why
+
+---------02:02----------
+I'm capturing it one frame per second
+
+---------02:04----------
+when it comes to this so when it comes
+
+---------02:06----------
+to the screen view but there's always
+
+---------02:09----------
+something broken
+
+---------02:09----------
+I fixed one thing supposedly fixed by
+
+---------02:12----------
+fixed I mean I stopped seeing the
+
+---------02:13----------
+problem
+
+---------02:13----------
+so I'm taking credit for it which is
+
+---------02:15----------
+where the microscope camera had a
+
+---------02:17----------
+banding but not banding it was tearing
+
+---------02:21----------
+that was it what it was so we're gonna
+
+---------02:22----------
+check for PP 3 before 2 over here and
+
+---------02:26----------
+let's see what I get so ok I'm gonna
+
+---------02:28----------
+switch back so you can see this let's
+
+---------02:32----------
+see what I get over here so 4 on PP 3 V
+
+---------02:35----------
+4 - it's there I see it alright
+
+---------02:42----------
+now let's follow and try to figure out
+
+---------02:45----------
+what's going on here so I'm gonna go
+
+---------02:47----------
+over the 1 wire section let's see and
+
+---------02:51----------
+how this works I'm gonna explain this
+
+---------02:54----------
+very very quickly because I've explained
+
+---------02:56----------
+that a lot of times already and there's
+
+---------02:57----------
+only so many times that I can say the
+
+---------02:59----------
+same thing before I just get really
+
+---------03:00----------
+tired of it this is a logic gate this is
+
+---------03:04----------
+going to allow PP 3 V 4 - 2 which is 3
+
+---------03:07----------
+point 42 volts the power this chip when
+
+---------03:10----------
+smc bc AC ok which i have been
+
+---------03:12----------
+incorrectly calling a for a year
+
+---------03:14----------
+and a half of doing this channel as
+
+---------03:16----------
+present it's going to well out this chip
+
+---------03:18----------
+to turn off once this chip has power on
+
+---------03:20----------
+its VCC pin by the way when you want to
+
+---------03:22----------
+know what what VCC means VC C's is like
+
+---------03:25----------
+this like this is this is the you can't
+
+---------03:27----------
+see this is my microscope camera right
+
+---------03:29----------
+it has one of those wall wart power
+
+---------03:31----------
+supplies that plug into it this is the
+
+---------03:32----------
+power so this over here where I'm
+
+---------03:35----------
+plugging in the power supply to my
+
+---------03:36----------
+camera that's a VCC pin that's you can
+
+---------03:38----------
+call that a VCC pin it makes it easy I'm
+
+---------03:40----------
+sir some engineer will tell me why I'm
+
+---------03:42----------
+wrong with that but off now moving
+
+---------03:45----------
+back to the schematic over here if we
+
+---------03:47----------
+see the 3 point 4 volts over here I can
+
+---------03:50----------
+automatically not check for this not
+
+---------03:51----------
+check for this not see if this is
+
+---------03:53----------
+working I'm just gonna kind of skip
+
+---------03:54----------
+ahead and check on you 7000 to see that
+
+---------03:56----------
+this chip is working the reason I'm
+
+---------03:57----------
+interested in this trip is because this
+
+---------03:58----------
+chip is what's going to allow adapter
+
+---------04:00----------
+sense from the charger which is aka
+
+---------04:02----------
+sense the charger sends the charger turn
+
+---------04:04----------
+the light green and the charger and turn
+
+---------04:06----------
+the on it's going to allow this to
+
+---------04:08----------
+talk to the SMC so see we have X tan int
+
+---------04:10----------
+x over here stands for external like the
+
+---------04:14----------
+charger in stands for internal like
+
+---------04:16----------
+talking to the computer so sis one wire
+
+---------04:19----------
+let's just take a look here so sis one
+
+---------04:21----------
+wire is going to be a line that talks to
+
+---------04:24----------
+this chip you 5,000 which is the SMC the
+
+---------04:26----------
+system management
+
+---------04:27----------
+controller so let's take a look at you
+
+---------04:30----------
+7,000 and see what's going on here so if
+
+---------04:32----------
+this chip has three volt point three
+
+---------04:35----------
+volts over here on the VCC and pin four
+
+---------04:37----------
+3.42 I got that wrong
+
+---------04:38----------
+and this resistor is not blown then I
+
+---------04:41----------
+can kind of assume that that my problem
+
+---------04:44----------
+is either with the SMC the charge port
+
+---------04:47----------
+something like that but let's just try
+
+---------04:48----------
+to rule this stuff out again I'm not
+
+---------04:50----------
+going to check this right now because if
+
+---------04:51----------
+I check this and this is good if I check
+
+---------04:53----------
+the u 7000 and it has voltage on pin 1 I
+
+---------04:56----------
+know that all this stuff is already good
+
+---------04:58----------
+because this chips job is the sent power
+
+---------05:00----------
+to that one so let's go over that let's
+
+---------05:03----------
+also add a scene and open broadcaster so
+
+---------05:05----------
+that you can see multiple things at the
+
+---------05:07----------
+same time here we go so you're gonna be
+
+---------05:09----------
+able to see my multimeter as well as my
+
+---------05:11----------
+microscope camera now and the mic result
+
+---------05:15----------
+amita is gonna go out of focus as I move
+
+---------05:17----------
+my face I have to get a remote
+
+---------05:20----------
+control for them anyway we have u 7000
+
+---------05:24----------
+down here or we're here here we go
+
+---------05:29----------
+yeah I'm losing so first let me just see
+
+---------05:31----------
+which pin is gonna be the VCC pin for u
+
+---------05:34----------
+7000 the VCC pin for u 7000 is going to
+
+---------05:44----------
+be pin over here so pin 1 which is here
+
+---------05:51----------
+there 3.3 all right go figure
+
+---------05:55----------
+nothing easy with us nothing easy here
+
+---------05:57----------
+so let's go over and talk a little bit
+
+---------06:00----------
+about the SMC now as I've said in other
+
+---------06:02----------
+videos there's a signal called SMC
+
+---------06:05----------
+underscore reset underscore L which
+
+---------06:08----------
+means that the reset signal will be
+
+---------06:09----------
+asserted as long as the voltage is low
+
+---------06:12----------
+so the SMC itself is not going to turn
+
+---------06:16----------
+on immediately with the machine the pp 3
+
+---------06:19----------
+before 2 rail is a very fussy and
+
+---------06:20----------
+annoying rail it takes a little bit of
+
+---------06:22----------
+time before it gets to exactly 3.42
+
+---------06:24----------
+volts so way this works so that the SMC
+
+---------06:28----------
+doesn't wind up just not working or
+
+---------06:30----------
+crashing is that there's going to be a
+
+---------06:32----------
+chip in between the power supply and the
+
+---------06:35----------
+and the SMC was I just talking about
+
+---------06:42----------
+what page was i on here
+
+---------06:49----------
+yes so there's going to be a chip that
+
+---------06:52----------
+sits in between the SMC and the chip
+
+---------06:56----------
+that creates pp3 before to the entire
+
+---------06:58----------
+purpose of this is that chip that sits
+
+---------06:59----------
+in between is going to say okay I'm
+
+---------07:01----------
+gonna wait for 3.42 volts to stabilize
+
+---------07:03----------
+and be a nice flat voltage instead of a
+
+---------07:06----------
+fluctuating mess and then once that has
+
+---------07:08----------
+stabilized I will release the SMC reset
+
+---------07:12----------
+signal and allow the SMC to turn on
+
+---------07:14----------
+think of it like your desktop computer
+
+---------07:16----------
+so on your desktop computer you may have
+
+---------07:18----------
+a button that says power and a button
+
+---------07:20----------
+that says reset if you have some really
+
+---------07:22----------
+old computer now you hit the reset
+
+---------07:24----------
+button and it resets but what happens if
+
+---------07:26----------
+you hold the reset button down often if
+
+---------07:28----------
+you hold the reset button down the
+
+---------07:30----------
+computer never turns on it's on but it's
+
+---------07:32----------
+not posting it's not doing anything it's
+
+---------07:34----------
+just stuck in that state
+
+---------07:36----------
+so before blaming the SMC here because
+
+---------07:39----------
+very often people will blame the SMC
+
+---------07:41----------
+let's take a little bit of a look into
+
+---------07:43----------
+how the SMC is turned on so I'm gonna go
+
+---------07:48----------
+over to what was I just doing okay so
+
+---------07:57----------
+we're checking you 7,000 and see if it
+
+---------07:58----------
+has three volts okay so first we have to
+
+---------08:03----------
+check you 7,000 to see that it has three
+
+---------08:05----------
+volts let's do that here now if this has
+
+---------08:08----------
+three volts I won't have to check the U
+
+---------08:10----------
+seven zero zero one section so let's
+
+---------08:13----------
+switch over here to wait and see what
+
+---------08:15----------
+voltage that is
+
+---------08:30----------
+now help if I plugged in the damn
+
+---------08:32----------
+machine
+
+---------08:40----------
+okay so that's there so what do we check
+
+---------08:42----------
+next now most of the time people would
+
+---------08:45----------
+be adept to blame the SMC they would say
+
+---------08:47----------
+that the SMC is bad because everything
+
+---------08:49----------
+here is present but what I want you to
+
+---------08:50----------
+think about is what is going to actually
+
+---------08:52----------
+turn the SMC on so let's go over an
+
+---------08:54----------
+older schematic where this may make some
+
+---------08:55----------
+more sense let's go over to the first
+
+---------08:58----------
+page of an older schematic the reason I
+
+---------08:59----------
+say the older one makes more sense is
+
+---------09:01----------
+because it's on the older schematic that
+
+---------09:02----------
+they actually include this diagram that
+
+---------09:04----------
+they don't include with the new one
+
+---------09:05----------
+because it would take an extra ten
+
+---------09:07----------
+minutes of work to draw it and you know
+
+---------09:09----------
+ if Apple actually fixes any other
+
+---------09:11----------
+ anyway so not like they have to
+
+---------09:12----------
+care so let's go over this schematic
+
+---------09:15----------
+here so this is the SMC right now the
+
+---------09:19----------
+SMC is powered by PP 3 V 4 - that's one
+
+---------09:22----------
+of its primary rails that it needs so
+
+---------09:24----------
+you have this little diagram and you see
+
+---------09:26----------
+P P 3 V 4 2 is created by you $69.99 it
+
+---------09:29----------
+goes to this Sigma this chip which has
+
+---------09:31----------
+SMC power good which releases SMC reset
+
+---------09:34----------
+hell and from SMC reset L that makes its
+
+---------09:36----------
+way over to the SMC so if we look at
+
+---------09:40----------
+this why am i on the schematic this is
+
+---------09:47----------
+not even the right motherboard
+
+---------09:49----------
+I'm sorry looking at this one
+
+---------09:56----------
+well this one doesn't have a diagram so
+
+---------09:58----------
+I'm using this alright so SMC reset L is
+
+---------10:03----------
+going to sit in between the PP 3 V 4 -
+
+---------10:06----------
+power supply and also the SMC and the
+
+---------10:09----------
+whole idea here is that the SMC reset
+
+---------10:12----------
+signal is not going to be released until
+
+---------10:15----------
+PP 3 before 2 is stabilized and is 3.42
+
+---------10:18----------
+volts nice and flat no waving no ripple
+
+---------10:21----------
+no spike because if the pen if this has
+
+---------10:23----------
+not stabilized let's say P P 3 P 4 - for
+
+---------10:26----------
+a quick second is 4 volts 2 volts 5
+
+---------10:28----------
+volts 1 ball whatever it is the SMC is
+
+---------10:30----------
+one of those trips that's just it's a
+
+---------10:31----------
+dumb chip it's going to try to turn on
+
+---------10:33----------
+immediately and if it turns on
+
+---------10:35----------
+immediately with the improper voltage
+
+---------10:36----------
+it's going to up and die and stop
+
+---------10:38----------
+working and nothing's gonna work right
+
+---------10:39----------
+so this SMC reset signal sits in between
+
+---------10:42----------
+here and the SMC and the entire idea
+
+---------10:45----------
+here is that it's not going to allow the
+
+---------10:46----------
+SMC to turn on until a second or two is
+
+---------10:49----------
+passed and PP 3 V 4 - is stabilized now
+
+---------10:52----------
+this is very similar to the reset button
+
+---------10:54----------
+on your computer so you may have a reset
+
+---------10:55----------
+button on the front of your computer and
+
+---------10:57----------
+on the front of your computer if you
+
+---------10:58----------
+hold that reset button down you'll
+
+---------11:00----------
+notice that computer never actually does
+
+---------11:02----------
+anything because the reset signal is
+
+---------11:04----------
+being asserted so if you hold that
+
+---------11:05----------
+resets button down for a minute
+
+---------11:07----------
+your computer is on but it's not
+
+---------11:08----------
+actually gonna boot or do anything
+
+---------11:09----------
+because the reset button is asserted the
+
+---------11:12----------
+whole idea here is that's a button and
+
+---------11:14----------
+you click really quickly it's not
+
+---------11:15----------
+supposed to be a button that you hold
+
+---------11:16----------
+down now I want you to look at the name
+
+---------11:20----------
+nomenclatures that's the right word
+
+---------11:22----------
+naming here you look at the name here
+
+---------11:24----------
+the SMC reset signal ends with an
+
+---------11:26----------
+underscore L that means if the reset
+
+---------11:28----------
+signal is going to be asserted so long
+
+---------11:30----------
+as it's low now let's try to get an idea
+
+---------11:32----------
+of what low or high would mean here by
+
+---------11:34----------
+going at you 50 10 which is that signal
+
+---------11:37----------
+that that signal that is that which
+
+---------11:49----------
+you fifty 10 is that ship responsible
+
+---------11:51----------
+for us I'm serious Adele so let's just
+
+---------11:53----------
+go over there and try to figure out what
+
+---------11:54----------
+high or low would be now this chip
+
+---------11:56----------
+receives PP 3 V 3 S 5 as V N and P P
+
+---------12:01----------
+even s 5 s MC v RF whatever which says
+
+---------12:05----------
+three point four here so this is three
+
+---------12:07----------
+point three this is three point four so
+
+---------12:10----------
+I'm going to make the uneducated and
+
+---------12:12----------
+college dropouts guess that three point
+
+---------12:15----------
+three or three point 4 volts is high and
+
+---------12:17----------
+anything that's considerably below that
+
+---------12:19----------
+is low so let's check SMC reset l on
+
+---------12:22----------
+this other board which is the one that
+
+---------12:25----------
+I'm working on all right so we're gonna
+
+---------12:28----------
+go over here SMC underscore reset
+
+---------12:32----------
+underscore ell and okay so it shows up
+
+---------12:38----------
+over here so let's kind of see what this
+
+---------12:41----------
+is
+
+---------12:53----------
+okay move the microscope over
+
+---------13:11----------
+so it's right here one volt does that
+
+---------13:19----------
+look like 3.3 or 3.42 to you because it
+
+---------13:22----------
+don't look like 3.3 or 3.4 to me now
+
+---------13:25----------
+there's a couple of things that could be
+
+---------13:26----------
+wrong here and let's try to measure and
+
+---------13:27----------
+find out what they are and you got to
+
+---------13:29----------
+think logically it's not that hard to
+
+---------13:31----------
+use your brain a little bit I don't
+
+---------13:34----------
+even have one and I managed to use mine
+
+---------13:36----------
+so let's just switch back over to the
+
+---------13:38----------
+schematic over here and let's take a
+
+---------13:41----------
+look at the SMC reset l I see so in
+
+---------13:45----------
+order for this piece of crap to work the
+
+---------13:51----------
+SMC on off L should probably be high
+
+---------13:53----------
+means I'm not hitting the button SMC on
+
+---------13:55----------
+off L is the button that you hit in
+
+---------13:57----------
+order to actually turn the machine on or
+
+---------14:01----------
+off so the whole idea here is that when
+
+---------14:02----------
+the signal is low that means I'm hitting
+
+---------14:03----------
+the power button now you know how you
+
+---------14:05----------
+can do an SMC reset you can do an SMC
+
+---------14:07----------
+reset I holding the power button down so
+
+---------14:10----------
+do I want to be doing an SMC reset no I
+
+---------14:13----------
+want to be getting rid of that signal
+
+---------14:14----------
+all together I want SMC reset to be high
+
+---------14:16----------
+which means I don't want SMC on-off l to
+
+---------14:19----------
+be stuck low so let's we're gonna be
+
+---------14:21----------
+checking that okay so we start back here
+
+---------14:25----------
+and I was here we go
+
+---------14:28----------
+so SMC on off L that has to be high
+
+---------14:30----------
+because if it's stuck low the computers
+
+---------14:33----------
+gonna think I'm holding the power button
+
+---------14:33----------
+down holding the power button down is
+
+---------14:35----------
+what causes the SMC to be reset that's
+
+---------14:38----------
+one of the ways you can reset the SMC so
+
+---------14:39----------
+that's one of the things I want to check
+
+---------14:41----------
+does the chip have actual power going
+
+---------14:43----------
+into it maybe the signal is low because
+
+---------14:45----------
+the chip does not have power going into
+
+---------14:47----------
+it maybe that a hundred kilometres
+
+---------14:48----------
+that's being used as a pull up resistor
+
+---------14:50----------
+let's just switch back here because
+
+---------14:51----------
+if you need to see my face while I'm
+
+---------14:53----------
+talking about a diagram
+
+---------14:54----------
+hey we're recording so let's say hey
+
+---------14:57----------
+that this is blown this little resistor
+
+---------15:00----------
+or the trays could be blown or SMC on
+
+---------15:02----------
+off L could be stuck low so I'm gonna
+
+---------15:04----------
+check a few things I'm gonna check this
+
+---------15:05----------
+resistor to make sure that the pull-up
+
+---------15:06----------
+resistor has voltage on the top of it
+
+---------15:08----------
+and I'm also going to check to see if
+
+---------15:10----------
+SMC on off L is low or a high so I'm
+
+---------15:13----------
+gonna be interested in checking pins
+
+---------15:14----------
+seven and I'm also going to be
+
+---------15:16----------
+interested and check I'm not interested
+
+---------15:18----------
+in checking the SMC trackpad reset
+
+---------15:20----------
+signal right now because the trackpad is
+
+---------15:22----------
+not even connected
+
+---------15:23----------
+I honestly forget how this part works I
+
+---------15:26----------
+shouldn't say that but I yeah I
+
+---------15:28----------
+legitimately forget how this part works
+
+---------15:30----------
+so hopefully it's not that okay
+
+---------15:50----------
+okay
+
+---------15:59----------
+all right so let's shrink this uncheck
+
+---------16:02----------
+pin seven
+
+---------16:03----------
+let's find pin seven all right so pin
+
+---------16:07----------
+seven let's see if SMC on/off is stuck
+
+---------16:10----------
+low because that would cause the SMC
+
+---------16:11----------
+reset signal it asserted SMC reset how
+
+---------16:20----------
+SMC reset L is at 3.3 volts not SMC
+
+---------16:26----------
+reset L SMC on-off L is at 3.3 volts so
+
+---------16:29----------
+that's not causing it
+
+---------16:31----------
+let's check pins 1 & 2 of the chip with
+
+---------16:33----------
+1 & 3 let's make sure power is actually
+
+---------16:35----------
+going into it pin 1 is there and 3 is
+
+---------16:42----------
+there so power is going into the chip
+
+---------16:44----------
+and lastly let's check the other side of
+
+---------16:46----------
+that pull-up resistor one side is 1 volt
+
+---------16:52----------
+the other side has 3.3 okay
+
+---------16:55----------
+now let's analyze this logically
+
+---------16:57----------
+remember use your brain so the chip has
+
+---------17:00----------
+power going into it none of the inputs
+
+---------17:02----------
+into the chip are telling it to keep SMC
+
+---------17:05----------
+reset low the pull-up resistor whose
+
+---------17:07----------
+responsibility it is to hold SMC reset
+
+---------17:10----------
+high unless the chip wants to pull it
+
+---------17:11----------
+down itself is has 3.3 volts on the top
+
+---------17:15----------
+side of it do I replace the chip or is
+
+---------17:18----------
+something else wrong
+
+---------17:19----------
+most likely the chip there is a very
+
+---------17:22----------
+small chance and I say small chance
+
+---------17:24----------
+because I got trolled with this in an
+
+---------17:25----------
+earlier one is that the SMC itself is
+
+---------17:27----------
+bad and the SMC itself being bad is
+
+---------17:30----------
+what's pulling down SMC reset l but
+
+---------17:32----------
+usually when you see SMC reset L being
+
+---------17:34----------
+pulled down particularly on this circuit
+
+---------17:36----------
+with this u 5110 chip and this s MC
+
+---------17:39----------
+usually when that's the case you're
+
+---------17:41----------
+going to see that the SMC reset L signal
+
+---------17:44----------
+is something like zero point five seven
+
+---------17:46----------
+four zero point five a 1 somewhere
+
+---------17:48----------
+around there since I weigh C one volt
+
+---------17:50----------
+that's a little bit I don't know I kind
+
+---------17:52----------
+of feel like I got a different problem
+
+---------17:53----------
+here because often when these things
+
+---------17:55----------
+fail they failed kind of pattern so what
+
+---------17:56----------
+I'm gonna do is I'm gonna remove this
+
+---------17:57----------
+and I'm gonna replace it and let's see
+
+---------17:59----------
+if SMC reset all goes back up now you
+
+---------18:01----------
+may ask why am i replacing that this
+
+---------18:03----------
+instead of replacing the SMC
+
+---------18:05----------
+if the SMC could also be at fault do I
+
+---------18:08----------
+want to replace a chip with eight legs
+
+---------18:10----------
+or 96 balls if this is an equal chance
+
+---------18:12----------
+of either
+
+---------18:12----------
+one of them being bad which would you
+
+---------18:14----------
+rather replace I would most certainly
+
+---------18:16----------
+rather take my chances on the eight
+
+---------18:19----------
+legged one rather than the 52 bald one
+
+---------18:22----------
+but that's just me now let's turn it on
+
+---------18:26----------
+and let's get to work
+
+---------18:31----------
+turn on the fume extractor so it'll in
+
+---------18:33----------
+hell this righty
+
+---------18:48----------
+now
+
+---------19:06----------
+I love this JBC it takes things off so
+
+---------19:09----------
+quickly
+
+---------19:17----------
+it's amazing
+
+---------19:22----------
+get rid of the lead free buy lead free
+
+---------19:25----------
+could buy lead free could buy lead free
+
+---------19:28----------
+too much solder on the center pad I'm
+
+---------19:33----------
+gonna start doing that regularly is this
+
+---------19:38----------
+one Fitness channel where the sky trolls
+
+---------19:39----------
+everybody his name is Jason blah ha
+
+---------19:41----------
+and one of the things that he does is
+
+---------19:44----------
+because everybody you know they're
+
+---------19:45----------
+always people are trolling his
+
+---------19:46----------
+appearance and this that and the other
+
+---------19:48----------
+and he had some piece of his bicep I
+
+---------19:50----------
+don't know the entire thing it could be
+
+---------19:51----------
+wrong here so he got some piece of his
+
+---------19:52----------
+bicep removed surgically because he
+
+---------19:54----------
+ it up in some way so at the end
+
+---------19:56----------
+of every video he says I'm gonna give
+
+---------19:57----------
+you a bicep shot before I go and he
+
+---------19:59----------
+makes this funny little noise as he's
+
+---------20:01----------
+doing the bicep shot it's a Fitness
+
+---------20:02----------
+channel and the whole idea I kind of
+
+---------20:05----------
+think to him is that he's kind of count
+
+---------20:06----------
+he's trolling the idiots that are making
+
+---------20:10----------
+fun of his by step without realizing
+
+---------20:12----------
+that he had surgery on it and especially
+
+---------20:14----------
+since most of the idiots who are making
+
+---------20:15----------
+fun of it are people who they themselves
+
+---------20:17----------
+probably could not lift as well as he
+
+---------20:20----------
+could you know I'm not necessarily
+
+---------20:22----------
+endorsing the channel I'm just kind of
+
+---------20:24----------
+saying all the information you find on
+
+---------20:25----------
+it but I'm just saying that that's one
+
+---------20:27----------
+of those things and I kind of feel like
+
+---------20:29----------
+this whole solder and the center pad
+
+---------20:30----------
+here I think what I'm doing is it's kind
+
+---------20:32----------
+of like a subconscious way of giving a
+
+---------20:35----------
+nice middle finger to I PC certification
+
+---------20:37----------
+and all those trolls it is always having
+
+---------20:40----------
+a middle Center pad that is too much
+
+---------20:42----------
+solder on it I don't matter I just suck
+
+---------20:45----------
+that good to suck that could be a big
+
+---------20:49----------
+part of it that's fine
+
+---------20:55----------
+that was a pretty bad job right there
+
+---------20:57----------
+we're gonna come back and save it though
+
+---------20:59----------
+it gives a that it was a bad job as
+
+---------21:03----------
+long as you're still alive you can fix
+
+---------21:05----------
+it all I want it to be nice and flat on
+
+---------21:09----------
+the board we put a little flux and I use
+
+---------21:11----------
+this T v what is T T 30 - KN that's what
+
+---------21:18----------
+it is this is the T 30 - K n tip aka I
+
+---------21:21----------
+like to call this the corrector because
+
+---------21:23----------
+it fixes all of my it's a great
+
+---------21:26----------
+tip
+
+---------21:33----------
+it's a little harder than usual come on
+
+---------21:37----------
+up there we go BAM okay
+
+---------21:45----------
+now let's plug you in and see if we have
+
+---------21:48----------
+any difference in the SMC reset signal
+
+---------21:53----------
+plugging it in
+
+---------21:55----------
+we are gonna measure the SMC reset
+
+---------21:58----------
+signal
+
+---------22:05----------
+smc reset is 1.1 which means either bad
+
+---------22:09----------
+SMC or corrosion under the SMC so let's
+
+---------22:12----------
+kind of let's get ready to tackle that
+
+---------22:15----------
+now you understand why I tried the other
+
+---------22:17----------
+chip first though there's a pretty good
+
+---------22:21----------
+chance it could be either
+
+---------22:32----------
+okay
+
+---------22:37----------
+so first things first is to remove the
+
+---------22:39----------
+edge bonding I'm gonna heat from far
+
+---------22:45----------
+away because I want the board to be warm
+
+---------22:46----------
+here all right this is another thing
+
+---------22:49----------
+that's good about ultrasonic cleaning if
+
+---------22:50----------
+I get any little bits of solder stuck on
+
+---------22:53----------
+the board kind of corrects me and
+
+---------22:55----------
+removes stuff like that the whole idea
+
+---------22:58----------
+is not to really dig I don't want to dig
+
+---------23:00----------
+I just kind of want to naturally nudge
+
+---------23:02----------
+it off the board should be warm enough
+
+---------23:05----------
+that it's easy to naturally nudge this
+
+---------23:06----------
+ off see if I can follow my own
+
+---------23:09----------
+advice
+
+---------23:17----------
+he in the heat
+
+---------23:23----------
+okay now I'm going to put the heat down
+
+---------23:26----------
+and do this and let's go I'm off in one
+
+---------23:36----------
+piece here we go I want it to come off
+
+---------23:38----------
+in one piece so that it doesn't leave
+
+---------23:40----------
+any of that under the chip because
+
+---------23:41----------
+if I do that and I reflow it it combines
+
+---------23:44----------
+with the balls and then the balls
+
+---------23:46----------
+combine with the edge bonding and you
+
+---------23:48----------
+never want your balls to combine with
+
+---------23:50----------
+your edge bonding
+
+---------24:51----------
+okay you got some flux down there and
+
+---------24:55----------
+now for the heating now by all means
+
+---------24:58----------
+take it microscope take your
+
+---------25:01----------
+time with the heating take your sweet
+
+---------25:04----------
+time doing it from nice and far away the
+
+---------25:13----------
+board's here you see my finger is board
+
+---------25:16----------
+is here heater is there nice distance on
+
+---------25:19----------
+it I want the board to be warm not the
+
+---------25:22----------
+chip the heat from far enough away that
+
+---------25:25----------
+the board is gonna be absorbing a lot of
+
+---------25:27----------
+my heat and the flux is gonna go from
+
+---------25:31----------
+being this chunky stuff to acting like
+
+---------25:33----------
+water you know I do this border pair
+
+---------25:39----------
+will be a piece of from the moment
+
+---------25:40----------
+I took it out of the box because it was
+
+---------25:42----------
+prepaid I don't know what it is
+
+---------25:43----------
+karmically but every every border pair
+
+---------25:45----------
+that's prepaid is it's like an SMC it's
+
+---------25:47----------
+a quarter fan spin it's a dead piece eh
+
+---------25:49----------
+it's like everyone know that or it's
+
+---------25:56----------
+like a no back light thing but it's a no
+
+---------25:57----------
+back light thing where they ripped
+
+---------25:58----------
+everything and they're you know how it
+
+---------26:01----------
+is now once I get to a point where
+
+---------26:06----------
+there's like a barely it to see how this
+
+---------26:08----------
+looks like a really indistinguishable
+
+---------26:09----------
+little puddle right around the chip once
+
+---------26:12----------
+I'm there that's the point at which I'm
+
+---------26:13----------
+willing to go in and then really start
+
+---------26:15----------
+heating
+
+---------26:31----------
+I want to move it but I want to move it
+
+---------26:33----------
+enough that I can actually see it dance
+
+---------26:35----------
+see how it's dancing dance dance dance
+
+---------26:37----------
+it's moving and I tapped it a little
+
+---------26:39----------
+before that happens so I know that I
+
+---------26:40----------
+know that the center balls have melted
+
+---------26:42----------
+as well as the outer ones it's easier to
+
+---------26:44----------
+melt the outer balls than it is to melt
+
+---------26:45----------
+the center balls because they're closer
+
+---------26:49----------
+to the source of the heat after that's
+
+---------26:51----------
+done my high-tech cooling technique
+
+---------27:00----------
+that's high tech and this
+
+---------27:10----------
+it's also a bit to get rid of the excess
+
+---------27:12----------
+flux while it's still hot
+
+---------27:13----------
+it's gonna get ultrasonically cleaned
+
+---------27:15----------
+anyway but you know in terms of flux
+
+---------27:17----------
+removal its easiest to remove that stuff
+
+---------27:19----------
+while it's still hot so let's see if
+
+---------27:21----------
+this piece of decides to work now I
+
+---------27:24----------
+plug in the charger I measure SMC oh we
+
+---------27:30----------
+have a light BAM
+
+---------27:33----------
+okay so that was corrosion unto the SMC
+
+---------27:35----------
+see we got orange light now let's see if
+
+---------27:38----------
+we have a fan spin do we have a fan spin
+
+---------27:45----------
+can you see that huh here we go so let's
+
+---------27:54----------
+go over what we did and why that so
+
+---------28:04----------
+we didn't have a green light on the
+
+---------28:06----------
+charger the first thing I check there is
+
+---------28:08----------
+to see if PP 3 V 4 2 is present one of
+
+---------28:11----------
+the things that I tell all of you is to
+
+---------28:12----------
+check the beginning and the end of a
+
+---------28:14----------
+circuit rather than following every
+
+---------28:15----------
+single little step because it will waste
+
+---------28:17----------
+a lot of time if you do it that way so
+
+---------28:19----------
+let me just go back over here and show
+
+---------28:21----------
+you where within the one wire circuit by
+
+---------28:23----------
+the way if you haven't you don't know
+
+---------28:24----------
+what the 1 wire circuit is and you want
+
+---------28:25----------
+to understand this video watch the 1
+
+---------28:27----------
+wire circuit video is it's short it's
+
+---------28:28----------
+simple I try to not ramble which is you
+
+---------28:31----------
+know challenge if you're me and
+
+---------28:32----------
+let's just go over that so so the first
+
+---------28:37----------
+thing that I need for the 1 wire circuit
+
+---------28:39----------
+to work at the beginning is pp 3 V 4 2
+
+---------28:42----------
+right so I measure that pp 3 before - as
+
+---------28:44----------
+present now at the end of it I check to
+
+---------28:47----------
+see that V s-- that there's power here
+
+---------28:50----------
+again I don't check out some CBC AC ok I
+
+---------28:52----------
+don't check where it comes from I don't
+
+---------28:53----------
+check any of that
+
+---------28:54----------
+I see pp 3 before 2 is there now we skip
+
+---------28:57----------
+ahead to SMC to this once I saw that
+
+---------29:01----------
+chip is being powered on I knew that the
+
+---------29:03----------
+charger was being allowed to talk to the
+
+---------29:05----------
+SMC it must better the SMC is not
+
+---------29:07----------
+listening so is the SMC broken is the
+
+---------29:10----------
+SMC corroded is the SMC up in any
+
+---------29:13----------
+way good questions
+
+---------29:15----------
+now what turns on the SMC as I showed
+
+---------29:17----------
+you in this previous diagram back from
+
+---------29:19----------
+when Apple actually included this diet
+
+---------29:21----------
+this power system architecture diagram
+
+---------29:23----------
+inside of this diagram you'll see that
+
+---------29:26----------
+pp 3 v 4 2 goes to the ship that creates
+
+---------29:28----------
+SMC reset L which then goes to the SMC I
+
+---------29:31----------
+checked there all the conditions were
+
+---------29:33----------
+present for SMC reset L to be high but
+
+---------29:35----------
+it wasn't so I replaced as to this SMC
+
+---------29:37----------
+reset l creation ship and it did nothing
+
+---------29:39----------
+then I figured out at that point I can
+
+---------29:42----------
+only assume either the SMC is bad the
+
+---------29:45----------
+SMC is not receiving power or the SMC is
+
+---------29:47----------
+corroded I can't check to see if the SMC
+
+---------29:50----------
+is receiving power necessarily because I
+
+---------29:52----------
+would have to check the pads under the
+
+---------29:53----------
+chip so we cross out that in
+
+---------29:54----------
+troubleshooting I can't check to see if
+
+---------29:57----------
+the SMC
+
+---------29:57----------
+well I can't know if the SMC is bad
+
+---------29:59----------
+without replacing it so we also put that
+
+---------30:01----------
+all the way at the end in the
+
+---------30:03----------
+troubleshooting and figuring out if the
+
+---------30:05----------
+SMC has corrosion under under it is as
+
+---------30:07----------
+simple as just doing a quick reflow with
+
+---------30:10----------
+some flux the great part about this
+
+---------30:11----------
+stuff is not just the fact that it
+
+---------30:13----------
+allows flux to flow it also cleans out
+
+---------30:15----------
+the dirt and the that may be
+
+---------30:16----------
+hiding under
+
+---------30:17----------
+think about how flux worked the whole
+
+---------30:18----------
+idea is to remove oxides to make it
+
+---------30:20----------
+easier to solder I'm not gonna get into
+
+---------30:21----------
+the science of it because I'll sound
+
+---------30:22----------
+like an idiot I don't really understand
+
+---------30:24----------
+the science of it
+
+---------30:25----------
+flux helps solder flow and removes
+
+---------30:27----------
+ that keeps me from making money
+
+---------30:28----------
+that's really like that's the extent to
+
+---------30:31----------
+which I understand what this tube does
+
+---------30:32----------
+and that's really to be honest with you
+
+---------30:34----------
+the extent to which you need to
+
+---------30:35----------
+understand what this tube does if you're
+
+---------30:36----------
+watching this channel for the purposes
+
+---------30:38----------
+of repairing broken ship so we do that
+
+---------30:41----------
+and it works now here's another thing
+
+---------30:45----------
+that I want to point out to you because
+
+---------30:47----------
+it's something that a lot of people are
+
+---------30:48----------
+gonna get wrong a lot of people
+
+---------30:49----------
+particularly people who are coming from
+
+---------30:51----------
+cellphone base troubleshooting not gonna
+
+---------30:54----------
+pick out any names here but I get a lot
+
+---------30:55----------
+of private messages about this stuff
+
+---------30:57----------
+when they're troubleshooting they they
+
+---------30:58----------
+don't think about things logically they
+
+---------31:00----------
+don't think about sequence they don't
+
+---------31:01----------
+think about what the order is or why
+
+---------31:03----------
+something should be happening they just
+
+---------31:05----------
+look for what looks up which is a
+
+---------31:07----------
+good way to start troubleshooting it's a
+
+---------31:09----------
+good way to learn and it's a good way to
+
+---------31:11----------
+get into doing this but if you're only
+
+---------31:13----------
+looking at what screwed up you're gonna
+
+---------31:14----------
+go down the wrong hole here and let me
+
+---------31:16----------
+show you why because when you look on
+
+---------31:17----------
+this board did you notice that the SMC
+
+---------31:19----------
+area looks good the SMC reset el area
+
+---------31:22----------
+look good the 1-wire area look good
+
+---------31:24----------
+it all looked beautiful perfect
+
+---------31:26----------
+immaculate you know it did not look good
+
+---------31:28----------
+is this area all the way on the other
+
+---------31:29----------
+side of the board over here this over
+
+---------31:31----------
+here is a logic gate that is responsible
+
+---------31:33----------
+for a PCH power okay signal coming on
+
+---------31:36----------
+for to turn on has nothing to do with
+
+---------31:37----------
+the green light and this is just random
+
+---------31:39----------
+corrosion around it this chip over here
+
+---------31:41----------
+I believe it's you 1950 it's the one
+
+---------31:44----------
+response it's the the one has all system
+
+---------31:46----------
+power good as an input and p.m. PCH
+
+---------31:48----------
+power okay as an output this one very
+
+---------31:50----------
+often goes bad on retinas and arrows
+
+---------31:51----------
+mostly on retinas just because of its
+
+---------31:53----------
+location in relation to the fan the
+
+---------31:55----------
+location of the chip in relation to the
+
+---------31:57----------
+fan has a lot to do with what [ __ ] up
+
+---------31:59----------
+so what do I mean by that then with a
+
+---------32:00----------
+fan in this computer is spinning its
+
+---------32:02----------
+spinning so I drop water into it and it
+
+---------32:04----------
+goes Bing which is right where that chip
+
+---------32:08----------
+was located ow
+
+---------32:10----------
+seriously I just managed yeah thank you
+
+---------32:12----------
+I have to stretch more often you get the
+
+---------32:15----------
+idea so on all these machines the
+
+---------32:17----------
+usually where the the water is going to
+
+---------32:19----------
+go to the same spot every time just
+
+---------32:21----------
+based on how that particular machine is
+
+---------32:23----------
+designed
+
+---------32:24----------
+and what's common so here it very
+
+---------32:26----------
+commonly goes to this section so yeah
+
+---------32:29----------
+that has nothing to do with what was
+
+---------32:30----------
+wrong absolutely nothing to do
+
+---------32:33----------
+am I gonna ultrasonic this yes am I
+
+---------32:34----------
+gonna make sure the underneath of that
+
+---------32:36----------
+chip looks good and that it works before
+
+---------32:38----------
+I send this back to the customer yes I'm
+
+---------32:40----------
+not gonna leave it like this but my
+
+---------32:41----------
+point is that this was not the problem
+
+---------32:44----------
+if you were following a mindset of just
+
+---------32:46----------
+let me see what looks up and
+
+---------32:48----------
+let's not think about anything else
+
+---------32:49----------
+you'd never figure out what's wrong with
+
+---------32:51----------
+this now I'm not saying it's bad I'm not
+
+---------32:53----------
+saying it's bad to just look look and
+
+---------32:55----------
+say that looks burned let me fix them
+
+---------32:56----------
+and replace that but I get so many
+
+---------32:58----------
+messages every single day saying hi I
+
+---------33:01----------
+want to replace this thing because it
+
+---------33:03----------
+has a green stuff on it and the thing
+
+---------33:05----------
+that has a green stuff on is a component
+
+---------33:07----------
+that is literally rated so like six or
+
+---------33:09----------
+eight or ten amps at 50 volts and it's
+
+---------33:12----------
+being used in a laptop it doesn't again
+
+---------33:15----------
+I you you could pour radioactive on
+
+---------33:17----------
+that it's not going to break what about
+
+---------33:19----------
+the thing in front of it what about the
+
+---------33:20----------
+thing behind it that's only rated for
+
+---------33:22----------
+you know one sixteenth of a watt but
+
+---------33:25----------
+that doesn't have the corrosion on it so
+
+---------33:27----------
+no but he looks at it I'm not saying
+
+---------33:28----------
+this to insult you I'm saying it because
+
+---------33:30----------
+I want to beat a logic into the head of
+
+---------33:32----------
+the people who watch this stuff because
+
+---------33:34----------
+there was a long period of time or I did
+
+---------33:36----------
+not use basic logic and I want you to
+
+---------33:38----------
+skip ahead of the stupid parts of my own
+
+---------33:40----------
+life that being said let's move on to
+
+---------33:42----------
+the next board and thank you for
+
+---------33:43----------
+watching
+

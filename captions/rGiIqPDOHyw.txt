@@ -1,0 +1,2080 @@
+https://www.youtube.com/watch?v=rGiIqPDOHyw
+---------00:01----------
+okay so today I'm gonna be working on a
+
+---------00:03----------
+board for the sales guy here he bought a
+
+---------00:06----------
+machine and it doesn't turn on and
+
+---------00:09----------
+actually omma board because one of his
+
+---------00:13----------
+boys got sodomized by somebody who used
+
+---------00:16----------
+to work here
+
+---------00:18----------
+that was an eight to zero 33:30 this one
+
+---------00:22----------
+is a twenty nine thirty six so we are
+
+---------00:24----------
+not even close to calling it even even
+
+---------00:26----------
+if I do fix this so the problem is that
+
+---------00:29----------
+it doesn't turn on you don't get a green
+
+---------00:30----------
+light in the charters as you can see I
+
+---------00:32----------
+plug it in no green light there's no fan
+
+---------00:34----------
+spinning I guess maybe you can't see at
+
+---------00:36----------
+that camera angle but you could take my
+
+---------00:37----------
+word for it that it doesn't work
+
+---------00:39----------
+not much it isn't for me to lie about
+
+---------00:41----------
+something not working well let's get the
+
+---------00:43----------
+multimeter on the table here let's do
+
+---------00:46----------
+some measuring so a P P bus g3 hot is
+
+---------00:48----------
+supposed to be I get 12 point 24 volts
+
+---------00:54----------
+good enough where pp 3 before 2 is
+
+---------00:57----------
+supposed to be I get 3.42 volts good
+
+---------00:59----------
+enough there's no green light on the
+
+---------01:01----------
+charger and there's also no ya know PP
+
+---------01:05----------
+5vs5
+
+---------01:06----------
+let's see obviously if that doesn't
+
+---------01:09----------
+exist we're not gonna see PP 5 vs 3
+
+---------01:11----------
+anywhere here so he can just might as
+
+---------01:16----------
+well stop checking oh let's check out
+
+---------01:20----------
+what the 1 wire circuits talking about
+
+---------01:22----------
+shall we so I'm gonna open this gum
+
+---------01:24----------
+attic here finish might as well show you
+
+---------01:27----------
+that on the screen
+
+---------01:31----------
+see if I still have the numbers
+
+---------01:33----------
+memorized not almost
+
+---------01:40----------
+I don't oh here we go I do for a second
+
+---------01:44----------
+I thought I had it memorized
+
+---------01:46----------
+alright so let's see if we're getting
+
+---------01:48----------
+SMC BCA over here this is supposed
+
+---------01:50----------
+to be coming from you 7000 which is
+
+---------01:51----------
+going to tell this to allow the green
+
+---------01:55----------
+light to go on when it talks to the SMC
+
+---------01:56----------
+so let's see what I have an SMC BCA
+
+---------01:59----------
+was supposed to be pins one and two of
+
+---------02:01----------
+you six 901 so we're gonna open a board
+
+---------02:05----------
+view software here which open file we're
+
+---------02:10----------
+going home sounds like somebody's
+
+---------02:12----------
+murdering somebody inside my bathroom
+
+---------02:16----------
+I'm pretty sure that's the exhaust fan I
+
+---------02:18----------
+put in the window falling down in over
+
+---------02:21----------
+itself oh yeah my my construction Ike if
+
+---------02:25----------
+you even call it construction there's
+
+---------02:26----------
+nothing to trust if I do it myself
+
+---------02:29----------
+god help you okay so you 6901 pins 1 & 2
+
+---------02:37----------
+so what do we got here so over here
+
+---------02:41----------
+let's see is that 10 1 & 2 so 10 1 and
+
+---------02:44----------
+10 2 we're supposed to be those should
+
+---------02:48----------
+be higher than what I think I'm gonna
+
+---------02:53----------
+get that's I get zero point five eight
+
+---------02:57----------
+nine man not good enough alright so
+
+---------03:00----------
+let's see if there's any problem or a
+
+---------03:02----------
+short to ground along that line I'm
+
+---------03:03----------
+expecting more than that you also didn't
+
+---------03:07----------
+see me just measure that part of the
+
+---------03:08----------
+board because I forgot to turn open
+
+---------03:09----------
+broadcaster back to the screen I'll do
+
+---------03:12----------
+it again for your benefit so how does
+
+---------03:18----------
+I'll show you what I'm measuring to on
+
+---------03:19----------
+this camera here try to do without
+
+---------03:21----------
+destroying my setup I'm moving this
+
+---------03:26----------
+microscope back and forth is not making
+
+---------03:28----------
+it happy so
+
+---------03:37----------
+let's see I can put this above and I can
+
+---------03:41----------
+do this I can do that I can it's pretty
+
+---------03:45----------
+friggin cool and I can do this here we
+
+---------03:48----------
+go
+
+---------03:48----------
+this so
+
+---------04:00----------
+some pretty cool ain't it
+
+---------04:20----------
+so first let's check for the short to
+
+---------04:22----------
+ground get the red the red probe on
+
+---------04:27----------
+ground and the black probe on top of it
+
+---------04:32----------
+since one two right there
+
+---------04:35----------
+she that's not diode more
+
+---------04:37----------
+there's diode mode see that ain't no
+
+---------04:42----------
+good so something is shorting my SMC BC
+
+---------04:44----------
+a to ground now what could either
+
+---------04:46----------
+be this chip in the one wire circuit
+
+---------04:48----------
+here let me just go back to the
+
+---------04:51----------
+schematics that you can see we're going
+
+---------04:54----------
+to go screen quarter so it could either
+
+---------05:00----------
+be this u6 901 chip which ya come on
+
+---------05:04----------
+mofo where's my hand tool yeah okay hand
+
+---------05:08----------
+to hand to handle render faster you
+
+---------05:12----------
+
+
+---------05:13----------
+okay so SMC BCA goes to u6 901 that
+
+---------05:19----------
+could be shorted to ground that u6 901
+
+---------05:22----------
+could be or it could be is l6 two five
+
+---------05:26----------
+nine so the way this works is you six is
+
+---------05:29----------
+l6 259 which is u 7000 on the board
+
+---------05:32----------
+controls the charger so this is
+
+---------05:34----------
+responsible for the charger going
+
+---------05:35----------
+through to the machine what when
+
+---------05:37----------
+everything is good over here
+
+---------05:39----------
+when this circuit is working properly
+
+---------05:40----------
+and the charger which is 16 or 18 volts
+
+---------05:44----------
+is going to this buck converter to make
+
+---------05:46----------
+12 point 6 volts for the machine and all
+
+---------05:48----------
+is happy it sends out sm c bc AC ok
+
+---------05:51----------
+which wow you have been calling it a
+
+---------05:53----------
+ because it frankly it sounded
+
+---------05:55----------
+funnier nums being immature but
+
+---------05:57----------
+apparently that actually stands for AC
+
+---------05:58----------
+ok again we live in a world where
+
+---------06:00----------
+there's no documentation for any of this
+
+---------06:01----------
+stuff so you just kinda have to guess
+
+---------06:03----------
+until somebody tells you otherwise
+
+---------06:05----------
+so that signal is supposed to be about 3
+
+---------06:07----------
+volts or so and it's it's shorted to
+
+---------06:09----------
+ground in addition to it being shorted
+
+---------06:11----------
+to ground it's also to the voltage is
+
+---------06:13----------
+too low so I'm going to start removing
+
+---------06:15----------
+things and see if my shorter ground for
+
+---------06:17----------
+that goes away I'm gonna start with the
+
+---------06:20----------
+United 7000 because that is what goes
+
+---------06:23----------
+off bad much more often on here than
+
+---------06:25----------
+anything else on older boards that
+
+---------06:28----------
+little I see that I showed you actually
+
+---------06:30----------
+goes bad more often because it's in a
+
+---------06:31----------
+spot where the water
+
+---------06:33----------
+for some reason just meant winds up
+
+---------06:34----------
+going even though they're both on the
+
+---------06:35----------
+edge I'll show you it again on the
+
+---------06:37----------
+microscope camera here
+
+---------06:45----------
+yes this this little thing on the older
+
+---------06:48----------
+boards this is usually over here on the
+
+---------06:51----------
+core 2 duo baseboards and because it's
+
+---------06:53----------
+in that location that's always wick
+
+---------06:55----------
+[ __ ] up due to water now on the newer
+
+---------06:57----------
+boards this year for I believe don't
+
+---------06:59----------
+quote me on it as high side current
+
+---------07:01----------
+sensing that often goes bad because it's
+
+---------07:04----------
+right in the area where the water goes
+
+---------07:05----------
+and don't ask me why the water always
+
+---------07:07----------
+goes to that area it just so happens to
+
+---------07:08----------
+be that way so I'm gonna remove you
+
+---------07:10----------
+7,000 and we're gonna see if that's the
+
+---------07:12----------
+problem this is a little tricky and the
+
+---------07:16----------
+reason it's tricky is because this chip
+
+---------07:17----------
+here is actually creating the voltage as
+
+---------07:19----------
+opposed to so it's it's allowing the
+
+---------07:20----------
+buck converter to create the 12 point 2
+
+---------07:23----------
+or 12 point 6 volts on the charger so
+
+---------07:25----------
+this is this is one of those boards we
+
+---------07:27----------
+have to have a little bit of experience
+
+---------07:28----------
+and know what's going on you're going to
+
+---------07:29----------
+be a bit confused
+
+---------07:36----------
+and I've as I've said in the last video
+
+---------07:38----------
+I believe my fr8 on one needs heating
+
+---------07:42----------
+element replaced because this this I'm
+
+---------07:45----------
+on eight right now I mean if any of you
+
+---------07:47----------
+guys who have enough re I don't 108 is
+
+---------07:49----------
+way too high for any of this work it's
+
+---------07:51----------
+really not what you should be using and
+
+---------07:53----------
+I'm still not melting a damn thing at
+
+---------07:55----------
+the airflow on 12 usually I'm doing this
+
+---------08:00----------
+at six and a half or six out of seven at
+
+---------08:04----------
+the time to call hako you know one of
+
+---------08:07----------
+those things where you know I want to
+
+---------08:08----------
+call hako but a customer walked in I
+
+---------08:10----------
+want to go hack oh but I have to do an
+
+---------08:12----------
+estimate on for some kind of install
+
+---------08:13----------
+data and building that wants something
+
+---------08:17----------
+done it's always something I've gotten
+
+---------08:20----------
+used to and accustomed to the fact that
+
+---------08:22----------
+I'm that I have no no free time okay
+
+---------08:31----------
+okay we're gonna get a dead bored dead
+
+---------08:35----------
+not because the ISL is bad but dead
+
+---------08:36----------
+because it has a hole drilled in it I
+
+---------08:38----------
+hoped but poke through I don't know who
+
+---------08:41----------
+the help us to decide to put the holes
+
+---------08:42----------
+in these but
+
+---------08:51----------
+here's a short on the pads in the bottom
+
+---------08:53----------
+right corner but that'll get fixed later
+
+---------08:58----------
+support her over the orientation of the
+
+---------09:00----------
+chip obviously if you put it on the
+
+---------09:01----------
+wrong way it will smoke
+
+---------09:22----------
+that's nothing bad on top of the chip it
+
+---------09:24----------
+looks burn that's actually there was a
+
+---------09:26----------
+little bit of label paper on it that
+
+---------09:29----------
+said what this board was and I didn't
+
+---------09:30----------
+peel all of it off and then I burned it
+
+---------09:32----------
+when I was removing the chip that's not
+
+---------09:34----------
+a burn on the chip that's a burn on the
+
+---------09:35----------
+paper that was sitting on top of the
+
+---------09:36----------
+chip
+
+---------10:00----------
+disgusting soldering that is gross that
+
+---------10:04----------
+is bad as right
+
+---------10:37----------
+I like having the pointy tip because I
+
+---------10:39----------
+can actually feel when I'm pushing
+
+---------10:40----------
+against the both a pad on the on the
+
+---------10:45----------
+package and the pad on the board you can
+
+---------10:48----------
+feel when you're getting the groove and
+
+---------10:50----------
+indent in there okay
+
+---------11:01----------
+move away the so I can see what I
+
+---------11:03----------
+have I'm happy all righty
+
+---------11:20----------
+I left my brush in the front of the
+
+---------11:23----------
+store again damn I want to use a q-tip
+
+---------11:27----------
+why don't we unlimited supply of q-tips
+
+---------11:29----------
+in front of me all right didn't leave
+
+---------11:35----------
+any I think I'd manage to not leave any
+
+---------11:37----------
+junk behind this time all right you know
+
+---------11:41----------
+what I forgot to do know what makes me a
+
+---------11:43----------
+[ __ ] you know what makes me a real
+
+---------11:45----------
+idiot I forgot to check and see if the
+
+---------11:48----------
+short was gone from the board before I
+
+---------11:50----------
+put that thing back on that makes me
+
+---------11:53----------
+pretty dumb doesn't it well lucky for me
+
+---------11:57----------
+it is you can't see that can you can you
+
+---------12:03----------
+well I don't have to do an edit in Vegas
+
+---------12:07----------
+I don't have to do an edit later I can
+
+---------12:11----------
+just resize that this is what I love
+
+---------12:13----------
+about this new editing platform I mean
+
+---------12:15----------
+this new recording platform that would
+
+---------12:16----------
+have been an edit from a transition
+
+---------12:18----------
+earlier now it's just me resizing from a
+
+---------12:20----------
+real live encode so we're gonna go over
+
+---------12:22----------
+to that same part of the board we were
+
+---------12:24----------
+at before when we met her for a short to
+
+---------12:25----------
+ground I don't have one so that was
+
+---------12:28----------
+0.021 before that was a 0.02 on voltage
+
+---------12:31----------
+drop the ground now it's 0.42 for
+
+---------12:32----------
+voltage drop the ground which means that
+
+---------12:34----------
+were probably not short to ground
+
+---------12:35----------
+anymore which means that Steve's board
+
+---------12:38----------
+works which is beautiful hopefully it
+
+---------12:43----------
+works because if it does I'm part of my
+
+---------12:46----------
+way over to not owing him a 33 30 and no
+
+---------12:52----------
+green light boom
+
+---------12:55----------
+okay well we made some progress at the
+
+---------12:56----------
+very least we know that that MC made
+
+---------13:00----------
+some progress here
+
+---------13:04----------
+still 0.55 5 volts on there that's
+
+---------13:08----------
+really weird now because it's not normal
+
+---------13:09----------
+short to ground so why is SM CBC a
+
+---------13:15----------
+still though huh
+
+---------13:27----------
+mmm-hmm
+
+---------13:31----------
+now it's a head start
+
+---------14:20----------
+okay so our fifty eighty seven is the
+
+---------14:25----------
+pull-up resistor is it for our fifty 807
+
+---------14:28----------
+shall we
+
+---------14:50----------
+our fifty 87 whoops
+
+---------15:00----------
+go figure it's on the other side of the
+
+---------15:01----------
+board
+
+---------15:16----------
+I just poked myself in the thigh with
+
+---------15:18----------
+the multimeter lead I'm surprised it
+
+---------15:22----------
+didn't go through to the other side
+
+---------15:38----------
+damn that is some nasty dusty crap
+
+---------15:56----------
+for that up there is the pp3 before two
+
+---------15:59----------
+side of the resistor
+
+---------16:13----------
+three point three other side point five
+
+---------16:17----------
+let's make sure that resistor is the
+
+---------16:19----------
+proper measurement go back to resistance
+
+---------16:25----------
+mode on the multimeter
+
+---------16:39----------
+that's blurry but won't have a water
+
+---------16:48----------
+280 kill all achieve c1 killem 2.3 kill
+
+---------16:56----------
+along losing patience I hate holding
+
+---------16:59----------
+that thing there and waiting for it to
+
+---------17:00----------
+calculate resistance may at least make
+
+---------17:05----------
+that look better in the meantime 500
+
+---------17:13----------
+kilo ohm 600 kilo ohms 500 kilo ohms see
+
+---------17:18----------
+why I use diode mode for most things
+
+---------17:19----------
+like I don't have the patience
+
+---------17:21----------
+from his resistance mode measurements
+
+---------17:24----------
+473 kilohms is what we settle on
+
+---------17:27----------
+schematic says you're supposed to be 470
+
+---------17:30----------
+kilohm so you're not the problem let's
+
+---------17:34----------
+measure the short if there's a short on
+
+---------17:36----------
+there again just because I'm
+
+---------17:52----------
+no short whatsoever
+
+---------18:01----------
+if I were to just put some voltage on
+
+---------18:06----------
+there what would happen just curious
+
+---------18:09----------
+just curious yes that's the way we learn
+
+---------18:15----------
+yeah you may be looking at what I'm
+
+---------18:18----------
+doing right now and thinking that's
+
+---------18:19----------
+[ __ ] why are you doing that that's
+
+---------18:21----------
+dumb
+
+---------18:21----------
+where do you think I learned all of this
+
+---------18:23----------
+from I mean like you you think that you
+
+---------18:24----------
+think I just went online and went to
+
+---------18:26----------
+like the Apple like the Apple Store and
+
+---------18:28----------
+just bought the book in there Barnes and
+
+---------18:30----------
+Noble section entitled you know
+
+---------18:31----------
+component-level motherboard or Parekh no
+
+---------18:33----------
+it's experimentation no no the
+
+---------18:35----------
+ear this works
+
+---------18:43----------
+I'm sure Steve will forgive me anyway if
+
+---------18:45----------
+this leads to horrible consequences
+
+---------18:55----------
+okay that is one of the worst soldering
+
+---------18:56----------
+jobs that you can possibly do I mean
+
+---------18:58----------
+that is like really look at that that's
+
+---------19:02----------
+that's garbage but that is purely for
+
+---------19:04----------
+testing purposes and yeah
+
+---------19:17----------
+get the ground attached here everybody
+
+---------19:22----------
+who works here knows that if they give
+
+---------19:23----------
+me something like this they really they
+
+---------19:24----------
+know what I'm doing to figure it out
+
+---------19:26----------
+they know what I'm doing to fix it and
+
+---------19:27----------
+there's no surprises that's the thing
+
+---------19:30----------
+we're all on the same page with that
+
+---------19:31----------
+kind of thing so I mean he knows that
+
+---------19:33----------
+I'm hooking this up to wires and you
+
+---------19:36----------
+know doing strange and crazy to
+
+---------19:38----------
+figure it out he knows you Steve mean he
+
+---------19:43----------
+knows point to okay I put power in
+
+---------20:05----------
+I get a green light interesting so you
+
+---------20:13----------
+can see it
+
+---------20:21----------
+and the fan is spinning
+
+---------20:25----------
+I turn it off on the power supply the
+
+---------20:29----------
+power supply is now turned off and still
+
+---------20:35----------
+green light let's try that again unplug
+
+---------20:39----------
+the charger plug the charger back in
+
+---------20:45----------
+nothing no green light nothing
+
+---------20:48----------
+jiggle it a little bit like I have
+
+---------20:51----------
+nothing no green light at all I turn the
+
+---------20:55----------
+power supply on again current 2.2 amps
+
+---------21:00----------
+kidding we don't blow anything here like
+
+---------21:02----------
+this the purpose here is not to make
+
+---------21:03----------
+things hot it's to and the fan turns on
+
+---------21:07----------
+okay
+
+---------21:12----------
+what is this MC BCA if I actually
+
+---------21:14----------
+remove you not you 6901 that's gonna be
+
+---------21:20----------
+the next thing so if I didn't show you
+
+---------21:22----------
+this already so what we replaced you
+
+---------21:24----------
+7,000 let's see well yeah see you we
+
+---------21:31----------
+replaced you 7,000 now let me just take
+
+---------21:33----------
+off u6 901 I'm just kind of curious what
+
+---------21:36----------
+happens here bring them so first let me
+
+---------21:40----------
+remove my little cluster of a jumper
+
+---------21:42----------
+wire here
+
+---------21:55----------
+so at least the thing is the rabbit hole
+
+---------21:57----------
+is not that deep I mean the machine has
+
+---------21:58----------
+the capability to turn on
+
+---------22:08----------
+shattering iron hello are you HOT
+
+---------22:13----------
+okay you're hot now melt you there you
+
+---------22:17----------
+go just sitting there and it wasn't
+
+---------22:19----------
+melting before
+
+---------22:23----------
+okay let's say something in this side is
+
+---------22:26----------
+just screwing it up now if I take this
+
+---------22:32----------
+off and I plug it in am I gonna get 3.3
+
+---------22:34----------
+volts on SM CBC a also by the way
+
+---------22:39----------
+you're gonna say that it damages up
+
+---------22:40----------
+those upper two pins there they're
+
+---------22:42----------
+soldered together on here anyway so
+
+---------22:52----------
+this just does not heat the way it used
+
+---------22:54----------
+to see a little capacitor that moved
+
+---------22:57----------
+over there
+
+---------23:00----------
+this sucks I also don't want to open up
+
+---------23:07----------
+my my iron I know this is silly but I
+
+---------23:10----------
+have a really big pet peeve about
+
+---------23:11----------
+repairing tools
+
+---------23:12----------
+I hate repairing the items that I need
+
+---------23:14----------
+to use to repair items we like having
+
+---------23:16----------
+knowing that I have to come to work is
+
+---------23:18----------
+already something so I mean I know that
+
+---------23:20----------
+I have to come to work and I know that
+
+---------23:21----------
+I'm gonna have a lot of junk to fix that
+
+---------23:23----------
+I don't know how to fix that there's no
+
+---------23:24----------
+manual for but then knowing that I have
+
+---------23:26----------
+to fix my tool just so that I can get to
+
+---------23:29----------
+the work of making money there's
+
+---------23:30----------
+something about it that's just so
+
+---------23:31----------
+fundamentally discouraging and
+
+---------23:33----------
+irritating and now I'm just pitching for
+
+---------23:36----------
+over nothing but that's just how I feel
+
+---------23:37----------
+I hate fixing tools fixing tools is elf
+
+---------23:42----------
+so one of the things you may have
+
+---------23:44----------
+noticed what I was scrolling back and
+
+---------23:45----------
+forth there is that SMC BCA cuck also
+
+---------23:47----------
+goes to the SMC so if it's being sent to
+
+---------23:49----------
+ground the SMC can also be to blame
+
+---------23:51----------
+another thing here that's really silly
+
+---------23:53----------
+as I actually removed one of the
+
+---------23:54----------
+components required for having a green
+
+---------23:56----------
+light and as you can see here I had a I
+
+---------23:59----------
+had a green light for a second it was
+
+---------24:00----------
+dim where's the microscope yeah see that
+
+---------24:04----------
+this is just this is silly anyway so one
+
+---------24:07----------
+of the things I'm gonna do now I'm gonna
+
+---------24:09----------
+measure on the pad where SMC BCA is
+
+---------24:12----------
+and you know let's let's see what I get
+
+---------24:14----------
+just put the multimeter you can actually
+
+---------24:16----------
+see it you'd have to be in this room to
+
+---------24:18----------
+understand but the reason I look dark
+
+---------24:20----------
+and there's so much light around me is
+
+---------24:21----------
+there's so much light above me in this
+
+---------24:23----------
+room I have 1200 LEDs above me here 1200
+
+---------24:26----------
+LEDs above that table and 1200 LEDs
+
+---------24:29----------
+above that table I mean it is a little
+
+---------24:30----------
+bit overkill but I like having light
+
+---------24:33----------
+where I can see everything all right so
+
+---------24:36----------
+when I plug the let's see when I plug
+
+---------24:38----------
+the charger and I'm gonna measure where
+
+---------24:40----------
+SMC BCA is supposed to be and I get
+
+---------24:44----------
+point five whoa mother
+
+---------24:47----------
+ha all right let's
+
+---------24:52----------
+grrrrrr all right I'm gonna remove that
+
+---------24:55----------
+you 7,000 just in the case that it was
+
+---------24:58----------
+bad and I did take it off of a
+
+---------25:02----------
+questionable motherboard
+
+---------25:07----------
+the only thing at this point they could
+
+---------25:09----------
+be pulling that down is the SMC which I
+
+---------25:11----------
+I don't want to fix an SMC tonight
+
+---------25:27----------
+the reason I shy away from doing SMC's
+
+---------25:30----------
+on camera is very simple firstly you re
+
+---------25:33----------
+balling it ship with 0.3 millimeter
+
+---------25:34----------
+balls I mean it's it's at a point where
+
+---------25:36----------
+the balls themselves are so small that
+
+---------25:38----------
+even wouldn't you get a stencil that's
+
+---------25:40----------
+made for it it's very easy to get two
+
+---------25:42----------
+balls inside of inside of one hole in
+
+---------25:44----------
+the stencil the second thing is that
+
+---------25:46----------
+it's a pain-in-the-ass BGA procedure the
+
+---------25:50----------
+third problem with it is that above all
+
+---------25:53----------
+your this is the part that I really hate
+
+---------25:55----------
+is you do it all but you're taking the
+
+---------25:57----------
+the SMC's off of boys that look like
+
+---------25:59----------
+this right so the problem here that
+
+---------26:02----------
+people don't understand is that I don't
+
+---------26:05----------
+know if this is good this port is a hole
+
+---------26:06----------
+in it this is the only place that I can
+
+---------26:08----------
+get a programmed SMC is off of another
+
+---------26:09----------
+board you know this is a board was
+
+---------26:11----------
+thrown in the garbage
+
+---------26:11----------
+this board is probably thrown on the
+
+---------26:13----------
+garbage because it doesn't work and
+
+---------26:14----------
+there's a very very good chance that
+
+---------26:16----------
+this board didn't work because the SMC
+
+---------26:18----------
+was bad so you know did you do all that
+
+---------26:20----------
+work you don't even you're not even a
+
+---------26:23----------
+hundred percent sure if the SMC is
+
+---------26:24----------
+causing the board issue let's face it
+
+---------26:25----------
+sometimes you can be board with wrong
+
+---------26:27----------
+with the board level diagnosis you don't
+
+---------26:29----------
+even know if that's what's causing the
+
+---------26:30----------
+problem right and then you are forced to
+
+---------26:33----------
+test your theory using a part that you
+
+---------26:37----------
+don't even know if it's good using a
+
+---------26:39----------
+process that is miserable and very prone
+
+---------26:41----------
+to issues and failures so I mean you
+
+---------26:43----------
+know like you want to talk about not
+
+---------26:46----------
+wanting to get involved in miserable
+
+---------26:47----------
+nightmares and rabbit holes that that is
+
+---------26:49----------
+the SMC is pretty much at the top of
+
+---------26:51----------
+that list I think that's why those go go
+
+---------26:55----------
+to the bottom of the pile I mean like
+
+---------26:56----------
+real legitimate bottom of the pile
+
+---------27:27----------
+I'm just gonna put my is the ISL that
+
+---------27:29----------
+was working back on wishful thinking on
+
+---------27:32----------
+my part that it be something but the SMC
+
+---------27:34----------
+I always tell you people not to follow
+
+---------27:37----------
+wishful thinking but then I did the same
+
+---------27:38----------
+thing like oh it's gonna be the ISL of
+
+---------27:40----------
+the one wire chip and yeah well III all
+
+---------27:43----------
+troll people without like why do you
+
+---------27:44----------
+think it's the LCD cable why do you
+
+---------27:46----------
+think it's the hard drive cable it's the
+
+---------27:48----------
+same thing every time it's a day ABS
+
+---------27:50----------
+they just think it is they have no
+
+---------27:51----------
+reason no basis no experience no
+
+---------27:54----------
+anything that to pretty much validate
+
+---------27:57----------
+their opinion with their Theory other
+
+---------27:59----------
+than wishful thinking which is I really
+
+---------28:01----------
+want it to be that because I don't want
+
+---------28:02----------
+to do the work of you know the harder
+
+---------28:05----------
+job I don't want to pay for the more
+
+---------28:06----------
+expensive part I don't you know it's
+
+---------28:09----------
+it's all wishful thinking and wishful
+
+---------28:10----------
+thinking is you know what else
+
+---------28:15----------
+is though you know what hell
+
+---------28:17----------
+you want to know what else is
+
+---------28:24----------
+SMC okay so we will take
+
+---------28:52----------
+let's go for a before I remove it I'm
+
+---------28:57----------
+going to do a Hail Mary of reflowing it
+
+---------28:59----------
+I know I'm just being silly and wishful
+
+---------29:05----------
+oh ho whoa Kester 951 on the hands no
+
+---------29:10----------
+good I didn't use that syringe for a
+
+---------29:12----------
+while okay quick yeah there's there's no
+
+---------29:15----------
+waiting there that that stuff is poised
+
+---------29:17----------
+I run I wash it off as quickly as
+
+---------29:21----------
+possible
+
+---------29:22----------
+do not let caster 951 stay on your body
+
+---------29:26----------
+for a second longer than it has to
+
+---------29:29----------
+so my office is right next to the sink
+
+---------29:32----------
+if I get any of that on me wash it
+
+---------29:38----------
+off all right syringe is a pain in the
+
+---------29:44----------
+ass sometimes okay did that so that
+
+---------29:49----------
+didn't right here is a short of the
+
+---------29:52----------
+three point 42 volt power supply to SM
+
+---------29:54----------
+CBC a and SM CBC a VCC what
+
+---------29:58----------
+this is doing is it is completely
+
+---------30:01----------
+undoing the one wire protection only
+
+---------30:05----------
+temporarily so that I can actually see
+
+---------30:06----------
+what else is wrong with the machine I
+
+---------30:08----------
+want to run it and see you know how much
+
+---------30:11----------
+of a nightmare it's gonna be does the
+
+---------30:12----------
+rest of it work because if the rest of
+
+---------30:14----------
+this thing works and it's just an issue
+
+---------30:15----------
+on that one part of the SMC I'll totally
+
+---------30:18----------
+put a new SMC on here but if it's gonna
+
+---------30:20----------
+be a complete and utter nightmare then
+
+---------30:22----------
+then I'm not and you know that's one of
+
+---------30:25----------
+the things that's important I like to
+
+---------30:26----------
+look ahead and see you know is there a
+
+---------30:28----------
+light at the end of this tunnel if I fix
+
+---------30:30----------
+this problem is there going to be x y&z
+
+---------30:32----------
+problem and you know if honestly if this
+
+---------30:35----------
+thing works and just needs an SMC this
+
+---------30:37----------
+is a 2011 machine I will happily give
+
+---------30:40----------
+this to Steve and tell him Steve here's
+
+---------30:46----------
+the stencil here's the jig
+
+---------30:51----------
+there's the Zhou MA have fun
+
+---------30:54----------
+but if this is everything else then bass
+
+---------30:58----------
+screw it see this is one of those things
+
+---------31:02----------
+that's not fair when you owe people
+
+---------31:03----------
+something and this is something that
+
+---------31:05----------
+really deserves its own video to talk
+
+---------31:06----------
+about everybody has this idea everybody
+
+---------31:09----------
+has this idea that you know let's say I
+
+---------31:11----------
+owe you $300 right and this is actually
+
+---------31:13----------
+one of my best friends who who I get
+
+---------31:15----------
+along with who owed me money so I he
+
+---------31:17----------
+owed me about 250 bucks I let him I
+
+---------31:19----------
+loaned him it and he had a session that
+
+---------31:22----------
+he needed help with so he says you know
+
+---------31:24----------
+what I'm gonna help you get back your
+
+---------31:26----------
+$250 help me with this set up this
+
+---------31:29----------
+session and I will give you the money
+
+---------31:31----------
+and the proceeds from it you know if it
+
+---------31:33----------
+goes well so in order for me to get back
+
+---------31:35----------
+my money I had to help him get his money
+
+---------31:38----------
+and I liked him he's a good guy I'm not
+
+---------31:40----------
+saying that he's a bad person I'm not
+
+---------31:42----------
+saying that he did something wrong at
+
+---------31:43----------
+all I'm just saying that this is kind of
+
+---------31:45----------
+how people are wired it's like you know
+
+---------31:47----------
+help me help you kind of thing and I'm
+
+---------31:49----------
+you know I know and again I'm about to
+
+---------31:51----------
+do it right now because if the rest of
+
+---------31:52----------
+this thing works I am I am giving this
+
+---------31:56----------
+back to Steve with an SMC stencil and
+
+---------31:58----------
+saying you know have fun well let's put
+
+---------32:02----------
+this in a machine and see if it's or if
+
+---------32:04----------
+it has any chance oh by the way just
+
+---------32:06----------
+this should be obvious to all of you but
+
+---------32:08----------
+I know that this channel has a lot of
+
+---------32:10----------
+the new people on it so I need to make
+
+---------32:13----------
+this very very clear before I go any
+
+---------32:14----------
+further what I did is I bypassed the one
+
+---------32:17----------
+yr protection only temporarily this is
+
+---------32:19----------
+not something you can ever do I mean
+
+---------32:21----------
+never ever ever do if you're
+
+---------32:23----------
+fixing a computer for a customer this is
+
+---------32:25----------
+not something you can ever do if you are
+
+---------32:27----------
+reselling a computer this is not even
+
+---------32:29----------
+something that you can do if you're
+
+---------32:30----------
+literally just giving it to somebody
+
+---------32:32----------
+else in your own facility just a test or
+
+---------32:34----------
+just to play with this is something that
+
+---------32:36----------
+is you you cannot you cannot do that you
+
+---------32:39----------
+you're little you're bypassing the
+
+---------32:40----------
+protection that Apple put there on the
+
+---------32:42----------
+charging circuitry this is purely purely
+
+---------32:45----------
+for for diagnostic purposes right now
+
+---------32:48----------
+this is not something that you can ever
+
+---------32:50----------
+do to somebody else's machine this is
+
+---------32:52----------
+not something you can ever leave and
+
+---------32:53----------
+somebody else's machine you cannot call
+
+---------32:55----------
+this fixed you cannot give this back to
+
+---------32:56----------
+somebody if it blows up they can sue you
+
+---------32:59----------
+I mean this is serious I
+
+---------33:01----------
+I just need to make sure because you
+
+---------33:03----------
+know I like to joke about a lot of
+
+---------33:04----------
+things in this channel and I like to
+
+---------33:05----------
+show you you know my my procedures but
+
+---------33:08----------
+this is something where you really need
+
+---------33:11----------
+to understand where I'm coming from if
+
+---------33:13----------
+you are going to emulate any of it you
+
+---------33:15----------
+know you you you cannot give back
+
+---------33:16----------
+somebody a computer that has one wire
+
+---------33:18----------
+circuitry missing you cannot bridge
+
+---------33:20----------
+things you need to fix the problem here
+
+---------33:22----------
+I simply want to see if it's worth it
+
+---------33:25----------
+again I like if this machine has a CPU
+
+---------33:28----------
+or a PC age that's burned out it's gonna
+
+---------33:31----------
+go in the trash but I want to make sure
+
+---------33:34----------
+that the rest of this thing works
+
+---------33:35----------
+before I go about sending myself or
+
+---------33:39----------
+Steve on a one or two hour mission to
+
+---------33:41----------
+get the SMC working because that's not
+
+---------33:44----------
+even an hour of regular labor it's an
+
+---------33:46----------
+hour of miserable labor and you you
+
+---------33:51----------
+could go through four of those
+
+---------33:53----------
+things and not find one that works or
+
+---------33:57----------
+you could find one that works but miss
+
+---------33:59----------
+like mess up one ball and the soldering
+
+---------34:00----------
+job to the ball is over here instead of
+
+---------34:02----------
+being over there and now SMC for you
+
+---------34:07----------
+ that noise like when you have SM
+
+---------34:15----------
+C's coming off of boards that look like
+
+---------34:16----------
+this like oh well that's the confidence
+
+---------34:19----------
+level you know know what I'm saying see
+
+---------34:22----------
+see you see what they did to this thing
+
+---------34:24----------
+see that see this like this this this
+
+---------34:27----------
+point that's a hanging off of it I mean
+
+---------34:28----------
+I really sometimes I think that these
+
+---------34:32----------
+boards come from and I really think they
+
+---------34:35----------
+come from people in other countries who
+
+---------34:36----------
+just hate Americans who just take a
+
+---------34:38----------
+baseball bat and just beat the out
+
+---------34:40----------
+of them because again there are ways to
+
+---------34:42----------
+actually remove the chips from the board
+
+---------34:44----------
+without sodomizing it I mean you Yuki
+
+---------34:46----------
+there's a way that you can take the CPU
+
+---------34:48----------
+and the RAM and all that all for that
+
+---------34:50----------
+board without sticking holes in them
+
+---------34:52----------
+without bending them and bashing the
+
+---------34:53----------
+ports I really think that these just
+
+---------34:54----------
+they're just bashed because they they
+
+---------34:56----------
+just want to make my life a living hell
+
+---------34:59----------
+that's that's my only working theory
+
+---------35:01----------
+here
+
+---------36:46----------
+it doesn't work slow it charges the
+
+---------36:49----------
+battery it sees the battery it's really
+
+---------36:54----------
+just that one part of the SMC that's
+
+---------36:55----------
+malfunctioning so with this board needs
+
+---------36:57----------
+is an SMC replacement so you got to see
+
+---------36:59----------
+how I diagnose that it needed an SMC
+
+---------37:01----------
+replacement and you got to see that why
+
+---------37:05----------
+what you got to see what the SMC does in
+
+---------37:07----------
+that part of the charging circuit and
+
+---------37:09----------
+you got to see at the very least some
+
+---------37:11----------
+partial functionality now again one of
+
+---------37:15----------
+these days I am going to put an SMC
+
+---------37:17----------
+video up today is not it because again
+
+---------37:19----------
+it's just it's just so like again with
+
+---------37:22----------
+the graphics chip BGA video at least
+
+---------37:24----------
+like I'm done I'm taking a chip that I
+
+---------37:26----------
+know has a reasonable chance of working
+
+---------37:27----------
+and putting it onto a board I if I am
+
+---------37:30----------
+NOT taking graphics chips off of dead
+
+---------37:31----------
+boards hoping that one of them has a
+
+---------37:33----------
+good graphics chip and then the guy that
+
+---------37:35----------
+is that I just know now that
+
+---------37:38----------
+this that is a video for another time
+
+---------37:41----------
+but at least you got to learn something
+
+---------37:44----------
+and one of these days I will put up an
+
+---------37:46----------
+SMC video again one of the things that
+
+---------37:49----------
+kills me about doing the videos and
+
+---------37:51----------
+doing the board repair is that it slows
+
+---------37:52----------
+down my workflow and when I'm doing
+
+---------37:55----------
+something that I know is going to take
+
+---------37:56----------
+one or two hours already I'm not I'm not
+
+---------37:59----------
+slowing down my workflow I need you know
+
+---------38:01----------
+I need like my my southern comfort I
+
+---------38:04----------
+need my music I need no wires hanging
+
+---------38:06----------
+from me and for everything to be off and
+
+---------38:08----------
+then I'll go into a room for the stack
+
+---------38:10----------
+of four six boards that hopefully one of
+
+---------38:12----------
+them isn't working SMC on and do it but
+
+---------38:15----------
+yeah that's about it for now and see you
+
+---------38:18----------
+later
+
+---------38:18----------
+and again remember don't bypass the one
+
+---------38:22----------
+wire protection don't be an [ __ ]
+
+---------38:23----------
+don't be a douche I feel like I really
+
+---------38:26----------
+do feel like I should not even be
+
+---------38:27----------
+uploading this because and I know you
+
+---------38:29----------
+people out there I know you people who
+
+---------38:31----------
+Kenna who don't know how to sell your
+
+---------38:32----------
+customers I know there's people out
+
+---------38:33----------
+there who don't know how to sell people
+
+---------38:34----------
+on waiting a couple of days for you to
+
+---------38:36----------
+order whatever you need and I know
+
+---------38:38----------
+there's some people out there that
+
+---------38:39----------
+frankly they just don't want to learn
+
+---------38:40----------
+and do what's proper if they can just
+
+---------38:41----------
+put a little wire there and be set don't
+
+---------38:44----------
+do it again if you do that you deserve
+
+---------38:46----------
+to go straight to hell if you bypass the
+
+---------38:49----------
+one wire circuitry you deserve to go
+
+---------38:51----------
+straight to hell and I and that that's
+
+---------38:54----------
+really that's really all there is to it
+
+---------38:56----------
+don't don't bypass the one wire so
+

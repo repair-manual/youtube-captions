@@ -1,0 +1,1309 @@
+https://www.youtube.com/watch?v=PCiHLtWHupI
+---------00:00----------
+so let's get started on today's MacBook
+
+---------00:01----------
+today's MacBook is a 15 inch touch bar
+
+---------00:04----------
+machine and it doesn't work the problem
+
+---------00:08----------
+with today's touch bar is that when you
+
+---------00:09----------
+plug in the charger on this machine that
+
+---------00:11----------
+has been messed with before you can tell
+
+---------00:13----------
+it's been Maspeth before for several
+
+---------00:15----------
+reasons it's missing little rubber
+
+---------00:17----------
+pieces on your plug you always want to
+
+---------00:20----------
+make sure you have a rubber piece over
+
+---------00:21----------
+your plug you know you can get in
+
+---------00:23----------
+trouble if you don't
+
+---------00:24----------
+so there's supposed to be little rubber
+
+---------00:25----------
+pieces around the plug over here for
+
+---------00:26----------
+protection it is missing the jumper on
+
+---------00:29----------
+the lifeboat connector so it's never
+
+---------00:32----------
+going to see the internal SSD because
+
+---------00:34----------
+it's not plugged in and it's missing a
+
+---------00:37----------
+shield that it there's all signs of
+
+---------00:40----------
+massery with this anyway the issue that
+
+---------00:42----------
+we're having with this is that it is not
+
+---------00:44----------
+giving ourselves a charging voltage and
+
+---------00:47----------
+I want to really keep hammering home the
+
+---------00:49----------
+standard issues with this new MacBook
+
+---------00:51----------
+with the new charging circuit and again
+
+---------00:53----------
+with the older Mac books that had an
+
+---------00:56----------
+orange or a green light in the charger
+
+---------00:58----------
+the first rail you needed was PP 3 V 4 2
+
+---------01:01----------
+PP 3 V 4 2 is what allowed your charger
+
+---------01:04----------
+to communicate with the system
+
+---------01:07----------
+management controller chip now there's a
+
+---------01:09----------
+different power rail that's your primary
+
+---------01:11----------
+rail that you need and that is pp 3 V 3
+
+---------01:14----------
+underscore g3 hot that is the rail that
+
+---------01:18----------
+you need in order for the charger
+
+---------01:20----------
+communication to work properly and I
+
+---------01:21----------
+really want to hammer this home so that
+
+---------01:23----------
+people get used to it so why is it that
+
+---------01:25----------
+you need that rail well that's a great
+
+---------01:26----------
+question so you have these chips that
+
+---------01:28----------
+communicate with the charger so we have
+
+---------01:30----------
+the CD 3215 charging IC and what this
+
+---------01:34----------
+does this is going to a allow the chart
+
+---------01:37----------
+volt power from the charger through to
+
+---------01:39----------
+the computer by allowing this transistor
+
+---------01:42----------
+Q 3100 to open and B it's going to
+
+---------01:45----------
+negotiate charging voltage remember with
+
+---------01:48----------
+USB C we don't just have one voltage
+
+---------01:50----------
+MagSafe Chargers put out one voltage 18
+
+---------01:53----------
+point 5 volts USB C Chargers can put out
+
+---------01:55----------
+five volts they can put out 20 volts
+
+---------01:57----------
+there are different voltages they can
+
+---------01:58----------
+put out whether to start based on
+
+---------02:00----------
+whether you're powering a USB flash
+
+---------02:01----------
+drive a cell phone or a laptop and they
+
+---------02:05----------
+need to negotiate with the charger what
+
+---------02:08----------
+voltage is going to put out that
+
+---------02:09----------
+communication is going to occur via the
+
+---------02:11----------
+CD 3215 ship
+
+---------02:13----------
+over here and this chip the CD 3215
+
+---------02:16----------
+needs PP 3v3 underscore g3 hot to go
+
+---------02:21----------
+into it in order for that to work
+
+---------02:23----------
+so as can be seen via the USB C amp
+
+---------02:27----------
+meter which is imperative if you're
+
+---------02:29----------
+going to be working on these machines I
+
+---------02:30----------
+say imperative is imperative as a bench
+
+---------02:32----------
+power supply as you can see here we are
+
+---------02:35----------
+getting a reading of only five point 21
+
+---------02:39----------
+volts so the charger is not able to
+
+---------02:42----------
+communicate with the rest of the system
+
+---------02:45----------
+and that means that the cd32 15s are not
+
+---------02:48----------
+doing their job now are they not doing
+
+---------02:51----------
+their job because one of them is bad or
+
+---------02:53----------
+is it not doing its job because it's not
+
+---------02:55----------
+getting power that's the first question
+
+---------02:57----------
+you should ask before mindlessly
+
+---------02:59----------
+replacing a chip good night Paul and now
+
+---------03:06----------
+the way this works for each USB C port
+
+---------03:09----------
+on this MacBook you have a CD 32:15 this
+
+---------03:14----------
+port CD 32 15 this port CD 32 15 and the
+
+---------03:19----------
+two ports on this side each have a CD 32
+
+---------03:22----------
+15 now it's tricky about these machines
+
+---------03:24----------
+is if even one of those chips is not
+
+---------03:27----------
+communicating or not working properly or
+
+---------03:29----------
+if even one of those chips is missing
+
+---------03:31----------
+from the board any one of them none of
+
+---------03:33----------
+the port's will work I repeat if any one
+
+---------03:37----------
+of those chips that communicates with
+
+---------03:38----------
+the charging port is not functioning or
+
+---------03:41----------
+missing none of the ports will work so
+
+---------03:44----------
+even if I am trying to only use this
+
+---------03:46----------
+port on this side of the board and this
+
+---------03:48----------
+CD 32 15 that corresponds to that port
+
+---------03:51----------
+is good if this chip is missing that
+
+---------03:53----------
+port will not work
+
+---------03:55----------
+great design Apple great [ __ ] design
+
+---------03:58----------
+as always now let's get into
+
+---------04:00----------
+troubleshooting this board so the first
+
+---------04:02----------
+thing that we're going to do is take a
+
+---------04:03----------
+look over the board in those areas and
+
+---------04:05----------
+see if there's anything that's obviously
+
+---------04:07----------
+wrong around our CD 32 15 chipsets do
+
+---------04:10----------
+keep in mind that some boards underfill
+
+---------04:11----------
+them and some boards don't
+
+---------04:13----------
+so if you see corrosion do not go to
+
+---------04:15----------
+blindly reflow things without checking
+
+---------04:18----------
+to see if yours is a board that has
+
+---------04:19----------
+underfill because if your board has
+
+---------04:21----------
+underfill and you go to reflow the chip
+
+---------04:23----------
+very bad things will happen
+
+---------04:26----------
+so these three 32:15 so far look pretty
+
+---------04:31----------
+clean ass is just two Australian dollars
+
+---------04:34----------
+oh I was reading it as ass yeah I miss
+
+---------04:38----------
+being dumb
+
+---------04:39----------
+so these third cd32 15s look pretty well
+
+---------04:41----------
+to me again I can't really see under the
+
+---------04:43----------
+chip from this angle but they look fine
+
+---------04:45----------
+so what I'm going to do is see if
+
+---------04:47----------
+they're getting the power rail that they
+
+---------04:49----------
+need in order to turn on and as I've
+
+---------04:51----------
+said that is pp 3v3 underscore g3 HOD so
+
+---------04:56----------
+we're gonna check for that rail right by
+
+---------04:57----------
+the chip we're gonna check on this
+
+---------04:59----------
+capacitor over here what can I check
+
+---------05:00----------
+Paul Daniels is amazing software and
+
+---------05:02----------
+pray to God that it actually works and
+
+---------05:04----------
+see if a multimeter shows up on the
+
+---------05:06----------
+screen and Wow Paul Daniels a software
+
+---------05:08----------
+actually worked and the multimeter
+
+---------05:10----------
+showed up on the screen imagine that and
+
+---------05:13----------
+we're getting one point six volts one
+
+---------05:15----------
+point six is it not three point three
+
+---------05:17----------
+that's not gonna give us a working board
+
+---------05:19----------
+so I'm not gonna blame any one of these
+
+---------05:21----------
+chips and I'm not gonna blame the
+
+---------05:23----------
+charging port so we're gonna do over
+
+---------05:25----------
+here is we're gonna check out where P P
+
+---------05:27----------
+3 v3 underscore g3 hot is created from
+
+---------05:30----------
+where do we find that on this
+
+---------05:31----------
+motherboard great question now something
+
+---------05:34----------
+that seems to confuse a lot of my
+
+---------05:36----------
+students and I mean X students because I
+
+---------05:38----------
+don't teach anymore if you're interested
+
+---------05:40----------
+in taking a course on how to do
+
+---------05:41----------
+component level rework on Mac books and
+
+---------05:43----------
+iPhones check out Mendon iPad rehab com
+
+---------05:47----------
+that's Mendon iPad rehab comm or iPad
+
+---------05:50----------
+rehab comm where you can find Jesse
+
+---------05:52----------
+Jones's course practical board repair
+
+---------05:54----------
+school that I taught at for six months
+
+---------05:55----------
+before I almost choked jessa
+
+---------05:57----------
+out of our standard back and forth
+
+---------05:59----------
+constant bickering and arguing but no
+
+---------06:01----------
+just kidding Jessa is amazing and Mark
+
+---------06:03----------
+Schaefer is amazing and they will teach
+
+---------06:04----------
+you board repair very well and if I sign
+
+---------06:07----------
+up three people for their course Jess
+
+---------06:09----------
+will come down and help me fix boards so
+
+---------06:11----------
+that I can actually take a day off and
+
+---------06:13----------
+go see the neurologist like I was
+
+---------06:14----------
+supposed to do two and a half months ago
+
+---------06:16----------
+so don't delay check out Jesse Jones is
+
+---------06:18----------
+practical board repair school course
+
+---------06:20----------
+today if I get three sign ups to her
+
+---------06:22----------
+course that's three sign ups she will
+
+---------06:24----------
+come down and replace me for a day so
+
+---------06:26----------
+that I can take a day off and go to the
+
+---------06:28----------
+doctor which I would very much like to
+
+---------06:30----------
+do now going back to this board PP 3v3
+
+---------06:33----------
+underscore g3 hot how is it that we find
+
+---------06:35----------
+PP 3 V 3 underscore g3 hot well what we
+
+---------06:38----------
+need to do here is
+
+---------06:40----------
+find out where it's being created and a
+
+---------06:42----------
+problem I noticed a lot of the time when
+
+---------06:45----------
+I was teaching is that people seem to be
+
+---------06:48----------
+very confused and how to find where a
+
+---------06:52----------
+power rail is being created from so they
+
+---------06:56----------
+can find out where that power rail is
+
+---------06:58----------
+they can find out where it is that the
+
+---------07:01----------
+power rail is going to but not where
+
+---------07:03----------
+it's being created so let's see if we
+
+---------07:05----------
+can find that by using paul daniels of
+
+---------07:07----------
+software so here PP 3 v 3 underscore g 3
+
+---------07:11----------
+hot is going into a resistor that's not
+
+---------07:15----------
+it we're looking to see where it's where
+
+---------07:17----------
+it's being created this is pp 3 b3 g3 ha
+
+---------07:19----------
+powering something not it so we double
+
+---------07:22----------
+click we double click again and as
+
+---------07:26----------
+you'll see here it's going into
+
+---------07:28----------
+something again that's not where it's
+
+---------07:30----------
+being created we're gonna double click
+
+---------07:32----------
+and nope pp 3 VTR e3 hot going into
+
+---------07:38----------
+something not coming out of something so
+
+---------07:40----------
+that's not it I double clicked and it
+
+---------07:42----------
+didn't work
+
+---------07:42----------
+thank you Paul Daniels for the we're
+
+---------07:44----------
+gonna double click again and see if it
+
+---------07:46----------
+works and P P 3 V 3 D 3 hot is going
+
+---------07:49----------
+into a chip so that can't be it alright
+
+---------07:51----------
+we're gonna keep going this is very
+
+---------07:53----------
+common a question that all other
+
+---------07:55----------
+students will have is how do I find out
+
+---------07:57----------
+when it's coming out of something so
+
+---------07:59----------
+double click again that's pp 3 V T g3
+
+---------08:03----------
+hoc going into a keyboard connector not
+
+---------08:06----------
+it pp 3 V 3 g3 out going into a you
+
+---------08:10----------
+5,000 to power it to turn on pp 3 V 3 s
+
+---------08:14----------
+5 s MC V DD a not it alright let's keep
+
+---------08:18----------
+going we're gonna keep clicking is this
+
+---------08:20----------
+it no this is pp 3 v3g three hot being
+
+---------08:23----------
+used to pull up three signals it's going
+
+---------08:25----------
+to pull up these signals of smc p.m. I
+
+---------08:30----------
+see Intel SMC on off L this head tickers
+
+---------08:34----------
+driving me nuts and SMC TM s not it SMC
+
+---------08:39----------
+ok this is obvious because it literally
+
+---------08:41----------
+says over here in so that's not it
+
+---------08:43----------
+coming out of something that's it going
+
+---------08:45----------
+into something next
+
+---------08:48----------
+that's it powering a logic gate next
+
+---------08:53----------
+you get the idea so that's not it
+
+---------08:56----------
+that's it going to a Hall effect sensor
+
+---------08:57----------
+that's the sensor that's going to detect
+
+---------08:59----------
+when it is your computer closes which is
+
+---------09:01----------
+what was keeping that kid's MacBook from
+
+---------09:03----------
+working the other day you know the kid
+
+---------09:05----------
+that Apple told there his MacBook Air
+
+---------09:07----------
+needs a new GPU God gotta love the
+
+---------09:11----------
+Genius Bar man alright so we continue
+
+---------09:13----------
+clicking and I think you get the idea at
+
+---------09:14----------
+this point so here we go this is the
+
+---------09:17----------
+screen that I'm looking for any tips on
+
+---------09:19----------
+how a broke female dog like myself can
+
+---------09:23----------
+learn or get experience doing border
+
+---------09:24----------
+parrots they can try and get a job
+
+---------09:25----------
+working for a handsome generous you can
+
+---------09:29----------
+watch these videos for free
+
+---------09:32----------
+110% free watch these videos and you
+
+---------09:35----------
+will learn Paul learned how to do 90% of
+
+---------09:39----------
+this from watching my videos I really
+
+---------09:41----------
+didn't train him seriously but he asked
+
+---------09:43----------
+occasional questions but for the most
+
+---------09:45----------
+part II we just figured it out from
+
+---------09:47----------
+watching the videos this is what we're
+
+---------09:49----------
+looking for this is where PP 3v3
+
+---------09:53----------
+underscore g3 hot is coming out of
+
+---------09:56----------
+something so what does this chip do this
+
+---------09:58----------
+looks a lot like the pp 3 before to
+
+---------10:00----------
+power supply of olden days we have from
+
+---------10:03----------
+USBC source it's going to take this
+
+---------10:05----------
+voltage in the 18 volts in it says 8.6
+
+---------10:11----------
+volts because Apple is terrible at
+
+---------10:13----------
+writing a schematic great great job
+
+---------10:15----------
+jackass telling really you're telling us
+
+---------10:18----------
+that the battery voltage is 5 volts
+
+---------10:20----------
+above the charger voltage you stupid
+
+---------10:23----------
+anyway that's for another day so the 18
+
+---------10:27----------
+point 6 volts that's coming in from the
+
+---------10:29----------
+charger is going to go to this chip this
+
+---------10:31----------
+chip is going to reduce that voltage to
+
+---------10:34----------
+3.3 volts this is 3.3 volts coming out
+
+---------10:38----------
+of something so this is the area that we
+
+---------10:40----------
+want to look at this is where P P 3 V 3
+
+---------10:42----------
+underscore g3 hot is being created this
+
+---------10:44----------
+is where what we're interested in is so
+
+---------10:47----------
+let's take a look at that section on the
+
+---------10:50----------
+board so I'm just gonna click into the
+
+---------10:51----------
+magic of paul daniels of software when
+
+---------10:53----------
+you right click on you 69 o3 using flex
+
+---------10:55----------
+board view it brings you right to that
+
+---------10:56----------
+chip on the board view paul daniels
+
+---------10:58----------
+engineering software of tomorrow now
+
+---------11:02----------
+we're going to take a look at that
+
+---------11:04----------
+section of the board over here
+
+---------11:06----------
+let's see if we can find it and see what
+
+---------11:09----------
+it looks like and oh my god what did you
+
+---------11:12----------
+do all right so let's try and figure out
+
+---------11:15----------
+what they [ __ ] up so I'm gonna plug in
+
+---------11:18----------
+the charger get the volts reading on the
+
+---------11:22----------
+screen so let's go over a couple of
+
+---------11:24----------
+things in the schematic now shall we the
+
+---------11:26----------
+first thing I want to go over is the
+
+---------11:27----------
+voltage that's coming into the chip to
+
+---------11:28----------
+turn it on and that's gonna be voltage
+
+---------11:30----------
+that's present on pin two first thing
+
+---------11:32----------
+we're looking for pin to pin to is going
+
+---------11:35----------
+of u69 o3 is where the power is gonna be
+
+---------11:39----------
+going into u69 o3 so let's check that
+
+---------11:41----------
+out and make sure we're getting a proper
+
+---------11:42----------
+voltage there are we getting the input
+
+---------11:44----------
+from the charger we're getting 3.89 well
+
+---------11:54----------
+that's no good because a cord it because
+
+---------11:56----------
+we're supposed to be getting five volts
+
+---------11:58----------
+from the charger so let's check at d69
+
+---------11:59----------
+oh - let's trach it back a second let's
+
+---------12:03----------
+check at pen one where the charging
+
+---------12:08----------
+voltage is supposed to be coming in
+
+---------12:09----------
+which is supposed to be eighteen point
+
+---------12:10----------
+five volts but it's going to be 5 volts
+
+---------12:12----------
+here because the USBC charger is not
+
+---------12:15----------
+communicating with the system because P
+
+---------12:16----------
+P 3 P 3 underscore g3 hot is not present
+
+---------12:18----------
+yet so we have 5 volts there but you
+
+---------12:22----------
+have 3 volts on the other side of the
+
+---------12:23----------
+diode alright now that's interesting so
+
+---------12:25----------
+either our diode is bad not likely or
+
+---------12:27----------
+there's a short after the diode very
+
+---------12:29----------
+likely let's see which one it is so we
+
+---------12:32----------
+have 7 million ohms after the diode
+
+---------12:35----------
+seven million ohms that's so there's no
+
+---------12:40----------
+short after the diode now there could
+
+---------12:41----------
+just be a 1 volt drop after the diode
+
+---------12:43----------
+which you know a little bit let's
+
+---------12:45----------
+understand them all let's see if that's
+
+---------12:46----------
+what's going on here my multimeter
+
+---------12:57----------
+probes are kind of nasty so we have open
+
+---------12:59----------
+line and we also have open line so and
+
+---------13:04----------
+we're in diode mode so my diode does not
+
+---------13:08----------
+appear to be properly passing current
+
+---------13:10----------
+voltage electrons is whatever the hell
+
+---------13:14----------
+you want to call it my head is fried man
+
+---------13:15----------
+I need a day off so oh I got a message I
+
+---------13:19----------
+missed it oh oh oh it disappeared no
+
+---------13:24----------
+there's got to be it I never have the
+
+---------13:26----------
+window open to read the messages with
+
+---------13:28----------
+brain damage and constant work you
+
+---------13:29----------
+should be nicknamed candy you know what
+
+---------13:32----------
+I'm not gonna Google that because if I
+
+---------13:33----------
+google it it's probably gonna depress me
+
+---------13:34----------
+right so let's see if our issue is the
+
+---------13:36----------
+diode we're gonna remove this diode and
+
+---------13:39----------
+replace it with a better one a fitter
+
+---------13:42----------
+happier diode with less brain damage
+
+---------13:50----------
+buh-bye diode
+
+---------14:05----------
+fitter happier more productive not
+
+---------14:12----------
+thinking too much more exercise at the
+
+---------14:15----------
+gym
+
+---------14:16----------
+still kisses with saliva I want to
+
+---------14:19----------
+listen to Radiohead today when I get
+
+---------14:20----------
+home so many Mouse pointers
+
+---------14:23----------
+oh so you see you too thank God I
+
+---------14:26----------
+thought it was just me yeah that would
+
+---------14:32----------
+have been awkward if it was just me it's
+
+---------14:36----------
+really nice when you think you're seeing
+
+---------14:38----------
+things and then somebody else sees it as
+
+---------14:40----------
+well yeah it's nice to know that you're
+
+---------14:43----------
+not completely crazy partially crazy is
+
+---------14:46----------
+fine completely crazy no right to
+
+---------14:48----------
+replace that diode with a better one a
+
+---------14:51----------
+superior fitter happier more a mother
+
+---------14:54----------
+effing productive diode now might as
+
+---------14:58----------
+well put that cap there with a dumbass
+
+---------15:00----------
+knocked off and 2.2 micro farad on input
+
+---------15:06----------
+after diode all right let's put that
+
+---------15:11----------
+capacitor there capacitor
+
+---------15:18----------
+this is gonna be great it's gonna be
+
+---------15:21----------
+great it's gonna be a beautiful working
+
+---------15:24----------
+little board I like to think every time
+
+---------15:26----------
+one of these boards work again there's
+
+---------15:28----------
+something I like to imagine Angela
+
+---------15:30----------
+rendered scrying just a little bit more
+
+---------15:32----------
+when somebody's not going to her store
+
+---------15:33----------
+to give her more money because something
+
+---------15:37----------
+is working again so every time I attach
+
+---------15:40----------
+one of these little components I just
+
+---------15:41----------
+imagine that and it makes me a little
+
+---------15:43----------
+happy maybe I'm crazy see I'm sick in
+
+---------15:46----------
+the head
+
+---------15:47----------
+maybe I probably was it's probably what
+
+---------15:49----------
+suits me so well for this job what I
+
+---------15:52----------
+like it
+
+---------15:53----------
+I am me all right that's in there that
+
+---------15:59----------
+looks beautiful beautiful it's gonna
+
+---------16:00----------
+cool that circuit off a little bit we're
+
+---------16:02----------
+gonna plug this thing in and I'm gonna
+
+---------16:04----------
+I'm a hundred ten percent confident that
+
+---------16:06----------
+it's gonna give me 20 volts on startup
+
+---------16:09----------
+I'm not even gonna measure anything here
+
+---------16:11----------
+not even get a check and I just know
+
+---------16:14----------
+this shit's gonna work I have confidence
+
+---------16:17----------
+that what I that after 12 hours of
+
+---------16:22----------
+working that this board I fixed is gonna
+
+---------16:27----------
+just work on the first try
+
+---------16:29----------
+it's confidence right there man it's
+
+---------16:31----------
+confidence watch this
+
+---------16:32----------
+check this out confidence is what makes
+
+---------16:34----------
+boards turn on look at this 1 2 ready
+
+---------16:43----------
+320 volts baby oh yeah look at that look
+
+---------16:48----------
+at that check that out check that out 20
+
+---------16:54----------
+volts charging voltage ha ha don't
+
+---------17:00----------
+forget through move the jtech I'm gonna
+
+---------17:02----------
+murder that JTAG bro but we're gonna do
+
+---------17:04----------
+that off stream and a way for this to be
+
+---------17:06----------
+done look at that look at that look at
+
+---------17:08----------
+that that's booting voltage all right
+
+---------17:10----------
+let's check out and see if we got an
+
+---------17:12----------
+image next see if we got an image you go
+
+---------17:14----------
+folks think I got an image I hope I got
+
+---------17:16----------
+an image and let's see if we got an
+
+---------17:20----------
+image you think I have an image you
+
+---------17:23----------
+think I have an image all right see if I
+
+---------17:27----------
+got an image let's hope
+
+---------17:29----------
+cuz five an image that's another board
+
+---------17:31----------
+that's been fixed okay we're just gonna
+
+---------17:36----------
+do that now plug this thing in and we're
+
+---------17:39----------
+gonna get a question mark folder the
+
+---------17:43----------
+because there's no lifeboat jumper but
+
+---------17:47----------
+that's fine can you find me a lifeboat
+
+---------17:49----------
+jumper beautiful after you find my
+
+---------17:54----------
+replacement how's it going finding my
+
+---------17:56----------
+replacement by the way few other UPS
+
+---------18:00----------
+where'd you find them I'm so excited oh
+
+---------18:03----------
+god no that's what all the terrible
+
+---------18:06----------
+things would be coming from the begin
+
+---------18:08----------
+with okay let's see what we get
+
+---------18:11----------
+show me a picture even if you're a
+
+---------18:14----------
+question mark
+
+---------18:20----------
+don't make me hold this like this
+
+---------18:24----------
+Paul this is so sad I have to hold it
+
+---------18:27----------
+like this until I get a question mark
+
+---------18:28----------
+alright as you can see I have a question
+
+---------18:32----------
+mark folder that question mark folder
+
+---------18:35----------
+means that I fixed my board which means
+
+---------18:38----------
+I can go home cuz that's the last one
+
+---------18:40----------
+right no no what do you what do you mean
+
+---------18:45----------
+Center that there's more I'm tired of
+
+---------19:16----------
+fixing mess I want a day off it's
+
+---------19:25----------
+impossible they'll just call and [ __ ]
+
+---------19:44----------
+Machinery [ __ ] you long time to continue
+
+---------19:51----------
+work I'm gonna go and find he had
+
+---------19:55----------
+another MacBook but this one this one
+
+---------20:00----------
+right here it's one less MacBook to do
+
+---------20:03----------
+it's been fixed it's been a MacBook that
+
+---------20:07----------
+has been fixed see you in the next one
+
+---------20:09----------
+if I still have my marbles which I
+
+---------20:13----------
+probably don't that's it for today and
+
+---------20:15----------
+as always I hope you learned something
+

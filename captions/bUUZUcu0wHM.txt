@@ -1,0 +1,469 @@
+https://www.youtube.com/watch?v=bUUZUcu0wHM
+---------00:00----------
+hey everybody how's it going so today
+
+---------00:01----------
+we're gonna get started on an a 1989
+
+---------00:03----------
+that is not turning on
+
+---------00:05----------
+let's see fix this machine and make it
+
+---------00:08----------
+work again first thing to do is the
+
+---------00:11----------
+corona the machine Die Corona dye dye
+
+---------00:17----------
+Corona dye dye beer virus dye it reeks
+
+---------00:23----------
+of coffee this definitely smells like
+
+---------00:25----------
+the laptop of a drug addict
+
+---------00:27----------
+I say drug addict because I've dealt
+
+---------00:34----------
+with many people co-workers and
+
+---------00:36----------
+employees that will say and admit
+
+---------00:39----------
+themselves I cannot wake up without
+
+---------00:42----------
+coffee
+
+---------00:43----------
+I cannot get my job done without an
+
+---------00:45----------
+espresso I cannot do this so by their
+
+---------00:47----------
+own admission they are drug addicts and
+
+---------00:49----------
+I just kind of find it particularly
+
+---------00:51----------
+interesting that it's totally ok and
+
+---------00:53----------
+legal and cheap for one type of drug
+
+---------00:55----------
+that changes your state of mind to exist
+
+---------00:58----------
+in the way you make decisions yet it is
+
+---------01:00----------
+illegal for others to exist but such as
+
+---------01:05----------
+the world that we live in so let's see
+
+---------01:10----------
+what this does as always I am going to
+
+---------01:12----------
+unplug the battery battery cable plug
+
+---------01:16----------
+this in see you we get coffee smells
+
+---------01:25----------
+disgusting too so we have 5 volts 200
+
+---------01:29----------
+milliamps now we have 19 volts 83
+
+---------01:32----------
+milliamps 64 mill amps 200 milliamps 197
+
+---------01:36----------
+million four hundred sixty-six milliamps
+
+---------01:37----------
+the fan is spinning the fan is not
+
+---------01:41----------
+spinning
+
+---------01:43----------
+seems like this crap inside the fan and
+
+---------01:45----------
+we're stuck at 200 milliamps croissant
+
+---------01:48----------
+repair guide you made is fantastic thank
+
+---------01:49----------
+you James I'm glad that someone's making
+
+---------01:51----------
+use of it you know one of the things
+
+---------01:53----------
+that got me to stop teaching courses in
+
+---------01:55----------
+person is how discouraged I got when I
+
+---------01:57----------
+realized that people that paid to take a
+
+---------01:59----------
+class with me would not take the time to
+
+---------02:01----------
+read that guide that was incredibly
+
+---------02:03----------
+incredibly depressing all right so it's
+
+---------02:06----------
+turning on 200 milliamps fan spinning
+
+---------02:09----------
+this thing's probably booting most
+
+---------02:12----------
+likely if the liquid got
+
+---------02:13----------
+near the screen cable we're not getting
+
+---------02:15----------
+a picture on the screen because this the
+
+---------02:17----------
+data line was destroyed which I'm
+
+---------02:19----------
+guessing is the case here and we're
+
+---------02:21----------
+gonna take a look and confirm that in a
+
+---------02:23----------
+moment first thing we're gonna do is
+
+---------02:30----------
+turn on Paul Daniels as a software I
+
+---------02:32----------
+know it's a last resort
+
+---------02:37----------
+no backlight voltage so I'm gonna unplug
+
+---------02:41----------
+this thing and we're gonna take a look
+
+---------02:44----------
+at the screen cable area I can already
+
+---------02:48----------
+see that there is some corrosion around
+
+---------02:50----------
+the CPU MOSFETs over here so that means
+
+---------02:53----------
+it's not far-fetched to think that
+
+---------02:54----------
+corrosion got under there now the way
+
+---------02:57----------
+this works is the the backlight line for
+
+---------03:04----------
+screen backlight which is about 50 volts
+
+---------03:06----------
+is right next to the CPU data line for
+
+---------03:09----------
+image which is about 1.7 volts and
+
+---------03:11----------
+because this is a [ __ ] MacBook
+
+---------03:13----------
+because this is a MacBook they put them
+
+---------03:16----------
+right next to each other and every other
+
+---------03:18----------
+computer that I've ever opened they do
+
+---------03:19----------
+not put the 1 point 7 volt image data
+
+---------03:23----------
+line that goes straight to the CPU right
+
+---------03:25----------
+next to a 52 volt power line that is
+
+---------03:28----------
+designed to power a backlight like
+
+---------03:30----------
+lowest voltage line for data highest
+
+---------03:32----------
+voltage line for their backlight and in
+
+---------03:37----------
+MacBook they do that I can show you how
+
+---------03:41----------
+this looks on the schematic in a moment
+
+---------03:43----------
+and then I will show you what it looks
+
+---------03:44----------
+like on the board and then I will tell
+
+---------03:46----------
+you what the prognosis is for our
+
+---------03:47----------
+customer so let's go through that here
+
+---------03:50----------
+so if we take a look at the board you'll
+
+---------03:53----------
+see that the screen connector is gonna
+
+---------03:55----------
+be right over here right here Jay
+
+---------04:02----------
+8500 is for EDP connector which stands
+
+---------04:05----------
+for embedded DisplayPort not emotionally
+
+---------04:07----------
+disturbed person although admittedly you
+
+---------04:09----------
+would have to be an emotionally
+
+---------04:10----------
+disturbed person to be responsible for
+
+---------04:12----------
+the design of this product as I will
+
+---------04:14----------
+showcase once I have the connector on
+
+---------04:16----------
+the screen if you take a look here you
+
+---------04:20----------
+have the backlight line PBV out Sol CD
+
+---------04:24----------
+booklet and that's going to be right
+
+---------04:26----------
+next to
+
+---------04:27----------
+EDP and ox which is a data line that
+
+---------04:33----------
+goes to the CPU for the picture so take
+
+---------04:36----------
+a look over here so you have backlight
+
+---------04:38----------
+image backlight image now where does
+
+---------04:42----------
+image go image goes straight to the CPU
+
+---------04:45----------
+now do you think that the CPU likes
+
+---------04:47----------
+getting 50 volts no it does not and
+
+---------04:50----------
+here's what it's going to look like on
+
+---------04:52----------
+the machine itself when this happens and
+
+---------04:55----------
+by the way one of the things that you
+
+---------04:56----------
+should be aware of it's not like this
+
+---------04:58----------
+connector where they have 52 volts right
+
+---------05:00----------
+next to one volt is in some hidden away
+
+---------05:02----------
+part of the computer it's in the very
+
+---------05:04----------
+edge right here right on the edge where
+
+---------05:08----------
+the coffee is going to spill into see
+
+---------05:14----------
+this look at this so this over here is
+
+---------05:21----------
+where 52 volt backlight one point seven
+
+---------05:25----------
+volt data 52 volt backlight one point
+
+---------05:29----------
+seven volt data so it's not that the
+
+---------05:31----------
+computers not turning on the is turning
+
+---------05:34----------
+on but it has no image and there's
+
+---------05:36----------
+nothing in between that CPU data line
+
+---------05:38----------
+and here no choke no nothing just
+
+---------05:41----------
+straight to the CPU
+
+---------05:43----------
+so the CPU needs to be replaced on the
+
+---------05:45----------
+board now do you think I can just call
+
+---------05:49----------
+up Intel and get the CPU no do you think
+
+---------05:52----------
+our distributors lining up to make these
+
+---------05:56----------
+for sale to people like me not really so
+
+---------05:59----------
+what you need to do is you need to go on
+
+---------06:01----------
+Aliexpress and pay 2 to 600 bucks for a
+
+---------06:04----------
+CPU of questionable quality that for all
+
+---------06:07----------
+you know is ripped off of another dead
+
+---------06:08----------
+board and solder it onto here a very
+
+---------06:12----------
+high risk because you don't know if what
+
+---------06:13----------
+you're buying actually works be very
+
+---------06:16----------
+expensive so customer's gonna give you a
+
+---------06:18----------
+middle finger all of this could have
+
+---------06:20----------
+been resolved if the person designing
+
+---------06:22----------
+this pin out thought to themselves for
+
+---------06:24----------
+just a second maybe it's maybe it's a
+
+---------06:28----------
+bad idea to have the 52 volt power line
+
+---------06:31----------
+right next to the 1 point 7 volt data
+
+---------06:33----------
+line when that's right on the edge of
+
+---------06:35----------
+the computer where liquid is going to
+
+---------06:37----------
+fall in on a device that has no liquid
+
+---------06:39----------
+resistance
+
+---------06:41----------
+but I'm no engineer so what do I know
+
+---------06:43----------
+Thank You Jay Kurtz so this machine
+
+---------06:46----------
+needs a CPU probably going to be a very
+
+---------06:48----------
+unhappy customer but what do you what
+
+---------06:52----------
+are you gonna do what you gonna do and
+
+---------06:55----------
+you know what the funny thing is they
+
+---------06:56----------
+started designing this thing in 2016
+
+---------06:58----------
+it's 2020 and the MacBooks that Apple
+
+---------07:01----------
+are making now in 2020 of this exact
+
+---------07:03----------
+same design the extant design 52 volt
+
+---------07:06----------
+power line one point seven volt data
+
+---------07:08----------
+line right next to each other
+

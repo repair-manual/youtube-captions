@@ -1,0 +1,1075 @@
+https://www.youtube.com/watch?v=Hq2eYDPzPaI
+---------00:00----------
+okay today I'm gonna go over the a20
+
+---------00:03----------
+3115 board that had me backlight the
+
+---------00:06----------
+LVDS cable was visibly burned the fuse
+
+---------00:09----------
+was blown and there's no light on the
+
+---------00:11----------
+screen as a result of liquid damage I'm
+
+---------00:13----------
+gonna go through the troubleshooting
+
+---------00:14----------
+process so the first thing that you do
+
+---------00:17----------
+on a board that has no benefit before
+
+---------00:19----------
+anything else before replacing the fuse
+
+---------00:21----------
+because replacing the fuse can be a
+
+---------00:22----------
+complete waste of time if the
+
+---------00:25----------
+short is still there it's actually test
+
+---------00:27----------
+the circuit now what we start see is
+
+---------00:31----------
+means the morning is where the backlight
+
+---------00:34----------
+circuits started see I don't give a
+
+---------00:36----------
+if I flip the fan over because I know
+
+---------00:38----------
+every side of the connector and we start
+
+---------00:40----------
+right over here on this one so over here
+
+---------00:43----------
+is where the backlight ends so let's go
+
+---------00:47----------
+over here see that or it says PPV out at
+
+---------00:52----------
+SW LCD booklet you can find this crap on
+
+---------00:55----------
+Mac rumors there's a ton of people that
+
+---------00:56----------
+have uploaded these little pages and
+
+---------00:58----------
+schematics
+
+---------01:00----------
+- noise oh you can see right over there
+
+---------01:03----------
+that see nine seven nine nine see nine
+
+---------01:06----------
+seven nine seven and c---nine seven
+
+---------01:09----------
+ninety six and i'm the opposite side of
+
+---------01:11----------
+benign 701 our the backlight circuit all
+
+---------01:14----------
+terminate so that's right here yeah oh
+
+---------01:18----------
+you like to have the stuff open in a
+
+---------01:19----------
+split view so here's my other screen see
+
+---------01:24----------
+and it tells me that see nine seven nine
+
+---------01:25----------
+nine is right over here so actually the
+
+---------01:30----------
+wire attached to that I'll get to that
+
+---------01:31----------
+later but a quick way to test this
+
+---------01:33----------
+I try to get this all on views and said
+
+---------01:35----------
+oh no the tripod is using multi unit so
+
+---------01:41----------
+I put this in the diode mode you can
+
+---------01:43----------
+either do a resistance test phones or a
+
+---------01:45----------
+diode touch the die like a diode one
+
+---------01:47----------
+because it's a little quicker so you put
+
+---------01:50----------
+the positive to ground then you put this
+
+---------01:52----------
+over here and this is the measurement
+
+---------01:53----------
+that you should get so this is a diode
+
+---------01:55----------
+mode measurement what a multimeter diode
+
+---------01:58----------
+mode measurement does is it measures the
+
+---------01:59----------
+voltage drop across a diet now a diode
+
+---------02:03----------
+is kind of like a check valve employment
+
+---------02:05----------
+you know how they have those valves
+
+---------02:06----------
+where it'll only allow the water to flow
+
+---------02:08----------
+one way but it won't go the other way
+
+---------02:10----------
+well I'm just putting that inside the
+
+---------02:12----------
+pipe causes there to be some sort of
+
+---------02:14----------
+resistance because you put something
+
+---------02:15----------
+inside the pipe that was not there
+
+---------02:17----------
+before and the same is true for a diode
+
+---------02:19----------
+any diode that only allows electricity
+
+---------02:21----------
+to pass one way it'll allow it to pass
+
+---------02:23----------
+just fine but there's gonna be a very
+
+---------02:24----------
+small voltage drop where in the diode
+
+---------02:27----------
+because there's something in the diode
+
+---------02:29----------
+that's keeping electricity from being
+
+---------02:30----------
+able to flow back the other way and
+
+---------02:32----------
+usually that's about 0.5 so the reading
+
+---------02:35----------
+that you see here on my back light
+
+---------02:37----------
+circuit when I put the positive on
+
+---------02:38----------
+ground and the ground at the output of
+
+---------02:42----------
+the backlight circuit is 0.53 and that's
+
+---------02:44----------
+that's a proper measurement now if your
+
+---------02:46----------
+backlight circuit is so see one
+
+---------02:47----------
+of two things
+
+---------02:48----------
+I'm very rarely you'll see oh l which is
+
+---------02:50----------
+it means that there is no
+
+---------02:54----------
+it's not measuring any voltage drop and
+
+---------02:57----------
+sometimes you will see point one point
+
+---------03:00----------
+two which means there is a voltage drop
+
+---------03:02----------
+at a zoo but there's a very very small
+
+---------03:07----------
+voltage drop and that is also no good
+
+---------03:10----------
+most commonly you'll see something like
+
+---------03:12----------
+point one or point two which means that
+
+---------03:14----------
+somewhere in the back light circuit
+
+---------03:16----------
+there is a shorter ground and that's
+
+---------03:17----------
+what I have here so replacing the fuse
+
+---------03:19----------
+again if you're gonna replace a fuse in
+
+---------03:21----------
+the circuit is still shorted and you're
+
+---------03:23----------
+not getting a point four nine nine or
+
+---------03:25----------
+0.58 or 0.53 measuring it's completely
+
+---------03:28----------
+pointless again depending on your
+
+---------03:29----------
+multimeter and the leads and your test
+
+---------03:32----------
+environment you may not always get point
+
+---------03:33----------
+five three one you know again if you get
+
+---------03:35----------
+a point four nine nine whatever most of
+
+---------03:38----------
+the time there's just fine but there's
+
+---------03:39----------
+still a short you're
+
+---------03:41----------
+and here there was one and it was
+
+---------03:43----------
+driving me nuts so that's what I said
+
+---------03:45----------
+a wire is here for this is a piece of
+
+---------03:47----------
+Kent five cable it's in solid core it's
+
+---------03:50----------
+very thin so it's easy to work with but
+
+---------03:52----------
+it's also solid enough that it will
+
+---------03:55----------
+carry a high current so what I did is I
+
+---------03:59----------
+attached an attorney
+
+---------04:00----------
+so here is a g5 power supply you can get
+
+---------04:05----------
+a test bench power supply for like 150
+
+---------04:07----------
+or 200 bucks I use this because it is
+
+---------04:09----------
+pretty some douche left off this g5
+
+---------04:13----------
+tower here and never picked it up which
+
+---------04:16----------
+means that power supply is mine it was
+
+---------04:18----------
+one of those people than he was he
+
+---------04:20----------
+brought it in stinks from 2003 I
+
+---------04:23----------
+wish I knew you didn't work on this
+
+---------04:25----------
+before I came all the way down here from
+
+---------04:27----------
+inside like dude I don't care if you
+
+---------04:33----------
+came from Mars I don't work on
+
+---------04:34----------
+eleven-year-old computers that were out
+
+---------04:36----------
+when I was a freshman in high
+
+---------04:37----------
+school and if coming the East Village
+
+---------04:40----------
+all the way from a quarter-mile up in
+
+---------04:42----------
+the Upper East Side is that much of a
+
+---------04:45----------
+ inconvenience to you how about
+
+---------04:46----------
+you make a goddamn phone call to ask hey
+
+---------04:49----------
+do you work on antique horse and
+
+---------04:51----------
+then I would say no we don't work on
+
+---------04:53----------
+antique horse you could save
+
+---------04:54----------
+yourself the time anyway I don't know
+
+---------04:57----------
+what is actually wrong with this it just
+
+---------04:58----------
+turns on and has nothing on the screen
+
+---------05:00----------
+and my reception is kind of thought I
+
+---------05:03----------
+was being a little hard on her dude at
+
+---------05:04----------
+the time so I I said watch this we're
+
+---------05:06----------
+gonna call we're gonna say it'll be 90
+
+---------05:08----------
+bucks to fix your computer I don't even
+
+---------05:09----------
+know what's wrong with it I don't care
+
+---------05:10----------
+I'm doing this to prove a point because
+
+---------05:12----------
+I know he's not gonna say yes so he call
+
+---------05:14----------
+and say it'll be 90 bucks to fix he's
+
+---------05:16----------
+like you know like he had a
+
+---------05:18----------
+heart attack like I just slit the throat
+
+---------05:20----------
+of his first-born song prove the point
+
+---------05:23----------
+that it would be was completely
+
+---------05:24----------
+worthless to work on hold for
+
+---------05:26----------
+because people are simply not willing to
+
+---------05:28----------
+pay for it most the time and even if
+
+---------05:30----------
+they are you're never gonna find
+
+---------05:31----------
+for it anyway the power supply was
+
+---------05:33----------
+totally fine it's been more than
+
+---------05:35----------
+45 days and he hasn't picked it up so
+
+---------05:38----------
+this is now my managed power supply so
+
+---------05:41----------
+back to my point so I need to find out
+
+---------05:44----------
+where the shortest now as you can see on
+
+---------05:45----------
+my board here I have this big hunk and
+
+---------05:47----------
+wire coming out of it
+
+---------05:49----------
+and not giving a if I knock the
+
+---------05:50----------
+can I drop forth I have spares so this
+
+---------05:55----------
+is my wire now the point here is is a
+
+---------05:58----------
+short between the output of the
+
+---------06:00----------
+backlight and ground somewhere in the
+
+---------06:02----------
+circuit based on the measurement that I
+
+---------06:03----------
+got which at the time was not point five
+
+---------06:06----------
+three one was a point one there was a
+
+---------06:08----------
+short between the output of the
+
+---------06:09----------
+backlight and ground somewhere in this
+
+---------06:11----------
+circuit and you can test each component
+
+---------06:14----------
+individually but sometimes you can there
+
+---------06:17----------
+can be millions of little places they
+
+---------06:18----------
+just look at all the components always
+
+---------06:19----------
+below again if you're working with one
+
+---------06:21----------
+individual circuit or one individual
+
+---------06:23----------
+part you may be easy to find this short
+
+---------06:25----------
+but sometimes you really can't find it
+
+---------06:28----------
+anywhere and that's where I found myself
+
+---------06:29----------
+at this board which is why I thought
+
+---------06:31----------
+that's why on so here's the point of the
+
+---------06:34----------
+toy this output here is shorting to
+
+---------06:36----------
+ground so the output of the backlight
+
+---------06:38----------
+which is it's like 12 to 27 volts is
+
+---------06:42----------
+shorting to ground so I decided to be
+
+---------06:44----------
+with the board off it is put 27 has put
+
+---------06:48----------
+the 12 volts of this power supply like
+
+---------06:50----------
+so into the 12 volt to the backlight now
+
+---------06:54----------
+since that circuit is short on a ground
+
+---------06:55----------
+that means at the 12 volt power supply
+
+---------06:57----------
+is gonna show up ground so what I did is
+
+---------07:00----------
+I took a bunch of LED strips that work
+
+---------07:03----------
+off of 12 volts and I put the positive
+
+---------07:05----------
+of the LED strip on the grounds of the
+
+---------07:07----------
+board because I know that the 12 volts
+
+---------07:09----------
+my power supply is flowing to the
+
+---------07:11----------
+backlight circuit the backlight circuit
+
+---------07:12----------
+because it's is shorting a
+
+---------07:14----------
+graphic which means my 12 volts will
+
+---------07:15----------
+show up on the ground so I attach the
+
+---------07:17----------
+positive of the LED strips to here and
+
+---------07:19----------
+then I attach the ground of the LED
+
+---------07:22----------
+strips back to the ground of my power
+
+---------07:24----------
+supply which completes the circuit now
+
+---------07:26----------
+what this means is that in order to
+
+---------07:28----------
+power my LED strips the 12 volts has to
+
+---------07:31----------
+flow through whatever component in the
+
+---------07:33----------
+board is shorting the back life circuit
+
+---------07:35----------
+to brown
+
+---------07:36----------
+so after his shorting backlight circuit
+
+---------07:38----------
+to ground is going to be in for a world
+
+---------07:41----------
+a pain when it has to pump 10
+
+---------07:43----------
+amps through it to not power the lights
+
+---------07:46----------
+now what we usually happen in this
+
+---------07:48----------
+scenario is what every component on the
+
+---------07:49----------
+board is shorting my circuit to ground
+
+---------07:53----------
+is going to turn red it's gonna get
+
+---------07:55----------
+boiling high and the rare occasion you
+
+---------07:58----------
+may even just pop itself off the board
+
+---------07:59----------
+which is pretty cool now in this case it
+
+---------08:03----------
+did not do that by the way a note of
+
+---------08:04----------
+caution if you're trying to test the
+
+---------08:06----------
+three volt circuit obviously do not plug
+
+---------08:08----------
+it in 12 volts because you are
+
+---------08:09----------
+going to sodomize if you're testing five
+
+---------08:11----------
+volt circuit don't put 12 volts in
+
+---------08:12----------
+you're gonna sodomized it this is a
+
+---------08:15----------
+circuit that starts with 12 volts and
+
+---------08:16----------
+boosts it to 27 so I'm totally okay with
+
+---------08:19----------
+putting 12 volts into it because I know
+
+---------08:21----------
+that it's meant to handle anyway so I
+
+---------08:24----------
+put that in and I want to padding like
+
+---------08:27----------
+three LED strips which is 15 amps
+
+---------08:29----------
+nothing was even getting remote
+
+---------08:31----------
+and this was just starting to piss me
+
+---------08:32----------
+off now the short in this one who's
+
+---------08:35----------
+actually in the LCD connector so once I
+
+---------08:39----------
+removed this LCD connector it went away
+
+---------08:41----------
+and the up part is usually you
+
+---------08:43----------
+can see under a microscope if there's a
+
+---------08:45----------
+short usually you can if you put us this
+
+---------08:47----------
+there we go microscope over here you'll
+
+---------08:49----------
+see some stupid little pin a
+
+---------08:51----------
+piece of solder that burned and is now
+
+---------08:54----------
+bridging two pins together which is
+
+---------08:55----------
+causing the short in here I really did
+
+---------08:58----------
+not see it was not there I removed it
+
+---------09:00----------
+with the hakko and in the short run away
+
+---------09:03----------
+and I put anyone on it and I put a new
+
+---------09:06----------
+one on there and I got that five three
+
+---------09:08----------
+one reader so here's my soldered LVDS
+
+---------09:10----------
+connector as you can see I stopped it's
+
+---------09:13----------
+either in this thing it's
+
+---------09:15----------
+horseshit same thing it's got a close-up
+
+---------09:18----------
+view they really does suck
+
+---------09:23----------
+yeah actually up soldering one of
+
+---------09:26----------
+those pins but I don't care I looked at
+
+---------09:28----------
+the schematic and it's a good that pin
+
+---------09:29----------
+is not connected that's one of the most
+
+---------09:32----------
+beautiful feelings in the world we
+
+---------09:34----------
+up something and you realize the thing
+
+---------09:35----------
+you up completely doesn't matter
+
+---------09:37----------
+and it's on that pretty sturdy I can rip
+
+---------09:39----------
+at it and nothing's gonna move something
+
+---------09:41----------
+I'm happy enough anyway I put the new
+
+---------09:44----------
+albeit new connector on and I get my
+
+---------09:46----------
+point five through one measurement a
+
+---------09:47----------
+beautiful because after that point I had
+
+---------09:49----------
+to place the fuse the other driver and
+
+---------09:51----------
+drove myself next open for a short that
+
+---------09:54----------
+was actually in the canary that's why it
+
+---------09:56----------
+wasn't given huh you see a resistor or
+
+---------09:59----------
+transistor which is nothing but a
+
+---------10:00----------
+transforming resistor they do their job
+
+---------10:03----------
+by emitting the extra power going
+
+---------10:07----------
+through it as heat so naturally a
+
+---------10:09----------
+transistor or a resistor if your
+
+---------10:11----------
+skull-fucking it with power to power LED
+
+---------10:14----------
+lights is going to get really really
+
+---------10:15----------
+compact where as a big honkin piece of
+
+---------10:17----------
+metal it's not going to get hot I mean
+
+---------10:19----------
+this this is not going to get hot unless
+
+---------10:21----------
+you put you know 300 volts like hundreds
+
+---------10:24----------
+of AM story but at the you know this is
+
+---------10:27----------
+not gonna get hot with little
+
+---------10:29----------
+twelve volts at 10 amps they're going
+
+---------10:31----------
+home let's say a tiny little capacitor
+
+---------10:33----------
+is but this is not so that test was
+
+---------10:35----------
+completely useless but after replacing
+
+---------10:39----------
+that I turn it on so now I'm
+
+---------10:42----------
+just I know you know even because my
+
+---------10:45----------
+measurement is fine I get the twelve
+
+---------10:48----------
+volts across the fuse so now we move on
+
+---------10:50----------
+to the next part which is checking the
+
+---------10:52----------
+backlight a naval voltage on this
+
+---------10:54----------
+machine I don't go to stick together on
+
+---------10:58----------
+this machine find a pulp control this is
+
+---------11:01----------
+also right next to the LED driver there
+
+---------11:04----------
+is a voltage divider that tells you the
+
+---------11:08----------
+tells there's a voltage divider network
+
+---------11:11----------
+that tells this chip when to turn on so
+
+---------11:14----------
+you're gonna mention this in another
+
+---------11:16----------
+video you can look at the last back my
+
+---------11:17----------
+video I did to learn what the voltage
+
+---------11:19----------
+divider is or you can just google it and
+
+---------11:21----------
+look at a youtube video where they
+
+---------11:22----------
+explain it much nicer than me with cute
+
+---------11:24----------
+little animation isn't so these two
+
+---------11:27----------
+resistors here are part of the voltage
+
+---------11:29----------
+divider network and over here on the
+
+---------11:30----------
+left side of each you're supposed to see
+
+---------11:32----------
+this one you're supposed to see and
+
+---------11:34----------
+three volts and that's supposed to be
+
+---------11:36----------
+going to the backlight I see so it's
+
+---------11:39----------
+just good close-up of this on the screen
+
+---------11:42----------
+ya see backlight enable on 9 7 3 1 + r9
+
+---------11:47----------
+715 created and I measured there and
+
+---------11:50----------
+those resistors measure what they're
+
+---------11:51----------
+supposed to but they're still my
+
+---------11:52----------
+backlight so then I went to the left a
+
+---------11:55----------
+little to see where that comes from and
+
+---------11:56----------
+it says on the screen here that comes
+
+---------11:58----------
+from pp bus SW LCD books power / I like
+
+---------12:04----------
+to actually pronounce it the way it's
+
+---------12:06----------
+spelled on the screen it's just kind of
+
+---------12:08----------
+like my little entertainment while
+
+---------12:09----------
+torturing myself at 1 in the morning so
+
+---------12:12----------
+when I search for LCD the Clipper which
+
+---------12:14----------
+is what power is that little voltage
+
+---------12:17----------
+divider network that creates the 3 volts
+
+---------12:19----------
+I see that that's power this transistor
+
+---------12:23----------
+here now this transistor opens based on
+
+---------12:27----------
+the signal from this voltage divider
+
+---------12:29----------
+which opens based on LCD booked an able
+
+---------12:33----------
+and booked pulse riseth pole I didn't
+
+---------12:37----------
+even bother going to those ones I just
+
+---------12:38----------
+said let's check this transistor it
+
+---------12:40----------
+looked fine then it said q9 7s
+
+---------12:43----------
+so I looked for q9 707 on here and
+
+---------12:47----------
+that's this here you can't see it
+
+---------12:52----------
+because I'm not aiming at it
+
+---------12:56----------
+whoa there we go
+
+---------12:59----------
+so that's that
+
+---------13:07----------
+now you can see the missing little
+
+---------13:09----------
+residual flux because that pin in that
+
+---------13:11----------
+pin for some reason has some kind of
+
+---------13:12----------
+solder blob of corrosion as I'm sure the
+
+---------13:14----------
+perfection piss on and because of that
+
+---------13:17----------
+it was actually shorting those two pads
+
+---------13:21----------
+together and let's see what I'd actually
+
+---------13:24----------
+forget what those two pads are for so
+
+---------13:26----------
+let's look it up so I can tell you
+
+---------13:37----------
+there is a lot
+
+---------13:45----------
+yes so LCD backlight enable and LCD
+
+---------13:49----------
+backlight disabled so the gate was
+
+---------13:52----------
+actually shorting to the source of q9
+
+---------13:55----------
+707 which is why you didn't get me back
+
+---------13:59----------
+like voltage so once I fix that TP bus
+
+---------14:06----------
+SW book looks powered put out 12 volts
+
+---------14:09----------
+which allowed our 973 1 + r9 715 to
+
+---------14:13----------
+create 3 volts 12 volts in order to send
+
+---------14:16----------
+3 volts the backlight enable backlight I
+
+---------14:19----------
+see which told you to turn long and at
+
+---------14:22----------
+the end of that it actually worked which
+
+---------14:25----------
+is pretty cool
+

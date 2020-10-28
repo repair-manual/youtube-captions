@@ -1,0 +1,649 @@
+https://www.youtube.com/watch?v=HlQ-FUMcNy0
+---------00:00----------
+all right here we're gonna fix a MacBook
+
+---------00:01----------
+that is no power let's open up this
+
+---------00:03----------
+MacBook and figure out what's wrong with
+
+---------00:04----------
+it so this doesn't give us a light on
+
+---------00:06----------
+the charger so let's see why we don't
+
+---------00:09----------
+get a light in the charger quick in the
+
+---------00:11----------
+pot turn on Paul Daniels is execrable
+
+---------00:13----------
+software one of the only thing worse
+
+---------00:15----------
+only things that is worse than smashing
+
+---------00:18----------
+your head into the side of an SUV that
+
+---------00:20----------
+did not turn on their turn signal is
+
+---------00:22----------
+using Paul Daniels as software so the
+
+---------00:25----------
+first thing that we need in order to get
+
+---------00:26----------
+a green light in the charger which we
+
+---------00:27----------
+don't have is P P 3 V 4 2 to be present
+
+---------00:30----------
+let's see if we have M P P 3 V 4 2 is
+
+---------00:33----------
+present the next thing we would need is
+
+---------00:36----------
+for the SMC to be turning on the SMC is
+
+---------00:38----------
+gonna be turning on if the SMC reset
+
+---------00:40----------
+signal is present so let's see if SMC
+
+---------00:44----------
+reset is present SMC reset is 0.5 volts
+
+---------00:48----------
+SMC reset being 0.5 volts is going mean
+
+---------00:51----------
+that the SMC is not turning on
+
+---------00:52----------
+now do realize that the SMC is required
+
+---------00:55----------
+to get a light in the charger this is
+
+---------00:57----------
+the SMC reset circuit it's going to
+
+---------00:59----------
+allow SMC reset L to be high about a
+
+---------01:01----------
+quarter of a second after you power gets
+
+---------01:03----------
+to the Machine the whole idea is that
+
+---------01:04----------
+people for two is gonna take a little
+
+---------01:06----------
+bit to stabilize bp3 before 2 is gonna
+
+---------01:08----------
+take some time to stabilize in that rail
+
+---------01:09----------
+PP 3 before 2 is not going to mmm and
+
+---------01:13----------
+that the SMC that runs off of that rail
+
+---------01:15----------
+which is what talks to the charger is
+
+---------01:16----------
+gonna crash if it tries to start when PP
+
+---------01:19----------
+3 before 2 which is its main power line
+
+---------01:21----------
+is 2 volts or 4 volts or 8 volts or 1
+
+---------01:23----------
+volt so SMC reset needs to be held down
+
+---------01:26----------
+for a short period of time so that the
+
+---------01:28----------
+SMC only starts once PP 3 before 2 is a
+
+---------01:30----------
+nice flat beautiful 3.42 volts so let's
+
+---------01:35----------
+take a look now what the rest of this
+
+---------01:37----------
+board looks like by taking it out of the
+
+---------01:38----------
+case alright so the pull-up resistor for
+
+---------01:40----------
+SMC reset looks fine the SMC reset chip
+
+---------01:45----------
+also looks fine so we have two
+
+---------01:47----------
+possibilities behind door number one the
+
+---------01:49----------
+SMC is shorted in pulling it down behind
+
+---------01:52----------
+door number two the SMC reset ship is
+
+---------01:54----------
+bad now I'm gonna hope that the SMC
+
+---------01:56----------
+reset chip is bad because if the SMC
+
+---------01:58----------
+reset chip is bad that's easy
+
+---------02:00----------
+if the SMC is bad that's hard wait
+
+---------02:06----------
+there's more
+
+---------02:09----------
+what is this hmm Thank You Pedro I
+
+---------02:17----------
+appreciate that
+
+---------02:22----------
+hmm
+
+---------02:33----------
+but
+
+---------02:35----------
+you know my birthday
+
+---------04:03----------
+as can be seen me now a fans been Wow
+
+---------04:07----------
+SMC reset actually goes to the jtag
+
+---------04:09----------
+connector see here SMC reset L the
+
+---------04:13----------
+signal that was held down is on that
+
+---------04:15----------
+jtag connector all I had to do was
+
+---------04:18----------
+remove that jtag connector and now we
+
+---------04:20----------
+have a working board MacBook logic board
+
+---------04:23----------
+repair aren't she's so happy that Apple
+
+---------04:26----------
+puts that connector right on the edge of
+
+---------04:27----------
+the board on the same area that water
+
+---------04:29----------
+just it clearly flows straight into the
+
+---------04:32----------
+machine instead of putting it on the
+
+---------04:33----------
+middle of the board or anywhere else in
+
+---------04:35----------
+the board so that when you any sort of
+
+---------04:37----------
+humidity gets near your machine it
+
+---------04:39----------
+doesn't die aren't you glad that Apple
+
+---------04:41----------
+thinks different designs different and
+
+---------04:44----------
+doesn't bother putting effort into
+
+---------04:45----------
+liquid resistance like IBM did over 14
+
+---------04:49----------
+years ago that's it for today and as
+
+---------04:51----------
+always I hope you learned something you
+
+---------04:54----------
+know we have another MacBook that needs
+
+---------04:55----------
+to be fixed this is an 814 66 with no
+
+---------04:58----------
+power let's open it up and figure out
+
+---------05:00----------
+why it has no power and see if we can
+
+---------05:02----------
+get it to turn on if we can get it to
+
+---------05:04----------
+turn on
+
+---------05:04----------
+maybe we can shake some money out of it
+
+---------05:06----------
+I will succeed in killing you I will not
+
+---------05:08----------
+try if that goes back in here but
+
+---------05:12----------
+anywhere but here give it to Steve
+
+---------05:14----------
+actually drop it on Steve's desk wait
+
+---------05:18----------
+but she's on vacation they know their
+
+---------05:26----------
+rights I hate that stuff they know they
+
+---------05:28----------
+have rights they read the poster don't
+
+---------05:30----------
+read the labor poster Mikey Mikey if you
+
+---------05:34----------
+read the labor poster yes and the answer
+
+---------05:38----------
+you're looking for lies right here I am
+
+---------05:41----------
+just a figment of your imagination
+
+---------05:44----------
+[Music]
+
+---------05:47----------
+fine I'll get you a lactating room you
+
+---------05:53----------
+wanted you wanted your rights you get
+
+---------05:54----------
+your rights I'll make you a lactating
+
+---------05:57----------
+room downstairs it's gonna be pretty
+
+---------06:01----------
+I'll make sure it's away from the rats
+
+---------06:04----------
+we're gonna plug it into this MacBook
+
+---------06:06----------
+and it appears to not turn on hmm we
+
+---------06:08----------
+don't get a light in the charger I
+
+---------06:09----------
+wonder why is pp3 before to present BP 3
+
+---------06:12----------
+for 2 is present now we check and see if
+
+---------06:14----------
+SMC reset is present SMC reset is
+
+---------06:23----------
+interesting SMC reset is Lord again hmm
+
+---------06:27----------
+what happened the last time SMC reset
+
+---------06:29----------
+was short what's happened the last time
+
+---------06:31----------
+that it was not what it was supposed to
+
+---------06:32----------
+Wow imagine that another jtag connector
+
+---------06:37----------
+how random random I hope Paul doesn't
+
+---------06:44----------
+see this
+
+---------06:48----------
+[Music]
+
+---------06:50----------
+another one
+
+---------07:03----------
+50 yards
+
+---------07:24----------
+[Laughter]
+
+---------07:38----------
+[Applause]
+
+---------08:08----------
+murder
+
+---------08:10----------
+murder just occurred now when we plug it
+
+---------08:15----------
+in you get a green light returns to
+
+---------08:18----------
+orange light and a fan spin another
+
+---------08:22----------
+machine where SMC reset L is being stuck
+
+---------08:24----------
+to ground and all we had to do to fix it
+
+---------08:26----------
+let's remove a jtag connector if you
+
+---------08:30----------
+want to purchase a jtag connector check
+
+---------08:32----------
+us out on stored Rossman group comm
+
+---------08:34----------
+where we sell burned JTAG connectors
+
+---------08:37----------
+authentic burn jtech connectors that we
+
+---------08:40----------
+ripped stabbed burned or axed or knifed
+
+---------08:44----------
+off of MacBook motherboards an authentic
+
+---------08:47----------
+MacBook jtag connector mwah
+
+---------08:50----------
+stray from Rossmann repair don't delay
+
+---------08:52----------
+buy today it's a good luck charm that's
+
+---------08:55----------
+it for today and as always I hope you
+
+---------08:57----------
+learned something all right
+
+---------08:58----------
+so here we have another liquid damaged
+
+---------09:02----------
+MacBook with no power if this is the
+
+---------09:05----------
+third one in a row that needs a jtag
+
+---------09:06----------
+connector I will have to delete this
+
+---------09:08----------
+video because Paul will will come back
+
+---------09:11----------
+and he will murder me if he sees that
+
+---------09:14----------
+this was all that was a Mike you enjoy
+
+---------09:16----------
+your vacation Olga sagir see you later
+
+---------09:21----------
+don't go to Bermuda Triangle oh my god
+
+---------09:26----------
+no way no way someone says from a lot of
+
+---------09:32----------
+us on the Internet we love you Luis
+
+---------09:35----------
+thank you that's very nice of you no
+
+---------09:40----------
+effing way Wow
+
+---------09:44----------
+again again this is the best day ever
+
+---------09:49----------
+Wow this Q is better than sex this is
+
+---------09:55----------
+the third one in a row three in a row
+
+---------10:24----------
+well
+
+---------10:28----------
+this is amazing this is great this is so
+
+---------10:35----------
+awesome
+
+---------10:38----------
+another jtag connector
+
+---------10:50----------
+if every day of my life could be just
+
+---------10:52----------
+like this I would be so happy
+
+---------11:01----------
+just destroying JPEG connectors as
+
+---------11:03----------
+violently as possible
+
+---------11:17----------
+[Music]
+
+---------11:21----------
+this is so cool I could just live my the
+
+---------11:25----------
+rest of my life doing this every single
+
+---------11:27----------
+day jtag connector after jtag connector
+
+---------11:29----------
+after jtag connector die die you bastard
+
+---------11:35----------
+die if this gives me a fan spin I'm I
+
+---------11:42----------
+will [ __ ] myself hi hi do you think this
+
+---------11:48----------
+is gonna have fan spin after this we
+
+---------11:50----------
+destroyed the JTAG as violently as
+
+---------11:51----------
+possible so let's see if this thing gets
+
+---------11:53----------
+a fan spin now after all of our little
+
+---------11:55----------
+adjustments light that was a light on
+
+---------11:58----------
+the charger beautiful works and if you
+
+---------12:02----------
+want an environment to check out these
+
+---------12:03----------
+videos with no advertisements at all you
+
+---------12:06----------
+can check us out on boards dot Rosman
+
+---------12:09----------
+group calm and on board Strassman group
+
+---------12:11----------
+calm you can go over here and go repair
+
+---------12:14----------
+videos by marvel or problem repair
+
+---------12:16----------
+videos by problem and when you click
+
+---------12:19----------
+over this thing it'll show you all the
+
+---------12:21----------
+different problem types and you can go
+
+---------12:24----------
+to something like no green light and
+
+---------12:25----------
+charger and it's gonna show you every
+
+---------12:27----------
+single video I've ever done talking
+
+---------12:29----------
+about no green light in the charger
+
+---------12:31----------
+right like that or if you want to find
+
+---------12:34----------
+videos related to just this specific
+
+---------12:38----------
+board which is an 8 to 0 dad as yours
+
+---------12:39----------
+are 165 you can go repair videos by
+
+---------12:41----------
+model and then click 8 to 0-0 0 1 6 5
+
+---------12:46----------
+and then you can see all of them these
+
+---------12:48----------
+videos were uploaded to Vimeo from the
+
+---------12:52----------
+original master copy so they are going
+
+---------12:53----------
+to look better and above all if you go
+
+---------12:55----------
+watch the videos in Vimeo there's no
+
+---------12:57----------
+pre-roll or post roll video ad there's
+
+---------13:00----------
+no YouTube cancerous comment section and
+
+---------13:02----------
+it's a nice little youtube free
+
+---------13:04----------
+environment ad free environment so you
+
+---------13:06----------
+don't have to watch ads know that no
+
+---------13:07----------
+nonsense
+
+---------13:08----------
+and that's it for today and as always I
+
+---------13:10----------
+hope you learned something with that I'm
+
+---------13:13----------
+gonna go and figure out what it is I
+
+---------13:15----------
+should be doing with my Friday night
+
+---------13:16----------
+most likely going back to my alcohol I
+
+---------13:19----------
+haven't drank in a long time hmm what
+
+---------13:22----------
+should I do with my Friday night
+
+---------13:24----------
+hmm I should probably fix more math
+
+---------13:26----------
+books
+

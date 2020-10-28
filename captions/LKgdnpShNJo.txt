@@ -1,0 +1,1411 @@
+https://www.youtube.com/watch?v=LKgdnpShNJo
+---------04:03----------
+hello people how's it going coming to
+
+---------04:05----------
+you today with my lovely headache and
+
+---------04:07----------
+we're gonna try and fix a MacBook this
+
+---------04:10----------
+MacBook is not turning on and it is an a
+
+---------04:14----------
+1708 so it is one of those newer models
+
+---------04:16----------
+that suck to repair but we're gonna see
+
+---------04:18----------
+if we can figure it out I'm very excited
+
+---------04:20----------
+because Paul is considering becoming
+
+---------04:23----------
+full time so instead of being three days
+
+---------04:25----------
+a week it would be five days a week and
+
+---------04:28----------
+if such were to occur life would be much
+
+---------04:31----------
+better here at Rossman repair so the
+
+---------04:33----------
+same way that we are begging Venera to
+
+---------04:34----------
+come back we are also very hopeful that
+
+---------04:37----------
+Paul will find it in his heart to spend
+
+---------04:39----------
+five days in this beautiful chair which
+
+---------04:42----------
+we will totally upgrade to whatever type
+
+---------04:44----------
+of chair he wants if he's willing to
+
+---------04:46----------
+stay here for five days a week first
+
+---------04:48----------
+thing we're gonna do is look at the
+
+---------04:51----------
+board and see what it looks like so as
+
+---------04:52----------
+you can see it's kind of gross looking
+
+---------04:58----------
+it's gross
+
+---------05:07----------
+nasty nasty do keep in mind that this is
+
+---------05:12----------
+after an ultrasonic cleaning so you can
+
+---------05:14----------
+only imagine what this looked like prior
+
+---------05:16----------
+to the ocean so clearly you can see this
+
+---------05:20----------
+this MacBook is not in the best of shape
+
+---------05:25----------
+so the first thing we're going to do
+
+---------05:28----------
+with the back book that's not really
+
+---------05:30----------
+powering is plug it in and we're gonna
+
+---------05:34----------
+look at this little amp USB ant meter
+
+---------05:36----------
+that I have
+
+---------05:37----------
+so this USBC ant meter says that we're
+
+---------05:42----------
+using 20 volts so the USBC communication
+
+---------05:45----------
+is occurring this is the first step
+
+---------05:46----------
+because if USBC communication is not
+
+---------05:49----------
+occurring between the USBC MUX and the
+
+---------05:52----------
+charger then it's gonna be stuck at five
+
+---------05:54----------
+volts the same way that you need
+
+---------05:55----------
+communication with the old MagSafe
+
+---------05:57----------
+charger in order for the light to turn
+
+---------05:59----------
+on between the SMC and the charger on
+
+---------06:01----------
+these machines you need communication to
+
+---------06:03----------
+occur between the USBC MUX and the char
+
+---------06:07----------
+and the charger in order to get to 20
+
+---------06:09----------
+volts so our one wire circuit as we used
+
+---------06:11----------
+to call it which is not actually what it
+
+---------06:13----------
+is on here but you get the idea that is
+
+---------06:15----------
+functioning properly so when I say that
+
+---------06:17----------
+I'm talking about the cd32 15 over here
+
+---------06:21----------
+this is the IC when we get to it come on
+
+---------06:26----------
+here we go this is the chip that's going
+
+---------06:29----------
+to be allowing voltage to go to the
+
+---------06:31----------
+Machine this is the chip that's going to
+
+---------06:32----------
+have bi-directional data lines with the
+
+---------06:35----------
+charger that you can see over here and
+
+---------06:38----------
+on the other side here and that is
+
+---------06:42----------
+important that is being done but we do
+
+---------06:45----------
+see that we're going between 0.03 Am's
+
+---------06:47----------
+to 0.06 amps so it's trying to turn on
+
+---------06:51----------
+but it's not quite making it and that
+
+---------06:52----------
+power cycling is actually better for us
+
+---------06:55----------
+than if it was totally dead if it hadn't
+
+---------06:57----------
+if it wasn't even trying to turn on then
+
+---------06:59----------
+we know it's just screwed but it's
+
+---------07:00----------
+trying to get up it's just it's probably
+
+---------07:02----------
+missing a power rail so we're gonna go
+
+---------07:04----------
+to the list of power
+
+---------07:06----------
+head
+
+---------07:09----------
+I missed my brain I would really like to
+
+---------07:13----------
+be replaced I would like to be repealed
+
+---------07:17----------
+and replaced with somebody who's
+
+---------07:18----------
+actually good at fixing boards so we go
+
+---------07:21----------
+to the power rails list and when I check
+
+---------07:24----------
+on some of these rails here now I
+
+---------07:25----------
+remember
+
+---------07:26----------
+you have s five rails when the computer
+
+---------07:29----------
+is up ng3 hot when the computers off as
+
+---------07:31----------
+for when it's hibernating s three when
+
+---------07:33----------
+it's sleeping in s o when it's on if you
+
+---------07:36----------
+have it s for rail if you've made it to
+
+---------07:38----------
+the hibernation state then you know that
+
+---------07:40----------
+all the S fives are present if you're in
+
+---------07:42----------
+an S five state you know all the G three
+
+---------07:43----------
+hots are present if you're in an Esso
+
+---------07:44----------
+state then you know all the s three
+
+---------07:46----------
+rails are present if you have s three
+
+---------07:47----------
+rails you know the s fours are present
+
+---------07:49----------
+so we're going to since I have a
+
+---------07:50----------
+headache and I would like to go to my
+
+---------07:53----------
+doctor or go home we're going to do a
+
+---------07:55----------
+bit of a shortcut so I'm not gonna
+
+---------07:59----------
+measure every single rail I'm simply
+
+---------08:02----------
+going to measure the rails that are so
+
+---------08:06----------
+let's see is a G 3 hot rail here let's
+
+---------08:08----------
+see do we have our pp bus where is pp
+
+---------08:13----------
+bus all right
+
+---------08:31----------
+no vacation until we catch up I think
+
+---------08:35----------
+I'm at a point where I'm only seven days
+
+---------08:36----------
+behind which was pretty good before I
+
+---------08:38----------
+was two or three weeks behind on work my
+
+---------08:41----------
+concussion plus Paul vacation plus
+
+---------08:44----------
+influx of business that was often I'm
+
+---------08:48----------
+waiting for the flood of [ __ ] reviews to
+
+---------08:50----------
+flood in from that alright so 13 volts
+
+---------08:52----------
+g3 hot is present now I'm not even gonna
+
+---------08:55----------
+check us five I'm gonna skip ahead a
+
+---------08:57----------
+little bit
+
+---------08:57----------
+do we have PP 3 V 3 S 4 and it's there
+
+---------09:00----------
+you know what let's see I'll be in a
+
+---------09:02----------
+nest let's check us out alright so if we
+
+---------09:10----------
+have this rail that means that we are in
+
+---------09:12----------
+an Esso state and we do we do apples
+
+---------09:15----------
+getting in your head think different I
+
+---------09:17----------
+will not think different I will never
+
+---------09:19----------
+think different never alright so we're
+
+---------09:22----------
+in an Esso state which means I don't
+
+---------09:24----------
+have to check every s5 as for s3 or g3
+
+---------09:29----------
+ha trail because those are present the
+
+---------09:30----------
+only rails I have to protect the only
+
+---------09:32----------
+ones that are of interest to me are
+
+---------09:34----------
+other Esso rails so we're in an Esso
+
+---------09:36----------
+state which means all the rails below it
+
+---------09:38----------
+have to be present so let's check all
+
+---------09:40----------
+this stuff over here so I'm gonna check
+
+---------09:45----------
+this other PP 5 ESO Pippy 5 ESO is
+
+---------09:50----------
+present all right
+
+---------09:51----------
+what other s over rails do we got to
+
+---------09:53----------
+check here well you already checked
+
+---------09:55----------
+Pippy 3v3 s oh we checked PP 5 es o PP 1
+
+---------09:59----------
+viateur so let's check our PP 1 v8s oh
+
+---------10:02----------
+and see if that's present
+
+---------10:06----------
+[Music]
+
+---------10:13----------
+that's just the range in the multimeter
+
+---------10:15----------
+so you can read that properly 1.8 that's
+
+---------10:18----------
+present so we got P P 1 V ADA so what's
+
+---------10:27----------
+this CPU vcore all right let's see if we
+
+---------10:32----------
+have CPU V core my head oh my aching
+
+---------10:40----------
+head my achy achy head no cpu V core all
+
+---------10:48----------
+right where does cpu V core come from
+
+---------10:50----------
+let's find that in the schematic so we
+
+---------10:52----------
+got our missing sol missing cpu v core
+
+---------10:55----------
+is it because the thingy that makes CPU
+
+---------10:58----------
+cores not working hopefully or is
+
+---------11:00----------
+because the cpu is dead and not
+
+---------11:02----------
+requesting v core
+
+---------11:03----------
+hopefully not cuz if that's the case
+
+---------11:04----------
+we're gonna give it some we're totally
+
+---------11:07----------
+not gonna give it to Paul because that
+
+---------11:08----------
+would discourage him from coming to work
+
+---------11:10----------
+here full-time
+
+---------11:11----------
+so he would never say that even if
+
+---------11:13----------
+that's what we would like to do where is
+
+---------11:16----------
+CPU V core show me the CPU V core
+
+---------11:18----------
+controller okay we're getting close
+
+---------11:20----------
+PVCC cpu here we go this is the chip for
+
+---------11:24----------
+CPU V core see that V reg CPU excuse me
+
+---------11:28----------
+let's make this board work and then get
+
+---------11:31----------
+out of here so let's take a look my head
+
+---------11:35----------
+at this so what looks wrong with this
+
+---------11:37----------
+area of the board let's see if anybody
+
+---------11:40----------
+can tell me what's wrong here
+
+---------11:58----------
+now there's a lot of corrosion on the
+
+---------12:00----------
+board that doesn't matter but this stuff
+
+---------12:02----------
+here does matter
+
+---------12:04----------
+what's supposed to be here CPU v Rin and
+
+---------12:08----------
+CPU v Rin comes through a 10 ohm
+
+---------12:12----------
+resistor of P P bus g3 hot so I should
+
+---------12:15----------
+be getting 12 volts there but am I
+
+---------12:18----------
+getting 12 volts there I'm not wait I'm
+
+---------12:23----------
+getting three six two huh getting one
+
+---------12:27----------
+over here getting [ __ ] over here because
+
+---------12:31----------
+the probe point is broken and at this
+
+---------12:33----------
+end I'm getting thirteen point eight
+
+---------12:35----------
+alright so there's a few things that we
+
+---------12:37----------
+can realize here the first is that this
+
+---------12:40----------
+resistor that's 10 ohms it's supposed to
+
+---------12:41----------
+send 12 volts through the strip their
+
+---------12:43----------
+powers the buck converter for the CPU
+
+---------12:45----------
+that probably ain't 10 ohms and as you
+
+---------12:49----------
+can see ya that's not 10 ohms that's
+
+---------12:52----------
+that's no 10 ohms so that resistor has
+
+---------12:54----------
+got to go so we're gonna repeal and
+
+---------12:57----------
+replace that resistor with a better one
+
+---------13:06----------
+gtfo
+
+---------13:18----------
+the old shard of that resistor out of
+
+---------13:21----------
+here
+
+---------13:32----------
+there we go for the old shard of that
+
+---------13:35----------
+resistor is gone and so we're gonna have
+
+---------13:40----------
+to replace the resistor which requires
+
+---------13:42----------
+getting up so we're gonna procrastinate
+
+---------13:43----------
+on that and I'm gonna break away that
+
+---------13:50----------
+little probe the trace leading to the
+
+---------13:53----------
+pro point so that I can actually get 12
+
+---------13:58----------
+volts going to the damn chip again
+
+---------14:45----------
+okay so the first thing to do put a
+
+---------14:48----------
+little jumper wire over there
+
+---------15:05----------
+okay we're gonna scrape why don't my
+
+---------15:10----------
+tweezers close okay maybe now they'll
+
+---------15:15----------
+close why don't my tweezers ever last
+
+---------15:20----------
+more than a day I don't get it my
+
+---------15:26----------
+tweezers never seem to make it longer
+
+---------15:27----------
+than a day
+
+---------15:45----------
+okay
+
+---------15:48----------
+now to put a resistor in there I'm also
+
+---------15:55----------
+gonna add some flux make this board sexy
+
+---------15:58----------
+again yeah look at that
+
+---------16:05----------
+have you considered going affiliate and
+
+---------16:08----------
+subs no because twitch is very is
+
+---------16:11----------
+twitches like a jealous ex-girlfriend
+
+---------16:13----------
+that gets angry when you get a phone
+
+---------16:14----------
+call from another woman that's your
+
+---------16:17----------
+friend like if I stream to youtube and
+
+---------16:19----------
+twitch at the same time which which gets
+
+---------16:21----------
+all angry and YouTube pays me twitch
+
+---------16:25----------
+does not so there was any platform that
+
+---------16:28----------
+I was gonna have some loyalty to not
+
+---------16:30----------
+that I really have loyalty to YouTube
+
+---------16:31----------
+I'm definitely more loyal to YouTube
+
+---------16:33----------
+than to twitch this one runs ads on my
+
+---------16:37----------
+stuff and pays me for it and the other
+
+---------16:39----------
+runs ads on my stuff and don't pay me
+
+---------16:40----------
+for it so it's like I would have to give
+
+---------16:48----------
+up knowing money from YouTube for
+
+---------16:50----------
+mystery money like that's a shitty
+
+---------16:53----------
+contract we're asking you to give up
+
+---------16:56----------
+money that you're already making for an
+
+---------16:58----------
+amount of money that we will not
+
+---------17:00----------
+disclose or aka would you like to give
+
+---------17:03----------
+up everything that you've worked for for
+
+---------17:04----------
+what's behind this door
+
+---------17:06----------
+no thank you we would just like you to
+
+---------17:12----------
+give up everything you've worked for for
+
+---------17:14----------
+what's behind this what's behind curtain
+
+---------17:17----------
+number one it's like yeah no you know I
+
+---------17:22----------
+appreciate the offer it's very nice but
+
+---------17:25----------
+no I actually read contracts before I
+
+---------17:28----------
+sign them and your contracts sucks
+
+---------17:43----------
+not that YouTube pays a lot but it pays
+
+---------17:46----------
+better than zero
+
+---------17:55----------
+all right so if some flux we got a nice
+
+---------17:57----------
+connection there now let's see if it
+
+---------17:59----------
+turns on get more amperage usage all
+
+---------18:07----------
+right we're getting 0.35 amps that is
+
+---------18:12----------
+slightly more that's it's not slightly
+
+---------18:14----------
+more that's ten times more getting 0.3 a
+
+---------18:16----------
+point zero three mt4 now we're getting
+
+---------18:18----------
+0.3 but now it's turning off again 0.1
+
+---------18:24----------
+amps point zero nine point I don't can
+
+---------18:28----------
+this really do anything at point one
+
+---------18:29----------
+amps is it just taking no amperage
+
+---------18:31----------
+because I've connected it to nothing or
+
+---------18:33----------
+is this still dead
+
+---------18:43----------
+yeah this don't seem right to me all
+
+---------18:46----------
+right ah blinded okay are we at least
+
+---------18:52----------
+getting the voltage that we're supposed
+
+---------18:53----------
+to be getting over here I'm blind I'm
+
+---------18:57----------
+blind
+
+---------18:58----------
+ah it's like I look strated in eclipse
+
+---------19:00----------
+stop it
+
+---------19:02----------
+alright 13 volts is going through to
+
+---------19:04----------
+this chip now the other question is can
+
+---------19:10----------
+I trust that this chip is good seeing as
+
+---------19:12----------
+it saw a spike that broke one of its
+
+---------19:14----------
+vias also am I actually getting the CPU
+
+---------19:21----------
+vcore that's another great thing to
+
+---------19:22----------
+check let's see turn this thing around
+
+---------19:30----------
+great
+
+---------19:34----------
+that's not CPU vcore that's garbage all
+
+---------19:37----------
+right so let's what if my chip is bad
+
+---------21:52----------
+mm-hmm
+
+---------21:59----------
+makes no sense to say rusted pro point
+
+---------22:02----------
+12 minutes after the fact
+
+---------22:46----------
+too much solder on the center pad is my
+
+---------22:48----------
+trademark
+
+---------23:43----------
+all right now the chip is aligned and a
+
+---------23:45----------
+lot of the excess solder is gone now we
+
+---------23:46----------
+can push down on it make sure it's nice
+
+---------23:50----------
+and flat on the board
+
+---------23:57----------
+all right now that's flat on the board
+
+---------24:00----------
+and we get rid of all the excess [ __ ] so
+
+---------24:07----------
+now I know every single pad is touching
+
+---------24:08----------
+properly I'm gonna give it a second to
+
+---------24:11----------
+cool off and if there's any other type
+
+---------24:12----------
+of board you have to give it a long time
+
+---------24:14----------
+to cool off
+
+---------24:14----------
+but Macbook boards absorb and then
+
+---------24:17----------
+dissipate the heat instantly remember
+
+---------24:18----------
+MacBooks don't have cooling they're just
+
+---------24:20----------
+designed to kind of burn from the inside
+
+---------24:22----------
+so the boards are much better at
+
+---------24:25----------
+absorbing and dissipating heat than
+
+---------24:27----------
+others they're very good at that so
+
+---------24:32----------
+we're gonna wait a second before we turn
+
+---------24:35----------
+this mofo on and see if we've got CPU v
+
+---------24:37----------
+core and see what type of power cycling
+
+---------24:39----------
+its giving us its using 0.5 Am's point 6
+
+---------24:42----------
+amps let me just show you on the screen
+
+---------24:44----------
+here okay see that 0.5 a times point 6
+
+---------24:48----------
+amps that's more like it that's what
+
+---------24:49----------
+we're looking for it because that's a
+
+---------24:51----------
+CPU that's actually turning on 0.7 amps
+
+---------24:53----------
+so if I turn on the multimeter and I
+
+---------24:57----------
+have that displayed on the screen and I
+
+---------24:59----------
+go to measure CPU v core again see 0.6
+
+---------25:05----------
+volts a CPU v core that's a number
+
+---------25:07----------
+that's something I'm looking for and now
+
+---------25:09----------
+it's going down obviously because I
+
+---------25:11----------
+don't have an SSD or anything plugged
+
+---------25:12----------
+into it so it's not gonna waste power
+
+---------25:13----------
+but I think that if I plug this into a
+
+---------25:17----------
+screen that I'm now gonna get some
+
+---------25:19----------
+function remember the reason that I
+
+---------25:20----------
+blame that chip was I figured if
+
+---------25:23----------
+something hit this that was hard enough
+
+---------25:25----------
+to blow the resistor and destroy the
+
+---------25:27----------
+probe point that the chip that it would
+
+---------25:29----------
+be directly attached to would be bad as
+
+---------25:30----------
+well think of it like a thunder strike
+
+---------25:32----------
+not the Thunder striking I'm a dumbass
+
+---------25:34----------
+think of it like lightning striking
+
+---------25:35----------
+wherever the lightning is going to
+
+---------25:36----------
+strike whatever is connected to that
+
+---------25:38----------
+socket is also gonna be burned up so if
+
+---------25:40----------
+you think of it like lightning striking
+
+---------25:42----------
+wherever the probe point are destroyed
+
+---------25:44----------
+like that whatever is directly connected
+
+---------25:46----------
+to that socket or to that probe point is
+
+---------25:49----------
+also going to have been shocked so I
+
+---------25:51----------
+assume that the CPU v courtship had been
+
+---------25:53----------
+shocked due to the fact that the probe
+
+---------25:55----------
+point and the resistor that feed at the
+
+---------25:58----------
+voltage it needs to turn on or destroyed
+
+---------25:59----------
+now we're just gonna hope that the CPU
+
+---------26:02----------
+which is attached to that ship which is
+
+---------26:03----------
+what it powers is not destroyed because
+
+---------26:05----------
+if the CPU on that chip is destroyed
+
+---------26:07----------
+that means that the last 30 minutes that
+
+---------26:09----------
+we spent on this board will make
+
+---------26:10----------
+me $0 and that would make me sad and I
+
+---------26:14----------
+would probably want to cry since I
+
+---------26:16----------
+worked on this board in lieu of getting
+
+---------26:18----------
+my breakfast so let's just clean my desk
+
+---------26:21----------
+a little bit and we're gonna try this
+
+---------26:23----------
+out and see if this lovely board works
+
+---------26:26----------
+and if it works I get to collect some
+
+---------26:27----------
+money and if it doesn't work then I will
+
+---------26:30----------
+go bathe in my tears
+
+---------26:40----------
+I like having a clean desk I pride
+
+---------26:43----------
+myself in computers not getting
+
+---------26:44----------
+scratched here and leaving here in good
+
+---------26:46----------
+condition every now and then you're
+
+---------26:48----------
+gonna get a douchebag that sends in a
+
+---------26:49----------
+computer that was covered in [ __ ]
+
+---------26:51----------
+dirt and grime and [ __ ] that says that
+
+---------26:54----------
+you know how dare you send it back to me
+
+---------26:56----------
+the way you say I sent it to you but I
+
+---------26:59----------
+genuinely do want machines to leave here
+
+---------27:01----------
+cleaner than they showed up I like clean
+
+---------27:04----------
+them regularly make sure I got nice
+
+---------27:06----------
+clean desks not not some amateur [ __ ]
+
+---------27:09----------
+faces that scratch everything you know I
+
+---------27:12----------
+take you may think it's silly that I'm
+
+---------27:13----------
+taking all this time to do this on
+
+---------27:15----------
+stream but every book all the stuff that
+
+---------27:18----------
+goes on a nice mat and I clean my desk
+
+---------27:21----------
+usually after every soldering job
+
+---------27:23----------
+typically before I put a computer on the
+
+---------27:26----------
+desk again just some basic goodwill when
+
+---------27:32----------
+dealing with other people's $1600
+
+---------27:34----------
+products even if it's a Mac I don't have
+
+---------27:37----------
+respect for the Mac I have respect for
+
+---------27:38----------
+the person that's willing to give me
+
+---------27:40----------
+money to fix the Mac but don't don't get
+
+---------27:42----------
+that confused with respect for the Mac
+
+---------27:44----------
+there's no respect for this but anyway
+
+---------27:48----------
+so all I'm gonna really plug in right
+
+---------27:50----------
+now is the screen SSD and the charger
+
+---------27:55----------
+that's all I care about is this thing
+
+---------27:57----------
+able to boot does it do anything does it
+
+---------28:00----------
+produce an image or is it just as broken
+
+---------28:03----------
+as it was when I started does it Buddha
+
+---------28:07----------
+does it go on fire taking points exams
+
+---------28:13----------
+baby giving me hope
+
+---------28:27----------
+you're not going to show me a picture on
+
+---------28:29----------
+the screen are you
+
+---------28:38----------
+uh-huh Apple logo Apple logo an Apple
+
+---------28:43----------
+wallpaper hello so we fixed it and it
+
+---------28:47----------
+doesn't have a dead CPU so that is how
+
+---------28:50----------
+you fix an A 17 oh wait that doesn't
+
+---------28:52----------
+have CPU V Corbett has every other s
+
+---------28:54----------
+Oreille so what do we do here we saw
+
+---------28:56----------
+that there was liquid damage all over
+
+---------28:57----------
+the board and we decided to concentrate
+
+---------28:59----------
+on that section because it was it had
+
+---------29:02----------
+the s3 rails the NDS or else which means
+
+---------29:05----------
+that all everything under it is present
+
+---------29:07----------
+if I check an s3 rail that means
+
+---------29:09----------
+everything s5 is present if I check an
+
+---------29:10----------
+Sol that means all the s3 is s fives and
+
+---------29:13----------
+g3 hearts are present and I have a guide
+
+---------29:14----------
+it's linked in the description below and
+
+---------29:16----------
+I explained the concept of power rails
+
+---------29:19----------
+what is g3 hot s 5 s 3 s oh it's a
+
+---------29:21----------
+pyramid if I have a single s o real a
+
+---------29:24----------
+single Sol every rail under it is
+
+---------29:26----------
+present so we had to figure out which
+
+---------29:28----------
+Sol was not present and it was CPU v
+
+---------29:30----------
+core we look for the chip responsible
+
+---------29:32----------
+for CPU v core and there's a blown via
+
+---------29:34----------
+that blown via is where 12 volts is
+
+---------29:36----------
+supplied to the voltage in pin of that
+
+---------29:38----------
+chip and we can then assume that there's
+
+---------29:41----------
+something wrong with the chip as well
+
+---------29:42----------
+why is that well if we go back here to
+
+---------29:46----------
+the schematic in the board view you'll
+
+---------29:49----------
+see that this is at the top now at the
+
+---------29:52----------
+top of the chip is going to be where V
+
+---------29:54----------
+in voltage in and things like that are
+
+---------29:56----------
+so the voltage go with a resistance
+
+---------29:58----------
+applying voltage to the chip was burned
+
+---------30:00----------
+and this via between here and here was
+
+---------30:02----------
+burned so if lightning struck here we
+
+---------30:05----------
+can then assume that whatever was
+
+---------30:06----------
+directly attached to it was also struck
+
+---------30:08----------
+by lightning just the same way that if
+
+---------30:10----------
+lightning strikes the outlet that your
+
+---------30:12----------
+PC is attached to you can assume that
+
+---------30:13----------
+your PC is gonna be fried if lightning
+
+---------30:15----------
+struck this if this entire thing is
+
+---------30:18----------
+corroded even if the chip itself looks
+
+---------30:20----------
+nice and works I can then assume that
+
+---------30:22----------
+you 7100 is destroyed so after we
+
+---------30:24----------
+restored this probe point in this trace
+
+---------30:26----------
+and replaced the resistor it was still
+
+---------30:29----------
+not working properly it was still not
+
+---------30:31----------
+giving us cpu v core we could tell by
+
+---------30:32----------
+two ways a measuring and seeing CPU v
+
+---------30:35----------
+core was not present and be using the
+
+---------30:37----------
+USB C amp meter and seeing that it was
+
+---------30:38----------
+only taking point one a point two amps
+
+---------30:40----------
+which is not enough for the CPU to be
+
+---------30:42----------
+working huh so we'll replace that chip
+
+---------30:46----------
+repeal and replace it with a better one
+
+---------30:47----------
+from a donor board that I got from
+
+---------30:50----------
+some Chinese dude on the internet that
+
+---------30:52----------
+probably took it out of a dumpster and
+
+---------30:55----------
+thumbs up to Aliexpress and it works so
+
+---------31:00----------
+that's it for today and as always I hope
+
+---------31:02----------
+you learned something and if you enjoy
+
+---------31:04----------
+this type of content if you like living
+
+---------31:06----------
+vicariously through this the fixing
+
+---------31:08----------
+Mustafa trying to make something work
+
+---------31:10----------
+again in your own life find some
+
+---------31:11----------
+electronics that are broken find a
+
+---------31:13----------
+MacBook that's broken if you know how to
+
+---------31:15----------
+do this stuff that helps somebody else
+
+---------31:16----------
+that you think would be interested in to
+
+---------31:18----------
+learn how to do this because there's a
+
+---------31:19----------
+great feeling of accomplishment and
+
+---------31:21----------
+there's a great high that comes from
+
+---------31:22----------
+that great set of endorphins from that
+
+---------31:25----------
+short period of time when you're waiting
+
+---------31:27----------
+to see if what you figured out works and
+
+---------31:29----------
+seeing that Apple logo there's no
+
+---------31:31----------
+feeling like it and I really hope that
+
+---------31:33----------
+all of you get to experience that so
+
+---------31:35----------
+thank you so much for watching and as
+
+---------31:36----------
+always I hope you learned something
+

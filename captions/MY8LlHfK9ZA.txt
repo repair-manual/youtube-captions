@@ -1,0 +1,1300 @@
+https://www.youtube.com/watch?v=MY8LlHfK9ZA
+---------00:00----------
+today we're gonna be going over some USB
+
+---------00:01----------
+see MacBook charging issues I want to go
+
+---------00:04----------
+over this in depth in detail so this is
+
+---------00:05----------
+gonna be a bit of a long video but if
+
+---------00:07----------
+you work for a store or you're in
+
+---------00:09----------
+business for yourself doing board repair
+
+---------00:10----------
+this will be worth the watch so all of
+
+---------00:13----------
+the new MacBooks use USB C for charging
+
+---------00:15----------
+rather than MagSafe for charging as a
+
+---------00:17----------
+result they use a special MUX chip
+
+---------00:20----------
+that's going to control what the port is
+
+---------00:22----------
+doing is it charging is it dealing with
+
+---------00:24----------
+DisplayPort is a dealing with USB 3 is
+
+---------00:27----------
+it dealing with USB 2 is a dealing with
+
+---------00:28----------
+Thunderbolt who knows but there's a chip
+
+---------00:30----------
+that's going to control all of this and
+
+---------00:32----------
+I'll show you this on the 12-inch
+
+---------00:34----------
+MacBook and the touch bar MacBook
+
+---------00:36----------
+because there's a lot of confusion
+
+---------00:37----------
+regarding the documentation for these
+
+---------00:39----------
+devices even once you actually get
+
+---------00:41----------
+documentation for the device it's still
+
+---------00:43----------
+very possible for that documentation to
+
+---------00:45----------
+be incorrect and as a result to confuse
+
+---------00:48----------
+the hell out of people
+
+---------00:49----------
+so the USB see muxing chip on the 12
+
+---------00:51----------
+inch MacBook is right over here this is
+
+---------00:54----------
+you 3100 and in here in the schematic it
+
+---------00:57----------
+says that that is a CD 32 15 more
+
+---------01:01----------
+specifically if we go to the page that
+
+---------01:02----------
+has the chip itself you'll see that this
+
+---------01:04----------
+is a CD 32 15 a the CD 32 15 a controls
+
+---------01:09----------
+whether or not the voltage from the
+
+---------01:11----------
+charger is going to make its way to the
+
+---------01:13----------
+machine it deals with USB communication
+
+---------01:15----------
+it deals with all different types of
+
+---------01:17----------
+communication and port muxing this is
+
+---------01:20----------
+the USBC controller I see in the
+
+---------01:22----------
+schematic itself it says that this is a
+
+---------01:25----------
+CD 32 15a so the first thing that we
+
+---------01:28----------
+have to address here is the fact that
+
+---------01:30----------
+the schematic is wrong before we get
+
+---------01:31----------
+into how to troubleshoot this or how
+
+---------01:33----------
+these devices work we need to get to the
+
+---------01:35----------
+fact that the documentation in and of
+
+---------01:37----------
+itself is incorrect and misleading so if
+
+---------01:40----------
+you look over here it says that you
+
+---------01:42----------
+3,100 is CD 32 15a however if we look at
+
+---------01:48----------
+the chip itself you'll see that it is
+
+---------01:50----------
+not a CD 32 15a it's a CD 32 15 b 0 1 so
+
+---------01:56----------
+this is not a CD 32 15a it's a CD 32 15b
+
+---------02:01----------
+this is for the 12-inch MacBook now
+
+---------02:04----------
+let's take a look at what shows up on a
+
+---------02:07----------
+13 or 15 inch touch bar MacBook so I'm
+
+---------02:10----------
+going to open a schematic for a touch
+
+---------02:12----------
+bar MacBook
+
+---------02:13----------
+and we're gonna see what shows up on
+
+---------02:15----------
+that it also says cd32 15a however if we
+
+---------02:20----------
+look at the USBC controller I see on the
+
+---------02:23----------
+touch bar machine you're going to notice
+
+---------02:25----------
+a very clear difference from what you
+
+---------02:26----------
+see on the 12-inch machine even though
+
+---------02:28----------
+the schematic says that it is supposed
+
+---------02:30----------
+to be a cd32 15a
+
+---------02:32----------
+when you look at the chip itself it is a
+
+---------02:35----------
+seedy 32 15 C oh oh yeah look at that
+
+---------02:44----------
+the 12-inch machine uses a seedy 32:15
+
+---------02:47----------
+be the touch bars use a CD 3215 see yet
+
+---------02:52----------
+the schematic for each one says they use
+
+---------02:55----------
+a CD 32 15a the reason this is very
+
+---------02:58----------
+important is because the CD 32 15 be in
+
+---------03:01----------
+the CD 32 15 C are not compatible on my
+
+---------03:06----------
+website I have been selling a CD 32 15
+
+---------03:08----------
+be in my listing this is only compatible
+
+---------03:12----------
+with the eight to zero zero zero two
+
+---------03:15----------
+four four if you are buying that chip
+
+---------03:17----------
+and thinking it will work on a touch bar
+
+---------03:18----------
+MacBook you would be wrong if you
+
+---------03:20----------
+followed the schematic that said that
+
+---------03:22----------
+they use the same chip on the 12 inch
+
+---------03:24----------
+macbook as they do in the touch bar
+
+---------03:26----------
+MacBook if you trusted Apple's own
+
+---------03:28----------
+internal documentation you would have
+
+---------03:30----------
+been wrong
+
+---------03:31----------
+if you solder a CD 32 15 b 31 to the
+
+---------03:38----------
+second part that's very important when
+
+---------03:40----------
+troubleshooting touch bar charging
+
+---------03:42----------
+issues a common touch bar charging issue
+
+---------03:44----------
+is that you will only get 5 volts on the
+
+---------03:48----------
+charger instead of 20 volts a USBC
+
+---------03:51----------
+charger can put out either 5 volts or 20
+
+---------03:53----------
+volts it's going to negotiate with the
+
+---------03:55----------
+USBC controller to choose what voltage
+
+---------03:57----------
+it puts out and if you have a nice
+
+---------03:59----------
+little USB C amp meter that I'm gonna
+
+---------04:01----------
+link to in the comments or whatever of
+
+---------04:04----------
+the edited video because I forgot to
+
+---------04:05----------
+here I use this little thing so this is
+
+---------04:08----------
+what I use it will show you the voltage
+
+---------04:10----------
+in the amperage that the USBC charger is
+
+---------04:12----------
+using now if you have one of these one
+
+---------04:14----------
+of the very common issues with this
+
+---------04:15----------
+machine is that you're only getting 5
+
+---------04:18----------
+volts in the charger instead of 20 volts
+
+---------04:19----------
+here is where this gets interesting
+
+---------04:21----------
+let's say that you have a charger I see
+
+---------04:23----------
+that's corroded because remember each
+
+---------04:25----------
+port needs its own USB see
+
+---------04:27----------
+controller I see so if you have four
+
+---------04:29----------
+ports you're going to have four chips
+
+---------04:31----------
+let's say one of them is corroded and
+
+---------04:32----------
+you remove it it will still not work the
+
+---------04:35----------
+machine needs to see that there are four
+
+---------04:37----------
+working chips on the board so if you
+
+---------04:39----------
+only have three working chips on the
+
+---------04:41----------
+board you won't get any charging if you
+
+---------04:43----------
+have three working chips and one chip
+
+---------04:45----------
+that's been removed it's not going to
+
+---------04:47----------
+charge even on the working ports this is
+
+---------04:50----------
+important because I used to think that I
+
+---------04:52----------
+could remove the one chip that was bad
+
+---------04:54----------
+and it would still work this is not like
+
+---------04:56----------
+a power line where there's one capacitor
+
+---------04:58----------
+that shorter you can't troubleshoot this
+
+---------05:00----------
+the way that Jesse Jones would
+
+---------05:01----------
+troubleshoot a phone not that there's
+
+---------05:02----------
+anything wrong with the way Jesse
+
+---------05:03----------
+troubleshoots a phone but you can't just
+
+---------05:05----------
+take a set of tweezers and say this is
+
+---------05:07----------
+the one bad cap on the line goodbye you
+
+---------05:09----------
+can't say here this one charging I see
+
+---------05:12----------
+is bad so let's just remove it and the
+
+---------05:14----------
+board is going to work if you do that
+
+---------05:16----------
+it's not going to work at all you need
+
+---------05:18----------
+every single one of them on the board to
+
+---------05:19----------
+be good now here's where we get into
+
+---------05:21----------
+problems the only charging IC that is
+
+---------05:23----------
+available in new condition is the CD
+
+---------05:26----------
+32:15 be in check if you wish to
+
+---------05:31----------
+purchase a charging IC for the seat for
+
+---------05:34----------
+the touch bar which is the CD 32 15 C
+
+---------05:36----------
+you need to take them like an SMC off a
+
+---------05:39----------
+donor board those trips come with
+
+---------05:41----------
+programming and nobody sells them so you
+
+---------05:44----------
+are not even able to buy new donor
+
+---------05:47----------
+boards anymore
+
+---------05:48----------
+you need to buy these little
+
+---------05:50----------
+chicken wing like things like they do it
+
+---------05:52----------
+the same way they sell chicken they used
+
+---------05:53----------
+to used to get the whole chicken now
+
+---------05:55----------
+it's you can get the breasts or the wing
+
+---------05:58----------
+or the thigh or the it's it's it's a
+
+---------06:01----------
+terrible industry you used to be able to
+
+---------06:02----------
+buy an entire donor board now you cannot
+
+---------06:04----------
+do that you can only buy the wings so
+
+---------06:07----------
+what we did here is we bought a bunch of
+
+---------06:08----------
+wings and we're gonna be selling these
+
+---------06:10----------
+on the site soon enough each wing has
+
+---------06:13----------
+two CD 32:15 C's on them now to get to
+
+---------06:17----------
+the third important thing that we
+
+---------06:18----------
+figured out when it comes to
+
+---------06:19----------
+troubleshooting the touch bar Mac if any
+
+---------06:21----------
+one of the USBC controller I sees is bad
+
+---------06:24----------
+none of the courts will charge so the
+
+---------06:26----------
+question then becomes which chip is it
+
+---------06:28----------
+that's bad don't tell me this is gonna
+
+---------06:30----------
+be like replacing RAM in a retina
+
+---------06:32----------
+macbook where if it's beeping you have
+
+---------06:33----------
+to you have to replace all 32 chips
+
+---------06:35----------
+because you don't know which one it is
+
+---------06:37----------
+well we think that we figured out a
+
+---------06:39----------
+solution to this problem and this is
+
+---------06:40----------
+where the
+
+---------06:41----------
+spc ant meter comes into play with the
+
+---------06:44----------
+ports that have a good USB see charging
+
+---------06:47----------
+i see attached to them what will happen
+
+---------06:49----------
+when you plug it in is it will show a
+
+---------06:50----------
+steady state 5 volts however we think
+
+---------06:54----------
+that when you plug it into the port that
+
+---------06:55----------
+has a bad USB C controller I see a bad
+
+---------06:58----------
+CD 3215 that what goes on is that this
+
+---------07:01----------
+is going to blink and it's going to boot
+
+---------07:03----------
+loop so instead of studying a steady
+
+---------07:05----------
+state 5 volts it's going to go 5 volts
+
+---------07:07----------
+off 5 volts off 5 volts off so what it
+
+---------07:11----------
+seems like we found out here is that you
+
+---------07:13----------
+can actually figure out which one of the
+
+---------07:14----------
+chips is bad from the heat signature so
+
+---------07:17----------
+when you plug in this the charging IC
+
+---------07:20----------
+that gets warm is the charging IC that's
+
+---------07:22----------
+at fault and if you have one of these
+
+---------07:24----------
+little thermal cameras that I set a few
+
+---------07:27----------
+months ago I would never spend money on
+
+---------07:28----------
+at the unless he had a gun pointed at my
+
+---------07:31----------
+head may actually be kind of useful
+
+---------07:33----------
+after all
+
+---------07:34----------
+and I intend to be fair I got this thing
+
+---------07:36----------
+from Union repair and they sent it to me
+
+---------07:39----------
+for free but still I did on it for
+
+---------07:41----------
+about six months before I said one good
+
+---------07:43----------
+thing about it so I don't feel too bad
+
+---------07:45----------
+about that interesting so on this board
+
+---------07:50----------
+when I plug in the USB C charger the USB
+
+---------07:54----------
+C controller that corresponds to the
+
+---------07:56----------
+port that I just plugged it into doesn't
+
+---------07:58----------
+get hot however the USB C controller
+
+---------08:01----------
+that corresponds to a different port
+
+---------08:03----------
+gets hot
+
+---------08:07----------
+and I think it's not this side of the
+
+---------08:09----------
+board I think it's this side of the
+
+---------08:11----------
+board because this is the one directly
+
+---------08:12----------
+under it I think this is actually
+
+---------08:13----------
+warming up the other side of the board
+
+---------08:19----------
+yeah check it out because when I was
+
+---------08:21----------
+plugging it in I thought that this chip
+
+---------08:23----------
+was getting warm but it's not see it
+
+---------08:25----------
+says 39 Celsius but the board is 37 it's
+
+---------08:28----------
+actually that this chip on the bottom is
+
+---------08:29----------
+warming the other side of the board
+
+---------08:31----------
+entirely because this one's going all
+
+---------08:32----------
+the way up to 48 so this may only be one
+
+---------08:35----------
+chip that needs to you think that the
+
+---------08:36----------
+heat is actually a way to tell rather
+
+---------08:38----------
+than the boot looping I mean though this
+
+---------08:42----------
+has no boot looping issue but the
+
+---------08:44----------
+symptom of which chipped it is that you
+
+---------08:45----------
+replace is the one that gets warm so the
+
+---------08:48----------
+heat the heat signature is much better
+
+---------08:49----------
+way to tell
+
+---------08:54----------
+none of them are boot looping it's just
+
+---------08:56----------
+stuck at 5 volts yeah
+
+---------08:58----------
+you want an easy touch bar it's just one
+
+---------09:00----------
+charging I see so now we're gonna test
+
+---------09:10----------
+my theory with my assistant Paul which
+
+---------09:14----------
+reminds me of those remember those 1960s
+
+---------09:16----------
+infomercials now I see why this thing
+
+---------09:22----------
+wasn't turning ah the wire for the power
+
+---------09:25----------
+the camcorder was too short now if I put
+
+---------09:29----------
+the camcorder up here I can turn it
+
+---------09:37----------
+our assistant onstage Paul Daniels will
+
+---------09:40----------
+be performing the trick
+
+---------09:49----------
+you
+
+---------10:12----------
+really depends on the situation if you
+
+---------10:15----------
+use paste or boll paste is a lot quicker
+
+---------10:20----------
+and a lot easier and when you have the
+
+---------10:23----------
+right stencil paste is perfect but this
+
+---------10:27----------
+is this is some random-ass stencil that
+
+---------10:31----------
+just happens to fit the dot pitch of
+
+---------10:35----------
+this this chip
+
+---------11:26----------
+ah okay so step one when you're
+
+---------11:32----------
+working with balls you have to put a
+
+---------11:35----------
+little bit of flux on the chip and
+
+---------11:42----------
+smooth it flat with a finger
+
+---------11:50----------
+if this stencil was actually good enough
+
+---------11:52----------
+and close enough modifying the stencil
+
+---------11:57----------
+like using jb weld or something to try
+
+---------11:59----------
+to fill in the holes that you don't need
+
+---------12:01----------
+that would be fine but it's just not a
+
+---------12:04----------
+close enough match to really warrant
+
+---------12:07----------
+doing that kind of work on it
+
+---------12:18----------
+okay
+
+---------12:21----------
+lined up
+
+---------12:24----------
+let me take some of our balls
+
+---------12:43----------
+and now the obnoxious annoying tedious
+
+---------12:45----------
+part of this moving your balls into the
+
+---------12:49----------
+holes I need real clean clean tweezers
+
+---------12:57----------
+for this
+
+---------13:13----------
+so yes there are easier ways to do this
+
+---------13:16----------
+there's stencil jigs where all you do is
+
+---------13:18----------
+just pour out a bunch of holes a bunch
+
+---------13:21----------
+of balls and shake them right into the
+
+---------13:23----------
+hole but this is a stencil taped onto a
+
+---------13:28----------
+heatproof mat it's not possible here
+
+---------14:18----------
+those balls are - what
+
+---------14:28----------
+that microphone from behind the wire
+
+---------14:39----------
+for every ball hole that I miss I will
+
+---------14:41----------
+be shocked
+
+---------15:14----------
+in case the question comes up these are
+
+---------15:16----------
+0.3 millimeter balls so they're less
+
+---------15:19----------
+than half of a millimeter in diameter
+
+---------16:22----------
+you know tweezers are really easy light
+
+---------16:25----------
+to close but after sitting here holding
+
+---------16:29----------
+them for so long your thumb starts
+
+---------16:30----------
+aching
+
+---------16:31----------
+[Music]
+
+---------17:12----------
+you
+
+---------18:25----------
+okay now we heat our balls in the place
+
+---------19:03----------
+and I see one did not want to go down to
+
+---------19:08----------
+the pad kind of crush it in there a
+
+---------19:10----------
+little bit out a little bit more flux
+
+---------19:13----------
+and see if I get that one to go down to
+
+---------19:15----------
+the bed
+
+---------19:34----------
+yep right on the bed now whether you use
+
+---------19:37----------
+balls or solder paste there's no need to
+
+---------19:40----------
+heat the stencil and the balls till
+
+---------19:45----------
+they're melted again to get the stencil
+
+---------19:46----------
+off I think that's a mistake that a lot
+
+---------19:49----------
+of people make all you have to do is
+
+---------19:53----------
+either heat it just enough to route them
+
+---------19:55----------
+to remelt to the flux cuz that's all
+
+---------19:57----------
+that's keeping this stencil on here is
+
+---------19:59----------
+the flux or since we have the machine
+
+---------20:02----------
+here I like to just put this right into
+
+---------20:04----------
+the ultrasonic I put it inside of my tea
+
+---------20:09----------
+strainer my tea ball to get my little
+
+---------20:13----------
+balls off of it I'm gonna go put this in
+
+---------20:18----------
+the ultrasonic and after a little bit of
+
+---------20:21----------
+time in the ultrasonic it goes into an
+
+---------20:23----------
+alcohol tub let's put down a paper towel
+
+---------20:27----------
+to put this on
+
+---------20:31----------
+there's our sin so there's our chip
+
+---------20:42----------
+it's too much of a risk to heat the the
+
+---------20:46----------
+stencil because if you do wind up
+
+---------20:48----------
+heating them - the balls are melted the
+
+---------20:50----------
+slightest wrong move with your stencil
+
+---------20:52----------
+and your ruin you all that work so let
+
+---------20:56----------
+your machinery do it for you
+
+---------21:07----------
+now for anybody that's a watched
+
+---------21:10----------
+Sunday's stream these balls are way
+
+---------21:14----------
+smaller than what that stencil was
+
+---------21:16----------
+making on here when you solder paste so
+
+---------21:20----------
+there's no way that these things would
+
+---------21:24----------
+ever combined when you're restoring the
+
+---------21:26----------
+chip like if that one did to me a bunch
+
+---------21:28----------
+of times
+
+---------21:45----------
+just the right amount of hooks
+
+---------22:57----------
+that sounds terrible
+
+---------23:02----------
+I think I'm the only one like there
+
+---------23:06----------
+Jessa
+
+---------24:34----------
+now let's inspect my balls
+
+---------24:53----------
+I have great confidence in the quality
+
+---------24:55----------
+of Paul's balls there's a CDC has hells
+
+---------25:02----------
+bells and we have Paul's balls and some
+
+---------25:05----------
+good-looking balls
+
+---------25:06----------
+19 point nine volts and 1.2 amps is
+
+---------25:08----------
+being taken which means the machine is
+
+---------25:09----------
+turning on should be in an Esso state
+
+---------25:12----------
+there you go and you showed the balls on
+
+---------25:16----------
+camera
+
+---------25:16----------
+I showed my balls on camera take a bow
+
+---------25:23----------
+for our studio audience though yeah this
+
+---------25:30----------
+is Paul s the only person here that
+
+---------25:34----------
+actually fix something today that was
+
+---------25:38----------
+awesome it was too much failure it's
+
+---------25:40----------
+good to have a good one fun so we're
+
+---------25:42----------
+gonna be selling these wings on the side
+
+---------25:44----------
+soon you're gonna have to reball the
+
+---------25:46----------
+chip yourself you can good luck finding
+
+---------25:48----------
+a stencil
+
+---------25:49----------
+so do stay tuned to find these wings on
+
+---------25:51----------
+store dot Rossmann group.com don't delay
+
+---------25:55----------
+buy today don't delay buy today so
+
+---------25:59----------
+that's pretty that's pretty cool now the
+
+---------26:01----------
+interesting thing about this is that
+
+---------26:02----------
+this chip managed to fail without any
+
+---------26:04----------
+liquid or physical damage no physical
+
+---------26:08----------
+damage period I the case is in perfect
+
+---------26:10----------
+condition is one of the first ones we've
+
+---------26:12----------
+ever had was because somebody dropped
+
+---------26:14----------
+their MacBook and broke the the charging
+
+---------26:17----------
+cable right there all right at the end
+
+---------26:18----------
+and did that it broke the Porter it
+
+---------26:20----------
+broke the chip it broke it burnt out the
+
+---------26:23----------
+chip oh really
+
+---------26:24----------
+yeah that was on a the retina that's
+
+---------26:27----------
+what we tried the 12 initially you
+
+---------26:29----------
+didn't have to worry about the chip size
+
+---------26:30----------
+there yeah this is so this is
+
+---------26:33----------
+interesting that that chip will just die
+
+---------26:34----------
+for no reason that's that's recurring
+
+---------26:37----------
+revenue right there actually so well
+
+---------26:42----------
+it's good that we were able to find
+
+---------26:43----------
+which one it was
+
+---------26:44----------
+and it doesn't matter what you haven't
+
+---------26:45----------
+plugged into you used to feel it feel
+
+---------26:46----------
+for the heat yeah one of them's gonna be
+
+---------26:49----------
+getting hot and the thing is I thought
+
+---------26:51----------
+it was the one on the other side of the
+
+---------26:53----------
+board but that chip was getting so hot
+
+---------26:54----------
+it was warming the other side of the
+
+---------26:55----------
+board mm-hmm the board around it much
+
+---------26:59----------
+fixed much fix very happy very happy
+
+---------27:04----------
+so typically we would try to figure out
+
+---------27:07----------
+which chip assigned to which port is not
+
+---------27:09----------
+working based on which one is boot
+
+---------27:11----------
+looping meaning that on my USB see ant
+
+---------27:13----------
+meter it'll show five volts and then
+
+---------27:14----------
+turn off and five volts and turn off
+
+---------27:16----------
+sometimes that works sometimes it
+
+---------27:17----------
+doesn't when that doesn't work
+
+---------27:18----------
+which one is getting hot and we use this
+
+---------27:21----------
+little thermal camera over here and it
+
+---------27:23----------
+told me that one of the chips was
+
+---------27:24----------
+getting much hotter than the others even
+
+---------27:26----------
+when we weren't plugged into that port
+
+---------27:28----------
+which is very interesting we remove the
+
+---------27:30----------
+chip and we replace it with one from a
+
+---------27:32----------
+donor remember you cannot use three two
+
+---------27:35----------
+one five bo3 order three two one five a
+
+---------27:39----------
+on a board that needs a three two one
+
+---------27:41----------
+five co o or the other way around
+
+---------27:44----------
+and I know as I said in the beginning of
+
+---------27:45----------
+the video that Apple says in the
+
+---------27:47----------
+schematic that the 12 inch retina the 13
+
+---------27:50----------
+inch touch bar and the 15 inch touch bar
+
+---------27:52----------
+all used cd32 15a that is a lie that is
+
+---------27:56----------
+not what they use if you'd find that
+
+---------27:58----------
+chip and you put it on here it's not
+
+---------28:00----------
+gonna work
+
+---------28:00----------
+the 12 inch retina uses the cd32 1 5 B 0
+
+---------28:04----------
+3 and the 15 and 13 inch touch bars use
+
+---------28:08----------
+a CD 32 1 5 C 0 0 on my site I actually
+
+---------28:13----------
+listed it as CD 32 1 5 a because I
+
+---------28:16----------
+thought hey look it sits in the
+
+---------28:19----------
+schematic I'm sure that's right but no
+
+---------28:20----------
+the chip itself actually says B 0 3 as
+
+---------28:22----------
+it isn't a picture and I'm very happy
+
+---------28:25----------
+that I only listed it for the 12 inch
+
+---------28:26----------
+retina and I waited to test it before I
+
+---------28:29----------
+list it for the 13 and 15 inch retina
+
+---------28:31----------
+because for those who won't work so this
+
+---------28:33----------
+is gonna be a very common cause of
+
+---------28:34----------
+charging issues and I imagine it's gonna
+
+---------28:36----------
+drive a bunch of people up a wall so
+
+---------28:37----------
+hopefully this explanation made it all
+
+---------28:39----------
+easier and as always I hope you learned
+
+---------28:41----------
+something I've got to get to packing
+
+---------28:42----------
+there's a ridiculous amount more stuff
+
+---------28:44----------
+to fix here there's a bunch of difficult
+
+---------28:46----------
+boards luckily we've got our are well
+
+---------28:54----------
+yeah
+
+---------28:58----------
+you
+
+---------29:04----------
+you
+

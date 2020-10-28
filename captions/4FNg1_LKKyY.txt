@@ -1,0 +1,964 @@
+https://www.youtube.com/watch?v=4FNg1_LKKyY
+---------00:00----------
+all right so today I'm gonna be going
+
+---------00:01----------
+over a MacBook Air board that has no
+
+---------00:03----------
+backlight now the first thing I have to
+
+---------00:04----------
+do is plug it in and confirm the problem
+
+---------00:06----------
+because I don't know back like coupon
+
+---------00:08----------
+you have no idea how many people would
+
+---------00:09----------
+send in something saying it has no back
+
+---------00:10----------
+line I'm like you're right it has no
+
+---------00:12----------
+backlight it's dead of course it
+
+---------00:14----------
+is no backlight it there's no feed core
+
+---------00:16----------
+it has no power it has no picture it has
+
+---------00:18----------
+no fan span and it's the fan spins on
+
+---------00:20----------
+this so I know that okay you're right no
+
+---------00:23----------
+backlight and I do see stuff on the
+
+---------00:25----------
+screen so I know that there is a picture
+
+---------00:27----------
+and that the CPU is working and all that
+
+---------00:29----------
+stuff is good so now what I'm going to
+
+---------00:31----------
+do at this point is measure voltage of
+
+---------00:33----------
+backlight output because to get even
+
+---------00:35----------
+though you may wonder so you know why
+
+---------00:36----------
+you measuring voltage of backlight
+
+---------00:37----------
+output when you know you have no
+
+---------00:38----------
+backlight well here's the thing a
+
+---------00:40----------
+different number is gonna tell me a
+
+---------00:41----------
+different thing and we're gonna go over
+
+---------00:42----------
+what that is so for example 27 or 29
+
+---------00:46----------
+volts good backlight forty to fifty
+
+---------00:49----------
+volts means that if the problem is the
+
+---------00:51----------
+backlight for the LCD is not plugged in
+
+---------00:53----------
+meaning idiot replaced the screen and
+
+---------00:55----------
+the didn't plug the backlight and and
+
+---------00:57----------
+this is this is one of those things
+
+---------00:59----------
+where you know the number is gonna tell
+
+---------01:00----------
+me what's going on so if there's no load
+
+---------01:02----------
+if the backlight circuit is working but
+
+---------01:04----------
+there's no load placed on it the voltage
+
+---------01:06----------
+is gonna be higher than if there is a
+
+---------01:07----------
+load placed on it so that's why 49 or 50
+
+---------01:09----------
+volts would tell me that it's not
+
+---------01:10----------
+plugged in if I get 22 23 volts then I
+
+---------01:14----------
+know that the backlight circuit is
+
+---------01:15----------
+working but the brightness is set all
+
+---------01:17----------
+the way down meaning that the PWM signal
+
+---------01:19----------
+is missing perhaps because the computer
+
+---------01:22----------
+thinks it's the lid is closed maybe
+
+---------01:23----------
+because of an issue with SMC lid if I
+
+---------01:26----------
+see a faults I know that the power is
+
+---------01:28----------
+going through the circuit but it's not
+
+---------01:29----------
+boosting and if I see 0 volts 0 volts is
+
+---------01:32----------
+going to tell me that and they're either
+
+---------01:35----------
+the fuse is blown there's a short to
+
+---------01:37----------
+ground or that there's an open circuit
+
+---------01:39----------
+meaning somewhere in the line something
+
+---------01:41----------
+is not passing power so on backlight
+
+---------01:43----------
+output I get 0 volts ok now this is
+
+---------01:50----------
+where we get started with the fun stuff
+
+---------01:51----------
+so what I'm going to do now is just go
+
+---------01:55----------
+through the schematic and we're gonna
+
+---------01:57----------
+measure at different points now I assume
+
+---------02:00----------
+by this point that you've watched a lot
+
+---------02:01----------
+of my other videos if you don't know
+
+---------02:03----------
+like how is it that you use the board
+
+---------02:04----------
+for you to figure out what's where just
+
+---------02:06----------
+this view one of my other 15 million
+
+---------02:08----------
+backlight videos because I don't feel
+
+---------02:09----------
+like going through that you know how the
+
+---------02:10----------
+board view software works so that when
+
+---------02:12----------
+I'm measuring a point on the board I
+
+---------02:13----------
+know
+
+---------02:13----------
+that's backlight output just just watch
+
+---------02:15----------
+one of the other videos but let's go
+
+---------02:18----------
+over this so first things first I'm
+
+---------02:20----------
+gonna measure the backlight output and
+
+---------02:21----------
+there was nothing so now I'm gonna
+
+---------02:22----------
+measure over here and see if there's
+
+---------02:24----------
+something over here so let's see what I
+
+---------02:27----------
+get so when I check my multimeter over
+
+---------02:30----------
+here I get eight point five volt which
+
+---------02:36----------
+is exactly what I'm supposed to get I
+
+---------02:37----------
+know that because it says over here pp
+
+---------02:39----------
+bus g3 hot going in the power aliases
+
+---------02:42----------
+page says that pp bus g3 hot is supposed
+
+---------02:44----------
+to be eight point five volts so if I
+
+---------02:46----------
+copy I really should just shouldn't be
+
+---------02:47----------
+doing this because you should have
+
+---------02:48----------
+watched this in earlier videos but over
+
+---------02:50----------
+here it says pp bus g3 hot eight point
+
+---------02:52----------
+six volts so now let's go back to that
+
+---------02:55----------
+all right now let's see if it's after
+
+---------02:58----------
+this transistor so Q seven seven zero
+
+---------03:01----------
+six let's see on pins one two five or
+
+---------03:04----------
+six of Q seven seven zero six
+
+---------03:06----------
+let's see what voltage I get so that is
+
+---------03:09----------
+going to be pin six one two five or six
+
+---------03:12----------
+let's measure over here now over there
+
+---------03:15----------
+the multimeter tells me zero volts okay
+
+---------03:20----------
+so this transistor is not letting power
+
+---------03:21----------
+pass thank you very much Apple for an
+
+---------03:24----------
+including information on it over here so
+
+---------03:26----------
+it says this is a P type MOSFET if you
+
+---------03:27----------
+check my video on different types of
+
+---------03:30----------
+transistors you'll know that a P type
+
+---------03:32----------
+MOSFET means that the way this works is
+
+---------03:34----------
+that when the power on the gate is lower
+
+---------03:36----------
+than the power on the source that it
+
+---------03:38----------
+will let power through when the power on
+
+---------03:39----------
+the gate is equal to the power of the
+
+---------03:41----------
+source it will not let power through you
+
+---------03:43----------
+may wonder how do I know that this is a
+
+---------03:44----------
+gay and that's the source well I had
+
+---------03:46----------
+already good with it a long time ago so
+
+---------03:48----------
+yeah and it doesn't tell you over here
+
+---------03:51----------
+like in other parts of the good diagram
+
+---------03:52----------
+see this for the transistor says gate
+
+---------03:54----------
+source drain gate source drain here it
+
+---------03:57----------
+doesn't tell you you know whoopty
+
+---------03:58----------
+ dude you just just Google this
+
+---------04:00----------
+number which is the part number the
+
+---------04:01----------
+transistor and the datasheet that you
+
+---------04:03----------
+find will tell you what's what but this
+
+---------04:05----------
+is the gate that's the source that's the
+
+---------04:07----------
+drain so now I have to measure the
+
+---------04:08----------
+voltage on the gate
+
+---------04:09----------
+the first question is going to be is
+
+---------04:10----------
+this transistor broken or is it simply
+
+---------04:12----------
+not being told to do its job don't be an
+
+---------04:14----------
+idiot and just go I'm gonna replace this
+
+---------04:16----------
+thing because it's not letting power
+
+---------04:18----------
+through the whole idea of a transistor
+
+---------04:20----------
+is it as a switch maybe it's not being
+
+---------04:22----------
+told to let power through and if it's
+
+---------04:24----------
+not being told to let power through then
+
+---------04:25----------
+we have to figure out why that is
+
+---------04:27----------
+so the voltage on the source is 8 volts
+
+---------04:29----------
+so the voltage on pin 3 which is the
+
+---------04:31----------
+gate should be less voltage if it's
+
+---------04:34----------
+being told to let power through now if I
+
+---------04:36----------
+see a lower voltage in the gate than on
+
+---------04:38----------
+the source if the voltage here is lower
+
+---------04:39----------
+than the voltage here then that means
+
+---------04:41----------
+that the transistor is being told open
+
+---------04:44----------
+it's just not opening because it's bad
+
+---------04:45----------
+replace it or as sunny would say jump it
+
+---------04:48----------
+now if the voltage here is lower than if
+
+---------04:52----------
+the voltage here is not lowered then
+
+---------04:53----------
+over here so if the source in the gate
+
+---------04:55----------
+of the same voltage then that means that
+
+---------04:57----------
+we have to figure out why that is and
+
+---------04:59----------
+why it's not being told to open so the
+
+---------05:04----------
+gate has an even eight point forty nine
+
+---------05:06----------
+volts which was the same as the source
+
+---------05:08----------
+this is not being told to open so let's
+
+---------05:11----------
+go over this the voltage on the gate has
+
+---------05:13----------
+to be lower than the voltage of the
+
+---------05:14----------
+source so how is that gonna happen in
+
+---------05:16----------
+the circuit well over here we have a
+
+---------05:18----------
+voltage divider and the purpose of a
+
+---------05:19----------
+voltage divider is to divide voltage you
+
+---------05:22----------
+should know that from the basic
+
+---------05:23----------
+electronics video series where I go over
+
+---------05:25----------
+what a voltage divider is before you
+
+---------05:27----------
+move on to these videos so you have two
+
+---------05:29----------
+resistors over here that are gonna be
+
+---------05:30----------
+used as a voltage divider one between
+
+---------05:32----------
+eight volts and your destination another
+
+---------05:34----------
+between your destination over here and
+
+---------05:35----------
+ground but it can't work if this
+
+---------05:38----------
+transistor doesn't open so if that thing
+
+---------05:40----------
+doesn't open this will not have a path
+
+---------05:42----------
+to ground and nothing is going to be
+
+---------05:43----------
+nothing is going to happen so see
+
+---------05:45----------
+instead of putting the end of this
+
+---------05:46----------
+resistor at ground to make it a voltage
+
+---------05:48----------
+divider they put it at this transistor
+
+---------05:50----------
+so the way this works these are two and
+
+---------05:52----------
+channel transistors and again if you
+
+---------05:54----------
+don't know how I know that feel free to
+
+---------05:55----------
+Google the transistor model and you'll
+
+---------05:57----------
+and it'll happily tell you in a
+
+---------05:58----------
+datasheet what it is now the way these
+
+---------06:01----------
+will work is they will let power through
+
+---------06:03----------
+and the voltage and the gate is equal or
+
+---------06:04----------
+greater than the source over here this
+
+---------06:07----------
+source is ground so if the source is
+
+---------06:10----------
+ground then anything on the gate that's
+
+---------06:12----------
+greater than zero will be group will be
+
+---------06:14----------
+more so if I have backlight platform
+
+---------06:15----------
+reset and EGP backlight enable these
+
+---------06:18----------
+will open and allow my voltage divider
+
+---------06:19----------
+to go to ground now there now I'm gonna
+
+---------06:23----------
+get a little bit more advanced here but
+
+---------06:24----------
+I could either measure these two signals
+
+---------06:26----------
+to see if this is going to ground where
+
+---------06:29----------
+I could just measure the other side of
+
+---------06:30----------
+this resistor if I see zero volts over
+
+---------06:31----------
+here then I kind of know that that's
+
+---------06:32----------
+shorted to ground that assumes that this
+
+---------06:34----------
+resistor is good though so I am kind of
+
+---------06:36----------
+jumping ahead of myself so let's just
+
+---------06:38----------
+measure these two signals over here and
+
+---------06:39----------
+see if this is providing a path
+
+---------06:41----------
+for the voltage divider so I get three
+
+---------06:53----------
+point three and three point three so
+
+---------06:56----------
+this is providing a path to ground now
+
+---------06:58----------
+let's check on pin two of our seven
+
+---------07:00----------
+seven eight nine
+
+---------07:01----------
+so our seven seven eight nine is going
+
+---------07:03----------
+to be this thingy over here and that's
+
+---------07:07----------
+pin two so that should be zero volts and
+
+---------07:15----------
+it is zero volts top of it is eight
+
+---------07:22----------
+point five hmm so now let's measure that
+
+---------07:27----------
+resistor so we're going to turn off
+
+---------07:28----------
+power to the circuit to measure that
+
+---------07:29----------
+resistor so when I go to our seven seven
+
+---------07:32----------
+eight nine over here and I go to measure
+
+---------07:34----------
+R seven seven eight nine let's see is
+
+---------07:36----------
+that resisting or is that dead that is
+
+---------07:39----------
+exactly a hundred forty seven kilo ohms
+
+---------07:42----------
+which is what it's supposed to be so
+
+---------07:43----------
+this is providing a path to ground but
+
+---------07:45----------
+for some reason some reason something
+
+---------07:47----------
+here is working fishy hmm is the
+
+---------07:51----------
+transistor shorted internally is it
+
+---------07:53----------
+shorting its source to its gate is this
+
+---------07:55----------
+capacitor shorted maybe C 772 is shorted
+
+---------07:58----------
+and therefore instead of this being a
+
+---------08:00----------
+voltage divider this is just acting as a
+
+---------08:01----------
+wire see the whole idea here is if this
+
+---------08:05----------
+is shorted then this resistor you can
+
+---------08:07----------
+just cross the side of the equation it's
+
+---------08:08----------
+not going to be resisting because the
+
+---------08:09----------
+power will have a path with the
+
+---------08:10----------
+capacitor so let's take a list of the
+
+---------08:12----------
+point where at which we stop guessing at
+
+---------08:15----------
+stuff and we just take a look at the
+
+---------08:17----------
+circuit under the microscope you take a
+
+---------08:18----------
+look at the area and try to see what
+
+---------08:19----------
+what it's saying is going on so let's
+
+---------08:24----------
+take a look at that area and see what we
+
+---------08:26----------
+see okay microscope camera time let's
+
+---------08:32----------
+see if it works
+
+---------08:32----------
+that that's not microscope camera mmm
+
+---------08:38----------
+technical difficulties fail fail really
+
+---------08:45----------
+no okay so this this really sucks I ran
+
+---------08:49----------
+out of disk space while I was doing all
+
+---------08:51----------
+that work I honestly don't feel like
+
+---------08:53----------
+doing it all over again re-explain
+
+---------08:54----------
+everything all over again so there's the
+
+---------08:57----------
+capacitor I replaced it the backlight
+
+---------08:59----------
+works I've kind of lost my enthusiasm
+
+---------09:02----------
+since I was talking for 10 minutes for
+
+---------09:03----------
+nothing since I ran out of disk space
+
+---------09:05----------
+but to reacquainted and I might as well
+
+---------09:08----------
+show you that it works again you can see
+
+---------09:15----------
+I want us to turn on off on off on off
+
+---------09:20----------
+on to this and air you can see my lack
+
+---------09:22----------
+of an about knowing that you have to
+
+---------09:25----------
+redo something that kind of makes it a
+
+---------09:26----------
+lot less fun already there we go see
+
+---------09:39----------
+that's a light that's a nice shining
+
+---------09:41----------
+light because if I turn it off there's
+
+---------09:43----------
+no more light now to rego over what that
+
+---------09:46----------
+was before I run out of disk space again
+
+---------09:50----------
+quickly quickly quickly very quickly so
+
+---------09:56----------
+this was not acting as a voltage divider
+
+---------09:58----------
+the reason this was not acting as a
+
+---------10:00----------
+voltage divider is because this
+
+---------10:01----------
+capacitor was shorted and turning into a
+
+---------10:03----------
+wire this transistor is not gonna hold
+
+---------10:05----------
+but unless the pen unless the voltage on
+
+---------10:07----------
+the gate is lower than the voltage in
+
+---------10:08----------
+the source this voltage divider doesn't
+
+---------10:10----------
+work unless this goes to ground this was
+
+---------10:13----------
+going to ground this transistor was
+
+---------10:14----------
+doing his job and allowing this voltage
+
+---------10:16----------
+divider to go to ground these two
+
+---------10:17----------
+signals were here to open these two
+
+---------10:18----------
+transistors but this was acting like a
+
+---------10:21----------
+wire this can only have a voltage
+
+---------10:23----------
+divider will only work when the top
+
+---------10:25----------
+resistor has less power handling
+
+---------10:27----------
+capability than the bottom resistor
+
+---------10:29----------
+because think about this this has to
+
+---------10:31----------
+have the ability to actually drop
+
+---------10:32----------
+voltage in order to have that ability
+
+---------10:34----------
+this needs to be able to pass more power
+
+---------10:37----------
+to ground then this has the capability
+
+---------10:39----------
+to supply so the bottom resistor and
+
+---------10:42----------
+keep in mind we're trying to get rid of
+
+---------10:43----------
+voltage so you need the bottom resistor
+
+---------10:45----------
+to have more current handling capability
+
+---------10:49----------
+than the top resistor if the top
+
+---------10:50----------
+resistor is lower in impedance than the
+
+---------10:53----------
+bottom resistor you're not gonna get any
+
+---------10:54----------
+voltage dividing going on because that's
+
+---------10:56----------
+gonna be more capable of sending power
+
+---------10:59----------
+than this is in this system this bottom
+
+---------11:01----------
+resistor is more capable of sending
+
+---------11:04----------
+power than the top one which means that
+
+---------11:06----------
+since this cannot supply power as
+
+---------11:08----------
+this is getting rid of him the whole
+
+---------11:10----------
+idea here is that the voltage will drop
+
+---------11:12----------
+this capacitor was acting like a wire
+
+---------11:14----------
+when I removed it it worked I replaced
+
+---------11:16----------
+the new one at work so since this
+
+---------11:17----------
+capacitor was shorted and acting like a
+
+---------11:19----------
+wire what was going on is there was an
+
+---------11:21----------
+infinite capability to provide power
+
+---------11:23----------
+from here to here so this was kind of
+
+---------11:25----------
+acting like a zero ohm resistor so once
+
+---------11:27----------
+this turns into a wire this thing kind
+
+---------11:28----------
+of gets crossed out of the circuit
+
+---------11:30----------
+altogether and because this was working
+
+---------11:31----------
+as a wire what happened is that this did
+
+---------11:35----------
+not have the capability to send more
+
+---------11:37----------
+power to ground than this was sending to
+
+---------11:39----------
+the input of this resistor this resistor
+
+---------11:42----------
+needs more ability to send power to
+
+---------11:44----------
+ground in the resistor above it that's
+
+---------11:45----------
+applying it power hopefully that makes
+
+---------11:47----------
+sense
+

@@ -1,0 +1,373 @@
+https://www.youtube.com/watch?v=tKaR84m3hiU
+---------00:03----------
+getting high on life Kevin today we're
+
+---------00:06----------
+gonna get started fixing some MacBooks
+
+---------00:08----------
+it's gonna be great fun first machine is
+
+---------00:11----------
+an 814 66 with no power too much power
+
+---------00:13----------
+this MacBook is taking and if it's
+
+---------00:15----------
+turning on so it looks like it's taking
+
+---------00:16----------
+20 to 40 milliamps it has a green light
+
+---------00:19----------
+in the charger but it doesn't turn on
+
+---------00:20----------
+now the fact that it's switching between
+
+---------00:21----------
+20 and 40 milliamps means that we have a
+
+---------00:23----------
+chance that p.m. sleep s4l is pulsing
+
+---------00:25----------
+which I pray because if it's not pulsing
+
+---------00:27----------
+that means that it's missing p.m. sleep
+
+---------00:29----------
+best for Ellen don't want another one of
+
+---------00:33----------
+those so I'm gonna get the board out of
+
+---------00:35----------
+its casing we're gonna move on and
+
+---------00:37----------
+figure out what's wrong with this
+
+---------00:38----------
+MacBook okay so this appears to be an
+
+---------00:41----------
+issue I don't believe that this should
+
+---------00:44----------
+be in the computer and the interesting
+
+---------00:48----------
+thing is this machine did not look like
+
+---------00:49----------
+it had ever been opened by another
+
+---------00:51----------
+person ever great great stuff right here
+
+---------00:55----------
+oh yeah okay here we go what is this
+
+---------01:08----------
+what are you so this is an eight two
+
+---------01:10----------
+zero zero zero one six five board I'm
+
+---------01:12----------
+gonna open up the schematic and aboard
+
+---------01:13----------
+you for the ages zero zero zero one six
+
+---------01:15----------
+five board and we're gonna see what we
+
+---------01:16----------
+got I have this project Pat song and my
+
+---------01:18----------
+stuck in my head and it's driving me
+
+---------01:19----------
+crazy should have paid your light bill
+
+---------01:21----------
+you bought an outfit so let's see what
+
+---------01:24----------
+it is that this stuff is for so these
+
+---------01:25----------
+are resistors for the 24 megahertz PCH
+
+---------01:28----------
+crystal most likely the issue when it is
+
+---------01:30----------
+that we're only getting 20 to 30
+
+---------01:31----------
+milliamps back and forth is that p.m.
+
+---------01:33----------
+sleep best for L is missing this is a
+
+---------01:34----------
+signal that's required to create certain
+
+---------01:36----------
+important trails inside the machine and
+
+---------01:37----------
+I'll show you where those rails where
+
+---------01:39----------
+those signals would show up and why they
+
+---------01:41----------
+matter so in order to create a rail
+
+---------01:43----------
+called PP 5 es 4 which is one of the
+
+---------01:46----------
+starting rails in the machine you know
+
+---------01:47----------
+that's a fairly low state or in the
+
+---------01:49----------
+still in the in the s 4 states over here
+
+---------01:51----------
+this rail requires in front for that to
+
+---------01:54----------
+be enabled P 5e s 4r s 3e N and P 5 vs 4
+
+---------01:58----------
+RS 3 n that is going to come from this
+
+---------02:01----------
+and this is going to come from
+
+---------02:04----------
+p.m. sleep s4l over here and PM sleep
+
+---------02:07----------
+s4l is a signal that is going to cotton
+
+---------02:10----------
+from the PCH it comes out from the PCH
+
+---------02:14----------
+this is an important signal and it's
+
+---------02:15----------
+needed for me to get into that state now
+
+---------02:17----------
+this is where everything being kind of
+
+---------02:19----------
+related here it comes into play because
+
+---------02:21----------
+if we look at what this is that is
+
+---------02:24----------
+corroded this is a crystal for the PCH
+
+---------02:27----------
+so PCH crystal is corroded PCH is not
+
+---------02:31----------
+putting out signal that I need and I'm
+
+---------02:32----------
+just gonna sit here you know check my
+
+---------02:34----------
+voltage here and just confirm that the
+
+---------02:35----------
+PCH is not putting out the signal that I
+
+---------02:37----------
+need using Paul Daniels is execrable
+
+---------02:38----------
+multimeter software let's just pray that
+
+---------02:40----------
+the Paul Daniel software actually works
+
+---------02:42----------
+today let's get it up on the screen you
+
+---------02:44----------
+can see what it is that we get when we
+
+---------02:47----------
+measure for our p.m. sleep s4l signal
+
+---------02:53----------
+zero point zero zero zero volts or zero
+
+---------02:57----------
+zero zero point zero volts mmm I'm
+
+---------03:05----------
+eating candy I'm fixing a board eating
+
+---------03:14----------
+candy and yelling at him and I'm a
+
+---------03:17----------
+multitasking he doesn't help anybody
+
+---------03:21----------
+that's fine yes it works yeah so
+
+---------03:41----------
+somebody's yeah for a computer if I fix
+
+---------03:49----------
+that I get a candy if I don't fix it I
+
+---------03:50----------
+don't get a candy no worries
+
+---------04:02----------
+yeah mostly man get the [ __ ] out of my
+
+---------04:12----------
+store
+
+---------04:50----------
+Red October that would be mean that's
+
+---------04:53----------
+not right
+
+---------04:56----------
+can't be mean
+
+---------06:09----------
+Oh
+
+---------06:10----------
+[Music]
+
+---------06:18----------
+now watch how all that nasty junk is
+
+---------06:21----------
+going to flow into place in a moment
+
+---------06:24----------
+eat the magic of Amtech five five nine
+
+---------06:27----------
+flocks available today at store dot
+
+---------06:31----------
+Rosman group comm don't delay
+
+---------06:35----------
+go flux yourself today
+
+---------06:57----------
+that's beautiful
+
+---------07:01----------
+it just flows into place now at this
+
+---------07:08----------
+point I'm confident that when we put
+
+---------07:10----------
+this board on we're gonna have some
+
+---------07:12----------
+beautiful beautiful fans 10 fans spin
+
+---------07:18----------
+for that p.m. sleeve s4l signal that
+
+---------07:20----------
+comes from the PCH was not present as a
+
+---------07:22----------
+result of their being corrosion by the
+
+---------07:24----------
+24 maker it's clock crystal which is a
+
+---------07:26----------
+clock for the PCH now the board works
+
+---------07:28----------
+and we can move on to the next MacBook
+
+---------07:32----------
+another simple p.m. sleep s4l solved fan
+
+---------07:36----------
+spin fans spin do you have a MacBook
+
+---------07:42----------
+that needs to be fixed come by our store
+
+---------07:45----------
+which is open to the public at 186 first
+
+---------07:47----------
+Avenue in Manhattan are you located
+
+---------07:49----------
+outside of New York no problem send us a
+
+---------07:52----------
+machine from anywhere in the world by
+
+---------07:53----------
+going to our website and clicking on the
+
+---------07:55----------
+mailbox or simply heading over to send
+
+---------07:57----------
+your MacBook comm that send your MacBook
+
+---------08:00----------
+comm will you be redirected to our mail
+
+---------08:03----------
+and instructions page that includes the
+
+---------08:05----------
+form and the directions on how to send
+
+---------08:07----------
+us a MacBook for repair we have a live
+
+---------08:10----------
+chat where you can speak with us about
+
+---------08:12----------
+the repair that you need a phone number
+
+---------08:14----------
+where a representative will pick up
+
+---------08:16----------
+during our open hours and a contact form
+
+---------08:18----------
+where you can contact us about repairs
+

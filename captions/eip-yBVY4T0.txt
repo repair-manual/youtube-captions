@@ -1,0 +1,745 @@
+https://www.youtube.com/watch?v=eip-yBVY4T0
+---------00:00----------
+hello so today we have an eight to zero
+
+---------00:02----------
+3115 board with no backlight do the
+
+---------00:04----------
+liquid spill so first thing I did was
+
+---------00:07----------
+make a measurement around this chip from
+
+---------00:10----------
+backlight to ground so here's my fluke
+
+---------00:13----------
+multimeter so I put this thing in diode
+
+---------00:16----------
+mode but the positive on ground put the
+
+---------00:21----------
+substance you can see that's this is oh
+
+---------00:26----------
+this is just getting going like yeah
+
+---------00:28----------
+okay so what I did is I took my positive
+
+---------00:31----------
+end here and I put it on brown
+
+---------00:33----------
+and my black one and I put it on the
+
+---------00:38----------
+output of backlight and I got something
+
+---------00:41----------
+like zero point five six eight zero as
+
+---------00:44----------
+you know in the beginning I'm sorry I
+
+---------00:45----------
+got zero point zero one something or 0.1
+
+---------00:49----------
+something
+
+---------00:49----------
+now with diode Lord measuring done it is
+
+---------00:52----------
+a test be continuity between ground my
+
+---------01:00----------
+videos ruined we're not gonna pay for it
+
+---------01:03----------
+now alright so a diode wall does is it
+
+---------01:07----------
+measures the drop in voltage across two
+
+---------01:09----------
+points now any amplifier any boost
+
+---------01:11----------
+circuit of any kind has some connection
+
+---------01:13----------
+to ground so you're usually gonna see
+
+---------01:16----------
+one of two things if the output is not
+
+---------01:18----------
+attached at all you're gonna see
+
+---------01:19----------
+something high and if the chip is
+
+---------01:22----------
+and shorting the ground you're gonna see
+
+---------01:23----------
+something low like point you know one or
+
+---------01:25----------
+point two so I have a point one I
+
+---------01:27----------
+replace the backlight driver and it
+
+---------01:31----------
+still had
+
+---------01:32----------
+now a woman till like 6:00 with 0.68 or
+
+---------01:35----------
+0.59 and I'm not working bored this is
+
+---------01:37----------
+usually 0.5 to 62.5 3/8 around there now
+
+---------01:42----------
+that tells me is that something that's
+
+---------01:43----------
+supposed to be connecting the ground
+
+---------01:45----------
+there's not now let's look over here so
+
+---------01:48----------
+this is the output of backlight over
+
+---------01:50----------
+here that's the output of backlight this
+
+---------01:52----------
+is the chip over here that creates the
+
+---------01:55----------
+backlight so let's see what could
+
+---------01:57----------
+possibly be missing now over here we
+
+---------02:00----------
+have where the boost output is right and
+
+---------02:04----------
+over here is another thing attaching
+
+---------02:07----------
+back to the chip this is goes to
+
+---------02:09----------
+feedback now if something's missing the
+
+---------02:12----------
+ground what that tells me is most likely
+
+---------02:14----------
+no if I if the money diode low
+
+---------02:16----------
+measurement is too high that means not
+
+---------02:18----------
+enough voltage is going Brown that means
+
+---------02:20----------
+it's something that would be going to
+
+---------02:21----------
+ground is missing so what I'm assuming
+
+---------02:23----------
+here is the chip itself has brown
+
+---------02:24----------
+connections and this feedback trace over
+
+---------02:26----------
+here ppv outs SW LCD Bickford food which
+
+---------02:30----------
+is the feedback which is the chip seeing
+
+---------02:32----------
+what it's putting out may be missing
+
+---------02:34----------
+because again it's - my measurement on
+
+---------02:37----------
+dialogue was too high it said that there
+
+---------02:39----------
+was a point 6 voltage dropped to grounds
+
+---------02:41----------
+that have pointed five three one hundred
+
+---------02:42----------
+point five three eight so it tells me is
+
+---------02:45----------
+that one of the things that's going
+
+---------02:47----------
+around is missing now all of this stuff
+
+---------02:49----------
+was fine 99% of the time well that's
+
+---------02:51----------
+fine so what does that mean it means one
+
+---------02:53----------
+of these capacitors is bad because these
+
+---------02:54----------
+are things that go to ground or this
+
+---------02:56----------
+feedback trace is broken because the
+
+---------02:57----------
+feedback trace goes back to this trip
+
+---------02:59----------
+and this trip itself has connections to
+
+---------03:01----------
+brown again these capacitors you can
+
+---------03:03----------
+check them 99.9
+
+---------03:04----------
+at the time they're just fine and I took
+
+---------03:07----------
+the chip off and what I saw underneath
+
+---------03:09----------
+this was just a horror show I mean the
+
+---------03:13----------
+ pad was half there the video was
+
+---------03:16----------
+missing the trace was missing it was a
+
+---------03:19----------
+nightmare so you can try to solder a
+
+---------03:22----------
+wire under a BGA chip very good
+
+---------03:25----------
+luck to you doing any of that kind of
+
+---------03:27----------
+ well saviors of what I wander
+
+---------03:30----------
+between here and it still looks like
+
+---------03:33----------
+crap I gotta clean this up so I got this
+
+---------03:36----------
+conductive pen just by the way I
+
+---------03:38----------
+endorsed this you should buy this the CW
+
+---------03:41----------
+2200 MTP I've used different conductive
+
+---------03:44----------
+pens before but the cool thing about
+
+---------03:46----------
+this is you can actually solder to it so
+
+---------03:49----------
+after you draw your trace you can make a
+
+---------03:50----------
+little ball right at the end and you can
+
+---------03:52----------
+actually solder to that which is
+
+---------03:54----------
+amazing for when you have a problem with
+
+---------03:55----------
+something underneath a BGA I see you
+
+---------03:57----------
+don't have to run a wire to it there are
+
+---------04:00----------
+a couple of things you can do when
+
+---------04:01----------
+you're trying to side or underneath a
+
+---------04:02----------
+BGA chip and one of the things that
+
+---------04:04----------
+makes the most sense is to use lead-free
+
+---------04:07----------
+solder to solder your wire underneath
+
+---------04:09----------
+the chip and then use a leaded solder
+
+---------04:12----------
+balls on the chip so that the connection
+
+---------04:15----------
+doesn't actually get up again
+
+---------04:16----------
+when you put the BGA chip down but there
+
+---------04:19----------
+are a couple of things about that the
+
+---------04:21----------
+first is that I don't plan on rebuilding
+
+---------04:22----------
+something that's this small I don't like
+
+---------04:24----------
+be balling in general but Reeb alling
+
+---------04:26----------
+this there's 25 balls under there you
+
+---------04:28----------
+get to get the in there with that
+
+---------04:30----------
+ and the second thing is I find when
+
+---------04:32----------
+I tried it if you try to do that with a
+
+---------04:33----------
+smaller chip even if you use the finest
+
+---------04:36----------
+wire on earth it still lifts the chip up
+
+---------04:38----------
+and it lifts the chip up on the end
+
+---------04:40----------
+which completely its ability to
+
+---------04:42----------
+get soldered onto the board because
+
+---------04:44----------
+again you have 25 balls in something
+
+---------04:45----------
+it's this holding up something this
+
+---------04:47----------
+light and small and if you have a wire
+
+---------04:49----------
+that's going underneath the chip what I
+
+---------04:51----------
+find happens is that the wire that's
+
+---------04:53----------
+going underneath the chip actually lifts
+
+---------04:55----------
+it up and it's just just it's a
+
+---------04:56----------
+nightmare if you don't believe me try to
+
+---------04:58----------
+do it and you'll see it's a
+
+---------04:59----------
+Horror Show
+
+---------05:00----------
+so what I did here
+
+---------05:03----------
+is I drew with that pen from the pad
+
+---------05:08----------
+I'll donate the chip in the feedback pad
+
+---------05:10----------
+which is luckily on the corner right
+
+---------05:12----------
+outside the chip to where that probe pad
+
+---------05:14----------
+is supposed to be presenter there's
+
+---------05:15----------
+supposed to be a pro pad outside of the
+
+---------05:17----------
+chip for the feedback now see these
+
+---------05:21----------
+things these are what I mean when I say
+
+---------05:22----------
+pro pads see these little circles so
+
+---------05:27----------
+those are actually solder abou but
+
+---------05:28----------
+they're points where you can measure and
+
+---------05:30----------
+so let's say you'll have a trace going
+
+---------05:32----------
+here and then the trace will go to its
+
+---------05:34----------
+destination but it goes through this
+
+---------05:35----------
+little thing so this allows you to
+
+---------05:37----------
+measure points that you otherwise would
+
+---------05:38----------
+not be able to measure because they're
+
+---------05:39----------
+difficult to give you and it also allows
+
+---------05:41----------
+you to jumper wires between points that
+
+---------05:43----------
+are missing so there's a pro point
+
+---------05:44----------
+outside of there and it's just
+
+---------05:46----------
+completely gone and sodomize the
+
+---------05:50----------
+you can see right here where this is a
+
+---------05:51----------
+good supposed to be yeah let's see how
+
+---------05:53----------
+close I can get before my camera gives
+
+---------05:56----------
+up yeah we're not getting anything - two
+
+---------05:59----------
+pieces here let's see if I can actually
+
+---------06:01----------
+put it in the microscope they may be
+
+---------06:03----------
+able to put it on the microscope in this
+
+---------06:04----------
+bed of film through the microscope oh
+
+---------06:07----------
+cool so
+
+---------06:21----------
+all right so what I ended it out is as I
+
+---------06:24----------
+actually was walking over here I ripped
+
+---------06:26----------
+the wire off of the motherboard today
+
+---------06:28----------
+the microscope yeah you can laugh you
+
+---------06:30----------
+can laugh all you want so let's see if I
+
+---------06:34----------
+can get a picture of this
+
+---------06:45----------
+okay so there's no way at how I can get
+
+---------06:47----------
+a picture of that in the microscope
+
+---------06:51----------
+but yeah you can can get the gooseneck
+
+---------06:56----------
+way up there
+
+---------07:08----------
+yep that is function so we're you attach
+
+---------07:12----------
+the feedback trace and it should still
+
+---------07:14----------
+do more so what comes next
+
+---------07:16----------
+well I know I'll put it back light
+
+---------07:18----------
+nothing here diode nothing conductor
+
+---------07:23----------
+nothing other side of inductor nothing
+
+---------07:25----------
+there's supposed to be 12 volts running
+
+---------07:27----------
+along here before he gets to the boost
+
+---------07:30----------
+now q7 it's 706 I have my 12 volts over
+
+---------07:34----------
+here so this is open but there's nothing
+
+---------07:36----------
+between here which is pp bus SW booklet
+
+---------07:39----------
+/ and then the year which is pp bus SW
+
+---------07:43----------
+book well this isn't supposed to feed
+
+---------07:45----------
+this the news 12 volt is coming from
+
+---------07:48----------
+this opening and it's kind of confusing
+
+---------07:50----------
+because it doesn't actually say this
+
+---------07:52----------
+exact same thing over here it is over
+
+---------07:54----------
+there but again you should this needs
+
+---------07:56----------
+your forehead to figure it out
+
+---------07:57----------
+or you can check on a board that works
+
+---------07:59----------
+you beep this - this one might be
+
+---------08:01----------
+butting in continuity testing a
+
+---------08:02----------
+multimeter to the second wire on the
+
+---------08:04----------
+second wire is going from here to here
+
+---------08:06----------
+and put that by 12 volts do you think
+
+---------08:08----------
+this frankenstein-looking crap works
+
+---------08:09----------
+well usually in the last few videos I've
+
+---------08:13----------
+been lazy and I haven't actually shown
+
+---------08:14----------
+you if the work at the end does work but
+
+---------08:16----------
+since this is so I mean I barely believe
+
+---------08:19----------
+that this works myself which is why
+
+---------08:21----------
+I'm gonna plug it in and show you that
+
+---------08:24----------
+it does
+
+---------08:27----------
+this is a Haswell board so we'll turn on
+
+---------08:29----------
+by itself I don't know the fan on a lot
+
+---------08:31----------
+of the times they have the fan and the
+
+---------08:32----------
+heatsink on for the old especially for
+
+---------08:34----------
+the older as you can see it's
+
+---------08:36----------
+little make sure you can't see because
+
+---------08:38----------
+of all the LEDs you can barely tell it
+
+---------08:39----------
+this thing's own when you unplug it you
+
+---------08:41----------
+can see it turns off which means that
+
+---------08:43----------
+the light turned on and again my main
+
+---------08:46----------
+thing with all these videos I'm not
+
+---------08:48----------
+trying to give you a how-to guide and
+
+---------08:50----------
+how to fix any of these problems I'm not
+
+---------08:51----------
+trying because every single one of them
+
+---------08:53----------
+is the different problem you can't apply
+
+---------08:55----------
+this solution where the Trent q9 706 is
+
+---------08:58----------
+not attaching to l9 701 to a motherboard
+
+---------09:01----------
+where F 9700 does not attach into q9 706
+
+---------09:04----------
+you can't apply each of these specific
+
+---------09:07----------
+solutions what I'm trying to do they
+
+---------09:08----------
+show you that you can use your brain to
+
+---------09:10----------
+figure this out and that you need a lot
+
+---------09:12----------
+less brain power than you probably think
+
+---------09:14----------
+you do to figure out these issues and
+
+---------09:18----------
+that's pretty much it they're gonna hide
+
+---------09:20----------
+just wanna I don't want to see you use
+
+---------09:22----------
+your brain more before you ask questions
+
+---------09:24----------
+and before you give up and before you
+
+---------09:25----------
+make excuses as to why you can't figure
+
+---------09:27----------
+something out because I assure you the
+
+---------09:29----------
+solutions are out there you know I can't
+
+---------09:31----------
+get under a BGA chip I buy a pen again
+
+---------09:34----------
+just don't say oh this is so small or oh
+
+---------09:36----------
+that's so impossible small get a
+
+---------09:39----------
+microscope can't get under it
+
+---------09:40----------
+my opponent you know how to write don't
+
+---------09:42----------
+you okay cool draw a line you don't even
+
+---------09:44----------
+have to have good handwriting if you saw
+
+---------09:46----------
+my handwriting you'd see this you know
+
+---------09:47----------
+this is pretty much the only thing I
+
+---------09:49----------
+know I actually write with and you know
+
+---------09:51----------
+that's really all there is to it you
+
+---------09:53----------
+just use your brain I can do it I know I
+
+---------09:56----------
+guarantee that you can
+

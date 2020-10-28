@@ -1,0 +1,1078 @@
+https://www.youtube.com/watch?v=vgBwxe2746c
+---------00:00----------
+hey everybody how's it going here we've
+
+---------00:02----------
+got an a 1466 that's not turning on it's
+
+---------00:05----------
+got a bunch of stickers on it
+
+---------00:06----------
+let's see if we can figure out why this
+
+---------00:08----------
+is not turning on is that this stickered
+
+---------00:11----------
+MacBook and go back to its owner and
+
+---------00:12----------
+work again now remember you cannot check
+
+---------00:15----------
+for image and backlight like this
+
+---------00:17----------
+properly because the machines gonna
+
+---------00:19----------
+think it's closed you need to open it on
+
+---------00:21----------
+open it
+
+---------00:22----------
+like this see machine is open and then
+
+---------00:28----------
+we test all right so let's see what do
+
+---------00:30----------
+we have for image okay three volts on
+
+---------00:35----------
+the screen now three volts on the screen
+
+---------00:37----------
+means there is an image let's see what
+
+---------00:39----------
+we got for backlight BAM eight point
+
+---------00:42----------
+five volts so back lights not on so what
+
+---------00:46----------
+do I mean by three volts for screen and
+
+---------00:48----------
+back light let's measuring both to see
+
+---------00:51----------
+if I have the screen back light that is
+
+---------00:53----------
+an excellent excellent question let's
+
+---------00:56----------
+open up the schematic in the board view
+
+---------00:57----------
+and go over it so here we're gonna open
+
+---------00:59----------
+up the schematic and the board view and
+
+---------01:01----------
+paul daniels of software which always
+
+---------01:02----------
+seems to for some reason default to the
+
+---------01:06----------
+this useless board view that who has a
+
+---------01:09----------
+board on a desk vertically what is this
+
+---------01:12----------
+i bet when paul daniels records his
+
+---------01:15----------
+youtube videos he records them
+
+---------01:16----------
+vertically like what is this [ __ ] not
+
+---------01:19----------
+only does the software default now to
+
+---------01:20----------
+opening the board of view vertically but
+
+---------01:22----------
+he changed the button you can't use are
+
+---------01:25----------
+to rotate it anymore ah awful oh that's
+
+---------01:31----------
+a reefer alright but let's let's open
+
+---------01:35----------
+this page up on the screen so when you
+
+---------01:38----------
+have no image there are three steps to
+
+---------01:40----------
+getting an image the first is you have
+
+---------01:41----------
+to make sure the CPU is on that you have
+
+---------01:43----------
+cpu vcore the second after that is it to
+
+---------01:45----------
+make sure you're getting an image now
+
+---------01:46----------
+this screen is going to negotiate with
+
+---------01:48----------
+the machine getting three volts sent to
+
+---------01:50----------
+it see this you 8,300 is a chip that
+
+---------01:54----------
+when it gets a DP panel power is gonna
+
+---------01:55----------
+take 3.3 volts and shoot it out so think
+
+---------01:59----------
+of a TV panel power as the light switch
+
+---------02:01----------
+think of this as the electricity going
+
+---------02:02----------
+to the switch and here's the electricity
+
+---------02:04----------
+going to the light so what I was
+
+---------02:05----------
+measuring for three volts is right here
+
+---------02:07----------
+on pin 2 of LED 304 if I have 3 volts
+
+---------02:09----------
+here that means that the screen has
+
+---------02:12----------
+communicated with the computer
+
+---------02:13----------
+said hi I'm a screen give me power now
+
+---------02:16----------
+and you know I'm this type of screen I'm
+
+---------02:18----------
+no type of screen that Tim Cook wants to
+
+---------02:19----------
+have in a MacBook so work after that
+
+---------02:23----------
+backlight voltage PP h vs OS w LCD
+
+---------02:27----------
+biklen so this over here is gonna be
+
+---------02:29----------
+backlight Poulter's and i got 8 volt so
+
+---------02:31----------
+let's see what that comes from Paul
+
+---------02:33----------
+Daniel says you're a user
+
+---------02:35----------
+so ya users of the worst user and
+
+---------02:41----------
+customer are slurs in repair business
+
+---------02:44----------
+and in software
+
+---------02:48----------
+I'm the worst customer in the world I
+
+---------02:52----------
+feel bad that Paul Daniels has to deal
+
+---------02:54----------
+with people like me he makes a excellent
+
+---------02:57----------
+amazing software it's just he has idiots
+
+---------02:59----------
+that use it and the best known person
+
+---------03:02----------
+that uses a software is a total [ __ ]
+
+---------03:04----------
+[ __ ] alright so take a look at this
+
+---------03:07----------
+over here so this circuit is going to
+
+---------03:09----------
+take 8 volts this is gonna take 8 volts
+
+---------03:16----------
+from P P brush d3 hot which is the
+
+---------03:17----------
+battery goes through a fuse goes through
+
+---------03:20----------
+a transistor to turn on then this chip
+
+---------03:22----------
+over here is going to switch it to
+
+---------03:23----------
+ground after this coil and the faster it
+
+---------03:26----------
+switches it to ground after the coil the
+
+---------03:28----------
+larger the spikes are over here is the
+
+---------03:29----------
+coil gets angry and rages so this is the
+
+---------03:32----------
+proper scientific definition of how a DC
+
+---------03:34----------
+to DC boost circuit works so just pay
+
+---------03:36----------
+attention in case you don't understand
+
+---------03:37----------
+how DC the DC boost works so you have
+
+---------03:39----------
+your low voltage and it goes to a coil
+
+---------03:41----------
+then you're gonna have an LED driver
+
+---------03:43----------
+what is the LED driver do the LED driver
+
+---------03:45----------
+is going to switch that voltage after
+
+---------03:47----------
+the coil to ground and when you do that
+
+---------03:51----------
+you make the coil really mad and angry
+
+---------03:53----------
+and then the coil is gonna come back
+
+---------03:54----------
+with more voltage in the form of a spike
+
+---------03:56----------
+and was going into it so let's say you
+
+---------03:57----------
+had a volts going into it as you short
+
+---------04:00----------
+the coil to ground right afterward here
+
+---------04:03----------
+it's going to get mad and then you're
+
+---------04:04----------
+gonna get spikes of 25 or 27 volts here
+
+---------04:07----------
+and the faster it does that the more
+
+---------04:10----------
+vote that you're gonna get now you need
+
+---------04:12----------
+that to be saved because you can't have
+
+---------04:14----------
+a spike of 27 and then 0 a spike of 27
+
+---------04:17----------
+zero
+
+---------04:17----------
+spike for 27 and 0 your screens gonna
+
+---------04:19----------
+wind up giving you epilepsy what you
+
+---------04:21----------
+need is a steady 27 and that's what
+
+---------04:24----------
+these capacitors are for or
+
+---------04:26----------
+here these capacitors like a battery
+
+---------04:28----------
+it's gonna store that voltage and as
+
+---------04:30----------
+you're not gonna have that ripple it's
+
+---------04:31----------
+gonna just average it out to a nice
+
+---------04:33----------
+smooth 27 volts now the other problem
+
+---------04:35----------
+here is that you have 27 volts over here
+
+---------04:39----------
+but you have 8 volts over here for the
+
+---------04:41----------
+battery so you're storing 27 volts on
+
+---------04:43----------
+what is the same straight line back here
+
+---------04:45----------
+as what's in the batteries that will be
+
+---------04:48----------
+bet you don't want 27 volts to go back
+
+---------04:50----------
+through your entire circuit and kill it
+
+---------04:51----------
+that's what the diode is for voltage can
+
+---------04:53----------
+go here but once that 20 those 27 Volt
+
+---------04:55----------
+pulls ago here they're trapped and it
+
+---------04:57----------
+can't go back and destroys them and
+
+---------04:58----------
+there it is so because this chip makes
+
+---------05:01----------
+that chip mad and go rawr and gets angry
+
+---------05:04----------
+you get more voltage spelled MOA our
+
+---------05:07----------
+voltage so let's take a look at this
+
+---------05:09----------
+circuit what do we need for this to work
+
+---------05:11----------
+well first we need 5 volts in because
+
+---------05:13----------
+over here it says VIN V in 5 volts next
+
+---------05:17----------
+we need it to be told to turn on just
+
+---------05:18----------
+like any light switch a screen light
+
+---------05:20----------
+switch is no different from the light
+
+---------05:22----------
+switch in your kitchen so on your
+
+---------05:25----------
+kitchen you need to flip a switch for
+
+---------05:26----------
+the light to turn on and here you need
+
+---------05:28----------
+to send voltage to be Klem backlight
+
+---------05:31----------
+enable in order to get voters so I need
+
+---------05:33----------
+3 volts there and the next thing we're
+
+---------05:35----------
+gonna need is feedback so this is gonna
+
+---------05:39----------
+be making the coil mad and the matter it
+
+---------05:41----------
+makes the coil more then we get out of
+
+---------05:42----------
+the coil so how does it know when to
+
+---------05:44----------
+stop because if it keeps making it mad
+
+---------05:46----------
+we're gonna get 50 volts 80 volts 200
+
+---------05:48----------
+volts and the screens destroyed but if
+
+---------05:49----------
+we don't make the coil mad enough then
+
+---------05:51----------
+we're only gonna have 18 volts 16 volts
+
+---------05:53----------
+12 volts and that's not good enough so
+
+---------05:55----------
+the same way that when you're driving
+
+---------05:57----------
+you need to be able to look out the
+
+---------05:58----------
+windshield to see what way you're
+
+---------05:59----------
+driving and what the speed of traffic is
+
+---------06:02----------
+we have feedback over here where the
+
+---------06:04----------
+chip is going to see what it's creating
+
+---------06:06----------
+and two of the most common causes for
+
+---------06:09----------
+there to be eight volts at back light is
+
+---------06:11----------
+a feedback is missing so if the chip
+
+---------06:14----------
+can't see what it's doing when boosting
+
+---------06:16----------
+it's just as [ __ ] I'm not boosting
+
+---------06:17----------
+the same way if something covered your
+
+---------06:20----------
+eyes while you were on the road you
+
+---------06:21----------
+would stop the car you're not gonna keep
+
+---------06:22----------
+driving when you can see and the second
+
+---------06:24----------
+cause is backlight enable missing if
+
+---------06:26----------
+that voltage is missing it's not going
+
+---------06:27----------
+to turn on many people just jump to
+
+---------06:30----------
+replacing the fuse but that's dumb
+
+---------06:31----------
+there's no reason to replace the fuse
+
+---------06:33----------
+here because we have eight volts over
+
+---------06:34----------
+here if this fuse were bad this fuse is
+
+---------06:37----------
+sitting between an 8 bolt line and
+
+---------06:38----------
+output if I have 8 volts at
+
+---------06:40----------
+output then obviously this fuse is good
+
+---------06:41----------
+obviously this transistor is opening
+
+---------06:43----------
+obviously this coil is coiling and the
+
+---------06:45----------
+diode is diode and so on and so forth
+
+---------06:47----------
+and I also know I don't have a short to
+
+---------06:49----------
+ground so just no use checking this this
+
+---------06:50----------
+and this so that one measurement writes
+
+---------06:53----------
+the eight volts over here the reason I
+
+---------06:54----------
+checked that before I check the fuse is
+
+---------06:55----------
+because it's that one measurement tells
+
+---------06:57----------
+me multiple pieces of information that
+
+---------06:59----------
+multiple measurements would have to tell
+
+---------07:01----------
+me so I would have to measure continuity
+
+---------07:02----------
+of the fuse make sure that this
+
+---------07:03----------
+transistor is opening as a result of
+
+---------07:05----------
+this signal and this signal being
+
+---------07:07----------
+present
+
+---------07:07----------
+make sure the coil is working make sure
+
+---------07:09----------
+the diode is working and make sure
+
+---------07:11----------
+there's no short circuit to ground the
+
+---------07:12----------
+measurements of whether the fuse is good
+
+---------07:13----------
+whether this coil is good whether
+
+---------07:15----------
+there's a short two grounds here whether
+
+---------07:17----------
+this diode is good and whether there's a
+
+---------07:19----------
+short to ground these caps I actually
+
+---------07:20----------
+have an answer to every single one of
+
+---------07:22----------
+those individual measurements by doing
+
+---------07:23----------
+nothing other than measuring voltage on
+
+---------07:25----------
+output once I have eight faults here
+
+---------07:27----------
+there can't be assured to ground because
+
+---------07:28----------
+if there was there would be eight volts
+
+---------07:30----------
+there this diode has to be working this
+
+---------07:31----------
+coil has to be passing this transistor
+
+---------07:33----------
+must be opening and this fuse must be
+
+---------07:35----------
+good so now I know I've narrowed down my
+
+---------07:37----------
+problem to either feedback or enable or
+
+---------07:41----------
+perhaps the chip is bad that makes life
+
+---------07:43----------
+a lot easier for me so one of the things
+
+---------07:45----------
+I'm doing when I make these measurements
+
+---------07:46----------
+even if you don't understand why I'm
+
+---------07:47----------
+making them why am i measuring the
+
+---------07:48----------
+voltage in output rather than the fuse I
+
+---------07:50----------
+want you to understand the thought
+
+---------07:51----------
+process behind them so that with other
+
+---------07:53----------
+circuits you can gain an understanding
+
+---------07:55----------
+and then make those measurements for
+
+---------07:56----------
+yourself based on a thought process you
+
+---------07:58----------
+came up with rather than just please
+
+---------08:01----------
+borrowing and copying what I'm doing so
+
+---------08:03----------
+hopefully that makes sense now we're
+
+---------08:04----------
+gonna take this apart and take a look at
+
+---------08:07----------
+what the board looks like on the other
+
+---------08:08----------
+side
+
+---------08:19----------
+and there you have it
+
+---------08:35----------
+man an LED driver and I believe the
+
+---------08:41----------
+feedback ball is gonna be entirely
+
+---------08:42----------
+burned so the feedback ball is gonna be
+
+---------08:44----------
+the one at the bottom right now as some
+
+---------08:46----------
+replacing the chip before I finish
+
+---------08:48----------
+getting this off can anybody tell me why
+
+---------08:50----------
+the feedback ball would be the ball
+
+---------08:52----------
+that's the most burned every single time
+
+---------08:54----------
+there's liquid damage why is the
+
+---------08:58----------
+feedback ball the one that's always in
+
+---------09:00----------
+the worst condition
+
+---------09:26----------
+why is this one always the worst
+
+---------09:29----------
+condition higher potential great good
+
+---------09:36----------
+explanation yes
+
+---------09:40----------
+[Music]
+
+---------09:43----------
+that's backlight voltage remember
+
+---------09:45----------
+feedback is seeing what it creates
+
+---------09:46----------
+that's the highest voltage you have five
+
+---------09:49----------
+volts coming into the chip you have all
+
+---------09:50----------
+these three volts enable signals and
+
+---------09:55----------
+communication but 27 volts for backlight
+
+---------09:57----------
+is going to be the worst and you also
+
+---------10:01----------
+have switch the switch notice that the
+
+---------10:02----------
+switch traces all at the top is also a
+
+---------10:05----------
+little nasty as well now let's see if
+
+---------10:08----------
+that pad can be brought back in the
+
+---------10:10----------
+corner
+
+---------10:27----------
+that's mostly gone so I'm gonna take a
+
+---------10:30----------
+knife and I'm gonna scrape at the probe
+
+---------10:31----------
+point right beneath it
+
+---------10:38----------
+and then we're gonna run a wire there
+
+---------11:23----------
+you know these two holes over here are
+
+---------11:25----------
+actually back light output check this
+
+---------11:28----------
+out
+
+---------11:28----------
+back light back light now that's
+
+---------11:30----------
+feedback so I'm actually going to make
+
+---------11:33----------
+sure that that hooks up to there just in
+
+---------11:35----------
+case it's broken here
+
+---------12:17----------
+I'm gonna anchor it here
+
+---------12:55----------
+okay now we're gonna cut our wire
+
+---------13:36----------
+I made a little question mark in that
+
+---------13:49----------
+I'll get this table apologizing because
+
+---------13:51----------
+it just makes me more of a douchebag all
+
+---------13:54----------
+right let's get that chip on there
+
+---------13:56----------
+indeed copass I deserve to be called a
+
+---------13:58----------
+boomer today
+
+---------14:07----------
+what my chip
+
+---------15:28----------
+we'll green that up later
+
+---------15:35----------
+let's file this a little bit
+
+---------16:10----------
+[Laughter]
+
+---------16:26----------
+all right now we see if you have a
+
+---------16:27----------
+backlight okay what voltage should be
+
+---------16:30----------
+getting it back light output 21 0
+
+---------16:37----------
+oh yeah yep you turned off why did you
+
+---------16:42----------
+turn off why are you taking 30 milliamps
+
+---------16:48----------
+Hey turn back on you Pisa come on okay
+
+---------16:57----------
+so we've got six volts on back light so
+
+---------17:00----------
+we have an Apple logo eight volts there
+
+---------17:09----------
+alright it looks like my back light fuse
+
+---------17:11----------
+that was working blue let's take a look
+
+---------17:13----------
+at the back light fuse because we had 21
+
+---------17:16----------
+volts and then we had a then we had 6
+
+---------17:18----------
+but then we had 25 so something's funny
+
+---------17:20----------
+honey here okay that's our back light
+
+---------17:23----------
+fuse there we go that explains it yeah
+
+---------17:27----------
+Wow
+
+---------17:28----------
+why did I leave this on the board we got
+
+---------17:41----------
+a fuse and you could buy off a store not
+
+---------17:42----------
+Rossman group calm if you wanted to it's
+
+---------17:45----------
+right here and ready to be removed we're
+
+---------17:48----------
+gonna remove that fuse
+
+---------17:57----------
+solder solder solder in a fuse soldering
+
+---------18:03----------
+appears sold during a fuse soldering of
+
+---------18:09----------
+fears
+
+---------18:21----------
+before we know the fuse is actually good
+
+---------18:23----------
+it's just that Pat is disgusting so lots
+
+---------18:26----------
+of scraping to do here actually yeah
+
+---------18:29----------
+there woody what what Pat would it Wow
+
+---------18:32----------
+what Pat
+
+---------18:46----------
+okay a little bit of scraping modifying
+
+---------19:22----------
+[Laughter]
+
+---------19:33----------
+aluminum
+
+---------19:38----------
+how do you say aluminium aluminium
+
+---------19:43----------
+aluminium it's aluminium
+
+---------20:00----------
+yeah it looks better I do that
+
+---------20:10----------
+[Laughter]
+
+---------20:16----------
+ah
+
+---------21:03----------
+that's some classic Paul Daniels humor
+
+---------21:05----------
+right there there's no you and honor I
+
+---------21:08----------
+like that
+
+---------21:25----------
+effect that cap
+
+---------21:29----------
+you just fix an iPhone three
+
+---------21:38----------
+[Music]
+
+---------21:47----------
+oh no just nasty kept
+
+---------22:01----------
+during the
+
+---------22:33----------
+okay do we get a lit up question mark
+
+---------22:36----------
+folder come on show me a lit up question
+
+---------22:40----------
+mark folder let's see what is the good
+
+---------22:44----------
+old multimeter say if we put the Paul
+
+---------22:48----------
+Daniel software on the screen 25 volts
+
+---------22:55----------
+yep that's gonna be a lit up question
+
+---------22:56----------
+mark folder 25 volts as a backlight and
+
+---------23:00----------
+there we go
+
+---------23:02----------
+so we have a backlight so we had a
+
+---------23:04----------
+couple issues here the first problem was
+
+---------23:06----------
+that the LED driver chip was entirely
+
+---------23:08----------
+corroded and the main part that fails on
+
+---------23:11----------
+all of these is always feedback the
+
+---------23:12----------
+reason feedback fails first is because
+
+---------23:14----------
+feedback is where the highest voltage in
+
+---------23:16----------
+the system is that's why that it's not a
+
+---------23:18----------
+coincidence that that always corrodes
+
+---------23:19----------
+first after we replace the chip from red
+
+---------23:21----------
+our jumper wire for feedback he also had
+
+---------23:23----------
+to replace the backlight fuse McAfee
+
+---------23:24----------
+used may have actually been good but the
+
+---------23:26----------
+connection to the board was so badly
+
+---------23:27----------
+corroded and this thing costs like 17
+
+---------23:30----------
+cents so why not so we did that now we
+
+---------23:32----------
+have a backlight hopefully my
+
+---------23:34----------
+explanation of how a DC to DC boost
+
+---------23:35----------
+circuit helped as well as my explanation
+
+---------23:38----------
+as to why I make the measurements I make
+
+---------23:39----------
+in the order that I make them to be as
+
+---------23:41----------
+efficient as possible hopefully this
+
+---------23:42----------
+video has helped you thank you so much
+
+---------23:44----------
+for watching and as always I hope you
+
+---------23:45----------
+learned something
+

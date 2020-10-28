@@ -1,0 +1,808 @@
+https://www.youtube.com/watch?v=FGYrykiL9rA
+---------00:00----------
+okay I'm going to be working on an eight
+
+---------00:01----------
+to zero 2936
+
+---------00:03----------
+and the claimed problem is that this
+
+---------00:05----------
+board is not charging the battery so
+
+---------00:07----------
+let's go over a couple of things that
+
+---------00:08----------
+I'm going to look at first here so the
+
+---------00:10----------
+first thing that I always say to look at
+
+---------00:11----------
+if it doesn't see the battery you have
+
+---------00:13----------
+to look at data line so you have to look
+
+---------00:15----------
+at the SMC the battery charger talking
+
+---------00:17----------
+to the SMC so one of the things that I
+
+---------00:19----------
+would look at if it didn't see the
+
+---------00:20----------
+battery if it that would mean that the
+
+---------00:23----------
+SMC is not communicating with it the way
+
+---------00:25----------
+it's supposed to so I would look at
+
+---------00:27----------
+something around here let me just bring
+
+---------00:29----------
+it up on the schematic so that you can
+
+---------00:30----------
+see what it is I am talking about okay
+
+---------00:39----------
+come on PDF reader don't be an [ __ ]
+
+---------00:54----------
+so that's the SMC chip right there and
+
+---------00:58----------
+this is where you can see data line so
+
+---------01:01----------
+you have the SMC talking to the battery
+
+---------01:03----------
+charger in the battery so I'd start
+
+---------01:04----------
+troubleshooting that and I've talked
+
+---------01:06----------
+about how to troubleshoot data lines and
+
+---------01:07----------
+what to do when you're back book is not
+
+---------01:09----------
+charging the battery you're not seeing
+
+---------01:11----------
+the battery all of this has been
+
+---------01:12----------
+discussed in a previous video now one of
+
+---------01:15----------
+the things that I want to look at here
+
+---------01:17----------
+is current sensing so it sees the
+
+---------01:19----------
+battery it just refuses to charge it so
+
+---------01:21----------
+for that I'm going to look at current
+
+---------01:22----------
+sensing and I've also discussed what
+
+---------01:24----------
+current sensing is in a different video
+
+---------01:25----------
+so you can search for current sensing
+
+---------01:27----------
+and you will find many videos that I've
+
+---------01:29----------
+done on them now the current sensing
+
+---------01:30----------
+that I'm going to want to check here is
+
+---------01:32----------
+going to be make sure it's recording
+
+---------01:34----------
+right this is current sensing for the
+
+---------01:35----------
+charger so this is where the charger
+
+---------01:37----------
+comes into the machine if a 0.02 ohm
+
+---------01:39----------
+shunt resistor over here and then two
+
+---------01:41----------
+resistors on each side of the shunt
+
+---------01:42----------
+resistor that report voltage to the
+
+---------01:44----------
+il-62 5:9 the voltage drop across the
+
+---------01:46----------
+shunt resistor is going to be dependent
+
+---------01:47----------
+on how much power the system is using so
+
+---------01:49----------
+the system is using a lot of power
+
+---------01:50----------
+you'll be a bigger voltage drop than if
+
+---------01:52----------
+the system is using no power now the
+
+---------01:54----------
+reason that this is important is it
+
+---------01:56----------
+allows this chip that is not actually in
+
+---------01:58----------
+the circuit like it with in it right now
+
+---------02:01----------
+to tell how much power the system is
+
+---------02:04----------
+using if it's using too much power
+
+---------02:05----------
+obviously turn the charger off same is
+
+---------02:07----------
+true for the battery you have a shunt
+
+---------02:08----------
+resistor right by the two front battery
+
+---------02:10----------
+line over here and then you have two
+
+---------02:12----------
+resistors over here that report that
+
+---------02:13----------
+information back to the United you seven
+
+---------02:16----------
+thousand chips so one in front of that
+
+---------02:17----------
+resistor and one on the back of that
+
+---------02:18----------
+resistor so let's check those current
+
+---------02:20----------
+sensing resistors and see what we get
+
+---------02:22----------
+and see if this is working the way that
+
+---------02:24----------
+it should
+
+---------02:25----------
+so okay got my nice rubber fluke
+
+---------02:33----------
+multimeter here just pointed okay so for
+
+---------02:37----------
+the charger current sensing resistors
+
+---------02:39----------
+that the schematics is supposed to be 10
+
+---------02:40----------
+ohms I get ten point one that is
+
+---------02:47----------
+absolutely fine
+
+---------02:49----------
+do not play step because it's ten point
+
+---------02:51----------
+one instead of ten the other one I get
+
+---------02:53----------
+10 now let's look at the resistors well
+
+---------02:56----------
+in nine point eight is that's good
+
+---------02:58----------
+enough nine point here we go the other
+
+---------03:00----------
+two this is supposed to be it I think
+
+---------03:02----------
+2.2 or something like that and I get
+
+---------03:05----------
+good and the next one which
+
+---------03:08----------
+supposed to be zero and at the zero ohm
+
+---------03:10----------
+resister I get that ain't zero that's
+
+---------03:19----------
+not zero all right let's see if we found
+
+---------03:23----------
+our problem so now we got to find a
+
+---------03:26----------
+donor board from which to steal that
+
+---------03:27----------
+ from a donor board where I haven't
+
+---------03:34----------
+stolen that already yeah good luck with
+
+---------03:36----------
+that good luck with that okay
+
+---------03:46----------
+of course I have stolen everything so
+
+---------03:50----------
+let's see I should also plug this camera
+
+---------03:52----------
+they plan on using it in a few okay so
+
+---------03:56----------
+on this board here let's rip off that
+
+---------04:00----------
+under feel like that's by the
+
+---------04:02----------
+component right next to it and let's see
+
+---------04:06----------
+what I get so on a board that's working
+
+---------04:08----------
+the way it's supposed to that resistor
+
+---------04:10----------
+measures C move away all the underfill
+
+---------04:12----------
+stuff and I get hmm am I making contact
+
+---------04:22----------
+I'm not making contact because I'm
+
+---------04:26----------
+touching the underfill not the resistor
+
+---------04:29----------
+ right okay so I'm going to
+
+---------04:37----------
+clean that junk off
+
+---------04:44----------
+and the data that the town this is
+
+---------05:05----------
+oh it's not about underfill it's
+
+---------05:06----------
+probably that resistor is destroyed
+
+---------05:08----------
+let's see yo I might even using this
+
+---------05:16----------
+board that resistant doesn't even have
+
+---------05:17----------
+metal caps anymore on this each side of
+
+---------05:20----------
+it goodbye
+
+---------05:20----------
+oh my donor boys are bullish that
+
+---------05:24----------
+board is a one how about you
+
+---------05:28----------
+know you've been stolen already here
+
+---------05:34----------
+donor boy that's not Jesus ha
+
+---------05:49----------
+all right so on this one over here Dada
+
+---------05:57----------
+see it's supposed to be zero not
+
+---------05:59----------
+30-something so let's replace that thing
+
+---------06:01----------
+and see what we get
+
+---------06:20----------
+whoops that's what it's going to
+
+---------06:25----------
+pretend that every day I didn't just do
+
+---------06:27----------
+that nobody oh okay goodbye resistor
+
+---------06:35----------
+that is not measuring how it's supposed
+
+---------06:37----------
+to ten pads what get off of there
+
+---------06:52----------
+okay
+
+---------07:13----------
+I want to touch that ship next to it
+
+---------07:14----------
+because I'm pretty sure it's important
+
+---------07:16----------
+that I not reflow it okay so now what I
+
+---------07:18----------
+want to do is I want to test this and
+
+---------07:19----------
+see if it sees the battery charges the
+
+---------07:21----------
+battery and does all that good stuff
+
+---------07:22----------
+that it's supposed to also another thing
+
+---------07:24----------
+to know is that malfunctions in that
+
+---------07:26----------
+area do actually cause quarter fan spin
+
+---------07:28----------
+and quarter fan spin is one of those
+
+---------07:29----------
+miserable things that has 50 different
+
+---------07:32----------
+causes so it's great to know every
+
+---------07:38----------
+single potential solution a quarter fan
+
+---------07:41----------
+spin the quarter fan spin sucks oh look
+
+---------07:51----------
+this board actually has a sticker on it
+
+---------07:53----------
+from another company that fixes boards
+
+---------07:55----------
+okay that's my key that's my that's my
+
+---------07:59----------
+answer key that this is not going to be
+
+---------08:00----------
+a fun one let's see if it sees the
+
+---------08:08----------
+battery and charges it now
+
+---------08:11----------
+hopefully there's boots up quickly
+
+---------08:13----------
+because I see an SSD inside the computer
+
+---------08:15----------
+I have honestly gotten so impatient with
+
+---------08:19----------
+this that a lot of the times if I see
+
+---------08:20----------
+like that a customer has a machine with
+
+---------08:22----------
+some three-year-old piece of
+
+---------08:24----------
+spinning Samsung hard drive inside of it
+
+---------08:27----------
+that I just I'll take the time to grab
+
+---------08:29----------
+mine because I can grab my drive in
+
+---------08:31----------
+Budapest err then I can just wait for
+
+---------08:33----------
+their crap to boot once you use an SSD
+
+---------08:37----------
+it's like I don't even think honestly
+
+---------08:38----------
+SATA SATA 3 SSDs I don't even see that
+
+---------08:40----------
+as like a big speed increase it's like
+
+---------08:49----------
+an SI that's just standard to me like a
+
+---------08:51----------
+regular SATA 3 SSD is standard a PCI
+
+---------08:53----------
+Express SSD is fast and the hard drive
+
+---------08:56----------
+is just this is unusable I mean
+
+---------09:00----------
+it's fine for storage or you know watch
+
+---------09:04----------
+movies or television on but to actually
+
+---------09:09----------
+use a computer and load software and do
+
+---------09:11----------
+things with it oh no in people will
+
+---------09:17----------
+say like we've used them for so long so
+
+---------09:19----------
+how do you say it's unusable now I mean
+
+---------09:21----------
+how long do people use 33 K modems for
+
+---------09:23----------
+and 56k modems and ISDN lines for like
+
+---------09:25----------
+you got by with it
+
+---------09:26----------
+you used it I remember downloading the
+
+---------09:29----------
+movie deep-blue using my 56k 56k
+
+---------09:33----------
+earthling connection a long time ago
+
+---------09:35----------
+sure as hell doesn't mean I'm going to
+
+---------09:37----------
+do it by choice now you know I
+
+---------09:40----------
+acknowledge that it's sucked at the time
+
+---------09:42----------
+and I think the hard drive sucked even
+
+---------09:45----------
+from 2002 when I got my first
+
+---------09:49----------
+quote-unquote real laptop okay so I got
+
+---------09:58----------
+an orange light in the charger so this
+
+---------09:59----------
+is a start to the orange light there
+
+---------10:01----------
+tells me that there's hope that this
+
+---------10:03----------
+actually works
+
+---------10:15----------
+guests
+
+---------10:19----------
+okay so the guest account on this is
+
+---------10:20----------
+blocked and it has a password so great
+
+---------10:23----------
+this is what I get from mentioning that
+
+---------10:25----------
+ I'm going to have to boot up off of
+
+---------10:28----------
+another Drive anyway you see that it's
+
+---------10:33----------
+charging okay oh I got a firewire
+
+---------10:37----------
+enclosure and my drive restart
+
+---------10:50----------
+option please tell me this board is fire
+
+---------10:59----------
+that works
+
+---------11:00----------
+I saw a particular company's warranty
+
+---------11:04----------
+sticker that leads me to believe that I
+
+---------11:05----------
+may not be seeing fire wire there's a
+
+---------11:12----------
+particular warranty sigil that when I
+
+---------11:14----------
+see it something tells me that I may be
+
+---------11:17----------
+missing eye out ports
+
+---------11:32----------
+and this board seems to be now
+
+---------11:34----------
+different okay try one more time before
+
+---------11:41----------
+I grab a USB cable
+
+---------11:57----------
+okay it I grabbed a USB cable
+
+---------12:13----------
+my
+
+---------12:14----------
+slow useless worthless USB too so not
+
+---------12:26----------
+only do another firewire but we only
+
+---------12:27----------
+have one USB port on this board and this
+
+---------12:30----------
+is one of those things where I honestly
+
+---------12:32----------
+really probably would look into why that
+
+---------12:35----------
+is if this boy didn't have the sticker
+
+---------12:37----------
+of the company that you guys probably
+
+---------12:40----------
+know where it came from
+
+---------12:41----------
+on there but since it does I got my eye
+
+---------12:45----------
+I can like I feel bad but just don't
+
+---------12:54----------
+bring your board there before you bring
+
+---------12:56----------
+it here if you wanted to actually work
+
+---------12:58----------
+okay so before we were at battery level
+
+---------13:02----------
+zero percent now we're at three percent
+
+---------13:05----------
+might as well show you that it says it's
+
+---------13:07----------
+charging
+
+---------13:20----------
+say that you're charging
+
+---------13:33----------
+okay fine you'd be a pain in the ass and
+
+---------13:35----------
+take forever so I'm going to zoom in on
+
+---------13:38----------
+that with the camcorder right now so
+
+---------13:39----------
+that you can see it this battery had no
+
+---------13:44----------
+charge in it at all and now if I unplug
+
+---------13:47----------
+the power adapter it stays on because it
+
+---------13:51----------
+does have power in the battery not a lot
+
+---------13:53----------
+but enough that you can see that it
+
+---------13:55----------
+works all right so just to recap what we
+
+---------13:57----------
+did to make this work let me just go
+
+---------13:59----------
+back to the viewer you can see what's
+
+---------14:00----------
+going on on the screen the current
+
+---------14:03----------
+sensing for the charger was not working
+
+---------14:04----------
+so show you that this is to and from the
+
+---------14:08----------
+battery and over here you have a current
+
+---------14:13----------
+sensing shunt resistor and this shunt
+
+---------14:16----------
+resistor over here the whole idea behind
+
+---------14:17----------
+it is you can have a small voltage drop
+
+---------14:19----------
+across the shunt resistor and the
+
+---------14:20----------
+voltage drop across that shunt resistor
+
+---------14:22----------
+is going to go up or go down depending
+
+---------14:24----------
+on how much amperage the system is using
+
+---------14:26----------
+there are two resistors that go from
+
+---------14:28----------
+each side of this shunt resistor to the
+
+---------14:29----------
+is l6 to 5/9 chip and so that the is l6
+
+---------14:33----------
+to 5/9 can do whatever calculation is
+
+---------14:35----------
+necessary to figure out how much
+
+---------14:36----------
+amperage is the battery is applying to
+
+---------14:39----------
+the machine and this resistor over here
+
+---------14:43----------
+the zero ohm one was blown so instead of
+
+---------14:46----------
+being zero ohms it was going up to 39
+
+---------14:48----------
+ohms the multimeter was continuing to
+
+---------14:49----------
+count I just took it off because I know
+
+---------14:51----------
+that 39 is not zero and after replacing
+
+---------14:54----------
+that the Machine charges the battery and
+
+---------14:56----------
+all as well again it doesn't have fire
+
+---------14:58----------
+wire and it's missing a USB port at the
+
+---------15:00----------
+moment then I know exactly why because
+
+---------15:03----------
+of the warranty sticker that's on the
+
+---------15:04----------
+machine I know who fixed it I know what
+
+---------15:06----------
+they did and I hate to say it as much as
+
+---------15:09----------
+I like to go above and beyond and make
+
+---------15:10----------
+these boards work as best as buing ly
+
+---------15:12----------
+possible in this case I just know that's
+
+---------15:14----------
+going to be a nightmare so I'm done
+

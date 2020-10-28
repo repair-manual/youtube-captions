@@ -1,0 +1,961 @@
+https://www.youtube.com/watch?v=BmM1eiqlf7w
+---------00:00----------
+ok today we're going over an 8 to 0 36
+
+---------00:02----------
+62 Retina board
+
+---------00:04----------
+what makes this board a big pain in the
+
+---------00:05----------
+dick is that there are no schematics or
+
+---------00:07----------
+board views released for this meaning
+
+---------00:09----------
+that I have absolutely no idea what is
+
+---------00:11----------
+going where on this board and as you can
+
+---------00:13----------
+see there's a lot of components on this
+
+---------00:14----------
+board for those who are not familiar
+
+---------00:15----------
+with this channel so you can look under
+
+---------00:17----------
+the microscope here and see that there
+
+---------00:19----------
+is a lot of stuff going on here a lot of
+
+---------00:21----------
+interconnected pieces and yeah I have no
+
+---------00:25----------
+idea what any of them are for or what
+
+---------00:27----------
+any of them do because there is no
+
+---------00:29----------
+documentation so one of the big problems
+
+---------00:31----------
+in this business is you all all of these
+
+---------00:34----------
+schematics are you know I'm not gonna
+
+---------00:36----------
+say how people get them because I don't
+
+---------00:37----------
+know but I'm pretty sure they're not
+
+---------00:39----------
+supposed to have them and yeah that's
+
+---------00:41----------
+what sucks so the problem that we have
+
+---------00:43----------
+on this board is that it works on the
+
+---------00:44----------
+battery just fine but it doesn't work on
+
+---------00:47----------
+a charger so if I plug a charger and I
+
+---------00:49----------
+get no light and it doesn't turn on and
+
+---------00:51----------
+that's the problem that we're gonna be
+
+---------00:52----------
+looking to solve now one of the things I
+
+---------00:54----------
+say on a lot of these machines is that
+
+---------00:55----------
+you need the with a 1 wire circuit is
+
+---------00:58----------
+what's gonna allow the charger to talk
+
+---------01:00----------
+to the SMC if you don't do that you have
+
+---------01:01----------
+no green light in the charger so you
+
+---------01:03----------
+need for that to work as PP 3 V 4 - I'm
+
+---------01:06----------
+pretty sure that the SMC is fine because
+
+---------01:08----------
+when you're using this on a battery it
+
+---------01:10----------
+functions perfectly fine it doesn't run
+
+---------01:11----------
+slow it doesn't give you any of those
+
+---------01:13----------
+sensor issues I have videos on sensor
+
+---------01:15----------
+issue so you can see what that's about
+
+---------01:16----------
+if you're kind of confused as to why I
+
+---------01:17----------
+associate sensors with an SMC
+
+---------01:19----------
+so the first thing I want to do here
+
+---------01:21----------
+again I don't have a board view out of a
+
+---------01:22----------
+schematic so I kinda have to go based on
+
+---------01:23----------
+what I know from other boards so you can
+
+---------01:25----------
+see over here is the pp 3 V 4 - region
+
+---------01:27----------
+is over here now remember PP 3 V 4 - is
+
+---------01:30----------
+one of the only power rails in the
+
+---------01:32----------
+machine that can have multiple inputs it
+
+---------01:33----------
+can either be powered by the charger or
+
+---------01:35----------
+the battery and that this diode over
+
+---------01:38----------
+here is meant to keep the charger and
+
+---------01:40----------
+the battery from powering it at the same
+
+---------01:41----------
+time obviously if that happens bad
+
+---------01:43----------
+things will happen so if it's on the
+
+---------01:45----------
+battery only you're gonna see power
+
+---------01:46----------
+going through here this is P P budget g3
+
+---------01:49----------
+hot on one side on the other side it's
+
+---------01:50----------
+gonna go over here now if it's plugged
+
+---------01:52----------
+in it's creating PP + g3 hot for the
+
+---------01:54----------
+machine to work but it's also as charger
+
+---------01:56----------
+power so it's gonna be powered off of
+
+---------01:58----------
+both which is why this diode is here so
+
+---------02:00----------
+only one can go through at a time now
+
+---------02:02----------
+these two look just fine so let's just
+
+---------02:04----------
+measure just to make sure
+
+---------02:05----------
+and again I'm guessing I don't know if
+
+---------02:07----------
+that's the P P 3 V 4 - circuit I could
+
+---------02:09----------
+very well be wrong because I don't have
+
+---------02:11----------
+a schematic or a board view because
+
+---------02:13----------
+apples
+
+---------02:13----------
+see fit to allow me to fix their
+
+---------02:15----------
+products it would rather you spend
+
+---------02:16----------
+twelve hundred bucks on on getting a fix
+
+---------02:18----------
+with them but let's see if we can get
+
+---------02:21----------
+outsmart them
+
+---------02:22----------
+so over here I have a 10 ohm resistor
+
+---------02:25----------
+and a 47 ohm resistor which is the exact
+
+---------02:28----------
+same thing that I see on other boards
+
+---------02:29----------
+for the P P 3 V 4 2 circuit so this
+
+---------02:31----------
+tells me one or two things actually two
+
+---------02:33----------
+things a my P B 3 B 4 2 circuit is most
+
+---------02:35----------
+likely fine in both creation from the
+
+---------02:38----------
+battery and the charger and B that is
+
+---------02:39----------
+the P P 3 V 4 2 circuit because the
+
+---------02:41----------
+values match very closely so now let's
+
+---------02:43----------
+see if what happens when we actually
+
+---------02:44----------
+plug a charger into the machine let's
+
+---------02:46----------
+see what we measure so I'm gonna grab a
+
+---------02:50----------
+charger over here okay now again we have
+
+---------02:56----------
+no green light so the first thing I'm
+
+---------02:57----------
+gonna do is I'm gonna measure voltage on
+
+---------02:59----------
+the charger so I'm gonna do a multimeter
+
+---------03:00----------
+in voltage mode now on the actual
+
+---------03:04----------
+charger let's make sure that that's
+
+---------03:05----------
+working I get 16 point 5 5 volts which
+
+---------03:12----------
+is perfectly acceptable now on the input
+
+---------03:14----------
+for P P 3 V 4 2 I get 0 volts on both
+
+---------03:19----------
+which is obviously unacceptable so
+
+---------03:21----------
+somewhere between the charger itself and
+
+---------03:23----------
+there it's not is something is not
+
+---------03:25----------
+working so the one wire circuit is not
+
+---------03:28----------
+telling the charger not to work it's not
+
+---------03:29----------
+putting it into a protection mode or
+
+---------03:31----------
+setting it to 0 volts in any way it's
+
+---------03:33----------
+just the power is not making its way
+
+---------03:35----------
+through to the Machine so let's take a
+
+---------03:37----------
+look on the actual DC n board and see
+
+---------03:40----------
+around the DC n board area what we have
+
+---------03:42----------
+so where is is where is power stopping
+
+---------03:45----------
+coming in here so here is what I would
+
+---------03:50----------
+imagine to be the DC in fuse and I have
+
+---------03:52----------
+16 point 5 5 volts on this side and on
+
+---------03:54----------
+the other side I have 5 volts okay this
+
+---------04:00----------
+never happens that fuse was bad in one
+
+---------04:02----------
+video I've done all year let's see if
+
+---------04:04----------
+there's a short to ground on either side
+
+---------04:06----------
+of this so I'm going to take my
+
+---------04:08----------
+multimeter when I say short test for a
+
+---------04:09----------
+short to ground I put it in diode mode I
+
+---------04:11----------
+take the red probe the red probe goes on
+
+---------04:13----------
+ground which can be the coating around a
+
+---------04:15----------
+screw hole the black probe is going to
+
+---------04:16----------
+go on the area where I want to see if
+
+---------04:18----------
+there's a short to ground now remember
+
+---------04:19----------
+that you cannot have power plugs in when
+
+---------04:21----------
+doing resistance mode measurements or
+
+---------04:22----------
+diode while measurements you cannot have
+
+---------04:24----------
+these plugged in because that will mess
+
+---------04:27----------
+up
+
+---------04:27----------
+including your multimeter now when I
+
+---------04:31----------
+touch the pins of this together I see
+
+---------04:33----------
+zero voltage drop so my multimeter is
+
+---------04:35----------
+working but when I touch each side of
+
+---------04:38----------
+the fuse together I get o L which means
+
+---------04:40----------
+that that fuse is actually bent so this
+
+---------04:43----------
+is kind of funny like well the reason I
+
+---------04:44----------
+find this humorous is on the board that
+
+---------04:46----------
+Apple has gone above and beyond to make
+
+---------04:48----------
+sure that nobody knows how to fix that
+
+---------04:49----------
+the problem that I'm having the first
+
+---------04:51----------
+one of these I'm actually fixing it's
+
+---------04:52----------
+literally the fuse it's like the
+
+---------04:53----------
+simplest problem in the world
+
+---------04:55----------
+so again you for not releasing the
+
+---------04:58----------
+schematic and you for trying to
+
+---------04:59----------
+make life hard so we're gonna do here is
+
+---------05:05----------
+I'm gonna put some captain tape over the
+
+---------05:06----------
+DCN board connector because I don't use
+
+---------05:09----------
+hot tweezers I don't use any of that
+
+---------05:10----------
+stuff to replace small SMD components I
+
+---------05:12----------
+prefer hot air because with hot air you
+
+---------05:15----------
+don't really have to have a perfect
+
+---------05:16----------
+steady hands if you know how a soldering
+
+---------05:18----------
+works you can get the component to the
+
+---------05:20----------
+sit in place using surface tension so
+
+---------05:22----------
+it'll look like it was soldered pretty
+
+---------05:23----------
+well by somebody with very steady hands
+
+---------05:25----------
+even if you you're a complete mess and
+
+---------05:27----------
+I'm a complete mess
+
+---------05:29----------
+so let's just cover this in captain tape
+
+---------05:32----------
+because you don't want to give boards
+
+---------05:34----------
+back to people that have burnt
+
+---------05:35----------
+connectors and burn stuff I try to avoid
+
+---------05:37----------
+that whenever I can it just sends the
+
+---------05:39----------
+wrong message it kind of even if I do
+
+---------05:41----------
+care about what I'm doing it sends the
+
+---------05:42----------
+message that I don't give a so
+
+---------05:44----------
+cover it with my captain tape we're
+
+---------05:46----------
+gonna wait for the hot air to heat up
+
+---------05:57----------
+you know while I'm waiting for the fre I
+
+---------05:59----------
+want to get hot because if that take it
+
+---------06:03----------
+takes a while since it's actively
+
+---------06:04----------
+blowing air through the through the
+
+---------06:06----------
+heating element so it's kind of cooling
+
+---------06:07----------
+it as it's heating it so while I'm
+
+---------06:09----------
+waiting for that to get hot I'm just
+
+---------06:10----------
+gonna make it a little bit easier to do
+
+---------06:11----------
+the job by adding some let it solder
+
+---------06:14----------
+over the fuse some flux
+
+---------06:24----------
+this is the wrong tip to be using for
+
+---------06:26----------
+this but alright
+
+---------06:35----------
+get rid of all the lead-free junk it's
+
+---------06:39----------
+all gonna get sucked up into that nice
+
+---------06:41----------
+ball okay now I have a donor board here
+
+---------06:44----------
+within I well I was about to say
+
+---------06:46----------
+equivalent value fuse but I can't say if
+
+---------06:49----------
+the fuse is equivalent value because I
+
+---------06:51----------
+don't have a schematic so I have no idea
+
+---------06:54----------
+what this one original value is but it's
+
+---------06:57----------
+got to be close enough it's the this is
+
+---------07:00----------
+the retina board with the GPU that I
+
+---------07:01----------
+have here so the eight to zero
+
+---------07:05----------
+thirty-six 62 that I'm fixing is the 15
+
+---------07:08----------
+inch retina board that does not have a
+
+---------07:09----------
+discrete GPU that's iris only
+
+---------07:25----------
+that fuse is now in the sixth dimension
+
+---------07:30----------
+almost in the sixth dimension I found it
+
+---------08:19----------
+now before I go about plugging it in I'm
+
+---------08:22----------
+just curious
+
+---------08:23----------
+measure my fuse see that it's good
+
+---------08:26----------
+ideally since this is a fuse I would
+
+---------08:28----------
+read a zero reading and diode mode
+
+---------08:29----------
+meaning zero voltage drop from one side
+
+---------08:31----------
+of the other I read a zero voltage drop
+
+---------08:33----------
+from one side to the other so now what
+
+---------08:35----------
+I'm interested in doing is plugging it
+
+---------08:36----------
+in and when I plug it in I get a green
+
+---------08:38----------
+light and now an orange one so again
+
+---------08:44----------
+this is pretty cool
+
+---------08:45----------
+you know the reason I find this funny
+
+---------08:47----------
+and ironic is that the entire point here
+
+---------08:51----------
+the entire point with not releasing the
+
+---------08:53----------
+schematic for this board is to make it
+
+---------08:56----------
+more difficult the CPU is getting warm
+
+---------08:57----------
+which is my like I used to see that the
+
+---------08:59----------
+fan spun first that you can see that it
+
+---------09:01----------
+turned on then I used to see that the
+
+---------09:03----------
+fans but now I like I touch the CPU I
+
+---------09:05----------
+mean I'm getting you can tell that I'm
+
+---------09:07----------
+getting a little bit tired of doing
+
+---------09:11----------
+long-form content motherboard repair
+
+---------09:13----------
+videos but I digress
+
+---------09:14----------
+what makes this funny is that the Apple
+
+---------09:17----------
+goes through so much effort to
+
+---------09:19----------
+make it impossible to repair these
+
+---------09:21----------
+products and again the first one I get
+
+---------09:23----------
+which is a board where for a long time
+
+---------09:25----------
+there's been no schematic aboard be the
+
+---------09:26----------
+first one I get that I really like have
+
+---------09:28----------
+to put effort into fixing is one where
+
+---------09:30----------
+the only problem is the fuse so it's
+
+---------09:33----------
+kind of like you know it's kind of like
+
+---------09:35----------
+the cosmos is giving Apple a big
+
+---------09:37----------
+you for making life hard for the repair
+
+---------09:39----------
+technicians a big you for making
+
+---------09:41----------
+life more expensive for consumers that
+
+---------09:44----------
+would rather give me three or four
+
+---------09:45----------
+hundred bucks then give Apple seven or
+
+---------09:47----------
+twelve hundred bucks again this thing
+
+---------09:50----------
+was dropped off an hour ago this
+
+---------09:52----------
+person's gonna be getting this back in
+
+---------09:54----------
+an hour
+
+---------09:54----------
+so turnaround time two hours one third
+
+---------09:58----------
+to one half the price of Apple you get
+
+---------10:01----------
+to keep all your data I think that's
+
+---------10:03----------
+pretty cool like this person dropped
+
+---------10:04----------
+this off on lunch break they're gonna
+
+---------10:06----------
+get it back before the end of the day
+
+---------10:07----------
+and this is not to praise me the thing
+
+---------10:09----------
+is you can get that type of service at a
+
+---------10:10----------
+lot of independent repair shops a lot of
+
+---------10:12----------
+them service that you cannot get an
+
+---------10:14----------
+Apple service that is not feasible to
+
+---------10:16----------
+provide at Apple you're not gonna find
+
+---------10:18----------
+you know you're not gonna find a time or
+
+---------10:21----------
+a reality in which at an Apple Store
+
+---------10:23----------
+every Apple store across the u.s.
+
+---------10:25----------
+they're doing component level repair you
+
+---------10:27----------
+and you're just not gonna find a way to
+
+---------10:28----------
+standardize that and if you can god
+
+---------10:31----------
+bless you but you're probably not
+
+---------10:33----------
+and so you shouldn't rip away the
+
+---------10:35----------
+resources from the people who are
+
+---------10:37----------
+actually good at this that they can do
+
+---------10:39----------
+their job better because then here's the
+
+---------10:41----------
+thing like I'm gonna figure these things
+
+---------10:42----------
+out without a schematic or a board view
+
+---------10:44----------
+don't think that because you take the
+
+---------10:46----------
+schematic of the board view away that
+
+---------10:47----------
+it's gonna keep me from knowing exactly
+
+---------10:49----------
+how this thing works I'll figure this
+
+---------10:50----------
+thing out one way or another I'll I'll
+
+---------10:52----------
+figure out what the components in the
+
+---------10:53----------
+board are I'll read the sample circuit
+
+---------10:55----------
+diagrams from the manufacturer if you
+
+---------10:57----------
+take away those PDFs that have the
+
+---------10:59----------
+sample circuit diagrams in the
+
+---------11:00----------
+manufacturer or the the data sheets
+
+---------11:02----------
+where it shows you the suggested circuit
+
+---------11:04----------
+I'll look at the suggested circuit for
+
+---------11:05----------
+another one of the chips that's similar
+
+---------11:06----------
+I will figure out how this is connected
+
+---------11:08----------
+whether you like it or not again it's
+
+---------11:11----------
+just a question as to whether or not you
+
+---------11:12----------
+want to make it simple whether or not
+
+---------11:14----------
+you want to make it easy and whether or
+
+---------11:15----------
+not you want your customers who own your
+
+---------11:17----------
+products to have a good experience when
+
+---------11:19----------
+they go to fix them again if they had a
+
+---------11:21----------
+good experience with you what would they
+
+---------11:24----------
+be doing here if they went to the Apple
+
+---------11:26----------
+store and you gave them such a great
+
+---------11:27----------
+solution why are they why are they
+
+---------11:30----------
+coming to this room why are they coming
+
+---------11:32----------
+to a room where my chair is going over a
+
+---------11:34----------
+hole in the floor where there's you know
+
+---------11:36----------
+again like the where my bathroom door
+
+---------11:38----------
+has a hole in it that has a box
+
+---------11:41----------
+taped on to it again like consumers and
+
+---------11:44----------
+I'm not trying to put myself down here's
+
+---------11:45----------
+the truth consumers would not be coming
+
+---------11:47----------
+here they would not be coming here at
+
+---------11:49----------
+all if the alternative were a good one
+
+---------11:52----------
+so you have to think about just how bad
+
+---------11:55----------
+the support is from the primary
+
+---------11:57----------
+manufacturer when it is that people are
+
+---------11:58----------
+coming to this dump no offense to my
+
+---------12:01----------
+space to have this fixed instead of
+
+---------12:03----------
+having it done at a shiny beautiful
+
+---------12:05----------
+credible retail store so you should stop
+
+---------12:10----------
+taking the tools away from us that we
+
+---------12:11----------
+need to do our job
+
+---------12:12----------
+again you can take them away I'm gonna
+
+---------12:16----------
+keep fixing them thousands of people
+
+---------12:18----------
+across the world are gonna watch this
+
+---------12:19----------
+content and are gonna learn how to fix
+
+---------12:21----------
+them regardless of what it is you do so
+
+---------12:24----------
+to stop trying to sabotage it
+

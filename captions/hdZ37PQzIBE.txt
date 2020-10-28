@@ -1,0 +1,508 @@
+https://www.youtube.com/watch?v=hdZ37PQzIBE
+---------00:00----------
+alright it appears we have corrosion on
+
+---------00:01----------
+these two CPU vcore MOSFETs meaning our
+
+---------00:03----------
+CPU will be dead corrosion around the
+
+---------00:06----------
+cd32 15 which on this board is
+
+---------00:08----------
+under-filled meaning it won't give us 20
+
+---------00:10----------
+volts in the charger corrosion over here
+
+---------00:12----------
+by I forget with the circuits by PP 3 B
+
+---------00:15----------
+3 underscore G 3 on which means this
+
+---------00:17----------
+cd32 50 no chip won't be powering and
+
+---------00:19----------
+turning on yay let's get this lovely
+
+---------00:24----------
+pile of crap board out of the case and
+
+---------00:25----------
+see if there's any salvaging it so the
+
+---------00:27----------
+first corrosion of concern is going to
+
+---------00:29----------
+be this area this is the pp 3 V 3
+
+---------00:30----------
+underscore G 3 hot area it's the first
+
+---------00:32----------
+rail required to get anything on the
+
+---------00:34----------
+machine first thing we're gonna do
+
+---------00:36----------
+before we get started is plug in a
+
+---------00:39----------
+charger with a USBC amp meter and see
+
+---------00:43----------
+what comes on the screen of this USBC
+
+---------00:45----------
+ammeter all right so this is stuck at 5
+
+---------00:47----------
+volts meaning that our cd32 15s are not
+
+---------00:50----------
+coming on so as we've gone over in Prior
+
+---------00:52----------
+videos several times you need PP 3 V 3
+
+---------00:55----------
+underscore g3 hot on these new MacBooks
+
+---------00:57----------
+in order for the CD 3215 to work and the
+
+---------00:59----------
+CD 3215 is going to be the chip that
+
+---------01:01----------
+communicates with the charger so let's
+
+---------01:04----------
+see what we get on PP 3 b3 undersquare
+
+---------01:06----------
+g3 hot it looks like we get a whole lot
+
+---------01:10----------
+of 0 zero point 5 millivolts which is
+
+---------01:15----------
+nothing absolutely nothing so first
+
+---------01:18----------
+thing we're gonna do is look over that
+
+---------01:20----------
+pp 3 v3 underscore g3 hot area in the
+
+---------01:22----------
+microscope this is gonna be the circuit
+
+---------01:26----------
+that takes the voltage from our charger
+
+---------01:28----------
+and turns it into 3.3 volts for the pp 3
+
+---------01:33----------
+v3 underscore g3 hot power rail this is
+
+---------01:37----------
+where pp 3 v3 underscore g3 hot is going
+
+---------01:39----------
+to be born so the first thing we're
+
+---------01:42----------
+going to do is they had a little bit of
+
+---------01:45----------
+flux to the area
+
+---------01:55----------
+second thing we're going to do is heat
+
+---------01:57----------
+it up
+
+---------02:50----------
+now we're gonna see if we get PP 3v3
+
+---------02:52----------
+underscore g3 hot zero volts no good
+
+---------02:58----------
+input five out of the diode five alright
+
+---------03:07----------
+so most likely something to do with the
+
+---------03:08----------
+fact that that chip looks like crap and
+
+---------03:11----------
+so does the area so we're gonna take a
+
+---------03:14----------
+lot of the junk off that board whose hi
+
+---------03:17----------
+hi indeed who is high high high high as
+
+---------03:21----------
+somebody who's gone bye-bye
+
+---------03:29----------
+hi hi we'll be back in 500 seconds
+
+---------03:34----------
+hi I will return shortly
+
+---------03:56----------
+we removed the chip that creates PP 3v3
+
+---------03:58----------
+underscore g3 hot
+
+---------04:15----------
+let's rehabilitate this area a little
+
+---------04:17----------
+bit shall we
+
+---------07:24----------
+we soldered all this stuff we're gonna
+
+---------07:27----------
+see if we get any change on PP 3 V 3
+
+---------07:29----------
+underscore G 3 hot let's see if we have
+
+---------07:31----------
+any change before we move on to the next
+
+---------07:35----------
+MacBook alright let's see if we have pp
+
+---------07:37----------
+3 V 3 underscore G 3 hot and it appears
+
+---------07:40----------
+that we don't we have the DCN to enable
+
+---------07:47----------
+this chip to turn on its supposed to be
+
+---------07:49----------
+getting 3 volts on pin 10 and that's
+
+---------07:53----------
+gonna come from the is L 9 2 3 9 let's
+
+---------07:58----------
+see if we're getting that voltage it
+
+---------08:03----------
+seems we're getting zero volts an hour
+
+---------08:04----------
+enable line
+
+---------08:06----------
+now remember enable is going to come
+
+---------08:09----------
+from the is L 9 2 3 9 the ISO 92039 can
+
+---------08:16----------
+be found on the other side of the board
+
+---------08:19----------
+get a penny let's take a look at our is
+
+---------08:22----------
+l9 239 and oh my god oh dear Jesus Oh
+
+---------08:35----------
+so the enable that comes from here can I
+
+---------08:45----------
+give this board to nasarah Tim could you
+
+---------08:49----------
+take this board this board needs an
+
+---------08:53----------
+intervention some flux
+
+---------08:59----------
+let's waste more chips on this board
+
+---------09:14----------
+and gross
+
+---------09:25----------
+you
+
+---------09:37----------
+all right so it looks like the pad over
+
+---------09:40----------
+here which is the voltage end pin is the
+
+---------09:44----------
+one that is the most burned see if we
+
+---------09:48----------
+can bring that back it's Friday night
+
+---------09:52----------
+let's fix some MacBook pick some MacBook
+
+---------09:59----------
+pick some MacBook it's Friday night
+
+---------10:05----------
+I'm gonna fix some man look fix a
+
+---------10:10----------
+MacBook fix a MacBook fixing
+
+---------10:22----------
+Mack
+
+---------10:26----------
+keep in mind that most likely this will
+
+---------10:28----------
+have a dead CPU due to the corrosion
+
+---------10:29----------
+near the CPU vcore MOSFETs so after
+
+---------10:32----------
+we're done with all this this most
+
+---------10:34----------
+likely will not work at all but we're
+
+---------10:41----------
+still gonna put the effort in I'm still
+
+---------10:43----------
+gonna bring back those pads in the
+
+---------10:45----------
+bottom of my ISL
+
+---------11:04----------
+I'm trying to fix a MacBook here
+
+---------12:33----------
+oh [ __ ]
+
+---------12:37----------
+that was not good
+
+---------12:42----------
+back Cavs probably important for
+
+---------12:44----------
+something man [ __ ] it who can who needs
+
+---------12:47----------
+it okay that's an ISO nine 239 I don't
+
+---------12:59----------
+know what that thing floating there was
+
+---------13:00----------
+okay time to get an is l9 two three nine
+
+---------13:03----------
+okay we're going to assume that ships
+
+---------13:05----------
+orientation rather than look at the dot
+
+---------13:07----------
+and that's gonna go and sit right here
+
+---------14:10----------
+good little ayah so 93 900 in a place
+
+---------14:14----------
+that Elias L 93 9 this little capacitor
+
+---------14:22----------
+here by current sensing doesn't matter
+
+---------14:23----------
+let's go
+
+---------14:25----------
+hey 20 we got 20 volts 5 volts [ __ ] and
+
+---------14:36----------
+reboots blue loops
+
+---------14:44----------
+wait a second twenty point two volts PP
+
+---------14:48----------
+3v3 under square G through hot is there
+
+---------14:50----------
+twenty point two volts 0.87 amps V Gore
+
+---------14:54----------
+V Gore V Corps don't fool me kidding
+
+---------14:57----------
+that much corrosion run V Gore whoa
+
+---------15:02----------
+right now let's see if this has a screen
+
+---------15:08----------
+you like cherry Tim House wrong with you
+
+---------15:12----------
+Chari is an awful Jolly Rancher oh I
+
+---------15:22----------
+will BAM
+
+---------15:30----------
+good to see you feeling better and
+
+---------15:32----------
+appearing in better spirits damn
+
+---------15:33----------
+straight Wow are you still working who
+
+---------15:41----------
+needs internal screen you have external
+
+---------15:42----------
+screen that's good enough
+
+---------15:46----------
+there's no boxes 13-inch
+
+---------15:54----------
+oh oh what's that oh no bad GP wait how
+
+---------16:06----------
+does have a bad GPU its Intel what no no
+
+---------16:14----------
+what did no no dead GPU inside the CPU
+
+---------16:23----------
+wait no no no no come on boot this is
+
+---------16:27----------
+killing me food food you [ __ ] food the
+
+---------16:35----------
+[ __ ] suspense man it was doing what
+
+---------16:40----------
+the 2011 with a dead GPU do
+
+---------16:56----------
+this is [ __ ] oh yeah works who gives
+
+---------17:05----------
+a [ __ ] they know that now that that's
+
+---------17:07----------
+what a working computer looks like oh
+
+---------17:10----------
+yeah
+
+---------17:12----------
+that was that that was that was a ride
+
+---------17:14----------
+so this machine had issues with PP 3 v 3
+
+---------17:16----------
+under squared G 3 hot be antutu
+
+---------17:18----------
+corrosion and we looked at the chip and
+
+---------17:21----------
+it was obvious that it was a little
+
+---------17:22----------
+nasty we touched it up but the enable
+
+---------17:24----------
+wasn't present so we still weren't
+
+---------17:25----------
+getting PP 3 V 3 under square G 3 hot
+
+---------17:27----------
+the enable comes from ISO 93 9 by the
+
+---------17:30----------
+way a chip that's available on nowhere
+
+---------17:32----------
+other then store dot Rossmann group.com
+
+---------17:36----------
+don't delay
+
+---------17:38----------
+stock up on that chip today we got a
+
+---------17:41----------
+limited supply by limited supply mean we
+
+---------17:43----------
+got a lot of them but it just sounds
+
+---------17:44----------
+really good when you put limited supply
+
+---------17:46----------
+because it gets more people to run them
+
+---------17:47----------
+buy it yes we have docks the customer
+
+---------17:49----------
+now the world knows that that person
+
+---------17:52----------
+owns a macbook and sent it to us yep
+
+---------17:56----------
+good luck getting elected for city
+
+---------17:58----------
+council now good luck getting elected
+
+---------18:00----------
+for City Council now that people know
+
+---------18:02----------
+that you own an Apple product and you
+
+---------18:04----------
+sent it here
+

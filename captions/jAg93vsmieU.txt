@@ -1,0 +1,1084 @@
+https://www.youtube.com/watch?v=jAg93vsmieU
+---------00:04----------
+here we have a MacBook Pro that's not
+
+---------00:06----------
+turning on this is an a 1398 15 inch
+
+---------00:09----------
+Retina let's take a look on the inside
+
+---------00:11----------
+of it and see what's going on with this
+
+---------00:12----------
+MacBook and see if we can make it work
+
+---------00:14----------
+again 19 milliamp and not turning on all
+
+---------00:21----------
+right let's turn on the good old
+
+---------00:23----------
+multimeter turn on the Paul Daniel
+
+---------00:25----------
+software pray that it works this evening
+
+---------00:27----------
+as we always do and see what's going on
+
+---------00:31----------
+with this machine
+
+---------00:32----------
+holy moly it worked on the first click
+
+---------00:35----------
+it's a Festivus miracle
+
+---------00:46----------
+pp best g3 out of twelve point six
+
+---------00:48----------
+meaning it's not shorted to the CPU
+
+---------00:49----------
+which actually puts us ahead of most of
+
+---------00:51----------
+the thirty six sixty two boards that I
+
+---------00:53----------
+work on
+
+---------01:02----------
+over here we're gonna see if when the
+
+---------01:05----------
+board is out of the case if it turns on
+
+---------01:11----------
+and it looks like we're still getting
+
+---------01:14----------
+the same amperage usage that we were
+
+---------01:15----------
+getting before 24 million so we're gonna
+
+---------01:19----------
+take a look around this board and see if
+
+---------01:21----------
+there's any evidence of anything that
+
+---------01:23----------
+could possibly be causing this to be
+
+---------01:25----------
+occurring so we're gonna go down our
+
+---------01:26----------
+list of power rails the same way we do
+
+---------01:29----------
+usually and we're gonna open up flex
+
+---------01:30----------
+board view and we're gonna find the list
+
+---------01:33----------
+of power rails remember we have a
+
+---------01:34----------
+problem with no power so what I do if
+
+---------01:36----------
+there's a problem with no power I'm
+
+---------01:38----------
+going to go through and find the list of
+
+---------01:40----------
+power rails in the machine figure out
+
+---------01:42----------
+which power rails are not showing up and
+
+---------01:43----------
+then we're gonna chase why it's not
+
+---------01:44----------
+showing up you know one of the difficult
+
+---------01:46----------
+things to do getting into this it's not
+
+---------01:47----------
+even not wanting to do the work it's not
+
+---------01:49----------
+knowing what work it is you need to do
+
+---------01:51----------
+so I'm gonna try and make that more
+
+---------01:53----------
+obvious when we have these streams or
+
+---------01:56----------
+live discussions now as I've mentioned
+
+---------01:59----------
+me before many times the g3 hot rails
+
+---------02:01----------
+come on first then s5 then it's 4 then s
+
+---------02:03----------
+3 then SL so we check PP bus g3 hot that
+
+---------02:07----------
+was on now we're gonna check the rest
+
+---------02:09----------
+now we know that P P 3 V 4 2 is on
+
+---------02:11----------
+because I get a green light in the
+
+---------02:12----------
+charger let's see if PP v g3 hot PPV RTC
+
+---------02:17----------
+G three hottest present it looks like it
+
+---------02:20----------
+is present just fine now let's check
+
+---------02:23----------
+something like PP 5 es 5
+
+---------02:30----------
+PP 5vs5 that's one point one volts now
+
+---------02:40----------
+one point one volts is not five volts
+
+---------02:43----------
+but one thing that's interesting here is
+
+---------02:44----------
+that it's stuck at one point one now
+
+---------02:46----------
+remember the other day when we were
+
+---------02:48----------
+troubleshooting this and we had an issue
+
+---------02:49----------
+around that chip that makes the five
+
+---------02:51----------
+volt in the three volt rails what was
+
+---------02:53----------
+going on is that we had power cycling it
+
+---------02:55----------
+was going between 22 and 36 milliamps
+
+---------02:58----------
+over and over and over again whereas on
+
+---------03:00----------
+this one into steady-state 24 millions
+
+---------03:02----------
+that tells me it's likely something
+
+---------03:04----------
+different I don't think it's gonna be a
+
+---------03:05----------
+short circuit anywhere in that area but
+
+---------03:07----------
+we are going to check out that area and
+
+---------03:09----------
+see that that's still gonna be my focus
+
+---------03:11----------
+but I'm gonna focus on it and I'm gonna
+
+---------03:14----------
+well from the idea that something else
+
+---------03:15----------
+may be wrong with it so let's just go
+
+---------03:18----------
+over to that part of the board and see
+
+---------03:20----------
+what happens around you 7501 all right
+
+---------03:22----------
+so we're at u7 501 now it right around
+
+---------03:25----------
+this chip there's gonna be three enables
+
+---------03:27----------
+because remember this chip is making
+
+---------03:29----------
+three distinct different power rails
+
+---------03:31----------
+this chip is making PP 5 es 4 it's
+
+---------03:36----------
+making PP 3 V 3 S 5 and it's making PP 5
+
+---------03:40----------
+es 5 since this chipper was responsible
+
+---------03:42----------
+for three different rails it's likely
+
+---------03:43----------
+going to have three different enable
+
+---------03:45----------
+pins to enable each one separately we
+
+---------03:48----------
+have on pin for the enable pin that's
+
+---------03:50----------
+going to be used to enable PP 5 es 4
+
+---------03:53----------
+right here we have on pin 21 the voltage
+
+---------04:00----------
+the enable pin for pp 3 V 3 S 5 and on
+
+---------04:03----------
+pin 12 we have the enable pin for PP 5e
+
+---------04:07----------
+s 5 so let's check you take a look and
+
+---------04:10----------
+see what's happening here so what I want
+
+---------04:11----------
+to do is check three things a the
+
+---------04:13----------
+voltage going into the chip at pin 23
+
+---------04:15----------
+and I expect PP Bush g3 hot to be there
+
+---------04:18----------
+and this pin over here pin 23 we should
+
+---------04:21----------
+be getting 12 point 6 volts the next
+
+---------04:24----------
+thing I should be getting is enable on
+
+---------04:25----------
+pin 12 and the third thing I should be
+
+---------04:27----------
+getting is 5 volts on output and no
+
+---------04:29----------
+short to ground so what we're gonna do
+
+---------04:32----------
+so let's take a look the first thing I
+
+---------04:34----------
+want to do is see if I'm getting 12
+
+---------04:36----------
+point 3 volts on the input pin right
+
+---------04:38----------
+over there so we're gonna measure that
+
+---------04:41----------
+first
+
+---------04:42----------
+there's quite a few pubes around there
+
+---------04:54----------
+twelve point six volts is going into it
+
+---------04:56----------
+the next thing I want to do is see if
+
+---------04:58----------
+the chip is being told to turn on so
+
+---------05:00----------
+here my light bulb
+
+---------05:02----------
+you know the electricity's work and I
+
+---------05:04----------
+got Troy got volt power going to my
+
+---------05:06----------
+light bulb now I want to see if the
+
+---------05:08----------
+light switch has been flipped if we have
+
+---------05:10----------
+three point three volts on pin twelve
+
+---------05:11----------
+that's similar to the light switch being
+
+---------05:13----------
+flipped remember I can't blame the chip
+
+---------05:15----------
+for the fact that the rail is missing
+
+---------05:17----------
+the same way I can't blame a light bulb
+
+---------05:19----------
+for the fact that it's not a mini light
+
+---------05:20----------
+if the switch is down and here the
+
+---------05:22----------
+version of the switch being down is
+
+---------05:23----------
+gonna be that the enable pin of that
+
+---------05:25----------
+chip does not receiving the power
+
+---------05:27----------
+required to turn it on and tell it hey
+
+---------05:28----------
+chip
+
+---------05:29----------
+turn on same way it's you know though
+
+---------05:31----------
+once you flip the switch light bulb turn
+
+---------05:34----------
+on so let's see what we're getting over
+
+---------05:36----------
+there so on this pin on pin twelve which
+
+---------05:40----------
+is over here according to my schematic
+
+---------05:44----------
+and board view ten twelve I am
+
+---------05:47----------
+we should be getting 3.3 volts and we
+
+---------05:54----------
+are however our output of PP 5 es 5 is
+
+---------06:02----------
+still one point one volts now when you
+
+---------06:05----------
+look at this area do you see anything
+
+---------06:06----------
+interesting anything here that sticks
+
+---------06:10----------
+out to you at all
+
+---------06:22----------
+it looks like this MacBook has had quite
+
+---------06:25----------
+a few pubes inside of it before you
+
+---------06:28----------
+notice that there's many pubes
+
+---------06:29----------
+however those pubes eventually turned
+
+---------06:32----------
+into what looks like a smudge of egg
+
+---------06:35----------
+salad or something over here gross so we
+
+---------06:40----------
+are going to remove the egg salad from
+
+---------06:42----------
+this MacBook and once you remove the the
+
+---------06:45----------
+egg salad from it it may work so I'm
+
+---------06:48----------
+going to turn on my fume extractor I
+
+---------06:51----------
+have a hack ofa 4:30 that I use for this
+
+---------06:54----------
+because I don't want to breathe this
+
+---------06:55----------
+stuff in and I think it's really
+
+---------06:57----------
+important if you work at a place that
+
+---------06:59----------
+does this that they get you a proper
+
+---------07:00----------
+fume extractor if you won't if somebody
+
+---------07:04----------
+owns their own business and they don't
+
+---------07:05----------
+use a fume extractor if they want to
+
+---------07:07----------
+ruin their own body and lungs that's
+
+---------07:08----------
+that's on them but I don't think that a
+
+---------07:11----------
+business owners cheapness should be the
+
+---------07:14----------
+reason that you are ruining your own
+
+---------07:15----------
+lungs at work so if you do stuff like
+
+---------07:17----------
+this and tell your boss to get you a
+
+---------07:19----------
+fume extractor and if they don't I would
+
+---------07:22----------
+suggest opening your own business or
+
+---------07:24----------
+finding a ways to get in another
+
+---------07:28----------
+business or quitting because that would
+
+---------07:30----------
+mean that they value a few hundred bucks
+
+---------07:34----------
+in their bank account over your health
+
+---------07:36----------
+and well-being and I've noticed many
+
+---------07:39----------
+businesses in this industry sadly tend
+
+---------07:42----------
+to do that and I'm not a fan of it I
+
+---------07:44----------
+makes me kind of sick so we're gonna do
+
+---------07:47----------
+here is remove this chip this is a TPS
+
+---------07:50----------
+five one nine eight zero I added a
+
+---------07:55----------
+little bit of Amtech flux there
+
+---------08:00----------
+this is the quick 861 DW hot air rework
+
+---------08:03----------
+station I believe that this is six or
+
+---------08:06----------
+eight millimeter nozzle I've got on here
+
+---------08:08----------
+right now and this hot air station is
+
+---------08:13----------
+available at store Osman group calm as
+
+---------08:15----------
+well as the chip that we're about to put
+
+---------08:17----------
+on here so I'm going to find another TPS
+
+---------08:19----------
+five one nine nine zero and if you
+
+---------08:21----------
+aren't exactly sure where to get a chip
+
+---------08:23----------
+like this if you didn't really be kind
+
+---------08:26----------
+of confused as to how this works you
+
+---------08:28----------
+7501 in it which is a TPS five or nine
+
+---------08:31----------
+eight zero on the eight to zero 30 662
+
+---------08:33----------
+board and one of the things that you can
+
+---------08:38----------
+do here if you are able to browse over
+
+---------08:41----------
+to store dot Rossmann group comm which
+
+---------08:44----------
+is pretty cool in my opinion well
+
+---------08:46----------
+somewhat biased opinion here check this
+
+---------08:48----------
+out folks watch this so you can type in
+
+---------08:53----------
+8 to 0-3 662 and for any Macbook board
+
+---------08:58----------
+it'll actually show you all the chips
+
+---------08:59----------
+that we have for that macbook forward
+
+---------09:01----------
+you just click there this BAM
+
+---------09:05----------
+everything back white fuse that's
+
+---------09:06----------
+compatible LCD filter that's compatible
+
+---------09:10----------
+and what do you know u7 501 TPS five one
+
+---------09:12----------
+nine nine zero and you click there and
+
+---------09:14----------
+we'll even tell you a list of the
+
+---------09:16----------
+compatible boards that it goes on it's
+
+---------09:17----------
+just absolutely amazing this is a one
+
+---------09:20----------
+Anik one and the kind one of a kind
+
+---------09:22----------
+website that you can only find at store
+
+---------09:25----------
+dot rossmann group.com that being said
+
+---------09:28----------
+with our shilling being complete let's
+
+---------09:30----------
+find the TPS five one nine z80 off of a
+
+---------09:32----------
+donor board because I'm too cheap to use
+
+---------09:34----------
+the chips that I actually sell to
+
+---------09:35----------
+customers we're gonna get ourselves a
+
+---------09:42----------
+chip and because I'm
+
+---------09:49----------
+now we're gonna solder it on to this
+
+---------09:50----------
+board and it's gonna work okay I've
+
+---------09:56----------
+gotten my donor chip now I'm going to
+
+---------09:59----------
+ten those pads and prepare them for the
+
+---------10:03----------
+new chip that I got here
+
+---------10:06----------
+add a little bit of soldering flux we're
+
+---------10:11----------
+gonna tin these pads
+
+---------10:22----------
+and then we're going to wick the pads
+
+---------10:52----------
+now we're going to clean the board with
+
+---------10:54----------
+an esd-safe
+
+---------10:55----------
+Sparkle paper towel from Amazon
+
+---------11:04----------
+that's an Ian look at that esd-safe
+
+---------11:06----------
+paper-towel beautiful okay
+
+---------11:13----------
+add some soldering flux and tin those
+
+---------11:16----------
+pads beautifully and prepare them for a
+
+---------11:18----------
+new chip my wife likes Apple products in
+
+---------11:21----------
+the Apple ecosystem thank you for
+
+---------11:23----------
+providing a do-it-yourself Apple repair
+
+---------11:25----------
+with the money I have saved I feel it is
+
+---------11:27----------
+only right to give back to the
+
+---------11:29----------
+information provider Thank You Lois
+
+---------11:30----------
+thank you awesome awesome robot and
+
+---------11:35----------
+thank you very much I really appreciate
+
+---------11:37----------
+that and I really hope that whatever it
+
+---------11:39----------
+was that you tried to fix that it went
+
+---------11:41----------
+well and you were able to solve your
+
+---------11:44----------
+problem and honestly this it's not even
+
+---------11:46----------
+so much the money-saving part although
+
+---------11:48----------
+that's cool there's something really
+
+---------11:49----------
+cool about seeing the fan spin again on
+
+---------11:51----------
+something that you figured out with your
+
+---------11:55----------
+own brain it's a really cool feeling and
+
+---------11:58----------
+it did genuine it just doesn't get old
+
+---------12:01----------
+like there are many parts of the job
+
+---------12:03----------
+that got old but seeing the fan spin the
+
+---------12:05----------
+satisfaction of seeing the fan spin at
+
+---------12:06----------
+the end never gets old
+
+---------12:10----------
+and I hope you enjoyed it
+
+---------12:16----------
+okay
+
+---------13:34----------
+this is the wrong iron so we're not
+
+---------13:39----------
+gonna be using the micro pencil today
+
+---------13:41----------
+because it appears that my micro pencil
+
+---------13:42----------
+tip is dead and those things cost fifty
+
+---------13:45----------
+five dollars
+
+---------13:46----------
+I don't particularly feel like spending
+
+---------13:49----------
+fifty five dollars at the moment so can
+
+---------13:52----------
+I use toothpaste for flocks and flocks
+
+---------13:54----------
+for toothpaste what what happened if I
+
+---------13:55----------
+did very bad things would happen so I
+
+---------13:57----------
+don't suggest doing that so I'm gonna
+
+---------14:00----------
+make do with this tip over here use the
+
+---------14:02----------
+angled edge of it to make sure that I'm
+
+---------14:04----------
+getting into all the joints that I need
+
+---------14:17----------
+beautiful
+
+---------14:21----------
+this is obviously not the ideal tip for
+
+---------14:23----------
+what I'm doing but my other one broke
+
+---------14:25----------
+and I'd like to show you that even if
+
+---------14:26----------
+you don't have the perfect tool for the
+
+---------14:28----------
+job at the moment that there are ways to
+
+---------14:30----------
+improvise I'm not saying you should
+
+---------14:32----------
+always use the wrong tool nor am I
+
+---------14:33----------
+saying that you should let a substandard
+
+---------14:35----------
+job leave your facility just that every
+
+---------14:38----------
+now and then you're gonna have to use a
+
+---------14:39----------
+little bit of ingenuity to make
+
+---------14:40----------
+something work so that you can get work
+
+---------14:43----------
+done and that it is possible to rather
+
+---------14:45----------
+than saying damn it I don't have what I
+
+---------14:47----------
+need I guess there's nothing I can do
+
+---------14:50----------
+the happy little message of
+
+---------14:51----------
+encouragement there okay
+
+---------14:57----------
+so we've replaced the chip and we've
+
+---------14:58----------
+removed the potato salad from the board
+
+---------15:00----------
+now that there's no more potato salad on
+
+---------15:02----------
+the board I'm curious to see if this
+
+---------15:04----------
+board will function so I'm going to wrap
+
+---------15:06----------
+it cool the board using rapid cool
+
+---------15:09----------
+technology rapid cool technology
+
+---------15:39----------
+okay so we're gonna turn off the rapid
+
+---------15:41----------
+cool technology catch the board is it
+
+---------15:43----------
+false and we're gonna see if it turns on
+
+---------15:47----------
+can i edit videos for use as rockford
+
+---------15:49----------
+tech well I'd have to figure out and set
+
+---------15:51----------
+up a way to actually send you video
+
+---------15:53----------
+files and one of the problems with that
+
+---------15:54----------
+is that these files are like 50 100 50
+
+---------15:58----------
+gigabytes per border pair and that I
+
+---------16:01----------
+can't send that a Time Warner also a
+
+---------16:03----------
+high high our store video editor
+
+---------16:06----------
+actually has something he'd like to tell
+
+---------16:07----------
+you there's that as well so what hi I
+
+---------16:15----------
+just said it's a given that you would be
+
+---------16:18----------
+replacing him and getting rid of his job
+
+---------16:23----------
+now if you're willing to work for
+
+---------16:24----------
+cheaper than hi hi mister Yazoo then so
+
+---------16:30----------
+now we're gonna plug this thing in see
+
+---------16:31----------
+how many amps is taking and see if it
+
+---------16:32----------
+turns on let's see if we get the magical
+
+---------16:35----------
+fan spent
+
+---------16:43----------
+as you can see the fans are spinning
+
+---------16:45----------
+which means that our work here is done
+
+---------16:47----------
+so the issue with this machine was that
+
+---------16:50----------
+it was not turning on and it was taking
+
+---------16:52----------
+23 male amps now unlike the machine from
+
+---------16:55----------
+yesterday whereas taking 23 male amps
+
+---------16:57----------
+and then spiking the 38 million every
+
+---------16:59----------
+time the other rails are coming on this
+
+---------17:01----------
+one was just stuck at 22 milli amps 22
+
+---------17:03----------
+mil and what was happening here is our
+
+---------17:05----------
+five volt rail was not turning on and
+
+---------17:08----------
+our five volt rail was not turning on
+
+---------17:10----------
+because there appeared to be an
+
+---------17:12----------
+abundance of pubes and also some egg
+
+---------17:15----------
+salad right by our TPS 5.98 zero chip we
+
+---------17:19----------
+replaced it I showed you how we went
+
+---------17:20----------
+about troubleshooting that how we went
+
+---------17:22----------
+out about finding the rail that was
+
+---------17:23----------
+missing and how he went about replacing
+
+---------17:25----------
+that chip using tools that are all
+
+---------17:27----------
+available that stored out Rossmann
+
+---------17:29----------
+group.com and we've also got this
+
+---------17:32----------
+beautiful water bottle here have to have
+
+---------17:35----------
+to show every single video this is a
+
+---------17:37----------
+water bottle that's a schematic sure dye
+
+---------17:38----------
+featuring my kitty mr. Clinton you can
+
+---------17:41----------
+see that unlike the old merchandise I
+
+---------17:43----------
+was selling I've actually had his ass
+
+---------17:46----------
+redrawn in this video and this in this
+
+---------17:50----------
+piece of merchandise here
+
+---------17:58----------
+so you can
+
+---------18:04----------
+as you can see here this water bottle
+
+---------18:07----------
+unlike our old merchandise has mr.
+
+---------18:09----------
+Clinton's ass fully drawn so you can see
+
+---------18:13----------
+the entirety of mr. Clinton the kitty
+
+---------18:15----------
+that says schematics or Die this kitty
+
+---------18:18----------
+asks you to support the right to repair
+
+---------18:21----------
+he's my cat his name is Clinton and he's
+
+---------18:25----------
+featured on this water bottle that's it
+
+---------18:28----------
+for today and as always I hope you
+
+---------18:30----------
+learned something as I said I'm gonna
+
+---------18:31----------
+try to keep up a Daily board repair
+
+---------18:33----------
+video from the queue and with any luck
+
+---------18:35----------
+there will be some lessons and
+
+---------18:37----------
+interesting useful tidbits that you
+
+---------18:39----------
+could learn from watching
+

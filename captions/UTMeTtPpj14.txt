@@ -1,0 +1,853 @@
+https://www.youtube.com/watch?v=UTMeTtPpj14
+---------00:00----------
+hello so today I'm gonna go over some
+
+---------00:02----------
+troubleshooting in the PP 5 vs 5 PP 5 es
+
+---------00:04----------
+3 circuit and I'm also gonna go over a
+
+---------00:06----------
+circumstance under which it's not
+
+---------00:08----------
+working and not turning on properly so
+
+---------00:10----------
+one of the things you should know about
+
+---------00:12----------
+the TPS 5 1 to 5 chip that I'm going to
+
+---------00:15----------
+show you here on the screen in a moment
+
+---------00:17----------
+is that this chip comes with its own LDO
+
+---------00:23----------
+inside of it so the way this works is
+
+---------00:24----------
+this is over here what I'm running
+
+---------00:27----------
+around the mouse is called a buck
+
+---------00:28----------
+converter but this does is it's going to
+
+---------00:30----------
+take the 12 volt power supply and split
+
+---------00:32----------
+it in two pulses and then through this
+
+---------00:33----------
+inductor and using these smoothing
+
+---------00:35----------
+capacitors it's going to be turned into
+
+---------00:36----------
+5 volts now this chip is gonna be using
+
+---------00:39----------
+these two transistors to create 5 volts
+
+---------00:42----------
+this chip they use 7,200 controls these
+
+---------00:44----------
+in order to know what 5 volts is it
+
+---------00:46----------
+actually has a tab called V ref where
+
+---------00:47----------
+it's going to be creating 5 volts and
+
+---------00:49----------
+it's using that to pretty much tell long
+
+---------00:52----------
+story short it's going to use that to
+
+---------00:53----------
+tell what 5 volts actually is so on this
+
+---------00:56----------
+board that I have here I'm going to show
+
+---------00:57----------
+you what it looks like
+
+---------00:58----------
+this is replaced already yeah camera
+
+---------01:04----------
+yank
+
+---------01:12----------
+and I have a confession to make a lot of
+
+---------01:16----------
+people who works here bought these chips
+
+---------01:17----------
+from James at l2 but you can't tell
+
+---------01:20----------
+anybody I know I couldn't find them
+
+---------01:22----------
+anywhere else I feel sick to my
+
+---------01:25----------
+stomach I did I feel sick all right so
+
+---------01:35----------
+I'm gonna replace that chip now and we
+
+---------01:38----------
+were gonna go from there
+
+---------02:01----------
+I'm not gonna burn your speaker
+
+---------02:03----------
+connector even though I know you can
+
+---------02:04----------
+reconnect I'm lying a little bit this
+
+---------02:21----------
+I put that back on the table so
+
+---------02:28----------
+that I can remember its orientation so
+
+---------02:32----------
+one of one of the things that I always
+
+---------02:33----------
+do is I put the chip down and I forget
+
+---------02:35----------
+the way it was already entered on the
+
+---------02:36----------
+motherboard
+
+---------02:50----------
+hmm now one of those doesn't look as
+
+---------02:52----------
+good as it should
+
+---------02:53----------
+let's see if you can guess which one I'm
+
+---------02:56----------
+talking about see this
+
+---------03:12----------
+it doesn't look very complete to me I
+
+---------03:20----------
+want to know what that pad is for
+
+---------03:38----------
+let's pin 22
+
+---------03:42----------
+now pin 22 is the actual feedback from
+
+---------03:44----------
+the buck converter going through C 70 to
+
+---------03:49----------
+60 let's see receipt 70 to 60s because
+
+---------03:54----------
+this may be what's causing the problem
+
+---------03:58----------
+so this board does this board has went
+
+---------04:01----------
+through a journey so this was actually
+
+---------04:02----------
+destroyed by somebody who sent it to my
+
+---------04:05----------
+friend my friend had about no sleep for
+
+---------04:08----------
+three days straight and then got a
+
+---------04:09----------
+shipment of almost a dozen boards in
+
+---------04:11----------
+this being one of them and he has been
+
+---------04:15----------
+torturing himself at these because they
+
+---------04:17----------
+were all screwed with by somebody before
+
+---------04:18----------
+he sent it to him and that's where they
+
+---------04:21----------
+wound up here
+
+---------04:22----------
+so I'm not gonna go through the entire
+
+---------04:25----------
+thing and I'm not even gonna show you
+
+---------04:26----------
+video working on these I'm mainly I'm
+
+---------04:28----------
+trying to fix the issues that were
+
+---------04:31----------
+created by original idiot and then after
+
+---------04:36----------
+that I'm going to get them to a point
+
+---------04:39----------
+where they should be easy enough to
+
+---------04:41----------
+finish and then move on let's go back
+
+---------04:49----------
+into the microscope so you can see me
+
+---------04:51----------
+shamefully try to run a jumper wire
+
+---------05:15----------
+let's see
+
+---------05:25----------
+I can break that off in a minute
+
+---------08:00----------
+if you buy a wire that's too high in
+
+---------08:01----------
+quality that makes it hard it's a good
+
+---------08:03----------
+thing I'm using battery wire yeah
+
+---------08:20----------
+doing
+
+---------08:34----------
+smoke yeah it's that nasty
+
+---------09:06----------
+please don't smoke
+
+---------09:09----------
+you'll be so nice if you don't smoke
+
+---------09:24----------
+boo
+
+---------09:26----------
+still two votes okay so I spent the last
+
+---------09:34----------
+half hour on what I call the rabbit hole
+
+---------09:36----------
+to hell so to give you a little bit of
+
+---------09:37----------
+an update on what went on here so I did
+
+---------09:40----------
+manage to replace the TPS five and one
+
+---------09:43----------
+to five I actually wound up not needing
+
+---------09:45----------
+the jumper wire I wasn't able to clean
+
+---------09:47----------
+the pad and scrape away at it to the
+
+---------09:48----------
+point where this worked and this now is
+
+---------09:52----------
+pretty much good so this section creates
+
+---------09:55----------
+five volts now the problem is when you
+
+---------09:56----------
+turn it on it wasn't actually working
+
+---------09:58----------
+you weren't getting any there was no V
+
+---------10:00----------
+core there was no mctv core no cpu v
+
+---------10:03----------
+core so let's move over over here now
+
+---------10:06----------
+right over here is where the power
+
+---------10:09----------
+enters this chip to actually power now
+
+---------10:11----------
+one of the hints that you should
+
+---------10:12----------
+probably have is if you look at that
+
+---------10:14----------
+you'll see that it's burned and when you
+
+---------10:16----------
+look that up on the schematic let me
+
+---------10:18----------
+just bring that up here okay so when we
+
+---------10:25----------
+move over here you're gonna see that you
+
+---------10:27----------
+7400 right over here is where the burn
+
+---------10:29----------
+occurred so right over here I'm moving
+
+---------10:31----------
+the mouse that moves over to here which
+
+---------10:33----------
+is pin 20 of you 7400 now you 7400 up
+
+---------10:38----------
+here pin 20 is voltage in if we follow
+
+---------10:41----------
+that you'll see that that as the voltage
+
+---------10:42----------
+that goes into the chip so this chip
+
+---------10:44----------
+itself got burned
+
+---------10:45----------
+so pp bus g3 hot must have done
+
+---------10:48----------
+something nuts and after it did
+
+---------10:49----------
+something nuts it went on the burning on
+
+---------10:51----------
+just about everything on the board now
+
+---------10:53----------
+the problem that we're having is that
+
+---------10:54----------
+there's no mCP v core the mCP is what to
+
+---------10:57----------
+think of it like a Northbridge and
+
+---------10:58----------
+Southbridge just in a more modern and
+
+---------11:00----------
+smaller architecture to make life a
+
+---------11:02----------
+little bit simpler so let's go over and
+
+---------11:04----------
+see what that looks like on here or so
+
+---------11:07----------
+this is the chip that controls the buck
+
+---------11:09----------
+converter for CP for MCP v core and if
+
+---------11:12----------
+you look closely you're gonna see that
+
+---------11:14----------
+it looks really really disgusting over
+
+---------11:16----------
+here let me just get a perfect light
+
+---------11:18----------
+setting because that you can kind of get
+
+---------11:21----------
+a better idea what I'm talking about
+
+---------11:23----------
+now right over here
+
+---------11:28----------
+because we're it doesn't look good so
+
+---------11:30----------
+let's see if I can just get it a little
+
+---------11:32----------
+bit of a better image when I go to 30x
+
+---------11:34----------
+go into 30x requires refocusing on this
+
+---------11:37----------
+thing
+
+---------11:45----------
+yeah so right there that doesn't look
+
+---------11:47----------
+very nice no desert let's see if more
+
+---------11:51----------
+light makes it obvious
+
+---------12:07----------
+well you get the idea that is burned and
+
+---------12:09----------
+that's no good so now I'm gonna try
+
+---------12:12----------
+replacing that and hopefully any of the
+
+---------12:15----------
+ancillary components around it and what
+
+---------12:17----------
+I'm really hoping is that if I do that
+
+---------12:19----------
+the the rabbit hole to hell will come to
+
+---------12:21----------
+an end I I'm not a fan of the rabbit
+
+---------12:24----------
+hole de hell I am doing this because it
+
+---------12:26----------
+is to help a friend I do not spend my
+
+---------12:39----------
+Easter with core2duo boards that
+
+---------12:45----------
+are destroyed for no reason I'll always
+
+---------12:53----------
+try to help a friend so let's just go
+
+---------12:55----------
+back on here and see what looks messed
+
+---------12:59----------
+up so this has a hole in it yeah let's
+
+---------13:03----------
+see if you can see the hole perfectly so
+
+---------13:06----------
+we're gonna try to look up what that is
+
+---------13:10----------
+see that no good then we're gonna let's
+
+---------13:14----------
+see the chip itself it has the nastiness
+
+---------13:20----------
+over there so let's go and see what
+
+---------13:22----------
+those things are that's what the screen
+
+---------13:26----------
+recorder is for and my board view and
+
+---------13:32----------
+hopefully nobody walks into the store
+
+---------13:33----------
+because every time somebody walks in the
+
+---------13:34----------
+store I gotta pause the video because I
+
+---------13:37----------
+don't have a weekend person I got sick
+
+---------13:40----------
+and tired of driving myself crazy with
+
+---------13:43----------
+weekend people that couldn't do what I
+
+---------13:45----------
+needed them to and now they're all gone
+
+---------13:50----------
+so that is a 2.2 ohm resistor going
+
+---------13:58----------
+between come on keyboard oh yeah I gotta
+
+---------14:05----------
+have batteries for this wireless
+
+---------14:06----------
+keyboard
+
+---------14:07----------
+I don't I got to get one with better
+
+---------14:08----------
+range problem when you buy those cheap
+
+---------14:11----------
+thirty to forty dollar wireless kits
+
+---------14:13----------
+instead of a good one is the lack of
+
+---------14:15----------
+range even when the
+
+---------14:16----------
+that's a 2.2 ohm resistor does anybody
+
+---------14:20----------
+want to bet that that's no longer 2.2
+
+---------14:22----------
+ohms I could always be wrong but you
+
+---------14:30----------
+know 96 ohms
+
+---------14:49----------
+you're not 2.2 ohms
+
+---------14:51----------
+you got to go okay so we're gonna
+
+---------14:54----------
+replace some of the terrible parts of
+
+---------14:56----------
+that set up and also another thing I'm
+
+---------14:58----------
+gonna be interested in is does pp bus g3
+
+---------15:00----------
+huh
+
+---------15:00----------
+on that pin that looks bad so over here
+
+---------15:03----------
+you see pp bus g3 hot is which what is
+
+---------15:05----------
+supposed to be there which is the 12.6
+
+---------15:07----------
+supply that the machine is going to be
+
+---------15:09----------
+running off of yet over here so
+
+---------15:13----------
+hopefully that pad actually exists I'm
+
+---------15:16----------
+gonna remove that watch somebody walk in
+
+---------15:25----------
+I've been interrupted about five times
+
+---------15:28----------
+and trying to do this video which is why
+
+---------15:29----------
+I just edited out the whole rabbit hole
+
+---------15:31----------
+part of it because people just keep
+
+---------15:34----------
+walking it so on the weekends it's just
+
+---------15:37----------
+me here so every time somebody walks in
+
+---------15:38----------
+hey it stopped also my office is in the
+
+---------15:43----------
+back of the store so I gotta walk about
+
+---------15:44----------
+60 feet every time somebody walks in to
+
+---------15:47----------
+greet them and if believe it or not this
+
+---------15:52----------
+is actually less of a pain in the ass
+
+---------15:54----------
+than having weekend people who can't do
+
+---------15:55----------
+their job right okay I'm gonna put that
+
+---------16:00----------
+chip down the table so I have its
+
+---------16:01----------
+orientation even if I forget it
+
+---------16:07----------
+move this old trash here when this is
+
+---------16:14----------
+done I'm gonna be very very happy if it
+
+---------16:16----------
+beeps I don't even care if it beeps with
+
+---------16:19----------
+RAM inside of it I'll be just happy if
+
+---------16:20----------
+it beeps is it the these machines they
+
+---------16:24----------
+won't beep when there's no RAM inside if
+
+---------16:27----------
+the mCP is not working not on or not
+
+---------16:29----------
+good it's very very rare for an MCP 79
+
+---------16:33----------
+or an MCP 89 baseboard to die because
+
+---------16:36----------
+it's not tied to a powerful graphics
+
+---------16:38----------
+chip as you can see I ripped something
+
+---------16:39----------
+off just there pray that this is as a
+
+---------16:42----------
+result of me looking up every three
+
+---------16:44----------
+seconds to see if somebody's walking in
+
+---------16:45----------
+the door it's amazing how that is not
+
+---------16:49----------
+conducive to quality soldering but again
+
+---------16:53----------
+I am actually happier like this then I
+
+---------16:57----------
+am having morons work on on the weekend
+
+---------17:21----------
+hey we're gonna be now we take a chip
+
+---------17:29----------
+off of a board that looks like
+
+---------17:32----------
+because I don't have any eight to zero
+
+---------17:34----------
+2879
+
+---------17:35----------
+donors lying around I don't have as much
+
+---------17:41----------
+stuff for the older boards as I do for
+
+---------17:42----------
+Newark for obvious reasons you know
+
+---------17:44----------
+these are just is it not worth fixing
+
+---------17:46----------
+anymore I mean it's core2duo
+
+---------17:50----------
+this board is six years old five yeah
+
+---------17:53----------
+five years old
+
+---------18:26----------
+and somebody walked in okay back to work
+
+---------18:39----------
+I love how they walk in and yell a
+
+---------18:41----------
+centre-right as the chip is going down I
+
+---------18:44----------
+mean like they could have walked in
+
+---------18:46----------
+after that before that but they actually
+
+---------18:48----------
+they they know just like the board view
+
+---------18:50----------
+knows which orientation the board is in
+
+---------18:52----------
+so that it can open it in the opposite
+
+---------18:53----------
+direction of me customers knowing
+
+---------18:55----------
+there's something important going on and
+
+---------18:57----------
+they know to walk in at just the right
+
+---------18:58----------
+moment to drive me nuts that's part of
+
+---------19:04----------
+life
+
+---------19:07----------
+okay let's replace the rest of that
+
+---------19:10----------
+nasty and junk
+
+---------20:42----------
+I should change my soldering iron to
+
+---------20:44----------
+instead of being a stubborn dumbass that
+
+---------20:47----------
+would be the smart thing to do
+
+---------20:48----------
+the smart thing to do would be to change
+
+---------20:50----------
+the sip to the proper tip for the job it
+
+---------20:53----------
+is that I'm attempting to perform
+
+---------21:13----------
+I know as soon as I go to change the tip
+
+---------21:15----------
+somebody's gonna walk in all part of the
+
+---------21:22----------
+evil master plan to keep Luis from being
+
+---------21:25----------
+productive
+
+---------21:40----------
+okay usually I say that when I'm done I
+
+---------21:46----------
+will clean the board to make it look
+
+---------21:47----------
+nice that will totally be my friend's
+
+---------21:51----------
+job when this is done it's one of the
+
+---------21:54----------
+luxuries I have yeah I'm not cleaning
+
+---------21:55----------
+this when I'm done with you somebody
+
+---------21:58----------
+else can do that all right
+
+---------22:07----------
+I'll clean it a little bit just to cool
+
+---------22:10----------
+it off some alcohol too I had a brush
+
+---------22:20----------
+that was really good at getting flux off
+
+---------22:22----------
+and it got lost so this is just a
+
+---------22:24----------
+regular toothbrush
+
+---------22:38----------
+yeah
+
+---------23:01----------
+CPU vcore MC P V Corps
+

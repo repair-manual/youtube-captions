@@ -1,0 +1,811 @@
+https://www.youtube.com/watch?v=dK9pfbGSE4A
+---------00:00----------
+so today we're gonna be working on an 8
+
+---------00:01----------
+to 0 37 87 that has no backlight on the
+
+---------00:06----------
+keyboard so we turn it on and I'm just
+
+---------00:08----------
+gonna show you what happens inside the
+
+---------00:10----------
+operating system it looks like this has
+
+---------00:11----------
+already been with to some extent
+
+---------00:13----------
+if we look in the microscope camera you
+
+---------00:15----------
+will see flux you will see captain tape
+
+---------00:18----------
+and you will see signs that I'm not the
+
+---------00:20----------
+first one here but we know that we
+
+---------00:22----------
+expect that at this point I'm never the
+
+---------00:24----------
+first one we don't get backlight for
+
+---------00:26----------
+users we don't get like we don't get
+
+---------00:28----------
+just Jay tags anymore we never get the
+
+---------00:30----------
+easy stuff we only get this stuff that
+
+---------00:33----------
+nobody else wants so let's turn this on
+
+---------00:35----------
+I'm gonna boot into my operating system
+
+---------00:37----------
+and we're going to see what is going on
+
+---------00:40----------
+with this machine and the first thing I
+
+---------00:42----------
+want to do is I unplug the webcam and
+
+---------00:45----------
+the reason I unplug the webcam is
+
+---------00:46----------
+because the webcam is also often an
+
+---------00:48----------
+ambient light sensor which is how it
+
+---------00:50----------
+tells if there's a lot of light in the
+
+---------00:52----------
+room and I don't feel like having to
+
+---------00:53----------
+remember to cover the webcam if I don't
+
+---------00:55----------
+cover the webcam like this then the
+
+---------00:57----------
+light won't come on and it can be a
+
+---------00:59----------
+little bit of a pain in the ass so we're
+
+---------01:02----------
+gonna turn this on and we're gonna boot
+
+---------01:03----------
+into a test operating system and the
+
+---------01:05----------
+first thing I want to do is see what
+
+---------01:07----------
+what does it register when I hit the
+
+---------01:08----------
+backlight up and down keys in the
+
+---------01:10----------
+keyboard I want to see if it registers
+
+---------01:11----------
+anything I want to see if it even knows
+
+---------01:13----------
+that I'm hitting the keys at all if it
+
+---------01:15----------
+doesn't tell that I'm hitting the keys
+
+---------01:17----------
+that's going to be interesting to me all
+
+---------01:19----------
+right so we're gonna go inside here and
+
+---------01:21----------
+wait what do you mean that's not my
+
+---------01:23----------
+password that's my ultimate secure
+
+---------01:25----------
+password there right there 1 2 3 4 baby
+
+---------01:27----------
+alright so when I turn the brightness up
+
+---------01:31----------
+I do get the symbol on the screen I get
+
+---------01:33----------
+the brightness symbol which means that
+
+---------01:36----------
+it knows that I have a keyboard external
+
+---------01:40----------
+keyboard attached and it but the
+
+---------01:43----------
+keyboard brightness is not going up
+
+---------01:44----------
+there's no light on the keyboard so
+
+---------01:47----------
+where would one of you start here on an
+
+---------01:49----------
+eight to zero thirty seven eighty seven
+
+---------01:52----------
+board that has no keyboard backlight
+
+---------01:55----------
+check the backlight coil near the driver
+
+---------01:57----------
+okay what am I gonna check at the are
+
+---------02:00----------
+you saying check the coil or are you
+
+---------02:01----------
+saying check near the coil if you're
+
+---------02:03----------
+saying check the coil I'm going to have
+
+---------02:06----------
+to give you an internet punch right
+
+---------02:08----------
+right in the face
+
+---------02:10----------
+if it if you're saying check near the
+
+---------02:12----------
+coil that's a good idea so I'm gonna go
+
+---------02:15----------
+and check near the coil I'm also gonna
+
+---------02:17----------
+see if I missed anything here that
+
+---------02:19----------
+doesn't seem like a half all right so
+
+---------02:21----------
+let's check near the coil which means
+
+---------02:23----------
+minimizing all of the stuff so checking
+
+---------02:27----------
+near the coil that's a decent idea no
+
+---------02:29----------
+near it it gets five volts all right so
+
+---------02:31----------
+let's look go on the screen here and see
+
+---------02:33----------
+how this boards now if you don't know
+
+---------02:35----------
+what a DC to DC boost circuit is I would
+
+---------02:37----------
+highly recommend that you check out my
+
+---------02:38----------
+videos and how a DC to DC boost circuit
+
+---------02:40----------
+works because that's going to prepare
+
+---------02:42----------
+you for for what's going on here so the
+
+---------02:44----------
+way a DC to DC boost circuit works long
+
+---------02:46----------
+story short if you want to turn let's
+
+---------02:48----------
+say five volts which is this into twenty
+
+---------02:50----------
+five volts what you do is you send five
+
+---------02:53----------
+volts before a coil now the coil is
+
+---------02:55----------
+going to store voltage in it because
+
+---------02:56----------
+it's round and coiled and so the
+
+---------02:58----------
+way this is gonna work is after the coil
+
+---------03:00----------
+we are going to short it to ground so
+
+---------03:02----------
+right after here we're gonna short it to
+
+---------03:03----------
+ground this is gonna be like stopping
+
+---------03:04----------
+short in the car so let's say you're
+
+---------03:06----------
+driving at twenty miles an hour and you
+
+---------03:07----------
+stop short for that quick moment you're
+
+---------03:10----------
+gonna jolt forward and you're gonna jolt
+
+---------03:12----------
+forward more than the twenty miles an
+
+---------03:14----------
+hour so your body is gonna move forward
+
+---------03:16----------
+faster than twenty miles an hour that
+
+---------03:18----------
+you were that you that you had been a
+
+---------03:20----------
+jolt that you were driving prior to the
+
+---------03:22----------
+jolt forward and it's like stopping
+
+---------03:24----------
+short and the same go holds true
+
+---------03:26----------
+for this it's just like stopping short
+
+---------03:28----------
+over and over again so when we're told
+
+---------03:29----------
+so when we're using a DC to DC booster
+
+---------03:31----------
+we can have five volts coming through
+
+---------03:33----------
+here after the coil there's going to be
+
+---------03:35----------
+something that switches the ground so
+
+---------03:37----------
+over here on this chip which is the back
+
+---------03:38----------
+light chip we have a SW trace that
+
+---------03:40----------
+switch to is the second switch the first
+
+---------03:43----------
+one is for a backlight for the LCD
+
+---------03:46----------
+screen the second one is going to be
+
+---------03:47----------
+switched for the keyboard backlight and
+
+---------03:48----------
+that's going to switch it to ground so
+
+---------03:50----------
+it's gonna stop short and for a quick
+
+---------03:51----------
+second we're going to have a spike of
+
+---------03:53----------
+let's say 25 volts or 30 volts instead
+
+---------03:56----------
+of 5 because we shorted it to ground
+
+---------03:58----------
+which causes the coil to put out bunch
+
+---------04:00----------
+of voltage really quickly the same way
+
+---------04:02----------
+that stopping short in a car causes you
+
+---------04:03----------
+to jump forward really quickly now it
+
+---------04:06----------
+would be pretty uncomfortable if
+
+---------04:07----------
+somebody kept stopping short hundreds of
+
+---------04:10----------
+thousands of times every second right
+
+---------04:11----------
+would probably piss you off well that's
+
+---------04:13----------
+what we're gonna do the electrons over
+
+---------04:15----------
+and over and over again we're gonna
+
+---------04:16----------
+ torture those pieces of crap and
+
+---------04:18----------
+the way that that's going to happen the
+
+---------04:20----------
+way that we're gonna turn that into a
+
+---------04:21----------
+higher voltage is we have a diode over
+
+---------04:22----------
+here
+
+---------04:23----------
+a diode and we have
+
+---------04:24----------
+capacitors the capacitors are going to
+
+---------04:26----------
+store those spikes of 25 volts so over
+
+---------04:29----------
+here you're gonna have spikes of 25
+
+---------04:30----------
+volts that get stored in the capacitor
+
+---------04:32----------
+is like a battery we have capacitors
+
+---------04:33----------
+going to ground the voltage is gonna the
+
+---------04:35----------
+DC voltage is gonna try to make its way
+
+---------04:37----------
+to ground that's gonna really want to go
+
+---------04:38----------
+to ground but not be able to because the
+
+---------04:40----------
+capacitor cannot pass DC because it has
+
+---------04:42----------
+got that insulator material in the
+
+---------04:44----------
+middle so it's gonna get slammed onto
+
+---------04:46----------
+this plate over here it's you're gonna
+
+---------04:47----------
+have voltage slammed on the plate of the
+
+---------04:49----------
+capacitor and it's gonna be stored there
+
+---------04:50----------
+while it's trying to go to ground the
+
+---------04:52----------
+electrons not only are we torturing them
+
+---------04:54----------
+we're also trusting the fact that
+
+---------04:55----------
+they're so stupid but they have no idea
+
+---------04:57----------
+that there's no way to get to ground
+
+---------04:59----------
+they're just gonna keep slamming
+
+---------05:00----------
+themselves into the plate so we're gonna
+
+---------05:01----------
+have all these pulses at 25 volts stored
+
+---------05:03----------
+over here and since we have a diode over
+
+---------05:05----------
+here that's only going to allow power to
+
+---------05:06----------
+go through one way it's not going to
+
+---------05:09----------
+allow the voltage to the 25 volts we
+
+---------05:11----------
+store here to go back to ground so we're
+
+---------05:12----------
+going to have this switch and just
+
+---------05:15----------
+assume let me just get this full screen
+
+---------05:17----------
+a little so that you can see better so
+
+---------05:19----------
+this over here is going to be the
+
+---------05:21----------
+backlight chip this is going to be 5
+
+---------05:23----------
+volts coming into the coil the coil is
+
+---------05:25----------
+gonna have a lot of 5 volts stored over
+
+---------05:28----------
+here then we're going a short to ground
+
+---------05:29----------
+on this side which is gonna cause the
+
+---------05:31----------
+coil to send these little spikes of 25
+
+---------05:33----------
+volts through and because we're trying
+
+---------05:36----------
+to rip that voltage that's stored in the
+
+---------05:37----------
+coil out as quickly as we can
+
+---------05:39----------
+same as stopping short in the car now
+
+---------05:41----------
+the the spikes of 25 volts are gonna be
+
+---------05:44----------
+stored by the capacitor and when this
+
+---------05:45----------
+decides that it's going in short to
+
+---------05:47----------
+ground again when this trip decides this
+
+---------05:48----------
+short the voltage in front of the coil
+
+---------05:49----------
+ground it's not going to make the
+
+---------05:51----------
+voltage that's inside of the capacitors
+
+---------05:53----------
+go away because it cannot go back
+
+---------05:55----------
+through the diode it can only go one way
+
+---------05:57----------
+to the right not to the last year so one
+
+---------05:59----------
+of the first things that we have to
+
+---------06:00----------
+check for here is that we get 5 volts on
+
+---------06:03----------
+this part of the coil on around L 77 20
+
+---------06:08----------
+so I'm gonna turn this thing on hit the
+
+---------06:12----------
+keys on the screen we're going to look
+
+---------06:13----------
+over here and let's take a look so R
+
+---------06:21----------
+where it was where's my coil L 77 20
+
+---------06:25----------
+that's gonna be this so we get four
+
+---------06:27----------
+point nine volts but it's kind of going
+
+---------06:29----------
+down you see that not sure what's up
+
+---------06:31----------
+with that so we get voltage on the coil
+
+---------06:34----------
+but it's there and then it's but it's
+
+---------06:36----------
+kind of there but
+
+---------06:38----------
+really there leaky cap okay if it could
+
+---------06:46----------
+be a leaky cap what would we get if it
+
+---------06:47----------
+was a leaky cap
+
+---------06:57----------
+how will we check for that break in the
+
+---------07:02----------
+lines of the backlight LEDs well the
+
+---------07:05----------
+thing is we're not at the backlight LEDs
+
+---------07:07----------
+because at pin 1 we only have 4 point 8
+
+---------07:10----------
+volts so there's only a couple of
+
+---------07:11----------
+options here what are the two things
+
+---------07:12----------
+that would reduce our voltage at pin 1
+
+---------07:16----------
+no keyboard backlight please tell me
+
+---------07:19----------
+someone isn't paying for 25 for this
+
+---------07:20----------
+miles miles got to make up for all those
+
+---------07:25----------
+SMC's and dead PCHS and CPU somehow now
+
+---------07:28----------
+man all right what do we do what do we
+
+---------07:31----------
+do our 7 7 8 3 all right let's check our
+
+---------07:34----------
+7 7 8 3 so that's gonna be over here
+
+---------07:36----------
+that's gonna sit between pp5 VSO and the
+
+---------07:40----------
+keyboard backlight so this is a zero ohm
+
+---------07:42----------
+resistor which is being used in this
+
+---------07:44----------
+case as a fuse so let's see on this side
+
+---------07:51----------
+five point zero four seven and on this
+
+---------07:55----------
+side four point nine four point eight
+
+---------07:58----------
+four point seven someone says remove
+
+---------08:00----------
+JTAG no all right so let's check -
+
+---------08:04----------
+somebody said check for a short all
+
+---------08:06----------
+right so we're gonna turn the Machine
+
+---------08:07----------
+off because we don't want to have power
+
+---------08:08----------
+applied while we do this put the meter
+
+---------08:11----------
+in diode mode in check on let's see pp
+
+---------08:15----------
+five ESO can't be shorted because it's
+
+---------08:17----------
+turning on obviously Miele says just run
+
+---------08:25----------
+PP five ESO to the keyboard
+
+---------08:26----------
+no one adjusted anyways and if they
+
+---------08:28----------
+[ __ ] just Dremel a switch on the side
+
+---------08:30----------
+of the computer someone's I think
+
+---------08:32----------
+getting a little jealous at me making
+
+---------08:34----------
+money off of this that sounds like
+
+---------08:36----------
+someone's trying to sabotage me so
+
+---------08:38----------
+there's no short and if on either side
+
+---------08:41----------
+and if we check the resistance of the
+
+---------08:44----------
+resistor let's see what we get here but
+
+---------08:50----------
+you get some millions of ohms man miles
+
+---------08:54----------
+is gonna be mad if he saw how much I was
+
+---------08:56----------
+getting paid to replace a resistor today
+
+---------08:57----------
+so it looks like we're gonna be
+
+---------08:59----------
+replacing a resistor all right so we're
+
+---------09:01----------
+going to take this resistor and
+
+---------09:09----------
+this resistor is not resisting anymore
+
+---------09:12----------
+it's resisting a little too much
+
+---------09:14----------
+actually we need to replace with
+
+---------09:15----------
+something that resists a lot less
+
+---------09:18----------
+because this is resisting way too much
+
+---------09:21----------
+which means it's not gonna be welcome
+
+---------09:23----------
+here we're gonna repeal and replace this
+
+---------09:30----------
+resistor with one that resists less
+
+---------09:38----------
+that's what we're gonna do
+
+---------09:46----------
+the PCB got scratched while he was
+
+---------09:48----------
+testing that resistor unprofessional no
+
+---------09:51----------
+that's not unprofessional dip Paul
+
+---------09:52----------
+that's not unprofessional this is
+
+---------09:55----------
+unprofessional this is unprofessional
+
+---------10:35----------
+I warranty all right so let's get the
+
+---------10:38----------
+resistor replaced I should start drawing
+
+---------10:43----------
+trees on the motherboards that would be
+
+---------10:45----------
+that would be a really interesting
+
+---------10:45----------
+warranty sticker I keep getting these
+
+---------10:48----------
+comments on Bob Ross on the YouTube
+
+---------10:51----------
+channel and I think that would be a fun
+
+---------10:56----------
+way to make a warranty sticker
+
+---------11:19----------
+but-- but-- hey i has backlights on my
+
+---------11:32----------
+keys look at that look at that miles
+
+---------11:37----------
+that is beautiful so that's that's a fix
+
+---------11:49----------
+that's a fix
+

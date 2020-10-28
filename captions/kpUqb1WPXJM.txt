@@ -1,0 +1,1165 @@
+https://www.youtube.com/watch?v=kpUqb1WPXJM
+---------00:00----------
+today we're gonna be working on an 8 to
+
+---------00:01----------
+0-4 9 to 4 board that's not turning on
+
+---------00:04----------
+my useless assistant here
+
+---------00:06----------
+introduce yourself useless assistant is
+
+---------00:09----------
+eating and he is not fixing stuff
+
+---------00:11----------
+because well no I'm kidding he's a good
+
+---------00:13----------
+guy he's a good guy come here big hug
+
+---------00:15----------
+big hug ok doesn't want a big hug he's
+
+---------00:17----------
+meeting his hashtag meeting because I
+
+---------00:19----------
+did that any so today we've got a 8 to
+
+---------00:22----------
+0-4 9 to 4 board here and it appears to
+
+---------00:25----------
+be dead we're gonna try and figure out
+
+---------00:26----------
+why that is now one cool thing that I
+
+---------00:27----------
+did is actually realize I could switch
+
+---------00:30----------
+the lenses from my NEX ei 50 and my a
+
+---------00:32----------
+5100 because I don't need a zoom lens
+
+---------00:34----------
+for my face but I do need a zoom lens
+
+---------00:37----------
+for the desk so now there's no you may
+
+---------00:39----------
+notice that there's no more digital zoom
+
+---------00:41----------
+this is pure beautiful old style analog
+
+---------00:45----------
+zoom and look at how detail this can get
+
+---------00:47----------
+if I want do keep in mind this camera is
+
+---------00:50----------
+still this is still some piece of crap
+
+---------00:52----------
+$480 camera however for 480 bucks this
+
+---------00:57----------
+is pretty sweet look at that you get a
+
+---------00:59----------
+really nice look at the board from high
+
+---------01:01----------
+up and I bet you could even zoom in on
+
+---------01:03----------
+individual components on it from here
+
+---------01:08----------
+somebody said it's slow yeah but I can
+
+---------01:11----------
+make the servo faster look at that look
+
+---------01:14----------
+at this like you can solder with this so
+
+---------01:16----------
+this board looks pretty nasty so that's
+
+---------01:18----------
+the board on the desk let's figure out
+
+---------01:20----------
+why this thing doesn't have a green
+
+---------01:21----------
+light so when I take a charger and I
+
+---------01:27----------
+plug it in as you can see there's no
+
+---------01:31----------
+light on the charger see that no light
+
+---------01:35----------
+look at that InFocus MagSafe right there
+
+---------01:37----------
+so there's no light in the charger now
+
+---------01:39----------
+if we have no light in the charger
+
+---------01:40----------
+that's typically because bad SMC bad DC
+
+---------01:44----------
+and board missing pg3 before to SMC not
+
+---------01:47----------
+turning on so let's just get the
+
+---------01:50----------
+multimeter in place and see if pp3
+
+---------01:52----------
+before 2 is present on this model board
+
+---------01:54----------
+so this is the adapter this is the way
+
+---------01:57----------
+the adapter plugs into the board 18
+
+---------01:59----------
+volts is going to go to the Machine
+
+---------02:01----------
+adapter sense is where the sense line
+
+---------02:04----------
+from the adapter is going to speak to
+
+---------02:06----------
+the Machine so this is how the computer
+
+---------02:08----------
+tells that the adapter is connected
+
+---------02:09----------
+sends adapter that's going to go to the
+
+---------02:12----------
+SMC on the Syst
+
+---------02:13----------
+one wire line this chip is going to
+
+---------02:15----------
+decide whether or not adapter sense gets
+
+---------02:18----------
+to talk to the SMC
+
+---------02:19----------
+if this DC and board dies and it decides
+
+---------02:21----------
+instead of sending adapter since the
+
+---------02:23----------
+computer wants to send 18 volts because
+
+---------02:24----------
+it's an evil doctor robotnik DC and
+
+---------02:27----------
+board this chip is gonna say nah bro fu
+
+---------02:29----------
+you're not going to my SMC in order for
+
+---------02:32----------
+this trip to work it needs it's VCC
+
+---------02:33----------
+voltage on SM which is sm c bc AC okay
+
+---------02:36----------
+VCC and that's going to come from you
+
+---------02:38----------
+seventy seven thousand one which if PP
+
+---------02:42----------
+three before two is present and sm c bc
+
+---------02:44----------
+AC okay is present will take PP three
+
+---------02:45----------
+before two and shoot it through so you
+
+---------02:47----------
+need PP three before two first for any
+
+---------02:48----------
+of this stuff to function so let's see
+
+---------02:51----------
+if we have PB three before two on this
+
+---------02:52----------
+board so we're gonna see it's right
+
+---------02:54----------
+there let's let's find it
+
+---------02:57----------
+ah that's killing my eyes headache ow
+
+---------03:00----------
+much headache it looks like we get 0
+
+---------03:05----------
+volts on PP 3 before 2 so let's turn the
+
+---------03:08----------
+charger off for a moment and see if
+
+---------03:09----------
+there's a short 2 grounds on PP 3 before
+
+---------03:11----------
+- because it's short to ground the pp 3
+
+---------03:12----------
+before ii would mess up my whole system
+
+---------03:14----------
+and it seems like we don't have a short
+
+---------03:16----------
+to ground we have 3.9 kilohms which is a
+
+---------03:19----------
+little on the high side i mean a little
+
+---------03:20----------
+on the low side a little on the low side
+
+---------03:22----------
+but still it works are you sponsored by
+
+---------03:25----------
+Paul Daniels or is that have kindness
+
+---------03:26----------
+that you keep advertising it I have not
+
+---------03:29----------
+been paid by Paul Daniels I just chill
+
+---------03:32----------
+it because it's really good software
+
+---------03:33----------
+have you know here's the thing
+
+---------03:35----------
+trial and Reks test link then try Paul
+
+---------03:38----------
+Daniels is software and you tell me that
+
+---------03:40----------
+you wouldn't become a lifetime
+
+---------03:41----------
+evangelist because to keep in mind
+
+---------03:43----------
+Lander X test link has been in there
+
+---------03:45----------
+since 1995 it has not been updated in 23
+
+---------03:49----------
+years Paul Daniels and clora died where
+
+---------03:52----------
+the two people end and PR enough that
+
+---------03:54----------
+came by and saved us from that garbage
+
+---------03:57----------
+land rex oft where and i remember the
+
+---------03:59----------
+people that remember me so that's that
+
+---------04:03----------
+I'm loyal to those that helped me so PP
+
+---------04:06----------
+3 before 2 is missing let's just browse
+
+---------04:08----------
+over to the pit B 3 before to circuit
+
+---------04:10----------
+down here and let's so if there's no
+
+---------04:12----------
+short to ground so let's see if the
+
+---------04:13----------
+voltage in is coming to my chip this
+
+---------04:16----------
+chip is going to create the pit B 3
+
+---------04:18----------
+before to C right over here on output is
+
+---------04:20----------
+d 3 before 2 and it says down here 3.42
+
+---------04:25----------
+volt
+
+---------04:26----------
+g 3 hot supply
+
+---------04:27----------
+so let's see if I'm g3 hot poor g3 not
+
+---------04:31----------
+no I wish I could go back in time and
+
+---------04:33----------
+undo that that was terrible so let's see
+
+---------04:36----------
+what we get on pin 6 so pin 6 of you 70
+
+---------04:39----------
+90 now one thing that I can do in Paul
+
+---------04:41----------
+Daniels is amazing software is
+
+---------04:42----------
+right-click and when I right-click it'll
+
+---------04:45----------
+bring me straight to the chip I can
+
+---------04:47----------
+click on pin 6 and check the voltage
+
+---------04:49----------
+available immediately thanks to the
+
+---------04:50----------
+beauty of Paul Daniels is multimeter
+
+---------04:52----------
+software not only can I show you exactly
+
+---------04:54----------
+where that is on the board but I can
+
+---------04:56----------
+show you the measurement on screen
+
+---------04:57----------
+without having to read it out removing
+
+---------04:59----------
+any possibility that I'm dishonestly
+
+---------05:02----------
+giving you random voltages just to
+
+---------05:04----------
+pretend that I'm fixing warts
+
+---------05:05----------
+not only does Paul Daniels of software
+
+---------05:07----------
+make my life easier it also keeps us
+
+---------05:09----------
+honest so as you can see we have 0 volts
+
+---------05:14----------
+on input why do we have zero volts on
+
+---------05:17----------
+input why is that not turning on well
+
+---------05:19----------
+you never know maybe there's a short to
+
+---------05:21----------
+ground on input as you can see we've got
+
+---------05:24----------
+three capacitors that go to ground on
+
+---------05:26----------
+this rail on the input two 3.42 volt
+
+---------05:30----------
+supply so I'm gonna turn off the charger
+
+---------05:34----------
+and check to see if there's a short to
+
+---------05:36----------
+ground on PP 3 before 2 input and it
+
+---------05:39----------
+seems like open line so that's not it
+
+---------05:42----------
+that's not it at all so it looks like we
+
+---------05:45----------
+have 0 volts at this point now we're
+
+---------05:48----------
+gonna keep checking our way back we
+
+---------05:50----------
+could check over here behind the diode
+
+---------05:52----------
+we could check here behind the resistor
+
+---------05:54----------
+but and then we can check here and here
+
+---------05:56----------
+and here and that's a big waste
+
+---------05:58----------
+of time because let's say that the issue
+
+---------06:00----------
+is that we don't have 18 volts up here
+
+---------06:02----------
+then I'm screwing myself so what I need
+
+---------06:04----------
+to do is instead of checking over here
+
+---------06:07----------
+and there and there and there I checked
+
+---------06:09----------
+at the end now I'm gonna check around
+
+---------06:11----------
+the beginning so it looks like J 7,000
+
+---------06:15----------
+is the DCN board the charging port for
+
+---------06:18----------
+the machine and we are going to run
+
+---------06:21----------
+through and see if this there right in
+
+---------06:22----------
+the beginning right where that fuses so
+
+---------06:24----------
+let's check it f7 0 0 5 at the DCN fuse
+
+---------06:28----------
+the one part of a Macbook that's never
+
+---------06:30----------
+gonna break because it's supposed to so
+
+---------06:33----------
+let's check at the fuse so it looks like
+
+---------06:35----------
+we get 18 volts as expected the fuse is
+
+---------06:38----------
+not blown why would the DC in fuse blow
+
+---------06:40----------
+and there's a problem
+
+---------06:41----------
+two macbook fuses are not supposed to
+
+---------06:43----------
+blow in a macbook so we're gonna
+
+---------06:45----------
+continue on to the end see where the
+
+---------06:48----------
+problem lies now if you follow this
+
+---------06:51----------
+it seems that 18 volts is going to show
+
+---------06:53----------
+up on q70 10 q70 10 is a transistor
+
+---------06:56----------
+that's going to open and allow voltage
+
+---------06:59----------
+through to my PIPA 3 before 2 circuit so
+
+---------07:01----------
+let's check out where q70 10 is and
+
+---------07:03----------
+let's see what we get on the source pin
+
+---------07:05----------
+5 and the drain pin one source is pin 5
+
+---------07:09----------
+and drain is pin 1 to whatever this is
+
+---------07:15----------
+now as you can see the transistor on the
+
+---------07:18----------
+board view is tall like a basketball
+
+---------07:22----------
+player and the transistor on the board
+
+---------07:23----------
+is wide like a reddit / r / phat logic
+
+---------07:27----------
+wider than it is tall so what I'm gonna
+
+---------07:29----------
+do is I'm gonna check we're gonna click
+
+---------07:31----------
+on pin 5 because I want to see what's on
+
+---------07:33----------
+input and I don't know what pin 5 is I
+
+---------07:35----------
+don't know where that is but I do know
+
+---------07:36----------
+that that attaches to these two things
+
+---------07:38----------
+next to it and those two things I know
+
+---------07:40----------
+where they are tall thingy tiny thingy
+
+---------07:43----------
+and over there we get 18 volts 18 volts
+
+---------07:49----------
+so next up we're going to check the
+
+---------07:54----------
+output the output is pin 1 and this kind
+
+---------07:57----------
+of looks like pin 1 because it has 2 1 3
+
+---------08:00----------
+all over it and that attaches to things
+
+---------08:04----------
+like our 70 20 pin 1 and our 70 20 pin 1
+
+---------08:07----------
+is over here and that is the drain and
+
+---------08:12----------
+we get 0 volts which means this
+
+---------08:14----------
+transistor is not open now this is a
+
+---------08:16----------
+p-channel transistor which means that
+
+---------08:17----------
+this transistor is going to open when
+
+---------08:19----------
+the voltage on the gate and the gate
+
+---------08:21----------
+over here is pin 4 see where it says G G
+
+---------08:24----------
+stands for gate is lower than the source
+
+---------08:28----------
+which is s source and 5 now there is a
+
+---------08:32----------
+couple of reasons that this could be
+
+---------08:33----------
+this circuit in its default state is
+
+---------08:36----------
+supposed to have about 5 volts on the
+
+---------08:38----------
+gate 5 or 10 volts and you could tell
+
+---------08:40----------
+that because there's this voltage
+
+---------08:41----------
+divider here a voltage divider is going
+
+---------08:43----------
+to be a resistor between the high
+
+---------08:44----------
+voltage where you want the lower voltage
+
+---------08:46----------
+to be and another resistor between what
+
+---------08:48----------
+you want the voltage to be in ground and
+
+---------08:49----------
+the person who wants an explanation as
+
+---------08:51----------
+to why this board doesn't work just ran
+
+---------08:53----------
+away
+
+---------08:54----------
+in turn oh well it he could watch
+
+---------08:58----------
+the video when it comes out anyway so
+
+---------09:00----------
+this here is gonna act as a voltage
+
+---------09:03----------
+divider our seventy ten and then D
+
+---------09:07----------
+seventy 10 so you're gonna have some of
+
+---------09:09----------
+the voltage go to the gate of the
+
+---------09:11----------
+resistor some of the voltage will go to
+
+---------09:13----------
+the gate of the resistor but the rest
+
+---------09:14----------
+will go to ground that's what this diode
+
+---------09:17----------
+does D seventy 10 now there's two
+
+---------09:19----------
+possibilities as to why the voltage and
+
+---------09:21----------
+the source and the gate are the same
+
+---------09:22----------
+behind door number will actually three
+
+---------09:24----------
+possibly behind door number one q70 ten
+
+---------09:26----------
+is internally shorted the source is
+
+---------09:27----------
+short it's of the gate behind door
+
+---------09:29----------
+number two this capacitor that sits
+
+---------09:31----------
+between the source and the gate is
+
+---------09:32----------
+shorted behind door number three the
+
+---------09:34----------
+diode is bad now we can figure out a Phi
+
+---------09:36----------
+if one or two of the case by measuring
+
+---------09:38----------
+the resistance between the source and
+
+---------09:40----------
+the gate if we have a low resistance
+
+---------09:42----------
+between the source and the gate then we
+
+---------09:44----------
+know the cause of the problem so c7 t12
+
+---------09:46----------
+is between the source and the gate of
+
+---------09:48----------
+the transistor so I'm gonna right-click
+
+---------09:50----------
+it and see if it shows up on the board
+
+---------09:52----------
+we're gonna measure then what resistance
+
+---------09:55----------
+to begin we get 110 kilohm so that's not
+
+---------09:57----------
+the case
+
+---------09:58----------
+likely the case is the diode is bad or
+
+---------10:01----------
+missing so let's check with it let's
+
+---------10:03----------
+check the diode because if the diode is
+
+---------10:04----------
+missing then the voltage is going to be
+
+---------10:06----------
+a little bit too high on the gate it's
+
+---------10:10----------
+not gonna be any way to lower it
+
+---------10:11----------
+so let's we're gonna zoom in on the
+
+---------10:13----------
+diode and get a nice good look at this
+
+---------10:15----------
+little bastard
+
+---------10:36----------
+the left pad looks messed up to me
+
+---------10:39----------
+inside the scope it looks more it's hard
+
+---------10:42----------
+for me to hold it okay so we're gonna
+
+---------10:44----------
+wipe that off the board and after that
+
+---------10:47----------
+everything's gonna work again yeah just
+
+---------10:54----------
+transistors is all all you got to do is
+
+---------10:56----------
+you have to trace back each point so we
+
+---------10:59----------
+open this to full screen yeah so you
+
+---------11:05----------
+don't you're missing PP 3 before - so
+
+---------11:07----------
+you're getting voltage into it no so
+
+---------11:10----------
+you're getting voltage here no you're
+
+---------11:13----------
+getting both the cheer know you're
+
+---------11:14----------
+getting voltage here no see you chase it
+
+---------11:16----------
+back are you getting voltage here no are
+
+---------11:18----------
+you getting both the cheer yes ah hmm
+
+---------11:21----------
+problem here okay what is this thing
+
+---------11:23----------
+what is this - that's a transistor okay
+
+---------11:25----------
+how does it open
+
+---------11:26----------
+well you go if you don't know how it
+
+---------11:28----------
+opens you Google so you Google and after
+
+---------11:32----------
+you Google you realize that this is a
+
+---------11:34----------
+p-channel so we look at this okay so how
+
+---------11:36----------
+does it open you gue if you don't know
+
+---------11:38----------
+your Google what is this transistor how
+
+---------11:40----------
+do okay what type of transistor how does
+
+---------11:42----------
+it open blah blah blah so the voltage in
+
+---------11:44----------
+the gate is to be lower than the source
+
+---------11:45----------
+okay what is the voltage in the gate
+
+---------11:46----------
+same as the source okay so now you have
+
+---------11:47----------
+it you have identified the cause and the
+
+---------11:49----------
+fault of your problem what do you do
+
+---------11:51----------
+from there okay well how is this going
+
+---------11:53----------
+to get lowered well there's a ground
+
+---------11:55----------
+over here
+
+---------11:56----------
+your first thing you have to do is
+
+---------11:57----------
+figure out what it was they were trying
+
+---------11:58----------
+to do so when you look at that circuit
+
+---------11:59----------
+you have to configure what they're
+
+---------12:01----------
+trying to do is get the voltage in the
+
+---------12:02----------
+gate to be lower so how do you get the
+
+---------12:04----------
+voltage and they get to be lower ground
+
+---------12:05----------
+what's the pathway to ground here in
+
+---------12:07----------
+here so you'd measure this resistor
+
+---------12:08----------
+resistor good resistor good diode mad so
+
+---------12:14----------
+I have faith that you'd have figured
+
+---------12:16----------
+this out on your own
+
+---------12:16----------
+this would have taken a little bit of
+
+---------12:18----------
+time yeah and even if you didn't notice
+
+---------12:22----------
+the pad it would it would have get
+
+---------12:24----------
+narrowed down to that little diode just
+
+---------12:27----------
+by process of elimination
+
+---------12:36----------
+all right diode is gone now before I do
+
+---------12:38----------
+too much I'd like to examine what that
+
+---------12:40----------
+looks like underneath and man looks like
+
+---------12:42----------
+one of those pads is missing
+
+---------12:53----------
+alright so the left pad seems to be
+
+---------12:56----------
+problematic so the right pad is good the
+
+---------13:03----------
+left pad see a little bit of gentle
+
+---------13:05----------
+scraping and it looks nice again that's
+
+---------13:12----------
+all I needed and man you wouldn't you
+
+---------13:15----------
+would have probably never seen that upon
+
+---------13:17----------
+first look and here's what's interesting
+
+---------13:18----------
+if you actually take a look at this
+
+---------13:20----------
+entire board and this is that this is
+
+---------13:21----------
+the fun part that I told him right
+
+---------13:23----------
+before we started you would think that
+
+---------13:25----------
+this was the problem that and this is by
+
+---------13:28----------
+the way this is after cleaning this is
+
+---------13:30----------
+after I took a q-tip to it some alcohol
+
+---------13:32----------
+you'd think that this is the problem the
+
+---------13:34----------
+area that's clearly corroded and nasty
+
+---------13:36----------
+and disgusting but the actual problem
+
+---------13:39----------
+with the board has to do with the spot
+
+---------13:40----------
+that has zero corrosion on it whatsoever
+
+---------13:43----------
+and no visible signs of damage without
+
+---------13:46----------
+actually taking something off so this is
+
+---------13:49----------
+one of those really fun cases where the
+
+---------13:50----------
+thing that's actually wrong is the part
+
+---------13:51----------
+that you'd never guess was wrong yeah I
+
+---------13:57----------
+mean there was corrosion on this thing
+
+---------13:58----------
+over here
+
+---------14:00----------
+yeah but the actual part that was
+
+---------14:03----------
+damaged was the part that didn't look
+
+---------14:05----------
+corroded this is this board was a this
+
+---------14:08----------
+board was a bit of a troll alright so
+
+---------14:10----------
+now I just need to get myself another
+
+---------14:11----------
+diode
+
+---------14:27----------
+don't run away little diode
+
+---------15:02----------
+let's see how bad did we burn the DCN
+
+---------15:05----------
+board not that bad
+
+---------15:07----------
+that's a nice-looking dcn board barely
+
+---------15:11----------
+got burned yeah it's lovely
+
+---------15:35----------
+plug it in turn on the power supply and
+
+---------15:38----------
+we have a light and we also have a fan
+
+---------15:42----------
+spin meanwhile there's no fan so you
+
+---------15:44----------
+can't see the fan spin but it's drawing
+
+---------15:46----------
+point six amps and if I check you'll
+
+---------15:49----------
+also notice that I'm getting CPU vcore
+
+---------15:51----------
+so watch yeah I'll show you prove it to
+
+---------15:53----------
+you I'll prove it to you that this thing
+
+---------15:54----------
+is on and running look at that
+
+---------15:57----------
+CPU vcore one point eight six seven
+
+---------15:59----------
+volts that's it for today and as always
+
+---------16:01----------
+I hope you learned something
+
+---------16:10----------
+you
+
+---------16:14----------
+I'm such a headache
+
+---------16:23----------
+must record content must edit video must
+
+---------16:28----------
+respond such criticism have not enough
+
+---------16:30----------
+good content on main channel must find
+
+---------16:33----------
+somebody to edit video I usually have it
+
+---------16:38----------
+just in this last week my head's been
+
+---------16:39----------
+killing me so I haven't edited any video
+
+---------16:42----------
+so instead of editing video I've been
+
+---------16:44----------
+uploading bug videos and people have
+
+---------16:46----------
+been raging apparently when you create
+
+---------16:48----------
+content that's based on electronics
+
+---------16:50----------
+repair and engineering and then you'd
+
+---------16:51----------
+replace that content with zooming in on
+
+---------16:53----------
+bugs people get mad imagine that okay
+
+---------16:58----------
+let's see does this work are we live hey
+
+---------17:02----------
+it looks like we're live okay so I have
+
+---------17:04----------
+to pretend they don't have a headache
+
+---------17:05----------
+anymore so today we're gonna be working
+
+---------17:07----------
+on an 8 - 0 - 4 9 - 4 board that's not
+
+---------17:10----------
+turning on my useless assistant here
+
+---------17:21----------
+you
+

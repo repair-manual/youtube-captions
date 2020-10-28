@@ -1,0 +1,673 @@
+https://www.youtube.com/watch?v=gmRd9IVE6dc
+---------00:00----------
+good afternoon my name is Sydney and I'm
+
+---------00:01----------
+the marketing manager for etec parts
+
+---------00:03----------
+located in Texas we're leading supplier
+
+---------00:04----------
+of quality Wireless repair parts tools
+
+---------00:06----------
+and knowledge it's review youtube
+
+---------00:07----------
+profile we do believe that you would be
+
+---------00:09----------
+a perfect match to do business with that
+
+---------00:10----------
+being said we are interested in doing a
+
+---------00:12----------
+paid sponsorship in one of your videos
+
+---------00:14----------
+we can supply parts and much more please
+
+---------00:16----------
+give me a call 4 years ago I made one
+
+---------00:20----------
+comment on a batch of LCDs I received
+
+---------00:23----------
+where the frames were popping out and I
+
+---------00:28----------
+was swiftly banned from your company
+
+---------00:32----------
+Facebook in spite of having sent
+
+---------00:36----------
+hundreds of customers that way and in
+
+---------00:40----------
+spite of handing off several school LCD
+
+---------00:45----------
+contracts to you from Owensboro and more
+
+---------00:49----------
+that were quite profitable how dumb can
+
+---------00:53----------
+you be
+
+---------00:54----------
+to reach out to me and asked me for ask
+
+---------00:57----------
+me about sponsorship after this kindly
+
+---------01:03----------
+go [ __ ] yourself heaven I will make sure
+
+---------01:08----------
+to feature you in a recent video thank
+
+---------01:13----------
+you and have a nice day send and close
+
+---------01:19----------
+king contracts I make one comment about
+
+---------01:23----------
+one batch I received that had issues and
+
+---------01:25----------
+you ban me and then you want a sponsor
+
+---------01:27----------
+make it suck a [ __ ] dick
+
+---------01:29----------
+I'm gonna fix another MacBook here we
+
+---------01:32----------
+have an 8 to 0-0 0 to 8 one board from
+
+---------01:38----------
+May 1707 MacBook it's not turning on
+
+---------01:40----------
+it's trying to figure out what's wrong
+
+---------01:41----------
+with this MacBook we're gonna plug it in
+
+---------01:43----------
+with a USB C charger and it looks like
+
+---------01:45----------
+it's drawing 0.01 amps but it's stuck at
+
+---------01:49----------
+5 volts so we're not getting a 20 volt
+
+---------01:51----------
+I remember a USBC charger can put out 5
+
+---------01:53----------
+volts 9 volts or 20 volts so this
+
+---------01:57----------
+charger is not communicating with the
+
+---------01:59----------
+Machine properly so that it can put out
+
+---------02:01----------
+20 volts these are the USBC marks chips
+
+---------02:04----------
+1 2 3 4 you have one for each port and
+
+---------02:09----------
+it's supposed to talk to the charger and
+
+---------02:11----------
+it's not talking to the charger 1
+
+---------02:12----------
+things that we need on this machine is
+
+---------02:14----------
+to have 3.3 volts that's gonna come from
+
+---------02:17----------
+over here and as you can see it's
+
+---------02:21----------
+missing you'll see that this is the USBC
+
+---------02:23----------
+MUX chip this is a CD 32 15 now this
+
+---------02:26----------
+chip is gonna be powered off of PP 3v3
+
+---------02:28----------
+underscore g3 hot-pink u3 v3 undersquare
+
+---------02:30----------
+g3 honeyed z-- to be present now PP 3 v3
+
+---------02:32----------
+underscore g3 hot appears to not be
+
+---------02:33----------
+present as we just noticed in our
+
+---------02:35----------
+measurement so if you take a look at the
+
+---------02:36----------
+chip that's supposed to be responsible
+
+---------02:37----------
+for creating that for this chip to
+
+---------02:39----------
+create PP 3 P 3 underscore g3 hunt you
+
+---------02:41----------
+have to have voltage at the enable pin
+
+---------02:42----------
+which is gonna be pin 10 so let's do we
+
+---------02:44----------
+get at pin 10 on the enable pin so if we
+
+---------02:47----------
+take a look over here you'll notice that
+
+---------02:50----------
+my enable is 5 volts okay that's
+
+---------02:52----------
+interesting so I got my enable but I
+
+---------02:55----------
+don't have my 3 V 3 but now I have my 3
+
+---------02:57----------
+V 3
+
+---------02:59----------
+Wow and now I'm getting 20 volts with 0
+
+---------03:02----------
+ample ok so all I had to do is touch the
+
+---------03:04----------
+chip and it magically started working
+
+---------03:06----------
+again
+
+---------03:06----------
+oh boy random however P P bus g3 hot is
+
+---------03:13----------
+zero point seven eight volts now I'm
+
+---------03:15----------
+inclined to think that this is an ISO 93
+
+---------03:17----------
+nine issue because the enable must have
+
+---------03:19----------
+been missing before in order for the end
+
+---------03:21----------
+my guess is is all 93 nine here's why
+
+---------03:23----------
+the enable was most likely missing 4 PP
+
+---------03:26----------
+3 V 3 underscore g3 ought to be created
+
+---------03:27----------
+we've done at least three or four videos
+
+---------03:29----------
+on this already where PP 3 B 3
+
+---------03:31----------
+underscore g3 hot is missing we're only
+
+---------03:32----------
+getting 5 volts at the charger because P
+
+---------03:34----------
+P 3 P 3 underscore G through hot is
+
+---------03:35----------
+missing and see the CD 32 if teens are
+
+---------03:37----------
+not getting their power and is all 9 2 3
+
+---------03:39----------
+9 is not creating the enable for it now
+
+---------03:40----------
+is all 93 9 is also responsible for
+
+---------03:42----------
+creating PP h g3 hot which is the rail
+
+---------03:44----------
+that is missing first and foremost on
+
+---------03:46----------
+this machine with no short-circuit so
+
+---------03:47----------
+I'm gonna take a quick look over that
+
+---------03:48----------
+area see if that ship looks nasty and
+
+---------03:50----------
+then go ahead with replacing none of
+
+---------03:52----------
+those resistors seem like they're bad we
+
+---------03:53----------
+have a history of this chip just dying
+
+---------03:55----------
+for no reason we're gonna see if
+
+---------03:56----------
+replacing it fixes our problem
+
+---------04:04----------
+you see how that worked my enable was
+
+---------04:06----------
+missing and then I tapped the board and
+
+---------04:07----------
+then it was present again
+
+---------05:09----------
+steve has enjoyed making fun of me since
+
+---------05:11----------
+I like SanDisk I I trust Santa so much
+
+---------05:17----------
+that I have two of them in my laptop and
+
+---------05:18----------
+raid zero
+
+---------06:15----------
+all right now we're gonna let the draw
+
+---------06:17----------
+of the boy dry a little bit using rapid
+
+---------06:20----------
+cool technology wrap it cool
+
+---------06:25----------
+technology take the board put it into
+
+---------06:29----------
+the fume extractor
+
+---------06:33----------
+20 volts 1.4 amps ladies and gentlemen
+
+---------06:41----------
+we have a fixed MacBook and just to
+
+---------06:45----------
+confirm we're gonna check and see that I
+
+---------06:49----------
+get 13 volts on VP bus g3 odd twelve
+
+---------07:00----------
+point six volts beautiful so one of the
+
+---------07:03----------
+reasons that I'm doing this is it's is a
+
+---------07:06----------
+known issue with these machines where
+
+---------07:08----------
+that chip dies for no reason
+
+---------07:10----------
+even with no liquid damage you could
+
+---------07:12----------
+have zero liquid damage no drop damage
+
+---------07:14----------
+and no knockoff charger used in the is
+
+---------07:16----------
+all nine to 39 dies in earlier machines
+
+---------07:17----------
+the is l6 259 could be killed by using a
+
+---------07:20----------
+knockoff charger understandable here
+
+---------07:22----------
+even with a history of no knockoff
+
+---------07:23----------
+charger use ISO ninety-three nine dots
+
+---------07:25----------
+and typically that presents itself as
+
+---------07:27----------
+not sending out the enable signal for PP
+
+---------07:29----------
+3 V 3 undersquare g3 ha hero was
+
+---------07:32----------
+interesting it was being a little bit of
+
+---------07:33----------
+a troll because even when it was sending
+
+---------07:35----------
+out the enable signal for keep III v3
+
+---------07:36----------
+undersquare g3 ha it was intermittent
+
+---------07:38----------
+and the second problem that we had was
+
+---------07:40----------
+that it was not creating PP but g3 on so
+
+---------07:42----------
+I figured to said ship has a tendency to
+
+---------07:44----------
+die and my secondary issue happened to
+
+---------07:46----------
+be the missing power rail that that ship
+
+---------07:48----------
+also creates that we should replace it
+
+---------07:49----------
+I've gone over this fix several times
+
+---------07:52----------
+and the reason I think it's important
+
+---------07:53----------
+the new machines do not use the ISO 93 9
+
+---------07:56----------
+so while the chip like the ISO 9 239 is
+
+---------07:59----------
+easily available on stored rossmann
+
+---------08:01----------
+group com don't delay by today free
+
+---------08:03----------
+shipping on all orders over $30 within
+
+---------08:05----------
+the continental United States same-day
+
+---------08:07----------
+shipping from New York City on most
+
+---------08:08----------
+orders the is all 9 to 4 0 which is used
+
+---------08:11----------
+in the 2018 and up MacBooks is not
+
+---------08:13----------
+available anywhere nowhere I can't buy
+
+---------08:15----------
+it from intersil if I contact interest
+
+---------08:17----------
+so they're not going to contact me back
+
+---------08:19----------
+and if I had to guess something tells me
+
+---------08:21----------
+that it's one of those little wink-wink
+
+---------08:23----------
+nudge-nudge agreements between apple and
+
+---------08:25----------
+other companies with many chipsets they
+
+---------08:27----------
+they're resold
+
+---------08:29----------
+they are you can buy it if you want to
+
+---------08:31----------
+buy 10 or 20,000 them when it comes to
+
+---------08:33----------
+this stuff you can't I still cannot buy
+
+---------08:35----------
+in is l9 55 3 0 4 8 2015 8 15 34 MacBook
+
+---------08:40----------
+that the machine is 4 years old chips
+
+---------08:42----------
+still no longer available and this for
+
+---------08:44----------
+the newer generations it's been getting
+
+---------08:46----------
+more in
+
+---------08:46----------
+more difficult to find this stuff and
+
+---------08:48----------
+from what I've heard some of the people
+
+---------08:50----------
+that haven't been allowing the stuff to
+
+---------08:51----------
+leak through the supply chain every now
+
+---------08:52----------
+and then are now being more highly paid
+
+---------08:55----------
+again this is all just rumor but and
+
+---------08:57----------
+that's and told you know not to allow
+
+---------09:00----------
+stuff like this to get out there and
+
+---------09:02----------
+it's kind of sad because I can only
+
+---------09:03----------
+wonder how many machines have this issue
+
+---------09:06----------
+for the newer model that are not fixable
+
+---------09:08----------
+simply because I can't buy an is all 9
+
+---------09:10----------
+to 4 0 it's a sad state of affairs and I
+
+---------09:13----------
+noticed for a lot of the newer machines
+
+---------09:14----------
+that the donor boards that we can get or
+
+---------09:16----------
+actually they're cut off over here see
+
+---------09:18----------
+you they either give you the wing or the
+
+---------09:20----------
+you know I guess the the wing or the
+
+---------09:22----------
+thigh you can't buy the entire thing as
+
+---------09:25----------
+one piece I'm guessing also because they
+
+---------09:27----------
+can't get them the broken board snuck
+
+---------09:29----------
+out of the factory or whatever I don't
+
+---------09:31----------
+know what it is but it said because I've
+
+---------09:33----------
+had about five machines that were cases
+
+---------09:35----------
+where all that needed was an ISO nine
+
+---------09:37----------
+two four zero and it would have fixed
+
+---------09:39----------
+the board and I had a decline all five
+
+---------09:41----------
+of those cases because I cannot find an
+
+---------09:43----------
+iso 9241 where regardless of how much
+
+---------09:45----------
+money I'm willing to spend and it's one
+
+---------09:46----------
+of those things that you really have to
+
+---------09:48----------
+think about before you put money into
+
+---------09:49----------
+this product that this much effort goes
+
+---------09:51----------
+into making sure that it is not
+
+---------09:52----------
+serviceable makes me very sad but if
+
+---------09:54----------
+anybody can find an ISO nine two four
+
+---------09:56----------
+zero please the email Louis at Ross boot
+
+---------09:58----------
+com2us to Ensign with that I'll call it
+
+---------10:01----------
+a day as always I hope you learned
+
+---------10:03----------
+something do you have a Macbook that
+
+---------10:04----------
+needs to be fixed come by our store
+
+---------10:06----------
+which is open to the public at 186 First
+
+---------10:08----------
+Avenue in Manhattan are you located
+
+---------10:11----------
+outside of New York no problem
+
+---------10:13----------
+send us a machine from anywhere in the
+
+---------10:14----------
+world by going to our website and
+
+---------10:16----------
+clicking on the mailbox
+
+---------10:17----------
+or simply heading over to send your
+
+---------10:19----------
+macbook comm that send your macbook comm
+
+---------10:23----------
+will you be redirected to our mail and
+
+---------10:25----------
+instructions page that includes the form
+
+---------10:27----------
+and the directions on how to send us a
+
+---------10:29----------
+MacBook for repair we have a live chat
+
+---------10:32----------
+where you can speak with us about the
+
+---------10:34----------
+repair that you need a phone number
+
+---------10:36----------
+where a representative will pick up
+
+---------10:37----------
+during our open hours and a contact form
+
+---------10:39----------
+where you can contact us about repairs
+

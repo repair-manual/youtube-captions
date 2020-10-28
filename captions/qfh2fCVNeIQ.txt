@@ -1,0 +1,1126 @@
+https://www.youtube.com/watch?v=qfh2fCVNeIQ
+---------00:00----------
+hey everybody how's it going so here we
+
+---------00:02----------
+have a a 1502 MacBook Pro I think I have
+
+---------00:06----------
+an idea of why this thing is not turning
+
+---------00:08----------
+on already it seems to have a GoPro
+
+---------00:09----------
+sticker on it I did a review of the
+
+---------00:11----------
+GoPro Hero 7 device takes over 27
+
+---------00:15----------
+minutes to set up a single livestream on
+
+---------00:16----------
+you can see that if you search for the
+
+---------00:18----------
+GoPro on my channel so that being said
+
+---------00:21----------
+let's open this thing up and see what's
+
+---------00:22----------
+going on on the bottom of the machine
+
+---------00:24----------
+we're gonna open this thing up and see
+
+---------00:28----------
+what's going on I'm gonna do this
+
+---------00:29----------
+quickly so that I can get home soon
+
+---------00:45----------
+so when we plug it in we get no green
+
+---------00:47----------
+light and it looks like no amperage
+
+---------00:49----------
+taken it's taking no amps so let's take
+
+---------00:54----------
+the board out of the case and try to get
+
+---------00:55----------
+an idea of why it's taking no amperage
+
+---------00:57----------
+now shall we
+
+---------01:21----------
+okay so the first thing we can see here
+
+---------01:24----------
+is there's minor corrosion by the PP 34
+
+---------01:26----------
+to underscore g3 hot circuit and if you
+
+---------01:27----------
+watch any of my videos on the one wire
+
+---------01:29----------
+circuit which was required for the
+
+---------01:30----------
+machine to speak to the charger so that
+
+---------01:32----------
+the charger light turns green you know
+
+---------01:33----------
+that's powered by pp three or four two
+
+---------01:35----------
+hundred square G three huh which is the
+
+---------01:36----------
+rail that has corrosion over here
+
+---------01:37----------
+secondly we have corrosion on the actual
+
+---------01:39----------
+one wire circuit itself these are the
+
+---------01:41----------
+two chips that are going to control
+
+---------01:42----------
+dealing with the charger this chip
+
+---------01:43----------
+speaks to the charger and this chip
+
+---------01:45----------
+allows the SMC to speak to the charger
+
+---------01:47----------
+so the SMC is the manometric controller
+
+---------01:48----------
+right over here is going to speak to to
+
+---------01:52----------
+the charger through this IC but this IC
+
+---------01:54----------
+is the power that one on and also we
+
+---------01:56----------
+have corrosion by the ISL 65:9 so you
+
+---------01:58----------
+kinda have a triple whammy here so let's
+
+---------02:00----------
+go through this board and just see if I
+
+---------02:02----------
+can show you on the screen what it is
+
+---------02:04----------
+that's causing these problems so we can
+
+---------02:07----------
+open up the board view in the schematic
+
+---------02:08----------
+for an 8 - 0 - 34 76 let's get to work
+
+---------02:17----------
+so first things first what do I mean by
+
+---------02:21----------
+the charger speaking to the machine
+
+---------02:22----------
+let's open up this charge port over here
+
+---------02:25----------
+that's the charge port see right over
+
+---------02:27----------
+here if you look on the desk see charge
+
+---------02:30----------
+port connects to that so that's why I'm
+
+---------02:32----------
+clicking this on the schematic and boy
+
+---------02:35----------
+huge a7000 not a 7000 is gonna bring me
+
+---------02:38----------
+here we have 18 volts we have ground and
+
+---------02:41----------
+we have adapter sense adapter sense is
+
+---------02:43----------
+gonna be responsible for sense in the
+
+---------02:45----------
+adapter this is not like a normal
+
+---------02:46----------
+charger that just sends out 18 volts for
+
+---------02:47----------
+the hell of it it needs to be told to
+
+---------02:49----------
+turn on and if you take a look over here
+
+---------02:51----------
+at U 7000 u 7000 is going to sit between
+
+---------02:55----------
+the charger and it's just one wire sis 1
+
+---------02:59----------
+wire is gonna be a line that goes to the
+
+---------03:00----------
+system management controller where the
+
+---------03:02----------
+SMC is going to speak to the charger now
+
+---------03:04----------
+for this chip to turn on it needs to get
+
+---------03:07----------
+its VCC voltage VCC at the top of a chip
+
+---------03:10----------
+pin is going to mean power it needs to
+
+---------03:13----------
+turn on same thing for just about
+
+---------03:15----------
+anything like my microscope here see
+
+---------03:16----------
+this is my microscope camera right this
+
+---------03:18----------
+is my video ok HDMI cable this is my
+
+---------03:22----------
+power so this would be considered the
+
+---------03:24----------
+VCC pin of my microscope just to make
+
+---------03:27----------
+things easy and oversimplify there so
+
+---------03:30----------
+when you see that on the chip usually
+
+---------03:32----------
+especially with some ones on the top of
+
+---------03:33----------
+the chip that means that's what's going
+
+---------03:34----------
+to power
+
+---------03:35----------
+get it turn off now it gets that power
+
+---------03:37----------
+from this chip and this chip gets his
+
+---------03:39----------
+power from pp 3 or 4 2 this is a logic
+
+---------03:41----------
+gate if you google this number you'll
+
+---------03:42----------
+see as a logic a and the way this works
+
+---------03:43----------
+is when you have a and B you get Y I
+
+---------03:46----------
+would zoom in more but Paul Daniels of
+
+---------03:47----------
+software doesn't allow you to possibly
+
+---------03:49----------
+because I have the old version back when
+
+---------03:50----------
+it only cost 60 or 80 dollars rather
+
+---------03:52----------
+than the new version which costs I don't
+
+---------03:54----------
+know a Bitcoin or something like that so
+
+---------03:56----------
+SMC bcos oh-seok has to be present and
+
+---------03:59----------
+when that's present it's gonna take P P
+
+---------04:00----------
+3 or 4 to undersquare g3 hot and pass it
+
+---------04:02----------
+on to this chip now use 7000 if you take
+
+---------04:06----------
+a look on the board is going to be over
+
+---------04:09----------
+here the very chip that is corroded see
+
+---------04:14----------
+corroded right there now the next thing
+
+---------04:18----------
+over here that we have a problem with is
+
+---------04:20----------
+that people through for to underscore g3
+
+---------04:22----------
+hot is going to be powering this chip
+
+---------04:26----------
+and people three or four to underscore
+
+---------04:27----------
+g3 hot is created by this chip down here
+
+---------04:31----------
+you 70 90 and you 70 90 also has
+
+---------04:35----------
+corrosion on it so we have multiple
+
+---------04:38----------
+things that could be going on here we
+
+---------04:40----------
+could be missing PP 3 for 2 under square
+
+---------04:41----------
+G 300 so let's use our multimeter by
+
+---------04:45----------
+turning on the amazing Paul Daniels
+
+---------04:46----------
+software and by the way if you want any
+
+---------04:50----------
+of Paul Daniels is amazing software you
+
+---------04:52----------
+can find it on PL Daniel's dot-com
+
+---------04:55----------
+that's PL Daniel's calm and we're gonna
+
+---------05:00----------
+see if P P 3 or 4 do you want to square
+
+---------05:01----------
+g3 hot is present so what do we get well
+
+---------05:04----------
+the first thing that I noticed oh there
+
+---------05:06----------
+we go
+
+---------05:07----------
+PB 3 or 4 - 1 - square g3 hot is indeed
+
+---------05:10----------
+present however we don't get a green
+
+---------05:11----------
+light and I imagine a big part of that
+
+---------05:13----------
+is because the one wire chip circuit is
+
+---------05:16----------
+in itself corroded and nasty also so is
+
+---------05:19----------
+this over here this is gonna be what
+
+---------05:20----------
+creates SMC BCSC okay right down here so
+
+---------05:23----------
+this chip is where SM CBC Seok is going
+
+---------05:25----------
+to be coming from if we look on the
+
+---------05:26----------
+schematic in the board view remember
+
+---------05:28----------
+what I said here this is gonna be a
+
+---------05:30----------
+logic gate that allows voltage to flow
+
+---------05:34----------
+through to this chip that allows the
+
+---------05:35----------
+charger to speak to the machine if SM
+
+---------05:36----------
+CBC Seok is present an SMC bc AC okay
+
+---------05:39----------
+can be pulled down by this chip that has
+
+---------05:41----------
+a bunch of corrosion by it so now what I
+
+---------05:44----------
+do here what I do when I have donor
+
+---------05:47----------
+board
+
+---------05:49----------
+[Music]
+
+---------05:52----------
+these rechargeable batteries really suck
+
+---------05:57----------
+okay so we're going to go back there so
+
+---------06:00----------
+rewind due to the shitty mic batteries
+
+---------06:02----------
+so what is now I'm not gonna spend time
+
+---------06:07----------
+to figure out exactly which one of those
+
+---------06:10----------
+interrelated chips is bad is it is it pp
+
+---------06:13----------
+three or four to underscore G three Hot
+
+---------06:14----------
+Chip not being a being corroded that is
+
+---------06:16----------
+the problem is it the one wire circuit
+
+---------06:18----------
+chips being corroded that's the problem
+
+---------06:19----------
+is it the chip that is going to pull
+
+---------06:21----------
+down SMC BCSC okay that's the problem
+
+---------06:23----------
+honestly I don't care this is why I like
+
+---------06:26----------
+donor boards because I can get donor
+
+---------06:27----------
+boards very cheaply and then I can just
+
+---------06:29----------
+say you know what it's gonna replace all
+
+---------06:31----------
+three at once and the other thing I like
+
+---------06:32----------
+about having donor boards I don't have
+
+---------06:34----------
+to go what's the value of this resistor
+
+---------06:35----------
+what's the value of that capacitor
+
+---------06:37----------
+what's the value of this resistor what's
+
+---------06:38----------
+the value of that capacitor and then
+
+---------06:40----------
+flip through a book over and over again
+
+---------06:42----------
+to try and figure out you know go
+
+---------06:43----------
+through one by one replace each one it's
+
+---------06:45----------
+just it's too much work and if I can get
+
+---------06:46----------
+a donor board that hasn't seen much if
+
+---------06:48----------
+not any use and I can simply replace
+
+---------06:50----------
+these pieces quickly that means I can
+
+---------06:52----------
+get more pairs done for customers which
+
+---------06:54----------
+means more to a faster turnaround time
+
+---------06:55----------
+which means less pissed off clients
+
+---------06:57----------
+which is something that I think is
+
+---------06:58----------
+important to understand it there's a
+
+---------07:00----------
+practical element as to why I do things
+
+---------07:02----------
+the way that I do them so let's get back
+
+---------07:04----------
+to the board and put my fume extractor
+
+---------07:07----------
+on and replace these things and hope
+
+---------07:08----------
+that the double-a rechargeable batteries
+
+---------07:10----------
+don't die again probably gonna wind up
+
+---------07:16----------
+shooting my batteries with a BB gun
+
+---------07:17----------
+before I move now we actually have pp
+
+---------07:21----------
+three or four to underscore g3 hot so
+
+---------07:23----------
+this I'm probably gonna replace the
+
+---------07:25----------
+nasty capacitor but I'm not gonna
+
+---------07:26----------
+replace that chip just because of one
+
+---------07:27----------
+little flake over there so I do this
+
+---------07:42----------
+the person who asked if Apple is still
+
+---------07:43----------
+shredding awards I'm not sure if they
+
+---------07:45----------
+are still shredding boards I would
+
+---------07:46----------
+suggest emailing Tim Cook and ask him
+
+---------07:48----------
+what his policy is on the matter
+
+---------08:32----------
+okay
+
+---------08:54----------
+now if I had a guess which of those
+
+---------08:56----------
+individual components was the one that
+
+---------08:58----------
+was actually responsible for this death
+
+---------09:00----------
+I would say that it is gonna be the
+
+---------09:03----------
+small transistor that powers the and
+
+---------09:06----------
+that the small logic gate that powers
+
+---------09:08----------
+you 7,000 so not the chip that deals
+
+---------09:12----------
+with the speaking to the charger but the
+
+---------09:15----------
+chip that powers the chip that speaks to
+
+---------09:16----------
+the charger and the reason I say that is
+
+---------09:18----------
+because of how disgusting its pads are
+
+---------09:21----------
+so this pad is entirely off the board so
+
+---------09:24----------
+but still I am replacing the other
+
+---------09:26----------
+things because they saw enough liquid
+
+---------09:28----------
+damage and they're important enough that
+
+---------09:30----------
+I don't trust it after seeing a lot of
+
+---------09:32----------
+liquid I also want to prevent this
+
+---------09:34----------
+becoming a botanical warranty as any
+
+---------09:36----------
+good repair shop says and not in the
+
+---------09:38----------
+rude way to their customers as they're
+
+---------09:40----------
+leaving I hope I never see you again so
+
+---------09:43----------
+this is a Bing make sure you're not
+
+---------09:48----------
+soldering on top of corrosion so just a
+
+---------09:50----------
+little bit of pad scraping there and
+
+---------09:51----------
+just there we go and down here same
+
+---------09:54----------
+concepts mm-hmm too much solder on the
+
+---------10:01----------
+center pad is my trademark that's my
+
+---------10:04----------
+signature move it's my finisher and
+
+---------10:08----------
+looks like nothing is changing today
+
+---------10:13----------
+[Music]
+
+---------10:26----------
+okay now we're going to use the hunter
+
+---------10:30----------
+station take some stuff off of my happy
+
+---------10:32----------
+little donor board over here and then
+
+---------10:33----------
+this board is gonna have a little happy
+
+---------10:34----------
+green light on it and above all a happy
+
+---------10:37----------
+customer that didn't have to buy a new
+
+---------10:39----------
+board because of Apple and that's that
+
+---------10:53----------
+at the end of the day the thing that
+
+---------10:55----------
+makes this job worth it thing that makes
+
+---------11:00----------
+the job worth it whether it's dealing
+
+---------11:02----------
+with contractors or Realtors or
+
+---------11:05----------
+attorneys err
+
+---------11:12----------
+four aggravating business nonsense
+
+---------11:15----------
+bankers you know what makes it worth it
+
+---------11:18----------
+the smile that you see on someone's face
+
+---------11:21----------
+when you hand them back something they
+
+---------11:22----------
+thought they destroyed and that they
+
+---------11:23----------
+wrote off entirely and you're able to
+
+---------11:27----------
+give somebody back something if they had
+
+---------11:28----------
+written off and said you know what I
+
+---------11:30----------
+guess I just can't have that anymore
+
+---------11:33----------
+I accept that it's gone and no it's not
+
+---------11:37----------
+gone right over here here's all your
+
+---------11:39----------
+data here's all your stuff and you have
+
+---------11:42----------
+to pay less than you fought so happy
+
+---------11:47----------
+feeling and it makes it worth it and if
+
+---------11:54----------
+you think about that level of positivity
+
+---------11:55----------
+then that ship that tried to run away
+
+---------11:57----------
+from the board will be found before it
+
+---------11:59----------
+falls into the air filter or did I speak
+
+---------12:03----------
+too soon and I spoke too soon that's
+
+---------12:09----------
+fine that's why we have secondary donor
+
+---------12:12----------
+boards
+
+---------12:21----------
+that ship is really fast
+
+---------12:27----------
+that ship ran off the board faster than
+
+---------12:29----------
+audio jumped on the counter after he got
+
+---------12:31----------
+his new supplements
+
+---------12:36----------
+by the way everybody you know who's
+
+---------12:38----------
+right next to me right now the man that
+
+---------12:40----------
+refused to pet the kitty remember that
+
+---------12:43----------
+video with is this guy just sitting and
+
+---------12:45----------
+smirking as his little kitty is begging
+
+---------12:47----------
+screaming as loud as you can please pay
+
+---------12:49----------
+attention to me please pay attention to
+
+---------12:51----------
+me
+
+---------12:51----------
+and this evil man ignores him here's the
+
+---------12:55----------
+evil man and one of you commented in
+
+---------12:59----------
+that video I hope he gets hit by a truck
+
+---------13:03----------
+and that was it deed too soon too soon
+
+---------13:17----------
+did you see about the march against
+
+---------13:19----------
+anti-semitism today across the Brooklyn
+
+---------13:21----------
+Bridge I did not I avoid the Brooklyn
+
+---------13:24----------
+Bridge on a regular basis because it has
+
+---------13:26----------
+a bunch of tourists that don't
+
+---------13:28----------
+understand the concept of a bike lane it
+
+---------13:32----------
+is a look at some look at some videos
+
+---------13:36----------
+from New York City about people riding
+
+---------13:39----------
+the bike over the one over the Brooklyn
+
+---------13:41----------
+Bridge it will raise your blood pressure
+
+---------13:42----------
+and what I do to keep my blood pressure
+
+---------13:44----------
+from being raised is I don't take the
+
+---------13:46----------
+Brooklyn Bridge unless every other
+
+---------13:48----------
+bridge is closed
+
+---------13:58----------
+okay
+
+---------14:10----------
+you see all that solder I put on the
+
+---------14:12----------
+center pad that doesn't belong there
+
+---------14:13----------
+that's my signature every artist needs
+
+---------14:17----------
+their signature and that's mine
+
+---------14:20----------
+excessive solder on the center pad
+
+---------14:29----------
+some people never change
+
+---------14:36----------
+had some flux and touch it all off make
+
+---------14:39----------
+it look nice and pretty nice and pretty
+
+---------14:55----------
+I'm not usually a hot tweezers fan but
+
+---------14:58----------
+this will do a little bend I suppose I
+
+---------15:05----------
+could
+
+---------15:19----------
+beautiful
+
+---------16:31----------
+yeah my LED protector for the microscope
+
+---------16:35----------
+just fell off that's what protects my
+
+---------16:39----------
+LEDs from getting burned
+
+---------16:47----------
+check it
+
+---------17:29----------
+wait a second damn it you go up here
+
+---------17:35----------
+technically it's a set maybe the same
+
+---------17:37----------
+place yeah there we go now it's more
+
+---------17:40----------
+like it
+
+---------17:52----------
+don't know what you're talking about
+
+---------17:53----------
+Terry
+
+---------19:11----------
+why are you trying to run away
+
+---------19:45----------
+okay now we've replaced the ISL six two
+
+---------19:48----------
+five nine which can pull SMC BCSC okay
+
+---------19:50----------
+down we have replaced the nasty
+
+---------19:51----------
+capacitors by the people can report to
+
+---------19:53----------
+underscore G three hot circuit and we
+
+---------19:55----------
+have also replaced most importantly the
+
+---------19:57----------
+one wire circuit component that was
+
+---------19:58----------
+corroded if you look on the schematic
+
+---------20:00----------
+and the board view you'll see that the
+
+---------20:02----------
+nastiest section was the pp three or
+
+---------20:04----------
+four to underscore G three haunt pin of
+
+---------20:06----------
+you seven zero zero one so most likely
+
+---------20:08----------
+this chip could not pass 3.42 volts onto
+
+---------20:11----------
+here because the people you referred to
+
+---------20:12----------
+under square G three up and was corroded
+
+---------20:13----------
+therefore it wasn't making its way to
+
+---------20:15----------
+here so we've replaced that and I'm
+
+---------20:17----------
+fairly confident this is gonna turn on a
+
+---------20:19----------
+work now but also confident that's gonna
+
+---------20:20----------
+last into the future since she replaced
+
+---------20:22----------
+all the ancillary components that were
+
+---------20:24----------
+also somewhat damaged so let's see what
+
+---------20:26----------
+happens let's see if this actually turns
+
+---------20:28----------
+on and take some amperage we should be
+
+---------20:30----------
+seeing four hundred five hundred
+
+---------20:31----------
+milliamps of usage over here and see a
+
+---------20:33----------
+happy little fan spin do you think we'll
+
+---------20:35----------
+get a happy little fan spin oh well then
+
+---------20:42----------
+we got a happy little okay we got a
+
+---------20:48----------
+little bit of happy magic smoke there
+
+---------20:49----------
+but that's fine that's this little
+
+---------20:50----------
+detour little detour on the way you just
+
+---------20:55----------
+do a little bit of this a little bit of
+
+---------20:58----------
+this and we'll just pretend that that
+
+---------21:01----------
+didn't happen and a little bit of this
+
+---------21:03----------
+little bit of that but uh pinging about
+
+---------21:05----------
+a boom and that magic smoke is gonna go
+
+---------21:07----------
+right back in the wire where it belongs
+
+---------21:10----------
+this yeah that's no big deal
+
+---------21:13----------
+alright try it again one two three bada
+
+---------21:15----------
+bing bada boom and fan spin you heard
+
+---------21:21----------
+that though right
+
+---------21:27----------
+so that's about it for today I hope that
+
+---------21:29----------
+explanation was helpful I hope you kind
+
+---------21:32----------
+of have an idea as to how I did what my
+
+---------21:34----------
+approach is why it is I do things the
+
+---------21:36----------
+way I do why I prefer to use donor
+
+---------21:38----------
+boards then replace a bunch of
+
+---------21:39----------
+individual components one by one by one
+
+---------21:42----------
+why I prefer to do failure analysis
+
+---------21:44----------
+after the fact rather than in the middle
+
+---------21:47----------
+of the job because then you don't get
+
+---------21:48----------
+the job done if I just so happened to
+
+---------21:49----------
+figure out or I get a guess as to
+
+---------21:51----------
+exactly what caused a failure that's
+
+---------21:53----------
+fine but that's not the customer's
+
+---------21:55----------
+priority the customer will want to know
+
+---------21:56----------
+exactly what it is but if I tell them
+
+---------21:59----------
+three chips versus one chip in one trace
+
+---------22:00----------
+that that doesn't matter what matters to
+
+---------22:02----------
+the customer is that we get this back to
+
+---------22:03----------
+them as quickly as possible and for less
+
+---------22:05----------
+than the Apple store which I believe we
+
+---------22:07----------
+did here so thank you very much for
+
+---------22:08----------
+watching I hope you learned something
+
+---------22:09----------
+and I will see you in the next video
+

@@ -1,0 +1,628 @@
+https://www.youtube.com/watch?v=PoMmVtGXjyE
+---------00:00----------
+be a good little didn't check the
+
+---------00:01----------
+stability of my overclock before doing
+
+---------00:03----------
+mission-critical recording computer good
+
+---------00:06----------
+computer so today we're gonna be looking
+
+---------00:08----------
+at an EI 1466 MacBook the owner claims
+
+---------00:12----------
+that this MacBook is not powering on so
+
+---------00:14----------
+let's figure out why it's not powering
+
+---------00:16----------
+on I have a feeling that it may have
+
+---------00:18----------
+something to do with liquid damage the
+
+---------00:19----------
+reason I think it's liquid is because
+
+---------00:21----------
+they said they got no liquid inside of
+
+---------00:23----------
+it which is a great way to know that
+
+---------00:24----------
+they probably got liquid inside of it so
+
+---------00:26----------
+let's see what happens
+
+---------00:27----------
+I'm gonna take my charger plug it in see
+
+---------00:30----------
+how many amps it uses now you look it
+
+---------00:34----------
+appears that the fan is actually
+
+---------00:36----------
+spinning however the light is not
+
+---------00:39----------
+turning on the charger that's not a good
+
+---------00:41----------
+thing we need to light to turn on on the
+
+---------00:42----------
+charger and we don't have a light in the
+
+---------00:44----------
+charger and let's see if paul daniels of
+
+---------00:46----------
+software can handle me opening a PDF
+
+---------00:48----------
+with it I put that PDF in your face now
+
+---------00:51----------
+what's Paul Daniel software gonna do
+
+---------00:53----------
+with it why do I have that stupid song
+
+---------00:55----------
+stuck in my head
+
+---------00:55----------
+this is someone dumbass rapper that did
+
+---------00:57----------
+that and like he has he had this really
+
+---------01:00----------
+dumb tattoo
+
+---------01:01----------
+oh my kidding look that narrows it down
+
+---------01:02----------
+I have the worst crap stuck in my head
+
+---------01:05----------
+stitches yeah I feel bad for you because
+
+---------01:07----------
+you have that stuck in your head too so
+
+---------01:08----------
+this is where the charger is gonna be
+
+---------01:10----------
+allowed to talk to the SMC now the line
+
+---------01:12----------
+that goes to the charger is this sis one
+
+---------01:14----------
+wire line and remember this is different
+
+---------01:16----------
+from the older machines in that all that
+
+---------01:19----------
+one wire circuitry is on the piece the
+
+---------01:21----------
+end board which I don't have a schematic
+
+---------01:22----------
+for but from older schematics we know
+
+---------01:24----------
+that sis one wire is the line that's
+
+---------01:25----------
+gonna want to talk to the SMC and the
+
+---------01:27----------
+chips that allow the Chargers data line
+
+---------01:30----------
+to talk to the SMC on this one wire line
+
+---------01:32----------
+are powered by pp 3 V 4 2 and turned on
+
+---------01:37----------
+by SM CBC AC okay let's see what it
+
+---------01:40----------
+looks like under this connector I put
+
+---------01:42----------
+that DC and board in your face now what
+
+---------01:46----------
+are you gonna do god dammit know that
+
+---------01:49----------
+music sucks I put this broken logic
+
+---------01:52----------
+board in your face now what you're gonna
+
+---------01:54----------
+do with it so we've got some corroded
+
+---------01:57----------
+pins over here what are those pins for
+
+---------01:59----------
+that's a great question let's consult
+
+---------02:00----------
+Paul Daniels's board view software
+
+---------02:02----------
+sis why are P P 3 V 4 2 & something for
+
+---------02:05----------
+USB USB 1 yeah do you really need USB is
+
+---------02:09----------
+that really that necessary mean you got
+
+---------02:11----------
+one port on the other side of the
+
+---------02:12----------
+computer why do you need a port on this
+
+---------02:13----------
+side
+
+---------02:13----------
+the computer what kind of greedy prick
+
+---------02:15----------
+are you if you were buying a new 12-inch
+
+---------02:17----------
+MacBook for the same price that you
+
+---------02:19----------
+would have bought paid for this MacBook
+
+---------02:20----------
+Air just a few years ago
+
+---------02:21----------
+you get one port not two so why should I
+
+---------02:23----------
+give you two ports back why should I put
+
+---------02:25----------
+extra work in when I can actually
+
+---------02:27----------
+upgrade this to a more modern MacBook by
+
+---------02:30----------
+leaving the left port out I think I'm
+
+---------02:31----------
+gonna just focus on the charger I'm
+
+---------02:33----------
+trying to come Apple Authorized I want
+
+---------02:35----------
+to follow Apple's aesthetic here so do
+
+---------02:36----------
+you really need a port on this side of
+
+---------02:38----------
+the computer and this side of the
+
+---------02:40----------
+computer that's a bit too much for me so
+
+---------02:42----------
+what we're gonna do just take the SSD
+
+---------02:44----------
+out so that I could fit a soldering iron
+
+---------02:45----------
+in that little space where you're going
+
+---------02:46----------
+to touch up those pads and see if we can
+
+---------02:49----------
+get the charge of the light to be
+
+---------02:50----------
+working again now for this I'm not gonna
+
+---------02:53----------
+use the standard hako iron that I
+
+---------02:54----------
+usually use I'm going to use the hakko
+
+---------02:56----------
+FM 2032 micro pencil let's see if we can
+
+---------03:00----------
+make this look beautiful again so a
+
+---------03:03----------
+little the first thing I'm gonna do is
+
+---------03:05----------
+scrape away at any of this nastiness
+
+---------03:08----------
+over here alright as you can see most of
+
+---------03:12----------
+the nastiness actually goes away without
+
+---------03:14----------
+a fight
+
+---------03:14----------
+and when you move away the nastiness
+
+---------03:16----------
+you'll see that it's not three pads that
+
+---------03:18----------
+are broken it's actually just this one
+
+---------03:20----------
+see because if I touch this one it
+
+---------03:23----------
+doesn't move and that's the test by the
+
+---------03:25----------
+way for all you who are wondering after
+
+---------03:26----------
+you solder a connector like this you
+
+---------03:28----------
+should take a set of tweezers and go
+
+---------03:29----------
+through each pad each pin and see if
+
+---------03:33----------
+they move when you put pressure on them
+
+---------03:35----------
+and if they move like this one you know
+
+---------03:37----------
+it's no good but GPU to using your
+
+---------03:39----------
+streaming PC are 390 I think it's an
+
+---------03:42----------
+online 390 clean it up some alcohol and
+
+---------03:48----------
+a q-tip
+
+---------04:09----------
+now I'm scraping and here this is the
+
+---------04:13----------
+opposite of what Jesse Jones says so
+
+---------04:15----------
+Jesse Jones says scraping is raping by
+
+---------04:18----------
+the way for all of you who said that
+
+---------04:19----------
+that the thumbnail of my video is
+
+---------04:20----------
+misogynistic where I said scraping is
+
+---------04:22----------
+raping that was Jesse Jones's
+
+---------04:24----------
+catchphrase which I took from her a
+
+---------04:27----------
+mother of two young daughters and Mendon
+
+---------04:32----------
+anyway this I'm gonna scrape and the
+
+---------04:36----------
+reason I'm scraping is because I want to
+
+---------04:37----------
+remove the layer from the board that is
+
+---------04:40----------
+I want to remove that conformal layer
+
+---------04:41----------
+from the board but I also want to remove
+
+---------04:43----------
+any of the junky corroded nonsense that
+
+---------04:47----------
+may be left behind that is gonna be on
+
+---------04:49----------
+top of my copper layer so that when I
+
+---------04:52----------
+saw it with a pin on I get a nice
+
+---------04:55----------
+connection
+
+---------05:19----------
+yeah okay we tap it up against the pin
+
+---------05:22----------
+move it away
+
+---------05:24----------
+make sure it's soldered nicely on the
+
+---------05:26----------
+board rip off the excess and now we see
+
+---------05:32----------
+if this worked so the first thing I'm
+
+---------05:33----------
+gonna need to do is replace that DC and
+
+---------05:35----------
+board cable as well because if you look
+
+---------05:37----------
+not only was the connection on the board
+
+---------05:39----------
+broken the cable itself looks corroded
+
+---------05:41----------
+and missing pins so for example this one
+
+---------05:44----------
+this one this one this one so I'm gonna
+
+---------05:47----------
+go and get a replacement cable so let's
+
+---------05:49----------
+see if this works with a new DC and
+
+---------05:50----------
+cable and there we have it as you can
+
+---------05:55----------
+see not only do we get a fan spin but we
+
+---------05:58----------
+get a light on the charger focus focus
+
+---------06:04----------
+you bastard
+
+---------06:10----------
+[Music]
+
+---------06:14----------
+all right no focus well you get the idea
+
+---------06:16----------
+it works even if I have no clue how to
+
+---------06:21----------
+use my damn camera so that's it for that
+
+---------06:23----------
+you have a nice working MacBook Air and
+
+---------06:25----------
+the line that we were able to restore
+
+---------06:27----------
+here if we take a look on the schematic
+
+---------06:29----------
+in the board view appears to be the P P
+
+---------06:31----------
+3 V 4 2 line that's the one that I would
+
+---------06:33----------
+expect to blow because that's the power
+
+---------06:34----------
+line I don't expect the data line to be
+
+---------06:36----------
+the one that's gonna corrode in the case
+
+---------06:38----------
+of liquid I expect it to be that the
+
+---------06:39----------
+power line is the one that's gonna
+
+---------06:40----------
+corrode in the case of liquid and that's
+
+---------06:42----------
+what appears to have happened
+
+---------06:48----------
+and if you're interested in where you
+
+---------06:50----------
+could find stuff like this all the
+
+---------06:51----------
+equipment that I recommend that you
+
+---------06:52----------
+purchase for yourself is actually
+
+---------06:55----------
+equipment that I list well stored our
+
+---------06:58----------
+Osmond group comm so if you go to store
+
+---------07:00----------
+doubt rossmann group comm and you're
+
+---------07:01----------
+curious about the type of irons that I
+
+---------07:02----------
+use you can go to soldering stations
+
+---------07:04----------
+soldering irons and you'll see a list of
+
+---------07:06----------
+the soldering irons that I use and
+
+---------07:08----------
+recommend including the micro pencil now
+
+---------07:10----------
+wait it may say out of stock but wait
+
+---------07:12----------
+there's more
+
+---------07:13----------
+you can click on the link and it'll
+
+---------07:15----------
+bring you to my Amazon affiliate link
+
+---------07:17----------
+where you can actually buy it on Amazon
+
+---------07:19----------
+itself don't delay buy today and as you
+
+---------07:23----------
+can see the vendor on Amazon realized
+
+---------07:25----------
+that I was linking to them and as a
+
+---------07:26----------
+result raise the price cuz they're a
+
+---------07:29----------
+prick but yeah this this seems to happen
+
+---------07:31----------
+a literally everything that I recommend
+
+---------07:33----------
+people buy on Amazon now everything that
+
+---------07:35----------
+I have affiliate link to on Amazon they
+
+---------07:37----------
+ jack the price up up and this
+
+---------07:38----------
+has been pissing me off recently since I
+
+---------07:40----------
+had to buy the tips recently so for
+
+---------07:43----------
+example I use the T 30 - KN and see this
+
+---------07:45----------
+used to be 40 dollars and seven cents
+
+---------07:47----------
+how much you want to bet it's like fifty
+
+---------07:49----------
+bucks now when I go to Amazon to buy the
+
+---------07:50----------
+stick so we're gonna click here I go to
+
+---------07:52----------
+buy the tip and like you you cooks up
+
+---------07:54----------
+you mother look at it 49.95 King pieceof
+
+---------08:04----------
+if you need a new DC and board cable you
+
+---------08:07----------
+can find DC and board cables at store
+
+---------08:09----------
+osmond group comm if you go over to
+
+---------08:11----------
+store dot Rossmann group comm you can
+
+---------08:13----------
+search for macbook parts by type DC and
+
+---------08:17----------
+board DC and board cable and the first
+
+---------08:19----------
+one available is a DC and board cable
+
+---------08:21----------
+available for the low low price of $5.99
+
+---------08:24----------
+it'll even detail the model MacBooks
+
+---------08:27----------
+that it works in and it has a nice high
+
+---------08:29----------
+resolution picture than you can you draw
+
+---------08:31----------
+from don't delay
+
+---------08:32----------
+buy today
+

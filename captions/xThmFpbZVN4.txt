@@ -1,0 +1,463 @@
+https://www.youtube.com/watch?v=xThmFpbZVN4
+---------00:00----------
+this is definitely the week of
+
+---------00:02----------
+back lights so this is a machine that we
+
+---------00:05----------
+replace the keyboard on and he came back
+
+---------00:09----------
+today to say that the screen has no
+
+---------00:12----------
+light on it and when I opened it oh I
+
+---------00:15----------
+will show you a picture right here of
+
+---------00:16----------
+what I saw
+
+---------00:24----------
+and this just made me sad because the
+
+---------00:27----------
+dude spent a good three five minutes
+
+---------00:29----------
+here saying you know you didn't fix it
+
+---------00:31----------
+and piss you guys are blab
+
+---------00:33----------
+blab that and you know I kind of get
+
+---------00:37----------
+maybe I may there's a chance like a 1%
+
+---------00:40----------
+chance that I I may have forgotten to
+
+---------00:43----------
+turn it on but I sure as I'm not
+
+---------00:45----------
+gonna miss like coffee all over the side
+
+---------00:49----------
+of the board anyway let's just get to
+
+---------00:50----------
+the point here and there and the fixing
+
+---------00:53----------
+of it
+
+---------00:53----------
+so the fuse itself is blown I replaced
+
+---------00:56----------
+the fuse and it still doesn't work
+
+---------00:59----------
+I checked the the output at backlight on
+
+---------01:02----------
+the LVDS connector and I got 0 volts I
+
+---------01:06----------
+checked a lot of places actually in the
+
+---------01:09----------
+in the entire circuit and across it by
+
+---------01:12----------
+the way I set up the new lights today
+
+---------01:13----------
+yeah this is ok it's kind of
+
+---------01:17----------
+should I get it I don't have them I
+
+---------01:18----------
+couldn't get shelves that were enough
+
+---------01:20----------
+that IKEA they didn't have what I needed
+
+---------01:21----------
+they had two left and also this adhesive
+
+---------01:24----------
+this kind of but it's much
+
+---------01:27----------
+better than when this was a stock room
+
+---------01:29----------
+for LCD screens that I sold for
+
+---------01:32----------
+5 percent markup on eBay and it allows
+
+---------01:35----------
+me to keep my complete mess away from
+
+---------01:37----------
+the other two technicians who work here
+
+---------01:39----------
+who just who shiver at the idea of being
+
+---------01:42----------
+at my table I'm a mess it's just
+
+---------01:44----------
+it's part of who I am anyway going back
+
+---------01:47----------
+to this so the entirety of the backlight
+
+---------01:50----------
+circuit here had nothing like 0 volts
+
+---------01:53----------
+across the whole thing now this circuit
+
+---------01:56----------
+starts with PP Baz Sol City Victor power
+
+---------01:59----------
+and so if there's nothing in this entire
+
+---------02:02----------
+thing the only thing that I can
+
+---------02:04----------
+conclusion I can come to is that that is
+
+---------02:07----------
+dead
+
+---------02:07----------
+so I scroll down now usually if
+
+---------02:11----------
+everything after that is dead I don't
+
+---------02:13----------
+mean just the output but everything
+
+---------02:14----------
+after the beginning is dead
+
+---------02:16----------
+it's the backlight fuse so I measured
+
+---------02:18----------
+the backlight fuse and I have my 12
+
+---------02:19----------
+volts on both sides so what the is
+
+---------02:21----------
+wrong here so I decided to follow along
+
+---------02:23----------
+again use your brain don't think about
+
+---------02:26----------
+replacing chips and I'm gonna replace
+
+---------02:27----------
+this fuse and it'll work I'm gonna
+
+---------02:29----------
+replace the LVDS connect your door
+
+---------02:31----------
+I'm gonna replace the backlight driver
+
+---------02:32----------
+and it'll work no use your brain
+
+---------02:34----------
+and follow along because I get a lot of
+
+---------02:37----------
+messages now saying like where did you
+
+---------02:39----------
+get this chip I need to replace this
+
+---------02:40----------
+chip I know it's it and I go okay so did
+
+---------02:42----------
+you measure anything gonna go No
+
+---------02:43----------
+did you try did you look at it no I just
+
+---------02:46----------
+know I want to replace this and I face
+
+---------02:48----------
+palming I move on to the next message
+
+---------02:50----------
+anyway so q90 806 opens via this voltage
+
+---------02:53----------
+divider network so I decided to measure
+
+---------02:56----------
+the output of it and I wasn't getting 12
+
+---------02:58----------
+volts on and I measured the gate voltage
+
+---------03:01----------
+and the gate voltage actually I believe
+
+---------03:05----------
+the gate didn't give me either
+
+---------03:06----------
+and the input of this transistor didn't
+
+---------03:09----------
+give me anything so after the fuse right
+
+---------03:11----------
+here the 12 volts is supposed to go to
+
+---------03:13----------
+the input of this transistor and then
+
+---------03:14----------
+something opens the transistor the
+
+---------03:17----------
+voltage divider network under it opens
+
+---------03:18----------
+it and that voltage divider network
+
+---------03:21----------
+under it is triggered by some signals
+
+---------03:23----------
+here but hey that's beyond the scope of
+
+---------03:25----------
+this there wasn't even 12 volts on the
+
+---------03:27----------
+input I get if it's not opening because
+
+---------03:29----------
+they get the gate I get if it's not
+
+---------03:30----------
+opening because it's broken but even if
+
+---------03:32----------
+it opened there's nothing there so I
+
+---------03:34----------
+decided to draw a wire from the fuse to
+
+---------03:39----------
+the input of this transistor here which
+
+---------03:41----------
+is pin 4 and do that I used let's show
+
+---------03:46----------
+you here I went to the section of
+
+---------03:50----------
+ that people have left here for
+
+---------03:52----------
+months and years and never gotten back
+
+---------03:55----------
+to me and from one of these machines I
+
+---------03:57----------
+cut out an lvds cable
+
+---------04:00----------
+you scared this up oh my god I've
+
+---------04:04----------
+never been that scared in my life
+
+---------04:06----------
+I cut up the LVDS cable and from that I
+
+---------04:10----------
+got this little wire so what I did is I
+
+---------04:13----------
+used that wire to go from the fuse the
+
+---------04:16----------
+the right side of the fuse by the way
+
+---------04:17----------
+you don't wanna go from the beginning of
+
+---------04:19----------
+the fuse because then they'll know won't
+
+---------04:20----------
+have a chance to blow so this is where
+
+---------04:23----------
+the 12 volt starts in the computer and
+
+---------04:24----------
+on the other side of the fuse is where
+
+---------04:26----------
+the 12 volts goes to the backlight and
+
+---------04:31----------
+that goes to the input of this
+
+---------04:33----------
+transistor here see Anna's the guy kind
+
+---------04:37----------
+of accused me of never fixing his
+
+---------04:39----------
+computer right after he spilled coffee
+
+---------04:41----------
+on it again I don't really know that I
+
+---------04:44----------
+could get a anyway she didn't say
+
+---------04:47----------
+that but this is a truthful Channel so
+
+---------04:49----------
+people thank you
+
+---------05:20----------
+this should be much easier for all of
+
+---------05:22----------
+you out there who have much steadier
+
+---------05:24----------
+hands and I do my and his plans are
+
+---------05:27----------
+pretty much useless terrible for
+
+---------05:30----------
+soldering and putting any other stuff
+
+---------05:31----------
+back together
+
+---------05:51----------
+usually in the day when the other people
+
+---------05:53----------
+are here I'll do this and then I'll hand
+
+---------05:58----------
+it to the other guy who is an amazingly
+
+---------06:01----------
+fast and good technician and he will put
+
+---------06:05----------
+it back together in something like no 90
+
+---------06:08----------
+seconds it's just it's insane how
+
+---------06:09----------
+quickly he puts these things back
+
+---------06:11----------
+together while keeping everything
+
+---------06:13----------
+exactly where it's supposed to go
+
+---------06:18----------
+it's me for
+
+---------07:20----------
+the machine is being a troll see how it
+
+---------07:23----------
+took 20 seconds to turn on there for no
+
+---------07:25----------
+reason like I hit the power button you
+
+---------07:26----------
+heard them of the shitty optical drive
+
+---------07:30----------
+and then it took twenty seconds to turn
+
+---------07:31----------
+on do you know why I did that because
+
+---------07:33----------
+I'm doing a video that's why I usually
+
+---------07:35----------
+don't do these videos in real time as I
+
+---------07:37----------
+do the repairs or while this is
+
+---------07:38----------
+still open because something always that
+
+---------07:40----------
+I need always happens that would not
+
+---------07:43----------
+happen if the camera we're not
+
+---------07:44----------
+rolling anyway as you can see back light
+
+---------07:47----------
+which means I win and I can charge this
+
+---------07:52----------
+person again and usually while I would
+
+---------07:55----------
+do this on the house for somebody who is
+
+---------07:56----------
+nice if they just had something done
+
+---------07:58----------
+here since this person was a douche I am
+
+---------08:01----------
+going to charge the mic and I will enjoy
+
+---------08:04----------
+keeping it have a nice thing
+

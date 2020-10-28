@@ -1,0 +1,2053 @@
+https://www.youtube.com/watch?v=cbYi4LjNTLg
+---------00:00----------
+hi so today I'm gonna be going over an 8
+
+---------00:02----------
+to 0 2530 motherboard that is dead this
+
+---------00:06----------
+video's probably gonna be out of sync I
+
+---------00:08----------
+have a lot of other encodes going in the
+
+---------00:09----------
+background I just lower the priority of
+
+---------00:12----------
+them and I also lower the affinity so I
+
+---------00:14----------
+say only work on the CPU core and I've
+
+---------00:16----------
+filed transfers going I always try to
+
+---------00:18----------
+record to a different SSD than the one
+
+---------00:19----------
+I'm transferring files to and from but
+
+---------00:22----------
+yeah the reality is I mean to actually
+
+---------00:24----------
+put out the amount of videos that I do
+
+---------00:25----------
+in this quality on one computer it's
+
+---------00:29----------
+pretty difficult I'm thinking you know I
+
+---------00:31----------
+could just solve this problem by just
+
+---------00:32----------
+moving everything over to an encoding
+
+---------00:34----------
+computer that's just constantly getting
+
+---------00:36----------
+skull-fucked encoding videos but
+
+---------00:38----------
+requires buying another computer and I'm
+
+---------00:40----------
+cheap so I'm gonna stop this video and
+
+---------00:43----------
+see if it's actually in sync and if it
+
+---------00:44----------
+is then I will start and continue with
+
+---------00:47----------
+how we troubleshoot this board alright
+
+---------00:49----------
+so I think this did it so what I did is
+
+---------00:51----------
+I make open broadcast or high priority I
+
+---------00:54----------
+make sure that the drive that I am
+
+---------00:57----------
+recording to is not a drive I'm doing
+
+---------00:58----------
+transfers to and from I have 4 SSDs
+
+---------01:01----------
+plugged into this computer just filled
+
+---------01:03----------
+with one terabyte one terabytes of
+
+---------01:05----------
+random clips of like this board or pair
+
+---------01:07----------
+that border pair that are all unlabeled
+
+---------01:09----------
+that I have to go through later and I
+
+---------01:11----------
+also have a raid 0 array that I use for
+
+---------01:13----------
+capturing I figured that 2 SSDs in raid
+
+---------01:16----------
+0 will be enough for a one video capture
+
+---------01:20----------
+and also occasionally transferring stuff
+
+---------01:21----------
+but it's not so I have the I have so
+
+---------01:24----------
+many SSDs in this computer I've lost
+
+---------01:26----------
+count so I'm recording to an SSD that is
+
+---------01:28----------
+not an SSD that I'm transferring to or
+
+---------01:30----------
+from and I'm making sure that all my
+
+---------01:33----------
+encodes or renders are set to the
+
+---------01:36----------
+affinity the same core CPU affinity but
+
+---------01:39----------
+instead of it using all processors it's
+
+---------01:41----------
+only going to use one of the six cores
+
+---------01:42----------
+that being said hopefully this and this
+
+---------01:46----------
+ where none of my videos are in
+
+---------01:47----------
+sync it's something I could totally
+
+---------01:49----------
+solve by buying another machine which
+
+---------01:52----------
+again I didn't even want to build this
+
+---------01:55----------
+one but yeah so let's get on with it
+
+---------01:57----------
+hopefully the audio is fixed so we have
+
+---------01:59----------
+a green light in the charger the green
+
+---------02:01----------
+light and the charger tells me that I'm
+
+---------02:04----------
+burning my finger here great now the
+
+---------02:08----------
+board is telling me what's going on with
+
+---------02:09----------
+it already hello
+
+---------02:12----------
+I know so we have a green light in the
+
+---------02:13----------
+charger means PP 3 V 4 to his presence
+
+---------02:15----------
+if you watch my 1 yr circuit videos
+
+---------02:17----------
+you'll know why that is we need 3.42
+
+---------02:19----------
+volts for the 1 wire circuit to function
+
+---------02:21----------
+and for the green light to turn on so
+
+---------02:22----------
+now we're going to go over to the board
+
+---------02:24----------
+schematic and let's go over to the
+
+---------02:28----------
+schematic and go through the different
+
+---------02:30----------
+power rails on page 7 you're gonna find
+
+---------02:32----------
+all the different power rails in the
+
+---------02:33----------
+system I'm surprised I didn't just this
+
+---------02:38----------
+into stone did they even have PDFs in
+
+---------02:41----------
+2009 do they have like pen and paper and
+
+---------02:46----------
+ink I'm pretty sure because if I had a
+
+---------02:49----------
+guess I would have guessed that they
+
+---------02:50----------
+just had you know I would have guessed
+
+---------02:52----------
+that they just had stones and rocks and
+
+---------02:55----------
+chisels so in this old piece of
+
+---------02:57----------
+schematic what they do is they put the
+
+---------03:00----------
+most important stuff last and the least
+
+---------03:02----------
+important stuff first so what the
+
+---------03:04----------
+average person is going to do here the
+
+---------03:06----------
+mistake that the average person makes is
+
+---------03:07----------
+they look at this list of rails and they
+
+---------03:09----------
+start with the first one right no you
+
+---------03:11----------
+don't because what it's listing first is
+
+---------03:14----------
+s o rails so let's just go over what the
+
+---------03:16----------
+power states mean for a minute so we
+
+---------03:17----------
+have s 5 means you know the rails that I
+
+---------03:20----------
+would expect to be present when the
+
+---------03:22----------
+computer is off I'm just sitting there
+
+---------03:24----------
+with the battery plugged in we have s 3
+
+---------03:26----------
+rails I would expect to be present once
+
+---------03:29----------
+the laptop is in US in a sleep State so
+
+---------03:32----------
+let's say you know you closed the lid
+
+---------03:33----------
+and you see the little blinking white
+
+---------03:34----------
+light in the front that says that the
+
+---------03:36----------
+MacBook is sleeping you have G 3 hot
+
+---------03:38----------
+rails which to be honest with you I
+
+---------03:40----------
+never bothered to do the research to
+
+---------03:41----------
+figure out the difference between s 5
+
+---------03:43----------
+and G 3 ha G 3 hot means always present
+
+---------03:45----------
+s 5 is present when it's off so to me
+
+---------03:48----------
+that's the exact same and over here
+
+---------03:51----------
+we have s o rails the s o rails are
+
+---------03:54----------
+designed to be on whenever the computer
+
+---------03:56----------
+is you know on so it's on and working so
+
+---------03:59----------
+if the computer is not turning on why
+
+---------04:01----------
+would we check the soö rails first
+
+---------04:03----------
+particularly if those rails are only
+
+---------04:04----------
+supposed to be present when them
+
+---------04:05----------
+computers on makes no damn sense
+
+---------04:07----------
+so we're gonna start with the G 3 hot
+
+---------04:09----------
+rail over here no as I said PP 3 V 4 to
+
+---------04:11----------
+underscore G 3 hot is already present
+
+---------04:15----------
+I know it's present because I have my
+
+---------04:17----------
+light and as I say if we scroll over to
+
+---------04:19----------
+the logic gate set up for you 6901 over
+
+---------04:23----------
+here you wouldn't pp 3 V 4 2 powers this
+
+---------04:26----------
+which will then power this hi-c which
+
+---------04:29----------
+allows the external which is the
+
+---------04:31----------
+chargers adapter sense line to talk to
+
+---------04:33----------
+the internal which is the SMC so we
+
+---------04:35----------
+wouldn't have any of that without PP 3 V
+
+---------04:36----------
+4 2 so seeing that light means that it's
+
+---------04:38----------
+present now if we go back to page 7 the
+
+---------04:40----------
+next rail that's supposed to be always
+
+---------04:42----------
+on is going to be PP 18 V 5 DC and
+
+---------04:45----------
+connectors now let's think about this a
+
+---------04:46----------
+second if the DC n board the DC n
+
+---------04:49----------
+connector if the charger wasn't
+
+---------04:50----------
+providing power to this board would I
+
+---------04:52----------
+have PP 3 before - no common sense so I
+
+---------04:54----------
+can skip over that one in
+
+---------04:55----------
+troubleshooting going down to the next
+
+---------04:57----------
+on the list as pp but G 3 huh this is a
+
+---------04:59----------
+rail that's supposed to be always
+
+---------05:00----------
+present so if I search for this I'm
+
+---------05:03----------
+gonna go over to this board view
+
+---------05:04----------
+software a lot of people wonder how I
+
+---------05:05----------
+find this stuff on the board I'm just
+
+---------05:07----------
+gonna N and it's gonna show me every
+
+---------05:08----------
+point that it shows up there's a nice
+
+---------05:10----------
+big fuse over there that I can check so
+
+---------05:12----------
+it's gonna and you can see the fuse
+
+---------05:16----------
+under the microscope right here so this
+
+---------05:25----------
+and I'm in resistance mode great see the
+
+---------05:30----------
+good thing about having this meter is if
+
+---------05:31----------
+I had the $10 meter it would have smoked
+
+---------05:33----------
+by now 12.5 2 3 good enough next rail on
+
+---------05:39----------
+the list is going to be the S 5 rails
+
+---------05:44----------
+right so let's check PP 3 V 3 s 5 so I
+
+---------05:47----------
+see that over here s 5 rails s 5 is
+
+---------05:50----------
+gonna be the stuff that's supposed to be
+
+---------05:51----------
+on while the machine is off so PP 3 V 3
+
+---------05:54----------
+s 5 so we're gonna find where that is on
+
+---------05:57----------
+this [ __ ] of 1995 software ok I
+
+---------06:04----------
+can find it on this little point thingy
+
+---------06:06----------
+over here so let's try to find that
+
+---------06:07----------
+point thingy on there customer walked in
+
+---------06:12----------
+alright so let's try and find that now
+
+---------06:14----------
+so we're looking for this probe point
+
+---------06:17----------
+that's what so as always the software
+
+---------06:20----------
+always loads the board view in the
+
+---------06:22----------
+opposite position that I have this on
+
+---------06:23----------
+the desk Oh figure and look at
+
+---------06:28----------
+how many dude what the is this look
+
+---------06:30----------
+at how many probe points there are on
+
+---------06:31----------
+this board look at this look okay
+
+---------06:35----------
+no seriously
+
+---------06:36----------
+now so I'm looking for this one over
+
+---------06:38----------
+here right
+
+---------06:39----------
+this thing yeah you know doing window
+
+---------06:45----------
+captures sucks because I have the mouse
+
+---------06:46----------
+in a different spot than where you see
+
+---------06:48----------
+the mouse let me just change that
+
+---------06:49----------
+because that entire thing sucks
+
+---------06:51----------
+we're going to add screen capture even
+
+---------06:54----------
+though it's one frame a second that's
+
+---------06:55----------
+better than in this BS screen capture
+
+---------06:59----------
+beats window capture by far so where you
+
+---------07:02----------
+going to do display capture add my
+
+---------07:04----------
+existing one and add you in love and bam
+
+---------07:15----------
+alright as much as you know it's not the
+
+---------07:17----------
+best but the very least that makes a
+
+---------07:21----------
+little bit here there we go so even
+
+---------07:23----------
+though the mouse is moving slow see you
+
+---------07:24----------
+see that probe point up there look which
+
+---------07:26----------
+one is that
+
+---------07:26----------
+this this this this this I'm just gonna
+
+---------07:29----------
+take a wild guess that it's this so
+
+---------07:31----------
+let's see what I get on the multimeter
+
+---------07:33----------
+which I can't see it cuz I'm in the
+
+---------07:34----------
+wrong do you know on the multimeter I
+
+---------07:36----------
+get 3.3 all right now let's check the
+
+---------07:42----------
+rest of the stuff in this area what
+
+---------07:43----------
+would I expect to see another rail that
+
+---------07:47----------
+I would be expecting to see let's move
+
+---------07:48----------
+up PP 5 vs 3 right P P 5 vs 3 let's look
+
+---------07:57----------
+for you
+
+---------08:04----------
+the Skype messages from a dude that
+
+---------08:06----------
+didn't pay his bill two months later one
+
+---------08:09----------
+thing you should do is never ever ever
+
+---------08:11----------
+let somebody give you a check like I I
+
+---------08:14----------
+had a bad feeling about accepting a
+
+---------08:16----------
+check from this dude and I need just
+
+---------08:18----------
+kept begging me for a part last minute I
+
+---------08:20----------
+just kept saying just buy it somewhere
+
+---------08:21----------
+else just buy it somewhere else just
+
+---------08:22----------
+buying somewhere else and he decides
+
+---------08:24----------
+that he's going to you know just keep
+
+---------08:26----------
+asking me and I finally just feel bad
+
+---------08:28----------
+and I give him the stuff and then he
+
+---------08:30----------
+gives me a check and like I
+
+---------08:32----------
+haven't taken checks ever in like the
+
+---------08:33----------
+one time I decided to take a check at
+
+---------08:35----------
+bounces checks are me really
+
+---------08:37----------
+think about this let's see what about
+
+---------08:39----------
+voltage are we getting here are we close
+
+---------08:41----------
+to our problem
+
+---------08:42----------
+a check is pretty much saying I don't
+
+---------08:45----------
+have any money right I have no money on
+
+---------08:47----------
+me I have no money anywhere but I have
+
+---------08:49----------
+this little piece of paper I'm gonna
+
+---------08:50----------
+write on it that I have money and if you
+
+---------08:52----------
+call these people like Seinfeld actually
+
+---------08:54----------
+had a good skit about this yeah it's
+
+---------08:55----------
+definitely from one of the first
+
+---------08:56----------
+episodes of Seinfeld like if you call
+
+---------08:57----------
+these people they'll tell you that I
+
+---------08:59----------
+have money I promise I swear it's like a
+
+---------09:01----------
+ absence note like taking checks
+
+---------09:04----------
+in 2016 for services or parts you
+
+---------09:07----------
+already provided is just such
+
+---------09:10----------
+ you that's Pete so yeah so we have
+
+---------09:18----------
+three point three volts there but we
+
+---------09:20----------
+don't and we have let's see we actually
+
+---------09:22----------
+have five volts here for pp 5 vs 3 do we
+
+---------09:25----------
+was I just we do yeah I may actually
+
+---------09:31----------
+wind up publishing that person's
+
+---------09:32----------
+information if they don't wind up paying
+
+---------09:34----------
+me but we'll see I'll give them a chance
+
+---------09:36----------
+but never give away if they haven't
+
+---------09:39----------
+paid for it it's the absolute worst oh
+
+---------09:43----------
+you keep skyping saying sorry I've been
+
+---------09:46----------
+busy blabbering I'll you you
+
+---------09:49----------
+pay me all right so now we move on to
+
+---------09:51----------
+the next realm because of that rail is
+
+---------09:53----------
+present
+
+---------09:58----------
+P P 3 V 3 s 3 let's see if this one's
+
+---------10:02----------
+present I also actually didn't check P P
+
+---------10:05----------
+1 vo 5 let's check that one that's a
+
+---------10:08----------
+very common one in the machines with C
+
+---------10:09----------
+seven seven seven one present where they
+
+---------10:11----------
+use the tantalum capacitor instead of
+
+---------10:13----------
+the instead of an electrolytic or a
+
+---------10:15----------
+polymer film oh my god what a [ __ ]
+
+---------10:18----------
+what a okay they're gonna call
+
+---------10:23----------
+it something different than I'm used to
+
+---------10:24----------
+it being called so I'm just gonna find
+
+---------10:26----------
+the component that I that that's on and
+
+---------10:29----------
+go from there
+
+---------10:37----------
+Oh
+
+---------10:52----------
+all right so yeah I'll just measure it
+
+---------10:55----------
+on see seven seven seven one as you can
+
+---------10:57----------
+see here they were smart and they didn't
+
+---------10:59----------
+use a tantalum sees little tantalum
+
+---------11:06----------
+piece of he's responsible for so
+
+---------11:09----------
+many dead 15-inch 2008/2009 machines and
+
+---------11:12----------
+then the kernel panicking in 2010 all
+
+---------11:13----------
+right so the reason I had to skip ahead
+
+---------11:15----------
+is I got a call from some [ __ ]
+
+---------11:16----------
+telemarketer so let's see do I get one
+
+---------11:19----------
+point zero five volts here is that the
+
+---------11:23----------
+right let's let's find the component so
+
+---------11:25----------
+I'm looking for this thing see seven
+
+---------11:29----------
+seven seven one right this thing over
+
+---------11:31----------
+here and it just changed the orientation
+
+---------11:36----------
+on me thank you board view software
+
+---------11:38----------
+all right so let's find this it's going
+
+---------11:41----------
+to be a camp looking up by here
+
+---------12:04----------
+interesting so P P 1 vo 5 is missing
+
+---------12:09----------
+am I on the right place here let's see
+
+---------12:13----------
+I'm measuring right how the hell can I
+
+---------12:15----------
+have PP 5 es 3 without having people
+
+---------12:17----------
+without having this one
+
+---------12:18----------
+let me just measure on the coil let me
+
+---------12:20----------
+make sure I'm not losing it again I'm
+
+---------12:21----------
+gonna measure on L 7 7 7 0
+
+---------12:25----------
+let's check L 7 7 7 0 we're gonna check
+
+---------12:33----------
+right here right by the mCP itself
+
+---------12:51----------
+I got after that four so that I can
+
+---------12:53----------
+smile on multimeter on the screen
+
+---------12:57----------
+nothing okay I think we're getting
+
+---------13:02----------
+somewhere but this really begs the
+
+---------13:04----------
+question though of how is it that P P 5
+
+---------13:06----------
+vs 3 can be present if the mCP isn't
+
+---------13:08----------
+turning on because the mCP is what's
+
+---------13:09----------
+going to send the p.m. sleep s4l signal
+
+---------13:11----------
+which is going to tell PP 5 es s 3 to
+
+---------13:14----------
+turn on and if I go here I believe P P 5
+
+---------13:16----------
+vs 3 is started ok it's not exactly all
+
+---------13:24----------
+the way there but you know something hmm
+
+---------13:27----------
+interesting
+
+---------13:29----------
+all right so let's see how P P whatever
+
+---------13:33----------
+here is created so this is created by
+
+---------13:36----------
+yeah what was I just done here we go
+
+---------13:41----------
+this is created by so this is gonna take
+
+---------13:44----------
+3.3 volts and turn it into the 1 point 0
+
+---------13:46----------
+5 so let's see pp 3 B 3 s 5 decided to
+
+---------13:48----------
+magically disappear so we're gonna check
+
+---------13:49----------
+on you 7750 I'm gonna check to see that
+
+---------13:52----------
+the enable is there and I'm also going
+
+---------13:53----------
+to check to see that it's receiving
+
+---------13:54----------
+input on the VN pin because remember
+
+---------13:56----------
+even if it's getting input on the VN pin
+
+---------13:58----------
+it's not being told to turn on nothing's
+
+---------13:59----------
+gonna happen so let's look up you 7750
+
+---------14:02----------
+here you 7750 okay you 7750 is right
+
+---------14:09----------
+here alright so I'm interested in
+
+---------14:16----------
+voltage on pin 1 and I'm gonna be
+
+---------14:20----------
+interested in voltage on the enabled pin
+
+---------14:22----------
+which is I don't even remember is it 1 2
+
+---------14:25----------
+okay pin 2 why the did I call it
+
+---------14:28----------
+something different p.m. g2 you know
+
+---------14:30----------
+ you call it what you call it on the
+
+---------14:32----------
+schematic I don't get this why do you
+
+---------14:34----------
+write this on the schematic and then
+
+---------14:37----------
+this on the board view this
+
+---------14:40----------
+makes no sense
+
+---------14:41----------
+it's just is Wow the stupid does
+
+---------14:44----------
+that confuse you alright so let's see if
+
+---------14:45----------
+we have voltage going in and enable
+
+---------14:48----------
+going in do we need both not just one so
+
+---------14:53----------
+let's check it out and see what we get
+
+---------15:00----------
+all right I think they take checks at
+
+---------15:05----------
+the meter they even take post-dated
+
+---------15:07----------
+checks at the meter yeah don't take
+
+---------15:10----------
+checks in business
+
+---------15:12----------
+okay so we're supposed to have 3.3 volts
+
+---------15:14----------
+going into this I see and we have 1.9 so
+
+---------15:20----------
+that even though I measured pp 3 v 3s 5
+
+---------15:22----------
+here's the thing
+
+---------15:23----------
+I measured pp 3 v 3s 5 just a
+
+---------15:26----------
+minute ago and it measured what it was
+
+---------15:27----------
+supposed to now it doesn't all right now
+
+---------15:31----------
+we're getting closer here now let's
+
+---------15:33----------
+measure around the IC responsible for a
+
+---------15:35----------
+PP 3 V 3 oh so this is the stuff that's
+
+---------15:37----------
+gonna get new people you measured it a
+
+---------15:39----------
+minute ago and it worked and now you
+
+---------15:40----------
+measure didn't it didn't so let's make
+
+---------15:42----------
+it let's check this out let's go around
+
+---------15:44----------
+the pp 3 V 3 s 5 area that's gonna be
+
+---------15:48----------
+the u 7200 I see this is the stuff right
+
+---------15:52----------
+honestly like I legitimately feel bad
+
+---------15:54----------
+for new people getting into board repair
+
+---------15:56----------
+because this type of stuff is just
+
+---------15:57----------
+fundamentally demoralizing when you get
+
+---------16:00----------
+trolled this badly so this created by
+
+---------16:02----------
+you 7200 so let's take a look at
+
+---------16:05----------
+something what's going enable some of
+
+---------16:06----------
+these S 5 rails right so we have Eno and
+
+---------16:09----------
+trip and end trip now the way this works
+
+---------16:11----------
+with the end trip ends is oh dear God
+
+---------16:17----------
+this is an awful schematic ok so
+
+---------16:19----------
+can anybody tell me where this goes can
+
+---------16:21----------
+anybody tell me where this line over
+
+---------16:23----------
+here goes this line from Q 7 to 21 where
+
+---------16:26----------
+does this go where the foot uni this
+
+---------16:28----------
+goes here right but how the would
+
+---------16:32----------
+you ever know that from this
+
+---------16:33----------
+schematic like this this board schematic
+
+---------16:35----------
+is so awful I mean you know why
+
+---------16:39----------
+they say over here do not reproduce or
+
+---------16:41----------
+copy or publish it it has nothing to do
+
+---------16:44----------
+with proprietary property it has to do
+
+---------16:45----------
+with the fact that they are
+
+---------16:47----------
+embarrassed that somebody may see just
+
+---------16:49----------
+how bad they are at the internal
+
+---------16:50----------
+documentation is it any wonder that
+
+---------16:52----------
+Apple products have a new extended
+
+---------16:54----------
+warranty or recall every single year
+
+---------16:56----------
+when they can't even draw how the
+
+---------16:59----------
+is put together properly for their own
+
+---------17:01----------
+internal documentation look at
+
+---------17:03----------
+this look at this what the is
+
+---------17:06----------
+this I got high that day so I just
+
+---------17:09----------
+decided to put you
+
+---------17:10----------
+and the line over here by this little
+
+---------17:12----------
+box instead of having it go up here and
+
+---------17:14----------
+what the is this well what's this
+
+---------17:16----------
+ look at this look watch
+
+---------17:19----------
+this line could go to the resistor and
+
+---------17:22----------
+go down but what the is the point
+
+---------17:23----------
+of drawing a box it's like I'm gonna
+
+---------17:30----------
+draw all and they just in they just
+
+---------17:33----------
+ pass out drunk
+
+---------17:34----------
+thank God I don't get if you're gonna do
+
+---------17:37----------
+this stuff do it properly
+
+---------17:38----------
+anyway the way this stuff works is
+
+---------17:41----------
+usually the chip is going to naturally
+
+---------17:43----------
+be on so you have chips that are not
+
+---------17:46----------
+always on and then you have chips that
+
+---------17:48----------
+are always on that have to be turned off
+
+---------17:49----------
+so for example E and O this means that I
+
+---------17:52----------
+have to send voltage to here to turn
+
+---------17:54----------
+this function on and trip means that
+
+---------17:57----------
+it's naturally on but I have to trip it
+
+---------18:00----------
+to turn it off a little confusing so if
+
+---------18:02----------
+I wanted let's go over to a back light I
+
+---------18:04----------
+see let's let's go over to something
+
+---------18:05----------
+simple okay so this chip has an enable
+
+---------18:08----------
+line now the thing with the enable line
+
+---------18:11----------
+very simple is this chip is naturally
+
+---------18:13----------
+off but if I send three volts to the
+
+---------18:15----------
+enable pin I turn it on that's enable I
+
+---------18:18----------
+send voltage to it to enable it now when
+
+---------18:20----------
+it comes to these end trip pins the way
+
+---------18:22----------
+these work is they're always naturally
+
+---------18:25----------
+on it has three volts being created
+
+---------18:28----------
+internally to turn this on now it's not
+
+---------18:31----------
+that I am going to turn it on by sending
+
+---------18:33----------
+voltage - it already has voltage there
+
+---------18:34----------
+what I have to do is I have to take away
+
+---------18:36----------
+that chips voltage that's already there
+
+---------18:38----------
+in order to turn it off and the way we
+
+---------18:41----------
+do that is with this transistor that's
+
+---------18:43----------
+going to ground right so there's a
+
+---------18:46----------
+transistor here that goes to ground it's
+
+---------18:47----------
+gonna take that entropy voltage and say
+
+---------18:48----------
+ you send it to ground I think I
+
+---------18:50----------
+hope my brain is not exactly been what
+
+---------18:52----------
+it used to be lately and this line is
+
+---------18:54----------
+supposed to be going to here because
+
+---------18:56----------
+that's where this goes to it doesn't the
+
+---------18:58----------
+electricity just doesn't go in a little
+
+---------18:59----------
+ box and go around in circles
+
+---------19:01----------
+like some stoner from the 60s it's about
+
+---------19:04----------
+supposed to actually go somewhere but
+
+---------19:06----------
+apparently I'm happy this is Apple
+
+---------19:09----------
+engineering think different well you
+
+---------19:12----------
+know what it let's just not think
+
+---------19:14----------
+at all so where was I with this ah yeah
+
+---------19:19----------
+so let's start checking the enable
+
+---------19:20----------
+signals here let's check en oh now en Oh
+
+---------19:23----------
+comes
+
+---------19:24----------
+from this resistor and this resistor
+
+---------19:26----------
+attaches smc PMG to en to this signal
+
+---------19:30----------
+and we can tell that because they
+
+---------19:32----------
+decided to actually draw a line and not
+
+---------19:33----------
+some random throughout that
+
+---------19:34----------
+part of the motherboard so I'm gonna
+
+---------19:36----------
+plug it in let's just check what's going
+
+---------19:38----------
+on with the enable signals here so SMC
+
+---------19:40----------
+PMG to e n right let's check that on our
+
+---------19:45----------
+72-73 so we're gonna go over to our
+
+---------19:47----------
+seven two seven three the way the Apple
+
+---------19:51----------
+writes out schematics be ashamed
+
+---------19:53----------
+to yourself man my handwriting in second
+
+---------19:55----------
+grade was better than that like it
+
+---------19:57----------
+may have been chicken scratch but at
+
+---------19:58----------
+least you could get at least the point
+
+---------20:01----------
+was there for [ __ ] sake take some
+
+---------20:04----------
+pride in your four hundred billion
+
+---------20:06----------
+dollar engineering four hundred billion
+
+---------20:09----------
+dollar company can't draw a schematic
+
+---------20:11----------
+what a joke Wow and I remember you like
+
+---------20:15----------
+I I've worked on audio gear with the
+
+---------20:16----------
+schematics that you got were literally
+
+---------20:18----------
+photocopies I mean like some of this
+
+---------20:20----------
+ was from the 50s and 60s so you had
+
+---------20:21----------
+a photocopy schematic of a hand drawing
+
+---------20:23----------
+and that was better than this
+
+---------20:25----------
+anyway all right so we're looking over
+
+---------20:29----------
+here OFA okay this is rotated
+
+---------20:35----------
+differently than how I'm looking at it
+
+---------20:37----------
+let's see yeah let's rotate this
+
+---------20:39----------
+properly okay so SMC PMG to en is going
+
+---------20:50----------
+to be on the left side of this resistor
+
+---------20:52----------
+and I got three volts now the side where
+
+---------20:56----------
+it's going to the chip is zero volts
+
+---------21:00----------
+okay so now we have two different things
+
+---------21:01----------
+that could be wrong here either that
+
+---------21:03----------
+resistor is blown and not allowing SMC
+
+---------21:05----------
+PMG to en to the u 7200 buck converter
+
+---------21:09----------
+controller or the buck converter
+
+---------21:11----------
+controller is pulling the signal down on
+
+---------21:13----------
+the other side of that resistance so if
+
+---------21:14----------
+that resistor itself is higher than the
+
+---------21:16----------
+hundred kilo ohms that it's specified
+
+---------21:17----------
+for in the schematic that means that the
+
+---------21:19----------
+resistor is blown however if that
+
+---------21:21----------
+resistor is a hundred kilo ohms or lower
+
+---------21:23----------
+that means that the buck converter
+
+---------21:24----------
+controller chip is what's pulling the
+
+---------21:27----------
+SMC PMG 2en signal down so let's measure
+
+---------21:29----------
+resistance on that and I'm pretty sure
+
+---------21:30----------
+that the signal is being pulled down
+
+---------21:32----------
+because that chip is intermittently
+
+---------21:34----------
+ itself up it's forty nine point
+
+---------21:36----------
+four kilo ohms which is below
+
+---------21:38----------
+100 kilo ohms which means that my use
+
+---------21:39----------
+70-200 is what's screwing all this up so
+
+---------21:42----------
+I'm going to turn on my Weller WH a 900
+
+---------21:45----------
+I'm going to you know take a break take
+
+---------21:47----------
+a piss make myself some breakfast or
+
+---------21:49----------
+lunch come back in a half hour hopefully
+
+---------21:51----------
+this thing will have actually heated up
+
+---------21:52----------
+by then you can tell them being a bit
+
+---------21:54----------
+snarky because my JBC died and now I
+
+---------21:57----------
+have to go back to this and I had no
+
+---------21:58----------
+idea how much patience I lost in terms
+
+---------22:01----------
+of waiting for the to heat up I
+
+---------22:02----------
+have none I have absolutely none I said
+
+---------22:05----------
+that this is a good device and I stand
+
+---------22:06----------
+by me saying that it's a good it's a
+
+---------22:08----------
+good device at 600 bucks but I'm spoiled
+
+---------22:11----------
+I like the $1,800 one I hate this thing
+
+---------22:13----------
+now I really do this thing takes so long
+
+---------22:18----------
+to come to temperature I've almost
+
+---------22:19----------
+forget what I was doing on the damn
+
+---------22:21----------
+motherboard so this chip got to go
+
+---------22:34----------
+okay now remember it's gonna take a
+
+---------22:36----------
+while here this isn't something that's
+
+---------22:37----------
+gonna melt immediately or even in the
+
+---------22:40----------
+you know we're back to the old station I
+
+---------22:45----------
+told you I can figure out if JBC as is
+
+---------22:49----------
+interested in fixing my my JBC for money
+
+---------22:52----------
+I sent them an email just asking like
+
+---------22:54----------
+what what would it cost me to buy this
+
+---------22:55----------
+thing and it didn't fail because it's a
+
+---------22:58----------
+bad station it fell because I'm an idiot
+
+---------22:59----------
+that shoved the spatula in there that I
+
+---------23:01----------
+was trying to use to heat up a macbook
+
+---------23:03----------
+air bezel and i stuck it a little too
+
+---------23:04----------
+high up in there and as a result of that
+
+---------23:07----------
+i sharted they shorted the heating
+
+---------23:10----------
+element to ground okay take the chip off
+
+---------23:14----------
+the board a lot of people get the
+
+---------23:16----------
+orientation of this chip wrong so what I
+
+---------23:17----------
+do is I actually solder it on my table
+
+---------23:19----------
+that's why my desk look like I
+
+---------23:21----------
+don't care if my desk looks like my
+
+---------23:23----------
+desk looks like but my chips are
+
+---------23:27----------
+always soldered on the right way because
+
+---------23:29----------
+I solder the component to the desk while
+
+---------23:32----------
+it's still hot I shove it onto the table
+
+---------23:34----------
+at the end of the day I knock all that
+
+---------23:35----------
+stuff off and I clean the desk but this
+
+---------23:41----------
+iron would look so much better if I
+
+---------23:42----------
+flipped it on heat
+
+---------23:48----------
+are we hunt yet we hunt you it were kind
+
+---------23:51----------
+of hot
+
+---------23:52----------
+there we go
+
+---------23:59----------
+that
+
+---------24:01----------
+beautiful sound that means we're at
+
+---------24:03----------
+Saturn melting temperature a lot of
+
+---------24:05----------
+people asked recently if I hate the
+
+---------24:07----------
+sounds of the hakko so much why don't I
+
+---------24:08----------
+take off the speaker I love that little
+
+---------24:10----------
+noise when it goes I'm ready that's such
+
+---------24:14----------
+a cute little noise it's when it goes
+
+---------24:16----------
+bad
+
+---------24:19----------
+non-stop willing when it does that
+
+---------24:22----------
+when I'm changing two irons that pisses
+
+---------24:24----------
+me off but if I remove the speaker if I
+
+---------24:28----------
+remove the speaker then I also I lose
+
+---------24:30----------
+that adorable little beep and I don't
+
+---------24:32----------
+want to lose that little beat and you
+
+---------24:34----------
+know I'm sure that there's probably a
+
+---------24:35----------
+method if I go through all the manual
+
+---------24:37----------
+settings that I can maybe turn off that
+
+---------24:39----------
+annoying noise when it's when an
+
+---------24:41----------
+unchanging ions it's just have you seen
+
+---------24:44----------
+how shitty the interface to this thing
+
+---------24:45----------
+is I don't want to read a manual to
+
+---------24:47----------
+figure that out the interface that this
+
+---------24:50----------
+thing is so garbage and bad that now I'm
+
+---------24:55----------
+not going through that alarm clock and
+
+---------24:57----------
+guessing what everything meets yeah it
+
+---------25:00----------
+may be in the manual but it's just it's
+
+---------25:01----------
+not if you have to read a manual to
+
+---------25:03----------
+figure out and make something stop
+
+---------25:04----------
+beeping then that's this lame
+
+---------25:09----------
+there should be some general user
+
+---------25:11----------
+intuitive miss to the process the very
+
+---------25:15----------
+least that just shouldn't its default
+
+---------25:17----------
+behavior should not be to be that
+
+---------25:18----------
+annoying but I love the adorable little
+
+---------25:21----------
+beeps that it gives me
+
+---------26:01----------
+okay and I can also see that whoever did
+
+---------26:04----------
+this tried to hide the fact that they
+
+---------26:05----------
+ripped the fan connector off of the
+
+---------26:07----------
+board I'm guessing that this has been
+
+---------26:09----------
+somewhere else before you see that
+
+---------26:11----------
+because that just came right off and
+
+---------26:15----------
+there are no pets
+
+---------26:17----------
+lovely so let's try and reconnect the
+
+---------26:21----------
+fan connector be nice
+
+---------26:36----------
+and then I'm gonna have to epoxy it down
+
+---------26:39----------
+there because it's there's no pads for
+
+---------26:42----------
+the anchor pins wow this is one
+
+---------26:47----------
+looking connector
+
+---------27:13----------
+it should be using a smaller iron for
+
+---------27:15----------
+this
+
+---------27:35----------
+a connector is screwed let's see if
+
+---------27:39----------
+we've made any progress
+
+---------27:47----------
+so what I'm looking for his fan spin era
+
+---------27:49----------
+I will be surprised that the fan ever
+
+---------27:52----------
+spins on this thing but with what that
+
+---------27:55----------
+looks like should it could work and I
+
+---------27:56----------
+probably wouldn't even get a fan spin
+
+---------27:57----------
+let's see
+
+---------27:59----------
+any progress
+
+---------28:17----------
+hmm no dice all right let's see is pp 3
+
+---------28:24----------
+V the pp 3 v 3s v go huh fans not
+
+---------28:29----------
+spinning because that's frigging
+
+---------28:31----------
+connector I'm probably just gonna have
+
+---------28:33----------
+to replace it alright let's see I didn't
+
+---------28:37----------
+turn it on because the CPU is not
+
+---------28:38----------
+getting warm so let's go back and see if
+
+---------28:40----------
+PP 3 V 3 s 5 is present shall we that's
+
+---------28:49----------
+pp 3 V 3 S 5 gotten anything pp 3 V 3 s
+
+---------28:57----------
+5 is supposed to be present on the input
+
+---------28:59----------
+of this I see so it's there alright an
+
+---------29:04----------
+able there P P 1 vo 5 is there okay so
+
+---------29:09----------
+we've made some progress here this is
+
+---------29:10----------
+stuff that I didn't have a minute ago
+
+---------29:11----------
+which begs the question is this thing
+
+---------29:14----------
+just turning on and I don't see the fan
+
+---------29:15----------
+spin because the fan connector is that
+
+---------29:18----------
+ up and seeing as I didn't burn my
+
+---------29:20----------
+face when I touched the when I did I
+
+---------29:23----------
+didn't burn my face when I touched my on
+
+---------29:25----------
+my chin to the CPU I'd say that it's not
+
+---------29:29----------
+on let's see shove the fan in there try
+
+---------29:35----------
+turning it on one more time from the
+
+---------29:37----------
+tweezers
+
+---------29:59----------
+no dice
+
+---------30:09----------
+all right so down the list and let's
+
+---------30:11----------
+continue troubleshooting here
+
+---------30:23----------
+okay let's go down the list what are the
+
+---------30:29----------
+other rails I guess I should
+
+---------30:31----------
+double-check and make sure that PP 5 vs
+
+---------30:33----------
+3 is still there
+
+---------30:51----------
+hmm
+
+---------30:55----------
+is not
+
+---------31:01----------
+pp 3v3 is there PP 5 vs 3 is absent yeah
+
+---------31:10----------
+that's usually supposed to actually this
+
+---------31:11----------
+is one of those older ones it's not
+
+---------31:12----------
+gonna show up until you at the power
+
+---------31:13----------
+button so I have to hit the
+
+---------31:15----------
+quote-unquote power button let me just
+
+---------31:18----------
+put some better solder joints on the
+
+---------31:21----------
+power button
+
+---------31:31----------
+these are used up okay
+
+---------31:38----------
+now plug it back in
+
+---------31:53----------
+nice firm press there to turn it on
+
+---------32:03----------
+well
+
+---------33:23----------
+you see what dumbass did here check out
+
+---------33:26----------
+what dumbass did cent n trip to feedback
+
+---------33:35----------
+that was stupid I'm not editing
+
+---------33:38----------
+that out no need to edit that out people
+
+---------33:41----------
+should see that I'm an idiot
+
+---------33:43----------
+alright let's try this again plug in the
+
+---------33:47----------
+MagSafe I plug in a fan and a hit power
+
+---------33:59----------
+yeah I'm a idiot I'm a
+
+---------34:03----------
+
+
+---------34:05----------
+total idiot I bridged it but
+
+---------34:09----------
+yeah that was it so that you 7200 was
+
+---------34:12----------
+the issue
+
+---------34:12----------
+it was intermittently working I was
+
+---------34:16----------
+actually getting hot in the beginning
+
+---------34:17----------
+and I'm just remembering it now I should
+
+---------34:19----------
+have noticed that immediately but I
+
+---------34:20----------
+noticed that 40 minutes in because I
+
+---------34:21----------
+have no brain anymore and that's that so
+
+---------34:25----------
+as always I hope you learn something any
+
+---------34:27----------
+luck this is actually in sync but see
+
+---------34:30----------
+and man I don't know I still feel I
+
+---------34:35----------
+still feel better about myself than I do
+
+---------34:37----------
+about that dude that can draw a line
+
+---------34:38----------
+that drew the schematic but that's it
+
+---------34:41----------
+for today
+

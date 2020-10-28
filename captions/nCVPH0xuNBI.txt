@@ -1,0 +1,2746 @@
+https://www.youtube.com/watch?v=nCVPH0xuNBI
+---------00:00----------
+all right so today we're going to be
+
+---------00:02----------
+going over how to fix a macbook pro that
+
+---------00:04----------
+has USB ports that aren't working we're
+
+---------00:06----------
+gonna go over the troubleshooting
+
+---------00:07----------
+process that we use to figure out which
+
+---------00:09----------
+you know which component may be the one
+
+---------00:11----------
+used for that is failing and I'm gonna
+
+---------00:13----------
+go over the circuit diagram on the
+
+---------00:15----------
+screen over here so let's go over the
+
+---------00:17----------
+problem that we're having with this
+
+---------00:18----------
+specific MacBook here and also make sure
+
+---------00:21----------
+to say hi to Doge and let's throw this
+
+---------00:26----------
+on and get started so if I put this on
+
+---------00:29----------
+the desk first thing I want to do
+
+---------00:33----------
+besides obsessively compulsively clean
+
+---------00:36----------
+every single one of those fingerprints
+
+---------00:38----------
+off the screen now that we got that out
+
+---------00:47----------
+of the way what I want to do when I turn
+
+---------00:49----------
+it on is I want to see if it's both USB
+
+---------00:52----------
+ports or one USB port so I'm gonna hold
+
+---------00:54----------
+down the option key and when I hold down
+
+---------00:56----------
+the option key it's going to give me the
+
+---------00:58----------
+choices of drives that I can boot into
+
+---------00:59----------
+and what I've done here is I've attached
+
+---------01:02----------
+an external drive this is a little USB 2
+
+---------01:05----------
+SSD thingy this is my SSD over here and
+
+---------01:09----------
+as you can see it's not seeing the
+
+---------01:11----------
+external drive it's only seeing the
+
+---------01:12----------
+internal one and that's with it plugged
+
+---------01:14----------
+into the second port the outermost port
+
+---------01:17----------
+right up here
+
+---------01:18----------
+see it's plugged in now I'm going to
+
+---------01:22----------
+unplug that and I'm gonna plug it into
+
+---------01:24----------
+the other port and I'm gonna see if I
+
+---------01:27----------
+get the same thing and when I show you
+
+---------01:29----------
+the circuit diagram you'll get a little
+
+---------01:31----------
+bit more of an understanding as to why
+
+---------01:33----------
+it is I check it on each port I saw your
+
+---------01:39----------
+real dogecoin Jessen I was very jealous
+
+---------01:40----------
+and I oh yeah I saw what Dave Jones did
+
+---------01:44----------
+on Eevee block with the quick very cool
+
+---------01:48----------
+review very cool review I liked him
+
+---------01:52----------
+going after they yeah we're going after
+
+---------01:54----------
+this Nvidia chip oh yeah I thought that
+
+---------01:57----------
+was hilarious I loved it I loved every
+
+---------01:59----------
+minute of that review it's I love I like
+
+---------02:04----------
+Dave Joneses channel if you're at all
+
+---------02:06----------
+interested into anything with
+
+---------02:07----------
+electronics you should check out Dave
+
+---------02:09----------
+Jones's channel called ee-vie blog if
+
+---------02:11----------
+you haven't already but if you're here
+
+---------02:13----------
+you probably
+
+---------02:14----------
+no it exists anyway so as you can see
+
+---------02:16----------
+neither report works and there's a
+
+---------02:18----------
+reason that I want one of these ports to
+
+---------02:20----------
+work so I'm gonna make the schematic
+
+---------02:22----------
+fullscreen and I'm gonna show you why it
+
+---------02:24----------
+is I'm trying to narrow it down to
+
+---------02:26----------
+whether it's both ports or one port all
+
+---------02:31----------
+right so we should have this game attic
+
+---------02:32----------
+on the screen ahem-hem
+
+---------02:41----------
+really
+
+---------02:42----------
+all right it was reset ah there we go
+
+---------02:52----------
+okay so let's take a look at the diagram
+
+---------02:56----------
+now they used to include a diagram and
+
+---------02:59----------
+they stopped including this diagram in
+
+---------03:00----------
+the newer models but they included it on
+
+---------03:02----------
+everything made before 2013 so our USB
+
+---------03:06----------
+ports are going to be over here we have
+
+---------03:07----------
+external USB a J 4600 and then we have
+
+---------03:12----------
+external USB B J 46:10 now each of these
+
+---------03:18----------
+USB ports goes to their own separate USB
+
+---------03:21----------
+hub before going to the PCH the PCH is
+
+---------03:25----------
+the platform controller hub which is a
+
+---------03:27----------
+combination of a Northbridge and
+
+---------03:28----------
+Southbridge in one so this deals with
+
+---------03:31----------
+all the functions that a Northbridge and
+
+---------03:32----------
+Southbridge would have typically dealt
+
+---------03:34----------
+with so right over here we have what
+
+---------03:37----------
+this USB hub deals with bluetooth which
+
+---------03:39----------
+on this machine bluetooth is brought to
+
+---------03:41----------
+the PCH via USB it deals with the
+
+---------03:44----------
+internal trackpad and keyboard so the
+
+---------03:46----------
+internal trackpad and keyboard on this
+
+---------03:47----------
+model are USB and it deals with the
+
+---------03:50----------
+external port so the first USB hub muxes
+
+---------03:52----------
+bluetooth trackpad and keyboard and the
+
+---------03:55----------
+USB port the second USB hub deals with
+
+---------03:59----------
+the second USB port the webcam the
+
+---------04:04----------
+infrared controller so I don't know if
+
+---------04:05----------
+any you remember but those old white Mac
+
+---------04:07----------
+books used to have that little remote
+
+---------04:08----------
+control that you could use to control
+
+---------04:10----------
+iTunes that virtually I've never seen
+
+---------04:12----------
+anybody use in the ten years I've been
+
+---------04:14----------
+doing this as a business but apparently
+
+---------04:16----------
+they have the circuitry on this machine
+
+---------04:17----------
+for that I don't even know if that
+
+---------04:18----------
+remote works here but they've got it and
+
+---------04:21----------
+now let's take let's go back over to the
+
+---------04:24----------
+schematic so if one poor
+
+---------04:27----------
+at work so if like the first port works
+
+---------04:29----------
+but the second port doesn't then I can
+
+---------04:31----------
+say maybe the issue is with this hub so
+
+---------04:34----------
+let's say I try the second USB port and
+
+---------04:36----------
+it works but the first one doesn't or if
+
+---------04:39----------
+something's going on where the first
+
+---------04:41----------
+port works the second one doesn't and my
+
+---------04:44----------
+webcam doesn't work now I kind of have a
+
+---------04:46----------
+hint okay maybe I should blame the USB
+
+---------04:48----------
+hub or if the second USB port and the
+
+---------04:51----------
+webcam works but I have no Bluetooth
+
+---------04:52----------
+trackpad or keyboard maybe I should
+
+---------04:54----------
+blame this USB hub but since both are
+
+---------04:57----------
+not working what I have to look at is
+
+---------04:58----------
+what do these two both have in common
+
+---------05:00----------
+so it's not gonna it's very unlikely
+
+---------05:02----------
+that both of these hubs failed at the
+
+---------05:04----------
+same time rather what's likely is that
+
+---------05:06----------
+something that they both have in common
+
+---------05:07----------
+is failed so let's look up what that
+
+---------05:09----------
+could be
+
+---------05:09----------
+now the first thing that these both have
+
+---------05:11----------
+in common is the PCH and I would really
+
+---------05:13----------
+hope that the PCH is not what failed
+
+---------05:15----------
+because this is a chip with 7 or 900
+
+---------05:18----------
+balls really small and then I'm going
+
+---------05:21----------
+through that whole nightmare of having
+
+---------05:22----------
+to find one that works 40 minutes to
+
+---------05:24----------
+take it off and put it back on it's
+
+---------05:26----------
+really not something you want to deal
+
+---------05:27----------
+with now another thing that I'm gonna
+
+---------05:29----------
+check is power so power is what these
+
+---------05:32----------
+two may have in common
+
+---------05:33----------
+now what you and let me just get the
+
+---------05:35----------
+board view up here so that you can see
+
+---------05:38----------
+the layout of the board and I'm gonna
+
+---------05:40----------
+add that to my window capture here add
+
+---------05:45----------
+my there we go BAM
+
+---------05:50----------
+I should probably crop that very gonna
+
+---------05:53----------
+crop that a little bit
+
+---------06:01----------
+land wrecks but I still have this in
+
+---------06:07----------
+open board view as land wrecks yeah so
+
+---------06:10----------
+we're gonna crop that there we go
+
+---------06:29----------
+BAM and make this look good all right so
+
+---------06:36----------
+this is my board view software now
+
+---------06:38----------
+remember if we were looking at the PDF
+
+---------06:40----------
+the USB ports are J 4600 NJ 46:10 so
+
+---------06:47----------
+when we go over to the board view we
+
+---------06:53----------
+were gonna look J 4,600 J 46:10 and
+
+---------06:58----------
+those are these two USB ports on the
+
+---------07:00----------
+side of the computer obviously Bob Paul
+
+---------07:03----------
+dead you'll see the Fed did I'm sorry
+
+---------07:05----------
+Paul I'm sorry I really didn't mean to
+
+---------07:08----------
+call you software land Rex that's it
+
+---------07:10----------
+intentional he's not happy the alt click
+
+---------07:19----------
+drag wasn't working to resize the window
+
+---------07:21----------
+it works sometimes but not others Paul
+
+---------07:23----------
+anyway I think you should put a dogecoin
+
+---------07:26----------
+in this where you draw for calling
+
+---------07:27----------
+Paul's baby anyway so if you look here
+
+---------07:32----------
+supportin this is this I feel really I
+
+---------07:36----------
+feel bad that I've been it's muna Paul
+
+---------07:37----------
+if we look here you'll see that pin 1 is
+
+---------07:40----------
+PP 5 vs 3 USB so that's as you as you
+
+---------07:43----------
+all know you need 5 volts to go to the
+
+---------07:45----------
+USB port in order for anything to
+
+---------07:47----------
+actually work so let's try to figure out
+
+---------07:49----------
+where that comes from
+
+---------07:49----------
+so that comes from l4 6 1 5 l 4 6 1 5 is
+
+---------07:57----------
+going back to you 4600 and you 4,600
+
+---------08:01----------
+appears to be what powers the USB port
+
+---------08:04----------
+so let's just take a look at you 4600 on
+
+---------08:06----------
+the schematic over here so we're gonna
+
+---------08:08----------
+go over to the schematic and go to u
+
+---------08:10----------
+4,600 now this says USB port power
+
+---------08:17----------
+switch so my one question if you
+
+---------08:19----------
+remember what I was talking about before
+
+---------08:20----------
+is trying to figure out what it maybe in
+
+---------08:23----------
+common between these two USB ports so
+
+---------08:25----------
+over here you can see that one thing
+
+---------08:27----------
+that's in common between both USB ports
+
+---------08:29----------
+is the PCH each of these USB ports USB
+
+---------08:32----------
+external a and USB external B have
+
+---------08:35----------
+separate hubs so the hubs are not in
+
+---------08:37----------
+common but if we look over here at the
+
+---------08:41----------
+USB port power switch
+
+---------08:43----------
+what you'll see is that it has PP 5 vs 3
+
+---------08:48----------
+n so 5 volts goes in and Phi and then we
+
+---------08:53----------
+have two separate outputs so one of
+
+---------08:55----------
+these outputs goes to L 4 605 which goes
+
+---------09:00----------
+to this USB port hey somebody just said
+
+---------09:04----------
+some nice very much appreciate your vids
+
+---------09:06----------
+as a complete newbie starting out thank
+
+---------09:09----------
+you very much I really appreciate that
+
+---------09:10----------
+that's that's quite nice yeah and I got
+
+---------09:13----------
+to add that thingy to this screen so
+
+---------09:15----------
+that I can see that and the second
+
+---------09:18----------
+output over here output 2 if you follow
+
+---------09:21----------
+the line actually output 2 is goes to
+
+---------09:23----------
+this port output 1 the output 1 goes
+
+---------09:27----------
+down here to l4 6 1 5 which is the
+
+---------09:30----------
+second USB port great job so output 1
+
+---------09:34----------
+goes to this USB port to output 2 goes
+
+---------09:39----------
+to USB port 1 Apple so you go
+
+---------09:49----------
+down here and you can see that the 5
+
+---------09:52----------
+volt power supply for each of these USB
+
+---------09:55----------
+ports has you 4,600 in common so let's
+
+---------09:57----------
+figure out what's going on with you 4600
+
+---------09:59----------
+you 4,600 has input output and enable
+
+---------10:06----------
+sounds pretty simple right so the whole
+
+---------10:08----------
+way that this chip is going to work
+
+---------10:09----------
+right here is if it has the enable and
+
+---------10:12----------
+do keep in mind that the enables are
+
+---------10:13----------
+tied together
+
+---------10:14----------
+if DDR reg enable is present and pp5 vs
+
+---------10:18----------
+3 is present then we will get our output
+
+---------10:21----------
+so but now what I want to do first
+
+---------10:25----------
+before anything else let's figure out do
+
+---------10:27----------
+we have our output if we don't have her
+
+---------10:28----------
+output do we have our input if we ever
+
+---------10:30----------
+out if we don't have our output but we
+
+---------10:32----------
+have our input is the enable present and
+
+---------10:35----------
+why the hell are they using an enable
+
+---------10:40----------
+signal for the memory for USB what what
+
+---------10:46----------
+DDR reg enables so DDR like double data
+
+---------10:50----------
+rate as in memory so this signal is used
+
+---------10:53----------
+for the creation of the
+
+---------10:56----------
+Ram power oh let's just reuse that same
+
+---------11:00----------
+signal for powering on of USB what doe
+
+---------11:07----------
+Jesus Christ they did they did more
+
+---------11:11----------
+proofreading of the freakin tax plan
+
+---------11:14----------
+than they did at this schematic this is
+
+---------11:17----------
+what the really DDR egg really like you
+
+---------11:22----------
+couldn't have like USB reg enable or
+
+---------11:24----------
+something you just have to like
+
+---------11:26----------
+piggyback on the lot in the enable
+
+---------11:27----------
+signal that's used to turn on the RAM
+
+---------11:31----------
+why why by the way you just got C keyed
+
+---------11:36----------
+so first thing I'm kind of interested in
+
+---------11:39----------
+is to see if we do have five volts there
+
+---------11:41----------
+so we're gonna hunt under my microscope
+
+---------11:47----------
+camera which is which just died this
+
+---------12:03----------
+oh all right
+
+---------12:19----------
+let's edit this video later from the 12
+
+---------12:21----------
+minute and 50 second mark you know an
+
+---------12:25----------
+allen key for every now and then this
+
+---------12:32----------
+microscope camera dies aha nevermind I
+
+---------12:35----------
+just hit it and it started working again
+
+---------12:40----------
+yeah I just say I punched it and now it
+
+---------12:43----------
+works Oh
+
+---------12:47----------
+mods are doing good work tonight alright
+
+---------12:49----------
+so we're gonna go back to our board view
+
+---------12:51----------
+in schematic mm-hm
+
+---------13:01----------
+so on our board view software the USB
+
+---------13:10----------
+power should be showing up over here and
+
+---------13:14----------
+over here see that five volts for USB
+
+---------13:25----------
+I feel like I owe Paul Daniels a proper
+
+---------13:28----------
+apology I can't believe I called lend
+
+---------13:35----------
+his software hi Rex it appears the scene
+
+---------13:39----------
+is called land Rex and OBS that's really
+
+---------13:42----------
+not deserved okay
+
+---------13:52----------
+so let's find that little
+
+---------14:02----------
+mm-hmm and what do we get
+
+---------14:15----------
+you get 0.04 volts all right let's check
+
+---------14:19----------
+the other port and on the other port
+
+---------14:35----------
+wait am i measuring the right place
+
+---------14:36----------
+there that doesn't sound right
+
+---------14:38----------
+I know it's supposed to be a
+
+---------14:44----------
+side-to-side one
+
+---------14:45----------
+I measured the wrong place okay yeah
+
+---------14:51----------
+this is it
+
+---------14:53----------
+0.05 yeah we got 0.05 on one port and
+
+---------14:59----------
+0.04 on the other port so at this point
+
+---------15:02----------
+it's clear that the reason that this is
+
+---------15:03----------
+not working is because we're not getting
+
+---------15:05----------
+5 volts to the USB port we're getting
+
+---------15:06----------
+0.04 0.04 tells me that most likely it
+
+---------15:12----------
+is being told to turn on but it's
+
+---------15:13----------
+failing it doesn't tell me that the
+
+---------15:14----------
+enable is missing because it's trying to
+
+---------15:16----------
+do something you have 0.04 volts so
+
+---------15:18----------
+let's go back to the schematic in the
+
+---------15:20----------
+board view and go over what we should do
+
+---------15:22----------
+first so output is missing right so now
+
+---------15:25----------
+what I want to do is I want to figure
+
+---------15:26----------
+out why output is missing is output
+
+---------15:28----------
+missing because the chip is bad is
+
+---------15:30----------
+output missing because there's a short
+
+---------15:32----------
+to ground on output meaning that let's
+
+---------15:34----------
+say this capacitor is dead or this
+
+---------15:36----------
+capacitor is dead has turned into a wire
+
+---------15:38----------
+and now my output is getting
+
+---------15:40----------
+short-circuited to ground by the way
+
+---------15:41----------
+when we say short-circuit the way we
+
+---------15:43----------
+still reason that we say short-circuit
+
+---------15:46----------
+and just to be clear because a lot of
+
+---------15:47----------
+people will say short-circuit to mean
+
+---------15:49----------
+any type of defect is this 5 volts is
+
+---------15:52----------
+supposed to make its way from here all
+
+---------15:54----------
+the way to the usb port but if this
+
+---------15:57----------
+capacitor is broken then it will send
+
+---------16:00----------
+all that 5 volts to ground which is here
+
+---------16:02----------
+which means the circuit will stop short
+
+---------16:04----------
+so rather than taking the long route
+
+---------16:05----------
+over to the USB port it'll take the
+
+---------16:07----------
+short route and go to ground so if the
+
+---------16:11----------
+the issues that we could have are
+
+---------16:12----------
+something could be short-circuiting on
+
+---------16:14----------
+output
+
+---------16:15----------
+problem 1 the chip could be bad problem
+
+---------16:18----------
+2 the enable signal could not be present
+
+---------16:21----------
+so the chip is not being told to turn on
+
+---------16:23----------
+problem 3 the input could not be present
+
+---------16:25----------
+problem 4 so it's one of these above and
+
+---------16:28----------
+now we just got to be a detective so a
+
+---------16:30----------
+lot of the questions that I get when
+
+---------16:31----------
+people come for a tutoring or asset in
+
+---------16:34----------
+the in the comments is you know like 5
+
+---------16:36----------
+volts missing what replace well you got
+
+---------16:39----------
+to do a little bit of work it's not just
+
+---------16:41----------
+gonna be something that is immediately
+
+---------16:43----------
+apparent the moments that you you look
+
+---------16:46----------
+at it so let's
+
+---------16:48----------
+check and see if we have input on pins
+
+---------16:50----------
+two and three of this chip so here on
+
+---------16:52----------
+Paul Daniels is lovely open board view
+
+---------16:54----------
+you'll find that we can see that pins
+
+---------16:58----------
+two and three here our input Peppe
+
+---------17:02----------
+5-volt s3 so we're gonna check out Peppa
+
+---------17:06----------
+dogecoin s3 and see what we get there so
+
+---------17:12----------
+let's find that so pin two and three are
+
+---------17:23----------
+right here okay so it looks like we're
+
+---------17:31----------
+getting five volts on input so the input
+
+---------17:35----------
+is there so we can't blame that alright
+
+---------17:37----------
+now we're gonna check the Enable on pins
+
+---------17:39----------
+four and five four and five up here are
+
+---------17:41----------
+the enable and when you have the enable
+
+---------17:48----------
+there it's 3.3 volts so we can't blame
+
+---------17:50----------
+the enable obviously another way to tell
+
+---------17:52----------
+that you have the enable is that the
+
+---------17:54----------
+computer turns on if we did not have DDR
+
+---------17:57----------
+reg enable if DDR reg and Abel were
+
+---------17:59----------
+missing then we would not have the
+
+---------18:01----------
+voltage where this chip would not turn
+
+---------18:03----------
+on the voltage required for the RAM and
+
+---------18:07----------
+if we didn't have the RAM turning on
+
+---------18:08----------
+then you wouldn't get the chime and you
+
+---------18:10----------
+wouldn't get to be able to see the
+
+---------18:11----------
+screen and be able to see that part
+
+---------18:12----------
+where I can choose the try so that was
+
+---------18:15----------
+kind of a loaded thing to measure
+
+---------18:16----------
+because we knew that to be there so now
+
+---------18:19----------
+we're stuck with two possibilities the
+
+---------18:21----------
+chip is bad or there's a short circuit
+
+---------18:23----------
+to ground so at this point we're going
+
+---------18:25----------
+to cut the power you can unplug the
+
+---------18:27----------
+battery turn off the power supply and
+
+---------18:29----------
+put the multimeter in resistance mode
+
+---------18:32----------
+and we're going to check to see if
+
+---------18:33----------
+there's a short to ground on output
+
+---------18:35----------
+which is on pin 8 and on pin 9 so I'm
+
+---------18:40----------
+gonna check on pin 8 9 and to look wait
+
+---------18:45----------
+look over here this is 8 this is 9 so if
+
+---------18:49----------
+we look in the microscope
+
+---------19:02----------
+we have 8.4 ohms and on the other pin we
+
+---------19:07----------
+have 88.9 ohms so there is definitely a
+
+---------19:11----------
+short circuit to ground but now our
+
+---------19:13----------
+issue is where is the short circuit to
+
+---------19:15----------
+ground because the short circuit to
+
+---------19:16----------
+ground could be located in several areas
+
+---------19:17----------
+the short circuit to ground could be
+
+---------19:19----------
+located on the capacitors could be
+
+---------19:22----------
+located on any on these capacitors that
+
+---------19:24----------
+are on each one of the lines it could be
+
+---------19:27----------
+located in either one of the USB ports
+
+---------19:29----------
+or it could be located in the chip now
+
+---------19:32----------
+the reason that I would stand to believe
+
+---------19:34----------
+that the short is located in the chip is
+
+---------19:36----------
+again if we go back to the original
+
+---------19:38----------
+troubleshooting methodology look for
+
+---------19:40----------
+what is in the look for the commonality
+
+---------19:43----------
+so what's more likely that two
+
+---------19:45----------
+capacitors have gone bad that two ports
+
+---------19:48----------
+have gone bad or that one chip has gone
+
+---------19:51----------
+bad it's more likely that the damage
+
+---------19:53----------
+would have been constrained to a one
+
+---------19:55----------
+chip rather than two capacitors it's
+
+---------19:57----------
+more likely that one person is gonna
+
+---------19:59----------
+make a mistake then two people are gonna
+
+---------20:01----------
+make that same mistake so just
+
+---------20:03----------
+simplifying things the likelihood is not
+
+---------20:05----------
+that both ports just so happened to
+
+---------20:07----------
+become a short circuited at the same
+
+---------20:09----------
+time it's not that both capacitors that
+
+---------20:11----------
+are far away from each other just not
+
+---------20:13----------
+far be you get my D that are separate
+
+---------20:15----------
+from each other have decided to die at
+
+---------20:18----------
+the same time the likelihood is that the
+
+---------20:20----------
+chip exploded or died and that's what's
+
+---------20:22----------
+causing it short so I'm going to remove
+
+---------20:24----------
+this chip from the board using this
+
+---------20:26----------
+beautiful quick 861 DW hot-air station I
+
+---------20:29----------
+got a schilit since Dave Jones just
+
+---------20:31----------
+reviewed it looking for a quick buy a
+
+---------20:34----------
+quick on store de rossmann group comm
+
+---------20:37----------
+free same-day shipping within the
+
+---------20:39----------
+continental United States low price
+
+---------20:41----------
+guaranteed you'll love it
+
+---------20:52----------
+get yours today
+
+---------21:19----------
+okay we're gonna
+
+---------21:26----------
+I saw Dave having fun with that old VGA
+
+---------21:29----------
+card that was so much that was funny to
+
+---------21:34----------
+watch I enjoyed that
+
+---------21:42----------
+he did enjoy brutalizing it I enjoyed
+
+---------21:45----------
+watching that old Nvidia get brutalized
+
+---------21:53----------
+where do you flick excess solder excess
+
+---------21:55----------
+solder gets flicked onto the iron
+
+---------22:03----------
+thank you Mike Miguel on how far the
+
+---------22:06----------
+beer I appreciate it I can't get my
+
+---------22:12----------
+nozzle on I'm a dumb
+
+---------22:20----------
+yeah
+
+---------22:27----------
+at least one of us is a smart all right
+
+---------22:30----------
+so
+
+---------22:39----------
+the airflow from the hot air station
+
+---------22:41----------
+high and fast if you want it to be
+
+---------22:51----------
+I got this nice bent nozzle so that I
+
+---------22:54----------
+can use it under the microscope so even
+
+---------22:59----------
+though I'm at an angle I can still get
+
+---------23:01----------
+my work done it's beautiful look at how
+
+---------23:05----------
+fast that came off in this multi-layer
+
+---------23:06----------
+PCB beautiful mm ah all right so now
+
+---------23:12----------
+we're gonna see if our short-circuit is
+
+---------23:13----------
+gone before moving forward and now we're
+
+---------23:19----------
+up to 28 30 kilo ohms 32 kilo ohms 35
+
+---------23:25----------
+kilo ohms and this meter software is
+
+---------23:28----------
+being dumb it's not showing you it on
+
+---------23:31----------
+the screen let's see will it show you
+
+---------23:33----------
+now really oh that's so lame hmm let's
+
+---------23:43----------
+try this again
+
+---------23:50----------
+yeah the meter software is being dumb so
+
+---------23:53----------
+you can ID is the cable for the meter
+
+---------23:55----------
+long enough to come over okay
+
+---------23:56----------
+your gillip to just look at it this way
+
+---------23:59----------
+so see that third 1.3 million ohms 1.4
+
+---------24:04----------
+million ohms so as you can see the issue
+
+---------24:07----------
+was our chip all along it was that damn
+
+---------24:09----------
+chip that was calling all the laws of
+
+---------24:11----------
+our problems and it was causing the
+
+---------24:14----------
+short circuit to ground so it's time for
+
+---------24:25----------
+a new one
+
+---------25:01----------
+all righty too much solder on the center
+
+---------25:04----------
+pad is kind of my trademark oh well
+
+---------25:08----------
+we're gonna grab a another chip from a
+
+---------25:11----------
+donor board and hopefully we'll have
+
+---------25:17----------
+made our USB circuit great again
+
+---------25:39----------
+[Music]
+
+---------26:07----------
+someone said just jump or input to
+
+---------26:08----------
+output well no
+
+---------26:20----------
+you know would be really cool is if
+
+---------26:22----------
+somebody engineered one of these ICS to
+
+---------26:25----------
+be able to handle a USB killer I wonder
+
+---------26:29----------
+what would take for that that's
+
+---------26:31----------
+something that would be really cool to
+
+---------26:32----------
+see from Dave Jones I would love to see
+
+---------26:37----------
+somebody engineer this to be able to
+
+---------26:39----------
+survive a USB kill
+
+---------26:50----------
+and it's crooked yeah it's crooked
+
+---------27:02----------
+so it's crooked crooked crooked but I'm
+
+---------27:06----------
+sure it'll work we'll see in a moment
+
+---------27:30----------
+and give fingerprints okay then I have
+
+---------27:35----------
+to find that little USB Drive that I
+
+---------27:36----------
+just had in front of me oh yeah
+
+---------27:40----------
+you took it so I wouldn't lose it okay
+
+---------27:43----------
+I'm gonna plug it in I'm gonna turn my
+
+---------27:46----------
+power supply on so the machine turns on
+
+---------27:49----------
+see if it blows up it doesn't look like
+
+---------27:51----------
+it's blowing up hold down the option key
+
+---------27:58----------
+and when I hold down the option key do
+
+---------28:01----------
+you see my other drop all right so now
+
+---------28:04----------
+it can see other drives that are
+
+---------28:06----------
+attached or it doesn't just see the
+
+---------28:07----------
+original one it sees one two and three
+
+---------28:09----------
+and I'm also going to take this little
+
+---------28:11----------
+drive here plug it into the other port
+
+---------28:14----------
+just to make sure it works on every port
+
+---------28:21----------
+come on you can do it
+
+---------28:38----------
+em
+
+---------28:53----------
+really let's go back to the first port
+
+---------29:02----------
+okay so the first port works and the
+
+---------29:11----------
+second port
+
+---------29:12----------
+[Music]
+
+---------29:16----------
+have you tried turning it on and off
+
+---------29:19----------
+again off and on again
+
+---------29:26----------
+hey where's Davis meter
+
+---------29:30----------
+Dave's meter is in the other room Jason
+
+---------29:32----------
+uses it oh man
+
+---------29:40----------
+a Swiper no swiping
+
+---------29:44----------
+all right now we got to figure out why
+
+---------29:46----------
+we only get USB on one port so back hey
+
+---------29:51----------
+we got one more USB port than we did
+
+---------29:53----------
+before right that's good stuff that's
+
+---------29:56----------
+victory by my standards so back to the
+
+---------29:59----------
+drawing board so if we go back here and
+
+---------30:05----------
+we look let's see
+
+---------30:12----------
+we only get one us people you're not
+
+---------30:16----------
+gonna make me take apart the whole thing
+
+---------30:17----------
+are you aren't you
+
+---------30:19----------
+oh yeah no way that would be mean
+
+---------30:27----------
+rip TCH this TC RS
+
+---------30:41----------
+Hey
+
+---------30:59----------
+sukkah okay so the port that's not
+
+---------31:03----------
+working is the one that's up here come
+
+---------31:08----------
+on
+
+---------31:09----------
+dogecoin help me out dogecoin okay so
+
+---------31:17----------
+let's measure and see what voltage we're
+
+---------31:18----------
+getting there this is where the five
+
+---------31:24----------
+volts is going to come out of the chip
+
+---------31:25----------
+from my chip go to my inductor before
+
+---------31:28----------
+going to my port now it's possible that
+
+---------31:30----------
+the port is fine and that the chip is
+
+---------31:33----------
+fine but that inductor blue because of
+
+---------31:34----------
+something that was plugged into it that
+
+---------31:36----------
+was improper you never know alright so
+
+---------31:41----------
+voltage mode gamma comma and alright Oh
+
+---------31:50----------
+meter stop complaining meter says five
+
+---------31:55----------
+volts on and on the other side we get it
+
+---------32:02----------
+on the other side we get five volts so
+
+---------32:05----------
+the port is getting power but it doesn't
+
+---------32:08----------
+see anything alright so he solved our
+
+---------32:10----------
+problem
+
+---------32:11----------
+the fault killed the cap on the second
+
+---------32:14----------
+port did the USB drive spin up at least
+
+---------32:17----------
+you ask the same question I asked Paul
+
+---------32:19----------
+just reasonable my ass SD is not
+
+---------32:21----------
+spinning up now alright so we are
+
+---------32:25----------
+getting power to that port but it
+
+---------32:27----------
+doesn't work so well what are the things
+
+---------32:32----------
+that could cause that USB port not to
+
+---------32:34----------
+work now this is us this is J 4600 right
+
+---------32:37----------
+so J 4600 is the one that's not working
+
+---------32:43----------
+so let's look that up
+
+---------32:49----------
+let's figure that out now that is tied
+
+---------32:53----------
+to trackpad and keyboard and bluetooth
+
+---------32:56----------
+so if I wanted to rule out the hub or
+
+---------32:59----------
+the PCH being the issue what I would do
+
+---------33:01----------
+is I would test the trackpad and the
+
+---------33:03----------
+keyboard if the trackpad and the
+
+---------33:05----------
+keyboard work then that means that I
+
+---------33:06----------
+cannot blame the USB hub Timmy says
+
+---------33:09----------
+wanted to say your videos are amazing
+
+---------33:10----------
+thank you discovered your channel we
+
+---------33:12----------
+could go on off learn heaps the super
+
+---------33:13----------
+Pony probes are king love those thank
+
+---------33:15----------
+you very much to Tim I really appreciate
+
+---------33:17----------
+that well if we look here again this is
+
+---------33:21----------
+the USB port that's not working right
+
+---------33:23----------
+now this USB port goes to a USB hub that
+
+---------33:27----------
+deals with Bluetooth and trackpad and
+
+---------33:28----------
+keyboards so if my Bluetooth works and
+
+---------33:30----------
+my trackpad and keyboard works then I
+
+---------33:32----------
+can't blame the hub logically speaking
+
+---------33:34----------
+so we're gonna boot into this operating
+
+---------33:36----------
+system at the beautiful speed of USB to
+
+---------33:39----------
+the lovely speed of USB 2 and we're
+
+---------33:43----------
+gonna see if the trackpad and the
+
+---------33:45----------
+keyboard are working within that
+
+---------33:46----------
+operating system but I'm gonna boot
+
+---------33:48----------
+using my working USB port and yes this
+
+---------33:51----------
+is old enough that it has USB 2 and
+
+---------33:59----------
+let's boot
+
+---------34:07----------
+[Music]
+
+---------34:25----------
+why do I have jeopardy stuck in my head
+
+---------34:31----------
+USB - USB - all right bluetooth is good
+
+---------34:42----------
+see bluetooth is here
+
+---------34:46----------
+so the only thing that I can imagine is
+
+---------34:50----------
+the physical port or a filter in between
+
+---------34:56----------
+so let's let's take a look at that
+
+---------35:12----------
+okay where was I back to the USB port
+
+---------35:37----------
+so on the USB data line there is a set
+
+---------35:41----------
+of filters so we have typically on USB
+
+---------35:43----------
+you have positive and negative for data
+
+---------35:45----------
+and then you have a filter that's what L
+
+---------35:47----------
+4600 is for l 4600 sits between the USB
+
+---------35:51----------
+line and this little SMC debug MUX this
+
+---------35:58----------
+little SMC debug MUX thingy you 4650 I
+
+---------36:03----------
+believe let's see it allows you to talk
+
+---------36:06----------
+to the SMC through the USB port or
+
+---------36:08----------
+something funny like that so there are
+
+---------36:12----------
+these two resistors that take that
+
+---------36:14----------
+signal and immediately just send it to
+
+---------36:16----------
+USB output over here so you 4650 tell is
+
+---------36:21----------
+what's going to Mo's latest if you s be
+
+---------36:25----------
+debugged port enable low over here is
+
+---------36:28----------
+low then it would meaning it's zero
+
+---------36:32----------
+volts then the USB port is going to talk
+
+---------36:34----------
+to the SMC if you s be debugged port
+
+---------36:37----------
+enable is high then it's going to allow
+
+---------36:40----------
+the USB port to talk to the USB MUX so
+
+---------36:42----------
+this thing is kind of like and it's kind
+
+---------36:44----------
+of like directing traffic so this USB
+
+---------36:46----------
+port can be used to talk to or program
+
+---------36:47----------
+or mess with the SMC or it can be used
+
+---------36:50----------
+as a regular USB port so let's find you
+
+---------36:52----------
+4650 we're gonna find you 46 50 and see
+
+---------36:55----------
+if you 46 50 is set to allow this port
+
+---------36:59----------
+to talk to the SMC or to talk to the USB
+
+---------37:02----------
+MUX because if the if the USB data over
+
+---------37:05----------
+here if this USB data is going to this
+
+---------37:07----------
+chip but then this chip is screwing up
+
+---------37:08----------
+and sending it to the usb to the SMC
+
+---------37:11----------
+instead of to the USB MUX then nothing's
+
+---------37:13----------
+gonna work so let's find out where you
+
+---------37:15----------
+46 50 is and you 46 50 thank God is on
+
+---------37:21----------
+this side of the board because I don't
+
+---------37:23----------
+feel like taking the board out today I'd
+
+---------37:24----------
+like to leave and get myself a burrito
+
+---------37:26----------
+so we're gonna find you 46 50 46 50
+
+---------37:32----------
+where where is you 46 50 yeah right down
+
+---------37:36----------
+here this is where I was so on pin 10
+
+---------37:38----------
+it's gonna tell us if this thing's in
+
+---------37:39----------
+the proper mode now pin 10 is something
+
+---------37:42----------
+that's going to be virtually impossible
+
+---------37:43----------
+to actually see or measure I'm also
+
+---------37:47----------
+going to want to turn this thing back on
+
+---------37:52----------
+get that to work now we're gonna turn
+
+---------37:56----------
+this thing back on have it boot do its
+
+---------38:00----------
+thing
+
+---------38:02----------
+so you 4650 pin ten is gonna be hello
+
+---------38:12----------
+hello right here
+
+---------38:15----------
+and since pin ten is gonna be difficult
+
+---------38:18----------
+to measure I can actually just measure
+
+---------38:19----------
+on this resistor up here so I'm looking
+
+---------38:21----------
+for that to be high because if it's high
+
+---------38:23----------
+3.3 volts then we're gonna be getting
+
+---------38:26----------
+the chip to send the USB port data to
+
+---------38:30----------
+the USB MUX and it is it's three point
+
+---------38:34----------
+five volts it is three point five volts
+
+---------38:39----------
+so here I can blame one of two things
+
+---------38:41----------
+behind door number one I can blame that
+
+---------38:44----------
+inductor that inductor that's sending
+
+---------38:46----------
+the USB data from the USB port to that
+
+---------38:49----------
+little SMC USB traffic directing chip
+
+---------38:51----------
+that could be better behind door number
+
+---------38:53----------
+two that little chip itself could be bad
+
+---------38:55----------
+and it could be not be passing the USB
+
+---------38:57----------
+data that it's receiving from the USB
+
+---------38:58----------
+port to the USB MUX I don't really have
+
+---------39:01----------
+a way to figure that out and honestly
+
+---------39:02----------
+the amount of time it would take to load
+
+---------39:04----------
+an oscilloscope or some type of logic or
+
+---------39:06----------
+data analyze or to figure out if it's
+
+---------39:08----------
+doing that is where is now that's a lot
+
+---------39:11----------
+more expensive time wise then it is to
+
+---------39:14----------
+replace those chips cost wise so I'm
+
+---------39:17----------
+going to replace the things that are
+
+---------39:18----------
+screwed up here see if I got my hotkeys
+
+---------39:21----------
+turned on properly so I'm what I'm going
+
+---------39:23----------
+to do is I'm going to replace huh
+
+---------39:28----------
+thank you to Rufus Francis I appreciate
+
+---------39:31----------
+the $2 I should mail your my dead boards
+
+---------39:34----------
+the Tim Cook if I knew where to mail
+
+---------39:36----------
+them to I would I would mail them with
+
+---------39:37----------
+questions I'm always interested in
+
+---------39:40----------
+getting answers from people who know
+
+---------39:41----------
+more than I do so this this little
+
+---------39:44----------
+filter over here that is taking the data
+
+---------39:47----------
+from my USB port and allowing it to pass
+
+---------39:51----------
+through to my ESM see us be debugged MUX
+
+---------39:54----------
+could be bad or this chip could be bad
+
+---------39:56----------
+it could be receiving the data but not
+
+---------39:58----------
+shooting it out I really don't have a
+
+---------40:00----------
+way to know and I don't really care to
+
+---------40:03----------
+figure
+
+---------40:03----------
+it out because I can replace you 4650
+
+---------40:06----------
+and I can replace el 4600 way faster
+
+---------40:10----------
+than I can actually figure that out so
+
+---------40:12----------
+since the time investment required to
+
+---------40:15----------
+properly diagnose that is less than the
+
+---------40:17----------
+amount of time would take for me to just
+
+---------40:19----------
+replace all that stuff especially
+
+---------40:20----------
+considering the fact that those
+
+---------40:21----------
+components cost you know probably sense
+
+---------40:23----------
+that it it doesn't make sense for me to
+
+---------40:25----------
+have to go through that so I'm gonna
+
+---------40:27----------
+find a board and grab that stuff off of
+
+---------40:29----------
+it and we're gonna repeal and replace it
+
+---------40:32----------
+with better stuff Kyle says I still
+
+---------40:38----------
+don't see how you 4650 Maps well alright
+
+---------40:41----------
+so well let's go over that one more time
+
+---------40:42----------
+just for cut so this is the USB port
+
+---------40:45----------
+over here now the USB port has five
+
+---------40:48----------
+volts for power and then it has pins two
+
+---------40:51----------
+and three which are data now pins two
+
+---------40:54----------
+and three which are data go through this
+
+---------40:56----------
+inductor and this is gonna unit
+
+---------40:58----------
+essentially get rid of the radio
+
+---------40:59----------
+frequency and crap in the signal and
+
+---------41:01----------
+though that's gonna go to this chip this
+
+---------41:04----------
+chip decides whether or not the USB data
+
+---------41:06----------
+is going to go to the SMC or to the USB
+
+---------41:10----------
+port so the end that this will output
+
+---------41:13----------
+the data to this chip which is the USB
+
+---------41:18----------
+MUX but it won't do that if it's
+
+---------41:21----------
+malfunctioning so I know that the USB
+
+---------41:23----------
+MUX is not malfunctioning because this
+
+---------41:25----------
+USB MUX is allowing my trackpad and
+
+---------41:27----------
+keyboard to work as I Prior demonstrated
+
+---------41:29----------
+and it's also allowing Bluetooth to work
+
+---------41:31----------
+as I previously demonstrated our 4651
+
+---------41:37----------
+and our 46:52 should bypass it though
+
+---------41:39----------
+someone says yeah let's see if they're
+
+---------41:42----------
+even on the board good question our
+
+---------41:44----------
+46:52
+
+---------41:45----------
+are these things even they're maybe
+
+---------41:47----------
+they're not even there and that would be
+
+---------41:48----------
+kind of silly to our 46:52 okay
+
+---------42:14----------
+that's on the other side of the board so
+
+---------42:16----------
+yeah I don't want to take out any screws
+
+---------42:18----------
+tonight thank you to Hoyt with a kind
+
+---------42:22----------
+comment and for the $2 so lets you 4650
+
+---------42:28----------
+and l 4600 or right up there alright so
+
+---------42:32----------
+we're gonna take those off so I'm going
+
+---------42:34----------
+to get make sure all the power is
+
+---------42:35----------
+unplugged while I'm doing this turn on
+
+---------42:38----------
+my hot air station
+
+---------42:58----------
+I think this person got us be killed
+
+---------43:01----------
+yeah please stop spamming me up and
+
+---------43:14----------
+it's gone into the depths of the air
+
+---------43:16----------
+filter
+
+---------43:41----------
+let's get rid of that old lead free
+
+---------43:43----------
+stuff put on the new leaded
+
+---------44:03----------
+so what you're saying is
+
+---------44:09----------
+I meta so what you're saying is last
+
+---------44:11----------
+night I really thought that was just a
+
+---------44:17----------
+meme but I met one that was interesting
+
+---------44:22----------
+I didn't know people in the real world
+
+---------44:27----------
+acted like that it was interesting and
+
+---------44:32----------
+fun we discussed these things in the
+
+---------44:35----------
+discord server if you're interested in
+
+---------44:37----------
+joining we got a link in the URL I mean
+
+---------44:41----------
+we have a link in the video description
+
+---------44:44----------
+good luck exporting that board to the EU
+
+---------44:47----------
+now I do not care about the EU one bit
+
+---------45:03----------
+and apparently neither do a lot of
+
+---------45:05----------
+people in here looking at the news for
+
+---------45:09----------
+the past two years you're adding
+
+---------45:14----------
+unnecessary heats of the board and Jessa
+
+---------45:15----------
+is about to flip her table
+
+---------45:17----------
+jess has been table flipping at a lot of
+
+---------45:19----------
+videos recently why you mad bro why you
+
+---------45:26----------
+mad bro it's not unnecessary heat lovely
+
+---------45:36----------
+Heat
+
+---------45:40----------
+beautiful heat
+
+---------45:55----------
+I don't know someone in Brussels will be
+
+---------45:58----------
+mad the way I fixed the board and they
+
+---------46:00----------
+won't let me import it and we get rid of
+
+---------46:11----------
+that little bump on top of that
+
+---------46:13----------
+capacitor there
+
+---------46:14----------
+I don't think Jessa's mad at me for the
+
+---------46:20----------
+way I'm soldering this I think that
+
+---------46:21----------
+you're reporting that she's mad at me
+
+---------46:22----------
+for the way I'm soldering this that's
+
+---------46:25----------
+what I think
+
+---------46:36----------
+all right so I would hope that this
+
+---------46:39----------
+fixes it if this does not fix it it's
+
+---------46:41----------
+either blown broken vias in the board or
+
+---------46:48----------
+bad port or something that's not gonna
+
+---------46:51----------
+be worth the time on a machine from 2011
+
+---------46:54----------
+you got one USB port you can buy
+
+---------46:56----------
+yourself a hub if you want some more
+
+---------46:58----------
+what speed is your air on my speed my
+
+---------47:00----------
+air speed was 95 in that case air speed
+
+---------47:06----------
+was 95 all right here comes the moment
+
+---------47:09----------
+of truth baby it comes the moment of
+
+---------47:10----------
+truth what do you thinks gonna happen
+
+---------47:14----------
+let's pray to our great doge let's see
+
+---------47:20----------
+what we get here so we're gonna plug all
+
+---------47:24----------
+right so we're plugged into the port
+
+---------47:26----------
+that worked
+
+---------47:27----------
+let's give it a minute or so to cool off
+
+---------47:30----------
+these boards cool off very very quickly
+
+---------47:32----------
+Apple boards Apple machines are almost
+
+---------47:34----------
+kind of designed to boil themselves out
+
+---------47:36----------
+from the inside rather than have real
+
+---------47:38----------
+ventilation so I can do things like turn
+
+---------47:41----------
+it on right after doing that I would not
+
+---------47:43----------
+do that to a lot of components but you'd
+
+---------47:45----------
+be surprised how very quickly these cool
+
+---------47:47----------
+off hello tuti why use discord instead
+
+---------47:51----------
+of teamspeak because I do it has the
+
+---------47:55----------
+chit's kind of like 21st century IRC so
+
+---------47:57----------
+I like it for that right so this is the
+
+---------47:59----------
+port that was already working I want to
+
+---------48:01----------
+check out the port that wasn't working
+
+---------48:03----------
+which is this one yes beautiful
+
+---------48:10----------
+we now have working USB 2.0 oh what a
+
+---------48:17----------
+great what a would it would an
+
+---------48:19----------
+accomplishment so just to go over what
+
+---------48:22----------
+it is that we did let's just go back to
+
+---------48:23----------
+the schematic I'm gonna explain exactly
+
+---------48:25----------
+how it failed and exactly how we
+
+---------48:27----------
+troubleshot this failure here so that
+
+---------48:31----------
+you kind of have an idea for next time
+
+---------48:33----------
+so if we go up to the beginning of the
+
+---------48:37----------
+board you'll see that we have two USB
+
+---------48:39----------
+ports we have J 4600 and J 46:10 this
+
+---------48:44----------
+USB port goes to a USB hub before it
+
+---------48:47----------
+goes to the PCH and the
+
+---------48:49----------
+CH is kind of like a north bridge south
+
+---------48:50----------
+bridge all-in-one this USB hub deals
+
+---------48:54----------
+with trackpad keyboard Bluetooth and
+
+---------48:56----------
+this USB port this USB hub over here
+
+---------49:00----------
+deals with the second USB port the
+
+---------49:02----------
+webcam and the infrared this USB port
+
+---------49:05----------
+was not working J 4600 so what I did is
+
+---------49:08----------
+I wanted to rule out if it was the port
+
+---------49:10----------
+of the PCH anything else so I tried the
+
+---------49:12----------
+trackpad and keyboard and the Bluetooth
+
+---------49:13----------
+in the operating system and it saw
+
+---------49:15----------
+Bluetooth devices and the trackpad and
+
+---------49:16----------
+keyboard worked within the operating
+
+---------49:18----------
+system which meant that this USB hub was
+
+---------49:22----------
+fine as was the PCH it had to have been
+
+---------49:24----------
+an issue with this something now the
+
+---------49:27----------
+issue is that it was and that what we
+
+---------49:30----------
+found out is that the issue was sitting
+
+---------49:32----------
+between j 4600 and this little MUX e
+
+---------49:38----------
+thingy over here so what's cool about
+
+---------49:40----------
+this machine one of the very few things
+
+---------49:42----------
+that's cool about an Apple product is
+
+---------49:44----------
+that if you are the Apple Store you can
+
+---------49:46----------
+talk to the SMC on the USB Lion so you
+
+---------49:51----------
+can plug something into the USB port and
+
+---------49:53----------
+have that thing that you plug into the
+
+---------49:54----------
+USB port go to the SMC pretty cool but
+
+---------49:58----------
+this this chip has to be functioning
+
+---------50:00----------
+because if it's not functioning then
+
+---------50:02----------
+it's going to send your USB data over to
+
+---------50:05----------
+the SMC for no reason and there's also
+
+---------50:07----------
+this inductor that sits between that's
+
+---------50:09----------
+designed to keep out noise now you can't
+
+---------50:12----------
+really measure this with a multimeter
+
+---------50:13----------
+because here's the thing this could die
+
+---------50:15----------
+and it could totally be fine it'll
+
+---------50:17----------
+measure 90 ohms it'll measure the amount
+
+---------50:20----------
+of it'll pass you the the voltage your
+
+---------50:23----------
+multimeter puts through but it won't
+
+---------50:25----------
+pass a complicated signal like you know
+
+---------50:28----------
+three you know one gigabit or whatever
+
+---------50:31----------
+400 megabits data per second it won't
+
+---------50:34----------
+pass that complex signal but it'll pass
+
+---------50:36----------
+the junk in your multimeter so you can't
+
+---------50:38----------
+really tell if it's working enough from
+
+---------50:39----------
+a multimeter which is why I just replace
+
+---------50:41----------
+it that fixed our problem where this
+
+---------50:43----------
+port was not working and this one did in
+
+---------50:45----------
+the beginning our issue is that neither
+
+---------50:47----------
+port was working and these ports as you
+
+---------50:50----------
+can see from here when neither ports are
+
+---------50:52----------
+working the only thing that these two
+
+---------50:54----------
+ports have in common
+
+---------50:56----------
+thank you very much the chicken bone I'm
+
+---------51:00----------
+not gonna answer that question but i
+
+---------51:02----------
+apprec--
+
+---------51:03----------
+you ate the $2 now in the beginning our
+
+---------51:06----------
+issue was both USB ports don't work and
+
+---------51:08----------
+the only thing that they have in common
+
+---------51:09----------
+the only thing those two ports have in
+
+---------51:11----------
+common is the PCH itself which we would
+
+---------51:13----------
+pray is not the issue because again 900
+
+---------51:15----------
+little solder balls under it screw
+
+---------51:17----------
+replacing that or this power IC this is
+
+---------51:20----------
+the chip that sends 5 volts out to both
+
+---------51:23----------
+ports this chip has two outputs it sends
+
+---------51:26----------
+power to both ports and output 1 goes to
+
+---------51:30----------
+port 2 and output 2 goes to port 1
+
+---------51:34----------
+because Apple so this this was the
+
+---------51:38----------
+second thing the only second thing that
+
+---------51:40----------
+these two ports had in common and in
+
+---------51:43----------
+this case you 4,600 was dead it was
+
+---------51:46----------
+shorting the outputs to ground it was
+
+---------51:48----------
+destroyed so we replaced it we got this
+
+---------51:50----------
+port back when we're done we got this
+
+---------51:52----------
+port but not this one and it's because
+
+---------51:54----------
+this stuff that's sitting in between the
+
+---------51:56----------
+USB port and the USB MUX was dead that's
+
+---------51:59----------
+it it works and as always I hope you
+
+---------52:02----------
+learned something you can check out the
+
+---------52:04----------
+links below for all the tools and all
+
+---------52:06----------
+the stuff that we use we have a forum
+
+---------52:08----------
+it's 29 bucks a month so if you're a
+
+---------52:10----------
+store you're a recycling company some
+
+---------52:12----------
+sort of business that has hundreds upon
+
+---------52:13----------
+hundreds of these devices and you want
+
+---------52:16----------
+shortcuts on how to fix them and you
+
+---------52:18----------
+want somebody to just kind of walk you
+
+---------52:20----------
+through the process you know what
+
+---------52:21----------
+voltages to measure and what stuff to
+
+---------52:22----------
+look forward to get boards fixed check
+
+---------52:24----------
+that out Duke is a professional engineer
+
+---------52:26----------
+and he's answering questions in the
+
+---------52:27----------
+forum every single day you can check out
+
+---------52:29----------
+all the equipment that we use and you
+
+---------52:31----------
+can check out playlists that I
+
+---------52:32----------
+categorized for all the different videos
+
+---------52:35----------
+for backlight issues charging issues
+
+---------52:37----------
+p.m. sleeve s4l missing machine turns on
+
+---------52:40----------
+but has no brain it turns on but has no
+
+---------52:42----------
+light in the screen it has a light in
+
+---------52:44----------
+the screen but no image it has an image
+
+---------52:45----------
+on the screen and no backlight this has
+
+---------52:46----------
+all been categorized by playlists to try
+
+---------52:48----------
+and make it nice and easy so thanks for
+
+---------52:51----------
+watching and I'll see you next time
+

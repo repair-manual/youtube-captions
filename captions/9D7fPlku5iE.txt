@@ -1,0 +1,1588 @@
+https://www.youtube.com/watch?v=9D7fPlku5iE
+---------00:00----------
+okay so today we're gonna be going over
+
+---------00:01----------
+in really old piece-of-crap the a 1297
+
+---------00:05----------
+MacBook Pro from 2009 there are many
+
+---------00:08----------
+things that make this a piece of crap
+
+---------00:09----------
+the first thing that makes this piece of
+
+---------00:11----------
+crap is the fact that it's from 2009 it
+
+---------00:13----------
+has a Core 2 Duo and it not only has one
+
+---------00:16----------
+graphics chip it has two graphics chips
+
+---------00:19----------
+so what's the only thing that's worse
+
+---------00:21----------
+then a portable Apple product that has
+
+---------00:24----------
+one discrete graphics chip a portable
+
+---------00:26----------
+Apple product that has two discrete
+
+---------00:28----------
+graphics chips because if you've been
+
+---------00:29----------
+watching this channel for any period of
+
+---------00:31----------
+time
+
+---------00:31----------
+and you're aware that for almost every
+
+---------00:33----------
+single year for the past 10 years
+
+---------00:34----------
+there's been an extended warranty
+
+---------00:36----------
+program released because of a up
+
+---------00:38----------
+graphics chip on an Apple motherboard
+
+---------00:41----------
+ironically this one actually isn't that
+
+---------00:44----------
+bad the small graphics chip is a piece
+
+---------00:46----------
+of crap the small one is a piece of crap
+
+---------00:48----------
+it does have issues with failing the
+
+---------00:50----------
+main issue is actually with some muxing
+
+---------00:52----------
+firmware between this one and this one
+
+---------00:55----------
+so you'll see flickering on the screen
+
+---------00:57----------
+but they fixed that in some type of EFI
+
+---------00:58----------
+update I think a few years into it and
+
+---------01:01----------
+the end the main chip on here the main
+
+---------01:03----------
+graphics chip on this one is actually
+
+---------01:05----------
+pretty decent it's it I mean it's not
+
+---------01:07----------
+very powerful which is good because so
+
+---------01:09----------
+it you know it doesn't die like all the
+
+---------01:11----------
+other overpowered ones do so let's get
+
+---------01:16----------
+started on troubleshooting this board
+
+---------01:17----------
+this board doesn't turn on doesn't want
+
+---------01:19----------
+to turn on it has power on the battery
+
+---------01:21----------
+but doesn't turn on so I'm gonna go over
+
+---------01:24----------
+one of the main flaws with this machine
+
+---------01:26----------
+and one of the main things that keeps it
+
+---------01:28----------
+from turning on so as with all no power
+
+---------01:30----------
+issues the first thing that we have to
+
+---------01:31----------
+do here sure the first thing I have to
+
+---------01:34----------
+do before Oh hmm ah first thing I have
+
+---------01:43----------
+to do is find my tweezers I almost lost
+
+---------01:46----------
+my good set of tweezers I can't let that
+
+---------01:48----------
+happen the first thing that you have to
+
+---------01:50----------
+do is go through the list of power
+
+---------01:52----------
+Russells the first thing I do when I
+
+---------01:53----------
+have a no power issue so that I can try
+
+---------01:55----------
+to figure out which rails are missing
+
+---------01:57----------
+and then go from there so I know where
+
+---------01:59----------
+to look it again this is a big board
+
+---------02:01----------
+there's a lot of stuff on this board I
+
+---------02:02----------
+don't want to test every single
+
+---------02:04----------
+component that is a complete another
+
+---------02:06----------
+waste of time a lot of people getting
+
+---------02:07----------
+into this ask how do you measure the
+
+---------02:09----------
+individual components how do I check
+
+---------02:11----------
+every component on the board and or the
+
+---------02:13----------
+they'll ask me questions on measuring
+
+---------02:14----------
+specific things and that this is really
+
+---------02:17----------
+about narrowing down what could be wrong
+
+---------02:20----------
+where do you think the problem lies
+
+---------02:21----------
+narrowing it down to a specific section
+
+---------02:24----------
+that's more important to me than
+
+---------02:25----------
+checking every component on the board so
+
+---------02:27----------
+as long as people are asking questions
+
+---------02:28----------
+about that I feel like it's worth
+
+---------02:30----------
+discussing and it's worth bringing up
+
+---------02:32----------
+because if you are in that mentality of
+
+---------02:34----------
+let's check every component on the board
+
+---------02:35----------
+then you're in that mentality of wasting
+
+---------02:37----------
+a lot of time so first thing to do here
+
+---------02:41----------
+is bring up the schematic all right so
+
+---------02:43----------
+we're gonna go over to the page of the
+
+---------02:44----------
+schematic that has power rails so we're
+
+---------02:46----------
+gonna go over to page 6 and by page 6 I
+
+---------02:49----------
+mean page 7 and by page 7 I mean page
+
+---------02:52----------
+aid I used to have a memory that was a
+
+---------02:55----------
+long time ago so the first thing that we
+
+---------02:57----------
+check here is PP Buzz g3 hot and it says
+
+---------02:59----------
+6 volts but we know that that's
+
+---------03:01----------
+I know that that's because I've
+
+---------03:03----------
+measured this before on working machines
+
+---------03:05----------
+and it's not that that amount so if I
+
+---------03:08----------
+measure P P bus g3 hot I get eight point
+
+---------03:16----------
+three seven it's supposed to be eight
+
+---------03:17----------
+point four that is close enough and
+
+---------03:19----------
+again the Apple schematic is just
+
+---------03:21----------
+ there so now we're going to go
+
+---------03:22----------
+back to page seven and now when it comes
+
+---------03:31----------
+to Rails like this P P DC n I already
+
+---------03:34----------
+know the DC and rail is present it has
+
+---------03:37----------
+to be present because I already have
+
+---------03:39----------
+this I already have the P P bus g3 hot
+
+---------03:43----------
+rail I wouldn't have the P P bus g3 hot
+
+---------03:46----------
+rail if P P DC and was not present so
+
+---------03:48----------
+common sense tells me that's their pp 3
+
+---------03:50----------
+v4 - let's check PP 3 V 4 - next so we
+
+---------03:54----------
+opened my board view software it's open
+
+---------03:58----------
+the file for this pp 3 V 4 to underscore
+
+---------04:04----------
+g3 hot right
+
+---------04:15----------
+-
+
+---------04:21----------
+hello so I go here and now you can't see
+
+---------04:26----------
+all right I go here and what do I get I
+
+---------04:30----------
+supposed to get PP 3 V 4 2 and because
+
+---------04:34----------
+I'm measuring in the wrong place I get P
+
+---------04:36----------
+P 3 V for nothing
+
+---------04:37----------
+alright let's try to measure in the
+
+---------04:38----------
+right place that's fine though the board
+
+---------04:43----------
+view is upside down as it always is
+
+---------04:45----------
+wow that's loud oh that's loud
+
+---------05:09----------
+okay
+
+---------05:13----------
+BAM three point four is there so now we
+
+---------05:16----------
+move on to the next PP 5 vs 3 the next
+
+---------05:27----------
+one on the list is going to be PP 5 vs
+
+---------05:29----------
+three underscore reg wrong bored view
+
+---------05:37----------
+software still wrong bored view software
+
+---------05:41----------
+interesting
+
+---------05:49----------
+BP 5 vs 3 reg I should see it on this
+
+---------05:52----------
+capacitor over here alright pp 5 vs 3 is
+
+---------05:59----------
+missing so now we so now what I'm gonna
+
+---------06:02----------
+do is I'm gonna check for a short to
+
+---------06:04----------
+ground so I know I have no voltage there
+
+---------06:08----------
+now I want to see if there's a short to
+
+---------06:09----------
+ground now with my methodology what I
+
+---------06:11----------
+like to do is check the beginning in the
+
+---------06:12----------
+end of a circuit so now I've checked the
+
+---------06:13----------
+end of it and the end of it has no short
+
+---------06:15----------
+two grounds and no power so now I can
+
+---------06:17----------
+check the beginning of it the reason I
+
+---------06:19----------
+do that is because I don't want to waste
+
+---------06:20----------
+time on a lot of things that are
+
+---------06:22----------
+inconsequential ep5 vs3 so let's see
+
+---------06:27----------
+where do you come from
+
+---------06:36----------
+you
+
+---------06:44----------
+here we go this is a buck converter now
+
+---------06:48----------
+I've been over this so many times before
+
+---------06:50----------
+many many times before pp5 es 3 comes
+
+---------06:53----------
+out at the end if you don't know what a
+
+---------06:55----------
+buck converter is you should read my
+
+---------06:57----------
+earlier posts on what a buck converter
+
+---------06:58----------
+is so we're going to go over here and
+
+---------07:01----------
+see that en1
+
+---------07:03----------
+is on this side and enable that's gonna
+
+---------07:05----------
+turn it on so we go over to en 1 and we
+
+---------07:08----------
+see that it's we see that it's are you
+
+---------07:13----------
+ kidding me Apple what is this
+
+---------07:16----------
+what is this box look it's a little box
+
+---------07:19----------
+that it drew to itself look look it's
+
+---------07:21----------
+touching itself Jesus Christ what the
+
+---------07:24----------
+ is wrong with Apple every schematic
+
+---------07:27----------
+from 2008 and 2009 sucks I went over
+
+---------07:30----------
+this in my video on the 8 - 0 2530 just
+
+---------07:32----------
+a week ago what is this this is a
+
+---------07:34----------
+ box
+
+---------07:36----------
+it's like pee-wee Herman from
+
+---------07:38----------
+the early 90s wrote this schematic look
+
+---------07:40----------
+at it goes in a little loop and just
+
+---------07:42----------
+touches itself ok I'm just going to
+
+---------07:44----------
+assume that this is where it's coming
+
+---------07:45----------
+from and this is gonna confuse people
+
+---------07:47----------
+who are trying to learn these commands
+
+---------07:48----------
+you know just kind of get a general
+
+---------07:49----------
+overview on these schematics for the
+
+---------07:51----------
+first time it's gonna confuse them a lot
+
+---------07:54----------
+and because they're not you know I know
+
+---------07:57----------
+that that's probably what that signal is
+
+---------07:59----------
+gonna is for I didn't just drawing a
+
+---------08:03----------
+line in my head but it's kind of hard if
+
+---------08:05----------
+you're a newbie to really follow that
+
+---------08:08----------
+and that sucks so yeah but that's that's
+
+---------08:10----------
+Apple so that's going to come from here
+
+---------08:11----------
+p.m. sleep s4l is going to come from
+
+---------08:17----------
+from the mCP 79 so now let's check p.m.
+
+---------08:23----------
+sleep s4l
+
+---------08:32----------
+you
+
+---------08:56----------
+that's not a p.m. sleep as that 0.8 4 or
+
+---------09:00----------
+5 volts wait a second that's resistance
+
+---------09:03----------
+mode whoa whoa you idiot you dumb
+
+---------09:06----------
+don't okay am measuring resistance when
+
+---------09:10----------
+I want more voltage and B I don't even
+
+---------09:11----------
+have the thing plugged in let's
+
+---------09:13----------
+try this again
+
+---------09:14----------
+let's try this again dumb dumb all right
+
+---------09:17----------
+we get 0.01 three volts does that sound
+
+---------09:24----------
+like what it's supposed to be too you
+
+---------09:26----------
+know so next up on the list what is
+
+---------09:30----------
+going to produce that actually let's
+
+---------09:31----------
+just short the power pads for a quick
+
+---------09:33----------
+second here try it turn it on and now
+
+---------09:36----------
+measure I forgot this is a Core 2 Duo
+
+---------09:37----------
+and that is not going to show up
+
+---------09:39----------
+immediately yeah it's still not showing
+
+---------09:42----------
+up at all all right so now we go over to
+
+---------09:48----------
+let's see now at this point a lot of
+
+---------09:51----------
+people are gonna say replace MCP MCP is
+
+---------09:54----------
+bad it's not shooting out the signal
+
+---------09:56----------
+that's supposed to but this is
+
+---------10:00----------
+sure no power issue so let's go over to
+
+---------10:03----------
+page seven over here or eight because I
+
+---------10:06----------
+forgot the page number now let's go
+
+---------10:10----------
+through these rails now what here is
+
+---------10:13----------
+gonna power the mCP whoa P P 1 vo 5
+
+---------10:22----------
+underscore s 5 MC P hmm hmm so send 1.5
+
+---------10:29----------
+volts to the mCP when you're in an S 5
+
+---------10:31----------
+State which is what I may have should be
+
+---------10:33----------
+in right now
+
+---------10:34----------
+let's take a look at that let's take a
+
+---------10:43----------
+look
+
+---------10:49----------
+look at me
+
+---------10:54----------
+all right what do we have here but a
+
+---------10:56----------
+tantalum capacitor to ground on output
+
+---------10:59----------
+now one of the things you should know
+
+---------11:00----------
+here is that electrolytic capacitors
+
+---------11:02----------
+have the potential to leak and tantalum
+
+---------11:05----------
+capacitors often have the potential to
+
+---------11:06----------
+short you should always know how these
+
+---------11:07----------
+components are likely to fail so for
+
+---------11:09----------
+example resistors don't fail by becoming
+
+---------11:11----------
+a lower resistance most of the time they
+
+---------11:13----------
+fail by becoming a much higher
+
+---------11:14----------
+resistance or by blowing or just not
+
+---------11:16----------
+conducting properly at all the way
+
+---------11:19----------
+tantalum capacitors usually fail is they
+
+---------11:21----------
+start to slowly short-circuit so they
+
+---------11:23----------
+don't fail as in they're just not a
+
+---------11:24----------
+capacitor anymore they fail as and they
+
+---------11:26----------
+slowly start to leak the evopower to
+
+---------11:30----------
+ground so if I'm gonna measure on C
+
+---------11:32----------
+77071 what do I get
+
+---------11:35----------
+but that's not 1.05 not replacing the
+
+---------11:46----------
+mCP the reason I bring this up is
+
+---------11:48----------
+because a lot of people at this point
+
+---------11:50----------
+will try to replace the mCP even worse
+
+---------11:52----------
+they'll start burning the mCP and you
+
+---------11:54----------
+know what's bad about this what's bad
+
+---------11:56----------
+about it is that when they do that it'll
+
+---------11:58----------
+work again so they'll say that they
+
+---------12:00----------
+fixed it and the reason it winds up
+
+---------12:02----------
+working again is because you heat that
+
+---------12:03----------
+little tantalum capacitor up a little
+
+---------12:05----------
+bit and then it stops shorting so let's
+
+---------12:07----------
+see if I can get this one to do it I
+
+---------12:09----------
+probably won't because this machine is
+
+---------12:11----------
+seven years old so it's probably and
+
+---------12:13----------
+that the owner said that every now and
+
+---------12:15----------
+then it would turn on and turn off and
+
+---------12:17----------
+turn on and turn off so that capacitor
+
+---------12:19----------
+is probably you know it's far past its
+
+---------12:21----------
+prime but I'm gonna try doing here I'm
+
+---------12:22----------
+just gonna heat it up a little bit for
+
+---------12:24----------
+you and let's see if I can get it to
+
+---------12:26----------
+work again temporarily just by heating
+
+---------12:27----------
+it just thing just to really drive home
+
+---------12:29----------
+that points
+
+---------12:48----------
+all right so let's see what I get I
+
+---------12:50----------
+heated the capacitor up plug this in and
+
+---------13:00----------
+check that out one point zero nine seven
+
+---------13:02----------
+volts one point zero nine seven volts
+
+---------13:05----------
+this is again this is this is why this
+
+---------13:08----------
+whole oven thing gets big you know gets
+
+---------13:10----------
+me enraged and blah it's because so many
+
+---------13:14----------
+of these components can work again
+
+---------13:16----------
+temporarily even when they're clearly
+
+---------13:17----------
+destroyed if you just heat it
+
+---------13:21----------
+heating is an excellent diagnostic tool
+
+---------13:24----------
+right when you use it with precision so
+
+---------13:26----------
+for example I want to see is it that
+
+---------13:27----------
+capacitor I can heat it and if I get a
+
+---------13:30----------
+response out of it
+
+---------13:31----------
+then I know that that component is bad
+
+---------13:32----------
+and faulty but heating an entire board
+
+---------13:35----------
+it's you're not fixing anything but it's
+
+---------13:38----------
+also really not a diagnostic tool the
+
+---------13:40----------
+reason it's not a diagnostic tool is
+
+---------13:41----------
+because there's no precision how do you
+
+---------13:43----------
+know what part of the board was actually
+
+---------13:45----------
+bad you have no way of knowing what part
+
+---------13:47----------
+of the board is bad because you heated
+
+---------13:49----------
+the entire board so you essentially
+
+---------13:52----------
+heating is one of the best ways to you
+
+---------13:54----------
+know just kind of help diagnose specific
+
+---------13:57----------
+faults in specific areas it's a really
+
+---------13:58----------
+good tool in your arsenal but it's only
+
+---------14:01----------
+good if you use it the right way
+
+---------14:02----------
+Herod using it is to heat a specific
+
+---------14:07----------
+area I'm not saying that you should but
+
+---------14:09----------
+you can heat a specific area and you can
+
+---------14:11----------
+heat a capacitor and because it's heated
+
+---------14:13----------
+will work but do you know it's gonna
+
+---------14:15----------
+happen 20 minutes later once that
+
+---------14:17----------
+capacitor cools down it's going to go
+
+---------14:19----------
+back to its original state and it's
+
+---------14:21----------
+going a short circuit and the reason
+
+---------14:24----------
+that I get all you know all about this
+
+---------14:29----------
+whole reheating stuff is because there
+
+---------14:30----------
+are so many people that do this
+
+---------14:31----------
+knowingly like there are people that
+
+---------14:33----------
+genuinely don't know any better they
+
+---------14:35----------
+don't know any better they think that
+
+---------14:36----------
+they actually fix something so they're
+
+---------14:37----------
+like okay great I fix something but then
+
+---------14:40----------
+you also have the scam artists that know
+
+---------14:42----------
+they didn't fix anything that offer a
+
+---------14:44----------
+30-day warranty they offered it
+
+---------14:47----------
+and then when the customer comes back on
+
+---------14:48----------
+day 31 they say huh oh man we told you
+
+---------14:51----------
+only had a 30-day warranty on this we
+
+---------14:53----------
+can't help you out but you know we can
+
+---------14:54----------
+fix it again we'll just give you 10% off
+
+---------14:55----------
+this time because you're returning
+
+---------14:57----------
+customer and that's a scam
+
+---------15:00----------
+that is a that's a scam
+
+---------15:02----------
+and professional places have been doing
+
+---------15:05----------
+this for years which is why I'm against
+
+---------15:09----------
+that whole you know reflow oven Blair I
+
+---------15:12----------
+don't really care people honestly if
+
+---------15:15----------
+somebody does it in their own home I
+
+---------15:16----------
+know I've said in other videos like you
+
+---------15:17----------
+shouldn't that was on me so
+
+---------15:19----------
+that was that was me saying something
+
+---------15:21----------
+that was because I was enraged
+
+---------15:23----------
+but honestly if somebody wants to heat
+
+---------15:25----------
+some up in their house that it
+
+---------15:26----------
+lasts again for a week before they you
+
+---------15:28----------
+know they get their new one or whatever
+
+---------15:29----------
+I get that but the reason that this myth
+
+---------15:32----------
+is legitimately damaging the reason this
+
+---------15:34----------
+myth is up is because you have
+
+---------15:37----------
+professional individuals that buy into
+
+---------15:40----------
+the myth and once they buy into the myth
+
+---------15:42----------
+they start using this myth and
+
+---------15:44----------
+screwing people and some of them screw
+
+---------15:49----------
+people you know on purpose because they
+
+---------15:51----------
+just think it's cool they just think
+
+---------15:53----------
+it's cool that they get to collect money
+
+---------15:54----------
+without having actually do many work and
+
+---------15:56----------
+some people you know some genuinely
+
+---------15:59----------
+screw people without even knowing that
+
+---------16:01----------
+what they're doing is wrong but either
+
+---------16:03----------
+way it's it's to say it doesn't matter
+
+---------16:05----------
+you just you can't screw people so what
+
+---------16:07----------
+I do is instead of using a tantalum
+
+---------16:09----------
+capacitor here I'm gonna use a film
+
+---------16:11----------
+capacitor here it's going to perform
+
+---------16:12----------
+this say it's the same function except
+
+---------16:15----------
+it's not going to have that that issue
+
+---------16:16----------
+of over time becoming short-circuited
+
+---------16:20----------
+and shorting my MCP voltage to ground
+
+---------16:23----------
+and leaking my MCP voltage to ground
+
+---------16:25----------
+cumin mind on a buck converter on the
+
+---------16:26----------
+output of it that capacitor is there to
+
+---------16:28----------
+smooth out the output but it's also
+
+---------16:29----------
+there it's also there to Jack like a
+
+---------16:33----------
+battery to store the voltage and if it's
+
+---------16:35----------
+not storing the voltage then you run
+
+---------16:37----------
+into problems so what I'm going to do
+
+---------16:41----------
+here is I'm gonna make I made space to
+
+---------16:43----------
+fit a larger capacitor in there so think
+
+---------16:45----------
+of this like remodeling think of this
+
+---------16:48----------
+like re you know it's not remodeling
+
+---------16:50----------
+your living room right so I move the
+
+---------16:53----------
+coil up after I move the coil up that's
+
+---------16:57----------
+going to give me some space to put in a
+
+---------16:59----------
+larger capacity down here and then I'm
+
+---------17:01----------
+gonna put this wire down here I if I
+
+---------17:06----------
+feel bad I touch the end of this coil as
+
+---------17:08----------
+much as it's bad that I touch the casing
+
+---------17:09----------
+of the coil there's a coil inside there
+
+---------17:11----------
+and this is pretty much the armor on the
+
+---------17:13----------
+out
+
+---------17:13----------
+side so as bad as that is I didn't it's
+
+---------17:16----------
+not it's not the biggest deal because I
+
+---------17:21----------
+didn't actually touch the component but
+
+---------17:23----------
+I'm gonna do is I move the coil up so
+
+---------17:26----------
+that I have room to put a larger size
+
+---------17:27----------
+capacitor here that's actually gonna you
+
+---------17:29----------
+know work long term and then I'm gonna
+
+---------17:31----------
+put a wire here and use that wire is
+
+---------17:33----------
+kind of my trait as because I don't like
+
+---------17:36----------
+scraping the board you can scrape the
+
+---------17:38----------
+board there were models where you can
+
+---------17:39----------
+this one there are too many things going
+
+---------17:41----------
+on in that area so I prefer not to so
+
+---------17:43----------
+I'm just gonna try it this is kind of an
+
+---------17:45----------
+awkward place to put my iron so it's
+
+---------17:47----------
+kind of hard to arrange this so I am
+
+---------17:49----------
+just going to yeah lay down a wire and
+
+---------17:56----------
+then I'm gonna solder a capacitor in
+
+---------17:58----------
+there s s o DD ER for all those people
+
+---------18:01----------
+who were curious
+
+---------18:10----------
+it's the height of professionalism here
+
+---------18:16----------
+okay I'm gonna grab myself a film cat
+
+---------18:40----------
+I had a spool of 50 of these I can't
+
+---------18:42----------
+believe I actually ran out this defect
+
+---------18:48----------
+is that common
+
+---------18:54----------
+okay and now we're going to put it on
+
+---------18:57----------
+here
+
+---------19:05----------
+see what I'm doing here
+
+---------19:25----------
+got to get my heat in my air up a little
+
+---------19:27----------
+bit this is not the JBC
+
+---------19:40----------
+okay now I can see that when I once I
+
+---------19:42----------
+see the side of shooting out from the
+
+---------19:43----------
+bottom I know that I've made good some
+
+---------19:45----------
+good contact there yes I know this is
+
+---------19:50----------
+not the quote/unquote proper size
+
+---------19:53----------
+capacitor for this board but you know
+
+---------19:56----------
+what it's not gonna die
+
+---------19:58----------
+not that that's really all that matters
+
+---------19:59----------
+what would you rather I do would you
+
+---------20:02----------
+rather I put the capacitor that fits the
+
+---------20:03----------
+board would you rather I put the
+
+---------20:05----------
+capacitor that's actually going to work
+
+---------20:06----------
+and not come back for warranty the whole
+
+---------20:09----------
+thing here remember if the consumer
+
+---------20:10----------
+comes back for warranty they're going to
+
+---------20:13----------
+have although they're going to thing
+
+---------20:14----------
+ultimately have less confidence and us
+
+---------20:16----------
+fixing this stuff so I I really don't
+
+---------20:20----------
+think they're gonna open up the Machine
+
+---------20:21----------
+and look in the bottom of it and see
+
+---------20:23----------
+that I fit this there and go I don't
+
+---------20:24----------
+like my macbook anymore because this guy
+
+---------20:26----------
+put a different size capacitor
+
+---------20:27----------
+there but this is the long-term fix this
+
+---------20:30----------
+is the long-term solution get rid of the
+
+---------20:32----------
+tantalum one over there cuz keep in mind
+
+---------20:35----------
+that capacitor not only is it's not the
+
+---------20:37----------
+load is not being shared amongst others
+
+---------20:39----------
+it's the only large capacitor on that
+
+---------20:41----------
+buck converter on output not only is
+
+---------20:43----------
+that the case but it's also the case
+
+---------20:45----------
+over here that this rail is always on s5
+
+---------20:50----------
+even if the battery is dead even if the
+
+---------20:52----------
+battery is dropped to a voltage that is
+
+---------20:53----------
+insufficient for the computer to turn on
+
+---------20:55----------
+that voltage is still sufficient for
+
+---------20:58----------
+every other voltage in the machine and
+
+---------20:59----------
+be present including this one so even if
+
+---------21:02----------
+your battery is dead this is on if it's
+
+---------21:04----------
+plugged in it's on if it's not plugged
+
+---------21:05----------
+in and the battery is there and it as
+
+---------21:07----------
+charged it's on this rail is always on
+
+---------21:09----------
+for the life of your machine and there's
+
+---------21:11----------
+only one capacitor on output and it's a
+
+---------21:13----------
+ tantalum so again this this is
+
+---------21:16----------
+one of those big things with the oven
+
+---------21:18----------
+thing and for all you people out there
+
+---------21:19----------
+who think I'm being paranoid you think
+
+---------21:21----------
+this isn't a scam that they'll have been
+
+---------21:22----------
+doing for a long time
+
+---------21:23----------
+I mean look up with the warranty repair
+
+---------21:25----------
+centers do so you know when you buy
+
+---------21:26----------
+those extended warranties when you buy
+
+---------21:28----------
+extended warranties at Staples or Best
+
+---------21:30----------
+Buy or any of those places the idea
+
+---------21:33----------
+there is the thing is they already have
+
+---------21:34----------
+your money they're not refunding you so
+
+---------21:37----------
+what they when they sent what they do is
+
+---------21:39----------
+they send this stuff out to a service
+
+---------21:41----------
+center and all they care about is that
+
+---------21:42----------
+they can get it to work they don't care
+
+---------21:44----------
+about customer satisfaction they don't
+
+---------21:46----------
+care about any of that because they
+
+---------21:47----------
+don't again they they already got your
+
+---------21:48----------
+money nine months or two years ago they
+
+---------21:51----------
+don't have to care about satisfying you
+
+---------21:52----------
+all they need to do is live up to
+
+---------21:54----------
+into the agreement which is just make
+
+---------21:55----------
+this thing work again and if it doesn't
+
+---------21:57----------
+work a month later just send it back and
+
+---------21:59----------
+we'll make it won't do a weekend and
+
+---------22:01----------
+what they do oftentimes to keep the
+
+---------22:03----------
+labour cost as low as humanly possible
+
+---------22:04----------
+is they will just put the in an
+
+---------22:08----------
+oven because again what do you think
+
+---------22:09----------
+costs more money somebody who knows how
+
+---------22:11----------
+to find this or somebody with a $90
+
+---------22:13----------
+Hamilton Beach toaster oven
+
+---------22:15----------
+that being said what's up oh yeah sure
+
+---------22:22----------
+let's do this we turn it on BAM yep you
+
+---------22:31----------
+piece of
+
+---------22:32----------
+did you just beep at me it's beeping at
+
+---------22:35----------
+me all right no no no you don't get to
+
+---------22:40----------
+ruin my video let's see let's try the
+
+---------22:42----------
+top Ram slot here old stuff sucks beep
+
+---------23:03----------
+hello you don't you ruin my video you
+
+---------23:08----------
+ old piece of all
+
+---------23:18----------
+right I'm try the different stick in a
+
+---------23:19----------
+different slot
+
+---------23:42----------
+now we get to figure out if it's the RAM
+
+---------23:44----------
+stick of the RAM slot see you hear that
+
+---------23:47----------
+shine and they unplug it and take this
+
+---------23:50----------
+Ram stick and we're gonna try it again
+
+---------23:51----------
+in the other slot it's very common for
+
+---------23:56----------
+one of the slots to go bad one of these
+
+---------23:57----------
+Ram slots is usually surface mount
+
+---------23:59----------
+I mean BGA and the other Ram slot is
+
+---------24:01----------
+through-hole the one that's BGA always
+
+---------24:03----------
+dies okay so it's the stick whew ah no
+
+---------24:07----------
+that MCP anyway as you can see fixed BAM
+
+---------24:12----------
+and again what do you the reason that
+
+---------24:15----------
+you see this in so many warranty service
+
+---------24:16----------
+facilities is that it is cheaper to hire
+
+---------24:18----------
+somebody at minimum wage at six dollars
+
+---------24:21----------
+an hour and have them put the boards
+
+---------24:22----------
+into a 30 or 90 dollar oven than it is
+
+---------24:24----------
+to pay somebody twenty to thirty five
+
+---------24:26----------
+dollars an hour to figure out what's
+
+---------24:28----------
+wrong with it and use advanced tools to
+
+---------24:30----------
+come to the conclusion as to what's
+
+---------24:31----------
+wrong and the warranty service facility
+
+---------24:33----------
+they don't care they got your money
+
+---------24:37----------
+already they have your money all they
+
+---------24:39----------
+have to do is do the bare minimum
+
+---------24:40----------
+required to not get sued and that is
+
+---------24:43----------
+often taking the board and shoving it
+
+---------24:45----------
+into an oven which is what most of these
+
+---------24:47----------
+places do it's a scam
+
+---------24:49----------
+it's it makes repair look bad
+
+---------24:52----------
+and this is why I talk about it all the
+
+---------24:54----------
+time because it makes our profession
+
+---------24:57----------
+look bad it screws over customers and
+
+---------24:59----------
+it's something that should just come to
+
+---------25:00----------
+an end that's that for today and as
+
+---------25:03----------
+always I hope you learned something
+

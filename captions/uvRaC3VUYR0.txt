@@ -1,0 +1,565 @@
+https://www.youtube.com/watch?v=uvRaC3VUYR0
+---------00:00----------
+hi so today we're going to be going over
+
+---------00:01----------
+something that kills a lot of MacBook
+
+---------00:03----------
+Airs that are produced from 2013 to 2016
+
+---------00:06----------
+with liquid damage this is the base
+
+---------00:08----------
+model that Apple is offering for a
+
+---------00:09----------
+really long time so it's very popular
+
+---------00:11----------
+it's also very susceptible to liquid
+
+---------00:13----------
+damage that you can't really see with an
+
+---------00:15----------
+untrained eye so as you can see here
+
+---------00:17----------
+we've got a MacBook Air that has it
+
+---------00:20----------
+charged the light is turning orange but
+
+---------00:22----------
+the fan is not spinning it's not
+
+---------00:24----------
+starting and as you can see if we unplug
+
+---------00:27----------
+it and plug it back in we don't even get
+
+---------00:29----------
+a quarter fan spin so let's go over
+
+---------00:31----------
+what's most likely causing this problem
+
+---------00:34----------
+under schematic your is always going to
+
+---------00:35----------
+be a page called power aliases which is
+
+---------00:37----------
+going to list all of the different power
+
+---------00:39----------
+rails inside the machine so we're going
+
+---------00:41----------
+to go through these rails and I'm pretty
+
+---------00:43----------
+sure that most of the more experienced
+
+---------00:45----------
+people watching know which one is going
+
+---------00:46----------
+to be missing but for the benefit of
+
+---------00:48----------
+people who are new we're going to
+
+---------00:49----------
+measure each one of these rails so first
+
+---------00:51----------
+thing we're going to do is we're going
+
+---------00:52----------
+to load each one of them up into the
+
+---------00:53----------
+board view software and find where they
+
+---------00:55----------
+are and have our trusty multimeter help
+
+---------00:58----------
+us to measure them the first rail in the
+
+---------01:00----------
+list is going to be pp bus g3 hot which
+
+---------01:02----------
+according to our board view is going to
+
+---------01:04----------
+show up right over here so when we
+
+---------01:06----------
+measure that we get 8.58 volts exactly
+
+---------01:11----------
+as expected when we go down the list to
+
+---------01:13----------
+the next rail you can measure over here
+
+---------01:16----------
+and let's find that they get 8.58 volts
+
+---------01:20----------
+continuing down the list we're going to
+
+---------01:22----------
+go through and until we find our missing
+
+---------01:25----------
+round
+
+---------01:31----------
+that's present we can ignore this rail
+
+---------01:35----------
+over here because if the charger was not
+
+---------01:37----------
+working we wouldn't be getting anything
+
+---------01:38----------
+on the other rails pp 3 B 4 2 we can
+
+---------01:41----------
+also ignore as we noted before the
+
+---------01:43----------
+charger light works and if you've
+
+---------01:44----------
+watched my one wire series videos you'd
+
+---------01:46----------
+understand that for the charger green
+
+---------01:47----------
+light to work we need this we're going
+
+---------01:49----------
+to continue down here that PPV RTC g3
+
+---------01:52----------
+hot
+
+---------02:04----------
+and you'll see that that's present as
+
+---------02:05----------
+well we go to PP 5vs5 down here
+
+---------02:09----------
+EP 5vs5 is signed and measure you now we
+
+---------02:14----------
+got 5 volts and now we're at the rail
+
+---------02:16----------
+that if you're more experienced you know
+
+---------02:18----------
+that this is going to be the one that's
+
+---------02:19----------
+missing so we find this rail and that's
+
+---------02:22----------
+going to show up right over here so
+
+---------02:25----------
+let's find that on our board
+
+---------02:32----------
+and as you can see we get zero volts now
+
+---------02:35----------
+if you were to go on the schematic over
+
+---------02:36----------
+here first thing I want to figure out is
+
+---------02:38----------
+where is this created and what tells us
+
+---------02:41----------
+to turn on this is going to be created
+
+---------02:43----------
+by this buck converter at you 7501 with
+
+---------02:46----------
+transistor Q 75 20 which is going to ten
+
+---------02:50----------
+spikes which is going to send spikes of
+
+---------02:52----------
+a point five volts through this inductor
+
+---------02:54----------
+on and off until we get an average of
+
+---------02:56----------
+five volts now it's going to enable this
+
+---------02:58----------
+it's going to be P 5 vs for RS 3 ENR
+
+---------03:01----------
+down here and we're going to find out
+
+---------03:05----------
+where that signal comes from that
+
+---------03:06----------
+signals going to come from PM sleeve s4l
+
+---------03:08----------
+PM sleeve s4l comes from the platform
+
+---------03:12----------
+controller hub which is a combination of
+
+---------03:14----------
+a Northbridge and Southbridge which on
+
+---------03:15----------
+this machine is integrated into the CPU
+
+---------03:17----------
+which most likely is missing so if we
+
+---------03:20----------
+were to check for PM sleep s4l over here
+
+---------03:23----------
+we're going to check what we get at this
+
+---------03:27----------
+point and most likely it will not be
+
+---------03:29----------
+present and as can be seen here we get a
+
+---------03:31----------
+nice 0 volts on TM sleep as 4l which
+
+---------03:35----------
+would indicate to many people that our
+
+---------03:37----------
+CPU is dead this is hopeless throw it
+
+---------03:39----------
+away and give up and go home the
+
+---------03:41----------
+question to ask at this point is what is
+
+---------03:43----------
+going to communicate with the CPU in the
+
+---------03:44----------
+PC H to give it an idea of what it's
+
+---------03:46----------
+supposed to do and that's going to be
+
+---------03:48----------
+the BIOS chip known as the spi ROM on
+
+---------03:50----------
+this computer so if we were to take a
+
+---------03:52----------
+look at the BIOS area I want you to tell
+
+---------03:54----------
+me if anything looks a little bit out of
+
+---------03:55----------
+place so this here is our BIOS chip and
+
+---------03:58----------
+to the untrained eye it doesn't look
+
+---------04:01----------
+like there's any problem with this part
+
+---------04:02----------
+of the board however if we were to look
+
+---------04:04----------
+a little bit closer you'll see that over
+
+---------04:06----------
+here some of our probe points look a
+
+---------04:09----------
+little bit corroded this probe point is
+
+---------04:11----------
+going to connect these two resistors
+
+---------04:13----------
+here that go to the BIOS chip to this
+
+---------04:16----------
+resistor over here that lead to the CPU
+
+---------04:18----------
+so if we were to check you'll see that
+
+---------04:20----------
+this SPI MLB CSL communicates here with
+
+---------04:25----------
+you 6101 which communicates with the
+
+---------04:27----------
+BIOS chip now on the other side this is
+
+---------04:30----------
+going through our 6120 which then goes
+
+---------04:33----------
+the SBIC Sol which goes to SP ICS o RL
+
+---------04:37----------
+which goes to the CPU so right here the
+
+---------04:42----------
+link that is broken is the link that's
+
+---------04:43----------
+going to allow the Buy
+
+---------04:44----------
+ship to communicate with the cpu and if
+
+---------04:47----------
+that's not working then our p.m. sleep
+
+---------04:50----------
+s4l signal that we need to come out of
+
+---------04:52----------
+the cpu is not going to come out of the
+
+---------04:54----------
+cpu which means that the CPU itself is
+
+---------04:56----------
+not bad as is often misdiagnosed when
+
+---------05:00----------
+p.m. sleep s4l is missing so now at this
+
+---------05:02----------
+point I want to figure out where is the
+
+---------05:04----------
+link broken is it that we have a broken
+
+---------05:07----------
+pathway between the probe point and
+
+---------05:10----------
+these two resistors up here or is the
+
+---------05:13----------
+path broken between the probe points and
+
+---------05:15----------
+there's one resistor down there so I
+
+---------05:17----------
+have the multimeter here in resistance
+
+---------05:18----------
+mode when I put the two probes together
+
+---------05:21----------
+in an ideal world I would get zero ohms
+
+---------05:23----------
+of resistance on the screen but since
+
+---------05:25----------
+this is a cheap-ass multimeter it's
+
+---------05:27----------
+going to give me what it gives me which
+
+---------05:29----------
+is close enough for our purposes so I'm
+
+---------05:31----------
+going to see if this over here has
+
+---------05:34----------
+continuity see this over here and it
+
+---------05:38----------
+seems that it does now we're going to
+
+---------05:40----------
+check and see if this over here has
+
+---------05:42----------
+continuity to this over here like it's
+
+---------05:45----------
+supposed to and this is where we have a
+
+---------05:48----------
+broken link well open line so we are
+
+---------05:51----------
+going to run a wire simply scrape this
+
+---------05:55----------
+away and reattach it to this so this
+
+---------06:01----------
+here is going to be covering the copper
+
+---------06:07----------
+so we're just going to scratch this way
+
+---------06:11----------
+after we scratch that away you're going
+
+---------06:14----------
+to clean it up a little bit so it looks
+
+---------06:15----------
+neat we don't have any debris over there
+
+---------06:20----------
+some 99% alcohol will do its job
+
+---------06:26----------
+and after that we dry it off we're going
+
+---------06:34----------
+to lay some flux down here
+
+---------06:42----------
+and then we're going to put a tiny bit
+
+---------06:47----------
+of solder on each point and then connect
+
+---------06:50----------
+them with a wire and use my hack OFM
+
+---------06:52----------
+2032 with the T 30 KN tip by the link
+
+---------06:55----------
+below the ten each what each side same
+
+---------07:00----------
+the top first this second and then I'm
+
+---------07:03----------
+going to take a little piece of wire
+
+---------07:05----------
+then attach it between the two points
+
+---------07:11----------
+I'm also putting the wire through the
+
+---------07:13----------
+flux so I'm keeping a little bit of
+
+---------07:14----------
+solder on my iron here that I can send
+
+---------07:16----------
+the wire as I'm going it's a tender wire
+
+---------07:18----------
+will solder on better once the wire is
+
+---------07:25----------
+attached I'm going to cut it off by
+
+---------07:28----------
+moving it back and forth and then we'll
+
+---------07:32----------
+have a wire that's perfectly cut to
+
+---------07:34----------
+length just to flow it in there I'm
+
+---------07:41----------
+going to use some hot air and make sure
+
+---------07:43----------
+that our flux is distributed around the
+
+---------07:45----------
+wire and the probe points to help these
+
+---------07:47----------
+subtle flow
+
+---------08:24----------
+and now we're just going to clean it off
+
+---------08:42----------
+that is our finished product that's all
+
+---------08:45----------
+well and good but does it work well you
+
+---------08:48----------
+tell me you're just going to take the
+
+---------08:50----------
+MagSafe here plug it in let's see if it
+
+---------08:53----------
+turns on as you can see the fan is
+
+---------08:58----------
+spinning and if we were to measure our
+
+---------09:01----------
+CPU vcore you'd be able to tell that
+
+---------09:04----------
+this is now actually turning on so let's
+
+---------09:08----------
+get the meter on and let's measure CPU
+
+---------09:10----------
+vcore at the coil and it looks like
+
+---------09:14----------
+we're getting voltage on CPU v core so
+
+---------09:17----------
+this is turning on and good to go and as
+
+---------09:20----------
+always I hope that you learned something
+

@@ -1,0 +1,2110 @@
+https://www.youtube.com/watch?v=eL_5YDRWqGE
+---------00:00----------
+one sec i gotta call paul over
+
+---------00:03----------
+you want to see if the board that i
+
+---------00:04----------
+shoveled through boots hey everybody
+
+---------00:06----------
+how's it going friends family enemies
+
+---------00:10----------
+and sometimes they're all just one and
+
+---------00:11----------
+the same so today
+
+---------00:13----------
+we're gonna be working on a macbook we
+
+---------00:16----------
+have here
+
+---------00:17----------
+is an a1989 macbook it does not appear
+
+---------00:20----------
+to be turning on
+
+---------00:22----------
+first thing we're going to do before we
+
+---------00:23----------
+get to work on this macbook is remove
+
+---------00:26----------
+the coronavirus from it
+
+---------00:27----------
+this machine has been sent to us by a
+
+---------00:29----------
+data recovery company
+
+---------00:31----------
+and it says on the ticket please check
+
+---------00:34----------
+rush availability
+
+---------00:35----------
+sticker from the customer
+
+---------00:38----------
+that's how you know you're getting rush
+
+---------00:40----------
+service when you send your macbook to a
+
+---------00:42----------
+company
+
+---------00:42----------
+that's going to mail it across the
+
+---------00:44----------
+united states to me
+
+---------00:46----------
+the customer was working and saw smoke
+
+---------00:47----------
+coming from the keyboard and the laptop
+
+---------00:49----------
+turned off
+
+---------00:50----------
+she said never had any liquid damage
+
+---------00:53----------
+please let me know if this can be
+
+---------00:55----------
+rushable well one way to find out
+
+---------01:00----------
+so you tried to use the computer and it
+
+---------01:02----------
+started smoking
+
+---------01:03----------
+sounds like a mac to me it's the normal
+
+---------01:06----------
+day
+
+---------01:06----------
+using an apple product let's open this
+
+---------01:09----------
+thing up and see if we can figure out
+
+---------01:10----------
+why it decided to randomly smoke
+
+---------01:13----------
+besides the fact that it is after all an
+
+---------01:16----------
+apple product
+
+---------01:19----------
+all right so let's see if there's any
+
+---------01:21----------
+hints here so
+
+---------01:22----------
+take a look here i don't see anything
+
+---------01:24----------
+here that looks like it smoked
+
+---------01:26----------
+so we're just going to do what we always
+
+---------01:28----------
+do here which is
+
+---------01:30----------
+first thing we do is see how many amps
+
+---------01:32----------
+it's taking on a usbc amp meter with a
+
+---------01:34----------
+battery unplugged now remember if the
+
+---------01:35----------
+battery is plugged in
+
+---------01:37----------
+then ppbush g3 hot is going to be
+
+---------01:39----------
+charging the battery so we're not going
+
+---------01:40----------
+to be getting the reading of how much
+
+---------01:41----------
+amperage the actual board is taking
+
+---------01:44----------
+we're going to be seeing the amperage of
+
+---------01:46----------
+the board plus the battery which removes
+
+---------01:47----------
+the diagnostic purpose in cape
+
+---------01:49----------
+that i get from plugging this in and
+
+---------01:52----------
+measuring the amperage that the board is
+
+---------01:53----------
+taking
+
+---------01:59----------
+all right so
+
+---------02:02----------
+okay what does a little chinese amp
+
+---------02:04----------
+meter say
+
+---------02:08----------
+hello rockford
+
+---------02:11----------
+okay we're stuck at 5 volts and 15
+
+---------02:14----------
+milliamps
+
+---------02:16----------
+which usually means dead t2
+
+---------02:19----------
+no oh son of a [ __ ]
+
+---------02:22----------
+all right let's see if that's what it is
+
+---------02:28----------
+yes two ends someone who gets it all
+
+---------02:31----------
+right so let's see what my peepee bush
+
+---------02:32----------
+g3 hunt voltage is it
+
+---------02:34----------
+okay so let's get paul daniels of
+
+---------02:35----------
+software on the screen
+
+---------02:37----------
+always a good day when paul daniels of
+
+---------02:39----------
+software is on the screen
+
+---------02:41----------
+and we have one ohm to ground on pp bus
+
+---------02:42----------
+g3 huh so just to give you an idea of
+
+---------02:44----------
+what i measured and why
+
+---------02:46----------
+let's open up a schematic for this board
+
+---------02:48----------
+this is the 820 820-0850
+
+---------02:53----------
+and i'm going to open this up and paul
+
+---------02:56----------
+daniels is amazing software which you
+
+---------02:57----------
+can check out at pldaniels.com
+
+---------03:00----------
+if you use if you use code rossman while
+
+---------03:02----------
+checking out he'll send you the bug-free
+
+---------03:03----------
+version
+
+---------03:04----------
+instead of the [ __ ] version he always
+
+---------03:06----------
+sends me i didn't say that did i
+
+---------03:08----------
+oh [ __ ] we're streaming so this
+
+---------03:11----------
+is going to have a list of power rails
+
+---------03:15----------
+somewhere let's get the list of power
+
+---------03:17----------
+rails up on the screen
+
+---------03:19----------
+here we go so over here we've got a nice
+
+---------03:20----------
+list of power rails and the first one is
+
+---------03:21----------
+ppg3 huh remember
+
+---------03:23----------
+g3 hot rails show up first they're
+
+---------03:25----------
+always on s5
+
+---------03:26----------
+rails the rom when the computer is off
+
+---------03:28----------
+s4 rails that are on when it's
+
+---------03:29----------
+hibernating meaning that it's saved
+
+---------03:31----------
+everything to the disk
+
+---------03:32----------
+and if you hit a button on your keyboard
+
+---------03:33----------
+or your trackpad it'll turn it back on
+
+---------03:34----------
+meaning that power to the keyboard and
+
+---------03:36----------
+trackpad have to be on
+
+---------03:37----------
+s3 sleeping meaning that it suspends
+
+---------03:39----------
+everything to ram when you hit sleep in
+
+---------03:41----------
+your computer you close the laptop and
+
+---------03:42----------
+it
+
+---------03:43----------
+remembers where all your programs are
+
+---------03:44----------
+because it saved the terrain which has
+
+---------03:45----------
+to be powered which means the s3 rails
+
+---------03:47----------
+have to be on
+
+---------03:47----------
+and so that's the top state which is
+
+---------03:50----------
+what my computer is in now while
+
+---------03:51----------
+actually streaming
+
+---------03:52----------
+so the first rail on that list was pp
+
+---------03:54----------
+bus g3 hot
+
+---------03:56----------
+and in paul daniels is amazing software
+
+---------03:57----------
+which you could find at pldaniels.com
+
+---------04:00----------
+when you right click it'll show you
+
+---------04:01----------
+everywhere in the board that it shows up
+
+---------04:03----------
+so i checked it out right over there
+
+---------04:04----------
+peepee bush d3 huh
+
+---------04:06----------
+do this do this do this
+
+---------04:10----------
+one ohm to ground which means it's a
+
+---------04:12----------
+short circuit something's to be blown up
+
+---------04:13----------
+so let's get the board out of the case
+
+---------04:14----------
+and see if we can figure out what short
+
+---------04:16----------
+circuited and make this macbook work
+
+---------04:17----------
+again
+
+---------04:19----------
+in order to take this macbook out of the
+
+---------04:21----------
+case we're going to have to take out a
+
+---------04:22----------
+bunch of screws which are all different
+
+---------04:24----------
+in size and shape
+
+---------04:26----------
+just to make it maximally confusing to
+
+---------04:28----------
+put the board back in the case when
+
+---------04:30----------
+you're done
+
+---------04:31----------
+because apple
+
+---------04:40----------
+okay this is almost out of the computer
+
+---------04:49----------
+now also you may have noticed that the
+
+---------04:51----------
+it's stuck at five volts when i plug the
+
+---------04:52----------
+charger and it's not going to 20 volts
+
+---------04:54----------
+so you may wonder if it's not going to
+
+---------04:55----------
+20 volts why am i even touching the
+
+---------04:57----------
+ppbus g3 hot chart before i solve that
+
+---------04:59----------
+problem
+
+---------05:00----------
+well on a board with no corrosion it not
+
+---------05:02----------
+going to 20 volts is going to be
+
+---------05:03----------
+something that's
+
+---------05:04----------
+likely unsolvable so i what i'm doing
+
+---------05:06----------
+here is procrastination
+
+---------05:08----------
+i'm going to procrastinate putting off
+
+---------05:09----------
+that of solving that problem that i'm
+
+---------05:11----------
+not able to solve
+
+---------05:12----------
+and i'm going to solve the problem that
+
+---------05:13----------
+i can solve because once i solve the
+
+---------05:15----------
+problem that i can solve
+
+---------05:16----------
+i'll get a nice happy little dopamine
+
+---------05:18----------
+kick my brain will uh
+
+---------05:20----------
+chemical will send out a chemical that
+
+---------05:22----------
+will make me feel like i'm smarter
+
+---------05:24----------
+than i actually am and then it'll make
+
+---------05:27----------
+me more effective
+
+---------05:28----------
+happier all that stuff and then i'll be
+
+---------05:30----------
+more likely to be able to solve the
+
+---------05:31----------
+other problem
+
+---------05:32----------
+so let's see how that goes all right so
+
+---------05:36----------
+let's take a look at what this looks
+
+---------05:38----------
+like under the microscope
+
+---------05:40----------
+shall we so let's take a look around the
+
+---------05:43----------
+board
+
+---------05:43----------
+and i think we found our peepee bus
+
+---------05:45----------
+short
+
+---------05:46----------
+holy crap wow one of the things you got
+
+---------05:50----------
+to keep in mind here with this with this
+
+---------05:52----------
+apple product
+
+---------05:53----------
+is that there's no liquid damage do you
+
+---------05:55----------
+see liquid over here do you see any
+
+---------05:56----------
+liquid damage does anybody here see
+
+---------05:58----------
+liquid
+
+---------06:00----------
+there's no liquid this is just straight
+
+---------06:03----------
+up
+
+---------06:03----------
+apple right here look at that
+
+---------06:06----------
+no liquid damage none
+
+---------06:10----------
+that cap just decided you know i'm done
+
+---------06:12----------
+being inside of a macbook [ __ ] that
+
+---------06:14----------
+i'm good we're out
+
+---------06:32----------
+so
+
+---------06:35----------
+so first thing to do here
+
+---------06:38----------
+put some hot air
+
+---------06:48----------
+so we're just going to blow some hot air
+
+---------06:50----------
+on this using my special tool
+
+---------06:52----------
+i call mine the de blasio
+
+---------06:55----------
+de blasio blows lots of hot air anytime
+
+---------06:58----------
+you push the button
+
+---------07:00----------
+feel free to name your hot air station
+
+---------07:02----------
+after your favorite politician
+
+---------07:06----------
+electro boom calls his odd air station
+
+---------07:08----------
+the trump
+
+---------07:10----------
+that's another popular one
+
+---------07:13----------
+no flux oh no we're going raw here
+
+---------07:17----------
+uh does the mask help with solar fumes
+
+---------07:21----------
+i don't know i don't think so
+
+---------07:24----------
+that's what i have this uh fume
+
+---------07:26----------
+extractor for
+
+---------07:30----------
+wow this is welded on the board here
+
+---------07:33----------
+all right that's not going to come off
+
+---------07:34----------
+with heat that's not yeah so i use this
+
+---------07:37----------
+this
+
+---------07:37----------
+see this over here this is a fume
+
+---------07:39----------
+extractor
+
+---------07:42----------
+and you should have something like this
+
+---------07:43----------
+if you're soldering if you don't have a
+
+---------07:45----------
+fume extractor this is a hakko fa-430
+
+---------07:54----------
+you sh you should at least like do
+
+---------07:56----------
+something like solder next to a window
+
+---------07:58----------
+or something
+
+---------07:59----------
+like you know i prefer this thing myself
+
+---------08:03----------
+yeah i use this if you're working at a
+
+---------08:06----------
+place without a few if you know it's one
+
+---------08:08----------
+thing if you're working in your home
+
+---------08:09----------
+fine you know don't spend that much
+
+---------08:10----------
+money open up a window
+
+---------08:12----------
+buy a 12 window fan or something and
+
+---------08:15----------
+just have it
+
+---------08:16----------
+blow the air out the window and you're
+
+---------08:17----------
+good if you're working at a job
+
+---------08:20----------
+and your boss does not want to buy one
+
+---------08:21----------
+of these quit
+
+---------08:23----------
+or tell them to go [ __ ] himself because
+
+---------08:24----------
+that means your your health and your
+
+---------08:26----------
+lungs and your well-being is not worth a
+
+---------08:28----------
+couple of bucks
+
+---------08:29----------
+so every every station here has one of
+
+---------08:32----------
+these
+
+---------08:33----------
+i don't so it doesn't really do much
+
+---------08:35----------
+because the solder fumes don't get to me
+
+---------08:37----------
+anyway
+
+---------08:37----------
+now it does get to me is the smell of
+
+---------08:40----------
+that that
+
+---------08:40----------
+garbage capacitor
+
+---------08:48----------
+so this cap i'm going to have to try and
+
+---------08:50----------
+break off kind of like a
+
+---------08:51----------
+what i'm going to do here is kind of
+
+---------08:53----------
+treat it like a paper clip if you want
+
+---------08:54----------
+to you know break it just back and forth
+
+---------08:56----------
+back and forth
+
+---------08:57----------
+now i also have to beg this begs the
+
+---------09:00----------
+question is this board even remotely
+
+---------09:01----------
+reusable like will this
+
+---------09:03----------
+is this crater too deep for it to ever
+
+---------09:05----------
+turn on again if i don't solder
+
+---------09:06----------
+constantly is a fan in a well ventilated
+
+---------09:09----------
+area fine i would dare say just fan out
+
+---------09:12----------
+the window
+
+---------09:13----------
+like fan away from you really fast or
+
+---------09:16----------
+what i used to do in the very beginning
+
+---------09:17----------
+when i was soldering by myself and i
+
+---------09:18----------
+didn't have a fan
+
+---------09:19----------
+i used to do this solder hold breath i
+
+---------09:22----------
+used to do this
+
+---------09:27----------
+solder cold breath
+
+---------09:31----------
+but you know that was a long time ago
+
+---------09:34----------
+that was a long time ago we're past
+
+---------09:36----------
+those days
+
+---------09:38----------
+i hope we're past those days now this is
+
+---------09:39----------
+just gonna be a little bit of cutting
+
+---------09:41----------
+and carving
+
+---------09:43----------
+pretend it's the thanksgiving turkey
+
+---------09:52----------
+pretend it's the person on the adorama
+
+---------09:53----------
+website that says that things are in
+
+---------09:55----------
+stock when they're not
+
+---------09:57----------
+and just carve it now and
+
+---------10:01----------
+the thing is some of this could be
+
+---------10:02----------
+ground and some of this could be the
+
+---------10:03----------
+power rail so i want to cut away
+
+---------10:05----------
+any of the ambiguous stuff without
+
+---------10:07----------
+cutting away what could be
+
+---------10:08----------
+signaling and i'm really hoping that
+
+---------10:10----------
+there's not signaling that's
+
+---------10:12----------
+gotten destroyed in these traces over
+
+---------10:13----------
+here but there is a chance that there
+
+---------10:16----------
+is signaling that is that that could
+
+---------10:19----------
+have been
+
+---------10:20----------
+screwed up here like see all these
+
+---------10:21----------
+little points see that see those little
+
+---------10:24----------
+uh circles over there circle circle
+
+---------10:27----------
+circle
+
+---------10:28----------
+all of that could be data lines
+
+---------10:32----------
+or signaling and because we're very
+
+---------10:35----------
+close to the cpu
+
+---------10:36----------
+and i don't want the 12 volts that's at
+
+---------10:39----------
+this supposed to be at this capacitor
+
+---------10:40----------
+anywhere near that but i also don't want
+
+---------10:41----------
+to cut them either so this is
+
+---------10:47----------
+so i kind of want to cut off the excess
+
+---------10:49----------
+at each point but without actually
+
+---------10:50----------
+cutting away that stuff
+
+---------10:52----------
+because i don't have anything that says
+
+---------10:54----------
+how the
+
+---------10:55----------
+the board is like how the board is put
+
+---------10:58----------
+together with regards to what each of
+
+---------11:00----------
+those
+
+---------11:01----------
+are the boardview software only tells
+
+---------11:03----------
+you what everything is on the first
+
+---------11:05----------
+layer
+
+---------11:05----------
+so if you take a look at the boardview
+
+---------11:06----------
+software i can only see what's on
+
+---------11:09----------
+what all these different little signals
+
+---------11:10----------
+are and where they go on the first layer
+
+---------11:12----------
+but i can't see that for
+
+---------11:14----------
+layers down under that's something that
+
+---------11:15----------
+requires i don't know
+
+---------11:17----------
+banging an engineer that works at apple
+
+---------11:19----------
+or something
+
+---------11:22----------
+you never know
+
+---------11:26----------
+can't rule it out well i guess for now
+
+---------11:31----------
+but you know once i can get back in the
+
+---------11:32----------
+gym
+
+---------11:37----------
+get my gains back
+
+---------11:52----------
+this is indeed a thing different moment
+
+---------11:54----------
+cuddly
+
+---------11:55----------
+all right
+
+---------11:59----------
+so we still got quite a bit to cut away
+
+---------12:01----------
+here
+
+---------12:09----------
+and yeah so this does have to get fixed
+
+---------12:11----------
+in order for you to get
+
+---------12:12----------
+uh get data off of it the
+
+---------12:16----------
+the actual data is encrypted by the t2
+
+---------12:19----------
+chip
+
+---------12:19----------
+to this specific board so if i don't get
+
+---------12:22----------
+this specific board working again this
+
+---------12:24----------
+person's date is gone
+
+---------12:25----------
+all because this board decided to commit
+
+---------12:27----------
+seppuku
+
+---------12:29----------
+that cap just thought to itself i would
+
+---------12:31----------
+rather set myself on fire like a little
+
+---------12:33----------
+[ __ ] terrorist
+
+---------12:34----------
+i would rather light myself on fire
+
+---------12:37----------
+didn't exist inside of a macbook anymore
+
+---------12:40----------
+just yelled some [ __ ] like doused itself
+
+---------12:43----------
+in gasoline and off it went
+
+---------12:46----------
+all right let's see if i got rid of my
+
+---------12:50----------
+short
+
+---------12:58----------
+huh yeah
+
+---------13:03----------
+i'm not doing that smart enough there's
+
+---------13:06----------
+not
+
+---------13:08----------
+you can't pay me enough actually you
+
+---------13:10----------
+could pay me enough but they're not
+
+---------13:11----------
+going to want to pay me enough
+
+---------13:14----------
+they're under filled as well no
+
+---------13:24----------
+okay okay
+
+---------13:27----------
+so there's still more to peel you know
+
+---------13:29----------
+what i i like a challenge i take a
+
+---------13:32----------
+challenge
+
+---------13:39----------
+i'll take a challenge we need to cut a
+
+---------13:42----------
+little bit more
+
+---------13:46----------
+fine
+
+---------14:00----------
+so
+
+---------14:02----------
+anywhere where i see two layers are
+
+---------14:03----------
+touching and i see exposed metal
+
+---------14:06----------
+that's where i'm trying to scrape it
+
+---------14:08----------
+away
+
+---------14:12----------
+get the [ __ ] out of there let paul do
+
+---------14:16----------
+what someone said you know what that's
+
+---------14:17----------
+really tempting
+
+---------14:19----------
+that's really tempting
+
+---------14:24----------
+let's see still shorted
+
+---------14:30----------
+oh oh oh never mind
+
+---------14:33----------
+wait maybe maybe 170
+
+---------14:37----------
+260 300 yes
+
+---------14:40----------
+oh short almost gone all right let's
+
+---------14:42----------
+keep going
+
+---------14:44----------
+see some success
+
+---------14:47----------
+all right kim
+
+---------14:53----------
+[Music]
+
+---------14:55----------
+let's keep digging
+
+---------15:06----------
+i feel like i'm taking the board's pants
+
+---------15:08----------
+off
+
+---------15:11----------
+doesn't this kind of look like a sexual
+
+---------15:13----------
+organ of some sort
+
+---------15:15----------
+i mean like you know from an electronics
+
+---------15:17----------
+point of view but
+
+---------15:19----------
+look at that it's kind of
+
+---------15:22----------
+weird isn't it
+
+---------15:38----------
+so
+
+---------16:06----------
+you're weird for saying that oh
+
+---------16:16----------
+here we go 2000 2400 ohms
+
+---------16:19----------
+28 for those who are not electronic
+
+---------16:23----------
+savvy
+
+---------16:24----------
+we're looking for the number to go up we
+
+---------16:25----------
+don't want resistance to ground so we
+
+---------16:27----------
+started at one
+
+---------16:28----------
+we went up to 100 something now we're up
+
+---------16:30----------
+to 10 000.
+
+---------16:34----------
+if this turns on i will be so impressed
+
+---------16:37----------
+but i doubt it will i think the reason
+
+---------16:38----------
+it's stuck at 5 volts
+
+---------16:40----------
+is because there's other stuff that goes
+
+---------16:41----------
+through there that's not all right so we
+
+---------16:43----------
+got 5 volts
+
+---------16:44----------
+255 milliamps
+
+---------16:50----------
+20 volts 50 milliamps wait 20 volt 60
+
+---------16:54----------
+come on use more than 50 milliamps come
+
+---------16:56----------
+on boot boot your piece of [ __ ] boot
+
+---------16:59----------
+oh 200 milliamps
+
+---------17:02----------
+all right this is probably booting holy
+
+---------17:04----------
+[ __ ] i gotta see if this is a picture
+
+---------17:08----------
+one sec i gotta call paul over you wanna
+
+---------17:11----------
+see if the board that i shoveled through
+
+---------17:12----------
+boots
+
+---------17:13----------
+hey you have to see this
+
+---------17:20----------
+it went down about through four layers
+
+---------17:28----------
+i'm excited to see if this has an image
+
+---------17:30----------
+oh god oh god i know
+
+---------17:32----------
+so it had one ohm then 50 ohm then 100
+
+---------17:35----------
+ohm then 2000 ohm now it's
+
+---------17:37----------
+up to 10 000 so i think i'm okay to boot
+
+---------17:38----------
+what's on that resistor
+
+---------17:40----------
+probably nothing important the resistor
+
+---------17:44----------
+is
+
+---------17:46----------
+a five volt g3 [ __ ] to cpu reg
+
+---------17:49----------
+yeah pp i don't know what g3 s means you
+
+---------17:51----------
+know what the s because it used to be
+
+---------17:53----------
+g3h
+
+---------17:53----------
+i don't know for hot i'm assuming s is
+
+---------17:56----------
+for [ __ ] g3 [ __ ]
+
+---------17:57----------
+g3 sustained
+
+---------18:01----------
+i'm excited because it's it's going to
+
+---------18:03----------
+20 volts and it's taking 200 milliamps
+
+---------18:07----------
+oh who needs it let's see i'm excited
+
+---------18:11----------
+you think it'll boot a picture an apple
+
+---------18:14----------
+logo
+
+---------18:15----------
+it all depends on that volt signal this
+
+---------18:17----------
+got sent in by a data recovery company
+
+---------18:19----------
+with rates over two thousand bucks
+
+---------18:21----------
+starting you know how much they're
+
+---------18:23----------
+probably going to charge their customer
+
+---------18:24----------
+for this
+
+---------18:26----------
+makes me sick anyway
+
+---------18:29----------
+let's see what we got
+
+---------18:35----------
+screen and charger that's all i need
+
+---------18:41----------
+what's also interesting on this one if
+
+---------18:43----------
+pp bus is short at the ground you get 5
+
+---------18:44----------
+volts instead of 20.
+
+---------18:47----------
+because i wasn't getting uh 20 volts
+
+---------18:49----------
+until i removed that short
+
+---------18:57----------
+wait i forgot these stupid cables with
+
+---------18:58----------
+the metal on the top
+
+---------19:01----------
+okay five volts 200 milliamps
+
+---------19:06----------
+20 volts no boots is want to make screw
+
+---------19:09----------
+you
+
+---------19:10----------
+in the words of vince mcmahon screw you
+
+---------19:13----------
+you're fired
+
+---------19:14----------
+one amp give me an image
+
+---------19:18----------
+image apple logo oh my god holy [ __ ]
+
+---------19:22----------
+what the [ __ ] let's see is it boot all
+
+---------19:26----------
+the way
+
+---------19:26----------
+okay i'm just getting greedy you have to
+
+---------19:30----------
+see
+
+---------19:31----------
+i'm four layers deep
+
+---------19:35----------
+please bro sorry i forgot to bring that
+
+---------19:38----------
+back
+
+---------19:40----------
+what'd you do i dug four layers deep for
+
+---------19:43----------
+a peepee bus short that exploded and
+
+---------19:44----------
+left the
+
+---------19:45----------
+little hole in the board and i like i it
+
+---------19:48----------
+was
+
+---------19:49----------
+at fif a one ohm then it was 50 ohms and
+
+---------19:51----------
+100 ohms and 2000 and i got it to 10 000
+
+---------19:53----------
+i kept cutting away at it
+
+---------19:57----------
+no fan spin i didn't plug it in i just
+
+---------19:59----------
+want the data i could care less about
+
+---------20:00----------
+the rest
+
+---------20:01----------
+come on boot you [ __ ] boot
+
+---------20:04----------
+what what oh
+
+---------20:08----------
+that's such a troll all right as you can
+
+---------20:10----------
+see it boots
+
+---------20:13----------
+into an operating system
+
+---------20:17----------
+fastboot it took like a minute and a
+
+---------20:18----------
+half no but there was no bar
+
+---------20:20----------
+oh yeah all of a sudden it was just
+
+---------20:21----------
+there i think the new ones don't have a
+
+---------20:23----------
+bar
+
+---------20:24----------
+wow look at this
+
+---------20:29----------
+look at this
+
+---------20:37----------
+you know would be really cool is if we
+
+---------20:38----------
+had software that showed you what the
+
+---------20:40----------
+bottom
+
+---------20:41----------
+put green stuff and call it good as new
+
+---------20:44----------
+it would be because with you know
+
+---------20:45----------
+zxw it tells you what's under the layers
+
+---------20:47----------
+like layer two layer three level four
+
+---------20:49----------
+for long screw damage it would be cool
+
+---------20:50----------
+if we what is that like what is that
+
+---------20:52----------
+that that that what if i had to peel
+
+---------20:53----------
+that
+
+---------20:54----------
+i've been doing that for for specific
+
+---------20:56----------
+areas on boards i've been peeling them
+
+---------20:58----------
+back and taking pictures
+
+---------21:00----------
+so that we know where it is what what's
+
+---------21:02----------
+there
+
+---------21:03----------
+specifically of the one the one i did
+
+---------21:05----------
+was underneath the um
+
+---------21:06----------
+keyboard connector oh because that's
+
+---------21:09----------
+been a really bad spot that does that
+
+---------21:11----------
+this is awesome so should i put the
+
+---------21:13----------
+capacitors back i'm kind of afraid
+
+---------21:15----------
+if i put heat like the layers merging or
+
+---------21:17----------
+something do you really need those
+
+---------21:19----------
+capacitors you've got so many as is
+
+---------21:21----------
+pp bus pp bus cpu is such a [ __ ] rail
+
+---------21:24----------
+it's like it's already flat you don't
+
+---------21:25----------
+need all this anti-ripple rubbish
+
+---------21:29----------
+yeah maybe all right
+
+---------21:32----------
+you know what i'm gonna put the caps
+
+---------21:33----------
+back on that
+
+---------21:35----------
+should i put a cap back on that i'm kind
+
+---------21:36----------
+of you know i'm not i'll put a cap here
+
+---------21:39----------
+i'll put i'll put this one back you're
+
+---------21:41----------
+not getting this one back [ __ ] out of
+
+---------21:42----------
+here you need
+
+---------21:43----------
+this no you'll get i'll give you this
+
+---------21:45----------
+one but not this one
+
+---------21:47----------
+so i gotta find a donor put that on
+
+---------21:49----------
+there and then we will call this a day
+
+---------21:52----------
+fixed working holy crap
+
+---------21:56----------
+wow
+
+---------22:02----------
+so many people assume that i'm smart
+
+---------22:04----------
+rather than just assuming that it's
+
+---------22:07----------
+you know a sociopath with uh with an
+
+---------22:09----------
+exacto knife
+
+---------22:11----------
+because realistically speak you could
+
+---------22:12----------
+pay me to do this all day honestly
+
+---------22:14----------
+i would do this for free like if you
+
+---------22:16----------
+told me that you
+
+---------22:18----------
+you would give me a job i would get two
+
+---------22:19----------
+bucks an hour but i just had to take a
+
+---------22:21----------
+knife and just beat the [ __ ] and stab
+
+---------22:23----------
+apple products all day i'd probably do
+
+---------22:24----------
+it for two bucks an hour
+
+---------22:26----------
+honestly i do this for free i can't tell
+
+---------22:27----------
+the customer that i can't tell the
+
+---------22:29----------
+customer that because they got to pay
+
+---------22:30----------
+for this data recovery so i could pay
+
+---------22:31----------
+rent
+
+---------22:32----------
+staff insurance and all that other horse
+
+---------22:34----------
+[ __ ] but i'd do this for free
+
+---------22:37----------
+scrape an apple product scrape scrape
+
+---------22:40----------
+scrape
+
+---------22:41----------
+all right let me get a donor board grab
+
+---------22:43----------
+some caps and put it on there
+
+---------22:45----------
+can you at least fill the hole with some
+
+---------22:46----------
+green uv resin
+
+---------22:48----------
+if it'll make you happy fine
+
+---------22:52----------
+fine
+
+---------23:00----------
+okay so that is the pp bus end
+
+---------23:04----------
+of the cap i need to grab another one
+
+---------23:10----------
+okay i'll put one cap there
+
+---------23:16----------
+only one
+
+---------23:19----------
+nope don't touch it anymore it's gonna
+
+---------23:21----------
+bother me
+
+---------23:22----------
+the rail is rippling the rail is not
+
+---------23:25----------
+supposed to ripple
+
+---------23:27----------
+please fill hole with uv and two caps in
+
+---------23:30----------
+the place of one
+
+---------23:32----------
+oh that's fine we'll think about it okay
+
+---------23:37----------
+i really want to limit what i do to this
+
+---------23:44----------
+we have to be very careful data first
+
+---------23:50----------
+i believe
+
+---------24:01----------
+i believe in myself today
+
+---------24:06----------
+i believe i can fly
+
+---------24:10----------
+at 12.56 volts my pp bus will touch the
+
+---------24:16----------
+sky
+
+---------24:23----------
+do you think the data recovery place
+
+---------24:25----------
+will sell it back to the customer as
+
+---------24:26----------
+fixed
+
+---------24:27----------
+i don't think they care one way or the
+
+---------24:28----------
+other when you do data recovery you
+
+---------24:30----------
+usually give the customer back something
+
+---------24:32----------
+and you tell them like listen if this
+
+---------24:34----------
+works it's a bonus but don't expect it
+
+---------24:44----------
+to this is the way of the world the
+
+---------24:47----------
+better
+
+---------24:47----------
+advertising capitalized businesses will
+
+---------24:50----------
+charge two to eight thousand dollars for
+
+---------24:52----------
+work that i did for a few hundred bucks
+
+---------25:06----------
+i'm not going to put another cap on top
+
+---------25:08----------
+of that because i don't really have a
+
+---------25:10----------
+i don't really feel like stacking it i
+
+---------25:13----------
+have no desire for this to
+
+---------25:15----------
+this board to um have pressure on it
+
+---------25:19----------
+after this so that's good enough for me
+
+---------25:22----------
+just clean this thing up
+
+---------25:38----------
+you know nadia i still have problems
+
+---------25:40----------
+listening to that uh
+
+---------25:42----------
+aaliyah age ain't nothing but a number
+
+---------25:44----------
+album track four the self-titled track i
+
+---------25:46----------
+really like it's a very
+
+---------25:48----------
+honestly he he was a he was a good
+
+---------25:50----------
+musician he was a talented beat maker
+
+---------25:52----------
+i'll give him that
+
+---------25:53----------
+because i actually enjoyed listening to
+
+---------25:55----------
+that and then i found out the history of
+
+---------25:57----------
+him as a human and then it kind of
+
+---------25:58----------
+creeped me out and i couldn't enjoy it
+
+---------26:00----------
+anymore and
+
+---------26:03----------
+but i enjoyed the music
+
+---------26:09----------
+put another to the right yeah but then i
+
+---------26:12----------
+gotta like find some funky way to stick
+
+---------26:14----------
+it to the board it's just
+
+---------26:19----------
+i don't need that other cap there
+
+---------26:41----------
+do you mind if i call you at the shop
+
+---------26:42----------
+for a brief talk you'll never get me
+
+---------26:46----------
+we get over 600 calls a day and that's
+
+---------26:48----------
+excluding people that
+
+---------26:50----------
+caught that phone in their youtube
+
+---------26:51----------
+comments so uh
+
+---------26:53----------
+i don't i don't pick up anymore ever
+
+---------26:58----------
+you're welcome to call if you have a
+
+---------27:00----------
+question
+
+---------27:01----------
+but most likely kevin or
+
+---------27:04----------
+shane or someone else will be answering
+
+---------27:10----------
+yeah like streaming would be impossible
+
+---------27:11----------
+if i actually answered the phone
+
+---------27:15----------
+now the fun part here is going to be
+
+---------27:17----------
+putting a layer of green
+
+---------27:18----------
+[ __ ]
+
+---------27:24----------
+the other part of the cap is not
+
+---------27:26----------
+connected to anything anymore
+
+---------27:31----------
+perhaps it isn't
+
+---------27:36----------
+one way to find out
+
+---------27:48----------
+this is uvh-900 this is the green stuff
+
+---------27:52----------
+that i use to you cure it with uv
+
+---------27:57----------
+it's very useful because what you can do
+
+---------27:58----------
+is let's say you mess up something under
+
+---------28:00----------
+a bga package you can put this there
+
+---------28:03----------
+clean up your work and then solder the
+
+---------28:05----------
+bga chip on top
+
+---------28:06----------
+the heat from your soldering is not
+
+---------28:08----------
+going to mess up the green goo
+
+---------28:10----------
+so it's really cool that it cures with
+
+---------28:12----------
+uv and not heat
+
+---------28:22----------
+thank you vincius for the euro
+
+---------28:37----------
+all right let's make sure that my short
+
+---------28:38----------
+is still gone
+
+---------28:40----------
+before i cure it because god knows if i
+
+---------28:42----------
+don't make sure the short is gone before
+
+---------28:44----------
+i cure it the short will not be gone
+
+---------28:51----------
+short is gone
+
+---------28:54----------
+all right next oh first i i got
+
+---------28:58----------
+a little bit of green [ __ ] on the other
+
+---------28:59----------
+side of the board
+
+---------29:07----------
+now i actually got this corona killer uv
+
+---------29:09----------
+thing so i usually use
+
+---------29:11----------
+my normal little uv pen
+
+---------29:15----------
+but it's not as fun now that i have the
+
+---------29:16----------
+corona killer i got this corona killer
+
+---------29:19----------
+for the office
+
+---------29:22----------
+see because i have a little uv pen
+
+---------29:27----------
+see where's my uv pen here we go i have
+
+---------29:29----------
+this little thing but
+
+---------29:30----------
+i have so much of it here by the way
+
+---------29:33----------
+for those watching this is a uv pen so
+
+---------29:35----------
+if you look at your screen you're going
+
+---------29:37----------
+to be seeing uv light right now and it's
+
+---------29:38----------
+going to burn you like the sun
+
+---------29:40----------
+so look away
+
+---------29:47----------
+i'm gonna i'm gonna use the corona
+
+---------29:48----------
+killer
+
+---------29:50----------
+this here is the corona killer
+
+---------29:54----------
+20 watt corona killer this is my little
+
+---------29:56----------
+uv pen
+
+---------29:58----------
+but the uv pen doesn't really do much
+
+---------30:01----------
+it's like a little uv pen
+
+---------30:02----------
+it's a little uv pen this here
+
+---------30:06----------
+this is this is the curing machine all
+
+---------30:09----------
+right
+
+---------30:10----------
+this is i got my uv goggles on
+
+---------30:20----------
+time to cure this mofo
+
+---------30:24----------
+[Laughter]
+
+---------30:32----------
+die corona die
+
+---------30:48----------
+i'm not pointing this at at my arms or
+
+---------30:51----------
+skin
+
+---------30:52----------
+at all because if i do
+
+---------30:55----------
+i get 20 watts of uv burn i'm just gonna
+
+---------30:59----------
+clean off and de-corona my [ __ ]
+
+---------31:01----------
+d corona bye bye corona no corona on my
+
+---------31:05----------
+multimeter
+
+---------31:06----------
+no corona on this above all no corona on
+
+---------31:09----------
+my little
+
+---------31:12----------
+erica got me this the first things that
+
+---------31:15----------
+she sent me
+
+---------31:16----------
+was my little border pair helper
+
+---------31:19----------
+all right let's see if it's decorated
+
+---------31:30----------
+all right so let's see what's what's
+
+---------31:31----------
+this doing here so this is cured
+
+---------31:34----------
+it's not cured as well as i'd like so
+
+---------31:35----------
+i'm still going to add some more uv
+
+---------31:38----------
+using my little pen
+
+---------31:47----------
+okay let's see how strong this is now
+
+---------31:53----------
+i think that'll survive the test of time
+
+---------31:55----------
+and poking
+

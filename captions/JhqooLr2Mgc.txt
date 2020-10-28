@@ -1,0 +1,583 @@
+https://www.youtube.com/watch?v=JhqooLr2Mgc
+---------00:00----------
+hi so today I'm gonna be going over one
+
+---------00:01----------
+of the things that I hate about this
+
+---------00:02----------
+video series which is I used to get all
+
+---------00:05----------
+these easily fixable boards that were
+
+---------00:07----------
+simple to me and that is that it's gone
+
+---------00:10----------
+I mean from walking customers yeah from
+
+---------00:12----------
+other shops No
+
+---------00:14----------
+so let me just show you in the
+
+---------00:15----------
+microscope what I'm talking about so
+
+---------00:17----------
+this is a board that just recently came
+
+---------00:19----------
+in and so the ISL area has already been
+
+---------00:25----------
+added and got C high side current
+
+---------00:29----------
+sensing - SMC stuff has already been
+
+---------00:32----------
+done and the 5 volt circuit has already
+
+---------00:37----------
+been reworked and the problem that we
+
+---------00:42----------
+have with this board is that it turns on
+
+---------00:43----------
+and turns off now it turns the
+
+---------00:47----------
+person-centred saying it turns on turns
+
+---------00:48----------
+off turns on turns off but when you take
+
+---------00:52----------
+it out of the computer one of the things
+
+---------00:53----------
+that didn't didn't say when it's
+
+---------00:55----------
+actually out of the machine it works
+
+---------00:56----------
+just fine so I have to start using my
+
+---------00:59----------
+brain here so I don't think this person
+
+---------01:01----------
+ever actually tested this board outside
+
+---------01:02----------
+of the computer so when it's outside of
+
+---------01:04----------
+the computer it works but when I start
+
+---------01:06----------
+plugging things in it dies so I said I
+
+---------01:08----------
+start trying to use my brain and I just
+
+---------01:10----------
+plug in each individual component and
+
+---------01:12----------
+try to figure it out what what point
+
+---------01:13----------
+does it stop working and stop what's
+
+---------01:16----------
+working when the trackpad is plugged in
+
+---------01:17----------
+so why would it stop working when the
+
+---------01:19----------
+trackpad is plugged in well the trackpad
+
+---------01:21----------
+is we're gonna go over and see on the
+
+---------01:23----------
+schematic has an 18 volt rail so I'm
+
+---------01:28----------
+gonna show you that here
+
+---------01:29----------
+alright so over here you can see the 18
+
+---------01:31----------
+point 5 volt boost circuit for sensors
+
+---------01:33----------
+now here we don't mean sensors in terms
+
+---------01:35----------
+of how much power is the CPU using how
+
+---------01:37----------
+what temperature is here we mean sensor
+
+---------01:40----------
+in terms of sensing new touching the
+
+---------01:41----------
+trackpad the trackpad needs the 18 point
+
+---------01:44----------
+5 volts on it so this gets turned on
+
+---------01:46----------
+when it detects the trackpad and there's
+
+---------01:48----------
+an input of 5 volts now if the 5 volt
+
+---------01:51----------
+rail is shorted to ground the computer
+
+---------01:53----------
+is gonna stop working so I thought let
+
+---------01:55----------
+me just look around this area and get an
+
+---------01:57----------
+idea what's going on it turns off every
+
+---------01:59----------
+time the trackpad plugs in and when you
+
+---------02:01----------
+look around this area you'll you'll get
+
+---------02:03----------
+an idea really quickly of what it is
+
+---------02:05----------
+that what's happening
+
+---------02:06----------
+so let's look under it with a microscope
+
+---------02:08----------
+this is the chip and doesn't that just
+
+---------02:12----------
+look like a bunch of
+
+---------02:13----------
+ now the tab that is messed up over
+
+---------02:16----------
+here this little you know the one on the
+
+---------02:18----------
+bottom right if we look over on the
+
+---------02:21----------
+board view you'll see that that is where
+
+---------02:24----------
+let's say PP 5 vs 3 comes to the chip so
+
+---------02:28----------
+that is pretty mother that's pin 2 which
+
+---------02:30----------
+is the voltage into the chip and that
+
+---------02:32----------
+looks like crap I'm honest I'm not even
+
+---------02:34----------
+gonna take out my multimeter for real
+
+---------02:36----------
+yeah I'm not I'm not gonna even measure
+
+---------02:37----------
+anything I'm just gonna take that stuff
+
+---------02:39----------
+that looks like crap and throw it in the
+
+---------02:41----------
+garbage where it belongs
+
+---------02:42----------
+and replace with another again they're
+
+---------02:44----------
+just I'm pretty sure I know my problem
+
+---------02:46----------
+and that chip is mulling over the
+
+---------02:48----------
+capacitor next to it is most likely
+
+---------02:50----------
+shorting to ground so when it detects
+
+---------02:52----------
+the track pad it turns that on it turns
+
+---------02:55----------
+on it turns on the 18 point 5 volts the
+
+---------03:00----------
+5 volt rail that is going to the input
+
+---------03:02----------
+of that chip winds up getting shorted to
+
+---------03:04----------
+ground and that's when all types of sad
+
+---------03:06----------
+things happen so I'm gonna heat this
+
+---------03:08----------
+thing and remove it oh you can't see
+
+---------03:10----------
+that because I forgot that the button
+
+---------03:11----------
+sorry about that okay here we go
+
+---------03:14----------
+and off off and away
+
+---------03:27----------
+bye-bye and that stuff that next to it
+
+---------03:32----------
+that looks like crap can go as well you
+
+---------03:34----------
+may not notice that it looks like crap
+
+---------03:35----------
+as much as I do but this the right pad
+
+---------03:38----------
+of that like on the screen it doesn't
+
+---------03:40----------
+look like crap but in the eyepieces it
+
+---------03:42----------
+looks awful so goodbye and goodbye
+
+---------04:07----------
+I want to be able to actually work there
+
+---------04:09----------
+so I'm scraping away all the nasty
+
+---------04:12----------
+my soldering iron so I need solder to
+
+---------04:19----------
+actually stick to that pad and conduct
+
+---------04:21----------
+properly
+
+---------04:30----------
+comer
+
+---------04:33----------
+that's what we call a complete mess
+
+---------04:47----------
+that could still be better there we
+
+---------04:50----------
+gotten somewhere
+
+---------04:57----------
+okay I am satisfied that the area is
+
+---------04:59----------
+fairly clean and we're gonna dump a new
+
+---------05:02----------
+chip on there that is a mess but you get
+
+---------05:04----------
+what I was trying to accomplish sir I
+
+---------05:06----------
+was trying to clean away all the junk
+
+---------05:09----------
+that was on the pad now we do this new
+
+---------05:13----------
+chip okay so I am yeah it turned my hack
+
+---------05:22----------
+go heat up a little too high because the
+
+---------05:24----------
+heating element has not been working for
+
+---------05:25----------
+the past week and of course now it
+
+---------05:27----------
+decides to work which caused me to burn
+
+---------05:29----------
+that chip too high high hell so we're
+
+---------05:31----------
+gonna turn the heat down a little bit
+
+---------05:32----------
+and try that again
+
+---------05:42----------
+luckily I have a lot of these boards
+
+---------05:46----------
+each board
+
+---------06:55----------
+thank God for surface tension because I
+
+---------06:57----------
+know my hands aren't gonna put that in
+
+---------06:58----------
+the right place
+
+---------07:09----------
+okay
+
+---------07:13----------
+that being said and done I'm not even
+
+---------07:17----------
+gonna measure if my short to ground is
+
+---------07:18----------
+gone
+
+---------07:19----------
+I haven't taken out the multimeter for
+
+---------07:21----------
+any of this waste of time
+
+---------07:45----------
+trackpad connected turned on working
+
+---------07:51----------
+just fine
+
+---------07:57----------
+and I appreciate that you follow but
+
+---------07:59----------
+enough of my videos to do this but if
+
+---------08:01----------
+you if you follow it enough of it to be
+
+---------08:03----------
+able to troubleshoot all these different
+
+---------08:04----------
+parts of the circuit if you follow it
+
+---------08:05----------
+enough to be able to troubleshoot the
+
+---------08:07----------
+issues with current sensing the issues
+
+---------08:09----------
+with sensors going to the SMC with all
+
+---------08:11----------
+the different power lines can you do me
+
+---------08:13----------
+a favor and just unplug all the
+
+---------08:15----------
+different components that are plugged
+
+---------08:16----------
+into it and test the board outside of
+
+---------08:18----------
+the computer before you send it here
+
+---------08:19----------
+because now I'm gonna be sending you a
+
+---------08:21----------
+bill for a couple of hundred bucks for
+
+---------08:22----------
+what we really would have mounted into
+
+---------08:23----------
+about three minutes of my time and I'm
+
+---------08:25----------
+not gonna feel the least bit bad about
+
+---------08:26----------
+it because I'm using my brain and at one
+
+---------08:28----------
+point you weren't and I know I'm being
+
+---------08:31----------
+harsh here but seriously I want you to
+
+---------08:33----------
+be at the point where you don't have to
+
+---------08:34----------
+give me money I'm trying to get you to
+
+---------08:36----------
+where you don't have to pay me and and
+
+---------08:39----------
+you're set and you know and again as I
+
+---------08:41----------
+said in the past video about
+
+---------08:42----------
+professionalism and how people come off
+
+---------08:44----------
+this is I don't care if you hate me i
+
+---------08:47----------
+won I'd rather you hate me and be able
+
+---------08:49----------
+to do all of this yourself then you love
+
+---------08:51----------
+me and you just keep giving me money as
+
+---------08:52----------
+much I'll keep taking your money if you
+
+---------08:54----------
+want to keep giving it to me but I would
+
+---------08:56----------
+really prefer that you'd be
+
+---------08:57----------
+self-sufficient so again here that's
+
+---------08:59----------
+pretty much a lesson here you know check
+
+---------09:02----------
+the board outside of the machine to make
+
+---------09:04----------
+sure that it's not any of the it's not
+
+---------09:07----------
+any of the components that you're
+
+---------09:08----------
+plugging in or that are bad also check
+
+---------09:10----------
+your board outside of the machine
+
+---------09:11----------
+because maybe there's a specific circuit
+
+---------09:13----------
+on the board that's dying because you're
+
+---------09:15----------
+plugging it into something maybe it's
+
+---------09:16----------
+your Wi-Fi maybe it's the battery
+
+---------09:18----------
+indicator or whatever it is it could be
+
+---------09:19----------
+the board or it could be the component
+
+---------09:21----------
+but it's going to lead you to use your
+
+---------09:22----------
+brain once you've have an idea what's
+
+---------09:25----------
+going on again so when I plug the track
+
+---------09:27----------
+pin into this computer it stopped
+
+---------09:29----------
+working so that caused me to look at the
+
+---------09:31----------
+trackpad part of the booster circuit
+
+---------09:33----------
+when I looked at the booster circuit for
+
+---------09:34----------
+the trackpad I realized that it looked
+
+---------09:35----------
+like complete when I saw that it
+
+---------09:37----------
+looked like complete I decided to
+
+---------09:39----------
+replace what look like complete and
+
+---------09:40----------
+again I haven't done my multimeter on at
+
+---------09:43----------
+all I'm just following what the board is
+
+---------09:45----------
+telling me from what I see and if you do
+
+---------09:47----------
+the same thing then you'll be able to
+
+---------09:48----------
+figure it out without having to pay me
+
+---------09:50----------
+and that's it for today
+

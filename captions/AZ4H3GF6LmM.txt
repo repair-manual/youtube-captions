@@ -1,0 +1,1519 @@
+https://www.youtube.com/watch?v=AZ4H3GF6LmM
+---------00:00----------
+all right so it's time to fix yet
+
+---------00:01----------
+another dead macbook let's take a look
+
+---------00:04----------
+at this board and see what's going on
+
+---------00:05----------
+with it so this is an 8 to 0-0 0
+
+---------00:08----------
+875 board this isn't for an a 1708 model
+
+---------00:12----------
+MacBook this is one of the Mac books
+
+---------00:14----------
+where it doesn't only not have a touch
+
+---------00:16----------
+bar but it has USB C charge ports and
+
+---------00:18----------
+this is also one of the very few models
+
+---------00:21----------
+that I'm pretty sure an engineer at
+
+---------00:22----------
+Apple got fired for because as you can
+
+---------00:24----------
+tell the SSD is user removable which
+
+---------00:27----------
+means that you can actually get your
+
+---------00:28----------
+data off of this and dare I say you can
+
+---------00:31----------
+upgrade your solid-state drive without
+
+---------00:33----------
+having to buy an entirely new machine so
+
+---------00:36----------
+I'm confident that somebody at Apple has
+
+---------00:39----------
+these being tortured somewhere in their
+
+---------00:41----------
+version of Guantanamo Bay for allowing
+
+---------00:43----------
+this to get released to the public so
+
+---------00:45----------
+let's just go through and I'm gonna find
+
+---------00:48----------
+a board view for this beautiful MacBook
+
+---------00:50----------
+we're going to plug in my USB C amp
+
+---------00:53----------
+meter to see how much power it's taking
+
+---------00:55----------
+and then we can get started so the first
+
+---------00:57----------
+thing we're gonna do is plug in this USB
+
+---------00:59----------
+C amp meter this is gonna tell me how
+
+---------01:01----------
+much power it's using and the reason I'm
+
+---------01:03----------
+interested in seeing how much power it's
+
+---------01:04----------
+using is because that won't give me an
+
+---------01:06----------
+idea of where my problem may lie
+
+---------01:08----------
+different numbers mean different things
+
+---------01:09----------
+so let's see what this thing does with
+
+---------01:12----------
+the USB C ammeter alright so it takes 20
+
+---------01:17----------
+volts now that tells me a couple of
+
+---------01:19----------
+things the first is that pp3 v3
+
+---------01:21----------
+underscore g3 hot is present this chip
+
+---------01:24----------
+needs PP 3 v3 underscore g3 hot to work
+
+---------01:26----------
+and these are the chips that speak to
+
+---------01:28----------
+the charger and then request 20 volts
+
+---------01:32----------
+now and we also know that those are
+
+---------01:35----------
+working now as you can see it's moving
+
+---------01:37----------
+back and forth between 10 20 30
+
+---------01:40----------
+milliamps 10 milliamps 30 million 10
+
+---------01:42----------
+million milliamps 10 milliamps 30
+
+---------01:44----------
+milliamps and it's moving back and forth
+
+---------01:46----------
+consistently between that which means
+
+---------01:48----------
+that most likely we have some sort of
+
+---------01:50----------
+short-circuit because what that's doing
+
+---------01:51----------
+is its power cycling it's turning on and
+
+---------01:53----------
+then realizing oh god I'm turning on
+
+---------01:55----------
+when I shouldn't be turning on turn off
+
+---------01:57----------
+and it's doing that in a repin a
+
+---------01:59----------
+repeating loop so I don't want to
+
+---------02:02----------
+necessarily call that boot looping
+
+---------02:03----------
+because the machine is not getting far
+
+---------02:04----------
+enough to actually boot I would call
+
+---------02:06----------
+that power cycling so let's get to work
+
+---------02:10----------
+on that so the first thing I'm going to
+
+---------02:11----------
+do is turn on Paul Daniel
+
+---------02:13----------
+is excellent multimeter software I would
+
+---------02:15----------
+highly suggest that you all check out
+
+---------02:17----------
+Paul Daniels channel at youtube.com
+
+---------02:19----------
+slash nineteen PLD seven three that's
+
+---------02:23----------
+nineteen PLD seventy three to watch his
+
+---------02:25----------
+content he makes all sorts of amazing
+
+---------02:27----------
+software that helps people in the repair
+
+---------02:29----------
+community do the jobs that they need to
+
+---------02:30----------
+do and he has contributed more to the
+
+---------02:33----------
+repair community in terms of software
+
+---------02:35----------
+that we use for free than just about
+
+---------02:37----------
+anybody else that I know Paul Daniels
+
+---------02:40----------
+Paul Daniels a great man all right now
+
+---------02:45----------
+we're going to look over this board so
+
+---------02:47----------
+the first thing we're gonna do is we're
+
+---------02:48----------
+going to go through the power rail so
+
+---------02:50----------
+I'm gonna find the power rails page on
+
+---------02:52----------
+the schematic and we are going to go
+
+---------02:54----------
+through those power routes hi hi I told
+
+---------02:57----------
+the girl that he's liked for a long time
+
+---------02:59----------
+that he had a crush on her
+
+---------03:00----------
+that's all hope but let's all wish hi hi
+
+---------03:03----------
+some good luck it's not easy to tell the
+
+---------03:05----------
+girl of your dreams that you have a
+
+---------03:06----------
+crush on her especially when you're the
+
+---------03:09----------
+type of nerd that knows what a PP bus is
+
+---------03:10----------
+and whether or not it's g3 huh telling
+
+---------03:13----------
+you when you're a guy that knows the
+
+---------03:15----------
+difference between twelve point twenty
+
+---------03:16----------
+three volts and 12 point 56 volts on
+
+---------03:18----------
+your PP bus it's not easy it's not easy
+
+---------03:21----------
+out there we should make our own dating
+
+---------03:23----------
+app I swear anyway so let's check this
+
+---------03:27----------
+out let's see what's going on with all
+
+---------03:29----------
+these different rails and figure out
+
+---------03:31----------
+which one is causing our power cycling
+
+---------03:32----------
+so the first one on the list is pp bus
+
+---------03:34----------
+g3 hot now the way this software works I
+
+---------03:37----------
+right-click the rail you can't see that
+
+---------03:39----------
+because Paul software puts the mouse in
+
+---------03:41----------
+the wrong place because it's but yeah so
+
+---------03:43----------
+I right click and flex board view is
+
+---------03:45----------
+automatically going to show me
+
+---------03:46----------
+everywhere it shows up on the screen
+
+---------03:47----------
+then I click and then I check to see if
+
+---------03:50----------
+the voltage is present and also if it's
+
+---------03:51----------
+short it's a ground so I'm gonna be
+
+---------03:53----------
+doing this but while I have the the desk
+
+---------03:57----------
+of you go up so I mean I didn't memorize
+
+---------03:59----------
+what all these points are just so you
+
+---------04:01----------
+know I'm looking at the screen and using
+
+---------04:03----------
+the software to help so first I'm gonna
+
+---------04:05----------
+do is measure the voltage that I get on
+
+---------04:07----------
+my pp bus hi is a good dude hi hi has
+
+---------04:11----------
+been like taking care of the chat and
+
+---------04:14----------
+shilling and just doing all these things
+
+---------04:16----------
+and really helping out for a long time
+
+---------04:18----------
+so ever so if anybody deserves some good
+
+---------04:20----------
+luck in life I'd say it's hi hi
+
+---------04:22----------
+alright we have thirteen point zero nine
+
+---------04:25----------
+volts on our PP bust
+
+---------04:27----------
+next up let's check out PP 5vs5 pp 5vs5
+
+---------04:32----------
+is going to be on this capacitor right
+
+---------04:34----------
+around here
+
+---------04:41----------
+and as can be seen it goes up and down
+
+---------04:49----------
+boo okay so we've got a rail that's boot
+
+---------04:52----------
+looping which means that we may have a
+
+---------04:54----------
+short on one of the rails related to
+
+---------04:55----------
+that so the first thing I'm gonna do is
+
+---------04:56----------
+try and figure out where that rail comes
+
+---------04:58----------
+from so that rail comes from you 7650 so
+
+---------05:03----------
+I want to check out what rails use 7650
+
+---------05:06----------
+is responsible for making so let's do
+
+---------05:08----------
+that so you
+
+---------05:09----------
+7650 creates three rails it creates our
+
+---------05:14----------
+55 es 4 it creates our pit by 3 B 3 s 5
+
+---------05:18----------
+and it creates our Victor 5vs5 so let's
+
+---------05:21----------
+see if any of those rails have a short
+
+---------05:23----------
+circuit to ground because if any of them
+
+---------05:24----------
+in short circuit to ground maybe
+
+---------05:25----------
+something's gonna be going wrong with
+
+---------05:26----------
+this chip so first thing we're gonna do
+
+---------05:28----------
+is check it out our pp5 vs4 or as I like
+
+---------05:34----------
+to call it hit the 5 es for depth of 5
+
+---------05:38----------
+years
+
+---------05:44----------
+we could find that on pin 2 of this chip
+
+---------05:47----------
+let's see what happens
+
+---------05:50----------
+pin 2
+
+---------06:00----------
+pigby 5es 4:14 kilohms to ground they've
+
+---------06:03----------
+got no problem man
+
+---------06:04----------
+next up we're gonna check out pp 3 v 3s
+
+---------06:07----------
+v tip u3 v3 s5 no problem there kilohms
+
+---------06:12----------
+the ground no short circuit next up
+
+---------06:15----------
+let's check out hip 2 3 B 3 S 4 we could
+
+---------06:19----------
+find Pippa 3 B 3 S 4 well let's see
+
+---------06:23----------
+where can we get that on this board
+
+---------06:25----------
+there's a current sense resistor
+
+---------06:27----------
+somewhere over here I think we're there
+
+---------06:29----------
+supposed to be a current sense resistor
+
+---------06:31----------
+somewhere over here there you go so this
+
+---------06:34----------
+pad is where we can check out our pipi 3
+
+---------06:36----------
+B 3 S 4 and we have a zero ohm short to
+
+---------06:41----------
+ground
+
+---------06:41----------
+so definitely 3 v s4 is our problem
+
+---------06:59----------
+so let's fix Pippa 3v3 s for let's try
+
+---------07:02----------
+and figure out why it's short it's a
+
+---------07:03----------
+ground what could possibly be now it's
+
+---------07:06----------
+gonna be something over here something
+
+---------07:13----------
+on anywhere along this line any one of
+
+---------07:17----------
+these things could be happening so what
+
+---------07:21----------
+we need to do is we're going to inject
+
+---------07:23----------
+some voltage into PP 3 V 3 S 4 and try
+
+---------07:26----------
+and figure out what it is that's getting
+
+---------07:27----------
+hot and we're also you may use a thermal
+
+---------07:29----------
+camera to help us do this I got this
+
+---------07:31----------
+thermal camera from Union imager a union
+
+---------07:34----------
+repair it works decently well does not
+
+---------07:36----------
+work $900 worth of well to be clear I
+
+---------07:38----------
+got this thing for free which is why I
+
+---------07:40----------
+use it I would not recommend that
+
+---------07:41----------
+somebody spend $900 on it but given that
+
+---------07:44----------
+it's free it just just so happens to be
+
+---------07:47----------
+worth putting on the desk and trying out
+
+---------07:48----------
+so let's give that a shot before that I
+
+---------07:52----------
+would have probably done something like
+
+---------07:53----------
+poured alcohol on the board or I would
+
+---------07:55----------
+have used let's say compressed air can
+
+---------07:58----------
+and just turned it upside down by the
+
+---------08:00----------
+way free spray is very effective but
+
+---------08:02----------
+freeze spray usually cost more than
+
+---------08:03----------
+compressed air so if you turn a
+
+---------08:05----------
+compressed air can upside down you can
+
+---------08:06----------
+use it as free spray okay so we're going
+
+---------08:09----------
+to do here is inject some voltage so
+
+---------08:17----------
+let's get to it
+
+---------08:22----------
+so gonna get one wire that goes to my
+
+---------08:27----------
+ground on my board and another wire
+
+---------08:30----------
+that's gonna get soldered to PP 3 V 3 S
+
+---------08:32----------
+4 so on my power supply first thing to
+
+---------08:41----------
+do change the output voltage you don't
+
+---------08:43----------
+want to put 18 volts into the board I
+
+---------08:45----------
+keep it at 18 volts typically because
+
+---------08:47----------
+that's the voltage I that is used by the
+
+---------08:51----------
+older MacBook for the DCN for the
+
+---------08:54----------
+MagSafe okay we're gonna just clip this
+
+---------08:56----------
+right here
+
+---------08:58----------
+thank you orphan that's very kind of you
+
+---------09:01----------
+and the next up is we have the hot wire
+
+---------09:06----------
+which is going to go to our pit P 3 B 3
+
+---------09:08----------
+S 4 so
+
+---------09:33----------
+has landlord fixed the heat yet no
+
+---------09:36----------
+however its 66 degrees in New York right
+
+---------09:38----------
+now so I don't really care
+
+---------09:41----------
+okay so a micro pencil is not gonna
+
+---------09:43----------
+really go to this very well so we're
+
+---------09:44----------
+going to get the other soldering iron
+
+---------09:49----------
+side of this on the board we are going
+
+---------09:51----------
+to there we go
+
+---------09:53----------
+melts very nicely and get you right
+
+---------09:59----------
+there
+
+---------10:05----------
+this is some nasty disgusting looking
+
+---------10:07----------
+wire so I'm just gonna cut that up a
+
+---------10:08----------
+little bit
+
+---------10:14----------
+admittedly this is one of my more fun
+
+---------10:16----------
+repairs because we get to blow things up
+
+---------10:20----------
+I've turned this up to 0.8 volts and
+
+---------10:26----------
+it's taking three amps already Wow so
+
+---------10:29----------
+this should be a fairly easy short to
+
+---------10:31----------
+detect I enjoy blowing things up it's
+
+---------10:33----------
+one of the most fun part of the job
+
+---------10:34----------
+unless it's the CPU obviously if it's a
+
+---------10:37----------
+power rail that goes to a buck converter
+
+---------10:38----------
+the powers the CPU or the GPU then you
+
+---------10:40----------
+want to lower the voltage so that you
+
+---------10:41----------
+don't put too much there so so let's say
+
+---------10:44----------
+that let's say that a certain power line
+
+---------10:46----------
+is eight volts and let's say that that
+
+---------10:49----------
+power line is used by the CPU got buck
+
+---------10:51----------
+converter to to make one volt now let's
+
+---------10:54----------
+say that that FET that's gonna be doing
+
+---------10:56----------
+the switching the slicing to turn that
+
+---------10:57----------
+eight volts and a 1 volts is shorted so
+
+---------10:59----------
+it's gonna pass everything through now
+
+---------11:01----------
+if I put eight volts in there in that
+
+---------11:03----------
+FET is shorted I just sent eight volts
+
+---------11:04----------
+to my CPU so it's always good to start
+
+---------11:06----------
+with a voltage that's at least half of
+
+---------11:08----------
+the CPU voltage of the board if you
+
+---------11:09----------
+don't know if that is what's going to
+
+---------11:11----------
+the CPU here I know that pp 3 B 3 S 4 is
+
+---------11:14----------
+not going to the CPU I'm just gonna
+
+---------11:19----------
+double check before I say that for sure
+
+---------11:24----------
+yeah it's not going to CPU fine
+
+---------11:26----------
+and also I'm only injecting point 8
+
+---------11:28----------
+volts so there's no way that not that I
+
+---------11:30----------
+can actually harm anything that being
+
+---------11:32----------
+said that being said we are going to go
+
+---------11:35----------
+to the camp the thermal camera so this
+
+---------11:42----------
+is my thermal camera software say hello
+
+---------11:44----------
+to Sarah Sarah Moore Pepe who puts
+
+---------11:47----------
+thermal Pepe on the thermal ski yeah he
+
+---------11:51----------
+puts thermal Pepe on the thermal scanner
+
+---------11:52----------
+I love thermal Pepe so this is thermal
+
+---------11:55----------
+Pepe so let's see what we have here so
+
+---------11:58----------
+we're gonna put this into the overprice
+
+---------12:00----------
+thermal imager that is cool but totally
+
+---------12:04----------
+would not recommend anybody spend $900
+
+---------12:05----------
+zone because that's insane and see what
+
+---------12:07----------
+happens now on the right side over here
+
+---------12:09----------
+it tells me what the maximum temperature
+
+---------12:12----------
+is and over here it's telling me that
+
+---------12:14----------
+the maximum temperature is 36 Celsius
+
+---------12:16----------
+that that's not really
+
+---------12:18----------
+exciting me so that means that I
+
+---------12:20----------
+probably am not in the area with my
+
+---------12:21----------
+short in thermal Pepe agrees with me so
+
+---------12:26----------
+now we're gonna go to the other side of
+
+---------12:27----------
+the board and see if there's anything
+
+---------12:30----------
+that gets super warm and nothing gets
+
+---------12:36----------
+super to warm well the only liquid
+
+---------12:41----------
+damage that we have is over here wait
+
+---------12:48----------
+check this out
+
+---------12:50----------
+this is not this may not be internal to
+
+---------12:52----------
+the board huh okay so here's one of the
+
+---------12:55----------
+questions that I have for this beautiful
+
+---------12:57----------
+Chinese software now on the right side
+
+---------12:59----------
+of the screen it's supposed to be
+
+---------13:00----------
+telling me what the maximum temperature
+
+---------13:02----------
+is on the board and it says 44 however
+
+---------13:05----------
+when I put my mouse pointer over here it
+
+---------13:07----------
+says maximum temperature 89 so perhaps
+
+---------13:09----------
+your short was actually visible but the
+
+---------13:11----------
+software was trolling it this this cost
+
+---------13:17----------
+this cost $900 good thing I didn't pay
+
+---------13:21----------
+that much for it alright so it looks
+
+---------13:23----------
+like thermal Pepe is telling us that our
+
+---------13:25----------
+short is right over here
+
+---------13:27----------
+99 Celsius 98 ian is so it looks like
+
+---------13:31----------
+it's something over here rather than
+
+---------13:33----------
+spending $900 in the thermal camera it's
+
+---------13:35----------
+useful if you spend let's say 200 to 400
+
+---------13:38----------
+on a microscope even if you're just
+
+---------13:39----------
+getting the amps go up se 400 the cheap
+
+---------13:41----------
+one that I have in the description that
+
+---------13:43----------
+was my start on microscope what this
+
+---------13:50----------
+oh it's the cap for sure look at it
+
+---------13:58----------
+yeah so that cap was just was gone so
+
+---------14:01----------
+the microscope is it to me is a much
+
+---------14:04----------
+more valuable tool than the thermal
+
+---------14:05----------
+camera and if I were just starting out I
+
+---------14:07----------
+would definitely rather put my money
+
+---------14:08----------
+into a microscope than a thermal camera
+
+---------14:10----------
+and frankly this is the type of short
+
+---------14:14----------
+circuit that you could find even without
+
+---------14:15----------
+the thermal camera I was just expecting
+
+---------14:17----------
+this to be difficult because I've had
+
+---------14:19----------
+nothing but difficult miserable touch
+
+---------14:21----------
+bars that I've had to go over for the
+
+---------14:23----------
+past few days but had I simply looked
+
+---------14:25----------
+this over with the microscope I would
+
+---------14:27----------
+have saved myself the embarrassment of
+
+---------14:29----------
+having to use a thermal camera to find
+
+---------14:31----------
+that that's a very easy to find short
+
+---------14:35----------
+the thermal camera would not have been
+
+---------14:37----------
+necessary for this just a some eyes and
+
+---------14:40----------
+a brain brain is important need brain so
+
+---------14:46----------
+we're going to take that off
+
+---------14:57----------
+bye-bye cap
+
+---------15:14----------
+it is still a little bit of burned
+
+---------15:16----------
+capacitor that's stuck to that pad let's
+
+---------15:19----------
+just try to get that off without
+
+---------15:20----------
+knocking into the Wi-Fi chip I'm gonna
+
+---------15:23----------
+make a bit of a solder ball and try to
+
+---------15:26----------
+drag it off with my solder ball
+
+---------15:34----------
+all righty
+
+---------16:00----------
+all right let's see if there's any pads
+
+---------16:01----------
+left here
+
+---------16:21----------
+now it's gonna be time to switch back to
+
+---------16:23----------
+our micro pencil this is not gonna
+
+---------16:27----------
+really do the job well so we're gonna go
+
+---------16:29----------
+back to the micro pencil there we go so
+
+---------16:35----------
+see how my iron was able to bring back
+
+---------16:37----------
+that pad that I thought was gone that's
+
+---------16:41----------
+the magic of the t30 - can tip this is
+
+---------16:45----------
+my favorite soldering iron tip I
+
+---------16:46----------
+probably should get a fiberglass pen or
+
+---------16:48----------
+something like that to scrape the board
+
+---------16:50----------
+with but I have much more fun scraping
+
+---------16:51----------
+it with this I think Paul has one I
+
+---------16:56----------
+always wanted I don't know I think he
+
+---------16:58----------
+hides it for me I always wind up just
+
+---------16:59----------
+scraping the board with the tip
+
+---------17:10----------
+there we go from my Pat's back beautiful
+
+---------18:39----------
+I want to minimize the amount of time I
+
+---------18:41----------
+spend heating that Wi-Fi chips so I'm
+
+---------18:43----------
+going to not really care if it's not
+
+---------18:46----------
+soldered in place perfectly because it
+
+---------18:48----------
+will get soldered in place perfectly
+
+---------18:49----------
+when I do the next chip
+
+---------18:55----------
+succumb to gravity mofo yes and so when
+
+---------19:01----------
+I put the last piece on there everything
+
+---------19:03----------
+else is gonna nicely fall into place
+
+---------19:05----------
+since I got the flux on that you'll see
+
+---------19:09----------
+it's gonna be beautiful
+
+---------19:29----------
+okay go go gadget gravity there you go
+
+---------19:33----------
+stay down sometimes it's a pain in the
+
+---------19:36----------
+ass when the chip doesn't want to stay
+
+---------19:37----------
+down
+
+---------19:58----------
+beautiful
+
+---------20:48----------
+no Wi-Fi chip is fine beard of joy
+
+---------20:54----------
+then give that Wi-Fi chip a happy little
+
+---------20:56----------
+reflow
+
+---------21:02----------
+what is a good starter Microsoft asked
+
+---------21:04----------
+mark if you look in the video
+
+---------21:06----------
+description you'll find an AM scope SC
+
+---------21:08----------
+400 link which i think is pretty much
+
+---------21:10----------
+the the best thing you can get if you're
+
+---------21:12----------
+looking for a cheap starter microscope I
+
+---------21:15----------
+got mine for a hundred seventy-five
+
+---------21:17----------
+bucks
+
+---------21:23----------
+now this Wi-Fi chip may have some
+
+---------21:25----------
+corrosion under it since that stuff on
+
+---------21:27----------
+the bottom had that nasty looking
+
+---------21:28----------
+corrosion around it so I we're gonna
+
+---------21:30----------
+give it a happy little reflow once it
+
+---------21:33----------
+has a happy little reflow it's balls
+
+---------21:34----------
+will all be healthy again and it will be
+
+---------21:36----------
+making a nice connection to the board
+
+---------21:38----------
+it'll be able to communicate with the
+
+---------21:40----------
+board and give the board Wi-Fi and the
+
+---------21:44----------
+board will give the chip a purpose we're
+
+---------21:50----------
+just gonna put a little bit of flux here
+
+---------21:55----------
+soldering flux beautiful that's not a
+
+---------22:01----------
+lot of flux that's a little bit of flux
+
+---------22:03----------
+that's the right amount of flux all
+
+---------22:06----------
+right
+
+---------22:54----------
+now keep in mind I'm not ready flowing
+
+---------22:56----------
+from close up right now this this iron
+
+---------22:58----------
+is quite a bit away from the board I
+
+---------23:00----------
+guess you can't really tell depth that
+
+---------23:02----------
+well on this camera but I'm pretty far
+
+---------23:04----------
+away
+
+---------23:08----------
+I'm just preheating the area because I
+
+---------23:11----------
+want to use a minimal heat when I'm
+
+---------23:12----------
+right up on the chip so I preheat the
+
+---------23:14----------
+area to a good amount and now I'm gonna
+
+---------23:17----------
+go close to it for the kill
+
+---------23:30----------
+there we go a little tap
+
+---------23:35----------
+tap-tap-tap and now I just wait for it
+
+---------23:38----------
+to cool off
+
+---------23:47----------
+okay let's see what we get
+
+---------23:54----------
+20 volts six hundred milliamps so this
+
+---------23:58----------
+is turning on great instead of the
+
+---------24:00----------
+heatsink on the CPU we're just not gonna
+
+---------24:02----------
+let it stay on for too long but this is
+
+---------24:05----------
+indeed now turning on which means that
+
+---------24:07----------
+we've made progress so we had a short
+
+---------24:09----------
+circuit we figured out that it was most
+
+---------24:11----------
+likely a short circuit because when I
+
+---------24:13----------
+started going through the power rails
+
+---------24:14----------
+one of them was going on off on off on
+
+---------24:16----------
+off and typically when it's turning on
+
+---------24:18----------
+off on off on off the chip is turning
+
+---------24:20----------
+itself off because there's a short
+
+---------24:23----------
+upstream now the rail that was going up
+
+---------24:25----------
+and down was pp5 es5 and that's on the
+
+---------24:28----------
+chip that also creates PP 3 B 3 S 5 so
+
+---------24:30----------
+even though PP 3 B 3 S 5 was fine pp 3 B
+
+---------24:33----------
+3 S 4 which is upstream was not working
+
+---------24:35----------
+and PP 3 v 3 S 4 comes from PP 3 v 3 S 5
+
+---------24:38----------
+since the chip that makes PP 3 V 3 s 5 +
+
+---------24:41----------
+PP 5 es 5 are the same chip even though
+
+---------24:44----------
+PP 3 V 3 S 4 was an issue
+
+---------24:46----------
+it was stopping PP 5 es 5 from working
+
+---------24:48----------
+because these rails are essentially
+
+---------24:50----------
+created by the same chip and if the chip
+
+---------24:52----------
+realizes it's a problem on any one of
+
+---------24:53----------
+the rails it creates it just says I
+
+---------24:55----------
+don't want to blow up and gonna shut
+
+---------24:56----------
+down everything and we were able to tell
+
+---------24:58----------
+that behavior that what we call power
+
+---------24:59----------
+cycling by using a USBC amp meter which
+
+---------25:02----------
+is really helpful when diagnosing these
+
+---------25:04----------
+these products because I saw 20 volts
+
+---------25:07----------
+okay cd32 15 s are working pp 3 b3
+
+---------25:10----------
+underscore g3 hot is there I saved
+
+---------25:11----------
+myself the time and effort of having to
+
+---------25:13----------
+make to unnecessary measurements and
+
+---------25:14----------
+unnecessary steps of troubleshooting and
+
+---------25:16----------
+then I saw 10 to 30 milliamps going back
+
+---------25:19----------
+and forth 10:30 10:30 now I know my
+
+---------25:22----------
+problem is likely a short-circuit
+
+---------25:24----------
+because it's not staying still it's
+
+---------25:26----------
+going back and forth back and forth back
+
+---------25:27----------
+and forth so it's probably a
+
+---------25:29----------
+short-circuit on one of those power
+
+---------25:30----------
+lines that we're with a chip that's not
+
+---------25:32----------
+going to allow the rail to stay on so
+
+---------25:34----------
+this really does help in terms of keep
+
+---------25:37----------
+make it really allowing you to tell what
+
+---------25:39----------
+is wrong with the product before you
+
+---------25:41----------
+actually even put your eyes on it and
+
+---------25:43----------
+that's that and as always I hope you
+
+---------25:46----------
+learned something with that you move on
+
+---------25:48----------
+to the next MacBook do you have a
+
+---------25:50----------
+MacBook that needs to be fixed we fix
+
+---------25:52----------
+MacBooks come by our storage 186 first
+
+---------25:54----------
+Avenue located in Manhattan open 12:00
+
+---------25:56----------
+to 8:00 on the weekday 12:00 to 4:00 in
+
+---------25:58----------
+the weekends if you have a Macbook that
+
+---------25:59----------
+needs to be fixed
+
+---------26:00----------
+do you live outside New York City no
+
+---------26:02----------
+problem head over to our website and
+
+---------26:04----------
+click on the outside New York mailbox
+
+---------26:06----------
+icon or
+
+---------26:07----------
+to send your macbook comm that send your
+
+---------26:10----------
+macbook comm to be redirected to the
+
+---------26:13----------
+mail and repair instructions page on our
+
+---------26:14----------
+website and a form that will tell you
+
+---------26:16----------
+how to send your macbook in a trosman
+
+---------26:18----------
+group comm we offer mac laptop repair
+
+---------26:21----------
+logic board repairs cleanroom data
+
+---------26:23----------
+recovery on hard drives iPhone and iPad
+
+---------26:25----------
+data recovery after hard drops or liquid
+
+---------26:27----------
+damage and liquid spill damage repairs
+
+---------26:29----------
+on mac books check us out on google
+
+---------26:31----------
+where you'll find amazing reviews
+
+---------26:32----------
+spanning the past 10 years of our being
+
+---------26:35----------
+in business whether it's on Google Yelp
+
+---------26:37----------
+or other platforms people love the
+
+---------26:39----------
+service that we provided for them and
+
+---------26:40----------
+we're more than happy to provide that
+
+---------26:41----------
+level of service you can also check us
+
+---------26:43----------
+out on YouTube we're over the past 600
+
+---------26:45----------
+repair videos we showcase exactly how we
+
+---------26:48----------
+do the job we do and show you that we
+
+---------26:50----------
+are actually capable of doing it unlike
+
+---------26:52----------
+many websites that brag about their
+
+---------26:53----------
+infinite number of certifications while
+
+---------26:55----------
+using photos from stock photo comm where
+
+---------26:57----------
+they hold the soldering iron from the
+
+---------26:58----------
+hot end we take pride in the work that
+
+---------27:00----------
+we do and we take pride in doing it here
+
+---------27:02----------
+not outsourcing it thank you for your
+
+---------27:04----------
+business thank you for watching and as
+
+---------27:06----------
+always I hope you learned something
+

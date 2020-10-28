@@ -1,0 +1,2056 @@
+https://www.youtube.com/watch?v=rVvNX-t1Xc0
+---------00:00----------
+hey everybody how's it going so today
+
+---------00:02----------
+we're gonna be working on yet another
+
+---------00:03----------
+MacBook I'm sorry that I haven't made
+
+---------00:05----------
+time to do more of these board repair
+
+---------00:06----------
+videos putting together the new store
+
+---------00:09----------
+has been driving me crazy
+
+---------00:10----------
+financially stress wise and general work
+
+---------00:13----------
+wise and I haven't at the time actually
+
+---------00:15----------
+sit in my office organized my office or
+
+---------00:17----------
+do much of anything we've been quite
+
+---------00:19----------
+busy moving and moving means that people
+
+---------00:21----------
+that are moving cannot do their normal
+
+---------00:23----------
+work tasks which means that other people
+
+---------00:24----------
+must do their tasks plus the pass of the
+
+---------00:27----------
+other people who are moving that's a lot
+
+---------00:28----------
+of work so sorry that I haven't been
+
+---------00:31----------
+able to do the border pair stuff as
+
+---------00:32----------
+often as usual this is a board that sent
+
+---------00:34----------
+some of us for a loop even though it's a
+
+---------00:35----------
+clearly simple and obvious issue and I
+
+---------00:37----------
+figured if it's something that send us
+
+---------00:39----------
+for a loop it's probably gonna drive you
+
+---------00:41----------
+a little nuts as well and I don't like
+
+---------00:42----------
+the Hat only having videos that make us
+
+---------00:44----------
+look smart I've posted a lots of board
+
+---------00:46----------
+repair videos or something obvious and
+
+---------00:48----------
+we were just all being idiots and I
+
+---------00:50----------
+think that anytime we're idiots and we
+
+---------00:53----------
+figure it out that we should share it so
+
+---------00:54----------
+that maybe you don't make the same
+
+---------00:56----------
+dumbass mistake that we made because
+
+---------00:57----------
+let's face it everybody makes a dumbass
+
+---------00:59----------
+mistakes most people on the internet or
+
+---------01:00----------
+you know they don't like to admit when
+
+---------01:02----------
+they do something careless or silly they
+
+---------01:05----------
+like to pretend that they're perfect
+
+---------01:06----------
+they like to pretend that every single
+
+---------01:07----------
+thing they've ever done throughout their
+
+---------01:09----------
+entire life is perfectly thought through
+
+---------01:10----------
+they've never gotten tired they've never
+
+---------01:12----------
+gotten burned out they've never missed
+
+---------01:13----------
+something right in front of them because
+
+---------01:14----------
+they're just so perfect the beauty of
+
+---------01:16----------
+the anonymity of the Internet so here
+
+---------01:18----------
+I'd like to show you what was going on
+
+---------01:21----------
+with this MacBook Air and what I think
+
+---------01:23----------
+some of you may miss if you miss read
+
+---------01:26----------
+the schematic the same way that all of
+
+---------01:28----------
+us here misread the schematic this board
+
+---------01:30----------
+went through multiple people and all of
+
+---------01:31----------
+us perhaps because we're tired Babs
+
+---------01:33----------
+because some day we get here at 7:00 I
+
+---------01:35----------
+don't leave until 9:00 or 10:00 because
+
+---------01:36----------
+of moving we just we just did some
+
+---------01:38----------
+stupid [ __ ] so this was a no backlight
+
+---------01:41----------
+MacBook Air and I'd like to show you
+
+---------01:43----------
+some of the preliminary work that was
+
+---------01:45----------
+done here you can see that there's quite
+
+---------01:47----------
+a bit of work in the backlight the
+
+---------01:49----------
+enable area this is going to be a
+
+---------01:52----------
+transistor that sends the backlight
+
+---------01:55----------
+power to the entire circuit so here you
+
+---------01:57----------
+have the backlight fuse which never blow
+
+---------01:59----------
+is because it's a MacBook then you have
+
+---------02:01----------
+the transistor that it goes to and this
+
+---------02:03----------
+transistor is going to open or close and
+
+---------02:05----------
+send backlight power throughout the rest
+
+---------02:07----------
+of the backlight circuit but this
+
+---------02:08----------
+transits the rest open for that to
+
+---------02:09----------
+happen and this transistor is going to
+
+---------02:11----------
+govern whether this transistor
+
+---------02:13----------
+opens so we are going to open up the
+
+---------02:16----------
+schematic over here so this is eight
+
+---------02:19----------
+volts from the battery it's gonna go
+
+---------02:21----------
+through the fuse and this transistor is
+
+---------02:23----------
+gonna open closed to allow power to pass
+
+---------02:26----------
+through the circuit
+
+---------02:26----------
+you don't want backlight power going
+
+---------02:28----------
+through the circuit at all times because
+
+---------02:29----------
+maybe you've got the lid closed maybe
+
+---------02:30----------
+you've got your energy saver preferences
+
+---------02:32----------
+has set up so that the screen turns off
+
+---------02:33----------
+after two minutes no needs have power
+
+---------02:35----------
+going through if it's not supposed to
+
+---------02:37----------
+now the question is if the CPU works on
+
+---------02:40----------
+three volt logic yet this transistor is
+
+---------02:43----------
+going open or closed based on higher
+
+---------02:45----------
+voltage logic how does that work so this
+
+---------02:48----------
+transistor that you see is a p-channel
+
+---------02:50----------
+one of the things that I went over in my
+
+---------02:52----------
+how does a transistor work video is that
+
+---------02:54----------
+a transistor is going open based on the
+
+---------02:57----------
+voltage at its gate so see over here you
+
+---------02:59----------
+have these transistors these make it a
+
+---------03:00----------
+little bit more obvious because they
+
+---------03:02----------
+have gate source drain it's all written
+
+---------03:05----------
+so powers gonna go you know chose the
+
+---------03:07----------
+drain drain a source depending on what's
+
+---------03:09----------
+at the gate think of it like a light
+
+---------03:10----------
+switch you know this is gonna be a
+
+---------03:11----------
+hundred twenty volts that's gonna be the
+
+---------03:13----------
+wire to your light bulb and this would
+
+---------03:15----------
+be the physical switch at the gate
+
+---------03:16----------
+except instead of a physical switch it's
+
+---------03:17----------
+an electrical one now this is AP type
+
+---------03:21----------
+MOSFET why does that matter there are
+
+---------03:22----------
+two types of transistors that I give a
+
+---------03:24----------
+crap about when fixing an iPhone or a
+
+---------03:26----------
+MacBook P channel or n channel AP
+
+---------03:29----------
+channel MOSFET the way this works is the
+
+---------03:31----------
+gate voltage is going to determine
+
+---------03:33----------
+whether it opens now with a P channel
+
+---------03:34----------
+MOSFET when the voltage in the gate is
+
+---------03:36----------
+lower than the source it turns on and on
+
+---------03:40----------
+an N channel MOSFET like these ones when
+
+---------03:42----------
+the power on the voltage and the gate is
+
+---------03:43----------
+higher than the source it turns on if
+
+---------03:45----------
+you're not sure if this is an N or a P
+
+---------03:47----------
+channel MOSFET you can just Google the
+
+---------03:49----------
+number of the transistor and sometimes
+
+---------03:51----------
+the schematic may be nice and even tell
+
+---------03:52----------
+you right next to it if the Apple
+
+---------03:54----------
+engineer was feeling happy that day
+
+---------03:55----------
+maybe you got late or something he'll
+
+---------03:57----------
+write p-type so that you don't have to
+
+---------04:00----------
+Google and that's what seems to have
+
+---------04:02----------
+happened here so everybody say thank you
+
+---------04:04----------
+to the Apple engineer that wrote the
+
+---------04:05----------
+type of MOSFET right here so that we
+
+---------04:08----------
+don't have to Google you can also tell
+
+---------04:10----------
+by looking at the picture but if you're
+
+---------04:12----------
+really new to this you're probably going
+
+---------04:13----------
+to forget what the picture is you have
+
+---------04:15----------
+here is a resistor and this resistor is
+
+---------04:18----------
+going to take the 8 volts from the fuse
+
+---------04:19----------
+and it's going to immediately move it to
+
+---------04:21----------
+the gate now the resistor is not gonna
+
+---------04:23----------
+have a real voltage drop across it so
+
+---------04:24----------
+you're gonna have 8 volts in the source
+
+---------04:25----------
+and 8 volts in the gate which
+
+---------04:27----------
+this thing never opens and never turns
+
+---------04:28----------
+on right but wait there's more
+
+---------04:31----------
+you have another resistor on the bottom
+
+---------04:32----------
+that's going between viv gate and
+
+---------04:35----------
+grounds this will act as a voltage
+
+---------04:37----------
+divider I went over this in my wood as a
+
+---------04:39----------
+voltage divider and how does that work
+
+---------04:41----------
+video a voltage divider is gonna take
+
+---------04:43----------
+the voltage that's at the top and lower
+
+---------04:45----------
+it you put one resistor between the high
+
+---------04:46----------
+voltage and what you want the voltage to
+
+---------04:48----------
+be lowered and another resistor between
+
+---------04:50----------
+where you want the voltage to be lower
+
+---------04:51----------
+and ground and that is going to lower
+
+---------04:54----------
+your voltage but in order for this
+
+---------04:55----------
+voltage divider to work this has got to
+
+---------04:57----------
+hit ground right or else it's not gonna
+
+---------04:58----------
+have any place to send it this needs to
+
+---------05:00----------
+go to ground and what's blocking it from
+
+---------05:02----------
+getting to ground but these two
+
+---------05:03----------
+transistors so these two transistors are
+
+---------05:06----------
+going to open when you have EDP
+
+---------05:09----------
+backlight enable and backlight platform
+
+---------05:11----------
+reset L present and then this voltage
+
+---------05:13----------
+will get sent to ground which means that
+
+---------05:15----------
+this will be a happy little voltage
+
+---------05:17----------
+divider which will divide the voltage
+
+---------05:18----------
+and then instead of having eight volts
+
+---------05:20----------
+over here you'll have something unlike
+
+---------05:21----------
+two or four volts and then this
+
+---------05:23----------
+transistor will open and this area
+
+---------05:25----------
+looked very messed up so it looks like
+
+---------05:26----------
+all of that was reworked you can see the
+
+---------05:29----------
+little the two resistors over here for
+
+---------05:31----------
+that voltage divider are nicely soldered
+
+---------05:33----------
+on you have your happy little jumper
+
+---------05:37----------
+wire over here all is good all as well
+
+---------05:39----------
+these Pro points and these have these
+
+---------05:41----------
+pads have all been fixed up to look
+
+---------05:43----------
+nicer so let's see where it is this
+
+---------05:46----------
+board left off before it got its way
+
+---------05:49----------
+here that's the F boy so I'm gonna turn
+
+---------05:51----------
+on Paul Daniels as lovely and amazing
+
+---------05:53----------
+multimeter software so that you can see
+
+---------05:56----------
+and follow along on the screen what it
+
+---------05:58----------
+is that we're doing now if I take a look
+
+---------06:02----------
+at the backlight fuse you'll see that we
+
+---------06:05----------
+have eight volts there and just change
+
+---------06:07----------
+the range on the meter let's see we have
+
+---------06:09----------
+the eight volts that I expect from the
+
+---------06:11----------
+battery on the other side of the
+
+---------06:12----------
+backlight views we've also got eight
+
+---------06:14----------
+volts now if we go to the beginning of
+
+---------06:16----------
+this transistor over here q7 706 the
+
+---------06:22----------
+input is going to be on pin four you
+
+---------06:25----------
+measure that
+
+---------06:31----------
+eight volts now on pin one that's going
+
+---------06:35----------
+to be where it's outputting right yeah
+
+---------06:43----------
+let's try that again
+
+---------06:51----------
+eight votes
+
+---------06:57----------
+I just blocked fuse lol okay I just
+
+---------07:02----------
+mixed something with my multimeter
+
+---------07:05----------
+probes so let me just replace that
+
+---------07:06----------
+backlight fuse that I just blew up live
+
+---------07:09----------
+on camera I'm not sure if you guys were
+
+---------07:11----------
+able to catch that but I just took that
+
+---------07:15----------
+fuse and went poof with it
+
+---------07:20----------
+that's the beauty of editing is that
+
+---------07:22----------
+nobody has to see just how stupid I am
+
+---------07:26----------
+the only so much do pity I'm gonna put
+
+---------07:29----------
+no.1 video I'll let you guys see some
+
+---------07:31----------
+stupidity but you know it takes work
+
+---------07:34----------
+because I just blew a fuse in an Apple
+
+---------07:36----------
+product
+
+---------07:38----------
+you know how adorable those damn fuses
+
+---------07:40----------
+are those do not come off easily all
+
+---------07:46----------
+right I'm gonna take that fuse and I'm
+
+---------07:48----------
+gonna put another one on but I'm gonna
+
+---------07:49----------
+put this fuse on backwards in protest
+
+---------07:51----------
+I'm using hot tweezers instead of hot
+
+---------07:53----------
+air which is making life hard for no
+
+---------07:55----------
+good reason for the people that asked
+
+---------07:57----------
+why I don't use hot Weezer's like watch
+
+---------07:59----------
+so see this is the backlight fuse right
+
+---------08:02----------
+I'm just gonna sit there with my
+
+---------08:04----------
+tweezers 5 4 3 2 1 it's this is so
+
+---------08:11----------
+annoying
+
+---------08:12----------
+come on like there we go oh my god I
+
+---------08:19----------
+could probably make my own fuse in the
+
+---------08:21----------
+time it takes to t solder or something
+
+---------08:22----------
+which Weezer's you're not a P now you're
+
+---------08:24----------
+a D and putting too much effort into try
+
+---------08:27----------
+to make this perfectly straight
+
+---------08:33----------
+good enough for rock-and-roll I'd say I
+
+---------08:36----------
+blew an apple fuse okay we got eight
+
+---------08:38----------
+volts eight volts on the other side of
+
+---------08:43----------
+the fuse eight volts on the input of the
+
+---------08:46----------
+transistor eight volts in the output of
+
+---------08:50----------
+the transistor zero volts on the coil
+
+---------08:54----------
+and if you take a look at the schematic
+
+---------08:56----------
+and the board view you'll see that this
+
+---------08:59----------
+is supposed to go from the transistor to
+
+---------09:02----------
+the coil P P VIN SOS WL CD booklet FET
+
+---------09:06----------
+pp VIN SOS w LC d bic lit this goes to
+
+---------09:12----------
+here now it's not connected on the
+
+---------09:13----------
+screen it says there is a sense resistor
+
+---------09:15----------
+between P P bus s WL CD booklet per and
+
+---------09:18----------
+P P bus SW bit lit on the sensor page
+
+---------09:21----------
+and if we follow along on the board view
+
+---------09:23----------
+over here we click you'll see that this
+
+---------09:26----------
+doesn't go directly to the coil this
+
+---------09:28----------
+doesn't go directly to l7 7:01 it goes
+
+---------09:31----------
+to this R 5490 R 5490 so let's take a
+
+---------09:36----------
+look at our 5490 now when you look on
+
+---------09:39----------
+the schematic this is a resistor that's
+
+---------09:42----------
+not actually there so most people are
+
+---------09:44----------
+gonna say at this point well this
+
+---------09:46----------
+resistor is not actually there so why
+
+---------09:48----------
+would I check it R 5490 says omit see
+
+---------09:52----------
+where it says omit no resistor there and
+
+---------09:54----------
+as you'll see when you look on the board
+
+---------09:56----------
+there is no resistor placed for our 5490
+
+---------10:01----------
+but what you can see is that the
+
+---------10:03----------
+transistor clearly makes a pathway from
+
+---------10:07----------
+the to the coil through this so here's
+
+---------10:11----------
+the transistors output right over here
+
+---------10:13----------
+I'm just gonna up the lighting on the
+
+---------10:15----------
+camera over here so that you could see
+
+---------10:16----------
+up the exposure to some lets up that to
+
+---------10:20----------
+an influence or level of exposure there
+
+---------10:22----------
+and you could see that the transistors
+
+---------10:26----------
+output goes to here and then they don't
+
+---------10:31----------
+have a current sense resistor here this
+
+---------10:32----------
+is actually just you know this
+
+---------10:34----------
+essentially might as well just be bare
+
+---------10:36----------
+wire inside the PC board where here goes
+
+---------10:39----------
+to here and that's going to go over to
+
+---------10:40----------
+the coil so the coil is going to
+
+---------10:44----------
+receive its power not from our 5490 but
+
+---------10:48----------
+from this trace on the board where they
+
+---------10:49----------
+decided we're just not gonna put a
+
+---------10:50----------
+resistor there screw having a current
+
+---------10:52----------
+sense circuit we'll leave that for the
+
+---------10:53----------
+retinas and there's supposed to be a
+
+---------10:56----------
+trace there but there's not because you
+
+---------10:57----------
+have this thing over here and what some
+
+---------10:59----------
+people may think is I'm not gonna check
+
+---------11:01----------
+that resistor because the board
+
+---------11:02----------
+schematic says it's not there so why
+
+---------11:05----------
+bother why would I check the schematic
+
+---------11:07----------
+to see what the resistance is of a not
+
+---------11:09----------
+present resistor well just take a look
+
+---------11:12----------
+at the board yeah there's no resistor
+
+---------11:14----------
+there they omitted it but they replaced
+
+---------11:15----------
+it with a wire and that's clearly burned
+
+---------11:17----------
+off in the first trace you know what a
+
+---------11:20----------
+current sensing circuit would do is a
+
+---------11:21----------
+current sensing circuit would say oh it
+
+---------11:23----------
+looks like you're using too much power
+
+---------11:25----------
+please stop before you die this is a
+
+---------11:27----------
+very useful type of circuit to have it's
+
+---------11:29----------
+also why on the MacBook Pro retina x'
+
+---------11:31----------
+you don't see backlight fuses blowing
+
+---------11:33----------
+from 2013 and after whereas they do blow
+
+---------11:36----------
+on the a 1466 a 1465 and a 1369 and so
+
+---------11:41----------
+on and so forth it's because they don't
+
+---------11:42----------
+have a current sensing circuit the
+
+---------11:44----------
+current sensing circuit would cost Apple
+
+---------11:46----------
+probably an additional 19 cents to put
+
+---------11:49----------
+in there and you you only bought the
+
+---------11:51----------
+$999 computer you did buy the $1,200
+
+---------11:54----------
+computer so what the hell do you think
+
+---------11:56----------
+you're getting do you think they're
+
+---------11:58----------
+actually gonna put that extra 19 cents
+
+---------12:00----------
+in and make sure that the fuse doesn't
+
+---------12:02----------
+blow so that if you remove the short
+
+---------12:03----------
+it'll just work again nice and easily
+
+---------12:05----------
+without soldering when you only bought
+
+---------12:07----------
+the $999 model get the eff added here so
+
+---------12:10----------
+they actually put all of this in place
+
+---------12:12----------
+and I will say I will compliment Apple
+
+---------12:14----------
+on the fact that the a 1502 s and the a
+
+---------12:16----------
+1398 from 2013 and onwards do have a
+
+---------12:20----------
+current sensing circuit there the way
+
+---------12:21----------
+that works is you have a current sensing
+
+---------12:22----------
+resistor and if it notices and what
+
+---------12:25----------
+you'll you'll have the backlight chip
+
+---------12:29----------
+reading voltage on each side of the
+
+---------12:33----------
+resistor and if there's too much of a
+
+---------12:35----------
+voltage drop
+
+---------12:35----------
+it'll assume too much powers being drawn
+
+---------12:37----------
+and immediately close this transistor
+
+---------12:39----------
+rather than just letting it go because
+
+---------12:41----------
+right now this transistor is gonna be
+
+---------12:42----------
+open like if there's a short to ground
+
+---------12:44----------
+it don't care that transistor is open
+
+---------12:46----------
+and it's just blowing through everything
+
+---------12:47----------
+but on the retina models that is not the
+
+---------12:50----------
+case they have a current sensing circuit
+
+---------12:52----------
+I can show you that by opening up
+
+---------12:54----------
+another
+
+---------12:55----------
+I'm addict here for perhaps a different
+
+---------12:56----------
+machine let's see if we have more modern
+
+---------13:01----------
+something here we go something like this
+
+---------13:03----------
+we'll open up the back light circuit for
+
+---------13:05----------
+this model and see this is going to be
+
+---------13:08----------
+your current sensing circuit so you have
+
+---------13:12----------
+the fuse and you have the transistor
+
+---------13:14----------
+before it goes to the back light circuit
+
+---------13:16----------
+but before that you have this resistor
+
+---------13:17----------
+and this is a current sense resistor
+
+---------13:19----------
+this is a shunt resistor so you have a
+
+---------13:23----------
+resistor and then on each side of the
+
+---------13:26----------
+resistor you have a line going to the
+
+---------13:27----------
+LED driver it's going to sense the
+
+---------13:29----------
+voltage here and the voltage there and
+
+---------13:30----------
+if there is a great large voltage drop
+
+---------13:33----------
+then it's going to assume that it's
+
+---------13:35----------
+using too much power and turn off the
+
+---------13:36----------
+way that the backlight driver chip is
+
+---------13:38----------
+going to know exactly how much amperage
+
+---------13:40----------
+the backlight circuit is using is by
+
+---------13:42----------
+checking the difference in voltage
+
+---------13:44----------
+between the input of the current sense
+
+---------13:47----------
+resistor and the output and then it's
+
+---------13:49----------
+going to turn this transistor off so if
+
+---------13:50----------
+there's a short to ground then it sees
+
+---------13:52----------
+whoa why is the backlight circuit using
+
+---------13:54----------
+three or five or six amps this
+
+---------13:56----------
+transistor turns off and now the short
+
+---------13:58----------
+circuit on the backlight side does not
+
+---------14:00----------
+have a way to get to ground and that's
+
+---------14:02----------
+what saves you from having boards that
+
+---------14:05----------
+look like this because before it can get
+
+---------14:07----------
+to this point it will get turned off
+
+---------14:09----------
+it's not going to get to this point
+
+---------14:10----------
+unless it's been you know passing a
+
+---------14:13----------
+ridiculous amount of current for quite a
+
+---------14:14----------
+while courtesy of Apple's bulletproof
+
+---------14:17----------
+good old-fashioned backlight fuse so how
+
+---------14:19----------
+are we going to fix this well that's a
+
+---------14:20----------
+great question so what we do is I'm
+
+---------14:23----------
+simply gonna put a little jumper wire
+
+---------14:25----------
+between the transistor in here and then
+
+---------14:27----------
+it's going to work just fine and then I
+
+---------14:30----------
+can smack myself upside the head for not
+
+---------14:33----------
+noticing this sooner I don't know just
+
+---------14:37----------
+for fun all right so let's spot over
+
+---------14:41----------
+this in place get a nice little wire
+
+---------14:44----------
+over there I'm not gonna use something
+
+---------14:46----------
+that's too crazy maybe I'll see here so
+
+---------14:51----------
+backlight circuit is carrying a little
+
+---------14:53----------
+bit more than normal so I'm not gonna
+
+---------14:55----------
+use in like a 44 or 46 gauge wire I'm
+
+---------14:57----------
+gonna use a 36 gauge wire because this
+
+---------15:02----------
+this does need to carry something where
+
+---------15:03----------
+you know the screen is gonna be one of
+
+---------15:05----------
+the things that takes more power in the
+
+---------15:06----------
+machine
+
+---------15:07----------
+and it's not carrying it for a long
+
+---------15:09----------
+distance it's carrying it for a very
+
+---------15:10----------
+short distance but it should still be it
+
+---------15:13----------
+should still be capable of carrying a
+
+---------15:15----------
+decent amount of power so we're just
+
+---------15:16----------
+gonna do that I'm going to remove the
+
+---------15:20----------
+enamel on this enamel wire so that and
+
+---------15:23----------
+that it doesn't there we go so that it
+
+---------15:27----------
+can actually conduct remember those two
+
+---------15:30----------
+top pins are the same thing so it
+
+---------15:32----------
+doesn't matter if they're shorted and
+
+---------15:35----------
+you use a set of tweezers they're not
+
+---------15:38----------
+broken difficult to find
+
+---------15:41----------
+looks like somebody in my chat said that
+
+---------15:43----------
+they would use speaker wire for this you
+
+---------15:45----------
+are absolutely mad you're out of your
+
+---------15:49----------
+damn mind you're out of control my
+
+---------15:53----------
+friend you really want to just to make
+
+---------15:58----------
+you happy just to make that person happy
+
+---------16:00----------
+you know what I'll do I'll double up on
+
+---------16:02----------
+it hey alright see so i'll solder -
+
+---------16:10----------
+there you go hopefully that makes you
+
+---------16:12----------
+happy now you got a nice doubled up wire
+
+---------16:16----------
+so you have even more powers more wires
+
+---------16:20----------
+for more powers more gauges for more
+
+---------16:23----------
+back lights yeah look at that that's
+
+---------16:30----------
+nice and strong also I can tell that
+
+---------16:34----------
+this solder joins on the capacitor up
+
+---------16:36----------
+there who is soldered with not the right
+
+---------16:39----------
+amount of flux so we're just going to
+
+---------16:41----------
+add flux and watch what happens to that
+
+---------16:43----------
+nasty see how that it looks like a
+
+---------16:45----------
+Hershey's kiss right over here this
+
+---------16:46----------
+looks like a Hershey's kiss that's no
+
+---------16:48----------
+good you want to have the right amount
+
+---------16:50----------
+of flux so that when you saw it or it
+
+---------16:51----------
+looks like that it is not this excess
+
+---------16:54----------
+[ __ ] sticking out that's what happens
+
+---------16:55----------
+when you don't use the right amount of
+
+---------16:56----------
+flux and this is why I more flux is
+
+---------16:59----------
+better than less for me because more you
+
+---------17:01----------
+know it's gonna get ultrasonic to off
+
+---------17:02----------
+the board anyway I don't care okay
+
+---------17:04----------
+everything there looks nice now I'm
+
+---------17:06----------
+going to see what I get on back light
+
+---------17:08----------
+output do I still get 0 volts going
+
+---------17:09----------
+through the circuit or does it work
+
+---------17:11----------
+properly that's a great question so
+
+---------17:19----------
+should have used zero AWG wire see
+
+---------17:22----------
+that's going a little overboard that's
+
+---------17:25----------
+that that may just be a little bit too
+
+---------17:26----------
+much just a little bit okay so we're
+
+---------17:30----------
+going to put the multimeter back on the
+
+---------17:32----------
+screen so that you can all see what is
+
+---------17:35----------
+showing up let's see so now the input of
+
+---------17:40----------
+the coil is getting eight that's
+
+---------17:42----------
+beautiful
+
+---------17:42----------
+now let's see what the backlight is
+
+---------17:45----------
+getting eight okay that's no good
+
+---------17:49----------
+backlight it's not supposed to be a
+
+---------17:51----------
+volts so now let's check the other side
+
+---------17:53----------
+of the board and check the rest of the
+
+---------17:54----------
+backlight circuit so at least we have
+
+---------17:55----------
+eight volts going to the circuit now
+
+---------17:57----------
+that transistor that was not opening
+
+---------17:58----------
+before is opening so we're gonna check
+
+---------18:01----------
+through the rest of this board and see
+
+---------18:02----------
+what's going on there I see flux I see
+
+---------18:06----------
+an LED driver section that looks like
+
+---------18:08----------
+it's had corrosion so we are just going
+
+---------18:11----------
+to remove that no biggie
+
+---------18:16----------
+what do you think about the new we think
+
+---------18:17----------
+pad especially the fold it looks to me
+
+---------18:18----------
+to be pretty much unrepairable that you
+
+---------18:20----------
+agree I haven't seen it honestly like
+
+---------18:23----------
+it's not like any of these companies
+
+---------18:25----------
+send me free [ __ ] so I have no reason to
+
+---------18:27----------
+buy new stuff I pretty much use what I
+
+---------18:31----------
+own until it's destroyed like even my
+
+---------18:32----------
+Sony camera that's I haven't at the time
+
+---------18:34----------
+to replace the HDMI port on it but I got
+
+---------18:37----------
+a new HDMI port and I plan to open it at
+
+---------18:39----------
+some point and get it fixed because I
+
+---------18:41----------
+don't feel like buying another camera
+
+---------18:42----------
+because I'm a cheapskate and this one
+
+---------18:44----------
+does the job just fine sanding on my
+
+---------18:47----------
+think pad you know my think pad does its
+
+---------18:48----------
+job
+
+---------18:48----------
+I don't not really buying a new one any
+
+---------18:50----------
+time soon this is no reason for me you
+
+---------18:52----------
+know it would be nice to have something
+
+---------18:53----------
+slightly newer but I don't really have a
+
+---------18:55----------
+like I don't not really paying for a new
+
+---------18:58----------
+one any time soon so I haven't really
+
+---------19:00----------
+seen them and like I'm not a real
+
+---------19:04----------
+influencer I'm an influencer in the
+
+---------19:06----------
+sense that I get spam from Nord VPN even
+
+---------19:08----------
+after making two videos about why I
+
+---------19:10----------
+don't show the VPN saying that they'll
+
+---------19:12----------
+pay me a modicum of money for shelling
+
+---------19:15----------
+Nord VPN or I get people sending me
+
+---------19:17----------
+emails about Schilling shitty android
+
+---------19:20----------
+games but I don't actually get like cool
+
+---------19:22----------
+stuff you know
+
+---------19:26----------
+if you think I'm the dude that gets the
+
+---------19:29----------
+newest ThinkPads and the newest you know
+
+---------19:31----------
+the what HP's or LG phones or whatever
+
+---------19:37----------
+as soon as they come out you're you're
+
+---------19:39----------
+thinking of the wrong youtuber it's
+
+---------19:46----------
+pretty much just Nord VPN emails here
+
+---------19:48----------
+for me there's not really much of a
+
+---------19:52----------
+reason for me to consider the new thing
+
+---------19:53----------
+pads honestly when I looked it up my
+
+---------19:55----------
+think pad has a 10,000 something CPU
+
+---------19:57----------
+benchmark score right so I got about a
+
+---------20:01----------
+10,000 CPU benchmark score now if I were
+
+---------20:03----------
+to go and buy the most expensive p73 I
+
+---------20:05----------
+could like really maxed it out as hard
+
+---------20:07----------
+as I could I don't think I'd get more
+
+---------20:09----------
+than 17 or 18,000 on CPU benchmark but
+
+---------20:12----------
+that's if I'm paying for like the
+
+---------20:13----------
+top-of-the-line best of the best thing
+
+---------20:15----------
+pad and that's that's not really good
+
+---------20:19----------
+enough I mean I'm not even doubling my
+
+---------20:21----------
+performance but I'm gonna take my think
+
+---------20:24----------
+pad that was about $1,200 I got mine as
+
+---------20:26----------
+a refurb piece of [ __ ] with a Z on 15:15
+
+---------20:29----------
+and I'm gonna spend you know four or
+
+---------20:31----------
+five thousand dollars in another machine
+
+---------20:33----------
+just to get a marginal improvement now
+
+---------20:35----------
+that's not happening I got like this
+
+---------20:39----------
+there's really no reason for me to get a
+
+---------20:40----------
+new one
+
+---------20:49----------
+that backlight enable resistor looked
+
+---------20:51----------
+like it could have been soldered better
+
+---------20:53----------
+now if it gets the point
+
+---------20:56----------
+where I can get 25,000 or 30,000 CPU
+
+---------21:01----------
+benchmark score then we're then we can
+
+---------21:04----------
+talk then we can have a conversation
+
+---------21:06----------
+about whether or not it's worth it for
+
+---------21:07----------
+me to upgrade my computer but like going
+
+---------21:09----------
+from a 9,000 to an 18,000 for three
+
+---------21:12----------
+times the money it's like what the hell
+
+---------21:13----------
+is the point maybe if I had money to
+
+---------21:16----------
+burn but no I wonder what their criteria
+
+---------21:19----------
+is Lenovo has had a bunch of really
+
+---------21:20----------
+fancy laptops that many people in the
+
+---------21:22----------
+open-source world you probably should
+
+---------21:25----------
+not badmouth them when they ruin their
+
+---------21:27----------
+interface by getting rid of the track
+
+---------21:30----------
+point middle button and when they
+
+---------21:33----------
+release a retro think pad that sucks and
+
+---------21:35----------
+doesn't have any of the features that
+
+---------21:36----------
+anybody asked for in the and the survey
+
+---------21:39----------
+don't say out loud that it sucked that's
+
+---------21:42----------
+probably the criteria if I had to guess
+
+---------21:44----------
+I'm most likely those two things okay we
+
+---------21:46----------
+have one resistor here that looks like
+
+---------21:48----------
+it's missing as well that I should put
+
+---------21:49----------
+back on back light I said that's a 21.5
+
+---------21:53----------
+K there was a company that sent me a
+
+---------21:55----------
+microscope at dyno light it was such a
+
+---------21:57----------
+piece of crap was like seven or eight
+
+---------21:59----------
+hundred dollars I mean it was
+
+---------22:01----------
+unimaginable what a piece of [ __ ] this
+
+---------22:03----------
+thing was it was almost like they took a
+
+---------22:04----------
+25 year old cheap CCTV camera and shoved
+
+---------22:08----------
+it on top of a microscope stand and
+
+---------22:10----------
+thought that I was going to say
+
+---------22:11----------
+something nice about it it was
+
+---------22:13----------
+hysterical the thing is I'd love to give
+
+---------22:16----------
+a good review of a product I think I
+
+---------22:18----------
+gave a very fine review to the ThinkPad
+
+---------22:20----------
+P 50 and I think I covered it from the
+
+---------22:22----------
+perspective that most other people don't
+
+---------22:24----------
+you know everybody else is covering it
+
+---------22:26----------
+from the like what what cpu benchmark
+
+---------22:29----------
+score does it get which is something
+
+---------22:31----------
+that's already kind of answered by most
+
+---------22:32----------
+stuff online I was covering it from the
+
+---------22:35----------
+perspective of usability and I gave it a
+
+---------22:42----------
+good review because I thought it was
+
+---------22:43----------
+actually a really good computer you know
+
+---------22:45----------
+I actually purchased it and I owned it I
+
+---------22:47----------
+spilled about a quart of water onto my
+
+---------22:51----------
+own think pad while it was on that's how
+
+---------22:53----------
+much I believed in the product you know
+
+---------22:55----------
+that wasn't a gimmick or B yes that was
+
+---------22:57----------
+me actually doing that
+
+---------23:00----------
+but I also have given a lot of other
+
+---------23:03----------
+reviews or I say what I think of the
+
+---------23:04----------
+product and I think that really does
+
+---------23:09----------
+screw you over with regards to that
+
+---------23:10----------
+whole influencer thing like once you
+
+---------23:12----------
+start saying what you think of the
+
+---------23:14----------
+product on a regular basis not just once
+
+---------23:16----------
+or twice that really screws you because
+
+---------23:18----------
+you you I mean there are people that
+
+---------23:19----------
+have to do that every now and then to at
+
+---------23:21----------
+least give you the illusion that they're
+
+---------23:23----------
+impartial or like but you know they they
+
+---------23:25----------
+pretend you know and 1 out of every 10
+
+---------23:28----------
+reviews that the product is a total
+
+---------23:30----------
+piece of [ __ ] or they come up with these
+
+---------23:32----------
+superficial ways of saying that they're
+
+---------23:34----------
+not fully happy with the product but you
+
+---------23:38----------
+can only do that every now and then you
+
+---------23:42----------
+can't do it for like every review ever
+
+---------23:43----------
+done good-evening sending positive vibes
+
+---------23:45----------
+to everyone watching thank you very much
+
+---------23:47----------
+I appreciate that so let's see if we
+
+---------23:49----------
+have a let's see if we have output here
+
+---------23:53----------
+give me a backlight give me your
+
+---------23:55----------
+backlight
+
+---------24:05----------
+[Music]
+
+---------24:14----------
+okay backlight output is what Ajo 22
+
+---------24:21----------
+that is backlight for an error yep 22
+
+---------24:25----------
+and if I put this up I'm not sure if
+
+---------24:27----------
+you'll even see the light because I have
+
+---------24:28----------
+all these little backlight all these
+
+---------24:30----------
+little lights on here these camera
+
+---------24:32----------
+lights so can you see that you have to
+
+---------24:36----------
+trust me that that's a working backlight
+
+---------24:37----------
+because I don't have a way to turn off
+
+---------24:39----------
+the camera light from here and then all
+
+---------24:40----------
+of my overhead camera anymore either so
+
+---------24:43----------
+that is a working backlight we got 22
+
+---------24:44----------
+volts at backlight output so hopefully
+
+---------24:46----------
+this helps you avoid the mistake that we
+
+---------24:48----------
+made here from being very tired and very
+
+---------24:51----------
+overworked it's gonna I figure that if
+
+---------24:54----------
+we made the mistake as possible someone
+
+---------24:56----------
+else could make it just because the
+
+---------24:57----------
+component in the schematic says omit or
+
+---------24:59----------
+no stuff doesn't mean you don't test it
+
+---------25:02----------
+just because the component is not there
+
+---------25:04----------
+doesn't mean it can't still troll you
+
+---------25:06----------
+the component was not there but the
+
+---------25:08----------
+trace was there so instead of having a
+
+---------25:11----------
+resistor they just decided to jumper the
+
+---------25:13----------
+trace inside of the board and that
+
+---------25:15----------
+jumper trace inside of the board was
+
+---------25:17----------
+completely burned out because Apple I
+
+---------25:19----------
+can blow the backlight fuse when testing
+
+---------25:21----------
+but the backlight fuse won't blow when
+
+---------25:23----------
+the board is physically burning through
+
+---------25:26----------
+layers it's an Apple product that's it
+
+---------25:31----------
+for today and as always I hope you
+
+---------25:33----------
+learned something again my apologies
+
+---------25:35----------
+that I haven't been able to do these
+
+---------25:36----------
+videos more regularly but I do need to
+
+---------25:38----------
+focus more on getting customers in and
+
+---------25:40----------
+out the door and on the financial
+
+---------25:42----------
+stability of my new place more so than
+
+---------25:45----------
+the than the YouTube stuff just for a
+
+---------25:47----------
+short period of time but once that's
+
+---------25:49----------
+done I will get back to doing board
+
+---------25:50----------
+repair videos on a more regular basis in
+
+---------25:53----------
+this lovely new office we've got a bunch
+
+---------25:54----------
+of acoustic panel showing up on Tuesday
+
+---------25:56----------
+we got more more racks and stuff showing
+
+---------25:58----------
+up there's more stuff showing up from
+
+---------25:59----------
+the new store today and tomorrow and we
+
+---------26:02----------
+are gonna be putting the stuff together
+
+---------26:04----------
+and I hope for it to be a lovely new
+
+---------26:07----------
+place it is much less claustrophobic and
+
+---------26:08----------
+once the place is actually done I'm sure
+
+---------26:10----------
+it'll be great we do have hearings and I
+
+---------26:13----------
+believe Colorado and Maryland showing up
+
+---------26:17----------
+on I believe March 5th and March 11th so
+
+---------26:20----------
+do look that up on legendre discord
+
+---------26:22----------
+there should be a link down below to
+
+---------26:23----------
+join the discord so you can keep track
+
+---------26:24----------
+of when these right to repair hearings
+
+---------26:26----------
+or
+
+---------26:27----------
+kurung I'm going to do my absolute best
+
+---------26:28----------
+to monster just like plow through all
+
+---------26:31----------
+the tickets here setting everything up
+
+---------26:33----------
+and get in the place up and run and
+
+---------26:34----------
+financially fit so that I'm able to make
+
+---------26:36----------
+these hearings and testify them I can't
+
+---------26:39----------
+promise it but like 99% I'll be able to
+
+---------26:41----------
+do it and I hope to see some of you
+
+---------26:43----------
+there if I'm able to make it so that's
+
+---------26:45----------
+it for today and I'll see you all in the
+
+---------26:47----------
+next video bye
+

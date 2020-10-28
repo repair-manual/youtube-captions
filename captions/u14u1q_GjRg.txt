@@ -1,0 +1,904 @@
+https://www.youtube.com/watch?v=u14u1q_GjRg
+---------00:00----------
+okay so today I'd like to go over a
+
+---------00:01----------
+motherboard that's recognizing the
+
+---------00:03----------
+battery it's charging a battery but it
+
+---------00:05----------
+won't run off of the battery and I want
+
+---------00:07----------
+to go over what it is that could cause
+
+---------00:08----------
+this in line that is this is going to be
+
+---------00:10----------
+a little bit more of an advanced video
+
+---------00:11----------
+compared to the previous videos I've
+
+---------00:12----------
+done so I'd highly suggest that you read
+
+---------00:14----------
+my over my older videos on battery
+
+---------00:17----------
+detection on charging the battery before
+
+---------00:19----------
+you get to this one because if you
+
+---------00:20----------
+haven't really been following along this
+
+---------00:22----------
+may not make as much sense to you so now
+
+---------00:25----------
+what's going on here is a pretty simple
+
+---------00:27----------
+problem
+
+---------00:28----------
+so the first power rail that has to turn
+
+---------00:30----------
+on in the machine is pp 3 V 4 to
+
+---------00:32----------
+undersquare g3 hot that turns on the SMC
+
+---------00:34----------
+and that allows the machine actually
+
+---------00:36----------
+turn on function without that power rail
+
+---------00:39----------
+it's not going to work now if it
+
+---------00:41----------
+recognizes the battery if my computer
+
+---------00:42----------
+recognize the battery I know that my SMC
+
+---------00:44----------
+data lines are ok and all is good there
+
+---------00:46----------
+and it's charging the battery I know
+
+---------00:49----------
+that my current sensing circuits are
+
+---------00:50----------
+working so if all my current sensing
+
+---------00:52----------
+circuits are working I know that I don't
+
+---------00:53----------
+have to look there so what parts of the
+
+---------00:56----------
+machine are powered differently from the
+
+---------00:58----------
+battery than off of the charger and the
+
+---------00:59----------
+answer here is going to be the PP 3 V 4
+
+---------01:03----------
+2 circuit now this is the circuit that
+
+---------01:05----------
+has to turn on first right and this
+
+---------01:06----------
+circuit turns on off of P P DC in for
+
+---------01:11----------
+the charger now what if you're not
+
+---------01:13----------
+turning the computer on using the
+
+---------01:14----------
+charger what if you're turning it on
+
+---------01:16----------
+using the battery well the battery's
+
+---------01:17----------
+power is created from PP Budge g3 hot so
+
+---------01:20----------
+you may want to have it turn on from PP
+
+---------01:21----------
+but g3 hot now here's where this starts
+
+---------01:23----------
+to get a little bit confusing
+
+---------01:24----------
+now the charger over here is going to
+
+---------01:28----------
+create PP but g3 hot so if the 18 volts
+
+---------01:30----------
+from the charger goes through here and
+
+---------01:32----------
+the pp bus g3 hot voltage from the
+
+---------01:35----------
+battery goes through there then you get
+
+---------01:37----------
+a win to having both go through there
+
+---------01:39----------
+when the battery's plugged in because
+
+---------01:40----------
+keep in mind even if you don't have a
+
+---------01:41----------
+battery plugged in even if no battery is
+
+---------01:43----------
+plugged in at all the charger creates PP
+
+---------01:45----------
+brush g3 hot so PP buys g3 hot is the
+
+---------01:48----------
+voltage that the battery is providing
+
+---------01:49----------
+the computer if the battery is not
+
+---------01:51----------
+plugged in then you 7000 is going to
+
+---------01:54----------
+create PP bunch g3 hots let's just go
+
+---------01:56----------
+over to that section of the schematic
+
+---------01:57----------
+over here so I can show you what I'm
+
+---------01:58----------
+talking about
+
+---------01:59----------
+pp bus g3 hot is one of the main system
+
+---------02:01----------
+lines that most of the system runs off
+
+---------02:03----------
+of and pp bus g3 hot is created by this
+
+---------02:05----------
+buck converter over here if you don't
+
+---------02:07----------
+know what a buck converter is you should
+
+---------02:08----------
+go over my many videos where I talk
+
+---------02:09----------
+about that I'm not going to get into
+
+---------02:11----------
+that in this video because this one's a
+
+---------02:12----------
+little bit more advanced
+
+---------02:13----------
+so peepee Bush g3 hot is going to be
+
+---------02:16----------
+created by the buck converter
+
+---------02:18----------
+now if the buck converter is not working
+
+---------02:20----------
+because the charger is not attached then
+
+---------02:22----------
+instead of PPP three hot coming from the
+
+---------02:24----------
+buck converter which is coming from the
+
+---------02:26----------
+from the charger you can see up here
+
+---------02:27----------
+which is from adapter it's going instead
+
+---------02:29----------
+it's going to come from the battery so
+
+---------02:31----------
+the battery over IP p but g3 hot now the
+
+---------02:33----------
+problem that's going to happen in the
+
+---------02:35----------
+system if the battery and the charger
+
+---------02:37----------
+plugged in without any type of slick
+
+---------02:39----------
+circuitry like here is that you're gonna
+
+---------02:41----------
+have the battery the charger at 18 volts
+
+---------02:44----------
+it's gonna go through the charger is
+
+---------02:45----------
+going to create PP but g3 hot which will
+
+---------02:47----------
+also go through to the input of the
+
+---------02:48----------
+circuit and you're gonna get something
+
+---------02:50----------
+that goes poof so what you have here is
+
+---------02:52----------
+a little diode set of diodes so that the
+
+---------02:55----------
+whole idea here is that one of these is
+
+---------02:57----------
+gonna go but not both of them are gonna
+
+---------02:59----------
+wind up going over here and you also
+
+---------03:01----------
+have now these resistors so Inc you know
+
+---------03:04----------
+in case something happened to there's
+
+---------03:06----------
+some surge you plug in some knockoff
+
+---------03:07----------
+ battery or some knockoff
+
+---------03:09----------
+ charger that this is not going
+
+---------03:11----------
+to blow up so remember this machine
+
+---------03:13----------
+works off of the charger and every
+
+---------03:14----------
+function of the machine works but off of
+
+---------03:16----------
+the battery it doesn't it recognizes the
+
+---------03:18----------
+battery which is how I know my SMC is
+
+---------03:19----------
+good don't touch the SMC it recognizes
+
+---------03:22----------
+and charges the battery which means my
+
+---------03:24----------
+current sensing is good
+
+---------03:25----------
+don't touch the current sensing
+
+---------03:27----------
+circuitry so just to go over this again
+
+---------03:29----------
+let's see if this schematic is gonna
+
+---------03:31----------
+have the here we go so see the SMC talks
+
+---------03:35----------
+to the battery charger and the battery
+
+---------03:36----------
+if the SMC is bad it won't see the
+
+---------03:39----------
+battery and it won't tell it to charge
+
+---------03:40----------
+also the charging circuit has current
+
+---------03:43----------
+sensing so this is current sensing over
+
+---------03:45----------
+here and this if there's anything wrong
+
+---------03:47----------
+with that it's not gonna charge my
+
+---------03:48----------
+battery it charges my battery so I know
+
+---------03:50----------
+that's good so with this now is it down
+
+---------03:52----------
+to its most likely it's gonna be this
+
+---------03:54----------
+resistor over here that allows pp bus g3
+
+---------03:57----------
+hot the power
+
+---------03:58----------
+my my you 6990 which creates PP 3 before
+
+---------04:02----------
+2 so let's see where our 69 20 is so
+
+---------04:06----------
+let's just open myself a board view
+
+---------04:08----------
+software here this is an 8 to 0 3208
+
+---------04:11----------
+motherboard let's look for our 69 20
+
+---------04:14----------
+that's gonna be over here now let's go
+
+---------04:18----------
+over to the microscope so that I can see
+
+---------04:21----------
+what it is that that looks like
+
+---------04:24----------
+hmm open broadcaster is being silly wait
+
+---------04:28----------
+open broadcaster is plugged into my
+
+---------04:30----------
+other microscope butcher so I switched
+
+---------04:33----------
+microscopes and I bought this complete
+
+---------04:34----------
+pile of garbage the OM 99 from Armando
+
+---------04:37----------
+don't buy this thing they advertise it
+
+---------04:40----------
+as better than the 2300 s it's not even
+
+---------04:42----------
+it's split prisoners I'm hopeful that
+
+---------04:44----------
+means that I'm gonna be doing all the
+
+---------04:45----------
+work in this video using one eye piece
+
+---------04:48----------
+which is a downgrade to what I was doing
+
+---------04:50----------
+almost six months ago it's a total piece
+
+---------04:52----------
+of crap
+
+---------04:53----------
+the people at Amano suck for selling me
+
+---------04:55----------
+this because I asked them specifically
+
+---------04:57----------
+what the differences were in the models
+
+---------04:58----------
+and they not once brought up that I
+
+---------05:00----------
+would be back to soldering like a
+
+---------05:02----------
+cyclops so this job is going to suck but
+
+---------05:05----------
+what are you gonna do I'm used to being
+
+---------05:07----------
+screwed over by most suppliers and
+
+---------05:09----------
+manufacturers that I buy stuff from I
+
+---------05:11----------
+got to pay a restocking fee and return
+
+---------05:14----------
+shipping to send this ship back even
+
+---------05:15----------
+though I very clearly emailed them to
+
+---------05:17----------
+ask about the differences be inquired
+
+---------05:19----------
+about it beforehand so I may just wind
+
+---------05:21----------
+up living with it you might have also
+
+---------05:22----------
+noticed with the camera before that you
+
+---------05:25----------
+may notice that this thing is being held
+
+---------05:26----------
+together by tape that's because
+
+---------05:28----------
+when you spend sixteen to seventeen
+
+---------05:29----------
+hundred dollars on a microscope see this
+
+---------05:31----------
+see this over here I spent sixteen
+
+---------05:33----------
+seventeen hundred dollars on a
+
+---------05:34----------
+microscope they send you screwed up
+
+---------05:36----------
+threads so the thread on the adapter
+
+---------05:38----------
+that allows the LED light to screw in to
+
+---------05:40----------
+the bottom over here that piece the
+
+---------05:42----------
+threads are destroyed so I had to use
+
+---------05:44----------
+painters tape to get that attached seven
+
+---------05:47----------
+almost seventeen hundred dollars for
+
+---------05:48----------
+this thing so I would strongly suggest
+
+---------05:50----------
+I'm gonna be doing a video where I
+
+---------05:52----------
+compare the twenty 300s to this if you
+
+---------05:54----------
+want a microscope go to an scope do not
+
+---------05:56----------
+waste your time on microscope com do not
+
+---------05:59----------
+buy stuff from them they will tell you
+
+---------06:02----------
+one thing they will send you something
+
+---------06:04----------
+that doesn't do that you will have to
+
+---------06:06----------
+pay a restocking fee to send it back
+
+---------06:07----------
+it's a waste of time
+
+---------06:09----------
+and money and hassle so anyway you by
+
+---------06:14----------
+the way you guys tell me if you think
+
+---------06:15----------
+this microscope looks better than what I
+
+---------06:16----------
+was using before I don't think it does
+
+---------06:19----------
+but if it does you know if you really
+
+---------06:20----------
+think it does at the very least I can
+
+---------06:22----------
+feel better about wasting $1700 the
+
+---------06:24----------
+reason I got that my assistant could
+
+---------06:26----------
+have our own microscope so this over
+
+---------06:28----------
+here is the resistor from the charger so
+
+---------06:32----------
+this over here is this from the charger
+
+---------06:36----------
+now let's look at this one I actually
+
+---------06:38----------
+920 so r69 20 is going to be the one
+
+---------06:41----------
+right next to it and see that that's
+
+---------06:49----------
+nasty that's nasty
+
+---------06:51----------
+that is nasty that's gross that
+
+---------06:54----------
+thing so we're gonna get rid of that
+
+---------06:58----------
+yeah well I'm such a dumbass man it's
+
+---------07:01----------
+gonna be a great idea I'm gonna upgrade
+
+---------07:04----------
+my microscope instead of buying the same
+
+---------07:07----------
+one instead of getting one that I know
+
+---------07:08----------
+is actually good let's ask him about
+
+---------07:10----------
+what I can get if I spend more money no
+
+---------07:14----------
+no bad idea I was gonna give my
+
+---------07:17----------
+receptionist to 2,300 s so that I could
+
+---------07:20----------
+have this one for myself I should have
+
+---------07:24----------
+just bought another 2,300 s might change
+
+---------07:26----------
+what works
+
+---------07:27----------
+why give microscope comm a third
+
+---------07:30----------
+chance to send me some that doesn't
+
+---------07:32----------
+work I am a dumbass man cuz again it's
+
+---------07:35----------
+you're not a dumbass when you buy it
+
+---------07:37----------
+once and it doesn't work the way it's
+
+---------07:38----------
+supposed to you're a dumbass when you
+
+---------07:40----------
+know that every time you go to
+
+---------07:41----------
+microscope comm that you don't get what
+
+---------07:43----------
+you pay for and you keep back
+
+---------07:45----------
+because I had a 1030 I gotta head a
+
+---------07:48----------
+fucked-up prison the 2,300 I got had a
+
+---------07:50----------
+screwed up stand and this one like I
+
+---------07:53----------
+can't believe I'm back to doing these
+
+---------07:54----------
+videos out of one eye that is just this
+
+---------07:58----------
+is silliness so now we have to find that
+
+---------08:02----------
+on another board
+
+---------08:16----------
+and of course it is stolen from most of
+
+---------08:20----------
+my other boards here we go I found one
+
+---------08:43----------
+okay so we're gonna steal this from the
+
+---------08:45----------
+donor board I come back here come back
+
+---------08:47----------
+here
+
+---------08:47----------
+and then put it on here
+
+---------09:20----------
+again you notice that in review I didn't
+
+---------09:22----------
+measure that resistor
+
+---------09:23----------
+I saw no point to measuring that
+
+---------09:25----------
+resistor I mean ahead oh you could see
+
+---------09:27----------
+the little hole in the middle of it and
+
+---------09:29----------
+when you see that hole in the burn why
+
+---------09:32----------
+waste the battery in my multimeter it's
+
+---------09:42----------
+just a waste of multimeter battery to
+
+---------09:43----------
+even turn it on to see if that's good
+
+---------09:45----------
+but it looks like what it did look like
+
+---------09:47----------
+so now we're just going to touch it up a
+
+---------09:49----------
+little so I'm gonna have some flux some
+
+---------09:52----------
+Amtech 5:59 flux over here
+
+---------10:01----------
+and my my curvy tip which got a little
+
+---------10:07----------
+it was a casualty of the Baku video
+
+---------10:10----------
+right that I uploaded you could see that
+
+---------10:12----------
+it doesn't look as nice as it used to so
+
+---------10:14----------
+there we go and now let's just go over
+
+---------10:17----------
+it one more time since there's no more
+
+---------10:18----------
+excess solder and flow it into place so
+
+---------10:21----------
+that it sits wherever it's supposed to
+
+---------10:22----------
+sit on the pads surface tension will be
+
+---------10:25----------
+very helpful you see nice and straight
+
+---------10:29----------
+that's exactly where it's supposed to be
+
+---------10:32----------
+now as always I'm not going to fix this
+
+---------10:35----------
+stuff without showing you whether or not
+
+---------10:37----------
+it actually works so let me just turn
+
+---------10:39----------
+off this loud gear over here and let's
+
+---------10:43----------
+see if this thing will turn on off of
+
+---------10:45----------
+the charger so a lot my spool okay I
+
+---------10:50----------
+actually had this thing on all along
+
+---------10:52----------
+damn you want to waste multi meter
+
+---------10:54----------
+battery on them yeah I have my own mono
+
+---------10:56----------
+microscope repair kit over here and the
+
+---------11:03----------
+one our board in the side this is my
+
+---------11:06----------
+this is the machine that we are working
+
+---------11:08----------
+on today okay now I'm gonna do is I'm
+
+---------11:11----------
+gonna hook up the battery and see if
+
+---------11:14----------
+it'll turn on off of it because before
+
+---------11:15----------
+it wouldn't turn out off of the battery
+
+---------11:17----------
+and well obvious reasons why that was
+
+---------11:20----------
+the case and let's see what happens now
+
+---------11:26----------
+so all I'm really gonna plug already
+
+---------11:27----------
+have the fan plugged in I'm gonna plug
+
+---------11:29----------
+in the keyboard and the battery I know
+
+---------11:33----------
+everything else works fine on this
+
+---------11:34----------
+machine everything else tested just fine
+
+---------11:36----------
+and dandy
+
+---------11:43----------
+see our 69 20 so hopefully that made
+
+---------11:48----------
+sense to you and hopefully this has
+
+---------11:50----------
+helped you with a new type of problem so
+
+---------11:51----------
+this is again charging battery battery
+
+---------11:53----------
+recognition but won't work off of the
+
+---------11:55----------
+battery one of the things you should
+
+---------11:56----------
+think about is is the link between the
+
+---------11:58----------
+battery and one of the power supplies
+
+---------12:00----------
+that's powered off of something where
+
+---------12:02----------
+there's a different way of it being
+
+---------12:04----------
+powered is it broken
+
+---------12:05----------
+that didn't make much sense because I'm
+
+---------12:07----------
+tired well there did it like look for a
+
+---------12:10----------
+power supply that can be powered by two
+
+---------12:11----------
+different types of inputs and if one of
+
+---------12:13----------
+them is a battery and one of them is the
+
+---------12:14----------
+charger and it's not working off of the
+
+---------12:15----------
+battery and you know just a little bit
+
+---------12:18----------
+of common sense here
+

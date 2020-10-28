@@ -1,0 +1,703 @@
+https://www.youtube.com/watch?v=x2bDVea8z2A
+---------00:00----------
+okay so today I'm going to be doing a
+
+---------00:01----------
+very quick motherboard component-level
+
+---------00:03----------
+repair video because i have about 25
+
+---------00:07----------
+minutes to catch somebody I'd like to
+
+---------00:09----------
+ask out for Valentine's Day before they
+
+---------00:10----------
+go home well we're going to do here is
+
+---------00:13----------
+try to figure out why there's no picture
+
+---------00:14----------
+on the screen this turns on but there's
+
+---------00:17----------
+nothing on the screen and there's no
+
+---------00:18----------
+chime and man if you've been watching
+
+---------00:21----------
+this video series for more than five
+
+---------00:23----------
+minutes you should realize that what you
+
+---------00:24----------
+need to do is check and see if your
+
+---------00:25----------
+computer has CPU vcore it's not an image
+
+---------00:28----------
+problem when there's nothing on the
+
+---------00:30----------
+screen if it doesn't chime this needs to
+
+---------00:32----------
+chime it needs to go dong as Sonny would
+
+---------00:35----------
+say it needs to have a nice long dong in
+
+---------00:38----------
+order for it to actually work and when
+
+---------00:40----------
+we turn it on we don't get a nice long
+
+---------00:43----------
+dong I know we don't even have a nice
+
+---------00:45----------
+long dong nobody present here as a nice
+
+---------00:47----------
+long dong did you know if I did a date
+
+---------00:51----------
+for Valentine's Day and I don't have a
+
+---------00:54----------
+speaker over here but what I'm going to
+
+---------01:00----------
+do is I'm going to check and see if we
+
+---------01:02----------
+have cpu v cool or thank god i bought a
+
+---------01:05----------
+fluke because this thing would be broken
+
+---------01:08----------
+if it was anything else right now let's
+
+---------01:10----------
+put it on the stand and check for cpu
+
+---------01:12----------
+vcore my test fan is broken nothing hey
+
+---------01:21----------
+and again this is a this is a quickie
+
+---------01:24----------
+video so if you want the full
+
+---------01:25----------
+explanation of everything you can look
+
+---------01:27----------
+at the CPU I MVP underscore ton video
+
+---------01:29----------
+that it a long time ago basically this
+
+---------01:33----------
+buck converter IC is meant to take 12
+
+---------01:36----------
+volts and turn it into one voltar around
+
+---------01:39----------
+there for the CPU now this is something
+
+---------01:42----------
+that can be used in many different
+
+---------01:44----------
+machines it can be used the machines
+
+---------01:45----------
+that have it well volt power supply an 8
+
+---------01:47----------
+volt power supply a 14 volt power supply
+
+---------01:49----------
+but how does it know the speed to set
+
+---------01:52----------
+the switching it's going to tell them
+
+---------01:54----------
+from a resistor going from the high side
+
+---------01:56----------
+power supply to the chip unfortunately
+
+---------01:59----------
+here they're broken now usually this
+
+---------02:02----------
+would take people a little longer to
+
+---------02:04----------
+find because the person who sent this in
+
+---------02:05----------
+ultrasonic would clean the hell out of
+
+---------02:06----------
+it before it got here which makes it
+
+---------02:08----------
+difficult to find exact flaws the reason
+
+---------02:11----------
+being because where I would usually see
+
+---------02:13----------
+a bun
+
+---------02:13----------
+of green stuff in this area here I don't
+
+---------02:16----------
+see any green stuff in this area there's
+
+---------02:18----------
+no real clue I just know to look there
+
+---------02:20----------
+because well let's face it I fixed
+
+---------02:22----------
+enough of these things by now to know
+
+---------02:23----------
+where to look for ship but yeah usually
+
+---------02:26----------
+for the beginner when you get to stuff
+
+---------02:28----------
+it may be harder so i don't recommend
+
+---------02:30----------
+that beginners work on boards that have
+
+---------02:31----------
+been screwed with before because you
+
+---------02:32----------
+can't really understand what the other
+
+---------02:35----------
+people did the additional variables are
+
+---------02:37----------
+going to confuse you and just make your
+
+---------02:39----------
+life a little bit more difficult but
+
+---------02:44----------
+after doing the same exact thing 50 100
+
+---------02:50----------
+200 500 1000 2000 6,000 times you get to
+
+---------02:56----------
+understand what's going on at this point
+
+---------02:59----------
+i have done the same enough times
+
+---------03:02----------
+that i'm not even opening the schematic
+
+---------03:05----------
+no schematic open here but it's obvious
+
+---------03:10----------
+what's going on so what you should do to
+
+---------03:14----------
+understand this video is check out my
+
+---------03:15----------
+video on what is a buck converter
+
+---------03:17----------
+because i use visual representations to
+
+---------03:19----------
+teach you how a switching power supply
+
+---------03:20----------
+works so when I say setting switching
+
+---------03:22----------
+frequency based on the high side power
+
+---------03:25----------
+supply you'll understand so the way a
+
+---------03:27----------
+buck converter works very simply is it's
+
+---------03:30----------
+going to take a higher voltage and turn
+
+---------03:33----------
+it into a lower voltage so this computer
+
+---------03:36----------
+has a 12 volt battery however it is a
+
+---------03:38----------
+CPU that runs off of one volt if we send
+
+---------03:41----------
+12 volts to the CPU very bad things will
+
+---------03:44----------
+happen the CPU is not going to be happy
+
+---------03:46----------
+with that so we have to send it
+
+---------03:47----------
+wonderful so how do you turn 12 volts in
+
+---------03:50----------
+a 1 volt oh we do here is we switch go
+
+---------03:53----------
+back and forth switching switching
+
+---------03:54----------
+switching switching switching so we'd
+
+---------03:56----------
+say here have 12 volts now here have
+
+---------03:58----------
+none now here have 12 volts for a second
+
+---------04:00----------
+now here don't have 12 volts and what
+
+---------04:03----------
+happens is it averages out to one so if
+
+---------04:06----------
+you have a little bit of 12 a lot of
+
+---------04:07----------
+nothing a little bit of 12 a lot of
+
+---------04:09----------
+nothing and we keep going on that way
+
+---------04:11----------
+what happens is that it'll average out
+
+---------04:16----------
+into one
+
+---------04:23----------
+may be wondering if I have a date if
+
+---------04:26----------
+there's somebody to ask out not a really
+
+---------04:28----------
+a date we'll see why am I here doing
+
+---------04:31----------
+this why don't I stop don't I why don't
+
+---------04:33----------
+I leave early well one of the things I
+
+---------04:35----------
+noticed with resentment in relationships
+
+---------04:38----------
+is very often people become resentful
+
+---------04:39----------
+because they put a lot of time or effort
+
+---------04:43----------
+into something that they probably
+
+---------04:46----------
+shouldn't have and then the other person
+
+---------04:48----------
+doesn't reciprocate it and then they get
+
+---------04:52----------
+irritated now this person never asked me
+
+---------04:56----------
+to ask them out so what right would I
+
+---------04:59----------
+have to be mad at them because I took
+
+---------05:01----------
+off work early to do this I took off
+
+---------05:04----------
+work early so that I could ask you out
+
+---------05:06----------
+for Valentine's Day and you know that's
+
+---------05:09----------
+just weird and it's and there would be
+
+---------05:11----------
+resentment there if I actually said let
+
+---------05:13----------
+me put on hold 325 dollars said I could
+
+---------05:16----------
+see you and then there becomes the
+
+---------05:18----------
+irritation depression and then
+
+---------05:21----------
+resentment and all those nasty things
+
+---------05:23----------
+that happen with the real world
+
+---------05:25----------
+relationships so the way I eliminate it
+
+---------05:28----------
+is by being considerate and nice but I'm
+
+---------05:31----------
+not going to put my i'm not going to
+
+---------05:33----------
+destroy my life for other people you
+
+---------05:37----------
+know so things go well that's great and
+
+---------05:40----------
+if they don't go well well i didn't
+
+---------05:43----------
+inconvenience myself I didn't go out of
+
+---------05:45----------
+my way and I didn't ruin my day you go
+
+---------05:48----------
+out of your way for your wife you go out
+
+---------05:50----------
+of your way for your girlfriend's of
+
+---------05:51----------
+three years you don't go out of your way
+
+---------05:53----------
+for ran for randos I guess that's a
+
+---------05:57----------
+popular millennial word randos I saw it
+
+---------06:02----------
+on an advertisement on the subway one of
+
+---------06:03----------
+those really stupid modern
+
+---------06:04----------
+advertisements you know where they try
+
+---------06:07----------
+to make it look really simple and
+
+---------06:08----------
+elegant and cartoony all at the same
+
+---------06:10----------
+time and it just kind of wind up looking
+
+---------06:12----------
+dumb but they think it's cool because
+
+---------06:14----------
+it's modern so one of these has a solder
+
+---------06:16----------
+blob and the other one is a wire yeah
+
+---------06:19----------
+I'm cool with that you cool with that
+
+---------06:21----------
+now if you're not cool with that I don't
+
+---------06:23----------
+really care i get to collect the money
+
+---------06:25----------
+either way so you can be cool whatever
+
+---------06:28----------
+you want why am I asking approval on
+
+---------06:30----------
+work from YouTube people it's beyond me
+
+---------06:34----------
+a lot of people on TV blog don't approve
+
+---------06:36----------
+of anything that I do apparently this is
+
+---------06:37----------
+interesting thread like eight pages long
+
+---------06:41----------
+you cursed too much you use too much
+
+---------06:45----------
+flux you don't know what you're doing
+
+---------06:48----------
+you thank you just shut up and go I
+
+---------06:51----------
+that's what I have to say to that I'm
+
+---------06:55----------
+set on this channel a lot when I have
+
+---------06:56----------
+questions there's nobody I can go to
+
+---------06:58----------
+have them answered and every now and
+
+---------06:59----------
+then somebody will go you should post in
+
+---------07:01----------
+the EV block forms and nothing's no
+
+---------07:05----------
+thing it was funny the sheer amount of
+
+---------07:08----------
+Miss quotes and that thread like you are
+
+---------07:11----------
+afraid of your competition you love less
+
+---------07:14----------
+like you realize that i hold the class
+
+---------07:16----------
+when i teach my competitors how to do
+
+---------07:18----------
+the same thing i do right like one of
+
+---------07:21----------
+them being somebody who works three
+
+---------07:23----------
+blocks away from me who used to be an
+
+---------07:25----------
+employee people are silly let's see what
+
+---------07:31----------
+I get do I get vcore more vcore any of
+
+---------07:39----------
+the border pairs i do today actually
+
+---------07:41----------
+work whoo point eight that's fee core
+
+---------07:47----------
+okay that's cool I get nothing on the
+
+---------07:49----------
+screen whatever whatever so because I
+
+---------07:55----------
+don't know the screen plugged in all the
+
+---------07:56----------
+way stupid I guess all the
+
+---------08:00----------
+EV blog people are right i really don't
+
+---------08:02----------
+have any idea what the I'm doing I
+
+---------08:05----------
+have point 8 volts of V Corbett nothing
+
+---------08:07----------
+on the screen blah come on turn on now
+
+---------08:16----------
+it's not turning on oh man electronics
+
+---------08:22----------
+engineers are right they put a pox on me
+
+---------08:25----------
+all right so what I'm going to do over
+
+---------08:27----------
+here is check hell the LCD enable signal
+
+---------08:30----------
+so i can just quickly tell the screen
+
+---------08:32----------
+even being told to turn on ok the screen
+
+---------08:35----------
+is being told to turn on and it is
+
+---------08:36----------
+that's right you pox on you
+
+---------08:40----------
+Electronics Engineers pox on you non
+
+---------08:42----------
+practicing people that tried to curse me
+
+---------08:45----------
+through the damn screen
+
+---------08:47----------
+check it out screen sliding up which
+
+---------08:51----------
+means IV Corps which means I'm good so I
+
+---------08:56----------
+have three minutes left to make it to
+
+---------08:59----------
+ask this person out before they go home
+
+---------09:02----------
+I should spend some of that showing you
+
+---------09:05----------
+always wrong with this motherboard all
+
+---------09:07----------
+right let's go over that that yeah hey a
+
+---------09:15----------
+date lasts and evening but a motherboard
+
+---------09:19----------
+repair video is forever yep alrighty so
+
+---------09:28----------
+let's move over to the screen so most of
+
+---------09:40----------
+my dates go awful like my longest
+
+---------09:43----------
+relationship was like two weeks I am I
+
+---------09:46----------
+yeah not one that gets along with a lot
+
+---------09:49----------
+of different people so these two
+
+---------09:51----------
+resistors going it the tio n pins tio n
+
+---------09:54----------
+stands for time on meaning how long is
+
+---------09:56----------
+the buck and radar going to be on so
+
+---------09:58----------
+down here on the next screen we have
+
+---------10:01----------
+this this is a buck converter so this is
+
+---------10:04----------
+a transistor and this is the 12 volts
+
+---------10:06----------
+for the CPU this is going to switch on
+
+---------10:08----------
+off on off on off and the inductor is
+
+---------10:12----------
+going to smooth that out so it's going
+
+---------10:13----------
+to go on off on off on off and it's
+
+---------10:16----------
+going to be on for tiny bit of 12 volts
+
+---------10:17----------
+then offer a long time so that we can
+
+---------10:19----------
+get that 12 down to one but this needs
+
+---------10:21----------
+to know how long to be off and on for
+
+---------10:23----------
+and this is going to tell it when to
+
+---------10:25----------
+turn on and off now for this to be able
+
+---------10:27----------
+to do that properly it needs to know
+
+---------10:28----------
+what the power rail is that that
+
+---------10:30----------
+transistor is working with which is what
+
+---------10:31----------
+these two resistors are here for and
+
+---------10:33----------
+they're very commonly blown
+

@@ -1,0 +1,343 @@
+https://www.youtube.com/watch?v=LTilng4Dugs
+---------00:00----------
+hey everybody how's it going today we're
+
+---------00:02----------
+going to be taking a look at an a 1466
+
+---------00:04----------
+that is liquid damage it's not powering
+
+---------00:05----------
+on first thing I'm gonna do before I get
+
+---------00:08----------
+started is remove the corona virus from
+
+---------00:10----------
+this macbook corona virus has been
+
+---------00:29----------
+removed
+
+---------00:42----------
+all right so we're gonna do what this
+
+---------00:44----------
+MacBook is same thing as we do with all
+
+---------00:46----------
+the other Mac books see if it's powering
+
+---------00:52----------
+mm-hmm it's for 18 volts do this thing
+
+---------00:55----------
+and see what happens I unplug the
+
+---------00:58----------
+battery plugged in the charger Paul
+
+---------01:01----------
+Daniels of software is being funny again
+
+---------01:08----------
+it took 200 milliamps and then down to
+
+---------01:11----------
+20 and now it's stuck at 20 which means
+
+---------01:14----------
+there's a rail shorted and p.m. sleep
+
+---------01:16----------
+s4l is likely gonna be missing as a
+
+---------01:18----------
+result of that so let's take the board
+
+---------01:20----------
+out of the machine the reason I think a
+
+---------01:22----------
+rail is shorted is because we have the
+
+---------01:24----------
+little poles in the beginning it's not
+
+---------01:26----------
+just 20 volt milliamp it's taking 20 ml
+
+---------01:28----------
+times 200 then back to up in the back to
+
+---------01:30----------
+20 that tells me that there's a short
+
+---------01:33----------
+circuit and a rail is turning off very
+
+---------01:35----------
+quickly
+
+---------01:35----------
+I see liquid damage on the DCN board
+
+---------01:42----------
+although that would not be causing this
+
+---------01:44----------
+but it does indicate that liquid will be
+
+---------01:46----------
+on the other section
+
+---------02:03----------
+minor corrosion inside the DCN connector
+
+---------02:06----------
+I'm gonna alcohol that out
+
+---------02:52----------
+pp bus 8.6 SMC must be running
+
+---------03:06----------
+3.3 volts on PP v RT c g 3 hot 5 volts
+
+---------03:12----------
+on PP 5 vs 5 3 volts on PP 3 vs 3 0
+
+---------03:21----------
+volts on PP 5 ps4 no no short two
+
+---------03:29----------
+grounds on PP v vs 4 it looks like I got
+
+---------03:36----------
+an internal power for Paul
+
+---------03:52----------
+corrosion by pull-up resistor oh I think
+
+---------03:57----------
+I see corrosion by an RTC pull-up
+
+---------03:59----------
+resistor hello
+
+---------05:28----------
+aha
+
+---------05:59----------
+fios tres that's BICS oh so spi series
+
+---------06:05----------
+bus termination here you have the BIOS
+
+---------06:10----------
+chip called the SPI ROM if you're a
+
+---------06:12----------
+pedantic [ __ ] this is the BIOS chip and
+
+---------06:14----------
+what this does is it's going to speak to
+
+---------06:17----------
+the PCH which is responsible for a p.m.
+
+---------06:21----------
+sleeve s5l p.m. sleep s4l p.m. sleep s3l
+
+---------06:24----------
+and so on and so forth it's salsa for
+
+---------06:27----------
+those signals that are going to enable
+
+---------06:29----------
+all these rails going up now I was wrong
+
+---------06:32----------
+I thought it was a short circuit it
+
+---------06:33----------
+actually is not a short circuit what it
+
+---------06:35----------
+is is the machine's gonna pulse
+
+---------06:36----------
+if the BIOS is not able to speak to the
+
+---------06:39----------
+PCH so if we scroll over here I need
+
+---------06:45----------
+this enable signal form is for rails to
+
+---------06:47----------
+come on P 5 vs 4 RS 3 n this is coming
+
+---------06:51----------
+from P 5 vs 4 RS 3 N and if you follow
+
+---------06:54----------
+that back on this on the board view
+
+---------06:57----------
+you'll see that that goes over to here
+
+---------07:02----------
+which then goes over to p.m. sleep s4l
+
+---------07:07----------
+p.m. asleep s4l comes from the PCH
+
+---------07:16----------
+right here so it's it's that's what's
+
+---------07:20----------
+wrong so what I'm gonna do I'm gonna do
+
+---------07:21----------
+a little bit of digging
+
+---------07:30----------
+find that probe expose it a little bit
+
+---------07:37----------
+I'm going to expose this trace like the
+
+---------07:40----------
+Internet expose the Matt Tran and tech
+
+---------07:45----------
+lead look at how exposed this is
+
+---------07:52----------
+exposed
+
+---------08:13----------
+okay now once it's cleaned off I mean
+
+---------08:16----------
+out once I've scraped away everything
+
+---------08:19----------
+there I'm going to clean it with some
+
+---------08:20----------
+alcohol now someone had to have cleaned
+
+---------08:24----------
+this before I got to it because this
+
+---------08:26----------
+would usually have corrosion on it and
+
+---------08:27----------
+it did not all right so we cleaned it
+
+---------08:30----------
+off with some alcohol
+
+---------08:45----------
+okay let's get rid of the alcohol with
+
+---------08:47----------
+some liquid some heat add flux because
+
+---------08:51----------
+it's going to assist me and running and
+
+---------08:55----------
+putting some solder there I'll say
+
+---------08:57----------
+solder for our Australian listeners and
+
+---------09:00----------
+then we have some Australian listeners
+
+---------09:02----------
+in the chat today that pronounced the
+
+---------09:03----------
+Ellen stuff
+
+---------09:51----------
+now it's hard to solder something that
+
+---------09:53----------
+tiny so I'm gonna use hot air and allow
+
+---------09:55----------
+the surface tension to flow that's a
+
+---------09:59----------
+place
+
+---------10:04----------
+or anyone without a speech problem can
+
+---------10:05----------
+pronounce an L says the dude who spells
+
+---------10:07----------
+traditionalist stood ditional list
+
+---------10:10----------
+gtfo you made up a word multiple so we
+
+---------10:18----------
+do this a little bit of hot air and we
+
+---------10:21----------
+flow that into place very nicely yes yes
+
+---------11:00----------
+it's not a word there's nothing to
+
+---------11:02----------
+pronounce your mouthful you made that up
+
+---------11:11----------
+now once again I would not have flux
+
+---------11:13----------
+that resistor area with that
+
+---------11:15----------
+questionable thing that barely was
+
+---------11:16----------
+corrosion had I seen that earlier well I
+
+---------11:19----------
+didn't so I did and just to appease the
+
+---------11:23----------
+perfectionist in me I'm gonna do
+
+---------11:25----------
+something ridiculous here
+
+---------11:52----------
+next time water gets on that it's not
+
+---------11:54----------
+gonna damage it
+
+---------12:37----------
+seven hundred milliamps another Macbook
+
+---------12:40----------
+bites the dust that's it for today and
+
+---------12:45----------
+as always I hope you learned something
+
+---------12:47----------
+that go on to the next MacBook
+

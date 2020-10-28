@@ -1,0 +1,1318 @@
+https://www.youtube.com/watch?v=keqFsyeC4jo
+---------00:00----------
+hi today I'm gonna be discussing a
+
+---------00:01----------
+current sensing issue this is not gonna
+
+---------00:03----------
+be a real-time repair but I am gonna
+
+---------00:04----------
+actually show you the work that I did in
+
+---------00:06----------
+the microscope camera I am actually
+
+---------00:08----------
+gonna be keeping this camera here and
+
+---------00:10----------
+not moving it so that when I start these
+
+---------00:12----------
+repairs it's as simple as just hitting a
+
+---------00:13----------
+button now that I am a Windows user and
+
+---------00:16----------
+not a Linux user I don't have to torture
+
+---------00:17----------
+myself and I want to do a video it just
+
+---------00:20----------
+works I mean I'm a Linux user from my
+
+---------00:22----------
+own personal laptop I am NOT a fan of
+
+---------00:24----------
+Windows I haven't been for a long time
+
+---------00:26----------
+but it just kind of got old dealing with
+
+---------00:29----------
+editors crashing and things you think
+
+---------00:31----------
+it's recording but it's really not and
+
+---------00:33----------
+it's yeah and one of the cool things I
+
+---------00:35----------
+can do here is I can actually see
+
+---------00:37----------
+exactly what's in my microscope camera
+
+---------00:38----------
+on the screen without having have a
+
+---------00:40----------
+splitter it's just really really cool
+
+---------00:41----------
+anyway so today I'm gonna be going over
+
+---------00:43----------
+a current sensing issue so let me switch
+
+---------00:45----------
+over to the microscope camera which is
+
+---------00:47----------
+now literally as easy as me just
+
+---------00:48----------
+scrolling and hitting a button alrighty
+
+---------00:51----------
+so I can show you over here what I did
+
+---------00:54----------
+and let me just turn the light down
+
+---------00:57----------
+because the camera does not like that
+
+---------00:59----------
+light nearly as much as my eyes do all
+
+---------01:03----------
+righty this is a new lens so I kind of
+
+---------01:05----------
+got to get used to what looks good in
+
+---------01:06----------
+this lens it's I don't think this is as
+
+---------01:10----------
+good as my other one but I can't figure
+
+---------01:11----------
+out how to make my other lens work and I
+
+---------01:13----------
+don't know why I decided to stop working
+
+---------01:15----------
+for no reason so not much that I can do
+
+---------01:18----------
+there alrighty so yeah you can probably
+
+---------01:22----------
+take a guess where the work occurred
+
+---------01:25----------
+this definitely doesn't look as good as
+
+---------01:27----------
+my other lens but what are you gonna do
+
+---------01:29----------
+so we can take a look here and you can
+
+---------01:34----------
+see that I have a wire going from this
+
+---------01:36----------
+resistor to this capacitor to this
+
+---------01:38----------
+capacitor and then to this pin of the
+
+---------01:40----------
+ISL 65:9 and even though it looks nasty
+
+---------01:44----------
+it actually was done with proper flux on
+
+---------01:46----------
+there and some good solder that you can
+
+---------01:48----------
+see I'm not gonna weigh at this it's not
+
+---------01:49----------
+gonna move it's not gonna come off it's
+
+---------01:51----------
+fine and I'm also not going to push my
+
+---------01:53----------
+luck by continuing to do that no not one
+
+---------01:56----------
+bit so let me just show you a little bit
+
+---------01:58----------
+on the screen capture what it is I
+
+---------02:01----------
+actually did and this is so cool I can
+
+---------02:03----------
+just switch back and forth seamlessly
+
+---------02:04----------
+between these different sources look at
+
+---------02:06----------
+that look at that it's concealed açaí
+
+---------02:09----------
+and I'm not even gonna have to do
+
+---------02:10----------
+editing anymore with adding transitions
+
+---------02:12----------
+I can just go Boop
+
+---------02:13----------
+Boop it just works so I'm gonna open the
+
+---------02:17----------
+board view and I'm gonna show you what
+
+---------02:19----------
+that is I'm gonna try to explain some of
+
+---------02:20----------
+the circuit and then after that I'm
+
+---------02:22----------
+going and go the home because it is
+
+---------02:25----------
+late and I'm tired
+
+---------02:29----------
+okay made a switch over to this is one
+
+---------02:34----------
+of the other things I don't like about
+
+---------02:35----------
+Windows 8 I mean I just opened something
+
+---------02:38----------
+it automatically opens to this full
+
+---------02:39----------
+screen mode but there's no way for me to
+
+---------02:41----------
+get out of the full screen mode so I
+
+---------02:43----------
+want to go over and change over to the
+
+---------02:44----------
+software so I can go back to the screen
+
+---------02:46----------
+capture but no okay here we go so you
+
+---------02:51----------
+should be seeing my screen right now
+
+---------02:52----------
+let's just zoom in a little hopefully it
+
+---------02:54----------
+doesn't look like crap since it's
+
+---------02:55----------
+getting redone to 1080p for YouTube okay
+
+---------03:00----------
+so the resistors these are current
+
+---------03:04----------
+sensing resistors so the way this works
+
+---------03:06----------
+is as I've explained in other videos the
+
+---------03:08----------
+computer cannot actually sense how much
+
+---------03:11----------
+current or amperage the computer is
+
+---------03:13----------
+using it has no way of sensing how much
+
+---------03:15----------
+actual wattage the computer is using a
+
+---------03:17----------
+consensus voltage but it cannot sense
+
+---------03:19----------
+amperage it's important to be able to
+
+---------03:21----------
+sense amperage you know that the machine
+
+---------03:23----------
+is running off of 17 or 18 volts you
+
+---------03:25----------
+know that that's what the charger is
+
+---------03:26----------
+providing but how do you know how much
+
+---------03:28----------
+power the charge is putting out is it
+
+---------03:30----------
+putting out 18 volts at 1 amp is it
+
+---------03:33----------
+trying to put out 18 volts at 10 amps if
+
+---------03:35----------
+it's putting out 18 volts at 1 amp but
+
+---------03:37----------
+the computer is gonna say okay fine if
+
+---------03:38----------
+the computer thinks it's trying to use
+
+---------03:40----------
+10 amps obviously it should turn itself
+
+---------03:41----------
+off so that the charge doesn't blow up
+
+---------03:43----------
+and destroy your home and you have
+
+---------03:45----------
+shrapnel of little Apple charges going
+
+---------03:47----------
+into your eyeballs the way this is done
+
+---------03:49----------
+is through a current sensing circuit so
+
+---------03:51----------
+you can actually see the cursor now
+
+---------03:52----------
+because I have an operating system that
+
+---------03:53----------
+just works anyway so right over here is
+
+---------03:56----------
+a current sensing resistor so the way
+
+---------03:57----------
+this works this is a resistor with a
+
+---------03:59----------
+very very very low resistance so this is
+
+---------04:02----------
+0.02 ohms this is very very low
+
+---------04:05----------
+resistance and the way this works is
+
+---------04:06----------
+here's the power coming from the charger
+
+---------04:09----------
+so you have from adapter up here it's
+
+---------04:10----------
+gonna go from the adapter ignore this
+
+---------04:12----------
+whole confusing transistor over
+
+---------04:14----------
+here the whole point of this is this is
+
+---------04:15----------
+just pretty much it allowing the charger
+
+---------04:17----------
+to come into the machine so all this
+
+---------04:19----------
+stuff up here don't be confused by it
+
+---------04:20----------
+that really is just just the the ISL
+
+---------04:24----------
+chip over here telling the transistor
+
+---------04:26----------
+your
+
+---------04:27----------
+you can allow the charger to come
+
+---------04:28----------
+through if the ISL does not open this
+
+---------04:32----------
+transistor it will not let the charger
+
+---------04:34----------
+through a transistor is pretty much a
+
+---------04:35----------
+gate so the charger gets over here and
+
+---------04:38----------
+then it gets told by this transistor can
+
+---------04:40----------
+I open and can I you know come through
+
+---------04:42----------
+to the machine or am I stuck over here
+
+---------04:44----------
+the transistor will enter infinite
+
+---------04:46----------
+resistance if the ISL tells it that it's
+
+---------04:48----------
+not allowed to go so back to the point
+
+---------04:50----------
+so you have the power coming from the
+
+---------04:51----------
+Chargers going through here now it goes
+
+---------04:53----------
+to the 0.02 ohm resistor which is pretty
+
+---------04:56----------
+negligible there's gonna be virtually no
+
+---------04:57----------
+power drop across that circuit the
+
+---------04:59----------
+Chargers not gonna have to work harder
+
+---------05:01----------
+because of this resistance however there
+
+---------05:03----------
+will be a really really small voltage
+
+---------05:05----------
+drop across here and the voltage at the
+
+---------05:08----------
+top of this resistor and the voltage at
+
+---------05:10----------
+the bottom of this resistor they're
+
+---------05:11----------
+going to be different and the ISL can
+
+---------05:13----------
+actually tell how much amperage the
+
+---------05:15----------
+computer is using based on preset values
+
+---------05:18----------
+that are put into it based on the
+
+---------05:20----------
+voltage at the top and the voltage at
+
+---------05:23----------
+the bottom of this resistor so the
+
+---------05:25----------
+voltage at the top of this resistor will
+
+---------05:26----------
+be different from the voltage at the
+
+---------05:27----------
+bottom now over here you have these two
+
+---------05:29----------
+10 ohm resistors you have AR 7021 NR
+
+---------05:31----------
+7022 that go directly to the is L now
+
+---------05:36----------
+there's gonna be a capacitor to ground
+
+---------05:38----------
+at each one to get rid of ripple voltage
+
+---------05:40----------
+and then there's also a capacitor
+
+---------05:42----------
+between them - the main thing is really
+
+---------05:45----------
+important here are these two 10 ohm
+
+---------05:46----------
+resistors so if the traces between the
+
+---------05:49----------
+current sensing resistor and the
+
+---------05:51----------
+resistor going to the is L or the trace
+
+---------05:53----------
+between the current sensing resistor
+
+---------05:56----------
+here and the is L are blown it's not
+
+---------05:59----------
+gonna work further if these resistors
+
+---------06:01----------
+are not 10 ohms they're not going to
+
+---------06:03----------
+send the proper power to the is L and
+
+---------06:05----------
+it's not gonna know what's going on the
+
+---------06:06----------
+is L 6 2 5 9 right over here it needs to
+
+---------06:09----------
+know what the voltage is at the top of
+
+---------06:10----------
+this resistor in the bottom of this
+
+---------06:12----------
+resistor when it knows what the voltage
+
+---------06:14----------
+is at the top and the bottom of this
+
+---------06:15----------
+resistor when it knows what the voltage
+
+---------06:16----------
+drop is and also what the starting
+
+---------06:18----------
+voltage is it can calculate through
+
+---------06:20----------
+formulas that are far too complicated
+
+---------06:22----------
+for me to explain here exactly what
+
+---------06:24----------
+amperage the circuit is using so what
+
+---------06:27----------
+happens is a lot of the time if it
+
+---------06:29----------
+thinks it's using more power than it is
+
+---------06:30----------
+it's not actually going to send P P bus
+
+---------06:32----------
+D 3 huh which is the main twelve point
+
+---------06:34----------
+six volt rail it's not going to allow
+
+---------06:36----------
+that to be created it's not going to
+
+---------06:37----------
+send the charger to those transistors
+
+---------06:39----------
+that create P P bus jeez
+
+---------06:41----------
+you're not gonna get anything so if the
+
+---------06:43----------
+current sensing is not working you're
+
+---------06:44----------
+not going to get enough power to the
+
+---------06:46----------
+system sometimes this will represent
+
+---------06:48----------
+it's sometimes this will manifest as the
+
+---------06:51----------
+system simply not turning on ever not
+
+---------06:53----------
+charging the battery ever sometimes
+
+---------06:55----------
+it'll manifest as it will only charge
+
+---------06:57----------
+the battery when the machine is sleeping
+
+---------06:59----------
+or turned off so it's using less power
+
+---------07:00----------
+to charge the battery than it is to
+
+---------07:02----------
+charge the battery and power the system
+
+---------07:04----------
+so the current sensing circuit will only
+
+---------07:06----------
+kick in when it's turned on in trying to
+
+---------07:08----------
+charge the battery it won't kick in once
+
+---------07:10----------
+closed so if you have the charger is
+
+---------07:12----------
+orange but then you turn the computer on
+
+---------07:13----------
+and it turns green and it's not charging
+
+---------07:15----------
+you kind of know that you have a current
+
+---------07:17----------
+sensing issue so let's look at the board
+
+---------07:18----------
+view over here so that I can see and
+
+---------07:21----------
+give you an idea of what blue and you
+
+---------07:23----------
+can see what I interconnected now let's
+
+---------07:25----------
+look at this on the board view for a
+
+---------07:27----------
+moment here so you can see that you have
+
+---------07:29----------
+our seventy 22 over here and our seventy
+
+---------07:31----------
+21 over here so those are the same as
+
+---------07:34----------
+our 70 22 here the bottom current
+
+---------07:37----------
+sensing resistor in our 70 21 over here
+
+---------07:39----------
+the top current sensing resistor that
+
+---------07:41----------
+come from this main current sensing
+
+---------07:43----------
+resistor then you have these two
+
+---------07:47----------
+capacitors going to ground so this is
+
+---------07:48----------
+taking the low side of the current
+
+---------07:51----------
+sensing resistor and sending the ripple
+
+---------07:53----------
+to ground and this is for the high side
+
+---------07:55----------
+current sensing resistor and that's the
+
+---------07:57----------
+capacitor sending it to ground so that
+
+---------07:58----------
+capacitor over the earth is this one CC
+
+---------08:01----------
+70 21 and C 70 22 so this is the current
+
+---------08:04----------
+sensing resistor these are the two
+
+---------08:06----------
+resistors between the current sensing
+
+---------08:08----------
+resistor in the is L from the top of the
+
+---------08:10----------
+current sensing resistor in the bottom
+
+---------08:11----------
+and these are the capacitors that send
+
+---------08:14----------
+the ripple voltage that may be present
+
+---------08:15----------
+on either the ground so you have two
+
+---------08:16----------
+resistors two capacitors and then one
+
+---------08:18----------
+capacitor between them and it's very
+
+---------08:20----------
+much set up that way and the board view
+
+---------08:22----------
+so you see it's not that scary you have
+
+---------08:24----------
+your two resistors over here are 7021
+
+---------08:26----------
+are 70 22 you have C 70 21 and C 70 22
+
+---------08:29----------
+and then you have C 70 20 the capacitor
+
+---------08:32----------
+going between them now just to remind
+
+---------08:34----------
+you because you probably are getting
+
+---------08:35----------
+confused at this point by all this
+
+---------08:36----------
+mumbo-jumbo that I'm talking
+
+---------08:38----------
+about let me just show you one the
+
+---------08:41----------
+microscope and again you can get an idea
+
+---------08:42----------
+as to why this is this is not crazy hard
+
+---------08:45----------
+and they let me just put the light up a
+
+---------08:47----------
+little I'm not liking this lens as much
+
+---------08:49----------
+as my other one but what are you gonna
+
+---------08:51----------
+do so again see this was burned there
+
+---------08:53----------
+was no trace here and it's
+
+---------08:54----------
+really obvious to see because you see
+
+---------08:56----------
+this over here it did say come on it's
+
+---------08:57----------
+burn it's destroyed its killed but let
+
+---------08:59----------
+me just see if I can turn this up on
+
+---------09:01----------
+them magnification a little so that you
+
+---------09:02----------
+can get a little bit of a better idea of
+
+---------09:04----------
+what it is I'm talking about okay this
+
+---------09:08----------
+is a 30x which is and it's really hard
+
+---------09:12----------
+to get focused on 30x but you could see
+
+---------09:14----------
+this is like this over here is done for
+
+---------09:18----------
+so that yes yeah that was going to that
+
+---------09:21----------
+on the ISL this one is nice and healthy
+
+---------09:24----------
+so the one on the left is healthy I
+
+---------09:25----------
+really don't like this lens compared to
+
+---------09:27----------
+my old one what are you gonna do and
+
+---------09:30----------
+yeah that this was just destroyed up
+
+---------09:33----------
+here so this this is pretty much what
+
+---------09:35----------
+got ruined so just to go back to where
+
+---------09:39----------
+we were you can see this is a line so
+
+---------09:47----------
+from here this goes to this resistor
+
+---------09:51----------
+this resistor goes to this capacitor
+
+---------09:53----------
+where this capacitor will take the
+
+---------09:55----------
+ripple AC voltage on here and set the
+
+---------09:57----------
+ground so it doesn't screw with the
+
+---------09:58----------
+circuit and then it goes directly to the
+
+---------10:02----------
+ISL this is the low side si si n current
+
+---------10:05----------
+sensing I honestly guessing is something
+
+---------10:10----------
+that means charger and n is means the
+
+---------10:11----------
+negative of a data line or a data signal
+
+---------10:14----------
+then you have the top this is the top of
+
+---------10:16----------
+that resistor so that is sending the
+
+---------10:18----------
+voltage through this 10 ohm resistor
+
+---------10:20----------
+then you have a capacitor that takes it
+
+---------10:23----------
+to ground just so that this you know it
+
+---------10:24----------
+doesn't fluctuate with AC and then you
+
+---------10:27----------
+have this coupling capacitor between
+
+---------10:29----------
+them and that is pretty much the line so
+
+---------10:32----------
+you have one line from here to here then
+
+---------10:35----------
+you have one line from here to here and
+
+---------10:37----------
+one of those lines was completely
+
+---------10:39----------
+destroyed and not I didn't honestly
+
+---------10:40----------
+don't even remember if I measured this
+
+---------10:41----------
+resistor to see of what it was
+
+---------10:43----------
+oftentimes instead of being 10 ohms
+
+---------10:45----------
+you'll notice that it's 500 ohms or
+
+---------10:46----------
+infinite ohms which means you know
+
+---------10:49----------
+totally destroyed I honestly didn't even
+
+---------10:50----------
+bother measuring it because it's it's a
+
+---------10:52----------
+10 ohm resistor I might as well replace
+
+---------10:53----------
+it if we know if this got burned and
+
+---------10:55----------
+this got burned and this got burned you
+
+---------10:58----------
+can bet your ass this probably got
+
+---------10:59----------
+burned
+
+---------10:59----------
+so I ever placed at all and you can see
+
+---------11:02----------
+what that looked like in the microscope
+
+---------11:03----------
+and that's that that's you know that's
+
+---------11:06----------
+that is a common issue that occurs
+
+---------11:07----------
+and let's I hate that that automatically
+
+---------11:11----------
+does the PDF reader full screen but what
+
+---------11:13----------
+are you gonna do in his windows I like
+
+---------11:16----------
+the fact that windows works I like the
+
+---------11:18----------
+fact that I can actually edit video and
+
+---------11:19----------
+capture video without headache and
+
+---------11:21----------
+without kdenlive crashing every five
+
+---------11:23----------
+seconds I like a lot of things about
+
+---------11:25----------
+windows I'm in my graphics card the heat
+
+---------11:27----------
+pipe actually gets hot now so before
+
+---------11:29----------
+when it was winter in here my my
+
+---------11:30----------
+graphics card you could touch it you get
+
+---------11:32----------
+frostbite on your hand because you know
+
+---------11:34----------
+Linux graphics drivers they don't even
+
+---------11:35----------
+know how to turn the thing on besides
+
+---------11:37----------
+you know output terminals or output
+
+---------11:39----------
+video to screen that that's about it
+
+---------11:40----------
+anything else you don't get here I can
+
+---------11:42----------
+actually use that for fast video editing
+
+---------11:44----------
+I can use it you know I get I can switch
+
+---------11:46----------
+back and forth between different sources
+
+---------11:48----------
+clicking you know I don't have any bugs
+
+---------11:49----------
+where I think I'm recording but it's not
+
+---------11:51----------
+actually recording just because before
+
+---------11:53----------
+else who doesn't decide to but some
+
+---------11:54----------
+things about Windows 8.1 just kind of
+
+---------11:56----------
+drive me nuts like in this basic
+
+---------11:58----------
+application so you know how am I
+
+---------12:00----------
+supposed to go back to what I'm doing
+
+---------12:02----------
+besides okay well now it wants to show
+
+---------12:05----------
+the taskbar what you weren't doing that
+
+---------12:07----------
+before you mother see see now it doesn't
+
+---------12:11----------
+want to know there we go
+
+---------12:12----------
+it's just gonna make you look let me
+
+---------12:13----------
+make windows is a grater just making me
+
+---------12:15----------
+feel and look like a [ __ ] but anyway
+
+---------12:18----------
+yeah so that is current sensing and what
+
+---------12:21----------
+I like to do with all these videos and I
+
+---------12:22----------
+don't always have time to is show you
+
+---------12:24----------
+that the work actually worked cuz again
+
+---------12:26----------
+if I always say in these videos you
+
+---------12:28----------
+should take advice from people who are
+
+---------12:30----------
+successful or people who are doing
+
+---------12:32----------
+things that are actually work and you
+
+---------12:35----------
+know what type of hypocrite would I be
+
+---------12:37----------
+if I didn't actually show you this thing
+
+---------12:39----------
+working
+
+---------12:39----------
+so before this would work off the
+
+---------12:41----------
+battery it would show you the charger
+
+---------12:42----------
+was connected but it wouldn't charge of
+
+---------12:43----------
+the battery and the problem that you
+
+---------12:45----------
+would have with this thing is that it
+
+---------12:47----------
+would it would have a green light it
+
+---------12:49----------
+would say not charging if you unplug the
+
+---------12:50----------
+battery would instantly go off it was
+
+---------12:52----------
+only providing one point seven volts on
+
+---------12:55----------
+P P bus g3 hot and as the schematic says
+
+---------12:57----------
+P P bus g3 hot which is the main power
+
+---------12:59----------
+rail the Machine controlled by that chip
+
+---------13:00----------
+in that circuit I showed you that's
+
+---------13:02----------
+supposed to be twelve point six volts
+
+---------13:03----------
+now over here you can see that I've
+
+---------13:05----------
+unplugged the battery so I have to do
+
+---------13:07----------
+manual focus because I have this thing
+
+---------13:09----------
+set on face detection which means it's
+
+---------13:10----------
+not gonna see anything I want to focus
+
+---------13:12----------
+on you can see I'm not gonna waste time
+
+---------13:15----------
+in manual focus you can see the battery
+
+---------13:16----------
+is unplug you could see the fans are
+
+---------13:18----------
+spinning and you can also see that we're
+
+---------13:21----------
+low
+
+---------13:21----------
+an operating system we are loading an
+
+---------13:24----------
+operating system with a spinning 5400
+
+---------13:27----------
+rpm hard drive that is what Apple in
+
+---------13:29----------
+2013 saw fit to put into this computer
+
+---------13:33----------
+that cost about two thousand bucks again
+
+---------13:36----------
+if you think you're getting you know top
+
+---------13:38----------
+performing hardware over other stuff
+
+---------13:40----------
+when you buy an Apple product think
+
+---------13:43----------
+again you are yeah
+
+---------13:45----------
+see that see that cheap-ass spinning
+
+---------13:47----------
+hard drive you spent two thousand bucks
+
+---------13:49----------
+on a laptop computer you don't get an
+
+---------13:52----------
+SSD you get a that's what you get in
+
+---------13:54----------
+2013 anyway it is working without the
+
+---------13:58----------
+battery plugged in and I would also like
+
+---------13:59----------
+to wait for it to get into the operating
+
+---------14:01----------
+system which again Hitachi Hitachi 5400
+
+---------14:05----------
+rpm drive this is gonna take a while so
+
+---------14:07----------
+we gots I hope I got some hard drive
+
+---------14:09----------
+space because we got some time to kill
+
+---------14:11----------
+so I'll wait for it to get into the OS
+
+---------14:14----------
+and then I will show you okay as you can
+
+---------14:16----------
+see it is charging the battery I moved
+
+---------14:19----------
+the camera away from the desktop because
+
+---------14:20----------
+I don't want you guys stalking this
+
+---------14:22----------
+person based on you know their files or
+
+---------14:24----------
+anything that may show up stranger
+
+---------14:26----------
+things have happened
+
+---------14:27----------
+but it is charging the battery it
+
+---------14:28----------
+doesn't know that it's gonna be full at
+
+---------14:29----------
+a certain time it does work when the
+
+---------14:30----------
+battery is not plugged in and of course
+
+---------14:33----------
+it does function off of the battery so
+
+---------14:35----------
+all of the functionality within the u
+
+---------14:37----------
+7000 circuit are functioning perfectly
+
+---------14:39----------
+fine which means that my job is done and
+
+---------14:42----------
+I am happy way and if you have any
+
+---------14:44----------
+questions post them in the comments if
+
+---------14:45----------
+you want to know where I get schematics
+
+---------14:46----------
+don't ask I don't plan on telling you
+
+---------14:48----------
+you'll gonna have to Google for that I
+
+---------14:49----------
+don't distribute schematics and you
+
+---------14:51----------
+should know why if you watched my write
+
+---------14:53----------
+to repair video and if you have any
+
+---------14:55----------
+questions on how to fix these boards you
+
+---------14:57----------
+should join the advanced reworks comm
+
+---------14:59----------
+forum that's advanced reworks comm slash
+
+---------15:02----------
+forum will be on a daily basis have a
+
+---------15:04----------
+lot of technicians that discuss
+
+---------15:06----------
+component level repairs how to do
+
+---------15:07----------
+component level repairs what tools you
+
+---------15:09----------
+should buy the owner of the website even
+
+---------15:11----------
+sells some tools required for soldering
+
+---------15:13----------
+and BGA rework and that's about it
+

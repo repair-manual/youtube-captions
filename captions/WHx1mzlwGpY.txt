@@ -1,0 +1,739 @@
+https://www.youtube.com/watch?v=WHx1mzlwGpY
+---------00:00----------
+all right so today we're working on a
+
+---------00:02----------
+3115 board that has no brain or
+
+---------00:06----------
+technical term I guess no CPU which
+
+---------00:08----------
+means you turn it on you just get a
+
+---------00:10----------
+black screen very often happens after
+
+---------00:12----------
+liquid damage and for some reason 31:15
+
+---------00:16----------
+no V port is more common than with
+
+---------00:18----------
+almost every other Apple board so the
+
+---------00:20----------
+first thing I do if I turn it on I get
+
+---------00:22----------
+no brain as I measure the vcore right
+
+---------00:25----------
+here right come on there we go see okay
+
+---------00:36----------
+it says this one or this one I forget
+
+---------00:38----------
+you'll see you'll feel figure it out
+
+---------00:40----------
+you know when you get zero on money
+
+---------00:41----------
+anyway if you have zero volts on both of
+
+---------00:43----------
+them then you you're obviously
+
+---------00:45----------
+you're supposed to get between five to
+
+---------00:47----------
+eight hundred millivolts depending on
+
+---------00:48----------
+what your computer is doing at the time
+
+---------00:52----------
+the other power rails for the CPU are
+
+---------00:54----------
+fairly stable and usually always work
+
+---------00:56----------
+it's just that one it's troublesome
+
+---------00:59----------
+that's PPV core Esso CPU right now this
+
+---------01:06----------
+chip over here is the one that controls
+
+---------01:08----------
+so let's look up here at the screen
+
+---------01:12----------
+okay page up let's try that again
+
+---------01:17----------
+a job all right so
+
+---------01:22----------
+that is this
+
+---------01:24----------
+this is responsible for a lot of
+
+---------01:26----------
+different things but one of the main
+
+---------01:27----------
+things it's responsible for that gets
+
+---------01:29----------
+ up very easily is operating this
+
+---------01:32----------
+set of transistors here that turn 12
+
+---------01:36----------
+volts which comes in up here into one
+
+---------01:40----------
+volt which comes to down here eight
+
+---------01:42----------
+hundred millivolts 900 millivolts 1.2
+
+---------01:45----------
+volts see it depends on what the machine
+
+---------01:47----------
+is doing and also the CPU I honestly
+
+---------01:49----------
+don't even remember the exact voltage
+
+---------01:50----------
+off the top of my head because all the
+
+---------01:51----------
+different years use different voltages
+
+---------01:53----------
+and I've never had a case of it being
+
+---------01:55----------
+tiny bit too much or a tiny bit too low
+
+---------01:57----------
+I only ever have a case of it either
+
+---------01:58----------
+it's there and it works or it's not
+
+---------02:01----------
+there and it's so to be honest
+
+---------02:02----------
+with you I don't remember the exact
+
+---------02:04----------
+voltage unit to be a hundred percent
+
+---------02:05----------
+honest with you I frankly don't really
+
+---------02:07----------
+care what it is I just care that it's
+
+---------02:08----------
+there yeah so this is a transistor this
+
+---------02:14----------
+is actually
+
+---------02:24----------
+this isn't this is actually a couple of
+
+---------02:27----------
+transistors in one this thing right over
+
+---------02:29----------
+here let's take a look on the screen so
+
+---------02:35----------
+you have 12 volts coming in through here
+
+---------02:37----------
+comes in here and now this is ground so
+
+---------02:41----------
+what does this look like to you remember
+
+---------02:42----------
+what we talked about voltage dividers in
+
+---------02:44----------
+the earlier videos what a voltage
+
+---------02:45----------
+divider does how it works so what do you
+
+---------02:49----------
+see hopefully you starting to see a
+
+---------02:50----------
+pattern here in terms of voltage
+
+---------02:52----------
+dividers so this is where the power
+
+---------02:54----------
+comes in this is the first resistor
+
+---------02:57----------
+because as I told you a transistor is a
+
+---------02:59----------
+variable resistor it's nothing more than
+
+---------03:01----------
+a resistor whose resistance changes
+
+---------03:03----------
+based on an input signal so this is one
+
+---------03:07----------
+resistor whose resistance changes based
+
+---------03:09----------
+on input signal see you gate one and
+
+---------03:13----------
+this is another resistor whose
+
+---------03:15----------
+resistance changes based on input signal
+
+---------03:18----------
+see L gate 1 so you have one gate and
+
+---------03:23----------
+another gate voltage so these are
+
+---------03:24----------
+actually two transistors that are being
+
+---------03:26----------
+used in a voltage divider now what I
+
+---------03:28----------
+told you a voltage divider does a
+
+---------03:29----------
+voltage divider takes a higher voltage
+
+---------03:32----------
+and turns it into a lower voltage by
+
+---------03:34----------
+having one resistor go between the
+
+---------03:35----------
+higher voltage which is the 12 volts up
+
+---------03:37----------
+here it's going between the higher
+
+---------03:39----------
+voltage and where you want it to power
+
+---------03:41----------
+to go and then from what you want the
+
+---------03:43----------
+power to go to ground you'll have
+
+---------03:44----------
+another resistor and the value of those
+
+---------03:46----------
+resistors is what will create your end
+
+---------03:48----------
+voltage so here you're starting with 12
+
+---------03:51----------
+here's ground and over here you won't
+
+---------03:53----------
+have a voltage of something like 1 and
+
+---------03:55----------
+that's what happens between these two so
+
+---------03:58----------
+what I'll often check is whether there's
+
+---------04:00----------
+an input signal going to the L gate and
+
+---------04:02----------
+you get again most of the time this 12
+
+---------04:04----------
+volts here is totally fine this is
+
+---------04:07----------
+virtually never shorting the ground this
+
+---------04:08----------
+plug of this transistor good good good
+
+---------04:10----------
+luck killing this thing look look at a
+
+---------04:12----------
+ huge it is that that's a monster
+
+---------04:15----------
+so what usually happens is that little
+
+---------04:17----------
+max chip I'm going
+
+---------04:19----------
+point out - in a minute and doesn't put
+
+---------04:21----------
+out these two signals so these signals
+
+---------04:23----------
+are what you need to open this so that
+
+---------04:25----------
+this actually starts working so you
+
+---------04:27----------
+open this transistor and open this
+
+---------04:28----------
+transistor as I said it's two
+
+---------04:30----------
+transistors in one package and if those
+
+---------04:32----------
+two don't open you're kind of so
+
+---------04:34----------
+on this board looked up here that's not
+
+---------04:42----------
+really this okay so this is that chip
+
+---------04:45----------
+that I showed you on the previous page
+
+---------04:47----------
+earlier and when you look really closely
+
+---------04:50----------
+you may find a hint let's see if you see
+
+---------04:53----------
+the hint as to what doesn't work see
+
+---------04:58----------
+yeah there's a red thing over there now
+
+---------05:00----------
+there was a red thing over here but it's
+
+---------05:03----------
+now covered by solder a lot of these
+
+---------05:05----------
+liquid damaged boards you're going to
+
+---------05:06----------
+see little points that are red then all
+
+---------05:07----------
+these little points in the board when I
+
+---------05:09----------
+say points that means of those circles
+
+---------05:10----------
+these are called probe points now probe
+
+---------05:13----------
+points are points that correspond to a
+
+---------05:16----------
+lead on a chip or lead on any one of
+
+---------05:19----------
+these components here where you can
+
+---------05:20----------
+actually go and measure and any time the
+
+---------05:22----------
+board gets liquid damage or power goes
+
+---------05:23----------
+where it's not supposed to you'll see
+
+---------05:25----------
+these turn red or they'll just be blown
+
+---------05:27----------
+off the board completely so there was a
+
+---------05:32----------
+huge red probe point right leading to
+
+---------05:35----------
+this resistor here and I'll show you
+
+---------05:37----------
+what the resistor is I'm somatic I
+
+---------05:40----------
+decided to measure that resistor and
+
+---------05:42----------
+when I measured that resistor instead of
+
+---------05:44----------
+getting the 150 kilometres no not what
+
+---------05:54----------
+I'm looking for you Oh
+
+---------05:58----------
+now and I did measure that I instead of
+
+---------06:01----------
+getting the 150 kilo ohms that I was
+
+---------06:03----------
+supposed to get I was getting something
+
+---------06:04----------
+like infinity ohms which which is no
+
+---------06:07----------
+good so this here is PPV this is the is
+
+---------06:12----------
+the resistor right here now this was
+
+---------06:14----------
+going from the 12 volts that powers that
+
+---------06:17----------
+transistor that eventually powers the
+
+---------06:18----------
+CPU to this pin CPU in Tona honestly I
+
+---------06:24----------
+don't know what that does I'd have to
+
+---------06:26----------
+find the datasheet for the chip to see
+
+---------06:27----------
+what that does I don't know what it does
+
+---------06:28----------
+and I did I care to look it up
+
+---------06:31----------
+No did I decide to take a class to
+
+---------06:33----------
+figure out what it does not really and
+
+---------06:34----------
+it says that the resist is supposed to
+
+---------06:36----------
+be 150 kilo ohms I measured it it's
+
+---------06:38----------
+infinity I took a resistor off of
+
+---------06:40----------
+another motherboard I put it there and
+
+---------06:42----------
+now when I turn it on I'll show you what
+
+---------06:45----------
+I get again a lot of the a lot of the
+
+---------06:47----------
+times people go how do you know all this
+
+---------06:49----------
+way to learn all this woody like what am
+
+---------06:51----------
+I supposed to know what all this means
+
+---------06:53----------
+and do you really want to know all the
+
+---------06:55----------
+means do you really want to know every
+
+---------06:57----------
+single word and the schematic means do
+
+---------06:59----------
+you want to just simply get a basic
+
+---------07:02----------
+understanding of it and use your brain
+
+---------07:04----------
+just enough that you can turn a 17 cent
+
+---------07:07----------
+resistor into two to $400
+
+---------07:09----------
+me personally I chose ii again it's
+
+---------07:12----------
+great if I can learn what all that is
+
+---------07:14----------
+it's really great if I can learn every
+
+---------07:17----------
+single fab you know every single exact
+
+---------07:19----------
+thing but again I am aiming to learn
+
+---------07:24----------
+enough that I can get paid and I
+
+---------07:28----------
+realized realistically that I would
+
+---------07:30----------
+probably have to spend a lot of time in
+
+---------07:32----------
+college good six seven eight
+
+---------07:36----------
+years to know exactly what every single
+
+---------07:38----------
+one of those things mean just by looking
+
+---------07:39----------
+at it and part of what makes this so
+
+---------07:42----------
+unmanageable for so many people is that
+
+---------07:44----------
+they think they actually have to know
+
+---------07:46----------
+what all that means and
+
+---------07:47----------
+well himself with all this information
+
+---------07:49----------
+is if they need to know if all that
+
+---------07:50----------
+means in order to do something that's
+
+---------07:53----------
+not how it works you should just break
+
+---------07:54----------
+it down into the simple into something
+
+---------07:56----------
+more simplistic something more
+
+---------07:58----------
+manageable that you can understand and
+
+---------07:59----------
+when you do that it becomes easier and
+
+---------08:02----------
+then you actually do get a chance to
+
+---------08:05----------
+learn everything as you go you do get a
+
+---------08:07----------
+chance to learn each step of the way
+
+---------08:08----------
+because they're trying to learn
+
+---------08:09----------
+everything at once you're learning
+
+---------08:12----------
+exactly what you need to learn and as
+
+---------08:14----------
+you go you've learned the last thing
+
+---------08:16----------
+because you figured it out on your own
+
+---------08:17----------
+and you know it slowly becomes
+
+---------08:19----------
+manageable to slowly become something
+
+---------08:21----------
+that you can feasibly do well you got to
+
+---------08:25----------
+do is use your brain yeah
+
+---------08:51----------
+one of the heatsink gone but this is a
+
+---------08:53----------
+has well so I can keep this on for quite
+
+---------08:56----------
+a good amount of time before anything
+
+---------08:57----------
+that even begins to happen I'm not going
+
+---------09:01----------
+to keep it on the wrong I'm just going
+
+---------09:02----------
+to keep it on long enough to figure out
+
+---------09:05----------
+which one of these Pro points you touch
+
+---------09:06----------
+to get Zeke or
+
+---------09:12----------
+here we go
+
+---------09:22----------
+all right so as you can see
+
+---------09:28----------
+got moving for
+
+---------09:36----------
+let me show you what probe point I'm
+
+---------09:37----------
+touching
+
+---------09:42----------
+yeah if you turn it on and has no brain
+
+---------09:44----------
+check there yeah this is different for a
+
+---------09:48----------
+motherboard and your problem may not be
+
+---------09:50----------
+the same as mine you may have a totally
+
+---------09:52----------
+different problem
+
+---------09:52----------
+big caused by something else altogether
+
+---------09:55----------
+the last one that I had to work on that
+
+---------09:56----------
+had no brain no CPU I was actually a
+
+---------10:00----------
+little easier because there was a bunch
+
+---------10:02----------
+of red crap right here and this pro
+
+---------10:04----------
+point was very very red I'm not looking
+
+---------10:08----------
+at the right thing no here we go
+
+---------10:10----------
+so this probe point here was very red
+
+---------10:16----------
+and it just gave me a hint
+
+---------10:17----------
+and I thought huh now you measure that
+
+---------10:19----------
+and then I looked up what it was on here
+
+---------10:22----------
+then I looked up what it was supposed to
+
+---------10:23----------
+be and then I noticed I wasn't getting
+
+---------10:25----------
+anything and it just followed along and
+
+---------10:26----------
+I eventually replaced to this I see on
+
+---------10:29----------
+this why I just refloat the solder
+
+---------10:30----------
+around it because this was actually a
+
+---------10:32----------
+fine chick that just had nasty looking
+
+---------10:33----------
+solder but on the other one I actually
+
+---------10:36----------
+had to replace this thing but yeah
+
+---------10:38----------
+that's that's pretty much it you know
+
+---------10:40----------
+not an exciting board no wires it was
+
+---------10:43----------
+fairly quick and simple
+

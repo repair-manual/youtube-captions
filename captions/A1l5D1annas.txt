@@ -1,0 +1,1576 @@
+https://www.youtube.com/watch?v=A1l5D1annas
+---------00:00----------
+hi so today I'm going to be going over a
+
+---------00:01----------
+dead retina board this may actually be
+
+---------00:03----------
+one of the last live videos I do for a
+
+---------00:05----------
+while I've been doing this board repair
+
+---------00:07----------
+video series for about a year and what
+
+---------00:09----------
+I'm noticing since I undertook that
+
+---------00:11----------
+project is that this is starting to
+
+---------00:13----------
+become very very tiring and I don't just
+
+---------00:16----------
+mean it the videos but just like the
+
+---------00:18----------
+actual process of border pair in the
+
+---------00:20----------
+process of creating videos and editing
+
+---------00:23----------
+them and explaining everything is
+
+---------00:24----------
+actually starting to become really
+
+---------00:26----------
+tiring so I mean I haven't taken a day
+
+---------00:27----------
+off for myself since actually since the
+
+---------00:30----------
+probability before the lay the first
+
+---------00:32----------
+practical board repair school so my
+
+---------00:35----------
+vacation from working all the time and
+
+---------00:38----------
+doing all these board repairs is
+
+---------00:40----------
+actually a week of teaching between
+
+---------00:42----------
+eight and twelve people how to do board
+
+---------00:44----------
+repair and answering constant board
+
+---------00:46----------
+repair questions so I mean if you don't
+
+---------00:49----------
+see a lot of videos that are live in the
+
+---------00:52----------
+near future this is kind of why so I've
+
+---------00:54----------
+actually I was kind of preparing for
+
+---------00:56----------
+this so I've been doing a bunch of them
+
+---------00:57----------
+and I've been uploading them in in three
+
+---------01:00----------
+day increments so they're actually
+
+---------01:01----------
+scheduled in three day increments so
+
+---------01:03----------
+that hopefully if I go back to deciding
+
+---------01:04----------
+to do this that is not really any gap in
+
+---------01:06----------
+content but if you do see any kind of
+
+---------01:08----------
+gap in live content that would be why I
+
+---------01:10----------
+am completely at a point or I would love
+
+---------01:14----------
+for somebody to sit in this chair and
+
+---------01:15----------
+take over for me but it's hard to find
+
+---------01:18----------
+good help anyone so enough bitching and
+
+---------01:22----------
+complaining over crap so let's go over
+
+---------01:25----------
+this board over here so when I plug this
+
+---------01:27----------
+into the charger this is an eight to
+
+---------01:29----------
+zero thirty four seventy six motherboard
+
+---------01:34----------
+I get no light in the charger see no
+
+---------01:38----------
+light in the charger the first thing
+
+---------01:41----------
+that I would want to do in this case is
+
+---------01:43----------
+I want to see if I have PP 3 V 4 to
+
+---------01:46----------
+underscore g3 hot because that's a power
+
+---------01:48----------
+rail that's very important here that's
+
+---------01:50----------
+the power rail that's going to control
+
+---------01:51----------
+the one wire circuit feel free to search
+
+---------01:53----------
+through my channel to see what the one
+
+---------01:54----------
+wire circuit is and what the importance
+
+---------01:56----------
+of it is on a Macbook motherboard so
+
+---------01:58----------
+what I'm going to do is I'm going to try
+
+---------02:00----------
+to find out on the board view where it
+
+---------02:03----------
+is I can find pp 3 v 4 to underscore g3
+
+---------02:06----------
+hot so I can measure and see if it
+
+---------02:08----------
+exists so this over here is the board
+
+---------02:10----------
+view I had n I type in PP 3 v 4 to
+
+---------02:12----------
+underscore G 3 hot and let's see if I
+
+---------02:16----------
+have any place in the top of the board
+
+---------02:18----------
+where I'm able to measure this power
+
+---------02:19----------
+rail of course as usual it opens it in
+
+---------02:22----------
+the opposite view on the schematic as it
+
+---------02:24----------
+does in the board view as it does in
+
+---------02:26----------
+front of me which is a point of great
+
+---------02:28----------
+contention well let's see so do we have
+
+---------02:31----------
+that power rail let's get my multimeter
+
+---------02:35----------
+in voltage mode so we're going to go
+
+---------02:37----------
+over to where I think I can measure this
+
+---------02:41----------
+and see what I get
+
+---------02:44----------
+do I get anything oh look at these
+
+---------02:47----------
+really nice tiny little points that you
+
+---------02:49----------
+can barely see so I get 0 volts now what
+
+---------02:55----------
+I'm going to want to see is do I have a
+
+---------02:56----------
+short to ground on that power rail that
+
+---------02:58----------
+may be causing this to happen so I have
+
+---------03:03----------
+no short to ground so the way that I
+
+---------03:04----------
+measured for the short to ground was I
+
+---------03:06----------
+took my multimeter and I put it into
+
+---------03:09----------
+what's called diode mode you can all
+
+---------03:11----------
+those do this with resistance mode I use
+
+---------03:13----------
+diode mode purely because it's faster
+
+---------03:15----------
+and I'm impatient so I turned it to
+
+---------03:17----------
+resistance mode if you don't know what
+
+---------03:18----------
+this is don't ask me to reread the
+
+---------03:22----------
+manual for your multimeter or google it
+
+---------03:23----------
+this is this is basic ship so turn this
+
+---------03:26----------
+two resistance motor or use diode mode
+
+---------03:29----------
+and turn it into diamo take the red
+
+---------03:31----------
+probe put it on ground take the black
+
+---------03:33----------
+claw robe and put it on the spot where
+
+---------03:34----------
+you would like to see if there's a short
+
+---------03:36----------
+to ground and short to ground means that
+
+---------03:38----------
+all the power is going to ground instead
+
+---------03:39----------
+of going to where it's supposed to and
+
+---------03:41----------
+if you see a zero voltage drop the
+
+---------03:42----------
+ground there zero ohms of resistance you
+
+---------03:44----------
+have a short if you have something much
+
+---------03:46----------
+higher than that you don't have a short
+
+---------03:48----------
+so let's take a look and see what this
+
+---------03:50----------
+thing looks like and what it is that
+
+---------03:52----------
+could possibly be wrong so not that uh
+
+---------04:03----------
+okay oh oh this board is deciding to
+
+---------04:11----------
+make it easy for me thank you
+
+---------04:13----------
+oh boy I wasn't expecting that one
+
+---------04:16----------
+awesome because I'm dead tired and my my
+
+---------04:19----------
+brain is so melted at this point that I
+
+---------04:21----------
+actually spent half an hour on a no
+
+---------04:23----------
+backlight board and I gave up like no
+
+---------04:25----------
+backlight no backlight is the simpler
+
+---------04:27----------
+ in the world and I just have no
+
+---------04:29----------
+ clue what to do
+
+---------04:31----------
+so anyway see that burned hopefully not
+
+---------04:37----------
+burn because I'm pretty sure I don't
+
+---------04:38----------
+have any of that left that's some
+
+---------04:40----------
+wishful thinking right there
+
+---------04:41----------
+so let's see what you are and what you
+
+---------04:43----------
+do also you what the are you and
+
+---------04:45----------
+what do you do see how is that a hole in
+
+---------04:47----------
+the middle that scorched so that's
+
+---------04:49----------
+that's probably not good so let's go
+
+---------04:51----------
+back over to my schematic over here on
+
+---------04:53----------
+my board view I keep calling it the
+
+---------04:54----------
+wrong thing because I'm really tired so
+
+---------04:56----------
+we have our 7020 over there and then we
+
+---------04:59----------
+have our 7:05 a zero zero five over
+
+---------05:02----------
+there so our seven zero zero five and
+
+---------05:04----------
+our seven zero two zero right okay so
+
+---------05:09----------
+let's get open the schematic here are
+
+---------05:13----------
+seven zero zero five so that's where P P
+
+---------05:18----------
+bus G three hot goes in to power the pp
+
+---------05:21----------
+3 4 2 circuit and our 70 20 is where the
+
+---------05:25----------
+DCN power goes the power the P P 3 V 4
+
+---------05:28----------
+to underscore G 3 hot circuit I've
+
+---------05:30----------
+explained how this power rail works
+
+---------05:32----------
+nice try open broadcaster u QQ you keep
+
+---------05:35----------
+trying but you're not going to trick me
+
+---------05:36----------
+I've explained how this works in several
+
+---------05:39----------
+other videos you can watch and see what
+
+---------05:41----------
+is P P 3 V 4 to underscore G 3 hot and
+
+---------05:43----------
+how does it work so this is this is
+
+---------05:46----------
+pretty much taking power from either the
+
+---------05:48----------
+battery PPOs g3 R or the charger 18
+
+---------05:51----------
+point 5 volts and using it supplied
+
+---------05:54----------
+power to here so the whole point behind
+
+---------05:57----------
+this diode is so that if you have PP but
+
+---------05:59----------
+g3 hot
+
+---------06:01----------
+and 18 volts that you know you don't
+
+---------06:04----------
+wind up overloading us because let's say
+
+---------06:05----------
+your battery is dead you don't want to
+
+---------06:07----------
+be screw to not have the circuit so it
+
+---------06:10----------
+can be powered from the charger well
+
+---------06:11----------
+it's a the chargers not plugged in you
+
+---------06:13----------
+don't want to be screwed to not have the
+
+---------06:14----------
+circuits this is the one power drill
+
+---------06:15----------
+that's needed for everything else to get
+
+---------06:16----------
+started so you can have two different
+
+---------06:18----------
+sources for it and both of these I'm not
+
+---------06:21----------
+measuring that a I know it's dead
+
+---------06:23----------
+so we are going to replace it please
+
+---------06:25----------
+tell me I didn't have those parts here I
+
+---------06:27----------
+do and oh my god I even have that little
+
+---------06:30----------
+dial that maybe bad that is the little
+
+---------06:33----------
+diode that I'm talking about
+
+---------06:35----------
+yeah and it's this thingy over here if
+
+---------06:39----------
+I'm awake later I will point out to you
+
+---------06:42----------
+what that is on the schematic in the
+
+---------06:44----------
+board view so now I'm going to turn on
+
+---------06:46----------
+the really noisy air filters and the
+
+---------06:48----------
+really noisy hako rework station because
+
+---------06:51----------
+I have to use these to remove these
+
+---------06:55----------
+pieces so let's wait for it to get hot
+
+---------06:57----------
+it's going to take a little bit to get
+
+---------06:58----------
+hot and as usual I'm too impatient to
+
+---------07:01----------
+wait for the fr8 I want to get hot so
+
+---------07:03----------
+what I'm going to do is I'm just going
+
+---------07:05----------
+to try to start moving this thing using
+
+---------07:07----------
+solder and a regular soldering iron so
+
+---------07:10----------
+this is what I'm doing here as you can
+
+---------07:12----------
+see I'm just kind of running a ball of
+
+---------07:14----------
+solder and I'm putting new solder in
+
+---------07:16----------
+there so the flux keeps flowing and
+
+---------07:18----------
+hoping that eventually there we go that
+
+---------07:22----------
+we suck that mofo off of the board and
+
+---------07:25----------
+that mofo got owned and we're going to
+
+---------07:28----------
+do the same thing with the other nasty
+
+---------07:31----------
+ so that's over here okay so we're
+
+---------07:36----------
+going to take this mofo see that mofo
+
+---------07:39----------
+and we're going to own him or pwn him if
+
+---------07:44----------
+you were spent too much time in IRC as a
+
+---------07:46----------
+kid all right get out of here
+
+---------07:53----------
+that's right mofo get out of here okay
+
+---------08:02----------
+my hot air station should be hot by now
+
+---------08:05----------
+so we can actually start doing some
+
+---------08:06----------
+things the proper way
+
+---------08:34----------
+nice try
+
+---------08:39----------
+there's no place to put the damn
+
+---------08:41----------
+tweezers in here because it's stupid
+
+---------08:42----------
+little antenna whatever the that
+
+---------08:44----------
+thing is its name will come to me
+
+---------08:48----------
+eventually but for now I just call it
+
+---------08:50----------
+the annoying antenna like thing I'm sure
+
+---------08:52----------
+it has a purpose and sure if I had went
+
+---------08:55----------
+to college or had a proper electronics
+
+---------08:58----------
+engineering or computer engineering
+
+---------09:00----------
+education that I would understand what
+
+---------09:01----------
+its purposes but I don't I'm just a bum
+
+---------09:05----------
+so I have no clue what that is I
+
+---------09:08----------
+just know that it often likes to get in
+
+---------09:10----------
+the way and that if I had to guess if I
+
+---------09:16----------
+were on Who Wants to Be a Millionaire if
+
+---------09:20----------
+that were the final question that I'm
+
+---------09:23----------
+pretty sure that that thing does not
+
+---------09:25----------
+critical in any way that I don't give a
+
+---------09:29----------
+ about its existence and I'm going
+
+---------09:32----------
+to get trolled so hard by all of the
+
+---------09:35----------
+purists and all of the the engineer
+
+---------09:38----------
+people who do who have never fixed a
+
+---------09:41----------
+ switch mode power supply in
+
+---------09:43----------
+their life but they're going to make it
+
+---------09:46----------
+they're you know their personal vendetta
+
+---------09:50----------
+to make sure that I get trolled for
+
+---------09:53----------
+saying I don't care about that thing I'm
+
+---------09:55----------
+sure that those people will be running
+
+---------09:57----------
+here in droves to tell you just what a
+
+---------10:00----------
+ idiot I am
+
+---------10:01----------
+and I won't care about a damn thing they
+
+---------10:05----------
+have to say I don't think anybody will
+
+---------10:09----------
+care about a damn thing they have to say
+
+---------10:12----------
+so at the moment I don't have a green
+
+---------10:15----------
+light not only do I not have a green
+
+---------10:17----------
+light
+
+---------10:17----------
+but I have smoke I don't know if you
+
+---------10:20----------
+caught that or not but right here I
+
+---------10:23----------
+caught smoke this over here smoked
+
+---------10:27----------
+let's take a look at that for a second
+
+---------10:30----------
+let's see if I can get some more yeah
+
+---------10:33----------
+it's no good so that was smoking so
+
+---------10:36----------
+let's see on the schematic where the
+
+---------10:39----------
+smoking is occurring let's turn off this
+
+---------10:40----------
+annoying ass air filter because I'm
+
+---------10:42----------
+not soldering at this moment and let's
+
+---------10:45----------
+see if we can go over what's going on
+
+---------10:46----------
+what's happening and show you how it is
+
+---------10:48----------
+we're going to troubleshoot the actual
+
+---------10:50----------
+problem so I try out what I did over
+
+---------10:52----------
+here is I checked for a short
+
+---------10:53----------
+pp 3v4 to output right and over here I
+
+---------10:56----------
+had no short to ground so I figured that
+
+---------10:58----------
+I might be safe and good to go
+
+---------11:00----------
+the problem is at the short circuit most
+
+---------11:02----------
+likely exists somewhere over here by
+
+---------11:04----------
+these three capacitors so one of those
+
+---------11:06----------
+three capacitors are shorted to ground
+
+---------11:07----------
+these capacitors are kind of acting as a
+
+---------11:09----------
+battery it's to stabilize whatever's
+
+---------11:13----------
+coming through here so that this chip
+
+---------11:14----------
+has some nice working power to go with
+
+---------11:16----------
+instead of a bunch of wavy unstable crap
+
+---------11:19----------
+so let's check and see which one of
+
+---------11:21----------
+those two it is that was bad so the
+
+---------11:23----------
+thingy that when smoking was not this
+
+---------11:25----------
+one it was this one it was our 7020 and
+
+---------11:28----------
+that makes sense because our 7020 is the
+
+---------11:30----------
+one that's coming from the DCN board
+
+---------11:32----------
+whereas our seven zero zero five is the
+
+---------11:34----------
+one that would be coming from PP but gee
+
+---------11:35----------
+three hot which will only be created
+
+---------11:36----------
+after this rail has stabilized or if you
+
+---------11:39----------
+have a battery present which we do not
+
+---------11:40----------
+so are seventy twenty would be the
+
+---------11:42----------
+sensible one so it's probably happening
+
+---------11:44----------
+here there's no path to ground through
+
+---------11:46----------
+here PP budged III how does not shorted
+
+---------11:48----------
+to ground because I did check for that
+
+---------11:49----------
+which means that C 1792 C 1791 or C 79 D
+
+---------11:53----------
+most likely are shorted to ground or you
+
+---------11:56----------
+70-90 is shorted to ground so one way to
+
+---------11:58----------
+go about checking this would be to go
+
+---------11:59----------
+over to my board view and check for C
+
+---------12:02----------
+1792 C 1791 C 1790 and we're going to
+
+---------12:08----------
+check and see what those look like on
+
+---------12:09----------
+the motherboard once I know where they
+
+---------12:11----------
+are so over here it says that those
+
+---------12:13----------
+three components are sitting in a little
+
+---------12:15----------
+line over here on the other side of the
+
+---------12:17----------
+board now since I'm turning the board
+
+---------12:19----------
+around I have a very unique opportunity
+
+---------12:20----------
+to orient it in the manner that it's
+
+---------12:24----------
+oriented on the screen which is pretty
+
+---------12:26----------
+cool because usually I'm all renting it
+
+---------12:28----------
+the wrong way all the time
+
+---------12:30----------
+now when we go over to that area on the
+
+---------12:32----------
+motherboard you're gonna see something
+
+---------12:33----------
+that looks like this and that's no good
+
+---------12:36----------
+so see those are those those are those
+
+---------12:37----------
+three capacitors and they look pretty
+
+---------12:40----------
+ up I mean that's like I'm pretty
+
+---------12:42----------
+sure that my the chip --tx creating pp 3
+
+---------12:45----------
+B 4 2 is fine it's just these capacitors
+
+---------12:46----------
+on input are destroyed I'm not sure
+
+---------12:49----------
+which of the three it is and you know
+
+---------12:50----------
+what I don't really care because I'm
+
+---------12:52----------
+going to replace them all
+
+---------12:53----------
+so my Haunter station is already hot it
+
+---------12:56----------
+already has power so I'm going to turn
+
+---------12:57----------
+on my air filter my loud air filter so
+
+---------13:00----------
+that I don't smell any of this I don't
+
+---------13:01----------
+inhale any of this there's really no
+
+---------13:03----------
+reason to let any of this stuff going to
+
+---------13:04----------
+your lungs unless you just have no
+
+---------13:05----------
+respect for your body
+
+---------13:08----------
+so I'm going to remove this this here's
+
+---------13:11----------
+the and here's the thing when I talk
+
+---------13:12----------
+about air filters and the importance of
+
+---------13:14----------
+air filtration and things of that nature
+
+---------13:16----------
+one of the common the common defense a
+
+---------13:19----------
+lot of people will have is that you know
+
+---------13:20----------
+it's not there are a lot of things that
+
+---------13:22----------
+are bad for you everything is bad for
+
+---------13:23----------
+you blood but and here's the thing that
+
+---------13:25----------
+I would propose so when you eat
+
+---------13:28----------
+something that may not be a hundred
+
+---------13:29----------
+percent good for you I'm not saying you
+
+---------13:30----------
+should but the very least you may get
+
+---------13:32----------
+some enjoyment out of it I don't drink
+
+---------13:33----------
+all the time but I drink on occasion and
+
+---------13:35----------
+when I do drink I probably drink a
+
+---------13:37----------
+little bit more than than what is
+
+---------13:40----------
+responsible but the thing is I'm doing
+
+---------13:43----------
+that for I feel a great sense of
+
+---------13:46----------
+personal enjoyment out of that but when
+
+---------13:49----------
+you inhale flux and solder fumes not
+
+---------13:52----------
+only are you killing yourself
+
+---------13:54----------
+but you're doing so for an a for no
+
+---------13:56----------
+sense of personal enjoyment and let's be
+
+---------13:58----------
+serious here because it got a lot of
+
+---------13:59----------
+people on the internet that will say
+
+---------14:01----------
+things like I like the smell of flux
+
+---------14:03----------
+it's good that's what real work is and
+
+---------14:05----------
+in reality are you saying that because
+
+---------14:07----------
+you mean it because in the in the bottom
+
+---------14:09----------
+of your heart you know that to be true
+
+---------14:11----------
+or are you saying that because you
+
+---------14:13----------
+simply have no desire to to admit that
+
+---------14:16----------
+maybe this tool that you know that sucks
+
+---------14:19----------
+up dangerous fumes in the air would
+
+---------14:22----------
+actually be good for you like are you
+
+---------14:24----------
+Mar though piece of garbage
+
+---------14:27----------
+you right back to anyway are you saying
+
+---------14:32----------
+that because you actually believe it I
+
+---------14:33----------
+use or are you saying it because it
+
+---------14:35----------
+sounds cool and it makes you feel big
+
+---------14:37----------
+and better and blah blah blah to simply
+
+---------14:41----------
+not have this again this tool that will
+
+---------14:44----------
+absorb poisonous in the air that
+
+---------14:47----------
+would otherwise go in your lungs just
+
+---------14:49----------
+because it sounds cool alright so out of
+
+---------14:52----------
+the three capacitors there two of them
+
+---------14:55----------
+went to the sixth dimension so luckily I
+
+---------14:58----------
+have a number of donor boards here so I
+
+---------15:01----------
+don't to worry about this but such as
+
+---------15:05----------
+life when I need to like find somebody
+
+---------15:08----------
+to do this for me I am very excited
+
+---------15:11----------
+at the ideas moving on to doing
+
+---------15:15----------
+different things in different business
+
+---------15:16----------
+but board repair is something that I am
+
+---------15:18----------
+quickly growing tired
+
+---------15:21----------
+because it's like the same thing over
+
+---------15:23----------
+and over again like it's fun when you
+
+---------15:25----------
+get to master a field from nothing but
+
+---------15:28----------
+then when you're pretty much doing the
+
+---------15:29----------
+same over and over again without a
+
+---------15:32----------
+break it's kind of boring
+
+---------15:41----------
+like it's the same story it's the same
+
+---------15:44----------
+everybody has their hair on fire and
+
+---------15:46----------
+they want to know why it is they haven't
+
+---------15:48----------
+gotten their stuff back in less than one
+
+---------15:51----------
+business day I have calls for this
+
+---------15:55----------
+motherboard already this thing came in
+
+---------15:57----------
+at 3 o'clock today right now it's 9:40 1
+
+---------16:00----------
+p.m. I don't understand
+
+---------16:05----------
+I feel like repair is too important for
+
+---------16:07----------
+you I take that back I feel like you are
+
+---------16:11----------
+too important for repair
+
+---------16:12----------
+people such as yourself need to purchase
+
+---------16:14----------
+new when it breaks you just buy a new
+
+---------16:17----------
+one you're too important to wait for
+
+---------16:19----------
+people to fix your but that's not
+
+---------16:23----------
+the people like it really isn't because
+
+---------16:24----------
+in every industry you deal with people
+
+---------16:26----------
+and that's not what gets me it's just
+
+---------16:29----------
+there's just a thought process that you
+
+---------16:31----------
+need to do this work and my like where I
+
+---------16:35----------
+used to have you know you kind of have
+
+---------16:36----------
+these feelings in your brain where you
+
+---------16:38----------
+know well it's I don't know it's hard to
+
+---------16:42----------
+explain it's kind of it's just something
+
+---------16:43----------
+in your brain that you feel when you
+
+---------16:44----------
+when you're on a roll and you're
+
+---------16:46----------
+thinking and you're kind you're solving
+
+---------16:47----------
+a problem and I just I don't feel that
+
+---------16:50----------
+anymore like this is like a little
+
+---------16:52----------
+chemical or something that goes to your
+
+---------16:53----------
+brain and for me that is just kind
+
+---------16:55----------
+of gone and it's making doing any of
+
+---------16:58----------
+this really really difficult long-winded
+
+---------17:00----------
+and annoying but for the time being and
+
+---------17:04----------
+for as long as I can I will publish this
+
+---------17:06----------
+video series so that hopefully people
+
+---------17:09----------
+will learn from it so let's see since
+
+---------17:10----------
+we've removed our short if that resistor
+
+---------17:13----------
+will stop going on fire because if that
+
+---------17:15----------
+resistor keep going keeps going on fire
+
+---------17:17----------
+I'm not going to be able to give this
+
+---------17:18----------
+board back to the customer so as you can
+
+---------17:22----------
+see the fan is spinning I do have an
+
+---------17:25----------
+orange light in the charger and it's
+
+---------17:27----------
+good to go and that resistor did smoke a
+
+---------17:32----------
+tiny tiny bit but it's probably fine
+
+---------17:35----------
+the fan is spinning I'd replace it again
+
+---------17:38----------
+but you called 14 times between this
+
+---------17:43----------
+afternoon and 943 p.m. so I'm sure it's
+
+---------17:47----------
+just fine and we're set and good to go
+
+---------17:51----------
+again the
+
+---------17:53----------
+fan spins we remove the shorten the
+
+---------17:56----------
+board so just to go over what it is that
+
+---------17:59----------
+happen so that you guys can learn
+
+---------18:00----------
+something let me just turn off all this
+
+---------18:02----------
+noisy stuff again so that it's easier
+
+---------18:04----------
+for me to talk we're going to go back
+
+---------18:07----------
+over to the schematic so I can show you
+
+---------18:09----------
+what was wrong
+
+---------18:11----------
+this wasn't turning on because there was
+
+---------18:15----------
+no green light there was no PP buzz g3
+
+---------18:18----------
+hot and there was no PP 3d for to in
+
+---------18:20----------
+order for the light to turn green
+
+---------18:22----------
+you need something called the one wire
+
+---------18:23----------
+circuit to work in order for the one
+
+---------18:25----------
+wire circuit to work which is this thing
+
+---------18:26----------
+over here it needs to be powered by PP 3
+
+---------18:30----------
+V 4 to underscore G 3 hot so see the C
+
+---------18:33----------
+adaptor sense over here in every
+
+---------18:35----------
+motherboard there is a different way
+
+---------18:37----------
+they do this but they always use this
+
+---------18:39----------
+kind of thing for the MagSafe chargers
+
+---------18:41----------
+so you have sis one wire which is a
+
+---------18:44----------
+bi-directional data line see it says by
+
+---------18:46----------
+over there that is talking to the
+
+---------18:48----------
+adapter so this over here J 7000 is will
+
+---------18:51----------
+your charger plugs in and that is
+
+---------18:52----------
+talking on adapter sense now this is
+
+---------18:56----------
+going to talk to the SMC since one wire
+
+---------18:58----------
+goes to the SMC I'm too tired to scroll
+
+---------19:00----------
+to that page in the schematics you just
+
+---------19:01----------
+going to have to believe me or looking
+
+---------19:03----------
+up yourself there but this chip will not
+
+---------19:05----------
+turn on see the VCC pin will not turn on
+
+---------19:07----------
+unless it has power from here and this
+
+---------19:09----------
+logic gate is powered by pp 3 V 4 2 1 2
+
+---------19:11----------
+square G 3 hot now over here there is no
+
+---------19:14----------
+short to ground on pp 3 V 4 2 1 2 square
+
+---------19:16----------
+G 3 hot so what I decided to do is I
+
+---------19:19----------
+just decided to look around I didn't
+
+---------19:21----------
+decide to look around I kind of look
+
+---------19:22----------
+down because I was tired and I noticed
+
+---------19:24----------
+that our 7020 looked like it was boiled
+
+---------19:26----------
+so I replaced it since it was boiled and
+
+---------19:29----------
+then it decided to boil again now the
+
+---------19:31----------
+reason this is going to boil is because
+
+---------19:33----------
+there's too much power being dragged
+
+---------19:34----------
+through here so instead of there being a
+
+---------19:36----------
+standard low there's some in something
+
+---------19:39----------
+that's for asking for infinite energy
+
+---------19:40----------
+which is more than this little thing is
+
+---------19:41----------
+going to be able to send so if there's
+
+---------19:43----------
+no short to ground over here the short
+
+---------19:46----------
+to ground is going and this is burning
+
+---------19:49----------
+because of the power being sought
+
+---------19:50----------
+through it and there's no shorter ground
+
+---------19:52----------
+on PP but g3 hot which is behind here
+
+---------19:55----------
+which is you know you're not going to
+
+---------19:56----------
+get to with this diode blocking it
+
+---------19:58----------
+anyway the only natural path would be
+
+---------20:00----------
+somewhere over here so there are three
+
+---------20:02----------
+capacitors over here and this over here
+
+---------20:05----------
+is ground now we went over and look at
+
+---------20:07----------
+the
+
+---------20:07----------
+capacitors those capacitors looks like
+
+---------20:08----------
+complete crap and wants to replace those
+
+---------20:11----------
+capacitors we had a green and an orange
+
+---------20:13----------
+light and the fan spinning which means
+
+---------20:14----------
+that the board is powering on and
+
+---------20:16----------
+working so that's how we troubleshoot
+
+---------20:17----------
+the problem that's how he
+
+---------20:18----------
+troubleshooting the machine not powering
+
+---------20:20----------
+on do it powering on and we're set and
+
+---------20:22----------
+good to go and again I really hope I do
+
+---------20:25----------
+manage to find the energy to go back to
+
+---------20:27----------
+doing these videos on a regular basis if
+
+---------20:29----------
+I don't at the very least when I do feel
+
+---------20:31----------
+like I mean oh my brains working and and
+
+---------20:34----------
+I feel like putting time and effort into
+
+---------20:36----------
+doing this I'm going to do a bunch of
+
+---------20:38----------
+them and I'm going to set them on
+
+---------20:39----------
+YouTube where it's scheduled so it posed
+
+---------20:41----------
+one video every three days so there's
+
+---------20:43----------
+still regular content being posted even
+
+---------20:46----------
+when it is I just realize I kind of I
+
+---------20:48----------
+just want to break from touching
+
+---------20:51----------
+motherboards or the very leases again I
+
+---------20:53----------
+know I'm never going to get a break from
+
+---------20:54----------
+touching motherboards because I haven't
+
+---------20:55----------
+found anybody elses sit in the chair who
+
+---------20:57----------
+can do the job worth of them yet at the
+
+---------20:59----------
+very least I'll have a break from just
+
+---------21:01----------
+having to speak and having to film it
+
+---------21:03----------
+and having to work slow and having to
+
+---------21:04----------
+explain things and having to put the
+
+---------21:05----------
+microphone on and set up the camera and
+
+---------21:06----------
+blah blah blah and usually I enjoy all
+
+---------21:08----------
+that stuff it's just just I'm just kind
+
+---------21:11----------
+of getting tired so that's that and I
+
+---------21:14----------
+hope you learned something
+

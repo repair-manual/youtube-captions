@@ -1,0 +1,844 @@
+https://www.youtube.com/watch?v=kPNc4I68V6M
+---------00:00----------
+hi today I'd like to talk about
+
+---------00:01----------
+something that I I would like people who
+
+---------00:04----------
+were doing their own do-it-yourself to
+
+---------00:05----------
+repairs did is think about so that their
+
+---------00:08----------
+stuff doesn't wind up here so a very
+
+---------00:10----------
+common thing that people will do in
+
+---------00:12----------
+changing the battery is they will use a
+
+---------00:14----------
+metal pry tool rather than their
+
+---------00:16----------
+fingernail or plastic products well and
+
+---------00:18----------
+a lot of people have said Lois why using
+
+---------00:20----------
+metal don't you know that metal
+
+---------00:22----------
+scratches things don't you know that
+
+---------00:23----------
+metal conducts electricity and yes I
+
+---------00:25----------
+know that metal conducts electricity
+
+---------00:27----------
+that's why I don't touch metal between
+
+---------00:29----------
+two points that I shouldn't and that's
+
+---------00:31----------
+also why I don't touch metal on
+
+---------00:32----------
+something that I don't want to scratch
+
+---------00:36----------
+yet if if I were touching them if I were
+
+---------00:39----------
+like right next to two points that do
+
+---------00:41----------
+conduct electricity I would not put the
+
+---------00:43----------
+metal there I'm thinking about these
+
+---------00:44----------
+things and this is something that I want
+
+---------00:46----------
+you to be thinking about particularly
+
+---------00:47----------
+when you're changing the battery in one
+
+---------00:48----------
+of these machines so just to give you an
+
+---------00:50----------
+idea of what it is I'm talking about
+
+---------00:52----------
+let's just take a look at where the
+
+---------00:54----------
+battery connector is over here so let me
+
+---------00:57----------
+just get the microscope in a focus since
+
+---------00:58----------
+it's kind of out of focus here I think I
+
+---------01:00----------
+kicked it earlier by accident it's there
+
+---------01:04----------
+we go move it up a little do this okay
+
+---------01:08----------
+so see how there is the battery that
+
+---------01:10----------
+plugs in over here right so this is the
+
+---------01:12----------
+battery and then there's all these
+
+---------01:14----------
+little metal contact points well these
+
+---------01:16----------
+metal contact points are each attached
+
+---------01:18----------
+to the pin on the battery CF pen and pen
+
+---------01:22----------
+and so on and so forth so what I will do
+
+---------01:24----------
+is I will use my fingernail shove it
+
+---------01:27----------
+under there and rip this out and if you
+
+---------01:29----------
+have a knock off battery it'll be a
+
+---------01:30----------
+little more annoying than if you don't
+
+---------01:31----------
+and what a lot of people I see doing
+
+---------01:33----------
+that what they do is they use the end of
+
+---------01:35----------
+their screwdriver or they use a spatula
+
+---------01:37----------
+you know something like this to kind of
+
+---------01:40----------
+Jimmy in there and rip their battery out
+
+---------01:42----------
+and what happens is when you do that the
+
+---------01:44----------
+metal screwdriver touches over here now
+
+---------01:47----------
+I want to show you why that is a really
+
+---------01:49----------
+bad thing and how that's going to cause
+
+---------01:51----------
+a lot of nastiness to happen to you to
+
+---------01:55----------
+your machine if you do that so I'm gonna
+
+---------01:57----------
+open up this schematic in the board view
+
+---------01:59----------
+for one of these model boards just so I
+
+---------02:01----------
+can give you give you an idea of what's
+
+---------02:03----------
+going to happen so let's just see what
+
+---------02:05----------
+the pins you over here do is we're gonna
+
+---------02:06----------
+go over to J 6950 and just make it set
+
+---------02:10----------
+this up so that you can see what I do on
+
+---------02:12----------
+the other screen here
+
+---------02:13----------
+okay I don't want to see myself turn
+
+---------02:16----------
+myself off come on go away go away here
+
+---------02:21----------
+we go go off all right so right
+
+---------02:23----------
+over here we have the battery connector
+
+---------02:25----------
+so let's just scroll over to the battery
+
+---------02:27----------
+connector now over here you have pin 9
+
+---------02:29----------
+pin 9 is going to be PPV batt g3 hot
+
+---------02:33----------
+connection so this is going to be the
+
+---------02:36----------
+actual power connection this is gonna be
+
+---------02:38----------
+where the twelve point six volts comes
+
+---------02:39----------
+in the battery on pins nine eight and
+
+---------02:41----------
+seven then you have the pin right next
+
+---------02:44----------
+to it which is pin 6 SM bus SMC BSA SDA
+
+---------02:49----------
+so SM bus that's going to be a type of
+
+---------02:51----------
+communication between the battery and
+
+---------02:54----------
+the SMC now let's take a little look at
+
+---------02:57----------
+where that goes to right so that also
+
+---------03:01----------
+goes to the battery indicator that goes
+
+---------03:03----------
+to this is L six two five nine chip
+
+---------03:06----------
+which is the chip that controls charging
+
+---------03:08----------
+the battery and also creating PP bus G
+
+---------03:12----------
+three hot but if we go a little bit
+
+---------03:14----------
+further down the line you'll see that
+
+---------03:16----------
+this is also part of a data line that's
+
+---------03:19----------
+going to be talking to the SMC so see
+
+---------03:21----------
+here this is where the battery is going
+
+---------03:23----------
+to talk to the SMC and this is the most
+
+---------03:25----------
+important part over here and the
+
+---------03:27----------
+schematic where it shows you all the
+
+---------03:28----------
+different connections so you have the
+
+---------03:29----------
+SMC talking to the battery charging chip
+
+---------03:32----------
+which then talks to the battery now a
+
+---------03:34----------
+data line usually works based on a
+
+---------03:37----------
+specific set voltage the whole idea here
+
+---------03:39----------
+is that there is going to be a voltage
+
+---------03:41----------
+that is always present on the line and
+
+---------03:43----------
+any time one of these chips wants to
+
+---------03:45----------
+talk what it's going to do is it's going
+
+---------03:47----------
+to pull the line down to zero so let me
+
+---------03:49----------
+just find I'm gonna try and find an
+
+---------03:53----------
+example here and one of the lessons that
+
+---------03:55----------
+I that I usually use for for the people
+
+---------03:57----------
+who come for the course let's find this
+
+---------04:03----------
+here we go open copy and so we're gonna
+
+---------04:08----------
+find a data line I know I'm not editing
+
+---------04:12----------
+because I'm a lazy alright so here
+
+---------04:17----------
+we go so you have a pull-up resistors
+
+---------04:20----------
+which are going to pull the data line up
+
+---------04:22----------
+to a certain voltage and then you have
+
+---------04:24----------
+the actual data line itself and it's
+
+---------04:26----------
+going to look something like this
+
+---------04:27----------
+so here's the 3.42 volt side of that
+
+---------04:30----------
+pull-up resistors I see over here it
+
+---------04:31----------
+says PP 3v for two over here and the
+
+---------04:34----------
+schematic it says PP 3v for two on this
+
+---------04:37----------
+side of the resistor so it's gonna pull
+
+---------04:39----------
+the line up to three point 42 volts and
+
+---------04:42----------
+over here I think I was using a knockoff
+
+---------04:43----------
+charger which is why it's rippling so
+
+---------04:45----------
+much now on the data side of it you'll
+
+---------04:48----------
+see a bunch of pulsing so anytime the
+
+---------04:50----------
+battery or the battery charger chip or
+
+---------04:53----------
+the SMC want to communicate they'll pull
+
+---------04:56----------
+the line down and these pulses over here
+
+---------04:58----------
+are communication so how long is it
+
+---------05:00----------
+pulled down or pulled up for you know
+
+---------05:02----------
+it's pretty just think of it like ones
+
+---------05:03----------
+and zeros at the top of the line you got
+
+---------05:04----------
+a 1 and at the bottom of it you have a 0
+
+---------05:06----------
+and it's just it's computer
+
+---------05:09----------
+communication don't ask me what any of
+
+---------05:11----------
+this means I have no idea but this
+
+---------05:13----------
+is communication right so you have all
+
+---------05:15----------
+of that happening on this data line over
+
+---------05:18----------
+here between the battery the SMC and the
+
+---------05:20----------
+charger now this is working off of PP 3
+
+---------05:23----------
+V 4 2 which is the 3 point 42 volt power
+
+---------05:25----------
+line that means that this is a three
+
+---------05:27----------
+point 42 volt data line so you have this
+
+---------05:29----------
+over here which is your 3.42 volt data
+
+---------05:32----------
+line sm bus SMC BSA SDA right down here
+
+---------05:36----------
+if you see where the mouse is moving on
+
+---------05:37----------
+the bottom of the screen
+
+---------05:38----------
+that's right can tell that pin six is
+
+---------05:40----------
+that data line yet on pin seven you have
+
+---------05:43----------
+a 12 volt connection so what do you
+
+---------05:45----------
+think is going to happen when you send
+
+---------05:47----------
+12 point 6 volts to a 3 volt data line
+
+---------05:51----------
+and everything on that data line is now
+
+---------05:56----------
+destroyed in particular the SMC and the
+
+---------05:59----------
+reason this is important is because the
+
+---------06:01----------
+right to repair bill didn't pass so if
+
+---------06:03----------
+you are just changing the battery in
+
+---------06:06----------
+your device and you screw up and you're
+
+---------06:09----------
+using your flat-head screwdriver and you
+
+---------06:11----------
+put your little flat head screwdriver
+
+---------06:12----------
+where it's not supposed to go now it's
+
+---------06:14----------
+not a question of me buying that chip
+
+---------06:17----------
+with programming now it's me buying a
+
+---------06:20----------
+donor board from China waiting 6 weeks
+
+---------06:23----------
+for it to get here taking the SMC off of
+
+---------06:26----------
+that donor board because it comes to
+
+---------06:28----------
+programming I can't buy a new chip
+
+---------06:29----------
+because I don't have I'm not allowed to
+
+---------06:31----------
+read the programming off of this one
+
+---------06:33----------
+putting 96.2 millimeter balls on it
+
+---------06:36----------
+manually and then soldering it on and
+
+---------06:38----------
+you may ask well isn't it your job to
+
+---------06:41----------
+have it
+
+---------06:42----------
+smc for this isn't it your job to have
+
+---------06:43----------
+the tools to do your job this is a
+
+---------06:46----------
+six-year-old board I mean I you know I
+
+---------06:48----------
+don't get a lot of these in so if
+
+---------06:49----------
+somebody asks me to fix it I can but
+
+---------06:52----------
+again and this is the thing what that
+
+---------06:54----------
+rights are repairable that I don't think
+
+---------06:55----------
+a lot of people get it's not going to
+
+---------06:57----------
+stop me from doing the job it's just
+
+---------06:59----------
+going to cause me to have to tell
+
+---------07:00----------
+somebody it's going to take six weeks
+
+---------07:02----------
+instead of it's going to take two days
+
+---------07:04----------
+and instead of the money going to the
+
+---------07:06----------
+manufacturer the money is now going to
+
+---------07:09----------
+somebody in Taipei or Shenzhen who's
+
+---------07:11----------
+digging these boards that I buy with
+
+---------07:14----------
+holes in them out of a garbage again
+
+---------07:16----------
+it's not going to stop the process it's
+
+---------07:18----------
+not gonna stop it at all
+
+---------07:19----------
+it's just going to make it a more
+
+---------07:21----------
+painful process for me a more painful
+
+---------07:23----------
+process for the customer and it's going
+
+---------07:26----------
+to keep the money from going where it
+
+---------07:28----------
+could go and the money could go to Apple
+
+---------07:30----------
+the money could go to the manufacturer
+
+---------07:32----------
+of the chip or the money could go to
+
+---------07:34----------
+somebody who is pulling crap out of a
+
+---------07:36----------
+dumpster in China it's again it's not
+
+---------07:38----------
+going to stop the economy it's just
+
+---------07:40----------
+going to put the money in somebody
+
+---------07:41----------
+else's pocket and make everybody a
+
+---------07:43----------
+little bit less happy with the process
+
+---------07:45----------
+the user is less happy they have to wait
+
+---------07:47----------
+the user is less happy that the battery
+
+---------07:49----------
+is screwed into the Machine and it's not
+
+---------07:53----------
+really great manner and I'm less happy
+
+---------07:56----------
+that that I have to deal with that
+
+---------07:57----------
+entire process altogether and one thing
+
+---------08:01----------
+that really kills me with this right to
+
+---------08:02----------
+repair bill and the people who are
+
+---------08:03----------
+saying if you don't like it you can vote
+
+---------08:05----------
+with your wallet I mean none of the
+
+---------08:08----------
+manufacturers now release any of this
+
+---------08:10----------
+information it's not like Apple is the
+
+---------08:11----------
+only one that doesn't really schematic
+
+---------08:13----------
+sir any of this none of them do so there
+
+---------08:16----------
+is really no voting with your wallet and
+
+---------08:17----------
+people will say well if you don't want
+
+---------08:19----------
+it then you can just not buy that stuff
+
+---------08:21----------
+what about cars
+
+---------08:23----------
+what about automobiles because a lot of
+
+---------08:25----------
+people who say that stuff I don't think
+
+---------08:26----------
+they realized that there was very
+
+---------08:28----------
+similar legislation passed in the owner
+
+---------08:30----------
+of automotive industry and they go oh
+
+---------08:32----------
+it's not related well how is it not
+
+---------08:34----------
+related cars are ubiquitous item that we
+
+---------08:36----------
+use all across the country that people
+
+---------08:38----------
+expect to be able to have repaired by
+
+---------08:40----------
+somebody but the dealer if something
+
+---------08:42----------
+goes wrong with it
+
+---------08:43----------
+you don't tell people oh you could vote
+
+---------08:45----------
+with your wallet and walk 90 miles to
+
+---------08:47----------
+work if you really cared that much you
+
+---------08:49----------
+would just stop buying cars and find the
+
+---------08:51----------
+job closer to your house like you don't
+
+---------08:53----------
+hear that kind of ignorant being
+
+---------08:54----------
+spouted in another in
+
+---------08:55----------
+yet for some reason in our industry it's
+
+---------08:58----------
+totally okay for that type of ignorant
+
+---------08:59----------
+horse crap to be to be said and you even
+
+---------09:03----------
+after the the right to repairable was
+
+---------09:05----------
+passed in the automotive industry you
+
+---------09:08----------
+don't see mechanics you know designing
+
+---------09:10----------
+hybrid cars in their garage because this
+
+---------09:12----------
+is whole thing on intellectual property
+
+---------09:14----------
+and we want all the stuff required to
+
+---------09:16----------
+make the device we really only want
+
+---------09:18----------
+what's necessary to repair it you're not
+
+---------09:21----------
+if you give me a schematic aboard view
+
+---------09:23----------
+and programming to the SMC I'm not going
+
+---------09:26----------
+to sit here assembling ten layer MacBook
+
+---------09:28----------
+PCBs in my little box of an office
+
+---------09:32----------
+the same way that you that the the
+
+---------09:35----------
+mechanic is not going to assemble a
+
+---------09:37----------
+Toyota Prius because you give him a tool
+
+---------09:39----------
+to tell what's going on with the car
+
+---------09:41----------
+anyway
+
+---------09:42----------
+point being if you are going to take
+
+---------09:45----------
+your battery out and you are going to
+
+---------09:46----------
+use a metal tool you can use a metal
+
+---------09:48----------
+tool to remove the battery so long as
+
+---------09:50----------
+you make sure that you don't touch any
+
+---------09:52----------
+metal contact points or if you're not
+
+---------09:54----------
+sure if you're gonna touch metal contact
+
+---------09:56----------
+points if you think you don't have a
+
+---------09:58----------
+steady hand then use your fingernail or
+
+---------10:00----------
+use something else but don't touch the
+
+---------10:02----------
+points on the battery because if you
+
+---------10:04----------
+short the 12 volts or the eight volts of
+
+---------10:07----------
+the battery to the three point 42 volt
+
+---------10:10----------
+SMC data line you're going to have an X
+
+---------10:12----------
+in the corner it's never gonna see the
+
+---------10:14----------
+battery and you're gonna wind up paying
+
+---------10:15----------
+somebody like me too much money to fix
+
+---------10:17----------
+what should have never happen in the
+
+---------10:19----------
+first place
+
+---------10:19----------
+I hope this has been informative and
+
+---------10:21----------
+that's it for today
+

@@ -1,0 +1,1249 @@
+https://www.youtube.com/watch?v=DoiByFIPgK8
+---------00:00----------
+hey everybody how's it going so today
+
+---------00:01----------
+we've got an ancient old a 1278 MacBook
+
+---------00:04----------
+that's not powering on let's open this
+
+---------00:06----------
+thing up and see if we could figure out
+
+---------00:07----------
+what's wrong with it
+
+---------00:08----------
+oh my god you're an 8 - 0 - 28 79 Core 2
+
+---------00:17----------
+Duo with an MCP 89 Jesus this thing is
+
+---------00:21----------
+old
+
+---------00:22----------
+by the way if he if you can't see the
+
+---------00:23----------
+h20 there's 2879
+
+---------00:25----------
+you might just have some problems with
+
+---------00:27----------
+your vision see it's right over here see
+
+---------00:32----------
+that 8 - 0 28 79 clear as day you should
+
+---------00:37----------
+be able to read that very easily if
+
+---------00:39----------
+you're having problems with that you
+
+---------00:41----------
+might just have problems of eating in
+
+---------00:42----------
+this business see that 8 - 0 28 79 the
+
+---------00:48----------
+no green light on the charger so let's
+
+---------00:51----------
+see what happens if we try to turn it on
+
+---------00:53----------
+manually using the power pads and it
+
+---------00:57----------
+doesn't look like we get anything all
+
+---------01:01----------
+right so let's check out the one wire
+
+---------01:02----------
+circuit on this
+
+---------01:11----------
+mm-hmm and it's supposed to be 3.3 volts
+
+---------01:15----------
+3.42 volts on that ship over there
+
+---------01:18----------
+that's 5,400 rpm pseudo beams 5400 rpm
+
+---------01:28----------
+see that ep 3 before 2 is not present
+
+---------01:35----------
+where it's needs to be
+
+---------01:58----------
+let's remove the borscht from the case
+
+---------02:02----------
+this has a nice pretty simple little one
+
+---------02:05----------
+wire circuit so for the one wire circuit
+
+---------02:07----------
+to work I need PP through before to
+
+---------02:08----------
+undersquare g3 hot to be present PP 30
+
+---------02:10----------
+before to underscore g3 hot is created
+
+---------02:12----------
+by u 6990 u 6990 is gonna be right over
+
+---------02:16----------
+here so let's just check out this one
+
+---------02:19----------
+wire circuit isn't this beautiful
+
+---------02:20----------
+you have your DC power jack over here
+
+---------02:23----------
+that has three lines 18 volts 18 volts
+
+---------02:28----------
+ground adapter sense the after sense is
+
+---------02:34----------
+going to go to this chip now this chip
+
+---------02:36----------
+serves as the body guard to the system
+
+---------02:38----------
+management controller which is what
+
+---------02:40----------
+talks to the charger on the system one
+
+---------02:42----------
+wire line if you are drunk
+
+---------02:44----------
+and you plug this in magnetic connector
+
+---------02:45----------
+in sideways so that 18 volts goes to
+
+---------02:48----------
+adapter sense this says oh hell no I'm
+
+---------02:51----------
+not letting 18 volt into the SMC gtfo
+
+---------02:53----------
+but if it's the 3 volt data line then it
+
+---------02:56----------
+lets it speak to the SMC this chip is
+
+---------02:58----------
+powered by this chip and this chip is
+
+---------02:59----------
+powered by pp 3 or 4 200 g3 hot if s MC
+
+---------03:02----------
+bc AC ok is present on pins a and B over
+
+---------03:04----------
+here it sends 53 before to underscore g3
+
+---------03:06----------
+hot over to this chip which allows the
+
+---------03:07----------
+adapter sense line on the charger to
+
+---------03:09----------
+communicate with the SMC which allows it
+
+---------03:10----------
+all to turn on but in order for that to
+
+---------03:12----------
+work you need PP 3 or 4 to underscore g3
+
+---------03:14----------
+hot which is why we're gonna take a look
+
+---------03:15----------
+at the u 6990 circuit and see what's
+
+---------03:17----------
+going on with this board now in order
+
+---------03:19----------
+for that to work you need voltage on pin
+
+---------03:20----------
+6 for it to turn on right over there
+
+---------03:23----------
+that's going to be the power from the
+
+---------03:25----------
+charger so let's see on the board what
+
+---------03:27----------
+happens if we measure over there okay so
+
+---------03:29----------
+I have 0 volts there which means
+
+---------03:30----------
+nothing's going through alright so let's
+
+---------03:32----------
+follow that back alright 6905 is back
+
+---------03:39----------
+here
+
+---------03:43----------
+let's see we have on each side of our
+
+---------03:46----------
+6905
+
+---------03:55----------
+0:17 huh this is zero
+
+---------04:01----------
+seventeen zero okay you get the idea
+
+---------04:05----------
+what's going on here now I'm not gonna
+
+---------04:07----------
+replace that resistor without trying to
+
+---------04:08----------
+figure out why it failed first first
+
+---------04:10----------
+thing wouldn't do is see if there's a
+
+---------04:11----------
+short to ground after it and ninety ohms
+
+---------04:16----------
+that's not right ma'am
+
+---------04:18----------
+that's not right so there is most likely
+
+---------04:21----------
+a short to ground somewhere here so
+
+---------04:23----------
+let's go back to our schematic and board
+
+---------04:27----------
+you now where could this possibly be
+
+---------04:28----------
+sure you have two possibilities it could
+
+---------04:30----------
+be only two things right you have either
+
+---------04:32----------
+a you 6990 or B this capacitor ground
+
+---------04:36----------
+it's the only two ways that this thing
+
+---------04:37----------
+can be short to ground the only two ways
+
+---------04:39----------
+now it could be technically a short on
+
+---------04:41----------
+output of pp three or four too but that
+
+---------04:43----------
+is yeah that's that's not even remotely
+
+---------04:46----------
+there it's open line also by the way
+
+---------04:48----------
+look at this they can't even draw their
+
+---------04:50----------
+lines right so instead of having those
+
+---------04:51----------
+line in the schematic 118 volt going to
+
+---------04:54----------
+voltage in the other going to the
+
+---------04:55----------
+shutdown pin they're both going to the
+
+---------04:57----------
+shutdown pin and voltage in is just
+
+---------04:58----------
+going nowhere they couldn't just make
+
+---------05:00----------
+the line go from here to here and this
+
+---------05:03----------
+this is really important and the reason
+
+---------05:04----------
+I'm pointing this out is if they can't
+
+---------05:06----------
+even proofread the schematic diagram
+
+---------05:08----------
+that says how the machine is built how
+
+---------05:10----------
+the [ __ ] can you trust that they're
+
+---------05:11----------
+actually building a machine that's made
+
+---------05:12----------
+to last when I go over all the design
+
+---------05:15----------
+flaws over the past 11 12 13 years of
+
+---------05:17----------
+Apple products and I talked about how
+
+---------05:18----------
+their their designs are unfit I just
+
+---------05:21----------
+want you to think about this that the
+
+---------05:22----------
+final documentation that says how this
+
+---------05:24----------
+product is put together is actually
+
+---------05:27----------
+wrong in the last video that I did I was
+
+---------05:29----------
+talking about how they can't even get
+
+---------05:31----------
+right the voltage that goes to their RAM
+
+---------05:33----------
+is at 0.35 volts or 0.67 five volts for
+
+---------05:35----------
+DDR vtt do they use an ISO six two five
+
+---------05:38----------
+eight and is L six two five nine or an
+
+---------05:40----------
+ISO nine three three nine and here they
+
+---------05:42----------
+can't even get the lines that show how
+
+---------05:44----------
+things are drawn together properly I
+
+---------05:45----------
+just want you to think about that
+
+---------05:46----------
+because this product when it came out
+
+---------05:48----------
+was priced as a premium product you have
+
+---------05:51----------
+to remember the a 1278 MacBook all the
+
+---------05:53----------
+way in late 2015 they were selling a
+
+---------05:56----------
+dual-core ivory Bridge machine with
+
+---------05:58----------
+about four gigs of RAM 5400 rpm spinning
+
+---------06:02----------
+hard drive for a thousand $49
+
+---------06:06----------
+they can't even draw the lines right I'm
+
+---------06:08----------
+just saying anyway so we it looks like
+
+---------06:10----------
+we have a short and it's going to be
+
+---------06:11----------
+either the cap or that so see six nine
+
+---------06:14----------
+nine nine takes c6 9 9 0 or the chip now
+
+---------06:19----------
+I'm gonna guess that it's the cap
+
+---------06:22----------
+because that is corroded whereas the
+
+---------06:24----------
+chip looks kind of fine so we're gonna
+
+---------06:26----------
+have to find ourselves a donor 8 - 0 -
+
+---------06:28----------
+28 79 because I don't think my donor
+
+---------06:31----------
+caps bin goes up to 805 in size so we're
+
+---------06:36----------
+just gonna knock that cap off the board
+
+---------06:37----------
+we may not actually even need that cab
+
+---------06:39----------
+just look just just sayin so let's see
+
+---------06:41----------
+what happens if you just knock that cap
+
+---------06:42----------
+off the board if we get anything funky
+
+---------06:45----------
+happening
+
+---------06:46----------
+[Music]
+
+---------07:01----------
+according to my monitor it says that my
+
+---------07:03----------
+iron is 840 degrees but this is not
+
+---------07:05----------
+acting like it's 840 degrees okay there
+
+---------07:08----------
+we go
+
+---------07:08----------
+I'm gonna get some tip cleaner it's
+
+---------07:12----------
+always important to clean your tip you
+
+---------07:14----------
+gotta find something to clean your tip
+
+---------07:16----------
+every now and then if your girlfriend
+
+---------07:18----------
+leaves and you don't know when she's
+
+---------07:19----------
+coming back helps to have something else
+
+---------07:21----------
+to stick your tip into especially if it
+
+---------07:23----------
+promises that it's gonna clean your tip
+
+---------07:26----------
+all right there we go so you don't want
+
+---------07:30----------
+to dip your tip in too long just you
+
+---------07:31----------
+know 10-15 seconds and then after the
+
+---------07:38----------
+10-15 seconds in there we're gonna go
+
+---------07:40----------
+over to the hakko $5.99 B and clean it
+
+---------07:46----------
+up and then if you're a real savage
+
+---------07:51----------
+while your girlfriend is watching and
+
+---------07:53----------
+chat you can stick the tip in oh yeah oh
+
+---------07:59----------
+oh that is so satisfying and when you're
+
+---------08:05----------
+done sticking the tip and every now and
+
+---------08:07----------
+then it's good to smoke all right you
+
+---------08:08----------
+know for some people once they're done
+
+---------08:10----------
+sticking the tip and they'll just allow
+
+---------08:11----------
+it to smoke for a little bit right after
+
+---------08:13----------
+they're done kind of relaxes them you
+
+---------08:14----------
+know see that she's a little bit of
+
+---------08:17----------
+smoke just to help you relax
+
+---------09:33----------
+hmm okay have the multimeter in ohms
+
+---------09:37----------
+mode so we went from 90 ohms to ground
+
+---------09:43----------
+on that area to now about a hundred
+
+---------09:46----------
+seventy thousand ohms to ground so I'm
+
+---------09:48----------
+gonna say that the cap was the problem
+
+---------09:51----------
+and not the chip so he did guess
+
+---------09:52----------
+properly and that was a guess because it
+
+---------09:59----------
+was one of the other I now I made the
+
+---------10:01----------
+guess based on some information and it's
+
+---------10:03----------
+better to have a guess based on
+
+---------10:04----------
+information than a guest is based on a
+
+---------10:06----------
+guess but that guess was based on the
+
+---------10:08----------
+fact that the chip was not at all
+
+---------10:10----------
+corroded whereas the capacitor seriously
+
+---------10:14----------
+obviously was once we restore pp three
+
+---------10:19----------
+or four to one to score g3 hot on this
+
+---------10:20----------
+machine we should expect this beautiful
+
+---------10:23----------
+Core 2 Duo masterpiece to return to
+
+---------10:26----------
+functionality
+
+---------10:48----------
+so now I'm gonna try to do this without
+
+---------10:49----------
+a hot-air station so what I do let's
+
+---------10:53----------
+just say I didn't have a hot-air station
+
+---------10:54----------
+available to me but you could do over
+
+---------10:56----------
+there is you could just solder one pad
+
+---------10:58----------
+rather than both pads
+
+---------11:11----------
+then you take your iron
+
+---------11:35----------
+Quora to small max are more stable than
+
+---------11:37----------
+modern t2 chip max for various real-time
+
+---------11:39----------
+professional apps audio less crashes
+
+---------11:41----------
+latency you know can you email me an
+
+---------11:44----------
+article on that I may not be able to
+
+---------11:46----------
+respond to you exactly but I just don't
+
+---------11:47----------
+want to forget about - about looking
+
+---------11:49----------
+into that I'd be really interested to
+
+---------11:50----------
+understand or gain an understanding of
+
+---------11:53----------
+what it is if anything that makes a t2
+
+---------11:56----------
+chip MacBook more unstable or have more
+
+---------11:59----------
+latency when it comes to real-time audio
+
+---------12:02----------
+and video applications
+
+---------12:03----------
+very curious thank you very much for
+
+---------12:06----------
+taking the time so we are gonna replace
+
+---------12:10----------
+our capacitor
+
+---------12:11----------
+since water got over here just gonna
+
+---------12:13----------
+give our chip a little bit of a a little
+
+---------12:17----------
+bit of rehab and put that cap back where
+
+---------12:22----------
+it should be since I knocked it off I
+
+---------12:25----------
+wasn't very nice of me to knock that
+
+---------12:27----------
+campus sitter off
+
+---------12:33----------
+no this is the hot air
+
+---------12:42----------
+you have a legitimate gripe átheir legit
+
+---------12:45----------
+hello
+
+---------12:46----------
+most of them will be because of I mean
+
+---------12:49----------
+even we have trouble finding nose
+
+---------12:50----------
+actually especially a 1417 it's a bit of
+
+---------12:53----------
+a nightmare for us right now
+
+---------13:25----------
+I've always wanted of New York Pizza is
+
+---------13:27----------
+really that good says margarita doctor
+
+---------13:29----------
+no pizza in general is crap there are so
+
+---------13:32----------
+many things if there are millions of
+
+---------13:34----------
+things that are better to eat than pizza
+
+---------13:36----------
+I don't even mean better for you I mean
+
+---------13:38----------
+better as in they just taste better they
+
+---------13:40----------
+are better New York City Pizza sucks
+
+---------13:42----------
+it's the kind of stuff where you pick it
+
+---------13:44----------
+up and it just flops it's like good and
+
+---------13:46----------
+then people say well you have to fold
+
+---------13:48----------
+that you don't understand you're using
+
+---------13:49----------
+it wrong they Apple you when it comes to
+
+---------13:51----------
+New York Pizza you're using it wrong you
+
+---------13:53----------
+need to fold it cuz I'm supposed to funk
+
+---------13:55----------
+origami my food after I pay for it in
+
+---------13:58----------
+order to be able to put it in my mouth
+
+---------13:59----------
+great but then when you fold it it's
+
+---------14:01----------
+Sophie oily that once you folded it
+
+---------14:04----------
+instead of the oil staying here it just
+
+---------14:06----------
+starts to go out like a spigot onto your
+
+---------14:08----------
+plate and it never stops it just keeps
+
+---------14:10----------
+going and going and going it's
+
+---------14:12----------
+disgusting I can't believe people eat
+
+---------14:14----------
+that [ __ ] voluntarily disgusting but
+
+---------14:17----------
+let's replace the resister
+
+---------14:27----------
+they got rid of the cause of the short
+
+---------14:28----------
+but I never replaced the resistor that
+
+---------14:30----------
+blew
+
+---------15:43----------
+how do you have forty nine thousand
+
+---------15:44----------
+subscribers here in 1.50 five million
+
+---------15:46----------
+your other channel lopsided a little I
+
+---------15:48----------
+would argue with you that I don't have
+
+---------15:50----------
+one point zero five million on my other
+
+---------15:52----------
+channel if I post a normal bit like a
+
+---------15:54----------
+border pair video it usually gets about
+
+---------15:56----------
+20,000 views if I posed an interesting
+
+---------15:59----------
+border pair video maybe it'll get thirty
+
+---------16:02----------
+or forty thousand views if I post a
+
+---------16:04----------
+video about an issue that I think is
+
+---------16:05----------
+interesting or important
+
+---------16:06----------
+it'll get fifty forty to fifty thousand
+
+---------16:09----------
+views if I post something that's crazy
+
+---------16:11----------
+viral then the crazy viral video will
+
+---------16:15----------
+get 80 to 120 thousand views so I don't
+
+---------16:19----------
+think I actually have a million
+
+---------16:20----------
+subscribers I don't know how YouTube's
+
+---------16:22----------
+rates that stuff I don't know how that
+
+---------16:24----------
+works
+
+---------16:24----------
+but that does not seem to be even
+
+---------16:27----------
+remotely accurate I would say that the
+
+---------16:30----------
+number of subscribers are having a live
+
+---------16:31----------
+channel is actually closer to my real
+
+---------16:34----------
+following there we go so again one of
+
+---------16:40----------
+the things I like to do is I try to show
+
+---------16:42----------
+you what it would be like if I didn't
+
+---------16:43----------
+have a hot-air station we we wick the
+
+---------16:46----------
+solder we solder one side and I use now
+
+---------16:49----------
+remember I have you typically you're
+
+---------16:51----------
+supposed to be adding solder as you have
+
+---------16:53----------
+the soldering iron there you don't just
+
+---------16:54----------
+have the starter stay stagnant or OC a
+
+---------16:56----------
+crappy joints but I need the tweezer to
+
+---------16:58----------
+push it down and this the solder with so
+
+---------17:00----------
+I add flux before I saw her and adding
+
+---------17:04----------
+the flux before I solder to make sure
+
+---------17:05----------
+that I get a nice pretty joint out of it
+
+---------17:07----------
+which is what we did there so now we
+
+---------17:12----------
+should have a happy little green light
+
+---------17:29----------
+all right we have 30 milliamp usage my
+
+---------17:33----------
+resistor is not smoking let's see if I
+
+---------17:36----------
+get a fan spin do I get a fan spin I
+
+---------17:42----------
+probably don't get a fan spin because
+
+---------17:43----------
+this board is from 2010 yeah you're not
+
+---------17:49----------
+gonna give me a fan spin are you
+
+---------17:57----------
+so we're gonna show it to power on pads
+
+---------17:59----------
+no offense but and you're stuck at 24
+
+---------18:03----------
+million oh the sadness
+
+---------18:12----------
+huh here we go you have a green light
+
+---------18:14----------
+now Oh
+
+---------18:16----------
+fans been ok look at this board look at
+
+---------18:19----------
+the amp usage damn and a 1502 takes five
+
+---------18:23----------
+to six hundred milliamps the air takes
+
+---------18:24----------
+five to six hundred milliamps this thing
+
+---------18:26----------
+takes a full amp this thing takes almost
+
+---------18:29----------
+as much as the as the 15-inch retina
+
+---------18:31----------
+booting out the machine that has a
+
+---------18:34----------
+dedicated graphics card that's powerful
+
+---------18:36----------
+and the quad-core CPU takes about almost
+
+---------18:39----------
+the same like a little bit more amperage
+
+---------18:41----------
+than this piece of [ __ ] takes to turn on
+
+---------18:42----------
+Wow and the reason I have to do that is
+
+---------18:45----------
+these ones these don't turn on
+
+---------18:46----------
+automatically SMC on-off l pads actually
+
+---------18:48----------
+have to be shorted in order for that to
+
+---------18:50----------
+turn on and I had to scrape them because
+
+---------18:51----------
+they were so junky because they're so
+
+---------18:53----------
+old that they weren't responding to my
+
+---------18:55----------
+tweezer but yeah as you can see there we
+
+---------18:57----------
+have a green light and it does turn on
+
+---------18:59----------
+so let's just go over the lesson here
+
+---------19:02----------
+because a similar circuit to this is
+
+---------19:04----------
+still used in newer machines no we were
+
+---------19:08----------
+not getting a green light there was no
+
+---------19:12----------
+green light and first thing you got to
+
+---------19:16----------
+do to get the green light up take a look
+
+---------19:18----------
+at your one wire circuit the one wire
+
+---------19:21----------
+circuit is gonna be where you have
+
+---------19:23----------
+adapter sense that is the sense line
+
+---------19:26----------
+from the charger that's the kind of like
+
+---------19:27----------
+the brain of the charger this is where
+
+---------19:29----------
+the charger plugs in by the way MagSafe
+
+---------19:30----------
+DC power jack that's gonna speak to this
+
+---------19:33----------
+chip this chip is then going to allow
+
+---------19:35----------
+the charger to speak to the system
+
+---------19:36----------
+management controller which needs to
+
+---------19:37----------
+happen to in order to get a green light
+
+---------19:39----------
+this chip is gonna turn on if it has
+
+---------19:41----------
+powered its VCC pin typically the pin at
+
+---------19:43----------
+the top or anything when you see VCC VDD
+
+---------19:46----------
+V in that's voltage in that it needs to
+
+---------19:50----------
+have three-point 42 volts that's gonna
+
+---------19:51----------
+come from this chip and this chips gonna
+
+---------19:52----------
+get that from PB 3 or 2 so that rail has
+
+---------19:55----------
+to be present this rail wasn't present I
+
+---------19:57----------
+looked at voltage in that wasn't present
+
+---------20:00----------
+so I went back over here this was not
+
+---------20:02----------
+present then I went back over to here
+
+---------20:03----------
+and I had 17 volts but I had 0 volts
+
+---------20:05----------
+here but at 17 volts there and 0 volts
+
+---------20:07----------
+here so what I did was I checked to see
+
+---------20:09----------
+if there's a short-circuit over here I
+
+---------20:11----------
+did and I saw there was 92 ohms it was
+
+---------20:13----------
+either the cap or this that was gonna be
+
+---------20:15----------
+shorted to ground the capacitor was
+
+---------20:16----------
+corroded the chip wasn't so I replaced
+
+---------20:19----------
+the capacitor and the short was gone
+
+---------20:20----------
+then I replaced the resistor because the
+
+---------20:22----------
+short was no longer there and it worked
+
+---------20:23----------
+how do I simply replace the broken
+
+---------20:25----------
+resistor
+
+---------20:26----------
+and left that capacitor there which is
+
+---------20:27----------
+what many people do in a fuse blows
+
+---------20:28----------
+let's just replace the views just reset
+
+---------20:31----------
+the circuit breaker without figuring out
+
+---------20:32----------
+why it blew it would have smoked and
+
+---------20:34----------
+blew again but it didn't blow again as
+
+---------20:36----------
+you can see we have a fan spin and we
+
+---------20:39----------
+have a green light so that is fixed well
+
+---------20:42----------
+that's it for today thank you so much
+
+---------20:44----------
+for watching viewing taking part in
+
+---------20:46----------
+everything we do hopefully you learn
+
+---------20:47----------
+something that you can use to revive one
+
+---------20:49----------
+of these old machines I am kidding as
+
+---------20:50----------
+much as I like to just bash on it
+
+---------20:53----------
+because it's an MCP 89 machine and I
+
+---------20:55----------
+have a personal vendetta with these for
+
+---------20:57----------
+the frequency at which the mCP 89 would
+
+---------20:59----------
+just die I am you know it's it's good to
+
+---------21:02----------
+make it work again because as we can say
+
+---------21:05----------
+what we want but there's people out
+
+---------21:06----------
+there that probably couldn't afford a
+
+---------21:07----------
+better computer than what you have over
+
+---------21:09----------
+here and it's better that it works in a
+
+---------21:11----------
+dozen regardless of how slow this is
+
+---------21:14----------
+this has more value in a working machine
+
+---------21:16----------
+than it does in a dumpster and app
+
+---------21:18----------
+companies like Apple would prefer that
+
+---------21:20----------
+when something like this happens that
+
+---------21:22----------
+this wind up in a waste this little
+
+---------21:24----------
+robot Liam take it apart and just
+
+---------21:25----------
+recycle it to nothing but I think what
+
+---------21:28----------
+would be better is if people like you
+
+---------21:29----------
+watching use these videos learn from
+
+---------21:32----------
+them really understand what's going on
+
+---------21:33----------
+and then take stuff like this and make
+
+---------21:36----------
+it work again so that you can make it
+
+---------21:37----------
+available to people who couldn't
+
+---------21:38----------
+otherwise afford it that's it for today
+
+---------21:40----------
+and as always I hope you learned
+
+---------21:41----------
+something
+

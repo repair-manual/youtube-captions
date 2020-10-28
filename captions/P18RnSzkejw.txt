@@ -1,0 +1,1066 @@
+https://www.youtube.com/watch?v=P18RnSzkejw
+---------00:00----------
+all right so today we're gonna be trying
+
+---------00:01----------
+to fix a MacBook that is not working
+
+---------00:03----------
+this is an 8 - 0 - 0 0 165 motherboard
+
+---------00:08----------
+we're gonna be trying to figure out
+
+---------00:09----------
+what's wrong with this 8 - 0 - 0 0 165
+
+---------00:12----------
+motherboard let's get this thing on the
+
+---------00:14----------
+desk let's get rid of crotch cam that's
+
+---------00:17----------
+gonna get me some unwanted attention and
+
+---------00:19----------
+plug it in as can be seen we do get a
+
+---------00:22----------
+light in the charger but no fan spin and
+
+---------00:23----------
+my power supply says we're taking 94
+
+---------00:26----------
+milliamps now in 94 to 150 milliamps
+
+---------00:28----------
+typically means that it is trying to
+
+---------00:31----------
+turn on but it is failing to turn on and
+
+---------00:34----------
+that's typically because it's stuck it's
+
+---------00:37----------
+in a so state but also spout good is not
+
+---------00:39----------
+present because of some missing s
+
+---------00:40----------
+Oreille that's usually the case or the
+
+---------00:43----------
+second thing that's typically the case
+
+---------00:44----------
+when you're getting that type of reading
+
+---------00:46----------
+is PP Bosch d3 huh it is short-circuited
+
+---------00:48----------
+to ground by let's say some sort of CPU
+
+---------00:51----------
+v core or PP bus capacitor so let's see
+
+---------00:54----------
+what could be the case here let's just
+
+---------00:56----------
+give them a multimeter on and get some
+
+---------00:59----------
+measuring done
+
+---------01:11----------
+don't remind me hi hi I spent four hours
+
+---------01:14----------
+proofreading that [ __ ] thanks thanks a
+
+---------01:17----------
+lot
+
+---------01:17----------
+don't don't remind me okay so first
+
+---------01:22----------
+thing to do
+
+---------01:23----------
+let's go through the list of good old
+
+---------01:25----------
+power rails over here let's turn on Paul
+
+---------01:29----------
+Daniels is expletive software God
+
+---------01:33----------
+Cavallo chill dude man guy God Cavallo
+
+---------01:40----------
+first thing we're going to do is check
+
+---------01:43----------
+one of our s o rails so like pp5 ESO
+
+---------01:56----------
+I don't clean us but that is something I
+
+---------01:59----------
+should make someday when I have the time
+
+---------02:37----------
+if I come to the store on Friday will
+
+---------02:38----------
+you drop kick me I may not drop kick you
+
+---------02:41----------
+that Swedish punching lady may Swedish
+
+---------02:44----------
+punchy
+
+---------02:51----------
+two genera the genera - you - okay
+
+---------03:03----------
+so we get five volts on PP 5 ESL that
+
+---------03:06----------
+means that we're likely in an Esso state
+
+---------03:08----------
+so what's most likely going on is we
+
+---------03:11----------
+have an SL power drill that's missing
+
+---------03:12----------
+remember if you have a single SL power
+
+---------03:14----------
+round it typically means all the s3s as
+
+---------03:16----------
+far as it as fives are there if you have
+
+---------03:18----------
+an s3 power rail that means all the S 4
+
+---------03:20----------
+s and s fives are there it saves you
+
+---------03:21----------
+some time in the troubleshooting process
+
+---------03:22----------
+which is why knowing what those numbers
+
+---------03:24----------
+mean on with them knowing how many how
+
+---------03:27----------
+much amperage the logic board is taking
+
+---------03:29----------
+by using the reading from the DC power
+
+---------03:31----------
+supply is really helpful so my MagSafe
+
+---------03:34----------
+here is not actually going to an apple
+
+---------03:36----------
+power brick I try to avoid having Apple
+
+---------03:38----------
+products on my desk or in my store
+
+---------03:39----------
+that's actually going to a circuit
+
+---------03:42----------
+specialist power supply I cut off the
+
+---------03:44----------
+tip plugged it in there so I can see
+
+---------03:45----------
+exactly how many amps it's using and
+
+---------03:47----------
+this is going to save me a little bit of
+
+---------03:49----------
+time now we're going to see if we have
+
+---------03:51----------
+an issue with the all osis power good
+
+---------03:53----------
+area and if we do what could we can we
+
+---------03:57----------
+do to solve that
+
+---------04:07----------
+Gianna Gianna Gianna
+
+---------04:18----------
+so the AUSA's tower good area is gonna
+
+---------04:20----------
+be right over here by qat 150 let's go
+
+---------04:22----------
+over this because it can be a little bit
+
+---------04:24----------
+confusing
+
+---------04:36----------
+the first part that's confusing over
+
+---------04:38----------
+here is where it says ISL version used
+
+---------04:40----------
+for development
+
+---------04:40----------
+everything you see over here is not
+
+---------04:43----------
+actually on the board so this chip these
+
+---------04:46----------
+resistors all this doesn't exist this
+
+---------04:48----------
+exists this exists this does not which
+
+---------04:53----------
+is kind of strange because this attaches
+
+---------04:55----------
+to this which makes one imagine that
+
+---------04:57----------
+this would not be here gianna de I have
+
+---------05:05----------
+an excellent teacher by the way which is
+
+---------05:07----------
+what's helping thank you now this over
+
+---------05:14----------
+here or is gonna be the list of all the
+
+---------05:17----------
+different rails than I need for the
+
+---------05:18----------
+store they need PP 5 es el pp 3 V 3 es
+
+---------05:21----------
+el pp 1 B 5 s o PP 1 v8 s 355 es 4 s 3
+
+---------05:27----------
+MB PP 5 es 4 or RS 3 whatever the hell
+
+---------05:31----------
+PP 1 vs o PP 1 VL 5 s o and DDR rec now
+
+---------05:36----------
+all says power good is going to be
+
+---------05:37----------
+pulled up by this so p.m. sleep s 3 buff
+
+---------05:41----------
+LPM sleep best three L's the signal
+
+---------05:43----------
+that's required to get us to an Esso
+
+---------05:45----------
+state this R is a pull up resistor
+
+---------05:47----------
+meaning it's going to pull this signal
+
+---------05:49----------
+up to 3.3 volts which is what p.m.
+
+---------05:51----------
+sleeve s 3l is now over here any of
+
+---------05:55----------
+these P Goods can if the chip is not
+
+---------05:56----------
+working can actually short this to
+
+---------05:58----------
+ground and as well.all says power grid
+
+---------06:04----------
+can also be shorted to ground if any one
+
+---------06:05----------
+of these signals are not working so if
+
+---------06:07----------
+any one of these are missing then this
+
+---------06:10----------
+whole thing's gonna get short to ground
+
+---------06:12----------
+now remember I'm not trying to measure
+
+---------06:14----------
+the P good signals themselves I don't
+
+---------06:16----------
+care about that because remember if
+
+---------06:17----------
+one's missing all of them will be
+
+---------06:19----------
+missing thank you very much Rockford
+
+---------06:20----------
+Tech by the way what I'm looking for are
+
+---------06:22----------
+the actual power rails associated with
+
+---------06:24----------
+these P good signals so P P 1 v8 s 3 PP
+
+---------06:27----------
+5 es 4 RS 3 and remember that the power
+
+---------06:29----------
+rails themselves are going to be spelled
+
+---------06:31----------
+a little bit differently than the P good
+
+---------06:33----------
+signal so for example it's P P 1 vo 5
+
+---------06:35----------
+underscore s L here it's P 1 vo 5 s oh
+
+---------06:38----------
+you'll get there you'll get the catch of
+
+---------06:39----------
+this and as time goes on so let's go to
+
+---------06:44----------
+the top here now I already measured PP 5
+
+---------06:46----------
+vs oh I need to measure that next up I'm
+
+---------06:48----------
+going to measure as Pepa 3
+
+---------06:49----------
+three esse so let's check and see if we
+
+---------06:51----------
+got our pepper three four 3s oh and
+
+---------06:53----------
+hopefully we do Kroenke it seems like
+
+---------07:01----------
+somebody from the dingo and koala part
+
+---------07:04----------
+of the world to see you hello Teresa
+
+---------07:12----------
+how was your kangaroo doing this morning
+
+---------07:16----------
+all I can do is swap swings and battery
+
+---------07:19----------
+on iPhone well you're gonna learn how to
+
+---------07:22----------
+do more you better pay attention to
+
+---------07:24----------
+these videos because you should be
+
+---------07:25----------
+making more money by offering more
+
+---------07:27----------
+services all right so as we can see this
+
+---------07:30----------
+board is filled with soldering flux
+
+---------07:31----------
+mostly flux residue ba which means it's
+
+---------07:35----------
+not gonna be an easy one so as we can
+
+---------07:38----------
+see here we are getting 3.3 volts just
+
+---------07:40----------
+as expected so next reel that we're
+
+---------07:43----------
+gonna check is pp 185 SL let's see if we
+
+---------07:50----------
+have pp 1 B 5 or so
+
+---------08:00----------
+yeah pc1 v5s Oh next up we're going to
+
+---------08:07----------
+check all these rails over here
+
+---------08:12----------
+so we need pp1 v8s three
+
+---------08:27----------
+let's check that
+
+---------08:54----------
+okay let's see I mean just get this
+
+---------08:57----------
+steady my hand is shaking a bit so it's
+
+---------08:59----------
+kind of hard to hold the multimeter
+
+---------09:01----------
+probe [ __ ] you CAG repeats alright so
+
+---------09:08----------
+here we have 1.8 volts so that is going
+
+---------09:13----------
+good
+
+---------09:13----------
+next up we need PP 5 es 4 RS 3 now this
+
+---------09:18----------
+is going to be useless to check because
+
+---------09:19----------
+PP 5 vs 4 RS 3 is going to need to be
+
+---------09:24----------
+present in order to get DP 5 ESO and it
+
+---------09:29----------
+is no surprise there
+
+---------09:30----------
+next up is P P 1 vo 5 sl
+
+---------09:38----------
+and their curiosity what does pp stands
+
+---------09:40----------
+for you know what P P stands for don't
+
+---------09:42----------
+make me say that out loud
+
+---------09:52----------
+burrito is here we must fix the board
+
+---------09:55----------
+first I can't I can't eat my food until
+
+---------09:57----------
+I fix the board must eat the board I
+
+---------09:59----------
+mean that must eat the board must fix
+
+---------10:01----------
+the board dammit my appetite is speaking
+
+---------10:03----------
+for me now must eat the board I would
+
+---------10:09----------
+like to eat the full problem is is that
+
+---------10:12----------
+nasarah also known as a case we -
+
+---------10:15----------
+punching lady will not let me eat my
+
+---------10:16----------
+fluid until I fix the board
+
+---------10:18----------
+she's a harsh boss difficult taskmaster
+
+---------10:28----------
+well so we are getting 1.06 volts there
+
+---------10:34----------
+next up we need DDR reg P good
+
+---------10:37----------
+so let's find DDR reg P good where is
+
+---------10:41----------
+that coming from that comes out of you
+
+---------10:43----------
+7400 so you seventy four hundreds gonna
+
+---------10:46----------
+be responsible for making the DDR reg
+
+---------10:47----------
+rail what we're looking for we're
+
+---------10:50----------
+looking for these bits we are looking
+
+---------10:56----------
+for pp 1 B 2 s 3 the last rail
+
+---------11:13----------
+gyeo Sam that's a question for ulid
+
+---------11:16----------
+Packard I have no [ __ ] so let's check
+
+---------11:20----------
+and see if we have P P 1 V 2 s 3 1.21
+
+---------11:27----------
+140 21 is a little yeah 1.2 1 point this
+
+---------11:31----------
+is what I'm supposed to be getting so
+
+---------11:33----------
+now this is where this begins to become
+
+---------11:35----------
+a bit of a [ __ ] because I have
+
+---------11:38----------
+every rail that I need for all his power
+
+---------11:39----------
+goods so now let's go back to the AUSA's
+
+---------11:41----------
+power good circuit and see if all says
+
+---------11:42----------
+power good is showing damn I was hoping
+
+---------11:48----------
+I find the missing power rail so that I
+
+---------11:51----------
+said I would let me eat my food but I
+
+---------11:56----------
+didn't find the rail
+
+---------12:03----------
+I'm so hungry please may I eat these
+
+---------12:08----------
+these box
+
+---------12:15----------
+so hungry okay let's check all his power
+
+---------12:19----------
+good that's gonna be over here
+
+---------12:27----------
+1.39 volts not correct so there's two
+
+---------12:30----------
+possibilities here behind door number
+
+---------12:32----------
+one one of these resistors for these
+
+---------12:36----------
+voltage dividers that go to the
+
+---------12:38----------
+transistor is broken behind door number
+
+---------12:40----------
+two transistor is broken behind door
+
+---------12:43----------
+number three this resistor is not
+
+---------12:46----------
+working as a pull up resistor properly
+
+---------12:47----------
+so let's see which one it is so let's
+
+---------12:50----------
+check our 8167 our 8167 is gonna be over
+
+---------12:53----------
+here that's gonna be our pull-up
+
+---------12:55----------
+resistor is our pull-up resistor in good
+
+---------12:58----------
+condition our pull-up resistor over here
+
+---------13:03----------
+looks mighty fine I'm just gonna check
+
+---------13:09----------
+the resistance of it anyway it's
+
+---------13:11----------
+supposed to be 10 kilo ohms 10 kilo ohms
+
+---------13:15----------
+so I'm going to guess that our issue is
+
+---------13:18----------
+with our offices power good transistor
+
+---------13:33----------
+out of the way everybody I put my entire
+
+---------13:36----------
+video collection of logical ordered
+
+---------13:38----------
+pairs on the website and boards rossman
+
+---------13:41----------
+group comm it is free for all to view it
+
+---------13:44----------
+is being hosted by Vimeo and I organized
+
+---------13:48----------
+every single board repair by not only
+
+---------13:51----------
+the board type but also problem type to
+
+---------13:55----------
+make it much easier to browse through so
+
+---------13:58----------
+if you are looking for a specific issue
+
+---------13:59----------
+or a specific board or any sort of stuff
+
+---------14:01----------
+like that for the repair videos you'll
+
+---------14:04----------
+find that I have about five years of
+
+---------14:06----------
+stuff all archived there not only is the
+
+---------14:08----------
+quality of the encoding considerably
+
+---------14:10----------
+better than the YouTube ones because the
+
+---------14:12----------
+vimeos encoding process it also is
+
+---------14:15----------
+completely 100% ad free
+
+---------14:18----------
+besides shelling for stored l Rossmann
+
+---------14:20----------
+group.com so you're not gonna see the
+
+---------14:24----------
+little you're not gonna see banners
+
+---------14:25----------
+within the video itself and you're not
+
+---------14:28----------
+gonna see those annoying pre and post
+
+---------14:30----------
+roll ads if you check it out on that
+
+---------14:33----------
+site and it's all freely available so
+
+---------14:37----------
+just in case youtube ever does something
+
+---------14:40----------
+stupid and my stuff disappears that is a
+
+---------14:42----------
+place where you'll be able to find all
+
+---------14:44----------
+this stuff and I'll be uploading all the
+
+---------14:45----------
+videos to Vimeo as well Lois you
+
+---------14:47----------
+sleeping well no I'm sleeping fairly
+
+---------14:50----------
+terribly over the past two weeks suck
+
+---------15:15----------
+now this chip didn't seem really
+
+---------15:17----------
+perfectly soldered on this one
+
+---------15:18----------
+fussing at that pushing what did you do
+
+---------15:21----------
+dum-dum
+
+---------15:23----------
+that's what I was thinking because I
+
+---------15:25----------
+noticed that the chip was not fully
+
+---------15:27----------
+soldered on to the board at least on the
+
+---------15:30----------
+left pin so let's take a look and see if
+
+---------15:32----------
+we get any sort of different result
+
+---------15:34----------
+perhaps anything anything ending in a
+
+---------15:35----------
+fan spin also looks like this thing next
+
+---------15:38----------
+door took a [ __ ] is it just me or does
+
+---------15:43----------
+that yeah that looks kind of funny
+
+---------15:45----------
+what's up with that hmm let's get that
+
+---------15:49----------
+in better focus hell's going on here
+
+---------16:14----------
+well that's something then we can keep
+
+---------16:16----------
+in mind that that area is a little
+
+---------16:17----------
+messed up looking the first thing to do
+
+---------16:19----------
+is see if I get a fan spin to get a fan
+
+---------16:21----------
+spin this era so that I'm allowed to eat
+
+---------16:23----------
+I'm hungry
+
+---------16:31----------
+damn no fans
+
+---------16:35----------
+Payne
+
+---------16:39----------
+all right second so next theory next
+
+---------16:42----------
+theory so what if this chip is actually
+
+---------16:46----------
+creating the rail that's supposed to be
+
+---------16:47----------
+creating what if it's actually creating
+
+---------16:49----------
+that rail but it's not creating the P
+
+---------16:52----------
+good signal the way it's supposed to be
+
+---------16:53----------
+creating the P good signal because
+
+---------16:54----------
+remember P P 1 vo 5 s o is a part of the
+
+---------16:57----------
+poll Pico signal process because it has
+
+---------17:00----------
+all this nasty looking crap near like
+
+---------17:04----------
+when you see the discoloration that
+
+---------17:05----------
+yellowish brownish it's very similar to
+
+---------17:08----------
+what you find in people's underwear when
+
+---------17:11----------
+they get scared and they ship themselves
+
+---------17:12----------
+and chips can chip themselves as well
+
+---------17:15----------
+they don't teach you about that in
+
+---------17:17----------
+electronics engineering school but it's
+
+---------17:19----------
+true so let's see if this chip happened
+
+---------17:23----------
+to [ __ ] itself so I saw that nastiness
+
+---------17:26----------
+buy it we're just going to repeal and
+
+---------17:29----------
+replace this chip with one that has not
+
+---------17:31----------
+[ __ ] itself
+
+---------17:46----------
+after this it'll be burrito time
+
+---------18:51----------
+yeah
+
+---------18:54----------
+working but the fan was sticky
+
+---------19:01----------
+that's trawling
+
+---------19:07----------
+there's no way
+
+---------19:10----------
+oh yeah
+
+---------19:18----------
+sweet pineapple
+
+---------19:32----------
+wish me luck
+
+---------19:45----------
+as you can see we have a spinning fan
+
+---------19:48----------
+the fan spins so this is a really unique
+
+---------19:52----------
+also spell good problem that I have not
+
+---------19:54----------
+had before where we actually had all the
+
+---------19:56----------
+rails required for all says power good
+
+---------19:58----------
+now I've had all says power good missing
+
+---------20:00----------
+in the past for two different reasons
+
+---------20:02----------
+the first reason I've had it missing
+
+---------20:04----------
+would be that this resistor over here
+
+---------20:06----------
+was corroded and as a result even though
+
+---------20:08----------
+all of these signals were present all
+
+---------20:11----------
+says power good is not being pulled up
+
+---------20:12----------
+the second reason that I've had this
+
+---------20:14----------
+issue was qat 150 would be broken and
+
+---------20:18----------
+would be pulling everything the grounds
+
+---------20:20----------
+even if it wasn't supposed to and the
+
+---------20:22----------
+third reason could be that one of the
+
+---------20:24----------
+power rails required to create the
+
+---------20:26----------
+AUSA's power good signal was missing now
+
+---------20:28----------
+here wasn't any of those the transistor
+
+---------20:30----------
+wasn't to blame all of my power rails
+
+---------20:33----------
+required to create all says power good
+
+---------20:34----------
+were present even PP 1 2 vo 5 SOP but
+
+---------20:37----------
+the funny part here that was trolling me
+
+---------20:40----------
+is that even though all the power rails
+
+---------20:43----------
+were present I was making a false
+
+---------20:44----------
+assumption that everything on the chip
+
+---------20:46----------
+was working even if it wasn't so over
+
+---------20:49----------
+here this chip was doing its job it was
+
+---------20:51----------
+creating P P 1 vo 5s up it was doing its
+
+---------20:54----------
+job as a buck converter however it was
+
+---------20:56----------
+not doing its job in terms of the P good
+
+---------20:58----------
+signal this chip was actually pulling
+
+---------21:00----------
+down the P good signal because it was
+
+---------21:02----------
+half functional so you 7600 was half
+
+---------21:04----------
+functional and that was because as I
+
+---------21:06----------
+showed you the chip took a ship which
+
+---------21:08----------
+happens from time to time and yeah they
+
+---------21:14----------
+don't they don't teach you that in
+
+---------21:15----------
+school now do they
+
+---------21:16----------
+ships can indeed [ __ ] themselves and as
+
+---------21:18----------
+usual I forgot to hit start record on
+
+---------21:20----------
+this video [ __ ] me lame haha alright so
+
+---------21:25----------
+I'm gonna eat myself a burrito and I
+
+---------21:27----------
+will see you in the next video that
+
+---------21:31----------
+really sucks that it was a unique repair
+
+---------21:33----------
+and I only have it a ridiculously little
+
+---------21:35----------
+bit right now girl forgot to hit the
+
+---------21:37----------
+button piss me off
+
+---------21:40----------
+oh well oh wow
+

@@ -1,0 +1,904 @@
+https://www.youtube.com/watch?v=cVG61nTr3PE
+---------00:00----------
+hey everybody how's it going here we
+
+---------00:01----------
+have any 1466 MacBook Air
+
+---------00:04----------
+that's not powering on let's see if we
+
+---------00:06----------
+can open this thing figure out what's
+
+---------00:07----------
+wrong with it
+
+---------00:12----------
+so now what we do with all of these Mac
+
+---------00:14----------
+books is we unplug the battery and then
+
+---------00:18----------
+we plug the charger in because if we
+
+---------00:21----------
+unplug the battery and then plug the
+
+---------00:23----------
+charger in it's gonna show us on the
+
+---------00:25----------
+screen how much power the charger is
+
+---------00:26----------
+using and that's gonna be a useful
+
+---------00:28----------
+number that helps me figure out what's
+
+---------00:30----------
+wrong with the computer here it looks
+
+---------00:32----------
+like it's taking 6 milliamps a number
+
+---------00:35----------
+I'm not used to that typically means
+
+---------00:38----------
+that my charger is not making contact
+
+---------00:39----------
+with the machine let's see if that's the
+
+---------00:41----------
+case though I'm gonna put this in
+
+---------00:44----------
+voltage mode and see if anything from
+
+---------00:46----------
+here is reaching into the machine
+
+---------00:48----------
+actually I can tell before I even do
+
+---------00:51----------
+that that it's not and I'll show you how
+
+---------00:53----------
+I know that I'm gonna open up a
+
+---------00:56----------
+schematic and a board view for the to
+
+---------00:58----------
+0-0 0 165 by the way for those of you
+
+---------01:01----------
+who always ask me how do you know where
+
+---------01:04----------
+the board number is well you need to
+
+---------01:06----------
+know the number of the board to know
+
+---------01:07----------
+where the board number is because the
+
+---------01:08----------
+board number is written in different
+
+---------01:10----------
+spaces and every model board so this is
+
+---------01:12----------
+really an issue of eyesight because if
+
+---------01:13----------
+you're unable to see where the board
+
+---------01:15----------
+number is you're probably in the wrong
+
+---------01:17----------
+business on this board the reason I
+
+---------01:19----------
+ain't know that it's an 8 to 0 - 2 0 0
+
+---------01:21----------
+165 is because the number is written
+
+---------01:23----------
+right over here where it's clearly
+
+---------01:25----------
+visible see 8 - 0 0 0 1 6 5
+
+---------01:31----------
+right there so if you're not able to see
+
+---------01:33----------
+that you might just be in the wrong
+
+---------01:34----------
+industry but let's get back to trying to
+
+---------01:36----------
+figure out what's wrong with this board
+
+---------01:38----------
+now if you look at it you'll see that
+
+---------01:40----------
+there is a teeny tiny bit of corrosion
+
+---------01:41----------
+in the corner right over here and we're
+
+---------01:45----------
+gonna look at that corrosion and the
+
+---------01:46----------
+microscope and I'm gonna show you why it
+
+---------01:49----------
+is that this machine is only taking 6
+
+---------01:51----------
+mill amps and also just to note if
+
+---------01:54----------
+you've been watching regularly you know
+
+---------01:56----------
+that I try to troubleshoot the board and
+
+---------01:57----------
+figure out what's wrong with the board
+
+---------01:59----------
+by taking a look and at how many
+
+---------02:01----------
+milliamp it's taking on the charger when
+
+---------02:05----------
+I plug it in so now if you've been a
+
+---------02:07----------
+regular viewer you know I'm going to add
+
+---------02:08----------
+to my list that 6 milliamps is it gonna
+
+---------02:11----------
+mean a problem with the input
+
+---------02:13----------
+of the pp3 before - circuit so let's
+
+---------02:15----------
+take a look at that area and see if you
+
+---------02:18----------
+can tell me what you see going on
+
+---------02:21----------
+it's corrosion over there but there's
+
+---------02:23----------
+one particular piece of corrosion that's
+
+---------02:25----------
+going to be the corrosion that matters
+
+---------02:27----------
+and it's gonna be the corrosion that
+
+---------02:28----------
+stops power from flowing through to
+
+---------02:30----------
+anything on this MacBook and it's going
+
+---------02:33----------
+to be this up diode right over here I'm
+
+---------02:36----------
+simply gonna brush a little bit on on
+
+---------02:38----------
+that diode like so and then I'm gonna
+
+---------02:42----------
+take a little q-tip belong that diode
+
+---------02:46----------
+like this and there's a good chance that
+
+---------02:51----------
+this computer is now going to turn on
+
+---------02:55----------
+let me show you why in the schematic
+
+---------02:57----------
+while I wait for my alcohol to dry so
+
+---------03:00----------
+I'm gonna open up a schematic and a
+
+---------03:03----------
+board view to an eight to zero - is zero
+
+---------03:06----------
+zero one sixty five board and you'll all
+
+---------03:09----------
+be able to follow along with me we're
+
+---------03:12----------
+going to find that chip the pp three
+
+---------03:15----------
+before to underscore g3 hawk creator use
+
+---------03:18----------
+70 90 and we're gonna move the PDF over
+
+---------03:21----------
+to it so this is the power supply for
+
+---------03:28----------
+3.42 volt rail that's required to power
+
+---------03:32----------
+the system management controller the
+
+---------03:34----------
+system management controller is powered
+
+---------03:36----------
+by three point 42 volts that's going to
+
+---------03:38----------
+be what turns the charger on that's
+
+---------03:40----------
+gonna be what allows the ISO six two
+
+---------03:42----------
+five nine that creates 50 brush g3 hot
+
+---------03:44----------
+the main power off for the system to
+
+---------03:45----------
+work nothing in the system can work if
+
+---------03:47----------
+3.42 volts doesn't work now it has an
+
+---------03:51----------
+input over here remember this is going
+
+---------03:52----------
+to be have to be powered on on battery
+
+---------03:55----------
+or charger it's the only rail in the
+
+---------03:57----------
+system that needs to be powered by the
+
+---------03:58----------
+battery or the charger which means that
+
+---------04:01----------
+it's going to have multiple inputs so
+
+---------04:04----------
+when you take a look over here this is
+
+---------04:06----------
+in but that input can be powered by
+
+---------04:09----------
+either pp bus g3 hot or PP 80 and v5 dcn
+
+---------04:13----------
+Wow so you have two different ways of
+
+---------04:16----------
+powering it PV bus g3 hop which is a
+
+---------04:18----------
+battery or 18 volts which is going to be
+
+---------04:21----------
+from the charger this over here is going
+
+---------04:24----------
+to be the charge port J 7000
+
+---------04:26----------
+now you have a diode over here the
+
+---------04:29----------
+reason is that PV bus g3 hot is a power
+
+---------04:31----------
+rail that comes from the battery or if
+
+---------04:34----------
+the battery is dead or not plugged in
+
+---------04:36----------
+it's created by the ISL 65:9 chip by the
+
+---------04:38----------
+charger you don't want 18 volts going to
+
+---------04:42----------
+your battery assembly because they're
+
+---------04:43----------
+tied to the same input so you have a
+
+---------04:45----------
+diode over here that presents the 18
+
+---------04:47----------
+volts from the charger and going into PV
+
+---------04:50----------
+bus g3 hub now when it comes to the
+
+---------04:51----------
+charger it does charger is not hooked up
+
+---------04:54----------
+directly to the input of the pp 3 before
+
+---------04:56----------
+2 circuit the charger is hooked up to
+
+---------04:59----------
+something else if you take a look over
+
+---------05:01----------
+here the charger goes to a transistor q7
+
+---------05:06----------
+t 10 now this here is what's called a
+
+---------05:08----------
+p-channel MOSFET if you're unsure what a
+
+---------05:11----------
+p-channel versus an n-channel is i'll
+
+---------05:14----------
+explain and if you're unsure of how to
+
+---------05:16----------
+tell a p-channel from an n-channel i
+
+---------05:17----------
+would suggest that you simply google the
+
+---------05:20----------
+name of the transistor not this name not
+
+---------05:23----------
+q7 t 10 s i5 4 1 9 q7 t10 doesn't
+
+---------05:28----------
+actually mean anything so imagine if I
+
+---------05:31----------
+said dad do you know where mom is dad
+
+---------05:34----------
+would know who I'm talking about because
+
+---------05:36----------
+I'm talking about my mother
+
+---------05:38----------
+and that has a relationship to him
+
+---------05:40----------
+because I'm his son
+
+---------05:42----------
+whereas if I go into a hotel lobby and I
+
+---------05:44----------
+asked the attendant have you seen my
+
+---------05:46----------
+mother that doesn't mean anything to him
+
+---------05:48----------
+he doesn't know who mom is he needs to
+
+---------05:50----------
+know are you looking for Donna Pomponio
+
+---------05:52----------
+then he'll know that I was looking for
+
+---------05:54----------
+my mother over here the same principle
+
+---------05:57----------
+applies q70 10 only means something to
+
+---------06:00----------
+this particular Apple motherboard but
+
+---------06:02----------
+the actual name of the component is s i5
+
+---------06:05----------
+4 o 190 you and if you google that
+
+---------06:08----------
+you'll see that it is a p-channel MOSFET
+
+---------06:10----------
+the reason it's important to know a
+
+---------06:11----------
+p-channel MOSFET from an n-channel
+
+---------06:13----------
+mosfet is that a p-channel mosfet is
+
+---------06:16----------
+going to open when the voltage in the
+
+---------06:18----------
+gate is lower than the voltage in the
+
+---------06:20----------
+source whereas an n-channel mosfet is
+
+---------06:22----------
+going to open when the voltage in the
+
+---------06:24----------
+gate is equal to or higher than the
+
+---------06:26----------
+source knowing what the expected
+
+---------06:28----------
+behavior is of the chip is going to
+
+---------06:30----------
+allow you to understand if there's a
+
+---------06:31----------
+malfunction with it so this is a
+
+---------06:33----------
+p-channel which means that this is not
+
+---------06:35----------
+going to allow any power to go from the
+
+---------06:37----------
+source of the drain unless the voltage
+
+---------06:39----------
+in the gate is
+
+---------06:40----------
+lower think of this like a light switch
+
+---------06:41----------
+source the drain is like the in-and-out
+
+---------06:43----------
+of a light switch and the gate is kind
+
+---------06:45----------
+of like the position of the switch
+
+---------06:46----------
+whether it's on or off if you have
+
+---------06:49----------
+voltage at the gate that's lower than
+
+---------06:50----------
+the source the light switch turns on if
+
+---------06:52----------
+you have voltage at the gate that's
+
+---------06:53----------
+equal to or higher than the source the
+
+---------06:55----------
+light switch turns off so knowing that
+
+---------06:58----------
+this is only going to open when the
+
+---------06:59----------
+voltage when the gate is lower than the
+
+---------07:01----------
+source let's take a look and see how
+
+---------07:03----------
+this is set up so it looks like we have
+
+---------07:05----------
+a resistor over here between the source
+
+---------07:08----------
+and the gate these resistors are not
+
+---------07:12----------
+going to drop voltage they're simply
+
+---------07:14----------
+going to drop the amount of current that
+
+---------07:15----------
+can flow through which means that the 18
+
+---------07:17----------
+volts from the source is always going to
+
+---------07:19----------
+be present on the gate meaning this will
+
+---------07:21----------
+never open unless we give the gate a
+
+---------07:23----------
+path to ground if we give the gate the
+
+---------07:26----------
+path to ground which is what we do over
+
+---------07:28----------
+here see this d7 t12 that means that
+
+---------07:32----------
+some of that voltage is going to go to
+
+---------07:34----------
+ground meaning that we're not going to
+
+---------07:36----------
+have 18 volts in the gate this diode to
+
+---------07:39----------
+ground is not going to affect the
+
+---------07:40----------
+voltage at the source because you have a
+
+---------07:42----------
+hundred kilo ohm resistor isolating the
+
+---------07:45----------
+current flow between the source and
+
+---------07:49----------
+ground however it will affect what's
+
+---------07:52----------
+going on at the gate so you'll see that
+
+---------07:55----------
+the diode is the path to ground and if
+
+---------07:58----------
+you look over here on the actual board
+
+---------08:01----------
+view you'll see that d7 t12 is going to
+
+---------08:04----------
+be that very component that we saw
+
+---------08:07----------
+having the most corrosion on it right
+
+---------08:15----------
+here d7 t12
+
+---------08:21----------
+now we were able to clean that diode
+
+---------08:23----------
+with a q-tip and since we've cleaned the
+
+---------08:26----------
+diode with a q-tip it's probably going
+
+---------08:28----------
+to work again where it is gonna do a
+
+---------08:33----------
+little bit more over here and we'll
+
+---------08:35----------
+touch this up with them solder at the
+
+---------08:36----------
+end of course we're not gonna leave a
+
+---------08:37----------
+board like this with little corroded
+
+---------08:40----------
+stuff stuck on it when a customer
+
+---------08:42----------
+trusted us over the Apple Store with
+
+---------08:45----------
+their machine their data and their money
+
+---------08:49----------
+but just for testing purposes I'm kind
+
+---------08:53----------
+of curious to see if the q-tip is able
+
+---------08:56----------
+to solve the problem that the genius
+
+---------08:58----------
+wasn't
+
+---------09:15----------
+let's get that alcohol to flow away
+
+---------09:22----------
+now we're going to plug our charger back
+
+---------09:26----------
+in and see if this works
+
+---------09:29----------
+I'm gonna turn on the power supply
+
+---------09:32----------
+software so you could see it on the
+
+---------09:33----------
+screen and we plug it in and we get a
+
+---------09:36----------
+green light in 500 milliamps of usage
+
+---------09:39----------
+from the charger as well as a fan spin
+
+---------09:41----------
+meaning that this machine now works
+
+---------09:45----------
+Apple but you quoted this woman $750
+
+---------09:54----------
+$750 I fix this with a q-tip what we're
+
+---------10:00----------
+gonna do is we're going to put the
+
+---------10:03----------
+proper amount of flux and this is gonna
+
+---------10:09----------
+help fix the integrity of those solder
+
+---------10:13----------
+joints
+
+---------10:19----------
+[Music]
+
+---------10:25----------
+[Music]
+
+---------10:39----------
+okay
+
+---------10:41----------
+now what I'm gonna do with that diode
+
+---------10:43----------
+just to make sure that I get a good job
+
+---------10:46----------
+done on it is I'm going to tap it what
+
+---------10:50----------
+this is gonna do is it's gonna move the
+
+---------10:51----------
+solder around in the little ball that
+
+---------10:53----------
+it's in in a little solder ball
+
+---------10:59----------
+and it means that the corrosion is
+
+---------11:02----------
+probably gonna get bounced out of it
+
+---------11:03----------
+which is exactly what I want which means
+
+---------11:06----------
+that not only is it gonna be you know I
+
+---------11:08----------
+kinda half their connection but it's
+
+---------11:10----------
+gonna be as good as it was prior to the
+
+---------11:12----------
+liquid damage and that one resistor that
+
+---------11:15----------
+looks like it could be a little bit
+
+---------11:16----------
+nicer they're gonna file that with my
+
+---------11:19----------
+pack o 2032 tip and my t30 KN tip on the
+
+---------11:25----------
+2032 I see that we're just gonna redo
+
+---------11:28----------
+that joint like that scrape a little so
+
+---------11:30----------
+that any of the corrosion leaves and do
+
+---------11:32----------
+the same thing for the other side of
+
+---------11:33----------
+that resistor and it'll be like it was
+
+---------11:38----------
+never corroded
+
+---------11:46----------
+[Music]
+
+---------11:52----------
+anywhere I see that kind of reddish rust
+
+---------11:55----------
+looking junk who are going to take this
+
+---------11:58----------
+tip which is shaped perfectly to the
+
+---------12:01----------
+sides of these qfn ships and file back
+
+---------12:07----------
+and forth with the flux there and just
+
+---------12:10----------
+file now if you can see that it looks
+
+---------12:14----------
+like this corrosion under it then you
+
+---------12:15----------
+take the chip off but if it's not this
+
+---------12:18----------
+will do the job and any of these pro
+
+---------12:20----------
+points that look like they're a little
+
+---------12:21----------
+rusted or the resistor is gonna be
+
+---------12:23----------
+communicating with the chip or sending
+
+---------12:25----------
+voltage to the chip scrape scrape scrape
+
+---------12:29----------
+and there we go this machine is likely
+
+---------12:32----------
+going to be good until the end of time
+
+---------12:34----------
+until the user decides that they're
+
+---------12:36----------
+gonna spill more liquid into it
+
+---------12:37----------
+remember your MacBook is not thirsty now
+
+---------12:41----------
+we're going to see if this thing gives
+
+---------12:42----------
+us a questionmark folder on the screen
+
+---------12:44----------
+once it turns on
+
+---------12:55----------
+as you can see we get a question mark
+
+---------12:56----------
+folder on the screen meaning that our
+
+---------12:59----------
+repair is complete the only thing we
+
+---------13:02----------
+have to do at this point is ultrasonic
+
+---------13:04----------
+we clean the motherboard to get rid of
+
+---------13:05----------
+any corrosion that may be hiding under
+
+---------13:06----------
+the chips we have a nice crest P 1200
+
+---------13:09----------
+845 over there it's a nice piece of kit
+
+---------13:11----------
+it's gonna get it and they sweep
+
+---------13:12----------
+frequency ultrasonic it's gonna get
+
+---------13:13----------
+under every single chip and remove all
+
+---------13:16----------
+the junk from the board and once that's
+
+---------13:18----------
+done this will work lovely again and
+
+---------13:20----------
+we'll be ready to go back to a happy
+
+---------13:23----------
+customer that's it for today and as
+
+---------13:26----------
+always I hope you learned something see
+
+---------13:28----------
+you in the next video
+

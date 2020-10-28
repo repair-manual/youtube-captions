@@ -1,0 +1,1060 @@
+https://www.youtube.com/watch?v=HSyctOS5_hk
+---------00:00----------
+hey everybody how's it going so today we
+
+---------00:01----------
+have another a 1466 this MacBook is not
+
+---------00:04----------
+powering on let's see if we can figure
+
+---------00:05----------
+out what's wrong with it and get it
+
+---------00:07----------
+working again and perhaps get this guy a
+
+---------00:08----------
+sticker with this same bicycle but with
+
+---------00:11----------
+a buffet on it oh let's get to work so
+
+---------00:14----------
+the first thing we're gonna do here open
+
+---------00:16----------
+this thing up put it on the table
+
+---------00:18----------
+figure out what's wrong with it let's
+
+---------00:20----------
+open it up alright let's see what's
+
+---------00:22----------
+wrong with this MacBook so first thing
+
+---------00:23----------
+we're gonna do is we always do is unplug
+
+---------00:26----------
+the charger because I mean unplug the
+
+---------00:29----------
+battery because the battery is going to
+
+---------00:30----------
+give us a strange amperage reading plug
+
+---------00:34----------
+this in are we taking anything
+
+---------00:43----------
+all right looks like we're grabbing six
+
+---------00:45----------
+male lamps and nothing is coming through
+
+---------00:48----------
+here so let's get the board out of the
+
+---------00:50----------
+machine and figure out what is going on
+
+---------00:53----------
+here it looks like it's not even
+
+---------00:54----------
+activating the charger at all
+
+---------00:56----------
+it's almost is this plugged in okay it
+
+---------00:58----------
+is plugged in that's really strange
+
+---------01:01----------
+there's some dirt over there that I'm
+
+---------01:03----------
+missing yeah let's take it up beautiful
+
+---------01:06----------
+it's taking nothing now remember in
+
+---------01:09----------
+order to get a green light in the charge
+
+---------01:10----------
+of the one wire circuit has to be
+
+---------01:11----------
+working I would highly suggest that you
+
+---------01:13----------
+check out my videos in the one wiring
+
+---------01:14----------
+circuit if you're interested in it on
+
+---------01:16----------
+board Strasbourg group comm you can
+
+---------01:19----------
+actually see that there's aural
+
+---------01:20----------
+organized into a playlist called no
+
+---------01:22----------
+green light where I talked about the one
+
+---------01:23----------
+wire circuit and why it's required to
+
+---------01:25----------
+get the green light in the charger now
+
+---------01:27----------
+the chip that's going to be speaking
+
+---------01:29----------
+with the charger is this jet the SMC and
+
+---------01:32----------
+there's two chips on the DCN board right
+
+---------01:35----------
+here that are going to facilitate the
+
+---------01:37----------
+speaking going on these are gonna
+
+---------01:40----------
+protect that data line in case somebody
+
+---------01:43----------
+plugs this in improperly so let's say
+
+---------01:45----------
+that you're plugging it in sideways
+
+---------01:47----------
+instead of the data line pin speaking to
+
+---------01:50----------
+the SMC you may get the 18 volts
+
+---------01:52----------
+touching it and this chip over here is
+
+---------01:53----------
+like a protector it's kind of like at
+
+---------01:55----------
+the SMC's bodyguard so that's all gonna
+
+---------01:58----------
+be powered by three point 42 volts and
+
+---------02:00----------
+we have to see if we have that on this
+
+---------02:01----------
+point which means chain and the software
+
+---------02:03----------
+has to be in voltage mode unfortunately
+
+---------02:05----------
+the Paul Daniel software is now in
+
+---------02:06----------
+resistance mode my meter is in voltage
+
+---------02:08----------
+mode we just smack the Paul Daniel
+
+---------02:10----------
+software right there
+
+---------02:11----------
+and it works again now it looks like
+
+---------02:14----------
+we're getting 0.01 volts on PP through
+
+---------02:17----------
+before to underscore g3r so let's open
+
+---------02:19----------
+up the schematic as well as the board
+
+---------02:22----------
+view for eight - zero - 34:37 board and
+
+---------02:26----------
+we are going to take a look at the
+
+---------02:28----------
+people three or four to underscore g3
+
+---------02:29----------
+hot circuit and see why it is we're not
+
+---------02:32----------
+getting TP three before to underscore g3
+
+---------02:34----------
+hot now first thing that we need
+
+---------02:36----------
+obviously is gonna be voltage coming
+
+---------02:38----------
+into the chip so if we have a charger
+
+---------02:41----------
+plugged in if we've got a charger
+
+---------02:45----------
+plugged in that means that we're gonna
+
+---------02:48----------
+see that voltage on our seven zero zero
+
+---------02:51----------
+five and also ideally if there's no
+
+---------02:53----------
+short-circuit over on the input stage
+
+---------02:56----------
+from
+
+---------02:56----------
+caps the ground right after the diet so
+
+---------03:00----------
+let's go after that we're gonna check
+
+---------03:02----------
+d700 five around there and see if we
+
+---------03:06----------
+have input voltage all right 18 volts
+
+---------03:10----------
+here 18 volts on input of 17.7 there's a
+
+---------03:14----------
+little voltage drop in the diode no big
+
+---------03:16----------
+deal the circuit isn't use much amperage
+
+---------03:18----------
+even if we do a voltage drop no big deal
+
+---------03:20----------
+3.46 volts so we have 3.46 volts but no
+
+---------03:23----------
+green light in the charge and PP but g3
+
+---------03:26----------
+hot is eight point one nine volts now
+
+---------03:29----------
+let's talk about what this means
+
+---------03:31----------
+so there are two SMC functions that are
+
+---------03:33----------
+not working right now
+
+---------03:34----------
+the first SMC function is we don't have
+
+---------03:36----------
+a green light in the charger the green
+
+---------03:37----------
+light and the charger is created when
+
+---------03:39----------
+the system management controller is able
+
+---------03:41----------
+to speak to the charger the second thing
+
+---------03:43----------
+that we don't have is people hd3 hot
+
+---------03:45----------
+being the right voltage now in order to
+
+---------03:47----------
+explain this properly I'm actually gonna
+
+---------03:48----------
+have to show you how the circuit works
+
+---------03:49----------
+on an older board because I don't have a
+
+---------03:51----------
+schematic for the DCN board so I'm gonna
+
+---------03:54----------
+open up a schematic for some other board
+
+---------03:56----------
+that will allow me to demonstrate
+
+---------03:58----------
+what's going on that uses a very similar
+
+---------04:01----------
+circuit so if you take a look over here
+
+---------04:03----------
+you'll see that we have 18 volts coming
+
+---------04:05----------
+in that's want the from the charge port
+
+---------04:09----------
+this over here J 7,000 is the charge
+
+---------04:11----------
+port the second is we're gonna have
+
+---------04:14----------
+what's called adapter sense and the
+
+---------04:17----------
+third is ground now adapter sense is
+
+---------04:20----------
+going to be a data line and this trip
+
+---------04:23----------
+over here is what is the bouncer or when
+
+---------04:25----------
+I explain this like think of it like
+
+---------04:26----------
+your private security so u 7000 is like
+
+---------04:29----------
+your private security guard that doesn't
+
+---------04:31----------
+allow this data line to speak to the SMC
+
+---------04:33----------
+unless it sees that everything is
+
+---------04:36----------
+alright and over here you have a line
+
+---------04:37----------
+called sis one wire that's the line
+
+---------04:39----------
+that's going to be going straight to the
+
+---------04:41----------
+SMC so if I click on that right over
+
+---------04:43----------
+here
+
+---------04:43----------
+you'll see on u 7000 that chip that data
+
+---------04:47----------
+line goes straight to the SMC since one
+
+---------04:49----------
+wire now this circuit over here the
+
+---------04:53----------
+reason I call this little chip u 7,000
+
+---------04:55----------
+like a body guard is if you send adapter
+
+---------04:57----------
+sent the three volt data line it lets it
+
+---------04:59----------
+through if you send 18 volts because
+
+---------05:01----------
+you're drunk and you're plugging your
+
+---------05:02----------
+charger and wrong then it's going to
+
+---------05:05----------
+destroy the SMC but we don't want to
+
+---------05:07----------
+destroy the SMC so you seven thousands
+
+---------05:09----------
+of bodyguards you put 18 volts of DS
+
+---------05:11----------
+see there it says screw you I'm not
+
+---------05:12----------
+sending you to sis one wire this circuit
+
+---------05:14----------
+needs pp3 before - one to spur g3 hot to
+
+---------05:16----------
+work this chip is gonna power that one
+
+---------05:18----------
+and this trip gets powered by people
+
+---------05:19----------
+three before - this circuit requires the
+
+---------05:21----------
+SMC this is one SMC function being able
+
+---------05:24----------
+to communicate with the charger in order
+
+---------05:26----------
+to get a green light you need that
+
+---------05:27----------
+communication with the charger in order
+
+---------05:28----------
+to get a green light now the SMC also
+
+---------05:30----------
+has another function remember what I
+
+---------05:32----------
+just said that pp bus g3 hot is the
+
+---------05:34----------
+wrong voltage it's measuring eight point
+
+---------05:35----------
+one nine volts what do I mean by that
+
+---------05:37----------
+that's a great question so let's go over
+
+---------05:41----------
+the circuit that creates pp bus g3 hot
+
+---------05:44----------
+over here now this circuit is gonna
+
+---------05:47----------
+create PP but g3 huh what you see on the
+
+---------05:50----------
+screen right here so this is going to
+
+---------05:55----------
+take the voltage from the charger and
+
+---------05:57----------
+it's gonna turn it into pp bus g3 hot
+
+---------06:00----------
+see now PV bus g3 hot is usually 8 point
+
+---------06:03----------
+5 volts but now it's eight point one
+
+---------06:05----------
+volts why is that well it's that this
+
+---------06:07----------
+chip is actually going to speak to the
+
+---------06:09----------
+SMC on this bi-directional data line
+
+---------06:11----------
+CSM's sm bus charger SDA and sm bus
+
+---------06:14----------
+charger SCL let's see where those go in
+
+---------06:17----------
+the schematic in the board view if we
+
+---------06:19----------
+click on this you'll see that paul
+
+---------06:25----------
+software doesn't show it but luckily i
+
+---------06:28----------
+remember which pins it's on so that paul
+
+---------06:30----------
+software can't sabotage me haha paul now
+
+---------06:33----------
+you'll see that this speaks directly to
+
+---------06:36----------
+the system management controller so the
+
+---------06:39----------
+system management control is gonna speak
+
+---------06:40----------
+to the ISL 65:9 and say listen eight
+
+---------06:42----------
+point one volts ain't enough I want
+
+---------06:44----------
+eight point five volts that's not good
+
+---------06:46----------
+enough
+
+---------06:46----------
+so what we have here is we have two sm c
+
+---------06:48----------
+functions that are not performing like
+
+---------06:50----------
+they're supposed to and this helps me
+
+---------06:51----------
+narrow down the cause of the issue
+
+---------06:53----------
+there's two things that are broken when
+
+---------06:56----------
+I have more than one thing that's not
+
+---------06:57----------
+working I don't want to try to fix each
+
+---------06:59----------
+individual problem what I want to do is
+
+---------07:01----------
+say what do those two things have in
+
+---------07:02----------
+common
+
+---------07:03----------
+and here what those two things have in
+
+---------07:05----------
+common besides Paul Daniels software is
+
+---------07:07----------
+that they both are related to the system
+
+---------07:09----------
+management controller this chip right
+
+---------07:11----------
+over here well what do you know
+
+---------07:14----------
+corrosion now the green corrosion on
+
+---------07:17----------
+these capacitors is honestly probably
+
+---------07:19----------
+not the main cause the problem indeed
+
+---------07:22----------
+void here indeed
+
+---------07:24----------
+this is not going to be the cause of my
+
+---------07:26----------
+problem the cause of the problem is most
+
+---------07:29----------
+likely that some of that green stuff got
+
+---------07:31----------
+under the chip itself and that's gonna
+
+---------07:33----------
+be what we need to focus on today so
+
+---------07:37----------
+sometimes the stuff comes off really
+
+---------07:39----------
+easy immediately and sometimes it's a
+
+---------07:41----------
+royal hassle and today's material
+
+---------07:44----------
+appears to be a royal hassle I'd like to
+
+---------07:52----------
+do explains is over and over and keep it
+
+---------07:54----------
+up all the best from Germany
+
+---------07:55----------
+thank you Anna fan now the last thing I
+
+---------07:58----------
+want to do so I don't make a total
+
+---------08:03----------
+jackass of myself is make sure that SMC
+
+---------08:05----------
+reset L is present SMC reset L is a
+
+---------08:09----------
+sigma that's gonna turn on the SMC so
+
+---------08:11----------
+keeping in the spirit of explaining
+
+---------08:13----------
+things from scratch there's a signal
+
+---------08:17----------
+called SMC underscore reset underscore L
+
+---------08:20----------
+and what that does is it tells the SMC
+
+---------08:23----------
+to turn on so anytime you see underscore
+
+---------08:26----------
+L in a signal name that means a signal
+
+---------08:28----------
+is present when it's low and what reset
+
+---------08:30----------
+is going to mean is stop working
+
+---------08:33----------
+altogether
+
+---------08:38----------
+before I do that I think I was gonna
+
+---------08:40----------
+give this a minor reflow just a little
+
+---------08:46----------
+bit of a reflow nothing too big now to
+
+---------08:51----------
+help fund the new store we sell flux so
+
+---------08:55----------
+I think it's important that I'd be
+
+---------08:56----------
+honest about how much flux you need as
+
+---------09:00----------
+an influencer in order to reflow chips
+
+---------09:03----------
+just to make sure that we hit our sales
+
+---------09:04----------
+target
+
+---------09:05----------
+I value honesty and transparency so I
+
+---------09:07----------
+would never use more flux than needed in
+
+---------09:09----------
+the attempt to influence sales that is
+
+---------09:11----------
+the amount of flux that you need if you
+
+---------09:13----------
+use any less flux than this the board
+
+---------09:15----------
+won't even work when you're done see
+
+---------09:21----------
+Paul say nothing if you agree with me
+
+---------09:25----------
+Paul ass say nothing if you agree with
+
+---------09:28----------
+me see Paul agrees with me all right so
+
+---------09:35----------
+you're gonna give this a nice reflow
+
+---------10:26----------
+I agree with you Vigo son
+
+---------12:38----------
+Justin I'm thinking of scheduling one
+
+---------12:40----------
+for later today gonna have to
+
+---------12:58----------
+we try avoid them
+
+---------13:04----------
+ah let's see if iron gets hot
+
+---------13:12----------
+is iron hot iron is not g3 hot
+
+---------13:26----------
+Oh
+
+---------13:36----------
+is my tip dead
+
+---------13:42----------
+my tip is dead
+
+---------13:46----------
+oh my iron is that let's see
+
+---------13:54----------
+[Music]
+
+---------13:58----------
+and I'm gonna have to fix my typical
+
+---------14:00----------
+ponent level later
+
+---------14:09----------
+alright this is not exactly the knife
+
+---------14:11----------
+tip that I enjoy but well we're gonna
+
+---------14:17----------
+make deal with it because I don't even
+
+---------14:19----------
+this is a knife tip I think this is this
+
+---------14:21----------
+a tweezer
+
+---------14:22----------
+this is a hot razor tip you're using a
+
+---------14:24----------
+hot razor tip aren't you you Savage
+
+---------14:28----------
+David is a Savage
+
+---------14:45----------
+David was raised by wild wolves where
+
+---------14:48----------
+they use hako hot tweezer tips in the
+
+---------14:50----------
+micro pencil
+
+---------15:34----------
+can you reattach the stuff that looks
+
+---------15:36----------
+nasty
+
+---------15:56----------
+okay next up we're gonna file off these
+
+---------15:59----------
+caps over here
+
+---------16:13----------
+and I don't believe any of these are
+
+---------16:15----------
+shorted or broken
+
+---------17:19----------
+okay
+
+---------17:23----------
+now we're gonna see if the SMC is able
+
+---------17:25----------
+to communicate properly with everything
+
+---------17:28----------
+I'm going to take my charger plug it in
+
+---------17:31----------
+and we're probably going to get a green
+
+---------17:32----------
+light and then 500 milliamp draw and fan
+
+---------17:34----------
+spin it's how we roll
+
+---------17:43----------
+okay we get a green light 500 milliamps
+
+---------17:47----------
+see 500 milliamps right here and fans
+
+---------17:51----------
+burn this is the eight to zero 34 37 so
+
+---------17:53----------
+it's gonna turn on turn off turn on turn
+
+---------17:55----------
+off turn on turn off turn on and you'll
+
+---------17:57----------
+also be able to see that our PP bush g3
+
+---------17:59----------
+huh which was eight point one volts
+
+---------18:00----------
+before there's a happy eight point five
+
+---------18:04----------
+volts now so that's about that the SMC
+
+---------18:07----------
+was keeping not only Cuba's g3 -
+
+---------18:10----------
+becoming the proper voltage but people
+
+---------18:12----------
+that it was also keeping the green light
+
+---------18:14----------
+from turning on the charger the SMC was
+
+---------18:16----------
+not turning on due to minor corrosion
+
+---------18:17----------
+now even though there was I can't really
+
+---------18:20----------
+tell this corrosion under it and it
+
+---------18:21----------
+didn't look like was coming from under
+
+---------18:22----------
+it the corrosion on those small caps by
+
+---------18:25----------
+the SMC tells me that something likely
+
+---------18:27----------
+leaked under the SMC and the best way to
+
+---------18:30----------
+go about that in my opinion is to use
+
+---------18:32----------
+some good flux give it a reflow you know
+
+---------18:34----------
+you don't have to go crazy with it
+
+---------18:35----------
+don't kill the chip specially in the
+
+---------18:37----------
+beginning using less heat is better than
+
+---------18:40----------
+using more especially if you're just
+
+---------18:42----------
+looking to get rid of corrosion I'll
+
+---------18:43----------
+actually solder again there's a
+
+---------18:44----------
+difference between trying to get rid of
+
+---------18:45----------
+corrosion and actually restoring and it
+
+---------18:47----------
+works we're gonna toss this in the
+
+---------18:48----------
+ultrasonic cleaner to get rid of any
+
+---------18:50----------
+sort of corrosion under there now many
+
+---------18:53----------
+of you may wonder why do I do that
+
+---------18:55----------
+before putting it to the ultrasonic and
+
+---------18:56----------
+it's a great question so let's say
+
+---------18:58----------
+there's a hardened solder ball right now
+
+---------18:59----------
+if it got corroded it's gonna be a bunch
+
+---------19:01----------
+of little pieces of dust it's gonna be
+
+---------19:03----------
+like you know sand I don't want to wash
+
+---------19:05----------
+the sand away I want to turn that sand
+
+---------19:07----------
+or that back into a rock I don't even
+
+---------19:09----------
+know if sand is what they make rocks out
+
+---------19:11----------
+of so this is probably a really dumb
+
+---------19:12----------
+analogy hopefully you get the idea but
+
+---------19:14----------
+you know I don't want to have all those
+
+---------19:15----------
+little that solder ball that turned into
+
+---------19:17----------
+a you know a bunch of corroded little
+
+---------19:19----------
+junk I don't want that to flow away and
+
+---------19:21----------
+wind up in the bottom of my ultrasonic
+
+---------19:22----------
+cleaner I want to take that those little
+
+---------19:24----------
+bits of sand and turn it into a rock
+
+---------19:26----------
+again so that it is nice and hard and
+
+---------19:29----------
+attaching the SMC to the board and then
+
+---------19:32----------
+once that's reconstructed properly then
+
+---------19:35----------
+we can deal with cleaning all the
+
+---------19:36----------
+corrosion off not the other way around
+
+---------19:37----------
+what I did there is I probably saved
+
+---------19:39----------
+myself the amount of time that it would
+
+---------19:41----------
+take me to have to take that chip off
+
+---------19:43----------
+and reball it when it probably doesn't
+
+---------19:45----------
+need a reball so that's it for today and
+
+---------19:47----------
+as always I hope you learned something
+
+---------19:48----------
+thank you so much thanks for watching
+
+---------19:50----------
+thank you so much for learning viewing
+
+---------19:51----------
+sharing and hopefully you took away
+
+---------19:54----------
+something from this that you can use to
+
+---------19:55----------
+fix a
+
+---------19:56----------
+that Apple said cannot be fixed and I'll
+
+---------19:58----------
+see you in the next one
+
+---------20:03----------
+lasting this moment is where I want to
+
+---------20:08----------
+stay
+
+---------20:11----------
+[Music]
+
+---------20:14----------
+this can
+
+---------20:17----------
+to find
+

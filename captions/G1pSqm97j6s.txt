@@ -1,0 +1,622 @@
+https://www.youtube.com/watch?v=G1pSqm97j6s
+---------00:04----------
+all right so today we're working on a 80
+
+---------00:07----------
+1707 MacBook that appears to not be
+
+---------00:09----------
+turning on we take a look on the desk
+
+---------00:10----------
+you'll see that it's taking 100 70
+
+---------00:13----------
+milliamps at 5 volts it stuck at 5 volts
+
+---------00:16----------
+and the chip that's going to allow the
+
+---------00:19----------
+charger to speak to the MacBook and back
+
+---------00:23----------
+and forth and turn off the ultrasonic
+
+---------00:40----------
+so as can be seen here it's taking 200
+
+---------00:43----------
+milliamps and it's at 5 volts this
+
+---------00:46----------
+typically means that the chip that's
+
+---------00:47----------
+responsible for speaking to the USBC
+
+---------00:50----------
+charger and saying hi on 20 volts not 5
+
+---------00:52----------
+volts is either dead or not getting
+
+---------00:54----------
+power and on this board that is our cd32
+
+---------00:57----------
+15 so this over here is our charge port
+
+---------01:00----------
+C charge port charge port and this
+
+---------01:06----------
+charge port is going to speak to the CD
+
+---------01:11----------
+32 15 and you got some stuff going here
+
+---------01:15----------
+on pin 6 see that look at that
+
+---------01:16----------
+see it talks to the CD 32 15 and this
+
+---------01:20----------
+chip over here is called the USBC MUX
+
+---------01:22----------
+chip and it's going to be powered on v
+
+---------01:27----------
+end voltage in that goes over here at a
+
+---------01:31----------
+pp 3 V 3 underscore g3 huh let's see if
+
+---------01:33----------
+T P 3 V 3 underscore g3 hunters presence
+
+---------01:38----------
+[Music]
+
+---------02:28----------
+yeah Kevin
+
+---------02:30----------
+[Music]
+
+---------02:40----------
+[Music]
+
+---------03:19----------
+okay [ __ ] [ __ ] with my head
+
+---------03:24----------
+that's your eyes so the first thing
+
+---------03:26----------
+we're gonna have to do here is see if PP
+
+---------03:28----------
+3v3 underscore g3 Han is present let's
+
+---------03:31----------
+see if P P 3 V 3 underscore g3 heart is
+
+---------03:33----------
+present and if that's gonna allow this
+
+---------03:35----------
+trip to power on so we're gonna turn on
+
+---------03:36----------
+Paul Daniels as software we're gonna put
+
+---------03:38----------
+it on the screen and we're gonna measure
+
+---------03:42----------
+and see if P P 3 V 3 underscore g3 on is
+
+---------03:45----------
+present now according to our schematic
+
+---------03:49----------
+and board view P P 3 V 3 underscore g3
+
+---------03:51----------
+Han can be found on this capacitor right
+
+---------03:54----------
+next to the chip so let's see if that's
+
+---------03:57----------
+there one point one volts oh one point
+
+---------04:00----------
+one volts on PP 3 V 3 g3 hot do you ever
+
+---------04:02----------
+seen that one volt and let's see if
+
+---------04:07----------
+there's a short 10 kilo ohms no short
+
+---------04:10----------
+all right time to go over to the place
+
+---------04:12----------
+the pp 3 V 3 under store z3 hot is
+
+---------04:14----------
+created and see if there's anything
+
+---------04:15----------
+wrong with the creation circuit that's
+
+---------04:16----------
+keeping this from working
+
+---------04:25----------
+now what reason I'm skipping past here
+
+---------04:28----------
+is because all these things I'm looking
+
+---------04:29----------
+at is peepee 3v3 underscore g3 hot going
+
+---------04:31----------
+into something I need peepee 3v3 g3 hot
+
+---------04:34----------
+coming out of something here we have it
+
+---------04:38----------
+on you 69 Oh 3 so the enable is gonna be
+
+---------04:43----------
+present on pin 10 let's make sure enable
+
+---------04:45----------
+is present yeah turn back to voltage
+
+---------04:48----------
+mode all right so the enable is 5 volts
+
+---------04:54----------
+so it the chip is being told to turn on
+
+---------04:56----------
+but it's only putting on 1 volt hmm
+
+---------04:59----------
+that's odd now we've got 5 volts coming
+
+---------05:03----------
+in the diodes gonna decrease it a little
+
+---------05:06----------
+bit which is expected and understandable
+
+---------05:12----------
+now in rare cases the diode is actually
+
+---------05:17----------
+decreasing currents at the point where
+
+---------05:18----------
+this can't work but I'm not sure if
+
+---------05:20----------
+that's what's quite happening here so
+
+---------05:21----------
+let's say I think that it's only going
+
+---------05:23----------
+to give us the full 3.3 or so once it's
+
+---------05:26----------
+had a second let's start up and go to 20
+
+---------05:29----------
+now here's something interesting so
+
+---------05:30----------
+right by one of those CD 32 15s what I
+
+---------05:33----------
+see is corrosion nasty filthy awful
+
+---------05:39----------
+corrosion so let's see what happens if I
+
+---------05:41----------
+use a little bit of flux small amount
+
+---------05:43----------
+not too much just a reasonable amount
+
+---------05:46----------
+you know same amount that we Paul would
+
+---------05:48----------
+suggest that we usually use maniac
+
+---------05:55----------
+loded tick Paul that's the amount of
+
+---------05:59----------
+flux that you should be using you work
+
+---------06:02----------
+for a company that sells flux we have a
+
+---------06:03----------
+lot of moving expenses coming up $25,000
+
+---------06:06----------
+security deposit probably 30 to 50,000
+
+---------06:09----------
+in construction costs moving costs
+
+---------06:12----------
+furniture we need to sell a lot of flux
+
+---------06:16----------
+Paul do you know many tubes of this we
+
+---------06:22----------
+need to sell exactly exactly
+
+---------06:25----------
+[ __ ] did I leave the mic on for that you
+
+---------06:29----------
+got to show what you got a show to make
+
+---------06:31----------
+money am i right Nord VPN folks go to
+
+---------06:36----------
+Nord VPN comm slash [ __ ] influencer
+
+---------06:39----------
+and enter code [ __ ] influencer
+
+---------06:50----------
+the stream was brought to you by
+
+---------06:51----------
+authentic Ametek flux
+
+---------06:58----------
+genuine Amtech flux Apple Authorized
+
+---------07:03----------
+in certified Ametek flux now actually
+
+---------07:05----------
+Apple off has a certified
+
+---------07:20----------
+all right so we're using 800 milliamps
+
+---------07:22----------
+now at five volts which is departure
+
+---------07:24----------
+from what we had before
+
+---------07:25----------
+now nothing I want to check here is that
+
+---------07:28----------
+cap that look nasty was on a different
+
+---------07:31----------
+PP 3v3 underscore g3 RL do that seems to
+
+---------07:34----------
+come out of the CD 32:15 itself
+
+---------07:39----------
+point three
+
+---------07:48----------
+hmm
+
+---------07:50----------
+when what happens if we change our CD
+
+---------07:52----------
+32:15 let's change this chip with
+
+---------07:56----------
+another one
+
+---------08:20----------
+well then it's a lot of shorts under
+
+---------08:23----------
+that [ __ ]
+
+---------10:05----------
+what's your Halloween costume I am don't
+
+---------10:08----------
+honestly I didn't have time to think
+
+---------10:09----------
+about a celebrate Halloween Thank You JP
+
+---------10:11----------
+but I have no Halloween costume
+
+---------10:18----------
+nobody here did this year actually 2013
+
+---------10:22----------
+I remember everybody here dressing up
+
+---------10:23----------
+for Halloween
+
+---------10:24----------
+posting a picture all right let's get
+
+---------10:29----------
+ourselves another CD 3215 from stored on
+
+---------10:33----------
+Rosslyn group.com
+
+---------11:30----------
+spend it no more running away
+
+---------12:20----------
+am i cleaning the peepee says Vermillion
+
+---------12:23----------
+perhaps okay we're back to one point
+
+---------12:31----------
+four vaults on P P 3 b3 5 volts there is
+
+---------12:35----------
+the 5 volts actually coming into the
+
+---------12:37----------
+chip 4.7 now sometimes what happens is
+
+---------12:41----------
+this diode is actually limiting the
+
+---------12:43----------
+current a little too much so it doesn't
+
+---------12:44----------
+produce what it's supposed to which
+
+---------12:48----------
+could be happening here never know so I
+
+---------12:51----------
+am going to replace both we replace that
+
+---------12:54----------
+diode right now just in case that's
+
+---------12:56----------
+what's going on here committee I got my
+
+---------12:58----------
+80 page newly's today and we are gonna
+
+---------13:00----------
+go through it at the speed you would
+
+---------13:04----------
+imagine for an 80 pages
+
+---------14:12----------
+oh look now we get 20 volts check it out
+
+---------14:16----------
+see 20 volts so let's go over what was
+
+---------14:19----------
+going on here so was that cap that was
+
+---------14:21----------
+mildly corroded that I was ignoring
+
+---------14:23----------
+because I'm a dumbass second stream in a
+
+---------14:26----------
+row last day where I've done something
+
+---------14:28----------
+stupid but it might as well show you so
+
+---------14:30----------
+that you learn from it it doesn't do you
+
+---------14:31----------
+any good if I hide the videos where I'm
+
+---------14:35----------
+an idiot so let's go over this now this
+
+---------14:38----------
+cap over here was corroded and I
+
+---------14:40----------
+stupidly replace this chip which
+
+---------14:42----------
+probably did not need to be corroded
+
+---------14:43----------
+this camp is for PP 3 V 3 underscore UPC
+
+---------14:46----------
+X al do so what's that pp 3 V 3 UPC x al
+
+---------14:50----------
+do is a sub R L of pp 3 B 300 square G 3
+
+---------14:54----------
+hot most likely now this comes out of
+
+---------14:57----------
+the CD 32 15 as you'll see over here see
+
+---------15:00----------
+that's our CD 32 15 chip and it comes
+
+---------15:02----------
+out of here now when I measured pp 3 B 3
+
+---------15:04----------
+underscore G 3 hot to see if there was a
+
+---------15:06----------
+short on it when it was only putting out
+
+---------15:08----------
+1 point 4 volts rather than 3.3 volts I
+
+---------15:10----------
+noticed that there was no short-circuit
+
+---------15:12----------
+however when I turned the machine on the
+
+---------15:14----------
+rail was being brought down why because
+
+---------15:16----------
+the CD 3215 is not going to give people
+
+---------15:18----------
+a V 3 underscore G 3 hot a pathway to pp
+
+---------15:22----------
+3 V 3 underscore youth DC underscore XA
+
+---------15:25----------
+underscore L do until the machine turns
+
+---------15:27----------
+on only when the CD 32 15 turns on do
+
+---------15:30----------
+you have pp 3 V 3 underscores G 3 hot 2
+
+---------15:33----------
+PP 3 V 3 u PCX al do and once that
+
+---------15:35----------
+happens then is gonna be a low
+
+---------15:37----------
+resistance to ground however I can't
+
+---------15:39----------
+measure resistance to ground when the
+
+---------15:41----------
+machine and its of itself is off delete
+
+---------15:44----------
+that I can't measure resistance to
+
+---------15:46----------
+ground when there's power going through
+
+---------15:49----------
+so there's no way I would ever be able
+
+---------15:50----------
+to find that by measuring I would not be
+
+---------15:52----------
+able to see that that short is there on
+
+---------15:53----------
+P P 3 V 3 underscore g 3 on until
+
+---------15:55----------
+there's power going through it and once
+
+---------15:56----------
+this power going through it I'm not
+
+---------15:57----------
+going to be able to measure because the
+
+---------15:58----------
+CD 3215 needs to be powered on to give a
+
+---------16:00----------
+pathway between P P 3 V 3 underscore g 3
+
+---------16:02----------
+huh and P P 3 V 3 UPC XA L do
+
+---------16:05----------
+so that is why this wasn't working
+
+---------16:07----------
+because P P 3 be 300 G 3 husband to 15
+
+---------16:10----------
+was giving the Baro a pathway between p
+
+---------16:12----------
+b3 b3 underscore g3 hot and it shorted
+
+---------16:14----------
+subarray laughs EP 3 b3 UPC XA l do that
+
+---------16:16----------
+is only going to be present when there
+
+---------16:17----------
+is power going through the machine which
+
+---------16:19----------
+is a condition under which I cannot
+
+---------16:20----------
+measure resistance to ground on any
+
+---------16:22----------
+power line because you cannot measure
+
+---------16:23----------
+resistance with a multimeter when this
+
+---------16:24----------
+power going to the board
+
+---------16:25----------
+hopefully this has taught you something
+
+---------16:27----------
+hopefully you've learned from my idiocy
+
+---------16:28----------
+and as always I hope you learn something
+
+---------16:30----------
+thank you very much and I will see you
+
+---------16:32----------
+in the next video see in the next one
+

@@ -1,0 +1,949 @@
+https://www.youtube.com/watch?v=nX7RwlTbHTQ
+---------00:00----------
+hey everybody how's it going so today
+
+---------00:01----------
+we're gonna be getting started fixing in
+
+---------00:02----------
+a 1708 non-touch bar 2016-17 MacBook Pro
+
+---------00:08----------
+let's open this thing up figure out why
+
+---------00:10----------
+it's not powering on and see if we can
+
+---------00:11----------
+make it work again alright so it looks
+
+---------00:16----------
+like this takes 5 volts 260 million but
+
+---------00:19----------
+doesn't seem to want to get up to 20
+
+---------00:21----------
+volts let's take the board out of the
+
+---------00:22----------
+case and try and figure out why that is
+
+---------00:24----------
+now on the older Mac books there is the
+
+---------00:27----------
+such thing as you having a green orange
+
+---------00:28----------
+light in the charger charges turning on
+
+---------00:30----------
+or no light in the charger charger not
+
+---------00:32----------
+turning on the reason I plugged this USB
+
+---------00:33----------
+C amp meter in between the charger and
+
+---------00:35----------
+the board is same general principle 5
+
+---------00:37----------
+volts charge is not turning on 20 volts
+
+---------00:40----------
+it is turning on don't forget personal
+
+---------00:50----------
+space circles
+
+---------00:50----------
+what personal space what the [ __ ] is
+
+---------00:56----------
+that
+
+---------01:01----------
+[Music]
+
+---------01:03----------
+seriously I want to take a Macbook for
+
+---------01:05----------
+the biggest douchebag customer and just
+
+---------01:07----------
+fill it with self-leveling concrete I
+
+---------01:08----------
+want to do a video titled we finally
+
+---------01:11----------
+decided to use self-leveling concrete
+
+---------01:12----------
+and just dip a customer's machine right
+
+---------01:15----------
+in it ideally it would be if what would
+
+---------01:17----------
+occur is a YouTube viewer who said why
+
+---------01:20----------
+not self-leveling concrete sent the
+
+---------01:22----------
+MacBook in and we just think
+
+---------01:23----------
+encapsulated in self-leveling concrete
+
+---------01:25----------
+the a 1708 board is uncomfortable to
+
+---------01:28----------
+remove from the case because of the
+
+---------01:29----------
+Wi-Fi wire area zero zero eight seven
+
+---------01:33----------
+five or zero zero four zero this is zero
+
+---------01:35----------
+zero eight four zero let's look up this
+
+---------01:37----------
+schematic and a board view excuse Paul
+
+---------01:39----------
+Daniels his life changing software over
+
+---------01:41----------
+here everybody to say thank you to Paul
+
+---------01:46----------
+Daniels for making this amazing software
+
+---------01:49----------
+that helps me do my job
+
+---------01:51----------
+go to youtube.com slash one nine PLD 73
+
+---------01:55----------
+that's youtube.com slash 19 P ld7 three
+
+---------02:00----------
+and say thank you to Paul Daniels so
+
+---------02:03----------
+over here this is the pp 3 v3 underscore
+
+---------02:05----------
+g3 hot power supply now many people ask
+
+---------02:07----------
+why am I always so concerned about this
+
+---------02:09----------
+rail well that's a great question this
+
+---------02:11----------
+rail that this chip creates goes to this
+
+---------02:14----------
+chip over here so pp 3 V 3 underscore g3
+
+---------02:16----------
+hot is going to power the chip that
+
+---------02:19----------
+tells the charger to put out 20 volts
+
+---------02:21----------
+rather than putting out 5 volts right
+
+---------02:24----------
+now my charger is stuck at 5 volts and
+
+---------02:26----------
+if you look over here voltage in C that
+
+---------02:31----------
+goes over here keep your 3 V 3
+
+---------02:33----------
+underscore g3 hot UPC XA and pp 3 b3
+
+---------02:36----------
+underscore g3 hot UPC XA comes from pp 3
+
+---------02:42----------
+b3 underscore g3 hot so if this chip
+
+---------02:44----------
+doesn't create that then this chip over
+
+---------02:46----------
+here which is the USB C port controller
+
+---------02:48----------
+USB C port controller won't turn on and
+
+---------02:51----------
+it won't tell the charger to put out 20
+
+---------02:54----------
+volts rather than 5 their arm of this
+
+---------02:57----------
+USB C charger this is a universal
+
+---------03:00----------
+standard and I can plug this into a
+
+---------03:02----------
+GoPro a phone or a MacBook it'll work
+
+---------03:05----------
+with everything but it needs to know how
+
+---------03:08----------
+much voltage to put out and it's gonna
+
+---------03:09----------
+start by putting out the lowest voltage
+
+---------03:10----------
+and it's not going to up it until it
+
+---------03:12----------
+speaks to that and here's the hmm
+
+---------03:15----------
+MacBook
+
+---------03:16----------
+oh my 20 volts but it's not it's not
+
+---------03:19----------
+doing it so it's not going up itself 220
+
+---------03:21----------
+volts until it speaks to that USB C port
+
+---------03:23----------
+controller and that USB C port
+
+---------03:24----------
+controller is dead because it's
+
+---------03:25----------
+powerline it's supposed to be producing
+
+---------03:27----------
+it is nothing so let's try and figure
+
+---------03:31----------
+out why that's the case so if we switch
+
+---------03:33----------
+over here you'll see that this chip
+
+---------03:35----------
+needs to be getting enable on pin 10 in
+
+---------03:37----------
+order to work so we need it to be enable
+
+---------03:39----------
+that's what Ian stands for we also
+
+---------03:41----------
+needed to have supply voltage um pin 2
+
+---------03:42----------
+so let's check pin 2 and let's also
+
+---------03:46----------
+check content so pin 10 is barely
+
+---------03:53----------
+visible it's actually really hard to see
+
+---------03:56----------
+but it looks like it goes to this probe
+
+---------03:58----------
+point right above it so I can just check
+
+---------04:01----------
+over here so it looks like the enable is
+
+---------04:04----------
+present so it is being asked to turn on
+
+---------04:06----------
+so now I am
+
+---------04:08----------
+I can't potentially blame the chip if it
+
+---------04:10----------
+doesn't want to turn on so now we're
+
+---------04:12----------
+gonna go to the other points what are we
+
+---------04:15----------
+getting at supply into
+
+---------04:25----------
+four point six volts and we have five
+
+---------04:29----------
+volts going in five volts going in and
+
+---------04:33----------
+that's gonna get lowered a little bit
+
+---------04:36----------
+not a lot but a little bit by the diode
+
+---------04:39----------
+I also believe there is a zero home
+
+---------04:43----------
+resistor r6 906 that's a little far up
+
+---------04:47----------
+here yes yeah is there any voltage drop
+
+---------04:51----------
+here hello
+
+---------05:01----------
+can we go
+
+---------05:05----------
+why are you blinking that's strange
+
+---------05:25----------
+five point one three it's nice and
+
+---------05:27----------
+steady five point one three
+
+---------05:33----------
+nice and steady four point six a little
+
+---------05:38----------
+bit of voltage drop from the diode this
+
+---------05:40----------
+it's fine
+
+---------05:42----------
+enable is present output is point three
+
+---------05:47----------
+all right now I got to figure out what's
+
+---------05:49----------
+pulling it down maybe there's a short
+
+---------05:51----------
+circuit to ground on the line 390 let's
+
+---------06:00----------
+see point 380 million ohms so that's
+
+---------06:04----------
+three hundred eighty thousand ohms so
+
+---------06:07----------
+three hundred eighty thousand ohms that
+
+---------06:08----------
+doesn't sound like there's a short
+
+---------06:10----------
+circuit bringing it down however here's
+
+---------06:12----------
+the reason why I think that there is a
+
+---------06:13----------
+short circuit even though my meter is
+
+---------06:15----------
+lying to me and telling me there is no
+
+---------06:16----------
+short circuit the reason I think this is
+
+---------06:18----------
+short even though my meter is telling me
+
+---------06:19----------
+that there's no short is because it's
+
+---------06:21----------
+taking three hundred milliamps
+
+---------06:22----------
+when PB 3 V 3 underscore G 3 hot is not
+
+---------06:24----------
+present then it's not working typically
+
+---------06:25----------
+it takes 10 to 30 milliamps yet it's
+
+---------06:27----------
+taking 10 times that amount of power
+
+---------06:29----------
+which is not what I would expect if
+
+---------06:31----------
+there's no short circuit the short
+
+---------06:32----------
+circuit would also explain why it's
+
+---------06:33----------
+being pulled down
+
+---------06:34----------
+I believe this board may have what's
+
+---------06:35----------
+called an active short where the short
+
+---------06:37----------
+circuit is only present when there's
+
+---------06:40----------
+power going through the affective
+
+---------06:42----------
+component so only once the affected
+
+---------06:44----------
+component has a charge going through it
+
+---------06:45----------
+does it then wind up opening something
+
+---------06:47----------
+that shorts the ground so we're gonna
+
+---------06:49----------
+see if that's the case using a thermal
+
+---------06:51----------
+camera so I'm gonna use the thermal
+
+---------06:53----------
+camera let's get that on the desk but
+
+---------06:55----------
+before we get that on the desk it looks
+
+---------06:57----------
+like we have all-out war opening up here
+
+---------06:59----------
+in rossmann repair group and we're gonna
+
+---------07:00----------
+have to take care of that first
+
+---------07:08----------
+I hit the pilot oh I hit the pilot and
+
+---------07:25----------
+the drone counter-terrorist unit what
+
+---------07:33----------
+the [ __ ] I hit it you should be dead I
+
+---------07:38----------
+want to fill up the short circuit with
+
+---------07:40----------
+some self-leveling concrete we should
+
+---------07:42----------
+have a self-leveling concrete station at
+
+---------07:44----------
+the new place that looks like a water
+
+---------07:45----------
+dispenser but it dispenses self-leveling
+
+---------07:48----------
+concrete myself level and concrete
+
+---------07:58----------
+all right what's taking 300 milliamps
+
+---------08:05----------
+see you later Paul four o'clock and
+
+---------08:13----------
+what's Jersey
+
+---------08:16----------
+alright so this resistor is getting one
+
+---------08:22----------
+that's the inrush resistor though each
+
+---------08:27----------
+CD 32 15 is a cool twenty seven Celsius
+
+---------08:37----------
+on the other side of the board we have
+
+---------08:40----------
+something getting warm over here 50
+
+---------08:44----------
+Celsius hmm what is that
+
+---------08:47----------
+I'm gonna take my tweezer and try to
+
+---------08:49----------
+figure out what that is
+
+---------08:58----------
+all right now it's right on top of what
+
+---------09:00----------
+it is I'm going to engage English mode
+
+---------09:03----------
+in the software so it's this chip now is
+
+---------09:06----------
+that ship really getting to be 50
+
+---------09:07----------
+Celsius ah it seems like it is seems
+
+---------09:13----------
+like that could be an active short nice
+
+---------09:15----------
+thing I'm kind of interested in is what
+
+---------09:16----------
+does that ship do and does pp 3v3
+
+---------09:18----------
+underscore g3 hot even go to it there's
+
+---------09:21----------
+only one way to find out now isn't there
+
+---------09:23----------
+we're gonna use Paul Daniels is amazing
+
+---------09:24----------
+software and we're gonna click over and
+
+---------09:27----------
+one of the things that I find pretty
+
+---------09:29----------
+interesting is Paul Daniel software it
+
+---------09:31----------
+says that that chip doesn't exist but am
+
+---------09:35----------
+I really what okay that's what that's
+
+---------09:40----------
+what the board looks like but the board
+
+---------09:44----------
+view says there's nothing there but but
+
+---------09:49----------
+there's a chip but the board view says
+
+---------09:51----------
+there's nothing there but there's a chip
+
+---------09:52----------
+but the board view says there's nothing
+
+---------09:54----------
+there but there's a chip at the Apple
+
+---------09:58----------
+are you gaslighting me let's replace it
+
+---------10:04----------
+let's pray that my I have a full donor
+
+---------10:05----------
+board for that not one of those stupid
+
+---------10:07----------
+wings and then do you shoot you in the
+
+---------10:12----------
+tail ball
+
+---------10:19----------
+David that's cruel to shoot somebody in
+
+---------10:21----------
+the tailbone like that
+
+---------10:32----------
+maybe I have an 875 board view that's
+
+---------10:34----------
+labeled zero zero eight four zero yeah
+
+---------10:38----------
+because the zero 8 - zero - zero zero
+
+---------10:40----------
+eight seven five boy does not have that
+
+---------10:42----------
+ship
+
+---------10:53----------
+page one says x5o to MLB August 9th 2016
+
+---------11:00----------
+yeah maybe they just gave me the wrong
+
+---------11:02----------
+board view that's good this schematic is
+
+---------11:04----------
+correct but the board view is not well
+
+---------11:11----------
+do we have any 0 0 8 4 0 boards there or
+
+---------11:17----------
+is it only 2 0 0 8 7 5 Oh beautiful
+
+---------11:24----------
+fresh from China well I guess I'm never
+
+---------11:30----------
+gonna know what this chip is for
+
+---------11:44----------
+neppy Aronoff just confirmed that the 0
+
+---------11:46----------
+0 8 7 5 and 0 0 a 4 0 board view is the
+
+---------11:49----------
+same file so most likely the we don't
+
+---------11:52----------
+have a schematic for this one we don't
+
+---------11:55----------
+have a board view for this even if we
+
+---------11:56----------
+have a schematic for it that's kind of
+
+---------11:58----------
+lame so I'm not really sure what this
+
+---------12:02----------
+thing does perhaps this is the spy chip
+
+---------12:10----------
+this is the spy on American ship I'm
+
+---------12:13----------
+kind of curious if you even need that
+
+---------12:15----------
+thing maybe it's just optional
+
+---------12:22----------
+Paul Daniels is back everybody give a
+
+---------12:24----------
+nice round of applause to Paul Daniels
+
+---------12:26----------
+in the chat for producing this amazing
+
+---------12:28----------
+software that helps make my life easier
+
+---------12:29----------
+and to Pierre nob as well who assists
+
+---------12:31----------
+Paul Daniels with the software both
+
+---------12:34----------
+talented board repair people and
+
+---------12:36----------
+programmers that deserve more credit
+
+---------12:37----------
+than they get and money
+
+---------12:46----------
+if a nice welcome and hello to Paul
+
+---------12:49----------
+Daniels hero of the Republic yeah saying
+
+---------13:01----------
+I hate that with what they do with the
+
+---------13:03----------
+zero zero one three eight as well
+
+---------13:04----------
+because it's enough but try
+
+---------13:06----------
+troubleshooting the mem vtt enable
+
+---------13:08----------
+circuit using any of the other available
+
+---------13:10----------
+schematics so the drive you nuts because
+
+---------13:11----------
+the transistors are all opposite there
+
+---------13:13----------
+are the other way see you X you have to
+
+---------13:15----------
+trace back from the resistors that go to
+
+---------13:16----------
+them to fit and then use the dots and
+
+---------13:19----------
+the transistors to figure out which way
+
+---------13:20----------
+they're oriented to figure out what it
+
+---------13:22----------
+is because they use the same transistors
+
+---------13:23----------
+in the same MPPT enable circuit just in
+
+---------13:25----------
+different spots even if it's a coil
+
+---------13:32----------
+cluster what does PP 3v3 underscore d3
+
+---------13:35----------
+hot doing going to it don't understand
+
+---------14:18----------
+Oh
+
+---------14:24----------
+[Music]
+
+---------14:29----------
+okay gonna get the board wrap it cool
+
+---------14:31----------
+for a moment there I was using this
+
+---------14:33----------
+little box cutter as a heat shield for
+
+---------14:35----------
+those two under-filled chips down there
+
+---------14:37----------
+I don't want anything with underfill on
+
+---------14:38----------
+it getting heated
+
+---------15:29----------
+all right it's taking 40 milliamps and
+
+---------15:31----------
+then it jumps all the way up to 20 volts
+
+---------15:34----------
+at 500 milliamps which means it's
+
+---------15:36----------
+turning on so I knew that it was gonna
+
+---------15:38----------
+turn on from moment I saw I was only
+
+---------15:39----------
+taking 40 milliamps rather than 300
+
+---------15:41----------
+because the lower milliamp usage means
+
+---------15:43----------
+my short is gone if my short was still
+
+---------15:45----------
+there then it would have still been
+
+---------15:46----------
+taking 300 milliamps from the get-go
+
+---------15:48----------
+rather than slowly starting with a small
+
+---------15:50----------
+amperage draw and then growing as it
+
+---------15:52----------
+doesn't a typical working board again
+
+---------15:54----------
+one of the things I think is important
+
+---------15:55----------
+to get across here is that you can still
+
+---------15:56----------
+have a short circuit even if you don't
+
+---------15:58----------
+measure a short circuit you can have
+
+---------16:00----------
+300,000 ohms to ground as I did but
+
+---------16:02----------
+slava short circuit because the way
+
+---------16:03----------
+what's going on is that the chip is only
+
+---------16:06----------
+having a short circuit when it has power
+
+---------16:09----------
+going through it so once it has power go
+
+---------16:10----------
+through it that causes something to go
+
+---------16:13----------
+some pathway to open up that wouldn't
+
+---------16:15----------
+otherwise open up that sends this power
+
+---------16:18----------
+rail to ground and it's something you
+
+---------16:19----------
+also can't really measure for because if
+
+---------16:21----------
+you try to measure it for a short
+
+---------16:22----------
+circuit if you try to use a multimeter
+
+---------16:24----------
+to measure the resistance of something
+
+---------16:25----------
+with power going through it it's not
+
+---------16:26----------
+going to work and that's the issue that
+
+---------16:28----------
+we were having here so you can indeed
+
+---------16:30----------
+have a short circuit where even if
+
+---------16:33----------
+there's a resistance reading of about
+
+---------16:35----------
+300,000 Oh mr. Brown which is gonna
+
+---------16:37----------
+confuse a lot of people the thermal cam
+
+---------16:38----------
+show or that that was getting to 54
+
+---------16:40----------
+Celsius which it's not going to do if
+
+---------16:42----------
+there's not a short-circuit pp3 v3
+
+---------16:44----------
+underscore g3 hot is not going to be
+
+---------16:45----------
+point two volts instead of 3.3 volts
+
+---------16:47----------
+without a short-circuit if it's creating
+
+---------16:49----------
+that much heat so that's it for today
+
+---------16:51----------
+and as always I hope you learned
+
+---------16:53----------
+something give a shout out to Paul
+
+---------16:54----------
+Daniels at youtube.com slash 1 9 P ld7 3
+
+---------16:57----------
+that's youtube.com slash 1 9 p LD 7 3 2
+
+---------17:00----------
+say thank you very much for this lovely
+
+---------17:02----------
+beautiful software that helps us do our
+
+---------17:03----------
+job and Happy Holidays Merry Christmas
+
+---------17:06----------
+see in the next one
+

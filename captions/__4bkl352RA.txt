@@ -1,0 +1,712 @@
+https://www.youtube.com/watch?v=__4bkl352RA
+---------00:00----------
+so we're drawing zero amps so let's see
+
+---------00:03----------
+what power rails are resin tin which
+
+---------00:04----------
+ones are not
+
+---------00:05----------
+let's go through my power rails you're
+
+---------00:08----------
+gonna go to page 65 I believe now watch
+
+---------00:13----------
+out watch what paul daniels is new
+
+---------00:15----------
+software does this is the beauty and the
+
+---------00:17----------
+magic of using software that's been
+
+---------00:19----------
+coded by paul daniels if i right click
+
+---------00:22----------
+over here if I right click on PP bus g3
+
+---------00:26----------
+hot it shows me right over here exactly
+
+---------00:29----------
+where to find those rails that is some
+
+---------00:31----------
+beautiful damn software available on PL
+
+---------00:34----------
+Daniel's dot-com looks like we're
+
+---------00:37----------
+getting eight point six bolts on P P bus
+
+---------00:39----------
+g3 hot let's check out what we're
+
+---------00:41----------
+getting on some other rails ok now we
+
+---------00:48----------
+have a hint can you see my hint
+
+---------00:57----------
+see that that is liquid damage so now
+
+---------01:01----------
+we're going to look at that section of
+
+---------01:02----------
+the board and it'll and see if there is
+
+---------01:05----------
+liquid in that spot because that will
+
+---------01:08----------
+give us an idea of what's going on we
+
+---------01:11----------
+look at that spot in the board liquid
+
+---------01:17----------
+and there's water over here by the BIOS
+
+---------01:20----------
+but the traces that are usually broken
+
+---------01:22----------
+aren't broken yeah there was a little
+
+---------01:25----------
+bit that probably got on my clock chip
+
+---------01:27----------
+so we're gonna check that well let's see
+
+---------01:29----------
+what that's for using Paul Daniels as
+
+---------01:33----------
+board view software available at PL
+
+---------01:35----------
+Daniel's vodka so this one p CH GPIO
+
+---------01:41----------
+boring trackpad SPI clock boring audio
+
+---------01:46----------
+something boring you are boring trackpad
+
+---------01:52----------
+mossy boring and what's this yeah just
+
+---------01:57----------
+some pulldown resistors for things like
+
+---------01:59----------
+Ethernet okay so that's not as important
+
+---------02:01----------
+as I thought for some reason I thought
+
+---------02:02----------
+that area was gonna be more important I
+
+---------02:04----------
+thought that was can have some spi ROM
+
+---------02:05----------
+resistors either way I'm gonna give that
+
+---------02:07----------
+area a nice little gentle reflow just to
+
+---------02:10----------
+remind it that it that it matters we
+
+---------02:13----------
+care about it someone says just watch
+
+---------02:16----------
+the snazzy video review that was really
+
+---------02:18----------
+depressing yeah that's Apple that's the
+
+---------02:21----------
+company everybody fights to defend
+
+---------02:25----------
+that's their god
+
+---------02:40----------
+I was reading that some companies will
+
+---------02:41----------
+send out higher quality products to
+
+---------02:43----------
+reviewers than what will be available on
+
+---------02:44----------
+the market what are your thoughts I
+
+---------02:46----------
+honestly don't think many of these
+
+---------02:48----------
+companies are even sophisticated enough
+
+---------02:50----------
+to do that here's this here's what I
+
+---------02:51----------
+think if your product is so bad that you
+
+---------02:53----------
+have to that you have to send a higher
+
+---------02:55----------
+quality version of it to the reviewer
+
+---------02:56----------
+just for it to get a good review chances
+
+---------02:58----------
+are you're probably too stupid to set up
+
+---------03:00----------
+two or two underfunded or too messed up
+
+---------03:04----------
+to be able to setup and manage two
+
+---------03:06----------
+separate production lines I just I think
+
+---------03:09----------
+that that is something that could
+
+---------03:11----------
+totally have been a thing back when
+
+---------03:12----------
+there were actually people sitting there
+
+---------03:14----------
+and soldering things together by hand
+
+---------03:15----------
+like or for audio gear I'm gonna use
+
+---------03:18----------
+thin I'm gonna use film resistors for
+
+---------03:20----------
+this guy and use that carbon crap for
+
+---------03:23----------
+this other one you know I get it but I
+
+---------03:25----------
+don't get I don't see how that could be
+
+---------03:26----------
+a thing in the modern world you know are
+
+---------03:29----------
+there really craftsmen that are sitting
+
+---------03:31----------
+and putting things together where they
+
+---------03:33----------
+say make sure that he gets a better
+
+---------03:34----------
+quality one than this guy I mean I could
+
+---------03:37----------
+be wrong it's just I would be skeptical
+
+---------03:38----------
+of that in the modern world let's
+
+---------03:40----------
+continue looking around this board the
+
+---------03:46----------
+bauhaus areas got some interesting nasty
+
+---------03:47----------
+looking traces but nothing here is
+
+---------03:52----------
+particularly broken yet pp 3 B 3 s 5 s
+
+---------03:56----------
+MC and then there's an inductor above it
+
+---------04:00----------
+that also looks to actually there's the
+
+---------04:02----------
+capacitor under it which is pp 3 B 3 AVR
+
+---------04:05----------
+f sm c and p p3 b 3 S 5 s MC that was
+
+---------04:09----------
+both look like crap 3.3
+
+---------04:20----------
+and that's what it's supposed to be but
+
+---------04:24----------
+you point for that's what it's supposed
+
+---------04:25----------
+to be all right now I'd be interested in
+
+---------04:27----------
+checking out some of the other rails
+
+---------04:28----------
+here rails like PP 5vs5 and so on and so
+
+---------04:32----------
+forth all right so let's check PPV RTC
+
+---------04:34----------
+underscore g3 huh
+
+---------04:44----------
+30.3 pp5 es5
+
+---------04:56----------
+all right now let's see are we getting
+
+---------04:59----------
+our other rail BB 5 vs 4 of course not
+
+---------05:05----------
+and it's not being enabled either now
+
+---------05:07----------
+once we have s 5 rails good I believe
+
+---------05:09----------
+PMD SW underscore power good is supposed
+
+---------05:12----------
+to show up and I kind of want to see if
+
+---------05:13----------
+that's showing up here that could stop
+
+---------05:16----------
+us from getting some progress so we
+
+---------05:17----------
+would find PMD SW power good right over
+
+---------05:19----------
+there three point four all right so I
+
+---------05:24----------
+would say that at this point where we
+
+---------05:26----------
+have a reward missing p.m. sleep s4l
+
+---------05:28----------
+with some liquid damage around the SMC
+
+---------05:30----------
+so the first thing I would do is clean
+
+---------05:32----------
+up the SMC area and see if that fixes it
+
+---------05:34----------
+I mean it's the most it's the most
+
+---------05:36----------
+obvious thing to go for here dead CPU
+
+---------05:42----------
+could be it but I since but I still
+
+---------05:44----------
+wouldn't jump at that come on man it's
+
+---------05:52----------
+been harder to get the stuff out of the
+
+---------05:53----------
+tube lately maybe I'm getting old but
+
+---------05:57----------
+it's you got to watch out when you get
+
+---------06:01----------
+old because when you get old it's harder
+
+---------06:02----------
+to get your stuff out of the tube
+
+---------06:56----------
+my phone's ringing my burrito but my my
+
+---------07:00----------
+chip hasn't reflow all right I think it
+
+---------07:03----------
+refloat hello yeah yeah beer I'll be
+
+---------07:13----------
+right outside
+
+---------07:15----------
+I'll be right outside I'm walking
+
+---------07:18----------
+outside now my burrito burrito okay hey
+
+---------07:37----------
+man sorry I had to finish free flowing
+
+---------07:39----------
+my SMC for my 34:37 board all right see
+
+---------07:43----------
+you later
+
+---------07:44----------
+yeah heat that you totally got exactly
+
+---------07:47----------
+what I was talking about can't interrupt
+
+---------07:52----------
+the reflow what is this this is the
+
+---------07:54----------
+thing with New York City like this is
+
+---------07:55----------
+Shh it's like the prices either keep
+
+---------08:00----------
+going up or the prices stay the same but
+
+---------08:03----------
+they just keep giving you less and less
+
+---------08:04----------
+stuff this is not a $10 burrito where's
+
+---------08:06----------
+the hot sauce where's that sense where
+
+---------08:09----------
+is the really no hot sauce no hot sauce
+
+---------08:11----------
+no hot sauce no salsa no hot sauce this
+
+---------08:14----------
+is your $10 burrito mmm socks yeah try
+
+---------08:23----------
+it every burrito place by here there's a
+
+---------08:25----------
+good one by my apartment but these suck
+
+---------08:27----------
+mmm gross this is garbage absolute
+
+---------08:34----------
+garbage even looks like garbage look at
+
+---------08:39----------
+the inside of this thing looks like dirt
+
+---------09:07----------
+I have no problem with legal immigrants
+
+---------09:39----------
+I have no problem with people that try
+
+---------09:40----------
+to make it in this country that do hard
+
+---------09:42----------
+work and put an effort god bless them
+
+---------09:44----------
+you know do your best I don't think
+
+---------09:47----------
+there should be a wall based on
+
+---------09:48----------
+immigration status I do think there
+
+---------09:51----------
+should be a wall based on the quality of
+
+---------09:52----------
+the burritos that your establishment
+
+---------09:54----------
+offers and if that's the type of burrito
+
+---------09:56----------
+that you offer I don't even care if your
+
+---------09:59----------
+illegal immigrant you got I don't even
+
+---------10:02----------
+care if you were born here I don't care
+
+---------10:04----------
+what color you are what religion you are
+
+---------10:06----------
+but you got to go there is absolutely no
+
+---------10:09----------
+reason to offer a burrito that tastes
+
+---------10:10----------
+that badly if you're a business or a
+
+---------10:13----------
+restaurant in the United States of
+
+---------10:14----------
+America that is disgusting Jesus Christ
+
+---------10:17----------
+that was terrible that's the worst
+
+---------10:19----------
+burrito I think I've eaten in my all the
+
+---------10:22----------
+years I've ever lived in New York City
+
+---------10:23----------
+I've done nothing to deserve a burrito
+
+---------10:25----------
+of such low quality and bam SMC reflow
+
+---------10:29----------
+fixed there we go so this is an
+
+---------10:33----------
+interesting one this was an interesting
+
+---------10:35----------
+one we were missing our s4 rails this
+
+---------10:37----------
+chip over here is gonna be responsible
+
+---------10:39----------
+for creating our s4 rail over here PP 5
+
+---------10:43----------
+es 4 rs3 and that's gonna be enabled by
+
+---------10:46----------
+you where do you come from you come from
+
+---------10:51----------
+p5 es 4 RS 3 en well where do you come
+
+---------10:56----------
+from you come from here that comes from
+
+---------10:59----------
+p.m. sleep s4l and where does PM sleep
+
+---------11:02----------
+s4l come from the cpu so a lot of the
+
+---------11:06----------
+times it would be normal to think that
+
+---------11:09----------
+the CPU is dead if you're missing p.m.
+
+---------11:12----------
+sleep s4l however the SMC can stop p.m.
+
+---------11:15----------
+sleep s4l from being there now the
+
+---------11:18----------
+reason I knew that this time is because
+
+---------11:20----------
+there was Kuro
+
+---------11:21----------
+right around the SMC the corrosion
+
+---------11:23----------
+around the SMC hinted me in that
+
+---------11:25----------
+direction and told me focus on this but
+
+---------11:28----------
+without the hints of corrosion by the
+
+---------11:30----------
+SMC I may have never known that the SMC
+
+---------11:32----------
+was what was causing p.m. sleep s4l to
+
+---------11:34----------
+be missing this is why having corrosion
+
+---------11:37----------
+on the spot that's causing your problem
+
+---------11:39----------
+is so great because now I know that in
+
+---------11:41----------
+my head next time I know the SMC can
+
+---------11:44----------
+cause p.m. sleep s4 ought to be missing
+
+---------11:46----------
+now I know that the SMC can keep p.m.
+
+---------11:48----------
+sleep s4l from being present but that's
+
+---------11:52----------
+typically only when p.m. DSW power good
+
+---------11:54----------
+is also not present I can't remember a
+
+---------11:56----------
+case where PMD SW power good was present
+
+---------11:58----------
+I had a green light and p.m. sleep s4 I
+
+---------12:01----------
+was missing and it was the s MCS fault
+
+---------12:04----------
+so that's a very interesting one to me
+
+---------12:06----------
+and I would like to look into how it is
+
+---------12:09----------
+that the SMC would cause that to happen
+
+---------12:10----------
+the SMC can also cause issues where it
+
+---------12:13----------
+turns on but doesn't go anywhere it
+
+---------12:15----------
+doesn't boot in anything it turns on
+
+---------12:16----------
+with no brain but this was legit missing
+
+---------12:18----------
+p.m. sleep s4l dead and we've got to
+
+---------12:21----------
+figure it out because of the liquid
+
+---------12:22----------
+damage Hey look here this causes this
+
+---------12:25----------
+issue so now I know and I add this to my
+
+---------12:28----------
+repertoire when I started
+
+---------12:29----------
+troubleshooting I was drawing zero point
+
+---------12:32----------
+zero zero one zero point zero zero two
+
+---------12:33----------
+amps on my power supply when I looked at
+
+---------12:37----------
+the board that was corrosion by the SMC
+
+---------12:38----------
+when I focused on what was missing p.m.
+
+---------12:41----------
+sleep s4 I was missing and I was missing
+
+---------12:43----------
+my ass for rails and there was something
+
+---------12:45----------
+going on with my SMC so now the next
+
+---------12:47----------
+time I see that my machine is drawing
+
+---------12:49----------
+0.001 amps on my power supply I know
+
+---------12:52----------
+okay
+
+---------12:53----------
+check the SMC even if it's not corroded
+
+---------12:56----------
+this will allow me to look at the next
+
+---------12:58----------
+board and say okay even if there is no
+
+---------13:00----------
+corrosion on it let me consider the SMC
+
+---------13:03----------
+as a variable where I typically would
+
+---------13:06----------
+not consider it as a variable because of
+
+---------13:08----------
+this experience and that's awesome so
+
+---------13:11----------
+with that let's move on to the next
+
+---------13:13----------
+board
+

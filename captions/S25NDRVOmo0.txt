@@ -1,0 +1,1552 @@
+https://www.youtube.com/watch?v=S25NDRVOmo0
+---------00:00----------
+hi so today I'm gonna be going over a
+
+---------00:01----------
+MacBook Air board that is not turning on
+
+---------00:04----------
+this comes from a pile of crap that I
+
+---------00:06----------
+had bought from a company called a
+
+---------00:07----------
+Sendak so I did receive an email a few
+
+---------00:10----------
+months back asking if I was interested
+
+---------00:12----------
+in a lot of machines and as I said in
+
+---------00:13----------
+one of the other videos my first concern
+
+---------00:16----------
+with something like that was gee I've
+
+---------00:18----------
+bought motherboards from you on eBay
+
+---------00:19----------
+before those motherboards said they were
+
+---------00:21----------
+refurbished is what you're selling me
+
+---------00:23----------
+out of the pile of stuff that your texts
+
+---------00:25----------
+were not able to fix or that tried to
+
+---------00:27----------
+fix and failed oh yeah I said another
+
+---------00:30----------
+video I used to date this woman that
+
+---------00:32----------
+every time she did something that was
+
+---------00:33----------
+wrong or like really you just really
+
+---------00:36----------
+really up she would instead of
+
+---------00:38----------
+going no that would be the regular no I
+
+---------00:40----------
+didn't do that no and then there'd be no
+
+---------00:42----------
+which was the no but yeah I actually did
+
+---------00:46----------
+exactly what you're accusing me of and
+
+---------00:47----------
+it was wrong and up kind of thing
+
+---------00:50----------
+and they're like and you know I get this
+
+---------00:52----------
+pile of machines were like if a half of
+
+---------00:55----------
+the machines that you you know
+
+---------00:57----------
+claim that you've never worked on I have
+
+---------00:59----------
+the spi ROM chip on backwards and
+
+---------01:02----------
+missing pads under BGA chips and it's
+
+---------01:04----------
+like so big you to a Sentech there
+
+---------01:07----------
+anyway there are a couple of machines
+
+---------01:09----------
+here that they didn't destroy and
+
+---------01:10----------
+sodomize the ones that they really did
+
+---------01:12----------
+this tryin sodomized I have not been
+
+---------01:14----------
+doing videos on for the most part I
+
+---------01:15----------
+think I the video and maybe only one or
+
+---------01:17----------
+two of them because each one of those is
+
+---------01:18----------
+like a three-hour board repair and I'm
+
+---------01:21----------
+just going through them just so that I
+
+---------01:22----------
+can get my money back on the garbage
+
+---------01:24----------
+that that piece of pile of crap company
+
+---------01:26----------
+sold me but anyway so this is one that
+
+---------01:28----------
+all they did was ultrasonic clean it or
+
+---------01:30----------
+Who am I kidding I'm probably alcohol on
+
+---------01:32----------
+a toothbrush without dumb half
+
+---------01:33----------
+of the people there are again when when
+
+---------01:35----------
+half of the board's that I get from you
+
+---------01:37----------
+like the problem with the board is that
+
+---------01:38----------
+you have the BIOS chip on backwards and
+
+---------01:40----------
+I know that you did that because the
+
+---------01:41----------
+chip is covered in flux it's like you
+
+---------01:43----------
+know idiot but you know anyway so this
+
+---------01:47----------
+board is a board that you get the light
+
+---------01:49----------
+and the charger and everything but it
+
+---------01:50----------
+doesn't turn on the fan doesn't spin
+
+---------01:52----------
+this is an eight to zero 34:37 board and
+
+---------01:55----------
+we're gonna go through it and try to
+
+---------01:56----------
+figure out what it is that's wrong with
+
+---------01:58----------
+it so the first thing I'm gonna do here
+
+---------02:00----------
+is I'm going to have I'm gonna take the
+
+---------02:02----------
+DCN board in the DCN board flex out of
+
+---------02:04----------
+the machine so that we can work on it
+
+---------02:06----------
+without having to deal with you know the
+
+---------02:07----------
+the machine and every time I turn it
+
+---------02:10----------
+around to being a pain in the ass so I'm
+
+---------02:12----------
+gone okay T 5 T 5 T 5 okay first I'm
+
+---------02:19----------
+gonna grab it t 5 from the front and
+
+---------02:21----------
+then we're gonna get back to the alright
+
+---------02:23----------
+now the first thing that I tell all you
+
+---------02:24----------
+people to do is that you should always
+
+---------02:26----------
+be checking your power rails and I'm
+
+---------02:29----------
+gonna just show you where that pages on
+
+---------02:31----------
+the schematic on this schematic so that
+
+---------02:33----------
+you can get a little bit of an idea of
+
+---------02:34----------
+what it is I'm talking about so let's
+
+---------02:37----------
+change a low open broadcaster alright
+
+---------02:40----------
+change there we go that is so cool look
+
+---------02:43----------
+at that look at that that is yeah I
+
+---------02:46----------
+could do this all day I mean this is so
+
+---------02:50----------
+cool all right there let's actually get
+
+---------02:53----------
+to work so we're gonna go to where the
+
+---------02:55----------
+power rail pages on the schematic is
+
+---------02:58----------
+gonna be a one page that lists all the
+
+---------03:00----------
+rails and instead of it being on page
+
+---------03:02----------
+one like it used to be or page two or
+
+---------03:04----------
+three now they put that crap on like
+
+---------03:06----------
+page 662 alright if you want to know
+
+---------03:09----------
+where the power rails are in this
+
+---------03:10----------
+commodity you got to go to page 62 so
+
+---------03:13----------
+I'm gonna start measuring around on the
+
+---------03:14----------
+board where and if you don't know if you
+
+---------03:18----------
+don't know how it is I know where these
+
+---------03:19----------
+things are oh you open this board view
+
+---------03:22----------
+software I can hit in and bring it type
+
+---------03:24----------
+in PP buddy three hot and this is gonna
+
+---------03:26----------
+bring up every single place in the board
+
+---------03:27----------
+that that shows up see it's pretty cool
+
+---------03:30----------
+software so let's check so 4 PP budge d3
+
+---------03:33----------
+hot I get let's see 8 point 5 volts
+
+---------03:43----------
+alright now let's see what I get for
+
+---------03:44----------
+other power rails in the machine so I
+
+---------03:46----------
+know that since I got a light on the
+
+---------03:48----------
+charger that PP 3 before 2 shows up I
+
+---------03:50----------
+know that because the one wire circuit
+
+---------03:52----------
+works off of PP 3 V 4 - if you don't
+
+---------03:54----------
+understand what I'm talking about when I
+
+---------03:55----------
+say that I know that the orange light in
+
+---------03:57----------
+the charger means that the PP 3 V 4 2
+
+---------03:59----------
+rail is there and it's view any one of
+
+---------04:01----------
+the half a dozen videos I have here on
+
+---------04:03----------
+the one wire circuit and you'll figure
+
+---------04:04----------
+that out now let's go over the other
+
+---------04:07----------
+rails so let's see if something like PP
+
+---------04:09----------
+5 ESO is there so this machine is
+
+---------04:12----------
+supposed to turn itself into an Esso
+
+---------04:13----------
+state from the moment that you plug in
+
+---------04:15----------
+the charger this is unlike the older
+
+---------04:17----------
+MacBooks where you actually have to push
+
+---------04:18----------
+the power button to turn it on all the
+
+---------04:19----------
+core i5 and i7 series MacBooks and
+
+---------04:21----------
+MacBook Airs and MacBook Pros the second
+
+---------04:23----------
+that you plug the charger power and
+
+---------04:25----------
+it just turns itself on so I want to see
+
+---------04:28----------
+if of sol is real present to see if the
+
+---------04:30----------
+machine is actually at a point of
+
+---------04:31----------
+getting itself into an Esso state
+
+---------04:44----------
+okay so I have five volts on PP 5 vs oh
+
+---------04:48----------
+that means the machine is in an Esso
+
+---------04:49----------
+state that means the machine is actually
+
+---------04:51----------
+trying to turn on but one of the
+
+---------04:52----------
+problems that I have right now is that
+
+---------04:54----------
+even though the machine is making its
+
+---------04:55----------
+way to an Esso state so all the signals
+
+---------04:57----------
+are present required to get to the
+
+---------04:59----------
+machine to say okay turn on all the s54
+
+---------05:01----------
+else okay turn on all the s 3 where else
+
+---------05:03----------
+okay turn on all the s / else one of my
+
+---------05:05----------
+rails is missing now at this point I can
+
+---------05:07----------
+do one of two things the first thing I
+
+---------05:09----------
+can do is I can go back to my schematic
+
+---------05:11----------
+and after I go to the schematic I can
+
+---------05:13----------
+look and go through every single s
+
+---------05:15----------
+Oreille so I can see a P P 3 P 3 yes I
+
+---------05:17----------
+was there
+
+---------05:17----------
+I can see a P P 1 vo 5 as so much W PCHS
+
+---------05:20----------
+I always there people want to be áfiveá
+
+---------05:22----------
+so is there a PP 0 of these six
+
+---------05:24----------
+underscore s OD dr v t t PP 1 v 5s o PP
+
+---------05:27----------
+1b o 5 sauce and I can go through every
+
+---------05:29----------
+single one of those and check them one
+
+---------05:31----------
+by one the second thing that I can do is
+
+---------05:33----------
+that I can try to look for a hint for
+
+---------05:34----------
+with the Ascend tech [ __ ] mist
+
+---------05:36----------
+before they sold this to me so let's try
+
+---------05:39----------
+to look for what the Ascend tech morons
+
+---------05:40----------
+missed which is why this is here because
+
+---------05:42----------
+even though they are scamming people who
+
+---------05:44----------
+decided to send me a bunch of crap that
+
+---------05:45----------
+they did indeed work on that they said
+
+---------05:48----------
+that you know we don't work on these
+
+---------05:50----------
+before we send them even though they did
+
+---------05:53----------
+that and they are kind of scammers come
+
+---------05:55----------
+in pieces of one of the things that
+
+---------05:57----------
+I know for a fact is that they're
+
+---------06:00----------
+probably idiots so they probably missed
+
+---------06:02----------
+something that's really really easy
+
+---------06:03----------
+which will hopefully allow me to make
+
+---------06:05----------
+some easy money out of this stack of
+
+---------06:07----------
+complete cluster fox of ripped pads
+
+---------06:10----------
+under BGA chips another anyway
+
+---------06:13----------
+so let's go under the microscope and
+
+---------06:15----------
+start exploring so here's one of the
+
+---------06:17----------
+things I want to show you that I see in
+
+---------06:19----------
+the actual case of the computer so let's
+
+---------06:21----------
+just drag the microscope over this is
+
+---------06:23----------
+probably going to be confusing because
+
+---------06:24----------
+it can be really really it's just this
+
+---------06:26----------
+is not something that you miss to look
+
+---------06:28----------
+at under a microscope and just showing
+
+---------06:29----------
+you with it because I don't feel like
+
+---------06:30----------
+getting up and putting this in front of
+
+---------06:31----------
+the camcorder so this itself is the see
+
+---------06:35----------
+this this is the MacBook Air and this is
+
+---------06:37----------
+where the motherboard goes so when I
+
+---------06:39----------
+look at this under here eventually I get
+
+---------06:43----------
+to a spot where you see what looks like
+
+---------06:45----------
+a little pile of bird right so that
+
+---------06:49----------
+is where the liquid damage originally
+
+---------06:51----------
+occurred so this point of the board is
+
+---------06:52----------
+where the liquid damage occurred now
+
+---------06:54----------
+what happened at this point most likely
+
+---------06:57----------
+is that in a
+
+---------06:58----------
+monkey decided that they were gonna
+
+---------07:00----------
+toothbrush an alcohol the board there
+
+---------07:01----------
+and when it didn't work santech monkey
+
+---------07:03----------
+decided that this goes in the pile that
+
+---------07:05----------
+goes to Louis which I actually in some
+
+---------07:08----------
+small way appreciate thank you for
+
+---------07:10----------
+giving me at least one board
+
+---------07:11----------
+that you didn't rip a bunch of BGA pads
+
+---------07:13----------
+on or popcorn chips on before before it
+
+---------07:16----------
+got to me is a anyway because that that
+
+---------07:19----------
+is so that this is the part of
+
+---------07:20----------
+the board over here let me just get the
+
+---------07:22----------
+camera color adjusted now this is the
+
+---------07:25----------
+part of the board right over here that
+
+---------07:26----------
+is sitting right where that little
+
+---------07:29----------
+shitstain us so what I'm gonna do right
+
+---------07:31----------
+now is I'm gonna look this up for some
+
+---------07:32----------
+clarity and some context in the board
+
+---------07:35----------
+view software so I'm gonna change over
+
+---------07:37----------
+to the board view software right now and
+
+---------07:39----------
+I'm gonna scroll over to where that is
+
+---------07:41----------
+and that this is where that isn't the
+
+---------07:42----------
+board view software so that over there
+
+---------07:44----------
+is chip you 7,600 now what I want to do
+
+---------07:48----------
+after I know it ship it is I'm gonna
+
+---------07:49----------
+switch back over to my schematic in the
+
+---------07:51----------
+PDF reader I'm gonna search for you 7600
+
+---------07:55----------
+now when I search for you 7600 I see one
+
+---------07:57----------
+point zero five volt soo regulator and
+
+---------08:00----------
+this chip is responsible for creating P
+
+---------08:03----------
+P 1 vo 5 s Oh
+
+---------08:05----------
+do you think there's a possibility that
+
+---------08:06----------
+that is missing so my machine is in an
+
+---------08:08----------
+Esso state I already know that since
+
+---------08:10----------
+it's trying to get itself to an Esso
+
+---------08:11----------
+state that ohm is 3 and minus 5 for ELLs
+
+---------08:14----------
+got to be present cuz if I don't have s
+
+---------08:15----------
+3 and S 5 rails I'm not gonna have SL I
+
+---------08:17----------
+know that all my s 5 in my s 3 rails are
+
+---------08:19----------
+present just because I have PP 5 ESL I
+
+---------08:22----------
+know that the machine is trying to enter
+
+---------08:23----------
+an Esso state I know that this thing
+
+---------08:25----------
+thinks it's on is trying to turn on but
+
+---------08:27----------
+one of those rails is not turning on
+
+---------08:28----------
+which is why my computer's not turning
+
+---------08:30----------
+on a one my fans not spinning even
+
+---------08:32----------
+though it's in an Esso state so again by
+
+---------08:34----------
+the way for those of you have not
+
+---------08:35----------
+followed along very long when I say s o
+
+---------08:37----------
+state s 3 state as five state as 5 state
+
+---------08:40----------
+off as three state is suspend or
+
+---------08:42----------
+sleeping and as state means the computer
+
+---------08:45----------
+is on and working so when you close the
+
+---------08:47----------
+lid of your MacBook and you said a
+
+---------08:48----------
+little light blink in the front that is
+
+---------08:49----------
+sleeping that's an s3 state when you
+
+---------08:51----------
+hold the power button down you turn it
+
+---------08:52----------
+off that says 5 that's a it's off that's
+
+---------08:55----------
+s 5 state and when you turn it on you're
+
+---------08:57----------
+actively working on it that is s oh
+
+---------08:59----------
+that's the on state so what I see over
+
+---------09:02----------
+here on my schematic is I see that this
+
+---------09:05----------
+is an S or L P P 1 vo 5 s oh that is
+
+---------09:09----------
+created by this chip that has the
+
+---------09:10----------
+stain on it
+
+---------09:11----------
+my theory is now very very likely to be
+
+---------09:13----------
+correct so I'm gonna do is I'm gonna
+
+---------09:15----------
+look for PP 105 underscore SL on this
+
+---------09:17----------
+board and I want to see where it is it
+
+---------09:19----------
+pops up and I want to measure it because
+
+---------09:20----------
+I would bet my balls that it is missing
+
+---------09:22----------
+so let's just plug this in and see
+
+---------09:24----------
+what's going on here so right above this
+
+---------09:28----------
+chip there is a capacitor c7 601 and on
+
+---------09:30----------
+c7 601 I am supposed to see 1.05 volts
+
+---------09:34----------
+so I'm gonna switch over to that view
+
+---------09:36----------
+and let's see what I have so they're
+
+---------09:39----------
+supposed to be a camp moving from left
+
+---------09:41----------
+to right and here I have a cap going up
+
+---------09:43----------
+and down am I losing it good chance I'm
+
+---------09:46----------
+losing it did I open the right board
+
+---------09:49----------
+view oh I am looking at the right board
+
+---------09:55----------
+view right okay I am looking at the
+
+---------09:57----------
+right board view I'm looking at the
+
+---------10:00----------
+wrong frigging area here we go
+
+---------10:02----------
+okay back yeah I'm losing my mind
+
+---------10:05----------
+because it is 1:00 in the morning and
+
+---------10:07----------
+it's just about time for me to get the
+
+---------10:08----------
+ out of here and go home alright so
+
+---------10:13----------
+this is the area now let's see what I
+
+---------10:17----------
+get at that capacitor so I'm gonna bring
+
+---------10:18----------
+the multimeter over I have it in voltage
+
+---------10:22----------
+mode this thing is plugged in and when I
+
+---------10:24----------
+check this area right now and when I met
+
+---------10:26----------
+her at that camp do I get one point zero
+
+---------10:28----------
+five volts what do I get here I get zero
+
+---------10:32----------
+point nine volts that's really really
+
+---------10:36----------
+close isn't it that's really really
+
+---------10:38----------
+close that should be good but that's not
+
+---------10:42----------
+one point zero five and that is I
+
+---------10:44----------
+believe it or not that is actually off
+
+---------10:45----------
+enough for something like a CPU to
+
+---------10:47----------
+it up or anything that this is applying
+
+---------10:49----------
+voltage to a CPU so what here looks good
+
+---------10:51----------
+and what here looks like complete
+
+---------10:53----------
+you tell me so my guess is on this thing
+
+---------10:57----------
+over here being what's up okay
+
+---------11:00----------
+let's zoom in on you see this but you
+
+---------11:06----------
+see how all right so the way this works
+
+---------11:09----------
+that's a resistor so the whole idea with
+
+---------11:11----------
+the resistor is that there is something
+
+---------11:12----------
+inside of this component that is going
+
+---------11:14----------
+to resist the flow of electricity so you
+
+---------11:16----------
+have film resistors you have carbon
+
+---------11:18----------
+resistors you have resistors made out of
+
+---------11:20----------
+all sorts of different types of material
+
+---------11:21----------
+and all that stuff is
+
+---------11:23----------
+located inside here now in order to
+
+---------11:26----------
+attach the resistor to the motherboard
+
+---------11:27----------
+it's got this little metal piece on this
+
+---------11:30----------
+side and that metal piece on that side
+
+---------11:31----------
+that's what you're gonna be soldering to
+
+---------11:32----------
+now the problem here is you can see is
+
+---------11:35----------
+that it's the metal stuff is kind of
+
+---------11:36----------
+melted away and now all you have left is
+
+---------11:38----------
+this white whitish material on the side
+
+---------11:40----------
+and when you see that that usually means
+
+---------11:41----------
+that a resistor is so I'm gonna
+
+---------11:44----------
+measure on the multimeter before I
+
+---------11:45----------
+measure on the multimeter let's just
+
+---------11:47----------
+take a look and see what that resistor
+
+---------11:48----------
+is supposed to be in the schematic so in
+
+---------11:50----------
+the schematic and I actually see what
+
+---------11:52----------
+resisted that is in the board view all
+
+---------11:54----------
+right so board view says that that
+
+---------11:56----------
+resistor that it looks really messed up
+
+---------11:58----------
+is our 76 30 now when I open up the
+
+---------12:01----------
+schematic our 76 30 is supposed to be
+
+---------12:07----------
+2.2 ohms I mean to zoom in on that so
+
+---------12:09----------
+that you can see a little better 2.2
+
+---------12:13----------
+ohms and with a 2 percent tolerance now
+
+---------12:16----------
+when I measure that on here I'm gonna
+
+---------12:21----------
+take my multimeter now I don't remember
+
+---------12:24----------
+when I go on a resistance mode here just
+
+---------12:26----------
+this is important now and you you're
+
+---------12:28----------
+measuring resistance turn your mold you
+
+---------12:30----------
+know make sure there's no power going
+
+---------12:31----------
+through whatever you're using I have a
+
+---------12:33----------
+fluke I'm not gonna kill my fluke
+
+---------12:34----------
+because it's a $90 meter by doing this
+
+---------12:36----------
+but if you get some shitty ass thirty or
+
+---------12:38----------
+forty dollar multimeter there's a good
+
+---------12:39----------
+chance that when you measure resistance
+
+---------12:41----------
+or you do diode more measurements with
+
+---------12:43----------
+power going through a circuit that you
+
+---------12:44----------
+skull-fuck your multimeter and that's
+
+---------12:45----------
+not good because then you'll have to buy
+
+---------12:47----------
+another one which actually be a good if
+
+---------12:49----------
+you have a really shitty multimeter so
+
+---------12:51----------
+right now
+
+---------12:52----------
+well I have the I have the multimeter
+
+---------12:54----------
+probes touching each end and this is
+
+---------12:57----------
+what I get I get open line it measures
+
+---------12:59----------
+absolutely nothing so what's supposed to
+
+---------13:00----------
+be a 2.2 ohm resistor right now is an
+
+---------13:03----------
+infinity ohms resistor so what I'm gonna
+
+---------13:05----------
+do right now is I'm going to replace
+
+---------13:06----------
+that resistor with one from a donor
+
+---------13:08----------
+board do you think that I'm grabbing
+
+---------13:10----------
+that from my pack of resistors that I'm
+
+---------13:12----------
+going to Mouser comm order that thing no
+
+---------13:15----------
+way in hell this purring weeks for
+
+---------13:20----------
+little things to show up to prove
+
+---------13:22----------
+theories and why do I say weeks when
+
+---------13:24----------
+they offer shipping via first class mail
+
+---------13:26----------
+and Priority Mail because you're gonna
+
+---------13:27----------
+order one resistor and you're gonna
+
+---------13:29----------
+replace it is gonna fix part of your
+
+---------13:30----------
+problem and then you're gonna and then
+
+---------13:32----------
+it's not gonna be fixed you're gonna see
+
+---------13:34----------
+something else is wrong you're gonna
+
+---------13:35----------
+order that in always five days for that
+
+---------13:37----------
+and I don't
+
+---------13:37----------
+part of your problem and then you can
+
+---------13:39----------
+notice something else is wrong and
+
+---------13:40----------
+you're gonna order that that's gonna
+
+---------13:41----------
+take ten days and it's just by the time
+
+---------13:43----------
+you fix the board the computer
+
+---------13:45----------
+will be obsolete so have donor boards
+
+---------13:47----------
+and stocks you don't have to deal with
+
+---------13:48----------
+that and this is not this is not
+
+---------13:57----------
+like a hard drive this is not a
+
+---------13:59----------
+mechanical part that gets wear and tear
+
+---------14:00----------
+it's not like the resistor that I'm
+
+---------14:02----------
+taking off of my donor board that's
+
+---------14:05----------
+pretty much been soldered once and maybe
+
+---------14:06----------
+never used this is any you know as bad
+
+---------14:09----------
+or a low-quality
+
+---------14:12----------
+this is not like used underwear it's a
+
+---------14:14----------
+it's a resistor come on hot air
+
+---------14:19----------
+station come on come on you
+
+---------14:26----------
+desolder so Lois can go home come on
+
+---------14:30----------
+B solder so I can feed my kitty there
+
+---------14:35----------
+you go you all right
+
+---------14:38----------
+now let's turn the pads
+
+---------14:49----------
+beep-beep-beep
+
+---------14:50----------
+excellent okay let's get rid of the old
+
+---------14:54----------
+lead-free solder carry that away with
+
+---------14:58----------
+the leaded solder ball okay yep
+
+---------15:02----------
+ you old lead-free solder and I
+
+---------15:06----------
+might as well clean up that while I'm
+
+---------15:09----------
+there might as well clean up this while
+
+---------15:13----------
+I'm there okay now let's get my donor
+
+---------15:18----------
+board steel a resistor from that okay
+
+---------15:23----------
+I already stolen already stolen already
+
+---------15:30----------
+stolen used to love the resistor their
+
+---------15:40----------
+measure you and make sure you're good
+
+---------15:45----------
+of course it's good all righty
+
+---------15:50----------
+when would it ever not be good these
+
+---------15:55----------
+boards are quality the highest quality
+
+---------15:59----------
+of thrown away goods
+
+---------16:11----------
+one person's trash is my beautiful new
+
+---------16:15----------
+resistor and when I put this machine in
+
+---------16:20----------
+the window for six hundred seventy-five
+
+---------16:21----------
+bucks once I get it into an Esso State
+
+---------16:25----------
+I'll be very happy not sure I'll be
+
+---------16:30----------
+happy when somebody pays for this
+
+---------16:32----------
+but in the meantime all right let's see
+
+---------16:35----------
+what we get further diagnosing required
+
+---------16:42----------
+not really the fan spins okay it's fun
+
+---------16:49----------
+until I touched it the fan spins which
+
+---------16:52----------
+as I like to joke means that I am done
+
+---------16:57----------
+yep so at the very least I have found
+
+---------17:00----------
+one semi union even the
+
+---------17:02----------
+backlight jobs that were in this boxer
+
+---------17:04----------
+disc was sorted by people that were like
+
+---------17:07----------
+ok it's not the fuse it's not the
+
+---------17:09----------
+connector me idiot I give up
+
+---------17:11----------
+like kind of stuff every single
+
+---------17:15----------
+board in that box was just some kind of
+
+---------17:16----------
+ like best-case scenario
+
+---------17:19----------
+best-case scenario from the ones where
+
+---------17:22----------
+it was where was board issue best-case
+
+---------17:24----------
+scenario were crap like this where we
+
+---------17:27----------
+were just people who just don't know how
+
+---------17:28----------
+to use their brain worst case scenario
+
+---------17:30----------
+was like you tried to replace the PCH on
+
+---------17:33----------
+one of them and you failed and after
+
+---------17:37----------
+that you decided these other 12 boards
+
+---------17:39----------
+where you were smart enough to diagnose
+
+---------17:41----------
+it was the PCH it's too stupid to
+
+---------17:43----------
+actually fix it you decided to just put
+
+---------17:46----------
+in here because those are the worst BGA
+
+---------17:48----------
+rework problems you can get on in a 1278
+
+---------17:50----------
+it's like just I just just this you
+
+---------17:54----------
+and again I almost I never buy these
+
+---------17:57----------
+wholesale Lots I just decided just for
+
+---------17:59----------
+the of it just because there are so
+
+---------18:00----------
+many people that buy this crap I always
+
+---------18:02----------
+advise against it I always tell you like
+
+---------18:04----------
+figure out why it is somebody selling
+
+---------18:06----------
+something think really hard about why it
+
+---------18:08----------
+is but no I just want to get in on it
+
+---------18:10----------
+everybody else is doing I just want to
+
+---------18:12----------
+try I just want to assume the best of
+
+---------18:14----------
+people to assume the best oh no no
+
+---------18:17----------
+nowaday this was sorted through
+
+---------18:22----------
+and it's just off and yeah but yeah
+
+---------18:27----------
+hopefully you learned something so this
+
+---------18:28----------
+board was not turning on
+
+---------18:30----------
+it was clearly at trying to enter in
+
+---------18:31----------
+Essos fate all the SLE power rails are
+
+---------18:34----------
+present but one of the SLE panel rails
+
+---------18:36----------
+wasn't present so it wasn't turning on
+
+---------18:37----------
+so I had two choices I can either go
+
+---------18:39----------
+through every single SL power rail to
+
+---------18:41----------
+see which one was missing by going to
+
+---------18:43----------
+the sheet on the schematic that tells me
+
+---------18:45----------
+what power rails are supposed to be
+
+---------18:47----------
+present in the machine and that is right
+
+---------18:49----------
+over here so again this used to be much
+
+---------18:53----------
+lower on the schematic and now it's on
+
+---------18:55----------
+page 62 because of Apple cares this
+
+---------18:58----------
+is simple to figure out and you would
+
+---------18:59----------
+just go through here and figure out
+
+---------19:01----------
+which rails are missing and then try to
+
+---------19:02----------
+use your brain to figure out why now
+
+---------19:04----------
+that what I did because I it's 1:00 in
+
+---------19:07----------
+the morning and I just want to
+
+---------19:09----------
+go home what I did is I just decided let
+
+---------19:11----------
+me look at the machine so I like to do
+
+---------19:13----------
+things in a logical fashion I like to
+
+---------19:15----------
+actually go through I don't like to just
+
+---------19:16----------
+guess and look and stare and try to find
+
+---------19:18----------
+the easy hints i I often actually do
+
+---------19:21----------
+enjoy going through that and measuring
+
+---------19:23----------
+in a methodical manner because it just
+
+---------19:25----------
+keeps my brain working but every now and
+
+---------19:27----------
+then I'll decide I just want him let's
+
+---------19:29----------
+see if there's something easy and on
+
+---------19:31----------
+this board as you can see there's a
+
+---------19:33----------
+stain on it it looks like a little
+
+---------19:34----------
+pigeon just came up to here and just
+
+---------19:36----------
+took a and ran away so I decided to
+
+---------19:38----------
+look where that was on the board I
+
+---------19:39----------
+looked on the board and again I don't
+
+---------19:41----------
+even need to know what that resistor
+
+---------19:42----------
+does in the circuit I don't even need to
+
+---------19:44----------
+know that's a resistor you look at it it
+
+---------19:46----------
+looks up replace it I decided let
+
+---------19:48----------
+me look through the circuit let me
+
+---------19:49----------
+measure it but in the end of the day you
+
+---------19:52----------
+don't even have to know that all you had
+
+---------19:54----------
+to know to solve this problem all you
+
+---------19:55----------
+had to know was look shitstain hmm
+
+---------19:58----------
+what's in here this place with the
+
+---------20:00----------
+stain hmm let's measure what's coming
+
+---------20:02----------
+out of the place with the stain hmm
+
+---------20:04----------
+the schematic says that's supposed to be
+
+---------20:05----------
+different than what's coming out of the
+
+---------20:06----------
+place with the stain let's replace
+
+---------20:08----------
+it so it doesn't look like it as a
+
+---------20:09----------
+stain on it anymore and what do you know
+
+---------20:11----------
+it turns on and works it's that simple
+

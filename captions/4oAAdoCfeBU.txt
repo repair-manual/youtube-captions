@@ -1,0 +1,2053 @@
+https://www.youtube.com/watch?v=4oAAdoCfeBU
+---------00:00----------
+hello and welcome back for another
+
+---------00:01----------
+episode of component-level order pair so
+
+---------00:04----------
+today as with all these videos we're
+
+---------00:05----------
+gonna try to walk you through figuring
+
+---------00:07----------
+out what's wrong with the board that's
+
+---------00:08----------
+dead and not powering on and there's a
+
+---------00:10----------
+lot of thought in this general community
+
+---------00:12----------
+that you have to be an electronics
+
+---------00:14----------
+engineer you have to be a physicist you
+
+---------00:15----------
+have to be some some level genius in
+
+---------00:17----------
+order to understand a lot of what's
+
+---------00:19----------
+going on here and one of the things that
+
+---------00:20----------
+I try to do with this channel is I
+
+---------00:21----------
+really try to distill it down to just
+
+---------00:23----------
+being basic common sense and detective
+
+---------00:25----------
+work to give you the idea that with just
+
+---------00:27----------
+a little bit of learning and a little
+
+---------00:29----------
+bit of just understanding some basic
+
+---------00:30----------
+concepts that you can follow along and
+
+---------00:32----------
+you can work on stuff like this and you
+
+---------00:35----------
+can actually figure it out so long as
+
+---------00:37----------
+you're willing to learn and have an
+
+---------00:38----------
+analytical mindset so let's go ahead and
+
+---------00:40----------
+get into this board this is an eight to
+
+---------00:42----------
+zero twenty eight forty nine board and
+
+---------00:45----------
+when I plug it in you'll notice that I
+
+---------00:48----------
+do get a green light however it doesn't
+
+---------00:50----------
+power on now let's go over the list of
+
+---------00:54----------
+power rails because the first thing I
+
+---------00:55----------
+might want to do in a no power condition
+
+---------00:57----------
+is I'm gonna want to look through the
+
+---------00:58----------
+power rails and try to figure out which
+
+---------00:59----------
+rail it is that's missing so these
+
+---------01:02----------
+machines are always gonna have a number
+
+---------01:04----------
+of different power lines they're gonna
+
+---------01:05----------
+have a 12 volt line a 5 volt line a 3
+
+---------01:08----------
+volt line a 1.5 volt line a point 75
+
+---------01:11----------
+volt line and so on and so forth in
+
+---------01:13----------
+different lines are gonna want to be on
+
+---------01:14----------
+in different states so for example when
+
+---------01:17----------
+the machine is sleeping you're not gonna
+
+---------01:19----------
+want to have the CPU on but you are
+
+---------01:21----------
+going to want have the RAM on so that it
+
+---------01:23----------
+saves whatever you had so that when you
+
+---------01:24----------
+open the machine everything shows up
+
+---------01:26----------
+again or when it's off you don't want
+
+---------01:28----------
+have the RAM of the CPU on but you do
+
+---------01:30----------
+want the battery to be charging so that
+
+---------01:32----------
+when you went off charge the battery now
+
+---------01:35----------
+what we're gonna do is we're gonna go
+
+---------01:36----------
+through a list of rails and we're gonna
+
+---------01:38----------
+measure each one of these rails to see
+
+---------01:40----------
+which one is going to show up and which
+
+---------01:43----------
+ones don't show up so over here I'm just
+
+---------01:46----------
+gonna show you where I find my list of
+
+---------01:48----------
+rails now any good schematic or diagram
+
+---------01:51----------
+is going to give you a list of the power
+
+---------01:52----------
+rails that you should expect to have
+
+---------01:54----------
+here so we're gonna start with pp bus g3
+
+---------01:57----------
+hot and here we're gonna use our handy
+
+---------01:59----------
+dandy board view software in order to
+
+---------02:00----------
+find each one of these rails so the
+
+---------02:02----------
+first rail that I'm gonna look for is pp
+
+---------02:04----------
+bus g3 hot and this is a rail that's
+
+---------02:08----------
+supposed to be a believ 8 point
+
+---------02:10----------
+something volts on this model machine so
+
+---------02:12----------
+we're gonna go ahead and measure
+
+---------02:13----------
+with the multimeter and see what the
+
+---------02:15----------
+multimeter gives us let's try and get
+
+---------02:18----------
+the multimeter so it's actually visible
+
+---------02:20----------
+on the screen
+
+---------02:22----------
+there we go so we're barely visible in
+
+---------02:26----------
+my case okay so we take our black probe
+
+---------02:33----------
+and we put it on ground because ground
+
+---------02:37----------
+is gonna be zero in this case we take
+
+---------02:38----------
+the meter we turn it to DC voltage which
+
+---------02:41----------
+is gonna be voltage with a flat line at
+
+---------02:42----------
+the top and then we place the black
+
+---------02:45----------
+probe where we are looking for voltage
+
+---------02:47----------
+to be and the idea here is it's going to
+
+---------02:49----------
+measure the difference between these two
+
+---------02:51----------
+points eight point 33 volts that's what
+
+---------02:55----------
+I'm expecting now we're gonna move on to
+
+---------02:57----------
+the next rail which is going to be pp 3
+
+---------02:59----------
+before - now pp 3 before - is used for
+
+---------03:02----------
+the 1 wire circuit if you don't know
+
+---------03:03----------
+what the 1 wire circuit is you can watch
+
+---------03:05----------
+some of my older videos and what the 1
+
+---------03:06----------
+wire circuit is a long story short is
+
+---------03:10----------
+that the 1 wire circuit is what's going
+
+---------03:12----------
+to be used in order to give you a green
+
+---------03:13----------
+light on the charger so let's just fast
+
+---------03:16----------
+forward over to that section so I can
+
+---------03:18----------
+explain some of that for you now the
+
+---------03:21----------
+whole idea here is that this max saved
+
+---------03:24----------
+DC power jack when I say MagSafe DC
+
+---------03:26----------
+power jack that means this thing the
+
+---------03:28----------
+charger is going to talk to the rest of
+
+---------03:32----------
+the machine so the charger on this
+
+---------03:34----------
+signal line is gonna put out adaptor
+
+---------03:36----------
+sense and that's going to go to this ICU
+
+---------03:39----------
+6900 from here we see xed that stands
+
+---------03:43----------
+for external as in the charger now it
+
+---------03:45----------
+has another tab called int which is
+
+---------03:46----------
+going to stand for internal and this is
+
+---------03:48----------
+where I see that it's really useful to
+
+---------03:49----------
+be a detective because you have to you
+
+---------03:51----------
+have to be willing to guess what some of
+
+---------03:53----------
+these things mean and just kind of try
+
+---------03:55----------
+to look at what's going on around in the
+
+---------03:58----------
+area and just put it in a context then
+
+---------04:01----------
+we see assists 1 wire now sis 1 wire is
+
+---------04:04----------
+going to go to something called the SMC
+
+---------04:07----------
+of this chip over here that it's going
+
+---------04:08----------
+to is you 4,900 this is an SMC chip see
+
+---------04:14----------
+over here SMC it's going to the SMC chip
+
+---------04:19----------
+now this circuit over here this chip is
+
+---------04:23----------
+gets power on its VCC pin think about
+
+---------04:26----------
+this what's going to allow this chip to
+
+---------04:27----------
+turn on next is an external signal line
+
+---------04:29----------
+int is an internal signal line and C not
+
+---------04:32----------
+connected ground zero volts which by
+
+---------04:34----------
+process of elimination
+
+---------04:35----------
+to pin one as the pin that it is going
+
+---------04:38----------
+to receive power from now that power is
+
+---------04:40----------
+going to come from this chip this chip
+
+---------04:42----------
+very simple if you have power on a and B
+
+---------04:44----------
+it shoots out a signal on Y that is
+
+---------04:46----------
+gonna be three point 42 volts this is
+
+---------04:49----------
+the power this is the pin that provides
+
+---------04:51----------
+this chip with the power it needs to
+
+---------04:52----------
+turn on if you don't know what any other
+
+---------04:53----------
+pins mean you can always Google this and
+
+---------04:55----------
+if you google this little number you'll
+
+---------04:57----------
+find the datasheet on this chip where it
+
+---------04:59----------
+tells you it receives power on pin five
+
+---------05:01----------
+and if a and B are present it gives you
+
+---------05:03----------
+Y now the power that this trip is gonna
+
+---------05:05----------
+need to turn on comes from here the
+
+---------05:07----------
+power this chip needs to the car turn on
+
+---------05:08----------
+comes from pp3 before - so without PP 3
+
+---------05:11----------
+before to present we would not have a
+
+---------05:13----------
+light which means I if any time I see
+
+---------05:15----------
+that I can skip over PP 3 v 4 - I know
+
+---------05:18----------
+it's there it has to be there now one
+
+---------05:22----------
+thing I noticed while I was yammering
+
+---------05:24----------
+and yabbering and talking on and on and
+
+---------05:26----------
+on is that the board itself while it was
+
+---------05:27----------
+plugged in actually got hot now this is
+
+---------05:31----------
+something that is going to come in handy
+
+---------05:33----------
+one of the things that you may notice on
+
+---------05:36----------
+these rails is that all some of them are
+
+---------05:37----------
+suffixed with s5 or s3 and in some cases
+
+---------05:42----------
+over here s oh let's talk about for that
+
+---------05:45----------
+what those mean for a second just in
+
+---------05:46----------
+case you're somebody is new to the show
+
+---------05:48----------
+doesn't know what those mean s5 is gonna
+
+---------05:50----------
+be your pal rail that's on any time the
+
+---------05:52----------
+computer is off s3 is gonna be a power
+
+---------05:55----------
+rail that's on while the computer is
+
+---------05:56----------
+sleeping as oh is going to be a power
+
+---------05:58----------
+rail that's present when the computer is
+
+---------06:00----------
+on as I said before there are certain
+
+---------06:02----------
+rails that you're going to want to have
+
+---------06:03----------
+on when the computer is sleeping but not
+
+---------06:05----------
+have on when the computer is off or on
+
+---------06:08----------
+and anything like that so for example
+
+---------06:10----------
+the backlight you may want your RAM to
+
+---------06:12----------
+have power while the computer is
+
+---------06:14----------
+sleeping so that it remembers everything
+
+---------06:16----------
+in memory however you're probably not
+
+---------06:19----------
+gonna want the computer's backlight to
+
+---------06:20----------
+be turned on so the backlight is an
+
+---------06:22----------
+example of an Esso power rail memory may
+
+---------06:25----------
+be an example of an s3 power rail and
+
+---------06:28----------
+the CPU is going to be an example or the
+
+---------06:30----------
+graphics chip will be an example of an
+
+---------06:31----------
+Esso power rail the only time we're
+
+---------06:33----------
+gonna want the CPU or the GPU to be on
+
+---------06:35----------
+when the computer is on so what I'm
+
+---------06:38----------
+gonna want to see at this point is if
+
+---------06:39----------
+the machine is making its way to an Esso
+
+---------06:41----------
+state the reason that this interests me
+
+---------06:43----------
+is if the machine is in an Esso State I
+
+---------06:46----------
+know that all the s3 and the s5 rails
+
+---------06:48----------
+are present
+
+---------06:49----------
+if the machine is in an s3 state I know
+
+---------06:51----------
+the s5 rules are present in order to get
+
+---------06:53----------
+to a higher state all the power rails
+
+---------06:55----------
+from the lower state have to be
+
+---------06:57----------
+available so I cannot make my way to an
+
+---------06:59----------
+Esso state with missing s3 rails I can't
+
+---------07:02----------
+make my way to an s3 state with missing
+
+---------07:04----------
+s5 rails and allow me to demonstrate how
+
+---------07:06----------
+this is the case with some of the stuff
+
+---------07:09----------
+here so let's find them let's find some
+
+---------07:12----------
+some switches yeah to show you so here's
+
+---------07:16----------
+an example over here 5 volt s0 FET now
+
+---------07:20----------
+over here this is a transistor in the
+
+---------07:22----------
+idea behind a transistor is that when
+
+---------07:24----------
+you had on this transistor the specific
+
+---------07:26----------
+type of transistor when the power on the
+
+---------07:28----------
+gate is lower than the power on the
+
+---------07:30----------
+source it will let voltage flow from
+
+---------07:32----------
+here to here so this is pretty much like
+
+---------07:34----------
+a light switch that you can control with
+
+---------07:35----------
+electricity rather than flipping a
+
+---------07:37----------
+switch
+
+---------07:37----------
+you have PP 5 vs 3 on the source input
+
+---------07:40----------
+and PP 5 es o on output now the whole
+
+---------07:44----------
+idea here is that if I don't have PP 5
+
+---------07:47----------
+vs 3 I cannot get PP 5 ESO there's not a
+
+---------07:50----------
+said there is no there's not two
+
+---------07:52----------
+separate sets of devices creating PP 5
+
+---------07:54----------
+es 3 and PP 5 ESO there's one device
+
+---------07:57----------
+that creates 5 volts here's 5 volts and
+
+---------08:00----------
+then you have these little switching
+
+---------08:02----------
+transistors that decide when that 5 volt
+
+---------08:05----------
+should go to these components vs. those
+
+---------08:06----------
+components that's a switch that's going
+
+---------08:08----------
+to take PP 5 es 3 a power line that's 5
+
+---------08:11----------
+volts in an s3 State and it's going to
+
+---------08:13----------
+send it to the components that require s
+
+---------08:15----------
+o whenever you tell it to so the CPU and
+
+---------08:18----------
+so on so forth as you can see from the
+
+---------08:20----------
+diagram a lot of the different power
+
+---------08:22----------
+rails are like that so I can't get
+
+---------08:23----------
+myself to an Esso state if I'm not in s3
+
+---------08:26----------
+state because the s O power rails are
+
+---------08:28----------
+created from the s3 the s4 in the s5
+
+---------08:30----------
+rails so what I'm gonna do right now is
+
+---------08:32----------
+I'm gonna check to see if I'm in an Esso
+
+---------08:34----------
+state meaning I'm gonna check and see if
+
+---------08:35----------
+an Esso power L is present if I have my
+
+---------08:38----------
+s o rail that means two things the first
+
+---------08:41----------
+thing it means is that I that the
+
+---------08:42----------
+computer is getting itself to the point
+
+---------08:44----------
+that it's turning on it is turning on I
+
+---------08:45----------
+am in an Esso state the second thing
+
+---------08:48----------
+that it's gonna mean a finesse over L is
+
+---------08:50----------
+present is that everything before it has
+
+---------08:51----------
+to be present - 3 s are present - 5 s
+
+---------08:54----------
+are present my G 3 hearts are present
+
+---------08:55----------
+which means I can cross those off the
+
+---------08:57----------
+list of checking and if I can cross
+
+---------08:58----------
+those off the list that makes the
+
+---------09:00----------
+troubleshooting process that much easier
+
+---------09:02----------
+this is where
+
+---------09:02----------
+talking about sequence is going to save
+
+---------09:05----------
+you a lot of time hassle and misery so
+
+---------09:07----------
+if I go through this list over here
+
+---------09:08----------
+you'll see I have g3 ha trail g3 hot
+
+---------09:12----------
+means beyond all the time
+
+---------09:13----------
+s5 rail beyond when the machines off as
+
+---------09:17----------
+three I can ignore all those rails and
+
+---------09:19----------
+the only ones I'll have to check or the
+
+---------09:21----------
+Sol ones so I'm gonna check a rail
+
+---------09:22----------
+that's pretty easy to check PP 5 ESL
+
+---------09:25----------
+when I say easy to check I mean easy to
+
+---------09:27----------
+check because I know exactly where it is
+
+---------09:28----------
+on every board on all these boards the
+
+---------09:30----------
+on a fan connector on the pin to the
+
+---------09:33----------
+left that's always going to be PP 5 ESO
+
+---------09:35----------
+since these machines I'll use compatible
+
+---------09:37----------
+fans I know that it's always the same
+
+---------09:38----------
+one so if I have 5 volts there did I
+
+---------09:42----------
+plug this in right of course you didn't
+
+---------09:44----------
+so if I have 5 volts here there we go
+
+---------09:48----------
+I'm in an Esso state so what I've done
+
+---------09:50----------
+is I've now ruled out every single s 3 s
+
+---------09:52----------
+5 ng 3 hot well that means I don't have
+
+---------09:55----------
+to check those rails which means that I
+
+---------09:57----------
+can go ahead and only check as oh where
+
+---------09:59----------
+else to find the one that's missing so
+
+---------10:01----------
+PP 5 ESO is present BAM now I can go
+
+---------10:04----------
+through here and I can say ok I need to
+
+---------10:06----------
+check PP 3 B 3 s o PP 1 v 8 s o CP UV
+
+---------10:12----------
+core P P 1 vo 5 s o V P 1 V 2 s o and
+
+---------10:17----------
+I'm gonna try to find the rail that
+
+---------10:19----------
+itself is missing so let's go through
+
+---------10:21----------
+this and try to check those other rails
+
+---------10:24----------
+so I'm gonna go over here and I'm gonna
+
+---------10:25----------
+open this in PP 3 V 3 SL let's check the
+
+---------10:28----------
+rest of the rails and see which rail is
+
+---------10:30----------
+missing but now see I've saved myself a
+
+---------10:32----------
+lot of times a lot of rails that I don't
+
+---------10:34----------
+have to check because most of the hard
+
+---------10:37----------
+work has already been done it's the way
+
+---------10:40----------
+to minimize troubleshooting number one
+
+---------10:42----------
+of the things that's key to making this
+
+---------10:44----------
+economically viable to do as a service
+
+---------10:47----------
+for retail customers is coming up with
+
+---------10:50----------
+ways to make the troubleshooting process
+
+---------10:52----------
+a little bit quicker now we're gonna do
+
+---------10:54----------
+this and three point close enough I
+
+---------10:58----------
+haven't changed the multimeter batteries
+
+---------10:59----------
+in two years so if it's off by a little
+
+---------11:00----------
+bit that's just fine now we're gonna go
+
+---------11:03----------
+over to the next rail which is going to
+
+---------11:05----------
+be C we have pp 1 v8s o pp 1 v8
+
+---------11:13----------
+underscore s Oh
+
+---------11:15----------
+and we have but I'm supposed to get 1.8
+
+---------11:18----------
+there I'm guessing 1.78 again close
+
+---------11:21----------
+enough but multimeter batteries haven't
+
+---------11:23----------
+been changed in quite a bit of time and
+
+---------11:25----------
+we're gonna check another rail we're
+
+---------11:28----------
+gonna check PP 1 v5 s 3 RSO not sure if
+
+---------11:32----------
+that's that's 3r s Oh what is this three
+
+---------11:34----------
+RS oh oh there oh no no it's on I've
+
+---------11:38----------
+that's something to look up later I'm
+
+---------11:41----------
+gonna check you and your present on the
+
+---------11:47----------
+other side of the board that's fine it's
+
+---------11:48----------
+fine we'll still fine you you don't get
+
+---------11:50----------
+to hide from me that is 1.49
+
+---------11:58----------
+again close enough and since it's close
+
+---------12:00----------
+enough as a reward myself with a little
+
+---------12:03----------
+drink
+
+---------12:10----------
+all right so we continue down the list
+
+---------12:12----------
+of rails here PP 0 v 5s OD d
+
+---------12:18----------
+tongue-twister a lot of these are tongue
+
+---------12:21----------
+twisters okay we're gonna measure this
+
+---------12:24----------
+rail over here what a tongue twister
+
+---------12:31----------
+love to meet the people who came up with
+
+---------12:33----------
+these names okay now is hmm am I looking
+
+---------12:42----------
+at the right thing here no I'm not here
+
+---------12:45----------
+we go
+
+---------12:48----------
+8 7 1 close enough to 0.75 I really
+
+---------12:52----------
+should replace the batteries in the damn
+
+---------12:53----------
+multimeter I never turn this thing off
+
+---------12:57----------
+properly and it's I really haven't
+
+---------12:59----------
+replaced those batteries and like 2
+
+---------13:00----------
+years I should be ashamed of myself so P
+
+---------13:03----------
+P 1 v 5s Oh is next
+
+---------13:13----------
+each time I go to the doctor they go do
+
+---------13:15----------
+you drink cuz last one to the doctor I
+
+---------13:17----------
+hadn't drank at home year about a year
+
+---------13:20----------
+do you drink
+
+---------13:22----------
+no recreationally next time they do that
+
+---------13:27----------
+I'm gonna go do when they go do you Jane
+
+---------13:29----------
+do you drink no recreationally no
+
+---------13:33----------
+professionally I drink professionally
+
+---------13:38----------
+0.004 that sound like 1.5 volts to you
+
+---------13:42----------
+let's analyze that section let's analyze
+
+---------13:44----------
+what's going to create P p1 v5
+
+---------13:46----------
+underscore s oh so if we were to analyze
+
+---------13:49----------
+what creates P p1 v 5s oh we will find
+
+---------13:53----------
+our way to come on that's something
+
+---------13:59----------
+that's powered by P p1 v 5s oh I'm
+
+---------14:01----------
+looking for where it's created you got
+
+---------14:03----------
+to find that so we find our way here we
+
+---------14:07----------
+go see the reason I know that this is
+
+---------14:08----------
+where it's created is this is output
+
+---------14:10----------
+everywhere else P P 185's I was going in
+
+---------14:12----------
+or something but here it's at the end of
+
+---------14:14----------
+a circuit and I'm correct 1.5 volt s oo
+
+---------14:17----------
+regulator this is a pretty basic circuit
+
+---------14:20----------
+effects so we have P P 3 B 3 s 3 which
+
+---------14:23----------
+we know is present because we have P P 3
+
+---------14:24----------
+V 3 s Oh going to voltage n that's going
+
+---------14:27----------
+into the chip to power then we also have
+
+---------14:29----------
+P P 3 V 3 s Oh enable on pin 2 so this
+
+---------14:34----------
+is this this is very simple if P P 3 V 3
+
+---------14:36----------
+s o is present as a rail as long as P P
+
+---------14:38----------
+3 P 3 s o is present meaning we're in an
+
+---------14:40----------
+s3 state then turn on this chip so pin 2
+
+---------14:43----------
+is enable so here's what I'm gonna be
+
+---------14:45----------
+interested in here do I have power on
+
+---------14:48----------
+pin 2 and 1 if I voltage on pin 1 that
+
+---------14:51----------
+chip is receiving power it needs to work
+
+---------14:53----------
+if I'm getting power on pin 2 that means
+
+---------14:54----------
+it's being told to work so there's a
+
+---------14:56----------
+difference between receiving the power
+
+---------14:58----------
+you need to turn on and being told to
+
+---------15:00----------
+work so to give you an example with
+
+---------15:02----------
+something let's see if I have any damn
+
+---------15:05----------
+cord that's long enough all right so
+
+---------15:06----------
+this is my microscope camera right now
+
+---------15:10----------
+this is me giving it power on the VN pin
+
+---------15:12----------
+this is me giving a power on the VCC or
+
+---------15:14----------
+the VN pin I'm gonna take my adapter
+
+---------15:16----------
+with power and plug it in however it's
+
+---------15:18----------
+not being told to work it has power if I
+
+---------15:21----------
+want to use it but to actually use it I
+
+---------15:23----------
+have to do this I have to switch over to
+
+---------15:25----------
+the microscope camera
+
+---------15:26----------
+and then when I switch into the
+
+---------15:27----------
+microscope camera you'll be able to see
+
+---------15:29----------
+whatever I put under the microscope
+
+---------15:31----------
+camera look it's a little deer it's a
+
+---------15:36----------
+deer with a cross above his head
+
+---------15:47----------
+doesn't feel like 31% they represent
+
+---------15:49----------
+alcohol by volume that's the way that
+
+---------15:53----------
+works so we were to continue along here
+
+---------16:02----------
+I'm interested in what's on pin 1 and
+
+---------16:04----------
+pin 2 and I'm also interested in seeing
+
+---------16:07----------
+whether or not these feedback resistors
+
+---------16:10----------
+are broken the thing is a feedback was
+
+---------16:11----------
+missing we would see a low amount but I
+
+---------16:13----------
+don't think we would see nothing so I'm
+
+---------16:15----------
+not quite about to blame those just yet
+
+---------16:16----------
+but you never know so let's just do a
+
+---------16:18----------
+little bit of investigating we're gonna
+
+---------16:19----------
+find you 77 10 is gonna be is l8 0 0 9
+
+---------16:23----------
+let's try to find you 77 10 and see
+
+---------16:26----------
+what's going on in that area you 7 7 10
+
+---------16:29----------
+is right here let's take a look at an
+
+---------16:31----------
+area into the microscope and see if we
+
+---------16:32----------
+see anything that's particularly
+
+---------16:33----------
+interesting maybe we'll see another deer
+
+---------16:35----------
+you never know you never never know so
+
+---------16:40----------
+we're gonna browse over to that area and
+
+---------16:45----------
+oh seems like I'm not the first person
+
+---------16:51----------
+to be here that transistor on the left
+
+---------16:54----------
+is on a little bit crooked and yeah that
+
+---------16:58----------
+does not look like the original hmm
+
+---------17:02----------
+seems like somebody's been here first
+
+---------17:06----------
+I hate when somebody beats me to it but
+
+---------17:09----------
+it looks like somebody did indeed beat
+
+---------17:11----------
+me to it so we're gonna just measure
+
+---------17:12----------
+some of the things that I said we're
+
+---------17:13----------
+interested in over here which is gonna
+
+---------17:14----------
+be the voltage on pins 1 & 2 or
+
+---------17:17----------
+interested in both enable voltage and
+
+---------17:19----------
+also voltage in so let's take a look and
+
+---------17:21----------
+see what we have on voltage in and also
+
+---------17:23----------
+enable do keep in mind we need both of
+
+---------17:25----------
+these in order for anything to actually
+
+---------17:26----------
+function now let's see if I can get
+
+---------17:28----------
+these in camera can I get this in camera
+
+---------17:31----------
+yeah maybe kind of sort of maybe gotta
+
+---------17:35----------
+move the keyboard up do this and I know
+
+---------17:40----------
+yeah we go alright so pin 1 it's gonna
+
+---------17:45----------
+be power
+
+---------17:50----------
+3.3 volts and pin2 is going to be
+
+---------17:53----------
+enabled and we got both so we have
+
+---------17:55----------
+enable and we have power going into the
+
+---------17:56----------
+chip but it's not creating output now it
+
+---------17:59----------
+could be a feedback resist a problem or
+
+---------18:00----------
+it could be an actual chip problem and
+
+---------18:03----------
+I'm kind of inclined in this case to
+
+---------18:04----------
+blame it on the chip why because it
+
+---------18:06----------
+looks like it's been screwed with and
+
+---------18:08----------
+that that just that just tells me
+
+---------18:10----------
+everything so let's take a look here and
+
+---------18:12----------
+get ourselves another chip so I'm gonna
+
+---------18:15----------
+get myself another one of these chips
+
+---------18:17----------
+are gonna replace that we're gonna see
+
+---------18:18----------
+if that fixes our problem all right so
+
+---------18:20----------
+we got ourselves a replacement chip now
+
+---------18:21----------
+it's just time to turn on the fume
+
+---------18:23----------
+extractor turn on the soldering
+
+---------18:25----------
+equipment and let's get to work as
+
+---------18:26----------
+always if you're doing any of this type
+
+---------18:27----------
+of work you should be working with a
+
+---------18:29----------
+[Music]
+
+---------18:34----------
+with an iron that isn't annoying as hell
+
+---------18:37----------
+[Music]
+
+---------18:39----------
+the tip wasn't all the way in always
+
+---------18:42----------
+remember to insert your tip all the way
+
+---------18:44----------
+in
+
+---------18:54----------
+as always you should always be working
+
+---------18:55----------
+with a fume extractor you don't want to
+
+---------18:57----------
+breathe any of the shin and let's get to
+
+---------19:04----------
+work
+
+---------19:04----------
+so first thing we have to do is remove
+
+---------19:06----------
+this chip it's gonna require a little
+
+---------19:07----------
+bit of hot air now just to make it come
+
+---------19:09----------
+off just a little bit easier less heat
+
+---------19:10----------
+in the board we're gonna use some flux
+
+---------19:12----------
+over here just put some flux around this
+
+---------19:14----------
+IC itself and we're going to put my
+
+---------19:17----------
+nozzle on the JBC and remove this chip
+
+---------19:20----------
+from the board we do want to be careful
+
+---------19:22----------
+about heating the PCH because the PCH is
+
+---------19:24----------
+right next door to this chip as you can
+
+---------19:26----------
+see this over here is the chip that we
+
+---------19:27----------
+do not want to heat we do not want to
+
+---------19:29----------
+heat that yet it is right next to this
+
+---------19:31----------
+which can require some careful precision
+
+---------19:34----------
+so just gonna lower the air on the hot
+
+---------19:36----------
+air station and let's go in the first
+
+---------19:40----------
+thing we want to do just make this
+
+---------19:41----------
+process a little bit easier is preheat
+
+---------19:43----------
+the board soap reading the board is
+
+---------19:45----------
+gonna be an important aspect here we
+
+---------19:46----------
+want to preheat it the whole idea being
+
+---------19:47----------
+that we don't want to burn and boil the
+
+---------19:51----------
+chip and boil the first layer while the
+
+---------19:53----------
+rest of the layer is good man so it's
+
+---------20:00----------
+gonna preheat from a little farther away
+
+---------20:02----------
+before we move in on the board and I
+
+---------20:04----------
+would say we give them about 30 seconds
+
+---------20:06----------
+of that now you could easily go out
+
+---------20:08----------
+there and burn by a board pre heater you
+
+---------20:10----------
+could have a board pre heater do this
+
+---------20:11----------
+for you or if you're like me you can
+
+---------20:13----------
+simply heat the board from far away with
+
+---------20:15----------
+a hot air station for a little while
+
+---------20:16----------
+before you go in directly on the chip to
+
+---------20:18----------
+remove it it's up to you it is up to
+
+---------20:20----------
+personal preference what it is you want
+
+---------20:22----------
+to do and as always you should use what
+
+---------20:24----------
+works for you and allows you to get
+
+---------20:26----------
+things done quickly and efficiently I
+
+---------20:28----------
+personally find I don't want a pre
+
+---------20:29----------
+heater on my desk because I have a
+
+---------20:30----------
+tendency to never be honest today I have
+
+---------20:33----------
+a tendency to burn myself on it cuz I
+
+---------20:34----------
+forget it's there all the time and then
+
+---------20:35----------
+I just wind up cursing over and over
+
+---------20:37----------
+again so I tend to not use a pre heater
+
+---------20:39----------
+I just simply tend to preheat the board
+
+---------20:40----------
+for far away and then move in when I'm
+
+---------20:43----------
+close to the temperature I want to be
+
+---------20:45----------
+now the reason I'm doing the preheating
+
+---------20:48----------
+is let's say the board is 25 Celsius and
+
+---------20:50----------
+I need this to be 217 Celsius to melt if
+
+---------20:53----------
+I heat the board at 217 the board is
+
+---------20:56----------
+gonna constantly be absorbing the heat
+
+---------20:58----------
+away from the solder joints so I'm
+
+---------21:00----------
+probably gonna be at 100 or 150 Celsius
+
+---------21:02----------
+not 217 which means I got to raise the
+
+---------21:04----------
+temperature of the hot air at a for 300
+
+---------21:06----------
+or 400 or 500
+
+---------21:07----------
+so now I'm gonna be burning the chip to
+
+---------21:09----------
+get this the tooth to be burning the
+
+---------21:12----------
+chip to get the solder pads to 217
+
+---------21:15----------
+because the board is constantly
+
+---------21:16----------
+absorbing the heat so if the board
+
+---------21:17----------
+itself is saturated with heat to the
+
+---------21:19----------
+point where it cannot absorb more at a
+
+---------21:21----------
+lower temperature like 200 Celsius or
+
+---------21:23----------
+150 Celsius I don't have to use as much
+
+---------21:26----------
+heat to actually remove the chip or do
+
+---------21:28----------
+my soldering rework so you watch how
+
+---------21:30----------
+quick that's gonna come off after
+
+---------21:31----------
+preheating see that that's the power of
+
+---------21:33----------
+a preheated board now we're gonna do
+
+---------21:35----------
+this gonna clean up some of that solder
+
+---------21:36----------
+there cuz I'm not quite sure what
+
+---------21:37----------
+somebody did it looks like there was
+
+---------21:39----------
+worked on there before it looks like I
+
+---------21:40----------
+am not the first person to be here on
+
+---------21:42----------
+this board looks like I'm not the first
+
+---------21:43----------
+person to be replacing this chip perhaps
+
+---------21:45----------
+it failed because it was just it's time
+
+---------21:47----------
+to fail or perhaps it failed because it
+
+---------21:50----------
+was you know is heated too much or who
+
+---------21:53----------
+knows it did maybe it just fell because
+
+---------21:54----------
+it's it's it's something that's made by
+
+---------21:56----------
+Apple again you never you never know
+
+---------22:00----------
+let's just start from scratch here we're
+
+---------22:02----------
+just gonna wick away that old sod are we
+
+---------22:04----------
+gonna add our own solder in there and
+
+---------22:05----------
+solder in a nice and a chip there's a
+
+---------22:09----------
+nice happy nerd ship and a happy new pp1
+
+---------22:12----------
+v5s oh circuit or a happy board
+
+---------22:17----------
+everybody's happy happy happy happy
+
+---------22:21----------
+happy happy
+
+---------22:26----------
+happy deer that deer looks pretty happy
+
+---------22:56----------
+would be best to phase the micro pencil
+
+---------22:58----------
+for this but I think the micro pencil is
+
+---------23:00----------
+hiding on Jason's desk so I'll make this
+
+---------23:03----------
+work
+
+---------23:08----------
+this is a very very crowded area to be
+
+---------23:10----------
+using this now I'm to the center pad we
+
+---------23:12----------
+don't want too much solder on so I'm not
+
+---------23:13----------
+even gonna add a new solder to my iron
+
+---------23:15----------
+I'm just gonna use what's already there
+
+---------23:17----------
+okay now we're scent so what comes up
+
+---------23:19----------
+next is going to be getting a chip to
+
+---------23:22----------
+put on the board over here and we'll be
+
+---------23:24----------
+set so let's get ourselves a chip
+
+---------23:35----------
+I'm gonna get myself a chip
+
+---------23:44----------
+move the air filter over this over we're
+
+---------23:48----------
+gonna preheat a board the reason I don't
+
+---------23:50----------
+put this under the microscope is because
+
+---------23:52----------
+I don't want to have to put the chip
+
+---------23:53----------
+down when I'm done I don't want to put
+
+---------23:56----------
+the chip down on the desk because it
+
+---------23:57----------
+will disappear so I always keep the
+
+---------23:58----------
+board that I'm working on under the
+
+---------24:00----------
+microscope
+
+---------24:20----------
+come on
+
+---------24:22----------
+if I go to Mouser to buy this I find
+
+---------24:24----------
+chips that are similar to this but not
+
+---------24:26----------
+quite exactly the same so what are you
+
+---------24:33----------
+gonna do
+
+---------24:49----------
+now we need a lower temperature than
+
+---------24:51----------
+usual to actually solder a good one on
+
+---------24:54----------
+there I'll explain why in a second
+
+---------25:07----------
+since now I can only guess what happened
+
+---------25:12----------
+based on this thing drives me nuts and I
+
+---------25:17----------
+can only guess what happened based on
+
+---------25:18----------
+the hints and what I see here it looks
+
+---------25:21----------
+like that has been replaced before so
+
+---------25:24----------
+what I'm guessing is that the one that
+
+---------25:26----------
+was replaced failed and there are I can
+
+---------25:30----------
+only I can't I know it can't know
+
+---------25:32----------
+exactly why but I have to keep in mind
+
+---------25:34----------
+that maybe the chip is just very
+
+---------25:35----------
+sensitive to heat so perhaps when the
+
+---------25:37----------
+first individual replaced that chip they
+
+---------25:39----------
+use a little bit too much heat I yeah I
+
+---------25:41----------
+can only guess right
+
+---------25:42----------
+I can only only guess I don't know if
+
+---------25:47----------
+that's right but it doesn't hurt to
+
+---------25:49----------
+think about it so I'm gonna preheat from
+
+---------25:50----------
+far away same as before we're gonna
+
+---------25:52----------
+preheat our chip nice and gentle with it
+
+---------25:54----------
+take our time I don't care if it's
+
+---------25:56----------
+perfectly aligned just yet because we're
+
+---------25:57----------
+not in the stage of one an asado
+
+---------25:58----------
+directly on the board I'm just in the
+
+---------26:00----------
+stage of getting the board to be nice
+
+---------26:02----------
+and warm not hot just nice and warm
+
+---------26:07----------
+get the board to a nine hundred fifty
+
+---------26:09----------
+two hundred Celsius
+
+---------26:10----------
+not not hot just kind a little bit warm
+
+---------26:12----------
+you know some some comfortable
+
+---------26:16----------
+vacationing temperature
+
+---------26:31----------
+now eventually the flux is gonna kind of
+
+---------26:33----------
+blow itself away and once the flux has
+
+---------26:35----------
+blown itself away I'll go in closer on
+
+---------26:37----------
+the chip the flux is gonna kind of be in
+
+---------26:39----------
+my way of telling what the temperature
+
+---------26:41----------
+of the area is okay push down beautiful
+
+---------26:53----------
+got ourselves a nice happy little chip
+
+---------26:55----------
+and we're gonna wait for this to beep
+
+---------27:04----------
+beep beep beep very good good little
+
+---------27:13----------
+hackle
+
+---------27:15----------
+take minimal time touching up the joints
+
+---------27:23----------
+blow away some excess flux and while
+
+---------27:27----------
+it's still hot that is the time to clean
+
+---------27:28----------
+it again we usually do ultrasonic these
+
+---------27:30----------
+boards when we're done with them but
+
+---------27:31----------
+just for the mean time it's easy it's
+
+---------27:33----------
+best to get off as much flux as you can
+
+---------27:34----------
+while it's still hot so I'm just gonna
+
+---------27:36----------
+fight with the alcohol dispenser a
+
+---------27:37----------
+little as you can probably hear in the
+
+---------27:38----------
+background when I'm done fighting with
+
+---------27:39----------
+the alcohol dispenser will remove as
+
+---------27:41----------
+much as we can while it's still hot
+
+---------27:43----------
+again you can rub this in the ultrasonic
+
+---------27:44----------
+cleaner the ultrasonic cleaner does heat
+
+---------27:46----------
+up but the ultrasonic cleaner heats up
+
+---------27:48----------
+to you know eighty Celsius if you can
+
+---------27:51----------
+remove this stuff while the board is
+
+---------27:52----------
+still at 150 or 200 Celsius it makes the
+
+---------27:55----------
+job a lot easier for the ultrasonic
+
+---------27:56----------
+cleaner so we've done that now we're
+
+---------28:00----------
+gonna see if we actually fixed our
+
+---------28:01----------
+problem so the first thing I'm gonna do
+
+---------28:02----------
+is just let that area of the board cool
+
+---------28:05----------
+off a little bit and it's gonna continue
+
+---------28:06----------
+going over it with some nice cold
+
+---------28:08----------
+alcohol because we did spend some time
+
+---------28:10----------
+preheating it so the cold alcohol is
+
+---------28:13----------
+gonna be a nice way to not just clean
+
+---------28:14----------
+the board but also cool it off in the
+
+---------28:16----------
+alcohol as you can see is evaporating
+
+---------28:18----------
+very quickly
+
+---------28:18----------
+it's a 99% alcohol and also this board
+
+---------28:21----------
+is still bit warm
+
+---------28:23----------
+this is gonna cool off the board nicely
+
+---------28:25----------
+and then after that we're gonna turn try
+
+---------28:26----------
+turning it on and I'm going to turn it
+
+---------28:28----------
+on while it's in the microscope so that
+
+---------28:30----------
+you can actually see whether or not it
+
+---------28:32----------
+blows up again so let's just plug this
+
+---------28:34----------
+in and see if the chip actually blows up
+
+---------28:37----------
+on camera that would be pretty
+
+---------28:38----------
+interesting I think it doesn't blow up
+
+---------28:44----------
+but what's more interesting here as you
+
+---------28:47----------
+can see that we have a fan spinning well
+
+---------28:51----------
+you don't believe me with the microscope
+
+---------28:52----------
+picture as you can see here look oh you
+
+---------28:56----------
+hear that fan spinning it's beautiful
+
+---------28:59----------
+now let's see did that hmm beautiful so
+
+---------29:07----------
+that's it for today and as always I hope
+
+---------29:09----------
+you learned something and do come back
+
+---------29:11----------
+tomorrow for another episode of
+
+---------29:12----------
+component-level board repair
+

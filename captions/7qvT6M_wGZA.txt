@@ -1,0 +1,988 @@
+https://www.youtube.com/watch?v=7qvT6M_wGZA
+---------00:00----------
+hi so today I'm gonna be going over an
+
+---------00:01----------
+eight to zero 3330 board for a 2013
+
+---------00:04----------
+model a 1286 15-inch Mac Pro the problem
+
+---------00:08----------
+with this board is that you get no
+
+---------00:09----------
+voltage anywhere you get point two volts
+
+---------00:11----------
+across the entire board and I want to go
+
+---------00:13----------
+over some of the things that I was doing
+
+---------00:16----------
+as I was trying to test it and what I
+
+---------00:18----------
+figured out so the problem with this
+
+---------00:19----------
+board is that you get absolutely nothing
+
+---------00:21----------
+when you plug the charger in so the
+
+---------00:23----------
+first thing that I did to try to
+
+---------00:24----------
+troubleshoot it since I get nothing
+
+---------00:25----------
+anywhere is I decided to try and see
+
+---------00:29----------
+what happens if I put 18 volts from my
+
+---------00:31----------
+power supply in so what I did over here
+
+---------00:33----------
+that you can see is I actually a move to
+
+---------00:37----------
+the fuse out of the way and after I
+
+---------00:40----------
+moved the fuse out of the way what I did
+
+---------00:42----------
+is I took the 18 volts from my bench
+
+---------00:45----------
+power supply which I'll show you how
+
+---------00:46----------
+that works here so I take my bench power
+
+---------00:48----------
+supply I got this thick piece of cat 5e
+
+---------00:51----------
+cable that I use just for running wires
+
+---------00:52----------
+to the bench power supply and what I did
+
+---------00:55----------
+is I started it on there and I'll show
+
+---------00:57----------
+you in the schematic in a second how
+
+---------00:58----------
+exactly I did it might as well while I'm
+
+---------01:01----------
+waiting for the iron heat up here to
+
+---------01:02----------
+show you that part so let's open the
+
+---------01:04----------
+schematic and show you what I'm talking
+
+---------01:09----------
+about okay so over here CF 6905 this is
+
+---------01:19----------
+a fuse so this is the MagSafe power jack
+
+---------01:22----------
+this is where you plug your charger in
+
+---------01:24----------
+and that goes to this fuse so little
+
+---------01:26----------
+like right at this point I get nothing
+
+---------01:28----------
+since I get nothing here I will get
+
+---------01:30----------
+nothing after here nothing at all
+
+---------01:31----------
+because at the very very beginning where
+
+---------01:33----------
+power comes into the computer I have
+
+---------01:35----------
+ so what I did is I decided to put
+
+---------01:37----------
+the charger power over here so let me
+
+---------01:40----------
+just show you what happens when I do
+
+---------01:42----------
+that on this machine I'm gonna start
+
+---------01:44----------
+that wire on right now probably not
+
+---------01:48----------
+gonna do the best soldering job since I
+
+---------01:50----------
+know I'm gonna be removing it so let's
+
+---------01:54----------
+get my ground over here Oh air filter
+
+---------01:57----------
+ hold breath hold breath hold breath
+
+---------02:06----------
+this over there all right
+
+---------02:10----------
+I take the ground of the power supply
+
+---------02:13----------
+put it on the ground of the board and
+
+---------02:16----------
+not the best soldering but I am togetic
+
+---------02:19----------
+rid of that in a second so with the
+
+---------02:21----------
+cares and over here I'm going to be
+
+---------02:26----------
+putting the 18 volts I take my 18 volts
+
+---------02:32----------
+and I put it right there so now instead
+
+---------02:44----------
+of the Machine getting 16 volts from the
+
+---------02:47----------
+charger it's gonna be getting 16 volts
+
+---------02:49----------
+from my power supply so I'm gonna turn
+
+---------02:53----------
+on my power supply here I have a HP
+
+---------02:56----------
+Agilent 65-42 a I love my 65-42 a it's a
+
+---------03:00----------
+great power supply so I'm gonna set it
+
+---------03:02----------
+to voltage 17 current I'm gonna limit it
+
+---------03:05----------
+to three amps just because you know if
+
+---------03:07----------
+anything's gonna blow up hopefully
+
+---------03:08----------
+hopefully it doesn't decide to blow up
+
+---------03:10----------
+on me I take my tester screen over here
+
+---------03:29----------
+plug it in get myself a test Ram stick
+
+---------03:34----------
+so I can show you what's going on now I
+
+---------03:45----------
+turn on the
+
+---------03:46----------
+our supply I'm gonna plug in the charger
+
+---------03:49----------
+these machines automatically turn on
+
+---------03:51----------
+when you plug in the charger now my
+
+---------03:55----------
+power supply went from saying that I'm
+
+---------03:57----------
+drawing zero amps and now it's saying
+
+---------04:00----------
+that I'm drawing something
+
+---------04:13----------
+so let's try hitting the buttons
+
+---------04:15----------
+required to turn this thing on
+
+---------04:17----------
+I left my tweezers outside let's see if
+
+---------04:23----------
+these wire cutters will do just the
+
+---------04:25----------
+short multimeter probe will do the short
+
+---------04:29----------
+power pets
+
+---------04:53----------
+you can see my screen is come on and
+
+---------04:55----------
+what I hadn't noticed before when I
+
+---------04:57----------
+originally did this is that it came on
+
+---------04:59----------
+to the question mark so what I know here
+
+---------05:01----------
+is I know I'm most likely I have a good
+
+---------05:03----------
+graphics chip I have a good CPU all the
+
+---------05:05----------
+circuitry for creating the three volt
+
+---------05:07----------
+rail the five volt rail is there my SMC
+
+---------05:10----------
+is probably good my is L six two five
+
+---------05:11----------
+nine that takes 16 volts from the
+
+---------05:14----------
+charger in terms of the 12 volts for the
+
+---------05:15----------
+system all of that right now I know is
+
+---------05:17----------
+probably good because I'm getting a
+
+---------05:20----------
+white light on the screen that turns
+
+---------05:21----------
+into a question mark as soon as I see
+
+---------05:23----------
+that white light on the screen that
+
+---------05:24----------
+turns into a question mark I know that
+
+---------05:25----------
+99% of my work is done if I had no power
+
+---------05:28----------
+she so all I have to do is figure out
+
+---------05:29----------
+why is it that I'm getting a zero volts
+
+---------05:31----------
+everywhere on this machine so it's not
+
+---------05:35----------
+the DCN fuse so let's just go back over
+
+---------05:37----------
+here and go over some of this it's not
+
+---------05:45----------
+my DC n fuse because this is fine
+
+---------05:49----------
+my one wire circuit is fine so this over
+
+---------05:53----------
+here smc bc AC okay this is fine my one
+
+---------06:00----------
+wire circuit pp 3 V 4 2 is present this
+
+---------06:03----------
+logic 8 works this chip is fine and
+
+---------06:07----------
+let's go over what may actually be the
+
+---------06:09----------
+problem here so here's what kind of got
+
+---------06:12----------
+me on this one why I was I look like an
+
+---------06:16----------
+idiot for the whole time I was working
+
+---------06:18----------
+on it so what I thought is see this chip
+
+---------06:21----------
+over here says from adapter this inrush
+
+---------06:22----------
+limiter
+
+---------06:23----------
+I thought that if this MOSFET was bad
+
+---------06:26----------
+right I thought if this was bad what
+
+---------06:28----------
+what happened is that the 16 volt would
+
+---------06:30----------
+stop over here and not make its way
+
+---------06:32----------
+through to the Machine that was my
+
+---------06:34----------
+logical assumption and my logical
+
+---------06:36----------
+assumption was completely
+
+---------06:38----------
+idiotic and wrong what happens if this
+
+---------06:40----------
+is not working the charger won't send
+
+---------06:43----------
+anything to the computer so let's take a
+
+---------06:45----------
+look at what this looks like so that's Q
+
+---------06:46----------
+7080 so this is what takes 16 volts from
+
+---------06:49----------
+the charger so right after that fuse
+
+---------06:51----------
+right after you get that fuse you get
+
+---------06:53----------
+from adapter over here so right after
+
+---------06:55----------
+that fuse that I have a wire going to
+
+---------06:57----------
+and let's check over here so our so this
+
+---------07:00----------
+is most open based on our 7086
+
+---------07:02----------
+are 70 80 and our seventy eighty one so
+
+---------07:05----------
+our 70 86 over here
+
+---------07:09----------
+let's get up in the microscope and take
+
+---------07:12----------
+a look at this my tweezers here we go I
+
+---------07:24----------
+knew they were somewhere okay so our
+
+---------07:30----------
+7080 is right here so that was our
+
+---------07:40----------
+seventy eighty six my mistake
+
+---------07:41----------
+our seventy eighty one it is right here
+
+---------07:46----------
+and our seventy eighty is right there ah
+
+---------07:52----------
+you can see our seventy eighty yeah that
+
+---------08:01----------
+so that is one of the other resistors
+
+---------08:04----------
+that's gonna be in the voltage divider
+
+---------08:05----------
+that goes to the gate of that transistor
+
+---------08:07----------
+to tell it to open and this is the other
+
+---------08:09----------
+one there's this look trustworthy to you
+
+---------08:13----------
+don't look that trustworthy to me yeah
+
+---------08:30----------
+looks like a pile of and balls if I
+
+---------08:32----------
+may say so myself so my eyes have tested
+
+---------08:35----------
+that resistor and what my eyes have told
+
+---------08:37----------
+me is my eyes told me that that resistor
+
+---------08:39----------
+is bad so I have not measured it with
+
+---------08:41----------
+the multimeter I'm just measuring it
+
+---------08:42----------
+with my you know my brain I guess and
+
+---------08:45----------
+and that's so let's go over and see what
+
+---------08:48----------
+that does in the schematic that was kind
+
+---------08:53----------
+of cool look at this that's kind of fun
+
+---------09:04----------
+I could do this all day
+
+---------09:05----------
+it's like playing snake on ecstasy Wow
+
+---------09:10----------
+anyway it's easy to entertain me it's
+
+---------09:13----------
+alright 70 80 so once power goes through
+
+---------09:17----------
+this so this voltage divider which is
+
+---------09:24----------
+controlled by you 7,000 of our 7080 and
+
+---------09:26----------
+I seventy eighty one will control this
+
+---------09:28----------
+opening and it doesn't strike me as
+
+---------09:33----------
+something that is in good health so
+
+---------09:34----------
+let's take a look and get to work that
+
+---------09:43----------
+jiggles a lot doesn't this microscope
+
+---------09:45----------
+stand is jiggles all the time this why I
+
+---------09:50----------
+can't use this thing at a zoom because
+
+---------09:52----------
+it gives me it just makes me makes me
+
+---------09:55----------
+seasick
+
+---------09:55----------
+I mean I don't mind having a microscope
+
+---------10:00----------
+that only goom's ten and thirty with a
+
+---------10:04----------
+regular Stan
+
+---------10:55----------
+resistor is in place resistor could look
+
+---------11:01----------
+nicer
+
+---------11:31----------
+this is so the wrong way to use flux but
+
+---------11:34----------
+I haven't bought an empty syringe yet I
+
+---------11:36----------
+honestly I went to search and I found a
+
+---------11:38----------
+ton of syringes that have flux in them
+
+---------11:40----------
+but I actually want to just buy an empty
+
+---------11:41----------
+one for this and I didn't find one that
+
+---------11:44----------
+I wanted they didn't find anything
+
+---------11:46----------
+actually I know I'm probably just not
+
+---------11:47----------
+looking hard enough right now two people
+
+---------11:52----------
+are on vacation at the same time so yeah
+
+---------11:54----------
+bout having time from myself for finding
+
+---------11:58----------
+things I need
+
+---------11:59----------
+no such luck on that one that's way too
+
+---------12:02----------
+much flux that's absolutely disgusting
+
+---------12:04----------
+so feel free to troll this will get
+
+---------12:07----------
+ultrasonic off anyway so I don't really
+
+---------12:08----------
+care
+
+---------12:12----------
+all right I have my perfect looking who
+
+---------12:16----------
+am i kidding
+
+---------12:17----------
+not even close to perfect but nice
+
+---------12:19----------
+looking resistors in there righty now
+
+---------12:26----------
+where I attached my DC power supply I'm
+
+---------12:29----------
+just gonna take the fuse and put it back
+
+---------12:31----------
+there so that my matic safe has a path
+
+---------12:55----------
+hey time to rotate my fuse these are the
+
+---------13:02----------
+tweezers I use to apply the flux before
+
+---------13:05----------
+yeah they're filled with flux but that's
+
+---------13:07----------
+fine make all of the most beautiful few
+
+---------13:11----------
+joints in the world now why am I doing
+
+---------13:18----------
+this on the edge of a table anyway you
+
+---------13:21----------
+get any space in New York City you can't
+
+---------13:25----------
+get any space in New York City doing
+
+---------13:28----------
+everything on the edge okay constantly
+
+---------13:38----------
+bumping into something when I serviced
+
+---------13:39----------
+the 15 inch board
+
+---------13:50----------
+no jumping you piece of you know
+
+---------13:57----------
+what you were doing and you did it
+
+---------14:00----------
+anyway
+
+---------14:17----------
+said flat
+
+---------14:50----------
+okay we're getting somewhere
+
+---------15:08----------
+same so let's see good gas but
+
+---------15:15----------
+still not working
+
+---------15:48----------
+oh you didn't heat up you beep
+
+---------16:42----------
+green-light fan spin
+
+---------16:49----------
+give me a fan to make spin come on I
+
+---------16:53----------
+didn't need this for my final testing
+
+---------16:55----------
+what did I do with all the fans here
+
+---------16:58----------
+that's an air fan aha
+
+---------17:33----------
+now fans binges yet we have voltage on
+
+---------17:40----------
+PP boys g3 heart
+
+---------18:02----------
+are you a nonworking fan is my test fan
+
+---------18:09----------
+that I picked up off of the floor dead
+
+---------18:24----------
+yes yes piece of all
+
+---------18:35----------
+right we're good so again we'll have to
+
+---------18:42----------
+run a SD on this and make sure sensors
+
+---------18:44----------
+and all that good stuff works but for
+
+---------18:46----------
+now I'm fairly happy so let's go over
+
+---------18:47----------
+what it was so over here a spike must
+
+---------18:53----------
+have come in and I would guess because
+
+---------18:55----------
+of some knockoff charger there was no
+
+---------18:56----------
+liquid damage on this board at all this
+
+---------18:58----------
+board looked pristine clear beautiful no
+
+---------19:00----------
+liquid no corrosion no nothing but on
+
+---------19:03----------
+our 7080 on the top II had some
+
+---------19:05----------
+ridiculously nasty looking junk that I
+
+---------19:09----------
+showed you under the microscope so if
+
+---------19:10----------
+this point had the visible shock what
+
+---------19:13----------
+else could have been up current
+
+---------19:15----------
+sensing resistor now these two died all
+
+---------19:18----------
+the time this doesn't and this point
+
+---------19:20----------
+looked just fine I also had measured
+
+---------19:22----------
+these prior to do in the video and prior
+
+---------19:23----------
+to driving myself nuts and over here
+
+---------19:26----------
+this is the other point the source of q7
+
+---------19:30----------
+dat so we replace our 7080 which looked
+
+---------19:32----------
+disgusting and I replaced q7 dat which
+
+---------19:34----------
+did not look disgusting but was directly
+
+---------19:36----------
+attached to our 7080 which did look
+
+---------19:38----------
+disgusting
+
+---------19:38----------
+and we have a working machine so this
+
+---------19:41----------
+was not letting the power go through the
+
+---------19:43----------
+machine and again I learned something I
+
+---------19:45----------
+really thought that if something was
+
+---------19:46----------
+wrong over here because he and this has
+
+---------19:48----------
+no path to ground I thought that if
+
+---------19:50----------
+there was something wrong over here that
+
+---------19:51----------
+the adapter would simply send 16 here or
+
+---------19:53----------
+17 here stop die and not send it forward
+
+---------19:57----------
+but it actually winds up communicating
+
+---------19:59----------
+with the charges as hey you know what q7
+
+---------20:01----------
+dat doesn't work so what I think happens
+
+---------20:03----------
+is the ISL 65:9 use 7000 on SM bus
+
+---------20:07----------
+charger SDA sm bus charger i think that
+
+---------20:14----------
+that winds up talking to the SMC see how
+
+---------20:18----------
+this is by that's bi-directional data
+
+---------20:20----------
+line so this is gonna talk to the SMC
+
+---------20:25----------
+ahem it yeah so this turns into this for
+
+---------20:32----------
+the SMC SM bus SMC v g3 SDA
+
+---------20:38----------
+smbus sm c5 g3 SDA is going to go to the
+
+---------20:44----------
+SMC with so that chip is gonna talk to
+
+---------20:47----------
+this and then you have sis one wire over
+
+---------20:50----------
+here sis underscore one wire
+
+---------20:52----------
+I really have to learn how to not be so
+
+---------20:55----------
+se now that this microphone that I have
+
+---------20:56----------
+picks them up like crazy this is
+
+---------20:58----------
+actually a good microphone you can't
+
+---------20:59----------
+blame the microphone you blame the
+
+---------21:01----------
+speaker so yeah this one wire over here
+
+---------21:04----------
+and this speaks to you 6900 you 6900 is
+
+---------21:10----------
+going to speak to the charger and so
+
+---------21:13----------
+what I'm thinking is going on as one use
+
+---------21:15----------
+7000 notices that q7 dat doesn't work it
+
+---------21:17----------
+tells the charger you know instead of
+
+---------21:19----------
+putting out power since I'm not gonna be
+
+---------21:20----------
+getting it anyway how about you be
+
+---------21:21----------
+efficient and just don't send out
+
+---------21:22----------
+anything at all and that's what I
+
+---------21:24----------
+imagined was happening here that's and
+
+---------21:27----------
+now it works and now I was in microscope
+
+---------21:29----------
+for you I'm not quite sure how long I
+
+---------21:31----------
+was in microscope for you for let's go
+
+---------21:33----------
+back here and check out the PDF so yes
+
+---------21:35----------
+since one wire is how the Mac safe
+
+---------21:39----------
+communicates with the SMC the SM bus
+
+---------21:42----------
+data line is how the SMC communicates
+
+---------21:44----------
+with you 7000 use 7000 is what controls
+
+---------21:47----------
+Q 7080 which is a MOSFET that will open
+
+---------21:50----------
+or closed depending on what you 7000
+
+---------21:52----------
+tells it and this pretty much was
+
+---------21:55----------
+and so was this voltage divider so you
+
+---------21:57----------
+7000 on smbus charger SDA told the SMC
+
+---------22:01----------
+to tell the charger hey don't turn on
+
+---------22:03----------
+and that's how we got where we are right
+
+---------22:05----------
+now and by replacing our 7080 and Q 7080
+
+---------22:09----------
+I have a board that works that's ready
+
+---------22:11----------
+to be sent back to my customer who say
+
+---------22:13----------
+hey this actually got sent here from
+
+---------22:14----------
+from Europe so that's that's pretty cool
+
+---------22:17----------
+I mean these videos are actually getting
+
+---------22:19----------
+viewed in in in countries where people
+
+---------22:22----------
+are openly saying I don't speak English
+
+---------22:24----------
+you know I'm speaking to you through a
+
+---------22:26----------
+translator I want to send you this and I
+
+---------22:28----------
+mean my that these videos are getting
+
+---------22:30----------
+that much of a reach is actually really
+
+---------22:32----------
+really cool so that's it for today and I
+
+---------22:34----------
+hope you learned something
+

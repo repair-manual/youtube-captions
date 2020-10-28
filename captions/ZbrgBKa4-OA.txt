@@ -1,0 +1,1222 @@
+https://www.youtube.com/watch?v=ZbrgBKa4-OA
+---------00:00----------
+why hello it's been a while
+
+---------00:03----------
+let's fix another macbook here we have a
+
+---------00:05----------
+macbook
+
+---------00:06----------
+that needs to be fixed this is a macbook
+
+---------00:09----------
+air
+
+---------00:09----------
+this macbook air has liquid damage let's
+
+---------00:12----------
+take a look at the board
+
+---------00:14----------
+you get an idea of what's going on with
+
+---------00:15----------
+this little macbook looks like we have
+
+---------00:17----------
+some fairly obvious liquid damage up
+
+---------00:19----------
+here
+
+---------00:22----------
+you gotta say i'm loving this new lens
+
+---------00:24----------
+it does show how unsteady everything is
+
+---------00:26----------
+including my hand also sorry that i
+
+---------00:30----------
+haven't been
+
+---------00:30----------
+as frequent with videos recently it has
+
+---------00:33----------
+been very
+
+---------00:34----------
+very very very very very ungodly busy
+
+---------00:38----------
+and there's been quite a bit to do i
+
+---------00:41----------
+also had to get my
+
+---------00:42----------
+pc fixed but i finally have a nice
+
+---------00:44----------
+little water cooling setup here even if
+
+---------00:46----------
+it doesn't quite fit into this
+
+---------00:47----------
+corsair case the way i would want i
+
+---------00:50----------
+never have to worry
+
+---------00:51----------
+about my p of this machine going vroom
+
+---------00:55----------
+vroom over and over again anytime it
+
+---------00:58----------
+starts streaming
+
+---------00:59----------
+because that nmx pile of trash liquid
+
+---------01:02----------
+cooler
+
+---------01:03----------
+is now gone uh so yes i'm dumb
+
+---------01:06----------
+i'm the dum-dum that bought the innermax
+
+---------01:08----------
+liquid cooler i'm one of the five idiots
+
+---------01:11----------
+that bought that pile of crap
+
+---------01:12----------
+but it is now gone so the first thing
+
+---------01:14----------
+that rail that we need in order to get a
+
+---------01:16----------
+light in the charger
+
+---------01:17----------
+is pp3v42 underscore g3 hot let's open
+
+---------01:20----------
+up a board view
+
+---------01:21----------
+for the a20-00165
+
+---------01:25----------
+macbook macbook
+
+---------01:28----------
+macbook and see where pp3v42 underscore
+
+---------01:32----------
+g3 hot is
+
+---------01:36----------
+if you don't know why pp3p42 underscore
+
+---------01:38----------
+g3 hot is supposed to be the first rail
+
+---------01:40----------
+that shows up in this macbook
+
+---------01:41----------
+i highly suggest that you check out my
+
+---------01:43----------
+videos on the one wire circuit
+
+---------01:45----------
+on boards.rosmangroup.com because if i
+
+---------01:48----------
+explain why you need that power rail
+
+---------01:50----------
+even one more time i might just have an
+
+---------01:53----------
+aneurysm
+
+---------01:54----------
+so as you can see pp3v42 is going to be
+
+---------01:57----------
+over there
+
+---------01:58----------
+over here over there
+
+---------02:02----------
+so let's see if it's present on my board
+
+---------02:09----------
+and it's not now we're going to see if
+
+---------02:11----------
+we have a short to ground on pp3 v42
+
+---------02:12----------
+underscore g3 hot because a short to
+
+---------02:14----------
+ground can keep it from showing up
+
+---------02:17----------
+it's not shorter to ground 10 kilo ohms
+
+---------02:20----------
+hmm what could it be all right so now we
+
+---------02:23----------
+have to find the pp3 v4 to underscore g3
+
+---------02:25----------
+hawk creation circuit
+
+---------02:28----------
+and take a look around and let's see
+
+---------02:31----------
+what's
+
+---------02:32----------
+why it's not being created u790 is the
+
+---------02:35----------
+chip that's going to create
+
+---------02:36----------
+pp3 v4 to underscore g3 hot and it needs
+
+---------02:38----------
+to be getting voltage as it's enabled i
+
+---------02:40----------
+mean
+
+---------02:40----------
+it's enable and its input pin as can be
+
+---------02:43----------
+seen over here
+
+---------02:44----------
+the voltage in pin is pin six and it's
+
+---------02:47----------
+supposed to be getting
+
+---------02:48----------
+either 8.6 volts from the battery on its
+
+---------02:52----------
+pp
+
+---------02:52----------
+g3 hot or if the battery's dead it's
+
+---------02:54----------
+supposed to be getting 18.5 volts
+
+---------02:56----------
+from the charger let's see what it's
+
+---------02:58----------
+getting on pin 6.
+
+---------03:00----------
+we're going to move the microscope over
+
+---------03:08----------
+wow much corrosion
+
+---------03:14----------
+much corrosion
+
+---------03:18----------
+let's see what we're getting on input
+
+---------03:20----------
+seems like we're getting 0.1
+
+---------03:23----------
+millivolts on input
+
+---------03:34----------
+hmm no good we checked over over here
+
+---------03:39----------
+on the diode pin three i wonder if
+
+---------03:41----------
+there's a short to ground over there
+
+---------03:43----------
+because do keep in mind there are not
+
+---------03:44----------
+just capacitors on output
+
+---------03:46----------
+there are also capacitors on input
+
+---------03:49----------
+capacitor c7091 capacitor c7090
+
+---------03:54----------
+and capacitor c7092 so that can actually
+
+---------03:57----------
+be shorted to ground as well
+
+---------03:59----------
+we're going to put our multimeter back
+
+---------04:00----------
+into impedance mode resistance mode
+
+---------04:03----------
+hashtag resist mode and see if we have a
+
+---------04:07----------
+short to ground over there
+
+---------04:09----------
+we don't 5 kiloohms to ground looks like
+
+---------04:12----------
+we have to go further up the chain and
+
+---------04:13----------
+figure out what's wrong with this
+
+---------04:14----------
+macbook
+
+---------04:15----------
+all right i'm going to plug my charger
+
+---------04:17----------
+in again put the multimeter into voltage
+
+---------04:19----------
+mode
+
+---------04:20----------
+let's see what's happening behind the
+
+---------04:21----------
+diode now i don't expect to be anything
+
+---------04:23----------
+on the pb bus yet because we need
+
+---------04:25----------
+pp3p4200
+
+---------04:26----------
+g3 hop before we get the peepee bus so
+
+---------04:28----------
+before we get to ride the pb bus
+
+---------04:30----------
+let's check out pp18v5 that's the
+
+---------04:32----------
+voltage that's supposed to be coming in
+
+---------04:33----------
+from the charger
+
+---------04:34----------
+that's supposed to be present on pin two
+
+---------04:37----------
+of the diode
+
+---------04:38----------
+and pin two of the diode is going to be
+
+---------04:40----------
+the left pin
+
+---------04:48----------
+nothing wow okay
+
+---------04:51----------
+let's continue our journey upwards
+
+---------04:54----------
+now what's feeding pin 2 of the diode is
+
+---------04:57----------
+going to be
+
+---------04:59----------
+r7005 a 10 ohm resistor
+
+---------05:02----------
+let's find that 10 ohm resistor and make
+
+---------05:04----------
+it stop resisting
+
+---------05:06----------
+so what do we have here
+
+---------05:10----------
+zero volts it's not the resistor okay
+
+---------05:13----------
+let's continue up the chain let's
+
+---------05:16----------
+continue up the chain
+
+---------05:19----------
+now q7010 is a transistor that's going
+
+---------05:22----------
+to open
+
+---------05:22----------
+and allow this to come through so let's
+
+---------05:26----------
+take a look
+
+---------05:26----------
+by making this full screen for a moment
+
+---------05:28----------
+here now
+
+---------05:30----------
+q710 is a p-channel mosfet the way a
+
+---------05:32----------
+p-channel mosfet works
+
+---------05:34----------
+it is going to allow power to go through
+
+---------05:35----------
+when the voltage on the gate
+
+---------05:37----------
+is lower than the voltage on the source
+
+---------05:39----------
+so voltage is going to go from the
+
+---------05:40----------
+source over to the drain
+
+---------05:42----------
+or current or energy or wattage
+
+---------05:45----------
+or ger i'm going to start going gur
+
+---------05:48----------
+there are some engineers watching the
+
+---------05:50----------
+channel that have gotten angry
+
+---------05:52----------
+the fact that i'll say current instead
+
+---------05:53----------
+of amperage voltage instead of amperage
+
+---------05:55----------
+power instead of amperage from now on
+
+---------05:57----------
+i'm just going to grunt
+
+---------06:02----------
+super male vitality so this
+
+---------06:06----------
+is going to allow the power to go
+
+---------06:07----------
+through when the voltage on the gate
+
+---------06:10----------
+is lower than the voltage on the source
+
+---------06:12----------
+now here we have a path to ground
+
+---------06:14----------
+for the gate r7011 and d7012 provide a
+
+---------06:17----------
+path
+
+---------06:18----------
+to ground to lower that voltage a little
+
+---------06:20----------
+bit our 7010
+
+---------06:21----------
+and r7011 are going to allow some
+
+---------06:24----------
+voltage to go to the gate
+
+---------06:25----------
+but if this diode is doing its job that
+
+---------06:28----------
+voltage is going to be brought down
+
+---------06:30----------
+by a little bit which will allow this to
+
+---------06:32----------
+open and get the job done
+
+---------06:34----------
+now the way i know this is a p channel
+
+---------06:36----------
+mosfet if you're unaware of how i would
+
+---------06:38----------
+figure that out
+
+---------06:39----------
+is by googling it so i'm going to right
+
+---------06:42----------
+click
+
+---------06:43----------
+and do that then i'm going to go over to
+
+---------06:45----------
+my web browser
+
+---------06:47----------
+and i'm going to search for it
+
+---------06:50----------
+and if you search for it the first
+
+---------06:52----------
+result on google which i should really
+
+---------06:54----------
+stop using and change it to duckduckgo
+
+---------06:56----------
+is my default because googler
+
+---------06:58----------
+is ap channel that's how i know that
+
+---------07:00----------
+it's a p channel and not an n channel
+
+---------07:03----------
+there are some people who have a brain
+
+---------07:05----------
+unlike me
+
+---------07:06----------
+who know that this is a p or an n
+
+---------07:09----------
+channel simply by looking
+
+---------07:10----------
+at the internal picture and i've been
+
+---------07:12----------
+doing this job for damn near 10 years
+
+---------07:15----------
+and i forgot how to tell don't be stupid
+
+---------07:18----------
+like lewis
+
+---------07:19----------
+but also realize that if a stupid person
+
+---------07:20----------
+like lewis can figure this out and do it
+
+---------07:22----------
+you can too but back to the schematic
+
+---------07:25----------
+now let's see
+
+---------07:26----------
+if q710 is doing its job
+
+---------07:29----------
+or if it's not being told to do its job
+
+---------07:31----------
+so i'm gonna i'm gonna check the power
+
+---------07:33----------
+at the gate and the source i already
+
+---------07:34----------
+checked the power to get at the drain i
+
+---------07:36----------
+checked it right over here and i didn't
+
+---------07:37----------
+have nothing
+
+---------07:38----------
+so we're gonna check at the gate and the
+
+---------07:40----------
+source let's go back to the view that's
+
+---------07:42----------
+split
+
+---------07:47----------
+macbook that needs to be fixed
+
+---------07:50----------
+macbook that needs to be fixed
+
+---------07:54----------
+macbook that needs to be fixed
+
+---------07:58----------
+macbook that needs to be fixed
+
+---------08:01----------
+macbook macbook
+
+---------08:04----------
+macbook macbook
+
+---------08:10----------
+macbook macbook
+
+---------08:14----------
+let me pet your blackberry nobody pets
+
+---------08:17----------
+my blackberry
+
+---------08:18----------
+blackberry does not have a price how
+
+---------08:21----------
+dare you
+
+---------08:22----------
+she's my angel my princess a mere two
+
+---------08:26----------
+dollars is not going to allow you to pet
+
+---------08:28----------
+my princess
+
+---------08:30----------
+you bastard figlio de putan
+
+---------08:33----------
+pizzo de mierda you think you're cool
+
+---------08:36----------
+right
+
+---------08:38----------
+hmm when you kick blackberry out of her
+
+---------08:41----------
+house
+
+---------08:42----------
+i tell you this one in three americans
+
+---------08:45----------
+is dying out of cancer
+
+---------08:47----------
+you know [ __ ] you're going to be one
+
+---------08:49----------
+of those
+
+---------08:50----------
+i didn't have the courage to kick your
+
+---------08:52----------
+ass directly
+
+---------08:54----------
+didn't have enough courage for that but
+
+---------08:57----------
+i could
+
+---------08:58----------
+you know and so could blackberry did you
+
+---------09:01----------
+know you're going to have another
+
+---------09:02----------
+accident you know i'm involved with
+
+---------09:04----------
+black kittens
+
+---------09:06----------
+[ __ ] you die bastard you think you're so
+
+---------09:10----------
+cool
+
+---------09:11----------
+[ __ ] and if i ever see your [ __ ]
+
+---------09:13----------
+face around
+
+---------09:14----------
+in brooklyn or manhattan i'll kick your
+
+---------09:17----------
+ass
+
+---------09:18----------
+[ __ ] you [ __ ] american [ __ ] yankee
+
+---------09:23----------
+you're gonna die out of cancer i promise
+
+---------09:26----------
+deep pain no one knows what you did to
+
+---------09:29----------
+me
+
+---------09:30----------
+you want to know something [ __ ] you i
+
+---------09:32----------
+want your balls mashed
+
+---------09:34----------
+eat [ __ ] bastard pizzo de mierdo figlio
+
+---------09:38----------
+de putana
+
+---------09:39----------
+i hope somebody in your family dies soon
+
+---------09:41----------
+i hope that somebody in your family dies
+
+---------09:43----------
+soon
+
+---------09:44----------
+[ __ ] you and your two dollars
+
+---------09:48----------
+[ __ ] thinking i'm gonna [ __ ] my cat
+
+---------09:51----------
+out to you
+
+---------09:52----------
+for two dollars
+
+---------09:56----------
+what we need to do the nerd the gate as
+
+---------09:59----------
+well as the source
+
+---------10:00----------
+now one of the difficult things here
+
+---------10:02----------
+because of paul daniels software
+
+---------10:04----------
+and paul daniels's software just causes
+
+---------10:06----------
+so many problems in life
+
+---------10:08----------
+is that the transistor is going to show
+
+---------10:09----------
+up differently on the board than how it
+
+---------10:11----------
+is
+
+---------10:12----------
+in the program so on the board q7010
+
+---------10:16----------
+has four solder pads on the left and
+
+---------10:19----------
+four solder pads in the right
+
+---------10:20----------
+in this configuration however and paul
+
+---------10:23----------
+daniels is
+
+---------10:24----------
+everywhere thing upside down dingo baby
+
+---------10:26----------
+eating software
+
+---------10:28----------
+it has one pin on the top
+
+---------10:31----------
+and then three pins on the bottom which
+
+---------10:33----------
+looks nothing like this
+
+---------10:35----------
+in what [ __ ] world does this
+
+---------10:39----------
+look like this paul daniels
+
+---------10:43----------
+really now
+
+---------10:45----------
+[Music]
+
+---------10:50----------
+this isn't paul's fault these board
+
+---------10:51----------
+views just suck okay so here's what
+
+---------10:53----------
+we're gonna do here
+
+---------10:54----------
+here's what we're gonna do so i can i
+
+---------10:56----------
+don't know what the [ __ ] the gate is
+
+---------10:57----------
+i don't know which one is the gate so
+
+---------10:59----------
+what i'm going to do is i'm going to
+
+---------11:00----------
+measure something that i know is on the
+
+---------11:01----------
+gate
+
+---------11:02----------
+so for example the gate and the source
+
+---------11:04----------
+are on each pin
+
+---------11:05----------
+of c7012 c7012 is going to have one foot
+
+---------11:09----------
+on the gate and another on the source
+
+---------11:11----------
+so if i can find c7012 even if there's
+
+---------11:13----------
+nothing that is certain about this trend
+
+---------11:15----------
+where things are on this transistor
+
+---------11:17----------
+i can know whether i'm measuring the
+
+---------11:18----------
+gate of the source by clicking pin two
+
+---------11:20----------
+or one or measuring pin two and one on
+
+---------11:23----------
+the capacitor
+
+---------11:24----------
+so let's take a look at that capacitor
+
+---------11:26----------
+and see what we're getting
+
+---------11:27----------
+at these different points now on
+
+---------11:30----------
+pin 2 of the capacitor which is
+
+---------11:34----------
+supposed to be the gate
+
+---------11:39----------
+i get 18 volts and on pin one
+
+---------11:42----------
+i also get 18 volts so of course this is
+
+---------11:45----------
+not going to work
+
+---------11:46----------
+now i can't blame the transistor at that
+
+---------11:48----------
+point can't blame the transistor because
+
+---------11:50----------
+it's doing what it's supposed to do
+
+---------11:52----------
+p channel a p channel transistor means
+
+---------11:55----------
+that when you have the same voltage
+
+---------11:59----------
+on the gate and the source that's
+
+---------12:00----------
+nothing's going to go through to the
+
+---------12:01----------
+drain
+
+---------12:02----------
+can't blame it so now we've got to see
+
+---------12:04----------
+what's causing it to not make its way to
+
+---------12:05----------
+ground
+
+---------12:06----------
+so two few possibilities here
+
+---------12:09----------
+behind door number one c712 has become
+
+---------12:13----------
+short-circuited
+
+---------12:14----------
+since this c7012 is no longer a
+
+---------12:16----------
+capacitor but acting as a wire
+
+---------12:18----------
+it is taking whatever's in the source
+
+---------12:19----------
+and always bringing it to the gate all
+
+---------12:21----------
+the time
+
+---------12:22----------
+behind door number two r7011 has decided
+
+---------12:26----------
+that it's going to die very unlikely the
+
+---------12:29----------
+reason it's unlikely
+
+---------12:30----------
+is because r7011 is going to be what is
+
+---------12:33----------
+carrying
+
+---------12:33----------
+my 18 volts from the charger up here
+
+---------12:38----------
+to the gate that's unlikely behind door
+
+---------12:41----------
+number three
+
+---------12:42----------
+d70 12 has died d70 12 is no longer
+
+---------12:45----------
+allowing a path to ground
+
+---------12:46----------
+is no longer release decreasing the
+
+---------12:48----------
+voltage on the gate
+
+---------12:50----------
+and there's no and that's why the
+
+---------12:51----------
+vultures in the gate is 18. so
+
+---------12:53----------
+i'm going to bypass thinking r 7011 is
+
+---------12:56----------
+my problem
+
+---------12:57----------
+i'm going to unplug power from the case
+
+---------12:59----------
+and then
+
+---------13:00----------
+i'm going to measure the resistance
+
+---------13:02----------
+between the two pins of c7012
+
+---------13:04----------
+because if the capacitor has
+
+---------13:06----------
+short-circuited and become a wire
+
+---------13:08----------
+this would be very apparent with a
+
+---------13:10----------
+simple voltage measurement and it has
+
+---------13:12----------
+not
+
+---------13:13----------
+which means that the fault here is going
+
+---------13:14----------
+to lie with
+
+---------13:16----------
+the diode so let's take a look at where
+
+---------13:18----------
+the diode is
+
+---------13:19----------
+we're going to find this diode our zener
+
+---------13:22----------
+diode
+
+---------13:24----------
+is d7012 it's right there
+
+---------13:27----------
+and what do you know it has some green
+
+---------13:29----------
+stuff around it
+
+---------13:31----------
+now is the diode itself bad
+
+---------13:34----------
+or does the diode simply need a little
+
+---------13:35----------
+bit of reflow
+
+---------13:43----------
+now this actually looks like a defined
+
+---------13:44----------
+pathway what's corroded over here
+
+---------13:46----------
+appears to be the probe point for me to
+
+---------13:48----------
+test on
+
+---------13:51----------
+watch when i remove the diode you'll see
+
+---------14:02----------
+[Music]
+
+---------14:15----------
+so the pathway for the diode to go to
+
+---------14:18----------
+the resistor is there
+
+---------14:20----------
+thank you jp i appreciate that and the
+
+---------14:22----------
+pathway for it to go to ground is also
+
+---------14:24----------
+there
+
+---------14:25----------
+so that was not our problem at all
+
+---------14:29----------
+most likely this was just a bad diet
+
+---------14:43----------
+man being the madman that i am
+
+---------14:46----------
+i am going to top on it tap on the top
+
+---------14:48----------
+of that diode
+
+---------14:52----------
+ah is that too loud for you games with
+
+---------14:56----------
+c's
+
+---------15:11----------
+the [ __ ] out of there you little green
+
+---------15:13----------
+solder ball
+
+---------15:16----------
+little green solder ball invading my
+
+---------15:18----------
+board like little green men invading
+
+---------15:20----------
+crimea
+
+---------15:20----------
+get out of here
+
+---------15:38----------
+okay
+
+---------15:55----------
+the fan spins all along
+
+---------15:58----------
+all that was wrong with this liquid
+
+---------16:00----------
+damage macbook was a simple diode
+
+---------16:03----------
+that's all this macbook needed was just
+
+---------16:06----------
+a simple diode
+
+---------16:09----------
+this macbook was picked at random at no
+
+---------16:12----------
+point
+
+---------16:13----------
+in this process did lewis pick his own
+
+---------16:15----------
+machine from the queue
+
+---------16:16----------
+because that would be wrong
+
+---------16:26----------
+wrong that's it for today
+
+---------16:30----------
+and as always i hope you learned
+
+---------16:34----------
+something
+
+---------16:47----------
+listen how you how you talk about them
+
+---------16:49----------
+and how you treat them post end of
+
+---------16:51----------
+relationship
+
+---------16:52----------
+i will run you down the light is green
+
+---------16:55----------
+for me
+
+---------16:56----------
+sorry i'll show you on the gopro what i
+
+---------16:58----------
+was talking about
+

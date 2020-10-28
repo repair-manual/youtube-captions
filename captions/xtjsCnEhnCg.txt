@@ -1,0 +1,913 @@
+https://www.youtube.com/watch?v=xtjsCnEhnCg
+---------00:00----------
+you've got a MacBook a 1706 that has no
+
+---------00:02----------
+backlight let's just take a look and see
+
+---------00:04----------
+what it is they said was wrong with this
+
+---------00:06----------
+machine so I'm gonna look up their
+
+---------00:08----------
+ticket and over here in their ticket
+
+---------00:10----------
+information it says we took it to a Mac
+
+---------00:12----------
+authorized dealer and they tested the
+
+---------00:14----------
+fuse in our board that is responsible
+
+---------00:16----------
+for backlight and found that to be the
+
+---------00:17----------
+issue they said we needed to replace the
+
+---------00:20----------
+main logic board the display does not
+
+---------00:22----------
+work but it seems to turn on I spoke
+
+---------00:23----------
+with someone from your with your team
+
+---------00:24----------
+over the phone they said you could fix
+
+---------00:26----------
+it now there's two things here that
+
+---------00:27----------
+strike me as odd the first thing that
+
+---------00:29----------
+strikes me as odd is that they said the
+
+---------00:32----------
+fuse was the issue with the board and I
+
+---------00:35----------
+don't think that the fuse is the issue
+
+---------00:37----------
+with the board so if we take a look over
+
+---------00:38----------
+here I'm gonna open up the board view
+
+---------00:40----------
+application for you all what's going on
+
+---------00:42----------
+here is this is a current sensing
+
+---------00:44----------
+circuit so over here you have a resistor
+
+---------00:46----------
+right after the fuse and this resistor
+
+---------00:49----------
+is gonna have a really small voltage
+
+---------00:50----------
+drop across it very small but that
+
+---------00:51----------
+voltage drop is going to be dependent
+
+---------00:53----------
+and directly related to the amount of
+
+---------00:56----------
+current the system is using so [ __ ] for
+
+---------00:58----------
+the resistor and after the resistor
+
+---------00:59----------
+we've got a trace going to the LED
+
+---------01:01----------
+driver so the LED driver is gonna be
+
+---------01:02----------
+able to tell the voltage difference from
+
+---------01:04----------
+the beginning of the resistors at the
+
+---------01:05----------
+end and therefore it's gonna be able to
+
+---------01:06----------
+calculate the current that it's taking
+
+---------01:08----------
+so if you ever have an issue where
+
+---------01:11----------
+there's a short-circuit or there was too
+
+---------01:13----------
+much current being taken rather than the
+
+---------01:15----------
+fuse blowing on all these machines the
+
+---------01:17----------
+current cent circuit is going to say
+
+---------01:18----------
+you're taking too much we're turning the
+
+---------01:20----------
+entire system off and that is a pretty
+
+---------01:22----------
+nice design but what that means is that
+
+---------01:25----------
+the backlight fuse on these is never
+
+---------01:27----------
+going to blow ever and I'll show it to
+
+---------01:31----------
+you right now so we're gonna find F 8400
+
+---------01:33----------
+on our board view diagram here software
+
+---------01:36----------
+done by paul daniels at PL daniels calm
+
+---------01:38----------
+don't delay
+
+---------01:39----------
+check out all daniels at PL daniels
+
+---------01:42----------
+dot-com for all your software an
+
+---------01:45----------
+australian macbook repair needs so as
+
+---------01:47----------
+you can see over here the backlight fuse
+
+---------01:49----------
+is gonna be located right in this little
+
+---------01:51----------
+section of the board right over here and
+
+---------01:54----------
+I'm gonna unplug power because remember
+
+---------01:56----------
+you never want to have power plugged in
+
+---------01:58----------
+when you test such things we're gonna
+
+---------01:59----------
+put the voltammeter to resistance mode
+
+---------02:00----------
+and we're gonna see what the backlight
+
+---------02:02----------
+for use measures as you can see the
+
+---------02:05----------
+backlight fuses 0.3 ohms which means the
+
+---------02:07----------
+fuse is working just fine which means
+
+---------02:10----------
+that the Mac authorised dealer was
+
+---------02:12----------
+wrong so now what we're gonna do is try
+
+---------02:17----------
+and figure out why it is that we have no
+
+---------02:19----------
+backlight on this machine so first thing
+
+---------02:21----------
+I'm gonna do is see if there's a short
+
+---------02:23----------
+to ground on backlight out 105 ohms
+
+---------02:26----------
+that's actually fairly low that's not a
+
+---------02:28----------
+full short circuit to ground but it is
+
+---------02:30----------
+far worse than what I would expect so
+
+---------02:33----------
+now what we're gonna do is we're going
+
+---------02:34----------
+to unplug the screen and see if the
+
+---------02:37----------
+short goes away at all so we're gonna
+
+---------02:39----------
+check back light output again 107 ohms
+
+---------02:42----------
+so it's not the screen nor the screen
+
+---------02:44----------
+cable nor the backlight that's short it
+
+---------02:46----------
+might check the output which is over
+
+---------02:47----------
+here so I can check on any one of these
+
+---------02:48----------
+capacitors and I can see what the
+
+---------02:50----------
+resistance the ground is now we're gonna
+
+---------02:51----------
+just take the board out of the case and
+
+---------02:53----------
+see what it looks like once the board is
+
+---------02:55----------
+out of the case I'm just kind of curious
+
+---------02:57----------
+how many of you that are watching the
+
+---------02:58----------
+stream out there in YouTube chat land
+
+---------03:01----------
+and twitch chat lands at Vimeo how many
+
+---------03:03----------
+of you are surprised and taken aback
+
+---------03:05----------
+that the Mac authorized dealer said
+
+---------03:08----------
+something was the problem that was not
+
+---------03:09----------
+the problem now they said something else
+
+---------03:11----------
+as well which is that you'd have to
+
+---------03:13----------
+replace this whole thing so let's see if
+
+---------03:14----------
+they're right about that as well now one
+
+---------03:16----------
+of the things that's strange about what
+
+---------03:17----------
+it is they prescribed is they said that
+
+---------03:20----------
+it's just it's the fuse that's bad but
+
+---------03:22----------
+you have to replace the board I mean
+
+---------03:24----------
+that that's it's wrong but it's wrong in
+
+---------03:26----------
+very strange ways a if the problem is
+
+---------03:28----------
+just a fuse you shouldn't have to
+
+---------03:30----------
+replace the entire board for that
+
+---------03:31----------
+because it's just the fuse right and B
+
+---------03:33----------
+well it wasn't actually the fuse I mean
+
+---------03:36----------
+if you said that there's an issue with
+
+---------03:38----------
+the backlight circuit because there's a
+
+---------03:39----------
+big hole in the board then that's fine
+
+---------03:43----------
+it's very interesting because if you
+
+---------03:45----------
+were wrong about the fact that it's just
+
+---------03:46----------
+a fuse then you should at least be wrong
+
+---------03:48----------
+that you should be right about the fact
+
+---------03:50----------
+that it's easy to fix but to be wrong
+
+---------03:53----------
+about both at the same time is just
+
+---------03:55----------
+fairly interesting to me it's that level
+
+---------03:58----------
+of silliness is something that I've
+
+---------04:00----------
+don't even expect from Apple at this
+
+---------04:03----------
+point all right usually our issue is
+
+---------04:05----------
+gonna be a backlight output capacitor
+
+---------04:06----------
+but these all look fine take a look at
+
+---------04:10----------
+the ones on the other side
+
+---------04:18----------
+those all look fine as well so one of
+
+---------04:23----------
+the things that I would do at this point
+
+---------04:24----------
+is put some power into backlight outfit
+
+---------04:27----------
+remember backlight output can take up to
+
+---------04:28----------
+52 volts which means fun so we are gonna
+
+---------04:31----------
+put some power in there and see what
+
+---------04:32----------
+gets warm
+
+---------04:36----------
+[Music]
+
+---------04:45----------
+tonight thank you
+
+---------04:55----------
+all right putting out 5 amps at a 1 volt
+
+---------04:59----------
+most common issue with back light output
+
+---------05:02----------
+is gonna be something around the
+
+---------05:03----------
+backlight capacitors oh there we go
+
+---------05:07----------
+so it's something over here you hear
+
+---------05:10----------
+that sizzling yeah this is where them
+
+---------05:12----------
+that hopefully this is 11 switched over
+
+---------05:14----------
+to the other DPA because I've not had
+
+---------05:16----------
+time to yet but I'm gonna take my mom
+
+---------05:19----------
+need errection almight put it up there
+
+---------05:20----------
+and let's see if you could hear this
+
+---------05:27----------
+headphone listeners alert
+
+---------05:32----------
+hey yeah it's me
+
+---------05:36----------
+ASMR part repair okay I'm gonna put the
+
+---------05:45----------
+microphone around the board and I'm
+
+---------05:47----------
+gonna put some alcohol on it and we're
+
+---------05:50----------
+gonna see what works here so I'm gonna
+
+---------05:56----------
+turn off power to the port there's no
+
+---------05:58----------
+power going through to the board right
+
+---------06:00----------
+now there's no power going through the
+
+---------06:04----------
+board right now
+
+---------06:11----------
+okay now I'm gonna turn the power on in
+
+---------06:15----------
+just a second
+
+---------06:24----------
+hey it's me that's short on the board
+
+---------06:29----------
+okay now what I'm gonna do is I'm gonna
+
+---------06:34----------
+turn on the power and we're gonna see
+
+---------06:36----------
+which of these capacitors is the one
+
+---------06:38----------
+that blows up
+
+---------06:52----------
+and looks like it to the middle line
+
+---------06:53----------
+that's the blame
+
+---------07:04----------
+as one or this one
+
+---------07:09----------
+hi that's me you're a short circuit well
+
+---------07:13----------
+I can't tell which one of these is my
+
+---------07:15----------
+short circuit so I'm just gonna take out
+
+---------07:17----------
+all I'm feeling in a this destructive
+
+---------07:21----------
+mood tonight so I am going to maul these
+
+---------07:24----------
+capacitors off with this ridiculous
+
+---------07:26----------
+soldering tip this is absolute savagery
+
+---------07:30----------
+if you're not gonna snitch and tell me
+
+---------07:33----------
+which of the capacitors is bad then you
+
+---------07:35----------
+all must go
+
+---------07:40----------
+that's right you don't want to snitch
+
+---------07:42----------
+you don't want to make it clear which
+
+---------07:43----------
+capacitor is the bad one you're all
+
+---------07:47----------
+gonna get it oh look at that
+
+---------07:50----------
+btfo that's all good
+
+---------07:57----------
+it feels really powerful using this tip
+
+---------08:00----------
+it's like driving a smart car your whole
+
+---------08:03----------
+life and then being handed a tank
+
+---------08:05----------
+there's just fun stuff you're gonna want
+
+---------08:07----------
+to do with it and this is one of them
+
+---------08:09----------
+for the power it's too much power
+
+---------08:35----------
+let that be a lesson to you
+
+---------08:37----------
+short-circuited capacitors that you
+
+---------08:39----------
+should just snitch out the one that's
+
+---------08:41----------
+bad
+
+---------08:41----------
+you should have snitched now y'all go in
+
+---------08:44----------
+any waste what you get dry off the
+
+---------08:51----------
+alcohol over here
+
+---------09:19----------
+[Music]
+
+---------09:30----------
+[Music]
+
+---------10:09----------
+[Music]
+
+---------10:30----------
+watch all these caps flow into place is
+
+---------10:32----------
+that not beautiful now we're gonna see
+
+---------10:36----------
+if we get anything on the screen when we
+
+---------10:38----------
+turn it on so we got the mat over here
+
+---------10:41----------
+under the machine I'm gonna move the
+
+---------10:44----------
+fume extractor out of the way we're
+
+---------10:45----------
+gonna plug in this USBC amp meter and
+
+---------10:48----------
+see what happens do we get back light or
+
+---------10:51----------
+back smoke what do you know an Apple
+
+---------11:00----------
+logo we have an Apple logo on this
+
+---------11:03----------
+macbook it's clearly visible which means
+
+---------11:05----------
+that we fixed it when this individual
+
+---------11:07----------
+went to the Mac authorized dealer what
+
+---------11:09----------
+they were told is that a the fuse was
+
+---------11:12----------
+bad and B the entire board had to be
+
+---------11:14----------
+replaced what was actually wrong with it
+
+---------11:17----------
+is that the fuse was fine but there was
+
+---------11:19----------
+a short to ground on backlight output
+
+---------11:21----------
+due to a bad capacitor a capacitor is
+
+---------11:23----------
+not a fuse and you do not have to
+
+---------11:25----------
+replace the board to replace a bad
+
+---------11:27----------
+capacitor for shits and giggles I
+
+---------11:29----------
+decided to be kind of a dumbass and
+
+---------11:32----------
+scrape all the capacitors off because I
+
+---------11:33----------
+was having fun with my extra wide tip
+
+---------11:35----------
+it's always fun to have fun with your
+
+---------11:37----------
+extra wide tip ever from time to time on
+
+---------11:39----------
+Friday night and I just decided to knock
+
+---------11:41----------
+all them off and but I really could have
+
+---------11:43----------
+just gotten by by replacing one but at
+
+---------11:46----------
+the end of the day the issue with this
+
+---------11:47----------
+machine was not a bad fuse it was a
+
+---------11:49----------
+capacitor even if the Apple authorized
+
+---------11:51----------
+dealer was correct and it was simply a
+
+---------11:53----------
+bad fuse why would you actually tell the
+
+---------11:55----------
+customer that you have to replace the
+
+---------11:57----------
+entire board because of a fuse it
+
+---------11:59----------
+doesn't make sense
+
+---------12:00----------
+usually it's well this is really
+
+---------12:02----------
+complicated and hard that's why we're we
+
+---------12:05----------
+have to replace the board but actually
+
+---------12:07----------
+admit that the issue is a fuse but that
+
+---------12:09----------
+you can't fix it it really doesn't make
+
+---------12:11----------
+a damn bit of sense like most of the
+
+---------12:13----------
+stories that my customers come here with
+
+---------12:14----------
+like most the diagnosis is that they get
+
+---------12:17----------
+from the Genius Bar but such as life
+
+---------12:19----------
+this machine works I'm gonna ultrasonic
+
+---------12:22----------
+the board clean off all the flux and all
+
+---------12:24----------
+that reassemble it test it make sure
+
+---------12:25----------
+everything's good send it back to them
+
+---------12:27----------
+and another happy customer but don't
+
+---------12:29----------
+touch that dial because we've got to
+
+---------12:31----------
+talk to you today about some more
+
+---------12:32----------
+products from store dot Rossman
+
+---------12:34----------
+group.com drawer dot Rossman group comm
+
+---------12:36----------
+is this businesses one and only sponsor
+
+---------12:39----------
+at door dot Ross McRib comm you can buy
+
+---------12:41----------
+tools like the eye socket
+
+---------12:43----------
+the eye socket allows you to check an
+
+---------12:45----------
+iPhone 10 board that you're working on
+
+---------12:47----------
+without having to resolder the entire
+
+---------12:48----------
+thing back together with the iPhone 10
+
+---------12:50----------
+the board is soldered together in a very
+
+---------12:52----------
+pain in the ass fashion but this tool
+
+---------12:54----------
+allows you to take a known good iPhone
+
+---------12:57----------
+10 bottom board and have it run with the
+
+---------13:00----------
+top board that you're working on without
+
+---------13:01----------
+having to solder everything back
+
+---------13:03----------
+together if it's well it's gonna save
+
+---------13:05----------
+you a lot of time in addition to that
+
+---------13:07----------
+we've got the iPhone eye bridge test
+
+---------13:09----------
+cable the eye bridge allows you to get
+
+---------13:11----------
+multimeter readings when you have your
+
+---------13:13----------
+board plugged in with a test screen
+
+---------13:14----------
+camera etc and is available for the six
+
+---------13:16----------
+six plus success success plus seven
+
+---------13:20----------
+seven plus and more further if you've
+
+---------13:23----------
+ever had an issue whether you needed to
+
+---------13:24----------
+conformal code something because you
+
+---------13:26----------
+didn't want two things touching or there
+
+---------13:27----------
+as a pad under a chip and either whether
+
+---------13:30----------
+the trace had the solder mask knocked
+
+---------13:32----------
+off of it you need to re-insulate it
+
+---------13:33----------
+well check out our ly UV h 900 conformal
+
+---------13:38----------
+coating solder mask at store Osman group
+
+---------13:40----------
+comm now for a limited time only we've
+
+---------13:43----------
+actually got the laser pointer pen in
+
+---------13:45----------
+stock that goes with it at a low low
+
+---------13:47----------
+price of $7.99 plus $5.99 on the
+
+---------13:54----------
+mechanics conformal coating and solder
+
+---------13:56----------
+mask you can have a setup that allows
+
+---------13:57----------
+you to insulate small parts of the board
+
+---------14:00----------
+from other parts of the board when
+
+---------14:01----------
+you're soldering and that solder mask is
+
+---------14:03----------
+heat resistant once you UV it in place
+
+---------14:05----------
+it's not gonna spread around because you
+
+---------14:07----------
+put hot air on it it's awesome it's
+
+---------14:09----------
+amazing and it's sold only at store dot
+
+---------14:12----------
+rossmann group comm and probably a
+
+---------14:14----------
+hundred 1000 other websites if you want
+
+---------14:17----------
+to buy it from us right you want to buy
+
+---------14:19----------
+it from us it's a great decision that's
+
+---------14:21----------
+it for today and as always I hope you
+
+---------14:23----------
+learned something
+
+---------14:53----------
+excellent data recovery not the best
+
+---------14:56----------
+camera
+
+---------15:01----------
+what happened Steve what do you think is
+
+---------15:08----------
+gonna happen if you're something that
+
+---------15:09----------
+hits a meter run through it you push
+

@@ -1,0 +1,424 @@
+https://www.youtube.com/watch?v=huSSYJC3Nts
+---------00:00----------
+bp3 before - is 3.4 PP bus is 12.5 but
+
+---------00:06----------
+there's no green light hmm oh yeah 3.42
+
+---------00:13----------
+1 PP 3 V 4 - 12 point 56 on PP bus but
+
+---------00:18----------
+no green light
+
+---------00:19----------
+well what's responsible for creating the
+
+---------00:21----------
+green light in this MacBook what's gonna
+
+---------00:23----------
+allow you to have a green light is going
+
+---------00:25----------
+to be when the charger which plugs in
+
+---------00:28----------
+over here gets to talk to the system
+
+---------00:31----------
+management controller which is this
+
+---------00:35----------
+thingy over here see SMC it's just a
+
+---------00:42----------
+management controller when it gets to
+
+---------00:45----------
+talk to this on the SIS 1 wire line so
+
+---------00:49----------
+the SIS 1 wire line sits between you
+
+---------00:52----------
+7000 and the charger so the charger is
+
+---------00:57----------
+here Chargers adapter sends line goes to
+
+---------01:00----------
+this chip from this chip to the system
+
+---------01:02----------
+management controller let's see what
+
+---------01:04----------
+that looks like on our motherboard what
+
+---------01:06----------
+is this foreign substance
+
+---------01:14----------
+DK fires guys sounds like somebody who
+
+---------01:17----------
+needs to program his own apps
+
+---------01:44----------
+so as can be seen here this is the pin
+
+---------01:49----------
+that is the problem the pp three before
+
+---------01:52----------
+to pin now this logic eight over here is
+
+---------01:55----------
+when sm c bc AC okay is present this
+
+---------01:58----------
+logic gate is going to take p p3 before
+
+---------02:00----------
+two and pass it through to use seven
+
+---------02:02----------
+thousand use seven thousand is the chip
+
+---------02:04----------
+that's going to allow the chargers
+
+---------02:06----------
+adapter sense line which was responsible
+
+---------02:08----------
+for sensing the charger and turning on
+
+---------02:09----------
+the green light and allowing it to work
+
+---------02:10----------
+to talk to the system management
+
+---------02:12----------
+controller which is on the system own
+
+---------02:13----------
+wire line and as can be seen here the PP
+
+---------02:17----------
+34 to pad is totally done for there's
+
+---------02:20----------
+actually an indent in there so as I'm
+
+---------02:22----------
+moving my tweezers along you can't
+
+---------02:25----------
+really feel this but it slides in see
+
+---------02:29----------
+it's a crevice so there's no pad there's
+
+---------02:32----------
+I'm gonna have to run a little wire so
+
+---------02:34----------
+we're gonna run a little jumper wire
+
+---------02:36----------
+after we just restore this and then this
+
+---------02:39----------
+board is going to work right again
+
+---------02:47----------
+you
+
+---------03:15----------
+all right now we can grab our P P 3 V 4
+
+---------03:19----------
+2 from this capacitor right down here as
+
+---------03:21----------
+can be seen on the schematic and board
+
+---------03:22----------
+view see BP 3 before - a missing pad ok
+
+---------03:27----------
+right of this capacitor thank Paul
+
+---------03:30----------
+Daniels for coding Plex board view which
+
+---------03:32----------
+makes it easy to see where these things
+
+---------03:33----------
+are coming from
+
+---------04:04----------
+can you buy those parts new hey you can
+
+---------04:08----------
+this doesn't feel very often
+
+---------04:10----------
+[Applause]
+
+---------04:29----------
+after this we're gonna run a little
+
+---------04:31----------
+jumper wire it's gonna turn the board
+
+---------04:33----------
+around anytime you're working on the
+
+---------04:35----------
+stuff make sure that you always turn the
+
+---------04:36----------
+board around so that you're comfortable
+
+---------04:38----------
+the board does not have to be
+
+---------04:39----------
+comfortable you need to be comfortable
+
+---------04:42----------
+then we're gonna run the little jumper
+
+---------04:44----------
+wire we're pp3 before two has to be
+
+---------04:48----------
+though your plans for going to Norway
+
+---------04:50----------
+if what I heard is true which is that
+
+---------04:52----------
+I'm not allowed to record in the
+
+---------04:54----------
+courtroom then I won't have a plan to go
+
+---------04:55----------
+to Norway because there won't be
+
+---------04:56----------
+anything for me to do waiting to see if
+
+---------04:59----------
+that was correct or not why are cats so
+
+---------05:03----------
+cute well it's the way that they trick
+
+---------05:06----------
+humans and not realizing that they're
+
+---------05:08----------
+serial killers
+
+---------05:09----------
+which they are
+
+---------05:18----------
+cats are evil serial killers but they're
+
+---------05:20----------
+cute so we let them get away with murder
+
+---------05:34----------
+which is fine if you apply it to kitty
+
+---------05:36----------
+cats not if you apply it to your dating
+
+---------05:38----------
+life lesson learned
+
+---------05:50----------
+alright watch this thing have a nice
+
+---------05:53----------
+green light on the charger now MacBook
+
+---------05:57----------
+this is a workingman book now the reason
+
+---------06:01----------
+that I went straight for the one wire
+
+---------06:02----------
+circuit rather than check the SMC is
+
+---------06:04----------
+because pp buss g3 hot which 12 point 56
+
+---------06:07----------
+volts the SMC is going to communicate
+
+---------06:10----------
+with the chip that makes pp bus g3 hot
+
+---------06:12----------
+on an SMC data line so if you look over
+
+---------06:15----------
+here you'll see that the SMC
+
+---------06:18----------
+communicates with the battery charger
+
+---------06:21----------
+chip and the battery charging chip here
+
+---------06:23----------
+is the chip that creates a rail called
+
+---------06:25----------
+pp bus g3 huh when the SMC is
+
+---------06:28----------
+communicating with this chip it'll make
+
+---------06:31----------
+12 point 56 volts or eight point 56
+
+---------06:34----------
+volts on an air when the SMC is not
+
+---------06:36----------
+properly communicating with this chip
+
+---------06:38----------
+it'll produce 12 point 23 volts or eight
+
+---------06:41----------
+point 16 volts on an air and here's the
+
+---------06:43----------
+data line Rick the communication occurs
+
+---------06:45----------
+since that communication was occurring I
+
+---------06:47----------
+assumed that the SMC was likely good and
+
+---------06:49----------
+was turning on and at the issue had to
+
+---------06:51----------
+be somewhere else which is why when we
+
+---------06:53----------
+checked this area we checked that area
+
+---------06:55----------
+we saw the corrosion and so on and so
+
+---------06:58----------
+forth so this here this little logic
+
+---------07:01----------
+gate is gonna work and you can look it
+
+---------07:03----------
+up there's a little truth table in the
+
+---------07:04----------
+manual so if you look at the pins in a
+
+---------07:08----------
+in be VCC out Y now if we look at the
+
+---------07:16----------
+truth table down here when a and B are
+
+---------07:20----------
+both low output is low when a is low and
+
+---------07:23----------
+B is high output is low when a is high
+
+---------07:26----------
+and B is low output is low when a and B
+
+---------07:28----------
+are both high then output is hot so the
+
+---------07:31----------
+way this little logic gate is going to
+
+---------07:33----------
+work is when it's only going to allow
+
+---------07:36----------
+power to pass through when one and two
+
+---------07:39----------
+which are both tied together here as you
+
+---------07:41----------
+can see when SMC bc AC okay is high it
+
+---------07:44----------
+will let 3.42 volts pass to its output
+
+---------07:47----------
+and turn this on now that we've gone
+
+---------07:49----------
+over that we can turn this on and see
+
+---------07:51----------
+that it has a nice green light and then
+
+---------07:53----------
+it charges as you can see we have a
+
+---------07:55----------
+green light and as you can see the fan
+
+---------07:58----------
+is spinning this beautiful board that
+
+---------08:01----------
+was picked a hundred ten percent
+
+---------08:03----------
+at random just so happens to have been a
+
+---------08:07----------
+simple easy repair that only needed a
+
+---------08:10----------
+logic gate and a little jumper wire or
+
+---------08:12----------
+pp3 before - which is the VCC and pin to
+
+---------08:15----------
+you 7001 which is the power pin that's
+
+---------08:17----------
+gonna turn it on see here this is my
+
+---------08:19----------
+microscope right this is the power
+
+---------08:21----------
+supply to a microscope this here is the
+
+---------08:23----------
+VCC pin of my microscope that pen
+

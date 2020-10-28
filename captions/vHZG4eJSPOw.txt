@@ -1,0 +1,970 @@
+https://www.youtube.com/watch?v=vHZG4eJSPOw
+---------00:00----------
+hey everybody how's it going so today
+
+---------00:01----------
+we're gonna be working on yet another
+
+---------00:03----------
+dead MacBook this is a MacBook Air that
+
+---------00:06----------
+says it needs board repair this is an
+
+---------00:07----------
+814 66 one of the last models made
+
+---------00:10----------
+before they took the El and started
+
+---------00:12----------
+using the butterfly keyboards and all
+
+---------00:15----------
+that rubbish so let's open this up and
+
+---------00:18----------
+see what's going on with it and see if
+
+---------00:19----------
+we can make it work again the area we
+
+---------00:22----------
+have the MacBook so first thing I'm
+
+---------00:23----------
+gonna do is I'm gonna unplug the battery
+
+---------00:24----------
+from this macbook after unplugging the
+
+---------00:27----------
+battery I'm going to plug in my MagSafe
+
+---------00:31----------
+power adapter and I'm also going to get
+
+---------00:36----------
+the charging amperage all that good
+
+---------00:39----------
+stuff showing up on the screen over here
+
+---------00:41----------
+so you can see how much amperage it's
+
+---------00:42----------
+taking knowing how much amperage it's
+
+---------00:45----------
+taking is gonna tell me interesting
+
+---------00:46----------
+clues now this one takes 66 ml amps has
+
+---------00:50----------
+no green light and the charger let's try
+
+---------00:52----------
+and figure it out while you don't have a
+
+---------00:53----------
+green light in the charger so first
+
+---------00:55----------
+thing I'm gonna do here is I'm gonna
+
+---------00:56----------
+remove the board from its casing so that
+
+---------00:58----------
+I can examine it properly the board has
+
+---------01:02----------
+been removed from the MacBook it's the
+
+---------01:04----------
+first thing we're gonna do since we
+
+---------01:05----------
+weren't getting a green light is check
+
+---------01:07----------
+and see that PP 3 v 4 to underscore g3
+
+---------01:09----------
+Honda's present and now it is present
+
+---------01:11----------
+Wow instead of taking 70 milliamps it's
+
+---------01:14----------
+taking 6 milliamps that's interesting
+
+---------01:16----------
+because we just went from one version of
+
+---------01:18----------
+broken to another version of broken
+
+---------01:20----------
+quite strange so the first thing I'm
+
+---------01:23----------
+gonna do here is check and see the P P 3
+
+---------01:25----------
+P 4 to underscore g3 on is present and
+
+---------01:28----------
+from what I see here it looks like it is
+
+---------01:33----------
+next up
+
+---------01:34----------
+P P bus g3 hot so what I'm doing here is
+
+---------01:36----------
+I'm going down a list of available power
+
+---------01:38----------
+rails this is an 8 - 0 - 0 0 165 board
+
+---------01:43----------
+and if I have the machine could come in
+
+---------01:47----------
+with an issue of not turning on that
+
+---------01:48----------
+what I'm gonna want to do is look
+
+---------01:50----------
+through the power else or no power let's
+
+---------01:53----------
+check out the power rails and see if any
+
+---------01:54----------
+of those rails are missing just like on
+
+---------01:56----------
+your desktop PC if those molex
+
+---------01:58----------
+connectors so we have the 12 volts 5
+
+---------02:00----------
+volts and ground on there you know you
+
+---------02:02----------
+get if you even if you don't really work
+
+---------02:04----------
+on laptop boards like this you have an
+
+---------02:05----------
+idea of what the what power rails mean
+
+---------02:10----------
+just from that basic understanding of
+
+---------02:12----------
+having
+
+---------02:12----------
+built a computer and that's what we're
+
+---------02:14----------
+looking at here now I go through this
+
+---------02:17----------
+list and I check out my rails
+
+---------02:19----------
+you know g3 hot rails are rails that are
+
+---------02:21----------
+always on as five rails are gonna be
+
+---------02:24----------
+rails that are only on when the machine
+
+---------02:26----------
+is off as for rails our rails that are
+
+---------02:29----------
+going to be on when the machine is
+
+---------02:31----------
+hibernating as a rails or rails that are
+
+---------02:34----------
+gonna be on when the machine is on and
+
+---------02:35----------
+as three rails or rails that are gonna
+
+---------02:37----------
+be on when the machine is sleeping so
+
+---------02:39----------
+we're gonna go through the list of rails
+
+---------02:40----------
+on this machine and see what's going on
+
+---------02:42----------
+with it so let's check out something
+
+---------02:43----------
+like ppv RTC underscore g3 hunt it's as
+
+---------02:46----------
+it's located on the other side of the
+
+---------02:47----------
+board so I just flip my board over and
+
+---------02:50----------
+make a quick measurement right here and
+
+---------02:55----------
+it's not showing up so let's take a look
+
+---------02:58----------
+there so remember I first I go through
+
+---------03:00----------
+all of my g3 hots
+
+---------03:02----------
+then my s 5 s then my s4 is in my series
+
+---------03:05----------
+in my esos so in order to have you and
+
+---------03:07----------
+s3 rail all your s fours got to be
+
+---------03:09----------
+present you know what I mean s4 rail all
+
+---------03:10----------
+your s fives have to be present in order
+
+---------03:12----------
+to have as five rails all of your dreary
+
+---------03:14----------
+haunts have to be present and so on and
+
+---------03:16----------
+so forth so I don't have ppv RTC
+
+---------03:19----------
+underscore g3 huh so we're gonna take a
+
+---------03:21----------
+look at the board and see what that oh
+
+---------03:23----------
+well there you go what do you all see
+
+---------03:27----------
+over here see that green stuff that's
+
+---------03:32----------
+corrosion that is corrosion now I wonder
+
+---------03:37----------
+if that capacitor over there has
+
+---------03:40----------
+short-circuited its way to ground and if
+
+---------03:44----------
+that's the result it's shorting that
+
+---------03:46----------
+power rail to ground well let's see so I
+
+---------03:49----------
+can turn my multimeter to resistance or
+
+---------03:52----------
+ohms mode and get this on the screen and
+
+---------03:55----------
+see what the resistance is here 1.4 ohms
+
+---------04:01----------
+now what I'm going to do is I'm going to
+
+---------04:03----------
+professionally flick that off the board
+
+---------04:05----------
+like poof with that see I'm a
+
+---------04:09----------
+professional I could knock components
+
+---------04:10----------
+off like that don't try that at home
+
+---------04:12----------
+kids it's only left to professionals and
+
+---------04:16----------
+scrape their
+
+---------04:23----------
+let's see if my shirt is gone now
+
+---------04:27----------
+now we're getting 28 moans so it looks
+
+---------04:31----------
+like that capacitor that had that little
+
+---------04:33----------
+bit of corrosion on it was causing a
+
+---------04:35----------
+short-circuit and that short circuit was
+
+---------04:37----------
+keeping it from working so I'm going to
+
+---------04:40----------
+add a little bit of flux there some
+
+---------04:43----------
+solder and put a new camp there now this
+
+---------04:46----------
+is gonna work without that cap there
+
+---------04:48----------
+there's a lot of capacitors on ppv RTC
+
+---------04:50----------
+underscore g3 hot there's a lot of caps
+
+---------04:53----------
+on that rail already so if one of them
+
+---------04:57----------
+is missing in that area it's not gonna
+
+---------04:59----------
+be the ends of the world to you even
+
+---------05:03----------
+though this is close to the crystal but
+
+---------05:05----------
+I've had machines run just fine with
+
+---------05:06----------
+that missing and not freeze or anything
+
+---------05:08----------
+but it's still a good idea to put it
+
+---------05:10----------
+back all right so where I ripped that
+
+---------05:15----------
+cap off the board you're gonna see that
+
+---------05:16----------
+I just able to magically bring it back I
+
+---------05:20----------
+didn't even remove the pad again that's
+
+---------05:21----------
+not something that I would do at home
+
+---------05:23----------
+it's gonna be a lot of practice before
+
+---------05:25----------
+you can do stuff like that Jessa does it
+
+---------05:27----------
+on streem regularly and makes it look
+
+---------05:29----------
+easy but jess has been doing it for like
+
+---------05:32----------
+six years now so okay I'm going to take
+
+---------05:39----------
+another capacitor from a donor MacBook
+
+---------05:43----------
+Air and we're gonna replace it and when
+
+---------05:48----------
+I replace that it's probably going to
+
+---------05:49----------
+work and once it works Paul is going to
+
+---------05:52----------
+probably scream at me and the reason he
+
+---------05:54----------
+would scream at me is because I managed
+
+---------05:57----------
+to pick all these boards random and they
+
+---------06:00----------
+always managed to be fixable whereas the
+
+---------06:02----------
+boards that Paul chooses even when he
+
+---------06:04----------
+tries to choose ones he winds up getting
+
+---------06:06----------
+the ones that are not fixable
+
+---------06:09----------
+poor bastard
+
+---------06:13----------
+everybody type F in the chat for Paul
+
+---------06:18----------
+Paul s
+
+---------06:24----------
+now one of the things I was talking
+
+---------06:26----------
+about in the previous video is that I
+
+---------06:28----------
+keep the board I'm working on under the
+
+---------06:30----------
+microscope
+
+---------06:31----------
+and I if when I'm stealing a component
+
+---------06:33----------
+from a donor board I don't do that in
+
+---------06:35----------
+the microscope it makes things more
+
+---------06:37----------
+efficient for me so if I'm moving
+
+---------06:39----------
+something from one board to another with
+
+---------06:41----------
+my tweezers it's not I can't put this
+
+---------06:43----------
+down on the desk and then move
+
+---------06:45----------
+everything like that's not gonna work if
+
+---------06:47----------
+you look at this these components are
+
+---------06:49----------
+ridiculously small once I put that
+
+---------06:50----------
+component down is disappearing into the
+
+---------06:52----------
+fifth dimension so I have my desk this
+
+---------06:54----------
+is my donor board I use my eyes I pick
+
+---------06:57----------
+it up and I don't care if I'm knocking
+
+---------06:58----------
+stuff off around because this is a donor
+
+---------07:00----------
+board this board is a complete piece of
+
+---------07:03----------
+junk I don't care if I ruin it
+
+---------07:04----------
+so I remove my cap and then I go into
+
+---------07:07----------
+the microscope over here to do my actual
+
+---------07:09----------
+work it's it's much more efficient than
+
+---------07:12----------
+like then what many people will do which
+
+---------07:15----------
+is okay I'm gonna take the cap off of
+
+---------07:17----------
+here and I've had so many students do
+
+---------07:18----------
+this they take the cap of like oh
+
+---------07:19----------
+what do I do now and then they're like
+
+---------07:21----------
+the okay they they find a place to put
+
+---------07:23----------
+this board then they grab this and I'll
+
+---------07:25----------
+look this boards tangled on a wire so I
+
+---------07:27----------
+twist it and they do this and by that
+
+---------07:30----------
+time the component they had in their
+
+---------07:31----------
+tweezer it's gone it's done it flew away
+
+---------07:33----------
+because you know it's it's this tiny so
+
+---------07:37----------
+after the man named Paul indeed f-for
+
+---------07:39----------
+the man named Paul so anyway we replaced
+
+---------07:42----------
+that campus sitter and now we're gonna
+
+---------07:44----------
+see if this works and it probably is
+
+---------07:46----------
+gonna work and Paul's probably gonna be
+
+---------07:47----------
+really mad at me because I got one that
+
+---------07:49----------
+was fairly simple and straightforward
+
+---------07:53----------
+and what do you know the fan is spinning
+
+---------07:55----------
+look at that random random so as I was
+
+---------08:00----------
+saying about the power rails over here
+
+---------08:01----------
+and this is an important thing to know
+
+---------08:03----------
+very important it's something that I do
+
+---------08:04----------
+go over in my document that is linked
+
+---------08:07----------
+down below and that is a freely
+
+---------08:09----------
+available document that you can read
+
+---------08:10----------
+it's about a hundred 150 page guide on
+
+---------08:13----------
+introduction aboard repair it's an
+
+---------08:14----------
+important document and it's available as
+
+---------08:16----------
+I said for free so when you have no
+
+---------08:18----------
+power I like to go to this page on the
+
+---------08:20----------
+schematic called power aliases and it's
+
+---------08:22----------
+going to be called different things in
+
+---------08:24----------
+different for different schematics for
+
+---------08:26----------
+different machines but on the MacBook
+
+---------08:27----------
+it's the power Elias page and on that
+
+---------08:29----------
+list it's gonna give you a list of the
+
+---------08:30----------
+different power lines that are required
+
+---------08:32----------
+in that machine and if some of these are
+
+---------08:33----------
+missing it's not going to work right so
+
+---------08:35----------
+there's going to be preface as to all
+
+---------08:37----------
+those let's just go
+
+---------08:38----------
+/ what these things mean so there's a
+
+---------08:42----------
+prefix and a suffix the preface is
+
+---------08:44----------
+usually prefix is gonna tell you what
+
+---------08:47----------
+that power line is how many volts to
+
+---------08:50----------
+expect there and the suffix is gonna
+
+---------08:51----------
+tell you when to expect it so over here
+
+---------08:54----------
+let's just take an example of pp 3 V 3
+
+---------08:57----------
+underscore s 4
+
+---------08:59----------
+pp 3 V 3 underscore s 4 right then so P
+
+---------09:06----------
+P 3 P 3 underscore is 4 P P 3 V 3 3.3
+
+---------09:10----------
+volts the V is often a decimal point so
+
+---------09:12----------
+3.3 volts s 4 will be present when in s
+
+---------09:15----------
+4 state when the machine is hibernating
+
+---------09:18----------
+if we check out p pd c ng 3 hot DC n
+
+---------09:22----------
+like the charger anytime the charges
+
+---------09:24----------
+plugged in that rails gonna be on g3 on
+
+---------09:26----------
+it's on all the time PP but g 3 hot
+
+---------09:28----------
+that's a rail that's going to be present
+
+---------09:30----------
+all the time that's the rail for the
+
+---------09:32----------
+battery if we check out PP 5 es 5 5
+
+---------09:36----------
+volts that's gonna be present when
+
+---------09:37----------
+you're in an S 5 State and remember when
+
+---------09:39----------
+it comes to states G 3 hot always on as
+
+---------09:42----------
+5 that realism and the computers off as
+
+---------09:44----------
+for that rails are on when the computers
+
+---------09:46----------
+hibernating s 3 that rails on the
+
+---------09:48----------
+computer sleeping as o that rail is
+
+---------09:50----------
+gonna be on when the machine is actually
+
+---------09:51----------
+working in front of you and running
+
+---------09:52----------
+programs so for example an s3 rail would
+
+---------09:56----------
+be a rail for memory so when you put the
+
+---------10:00----------
+computer in sleep or suspend mode your
+
+---------10:03----------
+programs all it remembers what you're
+
+---------10:04----------
+doing in all your programs because the
+
+---------10:06----------
+RAM is what's storing everything so in
+
+---------10:09----------
+order for it to go to sleep the RAM has
+
+---------10:11----------
+to be getting power even if stuff like
+
+---------10:12----------
+the other screen or the CPU which RSO
+
+---------10:14----------
+rails are not and s Oreille is gonna be
+
+---------10:18----------
+something like the CPU the graphics chip
+
+---------10:21----------
+the screen backlight stuff like that
+
+---------10:23----------
+that those are rails that have to be
+
+---------10:25----------
+present when the machine is on and you
+
+---------10:27----------
+need your S 5 s and S 4 is in order to
+
+---------10:30----------
+get your s 3 s in s oh it's a capira mat
+
+---------10:31----------
+so if these are not present these rails
+
+---------10:34----------
+are actually often creating those rails
+
+---------10:36----------
+but further if these rails are not on
+
+---------10:38----------
+the computer checks itself and says well
+
+---------10:40----------
+these are not on we're not going to turn
+
+---------10:41----------
+on the rest what starts these then these
+
+---------10:42----------
+then these then these in a sequence so
+
+---------10:45----------
+let's say Y let's just bring up why it's
+
+---------10:48----------
+important so let's say that you check
+
+---------10:50----------
+and you see that PP 5 ESO is
+
+---------10:52----------
+present but the machine is not turning
+
+---------10:53----------
+on well you just save yourself some time
+
+---------10:55----------
+you don't got to go through this entire
+
+---------10:56----------
+list and check every single rail because
+
+---------10:59----------
+that's gonna be a waste of time
+
+---------11:00----------
+why am I gonna check all these s threes
+
+---------11:02----------
+and sus ng3 hot and s five and all that
+
+---------11:06----------
+other stuff no if the machine is not
+
+---------11:08----------
+turning on but you have a single Sol
+
+---------11:10----------
+present that means that all you got a
+
+---------11:11----------
+check or the other Essos now if you
+
+---------11:13----------
+check an S for rail and even the s for
+
+---------11:15----------
+rail is not present then that means that
+
+---------11:18----------
+that's gonna be a little bit less fun
+
+---------11:20----------
+because that means now you got a check
+
+---------11:21----------
+everything you're gonna have to go
+
+---------11:23----------
+through every single rail to figure out
+
+---------11:26----------
+which is the one that short circuit are
+
+---------11:28----------
+potentially not turning on it's less fun
+
+---------11:29----------
+so this machine turns on now we had a
+
+---------11:32----------
+short to ground on PPV RTC underscore g3
+
+---------11:34----------
+huh
+
+---------11:35----------
+that is a rail responsible for creating
+
+---------11:37----------
+the clock voltage and we knocked off a
+
+---------11:40----------
+cap fix the short replace the cap just
+
+---------11:43----------
+to be nice and it works we're gonna run
+
+---------11:44----------
+this board through the ultrasonic
+
+---------11:45----------
+cleaner because this board had a bit of
+
+---------11:48----------
+a liquid on it and even if that was all
+
+---------11:51----------
+I could see with my eyes I don't quite
+
+---------11:52----------
+trust it I can see this layer with my
+
+---------11:55----------
+eyes but I can't see underneath chips
+
+---------11:57----------
+like this so this over here I can't see
+
+---------12:00----------
+underneath the CPU or underneath the
+
+---------12:02----------
+system management controller I can see
+
+---------12:04----------
+this layer but chips like this that have
+
+---------12:06----------
+ninety balls under them or chips like
+
+---------12:08----------
+this that have 900 balls under them I
+
+---------12:10----------
+can't see that with my eye so I don't
+
+---------12:12----------
+know if this corrosion happening under
+
+---------12:13----------
+there so to prevent any sort of
+
+---------12:14----------
+corrosion from occurring into the future
+
+---------12:15----------
+I will put this board through an
+
+---------12:17----------
+ultrasonic cleaner available it's stored
+
+---------12:19----------
+on trosman group.com and that's it for
+
+---------12:22----------
+today and as always I hope you learned
+
+---------12:24----------
+something
+
+---------12:54----------
+excellent data recovery not the best
+
+---------12:56----------
+camera
+
+---------13:02----------
+what happened Steve what do you think is
+
+---------13:08----------
+gonna happen if you sit and think that
+
+---------13:09----------
+it's me to run through it you push
+

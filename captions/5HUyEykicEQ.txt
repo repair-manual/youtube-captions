@@ -1,0 +1,1162 @@
+https://www.youtube.com/watch?v=5HUyEykicEQ
+---------00:00----------
+all right so today we're gonna get
+
+---------00:01----------
+started on an eight to zero thirty four
+
+---------00:04----------
+seventy six board that is not turning on
+
+---------00:06----------
+and not giving us a green light in the
+
+---------00:07----------
+charger I'm gonna try to walk through
+
+---------00:08----------
+what it is that's wrong with it and
+
+---------00:10----------
+hopefully we can solve it so let's bring
+
+---------00:13----------
+up this schematic in the board view over
+
+---------00:15----------
+here so that we can check out why it is
+
+---------00:17----------
+that may be occurring and so how does
+
+---------00:26----------
+the charger talk to the SMC how would we
+
+---------00:29----------
+get a green light that circuit works up
+
+---------00:33----------
+here so charger adapter sent this is
+
+---------00:39----------
+with a charge port this is the adapter
+
+---------00:41----------
+sense line and this is the chip that
+
+---------00:45----------
+allows the charger adapter sense line to
+
+---------00:47----------
+talk to the system management controller
+
+---------00:49----------
+you can see this one wire would go is a
+
+---------00:56----------
+bi-directional data line that's gonna go
+
+---------00:58----------
+to you five thousand which is the SMC so
+
+---------01:04----------
+let's go back up here now in order for
+
+---------01:07----------
+this to work this chip needs to be
+
+---------01:09----------
+powered by this chip and this trip over
+
+---------01:12----------
+here is gonna take three point forty two
+
+---------01:14----------
+volts and pass it through and by the way
+
+---------01:17----------
+if you want to be able to know when we
+
+---------01:19----------
+release new videos and do new streams
+
+---------01:20----------
+make sure to ring the bell so after you
+
+---------01:22----------
+subscribed is a little bell and if you
+
+---------01:24----------
+don't ring the bell it's as if you
+
+---------01:26----------
+didn't subscribe at all that's a new
+
+---------01:27----------
+YouTube thing so ring the bell if you
+
+---------01:29----------
+actually want to watch this stuff and if
+
+---------01:31----------
+you don't I would kind of wonder why it
+
+---------01:33----------
+is you were subscribed to begin with so
+
+---------01:35----------
+let's go back here and so we need P P 3
+
+---------01:39----------
+V 4 2 to be present and we also need SM
+
+---------01:41----------
+CBC AC okay so let's see if that's
+
+---------01:44----------
+present now you may notice that Paul
+
+---------01:46----------
+Daniels has given us some sufficiently
+
+---------01:48----------
+more sophisticated multimeter software
+
+---------01:51----------
+here is this not cool I think this is
+
+---------01:53----------
+amazing
+
+---------01:54----------
+it beats the crap out of what B&K
+
+---------01:56----------
+offered really enjoying this new
+
+---------01:59----------
+multimeter software so a big thank you
+
+---------02:01----------
+to Paul Daniels for making this
+
+---------02:03----------
+available you can find him at PL
+
+---------02:05----------
+Daniel's comm so let's bring up the
+
+---------02:08----------
+microscope camera and take a look at
+
+---------02:10----------
+what is going on
+
+---------02:13----------
+microscope view first thing we want to
+
+---------02:15----------
+do remember PP 3 V 4 2 is needed for the
+
+---------02:18----------
+SMC and also for this chip so we're
+
+---------02:20----------
+gonna find pp 3 V 4 2 and that's gonna
+
+---------02:22----------
+be present on L 7095 so let's find L
+
+---------02:26----------
+7095 and it looks like there's a little
+
+---------02:29----------
+worm next to it or some sort of weird
+
+---------02:31----------
+thingy over there let's measure and see
+
+---------02:33----------
+what we get
+
+---------02:34----------
+so it seems that we get 3.42 volts on PP
+
+---------02:39----------
+3 V 4 2 and Paul Daniels as software is
+
+---------02:41----------
+reporting millivolts it seems I praised
+
+---------02:44----------
+Paul Daniels too soon
+
+---------02:45----------
+yep my multimeter is reading 3.42 V and
+
+---------02:49----------
+his software is reading 3.42 MV which
+
+---------02:53----------
+means hmm all that money that I paid for
+
+---------03:00----------
+this software Paul all that money I paid
+
+---------03:03----------
+for this software Paul no hey you put
+
+---------03:08----------
+this together for free I'm just messing
+
+---------03:10----------
+with you I'm just messing with you I
+
+---------03:12----------
+love this software it still beats the
+
+---------03:13----------
+hell out of the B and K and you you I'll
+
+---------03:16----------
+read out until we figure this out what
+
+---------03:18----------
+it is this is good stuff
+
+---------03:21----------
+yeah this is on Paul Daniels as github
+
+---------03:23----------
+and it's it is good software so we have
+
+---------03:25----------
+three point 42 volts so now let's go
+
+---------03:26----------
+over to this circuit that is required to
+
+---------03:28----------
+allow the charger to talk to the SMC and
+
+---------03:31----------
+see if it's working now if you 7000 over
+
+---------03:33----------
+here's getting three volts on pin one I
+
+---------03:35----------
+don't even need to check anything over
+
+---------03:36----------
+here cuz SMC bc AC okay is required for
+
+---------03:40----------
+you seven zero zero one a passed PP 3 v
+
+---------03:42----------
+4 2 over to you 7000 but a few seven
+
+---------03:44----------
+thousands already getting it on pin 1
+
+---------03:46----------
+then we don't really need to check it
+
+---------03:48----------
+so let's find you 7000 which is gonna be
+
+---------03:52----------
+right over here and check it on pin 1 to
+
+---------03:54----------
+see if it's turning on the way that it's
+
+---------03:56----------
+supposed to so we're gonna measure
+
+---------03:58----------
+voltage over there and just remember
+
+---------03:59----------
+that MV actually means volts that must
+
+---------04:02----------
+be something some Australian thing that
+
+---------04:04----------
+I'm not really sure about yep so I think
+
+---------04:06----------
+in Australia when it says MV that
+
+---------04:09----------
+actually means vault it's probably one
+
+---------04:10----------
+of those silly Fahrenheit vs. Celsius
+
+---------04:13----------
+things that they got going on too
+
+---------04:15----------
+so over here it looks like we're getting
+
+---------04:17----------
+3.42 so the circuit that allows the
+
+---------04:20----------
+charger to talk to the SMC is working
+
+---------04:22----------
+fine we can't blame them at this point
+
+---------04:24----------
+what I'd like to do is figure out if the
+
+---------04:26----------
+SN
+
+---------04:26----------
+see itself is actually working is the
+
+---------04:29----------
+SMC being told to turn on is the SMC
+
+---------04:31----------
+broken in any way so we're going to go
+
+---------04:33----------
+over to the area the board that turns
+
+---------04:35----------
+the SMC on and what turns the SMC on is
+
+---------04:37----------
+going to be the SMC reset I see which
+
+---------04:40----------
+you can find over here we're going to go
+
+---------04:43----------
+over to this chip now this is
+
+---------04:46----------
+responsible for turning the SMC on and
+
+---------04:49----------
+the SMC is going to turn on the moment
+
+---------04:52----------
+that PP 3v4 2 is present but P P 3 V 4 2
+
+---------04:57----------
+is not gonna stabilize instantly so if P
+
+---------05:01----------
+P 3 V 4 2 comes on and it's kind of you
+
+---------05:04----------
+know
+
+---------05:04----------
+wibbly-wobbly and the SMC immediately
+
+---------05:06----------
+just tries to turn on with it it'll
+
+---------05:08----------
+crash so what this chip does is it in
+
+---------05:10----------
+this resistor is sends out a signal
+
+---------05:12----------
+called SMC reset L now SMC reset
+
+---------05:17----------
+underscore L means that when the signal
+
+---------05:20----------
+is low
+
+---------05:21----------
+make sure the SMC is in reset mode so
+
+---------05:26----------
+this resistor pulls up SMC reset l to
+
+---------05:29----------
+ensure the SMC is not in reset mode this
+
+---------05:32----------
+chip pulls that signal down to zero so
+
+---------05:34----------
+that the SMC remains in reset mode if
+
+---------05:37----------
+the so the whole idea here is to keep
+
+---------05:39----------
+the SMC and reset mode to keep it from
+
+---------05:41----------
+turning on before the rail has
+
+---------05:44----------
+stabilized
+
+---------05:45----------
+once the PP 3 V 4 to rel is stabilized
+
+---------05:47----------
+SMC reset elegans away the SMC exits
+
+---------05:51----------
+reset mode and everything works
+
+---------05:53----------
+beautifully but we need SMC reset al to
+
+---------05:55----------
+be on for that quarter of a second one
+
+---------05:56----------
+the Machine first gets power so that the
+
+---------06:00----------
+SMC doesn't crash it's kind of like a
+
+---------06:02----------
+brownout detector so let's take a look
+
+---------06:04----------
+at what's going on in that area and see
+
+---------06:07----------
+if sm what SMC reset L is so we can find
+
+---------06:11----------
+SMC reset l right over here we can find
+
+---------06:14----------
+its voltage and let's see what we get
+
+---------06:21----------
+okay so SMC reset L is 0.42 volts which
+
+---------06:27----------
+I'm sure that somehow we could blame on
+
+---------06:29----------
+Paul Daniels most likely it's Paul
+
+---------06:31----------
+Daniels is Fault for the fact that we
+
+---------06:33----------
+don't have it so on one side of the
+
+---------06:34----------
+wrist is that we get 3.42 on the other
+
+---------06:37----------
+side of the resistor we get point for it
+
+---------06:38----------
+too so it seems
+
+---------06:40----------
+like SMC reset l is being pulled down
+
+---------06:43----------
+now there are two reasons for SMC reset
+
+---------06:47----------
+l to be pulled down the first could be
+
+---------06:49----------
+at the SMC reset ice-t which is a
+
+---------06:51----------
+teeny-tiny 8 pin chip easy breezy
+
+---------06:54----------
+beautiful to replace is bad the second
+
+---------06:56----------
+could be that you 5,000 the SMC is bad
+
+---------06:59----------
+which is a chip with 96 balls and that
+
+---------07:02----------
+you must take from a donor board and
+
+---------07:04----------
+reball which would be utterly miserable
+
+---------07:06----------
+so I'm gonna hope and pray that it's you
+
+---------07:08----------
+51 10 I'm gonna remove you 51 10 and see
+
+---------07:10----------
+if that does anything someone asked the
+
+---------07:12----------
+strange parts guide is upgraded an
+
+---------07:14----------
+iPhone from 64 to 128 is there a market
+
+---------07:16----------
+for that service No
+
+---------07:18----------
+so here's why firstly you got to pay a
+
+---------07:20----------
+good amount of money for the chip
+
+---------07:21----------
+secondly you have to disassemble the
+
+---------07:23----------
+phone thirdly you have to program it
+
+---------07:24----------
+fourthly you have to solder it on fifth
+
+---------07:27----------
+you have to take responsibility for
+
+---------07:29----------
+everything that goes wrong with the
+
+---------07:30----------
+phone and six people are gonna look that
+
+---------07:32----------
+service to cause the total of something
+
+---------07:34----------
+like a hundred bucks not economically
+
+---------07:36----------
+viable it's economically viable if
+
+---------07:38----------
+you're in China it is not economically
+
+---------07:41----------
+viable with the cost of rent workman's
+
+---------07:44----------
+comp insurance a Larese cost of living
+
+---------07:46----------
+taxes etc that you have in America
+
+---------07:49----------
+particularly in New York City that it's
+
+---------07:51----------
+the same thing as with upgrading ram on
+
+---------07:53----------
+a macbook like is it technically
+
+---------07:54----------
+possible to upgrade the RAM in a macbook
+
+---------07:56----------
+air technically yes is it in any way
+
+---------07:58----------
+shape or form remotely economically
+
+---------08:00----------
+viable within the United States my
+
+---------08:03----------
+argument is now if you can make it work
+
+---------08:05----------
+for you great but that would just kind
+
+---------08:06----------
+of be some kind of slave labor camp if I
+
+---------08:08----------
+try to do it there's again you have to
+
+---------08:10----------
+be able to you're gonna be paying a good
+
+---------08:12----------
+amount of money for the chip you have to
+
+---------08:14----------
+pre this is programming of it involved
+
+---------08:16----------
+there soldering involved it's all this
+
+---------08:18----------
+stuff and people are gonna want that to
+
+---------08:20----------
+be done for like 100 bucks so that is a
+
+---------08:24----------
+terrible idea in my opinion if you're in
+
+---------08:27----------
+the United States to like I wouldn't
+
+---------08:30----------
+plan to get rich off it again you could
+
+---------08:33----------
+prove me wrong but my my base advice
+
+---------08:35----------
+would be that that's not a great way to
+
+---------08:37----------
+make money
+
+---------08:40----------
+so let's remove the SMC reset I see and
+
+---------08:45----------
+go from there
+
+---------08:55----------
+we're gonna preheat a little bit and far
+
+---------08:58----------
+away
+
+---------09:05----------
+and remember if you're on YouTube and
+
+---------09:08----------
+you want to see more in this type of
+
+---------09:09----------
+repair and you've subscribed but you
+
+---------09:11----------
+don't get notifications remember to ring
+
+---------09:12----------
+the bell if you ring the bell there's at
+
+---------09:15----------
+least a fighting chance that you'll
+
+---------09:17----------
+actually know and we go online but if
+
+---------09:18----------
+you don't ring the bell well then you'll
+
+---------09:21----------
+never see our stuff and it'll get buried
+
+---------09:23----------
+and well that's no good
+
+---------09:36----------
+I feel like such a shill saying ring the
+
+---------09:38----------
+bell ring the bell okay
+
+---------09:44----------
+so I've removed the SMC reset I see so
+
+---------09:46----------
+at this point there should be nothing
+
+---------09:47----------
+pulling it to ground
+
+---------09:49----------
+so if SMC reset L is high is low if SMC
+
+---------09:55----------
+reset Ellis low over here that means the
+
+---------09:57----------
+only thing that could be doing it is the
+
+---------09:58----------
+SMC which would need replacement and
+
+---------10:00----------
+that would be terrible
+
+---------10:02----------
+it would almost be as terrible as if you
+
+---------10:05----------
+didn't ring the bell all right so I'm
+
+---------10:07----------
+gonna turn the power back on and let's
+
+---------10:11----------
+see what we get at SMC reset out Oh
+
+---------10:17----------
+gotta turn the meter on
+
+---------10:22----------
+3.38 volts so that means that the issue
+
+---------10:26----------
+with this board was the SMC reset I see
+
+---------10:29----------
+that was it so once we replace the SMC
+
+---------10:32----------
+reset I see
+
+---------10:33----------
+we should have a working mother board
+
+---------10:36----------
+and just so you know just in case
+
+---------10:39----------
+you're kind of curious you'd like to buy
+
+---------10:43----------
+an SMC reset I see but you're not quite
+
+---------10:45----------
+sure where to get an SMC reset I see if
+
+---------10:50----------
+you're thinking of getting an SMC reset
+
+---------10:52----------
+I see if this is the type of thing that
+
+---------10:53----------
+that you think would be useful to have
+
+---------10:55----------
+in your shop if you're looking for any
+
+---------10:56----------
+types of parts at all
+
+---------10:58----------
+have you checked out store dot Rosman
+
+---------11:04----------
+group.com go to store dot Rossman group
+
+---------11:07----------
+comm today to find all of your MacBook
+
+---------11:10----------
+and iPhone component level board repair
+
+---------11:12----------
+parts tools all sorts of fun stuff you
+
+---------11:16----------
+can just simply type in the name of the
+
+---------11:18----------
+chip and it will bring you to a page and
+
+---------11:20----------
+it will even tell you on the bottom of
+
+---------11:22----------
+that page what board that's compatible
+
+---------11:24----------
+with did I say that I was working on an
+
+---------11:25----------
+eight to zero thirty four seventy six I
+
+---------11:27----------
+did right over here under compatible
+
+---------11:30----------
+boards it says a 2-0 thirty four 76 in a
+
+---------11:33----------
+description of the chip but even tells
+
+---------11:35----------
+you the common fault that you should
+
+---------11:38----------
+check before buying the chip so it'll
+
+---------11:40----------
+even help you throughout your
+
+---------11:41----------
+troubleshooting process check using our
+
+---------11:43----------
+high-resolution photos to insure that
+
+---------11:45----------
+you're buying a chip that matches your
+
+---------11:47----------
+model motherboard you can even search by
+
+---------11:50----------
+the name of the chip so if we search the
+
+---------11:51----------
+wall the machine using the information
+
+---------11:53----------
+on the schematic over here which says SN
+
+---------11:56----------
+0 903 zero four nine we can type that in
+
+---------12:00----------
+right up here
+
+---------12:08----------
+s n zero nine zero and it will even
+
+---------12:12----------
+autocomplete for you and tell you the
+
+---------12:13----------
+names of similar chips store dot Rossman
+
+---------12:16----------
+group comm free same-day shipping from
+
+---------12:19----------
+New York within the continental US for
+
+---------12:21----------
+orders over $30 hundred $30 shipping may
+
+---------12:24----------
+apply support from real technicians shop
+
+---------12:27----------
+don't delay shop today now let's go back
+
+---------12:31----------
+and get ourselves another chip so I'm
+
+---------12:34----------
+just gonna 10 the pads over here just in
+
+---------12:38----------
+the pads
+
+---------12:53----------
+we are gonna get this SMC reset I see
+
+---------12:56----------
+chip replaced even faster than Israel
+
+---------12:58----------
+will trick the United States in a war in
+
+---------13:00----------
+Syria let's go alright so we are just
+
+---------13:08----------
+gonna
+
+---------13:12----------
+ten hour pads there we got a little bit
+
+---------13:14----------
+too much solder on the center pin but uh
+
+---------13:17----------
+we're just gonna push that out like we
+
+---------13:19----------
+always do and it'll be just fine so
+
+---------13:22----------
+let's get ourselves donor board remove
+
+---------13:27----------
+the chip from that donor board
+
+---------13:41----------
+and we're gonna solder it on it's gonna
+
+---------13:43----------
+be a nice beautiful chip a nice
+
+---------13:45----------
+beautiful board our SMC reset will be
+
+---------13:49----------
+back up to 3.3 volts in no time
+
+---------14:04----------
+I bought a TS 100 but I didn't use your
+
+---------14:06----------
+affiliate link thanks for the review
+
+---------14:08----------
+well thank you very much Alex a poll
+
+---------14:10----------
+thank you for that $5
+
+---------14:17----------
+[Music]
+
+---------14:33----------
+alright that ship has been soldered on
+
+---------14:36----------
+as crooked as the deep state and we're
+
+---------14:38----------
+just gonna clean up some of those little
+
+---------14:43----------
+solder blob sticking out over there
+
+---------14:45----------
+not a bing bada boom
+
+---------15:09----------
+still as crooked as the deep state but
+
+---------15:11----------
+should work fine it's gonna wait cool
+
+---------15:14----------
+this thing off a little bit and once
+
+---------15:17----------
+it's cooled off we're gonna try turning
+
+---------15:19----------
+it on see if we get ourselves one of
+
+---------15:20----------
+them beautiful fans spin moments and if
+
+---------15:23----------
+we get a fan spin then we can start on
+
+---------15:26----------
+another board
+
+---------15:41----------
+you may wonder how did that fail well
+
+---------15:49----------
+it's a gigantic
+
+---------16:03----------
+why don't we do the Jay tags on this
+
+---------16:05----------
+channel
+
+---------16:12----------
+well the city but will the fate be of
+
+---------16:15----------
+that jtag connector do we tolerate JTAG
+
+---------16:21----------
+connectors and hey this is a really
+
+---------16:24----------
+interesting one check this out check
+
+---------16:25----------
+this out folks check this out so this is
+
+---------16:29----------
+the pin right over here it's the fourth
+
+---------16:32----------
+pin over that's got food on it and the
+
+---------16:36----------
+jtag connector has SMC reset l on the
+
+---------16:40----------
+fourth pin so that is the that chip got
+
+---------16:42----------
+killed by food it got killed by a piece
+
+---------16:46----------
+of food that's all it takes to kill an
+
+---------16:49----------
+Apple product nothing nothing look at
+
+---------16:54----------
+that look at that this is it this is it
+
+---------17:05----------
+SMC reset L on pin 24 pin 24 has a piece
+
+---------17:11----------
+of food on it look at this and ants
+
+---------17:18----------
+could have carried that in there
+
+---------17:19----------
+oh my god so what are we going to do to
+
+---------17:24----------
+that connector what do we do to JTAG
+
+---------17:28----------
+connectors on this channel
+
+---------17:53----------
+we are gonna frame the jtag connector
+
+---------18:01----------
+and there you go that was the cause that
+
+---------18:06----------
+was it
+
+---------18:07----------
+that's all it takes that's it
+
+---------18:35----------
+bye-bye JTAG all right so now all we got
+
+---------18:39----------
+to do next is check and see if we get
+
+---------18:41----------
+ourselves a fans Ben so we're gonna plug
+
+---------18:44----------
+in our MagSafe connector see if we get
+
+---------18:47----------
+ourselves a light it appears that we
+
+---------18:51----------
+have a light see that that's a light
+
+---------18:58----------
+there's actually looks like health how
+
+---------19:00----------
+9,000 right there that's creepy
+
+---------19:04----------
+incredibly creepy and if we move over
+
+---------19:07----------
+here you'll see that we have that's
+
+---------19:13----------
+beautiful
+
+---------19:14----------
+that's exactly we were looking for a
+
+---------19:16----------
+beautiful spinning fan see this yeah
+
+---------19:25----------
+look at that
+
+---------19:27----------
+bada bing bada bing that's it let's
+
+---------19:34----------
+purpose of that connector if you can
+
+---------19:35----------
+just remove it it's to help Apple
+
+---------19:37----------
+diagnose things at the factory and also
+
+---------19:39----------
+to help Apple program these machines if
+
+---------19:41----------
+they ever return to them for
+
+---------19:42----------
+refurbishing at the factory and I just
+
+---------19:45----------
+feel so bad I just feel so bad that if
+
+---------19:47----------
+this machine returns to Apple it's just
+
+---------19:49----------
+gonna be a little bit difficult to fix
+
+---------19:50----------
+it
+
+---------19:51----------
+my heart just it's just poor it just
+
+---------19:53----------
+pours out of my chest has palpitations
+
+---------19:56----------
+it gets clogged just thinking about that
+
+---------19:59----------
+poor employee at the factory whose job
+
+---------20:01----------
+fixing this maybe just a tiny bit harder
+
+---------20:06----------
+all right that's it for today as always
+
+---------20:09----------
+I hope you learned something and if you
+
+---------20:11----------
+would like to see these videos more
+
+---------20:13----------
+often make sure to ring the bell because
+
+---------20:17----------
+if you don't YouTube will never notify
+
+---------20:19----------
+you that I've done a video that's it for
+
+---------20:22----------
+today and I'll see you next time
+

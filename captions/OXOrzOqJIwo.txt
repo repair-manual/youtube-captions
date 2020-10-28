@@ -1,0 +1,2665 @@
+https://www.youtube.com/watch?v=OXOrzOqJIwo
+---------00:00----------
+so the board is out of the case of this
+
+---------00:01----------
+MacBook in the issue that we were having
+
+---------00:02----------
+is that we were only getting five volts
+
+---------00:06----------
+not 20 volts in the charger which is
+
+---------00:07----------
+gonna mean that one of these CD 3215
+
+---------00:10----------
+chips is broken and not allowing
+
+---------00:11----------
+communication with the charger or the
+
+---------00:13----------
+chipset over here that makes PP 3 V 3
+
+---------00:15----------
+underscore g3 hot PB 3 V 3 underscore g3
+
+---------00:18----------
+hot is what allows the CD 3215 to turn
+
+---------00:21----------
+on that power supply could be missing so
+
+---------00:24----------
+typically it's one of those two things
+
+---------00:26----------
+almost every time and we're gonna try
+
+---------00:29----------
+and figure out which it is now I also
+
+---------00:30----------
+want to say I don't know who it is that
+
+---------00:32----------
+got me this warm microscope LED but I
+
+---------00:34----------
+want to say thank you very much do
+
+---------00:36----------
+whoever got this from me this is
+
+---------00:37----------
+actually a warm set of LEDs for the
+
+---------00:40----------
+microscope that does so that when I look
+
+---------00:42----------
+in the microscope it's not as fatiguing
+
+---------00:44----------
+as it used to be yeah it's a bit more
+
+---------00:46----------
+warm than I'd want it to be but it is
+
+---------00:48----------
+actually very nice as you can see it's
+
+---------00:51----------
+decreasing the red and increasing the
+
+---------00:53----------
+blue quite a bit in my camera's Auto
+
+---------00:55----------
+calibration software so to you guys it's
+
+---------00:58----------
+going to look the same because my my
+
+---------01:01----------
+microscope camera is the we are
+
+---------01:03----------
+going to take a look at this area and
+
+---------01:04----------
+see if we get PP 3 V 3 underscore g3 hod
+
+---------01:08----------
+now the first thing we need to do in
+
+---------01:10----------
+order to check if this works is we check
+
+---------01:13----------
+and see if P P 3 V 3 underscore g3 hot
+
+---------01:18----------
+is there do we have P P 3 V 3 underscore
+
+---------01:22----------
+g3 hot on the coil where do we not have
+
+---------01:24----------
+PP 3 V 3 underscore g3 hot in the coil
+
+---------01:29----------
+it looks like we have 0 volts 4 PP 3 V 3
+
+---------01:33----------
+underscore g3 hot on the coil why is
+
+---------01:36----------
+that why do we have no PP 3 V 3
+
+---------01:39----------
+underscore g3 hot on the coil let's take
+
+---------01:41----------
+a look at the PP 3 V 3 underscore g3 hot
+
+---------01:43----------
+circuit the first thing we're gonna do
+
+---------01:46----------
+is point out why it's important to get
+
+---------01:49----------
+that we have PP 3 V 3 underscore g3 hot
+
+---------01:51----------
+in order for the charger to turn on and
+
+---------01:53----------
+work if we take a look at the CD 32:15
+
+---------01:57----------
+chip this is a chip that's going to talk
+
+---------01:59----------
+to the charger so if we take a look
+
+---------02:01----------
+you'll see that we have some derp data
+
+---------02:03----------
+lines over here and the let's take a
+
+---------02:07----------
+look at these beautiful data lines now
+
+---------02:10----------
+these data lines this little C we're
+
+---------02:12----------
+over here it says bi-directional
+
+---------02:13----------
+bi bi this stands for bi-directional
+
+---------02:16----------
+data line and this is going to go
+
+---------02:19----------
+between the charge port which is over
+
+---------02:21----------
+here and the CD 32:15 chip which is over
+
+---------02:24----------
+here this chip is going to talk to the
+
+---------02:26----------
+charger and say hey charger I'm not a
+
+---------02:28----------
+cellphone I don't need five volts I need
+
+---------02:30----------
+20 volts I'm a MacBook I'm special give
+
+---------02:34----------
+me 20 volts because I'm a MacBook but in
+
+---------02:37----------
+order for this trip to turn on it needs
+
+---------02:39----------
+its input voltage and its input voltage
+
+---------02:41----------
+is pp 3 V 3 underscore g3 hot see that
+
+---------02:44----------
+that goes right over here 2 V in V in
+
+---------02:48----------
+that's not VIN like a VIN number like
+
+---------02:51----------
+what you use to tell what parts are
+
+---------02:53----------
+stolen on cars that's a voltage in
+
+---------02:54----------
+typically what you see in the top of the
+
+---------02:56----------
+chip is gonna be voltage in so we need
+
+---------02:58----------
+PP 3 V 3 underscore g3 ha and the
+
+---------03:01----------
+circuit that's going to create that
+
+---------03:02----------
+power rail of pp 3 V 3 underscore g3 hot
+
+---------03:07----------
+is gonna be right over here PP so let's
+
+---------03:12----------
+check our pp 3 V 3 underscore g3 hot
+
+---------03:15----------
+circuit and if you figured it out by now
+
+---------03:18----------
+yes I'm looking for an excuse to
+
+---------03:20----------
+continuously say PP PP bus
+
+---------03:24----------
+pp 3 before 2 PP 3 v3 underscore PPP PPP
+
+---------03:29----------
+PPP I love talking about my PP on
+
+---------03:32----------
+livestream it's one of my favorite
+
+---------03:34----------
+things to do is talk about my PP on
+
+---------03:36----------
+livestream
+
+---------03:37----------
+I feel like louis c.k now we're gonna do
+
+---------03:42----------
+over here we check the output we checked
+
+---------03:46----------
+the output right here and we had 0 volts
+
+---------03:49----------
+instead of 3.3 volts so this is the chip
+
+---------03:52----------
+that's going to take our voltage from
+
+---------03:53----------
+the charger and turn it into 3.3 volts
+
+---------03:56----------
+so the first thing we want to do is see
+
+---------03:58----------
+what's present on the input so the way
+
+---------04:01----------
+this chip is made it says from USBC
+
+---------04:04----------
+source and PP bus g3 hot and then you
+
+---------04:06----------
+have a diode so that means that you have
+
+---------04:08----------
+two different voltage sources so this
+
+---------04:10----------
+could be powered either from the battery
+
+---------04:12----------
+PP bus g3 hot which is battery voltage
+
+---------04:15----------
+or if your battery's dead it can be
+
+---------04:17----------
+powered from the charger this diode is
+
+---------04:19----------
+present over here on input to make sure
+
+---------04:21----------
+if the voltage from the charger does not
+
+---------04:23----------
+go into the battery or vice versa if we
+
+---------04:26----------
+look over here you'll see
+
+---------04:27----------
+that it says sup now typically you would
+
+---------04:34----------
+say voltage in or something like that
+
+---------04:36----------
+sup is new to me I haven't seen it say
+
+---------04:39----------
+sup so I'm gonna guess that sup is for a
+
+---------04:41----------
+supply
+
+---------04:42----------
+so that's input voltage so let's see
+
+---------04:44----------
+what we're getting at the input voltage
+
+---------04:46----------
+people will often go how do you know
+
+---------04:48----------
+where the ins are how do you know where
+
+---------04:49----------
+the outs are oh if you what is this
+
+---------04:53----------
+thing's purpose this is it you have to
+
+---------04:56----------
+try to try to figure out what the
+
+---------04:57----------
+purpose of something is you have to try
+
+---------04:59----------
+to figure out what the flow is and what
+
+---------05:01----------
+the well you know what what this thing
+
+---------05:02----------
+is supposed to because it's not always
+
+---------05:04----------
+gonna be labeled so here it says from a
+
+---------05:06----------
+USBC source and then over here you have
+
+---------05:11----------
+a power rail and the power rail over
+
+---------05:13----------
+here is smaller than the power rail over
+
+---------05:15----------
+here and if this says from that I'm
+
+---------05:17----------
+gonna guess that this or section over
+
+---------05:19----------
+here is the - so you got to think it's
+
+---------05:22----------
+important to be intelligent it really is
+
+---------05:23----------
+so what I'm gonna do first is I'm gonna
+
+---------05:25----------
+check and see what's present at my
+
+---------05:27----------
+supply pin over here and see what the
+
+---------05:31----------
+input voltage is and we do have five
+
+---------05:34----------
+volts on input now the next thing that
+
+---------05:36----------
+we do is decide whether we blame the
+
+---------05:38----------
+chip or not
+
+---------05:39----------
+so the chip is receiving its input
+
+---------05:41----------
+voltage but it's not creating its output
+
+---------05:43----------
+voltage so it can either be bad chip the
+
+---------05:46----------
+chip is not being enabled hmm I wonder
+
+---------05:49----------
+which of these is gonna stand for enable
+
+---------05:52----------
+wink wink
+
+---------05:53----------
+this is where intelligence is important
+
+---------05:54----------
+again or see we have a short to ground
+
+---------05:57----------
+on output so let's check and see if we
+
+---------05:59----------
+have a short to ground on output that's
+
+---------06:00----------
+gonna require that we unplug the
+
+---------06:02----------
+multimeter I mean we that we unplug the
+
+---------06:04----------
+charger so I'm gonna check for a short
+
+---------06:06----------
+to ground on output right here and we
+
+---------06:11----------
+get it's not even giving me a
+
+---------06:13----------
+measurement here we go 48 kilohms
+
+---------06:15----------
+48 km it is no short to ground on output
+
+---------06:18----------
+the next thing we're gonna do is we're
+
+---------06:20----------
+going to see if this is being enabled
+
+---------06:21----------
+let's see if the chip is being told to
+
+---------06:24----------
+turn on cuz again boo we cannot blame
+
+---------06:26----------
+this chip a lot of people will say ok no
+
+---------06:28----------
+power me replace chip no we have to see
+
+---------06:32----------
+if the chip is turning on first let's
+
+---------06:34----------
+see if it's being asked to turn on first
+
+---------06:36----------
+now we have to see if the chip is being
+
+---------06:38----------
+asked to turn on first let's take a look
+
+---------06:41----------
+the enable is gonna be present at pin 10
+
+---------06:42----------
+it says en enable 3.3 volts and if you
+
+---------06:47----------
+don't really know what this stuff means
+
+---------06:49----------
+you can always copy and paste by
+
+---------06:51----------
+right-clicking you can always copy and
+
+---------06:53----------
+pick copy and copy and oh wait this ball
+
+---------06:56----------
+Daniel software Who am I kidding we're
+
+---------06:58----------
+not gonna have things like copy and
+
+---------06:59----------
+paste and this GPL alright let's
+
+---------07:02----------
+try we don't have copy and paste here so
+
+---------07:04----------
+I'm gonna type it in manually max 775
+
+---------07:10----------
+nine six let's see if we can find a
+
+---------07:12----------
+datasheet on the Internet all right so
+
+---------07:14----------
+we're gonna scroll past all this
+
+---------07:15----------
+engineering mumbo-jumbo that I this
+
+---------07:19----------
+engineering mumbo-jumbo is for people
+
+---------07:20----------
+that are smart and here we get to the
+
+---------07:22----------
+pin description this is the this is the
+
+---------07:24----------
+monkey part of it this is the idiot part
+
+---------07:26----------
+of it that this is the part that even I
+
+---------07:28----------
+can understand so on the schematic it
+
+---------07:31----------
+says let pin ten voltage compatible
+
+---------07:35----------
+enable input drive enable - deceit low
+
+---------07:37----------
+to disable the device drive enable high
+
+---------07:39----------
+to end to enable the device so even if
+
+---------07:42----------
+you don't have the intelligence to guess
+
+---------07:44----------
+what those words mean all you have to do
+
+---------07:48----------
+is find Google the datasheet
+
+---------07:51----------
+you can check over here and you can see
+
+---------07:54----------
+what this does if you don't understand
+
+---------07:56----------
+what su P is like I was kind of confused
+
+---------07:58----------
+before I see supply input see supply
+
+---------08:02----------
+input if you don't know what the
+
+---------08:04----------
+abbreviations are typically you can find
+
+---------08:06----------
+a datasheet sometimes you can't find the
+
+---------08:07----------
+datasheet cuz apples again apples like
+
+---------08:09----------
+that jealous ex-girlfriend don't want
+
+---------08:11----------
+you talking anybody else they're gonna
+
+---------08:12----------
+tap on the shoulder and say hey in your
+
+---------08:15----------
+sale we heard you were giving away a
+
+---------08:17----------
+datasheet to some of your is L six to
+
+---------08:19----------
+five chips you're not gonna do that with
+
+---------08:22----------
+us right you're not gonna let your
+
+---------08:23----------
+engineers talk to anybody else and say
+
+---------08:26----------
+what the pins on this chip mean right
+
+---------08:28----------
+that's what that's what Apple likes to
+
+---------08:30----------
+do they like to hide the they like
+
+---------08:33----------
+to make sure that the company's making
+
+---------08:35----------
+their chipsets don't talk to anybody
+
+---------08:37----------
+don't give away any data sheets
+
+---------08:39----------
+don't let anybody know what these pins
+
+---------08:41----------
+mean make sure that they have to guess
+
+---------08:43----------
+when they fix MacBooks so sometimes
+
+---------08:46----------
+you're gonna have to rely on your
+
+---------08:47----------
+intelligence and your brain because
+
+---------08:49----------
+you're not going to be able to find the
+
+---------08:50----------
+data tree but I'm confident that if you
+
+---------08:52----------
+watch this channel that you're gonna
+
+---------08:53----------
+have that
+
+---------08:54----------
+elegance and that you're gonna be just
+
+---------08:55----------
+fine now let's go back and see what
+
+---------08:59----------
+we're getting at the enable pin it's fun
+
+---------09:03----------
+that way
+
+---------09:04----------
+okay now on the enable pin let's see
+
+---------09:08----------
+what we're getting zero volts hmm
+
+---------09:16----------
+where does that enable come from well
+
+---------09:19----------
+now we got a track down with the enable
+
+---------09:20----------
+comes from because clearly the issue is
+
+---------09:23----------
+not this chip this chip is not even
+
+---------09:25----------
+being told to turn on this chip is not
+
+---------09:28----------
+being told to turn on so we can't blame
+
+---------09:30----------
+it so that signal is going to come from
+
+---------09:34----------
+you seven thousand one of the few
+
+---------09:38----------
+benefits of Paul Daniels is software is
+
+---------09:40----------
+if I right-click on the signal it'll
+
+---------09:41----------
+show me everywhere it shows up on the
+
+---------09:42----------
+board
+
+---------09:43----------
+so it tells me that it shows up that
+
+---------09:45----------
+that signal comes from you seven
+
+---------09:47----------
+thousand you seven thousand my old
+
+---------09:49----------
+friend the battery charging chip now
+
+---------09:52----------
+check this out by the way you want to
+
+---------09:54----------
+see how good Apple's schematic drawing
+
+---------09:57----------
+engineers are I check this out you ready
+
+---------09:59----------
+ready
+
+---------09:59----------
+look at this is l6 259 they're still
+
+---------10:03----------
+calling it in is l6 259 like they can't
+
+---------10:07----------
+edit it this is like my third grade book
+
+---------10:09----------
+report see you seven thousand is not ISL
+
+---------10:13----------
+six two five nine it's ISL nine two
+
+---------10:15----------
+three nine
+
+---------10:15----------
+but this chromatic doesn't say that
+
+---------10:17----------
+because Apple but anyway I'm sure that
+
+---------10:19----------
+they're far more qualified to fix these
+
+---------10:20----------
+products than us lowly peasants are it's
+
+---------10:22----------
+not likely you know get the model
+
+---------10:25----------
+numbers right of the chips on their
+
+---------10:27----------
+boards more than they do but whatever
+
+---------10:28----------
+I'm not bitter I know so if you look
+
+---------10:31----------
+over here this is the ISL nine two three
+
+---------10:34----------
+nine so this chip over here is not
+
+---------10:38----------
+producing the enable and this appears to
+
+---------10:40----------
+be the end of the line so we are going
+
+---------10:44----------
+to replace this chip with a better one
+
+---------10:46----------
+because this chip which is an ISL nine
+
+---------10:50----------
+two three nine not six two five nine
+
+---------11:00----------
+just to make sure that they know is not
+
+---------11:04----------
+working properly now if you needed to
+
+---------11:06----------
+get an ISL
+
+---------11:07----------
+nine two three nine if you needed to fix
+
+---------11:10----------
+a MacBook and you needed this chip
+
+---------11:11----------
+because you weren't getting an enable on
+
+---------11:14----------
+your PP 3v3 underscore g3 hot circuit I
+
+---------11:16----------
+kind of wonder where it is you could go
+
+---------11:18----------
+hmm if you needed an ISL nine two three
+
+---------11:22----------
+nine where he to go where the chip is in
+
+---------11:24----------
+stock with same-day shipping free
+
+---------11:27----------
+shipping if you buy more than one from
+
+---------11:29----------
+New York City well head right over to
+
+---------11:32----------
+store dot Rossman group.com don't delay
+
+---------11:35----------
+buy today with over 4.8 stars on shopper
+
+---------11:41----------
+approved you can't lose and that star
+
+---------11:45----------
+rating is going up every single day
+
+---------11:47----------
+we're actually up to 4.9 stars on
+
+---------11:50----------
+shopper approved based on 1914 ratings
+
+---------11:54----------
+with 1,696 five star ratings you can't
+
+---------11:58----------
+lose make sure that you buy your chips
+
+---------12:01----------
+from store osmond group comm because
+
+---------12:03----------
+it's I'm about to demonstrate and I am
+
+---------12:06----------
+confident in before I even do the
+
+---------12:08----------
+soldering job that's gonna fix our
+
+---------12:10----------
+problem this board is gonna turn on and
+
+---------12:12----------
+post and give us 20 volts in the charger
+
+---------12:14----------
+and all I'm gonna need is a 15 dollar
+
+---------12:16----------
+chip from Stuart Rossman group.com let's
+
+---------12:21----------
+get started folks I'm gonna get that
+
+---------12:22----------
+chip at a slot X 5 which means walking
+
+---------12:25----------
+up to the front of the store and oh god
+
+---------12:27----------
+it's cold up here it is cold up here
+
+---------12:30----------
+BRR it's cold up here I hate it up
+
+---------12:34----------
+here there should have put the chips
+
+---------12:37----------
+closer to the office let's close the
+
+---------12:39----------
+door to the front of the store since
+
+---------12:41----------
+it's freezing up here
+
+---------12:46----------
+I'll put a little bit of flux over that
+
+---------12:48----------
+chip yeah and the flux is gonna keep
+
+---------12:55----------
+coming out of the tube because that's
+
+---------12:56----------
+what it does we're gonna take that chip
+
+---------13:01----------
+right off of the board
+
+---------14:04----------
+okay
+
+---------14:41----------
+I'll move that cat back in a place in a
+
+---------14:43----------
+moment now watch as we replace this
+
+---------14:45----------
+little defective is l9 239 and fix the
+
+---------14:50----------
+board by replacing this little defective
+
+---------14:51----------
+is l9 239 now I'm confident that this is
+
+---------14:55----------
+l9 239 from story doc Rossman group comm
+
+---------14:59----------
+is as good as it gets I have a hundred
+
+---------15:02----------
+ten percent confidence that this will
+
+---------15:05----------
+work and allow our pp 3v3 underscore g3
+
+---------15:08----------
+ha trail to return to 3.3 volts and
+
+---------15:11----------
+allow our cd32 15s to communicate with
+
+---------15:13----------
+the charger bada-bing
+
+---------15:22----------
+that's a lot of balls
+
+---------16:22----------
+our chip has been soldered onto the
+
+---------16:24----------
+board now let's see if we get 20 volts
+
+---------16:26----------
+on this machine let's see if we get
+
+---------16:53----------
+still 5.22 volts well then and now it's
+
+---------16:59----------
+20 volts now it's taking 20 volts in 1
+
+---------17:01----------
+amp
+
+---------17:02----------
+beautiful and just to show you the
+
+---------17:05----------
+difference and 1/2 the multiple just to
+
+---------17:12----------
+show you the difference we are going to
+
+---------17:14----------
+see what we get on the enable pin BAM 5
+
+---------17:23----------
+volts on the enable pin for the pp 3 v3
+
+---------17:26----------
+underscore g3 hunt regulator 3.4 volts
+
+---------17:28----------
+at output of that regulator and as you
+
+---------17:31----------
+can see right over here we are getting
+
+---------17:35----------
+20 volts on our charger and if I unplug
+
+---------17:40----------
+this and plug it back in you might even
+
+---------17:46----------
+see it boot it looks like it's taking
+
+---------17:48----------
+1.1 am now in point 9 amps so that
+
+---------17:52----------
+that's a Macbook that's turning on
+
+---------17:54----------
+that's a happy little MacBook that's
+
+---------17:56----------
+turning on and just for you haters out
+
+---------17:58----------
+there that won't believe anything unless
+
+---------17:59----------
+you see the Apple logo on the screen
+
+---------18:01----------
+I'll even plug it into the screen for
+
+---------18:04----------
+you because I know that the haters are
+
+---------18:06----------
+not gonna believe anything that we do
+
+---------18:08----------
+works unless they see that we have a new
+
+---------18:10----------
+brand of haters recently on this channel
+
+---------18:12----------
+that liked to post on the edited videos
+
+---------18:16----------
+saying that they're all fake these are
+
+---------18:20----------
+edited look at how we quickly edited
+
+---------18:24----------
+that and didn't show that this was the
+
+---------18:26----------
+same machine and bla bla bla completely
+
+---------18:28----------
+unaware that we're actually editing from
+
+---------18:30----------
+from live streams so for the haters for
+
+---------18:33----------
+the haters let's show this thing working
+
+---------18:36----------
+if you're breathing that hard after
+
+---------18:38----------
+coughing you're sick you may have
+
+---------18:40----------
+pneumonia well I may have pneumonia but
+
+---------18:44----------
+this MacBook is fixed and that's what
+
+---------18:48----------
+really matters here nobody will care if
+
+---------18:49----------
+Luis dies of pneumonia but you know what
+
+---------18:51----------
+people will care about if the MacBook
+
+---------18:53----------
+that is in their queue is not fixed
+
+---------18:56----------
+because the MacBook in the queue must be
+
+---------18:59----------
+fixed by the date that the website said
+
+---------19:02----------
+it would be fixed by and if it is not
+
+---------19:05----------
+then bad things will happen
+
+---------19:08----------
+my purpose in this life is to fix
+
+---------19:11----------
+MacBooks and as long as I'm here I will
+
+---------19:14----------
+fix MacBooks
+
+---------19:21----------
+uh-huh so here we have a battery logo
+
+---------19:25----------
+this is the eight this is one of those
+
+---------19:27----------
+boards where it's gonna require the
+
+---------19:29----------
+battery be good in order for it to turn
+
+---------19:31----------
+on but it did give us a battery logo
+
+---------19:36----------
+meaning that the screen does work
+
+---------19:38----------
+meaning that the machine is able to
+
+---------19:40----------
+output an image to the screen meaning
+
+---------19:43----------
+that it's fine
+
+---------19:44----------
+now I'm not going to reassemble the
+
+---------19:46----------
+whole thing right now since it requires
+
+---------19:47----------
+an ultrasonic cleaning and that's going
+
+---------19:49----------
+to be a bit too much work we leave that
+
+---------19:53----------
+we move we have that part done by the
+
+---------19:55----------
+people downstream but as you see we
+
+---------19:59----------
+clearly did allow the charger to
+
+---------20:00----------
+communicate with the machine and the
+
+---------20:02----------
+machine does have the ability to output
+
+---------20:04----------
+an image to the screen and all that good
+
+---------20:06----------
+stuff meaning that this job here is most
+
+---------20:08----------
+likely done we're just going to move it
+
+---------20:10----------
+downstream for reassembly ultrasonic
+
+---------20:13----------
+cleaning testing and all that good stuff
+
+---------20:14----------
+that is far too boring to do on stream
+
+---------20:18----------
+but this is fixed there's a new pet
+
+---------20:23----------
+chia-chia pet the pottery that grows
+
+---------20:26----------
+it's fun and easy
+
+---------20:28----------
+stop your Tia spread the seeds soak your
+
+---------20:31----------
+Chia go to treetop reveal keep it
+
+---------20:35----------
+watered and watch it grow and now grow
+
+---------20:38----------
+on whole collection of fun with Chia
+
+---------20:39----------
+teddy bears puppies kittens Rams kittens
+
+---------20:43----------
+Rams kittens kittens kittens kittens
+
+---------20:46----------
+bowls there's even a cheese there's even
+
+---------20:49----------
+a cheese there's even a cheese there's
+
+---------20:52----------
+even a chia tree to keep your best
+
+---------20:54----------
+company Chia Pets and trees the pottery
+
+---------20:56----------
+that grows the chia pet and chia tree or
+
+---------20:59----------
+available at Kmart Rite Aid Ames and
+
+---------21:01----------
+Woolworths makes a great gift it's not
+
+---------21:03----------
+supposed to pacify me makes a great gift
+
+---------21:05----------
+it's not supposed to pacify me makes a
+
+---------21:08----------
+great gift is that supposed to pacify me
+
+---------21:10----------
+makes a great gift is that supposed to
+
+---------21:12----------
+pacify me makes a great gift is that
+
+---------21:15----------
+supposed to pacify me there's a new pet
+
+---------21:21----------
+chia-chia pet the pottery that grows
+
+---------21:24----------
+it's fun and easy soak your Chia spread
+
+---------21:27----------
+the seeds soak your Chia don't you -
+
+---------21:29----------
+don't you feel
+
+---------21:31----------
+keep it watered and watch it grow and
+
+---------21:34----------
+now grow a whole collection of fun with
+
+---------21:36----------
+Chia teddy bears puppies kittens Rams
+
+---------21:40----------
+kittens Rams kittens kittens kittens
+
+---------21:43----------
+kittens holes there's even a cheese
+
+---------21:46----------
+there's even a cheese there's even a
+
+---------21:48----------
+cheese there's even a chia tree to keep
+
+---------21:50----------
+your pets company Chia Pets and trees
+
+---------21:53----------
+the pottery the group grows the chia pet
+
+---------21:56----------
+and chia tree are available at Kmart
+
+---------21:57----------
+Rite Aid Ames and Woolworths makes a
+
+---------21:59----------
+great gift is that supposed to pacify me
+
+---------22:02----------
+there's a new pet
+
+---------22:06----------
+Chia chia pet the pottery that grows
+
+---------22:09----------
+it's fun and easy soak your Chia spread
+
+---------22:13----------
+the seeds soak your Chia go to - you're
+
+---------22:15----------
+okay - yeah keep it watered and watch it
+
+---------22:19----------
+grow and now grow up whole collection of
+
+---------22:21----------
+fun with Chia teddy bears puppies
+
+---------22:24----------
+kittens Rams
+
+---------22:26----------
+kittens Rams kittens kittens kittens
+
+---------22:29----------
+kittens holes there's even a cheese
+
+---------22:31----------
+there's even a cheese there's even a
+
+---------22:34----------
+cheese there's even a chia tree to keep
+
+---------22:36----------
+your pets company Chia Pets and trees
+
+---------22:38----------
+the pottery that grows the chia pet and
+
+---------22:41----------
+chia tree or available at Kmart Rite Aid
+
+---------22:43----------
+Ames and Woolworths makes a great gift
+
+---------22:45----------
+there's a new pet Chia
+
+---------22:50----------
+chia pet the pottery that grows it's fun
+
+---------22:53----------
+and easy soak your Chia spread the seeds
+
+---------22:56----------
+soak your Chia go through to your folder
+
+---------22:59----------
+to keep it watered and watch it grow and
+
+---------23:03----------
+now grow up whole collection of fun with
+
+---------23:05----------
+Chia teddy bears puppies kittens Rams
+
+---------23:09----------
+kittens Rams chickens chickens chickens
+
+---------23:12----------
+chickens bowls
+
+---------23:13----------
+there's even a cheese there's even a
+
+---------23:16----------
+cheese there's even a cheese there's
+
+---------23:18----------
+even a chia tree to keep your best
+
+---------23:20----------
+company Chia Pets and trees the pottery
+
+---------23:22----------
+the group grows the chia pet and chia
+
+---------23:25----------
+tree or available at Kmart Rite Aid Ames
+
+---------23:27----------
+and Woolworths makes a great gift
+
+---------23:29----------
+there's a new pet did the chia chia pet
+
+---------23:34----------
+the pottery that grows it's fun and easy
+
+---------23:37----------
+soak your Chia spread the seeds soak
+
+---------23:40----------
+your Chia Oh beautiful
+
+---------23:43----------
+keep it watered and watch it grow and
+
+---------23:46----------
+now grow up whole collection of fun with
+
+---------23:49----------
+gia teddy bears puppies kittens Rams
+
+---------23:52----------
+kittens Rams chickens chickens chickens
+
+---------23:55----------
+chickens bowls
+
+---------23:57----------
+there's even a cheese there's even a
+
+---------23:59----------
+cheese there's even a cheese there's
+
+---------24:01----------
+even a chia tree to keep your best
+
+---------24:03----------
+company Chia Pets and trees the pottery
+
+---------24:06----------
+the group grows the chia pet and chia
+
+---------24:08----------
+tree are available at Kmart Rite Aid
+
+---------24:10----------
+Ames and Woolworths makes a great gift
+
+---------24:12----------
+there's a new pet gyah
+
+---------24:17----------
+chia pet the pottery that grows it's fun
+
+---------24:20----------
+and easy soak your Chia spread the seeds
+
+---------24:23----------
+soak your Chia tofu to your computer
+
+---------24:27----------
+keep it watered and watch it grow and
+
+---------24:30----------
+now grow up whole collection of fun with
+
+---------24:32----------
+Chia teddy bears puppies kittens Rams
+
+---------24:35----------
+kittens Rams kittens kittens kittens
+
+---------24:39----------
+kittens holes there's even a cheese
+
+---------24:41----------
+there's even a cheese there's even a
+
+---------24:44----------
+cheese there's even a chia tree to keep
+
+---------24:46----------
+your pets company Chia Pets and trees
+
+---------24:48----------
+the pottery that grows the chia pet and
+
+---------24:51----------
+chia tree or available at Kmart Rite Aid
+
+---------24:53----------
+Ames and Woolworths makes a great gift
+
+---------24:56----------
+there's a new pet gyah
+
+---------25:01----------
+chia pet the pottery that grows it's fun
+
+---------25:04----------
+and easy soak your Chia spread the seeds
+
+---------25:07----------
+soak your Chia go through to your finger
+
+---------25:09----------
+to keep it watered and watch it grow and
+
+---------25:13----------
+now grow a whole collection of fun with
+
+---------25:15----------
+Chia teddy bears puppies kittens Rams
+
+---------25:19----------
+kittens Rams kittens kittens kittens
+
+---------25:22----------
+kittens holes there's even a cheese
+
+---------25:25----------
+there's even a cheese there's even a
+
+---------25:27----------
+cheese there's even a chia tree to keep
+
+---------25:30----------
+your pets company Chia Pets and trees
+
+---------25:32----------
+the pottery that grows the chia pet and
+
+---------25:35----------
+chia tree or available at Kmart Rite Aid
+
+---------25:37----------
+Ames and Woolworths makes a great gift
+
+---------25:39----------
+there's a new pet bhatia chia pet the
+
+---------25:45----------
+pottery that grows it's fun and easy
+
+---------25:47----------
+soak your Chia spread the seeds soak
+
+---------25:51----------
+your Chia Oh beautiful
+
+---------25:54----------
+keep it watered and watch it grow and
+
+---------25:56----------
+now grow up whole collection of fun with
+
+---------25:59----------
+Chia teddy bears puppies kittens Rams
+
+---------26:02----------
+kittens Rams chickens chickens chickens
+
+---------26:05----------
+chickens bowls there's even a cheese
+
+---------26:08----------
+there's even a cheese there's even a
+
+---------26:11----------
+cheese there's even a chia tree to keep
+
+---------26:13----------
+your pets company Chia Pets and trees
+
+---------26:15----------
+the pottery the group grows the chia pet
+
+---------26:18----------
+and chia tree or available at Kmart Rite
+
+---------26:20----------
+Aid Ames and Woolworths makes a great
+
+---------26:22----------
+gift there's a new pet gyah
+
+---------26:28----------
+chia pet the pottery that grows it's fun
+
+---------26:31----------
+and easy soak your Chia spread the seeds
+
+---------26:34----------
+soak your Chia go through to your roof
+
+---------26:37----------
+you'll keep it watered and watch it grow
+
+---------26:40----------
+and now grow a whole collection of fun
+
+---------26:43----------
+with Chia teddy bears puppies kittens
+
+---------26:46----------
+Rams kittens Rams kittens kittens
+
+---------26:49----------
+kittens kittens holes there's even a
+
+---------26:52----------
+cheese there's even a cheese there's
+
+---------26:54----------
+even a cheese there's even a chia tree
+
+---------26:57----------
+to keep your pets company Chia Pets and
+
+---------26:59----------
+trees the pottery the group grows the
+
+---------27:02----------
+chia pet and chia tree or available at
+
+---------27:04----------
+Kmart Rite Aid Ames and Woolworths makes
+
+---------27:06----------
+a great gift there's a new pet did the
+
+---------27:12----------
+chia chia pet the pottery that grows
+
+---------27:15----------
+it's fun and easy soak your Chia spread
+
+---------27:18----------
+the seeds soak your Chia go to your
+
+---------27:21----------
+computer keep it watered and watch it
+
+---------27:25----------
+grown and now grow up whole collection
+
+---------27:27----------
+of fun with chia teddy bears puppies
+
+---------27:29----------
+kittens Rams kittens Rams kittens
+
+---------27:33----------
+kittens kittens kittens holes there's
+
+---------27:36----------
+even a cheese there's even a cheese
+
+---------27:38----------
+there's even a cheese there's even a
+
+---------27:41----------
+chia tree to keep your pets company Chia
+
+---------27:43----------
+Pets and trees the pottery the group
+
+---------27:45----------
+grows the chia pet and chia tree or
+
+---------27:48----------
+available at Kmart Rite Aid Ames and
+
+---------27:50----------
+Woolworths makes a great gift
+
+---------27:52----------
+there's a new pet chia-chia pet the
+
+---------27:58----------
+pottery that grows it's fun and easy
+
+---------28:00----------
+soak your Chia spread the seeds soak
+
+---------28:04----------
+your Chia both your fuel flow to keep it
+
+---------28:08----------
+watered and watch it grow and now grow
+
+---------28:10----------
+up whole collection of fun with Chia
+
+---------28:12----------
+teddy bears puppies kittens Rams kittens
+
+---------28:16----------
+Rams chickens chickens chickens chickens
+
+---------28:19----------
+poles there's even a cheese there's even
+
+---------28:22----------
+a cheese there's even a cheese there's
+
+---------28:25----------
+even a chia tree to keep your best
+
+---------28:26----------
+company Chia Pets and trees the pottery
+
+---------28:29----------
+the group grows the chia pet and chia
+
+---------28:31----------
+tree or available at Kmart Rite Aid Ames
+
+---------28:34----------
+and Woolworths makes a great gift
+
+---------28:36----------
+there's a new pet gyah
+
+---------28:41----------
+chia pet the pottery that grows it's fun
+
+---------28:44----------
+and easy soak your Chia spread the seeds
+
+---------28:47----------
+soak your Chia go through to your folder
+
+---------28:50----------
+to keep it watered and watch it grow and
+
+---------28:54----------
+now grow up whole collection of fun with
+
+---------28:56----------
+Chia teddy bears puppies kittens Rams
+
+---------29:00----------
+kittens Rams kittens kittens kittens
+
+---------29:03----------
+kittens holes there's even a cheese
+
+---------29:06----------
+there's even a cheese there's even a
+
+---------29:08----------
+cheese there's even a chia tree to keep
+
+---------29:10----------
+your pets company Chia Pets and trees
+
+---------29:13----------
+the pottery the group grows the chia pet
+
+---------29:15----------
+and Chi a tree or available at Kmart
+
+---------29:17----------
+Rite Aid Ames and Woolworths makes a
+
+---------29:19----------
+great gift there's a new pet bhatia chia
+
+---------29:26----------
+pet the pottery that grows it's fun and
+
+---------29:29----------
+easy soak your Chia spread the seeds
+
+---------29:32----------
+soak your Chia so QT okay droopy oh yeah
+
+---------29:35----------
+to keep it watered and watch it grow and
+
+---------29:38----------
+now grow up whole collection of fun with
+
+---------29:41----------
+chia teddy bears puppies kittens Rams
+
+---------29:44----------
+kittens Rams chickens chickens chickens
+
+---------29:47----------
+chickens bowls there's even a cheese
+
+---------29:50----------
+there's even a cheese there's even a
+
+---------29:52----------
+cheese there's even a chia tree to keep
+
+---------29:55----------
+your pets company Chia Pets and trees
+
+---------29:57----------
+the pottery that grows the chia pet and
+
+---------30:00----------
+chia tree are available at Kmart Rite
+
+---------30:02----------
+Aid Ames and Woolworths makes a great
+
+---------30:04----------
+gift there's a new pet chia-chia pet the
+
+---------30:11----------
+pottery that grows it's fun and easy
+
+---------30:14----------
+soak your Chia spread the seeds soak
+
+---------30:17----------
+your Chia both your tree or Kokomo keep
+
+---------30:21----------
+it watered and watch it grow and now
+
+---------30:23----------
+grow a whole collection of fun with Chia
+
+---------30:25----------
+teddy bears puppies kittens Rams kittens
+
+---------30:29----------
+Rams kittens kittens kittens kittens
+
+---------30:32----------
+poles there's even a cheese there's even
+
+---------30:35----------
+a cheese there's even a cheese there's
+
+---------30:38----------
+even a chia tree to keep your best
+
+---------30:39----------
+company Chia Pets and trees the pottery
+
+---------30:42----------
+the group grows the chia pet and chia
+
+---------30:44----------
+tree or available at Kmart Rite Aid Ames
+
+---------30:47----------
+and Woolworths makes a great gift
+
+---------30:49----------
+there's a new pet Chia chia pet the
+
+---------30:56----------
+pottery that grows it's fun and easy
+
+---------30:58----------
+soak your Chia spread the seeds soak
+
+---------31:01----------
+your Chia go through to your folder to
+
+---------31:03----------
+keep it watered and watch it grow and
+
+---------31:07----------
+now grow up whole collection of fun with
+
+---------31:09----------
+Chia teddy bears puppies kittens Rams
+
+---------31:13----------
+kittens Rams kittens kittens kittens
+
+---------31:16----------
+kittens holes there's even a cheese
+
+---------31:19----------
+there's even a cheese there's even a
+
+---------31:21----------
+cheese there's even a chia tree to keep
+
+---------31:23----------
+your pets company Chia Pets and trees
+
+---------31:26----------
+the pottery the group grows the chia pet
+
+---------31:28----------
+and chia tree or available at Kmart Rite
+
+---------31:31----------
+Aid Ames and Woolworths makes a great
+
+---------31:32----------
+gift
+
+---------31:34----------
+there's a new pet did the chia-chia pet
+
+---------31:40----------
+the pottery that grows it's fun and easy
+
+---------31:42----------
+soak your Chia spread the seeds soak
+
+---------31:45----------
+your Chia so Fujioka through yeah keep
+
+---------31:49----------
+it watered and watch it grow and now
+
+---------31:52----------
+grow up whole collection of fun with
+
+---------31:54----------
+Chia teddy bears puppies kittens Rams
+
+---------31:57----------
+kittens Rams kittens kittens kittens
+
+---------32:00----------
+kittens holes there's even a cheese
+
+---------32:03----------
+there's even a cheese there's even a
+
+---------32:05----------
+cheese there's even a chia tree to keep
+
+---------32:08----------
+your pets company Chia Pets and trees
+
+---------32:10----------
+the pottery the group grows the chia pet
+
+---------32:13----------
+and chia tree or available at Kmart Rite
+
+---------32:15----------
+Aid Ames and Woolworths makes a great
+
+---------32:17----------
+gift there's a new pet bhatia chia pet
+
+---------32:24----------
+the pottery that grows it's fun and easy
+
+---------32:27----------
+soak your Chia spread the seeds soak
+
+---------32:30----------
+your Chia both your you people keep it
+
+---------32:34----------
+watered and watch it grow and now grow
+
+---------32:37----------
+up whole collection of fun with Chia
+
+---------32:38----------
+teddy bears puppies kittens Rams kittens
+
+---------32:42----------
+Rams chickens chickens chickens chickens
+
+---------32:45----------
+holes there's even a cheese there's even
+
+---------32:48----------
+a cheese there's even a cheese there's
+
+---------32:51----------
+even a chia tree to keep your pets
+
+---------32:53----------
+company Chia Pets and trees the pottery
+
+---------32:55----------
+the group grows the chia pet and chia
+
+---------32:58----------
+tree or available at Kmart Rite Aid Ames
+
+---------33:00----------
+and Woolworths makes a great gift
+
+---------33:03----------
+there's a new pet chia-chia pet the
+
+---------33:09----------
+pottery that grows it's fun and easy
+
+---------33:11----------
+soak your Chia spread the seeds soak
+
+---------33:14----------
+your Chia go through to your folder here
+
+---------33:16----------
+oh yeah
+
+---------33:17----------
+keep it watered and watch it grow and
+
+---------33:20----------
+now grow up whole collection of fun with
+
+---------33:22----------
+Chia teddy bears puppies kittens Rams
+
+---------33:26----------
+kittens Rams chickens chickens chickens
+
+---------33:29----------
+chickens bowls there's even a cheese
+
+---------33:32----------
+there's even a cheese there's even a
+
+---------33:34----------
+cheese there's even a chia tree to keep
+
+---------33:36----------
+your pets company Chia Pets and trees
+
+---------33:39----------
+the pottery that grows the chia pet and
+
+---------33:42----------
+chia tree are available at Kmart Rite
+
+---------33:44----------
+Aid Eames and Woolworths makes a great
+
+---------33:46----------
+gift there's a new pet chia pet the
+
+---------33:53----------
+pottery that grows it's fun and easy
+
+---------33:55----------
+soak your Chia spread the seeds soak
+
+---------33:58----------
+your Chia so Fujioka through to keep it
+
+---------34:03----------
+watered and watch it grow and now grow
+
+---------34:05----------
+up whole collection of fun with Chia
+
+---------34:07----------
+teddy bears puppies kittens Rams kittens
+
+---------34:11----------
+Rams kittens kittens kittens kittens
+
+---------34:14----------
+poles there's even a cheese there's even
+
+---------34:17----------
+a cheese there's even a cheese there's
+
+---------34:19----------
+even a chia tree to keep your pets
+
+---------34:21----------
+company
+
+---------34:22----------
+Chia Pets and trees the pottery that
+
+---------34:24----------
+grows the chia pet and chia tree or
+
+---------34:27----------
+available at Kmart Rite Aid Eames and
+
+---------34:29----------
+Woolworths makes a great gift there's a
+
+---------34:32----------
+new pet chia-chia pet the pottery that
+
+---------34:38----------
+grows it's fun and easy soak your Chia
+
+---------34:41----------
+spread the seeds soak your Chia both
+
+---------34:44----------
+your to your local people keep it
+
+---------34:47----------
+watered and watch it grow and now grow a
+
+---------34:50----------
+whole collection of fun with Chia teddy
+
+---------34:52----------
+bears puppies kittens Rams kittens Rams
+
+---------34:56----------
+kittens kittens kittens kittens
+
+---------34:59----------
+holes there's even a cheese there's even
+
+---------35:01----------
+a cheese there's even a cheese there's
+
+---------35:04----------
+even a chia tree to keep your pets
+
+---------35:06----------
+company Chia Pets and trees the pottery
+
+---------35:08----------
+the group grows the chia pet and chia
+
+---------35:11----------
+tree or available at Kmart Rite Aid
+
+---------35:13----------
+Eames and Woolworths makes a great gift
+
+---------35:16----------
+there's a new pet gyah
+
+---------35:21----------
+chia pet the pottery that grows it's fun
+
+---------35:24----------
+and easy
+
+---------35:24----------
+soak your Chia spread the seeds soak
+
+---------35:27----------
+your Chia go through to your roof you
+
+---------35:30----------
+keep it watered and watch it grow and
+
+---------35:33----------
+now grow up whole collection of fun with
+
+---------35:35----------
+Chia teddy bears puppies kittens Rams
+
+---------35:39----------
+kittens Rams chickens chickens chickens
+
+---------35:42----------
+chickens bowls there's even a cheese
+
+---------35:45----------
+there's even a cheese there's even a
+
+---------35:47----------
+cheese there's even a chia tree to keep
+
+---------35:50----------
+your best company Chia Pets and trees
+
+---------35:52----------
+the pottery the group grows the chia pet
+
+---------35:55----------
+and chia tree or available at Kmart Rite
+
+---------35:57----------
+Aid Ames and Woolworths makes a great
+
+---------35:59----------
+gift there's a new pet Chia chia pet the
+
+---------36:06----------
+pottery that grows it's fun and easy
+
+---------36:08----------
+soak your Chia spread the seeds soak
+
+---------36:12----------
+your Chia so to do food group you'll
+
+---------36:14----------
+keep it watered and watch it grow and
+
+---------36:17----------
+now grow up whole collection of fun with
+
+---------36:20----------
+chia teddy bears puppies kittens Rams
+
+---------36:23----------
+kittens
+
+---------36:24----------
+Rams kittens kittens kittens kittens
+
+---------36:27----------
+holes there's even a cheese there's even
+
+---------36:30----------
+a cheese there's even a cheese there's
+
+---------36:32----------
+even a chia tree to keep your pets
+
+---------36:34----------
+company Chia Pets and trees the pottery
+
+---------36:37----------
+the group grows the chia pet and chia
+
+---------36:39----------
+tree or available at Kmart Rite Aid Ames
+
+---------36:41----------
+and Woolworths makes a great gift
+
+---------36:44----------
+there's a new pet did the chia chia pet
+
+---------36:50----------
+the pottery that grows it's fun and easy
+
+---------36:53----------
+soak your Chia spread the seeds soak
+
+---------36:56----------
+your Chia go through yeah
+
+---------36:59----------
+keep it watered and watch it grow and
+
+---------37:02----------
+now grow up whole collection of fun with
+
+---------37:04----------
+gia teddy bears puppies kittens Rams
+
+---------37:08----------
+kittens Rams kittens kittens kittens
+
+---------37:11----------
+kittens holes there's even a cheese
+
+---------37:13----------
+there's even a cheese there's even a
+
+---------37:16----------
+cheese there's even a chia tree to keep
+
+---------37:18----------
+your pets company Chia Pets and trees
+
+---------37:20----------
+the pottery the group grows the chia pet
+
+---------37:23----------
+and chia tree or available at Kmart Rite
+
+---------37:25----------
+Aid Ames and Woolworths makes a great
+
+---------37:27----------
+gift there's a new pet bhatia chia pet
+
+---------37:34----------
+the pottery that grows it's fun and easy
+
+---------37:37----------
+soak your Chia spread the seeds soak
+
+---------37:40----------
+your Chia go through to year 0.2 to keep
+
+---------37:44----------
+it watered and watch it grow and now
+
+---------37:47----------
+grow up whole collection of fun with
+
+---------37:49----------
+Chia teddy bears puppies kittens Rams
+
+---------37:52----------
+kittens Rams chickens chickens chickens
+
+---------37:55----------
+chickens bowls there's even a cheese
+
+---------37:58----------
+there's even a cheese there's even a
+
+---------38:00----------
+cheese there's even a chia tree to keep
+
+---------38:03----------
+your pets company Chia Pets and trees
+
+---------38:05----------
+the pottery that grows the chia pet and
+
+---------38:08----------
+chia tree or available at Kmart Rite Aid
+
+---------38:10----------
+Ames and Woolworths makes a great gift
+
+---------38:13----------
+there's a new pet chia-chia pet the
+
+---------38:19----------
+pottery that grows it's fun and easy
+
+---------38:21----------
+soak your Chia spread the seeds soak
+
+---------38:25----------
+your Chia soap you do kikuchiyo yeah
+
+---------38:28----------
+keep it watered and watch it grow and
+
+---------38:30----------
+now grow a whole collection of fun with
+
+---------38:33----------
+Chia teddy bears puppies kittens Rams
+
+---------38:36----------
+kittens Rams kittens kittens kittens
+
+---------38:40----------
+kittens poles there's even a cheese
+
+---------38:42----------
+there's even a cheese there's even a
+
+---------38:45----------
+cheese there's even a chia tree to keep
+
+---------38:47----------
+your pets company Chia Pets and trees
+
+---------38:49----------
+the pottery the group grows the chia pet
+
+---------38:52----------
+and chia tree or available at Kmart Rite
+
+---------38:54----------
+Aid Ames and Woolworths makes a great
+
+---------38:56----------
+gift there's a new pet chia-chia pet the
+
+---------39:03----------
+pottery that grows it's fun and easy
+
+---------39:06----------
+soak your Chia spread the seeds soak
+
+---------39:09----------
+your Chia poultry don't you people keep
+
+---------39:13----------
+it watered and watch it grow and now
+
+---------39:15----------
+grow a whole collection of fun with Chia
+
+---------39:17----------
+teddy bears puppies kittens Rams kittens
+
+---------39:21----------
+Rams kittens kittens kittens kittens
+
+---------39:24----------
+holes there's even a cheese there's even
+
+---------39:27----------
+a cheese there's even a cheese there's
+
+---------39:30----------
+even a chia tree to keep your pets
+
+---------39:32----------
+company Chia Pets and trees the pottery
+
+---------39:34----------
+the group grows the chia pet and chia
+
+---------39:37----------
+tree or available at Kmart Rite Aid Ames
+
+---------39:39----------
+and Woolworths makes a great gift
+
+---------39:42----------
+there's a new pet gyah chia pet the
+
+---------39:48----------
+pottery that grows it's fun and easy
+
+---------39:50----------
+soak your Chia spread the seeds soak
+
+---------39:53----------
+your Chia go through your paper he'll
+
+---------39:56----------
+keep it watered and watch it grow and
+
+---------39:59----------
+now grow up whole collection of fun with
+
+---------40:02----------
+Chia teddy bears puppies kittens Rams
+
+---------40:05----------
+kittens
+
+---------40:06----------
+Rams chickens chickens chickens chickens
+
+---------40:09----------
+bowls
+
+---------40:10----------
+there's even a cheese there's even a
+
+---------40:12----------
+cheese there's even a cheese there's
+
+---------40:14----------
+even a chia tree to keep your best
+
+---------40:16----------
+company Chia Pets and trees the pottery
+
+---------40:19----------
+the group grows the chia pet and chia
+
+---------40:21----------
+tree or available at Kmart Rite Aid Ames
+
+---------40:23----------
+and Woolworths makes a great gift
+
+---------40:26----------
+there's a new pet did the chia-chia pet
+
+---------40:32----------
+the pottery that grows it's fun and easy
+
+---------40:34----------
+soak your Chia spread the seeds soak
+
+---------40:38----------
+your Chia soak through to go through to
+
+---------40:41----------
+keep it watered and watch it grow and
+
+---------40:44----------
+now grow up whole collection of fun with
+
+---------40:46----------
+chia teddy bears puppies kittens Rams
+
+---------40:49----------
+kittens Rams chickens chickens chickens
+
+---------40:52----------
+chickens holes there's even a cheese
+
+---------40:55----------
+there's even a cheese there's even a
+
+---------40:58----------
+cheese there's even a chia tree to keep
+
+---------41:00----------
+your pets company Chia Pets and trees
+
+---------41:02----------
+the pottery the group grows the chia pet
+
+---------41:05----------
+and chia tree or available at Kmart Rite
+
+---------41:07----------
+Aid Ames and Woolworths makes a great
+
+---------41:09----------
+gift there's a new pet gyah
+
+---------41:15----------
+chia pet the pottery that grows it's fun
+
+---------41:18----------
+and easy soak your Chia
+
+---------41:20----------
+spread the seeds soak your Chia go to
+
+---------41:23----------
+your local people keep it watered and
+
+---------41:27----------
+watch it grow and now grow up whole
+
+---------41:29----------
+collection of fun with Chia teddy bears
+
+---------41:31----------
+puppies kittens Rams kittens Rams
+
+---------41:35----------
+chickens chickens chickens chickens
+
+---------41:37----------
+bowls there's even a cheese there's even
+
+---------41:41----------
+a cheese there's even a cheese there's
+
+---------41:43----------
+even a chia tree to keep your best
+
+---------41:45----------
+company Chia Pets and trees the pottery
+
+---------41:47----------
+the group grows the chia pet and chia
+
+---------41:50----------
+tree or available at Kmart Rite Aid Ames
+
+---------41:52----------
+and Woolworths makes a great gift
+
+---------41:55----------
+there's a new pet did to chia-chia pet
+
+---------42:00----------
+the pottery that grows it's fun and easy
+
+---------42:03----------
+soak your Chia spread the seeds soak
+
+---------42:06----------
+your Chia hope you to your old boot heel
+
+---------42:08----------
+yeah
+
+---------42:10----------
+keep it watered and watch it grow and
+
+---------42:12----------
+now grow up whole collection of fun with
+
+---------42:15----------
+gia teddy bears puppies kittens Rams
+
+---------42:18----------
+kittens Rams kittens kittens kittens
+
+---------42:21----------
+kittens holes there's even a cheese
+
+---------42:24----------
+there's even a cheese there's even a
+
+---------42:26----------
+cheese there's even a chia tree to keep
+
+---------42:29----------
+your pets company Chia Pets and trees
+
+---------42:31----------
+the pottery the group grows the chia pet
+
+---------42:34----------
+and Chia tree are available at Kmart
+
+---------42:35----------
+Rite Aid Eames and Woolworths makes a
+
+---------42:37----------
+great gift there's a new pet bhatia chia
+
+---------42:44----------
+pet the pottery that grows it's fun and
+
+---------42:47----------
+easy soak your Chia spread the seeds
+
+---------42:50----------
+soak your Chia soak through to your
+
+---------42:52----------
+computer keep it watered and watch it
+
+---------42:56----------
+grow and now grow on whole collection of
+
+---------42:59----------
+fun with Chia teddy bears puppies
+
+---------43:01----------
+kittens Rams kittens Rams chickens
+
+---------43:05----------
+chickens chickens chickens bowls there's
+
+---------43:08----------
+even a cheese there's even a cheese
+
+---------43:10----------
+there's even a cheese there's even a
+
+---------43:12----------
+chia tree to keep your pets company Chia
+
+---------43:15----------
+Pets and trees the pottery that guru who
+
+---------43:17----------
+grows the chia pet and chia tree or
+
+---------43:19----------
+available at Kmart Rite Aid Ames and
+
+---------43:21----------
+Woolworths makes a great gift
+

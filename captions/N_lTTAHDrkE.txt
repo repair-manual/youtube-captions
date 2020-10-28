@@ -1,0 +1,589 @@
+https://www.youtube.com/watch?v=N_lTTAHDrkE
+---------00:16----------
+I get a light in the charger but it's
+
+---------00:18----------
+dead this hey it's not dead I see a fan
+
+---------00:21----------
+spinning but then it turns off then
+
+---------00:27----------
+turns back on but then it turns off but
+
+---------00:35----------
+then it turns on all right let's see
+
+---------00:40----------
+what did you mess up so you replace the
+
+---------00:41----------
+battery and means something with Karen
+
+---------00:44----------
+sensing or battery charging circuitry
+
+---------00:46----------
+which is gonna be right in this area the
+
+---------00:48----------
+board the customer claims they changed
+
+---------00:50----------
+the battery and after that it was dead
+
+---------00:52----------
+changing the battery is gonna be
+
+---------00:54----------
+something to do with the battery
+
+---------00:55----------
+charging chip you 7000 u 7000 who's
+
+---------01:00----------
+responsible for charging the battery so
+
+---------01:01----------
+let's take a look at that chip on the
+
+---------01:03----------
+board okay it's got a little bit of food
+
+---------01:05----------
+on it nothing that I'm not used to so
+
+---------01:07----------
+the first thing we're gonna do here is
+
+---------01:08----------
+check the current sensing current
+
+---------01:10----------
+sensing is going to be between pins 27
+
+---------01:12----------
+and 28 pin 17 and 18 now the way this is
+
+---------01:14----------
+gonna work is that this is a stream this
+
+---------01:18----------
+is power coming in from the adapter and
+
+---------01:20----------
+think of this as a stream now this chip
+
+---------01:22----------
+which is gonna charge the battery and
+
+---------01:23----------
+control the charger it's gonna want to
+
+---------01:25----------
+know how much power is going through the
+
+---------01:27----------
+stream well you can't see how how fast
+
+---------01:30----------
+the water is moving around hard the
+
+---------01:32----------
+water is moving by looking at a stream
+
+---------01:34----------
+you have to put your hand in the water
+
+---------01:35----------
+so what's going on here is think of our
+
+---------01:38----------
+70 20 as the hand in the water and think
+
+---------01:41----------
+of the u 7000 like your your friend who
+
+---------01:43----------
+you want to tell how fast the water is
+
+---------01:45----------
+moving so what's gonna happen is the
+
+---------01:47----------
+voltage is going to go through our
+
+---------01:48----------
+seventy twenty there's gonna be a mount
+
+---------01:52----------
+a voltage drop through our 70 20 and
+
+---------01:54----------
+that teeny-tiny voltage drop is gonna
+
+---------01:56----------
+get measured by u 7000 which has a line
+
+---------02:00----------
+going to the top and the bottom of that
+
+---------02:02----------
+resistor the greater the voltage drop
+
+---------02:03----------
+the more current being used now there's
+
+---------02:05----------
+a 10 ohm resistor sitting in between
+
+---------02:07----------
+these 7000 chipset and this up here so
+
+---------02:12----------
+our 7022 is 10 ohms this is 0.02 ohms
+
+---------02:16----------
+and that's 10 ohms so my loop between
+
+---------02:17----------
+pinch 27 and 28 should be 20 point is
+
+---------02:21----------
+0-2 ohms
+
+---------02:23----------
+however let's see if we get on this
+
+---------02:25----------
+board my loop between those pins
+
+---------02:29----------
+according to my multimeter software is
+
+---------02:36----------
+20 ohms so no problem so now we're gonna
+
+---------02:39----------
+check the battery current sensing down
+
+---------02:41----------
+here that's gonna be a different loop
+
+---------02:43----------
+that's got a 2.2 ohm resistor is your
+
+---------02:45----------
+own resistor and 0.01 ohm resistor so my
+
+---------02:48----------
+total impedance of that circuit should
+
+---------02:50----------
+be two point two one ohms and let's see
+
+---------02:55----------
+if that's what we get over here
+
+---------03:01----------
+forty eight ohms what
+
+---------03:06----------
+that is way too many ohms all right so
+
+---------03:11----------
+there's a couple of possibilities here
+
+---------03:13----------
+behind door number one are 70 51 is
+
+---------03:17----------
+blown behind door number two are 70 52
+
+---------03:21----------
+is blown behind door number three are 70
+
+---------03:25----------
+50 is blown behind door number four the
+
+---------03:27----------
+traces between the ISL and the resistors
+
+---------03:30----------
+are blown so how are we gonna figure out
+
+---------03:32----------
+what that is well we're gonna do is use
+
+---------03:35----------
+Paul Daniels as software to find those
+
+---------03:37----------
+resistors and measure them individually
+
+---------03:39----------
+don't delay check out Paul Daniels at PL
+
+---------03:43----------
+Daniel's dot-com today so I'm gonna
+
+---------03:46----------
+right click on the software I'm gonna
+
+---------03:48----------
+click on our 70 51 and it's gonna show
+
+---------03:50----------
+me right where it is on the board view
+
+---------03:54----------
+we're gonna measure that resistor and
+
+---------03:56----------
+that resistor is fine it's 2.5 um it's
+
+---------04:03----------
+probably closer to 2 point 2 ohms the
+
+---------04:05----------
+reason that is is because the other
+
+---------04:07----------
+resistor is gonna be the one next to it
+
+---------04:09----------
+that's gonna be the blown one why cuz
+
+---------04:12----------
+that's the one that's under the damn
+
+---------04:13----------
+edge bonding and under fill' yay of
+
+---------04:16----------
+course it's gonna be that one that blows
+
+---------04:19----------
+it's an apple product it's always gonna
+
+---------04:21----------
+be the inconvenient resistor that blows
+
+---------04:23----------
+ah but what are you gonna do mother
+
+---------04:41----------
+I'm letting a current sense resistor
+
+---------04:43----------
+drive me nuts but do you guys understand
+
+---------04:46----------
+why it is I went for this even though it
+
+---------04:47----------
+looked good do you understand why this
+
+---------04:49----------
+was the circuit that I decided to spend
+
+---------04:51----------
+my time on think of the user description
+
+---------04:53----------
+this is something that happens all too
+
+---------04:54----------
+much in the forum that people are
+
+---------04:56----------
+ignoring they're ignoring the history of
+
+---------04:57----------
+the device you're like McNulty or Lennie
+
+---------04:59----------
+Briscoe are one of those people what was
+
+---------05:01----------
+the story what happened this is not
+
+---------05:02----------
+electronics repair this is not
+
+---------05:04----------
+engineering this is not physics this is
+
+---------05:06----------
+not chemistry this is not calculus
+
+---------05:08----------
+this is detective work I got a 70 in
+
+---------05:11----------
+almost all my classes in high school and
+
+---------05:13----------
+I had a cheat to get out of chemistry
+
+---------05:15----------
+with a 55 or 58 on my Regents and I can
+
+---------05:17----------
+still do this why detective work you
+
+---------05:20----------
+gotta see a whole picture I plugged in
+
+---------05:23----------
+the battery I up lucked in a new battery
+
+---------05:25----------
+when I plugged in my new battery which
+
+---------05:27----------
+they probably got off of Amazon cuz
+
+---------05:29----------
+they're a cheapskate and I could tell
+
+---------05:31----------
+that they're a cheapskate because
+
+---------05:32----------
+instead of buying a new cover they taped
+
+---------05:34----------
+their rubber pads the lid on a machine
+
+---------05:37----------
+where you can buy this bottom cover for
+
+---------05:39----------
+$20 on eBay with good pads why would you
+
+---------05:41----------
+do that unless you're cheap so they most
+
+---------05:43----------
+likely got some cheap-ass Amazon battery
+
+---------05:46----------
+for 10 or 20 bucks unlike those amazing
+
+---------05:48----------
+batteries that you can get on stored on
+
+---------05:50----------
+Rosman groov.com don't delay they won't
+
+---------05:52----------
+fry your current sensing circuitry today
+
+---------05:54----------
+maybe tomorrow but not today no I'm
+
+---------05:56----------
+kidding they're good batteries but my
+
+---------05:57----------
+point is cheap battery plugged in so
+
+---------05:59----------
+then that brings me to the battery
+
+---------06:01----------
+charging circuit and this is something
+
+---------06:02----------
+that you're probably not going to find
+
+---------06:03----------
+if you're just looking for what looks
+
+---------06:05----------
+bad because nothing here looks bad
+
+---------06:06----------
+there's nothing wrong with the section
+
+---------06:08----------
+of the board from a purely visual
+
+---------06:10----------
+standpoint so ice I go over to here and
+
+---------06:12----------
+I check the current sensing now I check
+
+---------06:14----------
+the current sensing on the charger and
+
+---------06:16----------
+it works I honestly kind of knew that
+
+---------06:17----------
+work before I even measured it cuz
+
+---------06:18----------
+that's not what was wrong the battery
+
+---------06:20----------
+current sensing circuit that's the one
+
+---------06:22----------
+that's gonna have the blown resistor and
+
+---------06:23----------
+there you go it's a mystery case it's a
+
+---------06:27----------
+mystery case and I solved the mystery
+
+---------06:30----------
+now do I get a burrito that tastes good
+
+---------06:31----------
+because I solved the mystery no it's not
+
+---------06:34----------
+fair my burrito okay but anyway let's
+
+---------06:40----------
+remove this yep that audio I see is
+
+---------06:43----------
+coming straight up off the board you
+
+---------06:45----------
+mother
+
+---------06:48----------
+breathe Louis breathe
+
+---------06:55----------
+got to practice my Lamaze breathing I
+
+---------06:58----------
+want to have kids someday so I should
+
+---------07:00----------
+practice my Lamaze breathing
+
+---------07:06----------
+all right so that's where it when it's
+
+---------07:08----------
+in place now I'd like to just make sure
+
+---------07:10----------
+it's pressed evenly onto the board I was
+
+---------07:12----------
+smart I'd leave well enough alone okay
+
+---------07:15----------
+you're good and next comes up the
+
+---------07:18----------
+resistor
+
+---------07:29----------
+then then we'll see if this worked and I
+
+---------07:31----------
+hope it did I really hope that it did if
+
+---------07:34----------
+any luck this did a this is gonna be a
+
+---------07:37----------
+beautiful board okay so let's see power
+
+---------07:45----------
+on
+
+---------07:48----------
+give me a chime dong yes that's what I
+
+---------07:54----------
+want to see an apple and a nice long
+
+---------07:56----------
+dong you always want a nice long dong
+
+---------08:00----------
+okay so now we're gonna plug the
+
+---------08:02----------
+original battery in and see if it
+
+---------08:04----------
+charges it am I asking too much there oh
+
+---------08:07----------
+look at that orange light can you see
+
+---------08:11----------
+that is it too light here
+
+---------08:12----------
+probably if to lower the ISO in the
+
+---------08:14----------
+camera for you to see that yeah let's
+
+---------08:19----------
+look can you see the orange light I
+
+---------08:21----------
+lowered the ISO a bunch
+
+---------08:23----------
+slow it a little more hey you guys see
+
+---------08:26----------
+that
+
+---------08:26----------
+that means we're charging so that is it
+
+---------08:31----------
+and we fixed our problem which is pretty
+
+---------08:37----------
+cool I like having a successful repair
+
+---------08:39----------
+and since I heard the Dom I know my
+
+---------08:43----------
+audio probably works
+
+---------08:44----------
+that's EQ I mean to see what that audio
+
+---------08:47----------
+IC was for q9 four to five it's actually
+
+---------08:51----------
+not for audio I was being a dumbass that
+
+---------08:54----------
+is actually for thunderbolt yep I'm dumb
+
+---------08:58----------
+that was not for audio that was
+
+---------08:59----------
+Thunderbolt I had it mixed up my bad
+
+---------09:01----------
+sorry about that so I'm sure that works
+
+---------09:05----------
+just fine so that's about it for that
+
+---------09:08----------
+board and awesome
+

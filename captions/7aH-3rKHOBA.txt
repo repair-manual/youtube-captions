@@ -1,0 +1,511 @@
+https://www.youtube.com/watch?v=7aH-3rKHOBA
+---------00:02----------
+hi so today we're gonna be going over
+
+---------00:04----------
+another board that was up by an
+
+---------00:06----------
+idiot I don't know if the board
+
+---------00:07----------
+necessarily was up by an idiot or
+
+---------00:09----------
+if the screen repair was up by an
+
+---------00:10----------
+idiot but the screen repair that was
+
+---------00:12----------
+ up by an idiot
+
+---------00:13----------
+most definitely caused a border pair to
+
+---------00:15----------
+be up so what we're gonna be
+
+---------00:16----------
+going over here is one of the things
+
+---------00:20----------
+risks that you take when you use the
+
+---------00:22----------
+wrong type of LCD connector for your
+
+---------00:24----------
+particular machine also I have very
+
+---------00:26----------
+little faith that this video will
+
+---------00:27----------
+actually be in sync because I am
+
+---------00:29----------
+rendering another video while I'm
+
+---------00:31----------
+recording this one so even though I set
+
+---------00:33----------
+it to only use one core for the
+
+---------00:35----------
+rendering and I put open broadcast at a
+
+---------00:38----------
+real-time priority let's face it this is
+
+---------00:40----------
+this is Windows and I'm multitasking
+
+---------00:42----------
+while doing real-time video recording so
+
+---------00:44----------
+I have very little faith that this will
+
+---------00:47----------
+work the way I want it to but let's see
+
+---------00:50----------
+this with any luck we actually have
+
+---------00:53----------
+video sync so let me just shrink myself
+
+---------00:55----------
+so that I can show you what's in the
+
+---------00:56----------
+microscope camera what have I done to
+
+---------00:59----------
+open broadcast yourself right come on
+
+---------01:01----------
+yeah go over here snap to the grid snap
+
+---------01:05----------
+to the grid very good okay so you're
+
+---------01:08----------
+gonna see over here is a sad little
+
+---------01:10----------
+ up mess let's turn the light down
+
+---------01:15----------
+so it's viewable properly so this is a
+
+---------01:16----------
+2012 LCD cable going into a 2011
+
+---------01:20----------
+connector and the thing is it is
+
+---------01:23----------
+possible to jerry-rig this to fit I've
+
+---------01:25----------
+mentioned it on I fix it a couple of
+
+---------01:27----------
+times that you can jerry-rig it to fit
+
+---------01:28----------
+but here's what happens when you don't
+
+---------01:30----------
+jerry-rigged it properly
+
+---------01:31----------
+see that little exploded [ __ ]
+
+---------01:34----------
+there let me show you what that's
+
+---------01:35----------
+supposed to look like on a board that
+
+---------01:36----------
+wasn't this by an idiot so it
+
+---------01:39----------
+will look something like this now what
+
+---------01:41----------
+we're missing on this other board are
+
+---------01:43----------
+you and you and let's just take a look
+
+---------01:49----------
+and keep in mind I have not added flux
+
+---------01:51----------
+here yet I have not done a damn thing
+
+---------01:53----------
+and it looks like that so not only did
+
+---------01:55----------
+this person who brought it in you know
+
+---------01:59----------
+who told me that it just randomly
+
+---------02:01----------
+stopped working not only was it
+
+---------02:02----------
+with by an idiot not only was the person
+
+---------02:04----------
+I was speaking to the idiot but they
+
+---------02:07----------
+also didn't tell me that they tried to
+
+---------02:10----------
+do anything to it before which means you
+
+---------02:13----------
+which means you get bottom of the pile
+
+---------02:17----------
+treatment from me yeah as saying you can
+
+---------02:21----------
+ up that's fine just don't lie about
+
+---------02:23----------
+it I mean like I'm charging you anyway
+
+---------02:25----------
+just keep this though just keep it in
+
+---------02:28----------
+mind same like Apple or it's like if it
+
+---------02:30----------
+dies for no reason it's free and if it
+
+---------02:32----------
+dies because of water at 700 bucks no my
+
+---------02:34----------
+rates are static I don't give a
+
+---------02:36----------
+what you did to it if it doesn't work I
+
+---------02:39----------
+really I really don't care I think I'm
+
+---------02:41----------
+gonna be charging you a static rate
+
+---------02:42----------
+based on what I do it has nothing to do
+
+---------02:45----------
+with how it died or what you did so you
+
+---------02:49----------
+know I'm gonna I'm gonna get the money
+
+---------02:50----------
+anyway so there's no reason to lie or
+
+---------02:53----------
+what the only thing that lying is going
+
+---------02:54----------
+to do is it's going to motivate me to
+
+---------02:57----------
+put your thing which I'm charging you're
+
+---------02:59----------
+gonna be by the way the same money as
+
+---------03:00----------
+everybody else I'm just gonna take it
+
+---------03:01----------
+from this point of the pile and it's
+
+---------03:03----------
+gonna go like to the bottom of the pile
+
+---------03:04----------
+and that's that's that so let's try to
+
+---------03:07----------
+see if we can even see if there's any
+
+---------03:10----------
+place that we can attach this stuff to
+
+---------03:13----------
+anymore so those two things that failed
+
+---------03:15----------
+we're just gonna go over here onto the
+
+---------03:17----------
+board view I'll show you okay so these
+
+---------03:20----------
+are the two things that are missing so
+
+---------03:22----------
+we got cl9 0 0 4 ml 9 0 0 8 now online 0
+
+---------03:30----------
+0 4 doesn't even really look like it has
+
+---------03:31----------
+pins for anything anymore well it's yeah
+
+---------03:37----------
+that looks pretty cool on the screen
+
+---------03:39----------
+right now so l9 0 0 4 + l 9 0 0 8 ok l 9
+
+---------03:52----------
+0 0 4 comes from the u 9000 chip over
+
+---------03:56----------
+here which tells which is the 3.3 volts
+
+---------03:59----------
+to get the screen turning on and l 9 0 0
+
+---------04:02----------
+8 is going to pin 4 which is a different
+
+---------04:07----------
+3 volt rail for the LCD okay so how are
+
+---------04:13----------
+we going to structure this
+
+---------04:23----------
+well there's still pull-up resistors
+
+---------04:25----------
+therefore the data line so let's see so
+
+---------04:27----------
+online zero zero eight is gonna be L
+
+---------04:34----------
+nine zero zero eight is this thing nine
+
+---------04:36----------
+zero zero four is this thing so the L
+
+---------04:38----------
+nine zero zero four I think is the one
+
+---------04:39----------
+that's really gonna be beyond hope here
+
+---------04:41----------
+so let's just bring the microscope back
+
+---------04:43----------
+up yeah so this is L nine zero zero for
+
+---------04:48----------
+this line along here that's the
+
+---------04:54----------
+that really looks like it's it's beyond
+
+---------04:56----------
+hope ándale nine zero zero eight is the
+
+---------05:00----------
+one over here which is not not beyond
+
+---------05:02----------
+hope at all
+
+---------05:02----------
+so let's get to soldering and see what
+
+---------05:04----------
+we can do shall we fix this another
+
+---------05:08----------
+ up DIY mess now somebody I know
+
+---------05:12----------
+he's a he's really smart with this he
+
+---------05:15----------
+says you know can you really blame the
+
+---------05:17----------
+fact that all you get are up
+
+---------05:18----------
+messes from other repair shops and
+
+---------05:20----------
+do-it-yourself people F I can't you
+
+---------05:22----------
+blame anybody but yourself with this
+
+---------05:23----------
+channel and it he's kind of trolling but
+
+---------05:25----------
+it is the truth I mean like I mean easy
+
+---------05:28----------
+jobs rest in peace I mean this this is
+
+---------05:31----------
+the consequence of giving people
+
+---------05:32----------
+knowledge it's yeah that they will do it
+
+---------05:38----------
+and if and nothing nothing is simple
+
+---------05:42----------
+anymore no no this is what said no easy
+
+---------05:49----------
+jobs just up messes so what are
+
+---------05:54----------
+we gonna do it here
+
+---------06:19----------
+this is gonna be the easy one no
+
+---------06:22----------
+something tells me you something around
+
+---------06:23----------
+the you 7000 you 9000 area is not gonna
+
+---------06:28----------
+work the way it's supposed to dance that
+
+---------06:41----------
+was really that's like a clean break
+
+---------06:43----------
+right there again this is what it's
+
+---------06:44----------
+supposed to look like in a working one
+
+---------06:46----------
+just to is just gone
+
+---------07:08----------
+now the 3-volt the thing is this is most
+
+---------07:11----------
+of the minute idiot who really left this
+
+---------07:12----------
+let this sit here because here's the
+
+---------07:14----------
+thing you got to know about the PP 3v3
+
+---------07:16----------
+that's a power supply that you can
+
+---------07:18----------
+actually short to ground you know to
+
+---------07:20----------
+smoke it's not gonna blow up immediately
+
+---------07:22----------
+P P 3 V 3 is not going to just you know
+
+---------07:25----------
+blow up and the power supply doesn't
+
+---------07:26----------
+work it'll smoke for a while so you got
+
+---------07:29----------
+a lead you know this this must have been
+
+---------07:31----------
+left smoking for a good period of time
+
+---------09:38----------
+okay let's see if there's progress or
+
+---------09:43----------
+smoke what do you think is gonna be
+
+---------09:45----------
+progress for smoke
+
+---------10:12----------
+look what you did to your LCD jackass
+
+---------10:16----------
+yeah sad
+
+---------10:20----------
+okay well Boyd repair I'm done this is
+
+---------10:27----------
+where this goes back to the
+
+---------10:29----------
+do-it-yourselfer and I go have fun
+
+---------10:32----------
+and again do-it-yourselfer that failed
+
+---------10:34----------
+and brought it totally cool with that
+
+---------10:36----------
+and I don't prefer working on them but
+
+---------10:39----------
+you know I get it
+
+---------10:40----------
+do-it-yourselfer that lied blame
+
+---------10:43----------
+somebody else in addition to blaming
+
+---------10:45----------
+somebody else also lied to me about the
+
+---------10:46----------
+history of everything and went above and
+
+---------10:48----------
+beyond to as we questioned yeah done and
+
+---------10:54----------
+that's about that you're on your own as
+
+---------10:59----------
+soon as you lie
+

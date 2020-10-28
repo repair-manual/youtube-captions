@@ -1,0 +1,925 @@
+https://www.youtube.com/watch?v=a67p6pziKz8
+---------00:00----------
+all right so today we're going to be
+
+---------00:01----------
+going over a MacBook Air board that is
+
+---------00:03----------
+dead
+
+---------00:03----------
+this was outsourced to me by some other
+
+---------00:05----------
+store and we're just going to try and
+
+---------00:07----------
+figure out what's wrong with it so this
+
+---------00:09----------
+is a little bit of liquid damage so
+
+---------00:11----------
+let's see if we can find a liquid damage
+
+---------00:12----------
+now usually other stores will clean the
+
+---------00:14----------
+board off but let's see if the same is
+
+---------00:16----------
+true with this one so we're gonna go
+
+---------00:18----------
+over and you tell me when you find the
+
+---------00:21----------
+liquid so first thing I got to do is get
+
+---------00:23----------
+the camera in focus here cuz it this is
+
+---------00:25----------
+very out of focus
+
+---------00:27----------
+Jason touch my camera man yeah but Jason
+
+---------00:33----------
+is my new scapegoat for everything do
+
+---------00:36----------
+you have somebody that you like to blame
+
+---------00:37----------
+for everything okay so here we go a
+
+---------00:39----------
+little bit of junk but this is around
+
+---------00:41----------
+the CPU area I really and that's that's
+
+---------00:45----------
+not important which nades right now it's
+
+---------00:47----------
+dead so 12 volts of the CPU is not the
+
+---------00:49----------
+most important thing huh hmm right by
+
+---------00:54----------
+the jtag connector we have something so
+
+---------00:57----------
+we're just going to continue down the
+
+---------00:58----------
+line here we have a little bit by the pp
+
+---------01:00----------
+3 V 4 2 circ this is for creating pp 3 V
+
+---------01:03----------
+4 2 to turn it around you let me know
+
+---------01:13----------
+and you see any liquid people through
+
+---------01:16----------
+your monitor yeah that's Sonny here with
+
+---------01:23----------
+us today
+
+---------01:26----------
+AHA and some liquid over here so I'm
+
+---------01:30----------
+going to start by just showing you that
+
+---------01:33----------
+this doesn't work MagSafe see dead now
+
+---------01:43----------
+we're going to do here you can remove
+
+---------01:46----------
+this little jtag connector so this is a
+
+---------01:48----------
+connector that allows you to I imagine
+
+---------01:50----------
+to program the BIOS and check several
+
+---------01:53----------
+voltages on the machine without actually
+
+---------01:56----------
+having a you know probe every single
+
+---------01:58----------
+individual point alright so we're going
+
+---------02:00----------
+to remove this
+
+---------02:03----------
+pre-heat the board
+
+---------02:16----------
+and let's answer the phone while
+
+---------02:18----------
+preheating the board how can I help you
+
+---------02:33----------
+well the thing is with the unresponsive
+
+---------02:36----------
+to touch that could be a touch I see on
+
+---------02:38----------
+the on the motherboard of the phone and
+
+---------02:39----------
+Apple is actually getting there's a
+
+---------02:41----------
+class-action lawsuit against them right
+
+---------02:43----------
+now so you end up waiting a week or two
+
+---------02:44----------
+you might actually be able to get that
+
+---------02:46----------
+fixed for free
+
+---------02:52----------
+you're welcome have a nice day there
+
+---------02:57----------
+were two calls at the same time the
+
+---------02:58----------
+other one is what requires looking up
+
+---------03:00----------
+status so there's no way in hell I'm
+
+---------03:01----------
+doing that while moving a connector so
+
+---------03:08----------
+we're going to remove the connector yeah
+
+---------03:12----------
+actually those resistors are worthless
+
+---------03:13----------
+is there going to the they're going
+
+---------03:16----------
+termination resistors on the jtag
+
+---------03:17----------
+connector right
+
+---------03:40----------
+every time I tell people that touch I
+
+---------03:42----------
+see is 200 bucks they lose their [ __ ]
+
+---------03:44----------
+mind but there's so much [ __ ] that can
+
+---------03:45----------
+go wrong while doing that yeah I'm not
+
+---------03:50----------
+gonna do what are you doing it for sunny
+
+---------03:55----------
+$85 to Jess's Desiree surprise from 150
+
+---------04:04----------
+to 200 you're doing right so what do you
+
+---------04:07----------
+do if like their flash doesn't work or
+
+---------04:08----------
+some [ __ ] like that when you're done or
+
+---------04:10----------
+no backlight the whole phone or just the
+
+---------04:17----------
+your Chinese guy works for pennies my
+
+---------04:20----------
+Chinese guy works for more than pennies
+
+---------04:23----------
+why do I have a Chinese guy that demands
+
+---------04:25----------
+real money but you have a Chinese guy
+
+---------04:27----------
+that works for almost free 289 that's
+
+---------04:33----------
+what I like to hear all right
+
+---------04:48----------
+Shazaam
+
+---------04:51----------
+um
+
+---------04:53----------
+okay now we have to eat problem number
+
+---------04:56----------
+one [ __ ] sob
+
+---------04:57----------
+alright now problem number two why are
+
+---------05:00----------
+you dead okay we're still not we're not
+
+---------05:04----------
+out of the woods yet sunny you got it
+
+---------05:08----------
+what the [ __ ] is this
+
+---------05:19----------
+let's see all right so now if we look
+
+---------05:22----------
+over to the schematic let's make a
+
+---------05:25----------
+little quieter we look over to the
+
+---------05:27----------
+schematic this is what we see so this is
+
+---------05:31----------
+what that little corroded piece is for
+
+---------05:33----------
+so it's supposed to take PP 3 V 3 sus in
+
+---------05:35----------
+and then give us PP 1 vo5 suss out so
+
+---------05:39----------
+let's just take some measurements and
+
+---------05:40----------
+see what we're getting so what I'm
+
+---------05:41----------
+interested in most uh first and foremost
+
+---------05:43----------
+here is what's on pin 1 are we getting
+
+---------05:45----------
+output
+
+---------05:46----------
+let's move the multimeter into view i-is
+
+---------05:51----------
+sustains suspendu [ __ ] nah I mean I
+
+---------05:54----------
+should know that it's embarrassing I
+
+---------05:55----------
+don't know that but I don't and so oh
+
+---------05:57----------
+well I I just I have no idea do you know
+
+---------06:02----------
+what it means
+
+---------06:02----------
+it's either suspend or what was the
+
+---------06:07----------
+first thing I said it was suspending
+
+---------06:09----------
+something else that I guessed suspend or
+
+---------06:11----------
+it can't be sleep this su it starts with
+
+---------06:13----------
+s us alright so on pin one I get one
+
+---------06:21----------
+point zero five
+
+---------06:22----------
+all right so even though this corrosion
+
+---------06:23----------
+over here it's not that hmm what could
+
+---------06:29----------
+it be we're missing something I know
+
+---------06:32----------
+that's corroded but I can't be I can't
+
+---------06:34----------
+care because it's not important so we're
+
+---------06:39----------
+all right let's see PP bus g3 hot is
+
+---------06:43----------
+obviously there PPV RTC g3 ah'd for the
+
+---------06:50----------
+clock is there hmm pp 5vs5 it's there is
+
+---------07:02----------
+p.m. sleep s for all the one that's
+
+---------07:04----------
+missing please don't tell me p.m. sleep
+
+---------07:06----------
+s4l is missing I hate when that one's
+
+---------07:08----------
+missing I know it's such a [ __ ] piece
+
+---------07:12----------
+of [ __ ] I hate it ok it's where are you
+
+---------07:20----------
+I should know where this is because I I
+
+---------07:23----------
+always look it up and want to cry
+
+---------07:28----------
+p.m. sleep as for Ella's you mother
+
+---------07:31----------
+[ __ ] piece yeah [ __ ] you
+
+---------07:35----------
+Hey p.m. sleep s4l why do you do this to
+
+---------07:39----------
+me why huh okay let's yeah is SMC reset
+
+---------07:51----------
+there
+
+---------07:58----------
+it's SMC reset present yes you are
+
+---------08:05----------
+I bet the ultrasonic will fix this it
+
+---------08:10----------
+has this random corrosion and these
+
+---------08:11----------
+random areas that it is makes me wonder
+
+---------08:17----------
+wait a second somebody [ __ ] with this
+
+---------08:20----------
+did you [ __ ] with this yeah you did you
+
+---------08:24----------
+[ __ ] with this look at this what the why
+
+---------08:26----------
+what is this what the [ __ ] is this what
+
+---------08:32----------
+[ __ ] the corrosion near the CPU what is
+
+---------08:35----------
+this what did you replace ah this look
+
+---------08:41----------
+it was soldered before poorly soldered
+
+---------08:45----------
+before this doesn't matter this is this
+
+---------08:47----------
+is it this is [ __ ] irrelevant oh it's
+
+---------08:49----------
+not even this is pp bus g3 hot it's not
+
+---------08:53----------
+people it's pp bus g3 hot after a
+
+---------08:55----------
+current sensing resistor so if this was
+
+---------08:58----------
+short it's a ground that nothing else
+
+---------08:59----------
+would even work so there that's [ __ ]
+
+---------09:01----------
+irrelevant now it doesn't mean that
+
+---------09:02----------
+something could have gotten to the CPU
+
+---------09:03----------
+but my ultrasonic is not hot enough yet
+
+---------09:07----------
+to clean that so what what is this what
+
+---------09:10----------
+does this thing do and why the [ __ ] did
+
+---------09:12----------
+you touch a head ah yeah why the [ __ ]
+
+---------09:22----------
+you soldering [ __ ] before you even
+
+---------09:23----------
+[ __ ] alright so this is for a
+
+---------09:26----------
+DDR which is an s3 rail which I don't
+
+---------09:29----------
+care about because I don't even have PP
+
+---------09:30----------
+p.m. sleep s4 Elliot but I don't
+
+---------09:34----------
+understand why would you why would you
+
+---------09:35----------
+replace something when you still of the
+
+---------09:37----------
+corrosion all over the board you don't
+
+---------09:39----------
+even have a green light yeah they're
+
+---------09:41----------
+just that [ __ ] good maybe they were
+
+---------09:43----------
+maybe they were thinking ahead of me
+
+---------09:44----------
+maybe they knew they knew something we
+
+---------09:45----------
+both don't know Sonny I don't this kills
+
+---------09:49----------
+me this came from a [ __ ] store
+
+---------09:56----------
+why okay q 74 30
+
+---------10:05----------
+q 74 30 so you're the two MOSFETs for
+
+---------10:10----------
+creation of P P 1 V 2 underscore s 3
+
+---------10:18----------
+this is this is this can't this is odd
+
+---------10:21----------
+ah so PP 5vs5 it turns into P P 1 V 2 s
+
+---------10:26----------
+3 yeah so this is Q 74 30 the thing that
+
+---------10:35----------
+was [ __ ] with kind of that wondering
+
+---------10:38----------
+if an ultrasonic will do it I have a
+
+---------10:40----------
+feeling after I ultrasonic it's not
+
+---------10:41----------
+going to have P P 1 V 2 s 3 comma nuts
+
+---------10:43----------
+but hmm let's see if we flex around some
+
+---------10:49----------
+of these parts and hot air if we get
+
+---------10:51----------
+anything
+
+---------11:07----------
+stuff to worry about is that if the 3.3
+
+---------11:10----------
+volts went were 1.5 volts is supposed to
+
+---------11:12----------
+go that's no good because of that nasty
+
+---------11:14----------
+regulator on the other side of the board
+
+---------11:29----------
+you really do touch I see for 89 bucks
+
+---------11:32----------
+honey I can't believe you
+
+---------12:07----------
+I'm getting solder on the coil then
+
+---------12:29----------
+whoa I wish that was on camera this
+
+---------12:34----------
+thing is that this did this yeah but
+
+---------12:36----------
+it's that it's in the microscope you
+
+---------12:38----------
+didn't see that the JBC just attacked
+
+---------12:40----------
+sunny you know the thing always falls
+
+---------12:42----------
+out I think I showed you in one of the
+
+---------12:43----------
+earlier videos maybe a few days ago or
+
+---------12:46----------
+last week but the JBC just attacked
+
+---------12:49----------
+sunny because he's sitting right in
+
+---------12:51----------
+front of it that's exactly what you want
+
+---------12:53----------
+450 Celsius of hot air on your dick that
+
+---------12:57----------
+that's that's a great way to start your
+
+---------12:58----------
+Sunday afternoon right
+
+---------13:14----------
+all right soon to be ultra sonicing time
+
+---------13:16----------
+cool that off I can't because I broke it
+
+---------13:20----------
+at a frustration from it constantly
+
+---------13:22----------
+falling
+
+---------13:32----------
+okay so I wonder if it's supposed to
+
+---------13:37----------
+turn on by itself I'm also wondering how
+
+---------13:38----------
+important are those two resistors that I
+
+---------13:40----------
+removed thinking they're not important
+
+---------13:42----------
+without looking them up that would be
+
+---------13:44----------
+funny if they are important let's see
+
+---------13:48----------
+what did you removed um them right our
+
+---------13:52----------
+sixty one twenty seven and our sixty one
+
+---------13:54----------
+twenty two
+
+---------13:54----------
+our sixty one two - yeah but that's
+
+---------13:59----------
+going between I think that's going to
+
+---------14:02----------
+the to the connector wait no it's not
+
+---------14:05----------
+that that that's not going to the
+
+---------14:07----------
+connector that's going straight to the
+
+---------14:09----------
+you mama [ __ ] it alright so I
+
+---------14:12----------
+actually did fix it by just removing the
+
+---------14:14----------
+connect why did I take those yeah we got
+
+---------14:19----------
+to cut all that out we got to edit that
+
+---------14:20----------
+son you're gonna it's called YouTube
+
+---------14:23----------
+magic we're going to make so this this
+
+---------14:27----------
+board really just needed for me to
+
+---------14:29----------
+remove the connector let's see I why
+
+---------14:34----------
+would you replace the transistor
+
+---------14:35----------
+required for DDR before removing the
+
+---------14:38----------
+corrosion that's on the connector that
+
+---------14:40----------
+gets used for everything I thought these
+
+---------14:45----------
+were going straight to the connector my
+
+---------14:47----------
+bad
+
+---------14:48----------
+that is dumb but still I'll still put
+
+---------14:53----------
+that ahead of not removing the damn
+
+---------14:55----------
+corrosion
+
+---------14:59----------
+duh
+
+---------15:14----------
+89 bucks for touch I see sunny
+
+---------15:33----------
+yeah so this was literally fixed by
+
+---------15:35----------
+removing the connector
+
+---------15:45----------
+this was fixed by removing the [ __ ]
+
+---------15:47----------
+connector huh let's plug it in so you
+
+---------15:50----------
+can see the fan permanently spin yeah
+
+---------15:59----------
+yeah he fixed the DDR circuit and he
+
+---------16:02----------
+left he left the corrosion on so it made
+
+---------16:05----------
+for a decent video after he did all the
+
+---------16:09----------
+heavy lifting there's still pain oh well
+
+---------16:20----------
+let's go over why that connector is so
+
+---------16:22----------
+important you have PP 3 V 4 2 which is
+
+---------16:28----------
+the power required for the SMC
+
+---------16:30----------
+and the 1 wire circuit oh you have PP 5
+
+---------16:33----------
+vs o required for everything you have
+
+---------16:36----------
+the BIOS you have the SMC reset signals
+
+---------16:38----------
+you have the SMC mode signals everything
+
+---------16:41----------
+that's important is right here so if you
+
+---------16:44----------
+were to drop water on any single part
+
+---------16:46----------
+this is the worst because like think
+
+---------16:49----------
+about electing stab like if you get
+
+---------16:50----------
+stabbed in the arm out but you'll still
+
+---------16:52----------
+be alive you get stabbed in the knee
+
+---------16:54----------
+okay you can't walk but you're still
+
+---------16:55----------
+alive if you wanted to kill somebody and
+
+---------16:57----------
+you wanted to [ __ ] them up in the worst
+
+---------16:58----------
+possible way like you stabbed them in
+
+---------17:00----------
+the brain because there's nowhere in the
+
+---------17:02----------
+brain where you can just get stabbed and
+
+---------17:03----------
+Bo lets thing like let's do complex
+
+---------17:06----------
+physics today it's just your use you're
+
+---------17:08----------
+screwed this is pretty much every single
+
+---------17:11----------
+important part of the machine in this
+
+---------17:13----------
+tiny little spot so when you get
+
+---------17:14----------
+something on there it screws everything
+
+---------17:17----------
+up and there are so many people and I
+
+---------17:18----------
+used to have somebody who worked you
+
+---------17:19----------
+that if you saw corrosion there we go oh
+
+---------17:21----------
+well that can't be at the thought that's
+
+---------17:22----------
+just that that doesn't go to anything
+
+---------17:24----------
+nothing even plugs into there everything
+
+---------17:26----------
+plugs into there so it's something to
+
+---------17:28----------
+think about because this person's paying
+
+---------17:30----------
+225 bucks for me to remove a connector
+
+---------17:33----------
+and yeah
+
+---------17:36----------
+well I'm not gonna reattach it would you
+
+---------17:39----------
+reattach it I'm gonna alter sonicate
+
+---------17:43----------
+okay you know I'm not gonna be a total
+
+---------17:45----------
+dick partial what would you do Sonny
+
+---------17:50----------
+Sonny would charge 87 bucks for it
+
+---------17:55----------
+I didn't know 87 for a touch I see yeah
+
+---------17:59----------
+like 12 minutes all right
+
+---------18:02----------
+taking the phone why I don't even get
+
+---------18:07----------
+that message you should lower your price
+
+---------18:12----------
+to 30 how much do you pay this Chinese
+
+---------18:15----------
+guy semi is it an amount that if you set
+
+---------18:19----------
+it on camera that you would get arrested
+
+---------18:21----------
+I'm paying him why he's happy so what do
+
+---------18:28----------
+you think Jason would be happy with but
+
+---------18:34----------
+what do you think like if you wanted to
+
+---------18:37----------
+like move closer to the simple Mack
+
+---------18:40----------
+model but what I need to make him happy
+
+---------18:49----------
+I'll put a sign up that says 80 $80
+
+---------18:51----------
+touch ICS will compete my Chinese person
+
+---------18:55----------
+versus your Chinese person the cheaper
+
+---------19:01----------
+ones like 250 bucks this one $700 you
+
+---------19:04----------
+don't need that absolutely and that's it
+
+---------19:11----------
+for today and as always I hope you
+
+---------19:13----------
+learned something
+

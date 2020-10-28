@@ -1,0 +1,1927 @@
+https://www.youtube.com/watch?v=ZkgrxuKThOI
+---------00:00----------
+hi so today I'm gonna be going over an
+
+---------00:01----------
+eight to zero thirty four seventy six
+
+---------00:03----------
+retina it's not seeing the keyboard or
+
+---------00:05----------
+the mouse and I'm gonna be going over it
+
+---------00:07----------
+using a test housing since this customer
+
+---------00:08----------
+sent the board in with nothing else
+
+---------00:10----------
+attached to it so the board was sent in
+
+---------00:12----------
+board only these are usually a nightmare
+
+---------00:14----------
+because there's usually more problems
+
+---------00:16----------
+with them then on the actual machine and
+
+---------00:18----------
+you can gain you can bet your ass that
+
+---------00:20----------
+if something usually killed the keyboard
+
+---------00:22----------
+circuitry on the machine that the
+
+---------00:23----------
+keyboard and the mouse itself especially
+
+---------00:25----------
+when it comes to liquid is gonna be
+
+---------00:27----------
+something else wrong there but we'll get
+
+---------00:28----------
+to that part later right now let's just
+
+---------00:30----------
+focus on this you may also notice I'm
+
+---------00:31----------
+back to my old microphone the forty
+
+---------00:33----------
+sixty six is not working at the moment
+
+---------00:36----------
+I'm gonna figure that thing out just on
+
+---------00:38----------
+principle because that's a $650
+
+---------00:41----------
+microphone but yes I'm gonna be using
+
+---------00:43----------
+this until I figure that out it could be
+
+---------00:45----------
+a cabling issue it could be a somethin
+
+---------00:48----------
+issue it could be a you know it traveled
+
+---------00:50----------
+across the world bent in a box issue you
+
+---------00:52----------
+never really know but technology is
+
+---------00:54----------
+technology
+
+---------00:54----------
+I always keep my old stuff around
+
+---------00:56----------
+because as I say all the time I have no
+
+---------00:58----------
+trust for most technology so I turn this
+
+---------01:00----------
+thing on on the first thing that I did
+
+---------01:01----------
+is I tried to hold down option so that I
+
+---------01:03----------
+could confirm the customer problem on a
+
+---------01:05----------
+known working keyboard this is a test
+
+---------01:07----------
+housing this is one of my own machines
+
+---------01:09----------
+it's a little beat-up so I can't really
+
+---------01:11----------
+get much out of it if I try to sell it
+
+---------01:13----------
+or use it on the customer so as a result
+
+---------01:15----------
+I just use it for testing these when
+
+---------01:16----------
+they come in board only and I know that
+
+---------01:19----------
+the option key works none of the option
+
+---------01:20----------
+keys work on this so what we're gonna
+
+---------01:22----------
+start doing is troubleshooting first
+
+---------01:24----------
+thing let's let's just try to get an
+
+---------01:26----------
+idea of what's going on at the keyboard
+
+---------01:27----------
+circuit level so let's just switch over
+
+---------01:29----------
+to the screen capture over here and I'm
+
+---------01:32----------
+gonna go to the screen capture where is
+
+---------01:34----------
+keyboard alright so here we go so the
+
+---------01:36----------
+keyboard let's go to the board view for
+
+---------01:38----------
+a second now the keyboard is gonna plug
+
+---------01:40----------
+in over here at j48 13 so on the board
+
+---------01:42----------
+view that's where the keyboard plugs in
+
+---------01:44----------
+is j48 13 now let's go over to the PDF
+
+---------01:50----------
+and j48 13 j48 13 is actually right over
+
+---------01:54----------
+here on the page so now as you can see
+
+---------01:56----------
+in addition to this having connections
+
+---------01:58----------
+between a USB controller which is going
+
+---------02:00----------
+to pick the keyboard signal up and send
+
+---------02:01----------
+it to the CPU as a USB signal we also
+
+---------02:05----------
+have power rails going to the keyboard
+
+---------02:06----------
+so P P 3 P 3 s 4 and also a P P 3 V 4 to
+
+---------02:09----------
+underscore g3 hot over here see those
+
+---------02:11----------
+let me just get rid of my head because
+
+---------02:12----------
+that may be in the
+
+---------02:14----------
+I didn't want my head to be over there
+
+---------02:15----------
+I'm at glad I had this open broadcaster
+
+---------02:18----------
+monitor up here so right up here what
+
+---------02:19----------
+you can't see I took this extra really
+
+---------02:22----------
+really really crappy 1600 by 900 TN
+
+---------02:25----------
+screen Acer $80.00 piece of crap monitor
+
+---------02:28----------
+that I was never using for anything and
+
+---------02:29----------
+I'm just using it as an open broadcaster
+
+---------02:31----------
+screen
+
+---------02:31----------
+I don't need great quality I just like
+
+---------02:32----------
+being able to see what's up there I've
+
+---------02:34----------
+actually done videos where I had the
+
+---------02:35----------
+wind up deleting it because I was in the
+
+---------02:38----------
+microscope the whole time and I was
+
+---------02:39----------
+talking or I wish I wanted to show you
+
+---------02:41----------
+some of the microscope but I was
+
+---------02:42----------
+actually on the screen capture and it's
+
+---------02:43----------
+just nice to be able to see that out in
+
+---------02:44----------
+real time
+
+---------02:45----------
+anyway so back to here so you can see
+
+---------02:47----------
+that we have P P 3 B 3 as for MP p3 p4 2
+
+---------02:50----------
+going to the keyboard connector so this
+
+---------02:52----------
+is supposed to be 3.3 volts and that's
+
+---------02:53----------
+supposed to be three point 42 volts so
+
+---------02:55----------
+I'm gonna go on the microscope camera
+
+---------02:56----------
+right now because I don't want to short
+
+---------02:58----------
+these pins it's really really easy to
+
+---------03:00----------
+short these pins and it's very in again
+
+---------03:02----------
+if you short let's say P P 3 P 4 to the
+
+---------03:04----------
+ground on a pin you bet your ass that
+
+---------03:05----------
+pin is going to get really destroyed now
+
+---------03:08----------
+I want to do that to this board this
+
+---------03:10----------
+board is marked urgent by a company that
+
+---------03:11----------
+sends them in for for border pairs or
+
+---------03:14----------
+they send out all the spill damaged ones
+
+---------03:15----------
+that they can't figure out here so let's
+
+---------03:18----------
+see if we can figure this out it is
+
+---------03:19----------
+Labor Day weekend but I still like to
+
+---------03:22----------
+try to keep fast turnaround if you what
+
+---------03:24----------
+you have sent me is not a [ __ ] so
+
+---------03:26----------
+let's see so on this pin over here I'm
+
+---------03:28----------
+supposed to get three point three I get
+
+---------03:30----------
+two point two and over here I'm supposed
+
+---------03:33----------
+to get 3.42 I get actually 3.42 is on
+
+---------03:38----------
+pin four on the other side so let's go
+
+---------03:39----------
+over here
+
+---------03:40----------
+so 3.42 is gonna be one two three see
+
+---------03:44----------
+these people whoever designed this board
+
+---------03:46----------
+I mean I hate a lot of things about it
+
+---------03:47----------
+but see how they have these little nooks
+
+---------03:48----------
+it actually gives me space to put my
+
+---------03:50----------
+multimeter when I'm measuring for power
+
+---------03:52----------
+rails as you gotta admit is pretty cool
+
+---------03:55----------
+see that so I don't worry about one
+
+---------03:56----------
+shorting to the other I put my
+
+---------03:57----------
+multimeter probe inside there and then I
+
+---------03:59----------
+do that so what I'm getting right there
+
+---------04:01----------
+is three point four so P B 3 B 4 PP 3 B
+
+---------04:04----------
+3 S 4 is missing on my board so now what
+
+---------04:06----------
+I want to do is I want to try to I want
+
+---------04:08----------
+to trace around and figure out why PP 3
+
+---------04:10----------
+B 3 S 4 is missing on my board so let's
+
+---------04:12----------
+go back to the board view software here
+
+---------04:14----------
+I mean the schematic let's zoom in let's
+
+---------04:16----------
+find out where PP 3 V 3 S 4 starts so
+
+---------04:19----------
+one of the things I tell a lot of people
+
+---------04:20----------
+who are new to this what you want to do
+
+---------04:22----------
+is you want to check where the circuit
+
+---------04:23----------
+starts and then you also want to check
+
+---------04:25----------
+where the circuit ends so we're gonna
+
+---------04:27----------
+check P P
+
+---------04:27----------
+tv3 as for at the end so at the end was
+
+---------04:30----------
+right by the keyboard connector we're
+
+---------04:32----------
+missing it there now I want to see where
+
+---------04:34----------
+it starts yeah I don't want to see
+
+---------04:35----------
+myself go away so let's figure out where
+
+---------04:38----------
+P P 3 V 3 S 4 is created instead of
+
+---------04:41----------
+going through the entire circuit and
+
+---------04:42----------
+checking every single little thing as we
+
+---------04:44----------
+go again that can take a long long time
+
+---------04:46----------
+so again here's what I'm like here's
+
+---------04:48----------
+what I'm saying with that start an
+
+---------04:49----------
+ending
+
+---------04:50----------
+let's say this is the end this is the
+
+---------04:51----------
+keyboard connector and this is where P P
+
+---------04:53----------
+P 3 S 4 is created if you go okay where
+
+---------04:54----------
+does that come from okay where does that
+
+---------04:55----------
+come from okay where does that come from
+
+---------04:56----------
+okay where does that come from
+
+---------04:57----------
+okay where does that come from you've
+
+---------04:58----------
+measured five things that you wouldn't
+
+---------05:00----------
+have had a measure if you figured out
+
+---------05:01----------
+right at the beginning of something
+
+---------05:02----------
+wrong and the same goes if you start at
+
+---------05:05----------
+the start and then you go all the way to
+
+---------05:06----------
+the end again what you want to do is you
+
+---------05:07----------
+wanna I do here then here then here then
+
+---------05:10----------
+here then here then here so the problem
+
+---------05:12----------
+is on one end of the spectrum if it's at
+
+---------05:15----------
+the beginning of the circuit at the end
+
+---------05:16----------
+of the circuit I don't have to make a
+
+---------05:17----------
+journey all the way from the end to the
+
+---------05:18----------
+beginning just to figure that out so
+
+---------05:20----------
+let's take a look at that so again let's
+
+---------05:22----------
+go back to here that's a really
+
+---------05:25----------
+important concept if you want to stay on
+
+---------05:26----------
+this 20 minute rule again a lot of
+
+---------05:27----------
+people think my 20 minute rule is
+
+---------05:28----------
+ but when it comes went of the
+
+---------05:31----------
+board's I feel like 90% the ones that I
+
+---------05:32----------
+work on I'm sticking to that 20 minute
+
+---------05:34----------
+rule and I'm not just saying that for
+
+---------05:35----------
+backlight fuses and connectors I mean
+
+---------05:37----------
+for complex problems I like to stick to
+
+---------05:38----------
+that rule
+
+---------05:39----------
+so you 8,000 is where p b3 b3 s5 is
+
+---------05:42----------
+gonna be turned to the PP 3 b3 s 4 and
+
+---------05:44----------
+that's also gonna be going through this
+
+---------05:46----------
+little what appears to be a current
+
+---------05:48----------
+sensing resistor so let's just see
+
+---------05:49----------
+what's going on in the u 8,000 area so
+
+---------05:51----------
+I'm gonna go over to you 8,000 and let's
+
+---------05:54----------
+see what's going on in the u 8,000 area
+
+---------05:56----------
+so of course the board is flipping and I
+
+---------05:59----------
+got it oh my god how the am I
+
+---------06:05----------
+supposed to measure anything on that
+
+---------06:06----------
+piece of Wow alright so let's just
+
+---------06:09----------
+create a strategy before we even going
+
+---------06:11----------
+that so I'm gonna want to see what's on
+
+---------06:12----------
+pins oh that the chip is boss oh my god
+
+---------06:16----------
+okay peepees maybe 3 s4 underscore Fett
+
+---------06:19----------
+underscore are let's just see what's
+
+---------06:21----------
+coming out of the little piece of crap
+
+---------06:22----------
+shall we okay so I'm afraid to see what
+
+---------06:25----------
+that looks like on the motherboard
+
+---------06:26----------
+itself also sucks on this machine that
+
+---------06:29----------
+ya measuring that is gonna be a pain in
+
+---------06:31----------
+the ass
+
+---------06:32----------
+alright so let's just do this let's do
+
+---------06:35----------
+this and see what I get over here
+
+---------06:39----------
+let's see where we're in that area can I
+
+---------06:42----------
+measure all right so I can measure at
+
+---------06:43----------
+the very least on that resist this is
+
+---------06:44----------
+gonna be the output right that over
+
+---------06:46----------
+there's gonna be output so what I'm
+
+---------06:47----------
+gonna do right now is I'm gonna unplug
+
+---------06:49----------
+my keyboard unplug my trackpad keep my
+
+---------06:53----------
+motherboard on but I'm gonna turn it
+
+---------06:56----------
+upside down so that I have access to
+
+---------06:57----------
+this piece there that I need to measure
+
+---------06:59----------
+and I'm missing pp 3 B 3 s 4 so I want
+
+---------07:02----------
+to see right what PP 3 V 3 S 4 is
+
+---------07:04----------
+created if it's actually being shot out
+
+---------07:06----------
+and turning this motherboard upside down
+
+---------07:08----------
+is it going to be an absolute nightmare
+
+---------07:10----------
+with the that's plugged into it all
+
+---------07:12----------
+right so I'm just gonna unplug it for a
+
+---------07:14----------
+moment all right so I'm gonna unplug
+
+---------07:19----------
+everything but the DC and board and
+
+---------07:20----------
+unplug the screen and all that stuff and
+
+---------07:22----------
+now I'm gonna put it under the
+
+---------07:23----------
+microscope and let's find that little
+
+---------07:24----------
+component that little really really
+
+---------07:29----------
+small mofo of a component here all right
+
+---------07:32----------
+so that is it's gonna be by the USB
+
+---------07:35----------
+controller let's push the microscope in
+
+---------07:38----------
+so I have room on my table
+
+---------07:41----------
+hey it's not let's see is it that bad is
+
+---------07:45----------
+it yeah that's okay here we go
+
+---------07:47----------
+so that current sensing resistor is
+
+---------07:48----------
+indeed omitted but look at that chip
+
+---------07:51----------
+look at that little piece of crap like
+
+---------07:53----------
+really that's just that's that's that's
+
+---------07:58----------
+offensive that is offensive expecting me
+
+---------08:02----------
+to measure this is offensive all right
+
+---------08:04----------
+we're gonna make it happen though watch
+
+---------08:06----------
+so I'm gonna stretch my charger cable
+
+---------08:09----------
+over since I turned the Machine around
+
+---------08:10----------
+let's plug this in and see what I get on
+
+---------08:13----------
+the output right over there I want to
+
+---------08:17----------
+see what I'm getting on output so I get
+
+---------08:20----------
+my multimeter in voltage mode I'm gonna
+
+---------08:22----------
+take the black probe and I'm gonna put
+
+---------08:23----------
+it on a screw hole and I'm gonna take
+
+---------08:24----------
+the red probe and I'm gonna put it on
+
+---------08:27----------
+that point that it showed me on the
+
+---------08:29----------
+board view software so again see right
+
+---------08:30----------
+over here it's showing me that this
+
+---------08:32----------
+right over here this is where I want to
+
+---------08:35----------
+be measuring so this is my chip this is
+
+---------08:36----------
+where output is and over here and over
+
+---------08:38----------
+here are points where I can actually
+
+---------08:40----------
+measure on the board what's going on so
+
+---------08:43----------
+we're gonna get that in view I got my
+
+---------08:46----------
+multimeter all right so what do you guys
+
+---------08:49----------
+think I'm gonna get at this point let's
+
+---------08:50----------
+see
+
+---------08:51----------
+so I
+
+---------08:54----------
+two point four volts coming out of this
+
+---------08:57----------
+now what I want to see is what I have
+
+---------08:58----------
+going into it I have three point three
+
+---------08:59----------
+going into it so I have three point
+
+---------09:02----------
+three going into this chip but I have
+
+---------09:03----------
+two point four going out of it
+
+---------09:05----------
+and now what I want to see is I want to
+
+---------09:06----------
+see if the enable signal is there is it
+
+---------09:08----------
+actually being told to turn on most
+
+---------09:10----------
+likely is so as for power enable so I
+
+---------09:12----------
+want to see where s foul s for power
+
+---------09:14----------
+enable is going to show up and I pray
+
+---------09:16----------
+that there's a probe point somewhere by
+
+---------09:18----------
+there because it would really suck if
+
+---------09:20----------
+there weren't okay let's see so probe
+
+---------09:24----------
+points tell me but a probe point by
+
+---------09:27----------
+there because you made a little bit here
+
+---------09:28----------
+and here's what kills me here's what
+
+---------09:29----------
+really gets to me with this with its
+
+---------09:31----------
+design I totally get if like your board
+
+---------09:33----------
+is just so heavily populated you don't
+
+---------09:35----------
+got room that you need to use these
+
+---------09:37----------
+small components right are you telling
+
+---------09:41----------
+me you don't have space for this
+
+---------09:43----------
+look at this look how about a you you
+
+---------09:44----------
+have to get a trip that this small that
+
+---------09:46----------
+you can't measure anything around it it
+
+---------09:47----------
+has I get BGA for saving space right but
+
+---------09:49----------
+what about this what about this what
+
+---------09:51----------
+about the rest of the board how
+
+---------09:54----------
+about like why why would you do this
+
+---------09:57----------
+this is such anyway
+
+---------09:59----------
+so all we're done complaining now
+
+---------10:01----------
+there's nowhere convenient where I can
+
+---------10:03----------
+measure that and honestly by the time I
+
+---------10:05----------
+find a place where I can measure that I
+
+---------10:07----------
+could have actually replaced the
+
+---------10:08----------
+component so again this is all about
+
+---------10:09----------
+time so usually I'm telling you to do
+
+---------10:12----------
+certain things to save yourself the time
+
+---------10:13----------
+hassle and misery of a wasting time and
+
+---------10:16----------
+here I'm gonna save myself some time
+
+---------10:18----------
+hassle and misery by just replacing that
+
+---------10:21----------
+again like the amount of time it's gonna
+
+---------10:23----------
+take me to find the point I could just
+
+---------10:25----------
+simply replace that ship unless it so
+
+---------10:31----------
+happens that that ship has been stolen
+
+---------10:32----------
+from every one of my motherboards and
+
+---------10:35----------
+the thing is I've never used that ship
+
+---------10:37----------
+which means it was stolen by other
+
+---------10:39----------
+people mouthful is this is pissing me
+
+---------10:43----------
+off because it's like I get if I was the
+
+---------10:46----------
+one who stole it but I wasn't the one
+
+---------10:49----------
+who stole it
+
+---------10:49----------
+I bought these boards thinking that I'd
+
+---------10:52----------
+be able to grab everything off of them
+
+---------10:53----------
+but the CPU and the PCH and that's one
+
+---------10:55----------
+thing of one of them it's one thing I've
+
+---------10:57----------
+even two of them erasing that thing but
+
+---------10:59----------
+ three of them like seriously all
+
+---------11:04----------
+right so look
+
+---------11:06----------
+okay so we're gonna come up with an
+
+---------11:08----------
+alternative game plan here
+
+---------11:10----------
+are you ready for the alternative game
+
+---------11:12----------
+plan before just to figure out if this
+
+---------11:16----------
+is the cause of my problem you know what
+
+---------11:20----------
+I'm gonna do right now I am going to
+
+---------11:23----------
+take that piece of off and I am
+
+---------11:26----------
+going to shore it P P 3 P 3 s 5 2 P B 3
+
+---------11:28----------
+B 3 S 4 temporarily to see if it solves
+
+---------11:30----------
+my problem then if it solves my problem
+
+---------11:32----------
+at least I can see if it's possible to
+
+---------11:34----------
+order that thing again as I've mentioned
+
+---------11:35----------
+in other videos very often it's
+
+---------11:37----------
+impossible to even order these little
+
+---------11:38----------
+pieces that you need now just in case
+
+---------11:42----------
+it's an issue with a solder connection
+
+---------11:44----------
+underneath it because this was something
+
+---------11:46----------
+from liquid let's just see again hopeful
+
+---------11:48----------
+wishful silly thinking here if I just
+
+---------11:50----------
+surround this thing in flux and heat it
+
+---------11:52----------
+up will it actually work again again
+
+---------11:55----------
+don't do this with GPUs don't do this
+
+---------11:56----------
+with flip chip design stuff do with
+
+---------12:00----------
+really little basic things
+
+---------12:30----------
+all right a little BG a piece of
+
+---------12:32----------
+moved around a little bit so let's see
+
+---------12:34----------
+what happens when I turn the thing back
+
+---------12:36----------
+on and for all you know we just had a
+
+---------12:40----------
+little corrosion under some ball or
+
+---------12:41----------
+something it's okay little chip good
+
+---------12:50----------
+little chip all right let's turn this
+
+---------12:53----------
+thing back on and see what's going on
+
+---------12:54----------
+again we have 3.3 volts going into the
+
+---------12:56----------
+chip which is what I expect and we have
+
+---------12:58----------
+two point four volts going out of the
+
+---------13:00----------
+chip which is not what I expect
+
+---------13:01----------
+I expect three point three to go out
+
+---------13:03----------
+because three point three is going in we
+
+---------13:11----------
+still have two point four and output
+
+---------13:13----------
+mofos and of course that chip is missing
+
+---------13:15----------
+from every one of my donor boards just
+
+---------13:17----------
+really quickly let's see if I catch it
+
+---------13:20----------
+exists on a different retina board
+
+---------13:21----------
+because if it does then I can steal it
+
+---------13:23----------
+from another retina board because I have
+
+---------13:25----------
+a 15 inch retina board so we're gonna go
+
+---------13:27----------
+over to here we're gonna open another
+
+---------13:29----------
+little Andrex test link board view
+
+---------13:32----------
+software program just turn the air
+
+---------13:34----------
+filter off because I think is annoying
+
+---------13:35----------
+and let's see I have 37 87 boards so
+
+---------13:40----------
+let's see if any of those use that same
+
+---------13:41----------
+trip for you 8,000 let's see maybe we
+
+---------13:44----------
+get lucky not found you 8,000 all right
+
+---------13:46----------
+maybe let's just take a look here let's
+
+---------13:50----------
+open another one maybe it's called
+
+---------13:52----------
+something else on that board so that
+
+---------13:53----------
+I've already done this a few times and
+
+---------13:55----------
+the chip is missing from my a 1502
+
+---------13:57----------
+Boyd's I actually go and see if it's on
+
+---------13:58----------
+one of my other ones and it is BAM all
+
+---------14:01----------
+right cool so it's u-20 that exact same
+
+---------14:06----------
+chip is being used for you twenty nine
+
+---------14:08----------
+forty so maybe it's not another place on
+
+---------14:11----------
+this one - is this used more than once
+
+---------14:17----------
+it is look at that you 2940 okay I don't
+
+---------14:22----------
+even have to try another board let's
+
+---------14:23----------
+just try another on this one you 29 40
+
+---------14:27----------
+so we're gonna look out for you 29 40
+
+---------14:30----------
+and see if that's there cuz little elf
+
+---------14:34----------
+ Oh goblins stuck in here
+
+---------14:37----------
+and realize that I needed that chip and
+
+---------14:38----------
+decided you or taking it all right
+
+---------14:42----------
+so let's make sure the orientation is
+
+---------14:44----------
+the same
+
+---------14:44----------
+so pin one is at the upper left now for
+
+---------14:47----------
+the keyboard controller chip and one is
+
+---------14:50----------
+at upper left alright so the orientation
+
+---------14:54----------
+is the same so we're gonna go in the
+
+---------14:56----------
+microscope here and we're gonna remove
+
+---------14:57----------
+that little and you get the air
+
+---------14:59----------
+filter back on so I can remove that
+
+---------15:01----------
+little get you nice and focused on
+
+---------15:08----------
+the microscope here so I can see what
+
+---------15:10----------
+I'm doing
+
+---------15:10----------
+alrighty these are not good tweezers but
+
+---------15:17----------
+this is not something where I care mofo
+
+---------15:25----------
+alright you're gone mofo gone alright so
+
+---------15:31----------
+now
+
+---------15:44----------
+and use a tip that's a little better for
+
+---------15:46----------
+cleaning the board and getting rid of
+
+---------15:47----------
+the junk
+
+---------15:49----------
+so we well let's make that residual
+
+---------15:53----------
+lead-free solder go away okay get some
+
+---------15:57----------
+nice flux a nice ball of lead solder in
+
+---------16:02----------
+there and all right yeah and we have to
+
+---------16:15----------
+clean the pads anyway so that's fine
+
+---------16:16----------
+that's fine that little mess will get
+
+---------16:18----------
+cleaned up easily this good wick a
+
+---------16:23----------
+little bit of this a little bit of this
+
+---------16:24----------
+a little bit of some more heat and look
+
+---------16:27----------
+it's like the mess never happened then
+
+---------16:29----------
+it just a few seconds okay now I'm gonna
+
+---------16:36----------
+cut that little piece off and throw it
+
+---------16:37----------
+in the garbage and then we're going to
+
+---------16:39----------
+continue cleaning that area make it nice
+
+---------16:45----------
+and perfect and clean after we make it
+
+---------16:48----------
+clean we can't in it after it's tens
+
+---------16:50----------
+then we can use it so
+
+---------17:35----------
+be gentle but make sure you just be a
+
+---------17:38----------
+you get everything but be gentle all
+
+---------17:40----------
+right you've been nice and gentle now
+
+---------17:49----------
+for cleaning so that was removing the
+
+---------17:53----------
+solder that was that stage of cleaning
+
+---------17:54----------
+now we go into the stage of removing the
+
+---------17:57----------
+the flux and the residue and the junk
+
+---------18:01----------
+and blahblahblah
+
+---------18:09----------
+and a little fiber decided that I was
+
+---------18:12----------
+going to make its way to the board we're
+
+---------18:15----------
+gonna sell that fiber gtfo see the
+
+---------18:19----------
+little fiber now you don't eat your yeah
+
+---------18:25----------
+you're not a fiber all right so now now
+
+---------18:29----------
+that all the junk is gone now we're
+
+---------18:31----------
+gonna turn it properly instead of being
+
+---------18:33----------
+ten nastily so I do that
+
+---------18:34----------
+put some flux there get the iron up the
+
+---------18:38----------
+temperature let's go over those pads and
+
+---------18:45----------
+as again I made a mess on the side mofo
+
+---------18:51----------
+all right
+
+---------19:00----------
+all right so that's that's good for me
+
+---------19:04----------
+now I'm gonna take that chip from my
+
+---------19:08----------
+donor
+
+---------19:10----------
+I'm gonna surround it in flux so that I
+
+---------19:12----------
+can get hopefully keep the balls on the
+
+---------19:15----------
+board and not on the chip and surround
+
+---------19:17----------
+the chip and flux on my donor about to
+
+---------19:20----------
+lift it up move my hair
+
+---------19:32----------
+awesome okay now move my air filter back
+
+---------19:36----------
+to the board that I'm working on move
+
+---------19:40----------
+this chip back to the board that I am
+
+---------19:42----------
+working on hope that I don't flick my
+
+---------19:46----------
+tweezers because if I do this chip will
+
+---------19:48----------
+fly into the sixth dimension then never
+
+---------19:50----------
+be seen again push down on you mofo
+
+---------20:12----------
+moved in a place will be back and forth
+
+---------20:18----------
+wanna know that you're nice and set on
+
+---------20:20----------
+that board alright those balls are
+
+---------20:23----------
+really small so they're probably dry by
+
+---------20:24----------
+now if anything is not dry will be after
+
+---------20:30----------
+it gets freezing alcohol on it that'll
+
+---------20:35----------
+evaporate really fast because the board
+
+---------20:36----------
+is really hot right now so let's see if
+
+---------20:39----------
+this works let's see if let's see if we
+
+---------20:42----------
+get anything out of this so let's see if
+
+---------20:43----------
+we made any progress yeah so I'm gonna
+
+---------20:45----------
+turn this around let's put the fan on
+
+---------20:50----------
+you don't need the fantasy if it spins
+
+---------20:52----------
+let's just plug the screen and it would
+
+---------20:55----------
+be nice to have the fan just you know to
+
+---------20:56----------
+not burn the board that would be a
+
+---------20:58----------
+courtesy I guess but this is as well if
+
+---------21:02----------
+you have a heatsink on a Haswell board
+
+---------21:04----------
+that people have asked how long can I
+
+---------21:05----------
+have it on without the heatsink on a
+
+---------21:07----------
+Core 2 Duo for about 2 seconds on a Core
+
+---------21:10----------
+i5 or i7 Sandy Bridge board maybe like 5
+
+---------21:14----------
+seconds on an Ivy Bridge board maybe 7
+
+---------21:17----------
+10 seconds on a has well especially like
+
+---------21:20----------
+the these ones the dual core has well
+
+---------21:22----------
+you know like I would say 30 seconds a
+
+---------21:25----------
+minute the Ultrabook has well like I'm
+
+---------21:29----------
+pretty you can keep it without a fan for
+
+---------21:31----------
+a good while while testing I'm yeah I'm
+
+---------21:33----------
+not saying that you should do that not
+
+---------21:35----------
+saying it's the best practice in the
+
+---------21:37----------
+world but if you're just in a rush and
+
+---------21:39----------
+let's face it we don't always do
+
+---------21:41----------
+everything 100% perfect when we're
+
+---------21:43----------
+trying to figure things out at 1:00 or
+
+---------21:44----------
+2:00 in the morning you can get away
+
+---------21:46----------
+with it and nobody will kill you and
+
+---------21:51----------
+nothing is going to die but just just be
+
+---------21:53----------
+you have to know how the stuff works in
+
+---------21:55----------
+order to make those decisions again if
+
+---------21:57----------
+you have a if you have a Core 2 Duo
+
+---------21:58----------
+board from 2008 do not run that
+
+---------22:03----------
+without a heatsink just because they're
+
+---------22:05----------
+the that people will just burn alright
+
+---------22:07----------
+so I spent 20 minutes with that housing
+
+---------22:09----------
+that was ruined so that housing was not
+
+---------22:11----------
+working properly and was driving me nuts
+
+---------22:12----------
+so what I did here is I found myself a
+
+---------22:14----------
+new housing and I'm gonna be using that
+
+---------22:16----------
+to test this machine so let me turn it
+
+---------22:18----------
+on so I'm gonna do is I'm gonna take an
+
+---------22:20----------
+SSD that has Yosemite on it and I'm
+
+---------22:22----------
+gonna boot into that SSD that has
+
+---------22:23----------
+Yosemite to see if my keyboard and my
+
+---------22:25----------
+truck
+
+---------22:26----------
+pad work so again my screen was cracked
+
+---------22:28----------
+on the other one screen was actually
+
+---------22:30----------
+much worse after so I couldn't really
+
+---------22:31----------
+use it to test much of anything so let's
+
+---------22:34----------
+see what this thing does so in a
+
+---------22:36----------
+different housing again it's turning on
+
+---------22:38----------
+so I am I forgot to pee RAM reset or
+
+---------22:41----------
+choose which Drive so it's gonna take a
+
+---------22:43----------
+while to boot up from that Drive over
+
+---------22:44----------
+there so let's just give it a minute to
+
+---------22:46----------
+boot up from that drive and then we're
+
+---------22:47----------
+gonna see what's going on now in the
+
+---------22:48----------
+meantime while we're waiting for this to
+
+---------22:50----------
+boot let me just go over a little bit of
+
+---------22:51----------
+what was actually wrong with this board
+
+---------22:53----------
+so that you can hopefully learn
+
+---------22:54----------
+something just in case you weren't
+
+---------22:56----------
+paying attention over the course of the
+
+---------22:58----------
+video it's always good to recap at the
+
+---------22:59----------
+end of it so the problem that was going
+
+---------23:01----------
+on here is that right at PB 3 B 3 S 4
+
+---------23:05----------
+was only 2 point 2 volts right now over
+
+---------23:08----------
+here this is the beginning of the
+
+---------23:09----------
+circuit at the beginning of the circuit
+
+---------23:11----------
+over here where 3.3 volts 4 PP 3 V 3 s 5
+
+---------23:15----------
+that's gonna be sent over to where PP 3
+
+---------23:17----------
+V 3 S 4 is gonna be this was not working
+
+---------23:19----------
+so P P 3 P 3 s 5 is going into it we
+
+---------23:22----------
+want that to show up on output as well
+
+---------23:24----------
+but only two volts are showing there now
+
+---------23:26----------
+obviously the enable signal is there the
+
+---------23:28----------
+enable signal has to have been there
+
+---------23:29----------
+because this it was actually trying to
+
+---------23:32----------
+turn on if there was no enable signal
+
+---------23:33----------
+there you would have just seen zero
+
+---------23:35----------
+volts on output but you saw two volts on
+
+---------23:37----------
+out which meant it was trying to turn on
+
+---------23:39----------
+it just couldn't now I tried be flowing
+
+---------23:41----------
+you 8,000 with some flux under it didn't
+
+---------23:43----------
+work so I replaced it and now I have 3.3
+
+---------23:45----------
+volts where P P 3 P 3 S 4 is supposed to
+
+---------23:48----------
+be and we're gonna see if my keyboard
+
+---------23:50----------
+and my trackpad work again this is why I
+
+---------23:52----------
+say it's very very important to check
+
+---------23:53----------
+the beginning in the end of the circuit
+
+---------23:54----------
+so you don't waste time so what I did
+
+---------23:57----------
+over here is I checked at the end of the
+
+---------23:59----------
+circuit that's where the keyboard
+
+---------24:00----------
+supposed to be getting power and the
+
+---------24:01----------
+trackpad is supposed to be getting power
+
+---------24:03----------
+and I had nothing so instead of going to
+
+---------24:04----------
+let you take the resistor before that
+
+---------24:06----------
+and then the trace and the fee yes and
+
+---------24:09----------
+every other point it shows up a fuck-all
+
+---------24:10----------
+that you because that's gonna waste a
+
+---------24:11----------
+lot of time and time is something that I
+
+---------24:13----------
+don't have a lot of I have a lot of
+
+---------24:15----------
+stuff to fix and I am one person I don't
+
+---------24:17----------
+have interns here I don't have other
+
+---------24:19----------
+employees that fix motherboards I don't
+
+---------24:21----------
+have a staff to fixes motherboards it's
+
+---------24:22----------
+just me and I have a lot of stuff to do
+
+---------24:25----------
+so the way I'm gonna get everything done
+
+---------24:26----------
+very quickly is I'm going to look at the
+
+---------24:28----------
+beginning of the circuit and see if it's
+
+---------24:29----------
+there so instead of going is okay the
+
+---------24:31----------
+powers not here let's see if it's here
+
+---------24:33----------
+it's not here let's see if it's there
+
+---------24:34----------
+that's out there let's see if it's there
+
+---------24:35----------
+and then going all the way to the
+
+---------24:36----------
+beginning and wasting all that stupid
+
+---------24:38----------
+time what I did it's not a thing
+
+---------24:39----------
+to the circuit let's skip all this
+
+---------24:41----------
+is it at the beginning because if it is
+
+---------24:43----------
+at the beginning well then I have to go
+
+---------24:45----------
+back and troubleshoot from each way but
+
+---------24:47----------
+if it is not at the beginning then I
+
+---------24:49----------
+save myself the trouble of checking here
+
+---------24:50----------
+and here and here and here and here so I
+
+---------24:52----------
+instead of checking the end then one
+
+---------24:54----------
+step this way then one step this way
+
+---------24:55----------
+then one step this way the one step this
+
+---------24:56----------
+way I checked the end of the circuit
+
+---------24:58----------
+nothing beginning of the circuit and
+
+---------25:00----------
+then at the beginning of the circuit I
+
+---------25:02----------
+didn't have one I needed so I knew that
+
+---------25:03----------
+ok I'm gonna I'm gonna check over here
+
+---------25:05----------
+now we give the beginning of the circuit
+
+---------25:07----------
+how what I needed then I would check
+
+---------25:08----------
+over here
+
+---------25:08----------
+and here and then here and then here and
+
+---------25:10----------
+I would start going through the middle
+
+---------25:12----------
+from each side like this instead of
+
+---------25:14----------
+going you know in this linear order
+
+---------25:16----------
+because when you go in that linear order
+
+---------25:17----------
+you waste a lot of time and again the
+
+---------25:18----------
+way I'm able to get all the stuff done
+
+---------25:20----------
+very often in 20 minutes or less is by
+
+---------25:23----------
+not wasting time on Aaron s so
+
+---------25:25----------
+here I've vlog I've loaded up into the
+
+---------25:27----------
+O's cemani desktop login screen I'm
+
+---------25:32----------
+gonna type in my really secure password
+
+---------25:33----------
+of one two three four I'm going to move
+
+---------25:37----------
+the mouse over to here and I'm gonna
+
+---------25:39----------
+click it just to make sure that the
+
+---------25:41----------
+mouse works as well and I'm logging in
+
+---------25:43----------
+with my really secure password over
+
+---------25:44----------
+there and as you can see my keyboard in
+
+---------25:50----------
+my trackpad work so again before it did
+
+---------25:52----------
+not recognize the keyboard or the
+
+---------25:53----------
+trackpad at all it did not work one bit
+
+---------25:55----------
+now the keys in the keyboard work the
+
+---------25:57----------
+trackpad moves the trackpad Clips clicks
+
+---------26:00----------
+and all of this is recognized and good
+
+---------26:02----------
+to go there's another board off of the
+
+---------26:04----------
+list and again I hope you learned
+
+---------26:06----------
+something
+

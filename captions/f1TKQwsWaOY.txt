@@ -1,0 +1,2020 @@
+https://www.youtube.com/watch?v=f1TKQwsWaOY
+---------00:00----------
+hi today I'm going to be going over an 8
+
+---------00:01----------
+to 0 2530 motherboard which is kind of a
+
+---------00:04----------
+bit of an old piece of and the
+
+---------00:05----------
+problem that we're having with the
+
+---------00:06----------
+laptop is that when you plug in the
+
+---------00:08----------
+charger whenever I find the charger I
+
+---------00:10----------
+get no green light on the charger and
+
+---------00:12----------
+this is a very common problem the first
+
+---------00:14----------
+thing I'm going to be doing is trying to
+
+---------00:15----------
+figure out what's wrong with the one
+
+---------00:16----------
+wire circuit because the one wire
+
+---------00:18----------
+circuit is what allows the charger to
+
+---------00:20----------
+talk to the SMC and that's what turns
+
+---------00:22----------
+the charger on so let me just go over
+
+---------00:24----------
+that a little bit because it's something
+
+---------00:25----------
+that gets asked all the time and people
+
+---------00:26----------
+for some reason just refuse to look at
+
+---------00:28----------
+the older videos that I've done what
+
+---------00:30----------
+I've explained how the one wire circuit
+
+---------00:31----------
+works so I'm going to open up the
+
+---------00:33----------
+schematic here and then we're going to
+
+---------00:34----------
+go over how the one wire circuit works
+
+---------00:36----------
+that you can get an idea of what's going
+
+---------00:38----------
+on so over here we're going to see that
+
+---------00:41----------
+this here is where the charger comes
+
+---------00:43----------
+into the computer so it says over here
+
+---------00:44----------
+MagSafe DC power jack mac safe DC power
+
+---------00:48----------
+jack this is where your charger aka this
+
+---------00:51----------
+thing plugs into the computer and the
+
+---------00:53----------
+DCN board now this plugs in and it has a
+
+---------00:56----------
+few paths the first is pp 18 V 5 DC in
+
+---------01:00----------
+fuse so this is where the 18 point 5
+
+---------01:02----------
+volts meaning the actual charger power
+
+---------01:04----------
+is going to go through the Machine the
+
+---------01:06----------
+second part that we have here is ground
+
+---------01:08----------
+ground is needed for you to have any
+
+---------01:10----------
+type of electrical circuit complete so
+
+---------01:12----------
+we have ground and the third path that
+
+---------01:14----------
+this takes is something called adapter
+
+---------01:15----------
+sense adapter sense is where this is
+
+---------01:18----------
+going to talk to the computer so over
+
+---------01:20----------
+here you have adapter sense you have a
+
+---------01:21----------
+zero ohm resistor and that's going to go
+
+---------01:24----------
+over to this chip now this chip says xed
+
+---------01:27----------
+and int what do you think X and int mean
+
+---------01:29----------
+X is external meaning outside the
+
+---------01:32----------
+computer meaning the charger so this is
+
+---------01:33----------
+where this is the pin where this chip is
+
+---------01:35----------
+going to talk to something that's
+
+---------01:36----------
+outside the computer external then you
+
+---------01:39----------
+have internal int which is where this is
+
+---------01:42----------
+going to talk to something inside the
+
+---------01:43----------
+computer now over here you have
+
+---------01:45----------
+something called sis one wire and it's
+
+---------01:46----------
+as by-by stands for bi-directional and
+
+---------01:49----------
+this little resistor over here is
+
+---------01:50----------
+something called a pull-up resistor at
+
+---------01:52----------
+this point I would strongly suggest that
+
+---------01:53----------
+you go over my older videos where I talk
+
+---------01:55----------
+about what a data line is and how a pull
+
+---------01:58----------
+up resistor creates a data line that's
+
+---------02:00----------
+going to be in the basic go you know
+
+---------02:02----------
+guide to basic electronics playlist now
+
+---------02:04----------
+when I search the schematic for sis one
+
+---------02:06----------
+wire I'm going to see that this is a
+
+---------02:08----------
+line that goes to this chip called you
+
+---------02:09----------
+4900 what's you 4900 at the bottom of
+
+---------02:12----------
+the page here it says that that's the
+
+---------02:13----------
+smz the system management controller so
+
+---------02:16----------
+this is what manages the system it
+
+---------02:18----------
+allows a lot of things in the system to
+
+---------02:19----------
+work so pretty much the way this works
+
+---------02:22----------
+is the one wire circuit allows the
+
+---------02:24----------
+charger external to talk to the SMC
+
+---------02:26----------
+internal but what's going to allow that
+
+---------02:29----------
+to happen well first this chip over here
+
+---------02:31----------
+has to turn on right this chip has to
+
+---------02:33----------
+turn on so that they can be there can be
+
+---------02:34----------
+a data line that where this external can
+
+---------02:38----------
+talk to this internal so this chip over
+
+---------02:39----------
+here pretty much allows the charger to
+
+---------02:41----------
+talk to the SMC now this depends to turn
+
+---------02:44----------
+on see the VCC pin over here that VCC
+
+---------02:47----------
+pin is where the chip is going to get
+
+---------02:48----------
+power to actually turn on on work so
+
+---------02:50----------
+over here you have you 6901 which is a
+
+---------02:52----------
+logic gate the way this works is pp 3 V
+
+---------02:55----------
+4 2 is a 3 point 42 volt power rail that
+
+---------02:57----------
+comes into this logic game now that
+
+---------02:59----------
+power rail is not going to get shot out
+
+---------03:01----------
+of pin 4 which is the output of that
+
+---------03:03----------
+logic gate unless the input the
+
+---------03:06----------
+requirements are present here the input
+
+---------03:07----------
+requirements so that SM CBC a CLK which
+
+---------03:10----------
+is about 3 volts we present on pins 1 2
+
+---------03:12----------
+& 2 now if you have if you have power on
+
+---------03:15----------
+pins 1 and pin 2 then you will have pp 3
+
+---------03:19----------
+V 4 to go through here 3.42 volts will
+
+---------03:21----------
+go to the circuit in the SMC will be
+
+---------03:23----------
+allowed to talk to the charger and this
+
+---------03:24----------
+data line will be created via the
+
+---------03:26----------
+pull-up resistor so the data line will
+
+---------03:28----------
+be created by the three point 42 volts
+
+---------03:30----------
+over here and then that data line will
+
+---------03:32----------
+talk to the chip the chip will then talk
+
+---------03:34----------
+to the charger the charger will then
+
+---------03:35----------
+talk to the chip the chip will talk to
+
+---------03:36----------
+though it's the SMC via the data line
+
+---------03:38----------
+and everything's good but you need to
+
+---------03:40----------
+3.42 volts which means you need SM CBC
+
+---------03:43----------
+AC okay where does SMC bc AC okay come
+
+---------03:46----------
+from SM CBC AC okay is going to come
+
+---------03:50----------
+from charger AC okay see this charger AC
+
+---------03:55----------
+okay sm c bc AC okay equals charger AC
+
+---------03:59----------
+AC okay that's pretty much what this is
+
+---------04:00----------
+saying this signal over here equals that
+
+---------04:03----------
+signal over there let's search for
+
+---------04:04----------
+charger AC okay charger AC okay is
+
+---------04:06----------
+coming from you 7000 u 7000 on this
+
+---------04:10----------
+machine is a chip that allows the
+
+---------04:12----------
+charger cpp 18 v v g3 hot charger over
+
+---------04:15----------
+here that is going to get turned through
+
+---------04:19----------
+this buck converter down here and if you
+
+---------04:21----------
+don't know what a buck converter is i
+
+---------04:23----------
+would highly suggest that you look up in
+
+---------04:24----------
+my basic electronics video series what
+
+---------04:26----------
+converter is that turns the 18 volts
+
+---------04:28----------
+from the charger into over here
+
+---------04:32----------
+pp bus g3 huh which said it goes to
+
+---------04:34----------
+system now what is pp bus g3 hot well if
+
+---------04:37----------
+we do this and we look in the beginning
+
+---------04:39----------
+of the machine pp bus g3 hot is a power
+
+---------04:42----------
+rail so see this pp bus g3 hot is going
+
+---------04:45----------
+to come out here see the follow the line
+
+---------04:49----------
+so closing using PP bush g3 huh that's
+
+---------04:53----------
+going to go to all these different chips
+
+---------04:56----------
+in the machine to power them to turn on
+
+---------04:57----------
+is it responsible for creating 5 volt is
+
+---------04:59----------
+responsible for creating 3 volts
+
+---------05:01----------
+responsible for a lot of different
+
+---------05:03----------
+things in the computer and that's
+
+---------05:04----------
+supposed to be over here 12 point 6
+
+---------05:08----------
+volts so what's going to happen here is
+
+---------05:10----------
+something like this so we're going to go
+
+---------05:11----------
+back to that you 7000 page I love this
+
+---------05:14----------
+PDF reader it's so fast this is called
+
+---------05:16----------
+sumatra PDF by the way if you want a PDF
+
+---------05:18----------
+reader that works a lot better than the
+
+---------05:19----------
+Adobe garbage this is called so much for
+
+---------05:22----------
+PDF it's amazing it's legally free it's
+
+---------05:25----------
+very simple it's very quick I love it
+
+---------05:26----------
+anyway so you 7000 which is the chip
+
+---------05:29----------
+that controls having the charger turns
+
+---------05:31----------
+it's 18 volts and 12 volts shoots out
+
+---------05:33----------
+charger AC ok so this has to be present
+
+---------05:36----------
+now charger AC ok over here is not going
+
+---------05:40----------
+to be present if anything is wrong over
+
+---------05:41----------
+here so let's say these let's say the
+
+---------05:44----------
+current sensing resistors and if you
+
+---------05:45----------
+don't know what current sensing is you
+
+---------05:46----------
+look up my videos on what current
+
+---------05:47----------
+sensing is let's see the current sensing
+
+---------05:49----------
+resistor since there is too much current
+
+---------05:51----------
+coming through here we're not going to
+
+---------05:53----------
+let out charge racy ok there's a short
+
+---------05:55----------
+to ground over here we're not going to
+
+---------05:56----------
+let out charger AC ok this chip is on
+
+---------05:58----------
+fire we're not going to let out charger
+
+---------06:00----------
+AC ok ACN is not here so let's say you
+
+---------06:03----------
+don't have the 4 volts that you're
+
+---------06:04----------
+supposed to have on the AC and tab we're
+
+---------06:06----------
+not going to let out charger AC ok so
+
+---------06:08----------
+now knowing how this system works
+
+---------06:10----------
+let's troubleshoot and let's apply that
+
+---------06:12----------
+process to this board that's not working
+
+---------06:14----------
+the way it's supposed to so first thing
+
+---------06:16----------
+I'm going to do is I'm going to plug
+
+---------06:18----------
+this in and let's see if I have 3.3 to
+
+---------06:21----------
+42 volts so P P 3 V 4 2 is required for
+
+---------06:24----------
+this to actually work right so let's see
+
+---------06:26----------
+if I have 2 P 3 V 4 2 so I'm going to
+
+---------06:28----------
+put the multimeter on the desk I'm not
+
+---------06:30----------
+sure if you'll be able to actually see
+
+---------06:31----------
+what the voltage is on this thing the
+
+---------06:33----------
+way I have it tilted no you're not
+
+---------06:34----------
+that's too much light so there you go
+
+---------06:36----------
+you may be able to see that I'm not sure
+
+---------06:38----------
+if after YouTube sodomy and compression
+
+---------06:40----------
+that you're going to see anything
+
+---------06:41----------
+hopefully you do I actually record these
+
+---------06:44----------
+videos in lossless and non losses so Q P
+
+---------06:47----------
+equals 1x 264 in high profile I wind up
+
+---------06:52----------
+using Sony Vegas to get get it out as a
+
+---------06:56----------
+raw avi file with wave and then I use
+
+---------07:00----------
+ffmpeg x264 at profile very slow to
+
+---------07:04----------
+encode it to the exact 20 gigabytes that
+
+---------07:06----------
+YouTube will allow so that when I upload
+
+---------07:09----------
+this to YouTube at the very least I know
+
+---------07:11----------
+they're raping it but they're raping
+
+---------07:12----------
+something that says close to the
+
+---------07:14----------
+original as possible so I really do hope
+
+---------07:16----------
+that you can actually see that so let's
+
+---------07:19----------
+see so we measure for 3.42 volts when we
+
+---------07:22----------
+get 3.42 volts i'm so here's what i
+
+---------07:24----------
+measure let me just show you on the
+
+---------07:25----------
+schematic what it is that I measured u6
+
+---------07:31----------
+901 hey hey nice try on switch back I
+
+---------07:36----------
+like having a dedicated open broadcaster
+
+---------07:38----------
+monitor it makes us a lot easier so what
+
+---------07:40----------
+I measured is that right over here on
+
+---------07:41----------
+this logic gate I have p b3 b4 2 coming
+
+---------07:44----------
+in now what I want to see is do I have
+
+---------07:46----------
+PB 3 V 4 2 on pins 1 and 2 so let me
+
+---------07:49----------
+just open up a board view so I'm going
+
+---------07:50----------
+to close this and I'm going to open up a
+
+---------07:53----------
+board view for this older model
+
+---------07:54----------
+motherboard the 8 - 0 25 30 and let's
+
+---------07:59----------
+get this open all right so I need pins 1
+
+---------08:02----------
+into which are sm c bc AC okay see you
+
+---------08:04----------
+on there over here where it says the
+
+---------08:06----------
+part number the pin that I'm looking at
+
+---------08:07----------
+and the signal so see I can click around
+
+---------08:10----------
+and it's going to change so I want to
+
+---------08:12----------
+see if sm c bc AC ok is coming through
+
+---------08:16----------
+so let's check that pin using my
+
+---------08:19----------
+multi-view
+
+---------08:26----------
+I have three point two volts which is
+
+---------08:28----------
+close enough also by the way if you're
+
+---------08:29----------
+interested in knowing how is it that I'm
+
+---------08:31----------
+able to measure that how is it that I
+
+---------08:33----------
+can measure that with with my multimeter
+
+---------08:35----------
+probes you probably don't have
+
+---------08:37----------
+multimeter probes that are fine if you
+
+---------08:39----------
+don't have fine tip multimeter probes
+
+---------08:41----------
+you're going to wind up really really
+
+---------08:43----------
+screwing yourself because you're going
+
+---------08:44----------
+to wind up shorting a lot of things
+
+---------08:45----------
+because these these these pads are
+
+---------08:48----------
+really close together so if you're using
+
+---------08:49----------
+the multimeter tip that looks like this
+
+---------08:51----------
+let's just see if I can get you under
+
+---------08:53----------
+the microscope you're like this is not
+
+---------08:55----------
+going to work this is huge even if you
+
+---------08:58----------
+take away the residual solder that I've
+
+---------08:59----------
+gotten on what you want is something
+
+---------09:01----------
+like this see this mod smaller tip it's
+
+---------09:06----------
+a lot easier to work with the difference
+
+---------09:08----------
+is much more dramatic in person so let
+
+---------09:10----------
+me see if I can just show you really
+
+---------09:11----------
+quickly I know this is off topic to the
+
+---------09:13----------
+video we already you can get those tips
+
+---------09:15----------
+so let's find that here so what I have
+
+---------09:18----------
+is this so I have the fluke TP 88 test
+
+---------09:23----------
+leads so let me just open that over here
+
+---------09:24----------
+alright so this is it and again you can
+
+---------09:27----------
+buy these tips for really really cheap
+
+---------09:29----------
+it's $18.95 with Amazon Prime Amazon
+
+---------09:33----------
+Prime means that you can get this thing
+
+---------09:35----------
+in a matter of days it's it's a pretty
+
+---------09:37----------
+good deal and you really need these if
+
+---------09:39----------
+you're going to work in this business
+
+---------09:40----------
+you need to have multimeter leads that
+
+---------09:43----------
+actually allow you to probe things
+
+---------09:45----------
+without shorting everything out so I
+
+---------09:47----------
+have three point 42 volts that I'm
+
+---------09:48----------
+looking for over there now let's see if
+
+---------09:50----------
+I can check the rest of the circuit to
+
+---------09:51----------
+see what's going on so I know that I
+
+---------09:53----------
+have P P 3 V 4 2 on the chip I know that
+
+---------09:56----------
+I have the input I know that I have the
+
+---------09:58----------
+input voltages here so let's see if that
+
+---------10:00----------
+chip is actually shooting out of pin 4
+
+---------10:01----------
+what I need so out of pin 4 I should be
+
+---------10:04----------
+seeing s I should be seeing the three
+
+---------10:06----------
+point 42 volts come through on output
+
+---------10:07----------
+let's see if I have that
+
+---------10:21----------
+three point three so that's coming
+
+---------10:23----------
+through the way it's supposed to now
+
+---------10:24----------
+let's take a look at you sixty nine
+
+---------10:26----------
+hundred let's see what's coming through
+
+---------10:27----------
+it you sixty nine hundred so I'm going
+
+---------10:29----------
+to turn the board around now let's see
+
+---------10:32----------
+if the input of you sixty nine hundred
+
+---------10:33----------
+over here has what it's supposed to see
+
+---------10:36----------
+so here is you sixty nine hundred on the
+
+---------10:39----------
+schematic so the three point 42 volts is
+
+---------10:42----------
+coming out of here now and I know that
+
+---------10:43----------
+so this this part of the circuit work so
+
+---------10:45----------
+the u 7000 is letting three volts go to
+
+---------10:48----------
+here 3.42 volts is present on the power
+
+---------10:50----------
+line of the logic gate the logic gate is
+
+---------10:52----------
+taking the three point 42 volts and
+
+---------10:54----------
+shooting it out now is that three point
+
+---------10:55----------
+42 volts making it to you sixty nine
+
+---------10:57----------
+hundred so you sixty nine hundred pin
+
+---------10:59----------
+one you sixty nine hundred and let's see
+
+---------11:02----------
+what I have on pin one alright so we
+
+---------11:12----------
+have that that's pin one so now let's
+
+---------11:14----------
+try to find pin one and measure what I
+
+---------11:16----------
+have on pin one is that making it to pin
+
+---------11:19----------
+one and it is yeah this is where this is
+
+---------11:25----------
+going to kind of start to become some BS
+
+---------11:26----------
+now luckily we have a little bit of a
+
+---------11:29----------
+visual hint that's going to make this a
+
+---------11:31----------
+lot easier for me so let's just go to
+
+---------11:33----------
+the microscope unplug this for a second
+
+---------11:36----------
+so that I can show you the visual cue
+
+---------11:38----------
+that I just found that's going to make
+
+---------11:39----------
+solving this problem a lot easier just
+
+---------11:47----------
+unplug the DCN board and let's get this
+
+---------11:51----------
+situated in the microscope so that the
+
+---------11:53----------
+problem is viewable so that's the chip
+
+---------11:56----------
+on the that's there we go so that's the
+
+---------12:00----------
+chip on the board view and now take a
+
+---------12:01----------
+look at it in real life and what do you
+
+---------12:07----------
+guys see anything stick out to you is
+
+---------12:10----------
+wrong anything stick out to you is wrong
+
+---------12:15----------
+well we have a corroded pathway here
+
+---------12:19----------
+yuck liquid damage yeah poop yeah
+
+---------12:23----------
+so from here that goes to this probe
+
+---------12:26----------
+point and that that probe point is not
+
+---------12:27----------
+supposed to go over here but you'll
+
+---------12:29----------
+notice is that right over here this is
+
+---------12:30----------
+all corroded away and when you zoom in a
+
+---------12:33----------
+lot by the way think
+
+---------12:35----------
+- I fix it for sending this microscope
+
+---------12:37----------
+because it has zoom that my other one
+
+---------12:38----------
+could not dream of that's pretty cool
+
+---------12:41----------
+and I'm not like a paid endorsement
+
+---------12:43----------
+thing but if you send me for free
+
+---------12:45----------
+and I use it and it makes my YouTube
+
+---------12:47----------
+videos better I will say thank you so
+
+---------12:50----------
+let's see so this over here see where
+
+---------12:53----------
+this is broken now that goes to this
+
+---------12:56----------
+resistor and that goes to this pin of
+
+---------12:58----------
+you 6900 so let's take a look on the
+
+---------13:01----------
+schematic and see what that does
+
+---------13:02----------
+so from you 6900 pin 5 - pin 2 of our 6
+
+---------13:08----------
+9 - 8 so fraud see did I get the pins
+
+---------13:19----------
+right or did I forget let's take a look
+
+---------13:27----------
+on here again I think I forgot the pins
+
+---------13:38----------
+so what's corroded is between here and
+
+---------13:41----------
+here okay let's go back in here and see
+
+---------13:46----------
+so between there and there so adapter
+
+---------13:49----------
+sends our so our six nine to eight so
+
+---------13:53----------
+let's check our six nine to eight okay
+
+---------13:57----------
+so our six nine to eight is this soap in
+
+---------14:00----------
+two of our six nine to eight the pathway
+
+---------14:02----------
+between that and pin five of our view
+
+---------14:07----------
+sixty nine hundred is bad I don't know
+
+---------14:09----------
+why my shortcuts keep doing them I'll
+
+---------14:11----------
+figure that out later let's just try
+
+---------14:13----------
+this again
+
+---------14:13----------
+so my pathway between our six nine to
+
+---------14:15----------
+eight pin two and pin five of u 6900 is
+
+---------14:18----------
+bad so the pathway for adapter sense
+
+---------14:20----------
+which is the part where the adapter is
+
+---------14:22----------
+actually gonna be allowed to talk to the
+
+---------14:23----------
+computer the pathway between the adapter
+
+---------14:25----------
+and u 6900 on the X pin is broken now
+
+---------14:29----------
+let's also measure that resistor so it
+
+---------14:31----------
+says that that resistor is supposed to
+
+---------14:32----------
+be zero ohms and that's something that I
+
+---------14:33----------
+feel like can be suspect based on how
+
+---------14:35----------
+bad that chip looks so I'm going to put
+
+---------14:38----------
+the multimeter into impedance mode and
+
+---------14:40----------
+let's measure that resistor and see what
+
+---------14:43----------
+we get so when I measure both sides of
+
+---------14:46----------
+that resistor I get zero ohms so what
+
+---------14:50----------
+I'm thinking right now is if that
+
+---------14:52----------
+resistor is zero ohms over here so this
+
+---------14:54----------
+is your ohms and the only problem that I
+
+---------14:58----------
+really notice is the pathway between the
+
+---------15:00----------
+charger and you 6900 which allows the
+
+---------15:03----------
+charger to talk to the SMC is bad
+
+---------15:05----------
+what if I were to reattach that with a
+
+---------15:06----------
+wire so I'm going to run a jumper wire
+
+---------15:08----------
+between here and here and let's see how
+
+---------15:11----------
+that looks now I like to use that magnet
+
+---------15:13----------
+wire that I talked about in another
+
+---------15:14----------
+video for long jumpers because it's
+
+---------15:16----------
+insulated all the entire way through
+
+---------15:18----------
+being insulated the entire way through
+
+---------15:20----------
+means I can want to jump from here to
+
+---------15:21----------
+here on the board and I'm good I'll have
+
+---------15:23----------
+to worry about insulating it this magnet
+
+---------15:25----------
+wire is from CNC tech that's CNC tech
+
+---------15:28----------
+magnet wire m w3 5 C and then space hy
+
+---------15:35----------
+so m w3 5 - C from CNC tech however this
+
+---------15:40----------
+wire is a little thick for the purpose
+
+---------15:42----------
+that I have in mind I want a thinner
+
+---------15:43----------
+strand and I'm also don't want to really
+
+---------15:45----------
+deal with insulation because look at the
+
+---------15:47----------
+distance that I have to go over you it's
+
+---------15:49----------
+a really small distance I don't really
+
+---------15:50----------
+care
+
+---------15:51----------
+insulation they look at I go like when
+
+---------15:53----------
+you zoom out you know we stone the
+
+---------15:55----------
+microscope here but when you zoom out
+
+---------15:56----------
+even all the way zoom down it's not
+
+---------15:58----------
+really a lot of distance and when you
+
+---------16:00----------
+you know so there's it's not a long way
+
+---------16:02----------
+to go so what I'm going to do here is
+
+---------16:04----------
+I'm going to use the wire that I cut out
+
+---------16:06----------
+of a macbook battery so this is wire
+
+---------16:08----------
+that came from a 2011 dead macbook pro
+
+---------16:11----------
+battery so if you've ever replaced a
+
+---------16:12----------
+macbook pro battery for a customer and
+
+---------16:14----------
+you throw them away I would highly
+
+---------16:16----------
+suggest that you stop throwing them away
+
+---------16:17----------
+because they're wires and they're
+
+---------16:18----------
+strands are perfect for this application
+
+---------16:20----------
+another cool part about this wire is
+
+---------16:22----------
+that you actually have some strands that
+
+---------16:24----------
+are thicker than others so some of these
+
+---------16:25----------
+are thick strands of wire and some of
+
+---------16:27----------
+them are very thin strands of wire it's
+
+---------16:29----------
+a very good wire to use and this wire is
+
+---------16:31----------
+100% free and it's sitting right in
+
+---------16:33----------
+front of you so to not use it as kind of
+
+---------16:34----------
+silly now this over here is called the
+
+---------16:36----------
+XLI 175 m fine-tipped snippers exa light
+
+---------16:40----------
+xce li te 175 m and I use it for
+
+---------16:44----------
+stripping these wires and cutting these
+
+---------16:46----------
+small things it's very very useful I
+
+---------16:48----------
+actually originally bought these to do
+
+---------16:50----------
+surface mountain rework I'm not kidding
+
+---------16:52----------
+I was one so broke that when it came
+
+---------16:53----------
+time to replace an eight-legged package
+
+---------16:56----------
+I I didn't have a hot-air station so
+
+---------16:58----------
+what I did is I would snip the legs off
+
+---------17:00----------
+of the package using this I would just
+
+---------17:02----------
+make a SOT you know pretty much wicked
+
+---------17:04----------
+off and use a regular crappy fifty
+
+---------17:07----------
+dollar soldering iron to get it off and
+
+---------17:09----------
+then I would solder the new one on like
+
+---------17:10----------
+by like so I actually bought this so
+
+---------17:12----------
+that I could do surface mount rework
+
+---------17:14----------
+before I had outer station I'm not
+
+---------17:16----------
+kidding that that's you know people
+
+---------17:20----------
+don't start out rich you don't start out
+
+---------17:21----------
+with everything so what I'm going to do
+
+---------17:23----------
+here is I'm going to turn on my
+
+---------17:24----------
+soldering alright now this is a hack ofx
+
+---------17:29----------
+handpiece here is a twenty twenty seven
+
+---------17:31----------
+with my favorite tip the curvy tip which
+
+---------17:33----------
+is the t 15 - Jo - tip turn on the air
+
+---------17:37----------
+filter the HECO fa 430 by the way some
+
+---------17:40----------
+of you people may notice that I'm giving
+
+---------17:41----------
+model numbers of everything I get asked
+
+---------17:43----------
+for model numbers so often that I figure
+
+---------17:45----------
+if I say them at the moment that had a
+
+---------17:46----------
+tool that I won't have to answer a
+
+---------17:49----------
+question later we'll see if that wind up
+
+---------17:50----------
+working out that way but yeah anyways
+
+---------17:52----------
+this is the hakko fx-888 when t seven
+
+---------17:57----------
+iron with the T 15 - Jo - tip J zero -
+
+---------18:03----------
+now this is my effect
+
+---------18:05----------
+region so what I'm going to do is I'm
+
+---------18:06----------
+going to put some flux here to help the
+
+---------18:07----------
+solder flow this is
+
+---------18:09----------
+Ametek 559 flux it's Amtech five five
+
+---------18:13----------
+nine
+
+---------18:14----------
+- v2 - TF so that's NC - five five nine
+
+---------18:19----------
+- v2 - TF you can buy a direct romantic
+
+---------18:23----------
+do not buy this stuff on eBay do not buy
+
+---------18:25----------
+this stuff on Amazon because you will
+
+---------18:27----------
+get rebranded Vaseline it's garbage
+
+---------18:29----------
+Ametek is a company that will actually
+
+---------18:31----------
+sell to you I know it's hard to tell
+
+---------18:33----------
+they don't have add to card buttons on
+
+---------18:34----------
+the website they're old-school like that
+
+---------18:36----------
+but their products actually work and
+
+---------18:37----------
+since the products actually work it's
+
+---------18:39----------
+worth dealing with calling and making a
+
+---------18:41----------
+phone order to get this stuff it will
+
+---------18:45----------
+change your life
+
+---------18:46----------
+so I put a little bit of solder over
+
+---------18:49----------
+there and might as well clean up this
+
+---------18:51----------
+region with soldering and then flux you
+
+---------18:53----------
+know get everything looking nice again
+
+---------18:56----------
+right I hate I don't like corroded
+
+---------19:02----------
+looking stuff
+
+---------19:10----------
+that resistor didn't look really nice
+
+---------19:15----------
+you know I I don't like that resistor
+
+---------19:18----------
+that resistor can go I like things that
+
+---------19:21----------
+look nice on the board things that don't
+
+---------19:24----------
+look nice shouldn't be on the board so
+
+---------19:26----------
+we get rid of that resistor that
+
+---------19:28----------
+resistor let's turn the pads
+
+---------19:49----------
+get rid of all that nasty old lead-free
+
+---------19:53----------
+solder that also probably has corrosion
+
+---------19:54----------
+and junk left over from the spill or
+
+---------20:02----------
+little via tray or a little via so close
+
+---------20:10----------
+to being complete so let's get a donor
+
+---------20:13----------
+board we're going to steal that little
+
+---------20:15----------
+piece
+
+---------20:40----------
+all right so zero ohm resister I know
+
+---------20:43----------
+that I could find a zero ohm resistor on
+
+---------20:44----------
+another board if I I think as I got open
+
+---------20:47----------
+another schematic and another board view
+
+---------20:49----------
+so it would be easier if I could just
+
+---------20:50----------
+find another 2530 so that I could steal
+
+---------20:52----------
+it from the exact same spot that I saw
+
+---------20:54----------
+but the 2530 is such an old piece of
+
+---------20:56----------
+crap that I'm pretty sure that I don't
+
+---------20:58----------
+have any of these slots I just walk to
+
+---------21:00----------
+the other side of the store to see if I
+
+---------21:01----------
+can find that board in any of these
+
+---------21:03----------
+slots are you mm-maybe you clever 2327
+
+---------21:21----------
+let's see if that's your own resistor is
+
+---------21:23----------
+there I know what some of you were
+
+---------21:24----------
+thinking you really should just have a
+
+---------21:26----------
+2-0 ohm resistor in here and you're a
+
+---------21:28----------
+tool bin it's one of the things I really
+
+---------21:31----------
+should get the time to buy I should stop
+
+---------21:33----------
+being such a lazy prick
+
+---------21:42----------
+oh boy a zero ohm resister same spot on
+
+---------21:46----------
+the 23:27 so we're going to take that
+
+---------21:49----------
+little zero ohm resistor
+
+---------21:58----------
+and give it a new home it'll be loved
+
+---------22:00----------
+and cared for I know you spend so much
+
+---------22:05----------
+time on a dead board you thought nobody
+
+---------22:07----------
+would ever care about you but I care
+
+---------22:08----------
+about you little resistor I'm going to
+
+---------22:10----------
+put you on a board that works this okay
+
+---------22:18----------
+now we're going to cut up a jumper wire
+
+---------22:20----------
+and run it
+
+---------22:43----------
+one thing you should realize is that you
+
+---------22:45----------
+should not care about the board being
+
+---------22:46----------
+comfortable you should care about
+
+---------22:47----------
+yourself being comfortable I don't care
+
+---------22:52----------
+that the board is comfortable I really
+
+---------22:53----------
+don't if I need to turn the thing around
+
+---------22:55----------
+so that I can see what I need to see or
+
+---------22:56----------
+do what I need to do I will there's
+
+---------23:00----------
+absolutely no reason to solder at the
+
+---------23:01----------
+wrong angle or drive yourself nuts
+
+---------23:03----------
+because the board is sitting there in
+
+---------23:05----------
+the board comfortable
+
+---------23:06----------
+talk that my comfort is important the
+
+---------23:11----------
+board can eat my ass it is the one that
+
+---------23:14----------
+decided to break just because I got a
+
+---------23:15----------
+little bit of water on it anyway but one
+
+---------23:22----------
+important thing here is that the wire be
+
+---------23:24----------
+flat with the board the wire cannot be
+
+---------23:26----------
+sticking up from the board if you do
+
+---------23:28----------
+that that's
+
+---------23:29----------
+I'm not good at soldering and I'm not
+
+---------23:30----------
+great at running jumpers or one of the
+
+---------23:32----------
+basic rules here is the wire is
+
+---------23:34----------
+going to be secure it needs to be flat
+
+---------23:36----------
+with the board and pushed all the way in
+
+---------23:38----------
+next to the resistor the wire is coming
+
+---------23:41----------
+out nice and flat with the board that's
+
+---------23:43----------
+important there now I'm going to run it
+
+---------23:46----------
+along its original path
+
+---------23:54----------
+security purposes they get a little
+
+---------23:57----------
+easier to stick and this this little
+
+---------24:01----------
+solder cleaning thing that I have it the
+
+---------24:03----------
+tip the iron actually comes out dirtier
+
+---------24:05----------
+as a result of going through it because
+
+---------24:06----------
+it's so filled with solder one of those
+
+---------24:09----------
+things I just kind of need to replace so
+
+---------24:11----------
+now I ran the wiring and it's gone to
+
+---------24:13----------
+pin and five over there let's move it a
+
+---------24:19----------
+little to make my OCD feel better okay
+
+---------24:23----------
+so it's flat with the board it's being
+
+---------24:25----------
+run nice and flat could be a little
+
+---------24:27----------
+flatter Jesus Christ will you just leave
+
+---------24:29----------
+well enough alone so it's there and
+
+---------24:33----------
+we're good to go
+
+---------24:33----------
+oh you really have to have it attached
+
+---------24:40----------
+on both sides don't you that's OCD so
+
+---------24:43----------
+see I have it attached here there they
+
+---------24:46----------
+are on both sides of the brake the
+
+---------24:47----------
+resistor in there I'm out of my damn
+
+---------24:49----------
+mine that does not matter worth a
+
+---------24:51----------
+at all nobody will ever care nobody will
+
+---------24:53----------
+ever see this little six-year-old board
+
+---------24:55----------
+than me and for some reason I give a
+
+---------24:57----------
+crap about these things now I blow blow
+
+---------25:03----------
+it into place just so it looks right
+
+---------25:09----------
+this is this is AG now I went to a
+
+---------25:13----------
+therapist once and they said that I did
+
+---------25:14----------
+not have OCD and I just find that hard
+
+---------25:16----------
+to believe sometimes why the am i
+
+---------25:19----------
+doing this really leave well-enough the
+
+---------25:23----------
+ alone
+
+---------25:26----------
+alright good so my jumper is there now
+
+---------25:31----------
+on to the fun let's see if this actually
+
+---------25:34----------
+works and if I did anything right
+
+---------25:36----------
+there's a good chance that I did nothing
+
+---------25:38----------
+right so take the board not this you're
+
+---------25:41----------
+good you're junk from 2008 we're going
+
+---------25:45----------
+to take board also notice that I clean
+
+---------25:47----------
+up my desk as I go so I was we're just
+
+---------25:49----------
+using the snippers that put those back I
+
+---------25:51----------
+put the wires back where they were
+
+---------25:52----------
+I put the screwdriver back where it is
+
+---------25:53----------
+so as I'm working this is a good habit
+
+---------25:55----------
+to get into and this is a habit that a
+
+---------25:56----------
+lot of newbies to repair having a bender
+
+---------25:58----------
+setup don't do so while you're moving
+
+---------26:01----------
+from one side to the other while you're
+
+---------26:02----------
+finishing one little section of your
+
+---------26:03----------
+project has clean up your desk a little
+
+---------26:05----------
+as you go because having a clean desk is
+
+---------26:06----------
+going to help you have a clean mind and
+
+---------26:08----------
+it's going to help you feel stress-free
+
+---------26:09----------
+the less stress you feel the more
+
+---------26:11----------
+focused you are the more focused you are
+
+---------26:12----------
+the more work you're doing the more work
+
+---------26:13----------
+you do the more money you make and
+
+---------26:15----------
+unless you have customers calling going
+
+---------26:17----------
+where's my stuff weird madam where is my
+
+---------26:20----------
+item what is my stuff not fixed yet
+
+---------26:23----------
+bloody bloody bad bad laughs and that's
+
+---------26:26----------
+that's always a good thing so I'm gonna
+
+---------26:28----------
+take a DC on board let's see where's my
+
+---------26:31----------
+DC on board good to go so I get I had a
+
+---------26:35----------
+DC board attached to the computer I know
+
+---------26:37----------
+I did and now it's gone I'm sure it's
+
+---------26:41----------
+right next to me or right behind me or
+
+---------26:43----------
+somewhere that I'll notice right after I
+
+---------26:44----------
+plug this in oh well
+
+---------26:47----------
+that's another thing about cleaning when
+
+---------26:48----------
+you clean you usually can't find things
+
+---------26:50----------
+which is why a lot of people don't clean
+
+---------26:52----------
+so I know that I probably put that DC
+
+---------26:54----------
+end board away but I put it away some
+
+---------26:56----------
+haha right here duh sealing so again
+
+---------26:59----------
+this is why you should clean as you go
+
+---------27:01----------
+and clean properly as you go so I'm
+
+---------27:03----------
+going to plug this in and as you can see
+
+---------27:07----------
+here I get a nice green light in the
+
+---------27:08----------
+charge you may not be able to see that
+
+---------27:10----------
+so what I'm going to do is I'm going to
+
+---------27:11----------
+put it under the microscope so that you
+
+---------27:12----------
+could see the green light and all of its
+
+---------27:14----------
+glory
+
+---------27:15----------
+you can bet you know you can barely see
+
+---------27:17----------
+the damn green light because I have the
+
+---------27:18----------
+microscope light on see that that's the
+
+---------27:21----------
+prettiest little thing you've ever seen
+
+---------27:23----------
+Greenline so now we're going to do the
+
+---------27:26----------
+second test second part of my test to
+
+---------27:29----------
+make sure that everything is 100% fully
+
+---------27:31----------
+functional on this board is going to be
+
+---------27:33----------
+to see that the fan can spin the fan
+
+---------27:42----------
+spins now what I'm really curious is can
+
+---------27:43----------
+it beep with no RAM installed this is an
+
+---------27:46----------
+MCP 79 based piece of crap the Core 2
+
+---------27:49----------
+Duo cpu so I'd be really surprised if
+
+---------27:56----------
+anything else works on this piece of
+
+---------27:57----------
+ so let's see so I plugged in a
+
+---------28:00----------
+speaker now I have no RAM in the machine
+
+---------28:02----------
+which means that it should be do you
+
+---------28:04----------
+beep
+
+---------28:13----------
+and you don't beep well it's an old
+
+---------28:18----------
+piece of crap and you think I'm going to
+
+---------28:19----------
+go further into troubleshooting this
+
+---------28:21----------
+absolutely not I have no intention of
+
+---------28:24----------
+spending my time replacing the core to
+
+---------28:26----------
+do a CPU or at MCB 79 on a
+
+---------28:30----------
+liquid damage board from 2009 but I did
+
+---------28:33----------
+get the one wire circuit to work and now
+
+---------28:34----------
+is the point of this video I really was
+
+---------28:36----------
+expecting this to be a complete pile of
+
+---------28:38----------
+ that didn't work and that is
+
+---------28:39----------
+exactly what it turned out to be so
+
+---------28:41----------
+ultimately that's it for today and I
+
+---------28:43----------
+hope you learned something
+

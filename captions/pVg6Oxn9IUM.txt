@@ -1,0 +1,1807 @@
+https://www.youtube.com/watch?v=pVg6Oxn9IUM
+---------00:00----------
+all right today let's get started
+
+---------00:01----------
+working on yet another dead MacBook here
+
+---------00:04----------
+we have an a 1706 MacBook it appears to
+
+---------00:07----------
+not be turning on we're gonna open up
+
+---------00:09----------
+this MacBook and see what's going on in
+
+---------00:10----------
+the inside first thing we have to do is
+
+---------00:12----------
+take the screws out if it get the board
+
+---------00:14----------
+out of the machine and see what it's
+
+---------00:15----------
+doing
+
+---------00:16----------
+this machine is a bit of a pain in the
+
+---------00:17----------
+ass to get the board out it because it's
+
+---------00:18----------
+a bunch of different screws in it and
+
+---------00:19----------
+all different types of screws because
+
+---------00:21----------
+Apple and all little types you'll see
+
+---------00:24----------
+let's just get this whole thing taken
+
+---------00:26----------
+apart so here we have a t5 screw over
+
+---------00:29----------
+here we have a t3 screw over here we
+
+---------00:32----------
+have another t5 screw cuz again Apple
+
+---------00:37----------
+let's just get this thing taken apart
+
+---------00:41----------
+you would have full beautiful and cross
+
+---------00:47----------
+growing it I can cross screw and that's
+
+---------00:53----------
+oh this is something that I do to save
+
+---------00:54----------
+myself some time so I'm not gonna
+
+---------00:56----------
+unscrew the charge port because this is
+
+---------00:58----------
+not like the charge ports that just
+
+---------00:59----------
+slide in and stay there these are charge
+
+---------01:01----------
+ports that they'll FPC connectors so
+
+---------01:04----------
+when you put it on there and then you
+
+---------01:06----------
+plug the charger and it's immediately
+
+---------01:08----------
+gonna unplug the charging port from the
+
+---------01:10----------
+board and that's a pain in the dick so
+
+---------01:13----------
+what I do is I pull the board up just a
+
+---------01:15----------
+little bit you know I'm not gonna flex
+
+---------01:16----------
+it you know all you 8900 style from the
+
+---------01:19----------
+2012 830 98 again I'm not Apple I don't
+
+---------01:22----------
+want to destroy these things but I am
+
+---------01:24----------
+going to get you know do that just
+
+---------01:28----------
+enough so that I can ease the charge
+
+---------01:29----------
+port out of there so that it's still
+
+---------01:32----------
+attached to my board when I take it out
+
+---------01:34----------
+it makes life easy makes working on the
+
+---------01:38----------
+machine easier and if it's easier to
+
+---------01:40----------
+work on the machine and you become more
+
+---------01:41----------
+efficient at it then you can do more
+
+---------01:43----------
+repairs or you can do more repairs you
+
+---------01:45----------
+can make more money now it would be
+
+---------01:51----------
+really funny as if this already worked
+
+---------01:52----------
+if that's the case that will likely rage
+
+---------01:54----------
+quit today is not a day where I'm really
+
+---------01:56----------
+in the mood for one of those things
+
+---------01:57----------
+where the board doesn't it says no power
+
+---------02:00----------
+but then I plug it in it already works
+
+---------02:01----------
+and I have to like go through it and
+
+---------02:03----------
+hunt for what it is or the customer sent
+
+---------02:06----------
+me the wrong computer so you
+
+---------02:09----------
+some like that that's not something
+
+---------02:12----------
+I got the patience for today so let's
+
+---------02:15----------
+see what this one does
+
+---------02:16----------
+while we rage quitting or are we
+
+---------02:18----------
+continuing rage quitting are continuing
+
+---------02:20----------
+so what do we get when I plug you in
+
+---------02:24----------
+this machine that says no power in the
+
+---------02:27----------
+ticket it's taking 300 milliamps of 5
+
+---------02:33----------
+volts and boot looping who this could be
+
+---------02:37----------
+fun Oh fun yeah it's actually no power
+
+---------02:41----------
+beautiful what does this charge board do
+
+---------02:46----------
+that charge board is totally dead
+
+---------03:05----------
+five volts 350 ml amps and done okay so
+
+---------03:11----------
+this one may actually be a little bit of
+
+---------03:12----------
+fun so now while it is at 5 volts one of
+
+---------03:16----------
+my questions would be is this is pp 3 v3
+
+---------03:19----------
+underscore g3 hot present let's see what
+
+---------03:25----------
+we get there pp 3 v3 underscore g3 hot
+
+---------03:27----------
+is going to be required on this machine
+
+---------03:30----------
+in order to get a green light I mean 20
+
+---------03:33----------
+volts oh I'm losing it
+
+---------03:49----------
+and also forget where peepee 3v3
+
+---------03:51----------
+underscore g3 how it is created over
+
+---------03:55----------
+here
+
+---------04:01----------
+when 17 volts for a pulse
+
+---------04:08----------
+that's not much good
+
+---------04:18----------
+wait the Romani wearing in the wrong
+
+---------04:19----------
+place I am measuring on the wrong place
+
+---------04:22----------
+what no hi hi hi hi when hi bye
+
+---------04:27----------
+okay so where was I measuring
+
+---------04:36----------
+I was measuring a PV bus yeah I was
+
+---------04:44----------
+measuring P P bus I shouldn't be
+
+---------04:45----------
+measuring that but fix Oh beautiful no
+
+---------04:52----------
+do you know how to make ticket okay here
+
+---------04:56----------
+we go so people so this resistor so P P
+
+---------05:00----------
+3 V 3 underscore g 3 huh let's see what
+
+---------05:02----------
+we have with the resistor
+
+---------05:12----------
+okay so it is 3.3 is capable of baking
+
+---------05:15----------
+that but the charger is bootless which
+
+---------05:17----------
+means we likely have an issue with the
+
+---------05:18----------
+cd32 15 so now we have to do is figure
+
+---------05:21----------
+out which cd32 15 most likely as the
+
+---------05:23----------
+cd32 15 of the 4 I see is responsible
+
+---------05:26----------
+for the charge board so we're gonna take
+
+---------05:27----------
+a look we're gonna zoom in with our
+
+---------05:29----------
+microscope this cd32 fifteen looks
+
+---------05:35----------
+pretty and is covered in under film this
+
+---------05:41----------
+cd32 fifteen looks dusty and covered an
+
+---------05:44----------
+underfill it also has a little residue
+
+---------05:48----------
+there of a solder bla what is that what
+
+---------05:52----------
+is that what are you doing just chilling
+
+---------05:57----------
+on this macbook you little piece of
+
+---------05:58----------
+whatever the hell you are okay okay just
+
+---------06:03----------
+get rid of that thing what is this this
+
+---------06:07----------
+is a pretty cd32 fatigue and there's one
+
+---------06:13----------
+more CD 32:15 that's gonna be right here
+
+---------06:17----------
+so right over here we have a CD 32:15
+
+---------06:20----------
+that cat may look blown but it's not
+
+---------06:22----------
+that's actually under fill' that's
+
+---------06:23----------
+sitting on top of the capacitor
+
+---------06:32----------
+what are you why is there solder balls
+
+---------06:35----------
+sticking out around you three solder
+
+---------06:38----------
+balls this whole side of the board has
+
+---------06:42----------
+actually got solder balls popping out
+
+---------06:43----------
+everywhere get the out of my store
+
+---------06:57----------
+what's really interesting is I don't see
+
+---------06:58----------
+this chip accounted for in the schematic
+
+---------07:00----------
+and diagram oh it's not a chip it's most
+
+---------07:03----------
+likely yeah that that's just a diode
+
+---------07:04----------
+over there so that's a diode that goes
+
+---------07:07----------
+between ground and a 20 volt input so it
+
+---------07:15----------
+would be curious at that point if
+
+---------07:17----------
+there's a short to ground anywhere over
+
+---------07:18----------
+here a short to ground would cause all
+
+---------07:21----------
+sorts of problems but it doesn't look
+
+---------07:23----------
+like we have a short to ground so that's
+
+---------07:25----------
+not something that is concerning to me
+
+---------07:27----------
+now one thing I'm get arrested in is
+
+---------07:29----------
+seeing if after removing that piece over
+
+---------07:31----------
+there if this works again so I removed
+
+---------07:34----------
+the little piece of whatever you saw
+
+---------07:37----------
+right there and we're going to see how
+
+---------07:40----------
+this works
+
+---------07:46----------
+and we still get five volts and then it
+
+---------07:48----------
+takes 300 milliamps and power cycles and
+
+---------07:52----------
+there's no evidence of liquid damage
+
+---------07:54----------
+there's no evidence of anything really
+
+---------07:55----------
+now it could be that one of these cd32
+
+---------07:58----------
+15s is getting hot and the only way to
+
+---------08:00----------
+tell if that's the case would be to hook
+
+---------08:03----------
+up the please bro camera so I am going
+
+---------08:06----------
+to find a please bro camera we're gonna
+
+---------08:12----------
+try out our please bro machine so here
+
+---------08:16----------
+is the please bro machine not please in
+
+---------08:20----------
+much bro
+
+---------08:21----------
+now sometimes one of your CD 32 15s will
+
+---------08:24----------
+be getting warm and if a CD 32 15 is
+
+---------08:29----------
+getting warm
+
+---------08:35----------
+that could be causing the issue that
+
+---------08:39----------
+cd32 15 could be the bad one
+
+---------08:43----------
+of course the ethernet wire - gets the
+
+---------08:46----------
+please bill camera is just too short to
+
+---------08:49----------
+make it like most wires in my office
+
+---------09:01----------
+okay
+
+---------09:03----------
+so we're gonna take a look here using
+
+---------09:05----------
+them okay
+
+---------09:13----------
+nothing that's warm on this side
+
+---------09:20----------
+nothing gets warm on this side
+
+---------09:26----------
+well then that's a 60 degrees Celsius
+
+---------09:29----------
+cd32 15 and on this side 42 so keep in
+
+---------09:38----------
+mind this is not actually 42 this is it
+
+---------09:41----------
+that's not the one that's getting hot
+
+---------09:42----------
+the one that's getting hot is the one on
+
+---------09:43----------
+the bottom and it's heating the board to
+
+---------09:44----------
+the other side so this cd32 15 over here
+
+---------09:47----------
+is at its hottest point over here 60
+
+---------09:49----------
+Celsius now the way that this machine
+
+---------09:52----------
+works is in order for the charge port to
+
+---------09:55----------
+be giving me 20 volts instead of 5 volts
+
+---------10:01----------
+the cd32 15 ship over here needs to be
+
+---------10:04----------
+able to communicate with the charger so
+
+---------10:06----------
+if we take a look at this side of the
+
+---------10:07----------
+board what you'll see is that there is
+
+---------10:09----------
+going to be a little connector here that
+
+---------10:12----------
+the charge port goes to so if you see
+
+---------10:14----------
+over here see this is my charge port
+
+---------10:17----------
+over here and that plugs into the board
+
+---------10:19----------
+on this connector and that's what you're
+
+---------10:21----------
+seeing right here this is our charge
+
+---------10:23----------
+port
+
+---------10:28----------
+and the charge port is going to speak to
+
+---------10:31----------
+the CD 32:15 ship like so see that the
+
+---------10:38----------
+charger
+
+---------10:40----------
+cd32 15 ship now if any one of those
+
+---------10:43----------
+chips doesn't work rather than getting
+
+---------10:45----------
+the full 20 volts it's only gonna supply
+
+---------10:47----------
+5 volts one of the interesting things
+
+---------10:49----------
+about how the MacBook Pro is designed if
+
+---------10:50----------
+any one of its Thunderbolt for its
+
+---------10:53----------
+malfunctions none of the port's will
+
+---------10:55----------
+work it only takes one port
+
+---------10:57----------
+malfunctioning one cd32 15 is to fail in
+
+---------11:00----------
+order for the entire machine to fail so
+
+---------11:03----------
+the more ports you have the more
+
+---------11:05----------
+liability given that it only takes one
+
+---------11:07----------
+ships failure for the entire design the
+
+---------11:10----------
+entire machine to die if you have a
+
+---------11:12----------
+Michigan old-style machine let's say it
+
+---------11:14----------
+has 2 or 3 USB ports and one of your USB
+
+---------11:17----------
+ports fails typically your other ports
+
+---------11:19----------
+will still work and you'll still be able
+
+---------11:21----------
+to charge your machine or if your HDMI
+
+---------11:23----------
+port fails you're still able to use your
+
+---------11:24----------
+machine in this machine if any USB C
+
+---------11:28----------
+port fails the entire machine becomes
+
+---------11:30----------
+useless just like that it's the Apple
+
+---------11:34----------
+Way so what we're gonna do here is we're
+
+---------11:36----------
+gonna remove that under-filled CD 3215
+
+---------11:39----------
+and replace it with a better one a
+
+---------11:42----------
+happier one and go from there and
+
+---------11:45----------
+perhaps then this board will work again
+
+---------11:48----------
+and the board will be happy
+
+---------11:49----------
+chuck it so now we're gonna unplug the
+
+---------11:51----------
+please broke camera everybody say thank
+
+---------11:53----------
+you please broke camera please bro
+
+---------11:56----------
+camera and one of the ways to tell very
+
+---------12:00----------
+often if it is one of your CD 3215
+
+---------12:02----------
+that's doing it is which is the one
+
+---------12:04----------
+that's the hottest of all your CD 32 15s
+
+---------12:06----------
+so now we're gonna prep the board for
+
+---------12:07----------
+the work that we're gonna bout to do to
+
+---------12:09----------
+it the first thing we're gonna do is
+
+---------12:10----------
+we're gonna unplug the charge port
+
+---------12:11----------
+because we don't want the heat away
+
+---------12:12----------
+place in the bottom of the board to melt
+
+---------12:14----------
+any of this into place so we're gonna
+
+---------12:16----------
+take a magnet a t3 screwdriver
+
+---------12:23----------
+and we're gonna unplug that charge port
+
+---------12:27----------
+just place it on the side like so after
+
+---------12:31----------
+that no biggie it's gonna turn the board
+
+---------12:34----------
+around and this is gonna be the fun part
+
+---------12:36----------
+because this chip is under-filled
+
+---------12:38----------
+underfill gross so we're just going to
+
+---------12:42----------
+go like this and we're gonna find a
+
+---------12:47----------
+knife but unfortunately I don't have a
+
+---------12:48----------
+knife it was stolen so we're probably
+
+---------12:51----------
+just going to rip the chip off the board
+
+---------12:55----------
+while heating it the fun part of my job
+
+---------12:59----------
+so let's remove this under-filled CD
+
+---------13:01----------
+32:15
+
+---------13:08----------
+much heat
+
+---------13:27----------
+now once I'm at a point where I can poke
+
+---------13:29----------
+these caps and they move I know that I'm
+
+---------13:32----------
+at a temperature where I can take this
+
+---------13:33----------
+off
+
+---------13:42----------
+[Music]
+
+---------13:52----------
+f off my board you filthy chip
+
+---------13:56----------
+whoops
+
+---------13:59----------
+all right we may just have to find an
+
+---------14:01----------
+exacto after all I thought I could do
+
+---------14:03----------
+that with my tweezers but no luck if I
+
+---------14:06----------
+can't get an exact oh I'll probably just
+
+---------14:07----------
+find a box cutter or something the box
+
+---------14:09----------
+cutter will likely do just fine I know
+
+---------14:11----------
+we have a box go I haven't an exacto up
+
+---------14:15----------
+there and the last like six months they
+
+---------14:20----------
+don't arrive at my desk they arrive to
+
+---------14:21----------
+Steve or to Camilla do an L where exacto
+
+---------14:26----------
+I don't use them I don't get them I use
+
+---------14:37----------
+box cutter it'll be fine so we cut this
+
+---------14:41----------
+a box cutter is just as exact as an
+
+---------14:46----------
+exacto knife it's gonna gently cut this
+
+---------14:50----------
+area separate the chip
+
+---------14:55----------
+from the board
+
+---------14:56----------
+[Music]
+
+---------14:58----------
+obviously I'm going to I'm pushing
+
+---------15:00----------
+diagonally because I want I want to push
+
+---------15:02----------
+on the bottom of the chip rather than
+
+---------15:03----------
+pushing on the actual board itself check
+
+---------15:10----------
+it out
+
+---------15:11----------
+[Music]
+
+---------15:29----------
+and while I'm at it I might as well flow
+
+---------15:31----------
+those components back in a place that I
+
+---------15:33----------
+moved around a little bit a little dot
+
+---------15:34----------
+they have a capacitor a diode there that
+
+---------15:36----------
+could be all moved back into place if
+
+---------15:39----------
+anything needs to be moved back in a
+
+---------15:41----------
+place it'll be moved back in a place
+
+---------15:42----------
+very nicely with the anti flux that I
+
+---------15:44----------
+put there
+
+---------16:17----------
+table flip
+
+---------16:26----------
+Jesus Christ you don't want to come off
+
+---------16:28----------
+be little bastard
+
+---------16:36----------
+all right we're gonna box-cutter this a
+
+---------16:38----------
+little bit more
+
+---------16:57----------
+this is what happens when you don't have
+
+---------16:58----------
+an exacto but when he's an exacto when
+
+---------17:02----------
+you have a box cutter I am the new
+
+---------17:05----------
+shipping clerk of Rosslyn repair group
+
+---------17:07----------
+and this is my box cutter I actually
+
+---------17:11----------
+used to use a box cutter right around
+
+---------17:13----------
+large BGA chips like when I would do the
+
+---------17:15----------
+GPU I would urge the board a little bit
+
+---------17:17----------
+so I'd know how to place it properly
+
+---------17:19----------
+it was pretty helpful they're very
+
+---------17:23----------
+gentle etching okay
+
+---------17:36----------
+miss eras here Shantanu
+
+---------17:41----------
+now we're gonna go what I some people
+
+---------17:43----------
+would call ham on this chip
+
+---------17:53----------
+I have gone ham rip GTFO my board this
+
+---------18:00----------
+is my board waffle
+
+---------18:12----------
+the Sahara has returned to my life check
+
+---------18:14----------
+but five times as much makeup as what
+
+---------18:16----------
+was previously in a profile picture I
+
+---------18:20----------
+hope you didn't spend all of your
+
+---------18:23----------
+soldering income all of your soldering
+
+---------18:25----------
+uh funds on makeup also how's your a
+
+---------18:30----------
+1466 that you were fixing I mean an Abe
+
+---------18:33----------
+I hope you were able to figure it out
+
+---------18:36----------
+and get rid of that sada blob in the DCN
+
+---------18:37----------
+board we haven't kept up it's been a
+
+---------18:39----------
+long time how are you also it looks like
+
+---------18:44----------
+Tim Harmon is here now is Tim Harmon
+
+---------18:46----------
+doing and mobile fix I recognize all of
+
+---------18:51----------
+you it's been a long time how are you
+
+---------18:53----------
+all doing alright so now what I'm gonna
+
+---------18:56----------
+do here is I'm going to be a little bit
+
+---------18:59----------
+of an I'm going to take my wick
+
+---------19:05----------
+I'm going to find my wick
+
+---------19:11----------
+making fun of the audiences makes me
+
+---------19:14----------
+feel better about my own screw-ups in
+
+---------19:16----------
+life like my inability to solder a CD
+
+---------19:18----------
+3215 and boy I really can't solder a CD
+
+---------19:23----------
+32 15 now watch me rip all the pants
+
+---------19:38----------
+No
+
+---------19:40----------
+[Music]
+
+---------19:46----------
+I would actually license your name other
+
+---------19:48----------
+day a threat pop up in the swedish tech
+
+---------19:49----------
+forum which spawned a lot of response is
+
+---------19:51----------
+all about you I can only imagine it
+
+---------19:54----------
+would be nothing good okay the first
+
+---------20:01----------
+person who gets rights to my name in
+
+---------20:03----------
+Sweden would be nasarah but she has to
+
+---------20:06----------
+tell me how her MacBook Air has been
+
+---------20:08----------
+doing
+
+---------20:15----------
+[Music]
+
+---------20:17----------
+we're pimping a license and took a
+
+---------20:18----------
+vacation you get a vacation oh now I'm
+
+---------20:22----------
+definitely yeah I mean I'm jealous I
+
+---------20:24----------
+want a vacation
+
+---------20:32----------
+now the wick is pretty good for scraping
+
+---------20:34----------
+away the under film I like it
+
+---------20:37----------
+good old
+
+---------20:39----------
+[Music]
+
+---------20:45----------
+now we're gonna go back to the box
+
+---------20:47----------
+cutter we don't need no stinking exacto
+
+---------20:50----------
+knife
+
+---------20:56----------
+[Music]
+
+---------21:04----------
+doesn't have a precision of a vow of a
+
+---------21:06----------
+exacto knife but we'll make do
+
+---------21:12----------
+okay
+
+---------21:23----------
+[Music]
+
+---------21:25----------
+clean up a little bit
+
+---------21:40----------
+[Music]
+
+---------22:02----------
+[Music]
+
+---------22:24----------
+[Music]
+
+---------22:33----------
+nasarah can you do me a large favor and
+
+---------22:36----------
+look up that Swedish tech forum and tell
+
+---------22:38----------
+me what mobile fix has been saying about
+
+---------22:40----------
+me behind my back because I don't speak
+
+---------22:42----------
+Sweden very well
+
+---------22:44----------
+Swedish very well but I'm curious how
+
+---------22:47----------
+much ship talking is going on I will pay
+
+---------22:52----------
+you well to be my spy
+
+---------22:59----------
+[Music]
+
+---------23:07----------
+what
+
+---------23:15----------
+I don't know the name of the forum
+
+---------23:16----------
+unfortunately
+
+---------23:19----------
+[Music]
+
+---------23:45----------
+[Music]
+
+---------24:05----------
+hey it looks like we got one missing pad
+
+---------24:07----------
+that does matter one missing pad that
+
+---------24:09----------
+doesn't easily fixable with a little bit
+
+---------24:10----------
+of a jumper I'm out of practice I have
+
+---------24:17----------
+not been doing as much more doper lately
+
+---------24:18----------
+as I have been doing teaching management
+
+---------24:21----------
+shipping customer service and a litany
+
+---------24:24----------
+of other jobs that I used to pay people
+
+---------24:27----------
+for and so I am not exactly as in it as
+
+---------24:33----------
+I usually am so it's expected that did
+
+---------24:36----------
+not go as well as it was if I was doing
+
+---------24:38----------
+not five to ten border pairs a day again
+
+---------24:41----------
+granted let's face it was exactly the
+
+---------24:44----------
+best at soldering beforehand either well
+
+---------24:47----------
+we're gonna make this work it's gonna
+
+---------24:49----------
+give us a nice 20 volts and part of this
+
+---------24:52----------
+is what things is really important by
+
+---------24:54----------
+the way when you're doing anything like
+
+---------24:55----------
+this is some positive thinking
+
+---------24:58----------
+no that's I never want to hear that
+
+---------25:01----------
+crap
+
+---------25:01----------
+keep it going no man you start doing
+
+---------25:05----------
+that you're all you're pretty much done
+
+---------25:06----------
+for in life you know what I mean every
+
+---------25:09----------
+single one has been around somebody
+
+---------25:11----------
+that's aa moment you hear that just
+
+---------25:15----------
+run quit your boss is probably an
+
+---------25:18----------
+
+
+---------25:24----------
+ way to go through life dealing with
+
+---------25:26----------
+people that do that all day
+
+---------25:28----------
+so yeah nothing that I screw up is
+
+---------25:31----------
+something that I can't fix
+
+---------25:34----------
+please you fire half the company again
+
+---------25:40----------
+I'm working on it actually yes I'm
+
+---------25:42----------
+working on it we are doing a company
+
+---------25:45----------
+purge
+
+---------25:50----------
+I'm going over the stuff that's not up
+
+---------25:52----------
+to standard and being my typical
+
+---------25:56----------
+self and purging
+
+---------26:17----------
+[Music]
+
+---------26:21----------
+when you're doing this never go ah you
+
+---------26:26----------
+can laughingly say even when you do
+
+---------26:29----------
+that this is it tough talk or is it
+
+---------26:32----------
+ah let's fix it you know it's all in the
+
+---------26:35----------
+attitude the attitude is gonna have a
+
+---------26:36----------
+lot a lot to do with your outcome this
+
+---------26:43----------
+is one of the misconceptions I think a
+
+---------26:44----------
+lot of people get about me from YouTube
+
+---------26:45----------
+because they assume that because I
+
+---------26:46----------
+criticize things that I don't like that
+
+---------26:50----------
+I am a negative individual or that
+
+---------26:59----------
+it doesn't matter what situation I'm in
+
+---------27:01----------
+I'll find a way to make it work you know
+
+---------27:03----------
+I'll find a way to make it interesting
+
+---------27:05----------
+fun productive no matter what it is you
+
+---------27:11----------
+got to have that attitude because
+
+---------27:12----------
+there's a lot of things about life that
+
+---------27:14----------
+are really depressing you lose your
+
+---------27:15----------
+over the fact that your CD 3215 didn't
+
+---------27:18----------
+go the way you wanted you're
+
+---------27:22----------
+so what are we doing
+
+---------27:24----------
+yeah you need to do is reattach this
+
+---------27:28----------
+right here see that it's gonna reattach
+
+---------27:32----------
+that it's gonna be beautiful just gonna
+
+---------27:33----------
+take ourselves a little bit of Amtech
+
+---------27:35----------
+flux you know damn well where that's
+
+---------27:40----------
+available by now now don't you folks I
+
+---------27:43----------
+know you do I know you know where that's
+
+---------27:46----------
+available this video is brought to you
+
+---------27:50----------
+by our sponsors at store osmond group
+
+---------27:52----------
+com
+
+---------27:53----------
+thank you for supporting our sponsors
+
+---------27:55----------
+that help keep us in business on store
+
+---------27:57----------
+dot Rosman group comm you can find
+
+---------27:59----------
+chips-- supplies ultrasonics flux
+
+---------28:01----------
+soldering stations and more with 4.9
+
+---------28:04----------
+stars and shopper approved same-day
+
+---------28:06----------
+shipping from new york city and free
+
+---------28:08----------
+continental shipping over $30 you can't
+
+---------28:10----------
+lose
+
+---------28:11----------
+we even offer free support unless you
+
+---------28:13----------
+are pleased bro live chat inter adding
+
+---------28:15----------
+new products every day if you buy today
+
+---------28:16----------
+we'll throw in a special offer that your
+
+---------28:18----------
+order will actually go through properly
+
+---------28:20----------
+what are you waiting for go to store
+
+---------28:22----------
+awesome group comm to get yourself some
+
+---------28:24----------
+authentic antique flux don't delay buy
+
+---------28:27----------
+today
+
+---------28:28----------
+[Music]
+
+---------28:34----------
+[Music]
+
+---------28:54----------
+[Music]
+
+---------29:18----------
+these are no longer tweezers
+
+---------29:21----------
+[Music]
+
+---------29:50----------
+okay now we got to see what that pad on
+
+---------29:52----------
+the bottom is for huh
+
+---------29:55----------
+[Music]
+
+---------30:02----------
+that is the sixth path
+
+---------30:09----------
+[Music]
+
+---------30:19----------
+and that unfortunately appears how I
+
+---------30:21----------
+never mind one side of the board oh that
+
+---------30:24----------
+is not connected thank God I was looking
+
+---------30:26----------
+on the other side of the board v that
+
+---------30:28----------
+was right okay see ya that pad doesn't
+
+---------30:30----------
+actually go to anything so you don't
+
+---------30:31----------
+have to give a about it I'm just
+
+---------30:33----------
+gonna put a little bit of wick on this
+
+---------30:37----------
+[Music]
+
+---------30:53----------
+why in the hell am i trying to lick with
+
+---------30:55----------
+this freaking hot razor
+
+---------30:59----------
+[Music]
+
+---------31:10----------
+[Music]
+
+---------31:14----------
+okay
+
+---------31:16----------
+[Music]
+
+---------31:23----------
+[Music]
+
+---------32:01----------
+do you know why that so many of these
+
+---------32:03----------
+you know why I rip the pad and you know
+
+---------32:06----------
+why I had to run a jumper because I made
+
+---------32:09----------
+fun on a Sara's profile picture you see
+
+---------32:13----------
+what that is folks that's what we call
+
+---------32:14----------
+karma karma I made fun of the profile
+
+---------32:19----------
+picture of one of my most loyal viewers
+
+---------32:21----------
+and this is exactly what I deserve
+
+---------32:29----------
+a difficult repair
+
+---------32:39----------
+life is indeed more fair than people
+
+---------32:41----------
+think
+
+---------32:46----------
+[Music]
+
+---------32:58----------
+[Music]
+
+---------33:07----------
+[Music]
+
+---------33:14----------
+[Music]
+
+---------33:40----------
+[Music]
+
+---------33:46----------
+[Music]
+
+---------34:01----------
+[Music]
+
+---------34:23----------
+yeah so
+
+---------34:28----------
+stood yes
+
+---------34:31----------
+[Music]
+
+---------34:56----------
+okay now everybody this is gonna be UV
+
+---------34:58----------
+light don't look at it don't look at it
+
+---------35:01----------
+because UV light is bad for your eyes if
+
+---------35:03----------
+you look at this it's bad for you don't
+
+---------35:06----------
+look
+
+---------35:17----------
+by the way if you want to know where to
+
+---------35:19----------
+get this UV like hearing pen as well as
+
+---------35:21----------
+the pay the conformal coating check out
+
+---------35:25----------
+strata Rostelecom
+
+---------35:43----------
+[Music]
+
+---------35:49----------
+now our job is going to be to place a
+
+---------35:50----------
+new CD 3215 chip over there and by the
+
+---------35:53----------
+way if you need a new CD 32:15 chip
+
+---------35:56----------
+checkout store across from group comm we
+
+---------36:00----------
+sell a new CD 32:15 chips let's see if
+
+---------36:04----------
+this works
+
+---------36:05----------
+we've greened over those areas it should
+
+---------36:08----------
+be a happy little board with a happy
+
+---------36:10----------
+little CD 3215 that's all it needs
+
+---------36:12----------
+because this is a board that I picked of
+
+---------36:16----------
+course I didn't
+
+---------36:22----------
+[Music]
+
+---------36:23----------
+we need a better way to take this to
+
+---------36:26----------
+deal with this you have to log into a
+
+---------36:28----------
+website that has a CAPTCHA every time
+
+---------36:29----------
+you do this I am the site set when we
+
+---------36:41----------
+have less than 30 market is out of stock
+
+---------36:44----------
+not just reorder so this way
+
+---------36:46----------
+because I try to estimate how many we
+
+---------36:48----------
+use in the store versus sell but there
+
+---------36:52----------
+is like we not only have to go through
+
+---------36:53----------
+the website find the item you have to
+
+---------36:55----------
+actually deal with a CAPTCHA and choose
+
+---------36:56----------
+which of the three traffic lights here
+
+---------36:57----------
+have you seen that I'll take it out of
+
+---------37:03----------
+inventory I feel guilty now
+
+---------37:09----------
+[Music]
+
+---------37:23----------
+okay they got the chip in place
+
+---------37:38----------
+then the nice nice try nice try
+
+---------37:42----------
+ chip today is really not my day
+
+---------37:44----------
+I have the jet forgot how to fix boards
+
+---------38:20----------
+soldered on
+
+---------38:21----------
+[Music]
+
+---------38:29----------
+I'm gonna take that chip out of
+
+---------38:30----------
+inventory
+
+---------39:19----------
+[Music]
+
+---------39:24----------
+now for the moment of truth let's see if
+
+---------39:30----------
+positivity helped us on a bad day to
+
+---------39:32----------
+make this board work again remember not
+
+---------39:36----------
+all of your days will be perfect fixes
+
+---------39:38----------
+but all of your days should be positive
+
+---------39:40----------
+ones 5 volts torn his ha 20 volts check
+
+---------39:49----------
+it out
+
+---------39:50----------
+we have 20 volts and 800 milliamps now I
+
+---------39:55----------
+knew even when it was still looks like a
+
+---------39:56----------
+5 volts that was gonna work because it
+
+---------39:58----------
+wasn't taking 300 milliamps which is
+
+---------39:59----------
+what it was doing because this chip was
+
+---------40:00----------
+shorted and it was shorting a power out
+
+---------40:04----------
+of ground we're getting 20 volts which
+
+---------40:06----------
+means the USBC chip is the USBC much
+
+---------40:08----------
+chip is able to communicate with the
+
+---------40:10----------
+charger it's able to request 20 volts is
+
+---------40:11----------
+that a 5 volts is no longer boot looping
+
+---------40:13----------
+it all works the power of positivity
+
+---------40:16----------
+this one book I actually suggest all you
+
+---------40:18----------
+read so a few years back I recommended
+
+---------40:20----------
+that all of you read a book called start
+
+---------40:23----------
+with no by gym camp that was a very very
+
+---------40:26----------
+helpful book from me I recommend that a
+
+---------40:28----------
+lot of people read at 6 or 7 years ago
+
+---------40:30----------
+on this channel forget exactly when it
+
+---------40:32----------
+was a very helpful book in terms of how
+
+---------40:35----------
+I deal with all different types of
+
+---------40:37----------
+business situations and the next one
+
+---------40:41----------
+it's going to be this so one book that I
+
+---------40:45----------
+suggest that many of you read it's gonna
+
+---------40:49----------
+be this one this book has been very
+
+---------40:51----------
+helpful to me and I believe it'll be
+
+---------40:53----------
+very helpful to many of you I actually
+
+---------40:55----------
+made it mandatory that somebody here
+
+---------40:57----------
+read it which they're probably not
+
+---------40:59----------
+feeling that though I'll put that right
+
+---------41:02----------
+here the mind/body code how the mind
+
+---------41:06----------
+wounds inhales the body a fairly
+
+---------41:08----------
+interesting book highly suggest it you
+
+---------41:11----------
+read the book more of your MacBooks will
+
+---------41:14----------
+work like this one that's it for today
+
+---------41:17----------
+and as always I hope you learned
+
+---------41:18----------
+something
+
+---------41:19----------
+see you in the next one
+

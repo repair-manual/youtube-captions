@@ -1,0 +1,799 @@
+https://www.youtube.com/watch?v=TqVzrbzZ87o
+---------00:00----------
+hi so today we're gonna be going over a
+
+---------00:01----------
+MacBook Air in this MacBook Air appears
+
+---------00:03----------
+to be dead in like just about every
+
+---------00:06----------
+MacBook that comes into the store this
+
+---------00:08----------
+is another one that yet has not had
+
+---------00:09----------
+anything spilled on it
+
+---------00:12----------
+so we're just gonna take a look over to
+
+---------00:13----------
+this machine and we're gonna see if that
+
+---------00:16----------
+looks like truth and let's see what we
+
+---------00:19----------
+have here so let's just get the
+
+---------00:21----------
+microscope camera and focus and let's
+
+---------00:23----------
+just take a look at the landscape before
+
+---------00:25----------
+we open the schematics and get some
+
+---------00:26----------
+measuring and things like that it's nice
+
+---------00:28----------
+to just take a look at the landscape and
+
+---------00:29----------
+get a guess as to what areas we are
+
+---------00:31----------
+gonna have to look at in what areas we
+
+---------00:33----------
+are gonna have to focus on should we
+
+---------00:35----------
+decide that it is gonna require
+
+---------00:37----------
+schematic and looking at it it's over
+
+---------00:39----------
+here you can tell that the back life
+
+---------00:41----------
+views has some not water on it that's
+
+---------00:45----------
+definitely not water not coca-cola and
+
+---------00:47----------
+not piss not a not any of those liquids
+
+---------00:49----------
+we're gonna continue onwards because the
+
+---------00:51----------
+thing is this machine itself is actually
+
+---------00:52----------
+dead so it doesn't power on at all so
+
+---------00:55----------
+that is a problem so over here we can
+
+---------00:57----------
+see that there is a little bit of junk
+
+---------00:59----------
+by the SMC reset circuitry now the way
+
+---------01:02----------
+the SMC reset circuit works is pretty
+
+---------01:04----------
+simple it's a little complicated if you
+
+---------01:06----------
+have it if you're new to it and you know
+
+---------01:08----------
+you know you're trying to guess what it
+
+---------01:09----------
+is but it's pretty simple this machine
+
+---------01:11----------
+is gonna turn on first when PP 3 v 4 to
+
+---------01:14----------
+mister first panel rather comes in new
+
+---------01:15----------
+computer so the first panel real that
+
+---------01:17----------
+shows up is BP 3 V 4 2 now this strip
+
+---------01:19----------
+over here which is the system management
+
+---------01:21----------
+controller controls turning on turning
+
+---------01:22----------
+off all different sensors recognition of
+
+---------01:25----------
+the battery that chip turns on from P P
+
+---------01:27----------
+3 V 4 2 and it needs exactly 3.42 volts
+
+---------01:30----------
+but the problem that we run into is that
+
+---------01:32----------
+it takes about you know it's like a
+
+---------01:34----------
+color maybe 100 milliseconds for P P 3 V
+
+---------01:37----------
+4 to to become exactly P P 3 V 4 - and
+
+---------01:40----------
+in that time this is gonna try to boot
+
+---------01:42----------
+and if it tries to boot while it's 4
+
+---------01:44----------
+volts or 2 volts or 1 volt it's going to
+
+---------01:47----------
+wind up crashing the same way any type
+
+---------01:49----------
+of computer is if you provide the wrong
+
+---------01:51----------
+voltage to its processor so this sits in
+
+---------01:54----------
+between the pp 3 before - power supply
+
+---------01:57----------
+which is over here with no water on it
+
+---------01:59----------
+and the SMC chip which is over here and
+
+---------02:02----------
+the idea is that this chip is gonna wait
+
+---------02:04----------
+about a quarter of a second or so before
+
+---------02:07----------
+it tells the SMC that it's ok to turn on
+
+---------02:10----------
+so it's going to wait this chip here is
+
+---------02:12----------
+going
+
+---------02:13----------
+wait until this chip here is created
+
+---------02:15----------
+exactly 3.42 volts and once this chip
+
+---------02:18----------
+here is created exactly 3.42 volts this
+
+---------02:20----------
+chip will then tell the SMC okay
+
+---------02:22----------
+you may now turn on now and it keeps the
+
+---------02:25----------
+SMC from screwing up and crashing so
+
+---------02:28----------
+this is the pp 3 before 2 circuit it's
+
+---------02:30----------
+going to take either the 8 volts from
+
+---------02:32----------
+the battery or the 16 volts from the
+
+---------02:34----------
+charger and it's going to turn it into
+
+---------02:35----------
+3.42 volts so you see over here you have
+
+---------02:38----------
+your separate input so I forget which is
+
+---------02:41----------
+which to be honest with you I believe
+
+---------02:42----------
+this is gonna be from pp bus gee hmm
+
+---------02:45----------
+this is from pp bus g3 huh over here and
+
+---------02:48----------
+which is the battery voltage and this
+
+---------02:50----------
+one is from the charger and they're both
+
+---------02:52----------
+going to go through this diode and the
+
+---------02:53----------
+idea here is very simple you don't want
+
+---------02:56----------
+the voltage from the charger to go
+
+---------02:59----------
+directly to the battery or for the
+
+---------03:01----------
+battery to try and charge a charger so
+
+---------03:04----------
+the idea here is we put this diode here
+
+---------03:06----------
+so that they both can't come through at
+
+---------03:07----------
+the same time so you have two separate
+
+---------03:09----------
+entrances but one exit and this cannot
+
+---------03:13----------
+go up to there and this cannot go
+
+---------03:15----------
+directly here because again you don't
+
+---------03:16----------
+want to send 18 volts directly to the
+
+---------03:19----------
+battery that's not a good thing
+
+---------03:20----------
+so this this is a diode sitting here
+
+---------03:22----------
+then this is going to be a capacitor on
+
+---------03:24----------
+the input which is gonna act like a
+
+---------03:26----------
+battery and it's gonna store the voltage
+
+---------03:28----------
+from the charger or the battery and that
+
+---------03:30----------
+is the P P 3 V 4 to regulator over here
+
+---------03:32----------
+this is gonna be some output capacitors
+
+---------03:34----------
+um gee I can't even tell if it's an
+
+---------03:36----------
+output or input to be honest with you
+
+---------03:37----------
+and this is gonna be the coil that's
+
+---------03:40----------
+going to smooth everything out so the
+
+---------03:42----------
+first thing that I'm gonna do here is
+
+---------03:43----------
+we're just gonna clean our landscape a
+
+---------03:46----------
+little bit so first thing we do is we're
+
+---------03:48----------
+just gonna add a little bit of liquid
+
+---------03:50----------
+flux over here and after we add in some
+
+---------03:52----------
+nice liquid flux I'm gonna put on the
+
+---------03:54----------
+air a fume extractor because there's
+
+---------03:57----------
+really no desire to breathe any of that
+
+---------03:59----------
+in that's not gonna do us any good we're
+
+---------04:01----------
+just gonna start heating the board a
+
+---------04:02----------
+little in that area we're just gonna
+
+---------04:05----------
+want to gently clean away any of that
+
+---------04:08----------
+junk because that junk is not gonna do
+
+---------04:10----------
+us any good we're just gonna do a little
+
+---------04:12----------
+bit of this
+
+---------04:13----------
+now keep in mind there's any specific
+
+---------04:15----------
+solder joint that has any specific
+
+---------04:17----------
+solder joints that has broken or cracked
+
+---------04:19----------
+like let's say something under this
+
+---------04:21----------
+diode we really don't want to toss this
+
+---------04:23----------
+directly into the ultrasonic cleaner
+
+---------04:24----------
+because that little solder joint will be
+
+---------04:26----------
+tossed away not only will it be tossed
+
+---------04:28----------
+away but the actual dirt which is the
+
+---------04:30----------
+evidence of where that broken solder
+
+---------04:31----------
+joint is will also be tossed away and
+
+---------04:34----------
+then will be stopped going under every
+
+---------04:35----------
+single chip manually torturing ourselves
+
+---------04:37----------
+for a solution when the solution may
+
+---------04:39----------
+actually be fixed right in front of us
+
+---------04:41----------
+simply by giving it a light reflow with
+
+---------04:44----------
+some flux and some solder which is what
+
+---------04:46----------
+I'm gonna do right now it's gonna go
+
+---------04:49----------
+over some of these areas hey let's go
+
+---------04:53----------
+over that little back light fuse area
+
+---------04:55----------
+over there hanging over the little back
+
+---------04:57----------
+lights use area and we're going to just
+
+---------04:59----------
+give it a little bit of flux and a
+
+---------05:02----------
+little bit of hot air and we're gonna
+
+---------05:03----------
+see what happens from there now we'll
+
+---------05:07----------
+see if this fixes it
+
+---------05:16----------
+now of course this is definitely gonna
+
+---------05:17----------
+get thrown into an ultrasonic cleaner
+
+---------05:19----------
+afterwards this is not an acceptable
+
+---------05:21----------
+form of finished cleaning but it is a
+
+---------05:24----------
+small portion of what we do just to get
+
+---------05:30----------
+things started the way I want you to see
+
+---------05:35----------
+this is less like diagnosing and
+
+---------05:38----------
+repairing circuitry at first and more
+
+---------05:40----------
+like preserving an expensive old piece
+
+---------05:42----------
+of artwork so let's say you take a piece
+
+---------05:44----------
+of artwork from another 16 hundreds of
+
+---------05:47----------
+the 12 hundreds there are certain things
+
+---------05:49----------
+you're gonna want to do to try and
+
+---------05:50----------
+preserve the artwork so that it doesn't
+
+---------05:54----------
+get damaged and that's the kind of
+
+---------05:57----------
+attitude that we're taking over here
+
+---------06:05----------
+whereas if you're working with some
+
+---------06:07----------
+awesome tapes of a session from the
+
+---------06:10----------
+1960s there's certain ways that you
+
+---------06:16----------
+treat things you're not gonna just run
+
+---------06:18----------
+in there and run amuck and destroy
+
+---------06:22----------
+things I mean ice and careful so the
+
+---------06:25----------
+first thing we're gonna want to do now
+
+---------06:26----------
+is see if we've made any progress
+
+---------06:28----------
+actually firstly we really should give
+
+---------06:30----------
+that SMC reset area just a little bit of
+
+---------06:33----------
+attention here and if you want to be
+
+---------06:35----------
+able to tell what do you know what these
+
+---------06:37----------
+things do you will have to Google and
+
+---------06:39----------
+you will have to find your own schematic
+
+---------06:41----------
+and board views I do not provide those
+
+---------06:44----------
+you will find them on google you will
+
+---------06:47----------
+find people that have them on google but
+
+---------06:49----------
+yeah don't don't even get me started
+
+---------06:51----------
+with that because everybody likes to ask
+
+---------06:54----------
+hey Lois I only want to schematic hey
+
+---------06:56----------
+Lois I want to board you and say yeah I
+
+---------06:58----------
+don't like yeah I've never distributed
+
+---------07:01----------
+those and I never will so we're not
+
+---------07:03----------
+gonna do any of that so now what I'm
+
+---------07:05----------
+gonna do is I'm just gonna get stuck I'm
+
+---------07:07----------
+just gonna turn off all this loud stuff
+
+---------07:09----------
+and I'm kind of curious if this is
+
+---------07:10----------
+microphone blocking out more than the
+
+---------07:12----------
+other or not I figured I'm not let's
+
+---------07:13----------
+look at the headpiece to it like I
+
+---------07:15----------
+wouldn't buy this microphone at the
+
+---------07:17----------
+price of a DP ad fine just to have it
+
+---------07:20----------
+but I already had it so I figured I
+
+---------07:22----------
+might as well buy this damn $87
+
+---------07:23----------
+headpiece for it since I already own it
+
+---------07:26----------
+so now we're gonna plug it in and as you
+
+---------07:29----------
+can see the fan spins which is something
+
+---------07:31----------
+that wasn't happening before which means
+
+---------07:33----------
+that all it took was that just reconnect
+
+---------07:36----------
+those basic solder joints that were a
+
+---------07:38----------
+little bit corroded away and now we're
+
+---------07:40----------
+gonna put it in the ultrasonic cleaner
+
+---------07:41----------
+we'll be fine
+
+---------07:42----------
+now there's one capacitor there that's
+
+---------07:43----------
+going to need replacing and there is a
+
+---------07:45----------
+backlight fuse that I'm I I don't I
+
+---------07:48----------
+don't particularly think I should keep
+
+---------07:49----------
+that backlight to use him but that's it
+
+---------07:51----------
+it's not you know I just want you to
+
+---------07:53----------
+kind of follow along these areas and if
+
+---------07:56----------
+you follow along you follow along with
+
+---------07:58----------
+the corrosion is you'll get an idea of
+
+---------08:00----------
+what's going on what I like to do is I
+
+---------08:02----------
+like to ask okay well that's corroded
+
+---------08:04----------
+and it doesn't turn on
+
+---------08:06----------
+that's corroded and doesn't have a green
+
+---------08:07----------
+light that's corroded and I don't see a
+
+---------08:10----------
+light in the screen that's corroded and
+
+---------08:11----------
+it doesn't shine so what I do is I look
+
+---------08:14----------
+at those circuit areas in the schematic
+
+---------08:15----------
+in the board view and then I start
+
+---------08:17----------
+associating the specific issue that I
+
+---------08:19----------
+the motherboard with whatever it is that
+
+---------08:21----------
+I saw in the schematic so then I know
+
+---------08:23----------
+okay that's what this does that's what
+
+---------08:25----------
+this does that's what this does and it's
+
+---------08:27----------
+a really really nice natural and organic
+
+---------08:29----------
+way to kind of learn what specific
+
+---------08:31----------
+things do and it works for me and I hope
+
+---------08:33----------
+it works for you and it's something that
+
+---------08:34----------
+I'm trying to use right now as I'm
+
+---------08:37----------
+trying to learn some programming
+
+---------08:38----------
+languages so what I'm doing is I'm
+
+---------08:40----------
+taking stories code really really really
+
+---------08:42----------
+basic programs and then I'm deleting
+
+---------08:44----------
+things or I'm commenting things out or
+
+---------08:46----------
+I'm changing things and then I want to
+
+---------08:47----------
+see how that affects the actual program
+
+---------08:50----------
+so that not only can I learn from one
+
+---------08:52----------
+angle by reading here's what this type
+
+---------08:54----------
+of code does here's what that type of
+
+---------08:56----------
+code does but then I can also see the
+
+---------08:57----------
+effect in the real world when I delete
+
+---------08:59----------
+that stuff away and it's it's a really
+
+---------09:01----------
+interesting way of learning it's a
+
+---------09:03----------
+really hands-on way of learning and
+
+---------09:04----------
+engaging a different part of your brain
+
+---------09:05----------
+by approaching the problem sideways and
+
+---------09:09----------
+it's something that I use here something
+
+---------09:11----------
+that I use another aspects of life and
+
+---------09:12----------
+it's something that you may want to
+
+---------09:13----------
+consider doing that's it for today and
+
+---------09:16----------
+as always I hope you learned something
+
+---------09:17----------
+and just remember don't toss the board
+
+---------09:20----------
+into the ultrasonic cleaner before doing
+
+---------09:22----------
+something like this not only are you
+
+---------09:24----------
+going to wash away little pieces of
+
+---------09:26----------
+broken solder that can easily end
+
+---------09:28----------
+properly be reconnected with a quality
+
+---------09:30----------
+flux and a little bit of hot air but
+
+---------09:32----------
+you're also going to be washing away
+
+---------09:34----------
+your hints you're not even gonna know
+
+---------09:36----------
+where you need to go to find that stuff
+
+---------09:38----------
+when you're done and that's going to be
+
+---------09:39----------
+a real shame
+
+---------09:48----------
+you
+

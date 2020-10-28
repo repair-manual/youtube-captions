@@ -1,0 +1,1156 @@
+https://www.youtube.com/watch?v=25wn0KsyIEc
+---------00:00----------
+okay so today we're gonna be going over
+
+---------00:01----------
+an 8 to 0 29:36 that's not turning on so
+
+---------00:05----------
+somebody tried to replace their own
+
+---------00:06----------
+keyboard and clean their motherboard and
+
+---------00:08----------
+it was working just a few of the keys
+
+---------00:09----------
+weren't working and after replacing
+
+---------00:11----------
+their own keyboard now it is dead so
+
+---------00:14----------
+let's see what's going on here so the
+
+---------00:16----------
+first thing that I'm gonna do here is
+
+---------00:17----------
+plug in the charger with a fresh new DC
+
+---------00:19----------
+on board to see what I get and with a
+
+---------00:21----------
+different known good DC on board I get
+
+---------00:23----------
+no light in the charger no fan spin and
+
+---------00:26----------
+no anything so the first thing I'm gonna
+
+---------00:28----------
+do here is I'm gonna open up the
+
+---------00:30----------
+schematic and the board view for this
+
+---------00:32----------
+model machine so that you can kind of
+
+---------00:33----------
+get an idea of what it is that that I'm
+
+---------00:36----------
+trying to do here and what it is that
+
+---------00:37----------
+I'm looking at while I'm trying to
+
+---------00:39----------
+diagnose the cause of the problem so
+
+---------00:41----------
+let's go over to the schematic over here
+
+---------00:43----------
+and look at how this thing is supposed
+
+---------00:44----------
+to work that's not the schematic that's
+
+---------00:48----------
+the schematic all right so what we're
+
+---------00:50----------
+gonna do here is we're gonna go to page
+
+---------00:52----------
+3 of the schematic where they give you
+
+---------00:53----------
+this whole little idea of how everything
+
+---------00:55----------
+works so over here we have the AC
+
+---------00:57----------
+adapter in and that's gonna go to this
+
+---------01:00----------
+chip which creates PP bus g3 hop it's
+
+---------01:02----------
+also going to go through this chip which
+
+---------01:03----------
+creates PP 3 V 4 2 2 this chip which
+
+---------01:06----------
+sends power to the SMC I mean the reset
+
+---------01:09----------
+signal to the SMC which will tell the
+
+---------01:10----------
+SMC to turn on so let's get an idea of
+
+---------01:12----------
+what it is I get add a few different
+
+---------01:14----------
+points so when I go to try and measure
+
+---------01:16----------
+around this board I'm gonna put the
+
+---------01:18----------
+voltage I'm a multimeter into voltage
+
+---------01:20----------
+mode over here and it's really I finally
+
+---------01:22----------
+got a kind of camera angle that works
+
+---------01:23----------
+for me that is not you know interrupt
+
+---------01:26----------
+what I'm doing but also allows you to
+
+---------01:28----------
+see the multimeter which is which is
+
+---------01:29----------
+nice here then what I'm gonna do is I am
+
+---------01:33----------
+actually get better you'll be able to
+
+---------01:35----------
+see the meter better if I move this
+
+---------01:36----------
+thing over a little and I move it to the
+
+---------01:39----------
+side so let's might as well go ahead and
+
+---------01:40----------
+do that now yeah a little bit of a
+
+---------01:47----------
+better view alrighty so now I'm gonna
+
+---------01:54----------
+measure voltage on pp 3 v 4 - now to
+
+---------01:56----------
+find pp 3 V 4 - what I would do on this
+
+---------01:58----------
+board view software over here is I let's
+
+---------02:01----------
+just see if I can get us so you can view
+
+---------02:03----------
+there we go so on the board view
+
+---------02:06----------
+software what I would do is I would type
+
+---------02:07----------
+N for Nets which is going to show me
+
+---------02:09----------
+every section on the board that a
+
+---------02:11----------
+specific rail comes up
+
+---------02:13----------
+a signal and then type EP 3v4 to
+
+---------02:15----------
+underscore g3 hot that is needed for the
+
+---------02:17----------
+one wire circuit if you don't understand
+
+---------02:19----------
+why please watch my one wire circuit
+
+---------02:20----------
+videos they're important if you are
+
+---------02:22----------
+going to understand this one I have many
+
+---------02:24----------
+videos in the one wire circuit they're
+
+---------02:26----------
+usually about 10 15 minutes just watch
+
+---------02:28----------
+one of them it will save you a lot of
+
+---------02:30----------
+heartache in trouble so I have three
+
+---------02:33----------
+point 42 volts now the next power rail
+
+---------02:35----------
+that I'm gonna check which comes in
+
+---------02:36----------
+right after the charger over here is
+
+---------02:37----------
+going to be pp bus g3 hot so let's check
+
+---------02:41----------
+pp bus underscore g3 hot now I'm not
+
+---------02:45----------
+gonna expect to get anything there
+
+---------02:46----------
+because I don't have a green light I
+
+---------02:47----------
+should have a green light my you know I
+
+---------02:49----------
+have three point 42 volts which is the
+
+---------02:51----------
+rail that powers the one wire circuit
+
+---------02:53----------
+but you know I don't have a green light
+
+---------02:54----------
+so we're gonna have to look into why it
+
+---------02:57----------
+is that I don't have a green light
+
+---------03:00----------
+and of course BP buzz g3 on is at 0.2
+
+---------03:04----------
+volts so the way the one wire circuit
+
+---------03:06----------
+works is I need to have a power at a
+
+---------03:09----------
+certain component and I also need to
+
+---------03:11----------
+have a signal at that component so this
+
+---------03:13----------
+here is a damper sense this is where the
+
+---------03:15----------
+charger is going to speak to the SMC on
+
+---------03:18----------
+a data line so the charger is going to
+
+---------03:20----------
+come into this chip on external then
+
+---------03:23----------
+it's gonna speak to the SMC on the
+
+---------03:24----------
+internal pins this one wire goes
+
+---------03:26----------
+straight to the SMC in order for this
+
+---------03:28----------
+trip to receive the power that it needs
+
+---------03:29----------
+at the VCC pin to turn on it needs to
+
+---------03:31----------
+have power delivered to it by you 6901
+
+---------03:33----------
+and used to clear no one is gonna take
+
+---------03:35----------
+PP 3v4 to and pass it over here if SM
+
+---------03:38----------
+CBC a CLK is present so let's see if sm
+
+---------03:41----------
+c bc AC okay is present so I looked for
+
+---------03:45----------
+you 6901 and you 6901 is going to be
+
+---------03:48----------
+right over here
+
+---------03:51----------
+let's is what I'm looking for that is
+
+---------03:54----------
+what I'm looking for right so I am gonna
+
+---------03:57----------
+try with the microscope now I'm gonna
+
+---------03:59----------
+take a look at that area see what it
+
+---------04:00----------
+looks like and give a little measurement
+
+---------04:02----------
+so let's get the board under the
+
+---------04:04----------
+microscope over here so that you can see
+
+---------04:06----------
+it so this is you 6901 and that area
+
+---------04:10----------
+looks pretty nice looks pretty far it
+
+---------04:11----------
+looks like nothing bad happen there
+
+---------04:12----------
+except for my microscope trying to run
+
+---------04:14----------
+away so let's just tighten the
+
+---------04:15----------
+microscope so it can't run away
+
+---------04:20----------
+so let's measure so smc bc AC okay is
+
+---------04:25----------
+going to be present right over here
+
+---------04:29----------
+I believe let's see so yeah right over
+
+---------04:32----------
+here so see it has s MC bc AC okay over
+
+---------04:34----------
+there so let's check it out and let's
+
+---------04:38----------
+see what I get
+
+---------04:39----------
+on my multimeter when I measure that pin
+
+---------04:41----------
+so on that pin for smc bc AC okay i get
+
+---------04:47----------
+zero point zero zero zero volts i'm
+
+---------04:51----------
+closed so i'm not answering the phone
+
+---------04:53----------
+right now so we get zero volts there so
+
+---------04:56----------
+where does sm c bc AC okay come from so
+
+---------04:58----------
+let's see where s MC bc AC okay comes
+
+---------05:01----------
+from so is sm c bc AC okay comes from
+
+---------05:04----------
+the used 7,000 ship so let's check out
+
+---------05:06----------
+the u 7,000 ship and other videos i've
+
+---------05:09----------
+said that this ship needs to receive
+
+---------05:10----------
+four volts at charger AC n before sm c
+
+---------05:13----------
+bc AC okay will occur so this is where
+
+---------05:16----------
+PPD c and g three hot which is the power
+
+---------05:18----------
+from the adapter comes in the power from
+
+---------05:20----------
+the adapter comes in through here and
+
+---------05:22----------
+goes to this voltage divider from this
+
+---------05:24----------
+voltage divider it's going to go to pin
+
+---------05:26----------
+three charger AC n over here so let's
+
+---------05:29----------
+see if i have voltage at pin three of
+
+---------05:32----------
+you 7000 and please stop opening this on
+
+---------05:35----------
+the other monitor
+
+---------05:36----------
+alright so use 7000 find this and let's
+
+---------05:41----------
+see where is our 70 10 in our 70 11
+
+---------05:44----------
+right over here so these two so let's
+
+---------05:46----------
+see if i have four volts over there
+
+---------05:48----------
+let's also see what that area looks like
+
+---------05:50----------
+on the microscope
+
+---------06:05----------
+red points over here tell me a sad story
+
+---------06:07----------
+for was something that went on in this
+
+---------06:09----------
+area so you see that and then you see
+
+---------06:11----------
+that well let's take let's go and go
+
+---------06:14----------
+ahead and measure anyway let's also get
+
+---------06:16----------
+this microscope to a more comfortable
+
+---------06:17----------
+position okay yeah swivel for me
+
+---------06:27----------
+excellent good stuff okay so
+
+---------06:37----------
+focus there we go let's measure
+
+---------06:44----------
+interesting zero volts very interesting
+
+---------06:50----------
+so we have 16 volts at the top of the
+
+---------06:52----------
+voltage divider but at the other side of
+
+---------06:54----------
+it I have zero hmm here's where this
+
+---------07:01----------
+gets tricky the problem is that we could
+
+---------07:04----------
+have a couple of there's a couple of
+
+---------07:05----------
+things that could be going on here let's
+
+---------07:07----------
+just go over the couple of things that
+
+---------07:08----------
+could be going on here so this chip the
+
+---------07:12----------
+u 7,000 could be pulling it to ground
+
+---------07:14----------
+this resistor R 7010 could be bad
+
+---------07:18----------
+our seventy eleven could be open meaning
+
+---------07:21----------
+not I don't mean open I mean our seventy
+
+---------07:23----------
+eleven could be at zero homes our 70 10
+
+---------07:28----------
+could be at infinite ohms or u 7,000
+
+---------07:31----------
+could be pulling that signal to ground
+
+---------07:32----------
+now let's think a little bit about the
+
+---------07:34----------
+basic electronics video series that I
+
+---------07:36----------
+did where I said how resistors often
+
+---------07:37----------
+fail resistors often fail to where they
+
+---------07:41----------
+are working at infinite resistance so we
+
+---------07:43----------
+can throw out the idea of our seven the
+
+---------07:45----------
+eleven failing and becoming zero ohms
+
+---------07:48----------
+pretty quickly our 7010 could very
+
+---------07:50----------
+easily have opened and not be providing
+
+---------07:53----------
+power or you seven thousand could be
+
+---------07:55----------
+dead as a result of a shock to it and it
+
+---------07:57----------
+could be shorting charger AC into ground
+
+---------07:59----------
+let's take a look now what I'm gonna do
+
+---------08:01----------
+here is I'm gonna measure our seventy 10
+
+---------08:03----------
+and if our 70 10 manages to be around
+
+---------08:07----------
+thirty kilo ohms then I am going to jump
+
+---------08:09----------
+to the assumption that you seven
+
+---------08:10----------
+thousand is bad just based on the
+
+---------08:12----------
+knowledge that I have on how these
+
+---------08:14----------
+resistors often die remember capacitors
+
+---------08:17----------
+often die where the capacitor itself has
+
+---------08:21----------
+the you know it turns into a wire they
+
+---------08:23----------
+can very often short but resistors
+
+---------08:26----------
+themselves really don't often short so
+
+---------08:28----------
+what I see here is that I'm getting
+
+---------08:30----------
+twenty six point twenty two kilo ohms
+
+---------08:31----------
+which is really close to the value in
+
+---------08:33----------
+the schematic so at this point I'm gonna
+
+---------08:34----------
+make the assumption that my you seven
+
+---------08:36----------
+thousand chip is probably bad and my you
+
+---------08:38----------
+seven thousand chip probably needs to be
+
+---------08:40----------
+replaced so this is where I'm gonna turn
+
+---------08:41----------
+on the rework station and I'm gonna get
+
+---------08:44----------
+started with removing that chip and
+
+---------08:46----------
+putting on another one so first thing to
+
+---------08:49----------
+do here is remove my
+
+---------08:51----------
+7,000 chip which is this one so that I
+
+---------08:53----------
+can put on a new one now I have the air
+
+---------08:55----------
+filter on high and I have it located
+
+---------08:56----------
+right next to where I'm working because
+
+---------08:58----------
+I don't want to inhale any of this crap
+
+---------09:00----------
+and I highly suggest it you do the same
+
+---------09:02----------
+remember it doesn't matter what other
+
+---------09:04----------
+people tell you because nobody's gonna
+
+---------09:06----------
+care about your health the way you
+
+---------09:08----------
+should care about your health so if
+
+---------09:10----------
+you're doing this stuff use an air
+
+---------09:12----------
+filter use a fume extractor and if you
+
+---------09:16----------
+can't they're the very least try not to
+
+---------09:18----------
+inhale it do this and go every time you
+
+---------09:21----------
+get stuck next to a bunch of nasty fumes
+
+---------09:34----------
+a hackle fr Adel one has removed it with
+
+---------09:37----------
+ease
+
+---------09:46----------
+hey're for placing a new chip
+
+---------09:50----------
+so I got my nice hack Oh FM 2032 here I
+
+---------09:54----------
+love this thing let's get rid of all the
+
+---------10:00----------
+old junk and
+
+---------10:24----------
+okay too much solder on the center pad
+
+---------10:26----------
+is my hallmark
+
+---------10:28----------
+I should have whipped that but I didn't
+
+---------10:30----------
+today require changing irons and I know
+
+---------10:32----------
+I can get away without any of that okay
+
+---------10:38----------
+the chip has been removed new chip is
+
+---------10:42----------
+about to be applied way too much solder
+
+---------10:47----------
+on the center pad is my hallmark I
+
+---------10:51----------
+really should stop that habit it's heat
+
+---------10:58----------
+get you somewhere on the board here we
+
+---------11:03----------
+go nice try
+
+---------11:06----------
+see I was trying to spin trying to
+
+---------11:09----------
+change orientations on me okay and I
+
+---------11:17----------
+push down really hard the most important
+
+---------11:19----------
+thing here when soldering the ISL 65:9
+
+---------11:21----------
+chip the most important thing is to make
+
+---------11:23----------
+sure that you push down hard so that the
+
+---------11:26----------
+chip itself actually gets soldered on
+
+---------11:28----------
+the board because you may think it's
+
+---------11:29----------
+soldered but then when you look up round
+
+---------11:31----------
+at an angle you'll realize that it's not
+
+---------11:33----------
+soldered that's with this really nice
+
+---------11:39----------
+hack OFM 22 is good at is going around
+
+---------11:42----------
+and getting every single pin so again it
+
+---------11:44----------
+may look like it's solder from the top
+
+---------11:45----------
+but then you're gonna look at it from
+
+---------11:46----------
+the side and you'll realize that it's
+
+---------11:47----------
+not actually soldered it you know it's
+
+---------11:50----------
+sitting on top of a mound but one of the
+
+---------11:52----------
+two of those pads isn't properly
+
+---------11:54----------
+soldered you know a really important
+
+---------11:56----------
+thing when soldering these components to
+
+---------11:57----------
+have them flat on the board and when you
+
+---------11:59----------
+have a center pad it's really easy for
+
+---------12:01----------
+it to float on the solder on the center
+
+---------12:03----------
+pad instead of lemons that have actually
+
+---------12:06----------
+fallen a place so even after I know that
+
+---------12:10----------
+I've pushed a flat on the board I go
+
+---------12:11----------
+around with this and I want to feel
+
+---------12:13----------
+every single pad I want to feel every
+
+---------12:16----------
+single pin I want to feel each
+
+---------12:18----------
+individual joint with my iron and you
+
+---------12:20----------
+can actually and you'll feel it you'll
+
+---------12:21----------
+get used to this I assure you you will
+
+---------12:23----------
+feel it
+
+---------12:25----------
+and you'll know when you soldered it on
+
+---------12:27----------
+there properly
+
+---------12:32----------
+soldering this chip in properly because
+
+---------12:34----------
+of lack of knowledge or a station
+
+---------12:36----------
+or very common causes of frustration and
+
+---------12:40----------
+failure
+
+---------12:58----------
+so what happened here is I plugged it in
+
+---------13:01----------
+after replacing that and as you can see
+
+---------13:03----------
+I have a green light and my fan is
+
+---------13:06----------
+spinning which means that I solved my
+
+---------13:09----------
+problem
+
+---------13:09----------
+so you 7000 here was most likely pulling
+
+---------13:13----------
+down my charger a.cian signal because it
+
+---------13:16----------
+was and it most likely got
+
+---------13:18----------
+by honestly who the hell knows I really
+
+---------13:23----------
+have no idea what people do when they
+
+---------13:24----------
+work on their own stuff but it was
+
+---------13:26----------
+ and now it's not and now
+
+---------13:28----------
+it works and we have a happy eight to
+
+---------13:30----------
+zero twenty nine thirty six ready to go
+
+---------13:32----------
+back into a customer laptop and that's
+
+---------13:34----------
+that and I hope you learned something
+
+---------13:44----------
+and the last thing I want to mention
+
+---------13:45----------
+before I exit out of this video because
+
+---------13:48----------
+this is a common question a lot of
+
+---------13:49----------
+people ask me you know one of the things
+
+---------13:50----------
+I want to learn from your tutoring class
+
+---------13:52----------
+one of those I want to learn is how to
+
+---------13:53----------
+measure each individual component I want
+
+---------13:55----------
+to know how to measure this that or the
+
+---------13:57----------
+other and the reality is you don't sit
+
+---------13:59----------
+here measuring logic gates you don't sit
+
+---------14:01----------
+here measuring you seven thousands what
+
+---------14:03----------
+you do to fix these products is you just
+
+---------14:05----------
+use your brain you have regions and you
+
+---------14:07----------
+have theories and you have ideas and you
+
+---------14:08----------
+you try to turn those ideas into a
+
+---------14:10----------
+working solution so I know that sounds
+
+---------14:12----------
+silly but let's just look over here at
+
+---------14:15----------
+this particular schematic so if I were
+
+---------14:17----------
+to measure this resistor right let's say
+
+---------14:19----------
+I'm measuring the resistors the u 7000
+
+---------14:21----------
+is shorted to ground right this is
+
+---------14:24----------
+attached to ground on one end so this
+
+---------14:26----------
+resistor R 70 11 over here it's attached
+
+---------14:29----------
+to ground on one end so if I measure the
+
+---------14:32----------
+resistance of our seventy eleven with
+
+---------14:33----------
+the to you seven thousand you seven
+
+---------14:35----------
+thousand is and shorted to ground
+
+---------14:36----------
+right so that's over here short it's a
+
+---------14:39----------
+ground this end over here is also
+
+---------14:41----------
+shorted to ground so when I measure that
+
+---------14:43----------
+resistor you think I'm gonna get 9.31
+
+---------14:45----------
+kilohms
+
+---------14:45----------
+know when I measure this resistor I'm
+
+---------14:47----------
+going to get zero homes because the use
+
+---------14:50----------
+seven thousand which this resistor is
+
+---------14:51----------
+attached to is shorted to ground now you
+
+---------14:54----------
+may say well you could take the resistor
+
+---------14:56----------
+off the board to measure that's the
+
+---------14:57----------
+right thing to do when I take a resistor
+
+---------14:59----------
+off of a motherboard that is this many
+
+---------15:01----------
+components that this small and I
+
+---------15:02----------
+put it on the table you know what's
+
+---------15:03----------
+gonna happen to that resistor when I go
+
+---------15:05----------
+to measure it I'm gonna go like this and
+
+---------15:07----------
+I'm gonna go doink
+
+---------15:08----------
+it's it's gonna fly it's gonna go into
+
+---------15:10----------
+the sixth dimension
+
+---------15:11----------
+I will never ever see it again so you
+
+---------15:15----------
+know a lot of my my Diagnostics is not
+
+---------15:17----------
+measuring every single resistor
+
+---------15:19----------
+measuring every single capacitor it's
+
+---------15:22----------
+just having a little bit of an
+
+---------15:23----------
+understanding of how the circuit works
+
+---------15:24----------
+getting an idea of what happened how did
+
+---------15:27----------
+this fail why did it fail what are some
+
+---------15:28----------
+of the theories as to you know how it
+
+---------15:31----------
+failed how does what the board tells me
+
+---------15:33----------
+line up with my theories as to why it
+
+---------15:35----------
+failed for example having a little red
+
+---------15:37----------
+probe points around the chip and then
+
+---------15:39----------
+noticing that there are two things that
+
+---------15:40----------
+can be shorted to ground that chip of
+
+---------15:41----------
+the resistor and then just having an
+
+---------15:43----------
+idea of how resistors work or is how
+
+---------15:45----------
+resistors fail resistors usually fail
+
+---------15:47----------
+open where there is an open line and not
+
+---------15:50----------
+where there's you know zero resistance
+
+---------15:51----------
+just having all the stuff in the back of
+
+---------15:53----------
+my head is what allowed me to fix this
+
+---------15:55----------
+it wasn't really measuring every single
+
+---------15:56----------
+individual resistor or capacitor on the
+
+---------15:59----------
+motherboard
+
+---------15:59----------
+using the multimeter so yeah just to get
+
+---------16:02----------
+just to get it across you don't think
+
+---------16:04----------
+some other boards by measuring every
+
+---------16:05----------
+single component on them you'll never
+
+---------16:07----------
+get anyway you will lose your mind you
+
+---------16:09----------
+measure motherboards through having a
+
+---------16:10----------
+bit of an understanding of how that
+
+---------16:12----------
+board works how that circuit works
+
+---------16:13----------
+asking yourself how you know what do you
+
+---------16:16----------
+think the fault was and then just just
+
+---------16:19----------
+figuring it out no I don't really know
+
+---------16:21----------
+how to explain it much better than that
+

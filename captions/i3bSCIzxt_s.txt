@@ -1,0 +1,1693 @@
+https://www.youtube.com/watch?v=i3bSCIzxt_s
+---------00:00----------
+all right so today we're gonna go over
+
+---------00:01----------
+an eight to zero 3209 that doesn't turn
+
+---------00:03----------
+on so today I want to show you how it's
+
+---------00:05----------
+really important to know where the
+
+---------00:06----------
+original damage occurred so that you
+
+---------00:08----------
+could figure out problems that would
+
+---------00:09----------
+otherwise be a complete utter nightmare
+
+---------00:12----------
+so when you look at the actual machine
+
+---------00:14----------
+itself you're gonna see that there are
+
+---------00:16----------
+these little marks and they look like
+
+---------00:17----------
+pigeon little stains of pigeon that
+
+---------00:20----------
+you would see on the sidewalk and if you
+
+---------00:22----------
+look at it under the microscope you're
+
+---------00:23----------
+gonna see this this is gonna be really
+
+---------00:24----------
+helpful if the board is cleaned before
+
+---------00:26----------
+you look at it and you have no idea
+
+---------00:27----------
+where the original damage occurred so
+
+---------00:29----------
+when I look at it under the microscope
+
+---------00:30----------
+let's just get in focus so I have some
+
+---------00:32----------
+here and that's the pigeon looking
+
+---------00:34----------
+stuff that I'm talking about and then a
+
+---------00:36----------
+really main one I'm interested in is
+
+---------00:37----------
+this one right over here so what I do is
+
+---------00:40----------
+I look at the I'm gonna do is I'm gonna
+
+---------00:42----------
+look at the motherboard in those spots
+
+---------00:44----------
+so again this is a board that was fully
+
+---------00:45----------
+cleaned before I got it so I it's great
+
+---------00:48----------
+because I don't have to actually waste
+
+---------00:49----------
+time ultrasonic again and dealing with
+
+---------00:51----------
+all that but the downside is I
+
+---------00:53----------
+don't know where the actual problem is
+
+---------00:54----------
+and it's gonna take a lot of inspection
+
+---------00:57----------
+so but knowing where that was what I'm
+
+---------00:59----------
+gonna do is I'm gonna match up the
+
+---------01:01----------
+little spot of pigeon on the board
+
+---------01:02----------
+with this and what I see is this and you
+
+---------01:05----------
+can see you can you tell like it's this
+
+---------01:07----------
+is something that I would miss going
+
+---------01:09----------
+over the board with my eyes I'd probably
+
+---------01:10----------
+never ever see this but now it's really
+
+---------01:13----------
+obvious that there's a problem here with
+
+---------01:16----------
+this I see see that so what I'm gonna do
+
+---------01:21----------
+here is I'm gonna go over to the board
+
+---------01:22----------
+view software and we're gonna check out
+
+---------01:24----------
+on the board view software what that is
+
+---------01:26----------
+and what that does when I go to the
+
+---------01:28----------
+board view software what I see is let's
+
+---------01:31----------
+just get it back into view this board
+
+---------01:33----------
+view software is crap I'm sure any of
+
+---------01:35----------
+you who've been doing this you know
+
+---------01:37----------
+you're fully aware that this stuff is
+
+---------01:38----------
+garbage let's see I don't give a
+
+---------01:42----------
+about your birthday you so crap your
+
+---------01:43----------
+screens go away ah let's see okay here
+
+---------01:46----------
+we go so it's a burned piece I'm not as
+
+---------01:53----------
+good at pac-man this morning as I
+
+---------01:54----------
+usually am there you go so pin 20 have
+
+---------01:56----------
+you 70 100
+
+---------02:02----------
+damn this program is sucking more than
+
+---------02:04----------
+usual which is pp5 ESL on you 70 100 so
+
+---------02:08----------
+this chip use 70 100 here this chip is
+
+---------02:11----------
+responsible for creating an SL power
+
+---------02:13----------
+rail of PPV CCS a underscore s o
+
+---------02:16----------
+underscore rec so let's just see what
+
+---------02:19----------
+this is responsible for so this is
+
+---------02:21----------
+create about you 70 100 it is let's take
+
+---------02:25----------
+a look
+
+---------02:27----------
+it goes through our 71 42 no real idea
+
+---------02:31----------
+so let's see on here where that goes of
+
+---------02:36----------
+course it's not found it's probably
+
+---------02:38----------
+called something else on here alright of
+
+---------02:44----------
+course it's no me who we kidding okay so
+
+---------02:46----------
+the schematic says that you should find
+
+---------02:49----------
+it in our 71 40 so let's see what that
+
+---------02:51----------
+is over here so that looks like a
+
+---------02:53----------
+current sensing resistor for this okay
+
+---------02:56----------
+so they call it something different over
+
+---------02:58----------
+here go figure so yeah it looks
+
+---------03:03----------
+like something that goes to the CPU yeah
+
+---------03:09----------
+so you could see over here that this is
+
+---------03:11----------
+pretty much used for the CPU now the
+
+---------03:14----------
+problem here is that I have an SL rail
+
+---------03:16----------
+that's that I'm going to take a wild
+
+---------03:17----------
+guess that that SL rail is missing
+
+---------03:19----------
+because that chip is actually burned so
+
+---------03:21----------
+when we go back to you 7100 on the
+
+---------03:23----------
+schematic you'll see that you 7100 that
+
+---------03:26----------
+pin that pin that's burned is one of the
+
+---------03:29----------
+VCC pins over here that's required for
+
+---------03:31----------
+this chip to actually turn on and this
+
+---------03:32----------
+chip is used to control this buck
+
+---------03:36----------
+regulator which is going to take buck
+
+---------03:38----------
+converter technically which is going to
+
+---------03:39----------
+take this higher power over here pp VIN
+
+---------03:41----------
+sov si si si whatever and it's gonna
+
+---------03:45----------
+turn that into this PPV si si si s Oh
+
+---------03:48----------
+reg rail so let's just take a look at
+
+---------03:51----------
+where that comes from so this comes from
+
+---------03:53----------
+pp VIN bla bla computing I sense that
+
+---------03:56----------
+comes from pp bus g3 hot as you can see
+
+---------03:58----------
+so let's say we're it is to take this is
+
+---------04:00----------
+the rail that's a sub rail of this one
+
+---------04:02----------
+we take that rail and we see that that
+
+---------04:04----------
+rail is well you know it actually
+
+---------04:08----------
+doesn't listed as a sub rail of this one
+
+---------04:10----------
+does it pp bus s5 high side computing I
+
+---------04:14----------
+sense PP VIN
+
+---------04:16----------
+same it's it's it really is the
+
+---------04:18----------
+same like this is the same as this
+
+---------04:20----------
+which is the same as this so what this
+
+---------04:21----------
+thing does is it takes eight point four
+
+---------04:23----------
+volts takes eight point four volts and
+
+---------04:24----------
+turns it into the whatever voltage is
+
+---------04:26----------
+the CPU wants now again we can take a
+
+---------04:28----------
+wild guess at that power rail is missing
+
+---------04:30----------
+because pin 20 is the one that's burned
+
+---------04:32----------
+and that's a VCC pin as I've explained
+
+---------04:34----------
+in other videos the VCC pin the VDD pin
+
+---------04:36----------
+the V end pin whatever that is think of
+
+---------04:38----------
+that like the pins on the back of your
+
+---------04:42----------
+soldering station where you plug the IEC
+
+---------04:44----------
+cord into turn it on so this is where
+
+---------04:45----------
+you're expecting power input and power
+
+---------04:47----------
+and puts not there so the first thing I
+
+---------04:49----------
+want to do here is I want to see is the
+
+---------04:50----------
+board actually in in Essos state and
+
+---------04:53----------
+that's for state and there's five state
+
+---------04:55----------
+what power state is it in so Esso is you
+
+---------04:58----------
+know keep in mind all these core i5 i7
+
+---------04:59----------
+series MacBooks they're designed to turn
+
+---------05:02----------
+on from the second you put the charge
+
+---------05:03----------
+room so as soon as I plug this charger
+
+---------05:05----------
+in I should it should turn on the fan
+
+---------05:07----------
+should spin I should start seeing s oh
+
+---------05:09----------
+rails become present so I want to see
+
+---------05:10----------
+what state I'm gonna work my way down so
+
+---------05:12----------
+what I'm gonna do over here is I'm gonna
+
+---------05:13----------
+see if I have an S or L present so let's
+
+---------05:15----------
+just go back here and let's search for
+
+---------05:17----------
+let's search for PP five ESO and see
+
+---------05:20----------
+where that shows up because that is an S
+
+---------05:21----------
+or L PP 5e underscore SL let's see if
+
+---------05:27----------
+there's any easy places to measure on
+
+---------05:29----------
+this side not much in terms of easy
+
+---------05:30----------
+places to measure the software is just
+
+---------05:36----------
+downright awful alright so we're gonna
+
+---------05:38----------
+measure for PP 5 vs oh and here's a good
+
+---------05:42----------
+space to measure for it it's a good spot
+
+---------05:44----------
+to measure so
+
+---------05:52----------
+okay so we have the multimeter over here
+
+---------05:54----------
+so now the board is plugged in it's not
+
+---------05:56----------
+on you can see it's a much dad you know
+
+---------05:59----------
+you have a light but it's not actually
+
+---------06:01----------
+powering so what I'm going to do is I'm
+
+---------06:02----------
+going to measure the voltage on PP 5 vs
+
+---------06:05----------
+Oh
+
+---------06:18----------
+so pp5 es I was there I have five volts
+
+---------06:21----------
+so this means if the machine is here's
+
+---------06:22----------
+the good thing it's really hard to get
+
+---------06:25----------
+so those things like let's say p.m.
+
+---------06:26----------
+sleep s4l which is what Allah gets the
+
+---------06:28----------
+Machine you know to an s4 and s3 state
+
+---------06:30----------
+it's really hard to get stuff like that
+
+---------06:31----------
+going when it's not there that can be a
+
+---------06:33----------
+royal pain in the ass that can be a lot
+
+---------06:35----------
+of different things and it's very often
+
+---------06:37----------
+to be quite honest a total nightmare but
+
+---------06:39----------
+this it's 99% of it's already there you
+
+---------06:42----------
+have your green light the SMC is going
+
+---------06:44----------
+it's doing what it's supposed to you
+
+---------06:45----------
+have your steady s5 rails as three rails
+
+---------06:48----------
+and there so so again the machine is
+
+---------06:50----------
+gonna be in an s5 state then when you
+
+---------06:51----------
+it's gonna try to enter an s3 state
+
+---------06:53----------
+which is sleep or suspend then it's
+
+---------06:54----------
+gonna try to enter an Esso state which
+
+---------06:56----------
+is I'm on and I'm working if you don't
+
+---------06:58----------
+know what that is Google the power
+
+---------06:59----------
+states of a computer s5 is either off or
+
+---------07:02----------
+hibernate s3 is suspend sleeping like
+
+---------07:05----------
+when you send little white light
+
+---------07:05----------
+blinking on the front of your MacBook
+
+---------07:07----------
+after you close the lid it's it's not
+
+---------07:08----------
+off but it's not on either and then you
+
+---------07:11----------
+have SL which is when it's actually on
+
+---------07:12----------
+so 99% of the hard stuff here again it's
+
+---------07:14----------
+done I got a light I have my main power
+
+---------07:16----------
+rails are there all I'm missing is I'm
+
+---------07:19----------
+gonna take wild guess that the CPU one
+
+---------07:21----------
+is missing and again I'm not gonna do a
+
+---------07:23----------
+lot of research to figure it out I'm not
+
+---------07:24----------
+even gonna bother measuring the rail
+
+---------07:25----------
+what I'm gonna do is I'm gonna do the
+
+---------07:27----------
+things that I can do with my brain off
+
+---------07:29----------
+now one of the things I talk about is
+
+---------07:32----------
+knowing when to have your brain turned
+
+---------07:34----------
+off so that you could kind of save it
+
+---------07:35----------
+for the other stuff so you can use your
+
+---------07:38----------
+brain to kind of try to figure out
+
+---------07:40----------
+what's wrong with this and go through
+
+---------07:41----------
+every single rail in the sequence or you
+
+---------07:42----------
+could just go hmm there is a big blotch
+
+---------07:45----------
+of green stuff over here
+
+---------07:46----------
+use your brain just enough to try to
+
+---------07:48----------
+figure out that where that is on this
+
+---------07:50----------
+board look and see that there's a thing
+
+---------07:52----------
+on this board that's burned yeah let's
+
+---------07:55----------
+just go over what's burned and also what
+
+---------07:58----------
+that tells me since that PP 5es over a
+
+---------08:00----------
+pin is burned that means that anything
+
+---------08:02----------
+else that's gonna be on the PP 5e
+
+---------08:03----------
+underscore SL bus maybe burn so let's
+
+---------08:06----------
+say I replace that and they get that
+
+---------08:07----------
+rail but something else is wrong I'm
+
+---------08:09----------
+gonna look for things that are powered
+
+---------08:10----------
+off with a PP 5 es el bus what I can
+
+---------08:12----------
+assume here is that the PP 5 ESO went
+
+---------08:14----------
+high for a second so maybe instead of
+
+---------08:16----------
+being 5 volts it was 6 7 or 9 for a
+
+---------08:18----------
+split second and that's what caused that
+
+---------08:19----------
+to blow up as a result of the liquid so
+
+---------08:21----------
+let's start with this and if this
+
+---------08:23----------
+doesn't work we're gonna look at the
+
+---------08:24----------
+other things on the PP 5 ESO bus that
+
+---------08:25----------
+could be wrong
+
+---------08:26----------
+so that go into the microscope I'm going
+
+---------08:29----------
+to turn on the soldering station
+
+---------08:31----------
+turn the rework machine and let's get
+
+---------08:34----------
+started so this is my chip
+
+---------08:47----------
+so I'm just gonna get that thing heated
+
+---------08:49----------
+up it takes a second for the hot air to
+
+---------08:52----------
+heat up you know the fr you know one
+
+---------08:53----------
+isn't new anymore and I'm gonna get
+
+---------08:56----------
+myself a few donor boards one or two
+
+---------08:59----------
+just in case the one that I picked out
+
+---------09:00----------
+of the bin is missing anything that I
+
+---------09:02----------
+need
+
+---------09:03----------
+most of these donor boards are missing
+
+---------09:06----------
+everything that I need they've been
+
+---------09:07----------
+they've been thoroughly thoroughly
+
+---------09:10----------
+sodomized actually almost every single
+
+---------09:23----------
+one of them is missing the thing that I
+
+---------09:24----------
+need all right so the hot-air station
+
+---------09:26----------
+should be hot by now which means I could
+
+---------09:27----------
+turn on the fuel extractor one thing to
+
+---------09:33----------
+note if you're doing any of this type of
+
+---------09:34----------
+work I know it's annoying to have this
+
+---------09:36----------
+thing on it is very loud you can't hear
+
+---------09:38----------
+it in these videos because I use isotope
+
+---------09:39----------
+rx4 to remove a lot of the noise you can
+
+---------09:42----------
+hear a little bit of it but you can't
+
+---------09:43----------
+hear all of it and I also have a
+
+---------09:44----------
+microphone really close to my mouth so
+
+---------09:46----------
+the reason I have this mic really close
+
+---------09:48----------
+to my mouth is that you can hear just
+
+---------09:50----------
+how loud a lot of this stuff is so I can
+
+---------09:51----------
+actually provide an instruction during
+
+---------09:54----------
+the video but this thing is annoying as
+
+---------09:56----------
+hell but as annoying as it is the
+
+---------09:59----------
+alternative which is inhaling flux fumes
+
+---------10:02----------
+all day is really a really really bad
+
+---------10:05----------
+alternative
+
+---------10:26----------
+I'm gonna take that capacitor off too
+
+---------10:29----------
+because let's face it that's junk so
+
+---------10:31----------
+what I'm gonna try to do here is I'm
+
+---------10:32----------
+gonna try to tin the pads with my
+
+---------10:33----------
+standard iron and I'm also gonna try to
+
+---------10:35----------
+scratch away a lot of that corrosion
+
+---------10:43----------
+while I'm here I'm gonna try to do both
+
+---------10:49----------
+at the same time I got some quality
+
+---------10:51----------
+Ametek flux this is the mTEC NC the 5 v
+
+---------10:56----------
+9 v 2 TF and let's see what we can do
+
+---------11:01----------
+here so I'm gonna try to remove the old
+
+---------11:03----------
+move the old lead-free solder add let it
+
+---------11:06----------
+solder and also kind of scrape away at
+
+---------11:08----------
+the corrosion all at the same time so we
+
+---------11:12----------
+have a little bit of an ambitious task
+
+---------11:13----------
+here now I'm gonna use the other end of
+
+---------11:19----------
+the iron to kind of just bad Chan sound
+
+---------11:23----------
+a little gentle scraping but it seems
+
+---------11:26----------
+like the bottom of that pad is too far
+
+---------11:28----------
+burned for any gentle scraping to do
+
+---------11:30----------
+anything as you can see I've scraped
+
+---------11:32----------
+away at that entire trace and I haven't
+
+---------11:34----------
+made any progress at all on there so now
+
+---------11:39----------
+I'm gonna try scraping away with with
+
+---------11:41----------
+the micro pencil
+
+---------12:04----------
+you
+
+---------12:14----------
+okay so the micro pen the FX 9:51
+
+---------12:17----------
+ a little bit when you switch
+
+---------12:18----------
+from one iron to the other yeah there
+
+---------12:20----------
+was like four beeps in a row the whole
+
+---------12:22----------
+idea behind the four beeps in a row is
+
+---------12:23----------
+that it's pissed off that I didn't buy
+
+---------12:25----------
+the FM 203 and I understand that it's
+
+---------12:28----------
+pissed off that I didn't buy the FM two
+
+---------12:30----------
+or three I get that but I also but I
+
+---------12:32----------
+don't I don't give a you I'm
+
+---------12:34----------
+not giving hack all more money when I
+
+---------12:36----------
+can literally hang the stuff I got I get
+
+---------12:38----------
+right now I have a little screw it in my
+
+---------12:40----------
+wall or in the nail screw whatever and I
+
+---------12:43----------
+coil up my old art with the other iron
+
+---------12:45----------
+and I put it right behind me when it's
+
+---------12:47----------
+time to use this I plug it right in you
+
+---------12:50----------
+know as dumb as this is gonna sound
+
+---------12:51----------
+really dumb but the you know while it
+
+---------12:53----------
+was that practical board repair school
+
+---------12:55----------
+Jessa has the FM 203 and these other
+
+---------12:57----------
+irons where you switch one on and switch
+
+---------12:59----------
+one off and HECO doesn't really have
+
+---------13:01----------
+like a regular setup for it it says s
+
+---------13:03----------
+and D so one of the things I was talking
+
+---------13:05----------
+about my reviews of the other hacker
+
+---------13:07----------
+gear was how annoying
+
+---------13:08----------
+a lot of the interface is on a lot of
+
+---------13:10----------
+these products and you know again like
+
+---------13:12----------
+on this it's it you have this alarm
+
+---------13:13----------
+clock in 1980s alarm clock interface
+
+---------13:15----------
+that's really really really just not
+
+---------13:18----------
+user intuitive at all and she has one
+
+---------13:20----------
+where again it says SMD and like
+
+---------13:23----------
+sometimes you I don't know if you're
+
+---------13:24----------
+supposed to hold down the button to
+
+---------13:26----------
+switch between them I don't know if
+
+---------13:27----------
+you're supposed like if you hold down
+
+---------13:30----------
+the button or if you press it twice so
+
+---------13:32----------
+you press it once I can't tell when this
+
+---------13:33----------
+shit's on or off because again this is
+
+---------13:35----------
+one number on the screen is that for the
+
+---------13:36----------
+left eye and the right eye on who the
+
+---------13:38----------
+ knows the JBC station is very very
+
+---------13:40----------
+simple it shows you which iron what
+
+---------13:43----------
+temperature which iron is at you know it
+
+---------13:45----------
+makes sense the hakko one does not make
+
+---------13:46----------
+sense so what I do is and again the
+
+---------13:51----------
+thing is I could spend more money on the
+
+---------13:53----------
+hakko station that's dual-port for it to
+
+---------13:55----------
+not make sense or I could use my
+
+---------13:58----------
+existing station and do what works for
+
+---------14:01----------
+me which is to plug that you know
+
+---------14:03----------
+be under just uh plug the iron in and
+
+---------14:05----------
+then when I'm done with it I unplug that
+
+---------14:07----------
+iron and I plug my other iron in which
+
+---------14:09----------
+is hanging right behind it on the wall
+
+---------14:10----------
+the other benefit of this is that it
+
+---------14:13----------
+takes up a lot less space and you know
+
+---------14:15----------
+and where I work so again if I were to
+
+---------14:17----------
+show you where I work you know
+
+---------14:19----------
+look okay I'm gonna move the microscope
+
+---------14:21----------
+out of the way look when I move the
+
+---------14:23----------
+microscope this almost comes out the
+
+---------14:24----------
+table so this is my hot air station this
+
+---------14:27----------
+is my soldering iron this is my you know
+
+---------14:31----------
+this is my stand I don't have space for
+
+---------14:33----------
+two stands here if I put a stand here
+
+---------14:34----------
+when I move the microscope the bar is
+
+---------14:36----------
+gonna hit if I try to put another stand
+
+---------14:38----------
+here it's gonna fall off because hako
+
+---------14:40----------
+doesn't make gear flat anymore why they
+
+---------14:41----------
+don't make your flat anymore is beyond
+
+---------14:43----------
+me this thing being flat is if if I had
+
+---------14:45----------
+the new fr a 10 this station would not
+
+---------14:47----------
+work you have to understand that this
+
+---------14:48----------
+being flat and me being able to put this
+
+---------14:50----------
+on top of this is the only reason that
+
+---------14:52----------
+this works when you look at the hakko fr
+
+---------14:54----------
+810 the new one which I will never ever
+
+---------14:55----------
+recommend you buy just just based on the
+
+---------14:57----------
+fact that they've made it not flat
+
+---------14:59----------
+really that that it's that it's that
+
+---------15:01----------
+important like you can't stack I need my
+
+---------15:04----------
+workspace I have a 200 square foot
+
+---------15:05----------
+office when I do over here as you can
+
+---------15:07----------
+see is I having a little nail on the
+
+---------15:08----------
+wall so I'm just gonna move back so you
+
+---------15:10----------
+can see it and my iron is right behind
+
+---------15:12----------
+me so again when I want to switch none
+
+---------15:15----------
+of that paying an extra 1 or 2 or 300
+
+---------15:16----------
+bucks for a different station I
+
+---------15:18----------
+literally just I unplug and I plug it
+
+---------15:20----------
+back in and I know when it's on I know
+
+---------15:23----------
+what temperature it's at when it's on I
+
+---------15:24----------
+don't have to deal with the alarm clock
+
+---------15:26----------
+ to tell anyway it's small
+
+---------15:28----------
+detail from the actual video but back to
+
+---------15:32----------
+what our regularly scheduled programming
+
+---------15:34----------
+before I decided to about hack oh
+
+---------15:36----------
+and their interfaces better hair well so
+
+---------15:41----------
+anyway so what I did there as I just ran
+
+---------15:42----------
+the jumper wire because as you could see
+
+---------15:44----------
+the pad was there and the pad was
+
+---------15:46----------
+savable but the problem that the problem
+
+---------15:48----------
+with that pad is that it wasn't actually
+
+---------15:49----------
+connected to the trace so if I were to
+
+---------15:52----------
+solder that on I would have never gotten
+
+---------15:53----------
+pp5 DSL so what I did I did leave a
+
+---------15:56----------
+little bit of the pad there because
+
+---------15:57----------
+leaving a little bit of the pad there
+
+---------15:58----------
+means when I heat this end of the wire
+
+---------15:59----------
+to get rid of that little excess solder
+
+---------16:01----------
+that I see yeah I just clean the hair
+
+---------16:06----------
+off of them off of the flux the flux
+
+---------16:09----------
+dispenser what's gonna happen is it's
+
+---------16:13----------
+not gonna jump away from there see what
+
+---------16:15----------
+I just did there if that wasn't cited
+
+---------16:16----------
+over there that the wire would have just
+
+---------16:18----------
+came right off with it so now I'm ready
+
+---------16:19----------
+to put another chip on so I'm gonna go
+
+---------16:21----------
+to my donor board that actually still
+
+---------16:23----------
+has that chip
+
+---------16:33----------
+and the donor board that I took that
+
+---------16:35----------
+chip off of actually as a chip that is
+
+---------16:37----------
+more burns than the one that I'm
+
+---------16:39----------
+currently working with are you kidding
+
+---------16:41----------
+me
+
+---------16:41----------
+let's see what does it look like okay
+
+---------16:46----------
+see how it's missing half a pad
+
+---------16:48----------
+that that is this is yeah yeah
+
+---------16:53----------
+ that I'm not I'm not useless next
+
+---------16:55----------
+the sport has a hole in it and obviously
+
+---------16:58----------
+the reason it has a hole in it is
+
+---------16:59----------
+because somebody didn't know that they
+
+---------17:01----------
+could fix the Esso rail for the cpu the
+
+---------17:03----------
+amount of these boards that I look at
+
+---------17:05----------
+where like I it has a hole in it but I
+
+---------17:08----------
+know the original problem was fixable is
+
+---------17:10----------
+getting higher and higher
+
+---------17:11----------
+I mean well if this had been given to me
+
+---------17:19----------
+I would have fixed it these that's a
+
+---------17:28----------
+maybe seriously all the whole boards
+
+---------17:31----------
+have a destroyed CPU vcore circuit I
+
+---------17:33----------
+gotta find it
+
+---------17:34----------
+I gotta find these people and offer them
+
+---------17:37----------
+like maybe a group rate or something on
+
+---------17:40----------
+the on the training course Yesi these
+
+---------17:43----------
+people would be rich if they weren't
+
+---------17:44----------
+throwing this crap in the garbage I
+
+---------17:46----------
+don't understand why are you throwing
+
+---------17:48----------
+this away you're selling this crap for
+
+---------17:51----------
+fifteen to thirty bucks you selling it
+
+---------17:54----------
+for 169 or 250 or 450 bucks depending on
+
+---------17:57----------
+what model the board is Scott's
+
+---------18:02----------
+stupid so stupid what's really
+
+---------18:07----------
+stupid is putting the hole through it
+
+---------18:08----------
+cuz if you didn't put the hole through
+
+---------18:09----------
+it though this would be a problem to
+
+---------18:10----------
+begin with when you alright so let's
+
+---------18:17----------
+remove that chip from the donor board
+
+---------18:21----------
+let's move the fume extractor over put
+
+---------18:24----------
+some flux down there okay so the donor
+
+---------18:30----------
+board is gonna be over here on the desk
+
+---------18:32----------
+so I move the fume extractor right over
+
+---------18:34----------
+they have flux on it
+
+---------18:59----------
+now I move a fume extractor backed over
+
+---------19:01----------
+here pray that this chip doesn't run
+
+---------19:04----------
+away while I change open broadcast her
+
+---------19:06----------
+back to the microscope this chip it
+
+---------19:12----------
+better not fly into my air filter
+
+---------19:34----------
+ya see what I'm doing it has to be
+
+---------19:36----------
+pushed down on the board that's
+
+---------19:37----------
+important if it's not flatten the board
+
+---------19:39----------
+the do you know the more you won't make
+
+---------19:41----------
+contact and this one won't work so then
+
+---------19:46----------
+I'm gonna go around it with my micro
+
+---------19:48----------
+pencil and we're gonna make sure that
+
+---------19:49----------
+it's actually you sawed it on there
+
+---------19:51----------
+properly
+
+---------19:52----------
+I feel each individual joint as I go
+
+---------20:13----------
+those ones are gonna be a particular
+
+---------20:14----------
+interest to me obviously and now I have
+
+---------20:23----------
+to take but that capacitor down there
+
+---------21:22----------
+so much reflection
+
+---------21:30----------
+it'll become clearer to see once I use
+
+---------21:32----------
+the hot air and now I want to make sure
+
+---------21:36----------
+that my jumper is in place so I'm gonna
+
+---------21:38----------
+do is I'm gonna hold the jumper properly
+
+---------21:41----------
+so that it doesn't move away or stick to
+
+---------21:43----------
+my iron while I solder it directly to
+
+---------21:46----------
+the chipping and I really want to make
+
+---------21:47----------
+sure that that jumper is soldered
+
+---------21:49----------
+straight to my chip I want to know that
+
+---------21:58----------
+that ship is getting PP 5 eso
+
+---------22:16----------
+no reason to keep a little solder blob
+
+---------22:18----------
+on the side there you can get rid of
+
+---------22:20----------
+that
+
+---------22:26----------
+okay it's now first thing I want to do
+
+---------22:28----------
+is I want to see if there's any change
+
+---------22:30----------
+so what I remove that that issue and
+
+---------22:33----------
+let's see if I have any any any positive
+
+---------22:37----------
+results so you know plug in as you can
+
+---------22:48----------
+see my fan is spinning which you know
+
+---------22:54----------
+let's not let's not ruin the excitement
+
+---------22:57----------
+of the fun my cpu IM vp ton resist t
+
+---------23:00----------
+ohen for time on I like to call ton
+
+---------23:02----------
+resistor is looking good so I'm pretty
+
+---------23:04----------
+sure that that means I'll have V Corps
+
+---------23:05----------
+and yeah so let's just go over this
+
+---------23:08----------
+again so the whole idea here is that
+
+---------23:10----------
+when you look at the act this is why
+
+---------23:12----------
+having the whole computer is saying that
+
+---------23:13----------
+I really asked for from people sending
+
+---------23:15----------
+stuff here seeing the entire computer
+
+---------23:17----------
+allowed me to do this diagnosis have a
+
+---------23:19----------
+commentary while half asleep and and
+
+---------23:23----------
+still fix the board inside of what 20
+
+---------23:25----------
+something nuts whereas without that it
+
+---------23:27----------
+would have taken a lot longer if it took
+
+---------23:28----------
+a lot longer it would be lower priority
+
+---------23:30----------
+lower priority means longer turnaround
+
+---------23:31----------
+then it's just you know this makes
+
+---------23:34----------
+everything just that much easier it's
+
+---------23:36----------
+that much simpler so what a lot of
+
+---------23:39----------
+people think is genius is really just me
+
+---------23:40----------
+having some common sense and following
+
+---------23:42----------
+along and looking through to see what it
+
+---------23:44----------
+is that was wrong and just based on
+
+---------23:46----------
+where the damage was and then again I
+
+---------23:48----------
+can come up with a theory as to what
+
+---------23:50----------
+happened based on that so something like
+
+---------23:52----------
+this is kind of what tells me that in s
+
+---------23:55----------
+Oreille being not present will keep it
+
+---------23:58----------
+from turning on but it can still enter
+
+---------24:00----------
+an Esso state so like a few years ago
+
+---------24:02----------
+with this end of the knowledge base I
+
+---------24:03----------
+know that this board is internet it can
+
+---------24:05----------
+be in an SSL state even with around
+
+---------24:07----------
+missing it's not gonna just jump back to
+
+---------24:09----------
+an s3 state it's everything's gonna turn
+
+---------24:10----------
+on except for that one well you just
+
+---------24:12----------
+kind of learn this stuff just from just
+
+---------24:13----------
+just for poking around so I'm looking at
+
+---------24:15----------
+stuff that you otherwise wouldn't have
+
+---------24:17----------
+looked at but yeah okay so what I said
+
+---------24:20----------
+about how the fan spins so I should be
+
+---------24:22----------
+good to go right I completely missed the
+
+---------24:26----------
+entire backlight section of the
+
+---------24:28----------
+motherboard none of which was actually
+
+---------24:30----------
+working so let's just take a look here
+
+---------24:33----------
+and like so yeah so we have this this
+
+---------24:36----------
+switch trace
+
+---------24:39----------
+we have this line that comes here for
+
+---------24:42----------
+backlight enable this is what we
+
+---------24:45----------
+actually worked on the yeah here we go
+
+---------24:49----------
+that was for the CPU power we have it
+
+---------24:53----------
+gets it gets better so the LCD connector
+
+---------24:55----------
+was missing pins three and four they
+
+---------24:57----------
+usually burnt here they were actually
+
+---------24:59----------
+completely 100% missing so that was that
+
+---------25:03----------
+was that was some fun right there then
+
+---------25:09----------
+we had right over here so that's where
+
+---------25:14----------
+it's going to the backlight enable
+
+---------25:15----------
+resistors that is the new backlight fuse
+
+---------25:18----------
+that backlight fuse is going to this
+
+---------25:20----------
+resistor which was responsible for the
+
+---------25:22----------
+voltage divider that's going to send
+
+---------25:23----------
+power through the whole machine this
+
+---------25:25----------
+yeah this was this was and now it
+
+---------25:29----------
+is slightly less which which is a
+
+---------25:32----------
+good thing
+
+---------25:34----------
+hopefully this actually yes D&B good to
+
+---------25:39----------
+go because I know one thing's for
+
+---------25:42----------
+certain I am NOT spending another second
+
+---------25:44----------
+on this board
+

@@ -1,0 +1,1456 @@
+https://www.youtube.com/watch?v=b39IQa_pffk
+---------00:00----------
+people how's it going so today we're
+
+---------00:01----------
+going to get started working on yet
+
+---------00:02----------
+another dead macbook
+
+---------00:04----------
+let's see what's wrong with this so
+
+---------00:06----------
+according to the customer
+
+---------00:08----------
+the issue with this macbook is that they
+
+---------00:10----------
+had no backlight
+
+---------00:12----------
+and then it appears they made the
+
+---------00:13----------
+mistake of opening the macbook
+
+---------00:16----------
+after opening the macbook now it has no
+
+---------00:19----------
+image and no backlight
+
+---------00:21----------
+joy let's see if we can find
+
+---------00:24----------
+some hints all right
+
+---------00:28----------
+so first things first there is going to
+
+---------00:31----------
+be
+
+---------00:32----------
+by the screen an inductor
+
+---------00:35----------
+between the 3.3 volt
+
+---------00:38----------
+power line and the screen i'll show you
+
+---------00:41----------
+that on the schematic over here an
+
+---------00:45----------
+820-00165
+
+---------00:49----------
+how's everybody doing in the chat here
+
+---------00:51----------
+today hope you're all having a lovely
+
+---------00:53----------
+day
+
+---------00:54----------
+free of covid
+
+---------01:01----------
+we're stuck here in stage four in new
+
+---------01:03----------
+york city
+
+---------01:05----------
+what what is there a stage five who
+
+---------01:08----------
+knows
+
+---------01:09----------
+maybe so this is an inductor that looks
+
+---------01:14----------
+like it's destroyed
+
+---------01:18----------
+this is an inductor this is the screen
+
+---------01:21----------
+screen has backlight screen has
+
+---------01:25----------
+power needs power to make image needs
+
+---------01:28----------
+backlight lines of a backlight
+
+---------01:30----------
+this is the inductor that sits between
+
+---------01:33----------
+the three volt output of u8300
+
+---------01:35----------
+and the screen and it's destroyed
+
+---------01:39----------
+hmm the first thing i'd want to do
+
+---------01:43----------
+is there's a short circuit present
+
+---------01:44----------
+because if there is a short circuit
+
+---------01:45----------
+present
+
+---------01:46----------
+then it's just going to blow when i
+
+---------01:47----------
+replace it and i don't want it to blow
+
+---------01:49----------
+when i replace it
+
+---------01:51----------
+so i'm going to turn my multimeter on
+
+---------01:53----------
+i'm going to turn on paul daniels
+
+---------01:54----------
+amazing multimeter software that always
+
+---------01:57----------
+works properly
+
+---------02:00----------
+and we'll see
+
+---------02:18----------
+no short so it's safe to replace that
+
+---------02:20----------
+now
+
+---------02:21----------
+next up is the backlight issue so you
+
+---------02:23----------
+have corrosion see this
+
+---------02:25----------
+that's liquid damage right over there
+
+---------02:29----------
+yes you see it much better when i get
+
+---------02:30----------
+the camera to focus don't you
+
+---------02:36----------
+now this here's the way it works so this
+
+---------02:38----------
+is backlight power is going to go
+
+---------02:39----------
+through this fuse
+
+---------02:41----------
+after this fuse the transistor is going
+
+---------02:44----------
+to open or close based on what it's told
+
+---------02:46----------
+to do
+
+---------02:47----------
+now there's a signal that's going to go
+
+---------02:48----------
+to this transistor which is then
+
+---------02:51----------
+going to allow a voltage divider to work
+
+---------02:52----------
+which is going to open this transistor
+
+---------02:54----------
+this is the voltage divider by the way
+
+---------02:55----------
+cd02
+
+---------02:57----------
+then once this transistor opens the
+
+---------02:59----------
+power will go through to the backlight
+
+---------03:00----------
+circuit
+
+---------03:01----------
+through the inductor give a diode caps
+
+---------03:04----------
+on output
+
+---------03:04----------
+and out and i'm going to guess that the
+
+---------03:07----------
+corrosion
+
+---------03:08----------
+is going to have gone to the back light
+
+---------03:09----------
+i see on the other side of the board
+
+---------03:11----------
+i'm also going to guess that this over
+
+---------03:13----------
+here
+
+---------03:15----------
+which is all scratched up that's so sad
+
+---------03:20----------
+why you scratch
+
+---------03:24----------
+so sad we're going to
+
+---------03:27----------
+get the other side of the board check it
+
+---------03:29----------
+out and see what's going on there
+
+---------03:31----------
+so let's take this board out of the case
+
+---------03:36----------
+by the way if anybody is interested in a
+
+---------03:39----------
+job
+
+---------03:40----------
+and is good at hard drive
+
+---------03:43----------
+data recovery and has some experience
+
+---------03:45----------
+using software like pc3000
+
+---------03:47----------
+clean room environments please do email
+
+---------03:49----------
+me at louis rossman group dot com if you
+
+---------03:51----------
+don't have experience and you email me
+
+---------03:53----------
+i will i will personally make effort
+
+---------03:57----------
+i will personally put an effort john
+
+---------04:00----------
+steve is still here
+
+---------04:02----------
+i want to get steve some assistant so
+
+---------04:04----------
+that he can actually make time to do
+
+---------04:05----------
+some videos
+
+---------04:11----------
+but steve is here steve is a valuable
+
+---------04:15----------
+valuable asset
+
+---------04:20----------
+no steve has not gotten tired of getting
+
+---------04:21----------
+shot in the dick with the nerf gun
+
+---------04:23----------
+all right so for no backlight that often
+
+---------04:25----------
+means that we have corrosion on the dcn
+
+---------04:29----------
+which on this machine is totally clean
+
+---------04:31----------
+or on the led driver
+
+---------04:37----------
+which is totally clean
+
+---------04:41----------
+so i think it might just have to do with
+
+---------04:42----------
+the shorted capacitor
+
+---------04:44----------
+and i'm going to show you how that
+
+---------04:45----------
+shorted capacitor is going to be doing
+
+---------04:47----------
+making
+
+---------04:47----------
+this not work on the schematic and the
+
+---------04:51----------
+board view you ready
+
+---------04:52----------
+all right so let's go over how this
+
+---------04:55----------
+works because the first time i looked at
+
+---------04:56----------
+this page this
+
+---------04:57----------
+honestly confused me beyond belief and i
+
+---------05:00----------
+was i had no idea what i was doing
+
+---------05:02----------
+okay ready guys big brain mode big brain
+
+---------05:04----------
+okay so this here
+
+---------05:06----------
+is the backlight fuse this here is
+
+---------05:08----------
+battery power pbsd3 hot 8.5 volt is
+
+---------05:10----------
+going to go through here
+
+---------05:11----------
+now what is this mess over here what is
+
+---------05:15----------
+all this [ __ ] okay let's let's make it
+
+---------05:16----------
+simple
+
+---------05:17----------
+so this is this is the backlight circuit
+
+---------05:19----------
+over here this is the power that's going
+
+---------05:20----------
+to go to your screen this whole thing is
+
+---------05:21----------
+a backlight circuit
+
+---------05:23----------
+the transistor is a switch it's going to
+
+---------05:25----------
+decide whether or not
+
+---------05:27----------
+power goes through to the backlight
+
+---------05:28----------
+circuit now this is
+
+---------05:31----------
+your standard p channel mosfet it says
+
+---------05:33----------
+the type up here
+
+---------05:34----------
+the way a p-channel mosfet works is the
+
+---------05:37----------
+power will flow from the source of the
+
+---------05:38----------
+drain
+
+---------05:39----------
+when the voltage in the gate is lower
+
+---------05:42----------
+than the voltage in the source not
+
+---------05:44----------
+higher
+
+---------05:45----------
+so if you were to look up this
+
+---------05:46----------
+transistor by googling this model number
+
+---------05:48----------
+you would find that pin 4 is the source
+
+---------05:51----------
+pin one two five six is the drain
+
+---------05:53----------
+and pin three is the gate
+
+---------05:56----------
+now you need to have lower voltage on
+
+---------05:59----------
+the gate than the source right
+
+---------06:00----------
+well here's what we do so you have this
+
+---------06:03----------
+resistor
+
+---------06:04----------
+r7788 that goes between the source
+
+---------06:09----------
+and the gate meaning that the voltage in
+
+---------06:10----------
+the source and the gate is always going
+
+---------06:11----------
+to be the same which means it's never
+
+---------06:12----------
+going to open remember this is kind of
+
+---------06:14----------
+like a light switch
+
+---------06:15----------
+so the way you get a light switch to
+
+---------06:16----------
+turn on or off is you flick it on or off
+
+---------06:18----------
+you know you physically move it here the
+
+---------06:20----------
+way you get the switch to turn so that
+
+---------06:22----------
+it passes
+
+---------06:22----------
+current is you send a certain amount of
+
+---------06:24----------
+power to the gate so you're going to
+
+---------06:26----------
+have
+
+---------06:26----------
+eight volts over here r-7788 is going to
+
+---------06:29----------
+take that eight volts from the source
+
+---------06:30----------
+and place it on the gate
+
+---------06:31----------
+meaning it's never going to open but
+
+---------06:33----------
+then you have what you could do is you
+
+---------06:34----------
+could place another resistor between the
+
+---------06:36----------
+gate and ground
+
+---------06:37----------
+that's going to then lower the voltage
+
+---------06:39----------
+on the gate without lowering the voltage
+
+---------06:41----------
+in the source
+
+---------06:42----------
+and allow it to open but before this
+
+---------06:45----------
+resistor can get to ground so that it
+
+---------06:46----------
+can be a voltage divider and lower the
+
+---------06:48----------
+voltage in the gate
+
+---------06:52----------
+then you're going to have to have this
+
+---------06:54----------
+transistor open
+
+---------06:56----------
+so what this is going to do this is an n
+
+---------06:59----------
+channel mosfet this is the opposite of a
+
+---------07:00----------
+p channel an
+
+---------07:01----------
+n-channel mosfet is only going to allow
+
+---------07:03----------
+power to go through when the power on
+
+---------07:05----------
+this
+
+---------07:05----------
+gate is less than the source an
+
+---------07:08----------
+n-channel is going to allow power to go
+
+---------07:10----------
+through when the power on the gate is
+
+---------07:12----------
+equal to or higher than the source when
+
+---------07:15----------
+i say power i mean
+
+---------07:16----------
+voltage so here the source is ground
+
+---------07:20----------
+zero volts so anything's going to be
+
+---------07:21----------
+higher than zero so if i send backlight
+
+---------07:23----------
+platform reset
+
+---------07:24----------
+that means that this is now connected
+
+---------07:27----------
+the switch is on
+
+---------07:29----------
+over here edp backlight enable
+
+---------07:32----------
+again this is going to wind up
+
+---------07:33----------
+disconnecting the source of the drain
+
+---------07:35----------
+which attaches ground to here
+
+---------07:37----------
+that's also going to be zero so if edb
+
+---------07:38----------
+backlight enable is
+
+---------07:40----------
+three volts then that's going to be more
+
+---------07:42----------
+than zero
+
+---------07:43----------
+because remember the source is going to
+
+---------07:44----------
+be ground the ground is zero
+
+---------07:46----------
+which means that this now turns on and
+
+---------07:50----------
+now the bottom of this resistor will go
+
+---------07:52----------
+to ground
+
+---------07:53----------
+because the bottom of that resistor is
+
+---------07:54----------
+going to go here and then here
+
+---------07:56----------
+and it's a ground so this is just a
+
+---------07:58----------
+bunch of switches
+
+---------07:59----------
+so these two signals over here are going
+
+---------08:02----------
+to turn
+
+---------08:02----------
+each of these transistors on so that
+
+---------08:05----------
+power is going to flow from source to
+
+---------08:06----------
+drain
+
+---------08:07----------
+up and that means that this will be now
+
+---------08:11----------
+a voltage divider
+
+---------08:12----------
+now if this is now a voltage divider
+
+---------08:13----------
+what that means is that
+
+---------08:15----------
+you're going to have go from having
+
+---------08:16----------
+eight volts up here
+
+---------08:19----------
+to about three or four volts over here
+
+---------08:21----------
+remember what a voltage divider is going
+
+---------08:22----------
+to do is you have that high voltage at
+
+---------08:24----------
+the top
+
+---------08:26----------
+then in the middle you're going to have
+
+---------08:28----------
+the divided voltage a lower voltage
+
+---------08:30----------
+because some of the stuff is going to
+
+---------08:31----------
+get sent to ground
+
+---------08:32----------
+so this resistance says okay some of the
+
+---------08:34----------
+eight volts gets to go here
+
+---------08:36----------
+and then this resistance says some of
+
+---------08:38----------
+that eight volts gets to go to ground
+
+---------08:39----------
+which is kind of like your recycle bin
+
+---------08:40----------
+in your trash can for
+
+---------08:41----------
+for power so what you're going to be
+
+---------08:43----------
+left with in the middle is like
+
+---------08:45----------
+four volts not zero not eight but like
+
+---------08:47----------
+four
+
+---------08:48----------
+so when these two signals are present
+
+---------08:50----------
+that's going to allow this
+
+---------08:51----------
+to be a voltage divider and that's going
+
+---------08:54----------
+to allow this transistor to open because
+
+---------08:55----------
+you'll have three or four volts here
+
+---------08:57----------
+instead of eight
+
+---------08:57----------
+and it will open because the gate will
+
+---------08:59----------
+now be lower than the source
+
+---------09:01----------
+now what happens if c7782
+
+---------09:04----------
+shorts because it gets liquid on it well
+
+---------09:07----------
+that means that
+
+---------09:08----------
+this and it turns into a wire if the
+
+---------09:10----------
+capacitor if that turns into a wire
+
+---------09:12----------
+then the gate and the source over here
+
+---------09:14----------
+there's going to be
+
+---------09:17----------
+no resistance so there's not going to be
+
+---------09:19----------
+any ability of a voltage divider because
+
+---------09:21----------
+the whole point of a voltage divider the
+
+---------09:22----------
+way this is going to work
+
+---------09:24----------
+is if i have a 301 k ohm resistor up
+
+---------09:26----------
+here and then a 147 kilo ohm resistor
+
+---------09:28----------
+down here
+
+---------09:29----------
+it's going to send some of my voltage
+
+---------09:30----------
+from over here to ground
+
+---------09:33----------
+however if i have a wire over here
+
+---------09:35----------
+because this cap is dead and turns into
+
+---------09:36----------
+a wire
+
+---------09:38----------
+then i don't have a 301 kilo ohm
+
+---------09:39----------
+resistor anymore you understand because
+
+---------09:41----------
+this cap is running in parallel with
+
+---------09:42----------
+this resistor so it's not going to be
+
+---------09:44----------
+301 kiloohms of resistance between here
+
+---------09:46----------
+and here
+
+---------09:47----------
+it's going to be zero because this is
+
+---------09:50----------
+now a wire
+
+---------09:51----------
+that's not a voltage divider circuit you
+
+---------09:52----------
+can't have a wire at the top of your
+
+---------09:54----------
+voltage divider it doesn't make sense
+
+---------09:55----------
+doesn't work
+
+---------09:56----------
+because this is going to have the
+
+---------09:57----------
+ability to send so much current through
+
+---------09:59----------
+to here
+
+---------10:00----------
+that even if you're sending a little bit
+
+---------10:02----------
+of it to ground with this pathetic
+
+---------10:03----------
+little 147 kilo ohm resistor
+
+---------10:05----------
+it's not going to send enough the ground
+
+---------10:06----------
+to actually lower the voltage because
+
+---------10:08----------
+you have a wire from here
+
+---------10:09----------
+so i'm going to knock this cap off and
+
+---------10:11----------
+get a back light and then i'm going to
+
+---------10:12----------
+replace that filter
+
+---------10:14----------
+that got broken off and i'm going to get
+
+---------10:16----------
+an image but not in that order it's
+
+---------10:18----------
+actually the image
+
+---------10:20----------
+is you you have to do image first and
+
+---------10:21----------
+then you get backlight after
+
+---------10:24----------
+so let's go all right that was honestly
+
+---------10:28----------
+a really awful explanation i've
+
+---------10:29----------
+explained transistors in this very
+
+---------10:30----------
+circuit in the past before
+
+---------10:32----------
+and i explained it in the document that
+
+---------10:34----------
+i made that should be in the link in the
+
+---------10:35----------
+video description and i think i did a
+
+---------10:36----------
+great job of it
+
+---------10:39----------
+i think that i am becoming a worse
+
+---------10:40----------
+teacher as the years go on
+
+---------10:43----------
+and at some point perhaps someone who is
+
+---------10:45----------
+more enthusiastic about this will come
+
+---------10:47----------
+along and replace me
+
+---------10:49----------
+i think my older videos did a really
+
+---------10:50----------
+good job of making this really easy to
+
+---------10:52----------
+understand even if you were clueless
+
+---------10:55----------
+because i think i had a little bit more
+
+---------10:56----------
+natural enthusiasm and i think that
+
+---------10:58----------
+enthusiasm is present
+
+---------11:00----------
+because i've been doing videos for one
+
+---------11:01----------
+year not
+
+---------11:03----------
+six or seven or eight years once you
+
+---------11:06----------
+have the same explanation every single
+
+---------11:08----------
+day for six or seven or eight years
+
+---------11:10----------
+it's easy to lose the enthusiasm for it
+
+---------11:14----------
+maybe that and when you realize that
+
+---------11:16----------
+youtube is showing your videos to
+
+---------11:18----------
+1.6 percent of your actual audience but
+
+---------11:21----------
+i'm not salty
+
+---------11:25----------
+i saw that in eli's comments section in
+
+---------11:27----------
+one of his videos earlier
+
+---------11:29----------
+and someone said man i'd love you know i
+
+---------11:31----------
+loved and he did tech videos i want to
+
+---------11:33----------
+watch again if you did tech videos and
+
+---------11:34----------
+he's like no don't lie to me
+
+---------11:36----------
+no no don't lie to me
+
+---------11:40----------
+i have analytics i see what you actually
+
+---------11:42----------
+watch i understand what he's doing i
+
+---------11:44----------
+understand that he's kind of saying that
+
+---------11:45----------
+because
+
+---------11:46----------
+part of it is just really being salty
+
+---------11:47----------
+and i understand how the youtube
+
+---------11:49----------
+system kind of can make you salty after
+
+---------11:51----------
+a while
+
+---------11:53----------
+i was looking at that the other day i
+
+---------11:55----------
+upload a video of mr clinton 550
+
+---------11:57----------
+000 views a board repair video 15
+
+---------12:00----------
+000.
+
+---------12:04----------
+i upload a video of me looking in a
+
+---------12:06----------
+refrigerator fifty thousand views
+
+---------12:08----------
+border pair 9 000.
+
+---------12:12----------
+he has the same issue that i do where
+
+---------12:14----------
+people always say
+
+---------12:15----------
+why don't you make more educational
+
+---------12:17----------
+videos but then when he actually makes
+
+---------12:19----------
+them
+
+---------12:20----------
+nobody watches them
+
+---------12:27----------
+and it really does kind of simmer your
+
+---------12:30----------
+um
+
+---------12:32----------
+your enthusiasm so to speak and
+
+---------12:39----------
+i don't know what my own friends are
+
+---------12:40----------
+telling me oh i didn't even know you
+
+---------12:42----------
+made a video in the last two weeks he
+
+---------12:43----------
+didn't show up my notifications
+
+---------12:45----------
+yeah yeah thanks susan
+
+---------12:50----------
+thank you susan
+
+---------12:53----------
+but uh at the end of the day that's my
+
+---------12:54----------
+fault
+
+---------12:56----------
+because if i made stuff that people
+
+---------12:58----------
+actually found interesting
+
+---------13:00----------
+if they would say huh i haven't seen a
+
+---------13:02----------
+video for him in a while let me let me
+
+---------13:03----------
+check on his page and see what he made
+
+---------13:06----------
+at the end of the day the algorithm is
+
+---------13:08----------
+really an excuse that a lot of people
+
+---------13:10----------
+use for
+
+---------13:10----------
+the fact that they don't make stuff
+
+---------13:12----------
+that's interesting enough for people to
+
+---------13:13----------
+actually want to seek out their page in
+
+---------13:15----------
+their content
+
+---------13:16----------
+because there are some pages that i
+
+---------13:18----------
+there's some people i watch or you know
+
+---------13:19----------
+if there's
+
+---------13:20----------
+nothing in my feed for a while i'll
+
+---------13:21----------
+actually go and check their page just
+
+---------13:22----------
+because i'm kind of curious what they're
+
+---------13:23----------
+up to
+
+---------13:24----------
+okay
+
+---------13:30----------
+place that capacitor although i could
+
+---------13:32----------
+honestly do this without the capacitor
+
+---------13:36----------
+put that capacitor in blaze and the
+
+---------13:46----------
+inductor
+
+---------14:06----------
+and i think the enthusiasm thing is a
+
+---------14:08----------
+big part of why
+
+---------14:09----------
+our current education system sucks
+
+---------14:13----------
+because i mean you have the power to
+
+---------14:14----------
+have lessons
+
+---------14:16----------
+via you know video you've had that for a
+
+---------14:17----------
+really long time so what you do
+
+---------14:20----------
+is you can have the lessons be have the
+
+---------14:22----------
+best and the best enthusiastic take
+
+---------14:25----------
+where you've gone over everything
+
+---------14:26----------
+perfectly
+
+---------14:27----------
+and then you give that to everybody and
+
+---------14:29----------
+then the showing up would be
+
+---------14:31----------
+you know the tutoring so you wouldn't
+
+---------14:32----------
+spend 40 minutes
+
+---------14:36----------
+you know having someone repeat something
+
+---------14:37----------
+to you that they've repeated millions of
+
+---------14:39----------
+times before
+
+---------14:40----------
+you maybe you'd have someone show you
+
+---------14:43----------
+how to do it in a really really good
+
+---------14:45----------
+video where you have the best teacher
+
+---------14:46----------
+that ever did it
+
+---------14:48----------
+get some crazy sum of money to produce
+
+---------14:50----------
+the video once not over and over again
+
+---------14:52----------
+that gets shown everybody our senses on
+
+---------14:54----------
+a macbook board difficult to repair
+
+---------14:58----------
+that's kind of like asking how long is a
+
+---------15:00----------
+piece of string
+
+---------15:04----------
+it's like any other logic board repair
+
+---------15:06----------
+but sometimes it's not a logic border
+
+---------15:08----------
+pair sometimes it's a trackpad
+
+---------15:09----------
+yeah but at the end of the day your
+
+---------15:11----------
+question what you just asked me
+
+---------15:12----------
+is how long is a piece of string
+
+---------15:17----------
+or how many pounds does a thing weigh
+
+---------15:21----------
+i have a whole playlist on sensor issues
+
+---------15:23----------
+i'm a really really easy summer
+
+---------15:25----------
+total nightmare train wrecks
+
+---------15:28----------
+don't ask me how long a piece of string
+
+---------15:30----------
+is it's really hard to answer
+
+---------15:33----------
+yeah what i'm thinking is you could have
+
+---------15:35----------
+a teacher that does their best
+
+---------15:37----------
+find the best teacher in the world have
+
+---------15:39----------
+them do their best enthusiastic take
+
+---------15:40----------
+where
+
+---------15:41----------
+the highest number of students
+
+---------15:43----------
+understand
+
+---------15:44----------
+what's going on even if they didn't
+
+---------15:46----------
+understand this topic before after they
+
+---------15:47----------
+hear this particular lecture
+
+---------15:49----------
+save that then when it comes to then
+
+---------15:52----------
+you'd have like the six or eight hours a
+
+---------15:53----------
+day be the tutoring
+
+---------15:56----------
+or the few hours that you show up in
+
+---------15:57----------
+person be the tutoring back and forth
+
+---------15:59----------
+you get to ask questions interrupt say
+
+---------16:01----------
+where you're confused and all that [ __ ]
+
+---------16:05----------
+there's so many different ways to
+
+---------16:06----------
+organize things but yeah i just try
+
+---------16:08----------
+i think it's hysterical that a lecture
+
+---------16:10----------
+is something you're not supposed to
+
+---------16:11----------
+interrupt where you listen to someone
+
+---------16:13----------
+speak
+
+---------16:15----------
+so you're not supposed to interrupt for
+
+---------16:16----------
+30 or 40 minutes you just listen to them
+
+---------16:18----------
+speak
+
+---------16:20----------
+but you have to show up in person for
+
+---------16:21----------
+that and that person has to repeatedly
+
+---------16:24----------
+give the lecture over and over and over
+
+---------16:25----------
+and over and over again
+
+---------16:27----------
+when vhs tape has existed forever and
+
+---------16:29----------
+the internet's been around for
+
+---------16:31----------
+with you know the ability for you to
+
+---------16:33----------
+watch video online
+
+---------16:35----------
+even if you don't have the best isp for
+
+---------16:37----------
+at least at least 10 years now
+
+---------16:42----------
+even in 2006 you know okay fine some
+
+---------16:44----------
+people had fios in 2006 some people had
+
+---------16:46----------
+[ __ ]
+
+---------16:46----------
+nowadays almost anywhere you are you can
+
+---------16:48----------
+watch video on the internet
+
+---------16:53----------
+i don't get it
+
+---------17:01----------
+find your channel on ave ev blog glad i
+
+---------17:04----------
+found it
+
+---------17:04----------
+awesome okay do we get smoke popping out
+
+---------17:08----------
+of the screen
+
+---------17:12----------
+please don't smoke please don't smoke
+
+---------17:13----------
+please don't smoke
+
+---------17:24----------
+screen and backlight that's it for today
+
+---------17:28----------
+and as always i hope that you
+
+---------17:31----------
+learn something
+

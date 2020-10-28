@@ -1,0 +1,754 @@
+https://www.youtube.com/watch?v=xO5PLjrzLcY
+---------00:00----------
+[Music]
+
+---------00:04----------
+don't delay by today so this MacBook
+
+---------00:08----------
+claims to have no image on the screen
+
+---------00:10----------
+just try and figure out why there's no
+
+---------00:12----------
+image on this ancient a 1278 old pile of
+
+---------00:15----------
+junk plug in this dirty MacBook and we
+
+---------00:21----------
+have a gray screen however the gray
+
+---------00:26----------
+screen does not produce an Apple logo or
+
+---------00:29----------
+a picket R so I'm gonna wait for it to
+
+---------00:32----------
+boot a little bit see if we get any
+
+---------00:34----------
+question mark fold or anything like that
+
+---------00:35----------
+the first thing we got to do since we're
+
+---------00:37----------
+not getting anything on the screen is
+
+---------00:39----------
+check pin three on the LCD connector
+
+---------00:41----------
+that's where the LCD VDD is so VDD is
+
+---------00:46----------
+gonna give you the power going in for
+
+---------00:48----------
+something and LCD is the LCD in 3.3
+
+---------00:50----------
+volts as power going into the LCD and
+
+---------00:52----------
+that's supposed to be on pins two and
+
+---------00:53----------
+three so the first thing to measure here
+
+---------00:54----------
+is pin three on the LCD connector
+
+---------00:58----------
+actually and I was just about to unplug
+
+---------01:01----------
+the sleep sensor but as you may be able
+
+---------01:03----------
+to see or not the sleep sensor has
+
+---------01:05----------
+actually not plugged in so great
+
+---------01:07----------
+somebody already [ __ ] that up that's
+
+---------01:08----------
+great right so let's measure pin three
+
+---------01:11----------
+on the LCD connector and see what it is
+
+---------01:14----------
+we find hey look a tear on a solder
+
+---------01:18----------
+trace do we even really need to measure
+
+---------01:23----------
+this with a microscope is they're
+
+---------01:29----------
+measuring required here I don't think we
+
+---------01:32----------
+need to measure that I think we know
+
+---------01:34----------
+exactly why this has no picture but I'm
+
+---------01:37----------
+gonna measure it anyway so let's see how
+
+---------01:39----------
+many volts the screen is actually
+
+---------01:40----------
+getting so the screen is supposed to be
+
+---------01:43----------
+getting 3.3 volts and according to this
+
+---------01:47----------
+on pins 2 & 3 we get 0.8 volts now
+
+---------01:50----------
+here's the interesting part and here's
+
+---------01:52----------
+the thing that a lot of people miss and
+
+---------01:53----------
+I used to miss in the beginning as well
+
+---------01:55----------
+you see that the screen is gray right
+
+---------01:59----------
+hey you're back
+
+---------02:04----------
+don't leave us ever again oh come back
+
+---------02:11----------
+to work please
+
+---------02:12----------
+everybody we've hired has been a total
+
+---------02:15----------
+idiot we need you back we miss you so
+
+---------02:17----------
+much I'll double your pay you'll get the
+
+---------02:20----------
+best health care you'll get flowers and
+
+---------02:22----------
+a cake every and tea and chocolate three
+
+---------02:25----------
+times a day
+
+---------02:25----------
+and we'll get you another cute kitty cat
+
+---------02:27----------
+and I'll get you a Mercedes come back
+
+---------02:31----------
+I'll get you a better Mercedes how about
+
+---------02:35----------
+a Bentley I miss old employee I'm sorry
+
+---------02:37----------
+for that interruption we had an
+
+---------02:39----------
+ex-employee come back that we missed
+
+---------02:41----------
+terribly we're trying to convert from ex
+
+---------02:43----------
+employees and employee we miss Venera so
+
+---------02:51----------
+this here this screen it looks like it's
+
+---------02:54----------
+turning on right you see how it's gray
+
+---------02:55----------
+the REIT well it's gray so people will
+
+---------02:58----------
+think the screen is turning on but it's
+
+---------03:00----------
+not this screen will actually turn on
+
+---------03:02----------
+even if it has point 5 volts and even
+
+---------03:04----------
+though the screen needs 3.3 volts to
+
+---------03:06----------
+function you will get this general
+
+---------03:08----------
+grayness of it just starting up with
+
+---------03:11----------
+point 5 volts so the screen looks like
+
+---------03:15----------
+it's turning on but it's not and this
+
+---------03:18----------
+will especially confuse you if you have
+
+---------03:21----------
+a case where the inductor looks good
+
+---------03:22----------
+now here the inductor looks like trash
+
+---------03:24----------
+so it's it's obvious that what's going
+
+---------03:27----------
+on here you mean you don't need to be a
+
+---------03:29----------
+genius to check this out but if this
+
+---------03:32----------
+inductor is not blown up and the screen
+
+---------03:35----------
+looks like that very few people are
+
+---------03:37----------
+going to check to see if there's 3.3
+
+---------03:38----------
+volts at lcd VDD and that's exactly what
+
+---------03:41----------
+you need to do over here there is a
+
+---------03:43----------
+couple of different power lines for your
+
+---------03:45----------
+LCD it's not like an iPhone so you have
+
+---------03:48----------
+one power line which is pp 3 v 3s o LCD
+
+---------03:52----------
+over here and this power line that's
+
+---------03:54----------
+going to pin 4 is going to the DDC part
+
+---------03:58----------
+of the LCD D DC is a protocol used for
+
+---------04:02----------
+you to be able to tell what type of
+
+---------04:04----------
+screen it is so what resolution what
+
+---------04:06----------
+refresh rate
+
+---------04:07----------
+what model am I so that's how the screen
+
+---------04:10----------
+is going to communicate with the machine
+
+---------04:12----------
+to tell what type of screen it is that
+
+---------04:14----------
+has to happen first
+
+---------04:16----------
+secondly you'll get three volts to the
+
+---------04:18----------
+LCD this is the part that actually
+
+---------04:19----------
+creates the image and that's on pins two
+
+---------04:21----------
+and three and the third power rail is
+
+---------04:23----------
+going to be backlight and that's the
+
+---------04:25----------
+last one to come on and that's on pins
+
+---------04:27----------
+21 and 22 but it typically follows this
+
+---------04:30----------
+order on the older Mac books that use
+
+---------04:31----------
+LVDS first you need 3.3 volts for the
+
+---------04:34----------
+DDC circuit so that you can see that
+
+---------04:36----------
+this inductor here is that's gonna be
+
+---------04:38----------
+sending power to DDC right behind it you
+
+---------04:41----------
+have the two pull ups for LVDS d DC
+
+---------04:43----------
+o'clock and d DC data that's how when
+
+---------04:45----------
+you plug in a new screen it
+
+---------04:46----------
+automatically tells what the resolution
+
+---------04:48----------
+is and all that good stuff think Apple
+
+---------04:52----------
+learned a lesson from past models issues
+
+---------04:54----------
+when new iPhones launch next month nope
+
+---------04:56----------
+now Jessa has a lot of really good
+
+---------04:58----------
+videos on the audio IC issues and you
+
+---------05:00----------
+should definitely check out her channel
+
+---------05:01----------
+it's called iPad rehab
+
+---------05:02----------
+that's iPad rehab there's a lot of good
+
+---------05:04----------
+content there so if you watch this stuff
+
+---------05:06----------
+you should definitely check out her
+
+---------05:07----------
+channel but she has a lot of videos and
+
+---------05:09----------
+something called the audio IC issue and
+
+---------05:11----------
+it occurs because the iPhone 7 if it
+
+---------05:15----------
+flexes so when you when you move it back
+
+---------05:17----------
+and forth it flexes very similar to how
+
+---------05:19----------
+the iPhone six-plus would flex and that
+
+---------05:22----------
+causes it to have flexion based damage
+
+---------05:24----------
+where pads will come off the board and
+
+---------05:26----------
+stuff like that under chips
+
+---------05:28----------
+so Apple figured out the problem and
+
+---------05:31----------
+fixed it with the 6s but then recreated
+
+---------05:33----------
+it in the 7 they don't learn from their
+
+---------05:35----------
+mistakes and I don't think they ever
+
+---------05:38----------
+will because people keep buying the
+
+---------05:40----------
+products so first you need your 3 volts
+
+---------05:42----------
+for your D DC circuit with any of these
+
+---------05:44----------
+LVDS model MacBooks then you need 3
+
+---------05:46----------
+volts for the image circuit which is LCD
+
+---------05:49----------
+VDD and then you need backlight now the
+
+---------05:51----------
+thing is even if you don't have full
+
+---------05:53----------
+voltage on image circuit backlight will
+
+---------05:56----------
+still come on backlight will still come
+
+---------05:58----------
+on so long as there's anything on LCD
+
+---------06:00----------
+VDD if you have anything over 0 on LCD
+
+---------06:02----------
+VDD backlight will come on especially if
+
+---------06:05----------
+the D DC circuit has come on and already
+
+---------06:08----------
+communicated with the Machine so now
+
+---------06:09----------
+what we have to do is correct this so
+
+---------06:12----------
+first thing we have to do is figure out
+
+---------06:13----------
+why this happened to begin with and see
+
+---------06:15----------
+if this occurred due to a short circuit
+
+---------06:17----------
+to ground on the image line so uh image
+
+---------06:20----------
+power line so I'm going to turn my meter
+
+---------06:22----------
+back on here thanks to this beautiful
+
+---------06:24----------
+stream deck that Paul got me
+
+---------06:28----------
+let's see if we have a short to ground
+
+---------06:30----------
+on the image line there's no short two
+
+---------06:37----------
+grounds on the image line alright so now
+
+---------06:38----------
+what we have to do is remove this and
+
+---------06:40----------
+well that's probably gonna be welded to
+
+---------06:43----------
+that pad this is something you'll also
+
+---------06:44----------
+see in some of Jesse's videos where the
+
+---------06:46----------
+especially I believe on the 6s no
+
+---------06:48----------
+backlight on a lot of success backlight
+
+---------06:50----------
+issues you'll notice that the filter
+
+---------06:53----------
+actually gets welded onto the pad and in
+
+---------06:55----------
+a way it's that that's a common iPhone
+
+---------06:59----------
+mess-up and that happens over here with
+
+---------07:02----------
+this filter now with the backlight fuse
+
+---------07:03----------
+but a lot with the filter and I'm gonna
+
+---------07:05----------
+finish this up as quickly as I can
+
+---------07:06----------
+because my ex-employee is in the front
+
+---------07:08----------
+of the store and I need to convince her
+
+---------07:10----------
+to come back and work here so I'm gonna
+
+---------07:12----------
+get on my hands and knees and grovel as
+
+---------07:15----------
+much as I can much groveling it's very
+
+---------07:18----------
+hard to find good employees when you
+
+---------07:20----------
+find them don't let them go ever
+
+---------07:21----------
+seriously like lock them in your
+
+---------07:23----------
+basement get a good security system put
+
+---------07:25----------
+a leash on them if you have to but don't
+
+---------07:27----------
+let them go especially in yeah do what
+
+---------07:32----------
+you got to do
+
+---------07:38----------
+should probably get a micro soldering
+
+---------07:40----------
+pencil over here
+
+---------07:48----------
+but I don't want to change
+
+---------08:00----------
+I am disabled teen i watch and do the
+
+---------08:05----------
+same well i think that's really cool
+
+---------08:11----------
+that you're not letting a disability get
+
+---------08:12----------
+in the way of doing this type of work
+
+---------08:15----------
+and if anybody tells you you can't do it
+
+---------08:17----------
+cause of a disability you can just tell
+
+---------08:19----------
+them to go after themselves okay so now
+
+---------08:24----------
+we have our inductor
+
+---------08:58----------
+I should reinforce that solder blob with
+
+---------09:00----------
+a wire
+
+---------09:17----------
+this is this is an example of sheer
+
+---------09:19----------
+stubbornness and laziness I don't want
+
+---------09:22----------
+to get up to get the micro pencil iron
+
+---------09:23----------
+and plug it into the hakko and hear the
+
+---------09:25----------
+beeping so I'm using this ridiculous BCM
+
+---------09:28----------
+to tip to do this job
+
+---------09:30----------
+jess is probably watching and screaming
+
+---------09:31----------
+at the screen right now because I'm
+
+---------09:33----------
+using a BCM to to micro solder but I
+
+---------09:37----------
+don't want to get up again it's so I'm
+
+---------09:46----------
+psycho soldering with a BCM - this is
+
+---------09:52----------
+pure stubborn stupidity you should do as
+
+---------09:54----------
+I say not as I do
+
+---------09:55----------
+just get yourself a duel station I
+
+---------09:58----------
+didn't get myself a duel station because
+
+---------10:00----------
+as an AGR ex investor I don't feel that
+
+---------10:02----------
+I'm I don't I'm worthy of it I don't
+
+---------10:04----------
+deserve it
+
+---------10:06----------
+anybody dumb enough to stay in a grx
+
+---------10:09----------
+does not deserve to have another station
+
+---------10:20----------
+all right and after this is done we're
+
+---------10:23----------
+going to test our work it's good and we
+
+---------10:28----------
+can fix up this firewire circuit later
+
+---------10:30----------
+the firewire circuit can wait because
+
+---------10:31----------
+you can see the firewire area doesn't
+
+---------10:34----------
+look very nice here
+
+---------10:34----------
+boom I'm just gonna let's just see if he
+
+---------10:37----------
+got image first an image first port that
+
+---------10:40----------
+nobody's used since 2010 later I have
+
+---------10:47----------
+one test for any to least Akkad iPad
+
+---------10:48----------
+rehab what I get up and walk across the
+
+---------10:50----------
+room to get this tool that's the thing
+
+---------10:52----------
+Jessa I that test doesn't work with me
+
+---------10:54----------
+due to the amount of laziness cuz
+
+---------10:56----------
+they're all I wouldn't get up to get a
+
+---------10:58----------
+lot of things that I genuinely need
+
+---------11:02----------
+alright let's see does this turn on or
+
+---------11:04----------
+blow up let's see if smoking myths so no
+
+---------11:07----------
+smoking myths from here and we have a
+
+---------11:10----------
+screen and hey we got an Apple logo the
+
+---------11:12----------
+Apple logo means that we do have image
+
+---------11:14----------
+so that is it for today and as always I
+
+---------11:17----------
+hope you learned something now I was
+
+---------11:18----------
+gonna plan a stream for a longer period
+
+---------11:19----------
+of time but I do have to go up to the
+
+---------11:21----------
+front and grovel and beg and get on my
+
+---------11:23----------
+knees and hope and pray and plead that
+
+---------11:25----------
+my ex-employee will come back to work
+
+---------11:27----------
+here because we there's just nobody like
+
+---------11:29----------
+veneer so that's it for today and as
+
+---------11:31----------
+always I hope you learned something time
+
+---------11:34----------
+to get the groveling
+
+---------11:42----------
+don't delay by today
+
+---------11:45----------
+[Music]
+

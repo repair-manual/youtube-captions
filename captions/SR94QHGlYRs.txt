@@ -1,0 +1,535 @@
+https://www.youtube.com/watch?v=SR94QHGlYRs
+---------00:00----------
+let's see what's going on with this
+
+---------00:01----------
+MacBook what do they do to you MacBook
+
+---------00:03----------
+who hurt you so first thing I'm gonna do
+
+---------00:06----------
+is plug in the DCN board and then I'm
+
+---------00:10----------
+gonna plug in the charger with my USB C
+
+---------00:12----------
+amp meter here and once I plug this in
+
+---------00:15----------
+we're going to see how many amps it
+
+---------00:18----------
+takes cuz that's gonna give me an idea
+
+---------00:19----------
+of what's going on with the board it
+
+---------00:21----------
+looks like this is taking five point one
+
+---------00:23----------
+volts at point one amps hmm so again the
+
+---------00:28----------
+same rules are going to apply here that
+
+---------00:29----------
+apply with any of the other touch bars I
+
+---------00:32----------
+work on then use this as a USB C MUX so
+
+---------00:34----------
+the first thing I'm gonna want to do is
+
+---------00:36----------
+see if I have pp3 v3 underscore g3 hot
+
+---------00:39----------
+so we're gonna see if we have a pp3 v3
+
+---------00:41----------
+underscore g3 hot because that is gonna
+
+---------00:43----------
+be required for the CD 3215 to work so
+
+---------00:46----------
+we are gonna measure on that inductor
+
+---------00:47----------
+and see if we get PP 3 V 3 underscore g3
+
+---------00:50----------
+hot Ben Horace's I don't like reality as
+
+---------00:52----------
+it is so I don't have kids cuz I don't
+
+---------00:53----------
+want to be the cause of people
+
+---------00:54----------
+experience in the shame [ __ ] is I did
+
+---------00:56----------
+see that's the cool part about having
+
+---------00:57----------
+children
+
+---------00:57----------
+that's why I want to have kids because I
+
+---------00:59----------
+want I want to do everything I can to
+
+---------01:01----------
+ensure that the my kids grow up the
+
+---------01:04----------
+exact opposite of how I did and I think
+
+---------01:07----------
+that I have enough knowledge now to
+
+---------01:10----------
+ensure that my kids would grow up very
+
+---------01:14----------
+differently than I did and that they
+
+---------01:15----------
+would have a much better life that's the
+
+---------01:17----------
+fun part I think all right so it appears
+
+---------01:19----------
+that pp3 v3 underscore g3 hot is not
+
+---------01:22----------
+here so that's the problem that we're
+
+---------01:24----------
+going to have to solve before we do
+
+---------01:25----------
+anything else on this MacBook pp3 v3
+
+---------01:28----------
+underscore g3 HUD is not present so the
+
+---------01:30----------
+first thing I'm going to do here is I am
+
+---------01:32----------
+going to unplug the charger and then
+
+---------01:34----------
+measure the resistance to ground we
+
+---------01:39----------
+don't have a short to ground we have 12
+
+---------01:41----------
+kilo ohms to ground on pp3 v3 underscore
+
+---------01:43----------
+g3 hot that's a trap dude kids that have
+
+---------01:45----------
+everything to have a great start usually
+
+---------01:47----------
+[ __ ] up everything as adults no that's
+
+---------01:48----------
+not kids that have a great start that's
+
+---------01:50----------
+kids that just have everything I think
+
+---------01:52----------
+that's where you're getting it wrong so
+
+---------01:53----------
+if you give your kids millions of
+
+---------01:55----------
+dollars and no supervision and no
+
+---------01:58----------
+guidance that is [ __ ] them up if you
+
+---------02:00----------
+give your kid a good start
+
+---------02:02----------
+that means that that's different than
+
+---------02:05----------
+giving them everything in my opinion but
+
+---------02:07----------
+again I'm not I'm not a dad but I'd like
+
+---------02:09----------
+to be a dad someday so let's take this
+
+---------02:11----------
+board out and try to figure out why pp 3
+
+---------02:13----------
+V 3 or underscore
+
+---------02:13----------
+jihad is not present on this board so
+
+---------02:16----------
+what makes PP 3v3 underscore g3 hot on
+
+---------02:18----------
+this board that's gonna be the first
+
+---------02:19----------
+thing that we gotta find this is the
+
+---------02:21----------
+coil this is pp 3 v3 underscore g3 hot
+
+---------02:24----------
+and you are created you are created by
+
+---------02:28----------
+you 7000 which doesn't exist
+
+---------02:32----------
+yay so this is one of those chips that I
+
+---------02:35----------
+VI keep trying to find it and I keep
+
+---------02:37----------
+failing to find it you have to take this
+
+---------02:40----------
+off of a donor board and reball it and I
+
+---------02:43----------
+don't know we know if I have a donor for
+
+---------02:45----------
+this thing let's take a look at pet this
+
+---------02:48----------
+chip and see what everything looks like
+
+---------02:49----------
+in this area yeah so they built that
+
+---------02:52----------
+into the ISL 955 3-0 Apple has done a
+
+---------02:56----------
+lot of work to make sure that nobody can
+
+---------02:58----------
+get their hands on this thing like a lot
+
+---------03:03----------
+of work and it paid off because nobody
+
+---------03:07----------
+has gotten their hands on this chip I
+
+---------03:08----------
+had a few but I could never find them
+
+---------03:11----------
+again after that one purchase nothing
+
+---------03:16----------
+here looks particularly nasty there's
+
+---------03:19----------
+one resistor that looks like it's a
+
+---------03:21----------
+little burned up looking but right over
+
+---------03:24----------
+here but that's that doesn't seem
+
+---------03:26----------
+damaged to me I'm gonna check it just in
+
+---------03:28----------
+case let's see what are you for
+
+---------03:30----------
+yeah your resistor to ground for a high
+
+---------03:32----------
+power enable and you're supposed to be a
+
+---------03:35----------
+hundred kilohms and I imagine if I
+
+---------03:36----------
+measure that you are gonna be 100 kilo
+
+---------03:38----------
+ohms so really sucks that you can't get
+
+---------03:43----------
+ISL chips for the newer math books
+
+---------03:45----------
+without going through a lot of pain and
+
+---------03:47----------
+struggling yeah that's a fine resistor
+
+---------03:50----------
+there's nothing wrong with that resistor
+
+---------03:55----------
+input is there but input is severely
+
+---------03:57----------
+down why interesting so we have 5 volts
+
+---------04:03----------
+on input but over here where it's going
+
+---------04:07----------
+to this area that is 4.5 so why the drop
+
+---------04:11----------
+why the precipitous drop all right
+
+---------04:14----------
+that's interesting so let's see where
+
+---------04:17----------
+are you coming from this is the circuit
+
+---------04:20----------
+for creating pp 3 v 3 underscore g3 huh
+
+---------04:22----------
+now I know because switch is attached to
+
+---------04:25----------
+the ISL chip
+
+---------04:27----------
+over here this charger PM I see I know
+
+---------04:32----------
+that since it's attached to this from
+
+---------04:35----------
+the board view that I was looking at
+
+---------04:36----------
+that this chip is gonna be making it see
+
+---------04:37----------
+where it says PP 3v3 underscore g3 hot
+
+---------04:40----------
+SW over here that means that you're
+
+---------04:42----------
+making it but what I don't understand is
+
+---------04:48----------
+what is going on with PP VIN underscore
+
+---------04:52----------
+g3 hot underscore p3 v3 underscore g3
+
+---------04:55----------
+hot because you're the input but where
+
+---------04:57----------
+do you come from what are you there for
+
+---------04:59----------
+I mean where do you come from it doesn't
+
+---------05:02----------
+really tell me and that sucks
+
+---------05:04----------
+are you created by you 7000 is that what
+
+---------05:07----------
+we're getting out over here on pin 56
+
+---------05:11----------
+either the chip itself is bad or it's
+
+---------05:16----------
+not being told to create that rail let's
+
+---------05:20----------
+treat this as if it was an old is l6 259
+
+---------05:25----------
+so let's check on our 70 10 okay so SMC
+
+---------05:29----------
+reset L is stuck at zero point zero six
+
+---------05:32----------
+volts that's not a valid state we should
+
+---------05:34----------
+be at zero volts or 3.3 volts but I
+
+---------05:37----------
+don't understand what the hell's going
+
+---------05:39----------
+on with 0.06 volts and do keep in mind
+
+---------05:42----------
+this is not with a keyboard or anything
+
+---------05:43----------
+plugged in that's gonna be shorting it
+
+---------05:45----------
+to ground all we have plugged in is a DC
+
+---------05:46----------
+on board so SMC reset L is stuck and we
+
+---------05:50----------
+have to figure out what's gonna be
+
+---------05:52----------
+making SMC reset l and it seems that
+
+---------05:54----------
+that is actually built into the is L six
+
+---------05:57----------
+two five nine on this board so this is a
+
+---------06:00----------
+great way to tell if I'm correct so you
+
+---------06:03----------
+look SMC reset L so they've integrated
+
+---------06:06----------
+several things in here so that check
+
+---------06:08----------
+this is how they shrunk the fifth
+
+---------06:10----------
+this is how they shrunk this machine so
+
+---------06:13----------
+the is L six two five nine which create
+
+---------06:15----------
+a PP bus G three hot the you sever the
+
+---------06:17----------
+die D which created PP three before -
+
+---------06:19----------
+and the SMC reset IC have all been
+
+---------06:22----------
+integrated into one chip the is L nine
+
+---------06:24----------
+five five three zero which would be fine
+
+---------06:26----------
+if it wasn't for the fact that I can't
+
+---------06:29----------
+get that effing chip now the the real
+
+---------06:32----------
+issue here is I can't get a chip that's
+
+---------06:35----------
+the real issue here and I can I know
+
+---------06:37----------
+that that's what's wrong because SMC
+
+---------06:39----------
+reset L is not supposed to be stuck like
+
+---------06:41----------
+that
+
+---------06:41----------
+that SMC reset L is stuck low so now I
+
+---------06:43----------
+know it's got to be that chip it's not
+
+---------06:44----------
+something else
+
+---------06:45----------
+because nothing else is gonna cause SMC
+
+---------06:47----------
+reset l to be low besides that chip and
+
+---------06:49----------
+this is the kind of failure mode that I
+
+---------06:50----------
+would expect in the older Mac books this
+
+---------06:52----------
+is the exact type of failure mode I
+
+---------06:54----------
+would expect in the older Mac books when
+
+---------06:55----------
+the SMC reset L chip is broken the issue
+
+---------06:57----------
+is that I need an is L nine five five
+
+---------06:59----------
+three zero four bad odor board oh think
+
+---------07:02----------
+I have one so I'm gonna have to try and
+
+---------07:04----------
+locate one and all the is all nine five
+
+---------07:06----------
+five three zeros I've been finding
+
+---------07:08----------
+online are not the right date code and
+
+---------07:10----------
+don't work if you find an ISL nine five
+
+---------07:14----------
+five three zero that doesn't say this on
+
+---------07:16----------
+it it's probably not going to work
+

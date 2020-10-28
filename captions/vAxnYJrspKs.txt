@@ -1,0 +1,1144 @@
+https://www.youtube.com/watch?v=vAxnYJrspKs
+---------00:00----------
+wash your hands wash your face wash your
+
+---------00:02----------
+pee-pee bus and don't call hey everybody
+
+---------00:15----------
+how's it going so today we have in a
+
+---------00:17----------
+1707 in front of us that is liquid
+
+---------00:19----------
+damage and it's not turning on let's
+
+---------00:20----------
+open this thing up and see if we can
+
+---------00:22----------
+figure out what's wrong with it and make
+
+---------00:23----------
+it work again okay so let's take a look
+
+---------00:27----------
+at this machine and try and figure out
+
+---------00:29----------
+why it is that it's not working now when
+
+---------00:31----------
+we take a look at the board you might
+
+---------00:35----------
+notice that my camera is shaking but
+
+---------00:37----------
+besides that you got a red dot over
+
+---------00:42----------
+there and the first thing I'm interested
+
+---------00:44----------
+in doing here is trying to see how much
+
+---------00:48----------
+power it's taking what is this computer
+
+---------00:54----------
+doing so we're gonna unplug the battery
+
+---------00:56----------
+plug in the charger with a USBC amp
+
+---------00:59----------
+meter attached and see what it takes
+
+---------01:11----------
+five volts
+
+---------01:18----------
+nineteen point five volts at three amps
+
+---------01:21----------
+there seems to be a recurring theme
+
+---------01:23----------
+there's 360 melted cop do customers stop
+
+---------01:26----------
+taxing themselves there 360 ml amps but
+
+---------01:31----------
+not doing anything no image on the
+
+---------01:34----------
+screen and the other thing is when you
+
+---------01:35----------
+see 360 ml amps and it's static that
+
+---------01:38----------
+means that there's usually a
+
+---------01:39----------
+short-circuit somewhere or that is the
+
+---------01:41----------
+CPU itself is dead because you would
+
+---------01:44----------
+usually see fluctuations so it's not
+
+---------01:48----------
+gonna use the exact same amount of power
+
+---------01:50----------
+to do these different complex tasks or
+
+---------01:52----------
+it's stopping starting stopping starting
+
+---------01:53----------
+stopping starting if millions of little
+
+---------01:57----------
+transistors all firing off at once
+
+---------01:59----------
+they're not going to take the static
+
+---------02:01----------
+amount of power so this is not though
+
+---------02:03----------
+this is a brain-dead machine so the
+
+---------02:05----------
+first thing I'm kind of interested in
+
+---------02:06----------
+seeing is if we have a short circuit on
+
+---------02:08----------
+the good old fashioned P P bus the P P
+
+---------02:16----------
+bus is 0.5 volts now we're gonna see if
+
+---------02:20----------
+we have a short circuit on the P P bus
+
+---------02:25----------
+the P P bus doesn't have a short
+
+---------02:34----------
+so the BP bus is missing but there's no
+
+---------02:36----------
+short circuit that's really interesting
+
+---------02:39----------
+that that doesn't happen very often on
+
+---------02:41----------
+these when it's taking 350 ml amps so
+
+---------02:45----------
+let's get the board out of the casing
+
+---------02:47----------
+and see if we can figure out what's
+
+---------02:48----------
+wrong with the MacBook Sonny's here
+
+---------02:52----------
+Sonny do you think the Blasio's are
+
+---------02:54----------
+gonna shut everybody down my money is on
+
+---------02:58----------
+the shutting down the tunnel to Paul's
+
+---------02:59----------
+house within two weeks yeah then he's
+
+---------03:03----------
+gonna have to be faying here poor [ __ ]
+
+---------03:07----------
+oh man
+
+---------03:11----------
+you all excited to see Paul show up here
+
+---------03:13----------
+on a buffet
+
+---------03:17----------
+take the George Washington Bridge oh man
+
+---------03:24----------
+hey no coughing stop that stop coughing
+
+---------03:30----------
+wash your hands wash your face wash your
+
+---------03:32----------
+pee-pee bus and don't call him all right
+
+---------03:39----------
+so when everything's unplugged do we get
+
+---------03:40----------
+any different behavior this is the board
+
+---------03:42----------
+by itself I see oh wow now it's not even
+
+---------03:55----------
+going to 20 oh there we go now you get
+
+---------03:57----------
+20 volts okay so the problem here with
+
+---------04:00----------
+this board is that we're getting 0.5
+
+---------04:04----------
+volts on pbht three hot and what's
+
+---------04:06----------
+really strange is that there's no short
+
+---------04:07----------
+circuit aground because usually we have
+
+---------04:09----------
+a short circuit to ground that's going
+
+---------04:11----------
+to cause it to be pulled down even if we
+
+---------04:13----------
+didn't have P be budged III hot and it
+
+---------04:14----------
+was taking let's say 20 ml amps that
+
+---------04:16----------
+would make sense to me what doesn't make
+
+---------04:17----------
+sense to me here is that it's taking 350
+
+---------04:20----------
+milliamps and pbht three hots missing PP
+
+---------04:23----------
+by-street 3 ha is the second rail I
+
+---------04:24----------
+expect to turn on the first is going to
+
+---------04:27----------
+be PP 3 V 3 underscore G 3 hot that rail
+
+---------04:30----------
+turns on the CD 32 15 s which allow the
+
+---------04:32----------
+charger to put out 20 volts instead of 5
+
+---------04:35----------
+so EP 3 V 3 underscore G 3 hot is going
+
+---------04:37----------
+to power this chip which is then going
+
+---------04:40----------
+to speak to my charger and say turn me
+
+---------04:42----------
+on
+
+---------04:42----------
+after that BP brush D 3 Holcomb sock so
+
+---------04:44----------
+the lack of pp bus G 3 ha with their
+
+---------04:47----------
+Nino short sir
+
+---------04:48----------
+to ground and was also having 300 female
+
+---------04:51----------
+amps of usage is really confusing that's
+
+---------04:53----------
+a problem that I would not expect to
+
+---------04:55----------
+have and still doesn't make sense to me
+
+---------04:57----------
+to the point where I'm actually making
+
+---------04:58----------
+this measurement again because I don't
+
+---------05:00----------
+believe it I still don't believe it
+
+---------05:03----------
+something is still don't believe what it
+
+---------05:06----------
+is I'm measuring this has been a
+
+---------05:08----------
+frequent roll this 343 under 50
+
+---------05:10----------
+milliamps and not doing anything crap
+
+---------05:12----------
+and I just find it hard to believe that
+
+---------05:16----------
+this is actually continuously doing this
+
+---------05:21----------
+makes no sense to me
+
+---------05:40----------
+and that is 20 volts coming in its gonna
+
+---------05:43----------
+confirm that yep 20 volts on input so
+
+---------05:48----------
+now we're just gonna search around the
+
+---------05:50----------
+board and see if we could find anything
+
+---------05:51----------
+that looks obviously screwed up and see
+
+---------05:53----------
+if we can make this work again
+
+---------05:55----------
+all right ready microscope camera on
+
+---------05:57----------
+shaking camera on so that's the ISL 9 to
+
+---------06:03----------
+3 9 chip that's going to create our PP
+
+---------06:04----------
+bus g3 hot we also have some caps next
+
+---------06:12----------
+to it that look kind of nasty and
+
+---------06:18----------
+undamaged looking probe point so let's
+
+---------06:23----------
+do some cleaning over here
+
+---------06:54----------
+now you also have a lot of nearly nasty
+
+---------06:56----------
+Pro points over here and this is also
+
+---------06:57----------
+where the q-tip stuff is starting to
+
+---------06:59----------
+stick so that's salan yeah this is a
+
+---------07:01----------
+sticky area you can see all these probe
+
+---------07:04----------
+points look kind of destroyed and I'm
+
+---------07:06----------
+curious if these are the probe points
+
+---------07:08----------
+where something's passing from one side
+
+---------07:09----------
+of the board to the other or are these
+
+---------07:11----------
+the probe points first just testing
+
+---------07:13----------
+purposes because what could be happening
+
+---------07:15----------
+here is those are the probe points where
+
+---------07:17----------
+stuff is passing from one side of the
+
+---------07:18----------
+board to the other side of the board and
+
+---------07:20----------
+if they're nasty you're disgusting that
+
+---------07:23----------
+could mean that maybe we actually do
+
+---------07:25----------
+have peepee brush d3 ha but it's only
+
+---------07:27----------
+present on one side of our motherboard
+
+---------07:31----------
+so we're just gonna try to check out on
+
+---------07:34----------
+the schematic and see what these things
+
+---------07:35----------
+are
+
+---------07:36----------
+let's go back over to the schematic and
+
+---------07:37----------
+the board view so what do we have that
+
+---------07:41----------
+is all nasty down here okay that's
+
+---------07:43----------
+that's PPV bat g3 hot connector so
+
+---------07:46----------
+that's going to be with this is pretty
+
+---------07:49----------
+much pp best e3 hot so this is the bat
+
+---------07:51----------
+pp bus d3 hot going to the battery and
+
+---------07:54----------
+all of that looks like complete nutter
+
+---------07:56----------
+[ __ ] wonder if that's shorted to ground
+
+---------07:59----------
+maybe one way to find out right
+
+---------08:11----------
+nope not charge the ground 24 million
+
+---------08:14----------
+ohms and going up okay next what is this
+
+---------08:19----------
+little thing over here
+
+---------08:20----------
+looks like [ __ ] what do you do
+
+---------08:25----------
+you're a diode that goes between the two
+
+---------08:29----------
+battery data lines hmm
+
+---------08:33----------
+now that battery data line is going to
+
+---------08:36----------
+speak to our is l9 2 3 9 which creates
+
+---------08:40----------
+BPOs G 3 hot right so that chip over
+
+---------08:43----------
+here
+
+---------08:44----------
+battery charger it's actually in is l9 2
+
+---------08:46----------
+3 9 apples are was drunk when they wrote
+
+---------08:48----------
+the schematic so ignore that but that
+
+---------08:50----------
+that diode is going to go between these
+
+---------08:52----------
+two data lines over here so if these two
+
+---------08:54----------
+data lines are shorted my question is
+
+---------08:56----------
+does that battery chargers still create
+
+---------08:58----------
+the pbbht 3 hot I don't think it would I
+
+---------09:02----------
+think if you short those data lines it's
+
+---------09:03----------
+gonna go down I don't think it's gonna
+
+---------09:05----------
+go down that much on older Mac books it
+
+---------09:07----------
+would only go down by a little bit you
+
+---------09:09----------
+know you go down by something negligible
+
+---------09:12----------
+like from 12 point 5 6 to 12 point 2 3
+
+---------09:15----------
+maybe it goes down more here so let's
+
+---------09:18----------
+see what happens if I just kind of rehad
+
+---------09:21----------
+that area because I think what happened
+
+---------09:23----------
+is that we got corrosion near the ISL 9
+
+---------09:28----------
+to 39 and as a result of it the is on
+
+---------09:31----------
+int 39 died and it's just taking up
+
+---------09:34----------
+amperage but without actually creating
+
+---------09:35----------
+anything so even though the corrosion is
+
+---------09:37----------
+not on the is aa 93 9 I think that the
+
+---------09:40----------
+is aa 93 9 may be damaged it's a very
+
+---------09:44----------
+very very [ __ ] chip so let's see what
+
+---------09:50----------
+happened
+
+---------10:15----------
+it smells kind of funky
+
+---------10:40----------
+that was our old ISO 93 nine now I'm
+
+---------10:44----------
+going to clean the board area and then
+
+---------10:48----------
+get a new ISO 9 2 3 9 from stored out
+
+---------10:51----------
+Rossmann group comm and solder that onto
+
+---------10:54----------
+the board and see if it then works
+
+---------11:15----------
+now that pad that went away is a not
+
+---------11:17----------
+connected pad so it doesn't matter if
+
+---------11:19----------
+you take a look on the schematic in the
+
+---------11:20----------
+board view it says unconnected so that
+
+---------11:23----------
+is why that pad goes you may notice that
+
+---------11:25----------
+when you're soldering sometimes there
+
+---------11:27----------
+are pads that go away really really
+
+---------11:29----------
+quickly and those are often the pads
+
+---------11:30----------
+that are not attached to anything so let
+
+---------11:33----------
+me go get myself a chip we're just gonna
+
+---------11:35----------
+make a quick hole quick trip over to
+
+---------11:36----------
+start out Rosslyn Group calm and we'll
+
+---------11:38----------
+be right back
+
+---------11:46----------
+you want your son home keep him home I'm
+
+---------11:50----------
+sure he's not gonna argue with you
+
+---------11:51----------
+they've been reading stuff in the news
+
+---------11:53----------
+thing yeah they shut the screw the
+
+---------11:54----------
+schools down and the kids are so sad
+
+---------11:56----------
+[ __ ]
+
+---------11:57----------
+fake-ass news hey [ __ ] news
+
+---------12:02----------
+yeah that's what kids always used to do
+
+---------12:04----------
+when I was a kid oh no please don't snow
+
+---------12:08----------
+no it's no no I can't go to school I
+
+---------12:11----------
+wanted to write the word 200 times a row
+
+---------12:14----------
+in the book until I memorized it for six
+
+---------12:16----------
+hours eight days someone screams at me
+
+---------12:18----------
+and tells me I can't go to the bathroom
+
+---------12:20----------
+when I have to pee
+
+---------12:21----------
+I'd love to meet you now if you met me
+
+---------12:24----------
+you'd probably be disappointed I'm a
+
+---------12:26----------
+prick but thank you very much for the
+
+---------12:31----------
+sentiment Carrie I appreciate it all
+
+---------12:36----------
+right let's slide of this chip on the
+
+---------12:38----------
+board so we have an ISO nine two three
+
+---------12:40----------
+nine here purchased brand new from store
+
+---------12:43----------
+dot Ross new group calm
+
+---------12:51----------
+it's not getting up to zoom it's work
+
+---------12:52----------
+out well gyms are supposed to be closed
+
+---------12:55----------
+so if you consider that a workout then
+
+---------12:56----------
+I'm gonna have to close and oh my God if
+
+---------13:00----------
+I have to close that customers are going
+
+---------13:03----------
+to Pig just cut my balls off and feed
+
+---------13:06----------
+them to me thank you Carrie thank you
+
+---------13:10----------
+very much
+
+---------13:11----------
+but yeah like I I am gonna have my
+
+---------13:16----------
+they're gonna hand me my balls in a
+
+---------13:17----------
+platter if I'm forced to close the store
+
+---------13:20----------
+or people can't come to work there's
+
+---------13:22----------
+gonna be like 500 customers one starring
+
+---------13:24----------
+screaming it's gonna be something else
+
+---------13:27----------
+so we gotta wait for that to dry so
+
+---------13:29----------
+while we're waiting for that to dry the
+
+---------13:32----------
+thing is I'm not really sure what I
+
+---------13:33----------
+should do while I'm waiting for that to
+
+---------13:34----------
+dry but I think I have an idea of how
+
+---------13:36----------
+I'm gonna spend my time I have a mild
+
+---------13:39----------
+idea of how it isn't gonna spend
+
+---------14:27----------
+all right so we've replaced our chip so
+
+---------14:33----------
+with that 300 mil am [ __ ]
+
+---------14:35----------
+whoo 290 m l am somewhat am bout a being
+
+---------14:38----------
+better boom it's turning on look at that
+
+---------14:40----------
+folks
+
+---------14:41----------
+is that not a fix Mac Booker is that not
+
+---------14:43----------
+a fix MacBook who you call non-essential
+
+---------14:46----------
+service now essential we took P P bus g3
+
+---------14:52----------
+HOD that was 0.5 volts and turned it
+
+---------14:54----------
+back into 13 volts measure this measure
+
+---------14:59----------
+this de Blasio is this not an essential
+
+---------15:01----------
+[ __ ] service look at that look at
+
+---------15:03----------
+that PP bus g3 hot a 12-point 58 volts
+
+---------15:07----------
+who are you calling non-essential no but
+
+---------15:09----------
+seriously
+
+---------15:10----------
+so this board had corrosion on several
+
+---------15:13----------
+areas that were not the chip that was at
+
+---------15:15----------
+the capacitors that actually had liquid
+
+---------15:18----------
+on them are fine whereas the is all nine
+
+---------15:20----------
+239 that was next to it was bad this is
+
+---------15:23----------
+very interesting because we had no short
+
+---------15:25----------
+circuit on PP bus g3 hot but it was
+
+---------15:28----------
+still taking 350 ml amps which is crazy
+
+---------15:31----------
+because if it's taking 350 milliamps
+
+---------15:33----------
+that tends to imply a short circuit and
+
+---------15:35----------
+the only lines that would have taken
+
+---------15:36----------
+that much amperage are the DCN which it
+
+---------15:39----------
+wasn't because it was 20 volts and BBBS
+
+---------15:42----------
+t3 hot which was
+
+---------15:44----------
+0.6 volts with millions of homes to
+
+---------15:48----------
+ground so that's really really strange
+
+---------15:49----------
+but the way that I tried to figure this
+
+---------15:52----------
+out was a what's wrong what's wrong is
+
+---------15:56----------
+that PP brush D 3 hot is missing and B
+
+---------15:58----------
+what's corroded
+
+---------15:59----------
+what's corroded was not the chip that
+
+---------16:01----------
+creates PP brush g3 hot it was literally
+
+---------16:03----------
+what was right next door which was
+
+---------16:08----------
+perfectly fine the caps that were right
+
+---------16:11----------
+next to the chip she'll take a look at
+
+---------16:13----------
+this the caps that were right over here
+
+---------16:15----------
+had liquid on them and these are fine
+
+---------16:18----------
+this chip that had no liquid on it was
+
+---------16:20----------
+dead so pbht 3 hot is missing I have
+
+---------16:22----------
+corrosion here PG much d3 hot is created
+
+---------16:24----------
+by this so it's not a large leaf to go
+
+---------16:26----------
+from here to there and we replace that
+
+---------16:29----------
+chip and then it worked again and one
+
+---------16:31----------
+thing to keep in mind is that if you are
+
+---------16:33----------
+looking for an ISL 9 to 3 9 chip and
+
+---------16:36----------
+you're not quite sure where to get
+
+---------16:38----------
+then look no further than store dot
+
+---------16:41----------
+Rossmann group.com Google is l9 two
+
+---------16:44----------
+three nine and the first results on
+
+---------16:46----------
+Google store dot Rosman group.com still
+
+---------16:52----------
+in stock today at our essential store
+
+---------16:54----------
+providing an essential service essential
+
+---------16:57----------
+and if you take a look for what shows up
+
+---------17:02----------
+for the newer machines if I had a 2019
+
+---------17:07----------
+MacBook Pro with this exact same problem
+
+---------17:09----------
+the customer would be kind of screwed
+
+---------17:11----------
+because if you take a look if you take a
+
+---------17:20----------
+look can't buy it anywhere can't buy it
+
+---------17:28----------
+like literally the only places you can
+
+---------17:30----------
+find that is on i-40 is you could find
+
+---------17:33----------
+threads where people are referring to
+
+---------17:35----------
+videos I've made saying it's not
+
+---------17:36----------
+available that's me like that's it
+
+---------17:39----------
+that's it you could see someone saying
+
+---------17:42----------
+can you make the is all 9404 purchase to
+
+---------17:45----------
+Rena sauce haha
+
+---------17:52----------
+it doesn't exist so what do you do if
+
+---------17:55----------
+you have a newer machine and this
+
+---------17:56----------
+happens I'll tell you I have to buy a
+
+---------18:00----------
+$129 battery charging case from Apple
+
+---------18:04----------
+then I have to take the chip out of it
+
+---------18:07----------
+reball it and put it here then when
+
+---------18:10----------
+that's done I have a useless battery
+
+---------18:14----------
+charging case that was under $29 now I
+
+---------18:17----------
+would never suggest that what people do
+
+---------18:19----------
+to get this is l9 two four zero chip
+
+---------18:22----------
+because Apple has made it a point to
+
+---------18:25----------
+ensure that it's not available anywhere
+
+---------18:26----------
+I would never suggest that they purchase
+
+---------18:29----------
+iPhone 10 are battery charging cases
+
+---------18:31----------
+remove the chip and then return it
+
+---------18:33----------
+saying it's broken because even though
+
+---------18:36----------
+that would teach Apple a lesson that
+
+---------18:37----------
+would be immoral unethical and wrong so
+
+---------18:41----------
+don't do that because someone emailed me
+
+---------18:43----------
+saying Lois the way that you could
+
+---------18:44----------
+probably get around this and I got this
+
+---------18:46----------
+email this morning boys if you buy the
+
+---------18:47----------
+iPhone X are charging case which does
+
+---------18:51----------
+have
+
+---------18:51----------
+the iso 9241 it you could just buy this
+
+---------18:56----------
+case from Apple or Amazon and then just
+
+---------18:58----------
+every time you need one and then return
+
+---------19:00----------
+them saying it doesn't work after you
+
+---------19:02----------
+remove the iso nine two four nine two
+
+---------19:03----------
+four zero that's wrong that's immoral
+
+---------19:06----------
+that's unethical and I'm not going to do
+
+---------19:08----------
+that even though that would teach them a
+
+---------19:11----------
+lesson let's say tens of thousands of
+
+---------19:13----------
+people started doing that I'm hoping
+
+---------19:16----------
+that the lesson can be taught through
+
+---------19:19----------
+culture and through legislature all I
+
+---------19:22----------
+want is to be able to buy that chip
+
+---------19:28----------
+gotta say I have a lot of these battery
+
+---------19:31----------
+cases now these things are seriously
+
+---------19:33----------
+they're piling up in my office it's such
+
+---------19:35----------
+a [ __ ] waste - it really is it's a
+
+---------19:38----------
+serious waste that I this thing over
+
+---------19:40----------
+here every time I need to do this repair
+
+---------19:43----------
+now I need to [ __ ] buy a battery
+
+---------19:44----------
+charging case that has an ISO nine two
+
+---------19:47----------
+four zero inside of it
+
+---------19:48----------
+disassemble that thing take the is all
+
+---------19:50----------
+nine two four zero off of the board
+
+---------19:52----------
+reball it and then put it on here and
+
+---------19:54----------
+then this iPhone 10 our smart battery
+
+---------19:56----------
+case all the electronics inside of it
+
+---------19:58----------
+the PC board the battery all of that
+
+---------19:59----------
+crap is just sitting there going to
+
+---------20:01----------
+waste it's so inefficient just allow
+
+---------20:05----------
+people to buy the chip it's no big deal
+
+---------20:07----------
+we just want to be able to charge our
+
+---------20:08----------
+laptops again and get there because that
+
+---------20:10----------
+is it that anyway that's it for today
+
+---------20:15----------
+and as always I hope you learned
+
+---------20:17----------
+something I will see you all in another
+
+---------20:20----------
+video bye
+

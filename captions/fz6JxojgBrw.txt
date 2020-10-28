@@ -1,0 +1,721 @@
+https://www.youtube.com/watch?v=fz6JxojgBrw
+---------00:00----------
+koogler any oh yeah two gigs already
+
+---------00:04----------
+it's recording raw video because I can't
+
+---------00:06----------
+figure out how to make this program
+
+---------00:07----------
+compress properly so here we have an e
+
+---------00:09----------
+to zero 3437 motherboard from sunny here
+
+---------00:13----------
+and we have to see what's wrong with it
+
+---------00:15----------
+so well what have you measured so far
+
+---------00:17----------
+sunny so what have you noticed so what
+
+---------00:26----------
+what creates the s3's
+
+---------00:32----------
+what signal from the PCH creates the s
+
+---------00:35----------
+thérèse okay which which has three did
+
+---------00:39----------
+you measure that was missing p p3 p4 -
+
+---------00:46----------
+that's not an s3 p p3 v3 something
+
+---------00:54----------
+you're thinking maybe of p p3 v 3s 3p p3
+
+---------01:00----------
+v 3 s 3 maybe that was what you were
+
+---------01:01----------
+thinking about then let's try and find
+
+---------01:03----------
+that that's open board view that
+
+---------01:09----------
+actually works get this I can see what's
+
+---------01:15----------
+there
+
+---------01:17----------
+okay now P P 3 V 3 s 3 what creates this
+
+---------01:28----------
+let's see
+
+---------01:36----------
+P P 3 P 3 s 3 comes from P P 3 B 3 s 5
+
+---------01:40----------
+over here hmm alright so you said P P 3
+
+---------01:44----------
+B 3 as 5 as present yes okay so what's
+
+---------01:49----------
+going to turn this on P 3 V 3 s 3
+
+---------01:51----------
+underscore enable did you check for that
+
+---------01:55----------
+this company you don't have that on your
+
+---------01:58----------
+schematic you should go to your
+
+---------01:59----------
+schematic provider and complain about
+
+---------02:01----------
+that
+
+---------02:01----------
+all right so P P 3 P 3 B 3 s 3 and they
+
+---------02:04----------
+enable comes from p.m. sleep best for L
+
+---------02:06----------
+let's see if we have pm sleep s4l all
+
+---------02:16----------
+right so we have a bunch of different
+
+---------02:17----------
+places here that we can measure pm sleep
+
+---------02:20----------
+s4l all right
+
+---------02:29----------
+PM sleep s4l I'm paying back my debt to
+
+---------02:35----------
+sunny from the iPhone screens and we
+
+---------02:38----------
+have 0 so p.m. sleep best for all comes
+
+---------02:40----------
+from what sunny yeah actually
+
+---------02:48----------
+so what are we charge a day we can
+
+---------02:52----------
+prorated for a two hours yeah so how
+
+---------02:55----------
+about we just leave it even instead of
+
+---------02:56----------
+me owing you 4 iPhone screens you owe me
+
+---------02:58----------
+like 200 bucks yeah that's yeah steven
+
+---------03:13----------
+steve' is the reason my credit score is
+
+---------03:15----------
+what it is okay so p.m. sleeve s for all
+
+---------03:19----------
+comes from the PCH and what tells the
+
+---------03:22----------
+PCH what to do what tells the PCH what
+
+---------03:30----------
+to do
+
+---------03:36----------
+boy okay when you have a PC computer and
+
+---------03:43----------
+you want to overclock it or do something
+
+---------03:44----------
+with it
+
+---------03:44----------
+whoa what what else huh the BIOS tells
+
+---------03:48----------
+all what to do okay so here let's let's
+
+---------03:51----------
+let's see what
+
+---------04:02----------
+what does your BIOS area look like sunny
+
+---------04:12----------
+doesn't look too bad
+
+---------04:18----------
+ and balls all right so let's see
+
+---------04:21----------
+what are those two supposed to measure
+
+---------04:23----------
+here those four so the two on the top of
+
+---------04:26----------
+the ones that are really nasty nice we
+
+---------04:28----------
+have our 6126 and i 6125 so let's go to
+
+---------04:32----------
+our 6126 our six one two six and our six
+
+---------04:39----------
+one two five those are supposed to both
+
+---------04:40----------
+be forty three ohms let's see if we get
+
+---------04:43----------
+forty three ohms
+
+---------04:48----------
+Who am I kidding you're not gonna see
+
+---------04:51----------
+that on the camera anyway so let's see
+
+---------04:53----------
+ooo
+
+---------04:59----------
+forty three arms and forty three arms
+
+---------05:05----------
+imagine that Oh
+
+---------05:35----------
+now look at the chip that's responsible
+
+---------05:37----------
+for P P 3 B 3 s 5 look at that nasty
+
+---------05:40----------
+capacitor and the bottom left and also
+
+---------05:44----------
+look at that little corroded point over
+
+---------05:47----------
+there let's see what that's for p5 vp 3
+
+---------05:58----------
+V 3 V reg 3 that's C 7503 that looks
+
+---------06:03----------
+like so and also above it so this
+
+---------06:11----------
+that resistor P 3 B 3 s 5 en are B's
+
+---------06:16----------
+that's that's PP 3 V 3 is 5 is that
+
+---------06:18----------
+actually here yes Adobe I know your PDF
+
+---------06:23----------
+reader is useless as PDF reader is
+
+---------06:25----------
+available and I don't care alright so
+
+---------06:28----------
+let's see this PP 3 V 3 s 5 actually
+
+---------06:31----------
+here this is starting to be look a
+
+---------06:35----------
+little hard to believe
+
+---------06:48----------
+and it's not there something you lied
+
+---------06:53----------
+sorry you lied you lied look at
+
+---------06:58----------
+the what do you mean it's there mofo hey
+
+---------07:04----------
+that is five is not there what's this
+
+---------07:09----------
+your multimeter measures voltage when
+
+---------07:11----------
+you have the probes in the air
+
+---------07:13----------
+okay mofo zing it's time to erase some
+
+---------07:22----------
+nasty all right
+
+---------07:24----------
+P P 3 P 3 s 5 is needed for the PC H to
+
+---------07:27----------
+send out anything because that all
+
+---------07:28----------
+rubber work some 3.3 volt logic and 3.3
+
+---------07:30----------
+volts is provided by P P 3 P 3 is 5 your
+
+---------07:35----------
+multimeter measures voltage in the air
+
+---------07:36----------
+son okay that stuff looks like I'm
+
+---------07:46----------
+not really gonna bother looking into it
+
+---------07:48----------
+what a lot of that stuff does when I can
+
+---------07:49----------
+just it'll take more brainpower to
+
+---------07:51----------
+figure out what that does then the brain
+
+---------07:53----------
+power required you just simply take it
+
+---------07:54----------
+off I need to conserve my brain
+
+---------08:13----------
+give it another second heat up doner
+
+---------08:22----------
+pile this thing is a monster it's a
+
+---------08:36----------
+monster what
+
+---------08:47----------
+I don't think it is but I don't care I
+
+---------08:51----------
+don't feel like replacing that stuff and
+
+---------08:53----------
+plugging it back in just to realize that
+
+---------08:54----------
+a two-cent component that I didn't
+
+---------08:57----------
+replace is also bet so these two can go
+
+---------09:03----------
+see yeah let's see how this is nasty on
+
+---------09:05----------
+the screen sunny but I'm tweezing if
+
+---------09:09----------
+that exploded what do you think happens
+
+---------09:11----------
+to the chip that that it's going to
+
+---------09:15----------
+probably something nasty all right look
+
+---------09:18----------
+at it go Weller all righty I love father
+
+---------09:23----------
+didn't give me a plunger with this flux
+
+---------09:26----------
+yeah since I've wanted to review it and
+
+---------09:32----------
+I kind of liked it so I didn't return it
+
+---------09:35----------
+there's no need to return it I think
+
+---------09:37----------
+it's really cool and as this this this
+
+---------09:40----------
+is the the awesome tip I don't want to
+
+---------09:42----------
+ruin your shoes sunny they look really
+
+---------09:43----------
+cool okay all right look at this thing
+
+---------09:45----------
+this blade this blade is awesome so
+
+---------09:52----------
+we're just gonna revitalize pads that
+
+---------09:55----------
+look nasty
+
+---------10:02----------
+see we create a little bridge over that
+
+---------10:04----------
+section that's destroyed angry iPhone
+
+---------10:15----------
+customers oh well 2005 it does it have
+
+---------10:33----------
+colors on it
+
+---------10:33----------
+I mean is it though is the iMac that has
+
+---------10:40----------
+the coloring like with the TV looking
+
+---------10:42----------
+
+
+---------10:55----------
+this will scrape away the trace a little
+
+---------10:57----------
+here
+
+---------11:24----------
+let's get the dirt to get sucked up onto
+
+---------11:26----------
+the iron and away from the board
+
+---------11:31----------
+all right
+
+---------11:35----------
+this thing is a monster man
+
+---------11:37----------
+well er WH a 900 monster
+
+---------12:04----------
+well sure foot
+
+---------13:16----------
+I love this little jagged edge tip it's
+
+---------13:18----------
+my new favorite tip if you want to do
+
+---------13:21----------
+point and do something really fine you
+
+---------13:23----------
+can just use the edge of it like this
+
+---------13:24----------
+but then if you want a lot of thermal
+
+---------13:26----------
+meant you know you have some with a lot
+
+---------13:27----------
+of thermal mass and you just want to get
+
+---------13:29----------
+rid of a bridge you can just hold it on
+
+---------13:30----------
+the side so you don't have to keep
+
+---------13:32----------
+changing your tips for the application
+
+---------13:33----------
+that does everything all in one yeah
+
+---------13:39----------
+look I mean it removed the huge bridge
+
+---------13:41----------
+and it's a it's a micro pencil a little
+
+---------13:44----------
+45 watt 48 wide actually tiny little 65
+
+---------13:50----------
+there well look micro pencil is 65 and
+
+---------13:53----------
+then the regular one is 80
+
+---------13:54----------
+this one is 65 for the big iron and 48
+
+---------13:57----------
+for the tiny one but it doesn't matter
+
+---------13:59----------
+it still does like it works this like
+
+---------14:01----------
+here
+
+---------14:08----------
+moving the tiny components with the
+
+---------14:09----------
+larger nozzle is harder it still doesn't
+
+---------14:38----------
+I don't want any of them though those
+
+---------14:40----------
+screens that you got that Tony doesn't
+
+---------14:42----------
+like we Wade you buy those screens that
+
+---------14:46----------
+Tony doesn't like again why doesn't he
+
+---------14:50----------
+like them
+
+---------15:13----------
+that sounds very e-tec of them you know
+
+---------15:19----------
+I hear they took on somebody from e-tec
+
+---------15:21----------
+recently maybe the quality maybe the
+
+---------15:26----------
+quality came over huh oh yeah by other
+
+---------15:30----------
+one broke I had somebody asked
+
+---------15:32----------
+water use that pee that funny though
+
+---------15:33----------
+coat hanger one so I did a video
+
+---------15:35----------
+comparing the microphones and I said the
+
+---------15:36----------
+DPA is the best and I'm always going to
+
+---------15:38----------
+be using this and it literally died
+
+---------15:39----------
+after the video there was some
+
+---------15:54----------
+outsourcing that Bertha that almost
+
+---------15:56----------
+caused sunny store to get broken into
+
+---------16:08----------
+yeah
+
+---------16:12----------
+and now this one over here doesn't look
+
+---------16:13----------
+very nice that has to get covered in
+
+---------16:16----------
+cider aesthetic all right we still
+
+---------16:22----------
+probably have more work to go but at
+
+---------16:25----------
+least let's see if PP 3v3 es5 is back
+
+---------16:28----------
+that would be nice but yeah PP 3 B 3 s 5
+
+---------16:32----------
+of course we do because we have a fan
+
+---------16:35----------
+spin a fan spin Steve what are you
+
+---------16:39----------
+invoicing sunny for this
+
+---------16:41----------
+how many iPhone 6 screens do we take and
+
+---------16:44----------
+like prorate it let's see what does open
+
+---------16:46----------
+broadcaster say for board repair lesson
+
+---------16:48----------
+a 25 minutes of sunny yes sudden death
+
+---------16:59----------
+syndrome sudden death by liquid
+
+---------17:01----------
+that yeah it's crazy how when you spill
+
+---------17:10----------
+liquid on and they just stop working why
+
+---------17:15----------
+doesn't make the chip even on the board
+
+---------17:17----------
+since you're gonna be paying whatever is
+
+---------17:19----------
+ridiculous rate Steve has for you on the
+
+---------17:21----------
+invoice let's make the chip straight
+
+---------17:33----------
+this thing goes really hot
+
+---------17:38----------
+look at how high that goes in here Sonny
+
+---------17:47----------
+you know what me trying to move this
+
+---------17:49----------
+over and make it straighter just gonna
+
+---------17:50----------
+wind up killing it so that's a bad idea
+
+---------17:53----------
+that thing's a beast alright so
+
+---------18:01----------
+what was even wrong I didn't even bother
+
+---------18:02----------
+looking on the schematic to see what was
+
+---------18:03----------
+actually wrong with it let's see
+
+---------18:06----------
+so the caps that were look nasty looking
+
+---------18:09----------
+were what are they for you know how much
+
+---------18:12----------
+time I could have saved if you just told
+
+---------18:13----------
+me PB 3 B 3 X 5 was it there so let's
+
+---------18:16----------
+see C 75 okay so this over here C 7 503
+
+---------18:23----------
+this is for the LDO inside the chip then
+
+---------18:28----------
+that capacitors going between that and
+
+---------18:34----------
+ground hmm that's odd why that should
+
+---------18:39----------
+not be critical well I guess if the hmm
+
+---------18:47----------
+let's look in context here
+
+---------18:53----------
+yeah I'm really not sure why that would
+
+---------18:55----------
+be critical let's see maybe it just
+
+---------19:01----------
+means that chip itself has it had
+
+---------19:03----------
+exploded our so in fine I almost want to
+
+---------19:06----------
+go back in time and unfix it and see but
+
+---------19:08----------
+yeah our seven five five to as five
+
+---------19:11----------
+power enable so that resistor being
+
+---------19:13----------
+burned definitely would have done
+
+---------19:14----------
+something here are seven five five to
+
+---------19:16----------
+via the chip would have been told to
+
+---------19:18----------
+turn on the chip itself is probably bad
+
+---------19:19----------
+so yeah that's that you go to Steve to
+
+---------19:24----------
+pay your invoice
+

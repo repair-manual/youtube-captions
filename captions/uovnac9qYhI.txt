@@ -1,0 +1,955 @@
+https://www.youtube.com/watch?v=uovnac9qYhI
+---------00:00----------
+hi today I'm gonna be going over a board
+
+---------00:01----------
+that had a bad SMC I'm gonna go over how
+
+---------00:03----------
+it is I diagnose that problem and what I
+
+---------00:06----------
+did to fix it and the things that you
+
+---------00:07----------
+should check for so that you don't get
+
+---------00:08----------
+owned when you're trying to replace one
+
+---------00:11----------
+of these chips this is my least favorite
+
+---------00:13----------
+repair to do so again as somebody who
+
+---------00:15----------
+openly admits that I suck at soldering
+
+---------00:17----------
+and that I cannot keep my hands steady
+
+---------00:19----------
+for
+
+---------00:19----------
+yeah lining it shipped with 96 tiny
+
+---------00:22----------
+balls on a board that doesn't have any
+
+---------00:25----------
+markings on it sucks rhe balling a chip
+
+---------00:28----------
+of any kind much less a small one when
+
+---------00:30----------
+your hand does something like yeah like
+
+---------00:35----------
+I can't it stays straight in a steady
+
+---------00:37----------
+but then I'll just surprise me and move
+
+---------00:38----------
+sucks and this is my lease and then you
+
+---------00:40----------
+combine that with the fact that the
+
+---------00:41----------
+boards that I'm taking them off of look
+
+---------00:45----------
+like this does that inspire confidence
+
+---------00:49----------
+or what anyway so let's go over the
+
+---------00:52----------
+ over here so you can see that
+
+---------00:56----------
+I've replaced the SMC on this board
+
+---------00:58----------
+because it's having fake ultrasonic tit
+
+---------01:01----------
+yet it's still covered in in flux that
+
+---------01:04----------
+is my SMC that is my new SMC well not
+
+---------01:07----------
+new Who am I kidding SMC that I stole
+
+---------01:09----------
+off of some other up ass
+
+---------01:11----------
+motherboard right there again one of the
+
+---------01:13----------
+reasons this is my least favorite repair
+
+---------01:14----------
+is how do you know that the motherboard
+
+---------01:17----------
+you're taking the SMC off of isn't bad
+
+---------01:19----------
+you don't know that motherboard may very
+
+---------01:22----------
+well have been thrown away because it
+
+---------01:24----------
+has a bad SMC this is why this business
+
+---------01:27----------
+needs some sort of legitimacy to it this
+
+---------01:30----------
+is why I should be able to program that
+
+---------01:33----------
+if I want to buy a programmer I should
+
+---------01:35----------
+have access to buying those programmed
+
+---------01:37----------
+if I'm willing to pay money but I can't
+
+---------01:39----------
+because Apple doesn't give a if you
+
+---------01:42----------
+can fix any of their products what they
+
+---------01:44----------
+care about is that you can buy new ones
+
+---------01:46----------
+or that you could get bent over in
+
+---------01:48----------
+ in the ass at the Apple Store
+
+---------01:50----------
+paying 750 to 1250 to fix a board that
+
+---------01:53----------
+goes into a $700 computer it doesn't
+
+---------01:58----------
+make sense I digress so we're gonna go
+
+---------02:01----------
+over into the schematic over here I'm
+
+---------02:02----------
+gonna talk about what wasn't working on
+
+---------02:04----------
+this board this is not a real-time
+
+---------02:05----------
+repair I don't do SMC videos in real
+
+---------02:07----------
+time for obvious reasons I did one where
+
+---------02:10----------
+I got to show you exactly how miserable
+
+---------02:11----------
+it wasn't exactly what
+
+---------02:13----------
+all the stupid up ass I did
+
+---------02:15----------
+while I was trying to solder an SMC that
+
+---------02:17----------
+time I am NOT I am not the person to
+
+---------02:20----------
+watch if you're looking for like perfect
+
+---------02:23----------
+micro soldering of small things you buy
+
+---------02:25----------
+again you you could you there's got to
+
+---------02:27----------
+be a toddler out there that is better at
+
+---------02:29----------
+that stuff than I am like again now that
+
+---------02:30----------
+is that is not where I claim to be any
+
+---------02:32----------
+good and that's that's not how I make
+
+---------02:34----------
+money so let's go to the screen capture
+
+---------02:37----------
+here and stop my incessant chattering so
+
+---------02:40----------
+there is a page on the schematic that
+
+---------02:42----------
+shows you every single power rail in the
+
+---------02:44----------
+machine so you find that page and I was
+
+---------02:46----------
+searching through to figure out what
+
+---------02:48----------
+power rails were missing don't you don't
+
+---------02:50----------
+you with me don't use it no I got I
+
+---------02:52----------
+got a dedicated screen for open
+
+---------02:53----------
+broadcaster now so you can't do that
+
+---------02:55----------
+anymore
+
+---------02:55----------
+nice try mofo anyway so you know many
+
+---------02:59----------
+videos got room by that seriously where
+
+---------03:00----------
+like I would the wrong key would get hit
+
+---------03:02----------
+on the keyboard or I would you know
+
+---------03:05----------
+something like that and it would get
+
+---------03:07----------
+changed and I wouldn't notice until it
+
+---------03:08----------
+was done that that was a video I had to
+
+---------03:09----------
+delete but I got an open broadcaster
+
+---------03:11----------
+monitor now so know that no more of that
+
+---------03:13----------
+ so I have all these rails over here
+
+---------03:16----------
+and I'm measuring them on the
+
+---------03:17----------
+motherboard so I'm going over here and I
+
+---------03:20----------
+can tie it into the board view software
+
+---------03:22----------
+I hit n I can type in this and I can
+
+---------03:24----------
+measure everywhere in the motherboard
+
+---------03:25----------
+where a point shows up I just measure
+
+---------03:27----------
+one of them and I see if the voltage is
+
+---------03:28----------
+there and the voltage was not there for
+
+---------03:31----------
+P P 5vs5
+
+---------03:33----------
+now we go to the page for that which is
+
+---------03:36----------
+that is made by you seventy two hundred
+
+---------03:38----------
+now I'm measured for it and I didn't get
+
+---------03:42----------
+anything on P P 5vs5 LDL when I get a
+
+---------03:45----------
+datasheet for this chip so when I go to
+
+---------03:47----------
+TPS five one one two five let's just
+
+---------03:49----------
+open so when I go to a datasheet for
+
+---------03:51----------
+this chip I want to see what is
+
+---------03:53----------
+responsible for creating PP 5vs5
+
+---------03:56----------
+as I always say you shouldn't be
+
+---------03:58----------
+replacing a chip before seeing if that
+
+---------04:00----------
+chip is being told to turn on you should
+
+---------04:02----------
+use your brain a little and try to have
+
+---------04:03----------
+a basic idea how things work before you
+
+---------04:05----------
+go nuts replacing things see how this
+
+---------04:07----------
+thing actually works what turns it on so
+
+---------04:10----------
+I go for a datasheet let me see if I can
+
+---------04:12----------
+find the datasheet here that tells me
+
+---------04:14----------
+what every single pin does so I'm gonna
+
+---------04:16----------
+try to find that on Texas Instruments
+
+---------04:18----------
+website Texas Instruments is very good
+
+---------04:20----------
+with this type of stuff they usually
+
+---------04:21----------
+have this so you can download it and for
+
+---------04:24----------
+some reason either because I haven't had
+
+---------04:25----------
+breakfast yet and it's 5:00
+
+---------04:26----------
+58 p.m. or because I you know they just
+
+---------04:31----------
+removed it I can't find it anywhere
+
+---------04:34----------
+I'm sure it's just because I have nice
+
+---------04:38----------
+try mouthful so I mean it's just 5 Delta
+
+---------04:42----------
+XI PD I just don't have patience I know
+
+---------04:44----------
+it's it's probably like right in front
+
+---------04:46----------
+of me and I'm ignoring it
+
+---------04:47----------
+I was probably right on that page but
+
+---------04:50----------
+I'm hungry and I just wanting gtfo so
+
+---------04:54----------
+let's see they redesign this because I
+
+---------04:56----------
+remember this being easier last time
+
+---------05:01----------
+it's right in front of me isn't it
+
+---------05:15----------
+just give me there we go
+
+---------05:19----------
+ you Texas Instruments his website
+
+---------05:23----------
+okay so let's here we go pin functions
+
+---------05:25----------
+so let's see for turning on the LDO
+
+---------05:30----------
+now my best guess would be to turn on pp
+
+---------05:33----------
+5vs5
+
+---------05:34----------
+looking at the schematic my best guess
+
+---------05:36----------
+is that 5 V 3 V 3 Reagan Abel maybe it
+
+---------05:40----------
+so you have these end trip pins this
+
+---------05:41----------
+this chip creates three power rails it
+
+---------05:43----------
+creates PP 3 B 3 s 5
+
+---------05:47----------
+it creates PP 5 V S 3 and it creates PP
+
+---------05:52----------
+5 vs 5 so this chip is responsible for 3
+
+---------05:55----------
+power rails and you have to end trip
+
+---------05:57----------
+pins to turning them on and then 1
+
+---------05:58----------
+enable pin so P 5 vs 3 I'm guessing
+
+---------06:01----------
+that's for that P 3 V 3 is 5 that's for
+
+---------06:04----------
+that and then 5 V 3 V 3 and I'm guessing
+
+---------06:07----------
+that's for the LDO because that's the pp
+
+---------06:09----------
+5vs5 because that's the only enable left
+
+---------06:11----------
+if I wasn't sure again let's just go
+
+---------06:13----------
+back here and see what it is that pin 13
+
+---------06:15----------
+does opens L do Zahn so it turns on l do
+
+---------06:20----------
+the only pin here that says L do is pp
+
+---------06:23----------
+5vs5
+
+---------06:23----------
+and I can assume that that is what turns
+
+---------06:26----------
+this on so what I do is I measure on the
+
+---------06:29----------
+enable over here and I want to see what
+
+---------06:31----------
+I get on that enable I get so then
+
+---------06:35----------
+I decided to check on our 72 73 on our
+
+---------06:38----------
+72 73
+
+---------06:39----------
+I get the resistor is totally fine the
+
+---------06:45----------
+resistor is the exact impedance that
+
+---------06:47----------
+it's supposed to be so here it says that
+
+---------06:49----------
+that's supposed to be 100 kilo ohms on
+
+---------06:51----------
+that resistor with my multimeter I
+
+---------06:53----------
+measured 100 kilo ohms and it still
+
+---------06:56----------
+wasn't working so I go over here and I
+
+---------06:58----------
+search for where this comes from again
+
+---------07:00----------
+now I know don't replace my chip again
+
+---------07:03----------
+oh that's where I get I talked about
+
+---------07:04----------
+that monkey-see monkey-do where
+
+---------07:06----------
+people are doing exactly what it is they
+
+---------07:08----------
+you know like the internet tells them or
+
+---------07:10----------
+they do exactly what it is they you know
+
+---------07:12----------
+they think they want to do with that
+
+---------07:13----------
+chips not making the power let's replace
+
+---------07:15----------
+it no mofo it's not being told to turn
+
+---------07:17----------
+on so then I check over here and this is
+
+---------07:20----------
+this is a it looks like a bunch of
+
+---------07:22----------
+complicated but just bear with me
+
+---------07:24----------
+so you have in and in and then out and
+
+---------07:27----------
+out
+
+---------07:28----------
+what does logic tell you this does
+
+---------07:29----------
+logic tells me that when you have input
+
+---------07:32----------
+that you get output so the first thing
+
+---------07:34----------
+I'm gonna do here is I'm gonna check is
+
+---------07:35----------
+this thing being told that you know is
+
+---------07:37----------
+this chip turning on so with the VDD pin
+
+---------07:38----------
+do I have voltage that is the power
+
+---------07:41----------
+that's needed for that thing to actually
+
+---------07:42----------
+turn on and that's there then I check
+
+---------07:45----------
+for SMC PMG 2en it's not there and then
+
+---------07:49----------
+my output is not there so this is
+
+---------07:50----------
+missing so I need that for this stuff to
+
+---------07:52----------
+work so I figure out where this is
+
+---------07:54----------
+coming from and where is this signal
+
+---------07:56----------
+coming from but the SMC now do I replace
+
+---------07:59----------
+the SMC yet no the first thing I want to
+
+---------08:02----------
+do before I replace the SMC is is my SMC
+
+---------08:04----------
+turning on so let's go back to the
+
+---------08:06----------
+diagram again is my SMC getting power is
+
+---------08:08----------
+my SMC being told to turn on this is a
+
+---------08:10----------
+this is a common thing a lot of people
+
+---------08:12----------
+will actually replace or reball an SMC
+
+---------08:15----------
+when that should ain't even being told
+
+---------08:16----------
+to turn on so let's get a little bit of
+
+---------08:18----------
+an idea of how this works here so when
+
+---------08:21----------
+you go over here on the power system
+
+---------08:23----------
+architecture which is on page 3 of the
+
+---------08:24----------
+ADC adapter in P PDC ng3 huh
+
+---------08:29----------
+the 3.42 volt power rail the 3.42 will
+
+---------08:32----------
+power up our several things in the
+
+---------08:34----------
+computer one of them being this chip for
+
+---------08:36----------
+SMC reset l sm c / good meaning SMC
+
+---------08:40----------
+power good meaning that if this signal
+
+---------08:42----------
+is not there if this SMC reset L is not
+
+---------08:45----------
+there then you're not going to have an
+
+---------08:47----------
+SMC turning on and you are going to be
+
+---------08:49----------
+ see that over there SMC power
+
+---------08:51----------
+good goes to the SMC so what I want to
+
+---------08:54----------
+do is I want to check that area and see
+
+---------08:56----------
+what's going on first again not only do
+
+---------08:58----------
+I want to do things in order what is the
+
+---------09:00----------
+order of operations what's the order
+
+---------09:02----------
+these things are supposed to happen it's
+
+---------09:03----------
+not just about this voltage rail is
+
+---------09:05----------
+missing it's not just about this power
+
+---------09:06----------
+rail is shorted to ground it's about
+
+---------09:08----------
+what is the order what is the order this
+
+---------09:10----------
+is supposed to occurring there are this
+
+---------09:13----------
+schematic is 86 pages I don't want to go
+
+---------09:15----------
+through 86 pages of and measure
+
+---------09:17----------
+every single little thing I want to know
+
+---------09:18----------
+what's supposed to happen what order
+
+---------09:20----------
+it's supposed to happen so they don't
+
+---------09:21----------
+wind up wasting my time I got a lot of
+
+---------09:23----------
+people joke oh you don't spend 20
+
+---------09:24----------
+minutes on most of your border pairs
+
+---------09:25----------
+sitting next to me I do so this over
+
+---------09:28----------
+here SMC reset l is supposed to be on
+
+---------09:30----------
+and if this is not here the SMC won't
+
+---------09:33----------
+turn on
+
+---------09:34----------
+we check this three volts so now I know
+
+---------09:37----------
+SMC bad so replace SMC and this is the
+
+---------09:41----------
+beautiful
+
+---------09:41----------
+picture over here perfectly clean Apple
+
+---------09:46----------
+would never tell we were there still in
+
+---------09:48----------
+Apple care warranty my boss and it's
+
+---------09:55----------
+good and another thing is so one of the
+
+---------09:59----------
+things you should do if you're smart not
+
+---------10:00----------
+an idiot like me is you should make a
+
+---------10:02----------
+little marking on the boards that you
+
+---------10:03----------
+actually know where this goes so don't
+
+---------10:05----------
+do it by this so they don't cut traces
+
+---------10:07----------
+and be an idiot but what you should do
+
+---------10:08----------
+is you should you could see where
+
+---------10:10----------
+there's no trace you can make a little
+
+---------10:11----------
+mark on the boards that you actually
+
+---------10:13----------
+know where that thing goes again I
+
+---------10:14----------
+always forget to do that and I am very
+
+---------10:17----------
+surprised that by hand I was able to
+
+---------10:19----------
+align that it does shift in a place
+
+---------10:20----------
+don't get a twist and a lot of people
+
+---------10:21----------
+say well it shifts in a place you don't
+
+---------10:23----------
+to worry about how you align with BGA
+
+---------10:24----------
+well what if you have everything off by
+
+---------10:27----------
+one ball
+
+---------10:27----------
+what if you everything off by two balls
+
+---------10:29----------
+I am one of the very very few people in
+
+---------10:31----------
+the world who not only regularly
+
+---------10:35----------
+misaligned BGA in the middle of a
+
+---------10:36----------
+soldering process but with a $7000 BGA
+
+---------10:40----------
+rework machine that has an optical
+
+---------10:42----------
+alignment camera for the solely for the
+
+---------10:45----------
+purpose of aligning that stuff properly
+
+---------10:47----------
+frequently miss aligns the chip I
+
+---------10:49----------
+actually do this by hand believe it or
+
+---------10:51----------
+not I don't yeah I don't do it with that
+
+---------10:52----------
+just because you can do this by hand you
+
+---------10:54----------
+can do this with the hakko you can align
+
+---------10:57----------
+it without that and it doesn't need the
+
+---------10:59----------
+it just doesn't need that level of
+
+---------11:02----------
+sophistication that you get with that
+
+---------11:04----------
+machine that of 4gp you know am i doing
+
+---------11:07----------
+it with this but an SMC yeah I just
+
+---------11:11----------
+treated as I would a big LP 8550 and if
+
+---------11:13----------
+you're unfamiliar or unsure as to how
+
+---------11:15----------
+you should go about soldering that chip
+
+---------11:17----------
+you can watch my video and once you've
+
+---------11:19----------
+watched my video on how to solder an SMC
+
+---------11:21----------
+you'll know exactly how you shouldn't
+
+---------11:23----------
+you shouldn't solder an SMC you'll learn
+
+---------11:25----------
+a lot from that video on just just you
+
+---------11:28----------
+know again just how much doubt you
+
+---------11:30----------
+should have that anything that I'm
+
+---------11:31----------
+telling you to do is actually right
+
+---------11:33----------
+because again like watch watch me solder
+
+---------11:35----------
+and SMC you laugh but that's that and oh
+
+---------11:38----------
+I almost forgot I'm supposed to show you
+
+---------11:39----------
+that the thing works because if I don't
+
+---------11:41----------
+show you that it works it means that I
+
+---------11:42----------
+am full of so again now I want I'm
+
+---------11:46----------
+gonna rush to get myself food so you are
+
+---------11:49----------
+pretty much going to see the fan spin if
+
+---------11:51----------
+I get a fan where to my fan
+
+---------11:54----------
+hello oh I left it in here because I'm
+
+---------12:00----------
+hungry oh boy second I hit stop record I
+
+---------12:04----------
+can run out and get food I am so excited
+
+---------12:07----------
+are you excited for me so again if I
+
+---------12:10----------
+don't have five volts this wouldn't turn
+
+---------12:12----------
+on but isn't that the most beautiful
+
+---------12:19----------
+thing you've ever seen and that's that
+
+---------12:23----------
+and I hope you learn something
+

@@ -1,0 +1,466 @@
+https://www.youtube.com/watch?v=Cm3NRE3KKsU
+---------00:00----------
+if you look over here this is my screen
+
+---------00:01----------
+this is my stream deck right this is
+
+---------00:04----------
+open broadcaster over here so you have
+
+---------00:06----------
+open broadcaster and you have my stream
+
+---------00:08----------
+deck now watch what happens when you
+
+---------00:09----------
+click on start recording please launch
+
+---------00:11----------
+OBS studio but OBS studio is right here
+
+---------00:16----------
+it's it's right here it's right here oh
+
+---------00:20----------
+god oh it's right here but it says
+
+---------00:23----------
+please launch OBS studio but OBS Studios
+
+---------00:26----------
+right here I've tried reinstalling OBS
+
+---------00:28----------
+I've tried reinstalling stream deck and
+
+---------00:30----------
+it's all doesn't work
+
+---------00:39----------
+here we have another dead macbook let's
+
+---------00:42----------
+figure out what's wrong with this
+
+---------00:43----------
+MacBook and see if it can be fixed so
+
+---------00:45----------
+now remember the first thing that I like
+
+---------00:47----------
+to do when working on these devices is
+
+---------00:49----------
+unplug the battery I want to know how
+
+---------00:52----------
+much amperage of the board is using
+
+---------00:54----------
+without the battery the battery is going
+
+---------00:55----------
+to use a different amount of amperage
+
+---------00:57----------
+depending on whether or not it is fully
+
+---------01:00----------
+charged half charged or completely
+
+---------01:02----------
+discharged I want to know exactly how
+
+---------01:04----------
+much amperage the board is using because
+
+---------01:05----------
+associating different problems with
+
+---------01:08----------
+different amperage draws means that as
+
+---------01:10----------
+soon as I plug this in if it's taking
+
+---------01:12----------
+200 milliamps that's one for a set of
+
+---------01:14----------
+problems if it's taking 100 milliamps
+
+---------01:16----------
+that's another set of problems if it's
+
+---------01:17----------
+taking 20 milliamps then we put it on
+
+---------01:19----------
+Paul's desk but you get the idea
+
+---------01:20----------
+different every time I solve a board I
+
+---------01:22----------
+try to figure out how much amperage it
+
+---------01:25----------
+was taking in the beginning by just
+
+---------01:26----------
+writing it down and then I associate
+
+---------01:28----------
+that with the problem and then it's a
+
+---------01:29----------
+shortcut so you know every time I have
+
+---------01:31----------
+this I know it's that now this thing is
+
+---------01:33----------
+taking zero amps zero is an interesting
+
+---------01:36----------
+number that is most likely indicative of
+
+---------01:38----------
+some sort of short-circuit so let's see
+
+---------01:42----------
+what's going on here we're gonna unplug
+
+---------01:43----------
+the board unplug the battery unplug
+
+---------01:45----------
+everything from it and see what's wrong
+
+---------01:47----------
+with our little touch bar Mac so if we
+
+---------01:50----------
+look over here you'll see that we have
+
+---------01:51----------
+pp bus g3 hot as my first rail so let's
+
+---------01:55----------
+measure that rail and see if it's
+
+---------01:56----------
+present on this MacBook so we're gonna
+
+---------01:58----------
+check out the pp bus and PP bus seems to
+
+---------02:04----------
+be zero volts so now the next thing I'm
+
+---------02:06----------
+gonna do is I'm gonna see if there's a
+
+---------02:07----------
+short to ground on PP bus I'm gonna
+
+---------02:09----------
+unplug power from my charger and then at
+
+---------02:14----------
+some point when my hand
+
+---------02:15----------
+I mean decides to listen to my nervous
+
+---------02:18----------
+system or the other way around I will
+
+---------02:21----------
+see if we have a short to ground and it
+
+---------02:23----------
+looks like we do we have 1.9 ohms to
+
+---------02:25----------
+ground on our pp bus so now we're gonna
+
+---------02:28----------
+take a look over the board and see if
+
+---------02:29----------
+there's anything that looks like it
+
+---------02:30----------
+could be wrong with our pp bus also
+
+---------02:32----------
+thank you very much to people like Paul
+
+---------02:34----------
+Daniels for making multimeter software
+
+---------02:35----------
+available that allows you to see what's
+
+---------02:37----------
+on my multimeter on the screen without
+
+---------02:40----------
+me having to read it to you a big thank
+
+---------02:42----------
+you to Paul Daniels head over to PL
+
+---------02:44----------
+Daniel's comm to check out his free
+
+---------02:46----------
+software his repair services or had a
+
+---------02:48----------
+donate link if you
+
+---------02:49----------
+appreciate the fact that he's made
+
+---------02:50----------
+software like this shake that out is
+
+---------02:53----------
+that not and beautiful I mean focus so
+
+---------02:57----------
+let's take a look around this board this
+
+---------03:00----------
+board has a very small amount of pubes
+
+---------03:03----------
+on it I'm very impressed by that I would
+
+---------03:06----------
+typically expect far more pubes on a
+
+---------03:08----------
+board than what I oh oh oh dear what is
+
+---------03:16----------
+that and it looks like this is right by
+
+---------03:18----------
+a CPU MOSFET the CPU MOSFET that's the
+
+---------03:21----------
+thing that powers the CPU you know the
+
+---------03:24----------
+thing that requires a zell model replace
+
+---------03:25----------
+the tool that paul loves the zelma all
+
+---------03:29----------
+right let's get to it
+
+---------03:31----------
+let's see if that's what's kosher short
+
+---------03:32----------
+to ground but I want to look around the
+
+---------03:34----------
+board a little bit more before I just
+
+---------03:35----------
+determine that that's the cause of the
+
+---------03:37----------
+problem
+
+---------03:53----------
+okay well know what that's for
+
+---------03:57----------
+so I know the other thing is around CPU
+
+---------03:59----------
+area what does this do
+
+---------04:02----------
+Pedro don't need a dollar through super
+
+---------04:04----------
+chat thank you very much I highly
+
+---------04:06----------
+appreciate that I really do that's very
+
+---------04:08----------
+kind and polite of you and it makes me
+
+---------04:10----------
+feel less stupid about putting money
+
+---------04:12----------
+into the nicer microphone setup and
+
+---------04:14----------
+stuff here thank you very much
+
+---------04:16----------
+okay it looks like that capacitor c74 to
+
+---------04:20----------
+one is on a buck converter for cpu V
+
+---------04:24----------
+Corps and that died and in addition to
+
+---------04:28----------
+that we also have a CPU v core MOSFET
+
+---------04:30----------
+that looks like a byte has been taken
+
+---------04:32----------
+out of it so let's see what do you all
+
+---------04:35----------
+think do you think this is just going to
+
+---------04:37----------
+work again if I replace that MOSFET and
+
+---------04:38----------
+replace the capacitor or do you think
+
+---------04:41----------
+that this is gonna require an L to live
+
+---------04:42----------
+stream replacing a CPU tomorrow after we
+
+---------04:45----------
+livestream him taking the zamo carrying
+
+---------04:47----------
+it on his shoulder up the stairs from
+
+---------04:50----------
+the basement filled with rats and rat
+
+---------04:52----------
+piss and garbage directly to this desk
+
+---------04:55----------
+one way to find out
+
+---------05:35----------
+okay so let's see what my resistance is
+
+---------05:38----------
+the ground and if this thing has the
+
+---------05:39----------
+ability to work takes away my reason to
+
+---------05:42----------
+live okay so it looks like our
+
+---------05:45----------
+short-circuit is actually gone now that
+
+---------05:47----------
+we've taken off that capacitor
+
+---------06:36----------
+now we're gonna see if we get an image
+
+---------06:37----------
+and you know that I'm a little a little
+
+---------06:43----------
+skeptical of that you have the CPU
+
+---------06:46----------
+mosfet given what it looks like
+
+---------06:48----------
+and I usually wouldn't want it to give
+
+---------06:50----------
+something like that back to a customer
+
+---------06:51----------
+however I'm thinking you know this is
+
+---------06:53----------
+saying that you should probably copy the
+
+---------06:56----------
+tactics of the people who are beating
+
+---------06:58----------
+you an Apple is clearly winning so if
+
+---------07:01----------
+Apple were to give something back to
+
+---------07:02----------
+somebody that where it wasn't in you
+
+---------07:04----------
+know perfect condition and it would have
+
+---------07:06----------
+failed they'd probably say something
+
+---------07:08----------
+like I'm sorry that you had this problem
+
+---------07:10----------
+that affected such a small number of
+
+---------07:12----------
+users so I think what I'm gonna do if
+
+---------07:14----------
+this fails again I'm just gonna tell I'm
+
+---------07:17----------
+sorry your logic board repair that only
+
+---------07:18----------
+bells for a few number of our customers
+
+---------07:20----------
+has had an issue but just just for lulz
+
+---------07:22----------
+I want to see if that destroyed CPU
+
+---------07:24----------
+MOSFET looking thing actually works a
+
+---------07:26----------
+small number holy [ __ ] are you booting
+
+---------07:47----------
+into something are you taking 400
+
+---------07:49----------
+milliamps right now wow they booted with
+
+---------07:54----------
+that CPU MOSFET it booted that's pretty
+
+---------07:57----------
+interesting that's it for today and as
+
+---------07:59----------
+always I hope you learned something
+

@@ -1,0 +1,790 @@
+https://www.youtube.com/watch?v=geGmC1xI4zo
+---------00:00----------
+all right so today we're going to be
+
+---------00:01----------
+working on an interesting new experiment
+
+---------00:02----------
+so there's a common problem with the
+
+---------00:05----------
+2013 through 16 MacBook Air with water
+
+---------00:08----------
+damage where the there's a line to the
+
+---------00:10----------
+CPU that gets killed okay so what
+
+---------00:13----------
+happens when this line to the CPU gets
+
+---------00:15----------
+destroyed is you'll see something like
+
+---------00:16----------
+this it'll say Bluetooth keyboard set up
+
+---------00:18----------
+there isn't a keyboard connected as
+
+---------00:21----------
+you'll see I can't move the mouse around
+
+---------00:24----------
+and the caps lock key on the keyboard
+
+---------00:26----------
+here doesn't work at all
+
+---------00:28----------
+so the caps lock key is not turning
+
+---------00:30----------
+green however if I turn it off and then
+
+---------00:33----------
+I hold down the option key I can use the
+
+---------00:35----------
+mouse the mouse will move around
+
+---------00:38----------
+I can click I can choose a Wi-Fi network
+
+---------00:44----------
+and I can even type and it backspace so
+
+---------00:48----------
+the keyboard in the trackpad that are
+
+---------00:49----------
+not working in the operating system work
+
+---------00:51----------
+fine when I'm here in EFI mode and the
+
+---------00:54----------
+reason for this is that the machine is
+
+---------00:55----------
+going to use a different data line with
+
+---------00:57----------
+the CPU when it's an EFI murder versus
+
+---------01:00----------
+when it's in the operating system
+
+---------01:01----------
+so there's STI data line where the track
+
+---------01:04----------
+pet sends the keyboard in the trackpad
+
+---------01:06----------
+signal to the CPU as an SPI data line
+
+---------01:09----------
+and that's for when it's in the
+
+---------01:10----------
+operating system when you're in efi mode
+
+---------01:12----------
+it sends the trackpad and keyboard
+
+---------01:14----------
+signal MUX to the CPU as a USB data
+
+---------01:17----------
+signal why does Apple use a USB data
+
+---------01:19----------
+line when you're in EFI mode and an SPI
+
+---------01:22----------
+data line when you're in the operating
+
+---------01:23----------
+system if I know but it does and
+
+---------01:28----------
+it's just it's another it's just another
+
+---------01:31----------
+thing that can die
+
+---------01:33----------
+so here the SPI data line for the
+
+---------01:36----------
+trackpad to the CPU is is screwed so
+
+---------01:40----------
+that doesn't work so we're going to try
+
+---------01:41----------
+to do here is we're going to try to
+
+---------01:43----------
+convert this on my trackpad connector
+
+---------01:45----------
+I'm getting my three volts at pin 10 a
+
+---------01:48----------
+very common causes if you don't have
+
+---------01:49----------
+three volts at 1010 you won't get
+
+---------01:51----------
+trackpad and keyboard working but here I
+
+---------01:53----------
+do and another common cause is let's say
+
+---------01:57----------
+SMC lid is is stuck down or anything
+
+---------02:01----------
+like that so the first thing we have to
+
+---------02:03----------
+do is figure out how it is we make this
+
+---------02:05----------
+thing stuck in USB mode all the time and
+
+---------02:08----------
+then we are going to after putting it in
+
+---------02:11----------
+USB mode I'm going to see if it works
+
+---------02:13----------
+with this bi-directional data line to
+
+---------02:15----------
+the CPU and if that doesn't work we're
+
+---------02:17----------
+going to tie it to another data line
+
+---------02:19----------
+that's available so USB so the first
+
+---------02:21----------
+thing we have to do is see how we get
+
+---------02:22----------
+this thing out of SPI mode even when
+
+---------02:24----------
+we're in the operating system so let's
+
+---------02:26----------
+take a look at how that works so here we
+
+---------02:27----------
+have trackpad USB if enable connected
+
+---------02:30----------
+which seems obvious enough to me and now
+
+---------02:33----------
+we have trackpad SPI if enable connected
+
+---------02:35----------
+so what I want to do is I want to get
+
+---------02:38----------
+rid of trackpad SPI FN con and keep
+
+---------02:40----------
+trackpad USB FN con this logic gate
+
+---------02:43----------
+trackpad USB if n Khan is present which
+
+---------02:47----------
+is present when trackpad USB if enabled
+
+---------02:49----------
+is present in p.m. sleep as for Ella's
+
+---------02:50----------
+present meaning if we're in an s4 state
+
+---------02:52----------
+and trackpad USB if enable from the PCH
+
+---------02:55----------
+is coming through then we will get this
+
+---------02:57----------
+on
+
+---------02:57----------
+now obviously I'm always going to want
+
+---------02:59----------
+this here even when we're in the
+
+---------03:00----------
+operating system and one thing to keep
+
+---------03:01----------
+in mind is the PCH may not send this
+
+---------03:03----------
+signal when we boot into the operating
+
+---------03:05----------
+system so I'm going to force it there
+
+---------03:06----------
+all the time
+
+---------03:06----------
+the next thing to consider over here is
+
+---------03:09----------
+trackpad spi if enable that's most
+
+---------03:11----------
+likely going to allow this signal to
+
+---------03:14----------
+come through if we are in an operating
+
+---------03:16----------
+system so I want to get rid of this
+
+---------03:18----------
+signal this is actually really an easy
+
+---------03:23----------
+thing to do I'm just going to take you
+
+---------03:27----------
+this
+
+---------03:50----------
+so now USB is always going to be high
+
+---------03:53----------
+and the USB line well let's let's see it
+
+---------03:56----------
+for the work in the operating system
+
+---------03:57----------
+let's see if us so I think now it's
+
+---------03:59----------
+going to be more question of whether a
+
+---------04:01----------
+did Apple implement drivers in the
+
+---------04:03----------
+operating system for the trackpad and
+
+---------04:05----------
+the keyboard toward via USB in addition
+
+---------04:07----------
+to SPI my second question is is this
+
+---------04:10----------
+standard so you know how when you plug
+
+---------04:12----------
+in a keyboard or a mouse it's standard
+
+---------04:14----------
+it typically doesn't need any special
+
+---------04:15----------
+drivers so is the trackpad and the
+
+---------04:18----------
+keyboard in this laptop standard to the
+
+---------04:20----------
+point where I don't need special drivers
+
+---------04:22----------
+in the operating system to which yeah
+
+---------04:26----------
+I'm not getting paid for this repair so
+
+---------04:28----------
+I'm probably not getting paid to this
+
+---------04:30----------
+but let's see one way to find out right
+
+---------04:33----------
+so let's let's plug this in so now what
+
+---------04:37----------
+we've done is we've pretty much forced
+
+---------04:38----------
+USB to be on and we're going to boot
+
+---------04:41----------
+into the operating system and see what
+
+---------04:43----------
+shows up caps log doesn't work trackpad
+
+---------04:46----------
+doesn't work it doesn't see a keyboard
+
+---------04:47----------
+now just for the hell of it I want to
+
+---------04:49----------
+see if it still works in the fi mode it
+
+---------04:51----------
+looks like I do have trackpad and
+
+---------04:52----------
+keyboard in efi mode so the only
+
+---------04:54----------
+difference between the operating system
+
+---------04:56----------
+and efi mode as far as the system is
+
+---------04:57----------
+concerned is that it doesn't have
+
+---------04:58----------
+drivers for the keyboard in the trackpad
+
+---------05:00----------
+once you've entered the operating system
+
+---------05:02----------
+that that is that is
+
+---------05:09----------
+ the operating system doesn't
+
+---------05:12----------
+have USB drivers for the trackpad inside
+
+---------05:16----------
+the OS you know what would really be
+
+---------05:18----------
+funny if a Linux disc it you know how
+
+---------05:27----------
+funny it would be if a Linux disc
+
+---------05:28----------
+actually allow the internal trackpad and
+
+---------05:30----------
+keyboard to work in the operating system
+
+---------05:32----------
+and OS 10 didn't I'm kind of curious let
+
+---------05:34----------
+me see if I have a bootable Linux USB
+
+---------05:36----------
+here it's actually difficult to plug in
+
+---------05:37----------
+the USB when this is not in the case
+
+---------05:39----------
+it's rather challenging so we're going
+
+---------05:42----------
+to choose EFI boot directly start
+
+---------05:47----------
+graphical environment ok this is system
+
+---------05:49----------
+rescue CD so it's not exactly a great
+
+---------05:51----------
+distribution for the for this type of
+
+---------05:53----------
+test it's not like it's going to come
+
+---------05:55----------
+with a bunch of software the best GUI
+
+---------05:58----------
+but this this should be fine just for
+
+---------06:00----------
+testing purposes
+
+---------06:01----------
+so what okay we're going to be selling
+
+---------06:07----------
+this customer on a conversion to Linux
+
+---------06:10----------
+this person's gonna let's see what are
+
+---------06:13----------
+we good yeah it's asking me for the load
+
+---------06:17----------
+key map oho loading a key map and the
+
+---------06:23----------
+enter key is working oh my god oh my god
+
+---------06:26----------
+tell me this works in Linux and not
+
+---------06:28----------
+Windows what the
+
+---------06:30----------
+Oh OS 10 does not have drivers for the
+
+---------06:33----------
+ trackpad that Linux does look at
+
+---------06:35----------
+this okay we're booted into system
+
+---------06:37----------
+rescue CD I'm booted into system rescue
+
+---------06:40----------
+CD you're going to zoom in we just can I
+
+---------06:44----------
+lower the screen brightness do you have
+
+---------06:45----------
+drivers are hooli kidding there's no
+
+---------06:47----------
+drivers for this is Linux
+
+---------06:48----------
+so let's see brightness key and we don't
+
+---------06:53----------
+have that so I have to lower these
+
+---------06:55----------
+seriously I have to lower the ISO on the
+
+---------06:57----------
+camera for you to see this all right let
+
+---------06:59----------
+me I'm going to lower the ISO on the
+
+---------07:00----------
+camera so that you can see this on the
+
+---------07:02----------
+screen let's see will that do it alright
+
+---------07:10----------
+so hopefully now you can track my cursor
+
+---------07:12----------
+which is over here and it's going to
+
+---------07:16----------
+move in a little circle you see my
+
+---------07:20----------
+cursor moving now this is me typing
+
+---------07:23----------
+that you know me let me just move this
+
+---------07:25----------
+over here so I'm going to type on this
+
+---------07:29----------
+ Apple drivers who says they are
+
+---------07:39----------
+best at integrating their hardware with
+
+---------07:45----------
+their software so so my proof of concept
+
+---------07:52----------
+here is confirmed this multi-touch work
+
+---------07:54----------
+dude I'm a music it's it's system rescue
+
+---------07:58----------
+CD what do you mean multi-touch what do
+
+---------08:00----------
+you add of your mind it's molded I mean
+
+---------08:03----------
+I could use I could use Ubuntu I should
+
+---------08:05----------
+I could make an Ubuntu disk to figure
+
+---------08:08----------
+this out but yeah so there's this whole
+
+---------08:10----------
+idea this is concept that Apple hardware
+
+---------08:12----------
+is just it's blends so well
+
+---------08:15----------
+with the software there's this synergy
+
+---------08:17----------
+this integration and when you get a drop
+
+---------08:21----------
+of something on the SPI data line it
+
+---------08:23----------
+dies
+
+---------08:24----------
+but wait Apple has a USB data line to
+
+---------08:27----------
+the CPU just in case your SPI data line
+
+---------08:30----------
+dies that only works if you don't use an
+
+---------08:32----------
+Apple operating system the is wrong
+
+---------08:36----------
+with you people oh my god
+
+---------08:40----------
+the day existent rescue CD has a driver
+
+---------08:44----------
+for the keyboard and the trackpad that
+
+---------08:47----------
+OS 10 does not like I mean really
+
+---------08:51----------
+seriously like is this the level that
+
+---------08:54----------
+we're at where you're not we we this is
+
+---------08:56----------
+not built into the operating system if
+
+---------08:58----------
+anybody watching this would like to
+
+---------09:00----------
+program me a driver for the MacBook Air
+
+---------09:02----------
+trackpad to work over USB and OS 10
+
+---------09:06----------
+highly appreciated hey you know wouldn't
+
+---------09:09----------
+argue with you there so that's it for
+
+---------09:11----------
+today and as always I hope that you
+
+---------09:13----------
+learned something now time for an
+
+---------09:15----------
+advertisement this is our website here
+
+---------09:17----------
+mail in dot repair you will be able to
+
+---------09:19----------
+find on most of the different cleaners
+
+---------09:22----------
+stencils connectors ICS and small chips
+
+---------09:25----------
+that we use throughout these repairs on
+
+---------09:27----------
+this website so here you'll find the
+
+---------09:29----------
+ultrasonic cleaner that we use at the
+
+---------09:31----------
+store that's fixed many other boards
+
+---------09:33----------
+that I was unable to fix in the video
+
+---------09:34----------
+this here is shipped straight from the
+
+---------09:36----------
+store here you'll see a bunch of LCD
+
+---------09:38----------
+connectors we've got keyboard connectors
+
+---------09:41----------
+we've got digitizer connectors and
+
+---------09:42----------
+they're all organized here so if you go
+
+---------09:44----------
+connectors by type or you can search by
+
+---------09:47----------
+your device if we go here components by
+
+---------09:49----------
+device iPhone iPhone 6's it'll bring you
+
+---------09:52----------
+to a screen where you'll find a bunch of
+
+---------09:54----------
+different parts for your iPhone the same
+
+---------09:57----------
+is true for stencils we've got stencils
+
+---------09:59----------
+over here like the SMC stencil that it's
+
+---------10:00----------
+typically hard to buy directly in
+
+---------10:02----------
+America you have to wait a long time to
+
+---------10:04----------
+get that from China here we've got the
+
+---------10:06----------
+some different parts like the LPP 3v4 to
+
+---------10:10----------
+regulator over here so this is a TP 3v4
+
+---------10:13----------
+to regulator you can actually search by
+
+---------10:15----------
+the number on the schematic and if there
+
+---------10:17----------
+are different ships with that same
+
+---------10:19----------
+number it'll bring up all the different
+
+---------10:20----------
+ships you can scroll down and figure out
+
+---------10:22----------
+which one is for your motherboard
+
+---------10:24----------
+because over here it'll say compatible
+
+---------10:26----------
+boards and it will list all the boards
+
+---------10:28----------
+the chip is compiled
+
+---------10:29----------
+if you don't want to deal with that you
+
+---------10:30----------
+can even just search by your motherboard
+
+---------10:32----------
+so if I search over here for a t20 3462
+
+---------10:35----------
+it will only show me chips that are
+
+---------10:37----------
+compatible with my model motherboard and
+
+---------10:40----------
+this was all put together with
+
+---------10:43----------
+high-resolution pictures that you can
+
+---------10:45----------
+compare it to your chip to make sure
+
+---------10:47----------
+that you buy the right one and if you
+
+---------10:48----------
+ever have a question feel free to email
+
+---------10:50----------
+feel free to comment feel free the live
+
+---------10:52----------
+chat so thank you very much for watching
+
+---------10:54----------
+the video thank you very much for your
+
+---------10:55----------
+patronage if you use their website we've
+
+---------10:57----------
+also got flux here if you want flux
+
+---------11:00----------
+we've got solder paste over here if you
+
+---------11:03----------
+want solder paste and we've even got
+
+---------11:05----------
+mouse pads with pictures of my
+
+---------11:09----------
+of a cat
+

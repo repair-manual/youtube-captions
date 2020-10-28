@@ -1,0 +1,496 @@
+https://www.youtube.com/watch?v=gRV0cmIj5Ks
+---------00:00----------
+so here we have a little MacBook we're
+
+---------00:02----------
+gonna put our 18 volt charger here turn
+
+---------00:06----------
+it on unplug the battery and see how
+
+---------00:09----------
+many amps are drawn and it appears to be
+
+---------00:11----------
+drawing 0.02 amps 0.02 amps is
+
+---------00:15----------
+indicative of a p.m. sleep s4l failure
+
+---------00:17----------
+absolutely we're gonna fix p.m. sleep
+
+---------00:19----------
+s4l and we're gonna do a live on stream
+
+---------00:21----------
+or I all Paul another bike so but if I
+
+---------00:28----------
+fix it
+
+---------00:29----------
+then Paul owes me what 40,000 shares of
+
+---------00:32----------
+a gr extra worth just a few months ago
+
+---------00:33----------
+so so we're going to open all this up
+
+---------00:38----------
+and get this p.m. sleep s4l it'll work
+
+---------00:41----------
+again and it's still drawing 0.01 9 amps
+
+---------00:43----------
+that's no good so we're gonna go down
+
+---------00:46----------
+our list of power rails and see which
+
+---------00:48----------
+ones are not present and which ones are
+
+---------00:50----------
+present so now we've got a green light
+
+---------00:51----------
+so our pp 3 before 2 is gonna be present
+
+---------00:53----------
+next up we're gonna check our pp bus 8
+
+---------00:57----------
+volts on one side
+
+---------01:05----------
+and zero volts on the other could this
+
+---------01:07----------
+just be a bad pee pee bus g3 hot fuse
+
+---------01:11----------
+Wow okay eight point six volts on one
+
+---------01:13----------
+side of the PP bus g3 hot fuse zero on
+
+---------01:16----------
+the other there's a chance that this
+
+---------01:17----------
+butter board may be nothing other than a
+
+---------01:19----------
+bad fuse our fuse is indeed blown now
+
+---------01:27----------
+let's see if there's a short to ground
+
+---------01:28----------
+on the other side of the fuse and there
+
+---------01:30----------
+is okay so our pp bus is short it's a
+
+---------01:33----------
+ground and when I say pp bus let me show
+
+---------01:35----------
+you what I mean when I buy pp bus if you
+
+---------01:37----------
+look over here the first power rail is
+
+---------01:39----------
+our pp bus which needs to be g3 hot
+
+---------01:43----------
+g3 hot means always on at all times
+
+---------01:46----------
+so it's a g3 hot rail it should always
+
+---------01:48----------
+be on and that rare that g3 hot rail is
+
+---------01:51----------
+called pp bus the chip that creates pp
+
+---------01:54----------
+vestry 3 hot it's gonna be you 7100 hue
+
+---------01:58----------
+70 100 is going to take voltage from the
+
+---------01:59----------
+charger up here from adapter and make it
+
+---------02:03----------
+into eight point five volts for the
+
+---------02:05----------
+system this here is the fuse between the
+
+---------02:08----------
+side that creates pp bus g3 hot and the
+
+---------02:10----------
+system and on one side of the fuse we
+
+---------02:13----------
+get 8.6 and on the other zero and the
+
+---------02:15----------
+reason is because the fuse as you can
+
+---------02:17----------
+see when we put it into resistance
+
+---------02:18----------
+measurement has blown open line and the
+
+---------02:22----------
+reason it's blown is because there's a
+
+---------02:23----------
+short circuit on one side of the fuse so
+
+---------02:25----------
+now we have to inject voltage and figure
+
+---------02:27----------
+out what it is that's getting hot on
+
+---------02:28----------
+this board what is causing our short to
+
+---------02:30----------
+ground now very often on these MacBook
+
+---------02:32----------
+Airs
+
+---------02:32----------
+what's causing the short to ground is a
+
+---------02:34----------
+capacitor by the CPU v core circuit so
+
+---------02:38----------
+I'm gonna look in this area and see if
+
+---------02:39----------
+any of these caps look suspect
+
+---------02:47----------
+and as you can see there are capacitors
+
+---------02:50----------
+here that have little solder balls next
+
+---------02:52----------
+to them that's that that's just typical
+
+---------02:54----------
+great Apple manufacturing quality so
+
+---------02:57----------
+look at that that cap has a solder ball
+
+---------03:00----------
+next to it this cap also has a solder
+
+---------03:03----------
+ball next to it and as Paul has noticed
+
+---------03:05----------
+in some of these boards many of them
+
+---------03:07----------
+have dat little solder balls just
+
+---------03:08----------
+running around even if one cap was bad
+
+---------03:10----------
+that wouldn't explain why numerous of
+
+---------03:12----------
+them have solder balls running around
+
+---------03:14----------
+but go Apple create quality control
+
+---------03:17----------
+manufacture different think different if
+
+---------03:20----------
+Paul's using the federal count I will
+
+---------03:21----------
+use the alcohol method and the alcohol
+
+---------03:23----------
+method will find the short just fine
+
+---------03:25----------
+just you wait I'm gonna lower the
+
+---------03:27----------
+voltage and the power supply down a 1
+
+---------03:30----------
+volt so one end is gonna have to go to
+
+---------03:34----------
+ground
+
+---------03:46----------
+and the other end is going to go to our
+
+---------03:48----------
+pp bus
+
+---------04:51----------
+off on
+
+---------04:59----------
+hmm
+
+---------05:25----------
+can I see thermal cam
+
+---------05:33----------
+Wow how did I miss this
+
+---------05:36----------
+[Music]
+
+---------05:40----------
+I'm not doing this because the Union
+
+---------05:42----------
+repair paid me I promise
+
+---------05:43----------
+I've on Union repairing of the
+
+---------05:45----------
+thermal camera enough times yeah so I
+
+---------05:48----------
+spend ten minutes with alcohol and now I
+
+---------05:52----------
+just found it in a minute with this it
+
+---------05:56----------
+works every other time I think my
+
+---------05:58----------
+alcohol chops have gotten bad because I
+
+---------06:00----------
+haven't you have been getting lazy and
+
+---------06:01----------
+using this thermal camera okay so the
+
+---------06:04----------
+thermal camera found this short that I
+
+---------06:05----------
+couldn't happy props where props is due
+
+---------06:09----------
+yeah go Union repair I didn't get paid
+
+---------06:14----------
+for that I mean I got the thermal camera
+
+---------06:17----------
+for free but I've been on it
+
+---------06:19----------
+for six months since I got it for free
+
+---------06:21----------
+so that doesn't really count how many
+
+---------06:24----------
+times have I on this thermal camera
+
+---------06:26----------
+audience yeah you guys know who have
+
+---------06:28----------
+been watching for a while
+
+---------06:41----------
+oh yeah the power in Jack on this yeah
+
+---------06:52----------
+show the people 189 see that's
+
+---------06:55----------
+inaccurate that's supposed to be 500 see
+
+---------06:57----------
+wait
+
+---------07:21----------
+I'm sorry Union repair for saying that
+
+---------07:23----------
+this thermal camera was a useless piece
+
+---------07:25----------
+of I apologize I was wrong
+
+---------07:28----------
+this thing does have some uses after all
+
+---------07:32----------
+the software on the other hand with it
+
+---------07:35----------
+like rent needs to be translated like
+
+---------07:38----------
+this despite this Chinese button over
+
+---------07:40----------
+here
+
+---------07:42----------
+yeah and the install come on it's nine
+
+---------07:44----------
+hundred bucks but still Union repair my
+
+---------07:47----------
+apologies I'm a [ __ ] this is actually
+
+---------07:51----------
+pretty decent afterall when I'm when
+
+---------07:53----------
+you're when you're wrong you should say
+
+---------07:55----------
+that you were wrong and I was wrong and
+
+---------07:57----------
+I'm not eating your pizza that just
+
+---------08:01----------
+because you put a tiny bit of green
+
+---------08:03----------
+on your pizza doesn't mean it's healthy
+
+---------08:08----------
+it's kind of cool to solder in the
+
+---------08:10----------
+thermal camera yeah instead of the
+
+---------08:13----------
+microscope mobile fix I'm still adamant
+
+---------08:15----------
+that this thing is very low resolution
+
+---------08:16----------
+what changes with this software is that
+
+---------08:18----------
+when you click a button it will show you
+
+---------08:20----------
+what the absolute hottest point is and
+
+---------08:21----------
+ignore everything else so it's still low
+
+---------08:24----------
+resolution but that little feature in
+
+---------08:26----------
+the software makes it more usable so
+
+---------08:28----------
+that you're not driving yourself nuts to
+
+---------08:30----------
+figure out what exactly the hot thing is
+
+---------08:34----------
+so that takes the low resolution of the
+
+---------08:37----------
+camera but turns it into something that
+
+---------08:38----------
+you can actually kind of work with
+
+---------08:52----------
+yeah it's not drawing anything strong
+
+---------08:55----------
+0.06 it's there's no more short short is
+
+---------08:58----------
+gone
+
+---------09:06----------
+there you go now we don't need a fuse
+
+---------09:08----------
+anymore
+
+---------09:23----------
+these actually blows anyway
+
+---------09:32----------
+we'll MacBook fans spin okay 18 volts
+
+---------09:40----------
+greenlight fans spin so it's fixed it's
+
+---------09:49----------
+fixed so that's it thank you very much
+
+---------09:54----------
+for watching as always I hope you
+
+---------09:55----------
+learned something we had a shorted cap
+
+---------09:57----------
+on PP buss g3 hot I found it at the
+
+---------09:59----------
+Union repair calm thermal imager and my
+
+---------10:02----------
+apologies for saying that that thing was
+
+---------10:04----------
+useless it's not useless it's just
+
+---------10:05----------
+vastly overpriced in my opinion that's
+
+---------10:08----------
+it for today and as always I hope you
+
+---------10:10----------
+learned something
+
+---------10:11----------
+[Music]
+

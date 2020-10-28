@@ -1,0 +1,589 @@
+https://www.youtube.com/watch?v=lHdH-Co7jWE
+---------00:04----------
+this is a 2012 MacBook and as we can see
+
+---------00:07----------
+it's already been messed with take a
+
+---------00:10----------
+look look at that keyboard backlight
+
+---------00:11----------
+wire under the motherboard over there I
+
+---------00:13----------
+can't really yell cuz I've done that a
+
+---------00:16----------
+couple of times we're missing a screw
+
+---------00:17----------
+over here oh let's see what we can do
+
+---------00:19----------
+booo long screw in the short hole damn
+
+---------00:23----------
+you damn you long screw another long
+
+---------00:27----------
+screw in the short hole damn you you
+
+---------00:29----------
+evil bastards just curious what does the
+
+---------00:32----------
+long screw in the short hole do what
+
+---------00:35----------
+does the long dick do to your short
+
+---------00:37----------
+ when it goes up it I want that
+
+---------00:39----------
+that's what it does to the machine
+
+---------00:41----------
+imagine somebody takes a large long
+
+---------00:45----------
+schlong and shoves it into your tiny
+
+---------00:48----------
+ like all the way up there all
+
+---------00:50----------
+the way in that's what the long screw in
+
+---------00:54----------
+the short hole does good connection turn
+
+---------01:00----------
+on ok we're using point 6 milliamps Wow
+
+---------01:03----------
+point 6 and milliamps that's nothing so
+
+---------01:06----------
+we're gonna check a couple of our
+
+---------01:07----------
+standard power rails that we typically
+
+---------01:08----------
+check first rail we're going to check
+
+---------01:10----------
+since we have a light in the charger
+
+---------01:11----------
+which means our pp 34 2 is good is our
+
+---------01:14----------
+pp bus and our pp bus is 4.1 volts so
+
+---------01:18----------
+the is L 6 2 5 9 chip is going to be the
+
+---------01:21----------
+chip that's responsible for creating pp
+
+---------01:24----------
+bus G 3 hot conical tips for everyone
+
+---------01:27----------
+you bastard that's the human rights
+
+---------01:30----------
+violation right there so the first thing
+
+---------01:32----------
+that we're gonna do here is look over
+
+---------01:34----------
+the current sensing part of my circuit
+
+---------01:35----------
+this chip over here wants to know how
+
+---------01:37----------
+much amperage the charger is using so
+
+---------01:39----------
+there's a resistor put in between the
+
+---------01:41----------
+charger and where the charger is going
+
+---------01:43----------
+to the circuit that makes our pp bus and
+
+---------01:45----------
+that resistor over here is going to have
+
+---------01:47----------
+a different voltage on each side is
+
+---------01:50----------
+gonna be a voltage drop across the
+
+---------01:51----------
+resistor it's gonna be a teeny tiny
+
+---------01:52----------
+voltage drop at the voltage drop across
+
+---------01:54----------
+the resistor is gonna be proportional to
+
+---------01:56----------
+the amount of current the system is
+
+---------01:58----------
+using which the system is going to read
+
+---------01:59----------
+over here so use 7,000 is going to read
+
+---------02:02----------
+the voltage at the top of the resistor
+
+---------02:03----------
+and the bottom of the resistor and
+
+---------02:05----------
+there's a 10 ohm resistor between the u
+
+---------02:07----------
+7,000 and those 2r is in that one
+
+---------02:09----------
+current sense resistor so what I'm gonna
+
+---------02:11----------
+do is I'm going to see if though all the
+
+---------02:13----------
+paths there are good so we have a 10 ohm
+
+---------02:15----------
+resistor a 10 ohm resistor a zero point
+
+---------02:18----------
+- ohm resistor and a bunch of traces and
+
+---------02:20----------
+the way I'm gonna easily make one
+
+---------02:21----------
+measurement to see if all of that's good
+
+---------02:23----------
+is I'm just gonna measure between pinch
+
+---------02:24----------
+28 and 27 here on the is l6 two five
+
+---------02:28----------
+nine and that's gonna be right up here
+
+---------02:29----------
+right Mikey what impedance do you think
+
+---------02:32----------
+my current sensing circuits gonna be
+
+---------02:34----------
+Mikey twenty-one ohms so it's not that
+
+---------02:40----------
+damn it
+
+---------02:41----------
+alright next up we're gonna see what the
+
+---------02:43----------
+battery current sensing is because we
+
+---------02:46----------
+also have a battery current sensing
+
+---------02:47----------
+circuit for ohms
+
+---------02:55----------
+that's a little high I'm not expecting
+
+---------02:57----------
+it to be that this resistor looks like
+
+---------03:00----------
+ okay top resistor R 70 51 it's
+
+---------03:07----------
+supposed to be two point two it's two
+
+---------03:08----------
+point six bottom resistor is supposed to
+
+---------03:11----------
+be zero and it's zero point six yeah
+
+---------03:15----------
+it's kind of but it looks oh yeah this
+
+---------03:19----------
+looks nasty and then there's this over
+
+---------03:25----------
+here which is just totally broken hey I
+
+---------03:27----------
+think this may be what's causing
+
+---------03:28----------
+camille's board to only be at four volts
+
+---------03:30----------
+as well I think yours was this yeah I'm
+
+---------03:39----------
+talking about this I think that's for
+
+---------03:42----------
+charger cell which is yeah charger cell
+
+---------03:45----------
+okay let me show a forgot to explain
+
+---------03:47----------
+this parts here so you know how this
+
+---------03:51----------
+chip can be eight volts on a MacBook Air
+
+---------03:54----------
+and twelve volts on a macbook pro yeah
+
+---------03:58----------
+yeah so charger cell it tells it so this
+
+---------04:01----------
+has to be pulled up or sent to ground or
+
+---------04:03----------
+something if you just leave it floating
+
+---------04:04----------
+it's gonna be stuck at four so for 812
+
+---------04:08----------
+you need 12 so you have to pull that up
+
+---------04:10----------
+to three point 42 volts you with a one
+
+---------04:13----------
+kiloohm pull-up resistor you you go it
+
+---------04:17----------
+you just one resistor away from it
+
+---------04:19----------
+working that's just the initial because
+
+---------04:24----------
+once that turns on the SMC communicates
+
+---------04:26----------
+with it and tells it the exact voltage
+
+---------04:27----------
+it wants but just to get like the spit
+
+---------04:29----------
+ball voltage when it first turns on you
+
+---------04:31----------
+need charge
+
+---------04:37----------
+you know you want to go back to that
+
+---------04:39----------
+board now don't you all right so right
+
+---------04:43----------
+now it thinks that it's it only needs
+
+---------04:45----------
+one cell I mean it thinks that it's
+
+---------04:47----------
+charging something with only one cell so
+
+---------04:49----------
+it's only charging to four vaults and
+
+---------04:51----------
+this is I can't believe I forgot that
+
+---------04:54----------
+yeah so on the air it's tight I believe
+
+---------04:57----------
+on air it's tied to ground or no has a
+
+---------04:59----------
+voltage divider and on pro it has a one
+
+---------05:02----------
+Kalon pull-up resistor to 3.42 so we're
+
+---------05:04----------
+just gonna scrape a little bit with my
+
+---------05:06----------
+tweezers because that's the professional
+
+---------05:07----------
+thing to do rather than use the exacto
+
+---------05:09----------
+knife but these tweezers are so sad I
+
+---------05:10----------
+don't even think you could scrape with
+
+---------05:11----------
+them anymore I think I'm gonna be forced
+
+---------05:13----------
+to do this the professional way yeah
+
+---------05:20----------
+look at how much easier the exacto knife
+
+---------05:22----------
+does that affiliate link for exacto
+
+---------05:24----------
+blade found in the description down
+
+---------05:25----------
+below don't delay user amazon affiliate
+
+---------05:28----------
+links today what I've I feel the hold um
+
+---------05:42----------
+that I forgot to tell you charge your
+
+---------05:43----------
+cell
+
+---------05:49----------
+[Music]
+
+---------06:07----------
+sometimes everybody hates their job
+
+---------06:09----------
+Thomas it's just one of those days is
+
+---------06:11----------
+all and we're just gonna put a little
+
+---------06:14----------
+bit of flux over there don't want to use
+
+---------06:15----------
+too much
+
+---------06:22----------
+and this here is a new T 30 - KN tip to
+
+---------06:25----------
+replace my old disgusting one you didn't
+
+---------06:31----------
+green the charger cell pin of the ISL
+
+---------06:33----------
+yet did you
+
+---------06:35----------
+oh yeah yeah I thought you had to remove
+
+---------06:40----------
+it and was going to be painful
+
+---------06:57----------
+imagine that turns on and works now
+
+---------07:19----------
+yeah my fume extractor was keeping my
+
+---------07:21----------
+tweezer from making proper contact I
+
+---------07:25----------
+also really need to get a brighter light
+
+---------07:27----------
+I tried sending more volts to this light
+
+---------07:31----------
+but it has apparently it doesn't use
+
+---------07:33----------
+whatever the input voltage is it has a
+
+---------07:34----------
+buck converter so regardless of what I
+
+---------07:37----------
+send it it just regulates down to the
+
+---------07:38----------
+crappy because I thought I could over
+
+---------07:40----------
+volt these LEDs and get some more light
+
+---------07:41----------
+more brightnesses sending 12 volts to a
+
+---------07:46----------
+5 volt LED and it's still really dark I
+
+---------07:54----------
+do like it it's a warm LED light though
+
+---------07:57----------
+I may steal the one from the Leica
+
+---------08:00----------
+eventually I still got to edit my review
+
+---------08:03----------
+of that
+
+---------08:28----------
+and while we're there we might as well
+
+---------08:29----------
+just touch up the things that look a
+
+---------08:30----------
+little nasty
+
+---------08:31----------
+might as well be nice
+
+---------08:44----------
+PC eration says your work is beautiful I
+
+---------08:46----------
+need more practice I've never given a
+
+---------08:48----------
+faulty item to a customer that's better
+
+---------08:52----------
+than I can say I didn't intend to give a
+
+---------08:57----------
+customer a faulty item every now and
+
+---------08:59----------
+then we pull an apple every now you know
+
+---------09:02----------
+it's not as not as much as like the you
+
+---------09:04----------
+set 89 hundreds of the 2011 dead GPUs or
+
+---------09:07----------
+iPhones that just don't get service
+
+---------09:10----------
+because they still Bend years after they
+
+---------09:11----------
+figured out their cases sucked but every
+
+---------09:14----------
+now and then will pull an apple and just
+
+---------09:15----------
+something we give back to a customer
+
+---------09:17----------
+doesn't work right yeah
+
+---------09:53----------
+now let's measure our pp bus
+
+---------10:23----------
+that guy's famous for being such a
+
+---------10:27----------
+yeah you don't have to do that I love
+
+---------10:31----------
+that these douche bag customers are
+
+---------10:32----------
+becoming a meme for the actual customers
+
+---------10:36----------
+incredibly I can either help you yeah I
+
+---------10:45----------
+wanted to call let you know that I am
+
+---------10:48----------
+incredibly intensely aggravated that I
+
+---------10:53----------
+just got my computer back with a label
+
+---------10:56----------
+that was near impossible to remove so
+
+---------11:02----------
+I'm not sure how that became a practice
+
+---------11:05----------
+there because I've sent my computer to
+
+---------11:08----------
+you numerous times before and it's never
+
+---------11:10----------
+come back with a sticker on it that I
+
+---------11:12----------
+took me 25 minutes and googan to remove
+
+---------11:15----------
+but I wanted to let you know that's a
+
+---------11:19----------
+disgusting practice that's complete
+
+---------11:22----------
+disrespect for your customers thank you
+
+---------11:25----------
+so much have a great day
+
+---------11:26----------
+sure okay
+
+---------11:30----------
+[Music]
+

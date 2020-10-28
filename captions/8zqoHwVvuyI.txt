@@ -1,0 +1,1189 @@
+https://www.youtube.com/watch?v=8zqoHwVvuyI
+---------00:00----------
+hey everybody how's everything going
+
+---------00:02----------
+today so I'm gonna get started with
+
+---------00:03----------
+another MacBook Board repair for you all
+
+---------00:06----------
+hopefully you all enjoy today we're
+
+---------00:09----------
+gonna be getting started on the show
+
+---------00:10----------
+with an A 1502 that has no power we're
+
+---------00:13----------
+gonna open this thing up we're gonna
+
+---------00:14----------
+figure out it what's wrong with it if we
+
+---------00:16----------
+can figure out what's wrong with I'll
+
+---------00:17----------
+explain our thought process and what was
+
+---------00:20----------
+actually wrong with it on camera so that
+
+---------00:22----------
+you can have a better idea how to do
+
+---------00:24----------
+these types of repairs let's get started
+
+---------00:29----------
+open this thing up looks like it's been
+
+---------00:32----------
+somebody used packing tape to hold it in
+
+---------00:35----------
+which is really annoying very very
+
+---------00:41----------
+annoying
+
+---------01:08----------
+so first thing that I like to do with
+
+---------01:11----------
+any of these machines and see how much
+
+---------01:12----------
+power it's taking using the power supply
+
+---------01:14----------
+the power supply is going to tell me how
+
+---------01:17----------
+many amps it's using and that's going to
+
+---------01:19----------
+give me an idea of what's actually wrong
+
+---------01:21----------
+with the machine we're gonna turn on the
+
+---------01:22----------
+multimeter and power supply software
+
+---------01:25----------
+here award-winning world acclaimed
+
+---------01:30----------
+multimeter software from mr. Paul
+
+---------01:33----------
+Daniels all right we're taking 20
+
+---------01:34----------
+milliamps we have a green light
+
+---------01:36----------
+20 milliamps is usually a way to signal
+
+---------01:40----------
+that the p.m. sleeve s4l is missing
+
+---------01:43----------
+which is great now it looks like we got
+
+---------01:44----------
+corrosion in the area that responsible
+
+---------01:46----------
+for creating P P bus d3 hot so the next
+
+---------01:48----------
+thing I want to do is see if we can
+
+---------01:49----------
+match d3 Hunt is actually being created
+
+---------01:51----------
+let's take a look and see - d3 hot on
+
+---------01:55----------
+this board I do believe is gonna be
+
+---------01:57----------
+located on this white fuse down here and
+
+---------02:00----------
+for those of you following along at home
+
+---------02:02----------
+that are not used to me working on this
+
+---------02:04----------
+board who don't really understand why it
+
+---------02:05----------
+is I'm checking for that power rail well
+
+---------02:07----------
+that's a great question that you've got
+
+---------02:09----------
+it's the why I'm checking for that power
+
+---------02:10----------
+rail let's go over it really quickly
+
+---------02:12----------
+before I move on to then - checking that
+
+---------02:15----------
+power line so I'm gonna open up the
+
+---------02:16----------
+schematic and board view for an 8 - 0 -
+
+---------02:19----------
+49 24 board so that you can all see and
+
+---------02:23----------
+follow along with me now what I have
+
+---------02:25----------
+over here is board view software that's
+
+---------02:27----------
+opening the board of the wrong
+
+---------02:28----------
+orientation but besides that we have you
+
+---------02:31----------
+7100 is the chip that it's got some junk
+
+---------02:35----------
+around it and this is battery charger
+
+---------02:38----------
+it's gonna create my pp bus g3 Hunt
+
+---------02:40----------
+right over there see that BP bus so I'm
+
+---------02:44----------
+checking on F 7140 where it creates that
+
+---------02:46----------
+let's see what we get one point one
+
+---------02:49----------
+volts and look at that well now if you
+
+---------02:55----------
+take a look at the schematic and you
+
+---------02:56----------
+know what that's supposed to be well one
+
+---------02:57----------
+of the ways that I used to do this is I
+
+---------02:59----------
+would just check it on a known good
+
+---------03:00----------
+board that was my foolproof way of
+
+---------03:02----------
+figuring out the way things are supposed
+
+---------03:04----------
+to be but if you are kind of you know
+
+---------03:07----------
+you want a way to tell that's a little
+
+---------03:08----------
+bit more foolproof that's completely
+
+---------03:11----------
+understandable what you can do is you
+
+---------03:14----------
+can check on the schematic itself now
+
+---------03:18----------
+they used to have this list of power
+
+---------03:19----------
+rails right in the beginning
+
+---------03:20----------
+to make it nice and easy on folks but
+
+---------03:21----------
+now they put the most important part of
+
+---------03:23----------
+the schematic on page 68 because Apple
+
+---------03:25----------
+pp bus g3 huh
+
+---------03:27----------
+it says 8.6 volts now this is another
+
+---------03:30----------
+part where the schematic is not going to
+
+---------03:31----------
+be very helpful because this machine is
+
+---------03:33----------
+actually supposed to have eight point
+
+---------03:35----------
+twelve point six volts not eight point
+
+---------03:38----------
+six volts one of the ways that you can
+
+---------03:39----------
+tell this is by checking the voltage and
+
+---------03:40----------
+a known good battery this is eight point
+
+---------03:43----------
+six that's actually for a MacBook Air so
+
+---------03:45----------
+this appala schematic gets its own
+
+---------03:46----------
+voltage wrong it doesn't know it at once
+
+---------03:48----------
+this is supposed to be eight point at
+
+---------03:51----------
+twelve point six so the schematic here
+
+---------03:52----------
+is actually wrong and this is where
+
+---------03:53----------
+having a known good board can actually
+
+---------03:55----------
+be more helpful than checking certain
+
+---------03:57----------
+things in the schematic because
+
+---------03:58----------
+sometimes in the schematic itself can be
+
+---------04:00----------
+wrong so let's take a look on the board
+
+---------04:04----------
+and see if we can just fix this issue
+
+---------04:05----------
+with a little bit of hot air and flux
+
+---------04:10----------
+before I even get into doing the hot air
+
+---------04:12----------
+and flux thing I'd like to see what that
+
+---------04:13----------
+specific resistor that's messed up is
+
+---------04:15----------
+actually for
+
+---------04:28----------
+charger dcn and charger a gate all right
+
+---------04:32----------
+so that resistor over there
+
+---------04:35----------
+it's supposed to be 332 kilohms and I'm
+
+---------04:40----------
+pretty sure it is I would wager a guess
+
+---------04:42----------
+that the issue here is not going to have
+
+---------04:44----------
+anything to do with the with the
+
+---------04:49----------
+resistor being bad and everything to do
+
+---------04:50----------
+with the is l6 to 5/9 being bad see 331
+
+---------04:57----------
+kilohms so that's it supposed to be 3
+
+---------05:00----------
+into 32 kilo ohms that's not really
+
+---------05:01----------
+gonna be what bothers me here the issue
+
+---------05:05----------
+is gonna be a bad is all six two five
+
+---------05:06----------
+nine I'm gonna guess that's the chip
+
+---------05:08----------
+that's wrong so let's give that a
+
+---------05:10----------
+replacement and see if it fixes our
+
+---------05:12----------
+problem
+
+---------05:15----------
+put a little bit of flux over there not
+
+---------05:17----------
+too much not too little so we're gonna
+
+---------05:20----------
+replace our ISO 65 9 have a proper board
+
+---------05:38----------
+100% Randy hundred-percent
+
+---------05:42----------
+it did that before I bought that freakin
+
+---------05:45----------
+switch that tp-link is only about a year
+
+---------05:47----------
+old
+
+---------05:56----------
+yeah wasn't the ironworks so much better
+
+---------05:58----------
+when you turn it on
+
+---------06:10----------
+all right
+
+---------06:15----------
+the inspection was horrible
+
+---------06:20----------
+can I get the audio file for robust
+
+---------06:22----------
+robust
+
+---------07:41----------
+we gots for the new story your stress
+
+---------07:43----------
+level back to normal soon
+
+---------07:44----------
+thank you yeah it's been very stressful
+
+---------07:47----------
+recently it's been stressful on
+
+---------07:50----------
+everybody really everybody's had a lot
+
+---------07:53----------
+to do it's gonna be even more stressful
+
+---------07:57----------
+on Paul since he just went on vacation
+
+---------07:58----------
+to Vegas and he's going to be staying at
+
+---------08:00----------
+a hotel where they have lots of gambling
+
+---------08:03----------
+[ __ ] right downstairs
+
+---------08:16----------
+that is nice and crooked
+
+---------08:30----------
+from one thing Panthers easiest to
+
+---------08:32----------
+another cape of the great work dear some
+
+---------08:34----------
+fishing for future streams
+
+---------08:37----------
+maybe thank you
+
+---------08:49----------
+this is my donor over here we're gonna
+
+---------08:53----------
+let this dry by utilizing rapid cool
+
+---------08:56----------
+technology its rapid cool technology
+
+---------09:06----------
+eighteen million
+
+---------09:07----------
+no difference no change okay now we got
+
+---------09:11----------
+to do a little bit of investigating
+
+---------09:14----------
+still one volt on PP bus g3 hot next
+
+---------09:17----------
+time
+
+---------09:17----------
+do we have a short two grounds on PP bus
+
+---------09:19----------
+g3 huh not short to ground six million
+
+---------09:23----------
+ohms fuse is good yeah okay
+
+---------09:39----------
+current sense
+
+---------09:52----------
+Karen sends good here occurrence ends
+
+---------09:54----------
+good there hmm let's see that I forget
+
+---------10:00----------
+how to solder maybe I forgot it a solder
+
+---------10:09----------
+that's always possible never know all
+
+---------10:13----------
+right so let's see is the charger even
+
+---------10:15----------
+turning on so we have Q 70 180 over here
+
+---------10:17----------
+this is the inrush transistor and one
+
+---------10:20----------
+thing I'm kind of curious to see is do
+
+---------10:22----------
+we have voltage over here at the
+
+---------10:24----------
+beginning so let's just check in voltage
+
+---------10:26----------
+mode
+
+---------10:34----------
+let's check on okay so like right over
+
+---------10:38----------
+here what do we get so do we have 20
+
+---------10:41----------
+volts coming into the machine 18 I
+
+---------10:43----------
+suppose
+
+---------10:51----------
+18 comes in very good all right so now
+
+---------10:54----------
+we have this thing over here I want to
+
+---------10:57----------
+see what's coming out of the transistor
+
+---------11:05----------
+Oh for [ __ ] sake oh that's the pintu
+
+---------11:10----------
+I'm hitting ground like a dumbass
+
+---------11:12----------
+it's measure here yeah so one ball comes
+
+---------11:17----------
+out of the transistor now the question
+
+---------11:18----------
+is is the transistor being asked to open
+
+---------11:20----------
+because you know I can't really blame
+
+---------11:23----------
+this transistor for not opening if it's
+
+---------11:24----------
+not being asked to so what you have
+
+---------11:25----------
+going on here is this is the 18 volts
+
+---------11:29----------
+from the charger and there's a resistor
+
+---------11:31----------
+between the 18 volts from the charger
+
+---------11:32----------
+that goes to the source of the
+
+---------11:33----------
+transistor and 18 volts of the charger
+
+---------11:35----------
+going to the gate of the transistor
+
+---------11:36----------
+which means that this p channel is never
+
+---------11:38----------
+going to open this is only going to open
+
+---------11:40----------
+if the vultures on the gate is less than
+
+---------11:43----------
+the voltage in the source however you
+
+---------11:45----------
+have this other resistor R 70 186 that
+
+---------11:47----------
+goes between the gate and ground but
+
+---------11:48----------
+before it gets the ground that goes
+
+---------11:49----------
+through 70 100 so you 7100 can control
+
+---------11:52----------
+whether this transistor opens by
+
+---------11:53----------
+allowing or not allowing this to go to
+
+---------11:56----------
+ground this wood becomes a voltage
+
+---------11:57----------
+divider if the bottom of our 71 86 here
+
+---------12:00----------
+is allowed to go to ground and then
+
+---------12:03----------
+you'll have less voltage in the gate
+
+---------12:04----------
+than the source envelope and so let's
+
+---------12:06----------
+take a look at our 71 86 and see what's
+
+---------12:07----------
+present on pin 2 our 71 86 pin 2 is
+
+---------12:12----------
+gonna be there
+
+---------12:18----------
+and he had 16 volts the u 7000 is not
+
+---------12:22----------
+telling this transistor to open that's
+
+---------12:25----------
+why it's stuck let's see
+
+---------12:33----------
+17 here 16 there
+
+---------12:54----------
+all right let's check some other stuff
+
+---------12:56----------
+going on here so why isn't you 7100
+
+---------12:58----------
+doing his job you 7100 is not sending
+
+---------13:00----------
+that to ground
+
+---------13:01----------
+let's see what's present is our 70 105
+
+---------13:04----------
+good where did you blow all right 70 105
+
+---------13:09----------
+is gonna supply power and charger DC in
+
+---------13:11----------
+supposed to be 20 ohms and your 20 ohms
+
+---------13:19----------
+that's not it
+
+---------13:28----------
+well this is quite the troll trace from
+
+---------13:32----------
+our 71 86 to the is I'll maybe corroded
+
+---------13:34----------
+you know that's actually a good idea
+
+---------13:37----------
+let's check for that so from here to
+
+---------13:39----------
+here right yeah okay it's not that it's
+
+---------13:51----------
+the trait it's between the resistor and
+
+---------13:54----------
+the [ __ ] probe point look at that son
+
+---------13:58----------
+of a I didn't see that okay this is let
+
+---------14:01----------
+me I gotta raise the light or something
+
+---------14:04----------
+okay let's raise the exposure all the
+
+---------14:06----------
+way yo youtube comment [ __ ] fix the
+
+---------14:09----------
+board why doesn't this happen more often
+
+---------14:10----------
+okay this is max exposure right here and
+
+---------14:13----------
+even at max exposure I can't see it whoa
+
+---------14:15----------
+check this out
+
+---------14:16----------
+so this resistor over here our 71 86
+
+---------14:21----------
+that's going to be the path between the
+
+---------14:24----------
+gate and the is l6 two five nine which
+
+---------14:27----------
+is going to bring it to ground so for
+
+---------14:29----------
+this to work as a voltage divider for
+
+---------14:30----------
+the voltage and the gate to be lower
+
+---------14:31----------
+than the voltage on the source our 71
+
+---------14:34----------
+eighty six has to go between the gate in
+
+---------14:36----------
+ground or elles our 7185 which is gonna
+
+---------14:39----------
+take the 16 volts from your charger and
+
+---------14:41----------
+send it straight to the gate our 71 86
+
+---------14:43----------
+is what's gonna take that whole two from
+
+---------14:45----------
+the gate send some of it to ground so
+
+---------14:46----------
+that you get down to that on nine volts
+
+---------14:47----------
+or so and the connection between the
+
+---------14:50----------
+probe point going to our 71 86 in the is
+
+---------14:53----------
+Ellis crew is good but the probe points
+
+---------14:55----------
+at our 71 86 was blown Wow look at this
+
+---------14:59----------
+so see this is the probe point let's see
+
+---------15:02----------
+if I can get a better image there for
+
+---------15:03----------
+you folks look at this that's good
+
+---------15:09----------
+zero ohms but the probe points of the
+
+---------15:12----------
+resistor it's gone
+
+---------15:14----------
+damn no really that's that's damn near
+
+---------15:18----------
+invisible like how the combo
+
+---------15:26----------
+yeah but look when you scrape away you
+
+---------15:29----------
+can see that there's no copper between
+
+---------15:31----------
+the probe points in there see it's God
+
+---------15:34----------
+let's see maybe if I scrape a little
+
+---------15:36----------
+more wow this has never happened before
+
+---------15:40----------
+this is no look the copper is there oh
+
+---------15:45----------
+wait no take it back there is copper
+
+---------15:48----------
+here what is it like intermittently its
+
+---------15:52----------
+remit Aneke inducting copper I mean what
+
+---------15:54----------
+the hell is this what are we talking
+
+---------15:55----------
+about here I don't think this microscope
+
+---------16:03----------
+light actually emits enough light for me
+
+---------16:04----------
+to give you zoom at this angle I think I
+
+---------16:07----------
+have to get a more powerful microscope
+
+---------16:09----------
+light this way I had to replace mine
+
+---------16:10----------
+recently because it died and this
+
+---------16:12----------
+microscope lights really not doing it
+
+---------16:13----------
+justice you can't see well when it's all
+
+---------16:15----------
+the way zoomed in like this I gotta get
+
+---------16:16----------
+myself a better microscope light I'm
+
+---------16:18----------
+sorry folks
+
+---------16:19----------
+for the people watching this is I think
+
+---------16:20----------
+like the $30 30 or $40 em scope light
+
+---------16:23----------
+but they make some $200 microscope like
+
+---------16:25----------
+that's way nicer I was being a
+
+---------16:28----------
+cheapskate so my apologies folks because
+
+---------16:30----------
+you can't really get a good you can't
+
+---------16:31----------
+really see what I'm seeing in zoomed in
+
+---------16:33----------
+y'all zoom out a little bit for you this
+
+---------16:35----------
+is good enough provide me to get myself
+
+---------16:38----------
+a better light cuz this thing is not
+
+---------16:40----------
+doing it justice but yeah look that
+
+---------16:42----------
+trace is barely broken look at that
+
+---------16:44----------
+you have to scrape the thing is it looks
+
+---------16:46----------
+like it's intact but it's not
+
+---------16:48----------
+it looks like it's intact it's quite
+
+---------16:50----------
+tricky
+
+---------17:16----------
+yeah I need way more light it's enough
+
+---------17:18----------
+for me but it's not enough for the
+
+---------17:19----------
+camera even at max exposure I'm gonna
+
+---------17:23----------
+get a stronger light for this the SIBO
+
+---------17:28----------
+effect Bob indle Baba Delaware
+
+---------17:36----------
+alright so I'm gonna have this wire
+
+---------17:38----------
+going straight to the chip to the chip
+
+---------17:41----------
+to the pro point and then from the pro
+
+---------17:43----------
+point to the resistor
+
+---------17:56----------
+let's secure it towards a new light
+
+---------17:59----------
+Thank You ed and I haven't seen you in a
+
+---------18:02----------
+while I hope you're doing well sorry at
+
+---------18:05----------
+all from cheeping out on the light here
+
+---------18:07----------
+I wonder if we get to send more voltage
+
+---------18:09----------
+to this light go into how long it'll
+
+---------18:11----------
+last before the diodes die that would
+
+---------18:15----------
+make a fun experiment because I have
+
+---------18:16----------
+another power supply here I have a spare
+
+---------18:18----------
+power supply here will be kind of fun
+
+---------18:22----------
+send 30 volts the Lewises microscope
+
+---------18:28----------
+let's make a fun video
+
+---------18:32----------
+okay
+
+---------18:35----------
+while there's still some flux there we
+
+---------18:36----------
+just do that
+
+---------18:46----------
+there we go
+
+---------18:54----------
+that was off my game eventually would
+
+---------18:57----------
+have what I would have done is I would
+
+---------18:58----------
+have wiped the entire I just would a
+
+---------18:59----------
+windshield wipe the whole area and
+
+---------19:01----------
+scraped it but that would have been very
+
+---------19:02----------
+inefficient so I would have most likely
+
+---------19:04----------
+replaced that transistor nothing would
+
+---------19:06----------
+have changed at that point I would have
+
+---------19:08----------
+just windshield wiped all of this which
+
+---------19:11----------
+would have got me my my solution but it
+
+---------19:14----------
+would have been way down the line but
+
+---------19:15----------
+this makes a lot more sense okay so it
+
+---------19:18----------
+looks like we're taking 60 ml amps now
+
+---------19:19----------
+which is an improvement but that's still
+
+---------19:21----------
+not turning on
+
+---------20:21----------
+now this is just being a troll
+
+---------20:28----------
+whoa okay my status had a loose
+
+---------20:30----------
+connection there we go
+
+---------20:32----------
+590 MLMs where's your PP bus at
+
+---------20:46----------
+twelve point six baby twelve point six
+
+---------20:50----------
+volts
+
+---------20:54----------
+twelve point six volts
+
+---------21:16----------
+so the charger is going to go through
+
+---------21:18----------
+this transistor however it can only go
+
+---------21:21----------
+to this transistor at the voltage on the
+
+---------21:22----------
+gate is lower than the source so you
+
+---------21:24----------
+have this setup here that allows the is
+
+---------21:26----------
+l6 to 5/9 chip over here to control
+
+---------21:28----------
+whether this opens the voltage and the
+
+---------21:30----------
+gate is to be lower than the source you
+
+---------21:31----------
+have a resistor that takes the voltage
+
+---------21:33----------
+from the source the 18 volts and puts it
+
+---------21:35----------
+straight on the gate then you have
+
+---------21:36----------
+another resistor that goes between the
+
+---------21:38----------
+gate and the ISL six two five nine so if
+
+---------21:40----------
+the ISL six two five nine doesn't do
+
+---------21:42----------
+anything then nothing will happen but if
+
+---------21:44----------
+the ISL six two five nine shorts pin two
+
+---------21:46----------
+of our seven one eight six through two
+
+---------21:48----------
+grounds then this will work as a voltage
+
+---------21:50----------
+divider it's very similar to the
+
+---------21:51----------
+backlight circuit I went over in a
+
+---------21:52----------
+recent video and this will open in the
+
+---------21:54----------
+connection between pen to and the U 7100
+
+---------21:57----------
+was bad and I couldn't notice it see one
+
+---------21:59----------
+of the things I was talking about here
+
+---------22:00----------
+was like when you get the cheap [ __ ]
+
+---------22:02----------
+what happens this is the cheap ass like
+
+---------22:04----------
+shitty twenty dollar on Amazon
+
+---------22:06----------
+microscope LED ring light you notice
+
+---------22:08----------
+when I zoomed in I couldn't really see
+
+---------22:10----------
+very well whereas my old microscope
+
+---------22:12----------
+light I could really turn it up and dial
+
+---------22:13----------
+in the detail because the more that you
+
+---------22:15----------
+zoom in the less light goes through and
+
+---------22:17----------
+I need it to be able to zoom in to see
+
+---------22:19----------
+this so I what didn't think to check
+
+---------22:22----------
+that trace because visually it looked
+
+---------22:24----------
+totally fine even at 20x it looked
+
+---------22:26----------
+totally fine I missed it so I'm gonna
+
+---------22:28----------
+get myself a better microscope bring
+
+---------22:30----------
+light so that this doesn't happen again
+
+---------22:32----------
+I learned my lesson or I may just try
+
+---------22:34----------
+sending more voltage through this one
+
+---------22:35----------
+just for fun I kind of wonder what
+
+---------22:37----------
+happens when I said thirty or forty year
+
+---------22:38----------
+well I got my bike charger over there
+
+---------22:40----------
+let's send fifty eight point eight volts
+
+---------22:41----------
+to my my ring light and see what happens
+
+---------22:43----------
+so that's it for today I hope you
+
+---------22:44----------
+learned something and I'll see you all
+
+---------22:46----------
+in the next video
+

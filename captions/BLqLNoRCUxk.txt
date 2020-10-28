@@ -1,0 +1,487 @@
+https://www.youtube.com/watch?v=BLqLNoRCUxk
+---------00:00----------
+hi so today we're going to be going over
+
+---------00:01----------
+a board that had no trackpad and also no
+
+---------00:03----------
+keyboard and I'm little bit mayor say
+
+---------00:09----------
+that we actually replaced the trackpad
+
+---------00:11----------
+the keyboard and the trackpad capable
+
+---------00:15----------
+before it finally wound up on my desk
+
+---------00:18----------
+because after doing all this it still
+
+---------00:20----------
+didn't work so I looked at it for a
+
+---------00:23----------
+while I tried the whole new trackpad
+
+---------00:25----------
+keyboard obviously you can see that
+
+---------00:26----------
+because I have it on my desk and I
+
+---------00:28----------
+wasn't really using my brain because I
+
+---------00:30----------
+did the exact same thing now one of the
+
+---------00:33----------
+things that you should look at in this
+
+---------00:34----------
+circuit to figure out why it is it's
+
+---------00:36----------
+doing that just look at this commander
+
+---------00:39----------
+let's follow along and do some basic
+
+---------00:40----------
+troubleshooting so this is the keyboard
+
+---------00:42----------
+connector right J 5700 so we look for J
+
+---------00:48----------
+5700 and we see this IPD flex connector
+
+---------00:51----------
+now I checked over here I check that pp
+
+---------00:55----------
+3 v 3s for trackpad was making it to the
+
+---------00:57----------
+trackpad I track that pp 3 v 3s for
+
+---------01:00----------
+trackpad was making it to this chip over
+
+---------01:02----------
+here that takes the input from the
+
+---------01:04----------
+keyboard in the trackpad and sends it
+
+---------01:06----------
+off I checked that pp 3 v 4 200 square G
+
+---------01:09----------
+3 hot trackpad was going to the trackpad
+
+---------01:11----------
+I check that the sleep signal was over
+
+---------01:13----------
+here going to the Select line so then
+
+---------01:15----------
+let's follow along USB T pad - R than P
+
+---------01:19----------
+so these are two signals from the data
+
+---------01:22----------
+line the P and the N signal and they
+
+---------01:25----------
+head over here to USB underscore tack
+
+---------01:30----------
+pad underscore hub underscore P and N
+
+---------01:33----------
+and that goes over to this chip over
+
+---------01:35----------
+here this is a little USB hub now again
+
+---------01:39----------
+we have bluetooth trackpad keyboard SMC
+
+---------01:42----------
+port and SD card this chip had power
+
+---------01:44----------
+going to it so I decided you know what
+
+---------01:45----------
+let's see if the SD card reader works
+
+---------01:47----------
+and I don't have an SD card reader so I
+
+---------01:49----------
+decided to see if the Bluetooth worked
+
+---------01:50----------
+and the Bluetooth didn't work even
+
+---------01:52----------
+though on that exact same operating
+
+---------01:53----------
+system and same try but worked with
+
+---------01:55----------
+another computer so what happens when I
+
+---------01:56----------
+look over that area in the microscope
+
+---------01:58----------
+but this is this is what we wasted an
+
+---------02:05----------
+hour on this before it
+
+---------02:09----------
+got to my desk this you see that let's
+
+---------02:12----------
+see what what that is
+
+---------02:13----------
+so we go over to the board view over
+
+---------02:15----------
+here and that's supposed to be our 2600
+
+---------02:21----------
+so we're gonna try and see what happens
+
+---------02:23----------
+when we put our 2600 on so our 2000
+
+---------02:27----------
+tired of being sick men our 2600 is a 12
+
+---------02:32----------
+kilo ohm resistor that goes between USB
+
+---------02:34----------
+hub 1 our bias and ground and let's just
+
+---------02:38----------
+look it up to see what it does USB 2 5 1
+
+---------02:40----------
+3 B ok let's see what that little line
+
+---------02:43----------
+does because I always like to show you
+
+---------02:45----------
+how you can find all this information in
+
+---------02:47----------
+the datasheet I don't want to brochure I
+
+---------02:49----------
+want a datasheet okay let's see pin out
+
+---------02:54----------
+we're going to ignore all this junk we
+
+---------02:56----------
+see here you probably don't understand
+
+---------02:58----------
+what half of it means I don't understand
+
+---------03:00----------
+what at least 3/4 of it means I'm not
+
+---------03:02----------
+even going to try
+
+---------03:03----------
+so which pin are we interested in it is
+
+---------03:05----------
+pin 35 so pin 35 is our bias
+
+---------03:10----------
+what is our bias do resistor is attached
+
+---------03:14----------
+from ground to this pin to set the
+
+---------03:15----------
+transceivers internal bias settings I'm
+
+---------03:18----------
+pretty sure if that's not attached that
+
+---------03:19----------
+it won't work it's nothing that I didn't
+
+---------03:21----------
+know if I you know then already know
+
+---------03:23----------
+just from common common sense in
+
+---------03:25----------
+the fact that this doesn't work
+
+---------03:26----------
+right now so we're going to add a little
+
+---------03:28----------
+bit of solder over there
+
+---------03:30----------
+that's right solder with two DS mofos
+
+---------03:33----------
+because I don't want to say it with
+
+---------03:35----------
+Canal oh I hate soldering when sick as
+
+---------03:43----------
+nothing you see what I scrape that
+
+---------03:46----------
+right there
+
+---------03:46----------
+right over there you could see like when
+
+---------03:48----------
+I coughed how I just kind of dug into
+
+---------03:50----------
+the board by the way this board already
+
+---------03:52----------
+has a lot of [ __ ] going on as you can
+
+---------03:54----------
+see yeah we got that going all the way
+
+---------03:59----------
+to the other side here for battery
+
+---------04:02----------
+charging stuff so II there's all sorts
+
+---------04:05----------
+of fun stuff going on on this board
+
+---------04:06----------
+already
+
+---------04:07----------
+but this keyboard thing was just too
+
+---------04:09----------
+much it really it really is it's one of
+
+---------04:11----------
+those things where it's you know heimeau
+
+---------04:13----------
+and you can always you can see over here
+
+---------04:15----------
+with a little little way that you weigh
+
+---------04:16----------
+the stuff from the trackpad the keyboard
+
+---------04:17----------
+comes in before I even bother to check
+
+---------04:20----------
+the USB MUX in the USB hub before
+
+---------04:21----------
+actually bother to use my brain which is
+
+---------04:23----------
+what I'm always telling you to do look
+
+---------04:24----------
+what I did look at this I look
+
+---------04:27----------
+they I replaced a chip that's
+
+---------04:28----------
+it's between the usb up in the trackpad
+
+---------04:30----------
+idiocy complete idiocy I didn't like all
+
+---------04:34----------
+you had to do is look over and say hey
+
+---------04:36----------
+does this have bluetooth oh no it
+
+---------04:38----------
+doesn't have bluetooth oh maybe you have
+
+---------04:40----------
+a problem with your USB mocks area oh
+
+---------04:42----------
+look at that there's a resistor that's
+
+---------04:44----------
+supposed to be there that's not there
+
+---------04:45----------
+maybe we should look into that
+
+---------04:47----------
+like just common sense that I
+
+---------04:50----------
+just Oh
+
+---------04:54----------
+I'm disgusted up myself sometimes oh
+
+---------05:05----------
+that is one crooked little resistor it's
+
+---------05:10----------
+about as crooked as the inside of my
+
+---------05:13----------
+lungs are right now yeah it's going to
+
+---------05:20----------
+stay that way probably
+
+---------05:29----------
+hey are we kidding that's going to stay
+
+---------05:31----------
+exactly as it is
+
+---------05:46----------
+okay now we go over to the test setup
+
+---------05:50----------
+I'm tired of coughing so before the
+
+---------05:55----------
+keyboard didn't work at all so let's
+
+---------05:58----------
+yeah I'll plug the original SSD and I
+
+---------06:03----------
+hate airs for this nonsense so I'm not
+
+---------06:05----------
+using the trackpad in the keyboard that
+
+---------06:07----------
+are in they have to take the entire
+
+---------06:08----------
+thing out to test this kind of stuff
+
+---------06:09----------
+because the you know the flex cable from
+
+---------06:12----------
+the trackpad goes to here and then the
+
+---------06:16----------
+keyboard is to plug into the trackpad
+
+---------06:18----------
+but today I can't plug in like this it
+
+---------06:20----------
+has to plug in like this install all
+
+---------06:24----------
+ oh and then the screen as a
+
+---------06:29----------
+cable that's this long before it goes
+
+---------06:31----------
+into the LCD and you can't test with the
+
+---------06:34----------
+LCD by itself because it's not a
+
+---------06:36----------
+complete part so you gotta know this is
+
+---------06:40----------
+not a nice machine a test outside it
+
+---------06:42----------
+really wastes real estate the real
+
+---------06:43----------
+estate and it's a real pain in the ass
+
+---------06:45----------
+ah I'll forget about it
+
+---------06:55----------
+veneer I'll get it
+
+---------07:00----------
+one once I'm done forgetting about it
+
+---------07:02----------
+you missed the our BIOS on the USB MUX
+
+---------07:05----------
+how could you miss the our bias in the
+
+---------07:06----------
+USB MUX just remind me on Monday I'll
+
+---------07:14----------
+forget I won't forget steps as you
+
+---------07:23----------
+me when I hit the option key I can
+
+---------07:25----------
+choose which drive I want to boot from
+
+---------07:26----------
+and I can also at camps lock on the
+
+---------07:29----------
+keyboard and you can see that little
+
+---------07:30----------
+green lights lighting up and going away
+
+---------07:31----------
+which means that I fixed the problem
+
+---------07:32----------
+it was our bias in the USB MUX da
+
+---------07:37----------
+oh man I'm an idiot sometimes
+

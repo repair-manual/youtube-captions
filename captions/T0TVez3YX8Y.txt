@@ -1,0 +1,997 @@
+https://www.youtube.com/watch?v=T0TVez3YX8Y
+---------00:00----------
+all right so today we're gonna be
+
+---------00:01----------
+working on a MacBook Pro Retina that is
+
+---------00:03----------
+not turning on not charging the battery
+
+---------00:05----------
+not giving a green light in the charger
+
+---------00:07----------
+when I first plug in the charger you'll
+
+---------00:11----------
+see a green light flicker on for a quick
+
+---------00:13----------
+second and by you I mean me because I
+
+---------00:15----------
+know that with the shitty lighting in
+
+---------00:17----------
+this office there is no way in hell
+
+---------00:19----------
+you're going to see that actually
+
+---------00:21----------
+flicker yeah Who am I kidding there so
+
+---------00:25----------
+I'm gonna plug in a known good DC and
+
+---------00:27----------
+board I don't trust this person's DC and
+
+---------00:29----------
+board yeah it's a rainy shitty day
+
+---------00:37----------
+outside yeah I'll show you under the
+
+---------00:40----------
+microscope you have a actual chance of
+
+---------00:42----------
+seeing it there you just turn the light
+
+---------00:44----------
+off on the camera so I plug it in and
+
+---------00:48----------
+you get that I don't know if you were
+
+---------00:53----------
+able to see that it turns on/off
+
+---------01:04----------
+and then it's done so let's go over and
+
+---------01:09----------
+try to figure out why this is shall we
+
+---------01:10----------
+so first thing to do here is see if
+
+---------01:14----------
+there's anything going on with the
+
+---------01:15----------
+current sensing circuit however before
+
+---------01:16----------
+we even go over current sense you know
+
+---------01:17----------
+how current sends it could influence
+
+---------01:18----------
+this let's go over some of the areas
+
+---------01:21----------
+that have some corrosion left this is
+
+---------01:23----------
+something that was clean with the
+
+---------01:24----------
+standard toothbrush and alcohol and
+
+---------01:26----------
+you'll get to see just how bad that is
+
+---------01:28----------
+is to just a microscope camera so it
+
+---------01:30----------
+doesn't look like anymore there we
+
+---------01:32----------
+go hopefully that tearing stuff is gone
+
+---------01:34----------
+and you're seeing a nice fluid 60 frames
+
+---------01:37----------
+per second without the you know the
+
+---------01:39----------
+lines and the stuff showing up so you
+
+---------01:40----------
+got some corrosion around here here and
+
+---------01:48----------
+let's take a look at what this thing is
+
+---------01:49----------
+for what it does now we're also going to
+
+---------01:52----------
+talk a little bit about how the charger
+
+---------01:55----------
+and how the MagSafe charger works while
+
+---------01:57----------
+we're here the first thing to do here is
+
+---------02:01----------
+open up a schematic diagram for the
+
+---------02:03----------
+eight to zero 34 76
+
+---------02:15----------
+then here we are
+
+---------02:27----------
+now what we're looking at over there I
+
+---------02:31----------
+believe is q70 180 and I say I believe
+
+---------02:33----------
+because I don't remember oh that's not
+
+---------02:36----------
+that's q70 130 I'm losing it all right
+
+---------02:40----------
+let's see so where is q70 180 oh wait a
+
+---------02:45----------
+second
+
+---------02:45----------
+yeah I am losing it I thought that was
+
+---------02:48----------
+huh-huh
+
+---------02:49----------
+okay so q70 130 is the one with the
+
+---------02:51----------
+corrosion around it so q70 130 is gonna
+
+---------02:53----------
+be over here and this is the transistor
+
+---------02:55----------
+involved in making peepee buzz g3 hot
+
+---------02:57----------
+it's the transistor involved in the buck
+
+---------02:58----------
+regulator that's making peepee buzz g3
+
+---------03:01----------
+OTT so first thing we're gonna do here
+
+---------03:02----------
+since this is corroded and has a direct
+
+---------03:04----------
+path to ground I'm going to check and
+
+---------03:06----------
+see if there's a short to ground over
+
+---------03:07----------
+here so let's take a look in that area
+
+---------03:11----------
+I'm gonna measure on pin 1 of L 71 30s
+
+---------03:16----------
+so L 71 31 and we're gonna get over in
+
+---------03:24----------
+check see what we get so let's see if
+
+---------03:26----------
+there's any type of short to ground that
+
+---------03:28----------
+could be causing this behavior make sure
+
+---------03:31----------
+you can see in there so yeah that's fine
+
+---------03:40----------
+there's nothing wrong here I was
+
+---------03:43----------
+checking a couple of others points that
+
+---------03:45----------
+I'm used to being a screwed up
+
+---------03:54----------
+hmm okay so this one's going to suck I
+
+---------03:59----------
+thought it was Q 7180 you know why that
+
+---------04:02----------
+sucks is because I thought I had a
+
+---------04:04----------
+chance of this actually being easy man
+
+---------04:09----------
+welcome to the videos that never make
+
+---------04:11----------
+their way to YouTube where I actually
+
+---------04:13----------
+actually use my brain and figure it out
+
+---------04:16----------
+for myself I want to use my brain
+
+---------04:19----------
+everybody else gets along not using
+
+---------04:21----------
+their brain why do I have to use mine
+
+---------04:24----------
+okay time for brain this part sucks
+
+---------04:29----------
+alright let's explain how the charger
+
+---------04:31----------
+works a little bit here so the charger
+
+---------04:33----------
+is not going to let power through to the
+
+---------04:34----------
+machine unless it sees a load and if
+
+---------04:36----------
+this transistor is not opening Q 7180
+
+---------04:39----------
+it's not going to actually see a load
+
+---------04:41----------
+which means it's going to turn on for a
+
+---------04:42----------
+quick millisecond illiterate self right
+
+---------04:45----------
+off right so there are a couple of
+
+---------04:47----------
+things that could cause us to not open
+
+---------04:49----------
+the il-62 5:9 could cause it to not open
+
+---------04:51----------
+it itself could be bad which could be
+
+---------04:53----------
+causing this if there's corrosion over
+
+---------04:54----------
+here I don't know maybe something around
+
+---------04:56----------
+it got screwed up so we're just going to
+
+---------04:58----------
+check some of the standard things that
+
+---------04:59----------
+caused this to happen let's see if the
+
+---------05:01----------
+current sensing section over here is
+
+---------05:03----------
+working the way it's supposed to
+
+---------05:06----------
+amber current if you don't know what
+
+---------05:08----------
+current sensing is view the videos that
+
+---------05:09----------
+I've done on consensus it will make
+
+---------05:11----------
+every all of this make a lot of sense so
+
+---------05:13----------
+this is going to tell how much power the
+
+---------05:16----------
+charger is pulling the this chip is
+
+---------05:18----------
+going to read the difference in voltage
+
+---------05:20----------
+between the top and the bottom this is
+
+---------05:22----------
+gonna be a bigger voltage difference
+
+---------05:23----------
+depending on you know if there's gonna
+
+---------05:25----------
+be a bigger voltage difference if the
+
+---------05:27----------
+computer is using more current which is
+
+---------05:29----------
+how they use 70 100 will tell however if
+
+---------05:31----------
+anything in this loop is blown it's not
+
+---------05:33----------
+gonna work right so we're gonna check by
+
+---------05:34----------
+our 71 21 and all right 71 22 and I'm
+
+---------05:42----------
+going there let's see where is Karen
+
+---------05:44----------
+sensing here where are you hiding okay
+
+---------05:47----------
+this is one of them I'm measuring the
+
+---------05:50----------
+entire circuit here
+
+---------05:53----------
+that's diode Margo what the hell not
+
+---------05:56----------
+diode MO you want resistance alright so
+
+---------06:00----------
+this one is probably the battery one
+
+---------06:01----------
+because why why you don't want you to
+
+---------06:03----------
+beep off
+
+---------06:06----------
+this is probably the battery one the
+
+---------06:09----------
+battery one below is the one that's
+
+---------06:10----------
+about 2 point 2 ohms altogether yeah so
+
+---------06:14----------
+see the battery also has ocurred sit
+
+---------06:16----------
+Sixth Circuit attached to it well you
+
+---------06:18----------
+won our seventy one fifty two and that's
+
+---------06:20----------
+two point two plus zero plus zero point
+
+---------06:23----------
+zero zero five all right so now we're
+
+---------06:24----------
+going to check the charger current
+
+---------06:27----------
+sensing circuit just gonna be this one
+
+---------06:29----------
+over here what I'm doing is I'm
+
+---------06:31----------
+measuring the entire resistance of the
+
+---------06:33----------
+circuit and twenty ohms
+
+---------06:36----------
+alright so could be a couple of
+
+---------06:38----------
+different things remember the the green
+
+---------06:39----------
+light is present when PPE 3v4 to
+
+---------06:42----------
+underscore g3 hot as presents so I'm
+
+---------06:44----------
+just gonna plug in my MagSafe here and
+
+---------06:47----------
+cfpb three before to underscore g3 hot
+
+---------06:49----------
+is present where it's supposed to be for
+
+---------06:51----------
+those of you who don't usually follow
+
+---------06:52----------
+these videos I would suggest you check
+
+---------06:54----------
+out my one wire circuit videos so that
+
+---------06:56----------
+you know what I mean when I say that I
+
+---------06:57----------
+need P P 3 V 4 to be present in order
+
+---------07:00----------
+for me to have a green light
+
+---------07:01----------
+so I don't want to check up here and I'm
+
+---------07:03----------
+going to see if P P 3 V 4 2 is present
+
+---------07:07----------
+it's not present I have now I'm
+
+---------07:12----------
+gonna check to see if I have a short to
+
+---------07:14----------
+ground on that particular rail it's not
+
+---------07:23----------
+no short to ground all right so now what
+
+---------07:26----------
+I'm going to do is I'm we want to check
+
+---------07:28----------
+the beginning of the circuit so all
+
+---------07:47----------
+right do you think I should go for it or
+
+---------07:49----------
+are they being salespeople I'll go for
+
+---------07:57----------
+it
+
+---------07:59----------
+ now thank you
+
+---------08:04----------
+sounds like my JBC is getting fixed it
+
+---------08:07----------
+sounds like steve's attempts to bargain
+
+---------08:09----------
+with JBC have failed
+
+---------08:10----------
+oh well 289 bucks for that nozzle though
+
+---------08:16----------
+that's 280 I mean you can buy a hot-air
+
+---------08:19----------
+station for that much money but it's
+
+---------08:21----------
+worth it it's a good station you know
+
+---------08:24----------
+people are like Lois you should ask
+
+---------08:26----------
+these companies if they want to sponsor
+
+---------08:27----------
+your show they Co are you kidding me I
+
+---------08:29----------
+keep kidding me
+
+---------08:31----------
+that's not happening in my lifetime
+
+---------08:33----------
+anyway back to business here so now
+
+---------08:36----------
+we're gonna check the beginning of the
+
+---------08:37----------
+pp 3 before 2 circuit
+
+---------09:10----------
+all right so let's see if I have power
+
+---------09:11----------
+coming in here are 70 20s so this is the
+
+---------09:15----------
+going to be the input to this circuit so
+
+---------09:16----------
+the whole idea is I'd like to check the
+
+---------09:18----------
+beginning in the end of a circuit the
+
+---------09:19----------
+reason is you should if there's a larger
+
+---------09:22----------
+problem I always kind of want to be
+
+---------09:23----------
+aware of the larger problem before I
+
+---------09:25----------
+continue down the rabbit hole so if I
+
+---------09:27----------
+start going let me troubleshoot you 70
+
+---------09:29----------
+90 let me troubleshoot an issue with the
+
+---------09:31----------
+PP 3 before 2 generator a regulator chip
+
+---------09:33----------
+then you know if there's a problem
+
+---------09:35----------
+before it I'm never gonna know but the
+
+---------09:37----------
+way I'm doing it right now if there's no
+
+---------09:39----------
+power going into you 70 90 I'm gonna
+
+---------09:41----------
+figure it out immediately so plug it in
+
+---------09:43----------
+and we're gonna check on our 70 20 here
+
+---------09:46----------
+go back to voltage mode in the meter
+
+---------09:54----------
+yeah you 1 0 spikes and goes down spikes
+
+---------10:05----------
+and goes down spikes and goes down hmm
+
+---------10:08----------
+now knowing that the charger is not
+
+---------10:10----------
+going to output voltage if it doesn't
+
+---------10:12----------
+see a load but maybe it's not seeing the
+
+---------10:15----------
+system load because Q 70 71 80 is blown
+
+---------10:21----------
+wouldn't it be cool if the actual
+
+---------10:24----------
+problem with the board was the problem I
+
+---------10:25----------
+thought it was in the beginning yeah
+
+---------10:28----------
+let's go with that
+
+---------10:29----------
+trusty
+
+---------10:34----------
+I trust my instincts turn on that Whaler
+
+---------10:39----------
+gonna make sure that I'm really really
+
+---------10:42----------
+patient here because you know thing
+
+---------10:44----------
+takes forever to actually get hot
+
+---------10:52----------
+mmm
+
+---------10:56----------
+once upon a time I thought that was the
+
+---------10:58----------
+best station ever
+
+---------10:59----------
+I miss my JBC I have to fix that thing
+
+---------11:12----------
+the JBC kicks the ever-loving out
+
+---------11:15----------
+of the hakko and the Weller I love it
+
+---------11:19----------
+man 289 bucks to fix that thing $289
+
+---------12:04----------
+yeah that's worth 289 bucks yeah waiting
+
+---------12:09----------
+this long is
+
+---------12:24----------
+would you like some with your flax
+
+---------12:26----------
+milk hey my flux ran away
+
+---------13:05----------
+what am i doing it's fine stop soldering
+
+---------13:08----------
+you with my attempt to make it
+
+---------13:14----------
+perfect I'm just making it worse and
+
+---------13:19----------
+we're gonna get a new transistor on
+
+---------13:21----------
+there
+
+---------14:59----------
+looks like somehow 9,000 right
+
+---------15:01----------
+there if I up by changing all
+
+---------15:06----------
+these settings there we go Hal 9000
+
+---------15:16----------
+charging MOSFET now for the ultimate
+
+---------15:22----------
+test we got to make sure that every
+
+---------15:23----------
+function on this works I have to make
+
+---------15:26----------
+sure every function works because I'm
+
+---------15:28----------
+getting trolled in these videos you know
+
+---------15:29----------
+okay you showed us the light works but
+
+---------15:31----------
+does that mean that everything works
+
+---------15:33----------
+does that mean that everything is good
+
+---------15:36----------
+how do we know that you're not lying at
+
+---------15:39----------
+the end you're not coming you're not
+
+---------15:41----------
+coming back here and not telling us when
+
+---------15:42----------
+stuff doesn't fully work are you well
+
+---------15:45----------
+guess what how about this right here I'm
+
+---------15:48----------
+gonna show you beyond any reasonable
+
+---------15:49----------
+doubt that everything on this device
+
+---------15:52----------
+works ready check it out check it out
+
+---------15:59----------
+see that that's a spinning fan which
+
+---------16:07----------
+means we're done and that's it for today
+
+---------16:12----------
+as always I hope you learned something
+
+---------16:15----------
+but just to go over in case you didn't
+
+---------16:18----------
+know these Apple chargers will not give
+
+---------16:21----------
+out voltage they won't give out if
+
+---------16:22----------
+they don't see a load if it doesn't see
+
+---------16:24----------
+a load for whatever reason it's not
+
+---------16:26----------
+going to work so it needs to see a load
+
+---------16:28----------
+and if that transistor is blown and you
+
+---------16:32----------
+just look at the board and you kind of
+
+---------16:33----------
+get an idea of where the corrosion was
+
+---------16:35----------
+then you start thinking about what it
+
+---------16:36----------
+could have affected and you start
+
+---------16:37----------
+looking at your problem you start
+
+---------16:39----------
+comparing what could be have been
+
+---------16:41----------
+affected by the Spill what is actually
+
+---------16:43----------
+going on and eventually your detective
+
+---------16:46----------
+brain will lead you to what it is and
+
+---------16:48----------
+that's it for today this video brought
+
+---------16:54----------
+to you by Weller WH a knight now
+
+---------16:57----------
+off outta here
+
+---------16:58----------
+I can't wait to get this thing back in
+
+---------17:00----------
+the student workstation where it belongs
+
+---------17:01----------
+I miss you j bc i miss you you know how
+
+---------17:05----------
+I broke the JVC I broke the JBC in a
+
+---------17:07----------
+really dumb way so when i'm when i'm
+
+---------17:10----------
+replacing macbook air screens I use I
+
+---------17:12----------
+use this and I showed you that I heat i
+
+---------17:14----------
+heat this so that when i as soon as I
+
+---------17:16----------
+put the spatula in I can just go around
+
+---------17:19----------
+it and the adhesive just melts right off
+
+---------17:21----------
+well I didn't have a nozzle on this
+
+---------17:23----------
+because I was moving an iPhone shield as
+
+---------17:24----------
+my last job which by the way why you
+
+---------17:26----------
+should never fix iPhones because if you
+
+---------17:28----------
+fix iPhones it'll cause you to ruin your
+
+---------17:30----------
+$1,800 hot-air station so and I shove
+
+---------17:33----------
+this right up in there thinking oh I'm
+
+---------17:35----------
+gonna get it I'm gonna get it to heat up
+
+---------17:37----------
+faster and I'm touching the heating
+
+---------17:38----------
+element and I'm shorting the heating
+
+---------17:40----------
+element to the case like you're
+
+---------17:41----------
+like an idiot which is why I'm now
+
+---------17:43----------
+paying the $289 idiot fee to get my JVC
+
+---------17:47----------
+back cuz I miss it I don't I don't I
+
+---------17:49----------
+don't want to use this anymore I'm sorry
+
+---------17:51----------
+I know I spoke nice of you months ago
+
+---------17:53----------
+but you clean that thing is just so much
+
+---------17:55----------
+better especially with this like
+
+---------17:58----------
+you see how long this is you see how
+
+---------17:59----------
+long the hot part is this is one of the
+
+---------18:00----------
+things that I didn't notice until later
+
+---------18:02----------
+on because there's no shield over this
+
+---------18:04----------
+like the hacker at least has that crappy
+
+---------18:05----------
+plastic shield over it right but this is
+
+---------18:08----------
+really thick really long this doesn't
+
+---------18:11----------
+sound right it's really thick
+
+---------18:13----------
+it's really long it's black oh this is
+
+---------18:17----------
+sounding even worse
+
+---------18:18----------
+and the ID there's no recovering from
+
+---------18:22----------
+that is there and the whole idea here is
+
+---------18:24----------
+when I'm heating it and I have let's say
+
+---------18:26----------
+I have my tweezers here and I have this
+
+---------18:30----------
+here this is gonna burn my hand and it
+
+---------18:34----------
+sucks
+
+---------18:34----------
+whereas this this JBC one which is
+
+---------18:38----------
+wrapped around my chair and in the
+
+---------18:40----------
+machine and a bunch of other stuff the
+
+---------18:44----------
+handpiece is up here this part is thin
+
+---------18:46----------
+it's closer to the bottom and it's not
+
+---------18:48----------
+that long so it's it's less likely to
+
+---------18:52----------
+burn you and it's just that I prefer it
+
+---------18:54----------
+that way I like I like having a lower
+
+---------18:56----------
+likelihood of having my hand burned over
+
+---------18:58----------
+the course of a repair that being said
+
+---------19:00----------
+that's it for today and as always I hope
+
+---------19:03----------
+you learned something and I hope this
+
+---------19:05----------
+was actually in sync
+
+---------19:13----------
+you
+

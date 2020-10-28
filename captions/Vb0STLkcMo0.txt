@@ -1,0 +1,1363 @@
+https://www.youtube.com/watch?v=Vb0STLkcMo0
+---------00:00----------
+all right so today we're gonna be going
+
+---------00:01----------
+over um MacBook Pro with nothing on the
+
+---------00:03----------
+screen and we're gonna make a couple of
+
+---------00:05----------
+quick measurements to see what's going
+
+---------00:07----------
+on in the circuit before we do that I
+
+---------00:09----------
+want to see if I can find myself a
+
+---------00:11----------
+sample diagram that's worthwhile here
+
+---------00:17----------
+one of the funny things here with this
+
+---------00:19----------
+whole argument and I think a lot of
+
+---------00:20----------
+people are missing out on when they say
+
+---------00:23----------
+oh that's that's you know that's special
+
+---------00:27----------
+that's a secret that's this or that or
+
+---------00:29----------
+the other what I think they're missing
+
+---------00:32----------
+out on is that the circuit is almost the
+
+---------00:35----------
+exact same as what the actual
+
+---------00:37----------
+manufacturer includes in their own
+
+---------00:39----------
+diagram so if I were to just go over
+
+---------00:42----------
+here to this part of the screen and I
+
+---------00:45----------
+were to zoom in over here
+
+---------00:47----------
+most of the chipsets that I'm replacing
+
+---------00:50----------
+or teaching you you know what what the
+
+---------00:51----------
+things do they come with these little
+
+---------00:54----------
+simplified schematics and the whole idea
+
+---------00:56----------
+here is that it it's pretty much telling
+
+---------00:58----------
+you how to recreate the exact same
+
+---------01:00----------
+circuit and it's usually almost the
+
+---------01:05----------
+exact same thing as what the
+
+---------01:07----------
+manufacturer will use so if we were to
+
+---------01:10----------
+look over here this this little diagram
+
+---------01:12----------
+this is a backlight boost circuit and
+
+---------01:15----------
+you have the beginning which is going to
+
+---------01:17----------
+be 5.5 to 22 volts in the case of our
+
+---------01:19----------
+machine 12 volts at the end of it you're
+
+---------01:21----------
+gonna have something around 27 volts now
+
+---------01:25----------
+you're going to have the enable pin has
+
+---------01:28----------
+to get 3.3 volts the pwm pin is going to
+
+---------01:31----------
+have to get a little wave for the
+
+---------01:33----------
+brightness to work so if we were to
+
+---------01:36----------
+attach this the first thing that I like
+
+---------01:38----------
+to do when it comes to any of these
+
+---------01:39----------
+situations is measure the voltage on
+
+---------01:41----------
+output she'd see knowing what the
+
+---------01:43----------
+voltage and output is gonna tell me a
+
+---------01:44----------
+couple of things so for example zero
+
+---------01:46----------
+volts means most likely back light fuse
+
+---------01:49----------
+is blown or that it just doesn't see a
+
+---------01:52----------
+screen let's say 27 volts would say bad
+
+---------01:57----------
+screen 18 volts would say something is
+
+---------01:59----------
+going on most likely with the boost I
+
+---------02:01----------
+see the boost I see is probably bad and
+
+---------02:03----------
+something like at 50 or 51 volts is
+
+---------02:06----------
+going to say that there's a break in the
+
+---------02:08----------
+line so let's say the screen cable could
+
+---------02:10----------
+be bad or the LCD connector could have a
+
+---------02:12----------
+burnt pin
+
+---------02:13----------
+now something along the lines of let's
+
+---------02:15----------
+say 0.5 volts or 1 volt or 2 volts is
+
+---------02:19----------
+going to also mean a break in the line
+
+---------02:21----------
+but that's gonna be a break in the line
+
+---------02:22----------
+earlier on see the reason I would get a
+
+---------02:24----------
+higher voltage if there's a break in the
+
+---------02:26----------
+line at the end is that if the boost
+
+---------02:28----------
+circuit is working let's say the boost
+
+---------02:29----------
+circuit is actually working but it
+
+---------02:31----------
+doesn't see a load let's say it's trying
+
+---------02:32----------
+to make 27 volts while powering a screen
+
+---------02:35----------
+if there's no screen at the end or the
+
+---------02:37----------
+the backlight is part of the screen is
+
+---------02:39----------
+broken off then it's going to try to
+
+---------02:42----------
+create 27 volts for a load but if that
+
+---------02:44----------
+load doesn't exist then it's going to
+
+---------02:46----------
+deliver more voltage than chip so think
+
+---------02:48----------
+of it like armwrestling like let's say
+
+---------02:50----------
+you're armwrestling and trying to beat
+
+---------02:51----------
+the other person right and using as much
+
+---------02:53----------
+force as you can and the other person
+
+---------02:54----------
+just decides to go limp for a second
+
+---------02:56----------
+your arm is gonna smash its way into the
+
+---------02:58----------
+table because you were expecting the
+
+---------03:01----------
+resistance of that other person who's
+
+---------03:02----------
+trying to beat you in the armwrestling
+
+---------03:03----------
+match if that resistance goes away now
+
+---------03:05----------
+you just put you putting all that
+
+---------03:07----------
+pressure into nothing the same is true
+
+---------03:08----------
+here so let's just check out the
+
+---------03:10----------
+different voltages we get now remember
+
+---------03:12----------
+if it doesn't detect the screen that's
+
+---------03:13----------
+different than the backlight part being
+
+---------03:15----------
+burned out so let's say it detects the
+
+---------03:17----------
+screen sees the image and all that but
+
+---------03:19----------
+the one line that's required for
+
+---------03:20----------
+backlight is broken that's when you'll
+
+---------03:22----------
+see the really high voltage however if
+
+---------03:24----------
+you see no voltage that it because it
+
+---------03:26----------
+doesn't detect the screen that means
+
+---------03:28----------
+that there's something wrong with the
+
+---------03:29----------
+graphics that's there's something wrong
+
+---------03:30----------
+with the LCD itself or there's something
+
+---------03:32----------
+wrong with the DDC circuit which is all
+
+---------03:34----------
+totally separate so when I check
+
+---------03:36----------
+backlight output here on the multimeter
+
+---------03:39----------
+on the multimeter
+
+---------03:42----------
+I'm never gonna learn how to record
+
+---------03:44----------
+youtube video man this is Bush it's
+
+---------03:47----------
+
+
+---------03:47----------
+it's like regardless of what camera
+
+---------03:49----------
+angle I use something doesn't
+
+---------03:51----------
+work or this we're gonna move this
+
+---------03:53----------
+desk here we go use those muscles mm-hm
+
+---------03:58----------
+alright so now our in view so let's
+
+---------04:02----------
+check output here and see what we get so
+
+---------04:03----------
+an output of backlight we get 1.5 volts
+
+---------04:06----------
+now keep in mind this is a circuit that
+
+---------04:08----------
+supposed to take 12 volt and turn into
+
+---------04:09----------
+27 so 1.5 doesn't make sense like 0
+
+---------04:13----------
+would mean blown fuse or it doesn't
+
+---------04:15----------
+detect the screen twelve volts would
+
+---------04:17----------
+mean no break in the line but there's
+
+---------04:19----------
+boosting but again like 1.5 something is
+
+---------04:26----------
+partially broken in the line
+
+---------04:27----------
+there's something that's intermittent
+
+---------04:28----------
+there and usually that's gonna be
+
+---------04:30----------
+somewhere back here let's see if I can
+
+---------04:34----------
+show you so usually that's going to be
+
+---------04:36----------
+somewhere by let's make sure CoA
+
+---------04:40----------
+connected here can you see what's on my
+
+---------04:41----------
+screen hope you can I forgot to turn on
+
+---------04:42----------
+the other second monitor that allows me
+
+---------04:44----------
+to see what you see let's double check
+
+---------04:47----------
+here there we go BAM
+
+---------04:48----------
+so this where the bat attaches to the
+
+---------04:51----------
+inductor sometimes that can be bad so we
+
+---------04:54----------
+could trace our way back through the
+
+---------04:55----------
+entire circuit now I do know based on a
+
+---------04:59----------
+little birdie telling me that the
+
+---------05:01----------
+voltage from the bat from here that's
+
+---------05:04----------
+the input to the coil also goes to
+
+---------05:08----------
+enable right so if I wanted to do a
+
+---------05:10----------
+quick check what I could do is I could
+
+---------05:12----------
+measure the voltage right at the
+
+---------05:15----------
+resistors that leads to enable and see
+
+---------05:19----------
+what I get there one point seven so same
+
+---------05:24----------
+ so the entire input to the circuit
+
+---------05:27----------
+is getting me virtually nothing now if I
+
+---------05:29----------
+were to check at the backlight fuse BAM
+
+---------05:33----------
+12.5 BAM 12.5 so here's the way this
+
+---------05:38----------
+works so there is a backlight fuse wrong
+
+---------05:41----------
+wrong view there's a back there's a fuse
+
+---------05:44----------
+that goes between the 12 volt rail in
+
+---------05:46----------
+here and then there's a transistor over
+
+---------05:48----------
+here that then allows power to flow
+
+---------05:50----------
+through to here it allows it to flow
+
+---------05:52----------
+through to here and everything else so
+
+---------05:54----------
+now what I'm thinking if this power at
+
+---------05:56----------
+the fuse day we're gonna have drawing
+
+---------05:57----------
+time with Lois so we're going to put off
+
+---------06:10----------
+fuse and that's going to go to
+
+---------06:39----------
+it's going to go to a transistor
+
+---------07:01----------
+here we go
+
+---------07:03----------
+image
+
+---------07:07----------
+BAM ahem yeah this there we go
+
+---------07:25----------
+alright so the way this works is this is
+
+---------07:26----------
+a transistor over here so this is going
+
+---------07:30----------
+to allow power to flow to the back light
+
+---------07:32----------
+circuit so this is gonna be the source
+
+---------07:33----------
+this is gonna be the drain which is the
+
+---------07:36----------
+output and this is gonna be the gate so
+
+---------07:37----------
+the way it transistor works is the power
+
+---------07:39----------
+is gonna flow from the source to the
+
+---------07:41----------
+drain depending on what's on the gate
+
+---------07:42----------
+now the whole idea here is you don't
+
+---------07:44----------
+always want the light to be on so the
+
+---------07:46----------
+cpu over here is going to tell the
+
+---------07:48----------
+transistor when to allow power to flow
+
+---------07:50----------
+from the fuse to the to the entire back
+
+---------07:54----------
+light circuits so what we have over here
+
+---------07:55----------
+is a case where the output is 1.5 volts
+
+---------08:00----------
+over here so this this we measured 1.5
+
+---------08:04----------
+volts now over here we measured 1.5
+
+---------08:07----------
+volts over here we measured 1.5 volts
+
+---------08:12----------
+over here we measured 12 over here we
+
+---------08:16----------
+measured 12 so the issue is either that
+
+---------08:19----------
+the transistor is not opening right the
+
+---------08:21----------
+transistor is not opening the way it's
+
+---------08:23----------
+supposed to or there's a break in the
+
+---------08:25----------
+line so for example right at this
+
+---------08:28----------
+transistor there's a break which where
+
+---------08:29----------
+it goes from here to here so our two
+
+---------08:32----------
+issues could be either the transistor is
+
+---------08:34----------
+ like this hopefully I have
+
+---------08:37----------
+control Z because I did a lot of druga
+
+---------08:38----------
+drawing there or there's a break in the
+
+---------08:40----------
+line like this make sense so what I'm
+
+---------08:45----------
+gonna do now is I'm gonna flip the board
+
+---------08:46----------
+around I'm gonna turn the microscope
+
+---------08:48----------
+camera on and then we're going to see
+
+---------08:50----------
+what where the break is exactly okay so
+
+---------08:52----------
+as you can see here this is a standard
+
+---------08:54----------
+standard customer MacBook very clean
+
+---------08:56----------
+very well taken care of you know very
+
+---------08:58----------
+very clean you know this standard stuff
+
+---------09:02----------
+hey Lois why do you wear gloves in your
+
+---------09:04----------
+videos hey Lois why do you wear gloves
+
+---------09:06----------
+in your videos hey why do you wear
+
+---------09:07----------
+gloves hey you have OCD man why do you
+
+---------09:09----------
+wear gloves why do you have to wear
+
+---------09:11----------
+gloves to touch a computer hey I don't
+
+---------09:13----------
+get it why do you why do you always
+
+---------09:15----------
+wearing gloves in all these videos yeah
+
+---------09:18----------
+you like that you like that you want to
+
+---------09:20----------
+touch that if I gave you a million
+
+---------09:22----------
+dollars to lick that clock chip would
+
+---------09:25----------
+you accept that million dollar challenge
+
+---------09:27----------
+million dollars to lick this motherboard
+
+---------09:30----------
+the rights are a pair bill would be
+
+---------09:32----------
+passed if I licked this motherboard you
+
+---------09:34----------
+know what I'd rather just throw
+
+---------09:36----------
+away and go to the genes
+
+---------09:38----------
+no it's not that so okay let's
+
+---------09:42----------
+measure let's measure around let's stop
+
+---------09:43----------
+ around yeah get the I
+
+---------09:48----------
+can't get camera angles right to save my
+
+---------09:50----------
+life okay now I do this I have to do
+
+---------09:57----------
+this now so you can see oh man I suck at
+
+---------10:02----------
+filming all right so let's check out we
+
+---------10:04----------
+get at the output of the transistor so
+
+---------10:07----------
+the transistors output is 1.8
+
+---------10:10----------
+transistors input you got 12 on em right
+
+---------10:18----------
+here we go okay so this is all right so
+
+---------10:26----------
+let's let's reconvene here let's let's
+
+---------10:28----------
+get it alright so this is a bit of a
+
+---------10:30----------
+better version I thinks of what's going
+
+---------10:32----------
+on so the way that this works is you
+
+---------10:33----------
+have 12 volts going through a fuse from
+
+---------10:35----------
+the fuse that power goes to a transistor
+
+---------10:37----------
+and from the transistor that power then
+
+---------10:40----------
+goes to the circuit now the whole idea
+
+---------10:41----------
+is the fuse access protection however
+
+---------10:43----------
+the transistor is going to be what lets
+
+---------10:47----------
+the power flow through now the whole
+
+---------10:49----------
+idea here with the transistor is that
+
+---------10:51----------
+the voltage and the source has to be
+
+---------10:53----------
+higher than the voltage on the gate in
+
+---------10:56----------
+order for this to actually open so this
+
+---------10:58----------
+is a long story short with transistors
+
+---------11:00----------
+the way this transistor works is the
+
+---------11:01----------
+voltage and the gates got to be lower
+
+---------11:03----------
+than the source or else this will not
+
+---------11:04----------
+let power through so how are we going to
+
+---------11:06----------
+get the voltage on the gate to be lower
+
+---------11:08----------
+than the voltage on the source well here
+
+---------11:11----------
+we have a voltage divider so we have
+
+---------11:13----------
+this voltage divider that's going to
+
+---------11:14----------
+take the voltage from this source and
+
+---------11:16----------
+place it on the gate and then this
+
+---------11:18----------
+second resistor in the voltage divider
+
+---------11:19----------
+is going to take the voltage from the
+
+---------11:20----------
+gate and bring it to ground but only if
+
+---------11:23----------
+the CPU says that it should go to ground
+
+---------11:26----------
+so the CPU is going to determine whether
+
+---------11:28----------
+this transistor opens now the problem
+
+---------11:30----------
+that you saw when I was measuring is
+
+---------11:32----------
+that on the source I had 12 volts and on
+
+---------11:35----------
+the gate I had 12 volts so if the source
+
+---------11:38----------
+is 12 volts and the gate is 12 volts
+
+---------11:40----------
+this being a p-channel MOSFET is not
+
+---------11:42----------
+going to want to open so there's a
+
+---------11:45----------
+couple of things that we could be going
+
+---------11:46----------
+on here the MOSFET could have an
+
+---------11:48----------
+internal short between the source and
+
+---------11:50----------
+the gate so that the
+
+---------11:51----------
+that it's never going to open the MOSFET
+
+---------11:53----------
+could be broken or the issue could be
+
+---------11:56----------
+that this capacitor over here is shorted
+
+---------11:58----------
+right so this 147 kiloohm resistor is
+
+---------12:01----------
+going to take the voltage and bring it
+
+---------12:02----------
+to ground that's gonna lower this to
+
+---------12:04----------
+about five or six volts however if this
+
+---------12:06----------
+capacitor over here that's sitting
+
+---------12:07----------
+between the fuse and the source and the
+
+---------12:10----------
+gate is shorted it's broken
+
+---------12:13----------
+then this resistor over here instead of
+
+---------12:16----------
+it being 301 kilohms it's gonna be the
+
+---------12:18----------
+the some of the resistance of the now
+
+---------12:22----------
+shorted capacitor and this so there are
+
+---------12:25----------
+a number of different things that could
+
+---------12:26----------
+be going on here or it could simply be
+
+---------12:28----------
+that the CPU is not allowing the voltage
+
+---------12:30----------
+divider the CPU is not telling it to
+
+---------12:32----------
+hope so the CPU is not opening this
+
+---------12:34----------
+meaning that the voltage divider is not
+
+---------12:36----------
+gonna work so the way a voltage divider
+
+---------12:37----------
+is going to work the voltage divider is
+
+---------12:39----------
+going to lower your power or lower your
+
+---------12:43----------
+voltage but it's gonna lower your
+
+---------12:44----------
+voltage by sending some of it to ground
+
+---------12:45----------
+so you have a resistor between 12 volts
+
+---------12:47----------
+and where you want 5 volts that's this
+
+---------12:49----------
+one over here and then you have a
+
+---------12:51----------
+resistor between where you want 5 volts
+
+---------12:52----------
+to be in ground so some of your power is
+
+---------12:54----------
+gonna go here something's gonna go to
+
+---------12:56----------
+ground so if this doesn't have a pair at
+
+---------12:58----------
+the ground because this other transistor
+
+---------12:59----------
+is not opening then you're kind of
+
+---------13:01----------
+ so let's take a look and try to
+
+---------13:03----------
+figure out which of these things is the
+
+---------13:05----------
+actual issue so I'm going to measure the
+
+---------13:08----------
+300 1 kilo ohm resistor and let's see
+
+---------13:11----------
+what I get for that so that's supposed
+
+---------13:13----------
+to be 301 kilo ohms according to my
+
+---------13:15----------
+Microsoft Paint and I get 4 kilohms
+
+---------13:17----------
+now again let's just use some logical
+
+---------13:20----------
+thinking here let's just use some
+
+---------13:21----------
+logical thinking so if my resistance
+
+---------13:24----------
+between this points over here if my
+
+---------13:26----------
+resistance between let's get a brush and
+
+---------13:29----------
+make it a nice color so if my resistance
+
+---------13:31----------
+between we're in Moscow hello Mouse
+
+---------13:33----------
+there yeah if my resistance between here
+
+---------13:36----------
+and here is 3 kilohms instead of 301
+
+---------13:40----------
+kilohms
+
+---------13:40----------
+what are the potential issues the first
+
+---------13:43----------
+one is that my capacitor has shorted so
+
+---------13:46----------
+if my capacitor breaks instead of it
+
+---------13:48----------
+being 2 plates like this it's gonna be 2
+
+---------13:50----------
+plates like this that are touching and
+
+---------13:51----------
+then this becomes lower now it could
+
+---------13:55----------
+also be that my resistor has been
+
+---------13:57----------
+destroyed if my resistor gets destroyed
+
+---------13:59----------
+then it could be that my resistance is
+
+---------14:02----------
+much lower but that's very unlikely when
+
+---------14:04----------
+a capacitor fails it fails but
+
+---------14:05----------
+becoming a lower resistance when a
+
+---------14:07----------
+resistor fails it usually fails becoming
+
+---------14:09----------
+a higher resistance so again this is a
+
+---------14:10----------
+ceramic capacitor here so any one of
+
+---------14:12----------
+these capacitors where you can see it
+
+---------14:14----------
+looks kind of orangey like this that's
+
+---------14:17----------
+on these boards it's usually a ceramic
+
+---------14:19----------
+capacitor so if this has failed it
+
+---------14:21----------
+becomes a short-circuit and it becomes
+
+---------14:23----------
+low resistance whereas if this fails I
+
+---------14:26----------
+hate not being able to see where this
+
+---------14:28----------
+dam cursor is then this usually becomes
+
+---------14:30----------
+a higher resistance so I'm not really
+
+---------14:31----------
+inclined to blame the resistor now it
+
+---------14:33----------
+could also be a failure of the
+
+---------14:34----------
+transistor itself if the transistor has
+
+---------14:36----------
+failed sort shorts the gate and bam so I
+
+---------14:40----------
+could remove the transistor or I could
+
+---------14:42----------
+remove the capacitor to try to see which
+
+---------14:43----------
+is that faults here so I'm gonna remove
+
+---------14:45----------
+the speaker I'm gonna turn on the air
+
+---------14:47----------
+filter because I'm pretty sure that as
+
+---------14:49----------
+soon as I put any heat on this board I'm
+
+---------14:52----------
+gonna smell whatever this person has
+
+---------14:54----------
+been eating for dinner for the past five
+
+---------14:55----------
+years and dumping into their
+
+---------14:57----------
+computer and we'll see which one it is
+
+---------15:00----------
+so place your bets do you think it's the
+
+---------15:02----------
+capacitor that's bad or the transistor
+
+---------15:05----------
+I'm placing my bet on the capacitor
+
+---------15:07----------
+because it's very very unlikely that a
+
+---------15:09----------
+component as large as that transistor
+
+---------15:12----------
+has failed but I can always be wrong so
+
+---------15:19----------
+let me go over here
+
+---------15:27----------
+the turn the air filter on even with the
+
+---------15:31----------
+air filter on I'm not gonna inhale flux
+
+---------15:33----------
+fumes but I'm pretty sure I'm gonna
+
+---------15:34----------
+smell with whatever this person ate for
+
+---------15:36----------
+dinner look at this what is this
+
+---------15:40----------
+larvae hey let me get that in focus what
+
+---------15:42----------
+is this is a moth gonna pop out of it
+
+---------15:47----------
+come on people
+
+---------16:04----------
+all right so the capacitor has been
+
+---------16:07----------
+removed so at this point I'm going to
+
+---------16:09----------
+measure for resistance
+
+---------16:17----------
+and see if anything has changed here
+
+---------16:28----------
+I still have 3.8 kilohms so at this
+
+---------16:33----------
+point I'm gonna remove the transistor my
+
+---------16:36----------
+bet was wrong
+
+---------16:38----------
+
+
+---------16:45----------
+can't win them all
+
+---------16:58----------
+okay hey sometimes you win sometimes you
+
+---------17:02----------
+lose
+
+---------17:02----------
+so let's see what I get now 300
+
+---------17:08----------
+kilometres one brain in the damn screen
+
+---------17:14----------
+because I surely don't have one so the
+
+---------17:16----------
+way that what was going on here and god
+
+---------17:19----------
+I can't fear we go I can see that now so
+
+---------17:21----------
+what was going on here is I removed the
+
+---------17:23----------
+capacitor and when I remove the
+
+---------17:24----------
+capacitor this resistor was still
+
+---------17:26----------
+measuring three kilohms now remember he
+
+---------17:28----------
+just because I'm measuring three kilo
+
+---------17:30----------
+ohms here does not mean the resistor
+
+---------17:31----------
+itself is three kilohms I'm measuring
+
+---------17:33----------
+the resistance of everything between
+
+---------17:35----------
+this point and this point so there's a
+
+---------17:39----------
+capacitor a resistor and a transistor
+
+---------17:41----------
+connected there so I removed the
+
+---------17:42----------
+capacitor just in case that was what was
+
+---------17:44----------
+doing it and it wasn't but when I
+
+---------17:45----------
+removed the resistor the resistance
+
+---------17:47----------
+between this point and this point went
+
+---------17:49----------
+up from three kilohms to three hundred
+
+---------17:51----------
+one kilo ohms which means that this
+
+---------17:53----------
+transistor was shorted at a short
+
+---------17:55----------
+between its source and its gate and
+
+---------17:56----------
+that's why I was getting 12 volts on the
+
+---------17:59----------
+gate even though this this entire
+
+---------18:02----------
+circuit was working so now we're gonna
+
+---------18:03----------
+replace the transistor and see what's
+
+---------18:05----------
+going on there what do you think of my
+
+---------18:07----------
+schematic what do you think of my in
+
+---------18:10----------
+schematic I should you know what I
+
+---------18:12----------
+should at least write my influences here
+
+---------18:15----------
+inspired by
+
+---------18:38----------
+it's kind of curious can I actually draw
+
+---------18:40----------
+that little stick figure guy no I can't
+
+---------18:51----------
+I suck gosh I shouldn't he yeah while
+
+---------18:58----------
+watching those gave me the inspiration
+
+---------19:01----------
+to not just stop doing videos
+
+---------19:29----------
+so Thank You grade
+
+---------19:34----------
+I thought that paint would have been too
+
+---------19:37----------
+hard for me to figure out and comprehend
+
+---------19:41----------
+but you have shown me that it's not
+
+---------19:50----------
+I must have watched his video with the
+
+---------19:52----------
+hacking thing like 30 times over not the
+
+---------19:55----------
+entire video but just the point with a
+
+---------19:56----------
+little stick figure gets asked what's
+
+---------19:58----------
+your real name yeah okay just what's
+
+---------20:01----------
+your real name before we send you the
+
+---------20:02----------
+SIM card I mean that is hilarious I
+
+---------20:07----------
+mean it's just that's that stuff is
+
+---------20:09----------
+universally hilarious and then the
+
+---------20:16----------
+t-mobile guy hangs up on
+
+---------20:23----------
+a
+
+---------20:35----------
+yeah oh well okay
+
+---------20:38----------
+I remember the bottom four legs are all
+
+---------20:40----------
+shorted together and they're actually
+
+---------20:42----------
+shorted together on the on the board
+
+---------20:44----------
+purposely
+
+---------21:58----------
+rather than enough
+
+---------22:26----------
+that's
+
+---------22:30----------
+that's fine ah
+
+---------22:53----------
+am
+
+---------22:59----------
+thud aah and that's that I think I'm
+
+---------23:08----------
+getting a better at Microsoft Paint you
+
+---------23:10----------
+guys think I think I'm starting to make
+
+---------23:13----------
+some progress here with Microsoft Paint
+
+---------23:15----------
+that's that hopefully you learned
+
+---------23:17----------
+something
+

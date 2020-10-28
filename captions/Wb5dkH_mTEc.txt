@@ -1,0 +1,1879 @@
+https://www.youtube.com/watch?v=Wb5dkH_mTEc
+---------00:00----------
+hey everybody how's it going so today
+
+---------00:01----------
+we're gonna be working on a board
+
+---------00:03----------
+there's got a bunch of really funky
+
+---------00:05----------
+stickers on it for this a 1706 MacBook
+
+---------00:10----------
+Pro it doesn't turn on
+
+---------00:11----------
+I still haven't set up my overhead
+
+---------00:13----------
+camera yet because busy so you can't see
+
+---------00:15----------
+me take the Machine apart so I'm gonna
+
+---------00:17----------
+explain what's going on with it to you
+
+---------00:18----------
+as I do my work and maybe you'll be able
+
+---------00:22----------
+to learn something I also don't have my
+
+---------00:24----------
+USB CMU dorami because I don't know
+
+---------00:26----------
+which box it's in but once we unpack
+
+---------00:29----------
+every box we'll get there soon so first
+
+---------00:32----------
+thing I'm going to do is check the
+
+---------00:35----------
+amount of Oh beautiful David as he is
+
+---------00:38----------
+this yours but if I take it then you
+
+---------00:41----------
+won't get it back alright David also has
+
+---------00:45----------
+a nicer font than mine mine yours is
+
+---------00:47----------
+like a sans-serif mine is kind of like a
+
+---------00:49----------
+sans always been more of a sans-serif
+
+---------00:51----------
+man myself so it's taking five point 18
+
+---------00:54----------
+volts at zero point zero zero amps now
+
+---------00:56----------
+on these boards in order to get to 20
+
+---------00:59----------
+volts the cd32 15 ship which is the USBC
+
+---------01:01----------
+MUX needs to get 3.3 volts of power and
+
+---------01:05----------
+if it doesn't get that it's not gonna
+
+---------01:06----------
+work so let's open up a schematic and a
+
+---------01:08----------
+board view for an 8 - 0 - 0 0 - 3 9
+
+---------01:11----------
+board and see if we can figure out how
+
+---------01:13----------
+to make this thing work again and make
+
+---------01:15----------
+it into a happy little MacBook that gets
+
+---------01:17----------
+fan spin where we got a good record so
+
+---------01:20----------
+far getting fan spin I got myself a pure
+
+---------01:22----------
+air VLF 48 to match Steve's other VLF 48
+
+---------01:26----------
+I bought it as broken not working and we
+
+---------01:28----------
+got the fan of spin because we are
+
+---------01:30----------
+there's anything we know how to do here
+
+---------01:32----------
+it's make the fan spin we may not be
+
+---------01:34----------
+able to get anything else to work other
+
+---------01:35----------
+than fan spin but a pure air VLF 48
+
+---------01:37----------
+don't need cpu vcore it doesn't need to
+
+---------01:40----------
+post and it doesn't need PPV core SOG PU
+
+---------01:42----------
+it literally just needs fan spin so I'm
+
+---------01:44----------
+on a roll here so let's take a look at
+
+---------01:47----------
+what's going on with this MacBook
+
+---------01:49----------
+motherboard I haven't had a time to get
+
+---------01:52----------
+my desk arranged in the office I'm
+
+---------01:53----------
+literally just using this for making
+
+---------01:55----------
+videos and working out there for the
+
+---------01:56----------
+time being because that allows me to
+
+---------01:58----------
+help customers while I'm fixing boards
+
+---------02:00----------
+and I am gonna be doing a lot of double
+
+---------02:03----------
+duty until everybody has finished
+
+---------02:04----------
+unpacking their stuff and moving
+
+---------02:06----------
+everything in which is taking lots of
+
+---------02:09----------
+time since people
+
+---------02:10----------
+there's just there's an abs enormous
+
+---------02:13----------
+pile of work that needs to be done here
+
+---------02:17----------
+so what do I mean when I say that we're
+
+---------02:20----------
+getting five volts in the CD 3250 need
+
+---------02:22----------
+to be getting 20 that's a great question
+
+---------02:24----------
+so here you have the USB see much chip
+
+---------02:27----------
+this is going to be the charge port
+
+---------02:29----------
+right over here on the computer the
+
+---------02:30----------
+charge port plugs in a J 3300 I can show
+
+---------02:33----------
+you in the overhead camera but haven't
+
+---------02:35----------
+had time to hook it up yet so that's
+
+---------02:37----------
+this that's the charger port and it
+
+---------02:39----------
+plugs in right over there now this is
+
+---------02:42----------
+going to speak to the CD 32 15 ship if I
+
+---------02:47----------
+clicked here you would eventually find a
+
+---------02:50----------
+line that speaks to this happy little CD
+
+---------02:53----------
+32 15 which is my USB muxing chip right
+
+---------02:57----------
+here C charge port goes up here and it's
+
+---------03:01----------
+gonna speak to the CD 32 15 now more
+
+---------03:08----------
+importantly so how does this chip get
+
+---------03:11----------
+power that's another excellent question
+
+---------03:13----------
+over here on the top you have V in V and
+
+---------03:17----------
+if we follow that it goes to pp 3 V 3
+
+---------03:20----------
+underscore g3 huh do we have that power
+
+---------03:22----------
+line present on the machine because if
+
+---------03:24----------
+we don't we're not going to get this to
+
+---------03:26----------
+work that's not gonna be able to allow
+
+---------03:28----------
+the machine to speak to this USB C
+
+---------03:30----------
+charger and tell it hey I'm not a go pro
+
+---------03:32----------
+I'm a MacBook give me 20 volts instead
+
+---------03:34----------
+of that 5 volt nonsense we're gonna turn
+
+---------03:37----------
+on Paul Daniels is amazing multimeter
+
+---------03:38----------
+software we're gonna measure and see
+
+---------03:41----------
+what we get on our PP 3 V 4 to
+
+---------03:43----------
+underscore I mean P P 3 V 3 underscore
+
+---------03:45----------
+g3 hot circuit I'm getting the names of
+
+---------03:47----------
+the rails wrong because I forget most of
+
+---------03:50----------
+the what I'm doing because I'm losing my
+
+---------03:54----------
+mind slowly okay let's take a look at
+
+---------03:57----------
+the pp 3 V 3 underscore g3 hot circuit
+
+---------04:00----------
+and see if we can figure out why weren't
+
+---------04:02----------
+missing that power rail because without
+
+---------04:03----------
+that rail our USBC MUX won't turn on
+
+---------04:05----------
+without our USB see much turning on the
+
+---------04:07----------
+charger won't turn on him without the
+
+---------04:08----------
+charger turning on the machine won't
+
+---------04:09----------
+turn on now this here is the pp 3 V 3
+
+---------04:12----------
+underscore g3 hot creation circuit so
+
+---------04:14----------
+let's take a look at this lovely circuit
+
+---------04:16----------
+here and see what's going on with it now
+
+---------04:18----------
+if you take a look at this circuit
+
+---------04:20----------
+you'll see that we have eight this is
+
+---------04:22----------
+very similar to the pp three before to
+
+---------04:23----------
+underscore G's
+
+---------04:24----------
+circuit on older MacBooks this can be
+
+---------04:28----------
+powered from either the DCN board or the
+
+---------04:30----------
+battery of people Bosch g3 hotter it's
+
+---------04:32----------
+gonna be powered by the DCN board now
+
+---------04:34----------
+the first thing I'm interested in here
+
+---------04:35----------
+is it being told to turn on and you can
+
+---------04:38----------
+always Google Mac seven seven five nine
+
+---------04:40----------
+six if you wanna really get a perfect
+
+---------04:42----------
+explanation of what everything does and
+
+---------04:44----------
+all that other rubbish but I'm a simple
+
+---------04:46----------
+person I just I play my wheel of fortune
+
+---------04:48----------
+like you know guess my vowel here this
+
+---------04:51----------
+is PM n p3 v 3 g3 hot is going to en e N
+
+---------04:56----------
+and enable enable so we need voltage on
+
+---------05:00----------
+pin 10 in order for this to work so
+
+---------05:01----------
+let's see where that shows up in my
+
+---------05:03----------
+board view over here and see if it's
+
+---------05:05----------
+being enabled so we can see if the chips
+
+---------05:06----------
+being told to turn on I'm not gonna
+
+---------05:08----------
+blame the chip for not working if it's
+
+---------05:10----------
+not being told to turn on so let's see
+
+---------05:12----------
+what we get on pin 10 no this chip I'm
+
+---------05:14----------
+gonna go into the microscope camera over
+
+---------05:16----------
+here we're gonna put the chip nice and
+
+---------05:17----------
+focus right over there and beautiful
+
+---------05:19----------
+focus I've actually seen online that
+
+---------05:22----------
+there's a fork a microscope camera that
+
+---------05:24----------
+you can get now that does 60 frames a
+
+---------05:27----------
+second it's really tempting to get that
+
+---------05:29----------
+but maybe once my credit card doesn't
+
+---------05:32----------
+have like 30 or 40 or 50 thousand
+
+---------05:34----------
+dollars of crap on it but it's [ __ ]
+
+---------05:37----------
+tempting like there's something about
+
+---------05:38----------
+video equipment and I can't say what it
+
+---------05:40----------
+is where I'm more than happy to look at
+
+---------05:43----------
+it and say you know what my credit card
+
+---------05:44----------
+balance is 50k right now after moving
+
+---------05:46----------
+not really sure what I'm gonna do about
+
+---------05:47----------
+that but I'm willing to add to that so I
+
+---------05:50----------
+can have more pixels on the screen when
+
+---------05:52----------
+this clearly works it's just it's it's
+
+---------05:53----------
+it's crazy and the problem is that I
+
+---------05:55----------
+have a man named Paul who works here and
+
+---------05:57----------
+every time I say that I don't need it I
+
+---------05:59----------
+just want it he'll say you know you need
+
+---------06:02----------
+it he's the absolute worst influence
+
+---------06:03----------
+when it comes to this and the worst part
+
+---------06:05----------
+about this is that this store is very
+
+---------06:07----------
+close to B&H photo we're actually much
+
+---------06:09----------
+closer it's about a three minute walk
+
+---------06:11----------
+now from B&H which means that every time
+
+---------06:14----------
+I have these these tube stupid terrible
+
+---------06:16----------
+awful god yeah
+
+---------06:19----------
+thoughts is that I'm right near the
+
+---------06:22----------
+place or I can display John it it's
+
+---------06:26----------
+really really bad so bad so awful
+
+---------06:30----------
+so speaking of awful we have point zero
+
+---------06:33----------
+five volts and our enabled so now let's
+
+---------06:35----------
+try to trace that back and see where our
+
+---------06:36----------
+enable comes from now if we trace that
+
+---------06:38----------
+back
+
+---------06:38----------
+on the board you could see zoom out a
+
+---------06:41----------
+little bit here yet it shows up on you
+
+---------06:44----------
+7,000 u 7,000 look at that right over
+
+---------06:50----------
+here and that is our ISL of 9 2 3 9 ship
+
+---------06:56----------
+which appleís is an is all 6 2 5 9
+
+---------06:59----------
+because well you know it's all the
+
+---------07:02----------
+unauthorized repair people that don't
+
+---------07:03----------
+know what they're doing
+
+---------07:04----------
+I may be unauthorized but I know the
+
+---------07:07----------
+name of the chip that I need on the
+
+---------07:09----------
+computer I don't like it's really really
+
+---------07:14----------
+getting hard to make that argument that
+
+---------07:16----------
+the unauthorized people suck at what
+
+---------07:17----------
+they do Apple these hearings through
+
+---------07:20----------
+your trade associations because you
+
+---------07:21----------
+don't want to show up yourself to lobby
+
+---------07:23----------
+against right to repair you get the CTA
+
+---------07:24----------
+to do it for you hard to make that
+
+---------07:26----------
+argument when your own [ __ ] manuals
+
+---------07:28----------
+don't list the names of the chips as
+
+---------07:30----------
+what they actually are but I'm not salty
+
+---------07:33----------
+I'm not salty at all so let's check out
+
+---------07:37----------
+the that on the machine which means I'm
+
+---------07:39----------
+gonna have to take this board out and
+
+---------07:41----------
+take a look at that chip on the other
+
+---------07:42----------
+side of the board and see what's going
+
+---------07:44----------
+on with it and I guess you'll just get
+
+---------07:45----------
+to see my ugly face for the time being
+
+---------07:47----------
+because I don't have the overhead camera
+
+---------07:50----------
+I'm gonna see my ugly face with my
+
+---------07:53----------
+scruffy hair since they didn't have any
+
+---------07:55----------
+conditioner left at the gym after I oh I
+
+---------07:57----------
+didn't take a shower there usually they
+
+---------07:59----------
+do this time they didn't you don't want
+
+---------08:01----------
+it you need a great thing to put on yeah
+
+---------08:04----------
+yeah that's that's cancer
+
+---------08:05----------
+Louis you'll be be NHS newest VIP
+
+---------08:08----------
+customer no no more be in no B&H no B&H
+
+---------08:11----------
+i went there the other day and i spent
+
+---------08:13----------
+400 something dollars on a bag because
+
+---------08:15----------
+it's really difficult to carry around
+
+---------08:17----------
+all the scraps all the right to repair
+
+---------08:19----------
+earrings because i have all this backup
+
+---------08:20----------
+[ __ ] like i have a laptop i have the
+
+---------08:22----------
+camcorder i have the two lenses i have
+
+---------08:23----------
+the external battery for when the i
+
+---------08:25----------
+can't get stuff plugged in properly i
+
+---------08:27----------
+have two wireless stuff all that [ __ ]
+
+---------08:29----------
+I've been lugging it around in two
+
+---------08:30----------
+separate bags that are both exploding it
+
+---------08:32----------
+makes it and it also it doesn't hold a
+
+---------08:34----------
+tripod properly and a lot of the times
+
+---------08:36----------
+you're kind of running and gunning
+
+---------08:37----------
+sometimes I like to be able to speak to
+
+---------08:38----------
+people outside of the room that showed
+
+---------08:39----------
+up and it's much and I want to be able
+
+---------08:41----------
+to do that before people leave so I got
+
+---------08:44----------
+this different bag that would allow me
+
+---------08:45----------
+to actually speak to people outside a
+
+---------08:48----------
+little bit easier roll stuff around
+
+---------08:49----------
+quicker
+
+---------08:50----------
+maybe my stuff wouldn't get broken as
+
+---------08:52----------
+much when I travel I learned that lesson
+
+---------08:54----------
+from my lens getting sodomized but like
+
+---------08:56----------
+that was that was supposed to be it but
+
+---------08:57----------
+then I walked it to be an H and once you
+
+---------08:59----------
+shop at B&H they send you this book of
+
+---------09:01----------
+all the other stuff that they have it's
+
+---------09:03----------
+so dangerous it's so dangerous
+
+---------09:05----------
+it's scary I'm telling you because when
+
+---------09:09----------
+you look in the book of this stuff it's
+
+---------09:10----------
+like well I have an aps-c camera
+
+---------09:13----------
+wouldn't it be nice to have a super 35
+
+---------09:14----------
+millimeter towards setting up the
+
+---------09:16----------
+overhead camera Thank You n BOTS I have
+
+---------09:18----------
+a 1080p camera would it be nice to have
+
+---------09:20----------
+a 4k 60 camera that does super that has
+
+---------09:22----------
+a super 35 millimeter sensor rather than
+
+---------09:24----------
+aps-c what if you get a 6k camera
+
+---------09:27----------
+because it'll look better when you
+
+---------09:28----------
+downsampled a 4k than just recording in
+
+---------09:30----------
+4k but that thing doesn't record an
+
+---------09:32----------
+intra frame so it's harder to edit you
+
+---------09:33----------
+want the camera that can record an intra
+
+---------09:35----------
+frame so it's easier to know not going
+
+---------09:37----------
+down that [ __ ] nope not going down that
+
+---------09:39----------
+rabbit hole I love my little Sony NEX a
+
+---------09:41----------
+50 a little obsolete piece of [ __ ]
+
+---------09:43----------
+camera
+
+---------09:44----------
+it's broken HD you know I got as a
+
+---------09:47----------
+broken HDMI port I bought an HDMI port
+
+---------09:49----------
+it's actually pretty impressive this
+
+---------09:51----------
+thing comes straight from Sony check the
+
+---------09:52----------
+cellar that sony logo on the parts bin
+
+---------09:55----------
+by the way see that fast autofocus
+
+---------09:56----------
+that's why I don't have a Panasonic
+
+---------09:58----------
+someone asked me why I don't have a
+
+---------09:59----------
+Panasonic look at this so it set the
+
+---------10:01----------
+face focus right now so it's not gonna
+
+---------10:02----------
+focus on the bag quickly when I take the
+
+---------10:04----------
+bag out of you found you oh my or if I
+
+---------10:07----------
+do this the Panasonic autofocus is
+
+---------10:11----------
+[ __ ] terrible on the gh4 I can move
+
+---------10:16----------
+this around like crazy but I'm always in
+
+---------10:18----------
+focus running and gunning with exploding
+
+---------10:20----------
+bags and government buildings what can
+
+---------10:21----------
+go wrong indeed Christopher Kelley what
+
+---------10:23----------
+could go wrong yeah I've seen the
+
+---------10:24----------
+Panasonic gh4 and G face focus and
+
+---------10:28----------
+tracking for an expensive camera that
+
+---------10:30----------
+[ __ ] is awful yeah Sony autofocus is
+
+---------10:32----------
+really on point and one thing I read I
+
+---------10:33----------
+was looking at the sony fs7 I was this
+
+---------10:35----------
+close the bidding on them when I really
+
+---------10:37----------
+I like I know I cannot [ __ ] buy that
+
+---------10:39----------
+[ __ ] right now like that now is not the
+
+---------10:40----------
+time to buy a new camera and I was this
+
+---------10:43----------
+close to winning one which thank God I
+
+---------10:44----------
+did not because I probably would have
+
+---------10:45----------
+wound up backing out of it and getting
+
+---------10:47----------
+an ebay on paid item claim apparently it
+
+---------10:50----------
+focuses slower than this thing like how
+
+---------10:51----------
+is it to the sony fs7 first generation a
+
+---------10:54----------
+slower autofocus than e NEX da 50 which
+
+---------10:57----------
+by all standards is kind of a prosumer
+
+---------10:59----------
+camera not even really a professional
+
+---------11:00----------
+one but the face auto detect and focus
+
+---------11:04----------
+on this thing
+
+---------11:04----------
+really on point like it knows where I am
+
+---------11:06----------
+all the time can utilize camera do that
+
+---------11:12----------
+actually Eli's probably can because he
+
+---------11:14----------
+his is a Sony they have really good
+
+---------11:16----------
+autofocus I used to make fun of Paul for
+
+---------11:18----------
+walking into B and H and then leaving
+
+---------11:19----------
+like three or four six thousand dollars
+
+---------11:21----------
+lighter but I get it I really do
+
+---------11:23----------
+I get it I can't make fun of them
+
+---------11:25----------
+anymore for it cuz I'm not I'm not much
+
+---------11:27----------
+better right so here we have the is l9
+
+---------11:29----------
+239 and the chip looks fine I don't see
+
+---------11:31----------
+anything wrong with this chip but what
+
+---------11:33----------
+I'm going to do is I'm gonna replace it
+
+---------11:35----------
+with another one because it's not
+
+---------11:37----------
+putting out the signal that it supposed
+
+---------11:38----------
+to and that makes me mad so I'm gonna
+
+---------11:40----------
+put the right amount of Amtech flux on
+
+---------11:42----------
+top of it just a little bit just a
+
+---------11:48----------
+little flux not too much not too little
+
+---------11:50----------
+not too much and I don't have a mat in
+
+---------11:53----------
+my office yet I forgot to buy something
+
+---------11:55----------
+so I'm gonna use a donor board as my mat
+
+---------11:56----------
+for now so I don't burn the desk too
+
+---------11:59----------
+badly all right there we go there we go
+
+---------12:05----------
+all right are we all ready for this is
+
+---------12:08----------
+l9 239 replacement are you excited by
+
+---------12:11----------
+the way you may notice that this board
+
+---------12:12----------
+has zero liquid damage so what does that
+
+---------12:15----------
+tell you that the board is zero liquid
+
+---------12:17----------
+but it's dead
+
+---------12:20----------
+if this chip fixes the problem what does
+
+---------12:23----------
+this board lack of liquid damage tell
+
+---------12:25----------
+you
+
+---------12:33----------
+what this tells me is that it's not
+
+---------12:37----------
+simply people that get liquid on their
+
+---------12:38----------
+MacBooks that end up with a dead MacBook
+
+---------12:40----------
+you could not do it anything bad to this
+
+---------12:43----------
+you could treat the MacBook very nicely
+
+---------12:44----------
+and you can still have a problem where
+
+---------12:47----------
+it just dies and it's just dead and this
+
+---------12:50----------
+is why when I show up at these hearings
+
+---------12:52----------
+and I talk about the lack of
+
+---------12:53----------
+availability of certain chipsets that
+
+---------12:55----------
+it's important because with the new
+
+---------12:57----------
+machine if you had this exact same
+
+---------12:59----------
+problem with this chip failing it would
+
+---------13:01----------
+be an absolute nightmare for me to fix
+
+---------13:02----------
+it what I have to do with the new
+
+---------13:04----------
+machine is I need to order a battery
+
+---------13:07----------
+board for a hundred and twenty nine
+
+---------13:08----------
+dollars take the chip off of it then
+
+---------13:11----------
+reball that chip which is an extra pain
+
+---------13:13----------
+in the ass
+
+---------13:14----------
+solder it onto the board and you bet
+
+---------13:16----------
+your ass at that for $129 and extra work
+
+---------13:19----------
+is getting passed on to the customer and
+
+---------13:21----------
+then throw away the battery board
+
+---------13:25----------
+because that battery board and battery
+
+---------13:27----------
+that goes with it is now useless it's a
+
+---------13:29----------
+complete and utter waste it adds to the
+
+---------13:32----------
+turnaround time of the repair it makes
+
+---------13:34----------
+for a pissed-off customer they're not
+
+---------13:38----------
+only going to be pissed off at Apple
+
+---------13:39----------
+because the product is less repairable
+
+---------13:41----------
+but they're also going to be pissed off
+
+---------13:43----------
+at me and that sucks by the way the pad
+
+---------13:46----------
+that came off is a not connected pad as
+
+---------13:48----------
+you can see over here in the schematic
+
+---------13:49----------
+and board view so it doesn't really
+
+---------13:51----------
+matter and the unconnected pads come off
+
+---------13:53----------
+very easily because they're not really
+
+---------13:54----------
+it he's on the board that will you know
+
+---------13:56----------
+how you don't do the you don't do your
+
+---------13:59----------
+job as well when you know that it
+
+---------14:01----------
+doesn't matter the people when the board
+
+---------14:03----------
+is put together it's kind of similar
+
+---------14:04----------
+like the pads just don't stick as well
+
+---------14:06----------
+onto the sections where there's nothing
+
+---------14:08----------
+there where there's no signal so don't
+
+---------14:12----------
+feel too bad if when there's a part of
+
+---------14:15----------
+your job that no one will notice no one
+
+---------14:16----------
+will care about no one will use you
+
+---------14:18----------
+don't do it as well because the trillion
+
+---------14:20----------
+dollar company pretty much does the
+
+---------14:21----------
+exact same thing the boy in that there's
+
+---------14:25----------
+no big deal about that those pads never
+
+---------14:27----------
+stick as well if it's and if it's an NC
+
+---------14:29----------
+pad or unconnect as you can see my ISO 9
+
+---------14:32----------
+239 also made a jump for it
+
+---------14:35----------
+that's the other reason why it's nice to
+
+---------14:37----------
+have chips and spools because if the
+
+---------14:39----------
+chip makes it jump if the chip tries to
+
+---------14:41----------
+escape you can just grab another one out
+
+---------14:44----------
+of the spool instead
+
+---------14:45----------
+like if this was $129 every time that
+
+---------14:48----------
+happened I would be very very pissed off
+
+---------14:50----------
+all right Who am I kidding I just the
+
+---------14:52----------
+lower the air airflow on my hot air
+
+---------14:54----------
+station okay let's put this chip back on
+
+---------15:05----------
+see if Lewis remembers how to replace a
+
+---------15:07----------
+BGA it's been a while hasn't it well I'm
+
+---------15:13----------
+sure we can get this thing on
+
+---------15:40----------
+now here's something even if you're
+
+---------15:42----------
+using a ridiculous amount of air so
+
+---------15:43----------
+right now just to make a point I'm going
+
+---------15:44----------
+to do this at full air flow if you start
+
+---------15:46----------
+it from far away and the flux gets warm
+
+---------15:49----------
+it's going to start to engulf the balls
+
+---------15:53----------
+so that it's easier to solder it on the
+
+---------15:57----------
+board without it flying away see that
+
+---------15:59----------
+see that surface tension I work there
+
+---------16:00----------
+that surface tension at work that's
+
+---------16:03----------
+beautiful
+
+---------16:04----------
+okay it's solder now we're just going to
+
+---------16:06----------
+wait for it to cool off for a moment now
+
+---------16:08----------
+I believe that we have a very nicely
+
+---------16:12----------
+fixed board at this point I'm gonna take
+
+---------16:14----------
+up my bets that this is going to take
+
+---------16:16----------
+twenty volts and just turn on and work
+
+---------16:18----------
+beautifully no questions asked no
+
+---------16:21----------
+problems at all or not okay maybe
+
+---------16:28----------
+there's a little bit over there I'm kind
+
+---------16:30----------
+of curious how much that corrosion has
+
+---------16:31----------
+to do with it that's corrosion by the
+
+---------16:32----------
+bottom cd32 fifteen we'll see how much
+
+---------16:35----------
+that affects it in a second five volts
+
+---------16:40----------
+zero amps oh okay
+
+---------16:46----------
+so perhaps it wasn't the ISO
+
+---------16:48----------
+ninety-three 9 after all okay let's
+
+---------16:54----------
+scrape the corrosion over here
+
+---------17:02----------
+scrape scrape scrape turn up didn't
+
+---------17:05----------
+scrape scrape scrape do not
+
+---------17:42----------
+this board is actually gonna make me
+
+---------17:44----------
+work for my money okay so we're getting
+
+---------17:48----------
+five volts on the enable so the ISO nine
+
+---------17:51----------
+two three nine change actually did do
+
+---------17:53----------
+something because before we add zero
+
+---------17:54----------
+volts on that enable but now as you can
+
+---------17:56----------
+see we get five volts on enable and PP
+
+---------18:01----------
+3v3 underscore g3 hot is still zero
+
+---------18:03----------
+point zero eight so that's that's a
+
+---------18:05----------
+problem so now let's try and figure out
+
+---------18:07----------
+why PPV three underscore g3 hot is
+
+---------18:09----------
+missing and figure out why that's
+
+---------18:11----------
+missing I am going to get my board view
+
+---------18:15----------
+software on the screen okay let's see if
+
+---------18:17----------
+voltage is coming into the chip so right
+
+---------18:20----------
+over here on d6 nine on two I'm supposed
+
+---------18:22----------
+to have the 18 volts of the five volts
+
+---------18:26----------
+on the charger in this case going
+
+---------18:27----------
+through there let's see if I have it
+
+---------18:28----------
+coming through
+
+---------18:39----------
+[Music]
+
+---------18:42----------
+4.6 alright that's doing what it's
+
+---------18:44----------
+supposed to wait I'm measuring the wrong
+
+---------18:51----------
+resistor that's P P bus that's not P P 3
+
+---------18:53----------
+P 3 okay I am getting this is P P 3 P 3
+
+---------18:58----------
+I'm being dumb 1.5 yeah that's kind of
+
+---------19:03----------
+there it's kind of half there ok let's
+
+---------19:10----------
+see do we have any so it's trying you
+
+---------19:14----------
+know it's not full but it's something
+
+---------19:16----------
+kind of wondering if this campus sitter
+
+---------19:18----------
+is giving me an active short capacitor
+
+---------19:24----------
+had corrosion on it and that is this
+
+---------19:27----------
+one's for P P 3 P 3 underscore G 3 huh
+
+---------19:29----------
+and this is for the L do for this chip
+
+---------19:33----------
+let's see what happens if we just take
+
+---------19:35----------
+those two off see what happens here
+
+---------19:47----------
+a wild erica has just appeared
+
+---------19:56----------
+Erica says hello to YouTube and twitch
+
+---------19:59----------
+unlike Lewis Erica doesn't forget about
+
+---------20:02----------
+twitch although she does this twitch
+
+---------20:05----------
+second even though it's alphabetically
+
+---------20:06----------
+first trigger hard I can't eat cookies
+
+---------20:12----------
+Erica out of shape I did I'm not gonna
+
+---------20:20----------
+undo it by eating a cookie no cookie
+
+---------20:35----------
+no cookie yeah I don't have any alcohol
+
+---------20:38----------
+back here can you give me some alcohol
+
+---------20:40----------
+go from it and now just give me it give
+
+---------20:43----------
+me an alcohol bottle they gotta be
+
+---------20:44----------
+somewhere I'm gonna have to get an
+
+---------20:48----------
+alcohol dispenser back here Thank You
+
+---------20:53----------
+Aaron
+
+---------20:54----------
+everybody say thank you to our assistant
+
+---------20:56----------
+Erica here we go five point two volts
+
+---------20:59----------
+300 milliamps and now it's taking 20
+
+---------21:02----------
+volts at 0.45 M so most likely we had a
+
+---------21:05----------
+short two grounds on that capacitor that
+
+---------21:06----------
+makes the L do so that those two caps
+
+---------21:10----------
+that were corroded by the CD 3215 so we
+
+---------21:12----------
+actually had two separate issues on this
+
+---------21:13----------
+board is this not exciting or what folks
+
+---------21:15----------
+man are you on the edge of your seat
+
+---------21:17----------
+right now or what did you not miss this
+
+---------21:19----------
+quality television not only was the CD
+
+---------21:22----------
+32:15 not turning on because it wasn't
+
+---------21:24----------
+getting 3.3 volts from P P 3 P 3
+
+---------21:25----------
+underscore g3 hot because it wasn't
+
+---------21:27----------
+being enabled by the ISO 93 9 which
+
+---------21:30----------
+happened to be dead but after all was
+
+---------21:31----------
+enabled we were getting one point 36
+
+---------21:33----------
+volts on 233 underscore g3 hot set of
+
+---------21:35----------
+3.3 volts on PP 33 underscore g3 hot
+
+---------21:37----------
+because of an active short on two
+
+---------21:39----------
+capacitors for the LDL and for P P
+
+---------21:41----------
+through v3 underscore g3 on itself
+
+---------21:42----------
+underneath the CD 3215 oh em gee I'm so
+
+---------21:46----------
+excited so now we're gonna put those
+
+---------21:49----------
+capacitors back on and we're gonna have
+
+---------21:50----------
+a happy working MacBook Cady security in
+
+---------21:52----------
+your store no we don't need kiddie
+
+---------21:54----------
+security in the new store because unlike
+
+---------21:56----------
+the old store this one's gonna have an
+
+---------21:57----------
+alarm system alarm system the one thing
+
+---------22:00----------
+I knew have to read in the reviews is
+
+---------22:01----------
+[ __ ] ADT oh my god they have it's it's
+
+---------22:04----------
+crazy that these companies have such
+
+---------22:06----------
+great brand name recognition but you can
+
+---------22:07----------
+go to them so many websites and just see
+
+---------22:09----------
+a thousand one-star reviews because the
+
+---------22:11----------
+thing is you know your company's doing
+
+---------22:13----------
+something you know your company's doing
+
+---------22:15----------
+something wrong when you have a thousand
+
+---------22:17----------
+one-star reviews and it's not like you
+
+---------22:19----------
+have a thousand one-star reviews - 10
+
+---------22:22----------
+million five-star reviews it's like a
+
+---------22:24----------
+thousand one-star reviews and a couple
+
+---------22:26----------
+good ones weren't you in the field of
+
+---------22:29----------
+mounting security systems you know how I
+
+---------22:31----------
+have students that will show up to learn
+
+---------22:34----------
+board repair and they'll suck and
+
+---------22:36----------
+they'll go back to you know doing screen
+
+---------22:38----------
+repair and then like stocks or something
+
+---------22:40----------
+that's kind of me when it comes to
+
+---------22:42----------
+security so yeah did I take a course on
+
+---------22:44----------
+access control and security systems yes
+
+---------22:46----------
+do I want to install my
+
+---------22:49----------
+no camera systems absolutely I'll
+
+---------22:51----------
+install my own camera systems but I am
+
+---------22:53----------
+no I'm not gonna install my own took AK
+
+---------22:56----------
+I'm not going to install my own security
+
+---------22:57----------
+alarm not that if I did that I'd like it
+
+---------23:01----------
+to actually work I'll put it that way I
+
+---------23:03----------
+know what I know and I know what I don't
+
+---------23:05----------
+know
+
+---------23:06----------
+yeah Oreo doesn't have a job anymore
+
+---------23:07----------
+it's important to know what you don't
+
+---------23:09----------
+know too many people out there don't
+
+---------23:10----------
+know what they don't know I agree but
+
+---------23:11----------
+one of the things that I learned from
+
+---------23:12----------
+the Eugene scenario is that even if I
+
+---------23:14----------
+know what I don't know that I part of me
+
+---------23:17----------
+is really duh I want to hire a
+
+---------23:19----------
+professional and I want the professional
+
+---------23:21----------
+to just do what they're supposed to do
+
+---------23:22----------
+without being bothered by me but I
+
+---------23:24----------
+because I know I what I don't know but
+
+---------23:26----------
+at the same time I have to not be afraid
+
+---------23:28----------
+to be a little bit arrogant and think to
+
+---------23:30----------
+myself you know what I don't know
+
+---------23:32----------
+anything about this topic but I'm still
+
+---------23:34----------
+going to push if I think something isn't
+
+---------23:36----------
+right and I don't care if that makes me
+
+---------23:37----------
+seem like a dick I don't care if that
+
+---------23:39----------
+makes me seem like an awful customer or
+
+---------23:42----------
+an idiot or or a jackass or whatever I
+
+---------23:46----------
+don't care if I look like a [ __ ] and
+
+---------23:47----------
+the thing is I'm usually not afraid of
+
+---------23:49----------
+looking stupid but what I learned from
+
+---------23:50----------
+that experience is I have to be okay
+
+---------23:52----------
+with not caring if I look dumb if
+
+---------23:55----------
+something doesn't seem right just even
+
+---------23:57----------
+in the tiniest way doesn't matter if the
+
+---------23:59----------
+people around you that know more than
+
+---------24:02----------
+you on the topic are telling you it's
+
+---------24:03----------
+right if you genuinely believe it's not
+
+---------24:05----------
+right then just [ __ ] go with that gut
+
+---------24:07----------
+feeling anyway that being said let's see
+
+---------24:10----------
+if I get a screen going on here you'll
+
+---------24:12----------
+see that we've booted into an operating
+
+---------24:14----------
+system there so this machine is indeed
+
+---------24:17----------
+working so we had two separate issues
+
+---------24:20----------
+with this MacBook that we were able to
+
+---------24:21----------
+resolve the first issue was that the PP
+
+---------24:24----------
+3b3 underscore g3 hot rail was not
+
+---------24:27----------
+turning on because it was missing its
+
+---------24:28----------
+enable signal and as a result of missing
+
+---------24:30----------
+its enable signal from a broken ISO nine
+
+---------24:31----------
+239 the USB C port controller it
+
+---------24:34----------
+requires PP 3300 g3 hot to work the CD
+
+---------24:36----------
+32 15 Co zero zero was not speaking to
+
+---------24:38----------
+the charger in requesting 20 volts
+
+---------24:40----------
+rather than five volts we got five volts
+
+---------24:42----------
+on the USBC ammeter the secondary issue
+
+---------24:44----------
+that we were having is that P P 33
+
+---------24:45----------
+undersquare g3 huh
+
+---------24:47----------
+powers the CD 32 15 which then powers in
+
+---------24:49----------
+LDL inside the CD 32 15 which allows the
+
+---------24:52----------
+CD 32 team to create another little
+
+---------24:54----------
+power rail for itself and that was being
+
+---------24:56----------
+shorted to ground through a capacitor
+
+---------24:58----------
+that was mildly corroded on the other
+
+---------24:59----------
+side of the board once knocked off the
+
+---------25:01----------
+machine didn't
+
+---------25:02----------
+work and did boot do keep in mind that
+
+---------25:04----------
+if you have a 2019 or a 2020 MacBook Pro
+
+---------25:08----------
+the only way that I could perform the
+
+---------25:10----------
+repair that I did here is to purchase an
+
+---------25:12----------
+iPhone 10 our charging case from Apple
+
+---------25:16----------
+for $129 take the chip off waste 10
+
+---------25:19----------
+minutes reball you then take that $129
+
+---------25:21----------
+battery case which includes a
+
+---------25:24----------
+lithium-ion battery and a PCB and throw
+
+---------25:27----------
+it straight in the e-waste in the trash
+
+---------25:28----------
+where it's going to be disposed of and
+
+---------25:30----------
+99.9% of what's in that is most likely
+
+---------25:33----------
+not going to be recycled just disposed
+
+---------25:35----------
+of or set on fire and some trash heap in
+
+---------25:37----------
+Africa also that Tim Cook can have just
+
+---------25:43----------
+a little bit more money that's why we go
+
+---------25:48----------
+for right to repair that's it for today
+
+---------25:50----------
+and as always I hope you learned
+
+---------25:52----------
+something
+
+---------25:52----------
+thank you for watching and I'll see you
+
+---------25:54----------
+in the next video
+

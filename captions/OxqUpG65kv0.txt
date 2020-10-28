@@ -1,0 +1,1378 @@
+https://www.youtube.com/watch?v=OxqUpG65kv0
+---------00:00----------
+all right so today we're working on a
+
+---------00:01----------
+board that presents an interesting case
+
+---------00:02----------
+this is an old piece of crap it's an
+
+---------00:04----------
+eight to zero twenty nine thirty six
+
+---------00:06----------
+again as I say in many of these videos I
+
+---------00:08----------
+have no idea why somebody is willing to
+
+---------00:10----------
+give me money to fix this dual core
+
+---------00:12----------
+Sandy Bridge piece of crap but somebody
+
+---------00:14----------
+is and it's again as long as somebody's
+
+---------00:16----------
+willing to pay I am willing to work on
+
+---------00:18----------
+it unless it's something right well I
+
+---------00:21----------
+shouldn't say that I'm not gonna work on
+
+---------00:23----------
+in a 1150 because you pay me but yeah so
+
+---------00:26----------
+the interesting case here hey let me
+
+---------00:29----------
+just get my my super multimeter set up
+
+---------00:31----------
+over here so that you can read the
+
+---------00:32----------
+multimeter as I've said in order to get
+
+---------00:37----------
+to an Esso state you need to get through
+
+---------00:39----------
+an s5 state s3 state and let's see where
+
+---------00:42----------
+do I get the least reflection come here
+
+---------00:45----------
+that looked pretty good yeah yeah you
+
+---------00:50----------
+can kind of see that all right in order
+
+---------00:52----------
+to get to an Esso state you have to be
+
+---------00:53----------
+in the nest three state in order to be
+
+---------00:55----------
+in an s3 state you have to get through
+
+---------00:56----------
+the s5 state as five is hibernating and
+
+---------00:59----------
+Ramez five is off as far as hibernating
+
+---------01:01----------
+as three is sleeping and I believe as oh
+
+---------01:03----------
+is on so there are different voltages
+
+---------01:04----------
+for different states obviously the
+
+---------01:06----------
+computer is not going to have voltage
+
+---------01:08----------
+going to let's say the CPU when it's all
+
+---------01:10----------
+for sleeping it's a waste so there are
+
+---------01:13----------
+different power states for the machine
+
+---------01:14----------
+now what I'm gonna do here is I'm going
+
+---------01:16----------
+to show you that I know that this thing
+
+---------01:17----------
+is in an Esso state it is technically
+
+---------01:19----------
+turning on because at PB v ESO I have
+
+---------01:22----------
+power there believe it or not so what I
+
+---------01:24----------
+did is I started moving around and I
+
+---------01:25----------
+noticed that voltage rail was missing
+
+---------01:27----------
+which was this PP VIN high sense
+
+---------01:31----------
+computing whatever crap now the thing is
+
+---------01:34----------
+that PP 5 vs 3 is created from pp bus g3
+
+---------01:39----------
+hot PP 5 ESO is created from PP 5 es 3
+
+---------01:42----------
+therefore since I have PP 5 ESO I know P
+
+---------01:45----------
+P budget e3 hottest present so P P bus
+
+---------01:47----------
+d3 yard I'll just measure it just to
+
+---------01:49----------
+show you but I know it's there it's
+
+---------01:50----------
+there but this PP VIN thing which comes
+
+---------01:53----------
+from that's that power line for some
+
+---------01:55----------
+reason is not present and I have
+
+---------01:56----------
+absolutely no idea why because they're
+
+---------01:58----------
+supposed to be tied together inside the
+
+---------02:00----------
+motherboard so if I go over to the view
+
+---------02:03----------
+of the schematic over here let's just
+
+---------02:05----------
+switch over to schematic you'll see that
+
+---------02:09----------
+this pp bus has five high sense
+
+---------02:11----------
+computing I sense voltage twelve point
+
+---------02:13----------
+eight
+
+---------02:13----------
+false I'm inferring that this comes from
+
+---------02:16----------
+PP Bosch g3 hot because they both say
+
+---------02:18----------
+twelve point eight volts and when I
+
+---------02:20----------
+search for this I also don't get I don't
+
+---------02:23----------
+see anything that mell side is that the
+
+---------02:25----------
+guess I'm just guessing that this comes
+
+---------02:28----------
+from that so watch I'm gonna search for
+
+---------02:30----------
+it here we go okay so this is this this
+
+---------02:35----------
+is the way this works so this is high
+
+---------02:37----------
+side current sense filter right so PP
+
+---------02:40----------
+busts s5 HS computing I sense blah blah
+
+---------02:44----------
+blah comes after our fifty four hundred
+
+---------02:46----------
+which is a current sensing resistor so
+
+---------02:48----------
+this is pretty much another way of
+
+---------02:49----------
+saying PP but g3 hot but once it's done
+
+---------02:52----------
+going to the current sensing resistor it
+
+---------02:53----------
+becomes this so let's check our fifty
+
+---------02:56----------
+four hundred all right now you
+
+---------02:59----------
+understand why I'm doing that you
+
+---------03:00----------
+understand why I'm checking our fifty
+
+---------03:02----------
+four hundred I'm checking our fifty four
+
+---------03:04----------
+hundred because I have pp bus g3 hot
+
+---------03:06----------
+this is present but what's on the other
+
+---------03:07----------
+side of it is not present so what I'm
+
+---------03:09----------
+gonna do is I'm gonna take a look at
+
+---------03:10----------
+that under the microscope and pray that
+
+---------03:12----------
+my multimeter doesn't fall and hit my
+
+---------03:14----------
+palm because that would be really
+
+---------03:15----------
+painful so let's take a look at ah
+
+---------03:18----------
+so much for that so let's take a look at
+
+---------03:21----------
+this resistor and see what I get so I'm
+
+---------03:22----------
+just gonna get this in focus in the
+
+---------03:24----------
+microscope camera and what do you know
+
+---------03:26----------
+the board looks like in that area
+
+---------03:28----------
+and that is the resistor this is the
+
+---------03:30----------
+current sensing resistor these big
+
+---------03:31----------
+current sensing resistors virtually
+
+---------03:33----------
+never die but I can only imagine that
+
+---------03:35----------
+this one did this does not look nice at
+
+---------03:37----------
+all so we're looking for resistance
+
+---------03:39----------
+between pins one and two or three and
+
+---------03:41----------
+four according to the schematic over
+
+---------03:43----------
+here so if I switch back to the
+
+---------03:44----------
+schematic you can see one two three four
+
+---------03:47----------
+so let's go over to the board view which
+
+---------03:49----------
+just moved since I hit a button to
+
+---------03:50----------
+change what open broadcaster was
+
+---------03:52----------
+recording me and let's see between
+
+---------03:55----------
+pins okay we have pins two and four so
+
+---------03:59----------
+and we have pins one and three so let's
+
+---------04:03----------
+see between ah what a mess this is and
+
+---------04:08----------
+the phone rings
+
+---------04:11----------
+it's impossible to find a good weekend
+
+---------04:14----------
+person let's answer the phone do you fix
+
+---------04:16----------
+television remotes how the do these
+
+---------04:19----------
+people get my phone number it's beyond
+
+---------04:21----------
+me anyway back to the natural point here
+
+---------04:24----------
+so yeah so I can I can infer that this
+
+---------04:27----------
+is what's wrong well without measuring
+
+---------04:29----------
+it just because look at this area it
+
+---------04:30----------
+looks nasty that is the one path the the
+
+---------04:33----------
+one thing sitting between pp bus g3 hot
+
+---------04:35----------
+and my no and the rest of the machine
+
+---------04:38----------
+working and it looks like and I can
+
+---------04:41----------
+already tell that some jackass touch
+
+---------04:43----------
+this and some up because when
+
+---------04:45----------
+look on the other side of the board it
+
+---------04:46----------
+looks like the PCH has been refloat you
+
+---------04:47----------
+can see flux coming out the side of it
+
+---------04:49----------
+and you can also see that there's some
+
+---------04:51----------
+missing over here which means
+
+---------04:52----------
+that's an idiot got ahold of it before I
+
+---------04:54----------
+touched it this is another thing by the
+
+---------04:57----------
+way with this channel that I want to
+
+---------04:58----------
+make very very clear because a lot of
+
+---------05:00----------
+people have been saying this is one of
+
+---------05:01----------
+the things with like supposed
+
+---------05:02----------
+quote-unquote YouTube Fame that's
+
+---------05:04----------
+starting to get me a lot of people will
+
+---------05:07----------
+say certain things to me and they'll
+
+---------05:08----------
+have this opinion of me because of the
+
+---------05:10----------
+videos they watch and because you watch
+
+---------05:11----------
+me talk all the time it seems like I'm
+
+---------05:13----------
+talking to you when in reality I'm
+
+---------05:15----------
+talking to a camera so people kind of
+
+---------05:17----------
+get this idea that there's a friendship
+
+---------05:18----------
+that doesn't exist and then they'll feel
+
+---------05:20----------
+they'll start to have certain ideas and
+
+---------05:22----------
+I about Who I am and what I can do and
+
+---------05:25----------
+what I will do for them and when I get a
+
+---------05:27----------
+board sent in that looks like this I'm
+
+---------05:29----------
+telling you it goes to the bottom of the
+
+---------05:30----------
+pile like when I see that something's
+
+---------05:31----------
+been with it goes to the bottom
+
+---------05:33----------
+of my pile I don't know you we're not
+
+---------05:36----------
+friends I am NOT saying that to be me
+
+---------05:38----------
+and I read I don't know you and I get to
+
+---------05:40----------
+choose between a board that has not been
+
+---------05:42----------
+ with to make money or board that
+
+---------05:44----------
+has been with we're no fix no pay
+
+---------05:46----------
+so if you with it and you
+
+---------05:47----------
+destroyed something or you did something
+
+---------05:49----------
+where I think for any reason that's
+
+---------05:50----------
+gonna be a more of a nightmare for me to
+
+---------05:52----------
+make money i bottom of the pile and then
+
+---------05:56----------
+i get these boards where I just I
+
+---------05:57----------
+honestly don't put as much effort in as
+
+---------05:59----------
+I could have because I see that they've
+
+---------06:00----------
+been with and they think that
+
+---------06:01----------
+like the friendship that we had is gone
+
+---------06:04----------
+you can hear it on the phone they'll be
+
+---------06:06----------
+and they'll be attitudes about it like
+
+---------06:07----------
+there was this one guy recently that
+
+---------06:08----------
+said him you've had this thing for a
+
+---------06:10----------
+month although over a month now and I go
+
+---------06:13----------
+it got here nine days ago
+
+---------06:15----------
+you sent us the newest retina board that
+
+---------06:19----------
+you destroyed then ultrasonically clean
+
+---------06:21----------
+then what looks like thermal paste
+
+---------06:23----------
+and I you it's been here nine days like
+
+---------06:27----------
+where do you get them over a month from
+
+---------06:29----------
+and yeah I have to order a bunch of
+
+---------06:31----------
+stuff to fix it that usually never goes
+
+---------06:33----------
+bad that you up but yeah I don't
+
+---------06:36----------
+send here if you've screwed with it
+
+---------06:38----------
+if you have so much as replaced a single
+
+---------06:40----------
+resistor on a board and you send it here
+
+---------06:42----------
+I'm just gonna look at it and put it in
+
+---------06:44----------
+the bottom of the pot I just want to
+
+---------06:45----------
+make that clear because it's something I
+
+---------06:46----------
+did a video on this where I said I can't
+
+---------06:48----------
+be your answer key but it seems like
+
+---------06:49----------
+something that's going to become a
+
+---------06:50----------
+bigger and bigger problem the more
+
+---------06:52----------
+popular this channel becomes this is a
+
+---------06:55----------
+one-person board repair business I have
+
+---------06:57----------
+other people for other jobs at
+
+---------06:59----------
+salesperson receptionist technician but
+
+---------07:01----------
+I am the only one here fixing boards I
+
+---------07:03----------
+can only fix so many boards in a day and
+
+---------07:05----------
+I will choose to fix the boards that
+
+---------07:07----------
+have not been with you know is
+
+---------07:09----------
+what it is but anyway back to this and
+
+---------07:11----------
+praying that will actually work after
+
+---------07:13----------
+the idiot damage that happened to it so
+
+---------07:16----------
+it looks like a lot of stuff is gonna
+
+---------07:18----------
+have to get replaced in this area so
+
+---------07:19----------
+let's just start with the replacing and
+
+---------07:21----------
+pray that the PCH is not destroyed from
+
+---------07:24----------
+whatever heatguns stupid happened
+
+---------07:26----------
+before it got here that's the thing like
+
+---------07:32----------
+I do videos of rabbit hole boards
+
+---------07:34----------
+sometimes I did that video on the rabbit
+
+---------07:35----------
+hole that Jessa sent me that was like
+
+---------07:37----------
+two or three hour back light repair I've
+
+---------07:40----------
+done videos on that before but that
+
+---------07:41----------
+doesn't mean that that's like I did that
+
+---------07:43----------
+for a video once that that's not that's
+
+---------07:46----------
+not what I plan to base my business off
+
+---------07:47----------
+of I am NOT going to become that guy
+
+---------07:49----------
+that you send all the miserable to
+
+---------07:53----------
+you know I can probably figure some of
+
+---------07:56----------
+it out it's just it's again that's the
+
+---------07:59----------
+key word there probably and there's so
+
+---------08:02----------
+much other stuff that I can do they way
+
+---------08:04----------
+there is no probably where I know that
+
+---------08:06----------
+it's something that I can figure out and
+
+---------08:08----------
+make money off of them I'm gonna choose
+
+---------08:10----------
+to make money off of that stuff you know
+
+---------08:13----------
+ with this
+
+---------08:15----------
+okay those back light and able resistors
+
+---------08:17----------
+always get so I'm gonna replace
+
+---------08:19----------
+that the LED driver looked like as
+
+---------08:21----------
+well so we're just gonna go over a lot
+
+---------08:24----------
+of stuff here
+
+---------08:38----------
+okay so
+
+---------08:48----------
+yeah that resistor did virtually never
+
+---------08:50----------
+goes bad I mean it gets liquid damaged
+
+---------08:52----------
+Allah don't get it no get me wrong but
+
+---------08:54----------
+in terms of going bad that's just man
+
+---------08:57----------
+I've never seen that before
+
+---------08:59----------
+that's interesting that's pretty cool
+
+---------09:05----------
+yeah see I put flux everywhere and I'm
+
+---------09:09----------
+just kind of going over all these Pro
+
+---------09:10----------
+points don't want any of this to
+
+---------09:13----------
+become nasty or rusted this way this
+
+---------09:18----------
+little hacker wiring kicks ass you know
+
+---------09:19----------
+you got these big on big cheap irons
+
+---------09:21----------
+they can't flow joints on these
+
+---------09:23----------
+multi-layer PC boards this is flowing
+
+---------09:26----------
+large joints used for current sensing
+
+---------09:28----------
+resistors and it's a micro
+
+---------09:30----------
+pencil I mean that's cool you gotta you
+
+---------09:34----------
+gotta give credit where credit is due
+
+---------09:35----------
+this thing kicks ass I love when people
+
+---------09:38----------
+say that this is expensive yeah that's
+
+---------09:40----------
+always what makes me laugh when people
+
+---------09:42----------
+are like you know that I can't afford
+
+---------09:44----------
+hack oh we're not we don't all have lots
+
+---------09:46----------
+of money like you I can't afford to buy
+
+---------09:48----------
+hack oh and it's you know like what are
+
+---------09:50----------
+you talking about I find this funny the
+
+---------09:52----------
+reason I find this funny is because I
+
+---------09:53----------
+bought hackers because I could not
+
+---------09:55----------
+afford JBC and pace and these other
+
+---------09:58----------
+brands that are the real expensive like
+
+---------10:01----------
+hack oh let me tell you hack Oh is not
+
+---------10:04----------
+ expensive hako is cheap it's not
+
+---------10:07----------
+cheap it's cheap good stuff but
+
+---------10:09----------
+hack Oh is cheap like hack Oh is not the
+
+---------10:12----------
+company where you go I can't afford this
+
+---------10:14----------
+how goes the company you go to when you
+
+---------10:17----------
+can't afford the stuff that everybody
+
+---------10:19----------
+else is using so let's see I'm just
+
+---------10:26----------
+gonna take this off of see do I have a
+
+---------10:29----------
+2936 over here my board collection pile
+
+---------10:34----------
+a bunch of 31:15 the 31:15 is the most
+
+---------10:38----------
+popular one because apples been
+
+---------10:41----------
+producing that from 2012 to the present
+
+---------10:45----------
+and somebody walked it can you replace
+
+---------10:48----------
+the screen on my iPhone 2g oh man I
+
+---------10:52----------
+swear this is this has got to be Jessa
+
+---------10:54----------
+ with me like I don't know what
+
+---------10:56----------
+it is I can't tell you how it is that
+
+---------10:58----------
+she's doing it and I can't prove it but
+
+---------11:00----------
+I have a feeling that this is her
+
+---------11:01----------
+ woman
+
+---------11:02----------
+like this is this is what I get for
+
+---------11:03----------
+making fun of her entrance into the
+
+---------11:05----------
+dildo repair community messaging me the
+
+---------11:08----------
+other day about dildo repair and
+
+---------11:10----------
+diversifying and when we were talking
+
+---------11:17----------
+about setting up phone systems and other
+
+---------11:20----------
+types of things you can do an IT and how
+
+---------11:21----------
+that's far out you know that is that
+
+---------11:24----------
+stuff is stuff that you know is way
+
+---------11:28----------
+outside the wheelhouse of the repair
+
+---------11:30----------
+person apparently but preparing a dildo
+
+---------11:34----------
+she you asked her to be the other day to
+
+---------11:36----------
+say that that I was talking to them and
+
+---------11:41----------
+apparently they fixed their own dildos
+
+---------11:42----------
+and I'm like I am why am I not surprised
+
+---------11:45----------
+that the dildo or sex toy party
+
+---------11:49----------
+attendees are not our do-it-yourself
+
+---------11:52----------
+type of people like why am I not
+
+---------11:54----------
+surprised that they embrace
+
+---------11:55----------
+do-it-yourself culture DIY
+
+---------12:01----------
+do-it-yourself dmy do me yourself
+
+---------12:08----------
+terrible jokes but yeah I'm pretty sure
+
+---------12:10----------
+that she's the one that's responsible
+
+---------12:11----------
+for people coming here and asking for
+
+---------12:13----------
+about iPhone 2g screen repairs
+
+---------12:16----------
+and parentage a pep-talk my boss and no
+
+---------12:24----------
+that's every weekend it's the same
+
+---------12:29----------
+like for the same two hours I just get
+
+---------12:31----------
+like can you fix my remote can you fix
+
+---------12:35----------
+this can you know what are you willing
+
+---------12:39----------
+to pay me in a fixed remote I don't know
+
+---------12:41----------
+I thought you would just kind of jiggle
+
+---------12:42----------
+something aka I thought you would do it
+
+---------12:44----------
+for free aka I thought you would stop
+
+---------12:46----------
+everything else you're doing with your
+
+---------12:47----------
+life
+
+---------12:48----------
+ off ah grumpy grumpy grumpy grumpy
+
+---------12:58----------
+grumpy [ __ ] that's what I am
+
+---------13:04----------
+oh man I I wish I had a recording of
+
+---------13:07----------
+this call it was this one person that
+
+---------13:09----------
+called and actually asked like do you
+
+---------13:11----------
+repair glass windows like they read that
+
+---------13:15----------
+we repaired an ik MacBook glass you
+
+---------13:17----------
+repair of screens and can you repair
+
+---------13:19----------
+glass windows actually had to in the
+
+---------13:23----------
+same week than somebody else called and
+
+---------13:24----------
+asked if we fix screen doors it's let
+
+---------13:27----------
+times like that we're like I don't want
+
+---------13:28----------
+to say no anymore I just want to say yes
+
+---------13:30----------
+find somebody that fix the screen doors
+
+---------13:32----------
+charge them like five times with the
+
+---------13:35----------
+person who says they fix screen doors
+
+---------13:36----------
+charges and just send them there like
+
+---------13:39----------
+that is your punishment that is your
+
+---------13:41----------
+punishment for calling a computer repair
+
+---------13:43----------
+shop and asking if they will fix the
+
+---------13:44----------
+screen door in your backyard
+
+---------13:51----------
+that's all I can say I'm gonna try to
+
+---------13:56----------
+get a couple of birds here killed with
+
+---------13:57----------
+one stone so I'm kind of flowing the LED
+
+---------13:59----------
+driver in a place not fully soldered it
+
+---------14:01----------
+there we go while I'm doing the
+
+---------14:03----------
+backlight enable resistors now let's do
+
+---------14:06----------
+that big capacitor and then the current
+
+---------14:08----------
+sensing resistors
+
+---------14:36----------
+make sure it's flat on the board this
+
+---------14:38----------
+way I know that it's not actually
+
+---------14:40----------
+shorted okay turn the hot air oh you
+
+---------14:47----------
+didn't see that my shitty soldering of
+
+---------14:49----------
+the current sensing resistor was hidden
+
+---------14:51----------
+it's not really a bad thing the less you
+
+---------14:55----------
+see of my soldering the better probably
+
+---------15:05----------
+okay do that fill in that over there
+
+---------15:09----------
+looks a lot better
+
+---------15:23----------
+okay now let's see what I get when I
+
+---------15:27----------
+plug this in this was definitely an
+
+---------15:33----------
+interesting case I never have that
+
+---------15:35----------
+happen okay
+
+---------15:43----------
+the fan spins is there anything else to
+
+---------15:49----------
+test here really but yeah that's that's
+
+---------15:52----------
+that's a problem that I've never had
+
+---------15:53----------
+before so that's pretty cool so a
+
+---------15:55----------
+current sensing resistor actually died
+
+---------15:57----------
+it's hard to kill those shunt resistors
+
+---------15:59----------
+they're really strong so I am I am
+
+---------16:01----------
+actually quite surprised that it managed
+
+---------16:03----------
+to die but that's that so to go over
+
+---------16:05----------
+what was wrong with this board one more
+
+---------16:07----------
+time on the schematic before we go every
+
+---------16:11----------
+panel where L was present
+
+---------16:12----------
+besides P P bus s 5hs computing I sense
+
+---------16:16----------
+now when I went down the line I saw that
+
+---------16:18----------
+this was twelve point eight volts so
+
+---------16:20----------
+when I say down the line I mean from
+
+---------16:21----------
+that page in the schematic where it
+
+---------16:23----------
+tells you what all the voltages are so
+
+---------16:24----------
+usually that's on page six or seven on
+
+---------16:26----------
+the newer 2013 and up schematics it's
+
+---------16:29----------
+somewhere between pages sixty and
+
+---------16:30----------
+seventy it gives you all the power lines
+
+---------16:32----------
+right here I looked at P P bus g3 hot
+
+---------16:34----------
+and PP bus g3 hot says right here twelve
+
+---------16:37----------
+point eight volts PB bus s5 HS computing
+
+---------16:40----------
+I sense is also twelve point eight volts
+
+---------16:42----------
+so there's nothing else in this machine
+
+---------16:44----------
+is twelve point eight volts something
+
+---------16:46----------
+went off in my head that says call me
+
+---------16:47----------
+crazy but this is probably this over
+
+---------16:49----------
+here this power line is probably derived
+
+---------16:51----------
+from that power line so I decided to
+
+---------16:52----------
+start searching down the schematic to
+
+---------16:54----------
+try to find out where this comes from so
+
+---------16:56----------
+I'm searching and I'm searching and I
+
+---------16:57----------
+noticed that pp bus g3 huh goes through
+
+---------17:01----------
+this resistor and then on the other side
+
+---------17:02----------
+of it is pp bus s 5hs computing I sense
+
+---------17:06----------
+so really what else is it gonna be this
+
+---------17:10----------
+was probably screwed and it was screwed
+
+---------17:13----------
+it had water all over it looked quite
+
+---------17:14----------
+nasty and now it doesn't look nasty
+
+---------17:16----------
+anymore and my fan spins now obviously I
+
+---------17:19----------
+am going to have to test more features
+
+---------17:21----------
+of them than whether the fan spins and
+
+---------17:23----------
+maybe I won't you know what you know why
+
+---------17:26----------
+maybe I won't because somebody decided
+
+---------17:28----------
+to reflow that probably worked and
+
+---------17:31----------
+yeah you know what I should probably do
+
+---------17:33----------
+with all these boards that people screw
+
+---------17:34----------
+it before they send them to me I should
+
+---------17:36----------
+probably make the ice
+
+---------17:37----------
+like say primary issue only is what
+
+---------17:40----------
+we're a parent so if you send something
+
+---------17:41----------
+where you destroyed it or you did
+
+---------17:43----------
+something that you shouldn't have I'll
+
+---------17:44----------
+fix it primary issue on it's like if the
+
+---------17:47----------
+fan spins I'm done that's what I'm gonna
+
+---------17:49----------
+start doing if you send in a board only
+
+---------17:51----------
+by itself without the case fan spins I'm
+
+---------17:54----------
+done if you have one of those newer 2015
+
+---------17:57----------
+MacBook Pro Retina swear the fan doesn't
+
+---------17:58----------
+even spin vcore shows up that kid again
+
+---------18:02----------
+vcore shows up I'm done I assume it
+
+---------18:05----------
+turned on I if you don't want to send me
+
+---------18:07----------
+the screen and everything else I'm just
+
+---------18:08----------
+going to assume that you don't want me
+
+---------18:09----------
+to test it because I am wasting my time
+
+---------18:11----------
+to build a test housing for me no and if
+
+---------18:16----------
+you reflow the PCH and rip off that
+
+---------18:19----------
+you probably shouldn't rip off I'm going
+
+---------18:21----------
+to assume that you don't care if
+
+---------18:25----------
+anything works other than the fan
+
+---------18:26----------
+spinning because really why why would
+
+---------18:28----------
+you take a heat gun to a working chip
+
+---------18:30----------
+why would you take a heat gun to a
+
+---------18:31----------
+working chip if you wanted the board to
+
+---------18:33----------
+actually work all I can assume here is
+
+---------18:36----------
+that you don't want the board to work
+
+---------18:37----------
+now I'm just kind of being an [ __ ]
+
+---------18:39----------
+but like really to stop doing this
+
+---------18:41----------
+I like to stop this was easy whatever
+
+---------18:44----------
+fine but like there were ones that are
+
+---------18:46----------
+not gonna be easy and I'm not chasing
+
+---------18:48----------
+your rabbit hole for six hours I'm not
+
+---------18:49----------
+gonna chase the rabbit for six hours and
+
+---------18:51----------
+then figure out that it's not fixable
+
+---------18:53----------
+because you did something silly really
+
+---------18:55----------
+like you want to send it here have a
+
+---------18:58----------
+relationship that's great you want to
+
+---------19:00----------
+watch the videos and do it on your own I
+
+---------19:01----------
+support you I hope you do very well
+
+---------19:03----------
+don't send it here who and you can't
+
+---------19:05----------
+figure it out that's all is it
+

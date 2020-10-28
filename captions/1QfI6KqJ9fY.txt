@@ -1,0 +1,661 @@
+https://www.youtube.com/watch?v=1QfI6KqJ9fY
+---------00:00----------
+all right here we have a missing p.m.
+
+---------00:01----------
+sleep s4l bored given to me by Camille
+
+---------00:03----------
+and we're gonna try and figure out why
+
+---------00:05----------
+this board has a missing p.m. sleep best
+
+---------00:07----------
+for I'll confirm that it's a PM sleep
+
+---------00:08----------
+best for all problem and then throw it
+
+---------00:10----------
+at Steve who decided put it in my cute
+
+---------00:12----------
+by the way by the end of the week you're
+
+---------00:13----------
+gonna see hi hi again thing is you may
+
+---------00:15----------
+think that he may not show up this time
+
+---------00:17----------
+because he didn't show up the last two
+
+---------00:18----------
+or three times but that's not true
+
+---------00:20----------
+because last night I did a little bit of
+
+---------00:22----------
+research and I found out where he lives
+
+---------00:24----------
+that's right hi hi you don't come to
+
+---------00:27----------
+work work is gonna come to you it's the
+
+---------00:31----------
+first thing we're gonna do I'm just
+
+---------00:32----------
+gonna troubleshoot this from scratch and
+
+---------00:34----------
+just pretend that I don't know that it's
+
+---------00:35----------
+a PM sleep s4l now we have a light in
+
+---------00:37----------
+the charger so pp3 before 2 has to be
+
+---------00:39----------
+there so you have 12.6 SMC is doing its
+
+---------00:41----------
+job and we're gonna check the pit the
+
+---------00:43----------
+5vs5 I'm in the pit of 5 es 4 area over
+
+---------00:45----------
+here we have a very heavily pro at the 5
+
+---------00:48----------
+es 5 area 5 as present VP 3 V 3 s 5 is
+
+---------00:57----------
+present clock chip that's present ok now
+
+---------01:03----------
+what's this okay what's this what is
+
+---------01:09----------
+this effort over here alright so the
+
+---------01:11----------
+first thing I want to do is figure out
+
+---------01:12----------
+what this FS is up going on up here
+
+---------01:16----------
+making an effort to curse a little bit
+
+---------01:18----------
+less it's probably not gonna go all
+
+---------01:22----------
+right so it looks like P P 1 V 3 5 cam
+
+---------01:25----------
+why are there rip traces around here and
+
+---------01:27----------
+furthermore why would we care and this
+
+---------01:31----------
+is for a camera I don't care about a
+
+---------01:33----------
+camera doesn't turn on we can't care
+
+---------01:36----------
+about a camera yep I kind of want to see
+
+---------01:39----------
+what's going on under that and I may
+
+---------01:40----------
+actually remove this man ship if that
+
+---------01:42----------
+man didn't leave this is a buffer I
+
+---------01:44----------
+think there's a 512 megabyte buffer chip
+
+---------01:47----------
+for memory does it also keep in mind if
+
+---------01:51----------
+there's a hole in this section of the
+
+---------01:52----------
+board what is this tell me this tells me
+
+---------01:55----------
+that damage occurred here it also tells
+
+---------01:57----------
+me that this board was likely cleaned
+
+---------01:59----------
+before it got to me if that tells me
+
+---------02:01----------
+that the thing next to it probably got
+
+---------02:02----------
+damaged the thing right next to it is a
+
+---------02:03----------
+clock ship that creates a 32 kilohertz
+
+---------02:05----------
+clock that is going to talk to the CPU
+
+---------02:07----------
+in the PCH and get the CPU and the PCH
+
+---------02:09----------
+running the CPU in the PCH is what's
+
+---------02:10----------
+gonna create p.m. sleep as 4 L which is
+
+---------02:12----------
+missing
+
+---------02:12----------
+Glock chip so let's see if we can
+
+---------02:16----------
+replace this with one that works because
+
+---------02:18----------
+that clock chip doesn't need happen to
+
+---------02:19----------
+be messed up see I am putting an effort
+
+---------02:25----------
+to curse less so if we go back over here
+
+---------02:28----------
+the camera chip is where we have all
+
+---------02:29----------
+this nastiness now I'm going to assume
+
+---------02:31----------
+if nastiness struck here that stuff next
+
+---------02:32----------
+to it as a cousin been damaged I don't
+
+---------02:35----------
+think that a camera buffer chip like
+
+---------02:37----------
+what we see over here is going to have
+
+---------02:39----------
+any sort of serious that this is not
+
+---------02:41----------
+gonna cause any sort of serious problem
+
+---------02:43----------
+I'm kind of curious if I could sector
+
+---------02:45----------
+map that you could use I don't think out
+
+---------02:47----------
+of the 400 people watching right now
+
+---------02:50----------
+that there's no more than one person in
+
+---------02:51----------
+my chat that knows what that means but
+
+---------02:54----------
+let's take a look and see what you 1900
+
+---------02:58----------
+was for you 1900 is what's going to
+
+---------03:01----------
+create a clock I really love it if you
+
+---------03:04----------
+left video goes up longer live videos up
+
+---------03:07----------
+longer I love watching the live shows
+
+---------03:09----------
+alright I'll leave it up for maybe a few
+
+---------03:11----------
+nights but we are we do live in a world
+
+---------03:13----------
+now where people will go through
+
+---------03:15----------
+everything that you've ever said over
+
+---------03:18----------
+the past 30 years find the one thing
+
+---------03:20----------
+that you've said that may be slightly
+
+---------03:21----------
+offensive to completely rip it out of
+
+---------03:23----------
+context and use it to destroy you as
+
+---------03:24----------
+human beings so I figured that leaving
+
+---------03:26----------
+up unedited livestreams or I'm
+
+---------03:28----------
+interacting with the audience and joking
+
+---------03:30----------
+back and forth might not be the best
+
+---------03:32----------
+idea until we move culture past that
+
+---------03:34----------
+culturally and as decide but anyway back
+
+---------03:37----------
+to you 1900s so it creates this is
+
+---------03:39----------
+responsible for a twenty five megahertz
+
+---------03:41----------
+ and at 32 kilohertz clock that 32
+
+---------03:44----------
+kilohertz clock as you can see goes to
+
+---------03:46----------
+the CPU the CPUs was proposed to be
+
+---------03:48----------
+creating my PM sleeve s4l which is
+
+---------03:50----------
+missing on the board so I am going to
+
+---------03:53----------
+take a guess that I should start here
+
+---------03:55----------
+and hopefully you kind of understand why
+
+---------03:57----------
+I've taken that bit leap
+
+---------04:00----------
+and how I came to this conclusion
+
+---------04:10----------
+by the way people everybody
+
+---------04:13----------
+congratulated high higher on his new job
+
+---------04:14----------
+high high in the chad has been a
+
+---------04:16----------
+moderator for two years and he is just
+
+---------04:19----------
+about hired assuming he shows up this
+
+---------04:21----------
+time
+
+---------04:22----------
+he also helped me fix my buffing bike
+
+---------04:24----------
+yesterday I think it's gonna be pretty
+
+---------04:31----------
+cool to have somebody who can finally
+
+---------04:33----------
+help me with stuff like video editing
+
+---------04:35----------
+and not just that but like all the
+
+---------04:37----------
+little things that I say I want to get
+
+---------04:39----------
+around to put that I don't do it's also
+
+---------04:41----------
+gonna be nice to be able to have a
+
+---------04:42----------
+little bit more free time new things
+
+---------04:43----------
+like sleep travel well mostly sleep it
+
+---------04:51----------
+would be nice to be able to sleep every
+
+---------04:52----------
+now and then
+
+---------04:55----------
+so there's a lot of things that this
+
+---------04:57----------
+business that could be better that I
+
+---------04:59----------
+haven't really put the time and that I
+
+---------05:00----------
+should have to make it better and I'd
+
+---------05:03----------
+like to start
+
+---------05:05----------
+again good staff here we got people like
+
+---------05:07----------
+Camille you've got people like Paul dear
+
+---------05:12----------
+maybe Kevin
+
+---------05:16----------
+nothing
+
+---------05:18----------
+but
+
+---------05:23----------
+nothing at all
+
+---------06:04----------
+hi I can come up with things like a live
+
+---------06:07----------
+stream bought that and automatically
+
+---------06:08----------
+answers questions that I've answered
+
+---------06:09----------
+millions of times before
+
+---------06:11----------
+I bet hi hi Kokoda Bach
+
+---------06:15----------
+I can't code but I bet hi hi can code ok
+
+---------06:19----------
+let's see what we get here all right
+
+---------06:23----------
+as you can see fan spin fan spin do you
+
+---------06:33----------
+understand what we're doing here you
+
+---------06:34----------
+understand we got it do you understand
+
+---------06:36----------
+why we did what we did so this board was
+
+---------06:39----------
+having an issue where it was missing
+
+---------06:42----------
+p.m. sleep s4l we took if we did a
+
+---------06:44----------
+physical inspection of the board and
+
+---------06:45----------
+there was a mess right around this area
+
+---------06:49----------
+now this area if this area is a mess I'm
+
+---------06:51----------
+going to assume that would ever happen
+
+---------06:52----------
+if whatever is liquid or any sort of
+
+---------06:55----------
+junk may have affected things that are
+
+---------06:57----------
+in the surrounding area that are
+
+---------06:58----------
+sensitive like let's say a chip whose
+
+---------07:00----------
+sole job it is to create a 32 kilohertz
+
+---------07:02----------
+and manage a 25 megahertz clock crystal
+
+---------07:04----------
+that's the type of thing or even the
+
+---------07:06----------
+teeny tiniest bit of water is going to
+
+---------07:07----------
+hurt it it's not like an ISL 6 2 5 9
+
+---------07:09----------
+we're gonna see a hole punched through
+
+---------07:11----------
+it it's the type of thing where even the
+
+---------07:12----------
+teeny tiniest bit of messing with it and
+
+---------07:17----------
+this is new for me no cursing little
+
+---------07:20----------
+tiny bit of water will mess it up now if
+
+---------07:23----------
+you look at the schematic and the board
+
+---------07:25----------
+view that's the only thing in the
+
+---------07:27----------
+surrounding area that's gonna have a
+
+---------07:28----------
+relation to the PC age you have the SMC
+
+---------07:30----------
+that's not really responsible for PM
+
+---------07:32----------
+sleep s4l stuff it is responsible for
+
+---------07:34----------
+deciding that you're ready to enter a
+
+---------07:37----------
+state of getting PM sleep s4l at all so
+
+---------07:39----------
+for example a PM DSW power good is
+
+---------07:41----------
+missing a bit of a flat PM sleep bus for
+
+---------07:43----------
+all but here we didn't have a flat PM
+
+---------07:44----------
+sleep best for all we had a pulsing PM
+
+---------07:45----------
+sleep best for l if you look under it
+
+---------07:47----------
+you have camera stuff that's not
+
+---------07:49----------
+important camera stuff here not
+
+---------07:51----------
+important BAM
+
+---------07:52----------
+this is important because that goes
+
+---------07:54----------
+straight to the PC Asian if we want to
+
+---------07:56----------
+really trace back where PM sleep best
+
+---------07:58----------
+for all comes from over here you see
+
+---------07:59----------
+that PM sleep Sol it's p5 ves for RS 3
+
+---------08:03----------
+enable if you go back to this resistor
+
+---------08:06----------
+you'll see that comes from p5 es for our
+
+---------08:09----------
+3 enable D and that comes from PM sleep
+
+---------08:12----------
+s4 well PM sleep best for ell comes from
+
+---------08:15----------
+the PCH and the system management
+
+---------08:16----------
+controller chip
+
+---------08:17----------
+see right up here so you need the ends
+
+---------08:20----------
+on the left and you get the outs on the
+
+---------08:22----------
+right ends and left
+
+---------08:23----------
+gives you the outs on the right and once
+
+---------08:24----------
+you're done with that you're gonna get
+
+---------08:25----------
+fan spin fan spin so that's it for that
+
+---------08:29----------
+board and as always I hope you learned
+
+---------08:31----------
+something all this board needed was one
+
+---------08:33----------
+little chip and it was picked at random
+
+---------08:36----------
+when random but that we're gonna move on
+
+---------08:40----------
+to the next back book do you have a
+
+---------08:42----------
+macbook that needs to be fixed come by
+
+---------08:44----------
+our store which is open to the public at
+
+---------08:46----------
+186 First Avenue in Manhattan are you
+
+---------08:49----------
+located outside of New York no problem
+
+---------08:51----------
+send us a machine from anywhere in the
+
+---------08:53----------
+world by going to our website and
+
+---------08:55----------
+clicking on the mailbox or simply
+
+---------08:57----------
+heading over to send your macbook comm
+
+---------08:59----------
+that send your macbook comm will you be
+
+---------09:02----------
+redirected to our mail in instructions
+
+---------09:04----------
+page that includes the form and the
+
+---------09:06----------
+directions on how to send us a MacBook
+
+---------09:09----------
+for repair we have a live chat where you
+
+---------09:11----------
+can speak with us about the repair that
+
+---------09:13----------
+you need a phone number where a
+
+---------09:15----------
+representative will pick up during our
+
+---------09:16----------
+open hours and a contact form where you
+

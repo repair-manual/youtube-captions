@@ -1,0 +1,958 @@
+https://www.youtube.com/watch?v=-KzzlVkCOVg
+---------00:00----------
+check one two all right so today we're
+
+---------00:02----------
+gonna be going over a board that has no
+
+---------00:03----------
+backlight it's a MacBook Air board and
+
+---------00:05----------
+it's one that I got from this company
+
+---------00:07----------
+that sells all these refurbished
+
+---------00:08----------
+machines for people to fix and resell
+
+---------00:10----------
+and one of the things that I made the
+
+---------00:13----------
+big mistake of is I actually knew what
+
+---------00:15----------
+they were doing beforehand I I saw that
+
+---------00:17----------
+this is a company that sells
+
+---------00:18----------
+motherboards and they advertised them as
+
+---------00:20----------
+a refurbished regularly and I've
+
+---------00:22----------
+actually bought from before so I kind of
+
+---------00:24----------
+probed a little bit no just kind of
+
+---------00:25----------
+curious so if you sell refurbished
+
+---------00:27----------
+boards and you're selling me this lot of
+
+---------00:31----------
+machines that may have bad boards so are
+
+---------00:33----------
+these the boards that are like that that
+
+---------00:35----------
+you guys with tried to fix and
+
+---------00:37----------
+fail that or this just stuff that you
+
+---------00:38----------
+never touch this no we've never touched
+
+---------00:41----------
+this stuff before we would never try to
+
+---------00:44----------
+fix these boards before sending them to
+
+---------00:46----------
+you and just leave you the pile of crap
+
+---------00:48----------
+yeah I needed stuff for the course on
+
+---------00:51----------
+short notice so this had to do so this
+
+---------00:54----------
+has no backlight and we're gonna go over
+
+---------00:55----------
+a couple of the things that I'm gonna
+
+---------00:57----------
+measure first so I'm gonna turn it on
+
+---------01:02----------
+try to follow along with you with a
+
+---------01:05----------
+schematic on the screen here so let me
+
+---------01:08----------
+just open up backlight circuit so this
+
+---------01:12----------
+here is the backlight circuit
+
+---------01:16----------
+alright so the first thing I want to do
+
+---------01:18----------
+is is there voltage on the fuse so we're
+
+---------01:21----------
+gonna go over and check the fuse while
+
+---------01:22----------
+the machine is turning on right now turn
+
+---------01:24----------
+it on see what I get
+
+---------01:30----------
+and I'll move this over so you can see
+
+---------01:33----------
+the voltage as I'm measuring it okay
+
+---------01:40----------
+it's on the fuse I get proper voltage on
+
+---------01:44----------
+the other side of the fuse I get proper
+
+---------01:45----------
+voltage on output I get zero if I have
+
+---------01:50----------
+output zero it could mean a couple of
+
+---------01:51----------
+different things it could mean that I am
+
+---------01:54----------
+short to ground for some reason it could
+
+---------01:56----------
+be that power is not flowing through
+
+---------01:58----------
+this transistor after the fuse it could
+
+---------02:03----------
+be that there's a blown via corroded
+
+---------02:05----------
+trays so let's just continue on and see
+
+---------02:07----------
+what we get so at this chip over here at
+
+---------02:10----------
+this q7 706 which is a transistor that's
+
+---------02:13----------
+going to open based on the input signal
+
+---------02:16----------
+of LCD backlight enable now let's see
+
+---------02:18----------
+what we get from beginning of it I get 8
+
+---------02:26----------
+good now on LCD backlight enable divide
+
+---------02:31----------
+I get 8 bad output I get 0 so let's put
+
+---------02:41----------
+our thinking cap on here is the
+
+---------02:42----------
+transistor bad because the transistor is
+
+---------02:44----------
+not outputting power or is the
+
+---------02:46----------
+transistor not getting the proper input
+
+---------02:47----------
+signal so the source of this transistor
+
+---------02:49----------
+is pin 4 the source of it is getting 8
+
+---------02:51----------
+volts then the gate of that transistor
+
+---------02:53----------
+pin 3 is also getting 8 volts this is AP
+
+---------02:56----------
+type MOSFET meaning that when the
+
+---------02:57----------
+voltage in the gate is the same as the
+
+---------02:59----------
+voltage in the source that it will not
+
+---------03:01----------
+allow power to flow to the drain
+
+---------03:02----------
+therefore this over here is working just
+
+---------03:04----------
+fine and just doing what it's supposed
+
+---------03:06----------
+to do which is close and outlet power
+
+---------03:07----------
+through the circuit now let's look over
+
+---------03:10----------
+here so how does this work so you have
+
+---------03:11----------
+these two resistors over here that are a
+
+---------03:13----------
+voltage divider between P P buck g3 hot
+
+---------03:15----------
+which is the input voltage of this
+
+---------03:16----------
+transistor you have this voltage divider
+
+---------03:18----------
+and going between the voltage and the
+
+---------03:20----------
+source and then the voltage on the gate
+
+---------03:22----------
+the whole idea here is that this voltage
+
+---------03:24----------
+divider is going to lower the power
+
+---------03:26----------
+going to the gate so that it will open
+
+---------03:27----------
+remember this transistor will not open
+
+---------03:29----------
+if the power that's on the gate is
+
+---------03:31----------
+greater or equal to the power that's on
+
+---------03:33----------
+the source you have to lower it and we
+
+---------03:34----------
+have a voltage divided to do this a
+
+---------03:36----------
+voltage divider is going to go between
+
+---------03:37----------
+the high side power source and where we
+
+---------03:40----------
+want the power to go and then when we
+
+---------03:41----------
+want the power to go in ground but
+
+---------03:42----------
+unfortunately there's this little crap
+
+---------03:44----------
+in the way over here this transistor
+
+---------03:46----------
+sits in the way of the bottom of this
+
+---------03:48----------
+voltage divider and ground so what are
+
+---------03:51----------
+we going to do to check if this is
+
+---------03:53----------
+working the way it supposed to
+
+---------03:54----------
+so these transistors are gonna open and
+
+---------03:56----------
+send this voltage divider a path to
+
+---------03:58----------
+ground but that's going to happen based
+
+---------04:01----------
+on these two input signals so when you
+
+---------04:03----------
+have EDP external DisplayPort backlight
+
+---------04:06----------
+enable and backlight platform reset
+
+---------04:08----------
+these transistors will open and send
+
+---------04:09----------
+that power over the ground so let's take
+
+---------04:11----------
+a look and see what we get at those two
+
+---------04:13----------
+points three okay
+
+---------04:20----------
+and three yep now by the way if you
+
+---------04:26----------
+google this you'll see that this is two
+
+---------04:27----------
+n-channel MOSFETs so these are going to
+
+---------04:30----------
+open them that power through when you
+
+---------04:31----------
+have a higher or equal voltage on the
+
+---------04:33----------
+gate as the de volta to the source so
+
+---------04:34----------
+these are opening and allowing us to go
+
+---------04:36----------
+to ground so why is this not sending my
+
+---------04:38----------
+power the way it supposed to so let's
+
+---------04:40----------
+check the voltage divider r7 788 is
+
+---------04:43----------
+supposed to be 301 kilo ohms and our
+
+---------04:45----------
+seven seven eight nine is supposed to be
+
+---------04:46----------
+147 kilohms
+
+---------04:48----------
+so we changed the multimeter over to
+
+---------04:50----------
+resistance mode now whenever you're
+
+---------04:52----------
+reading resistance you're doing diode
+
+---------04:53----------
+mode you have to take off all the power
+
+---------04:55----------
+from machine
+
+---------04:55----------
+let's see where those two resistors are
+
+---------04:58----------
+so
+
+---------05:14----------
+okay those are over here so are seven
+
+---------05:16----------
+seven eight nine see what that looks
+
+---------05:20----------
+like
+
+---------05:21----------
+hi seven seven eight nine is supposed to
+
+---------05:24----------
+be
+
+---------05:26----------
+I get 145 kilohms schematic says they're
+
+---------05:36----------
+supposed to be 147 kilohms close enough
+
+---------05:38----------
+now let's see are 77088 schematic says
+
+---------05:41----------
+301 kilohms
+
+---------05:42----------
+and my multimeter says
+
+---------05:57----------
+when multimeter says 97 ohms so instead
+
+---------06:00----------
+of that resistor being 300 1000 ohms
+
+---------06:02----------
+it's 97 ohms
+
+---------06:03----------
+do you think my voltage divider is gonna
+
+---------06:05----------
+work properly probably not so let's
+
+---------06:08----------
+replace that affected area and see if it
+
+---------06:11----------
+fixes our problem we're gonna go over to
+
+---------06:13----------
+the microscope camera make sure the
+
+---------06:14----------
+microscope camera actually works okay
+
+---------06:23----------
+let's move in over here
+
+---------06:38----------
+mmm
+
+---------06:42----------
+turn on the heckle and again you think
+
+---------06:51----------
+I'm gonna buy those resistors from
+
+---------06:52----------
+Mauser and wait a week or two for them
+
+---------06:54----------
+to come for me to put this machine in
+
+---------06:55----------
+the window hell no I'm going to take
+
+---------06:59----------
+them off of a donor board because we
+
+---------07:00----------
+don't have time for that nonsense so the
+
+---------07:04----------
+best source of any of these parts is to
+
+---------07:06----------
+buy a bunch of dead boards with the
+
+---------07:08----------
+holes in them off of Alibaba and and
+
+---------07:11----------
+then use those to take parts as needed
+
+---------07:20----------
+I'm gonna replace both ends of the
+
+---------07:22----------
+voltage divider just for the hell of it
+
+---------07:31----------
+and that is bright as hell much better
+
+---------07:52----------
+the 34:37 is a board that has a lot of a
+
+---------07:56----------
+lot of heat sinking I know that's the
+
+---------07:59----------
+wrong word it's it's multi-layer PC
+
+---------08:01----------
+Boardman and whatever way they designed
+
+---------08:03----------
+it whatever materials they use this
+
+---------08:05----------
+thing just light it absorbs heat like
+
+---------08:08----------
+crazy so if you have some kind of iue
+
+---------08:10----------
+station it will just laugh at you good
+
+---------08:12----------
+luck getting anything off of this board
+
+---------08:14----------
+with the cheapest pot every workstation
+
+---------08:17----------
+it'll make you want to cry
+
+---------08:19----------
+okay now that I have those two resistors
+
+---------08:23----------
+off I'm gonna put some solder on the
+
+---------08:24----------
+pads
+
+---------08:39----------
+not exactly rocket science tending those
+
+---------08:42----------
+pants
+
+---------08:51----------
+and I pray that I don't make that
+
+---------08:55----------
+resistor flick away I'm gonna let the
+
+---------08:59----------
+hot air move it into place there we go
+
+---------09:03----------
+and the other resistor in that voltage
+
+---------09:05----------
+divider is down here
+
+---------09:14----------
+that is terribly out of place and we
+
+---------09:17----------
+just flick it in a place courtesy of hot
+
+---------09:19----------
+air
+
+---------09:19----------
+okay now that that is all flicked into
+
+---------09:22----------
+place now I want to see is when I'm done
+
+---------09:24----------
+does this actually work we're gonna try
+
+---------09:31----------
+turning it on and see if I have a
+
+---------09:32----------
+backlight and if we don't have a
+
+---------09:34----------
+backlight I'm still gonna want to
+
+---------09:35----------
+measure around and see if anything
+
+---------09:36----------
+changed so if you have any any new news
+
+---------09:39----------
+stuff
+
+---------09:50----------
+it's gonna turn on turn off turn on turn
+
+---------09:53----------
+off turn on turn off then turn on like
+
+---------09:55----------
+all of the 2013 heirs do you put come on
+
+---------10:07----------
+alright so that didn't work and also
+
+---------10:10----------
+unfortunately when I actually did manage
+
+---------10:12----------
+to follow up and fix it I forgot to
+
+---------10:15----------
+ hit record so I managed hit
+
+---------10:17----------
+record all the way at the end from my
+
+---------10:18----------
+for me talking but I didn't show you
+
+---------10:21----------
+what I did so I'm gonna go back and show
+
+---------10:23----------
+you what I did here to fix that problem
+
+---------10:25----------
+I want to show you what was actually
+
+---------10:27----------
+wrong at the board because it's
+
+---------10:30----------
+something that doesn't happen often but
+
+---------10:31----------
+it's something that you should know how
+
+---------10:33----------
+to fix it's something that you should
+
+---------10:34----------
+see so let me load up this schematic
+
+---------10:36----------
+here and after I load up the schematic
+
+---------10:38----------
+I'm gonna show you what it is that I did
+
+---------10:40----------
+alright so this here is the voltage
+
+---------10:43----------
+divider that wasn't working the way it
+
+---------10:45----------
+was supposed to now after I replaced the
+
+---------10:47----------
+resistor over here it still measured 89
+
+---------10:50----------
+ohms instead of 301 kilohms
+
+---------10:51----------
+so this to here has a path through here
+
+---------10:56----------
+so my original assumption which was
+
+---------10:58----------
+wrong for several reasons was that this
+
+---------11:00----------
+resistor must be bad now the first
+
+---------11:02----------
+reason that this assumption was wrong
+
+---------11:03----------
+is that resistors when they blow 99.999%
+
+---------11:07----------
+of the time when the resistor blows it
+
+---------11:09----------
+blows to a higher resistance not a lower
+
+---------11:13----------
+resistance so the first thing I should
+
+---------11:15----------
+have thought is what other path could be
+
+---------11:16----------
+taking the signal to go from path from
+
+---------11:18----------
+this pin over here it's over here pins 4
+
+---------11:21----------
+& 3 of this transistor could be shorted
+
+---------11:23----------
+or this capacitor could have blown and
+
+---------11:26----------
+have been the problem and the problem
+
+---------11:28----------
+here was this capacitor so this
+
+---------11:30----------
+capacitor here was was broken now you
+
+---------11:32----------
+may ask well why don't you measure the
+
+---------11:33----------
+resistor out of circuit measuring the
+
+---------11:35----------
+resistor out of circuit is the proper
+
+---------11:38----------
+thing to do like if you try to get one
+
+---------11:41----------
+of these resistors on your desk so that
+
+---------11:43----------
+you can measure it out of circuit mean
+
+---------11:44----------
+really if you ever actually tried to
+
+---------11:46----------
+take a size two oh one resistor off of
+
+---------11:48----------
+the motherboard place that
+
+---------11:50----------
+resistor on the desk that you can
+
+---------11:51----------
+measure it out of circuit and do this
+
+---------11:53----------
+you know you know what's gonna have that
+
+---------11:54----------
+resistor the second that you touch it
+
+---------11:56----------
+it's gonna take a little touch and it's
+
+---------11:58----------
+gonna fly right away to the sixth
+
+---------12:00----------
+dimension you're never gonna see it
+
+---------12:01----------
+again
+
+---------12:01----------
+I don't
+
+---------12:02----------
+I don't measure things out of circuit
+
+---------12:04----------
+because 99% I can't I really can't and
+
+---------12:07----------
+then you say what if you use smart
+
+---------12:08----------
+tweezers I'm gonna take it off of the
+
+---------12:10----------
+board I'm gonna put it on the desk I'm
+
+---------12:12----------
+gonna grab with the smart tweezers Boop
+
+---------12:14----------
+it's gonna fight I just know it's gonna
+
+---------12:15----------
+flick away and also my smart tweezers
+
+---------12:18----------
+got water damage you buy my air
+
+---------12:20----------
+conditioner leak on them the day that I
+
+---------12:22----------
+got them which is something I should
+
+---------12:24----------
+really send back but yeah that that's
+
+---------12:26----------
+that and you're gonna see later that the
+
+---------12:28----------
+board does actually work that was the
+
+---------12:29----------
+problem I was being an idiot and doing
+
+---------12:31----------
+the wrong thing to fix it and all right
+
+---------12:34----------
+so this thing died while I was recording
+
+---------12:36----------
+because my stomach hits something over
+
+---------12:38----------
+here I think I don't know what I did I
+
+---------12:40----------
+hit off maybe I bumped into it anyway
+
+---------12:41----------
+let me just show you that I am working
+
+---------12:43----------
+on the same board not biessing you this
+
+---------12:45----------
+is the same same board where I replaced
+
+---------12:50----------
+that capacitor on see that I replaced
+
+---------12:54----------
+the voltage divider you can see because
+
+---------12:55----------
+it still has the flux around it and that
+
+---------12:58----------
+is let's turn this thing on so that you
+
+---------13:01----------
+can see that it has a backlight and see
+
+---------13:03----------
+that it does indeed work plug it in it's
+
+---------13:09----------
+gonna do the turn on turn off turn on
+
+---------13:10----------
+turn off turn on turn off thing and then
+
+---------13:13----------
+once it turns on I have to wait for it
+
+---------13:14----------
+to get to the question mark so anyway
+
+---------13:16----------
+the whole point here is you have to
+
+---------13:17----------
+figure out what was wrong with your
+
+---------13:19----------
+board you can't you know follow
+
+---------13:23----------
+something on the internet that says I
+
+---------13:24----------
+you know this thread says check this
+
+---------13:26----------
+component and replace this thing every
+
+---------13:28----------
+single time it's gonna be something
+
+---------13:30----------
+different I've been doing this for a
+
+---------13:31----------
+long time and this is the first time
+
+---------13:32----------
+that that was the actual component that
+
+---------13:34----------
+needed to be replaced that's never
+
+---------13:35----------
+happened before it's never been that
+
+---------13:37----------
+little piece but this time it was so
+
+---------13:39----------
+really you just have to understand how
+
+---------13:41----------
+the components work go through step by
+
+---------13:43----------
+step in an analytical and logical
+
+---------13:45----------
+fashion analyze compare contrast measure
+
+---------13:48----------
+and learn and if you do that you'll be
+
+---------13:51----------
+able to solve these problems if you
+
+---------13:52----------
+don't you're not and you're just gonna
+
+---------13:55----------
+be wasting your time so come on here we
+
+---------13:58----------
+go back light beautiful another board
+
+---------14:02----------
+that ascend tech couldn't figure out
+
+---------14:05----------
+yeah I have an entire box here of boards
+
+---------14:08----------
+from them where like the half of them
+
+---------14:09----------
+have the buttons like we never touched
+
+---------14:11----------
+them we never tried to fix them and like
+
+---------14:12----------
+the BIOS chips are on backwards like
+
+---------14:14----------
+just get the Eddie
+
+---------14:16----------
+but yeah another one that I can put in
+
+---------14:18----------
+the window
+

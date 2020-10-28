@@ -1,0 +1,1300 @@
+https://www.youtube.com/watch?v=Rzw0erVbRm0
+---------00:00----------
+hi so today we're gonna be going over a
+
+---------00:01----------
+board that doesn't turn on it's an eight
+
+---------00:03----------
+to zero 28 79 I've already started doing
+
+---------00:06----------
+some troubleshooting on it because I
+
+---------00:07----------
+just didn't feel like cleaning my office
+
+---------00:10----------
+and putting the camera in place but I
+
+---------00:11----------
+took a break so let's go over what we
+
+---------00:14----------
+did so far so the first thing that was
+
+---------00:16----------
+going on with this board is there was no
+
+---------00:17----------
+green light in the charger and there was
+
+---------00:18----------
+also no voltage anywhere in the Machine
+
+---------00:20----------
+now you in order for the one wire
+
+---------00:22----------
+circuit to work as I've explained in
+
+---------00:24----------
+other videos you need PP 3 v 4 to
+
+---------00:25----------
+underscore G 3 out to be present and on
+
+---------00:27----------
+this board PP 3 V 4 to underscore G 3
+
+---------00:29----------
+hot was actually it was something like
+
+---------00:32----------
+1.2 volts and I'm gonna show you what I
+
+---------00:35----------
+measure that on this board so that's
+
+---------00:39----------
+fine
+
+---------00:41----------
+let's go over to the screen over here
+
+---------00:43----------
+okay put me in the bottom where I belong
+
+---------00:46----------
+so now this here is that circuit see if
+
+---------00:51----------
+the charger comes in over here this chip
+
+---------00:53----------
+will turn the charger or the battery
+
+---------00:58----------
+power into 3.42 volts it's going to have
+
+---------01:01----------
+a lot of switching it's going to go
+
+---------01:03----------
+through this inductor which is going to
+
+---------01:04----------
+smooth it out along with this capacitor
+
+---------01:06----------
+and here is a feedback network so the
+
+---------01:08----------
+feedback is important so see here with
+
+---------01:10----------
+this FB that stands for feedback and if
+
+---------01:12----------
+you don't know what that is you can
+
+---------01:13----------
+always Google LT 3 4 7 Oh a which is the
+
+---------01:16----------
+name of this chip and it'll tell you
+
+---------01:18----------
+that pin 1 is for feedback so you have
+
+---------01:19----------
+this voltage divider over here that
+
+---------01:21----------
+takes that voltage and sends it over to
+
+---------01:23----------
+this feedback pin so if it's not putting
+
+---------01:25----------
+out the power that you want it to put
+
+---------01:26----------
+out it's either going to be shorted to
+
+---------01:28----------
+ground by something or feedback is not
+
+---------01:30----------
+gonna work so what I did is I replace
+
+---------01:32----------
+these two resistors R 6 9 and 5 and
+
+---------01:34----------
+i-696 I'll show you what that looks like
+
+---------01:36----------
+on the microscope over here and ya
+
+---------01:41----------
+microscope there we go so I replace
+
+---------01:45----------
+those two resistors you can see that
+
+---------01:47----------
+this throws some nasty flux that I'm
+
+---------01:48----------
+going to have to clean up and what I had
+
+---------01:50----------
+is a is the green light
+
+---------01:51----------
+now before I bother screwing with that
+
+---------01:53----------
+one of the things I always tell you guys
+
+---------01:55----------
+is that I want to see just how far down
+
+---------01:56----------
+the rabbit hole I'm going to go so what
+
+---------01:58----------
+I do is I actually injected power on
+
+---------02:00----------
+that rail so using this agilent bench
+
+---------02:02----------
+power supply that I have over here what
+
+---------02:03----------
+I did that put 3.42 volts onto the pp 3
+
+---------02:06----------
+v 4 to rail over here so what I did is I
+
+---------02:09----------
+actually removed the inductor so let me
+
+---------02:11----------
+just show you on here what that is
+
+---------02:13----------
+this over here all six nine and five
+
+---------02:15----------
+where it takes two we're pretty much on
+
+---------02:17----------
+this end it's sending power to the rest
+
+---------02:18----------
+of the machine I remove this inductor so
+
+---------02:20----------
+that this has nothing to do with the
+
+---------02:21----------
+circuit I plugged in the charger and I
+
+---------02:23----------
+put 3.42 volts here and I had all the
+
+---------02:25----------
+power I'll show up in the machine so
+
+---------02:27----------
+what this does is it tells me that the
+
+---------02:28----------
+there's some hope here that pp bus g3
+
+---------02:31----------
+hot is going to show up because again
+
+---------02:32----------
+I'm not always looking to solve one
+
+---------02:34----------
+problem I want to see if I take the time
+
+---------02:35----------
+to solve that one problem
+
+---------02:36----------
+am I gonna solve a lot of my other
+
+---------02:37----------
+problems as well or is it just going to
+
+---------02:39----------
+continue to be a complete another
+
+---------02:41----------
+nightmare and what that told me is that
+
+---------02:42----------
+this had a chance at actually working so
+
+---------02:45----------
+I fixed that part of the circuit now I
+
+---------02:46----------
+don't have other power rails I don't
+
+---------02:47----------
+have PP 5 vs 3 I don't have PP 3 V 3 and
+
+---------02:50----------
+one of the things I noticed is it I'm
+
+---------02:52----------
+not getting any of the enable signals so
+
+---------02:54----------
+let me just go over to that on the
+
+---------02:56----------
+screen capture here and I'm gonna show
+
+---------02:59----------
+you what's going on so so over here this
+
+---------03:04----------
+is the chip that controls power 4 PP 5
+
+---------03:07----------
+vs 3 this controls power 4 PP 3 V 3 and
+
+---------03:12----------
+all those other power trails that are
+
+---------03:13----------
+missing now these end trip tabs are what
+
+---------03:16----------
+are going to tell them the car turn on
+
+---------03:17----------
+and one of the things I noticed is that
+
+---------03:19----------
+the power again here's here's what I'm
+
+---------03:21----------
+what I tell you all the times I want to
+
+---------03:23----------
+see just how far down the rabbit hole
+
+---------03:25----------
+I'm gonna go with the board before I get
+
+---------03:27----------
+involved with it so see this this thing
+
+---------03:29----------
+this isn't rip the way this works is
+
+---------03:31----------
+that when this is grounded that it's not
+
+---------03:35----------
+going to create the power rail but when
+
+---------03:37----------
+this is allowed to be high when the chip
+
+---------03:39----------
+naturally brings us high and it's not
+
+---------03:41----------
+grounded it will be allowed to actually
+
+---------03:42----------
+create that power rail so this chip
+
+---------03:44----------
+controls this buck regulator over here
+
+---------03:46----------
+which turns the 12-volt power of the
+
+---------03:48----------
+computer into 5 volts 4 PP 5 vs 3 so you
+
+---------03:52----------
+can see over here it says PP 5 vs 3 this
+
+---------03:54----------
+pretty much creates a bunch of pulses
+
+---------03:56----------
+which after going through this inductor
+
+---------03:58----------
+and being smoothed by these capacitors
+
+---------03:59----------
+turns into a nice flat 5 volts now see
+
+---------04:03----------
+this transistor over here the way this
+
+---------04:05----------
+works see this end trip signal this
+
+---------04:06----------
+entropy signal is naturally high when
+
+---------04:08----------
+this chip is powered on but if you were
+
+---------04:10----------
+to take this entropy single and send it
+
+---------04:12----------
+to ground so it below as you can see
+
+---------04:14----------
+over here that would not create PP 5 es
+
+---------04:17----------
+3 now this you have this figure out
+
+---------04:19----------
+what's controlling this transistor so
+
+---------04:21----------
+this transistor over here is connected
+
+---------04:23----------
+on one end to drain to the entrant and
+
+---------04:25----------
+the source of it is can
+
+---------04:27----------
+to the ground so if the signal comes
+
+---------04:29----------
+into this gate or is not present at this
+
+---------04:30----------
+gate depending on what signal is at the
+
+---------04:32----------
+gate you will actually send that to
+
+---------04:33----------
+ground so let's see what creates that
+
+---------04:35----------
+signal so this signal p5 vs 3 underscore
+
+---------04:45----------
+en underscore L comes from PM @
+
+---------04:47----------
+underscore s s PM underscore sleep
+
+---------04:51----------
+underscore s 4 underscore L so you can
+
+---------04:52----------
+see this is one this is a signal that
+
+---------04:55----------
+comes from PP 3 V 4 to underscore G
+
+---------04:57----------
+through yonder score power control and
+
+---------04:58----------
+whether or not this signal stays high or
+
+---------05:01----------
+it goes low depends on whether this
+
+---------05:04----------
+transistor brings it to ground which
+
+---------05:05----------
+depends on PM underscore SLP underscore
+
+---------05:08----------
+s 4 underscore L and if we search will
+
+---------05:12----------
+find out where this signal comes from so
+
+---------05:14----------
+this signal comes from MC p89 MCP the
+
+---------05:18----------
+MCP on this machine is similar to the pc
+
+---------05:20----------
+agent newer machines it you know
+
+---------05:22----------
+controls most of the functions of the
+
+---------05:23----------
+board or if you use two really really
+
+---------05:24----------
+old motherboard nomenclature it's like
+
+---------05:26----------
+the North Bridge in the South Bridge so
+
+---------05:28----------
+in this machine around two thousand nine
+
+---------05:30----------
+and ten Apple is integrating the North
+
+---------05:33----------
+Bridge in the South Bridge and all those
+
+---------05:34----------
+functions into one chip to make the
+
+---------05:36----------
+motherboard a little bit more energy
+
+---------05:38----------
+efficient and also just to make it
+
+---------05:41----------
+smaller and nicer and you know all
+
+---------05:42----------
+that's good stuff what's the point of
+
+---------05:44----------
+having a North Bridge in the South
+
+---------05:45----------
+Bridge when you can simply have an MCP
+
+---------05:46----------
+that does everything yeah
+
+---------05:48----------
+North Bridge South Bridge graphics chip
+
+---------05:50----------
+this is a laptop you want to keep it
+
+---------05:51----------
+small we want to keep it light and one
+
+---------05:53----------
+of the ways you keep it light and small
+
+---------05:54----------
+and simple is by taking the Northbridge
+
+---------05:56----------
+and Southbridge and the graphics chip
+
+---------05:58----------
+and putting it all into this one chip so
+
+---------06:00----------
+let's just let's just scroll up so I can
+
+---------06:01----------
+show you a little bit more what an MCP
+
+---------06:03----------
+actually does so this is the Nvidia MCP
+
+---------06:05----------
+a lot of people call this a graphics
+
+---------06:07----------
+chip on this board because they're they
+
+---------06:08----------
+don't know what they're talking about
+
+---------06:09----------
+it's not a graphics chip it's an MCP so
+
+---------06:13----------
+this controls set up for hard drives and
+
+---------06:16----------
+controls let's see the main memory it
+
+---------06:18----------
+goes to USB devices like your webcam
+
+---------06:21----------
+your trackpad your keyboard your
+
+---------06:23----------
+Bluetooth you USB card reader your air
+
+---------06:25----------
+port goes to the PCI Express lanes this
+
+---------06:28----------
+this is a lot more than just graphics
+
+---------06:29----------
+now one of the things that I'm thinking
+
+---------06:32----------
+at this point is that the first problem
+
+---------06:35----------
+I noticed with this board is that pp3 v4
+
+---------06:38----------
+- when
+
+---------06:39----------
+wrong so P P 3 V 4 to s power supply
+
+---------06:41----------
+stopped working and the feedback
+
+---------06:43----------
+resistors were at fault now
+
+---------06:45----------
+what's going to happen if the chip
+
+---------06:46----------
+doesn't know how much power it's
+
+---------06:47----------
+creating for a split second it's going
+
+---------06:49----------
+to send a huge spike which is going to
+
+---------06:51----------
+you know do bad things to everything so
+
+---------06:53----------
+one of the things I'm gonna do now is
+
+---------06:54----------
+I'm gonna start doing some detective
+
+---------06:55----------
+work and I would look along my power
+
+---------06:57----------
+supply rails to see what could have
+
+---------06:59----------
+possibly went on again a lot of this is
+
+---------07:01----------
+detective work to try to figure out what
+
+---------07:02----------
+went on
+
+---------07:03----------
+based on the story that you have in
+
+---------07:05----------
+front of you so let's go here and by
+
+---------07:08----------
+story I don't mean like asking the
+
+---------07:09----------
+customer so what happened oh I dropped
+
+---------07:11----------
+it oh I didn't spill water in it but I
+
+---------07:13----------
+mean I'd really did spill water and I
+
+---------07:15----------
+don't mean get the story from the
+
+---------07:16----------
+customer because that's that's always
+
+---------07:18----------
+ I mean you you they were that
+
+---------07:19----------
+the customer tells you is always
+
+---------07:21----------
+horseshit what I mean is actually get
+
+---------07:23----------
+the story from what's going on on the
+
+---------07:25----------
+actual motherboard like the science I
+
+---------07:27----------
+don't give a for what people tell
+
+---------07:28----------
+me actually what happened went on with
+
+---------07:30----------
+their board so let's find PP 3 v 4 2
+
+---------07:32----------
+over here
+
+---------07:33----------
+so P P 3 V 4 it's you underscore G 3 hot
+
+---------07:35----------
+underscore rec so let's zoom in scroll
+
+---------07:38----------
+over zoom in scroll over so this goin
+
+---------07:43----------
+trolls
+
+---------07:44----------
+let's see has something mentioning the
+
+---------07:46----------
+SMC this is for the SMC data line that's
+
+---------07:48----------
+not really worried about that at the
+
+---------07:49----------
+moment because I have a green light and
+
+---------07:51----------
+it doesn't turn on so hello am I gonna
+
+---------07:52----------
+tell if the sensors actually work or not
+
+---------07:54----------
+we have trackpad don't care about
+
+---------07:57----------
+trackpad cuz it doesn't turn on we have
+
+---------07:58----------
+SMC you don't care about that we have
+
+---------08:01----------
+one wire obviously that works because
+
+---------08:03----------
+they have a green light on my charger
+
+---------08:04----------
+then we have this one over here our TC
+
+---------08:06----------
+what are we talking about with our TC
+
+---------08:08----------
+let me show you that's a clock signal
+
+---------08:11----------
+and if we look up where the clock comes
+
+---------08:15----------
+from you're gonna see it at the clock
+
+---------08:16----------
+signal over here actually comes from a
+
+---------08:22----------
+part of the mCP so over here you have X
+
+---------08:24----------
+tau n underscore RTC right on over here
+
+---------08:27----------
+I'm circling the mouse and our TC out
+
+---------08:29----------
+and exhale out underscore our TC this is
+
+---------08:31----------
+a 32 killer it's clock signal that goes
+
+---------08:34----------
+in and out of you 1400 which as I showed
+
+---------08:37----------
+you on page one comes from the mCP so
+
+---------08:42----------
+the power rail that went wonky is the
+
+---------08:45----------
+power rail that powers the clock signal
+
+---------08:47----------
+so let's see if we actually have a clock
+
+---------08:48----------
+present so let's turn the board over
+
+---------08:52----------
+go from there okay so those exile pins
+
+---------08:57----------
+are gonna be on a crystal right by the
+
+---------08:58----------
+mCP now if you don't know where this is
+
+---------09:03----------
+you want to know where to find it let me
+
+---------09:05----------
+show you so let's just search for RTC
+
+---------09:07----------
+over here
+
+---------09:07----------
+search for RTC so here it says RTC
+
+---------09:11----------
+underscore clock 32k understood X tile
+
+---------09:14----------
+in and let's search for that on the
+
+---------09:19----------
+schematic so you see it says that this
+
+---------09:20----------
+comes off of our 28 this comes off of Y
+
+---------09:24----------
+2810 right RTC crystal RTC crystal and
+
+---------09:28----------
+power for this is based on P P 3 V 4 2
+
+---------09:31----------
+so we're going to go over here and what
+
+---------09:34----------
+do you know look you can type C for
+
+---------09:36----------
+component than Y 2810 and you're going
+
+---------09:39----------
+to come up with this now what I'm
+
+---------09:41----------
+supposed to see here is a 32 kilohertz
+
+---------09:43----------
+square wave a sine wave not a square
+
+---------09:46----------
+wave I'm losing my mind I think it's a
+
+---------09:49----------
+sine wave
+
+---------09:49----------
+I heard us he don't even remember that's
+
+---------09:51----------
+kind of embarrassing but I don't really
+
+---------09:53----------
+care you know you'll see it when you see
+
+---------09:55----------
+it so let's get the oscilloscope over
+
+---------09:57----------
+here we're going to plug the board in
+
+---------09:59----------
+turn this thing around and let's see
+
+---------10:01----------
+what I get
+
+---------10:01----------
+that's a ship board for parts that's the
+
+---------10:03----------
+good board that I'm trying to fix
+
+---------10:15----------
+so here's my oscilloscope so first
+
+---------10:17----------
+things first get my green light Apple
+
+---------10:20----------
+charges are such a pain in the ass like
+
+---------10:22----------
+they really do troll you I mean
+
+---------10:23----------
+sometimes they work and sometimes this
+
+---------10:24----------
+you think it's lined up but it really
+
+---------10:27----------
+ain't and you get nothing so when I go
+
+---------10:29----------
+on that crystal I get absolutely nothing
+
+---------10:34----------
+and that's not what I'm supposed to get
+
+---------10:36----------
+so my mCP is probably dead my mCP got
+
+---------10:40----------
+ that's why my mCP is not sending
+
+---------10:42----------
+the signals that it needs to turn on
+
+---------10:44----------
+power supplies to get the machine going
+
+---------10:46----------
+and that's why I don't have a clock so
+
+---------10:48----------
+what I'm gonna do now is I'm going to
+
+---------10:49----------
+replace the mCP now I'm not gonna leave
+
+---------10:51----------
+that on camera because that's a pain in
+
+---------10:52----------
+the ass really I have to carry the
+
+---------10:54----------
+camera around I have to move it and
+
+---------10:56----------
+rewind I've already shown you guys with
+
+---------10:59----------
+the GPU video how to use the sound law
+
+---------11:00----------
+for a BGA rework so you know if you want
+
+---------11:03----------
+to watch a video on BGA rework just
+
+---------11:05----------
+search my channel for ZM - R 6,200 C or
+
+---------11:09----------
+just search for 6200 and you're gonna
+
+---------11:11----------
+see a video from front to end with no
+
+---------11:13----------
+editing no fast speed ups no so
+
+---------11:16----------
+that you can't see what I actually did
+
+---------11:18----------
+on how to replace a BGA chipset using a
+
+---------11:21----------
+BGA rework machine again the process
+
+---------11:23----------
+will be from the beginning to the end no
+
+---------11:25----------
+edits it will be fully explained it's
+
+---------11:27----------
+over an hour-and 48-minute video so you
+
+---------11:29----------
+can see exactly how it's all done I just
+
+---------11:31----------
+I don't feel like doing that again
+
+---------11:33----------
+because it requires moving wires around
+
+---------11:35----------
+my office moving the camcorder around
+
+---------11:36----------
+and it also means I can't do other
+
+---------11:39----------
+things in the process and that's just
+
+---------11:40----------
+it's just wasteful for me so okay so my
+
+---------11:43----------
+mCP 79 is replaced here we go you could
+
+---------11:47----------
+let's just let's see if I can get this
+
+---------11:51----------
+in focus so you can see it
+
+---------12:04----------
+see no chip I'll supposedly know who the
+
+---------12:10----------
+hell knows you know where all this stuff
+
+---------12:11----------
+comes from if you do these type of
+
+---------12:13----------
+repairs you know or all this comes
+
+---------12:15----------
+from so all right so that is the new
+
+---------12:20----------
+chip and I'm gonna check the clock
+
+---------12:23----------
+signal and see what I get on my scope my
+
+---------12:35----------
+desk is a [ __ ] so I got this
+
+---------12:37----------
+thing that allows you to attach the
+
+---------12:38----------
+keyboard under the desk and it worked
+
+---------12:39----------
+for the IKEA desk that I got for the
+
+---------12:42----------
+Brooklyn place that I was in for a
+
+---------12:43----------
+border pair for a month ago but it
+
+---------12:45----------
+doesn't actually work on this IKEA desk
+
+---------12:47----------
+which sucks I got spoiled with I hate
+
+---------12:49----------
+having this this keyboard in the mouse
+
+---------12:50----------
+all over the place and the desk it
+
+---------12:52----------
+drives me out of my mind but what you're
+
+---------12:54----------
+gonna do so on the oscilloscope let's
+
+---------12:57----------
+move this out of the way let's see what
+
+---------13:03----------
+we get so remember what we got before on
+
+---------13:05----------
+the RTC crystal was absolutely nothing
+
+---------13:07----------
+going into the mCP now when I measure
+
+---------13:09----------
+that point on the board I get that's
+
+---------13:15----------
+cool so I can't actually see it because
+
+---------13:17----------
+of the timing so let's check it now as
+
+---------13:22----------
+you can see in the bottom right it says
+
+---------13:24----------
+thirty two point four kilohertz which is
+
+---------13:26----------
+close enough and an average voltage of
+
+---------13:28----------
+one point eight which is what I need and
+
+---------13:34----------
+if I try to turn this board on see what
+
+---------13:38----------
+happens remember before this thing was
+
+---------13:39----------
+totally dead
+
+---------13:44----------
+and as I always joke once the fan spins
+
+---------13:48----------
+I'm done so if I were to plug it in now
+
+---------13:51----------
+and turn it on for one second because
+
+---------13:55----------
+this is a Core 2 Duo board with no
+
+---------13:57----------
+heatsink see if my fan spins what do you
+
+---------14:03----------
+know a fan spins see that is spinning
+
+---------14:07----------
+which means that I most likely solved my
+
+---------14:10----------
+problem so I am gonna run ASD on this
+
+---------14:13----------
+put it back in the machine tested clean
+
+---------14:15----------
+and make sure all is good but I just
+
+---------14:17----------
+wanted to give you a general idea of the
+
+---------14:20----------
+troubleshooting process how you can tell
+
+---------14:21----------
+when your mCP is dead some ways to tell
+
+---------14:23----------
+on the older MCP 79 and 89 boards when
+
+---------14:26----------
+the mCP is dead what causes your mCP to
+
+---------14:28----------
+die and what the solution is again the
+
+---------14:30----------
+solution is it's not three ball and it's
+
+---------14:33----------
+not three flow it don't do any of that
+
+---------14:34----------
+ what you do is you take your old
+
+---------14:36----------
+chip which in this case is over here so
+
+---------14:45----------
+you see if you take you take your old
+
+---------14:47----------
+mCP and you throw it in a trash can see
+
+---------14:52----------
+that yeah this is it that's what you do
+
+---------14:55----------
+you don't take that chip and reball it
+
+---------14:57----------
+you don't reflow it you throw it in the
+
+---------14:59----------
+trash or in my case actually I should
+
+---------15:00----------
+throw it in the e-waste but the e-waste
+
+---------15:02----------
+is in the other room and I just wanted
+
+---------15:04----------
+to kind of make a dramatic point here
+
+---------15:05----------
+you don't you don't reball you don't
+
+---------15:07----------
+reflow these chips once they go they are
+
+---------15:10----------
+garbage once flip chip design stop
+
+---------15:14----------
+working all these BGA flip chip designs
+
+---------15:16----------
+and they're under intense heat in a
+
+---------15:18----------
+poorly ventilated environment they are
+
+---------15:21----------
+trashed you don't you don't reuse them
+
+---------15:23----------
+you don't reball them you don't reflow
+
+---------15:24----------
+them they go in that garbage so
+
+---------15:27----------
+just to go over what we learned we
+
+---------15:29----------
+learned how to troubleshoot when pp3 v4
+
+---------15:31----------
+2 is not at three point four volts but
+
+---------15:34----------
+it's a lower voltage so very commonly
+
+---------15:36----------
+you'll see that the power supply is only
+
+---------15:37----------
+going up to 1.2 volts and when that
+
+---------15:39----------
+happens is because of feedback resistors
+
+---------15:42----------
+that are broken so the FIBA the voltage
+
+---------15:45----------
+divider that creates the feedback to the
+
+---------15:46----------
+chip that generates PP 3 V 4 to can be
+
+---------15:48----------
+bad then we also went over power
+
+---------15:50----------
+supplies that were not present
+
+---------15:52----------
+so my PP 5 ps3 power supply wasn't
+
+---------15:54----------
+present and it wasn't present because of
+
+---------15:55----------
+a missing sleep signal that
+
+---------15:57----------
+tells the the transistor connected to
+
+---------16:00----------
+the entropy signal to not send the
+
+---------16:02----------
+entropy signal to ground so was sending
+
+---------16:04----------
+the entropy signal to ground because my
+
+---------16:05----------
+sleep signal was not where it was
+
+---------16:07----------
+supposed to be my sleep signal was not
+
+---------16:09----------
+what I was supposed to be because of a
+
+---------16:10----------
+dead mCP and the pp3 v4 to power line
+
+---------16:14----------
+fluctuation is what happened to kill the
+
+---------16:17----------
+clock line in the mCP because the MCPS
+
+---------16:19----------
+clock line is powered by PP 3 before -
+
+---------16:21----------
+so when we measure the clock line that's
+
+---------16:23----------
+when we saw there wasn't present and
+
+---------16:24----------
+that's how we solve the problem
+
+---------16:26----------
+so again troubleshoot follow along use
+
+---------16:28----------
+your brain again no schooling no you
+
+---------16:31----------
+know there is no school that tells you
+
+---------16:33----------
+this there is no manual that tells you
+
+---------16:35----------
+step-by-step what to do you really just
+
+---------16:37----------
+have to go through and use your brain
+
+---------16:38----------
+and if you do that you will be able to
+
+---------16:40----------
+solve your problem
+

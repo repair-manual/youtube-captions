@@ -1,0 +1,625 @@
+https://www.youtube.com/watch?v=91VcojTX69s
+---------00:00----------
+today we're going to be going over a
+
+---------00:01----------
+touch bar that doesn't charge this is an
+
+---------00:03----------
+a 1706 board and eight two zero zero
+
+---------00:06----------
+zero nine two three and there are some
+
+---------00:09----------
+very common faults with this with older
+
+---------00:11----------
+machines to get the one wire circuit to
+
+---------00:12----------
+work you need to PP three before to be
+
+---------00:14----------
+present then SMC bc AC okay to be
+
+---------00:17----------
+present and then the charger would talk
+
+---------00:18----------
+to the SMC and the SMC needed to be on
+
+---------00:21----------
+here it's a little bit different as to
+
+---------00:23----------
+what it is that you need so let's go
+
+---------00:25----------
+over how touch bars get a green light on
+
+---------00:28----------
+the charger as I like to call it because
+
+---------00:30----------
+it's just no fun to if there's no fun
+
+---------00:33----------
+expressions for USBC the first thing to
+
+---------00:35----------
+understand is that when you're getting
+
+---------00:36----------
+charge of communication you're going to
+
+---------00:38----------
+have a different voltage coming out of
+
+---------00:39----------
+the USBC charger than what you get if
+
+---------00:42----------
+you're not having charger communication
+
+---------00:44----------
+if the charger is properly communicating
+
+---------00:46----------
+with the chip inside the computer the
+
+---------00:47----------
+USBC charger will know to put out twenty
+
+---------00:50----------
+volts because it's a MacBook if it's not
+
+---------00:52----------
+communicating with the charger chip
+
+---------00:54----------
+inside the computer it's going to put
+
+---------00:56----------
+out five volts and a great way to tell
+
+---------00:58----------
+this very quickly is to get one of these
+
+---------00:59----------
+little USB C ant meters which I'm gonna
+
+---------01:01----------
+link to below that makes this type of
+
+---------01:03----------
+diagnosis very simple when you have
+
+---------01:06----------
+charger communication it's going to give
+
+---------01:08----------
+you 20 volts which would be akin to
+
+---------01:10----------
+having a green or an orange light on the
+
+---------01:12----------
+older Mac books that have MagSafe
+
+---------01:14----------
+chargers whereas when you have five
+
+---------01:15----------
+volts that's similar to getting no green
+
+---------01:18----------
+light on the older Mac books that have
+
+---------01:19----------
+MagSafe chargers the first thing that we
+
+---------01:21----------
+need is the PP 3v3
+
+---------01:23----------
+underscore g3 hot power rail and the
+
+---------01:27----------
+reason that we need the PP 3v3
+
+---------01:28----------
+underscore g3 hot power rail is because
+
+---------01:31----------
+this chip that's over here which I'm
+
+---------01:33----------
+gonna show you on the schematic so this
+
+---------01:37----------
+chip is going to communicate with your
+
+---------01:40----------
+charger the cd32 15 a B or C depending
+
+---------01:45----------
+on your model so this has many
+
+---------01:46----------
+bi-directional data lines with the
+
+---------01:49----------
+charger it's going to be responsible for
+
+---------01:51----------
+USB data it's gonna be responsible for
+
+---------01:53----------
+USB to USB 3 DisplayPort thunderbolt and
+
+---------01:56----------
+charging all in one that's what this
+
+---------01:59----------
+chip does and it has bi-directional data
+
+---------02:01----------
+lines as you can see right over here
+
+---------02:03----------
+with your charger so this is going to go
+
+---------02:06----------
+here and then on the other side that's
+
+---------02:09----------
+going to go directly to your charging
+
+---------02:11----------
+port so to allow the CD through
+
+---------02:13----------
+2:15 to talk to the charger so just like
+
+---------02:16----------
+in the old system the MagSafe needed to
+
+---------02:18----------
+talk to the SMC here the cd32 15 needs
+
+---------02:22----------
+to talk to your USB C charger now this
+
+---------02:24----------
+chip is going to want a certain power
+
+---------02:26----------
+rail to be present and that power rail
+
+---------02:28----------
+is pp 3 V 3 underscore g3 HOD but where
+
+---------02:33----------
+do we get P P 3 V 3 underscore g3 hot
+
+---------02:36----------
+from what chip is responsible for
+
+---------02:37----------
+creating PP 3 V 3 underscore g3 ah well
+
+---------02:40----------
+that's a great question so the first
+
+---------02:42----------
+thing that we need here before anything
+
+---------02:44----------
+else is an enable use 7000 which is the
+
+---------02:48----------
+is l9 2 3 9 chip available by the way on
+
+---------02:51----------
+store dot Rossmann group.com
+
+---------02:53----------
+don't delay by today this chip is going
+
+---------02:57----------
+to be responsible for creating p.m. en
+
+---------03:00----------
+p3 v3 underscore g3 hot this is going to
+
+---------03:03----------
+enable that rail now this signal over
+
+---------03:07----------
+here is going to then go to the other
+
+---------03:11----------
+side of the board
+
+---------03:12----------
+to you 69 or 3u 69 o3 is going to be
+
+---------03:16----------
+responsible for creating our p3 v3
+
+---------03:19----------
+underscore g3 hot rail once we have
+
+---------03:22----------
+created our p3 v3 underscore g3 hot rail
+
+---------03:24----------
+that is then going to go over to the CD
+
+---------03:27----------
+32 15 ship over here and allow this chip
+
+---------03:30----------
+to turn on which will then allow the
+
+---------03:32----------
+charger to talk to the chip on the board
+
+---------03:36----------
+so see this is our CD 32 15 this is our
+
+---------03:41----------
+bi-directional data line over here with
+
+---------03:43----------
+the charger but for this trip to turn on
+
+---------03:44----------
+we need PP 3 V 3 underscore g3 hot this
+
+---------03:46----------
+is going to be very very important so
+
+---------03:48----------
+first thing we got to do is check and
+
+---------03:51----------
+see that we're getting PP 3 V 3
+
+---------03:53----------
+underscore g3 hot so let's do that here
+
+---------03:55----------
+so I'm gonna go back over to that chip
+
+---------03:57----------
+that creates PP 3 V 3 underscore g3 hot
+
+---------04:01----------
+which is U 69 o 3 it's gonna be right
+
+---------04:05----------
+over here on the board and we can
+
+---------04:07----------
+measure on l 69 hundred which is going
+
+---------04:09----------
+to be right next to that ship right over
+
+---------04:11----------
+here and see if we're getting that
+
+---------04:13----------
+signal so we're going to turn on that
+
+---------04:15----------
+microscope and we're going to check and
+
+---------04:17----------
+see what voltage we get over here when a
+
+---------04:19----------
+charger is plugged in
+
+---------04:28----------
+we get zero volts now what is the
+
+---------04:33----------
+symptom that you're going to get when
+
+---------04:34----------
+you have zero volts there well that's a
+
+---------04:37----------
+great question when you have zero volts
+
+---------04:40----------
+over here instead of three point three
+
+---------04:42----------
+the symptom that you're going to get is
+
+---------04:45----------
+that on the charger and by the way you
+
+---------04:48----------
+should have one of these USB C amp
+
+---------04:50----------
+meters if you don't it's going to make
+
+---------04:51----------
+your life miserable these USB C amp
+
+---------04:54----------
+meters are going to tell you how much
+
+---------04:56----------
+power the USBC charger is using when
+
+---------04:59----------
+it's plugged in to the system unless
+
+---------05:02----------
+it's this super buggy one that we just
+
+---------05:04----------
+got in the mail let's see if I can get
+
+---------05:06----------
+this thing to show you so as you can see
+
+---------05:08----------
+here if it's telling me that we're using
+
+---------05:13----------
+five point two volts five point two
+
+---------05:16----------
+volts now that's no good this charger
+
+---------05:19----------
+needs to go up to 20 volts in order for
+
+---------05:21----------
+it to turn on the Machine five volt is
+
+---------05:23----------
+not good enough if we were charging a
+
+---------05:24----------
+cell phone five volt is just fine but
+
+---------05:27----------
+USB C can work at many different
+
+---------05:28----------
+voltages v is not the one we need for
+
+---------05:30----------
+this MacBook this charger has to go up
+
+---------05:32----------
+to 20 volts in order for the system to
+
+---------05:34----------
+work and actually turn on right but it
+
+---------05:38----------
+needs to talk to the USB C chip on the
+
+---------05:40----------
+board for the USB C trip to say hi I'm a
+
+---------05:42----------
+math book I'm not a cell phone I'm a
+
+---------05:43----------
+math book give me 20 volts but that
+
+---------05:45----------
+chips not going to turn on because it's
+
+---------05:46----------
+not getting 3.3 volts so I wonder what
+
+---------05:49----------
+could potentially be causing a short to
+
+---------05:51----------
+ground let's just take a look around the
+
+---------05:52----------
+board and see if there's anything it
+
+---------05:55----------
+looks funny ouch yuck gross I wonder
+
+---------06:03----------
+what that stuff is for we're just going
+
+---------06:06----------
+to move right over here and see what
+
+---------06:10----------
+that capacitor is in our schematic and
+
+---------06:11----------
+board view and it appears in the
+
+---------06:13----------
+schematic and board view that that is a
+
+---------06:14----------
+capacitor on the pp3 v3 underscore g3
+
+---------06:16----------
+hotline I wonder if that could be
+
+---------06:18----------
+causing a short circuit to ground well
+
+---------06:20----------
+one way to find out I'm just gonna take
+
+---------06:22----------
+my handy-dandy pair of tweezers here and
+
+---------06:24----------
+destroy yet another set of tweezers and
+
+---------06:27----------
+service to this MacBook by going now
+
+---------06:30----------
+this area is heavily covered in under
+
+---------06:32----------
+fill and there's also this metal shield
+
+---------06:34----------
+that you'd have to remove here so this
+
+---------06:36----------
+is a fair
+
+---------06:37----------
+night mirrors location to get to but so
+
+---------06:43----------
+we're gonna trust the tweezers here
+
+---------06:48----------
+Reagan of yeah gtfo capacitor this
+
+---------06:57----------
+little MacBook does not deserve a gentle
+
+---------07:00----------
+treatment little MacBook die little
+
+---------07:10----------
+capacitor die yes die little capacitor
+
+---------07:21----------
+die
+
+---------07:36----------
+hmm now before we even do any cleaning
+
+---------07:39----------
+and all that stuff let's see if we get
+
+---------07:40----------
+20 volts on the meter now
+
+---------08:12----------
+and then we are getting 20 volts now
+
+---------08:15----------
+which means that the charger is talking
+
+---------08:18----------
+to the board and as you can see it's
+
+---------08:20----------
+taking 0.74 amps this is actually upside
+
+---------08:22----------
+down because I'm terrible at doing
+
+---------08:24----------
+online video but we're taking 20 volts
+
+---------08:26----------
+at Point 77 amps which means that this
+
+---------08:29----------
+board that we picked at random is
+
+---------08:31----------
+completely fixed and all it needed was
+
+---------08:33----------
+one single capacitor knocked off the
+
+---------08:35----------
+board and this is very common on this
+
+---------08:37----------
+machine where we're very comment on this
+
+---------08:49----------
+machine where you only have to take one
+
+---------08:51----------
+capacitor off and that's all it takes to
+
+---------08:53----------
+make the board work again if you manage
+
+---------08:56----------
+to choose the right board out of the
+
+---------08:58----------
+pile what do you think of that that's it
+
+---------09:21----------
+for today and as always I hope you
+
+---------09:23----------
+learned something
+
+---------09:24----------
+happy Halloween folks and I'll see you
+
+---------09:25----------
+in the next one how can L possibly be
+
+---------09:28----------
+next
+
+---------09:29----------
+oh yeah Luther oh he's an old friend in
+
+---------09:33----------
+high school
+
+---------09:34----------
+what's your name i Richard Fineman I
+
+---------09:39----------
+went to high school and I don't I don't
+
+---------09:42----------
+know Richard Fineman oh this Lewis how's
+
+---------09:48----------
+it going buddy
+
+---------09:48----------
+yeah I don't know you you said you were
+
+---------09:50----------
+a friend I'm not you
+
+---------09:52----------
+well I thought I was talking to your
+
+---------09:54----------
+receptionist and I was gonna get through
+
+---------09:56----------
+so I said I was no you so you think that
+
+---------09:58----------
+lying is the way to go that's that's
+
+---------10:01----------
+great man
+
+---------10:02----------
+good no I think
+

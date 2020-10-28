@@ -1,0 +1,610 @@
+https://www.youtube.com/watch?v=ocF_hrr83Oc
+---------00:00----------
+okay so today I'm going to be going over
+
+---------00:01----------
+a MacBook Air that has no keyboard and
+
+---------00:04----------
+no trackpad now I'm not going to start
+
+---------00:07----------
+from the beginning because frankly I
+
+---------00:09----------
+work a lot slower when I do everything
+
+---------00:11----------
+on camera so I'm going to go over what
+
+---------00:12----------
+my thought process was I'm going to go
+
+---------00:14----------
+over how it is I solve the problem here
+
+---------00:15----------
+but it's kind of half solved already so
+
+---------00:18----------
+this is a MacBook Air that has no
+
+---------00:20----------
+keyboard no trackpad so the first thing
+
+---------00:22----------
+that I do was a look at the computer
+
+---------00:24----------
+just common sense to try to figure out
+
+---------00:26----------
+what is connected to what and I notice
+
+---------00:28----------
+that the keyboard connects to the
+
+---------00:29----------
+trackpad then the trackpad connects to
+
+---------00:31----------
+the motherboard via a cable so if the
+
+---------00:33----------
+keyboard and the trackpad are not
+
+---------00:35----------
+working it's most likely not that the
+
+---------00:37----------
+keyboard in the trackpad or bad it's
+
+---------00:39----------
+most likely that either the trackpad is
+
+---------00:41----------
+bad the cable is bad or the board is bad
+
+---------00:44----------
+now I tried a different trackpad
+
+---------00:47----------
+trackpad cable and keyboard combination
+
+---------00:50----------
+here and I had the exact same issue so
+
+---------00:52----------
+that's when you just go over to the
+
+---------00:53----------
+schematic and again a little bit of
+
+---------00:55----------
+brain usage over here so what I did and
+
+---------00:58----------
+I open this up and I measure and all
+
+---------01:01----------
+these points to see what I get
+
+---------01:03----------
+so this is the trackpad connector so we
+
+---------01:06----------
+have SMC lid the USB trackpad data lines
+
+---------01:10----------
+and a bunch of other stuff here so what
+
+---------01:12----------
+I do is I open up OpenOffice and I write
+
+---------01:14----------
+down the measurements that I get on a
+
+---------01:17----------
+known good board the voltage I read each
+
+---------01:19----------
+pin and also when the computer is often
+
+---------01:22----------
+there's no power applied no power from
+
+---------01:24----------
+battery no power from DC n board I also
+
+---------01:27----------
+measure diode mode measurements or
+
+---------01:28----------
+resistance to ground on the good one and
+
+---------01:31----------
+then I compare it with the [ __ ] one so
+
+---------01:32----------
+this over here is actually a different
+
+---------01:34----------
+[ __ ] one but the [ __ ] one that I'm
+
+---------01:35----------
+working on right now is this one and I
+
+---------01:37----------
+notice when I got down to pin 10 its I'm
+
+---------01:40----------
+getting one point nine volts at pin 10
+
+---------01:42----------
+so I look at pin 10 over here and it
+
+---------01:45----------
+says pp 3 v 3 S 4 which should be 3.3
+
+---------01:48----------
+volts when the computer is in an S for
+
+---------01:50----------
+State or up so the way power states work
+
+---------01:53----------
+at F ICP b3 b3 s 4 that voltage should
+
+---------01:57----------
+be there when it's in an S 4 state s3
+
+---------01:58----------
+state or an Esso state and so that's pp
+
+---------02:01----------
+3 B 3 3 point 4 over 3 point 3 volts and
+
+---------02:04----------
+I follow it up and I see that that comes
+
+---------02:06----------
+from our 48:30 now I know that pp 3 v 3
+
+---------02:10----------
+pp 3 b3 s 4 has to be present on this
+
+---------02:12----------
+computer it
+
+---------02:13----------
+turning on PP 3 v 3s OPP 3 V 3 s 3 PP
+
+---------02:17----------
+350s for all of those are required for
+
+---------02:20----------
+this computer to actually work and
+
+---------02:21----------
+function if P B 3 B 3 is for were
+
+---------02:23----------
+missing nothing here would work so logic
+
+---------02:25----------
+would lead me to believe that this
+
+---------02:27----------
+resistor over here ow
+
+---------02:29----------
+I mean this resistor over here is bad so
+
+---------02:33----------
+what I'm going to do over here is I'm
+
+---------02:34----------
+going to go over to the board view
+
+---------02:35----------
+software and type in our 48:30 and we're
+
+---------02:38----------
+going to find where that is on the
+
+---------02:39----------
+motherboard now on the motherboard our
+
+---------02:41----------
+4830
+
+---------02:43----------
+is over here and it's listed over here
+
+---------02:45----------
+as a zero ohm resistor meaning no
+
+---------02:47----------
+resistance so it says zero ohms meaning
+
+---------02:51----------
+no resistance so what I'm going to do is
+
+---------02:54----------
+I'm going to measure it and I'm going to
+
+---------02:56----------
+try my best to see if it's possible to
+
+---------02:57----------
+get that on camera probably won't be but
+
+---------03:00----------
+what the hell let's see what I can do
+
+---------03:02----------
+okay so I'm going to switch back to the
+
+---------03:07----------
+camera view here we go resistance damn
+
+---------03:21----------
+receptionist and the salesperson look
+
+---------03:22----------
+like they're about to murder one another
+
+---------03:25----------
+well they're arguing a foreign language
+
+---------03:28----------
+that's how you know it's [ __ ] up when
+
+---------03:30----------
+you when you hear people arguing in
+
+---------03:32----------
+languages that are not English but
+
+---------03:33----------
+they're English speakers you're arguing
+
+---------03:36----------
+is kind of universal in every language
+
+---------03:38----------
+like you know when somebody is arguing
+
+---------03:40----------
+with somebody it doesn't matter what
+
+---------03:42----------
+they're speaking it doesn't matter if
+
+---------03:43----------
+you speak the language at all you just
+
+---------03:45----------
+kind of know it's nits like it's in
+
+---------03:49----------
+arguing irritation has no language well
+
+---------03:56----------
+are they going to kill each other I have
+
+---------03:57----------
+no idea what it's over I have no
+
+---------04:00----------
+interest in finding out to be honest
+
+---------04:01----------
+with you right now
+
+---------04:02----------
+because I got a board to fix okay there
+
+---------04:07----------
+we go so that is going to be this
+
+---------04:11----------
+resistor over here it's supposed to be
+
+---------04:15----------
+zero ohms and the multimeter says that
+
+---------04:17----------
+it's thirty-seven thousand ohms yeah I
+
+---------04:23----------
+wonder why I don't have a [ __ ]
+
+---------04:24----------
+keyboard in the trackpad
+
+---------04:26----------
+all right so let's fix this [ __ ] I could
+
+---------04:30----------
+just put a wire there but that's kind of
+
+---------04:33----------
+ghetto but I could if I wanted to I
+
+---------04:36----------
+could definitely totally put a wire
+
+---------04:40----------
+there let's see I could put a fuse
+
+---------04:50----------
+there's a bunch of different things I
+
+---------04:51----------
+could put there
+
+---------05:27----------
+that was a little more annoying to take
+
+---------05:29----------
+that off then I'm used to
+
+---------05:46----------
+hey old solder is gone
+
+---------05:54----------
+remember you want to be efficient keep
+
+---------05:56----------
+the board you're working on another
+
+---------05:57----------
+microscope when you're stealing
+
+---------05:59----------
+components don't have it don't put it
+
+---------06:01----------
+under the microscope because then you're
+
+---------06:02----------
+moving [ __ ] around all the time
+
+---------06:03----------
+it's inconvenient when you're ripping
+
+---------06:07----------
+apart off of a donor board it doesn't
+
+---------06:08----------
+have to go under the microscope it's not
+
+---------06:13----------
+like you need precision or rip things
+
+---------06:14----------
+off you need precision to put things on
+
+---------06:48----------
+zero ohms and we put this thing back
+
+---------06:59----------
+together and see what we get
+
+---------07:01----------
+by the way again fav all these people
+
+---------07:04----------
+let's say you know oh we got a lot of
+
+---------07:06----------
+comments particularly from this one one
+
+---------07:09----------
+guy in the last video that I did a few
+
+---------07:12----------
+videos ago actually on how you know
+
+---------07:15----------
+you're not qualified your pissant
+
+---------07:18----------
+compared to the Apple certified centers
+
+---------07:19----------
+that have the right tools to do this you
+
+---------07:21----------
+don't understand how any of this really
+
+---------07:23----------
+really works
+
+---------07:25----------
+Apple quoted 750 bucks for this
+
+---------07:28----------
+you saw under the microscope this this
+
+---------07:30----------
+doesn't even have liquid damage I mean
+
+---------07:32----------
+it doesn't have liquid damage it's
+
+---------07:34----------
+literally one resistor that's destroyed
+
+---------07:36----------
+750 a week and guess what no data I love
+
+---------07:42----------
+it I just I love it I love how they do
+
+---------07:44----------
+that it's like not only are we going to
+
+---------07:47----------
+take a week charge you 750 but no date
+
+---------07:51----------
+ah
+
+---------07:51----------
+like if because that's just really the
+
+---------07:54----------
+kick in the balls on top of it I mean
+
+---------07:56----------
+it's enough of a kick in the balls that
+
+---------07:57----------
+the company that you bought this [ __ ]
+
+---------07:59----------
+from for 1700 bucks is not going to help
+
+---------08:03----------
+you at all and it's going to take a week
+
+---------08:06----------
+and they are getting rid of your data oh
+
+---------08:11----------
+it's yeah oneness 100 it's one on the
+
+---------08:15----------
+iPhone 6 error 53 video oneness 100 a
+
+---------08:18----------
+bunch of comments coming from someone
+
+---------08:21----------
+that's not an Apple authorized service
+
+---------08:22----------
+center that's completely meaningless I
+
+---------08:24----------
+have worked at authorized sales and
+
+---------08:26----------
+service locations for blah blah blah you
+
+---------08:29----------
+need a job within an authorized service
+
+---------08:31----------
+blah blah blah again you know what the
+
+---------08:34----------
+all you know what I'm going to do if I
+
+---------08:35----------
+work at an Apple Authorized Center I'm
+
+---------08:37----------
+going to take this board I'm going to
+
+---------08:39----------
+chuck it into a bin it's going to get
+
+---------08:41----------
+thrown away and that's going to be a big
+
+---------08:43----------
+[ __ ] waste authorized repair it's a
+
+---------08:47----------
+joke it really really is a joke for so
+
+---------08:50----------
+many different things it's just a sad
+
+---------08:52----------
+joke sad sad joke and I'm going to turn
+
+---------08:57----------
+this on and you're going to see that it
+
+---------08:58----------
+actually works my favorite comments here
+
+---------09:00----------
+service text tip
+
+---------09:02----------
+do not replace surface-mount components
+
+---------09:03----------
+because it's too time-consuming again
+
+---------09:06----------
+authorized repair authorized repair is
+
+---------09:10----------
+dumb it really is so I'm going to plug
+
+---------09:13----------
+this in and you're going to see that I
+
+---------09:14----------
+have a working keyboard which I didn't
+
+---------09:17----------
+have before because I am NOT an idiot
+
+---------09:19----------
+and because I'm unauthorized and because
+
+---------09:21----------
+I actually have a clue how to use the
+
+---------09:23----------
+[ __ ] brain that's in my head to
+
+---------09:25----------
+connect two and two to get four it's
+
+---------09:29----------
+just such it's such horseshit it really
+
+---------09:31----------
+is for [ __ ] this entire business is just
+
+---------09:33----------
+horseshit like the entire consumer
+
+---------09:37----------
+electronics repair business is just the
+
+---------09:40----------
+that's a steaming pile
+
+---------10:07----------
+plugged it in let's hold down my option
+
+---------10:11----------
+key
+
+---------10:24----------
+hold down option
+
+---------10:36----------
+it finished it's RTC reset and what do
+
+---------10:43----------
+you know the option key worked the mouse
+
+---------10:47----------
+is moving yeah we're all idiots in the
+
+---------10:52----------
+unauthorized repair community
+
+---------10:53----------
+I can stupid businessman
+

@@ -1,0 +1,1660 @@
+https://www.youtube.com/watch?v=hdz2harkuKM
+---------00:00----------
+all right so today we're going to be
+
+---------00:01----------
+working on an 8 to 0 25 30 here that's
+
+---------00:04----------
+dead I know this is an antique Hawaiian
+
+---------00:06----------
+bothering is beyond me but every now and
+
+---------00:09----------
+then what the hell so I'm going to be
+
+---------00:11----------
+trying something a little different
+
+---------00:12----------
+today I'm going to be streaming just a
+
+---------00:13----------
+twitch and then editing this short
+
+---------00:15----------
+version of YouTube I used to think that
+
+---------00:18----------
+I was kind of screwing over the YouTube
+
+---------00:19----------
+people by only streaming to twitch but
+
+---------00:21----------
+I'm getting a lot of comments in the
+
+---------00:23----------
+shorter videos I'm doing saying I want
+
+---------00:24----------
+to see more of these screw the streams
+
+---------00:26----------
+so I'm thinking I'm going to do
+
+---------00:28----------
+something like this for the next few
+
+---------00:29----------
+weeks I'm going to upload the full
+
+---------00:30----------
+stream to vid me I'm going to stream to
+
+---------00:33----------
+twitch and then I'm going to upload the
+
+---------00:35----------
+edited version of it to YouTube and
+
+---------00:36----------
+maybe that will be the best compromise
+
+---------00:38----------
+between all three different ways of
+
+---------00:41----------
+viewing this type of content so today
+
+---------00:43----------
+we're going to get started this is an 8
+
+---------00:45----------
+to 0 25 30 now we do get a green light
+
+---------00:48----------
+on the charger here as you see we have a
+
+---------00:50----------
+light on the charger and it is turning
+
+---------00:53----------
+green however the person says that it
+
+---------00:55----------
+won't charge the battery so the first
+
+---------00:58----------
+thing that I would want to do if it says
+
+---------01:00----------
+that I cannot charge the battery is I
+
+---------01:02----------
+want to look up what would charge the
+
+---------01:04----------
+battery on this machine so if I look at
+
+---------01:06----------
+the schematic over here that down here P
+
+---------01:09----------
+bus supply battery charger and this is
+
+---------01:12----------
+going to take the voltage from the
+
+---------01:14----------
+charger that 18 volts in the charger and
+
+---------01:16----------
+it's going to turn it at the end into 12
+
+---------01:19----------
+point 6 volts for my system pp bus g3
+
+---------01:22----------
+hot is simply another way of saying 12
+
+---------01:25----------
+volts here so if I were to go to the
+
+---------01:26----------
+power Elias as page down here you'll see
+
+---------01:29----------
+that pp bus g3 hot on this page it says
+
+---------01:32----------
+pp bus g3 hot is 12 point 6 volts so
+
+---------01:35----------
+what I'm going to want to do is see if
+
+---------01:37----------
+that's creating 12 point 6 volts like
+
+---------01:40----------
+it's supposed to so this is a buck
+
+---------01:42----------
+converter if you don't know what that is
+
+---------01:43----------
+you could watch any of my videos and
+
+---------01:45----------
+what a buck converter is and they will
+
+---------01:46----------
+go over that in detail let's take a look
+
+---------01:49----------
+so the area where that chipset is
+
+---------01:51----------
+actually looks pretty damn nice to me I
+
+---------01:54----------
+don't see anything wrong over here
+
+---------01:56----------
+except for the fact that my microscope
+
+---------01:57----------
+as always is that a focus and I can't
+
+---------02:00----------
+blame Jason for it because Jason is on
+
+---------02:02----------
+vacation in China and so as much as I'd
+
+---------02:05----------
+like to blame him for it it is not his
+
+---------02:07----------
+fault so I'm going to just turn on the
+
+---------02:09----------
+multimeter here we're in voltage mode
+
+---------02:11----------
+and we're going to see what we're
+
+---------02:12----------
+getting
+
+---------02:13----------
+at that fuse so if I were to go over to
+
+---------02:16----------
+that fuse which is going to be F 7000
+
+---------02:22----------
+over here I should get twelve point six
+
+---------02:24----------
+volts and what I get on the meter is
+
+---------02:29----------
+0.18 three volts so home well there's a
+
+---------02:33----------
+few things this chip is going to need in
+
+---------02:34----------
+order to work firstly it's going to need
+
+---------02:36----------
+PP three before - no II know it's
+
+---------02:38----------
+getting PP three before - because we
+
+---------02:39----------
+have a light in the charger which we
+
+---------02:41----------
+wouldn't have otherwise over here at
+
+---------02:42----------
+pins 19 and 20 charger VDD should be
+
+---------02:45----------
+five volts so if we were to measure
+
+---------02:47----------
+charger VDD over here you'll see that we
+
+---------02:51----------
+get five volts so that's not it at
+
+---------02:55----------
+charger DC n we should be getting the 16
+
+---------02:58----------
+or 18 volts in the charger over here so
+
+---------03:00----------
+let's just check on which charger DC in
+
+---------03:02----------
+would be where you're going to look over
+
+---------03:04----------
+here for that and let's see what we get
+
+---------03:08----------
+there
+
+---------03:11----------
+sixteen point five volts okay so let's
+
+---------03:14----------
+see where our problem is so this is
+
+---------03:17----------
+these two transistors are supposed to
+
+---------03:19----------
+take the spikes of 16 volts from the
+
+---------03:20----------
+charger which is coming in through here
+
+---------03:22----------
+and those may in send spikes through the
+
+---------03:24----------
+coil so spike of 16 spica zero spike 16
+
+---------03:27----------
+spike of zero and that's supposed to
+
+---------03:28----------
+average out to twelve point six volts so
+
+---------03:31----------
+let's see if any voltage is actually
+
+---------03:32----------
+making its way through to here these two
+
+---------03:34----------
+transistors are here as the reverse
+
+---------03:36----------
+current protection to ensure that the
+
+---------03:38----------
+battery doesn't try to charge the
+
+---------03:40----------
+charger or anything anything funny like
+
+---------03:42----------
+that so let's take a look at Q 7 0 0 and
+
+---------03:45----------
+Q 7 0 0 1 up here so let's see if
+
+---------03:48----------
+voltage is making its way from up here
+
+---------03:50----------
+so 18 V G 3 huh charger denny g3 Hunt
+
+---------03:54----------
+voltage is a voltage that should be
+
+---------03:55----------
+there at all times
+
+---------03:57----------
+so let's find Q 7,000 up here so we're
+
+---------04:00----------
+going to go over to Q 7,000 and on Q
+
+---------04:05----------
+7,000 up here let's see what we get so
+
+---------04:09----------
+you have 18 volts it's supposed to come
+
+---------04:12----------
+in through there so it does look like
+
+---------04:13----------
+we're getting 16 volts on the input of U
+
+---------04:17----------
+of Q 7,000 so we are getting that now
+
+---------04:22----------
+this over here is what we call a
+
+---------04:23----------
+p-channel MOSFET this will only open if
+
+---------04:25----------
+the voltage in the gate is lower than
+
+---------04:27----------
+the voltage in
+
+---------04:28----------
+source so on the source which is pins
+
+---------04:29----------
+one two three is confusing over here we
+
+---------04:31----------
+are getting 16 volts now the gate which
+
+---------04:35----------
+is going to be pin 4 over here this is
+
+---------04:38----------
+supposed to be getting less and as we
+
+---------04:39----------
+can see here it's getting the exact same
+
+---------04:42----------
+16 which means that it's not going up
+
+---------04:43----------
+in' which means that no power is going
+
+---------04:46----------
+to flow through here so let's try to
+
+---------04:48----------
+figure out how it is that the voltage in
+
+---------04:50----------
+the gate would be lower than the voltage
+
+---------04:51----------
+in the source so we have our 70 98 which
+
+---------04:54----------
+is going to take the voltage from the
+
+---------04:55----------
+source and place it on the gate our 1798
+
+---------04:58----------
+ensures this transistor will never open
+
+---------05:00----------
+however if we were to add another
+
+---------05:02----------
+resistor between the gate and ground
+
+---------05:04----------
+we'd have what's called a voltage
+
+---------05:05----------
+divider and if we have a voltage divider
+
+---------05:07----------
+then we could lower the voltage in the
+
+---------05:09----------
+gate but what if instead of tying the
+
+---------05:10----------
+second resistor to ground we tie it to a
+
+---------05:13----------
+chip that can control whether it goes to
+
+---------05:15----------
+ground then we'd have a voltage divider
+
+---------05:16----------
+that we could turn on and off at will
+
+---------05:18----------
+which is what you see here so our 1798
+
+---------05:21----------
+sits between the 18 volt rail and the
+
+---------05:23----------
+gate and r700 one over here sits between
+
+---------05:26----------
+the gate and you 7,000 now use 7,000
+
+---------05:30----------
+over here at charger a gate can send
+
+---------05:32----------
+r700 one up here to ground at will so
+
+---------05:36----------
+it's used seven thousands choice whether
+
+---------05:38----------
+to do that now there are a couple of
+
+---------05:39----------
+things that can go wrong in the circuit
+
+---------05:40----------
+these resistors can corrode the paths
+
+---------05:42----------
+between them can corrode the compare
+
+---------05:44----------
+this capacitor over here could short we
+
+---------05:47----------
+making this a wire so the first resistor
+
+---------05:49----------
+in the voltage divider of C 7063 shorts
+
+---------05:51----------
+would be a wire which means that this
+
+---------05:54----------
+would never act as a voltage divider or
+
+---------05:56----------
+q 7,000 could be shorted internally so
+
+---------05:58----------
+the first thing that I would do to rule
+
+---------06:01----------
+out several things then the transistor
+
+---------06:03----------
+being bad and this cap being bad in one
+
+---------06:05----------
+immediate measurement is measure the
+
+---------06:07----------
+resistance between pins 1 and pins 4 of
+
+---------06:10----------
+Q 7000 up here so let's do that so we're
+
+---------06:13----------
+going to unplug the charger for this
+
+---------06:15----------
+we're going to check between pins 1 and
+
+---------06:16----------
+4 and we should get about 100 kilo ohms
+
+---------06:19----------
+of resistance and as can be seen we get
+
+---------06:21----------
+100 kilo ohms resistance which means
+
+---------06:23----------
+this cap has not gone bad nor has the
+
+---------06:25----------
+transistor internally shorted now we're
+
+---------06:27----------
+going to end our 1798 I'm going to guess
+
+---------06:29----------
+is good because we have 100 kilo ohms of
+
+---------06:30----------
+resistance between here and here now
+
+---------06:32----------
+we're going to check if our 1798 has a
+
+---------06:35----------
+good path r700 1 so on this side of the
+
+---------06:39----------
+board we're going to see our 1798 over
+
+---------06:41----------
+here
+
+---------06:41----------
+I'm going to make sure that that's got a
+
+---------06:42----------
+good path to r700 one up there this
+
+---------06:46----------
+we're going to measure between you up
+
+---------06:49----------
+here and you down here and that trace is
+
+---------06:57----------
+fine less than 2 ohms the resistance
+
+---------06:59----------
+that's just a multimeter being a cheap
+
+---------07:00----------
+multimeter this means that most likely
+
+---------07:03----------
+my issue is going to be with one of two
+
+---------07:04----------
+things either a the SMC notice here are
+
+---------07:07----------
+the SMC has a data line with the used
+
+---------07:09----------
+7000 the SMC is telling my you 7,000
+
+---------07:12----------
+keep that transistor off or be you 7000
+
+---------07:16----------
+it's I'm going to hope and pray
+
+---------07:19----------
+that it's used 7,000 that is a to blame
+
+---------07:21----------
+here because of its something else on a
+
+---------07:23----------
+board this from 2009 then this is just
+
+---------07:26----------
+going in the garbage where it belongs
+
+---------07:28----------
+and we are going to repeal and replace
+
+---------07:30----------
+this with a new chip now do keep in mind
+
+---------07:31----------
+this board is so old it actually uses
+
+---------07:33----------
+the ISL 6 2 5 8
+
+---------07:35----------
+not the ISL six two five nine which I
+
+---------07:38----------
+have it appears three left in my spool
+
+---------07:42----------
+so I have three 2008-9 boards left that
+
+---------07:46----------
+I can fix before I'm done I am so cheap
+
+---------07:49----------
+that the reason the only reason I'm even
+
+---------07:50----------
+bothering with this is because I need to
+
+---------07:52----------
+get rid of my old chips
+
+---------07:58----------
+how are these boards worth the fix
+
+---------08:00----------
+they're not worth it to fix and with
+
+---------08:02----------
+with the newer machines it may be worth
+
+---------08:04----------
+it because with newer machines the data
+
+---------08:07----------
+is a part of the motherboard on these I
+
+---------08:09----------
+have no idea why anybody bothers you can
+
+---------08:11----------
+just take your drive out pop it into
+
+---------08:12----------
+something else we also forgot to check
+
+---------08:20----------
+current sensing but those resistors look
+
+---------08:24----------
+like they're probably fine to me either
+
+---------08:26----------
+way if we wasted our time we will find
+
+---------08:28----------
+out shortly
+
+---------08:41----------
+and
+
+---------08:49----------
+I'm sorry to hear that Firefox sucks on
+
+---------08:51----------
+my screen okay so we're going to add
+
+---------08:55----------
+some lead in solder you're going to mix
+
+---------08:58----------
+it with that lead-free solder make it a
+
+---------09:00----------
+little easier to wick up and remove
+
+---------09:09----------
+and we're gonna wick
+
+---------09:23----------
+they're just going to
+
+---------09:31----------
+solder on our path here
+
+---------09:42----------
+almost about the flux can't have fun
+
+---------09:45----------
+soldering without new flux now can we
+
+---------09:55----------
+this is not the ideal tip for this
+
+---------10:01----------
+Karen get ready for the new chip on
+
+---------10:03----------
+there I knew I mean this chip that I
+
+---------10:12----------
+bought back in 2000 Oh 12 maybe I see
+
+---------10:16----------
+this spool is from 2012 and I still got
+
+---------10:19----------
+it
+
+---------10:19----------
+look at that nice i SL 65 a
+
+---------10:46----------
+okay flew into place make it dance a
+
+---------10:50----------
+little now we're going to push it down
+
+---------10:51----------
+make it nice and flat on the board and
+
+---------10:55----------
+any excess solder is going to get moved
+
+---------10:58----------
+with my micro pencil
+
+---------11:40----------
+you need a web browser why not do it
+
+---------11:42----------
+yourself so you
+
+---------11:53----------
+really hot
+
+---------12:00----------
+my focus on perfection was killing me
+
+---------12:05----------
+why am i focusing on perfection when I
+
+---------12:08----------
+tell all of you not to focus on
+
+---------12:09----------
+perfection
+
+---------12:11----------
+god damn it but using these days of view
+
+---------12:16----------
+blueprints I use Paul Daniels as open
+
+---------12:19----------
+board view proudly okay now we're going
+
+---------12:24----------
+to plug this thing in and see what we
+
+---------12:25----------
+get on the charger okay so I went from
+
+---------12:34----------
+having here we go green light I was just
+
+---------12:36----------
+about to say that my green light went
+
+---------12:37----------
+away wouldn't be surprised with knowing
+
+---------12:39----------
+where I bought I bought that before
+
+---------12:41----------
+I knew that else who were scammers that
+
+---------12:43----------
+ship is so old that was purchased when I
+
+---------12:45----------
+thought L two were like a real bit real
+
+---------12:47----------
+company oh man
+
+---------12:50----------
+and hey voltage says oh and that's ok
+
+---------12:56----------
+voltage over here says twelve point
+
+---------12:59----------
+three you all know what that means right
+
+---------13:03----------
+that means that this is not going to see
+
+---------13:05----------
+a battery all right
+
+---------13:08----------
+so let's check diode mode to ground on
+
+---------13:10----------
+the SMC data lines so over here you'll
+
+---------13:22----------
+see that the SMC is going to talk in and
+
+---------13:28----------
+whoops the SMC is going to talk to the
+
+---------13:31----------
+battery and the battery indicator light
+
+---------13:33----------
+on the side which then talks to the
+
+---------13:34----------
+battery charger if this data line is not
+
+---------13:37----------
+working or these resistors are gone or
+
+---------13:39----------
+this chip is not working or something is
+
+---------13:40----------
+shorting it to ground then what's going
+
+---------13:42----------
+to happen is that yes this is not going
+
+---------13:45----------
+to be able to talk to this and what
+
+---------13:49----------
+happens is that this chip over here will
+
+---------13:52----------
+create twelve point three volts it only
+
+---------13:54----------
+creates twelve point 56 volts once the
+
+---------13:56----------
+SMC has told it to but before the SMC
+
+---------13:57----------
+tells it to it creates twelve point
+
+---------13:59----------
+three so this will confirm that I'm
+
+---------14:01----------
+probably screwed and need a new SMC for
+
+---------14:04----------
+a 2009 machine in which case I'm not
+
+---------14:06----------
+going to bother fixing it because he'll
+
+---------14:09----------
+if I'm chasing that that down
+
+---------14:11----------
+I have a better chance of getting a date
+
+---------14:13----------
+which will be Lewis than I do buying a
+
+---------14:15----------
+working SMC to a 2009 MacBook Pro I'm
+
+---------14:18----------
+going to plug it in and see if it now
+
+---------14:20----------
+sees this battery just out of curiosity
+
+---------14:24----------
+here so we are we got plugged in and
+
+---------14:27----------
+let's see if it gives me an orange light
+
+---------14:35----------
+and it only gives me a green one if I
+
+---------14:39----------
+were to let's see if I plug in the
+
+---------14:41----------
+battery indicator over here do you see
+
+---------14:45----------
+anything nope it sees nothing now it
+
+---------14:51----------
+could always be that that battery is bad
+
+---------14:53----------
+but do you think that's going to be the
+
+---------14:57----------
+problem with our luck I don't think so
+
+---------15:00----------
+hey all right let's check and see if
+
+---------15:04----------
+there's a short to ground on pin 10 or
+
+---------15:05----------
+11 you never know it could be a bad ISL
+
+---------15:07----------
+or it could be a badess and see like it
+
+---------15:11----------
+always is like it always is
+
+---------15:14----------
+all right so diode mode to ground on
+
+---------15:16----------
+those pins
+
+---------15:19----------
+and I'm not finding an SMC for this
+
+---------15:22----------
+balls to that balls to that man alright
+
+---------15:29----------
+so we're going to check diode mode to
+
+---------15:34----------
+ground on pin and we're supposed to be
+
+---------15:38----------
+getting something like zero point four
+
+---------15:39----------
+four one
+
+---------15:46----------
+sure what you got to make good contact
+
+---------15:53----------
+point four four eight acceptable point
+
+---------15:58----------
+four three six acceptable bad SMC so
+
+---------16:06----------
+this is not shorting it to ground most
+
+---------16:07----------
+likely SMC issue let me just try with
+
+---------16:10----------
+another battery just to confirm that I
+
+---------16:12----------
+am NOT not met just making any
+
+---------16:17----------
+assumptions I shouldn't about the health
+
+---------16:19----------
+of that battery alright so with a
+
+---------16:20----------
+different battery we get green light not
+
+---------16:24----------
+orange and battery indicator doesn't
+
+---------16:27----------
+recognize it lay some all right
+
+---------16:36----------
+so let's check the pull-up resistors
+
+---------16:37----------
+just to make sure that they're actually
+
+---------16:39----------
+we can check the pull-up resistance by
+
+---------16:40----------
+checking voltage of those pins so let's
+
+---------16:42----------
+check voltage at either of those pins
+
+---------16:44----------
+because that'll actually be faster than
+
+---------16:46----------
+finding the damn pull-up resistors
+
+---------16:52----------
+alright if we get three volts then we
+
+---------16:55----------
+know that at least the pull-up resistors
+
+---------16:57----------
+are pulling a data line signal up
+
+---------17:04----------
+3.4 3.4 and of course if this with the
+
+---------17:12----------
+battery indicator unplugged so that
+
+---------17:14----------
+can't be pulling down my signal and we
+
+---------17:17----------
+check the voltage on PP bus g3 hot and
+
+---------17:20----------
+it's twelve point three because the SMC
+
+---------17:22----------
+ain't doing its job
+
+---------17:23----------
+and the SMC has to be on so I know that
+
+---------17:26----------
+SMC reset circuit is working I know that
+
+---------17:28----------
+because in my um because my charger
+
+---------17:31----------
+light is turning on which it wouldn't if
+
+---------17:32----------
+the SMC was was dead so let's give the
+
+---------17:36----------
+board a once-over and then perhaps just
+
+---------17:41----------
+because give me it make the SMC dance a
+
+---------17:44----------
+little bit because you never know it
+
+---------17:45----------
+could just be corrosion under the SMC
+
+---------17:47----------
+and that may be it so let's take a look
+
+---------17:51----------
+over the board and hey little fella hey
+
+---------17:55----------
+you know did you break my SMC did you
+
+---------17:59----------
+break my SMC a little guy I think maybe
+
+---------18:04----------
+you broke my SMC oh you broke my SMC
+
+---------18:09----------
+didn't she a little bastard didn't show
+
+---------18:11----------
+you a little bastard well you're so cute
+
+---------18:14----------
+let's look at it little eyes so we've
+
+---------18:17----------
+got this little bug over here and what
+
+---------18:22----------
+did you up my SMC you probably did
+
+---------18:25----------
+all right so the SMC on this board is
+
+---------18:27----------
+located up here
+
+---------18:38----------
+and we are going to give this a nice
+
+---------18:42----------
+reflow
+
+---------18:58----------
+this has no edge bonding on the SMC as
+
+---------19:01----------
+someone pointed out will you be willing
+
+---------19:04----------
+to fix Tesla's I don't know I can't even
+
+---------19:08----------
+drive man wrong wrong idea
+
+---------19:36----------
+so we're going to preheat the board for
+
+---------19:38----------
+a little bit no edge bonding means been
+
+---------19:43----------
+ with already no not on this one
+
+---------19:44----------
+no edge bonding just means that it's old
+
+---------19:46----------
+and before they decided to put edge
+
+---------19:47----------
+bonding on every single chip yes lots of
+
+---------19:55----------
+flux
+
+---------20:13----------
+the temperature you're using I have my
+
+---------20:15----------
+station on 11 so 11
+
+---------20:25----------
+eleven
+
+---------20:33----------
+it's also the volume I have my speakers
+
+---------20:35----------
+on
+
+---------20:46----------
+there we go it starting to move a little
+
+---------20:48----------
+bit just want to rock it off over and
+
+---------20:54----------
+see it knock back in a place this one
+
+---------20:57----------
+doesn't want to swim it's got too much
+
+---------20:58----------
+hair under it oh Jesus Christ Oh gross
+
+---------21:11----------
+so we're going to put this through the
+
+---------21:13----------
+ultrasonic cleaner and take it out and
+
+---------21:16----------
+hope that we've got ourselves twelve
+
+---------21:17----------
+point six volts so let's go for the four
+
+---------21:21----------
+that going to get a multimeter on here
+
+---------21:24----------
+serial come on give me twelve point six
+
+---------21:28----------
+volts 12 point 5 volts not 12 point to
+
+---------21:32----------
+or twelve point three all right one two
+
+---------21:37----------
+you mother
+
+---------21:40----------
+yeah this piece of alright do
+
+---------21:45----------
+I have it no I'm not going to look for
+
+---------21:47----------
+2530 boy to get an SMC am I really doing
+
+---------21:50----------
+this I'm not doing this no I can't be no
+
+---------21:58----------
+I have better things to do with my time
+
+---------22:00----------
+no no eh so stop digging you know what
+
+---------22:06----------
+now I'm going to go for it we're going
+
+---------22:08----------
+to go for it I'm going to take the SMC
+
+---------22:10----------
+off of this and I'm going to put it on
+
+---------22:11----------
+this and let's see what we get
+
+---------22:15----------
+we're going to do this we're going to
+
+---------22:17----------
+actually do this all right so let's
+
+---------22:19----------
+replace the SMC on a machine from when
+
+---------22:22----------
+Lewis was too young to drink alcohol
+
+---------22:24----------
+legally let's go for it let's go for it
+
+---------22:31----------
+rip that smc off man
+
+---------22:36----------
+let's rip that smc off man
+
+---------22:46----------
+can't believe I'm putting time into this
+
+---------22:50----------
+there's so many things that could be
+
+---------22:52----------
+doing what is wrong with me
+
+---------23:06----------
+you
+
+---------23:13----------
+all right that's our old chip now we're
+
+---------23:17----------
+going to put on a chip that comes off of
+
+---------23:19----------
+a board that was fixed in China seven
+
+---------23:22----------
+years ago that was deemed no fix
+
+---------23:33----------
+okay Rick nice and easily notice how
+
+---------23:37----------
+much easier it is to wick the old boards
+
+---------23:39----------
+than the newer ones
+
+---------23:54----------
+this is back when modest soldering
+
+---------23:56----------
+equipment could actually be used to work
+
+---------24:00----------
+on this stuff and so we're going to put
+
+---------24:01----------
+this aside for the moment and now we're
+
+---------24:03----------
+going to remove this SMC from this pile
+
+---------24:06----------
+of crap
+
+---------24:16----------
+you
+
+---------24:27----------
+ah oh boy oh god that's awful
+
+---------24:32----------
+what the whoa okay thank god this is the
+
+---------24:36----------
+donor board never do what I just
+
+---------24:39----------
+peppered through what I just did never
+
+---------24:42----------
+do what I just did
+
+---------24:43----------
+wow that was awful alright so let's get
+
+---------24:46----------
+this thing in the clamp
+
+---------24:56----------
+you
+
+---------25:57----------
+yeah no no no no
+
+---------25:59----------
+almost almost screwed myself
+
+---------26:04----------
+one of them is popping up slightly
+
+---------26:22----------
+we gotta heat them up as quickly as I
+
+---------26:23----------
+can and get out of here before the
+
+---------26:25----------
+middle ones they're popping off into the
+
+---------26:28----------
+other outer balls okay got you I got you
+
+---------26:37----------
+there
+
+---------26:45----------
+how much did I screw up this time
+
+---------26:50----------
+oh you're kidding not as much as I
+
+---------26:54----------
+thought I was okay a little bit
+
+---------27:15----------
+some of my balls are a little big what
+
+---------27:19----------
+are you going to do
+
+---------27:22----------
+some of my balls are too big for their
+
+---------27:25----------
+own good that's good fit okay
+
+---------27:45----------
+okay so we got an SMC here that came off
+
+---------27:49----------
+of a board that was no fix from the
+
+---------27:52----------
+place that I used to outsource boards to
+
+---------27:53----------
+about seven six seven years ago and yes
+
+---------27:57----------
+we are actually using this in the hopes
+
+---------28:00----------
+that it will work dark days dark days
+
+---------28:09----------
+and here we go
+
+---------28:13----------
+I wish it luck
+
+---------28:35----------
+oK we've preheated for a little bit
+
+---------28:40----------
+give some time for that excess flux to
+
+---------28:42----------
+go away
+
+---------29:06----------
+now we're going to go in for the kill
+
+---------29:11----------
+okay it just went into place now we're
+
+---------29:14----------
+going to make it dance five seconds of
+
+---------29:17----------
+dancing and away we go let it cool off
+
+---------29:27----------
+rapid cool technology so we're going to
+
+---------29:30----------
+use Rhett rapid cool technology to get
+
+---------29:32----------
+it to cool off sooner
+
+---------29:42----------
+how will it work if you don't add thermo
+
+---------29:45----------
+hair under the and cool it off okay I'm
+
+---------29:51----------
+pretty satisfied if that's cooled off
+
+---------29:53----------
+now
+
+---------29:53----------
+I'm going to plug it in and let's even
+
+---------29:55----------
+see if we get a green light on this
+
+---------29:56----------
+piece of crap do we even get a green
+
+---------30:03----------
+light I will be surprised
+
+---------30:17----------
+doesn't seem like there's a green light
+
+---------30:18----------
+and I'm pretty sure that when I test VP
+
+---------30:22----------
+bus g3 hoc we're going to be worse off
+
+---------30:24----------
+than we were before
+
+---------30:28----------
+pp bus g3 hot is twelve point three
+
+---------30:37----------
+twelve point twelve point three and we
+
+---------30:46----------
+don't have a light on the charger
+
+---------30:47----------
+anymore which means that the SMC that I
+
+---------30:50----------
+took off was actually worse with us to
+
+---------30:53----------
+be better than the SMC that I put on
+
+---------31:13----------
+so this board was in the pile as a donor
+
+---------31:15----------
+because it has a bad yeah so am I going
+
+---------31:23----------
+to waste more time on this after I've
+
+---------31:25----------
+wasted this much time already on
+
+---------31:27----------
+something from 2009 enough is enough
+
+---------31:34----------
+I give up that's it for today and as
+
+---------31:37----------
+always I hope that you learned something
+
+---------31:39----------
+from my stupidity now time for an
+
+---------31:43----------
+advertisement this is our website here
+
+---------31:44----------
+may Linda prepare you will be able to
+
+---------31:47----------
+find on most of the different cleaners
+
+---------31:49----------
+stencils connectors ICS and small chips
+
+---------31:53----------
+that we use throughout these repairs on
+
+---------31:55----------
+this website so here you'll find the
+
+---------31:57----------
+ultrasonic cleaner that we use at the
+
+---------31:59----------
+store that's fixed many of the boards
+
+---------32:00----------
+that I was unable to fix in the video
+
+---------32:02----------
+this here is shipped straight from the
+
+---------32:04----------
+store here you'll see a bunch of LCD
+
+---------32:06----------
+connectors we've got keyboard connectors
+
+---------32:08----------
+we've got digitizer connectors and
+
+---------32:10----------
+they're all organized here so if you go
+
+---------32:12----------
+connectors by type or you can search by
+
+---------32:14----------
+your device so if we go here components
+
+---------32:17----------
+by device iPhone iPhone 6's it'll bring
+
+---------32:20----------
+you to a screen where you'll find a
+
+---------32:21----------
+bunch of different parts for your iPhone
+
+---------32:24----------
+the same is true for stencils we've got
+
+---------32:26----------
+stencils over here like the SMC stencil
+
+---------32:28----------
+that it's typically hard to buy directly
+
+---------32:30----------
+in America you have to wait a long time
+
+---------32:32----------
+to get that from China here we've got
+
+---------32:33----------
+the some different parts like the LPP
+
+---------32:37----------
+3v4 to regulator over here so this is a
+
+---------32:40----------
+PP 3v for two regulator you can actually
+
+---------32:42----------
+search by the number on the schematic
+
+---------32:44----------
+and if there are different chips with
+
+---------32:46----------
+that same number it'll bring up all the
+
+---------32:48----------
+different chips you can scroll down and
+
+---------32:49----------
+figure out which one is for your
+
+---------32:51----------
+motherboard because over here it'll say
+
+---------32:53----------
+compatible boards and it will list all
+
+---------32:55----------
+the boards the chip is compatible with
+
+---------32:56----------
+if you don't want to deal with that you
+
+---------32:58----------
+can even just search by your motherboard
+
+---------32:59----------
+so if I search over here for a t20 3462
+
+---------33:02----------
+it will only show me chips that are
+
+---------33:05----------
+compatible with my model motherboard and
+
+---------33:08----------
+this was all put together with
+
+---------33:10----------
+high-resolution pictures that you can
+
+---------33:12----------
+compare it to your chip to make sure
+
+---------33:14----------
+that you buy the right one and if you
+
+---------33:16----------
+have a question feel free to email feel
+
+---------33:18----------
+free to comment feel free to live chat
+
+---------33:20----------
+so thank you very much for watching the
+
+---------33:22----------
+video thank you very much for your
+
+---------33:23----------
+patronage if you use their website we've
+
+---------33:25----------
+also got flux here if you want
+
+---------33:27----------
+Fluxx we've got solder paste over here
+
+---------33:30----------
+if you want solder paste and we've even
+
+---------33:33----------
+got mouse pads with pictures of my
+
+---------33:36----------
+[ __ ]
+
+---------33:37----------
+of a cat
+

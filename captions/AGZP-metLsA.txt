@@ -1,0 +1,2296 @@
+https://www.youtube.com/watch?v=AGZP-metLsA
+---------00:00----------
+ok today we're going to be going over a
+
+---------00:01----------
+machine that does not turn on you have
+
+---------00:04----------
+no light on the charger this is with a
+
+---------00:06----------
+known good DC and board and known good
+
+---------00:08----------
+BC and buoyed cable so we're going to go
+
+---------00:10----------
+over why that is so the first thing that
+
+---------00:12----------
+you should check is the one wire circuit
+
+---------00:14----------
+I've gone over this in previous videos
+
+---------00:15----------
+but I'm going to go over it in this one
+
+---------00:17----------
+as well because yeah might as well makes
+
+---------00:20----------
+it easy touchdown so if I were to flip
+
+---------00:22----------
+over to the screen capture reason I'm
+
+---------00:25----------
+really talking really low today is
+
+---------00:27----------
+because I got this I got my earwax
+
+---------00:29----------
+removed and I was supposed to do that
+
+---------00:30----------
+about four years ago and now everything
+
+---------00:32----------
+is just incredibly loud all the time
+
+---------00:35----------
+it's driving me crazy so I'm talking
+
+---------00:37----------
+very low because I don't I hear the
+
+---------00:42----------
+esses and everything I can hear the air
+
+---------00:44----------
+moving inside like usually you could
+
+---------00:45----------
+hear the air conditioner but I can
+
+---------00:46----------
+actually hear the air moving inside of
+
+---------00:48----------
+that ducted sights the things that I can
+
+---------00:50----------
+hear right now just amazing so anyway
+
+---------00:52----------
+the way the one wire circuit works is
+
+---------00:54----------
+very simple you have this adapter sends
+
+---------00:56----------
+line that's coming from the charger and
+
+---------00:58----------
+that's going to go to this chip over
+
+---------01:00----------
+here this chip is going to allow the
+
+---------01:01----------
+adapter sense line from the charger
+
+---------01:03----------
+which is where the charger talks to talk
+
+---------01:05----------
+to the SMC see this is the SMC over here
+
+---------01:08----------
+and this is on this sis one wire line
+
+---------01:10----------
+now this chip is going to turn on and
+
+---------01:12----------
+let them talk if it has three point four
+
+---------01:14----------
+volts at the VCC pin the VCC pin is kind
+
+---------01:16----------
+of like the power pin for example with
+
+---------01:18----------
+my microscope camera it has this little
+
+---------01:19----------
+5 volt plug that turns it on this is the
+
+---------01:22----------
+VCC pin of my microscope camera so back
+
+---------01:27----------
+here that's this logic gate is going to
+
+---------01:32----------
+let this turn on if SMC BCA clk is
+
+---------01:35----------
+presence of SMC bc AC ok is present and
+
+---------01:37----------
+pp 3 v 4 to underscore g3 hotter present
+
+---------01:40----------
+then this logic gate is supposed to send
+
+---------01:42----------
+3 volts over to this now it makes the
+
+---------01:43----------
+air a little more confusing is that the
+
+---------01:45----------
+one wire circuit on the MacBook Air is
+
+---------01:47----------
+not on the motherboard it's on the DCN
+
+---------01:49----------
+board and it looks very very similar to
+
+---------01:51----------
+what it looked like in some of the older
+
+---------01:54----------
+models so let me just take a look over
+
+---------01:57----------
+here and get it into the microscope for
+
+---------01:59----------
+you so that you can see it there we go
+
+---------02:02----------
+so that is the one wire circuit see it's
+
+---------02:06----------
+all pretty that is the one wire circuit
+
+---------02:09----------
+so what I'm going to do over here is I'm
+
+---------02:11----------
+just going to check and see that SN
+
+---------02:13----------
+CBC a/c ok is present and also that PP
+
+---------02:15----------
+3v for two are present on this
+
+---------02:17----------
+motherboard so I'm going to go back go
+
+---------02:19----------
+over to the screen capture over here
+
+---------02:20----------
+we're going to check use the Nets
+
+---------02:22----------
+feature of this program sm c bc AC ok
+
+---------02:26----------
+and we're going to look for it and let's
+
+---------02:29----------
+see what i can measure it so i can
+
+---------02:31----------
+measure it on the third resistor down
+
+---------02:32----------
+over here so we're going to find on the
+
+---------02:34----------
+model board and let's see what I have
+
+---------02:37----------
+over here
+
+---------02:54----------
+but I measure I see 3.3 volts on the
+
+---------02:57----------
+multimeter let's see if you can even see
+
+---------02:59----------
+that can you see them up there you can't
+
+---------03:01----------
+oh well it isn't the trust me that is
+
+---------03:03----------
+3.3 volts and in order for that to be
+
+---------03:05----------
+3.3 volts as a P P 3 B 4 2 as to be
+
+---------03:07----------
+present because P P 3 B 4 2 is the power
+
+---------03:09----------
+line that is pulling up the SMC BC AC
+
+---------03:12----------
+okay signal so what do we do next now if
+
+---------03:15----------
+that's working that means that this IC
+
+---------03:17----------
+is most likely getting power over here
+
+---------03:19----------
+this u 6900 is the N I am using a known
+
+---------03:22----------
+good DC n board so I don't worry about
+
+---------03:24----------
+that and what could book could be next
+
+---------03:27----------
+well the SMC let's check let's check
+
+---------03:30----------
+over here so what's going to turn on the
+
+---------03:32----------
+SMC so we're going to look at the SMC
+
+---------03:34----------
+chip SMC SMC what turns on the SMC is
+
+---------03:40----------
+going to be something called SMC
+
+---------03:41----------
+underscore reset underscore L now the
+
+---------03:44----------
+way this works is this chip is how do I
+
+---------03:47----------
+describe it I'd say it's kind of like a
+
+---------03:49----------
+brown out Brown out detector so the
+
+---------03:51----------
+whole idea here is pp 3 V 4 to powers
+
+---------03:53----------
+the SMC that is the rail that powers the
+
+---------03:54----------
+SMC however it takes about a little bit
+
+---------03:58----------
+of time for that rail to become exactly
+
+---------04:00----------
+3.42 volts if the SMC attempts to start
+
+---------04:03----------
+before that rail becomes the exact 3.42
+
+---------04:07----------
+volts supposed to be the SMC will crash
+
+---------04:09----------
+should stop working audacity things will
+
+---------04:11----------
+happen so what happens is that this chip
+
+---------04:13----------
+waits until PP 3 before to underscore G
+
+---------04:15----------
+3 hot is stable and then it releases the
+
+---------04:17----------
+SMC reset signal which will then let the
+
+---------04:19----------
+SMC turn on by release I mean that it
+
+---------04:21----------
+goes high
+
+---------04:22----------
+so SMC underscore reset underscore L
+
+---------04:25----------
+this means reset the SMC when the signal
+
+---------04:28----------
+is low so when that signal is low like
+
+---------04:30----------
+0.5 volts or zero volts the SMC is in
+
+---------04:32----------
+reset mode which is kinda like a stop
+
+---------04:34----------
+computer we have a desktop computer and
+
+---------04:36----------
+you try holding down the reset button
+
+---------04:37----------
+when you hold down the reset button
+
+---------04:39----------
+you'll notice that the machine even
+
+---------04:42----------
+though it's on is not doing anything so
+
+---------04:44----------
+try this if you have an old desktop
+
+---------04:45----------
+because I know a lot of new machines
+
+---------04:46----------
+don't even have a reset button anymore
+
+---------04:48----------
+if you just hold the reset button then
+
+---------04:49----------
+you keep it pressed for like 10 seconds
+
+---------04:51----------
+the machine the screen goes black
+
+---------04:53----------
+doesn't pose doesn't beep it's on the
+
+---------04:55----------
+fans are spinning but it's not doing
+
+---------04:57----------
+anything
+
+---------04:58----------
+same thing on is present over here so
+
+---------05:00----------
+the way this is going to work it's going
+
+---------05:02----------
+to reset the SMC now there are a couple
+
+---------05:05----------
+of ways that SMC reset L can be low
+
+---------05:08----------
+this trip can be dead if this chip is
+
+---------05:09----------
+dead it will lower this by you know
+
+---------05:12----------
+let's say this chip dies ground and
+
+---------05:14----------
+reset will become tied together inside
+
+---------05:16----------
+the chip SMC manual reset underscore L
+
+---------05:19----------
+the manual reset could be triggered by
+
+---------05:23----------
+lowering this remember underscore L
+
+---------05:25----------
+means when the signal is low if this
+
+---------05:28----------
+capacitor breaks which happens very
+
+---------05:30----------
+often with by with people's fingernails
+
+---------05:31----------
+or when a capacitor dies it often turns
+
+---------05:34----------
+itself into a wire so this what this is
+
+---------05:37----------
+your capacitor now when it gets damaged
+
+---------05:40----------
+it turns into something like this so now
+
+---------05:44----------
+over here you have something that is not
+
+---------05:46----------
+going to pass DC it's going to go and
+
+---------05:49----------
+fail right here you have something that
+
+---------05:50----------
+will pass DC just fine so when a
+
+---------05:53----------
+capacitor fails it often shorts and if
+
+---------05:56----------
+this shorts that can happen so let's
+
+---------05:58----------
+take a little look at what's going on in
+
+---------06:00----------
+this area so if I take a look at SMC
+
+---------06:02----------
+manual reset but I actually have
+
+---------06:06----------
+memorized where the is on the board
+
+---------06:07----------
+at this point because I've checked so
+
+---------06:09----------
+many damn times let's see if okay we do
+
+---------06:15----------
+this two point seven that's good and
+
+---------06:18----------
+then we check over here and SMC as we
+
+---------06:22----------
+would which pen am I even checking my
+
+---------06:24----------
+checking the right pin let's see what
+
+---------06:27----------
+does the boy you say board view says
+
+---------06:30----------
+okay so SMC manual reset is up here and
+
+---------06:34----------
+that is two point seven and then SMC
+
+---------06:37----------
+reset is up there okay I was checking
+
+---------06:39----------
+the wrong one so SMC manual reset is
+
+---------06:42----------
+high that's good but SMC reset is 0.5
+
+---------06:45----------
+volts and there are a couple of things
+
+---------06:46----------
+that could be causing that to be low SMC
+
+---------06:50----------
+reset L can be low because this chip is
+
+---------06:54----------
+bad or it could be low because the SMC
+
+---------06:56----------
+itself is bad and then pulling the
+
+---------06:58----------
+signal down so if you look at the
+
+---------06:59----------
+pathways that SMC reset Allies to ground
+
+---------07:01----------
+actually there's a couple of different
+
+---------07:03----------
+things
+
+---------07:03----------
+this signal is pulled up by P P 3 V 4 2
+
+---------07:05----------
+by this with this resistance so this
+
+---------07:07----------
+resistor over here is going to pull SMC
+
+---------07:09----------
+reset L up to 3 point 42 volts so I
+
+---------07:12----------
+could always check our 5100 and let's
+
+---------07:16----------
+just see which one over here's our if if
+
+---------07:17----------
+our 5100 is on the other side of the
+
+---------07:20----------
+board go figure
+
+---------07:21----------
+of course is and so our 5100 is here I
+
+---------07:24----------
+can measure this I can make sure that
+
+---------07:25----------
+this voltage present over there but
+
+---------07:29----------
+there's always present wealth is present
+
+---------07:30----------
+over there that's never the issue the
+
+---------07:31----------
+pull-up resistor is almost never the
+
+---------07:33----------
+issue in my experience so we're going to
+
+---------07:35----------
+just what we're just going to check it
+
+---------07:36----------
+just for thoroughness so I get three
+
+---------07:40----------
+point four volts there and I get point
+
+---------07:43----------
+five volts there and the resistance of
+
+---------07:46----------
+that pull-up resistor let's see what do
+
+---------07:49----------
+you get me fifty one two three kilohms
+
+---------07:58----------
+good enough I'm not looking a lot of
+
+---------08:00----------
+people say you know why are you why are
+
+---------08:01----------
+you measuring the resistance of a
+
+---------08:03----------
+capacitor resistor and circuit it's not
+
+---------08:04----------
+gonna be accurate I don't care I need to
+
+---------08:06----------
+be good enough if that resistor shows me
+
+---------08:09----------
+o L or millions of ohms bad if it shows
+
+---------08:13----------
+me a hundred kilo ohms or under fifty
+
+---------08:15----------
+it's fine because I want you to think
+
+---------08:17----------
+about this if this resistor over here
+
+---------08:19----------
+are 50 100 or 50 kilo ohms instead of
+
+---------08:21----------
+100 why would that matter I should still
+
+---------08:24----------
+see if anything if it's 50 kilohms there
+
+---------08:26----------
+should be a higher chance of me seeing
+
+---------08:27----------
+voltage over here than 100 so I don't
+
+---------08:29----------
+really care as long as it's in the
+
+---------08:31----------
+ballpark and I know what the circuit is
+
+---------08:33----------
+supposed to be doing I'm fine so I know
+
+---------08:36----------
+that the purpose of this resistor is to
+
+---------08:37----------
+pull the signal up so the chip could
+
+---------08:39----------
+give it a path to ground or whatever
+
+---------08:41----------
+else is on that line so this chip could
+
+---------08:43----------
+be giving it a path to ground this
+
+---------08:46----------
+connector could be screwed up and giving
+
+---------08:48----------
+it a path to ground you'd ever know
+
+---------08:51----------
+let's take a look at what the connector
+
+---------08:53----------
+looks like so Jay 6100 is this thing
+
+---------08:57----------
+over here
+
+---------08:57----------
+believe it or not that that connector
+
+---------09:00----------
+gets screwed up more often than you can
+
+---------09:01----------
+think and it looks like I've already
+
+---------09:03----------
+taken it off because I'm used to that
+
+---------09:04----------
+connector screwing things up so the
+
+---------09:06----------
+connector is not even that's your way we
+
+---------09:08----------
+have two points over here that look
+
+---------09:09----------
+bridged I take this offer oh so you have
+
+---------09:14----------
+two points over here that look bridged
+
+---------09:15----------
+and the points that look bridged but
+
+---------09:18----------
+I'll be damned those points that look
+
+---------09:20----------
+bridged off for smc reset do you see
+
+---------09:23----------
+that check that out do you see that I'll
+
+---------09:26----------
+keep zooming just in case you can't see
+
+---------09:27----------
+that look at that whoa okay
+
+---------09:31----------
+am I going to fix this board
+
+---------09:34----------
+by pressing my soldering iron to the
+
+---------09:36----------
+table okay let's take a look here am I
+
+---------09:40----------
+going to fix my boil just take a look
+
+---------09:42----------
+see SMC reset is this pin pin 12 and
+
+---------09:44----------
+then spi something-or-other is there so
+
+---------09:49----------
+let's let's take a look well is this
+
+---------09:51----------
+what the thing was all along because I
+
+---------09:54----------
+usually remove that connector and I and
+
+---------09:58----------
+I go over it now I am going to plug it
+
+---------10:03----------
+in and my if this turns on this would be
+
+---------10:12----------
+okay so it's it's it's not turning on
+
+---------10:14----------
+but I got a light you see that I don't
+
+---------10:19----------
+have a light before okay so problem
+
+---------10:22----------
+number one solved I don't know if I turn
+
+---------10:24----------
+this off they took this off because I
+
+---------10:25----------
+have a feeling that if I took that
+
+---------10:27----------
+connector off that there would be flux
+
+---------10:29----------
+all over the place because I don't
+
+---------10:31----------
+ultrasonic these boards until I'm done
+
+---------10:33----------
+with them now so I don't I want to say
+
+---------10:36----------
+that I did that but I don't feel like I
+
+---------10:38----------
+did either way we have a green light
+
+---------10:40----------
+that that's pretty cool alright so we
+
+---------10:42----------
+have a green light so now we have to
+
+---------10:43----------
+move on to why the fan doesn't spin so
+
+---------10:46----------
+we're going to go and check the rest of
+
+---------10:48----------
+the rails on this machine now what does
+
+---------10:51----------
+spi alt io3 hold el whatever go to so
+
+---------10:56----------
+let's let's check this out because keep
+
+---------10:58----------
+in mind that something was trying to
+
+---------10:59----------
+supply three point four volts directly
+
+---------11:01----------
+to what that is so that's pin ten of
+
+---------11:04----------
+this connector pin ten of this connector
+
+---------11:06----------
+is this so where does this go spi all
+
+---------11:13----------
+told that's going to go to SPI i/o three
+
+---------11:16----------
+are at i/o which is going to go here and
+
+---------11:22----------
+that is going to go directly to the CPU
+
+---------11:29----------
+oh I understand a curiosity what is that
+
+---------11:36----------
+usually what is that what is that
+
+---------11:38----------
+usually measured tell what voltage is
+
+---------11:41----------
+that use the seen oh Jesus Oh
+
+---------11:46----------
+it's okay that is three point three okay
+
+---------11:48----------
+so I don't think sending three point
+
+---------11:50----------
+three there would particularly do
+
+---------11:51----------
+anything the reason I don't think it
+
+---------11:53----------
+would do anything is because it's three
+
+---------11:56----------
+point three already okay so this kind of
+
+---------11:59----------
+brings us to a standstill let's check
+
+---------12:04----------
+around the BIOS chip because that's the
+
+---------12:06----------
+only hints that I have at the moment
+
+---------12:07----------
+that anything was going on so that SPI
+
+---------12:11----------
+me so SPI mole CSPI clock and all this
+
+---------12:14----------
+crap over here this is this is usually
+
+---------12:16----------
+related to the SPI ROM at all so you I
+
+---------12:19----------
+guess if you're if you use the dealing
+
+---------12:20----------
+with pcs the BIOS chip so let's take a
+
+---------12:23----------
+look around you 6100 over here so if we
+
+---------12:25----------
+look at you 6100 we look over here and
+
+---------12:30----------
+this is the BIOS chip or SPI wrong chip
+
+---------12:34----------
+because SPI
+
+---------12:35----------
+I don't know SPI Ramdas sounds
+
+---------12:37----------
+pretentious to me for some reason I know
+
+---------12:39----------
+it's silly to say that out loud but it
+
+---------12:41----------
+just does so if you look at the SPI ROM
+
+---------12:43----------
+chip what do you think here should we
+
+---------12:45----------
+reflash the BIOS should wery flash the
+
+---------12:49----------
+BIOS should wery flash the BIOS does
+
+---------12:54----------
+anybody have a clean BIOS okay I the
+
+---------12:58----------
+reason I'm saying that over and over
+
+---------12:59----------
+again for those of you who are not
+
+---------13:00----------
+regulars of the channel is because there
+
+---------13:02----------
+are many many many many many many many
+
+---------13:04----------
+forums out there where people will just
+
+---------13:06----------
+jump to flashing BIOS and asking for a
+
+---------13:10----------
+BIOS if they have anything related to a
+
+---------13:11----------
+BIOS problem rather than actually look I
+
+---------13:14----------
+mean SPI wrong they will look for the
+
+---------13:17----------
+SPI ROM if they suspect they have an SPI
+
+---------13:21----------
+ROM problem where this is we're looking
+
+---------13:24----------
+really comes in handy what the is
+
+---------13:27----------
+this what you get off my board all
+
+---------13:32----------
+that can GTFO so i don't know what
+
+---------13:35----------
+that's for i'm going to take a wild
+
+---------13:36----------
+guess that is a terminator and resistor
+
+---------13:38----------
+between the bios and the CPU or the bios
+
+---------13:40----------
+and something else I mean the SPI wrong
+
+---------13:45----------
+how dare you call it a BIOS that is not
+
+---------13:48----------
+a PC it is an SPI ROM I guess this is
+
+---------13:52----------
+what they're talking about when the
+
+---------13:53----------
+Apple lobbyists say that I'm turning a
+
+---------13:54----------
+Mac into a PC because I'm putting a BIOS
+
+---------13:57----------
+on it when it's supposed to be
+
+---------14:00----------
+Espie I'm wrong the lobbyists are right
+
+---------14:03----------
+men
+
+---------14:04----------
+I really do turn Macs and PCs I do turn
+
+---------14:07----------
+max into pcs when I fix them and then I
+
+---------14:10----------
+misrepresent them to my customers I'm an
+
+---------14:15----------
+ I'm a grade-a
+
+---------14:23----------
+yeah I'm not touching that vials
+
+---------14:25----------
+that cleaning Emmy region no thank you
+
+---------14:30----------
+making any regions no thank you that's a
+
+---------14:34----------
+lot of pain in the ass that I don't feel
+
+---------14:37----------
+like doing and if I'm gonna fix it
+
+---------14:38----------
+that's the thing you could do all that
+
+---------14:40----------
+ and you're not even going to
+
+---------14:42----------
+ fix it was the problem with
+
+---------14:45----------
+something else and all you had to do is
+
+---------14:48----------
+open your eyes and look at it just look
+
+---------14:52----------
+at it if I get anything done with this
+
+---------14:55----------
+channel if I get anything done at all I
+
+---------14:57----------
+want you to look at just look at it
+
+---------15:00----------
+and guess sometimes I have students
+
+---------15:03----------
+coming I'll go what do you think this
+
+---------15:04----------
+does no go I don't know and I go guess
+
+---------15:06----------
+and they go I can't guess what do you
+
+---------15:08----------
+mean you can't guess you can always
+
+---------15:11----------
+guess you can always get a guess wrong
+
+---------15:15----------
+but don't tell me you can guess and I'll
+
+---------15:18----------
+tell them there is no consequence to
+
+---------15:20----------
+getting the answer to this question
+
+---------15:20----------
+wrong the only negative consequence will
+
+---------15:25----------
+occur if you can't guess I need to know
+
+---------15:29----------
+that when you look at something that you
+
+---------15:31----------
+have the ability to come up with
+
+---------15:32----------
+educated guesses jumping to conclusions
+
+---------15:36----------
+is what this is all based on
+
+---------15:44----------
+and I'm jumping to the conclusion that
+
+---------15:46----------
+this is going to work just fine
+
+---------15:48----------
+once I'm done with everything that I'm
+
+---------15:50----------
+doing here
+
+---------16:09----------
+now keep in mind I'm not going above and
+
+---------16:11----------
+beyond to make each joint very pretty
+
+---------16:13----------
+all I did is I made the and just put
+
+---------16:16----------
+solder on each pad using the old flux to
+
+---------16:18----------
+keep stuff sticking around and then when
+
+---------16:21----------
+I'm close to done what I'm going to do
+
+---------16:23----------
+is I'm going to melt them all in nicely
+
+---------16:24----------
+the thing is I don't want to spend too
+
+---------16:26----------
+much time with hot air on each
+
+---------16:28----------
+individual component because since these
+
+---------16:29----------
+components are so close together since
+
+---------16:32----------
+the components are so close together I'm
+
+---------16:34----------
+going to be hot airing each one each
+
+---------16:35----------
+time I do this so what I want to do is
+
+---------16:43----------
+do one hot air at the end with flux to
+
+---------16:46----------
+flow them all into place
+
+---------16:53----------
+this is why the donor Boyd thing is
+
+---------16:55----------
+amazing you get these factory reject
+
+---------17:01----------
+donor boards that had never had liquid
+
+---------17:03----------
+damage they had a bad CPU or a bad
+
+---------17:05----------
+internal view or something like that it
+
+---------17:08----------
+makes everything just so efficient okay
+
+---------17:14----------
+this
+
+---------17:21----------
+watch all those resistors watch
+
+---------17:35----------
+okay BAM they're in place a little
+
+---------17:39----------
+crooked but what are you gonna do I look
+
+---------17:42----------
+at this boy the stuff on this this donor
+
+---------17:44----------
+board is perfect if you're like how dare
+
+---------17:46----------
+you take a resistor off of a donor boy
+
+---------17:48----------
+how did this it's beautiful this is
+
+---------17:51----------
+beautiful this is a lovely board to take
+
+---------17:53----------
+stuff off and like am I gonna take that
+
+---------17:55----------
+know that maybe not but you know
+
+---------18:00----------
+probably going to avoid this area you
+
+---------18:04----------
+know for but there are really excellent
+
+---------18:08----------
+and efficient way to troubleshoot these
+
+---------18:10----------
+things so now I'm going to plug this in
+
+---------18:15----------
+I'm going to wait for my Fanus bin
+
+---------18:23----------
+my fan don't want to spin all right so
+
+---------18:29----------
+let's keep keep chasing down the path
+
+---------18:32----------
+that we were on
+
+---------18:39----------
+so I put a lot of things back in this
+
+---------18:40----------
+general area I don't want to go too far
+
+---------18:43----------
+off the reservation because I genuinely
+
+---------18:45----------
+feel like this is the area the liquid
+
+---------18:47----------
+got to and this is where my trouble is
+
+---------18:48----------
+going to be so what are you mr. resistor
+
+---------18:54----------
+with your white cap ripped off
+
+---------19:01----------
+let's also take a moment to check out
+
+---------19:02----------
+what power rails are actually present
+
+---------19:05----------
+before I go resistor hunting
+
+---------19:19----------
+so I'm going to fast forward and see if
+
+---------19:22----------
+I'm in an Esso state so I'm going to
+
+---------19:24----------
+plug this in because they keep in mind
+
+---------19:26----------
+if I'm in an Esso state then I know I
+
+---------19:28----------
+can ignore all the s3 and s4 and hundred
+
+---------19:30----------
+power rails I'm going to take my
+
+---------19:32----------
+multimeter here and try to put it where
+
+---------19:33----------
+you can see it which is it's not going
+
+---------19:39----------
+to work but I'll just read out the
+
+---------19:41----------
+voltages as I go we're going to go to
+
+---------19:45----------
+page 61 on the schematic okay so let's
+
+---------19:50----------
+see where PP v V s Oh shows up I know
+
+---------19:54----------
+it's on the fan connector but I always
+
+---------19:55----------
+forget which pin of the damn fan here
+
+---------19:59----------
+you go okay so let's see if that's there
+
+---------20:02----------
+then I know that I'm getting somewhere
+
+---------20:04----------
+so
+
+---------20:16----------
+I have pp5 ESO so I'm actually in an
+
+---------20:19----------
+Esso state right now now let me explain
+
+---------20:21----------
+why that's important me explain why this
+
+---------20:23----------
+is something that edge that should be at
+
+---------20:25----------
+you in troubleshooting now there are
+
+---------20:27----------
+different power states in the machine
+
+---------20:29----------
+there's s0 which is on there's s3 which
+
+---------20:32----------
+I believe is sleeping there's s4 which I
+
+---------20:34----------
+believe is hibernating
+
+---------20:35----------
+there's s5 which I think I think is off
+
+---------20:38----------
+the battery plugged in you should double
+
+---------20:41----------
+check those because I could be wrong
+
+---------20:42----------
+so please google and figure out what
+
+---------20:44----------
+those mean for yourself but an
+
+---------20:45----------
+overgeneralization
+
+---------20:47----------
+Esso is on s3 is sleeping as far as
+
+---------20:51----------
+hibernate and s5 should be off now in
+
+---------20:54----------
+order to get to the next state you have
+
+---------20:57----------
+to get all the power where else in the
+
+---------20:58----------
+previous state so for example s5 is off
+
+---------21:00----------
+all the power rails that are supposed to
+
+---------21:02----------
+be present when the computer is off and
+
+---------21:03----------
+s5 have to be present for it to
+
+---------21:05----------
+hibernate all the power rails present
+
+---------21:07----------
+for to hibernate have to be present for
+
+---------21:09----------
+to sleep all the power rails present
+
+---------21:11----------
+when it's sleep have to be present for
+
+---------21:12----------
+to be on make sense so for example an s3
+
+---------21:15----------
+power line may be aligned for the memory
+
+---------21:18----------
+because the memory has to be on when
+
+---------21:20----------
+it's sleeping because when you close the
+
+---------21:21----------
+lid and you choose to go to sleep that's
+
+---------21:23----------
+where it's going to store all your open
+
+---------21:24----------
+applications in RAM if you hibernate
+
+---------21:27----------
+again I'm going outside of what I know
+
+---------21:29----------
+about here I believe when you hibernate
+
+---------21:30----------
+that it sends everything over to the
+
+---------21:32----------
+hard drive or the solid-state drive
+
+---------21:33----------
+rather than keeping it in memory so
+
+---------21:35----------
+hibernate I believe is where the RAM is
+
+---------21:36----------
+even going to get turned off so and the
+
+---------21:39----------
+s/o rails are rails like CPU and rails
+
+---------21:43----------
+like back light you don't need the
+
+---------21:45----------
+backlight to be on when the computer is
+
+---------21:48----------
+sleeping so that's an Esso rail you
+
+---------21:49----------
+don't need two CPU to be on when the
+
+---------21:51----------
+computer is hibernating that's why the
+
+---------21:52----------
+CPU power is going to or the fan is that
+
+---------21:55----------
+is all on the Esso rails so when you
+
+---------21:57----------
+look at a list like this of all the
+
+---------21:58----------
+different rails you're going to see a
+
+---------22:02----------
+list of rails there we go so we have G 3
+
+---------22:11----------
+hot a G 3 hot rail means it should be
+
+---------22:13----------
+there all the time so PP bus should be
+
+---------22:15----------
+there all the time
+
+---------22:17----------
+PP DC in the DC n rail should be there
+
+---------22:19----------
+all the time if we continue scrolling
+
+---------22:22----------
+down here are the RTC rail should be
+
+---------22:24----------
+there all the time
+
+---------22:25----------
+PP 5vs5 should be there when it's off as
+
+---------22:28----------
+for when it's hibernating
+
+---------22:30----------
+as oh when it's on so if even one of
+
+---------22:33----------
+these rails one of these SL rails is
+
+---------22:35----------
+present what that tells me is that I can
+
+---------22:37----------
+ignore checking every single s 5 s 3 and
+
+---------22:40----------
+s 4 rail so all these things that say s
+
+---------22:42----------
+3 s 3 s 5 I can ignore those and just
+
+---------22:47----------
+focus on the s oh so it's it's a quick
+
+---------22:49----------
+fit of process of elimination once I see
+
+---------22:51----------
+that the s oh rails are the rails that
+
+---------22:53----------
+are once I see the SL rails of the are
+
+---------22:56----------
+present even one of them is present I
+
+---------22:58----------
+know that I now don't have to check the
+
+---------23:00----------
+S 4 to the or the s 3s or any of those
+
+---------23:03----------
+and it saves me a lot of time so now I
+
+---------23:04----------
+can focus on which s o is going to be
+
+---------23:06----------
+missing and again I can also now
+
+---------23:09----------
+continue with my context so now I've put
+
+---------23:11----------
+this into context I know what's going on
+
+---------23:14----------
+with it I know that there was probably
+
+---------23:16----------
+liquid over here somebody watched the
+
+---------23:19----------
+video that I did on on removing the
+
+---------23:22----------
+connector to fix the board because I did
+
+---------23:24----------
+do a video on that a while ago but they
+
+---------23:26----------
+left a little bit of solder there now
+
+---------23:27----------
+even though this section of the board
+
+---------23:29----------
+looks clean it looks like it was
+
+---------23:30----------
+soldered over by somebody even though
+
+---------23:32----------
+that section is clean now I know that
+
+---------23:34----------
+that's my hints that water went there so
+
+---------23:36----------
+now I'm a detective and then when I saw
+
+---------23:38----------
+when I thought to myself okay water went
+
+---------23:40----------
+there that's how I knew to replace these
+
+---------23:41----------
+termination resistors by the BIOS I mean
+
+---------23:43----------
+the SPI wrong chip for those of you who
+
+---------23:46----------
+will get angry at me and now I know that
+
+---------23:49----------
+water went there so now that I know
+
+---------23:50----------
+water went here and I did that nothing
+
+---------23:52----------
+is working what do I do next what is
+
+---------23:55----------
+next right under it because this is the
+
+---------23:58----------
+area right under it again me when you
+
+---------24:00----------
+when you're when you're on the trail
+
+---------24:01----------
+when the detective is on the trail he
+
+---------24:02----------
+doesn't like oh ha I'm finding it aha
+
+---------24:05----------
+I'm getting somewhere yes yes and then
+
+---------24:07----------
+when he's out of hinge just decided to
+
+---------24:09----------
+go all the way back here no he stops on
+
+---------24:11----------
+the trail where whatever step is in and
+
+---------24:12----------
+then Wally's over here he's like hmm
+
+---------24:15----------
+dust for fingerprints look around what's
+
+---------24:18----------
+going on
+
+---------24:19----------
+do I hear anything they don't just go
+
+---------24:21----------
+all the way back to the bottom they
+
+---------24:23----------
+continue investigating where they were
+
+---------24:24----------
+and that's the exact same thing that
+
+---------24:26----------
+we're going to do here now we look over
+
+---------24:28----------
+here this looks like see this over
+
+---------24:30----------
+here see when you can see the white end
+
+---------24:32----------
+of a resistor when you can see that
+
+---------24:34----------
+white stuff you're screwed so for
+
+---------24:36----------
+example if I want to point out something
+
+---------24:38----------
+that looks like the way it's supposed to
+
+---------24:39----------
+let's take let's take this
+
+---------24:44----------
+right here you can still see that it as
+
+---------24:45----------
+these metal ends you see the metal ends
+
+---------24:47----------
+and by the way if you guys wonder why I
+
+---------24:48----------
+don't buy the articulating microscope
+
+---------24:50----------
+stand do you see how steady that is even
+
+---------24:52----------
+if I start moving around a lot when you
+
+---------24:55----------
+have the articulating stand you can't
+
+---------24:57----------
+really move around or even just look
+
+---------24:59----------
+into it because it's constantly shaking
+
+---------25:00----------
+so the reason I like this is this boom
+
+---------25:02----------
+stand that I have is because it's very
+
+---------25:04----------
+very sturdy even if it means I have to
+
+---------25:06----------
+it's a pain in the ass to move around
+
+---------25:07----------
+yeah so that's a good one you can
+
+---------25:10----------
+clearly see the ends of the component
+
+---------25:12----------
+whereas here you don't it looks like
+
+---------25:15----------
+balls this is just balls so let's take a
+
+---------25:19----------
+look at that because when I say it looks
+
+---------25:20----------
+like balls what I'm talking about
+
+---------25:22----------
+is this is not no longer than metal nd I
+
+---------25:25----------
+can see this like white styrofoam ish
+
+---------25:27----------
+looking substance and I can you when you
+
+---------25:30----------
+scratch at it it just doesn't feel like
+
+---------25:31----------
+metal anymore now when I look at the
+
+---------25:34----------
+board view software if I look at the
+
+---------25:37----------
+board view software and I click on it
+
+---------25:41----------
+it's going to say that this is our seven
+
+---------25:45----------
+four to five so let's look up our seven
+
+---------25:47----------
+four to five and our seven four to five
+
+---------25:50----------
+is supposed to be a zero ohm resister
+
+---------25:52----------
+that it's this is part of a resistor
+
+---------25:55----------
+capacitor that is going to AH here we go
+
+---------26:03----------
+so this line going out here so this is
+
+---------26:06----------
+supposed to be one point two volts for
+
+---------26:08----------
+an s3 rail that's interesting that's
+
+---------26:11----------
+interesting that that's an s3 rail
+
+---------26:12----------
+because as I said I should be getting
+
+---------26:15----------
+the s3 rails if I'm already in Essos Oh
+
+---------26:18----------
+something interesting is going on here
+
+---------26:20----------
+something very interesting is going on
+
+---------26:23----------
+here so let's see let's find that signal
+
+---------26:31----------
+okay so that is going to power Ram do a
+
+---------26:37----------
+let's just find that component okay
+
+---------26:40----------
+r7 450 are 7450 I'll be able to measure
+
+---------26:44----------
+that in our 7450 r7 450 now if I go to
+
+---------26:49----------
+our 70 450 which is going to be right by
+
+---------26:51----------
+the solid state drive I should be able
+
+---------26:54----------
+to measure that 1.2 volts let's take a
+
+---------26:59----------
+look at that in the microscope that
+
+---------27:00----------
+doesn't look too terrible so I'm going
+
+---------27:01----------
+to plug this in and see if I get 1.2
+
+---------27:03----------
+volts there and if I do that'll mean
+
+---------27:06----------
+that my trail is starting to go cold so
+
+---------27:08----------
+I'm hoping that I don't get 1.2 volts I
+
+---------27:10----------
+just plugged everything in and I'm
+
+---------27:12----------
+getting zero volts there so that's
+
+---------27:14----------
+really interesting what interests me is
+
+---------27:17----------
+that I was able to get 5 volts on an
+
+---------27:20----------
+Esso rail but I'm getting nothing on
+
+---------27:22----------
+this one that's that's really really
+
+---------27:24----------
+interesting because I've never seen a
+
+---------27:26----------
+case in the past where I had an s3 rail
+
+---------27:28----------
+without having an soo one I mean it's
+
+---------27:32----------
+obvious why for the for the usual rail
+
+---------27:34----------
+so for example you know like pp5 es 3
+
+---------27:37----------
+literally becomes PP v vs l so that zero
+
+---------27:40----------
+ohm resistor is giving me an open line
+
+---------27:42----------
+here so that's your own mister is
+
+---------27:43----------
+destroyed so in the case of a standard
+
+---------27:46----------
+rail like p that's the power fat page 58
+
+---------27:51----------
+here we go yes so for example PP 3 V 3 s
+
+---------27:57----------
+5 becomes PP 3 V 3 S 4 PP so I pp 3 V 3
+
+---------28:02----------
+s 5 also becomes pp 3 V 3 s 3 so I'm not
+
+---------28:06----------
+really used to one being present without
+
+---------28:08----------
+the other I guess here you could
+
+---------28:12----------
+actually technically get to an S o
+
+---------28:14----------
+without even being an S 3 can you even
+
+---------28:17----------
+have them scattered skids getting kind
+
+---------28:19----------
+of confusing I guess that there is no
+
+---------28:21----------
+I'm guessing that there is no power good
+
+---------28:24----------
+signal I don't think there is a power
+
+---------28:28----------
+good signal that ensures that this is
+
+---------28:30----------
+present before you go to SL maybe that's
+
+---------28:33----------
+been taken away because usually if
+
+---------28:35----------
+you're not in an s3 state you really
+
+---------28:37----------
+can't if you all your s 3s are not
+
+---------28:38----------
+present than the older machines you're
+
+---------28:40----------
+not getting to a so I guess the newer
+
+---------28:42----------
+MacBook Air is designed a little bit
+
+---------28:43----------
+differently they don't really care they
+
+---------28:44----------
+figure if you're in an Esso state before
+
+---------28:46----------
+you've gotten s 3 that your computer is
+
+---------28:48----------
+ and it doesn't really matter for
+
+---------28:49----------
+power saving reasons anyway because they
+
+---------28:51----------
+know that that circuitry is only going
+
+---------28:53----------
+to save your computer power if it's
+
+---------28:55----------
+totally destroyed in which case power
+
+---------28:57----------
+savings is probably not important you
+
+---------28:59----------
+anyway let's stop blabbering and get on
+
+---------29:01----------
+to replacing that little resistor that's
+
+---------29:03----------
+really really sucks because I
+
+---------29:04----------
+used to like that method of
+
+---------29:05----------
+troubleshooting that sucks
+
+---------29:08----------
+I mean I know what's wrong with the
+
+---------29:10----------
+board now but still doesn't take away
+
+---------29:11----------
+the fact that that sucks so there's
+
+---------29:15----------
+nothing on here to chit that signal is
+
+---------29:17----------
+not part of any P good circuit lame lame
+
+---------29:23----------
+lame lame lame lame I mean I know it's
+
+---------29:27----------
+going to work now but still lame doesn't
+
+---------29:31----------
+matter how much you think you know this
+
+---------29:33----------
+ is always changing so I saw
+
+---------29:36----------
+something that looked really nasty there
+
+---------29:38----------
+which is why I did that
+
+---------29:39----------
+and now
+
+---------29:45----------
+and get all the lead-free solder sucked
+
+---------29:47----------
+up into my solder ball my favorite
+
+---------29:53----------
+goodbye lead-free okay now to place my
+
+---------30:00----------
+resistor
+
+---------30:43----------
+yeah
+
+---------30:45----------
+drat okay how much more treachery will
+
+---------30:50----------
+this board give me all right so we're
+
+---------30:51----------
+going to continue on the centrum ember
+
+---------30:53----------
+what I said the good detective is going
+
+---------30:54----------
+to look around so what do I get on that
+
+---------30:56----------
+power rail now I still got zero okay so
+
+---------31:00----------
+what's going on so now I'm still gonna
+
+---------31:02----------
+look in this area I'm still on the scent
+
+---------31:05----------
+I'm on the scent I'm gonna stay over
+
+---------31:09----------
+here stay in this area my problem is
+
+---------31:12----------
+still probably related to something in
+
+---------31:14----------
+that area turn off the air filter
+
+---------31:16----------
+because after I got my earwax remove
+
+---------31:18----------
+that thing is going to make me deaf okay
+
+---------31:23----------
+so we've we've already kind of fixed the
+
+---------31:25----------
+things that looked nasty now in this
+
+---------31:31----------
+little more that looks nasty okay so
+
+---------31:34----------
+let's see V
+
+---------31:45----------
+are we getting voltage into this I see
+
+---------31:49----------
+so I should have pp 5vs5 at pin 12
+
+---------31:54----------
+so let's look up where pin 12 is going
+
+---------31:56----------
+to be
+
+---------32:05----------
+pin 12 is going to be where am i ah here
+
+---------32:13----------
+we are
+
+---------32:14----------
+and 12 is you so I should have 5 volts
+
+---------32:20----------
+at pin 12 which I do even though that
+
+---------32:29----------
+looks kind of like balls right over here
+
+---------32:33----------
+okay now I need to see what I have on
+
+---------32:37----------
+pin 17 and 16 those are the enables if I
+
+---------32:41----------
+don't have voltage on if I don't have
+
+---------32:44----------
+voltage on the enables this will be
+
+---------32:45----------
+painful and somehow it decided to turn
+
+---------32:50----------
+itself on I think me scratching actually
+
+---------32:54----------
+did something I don't know if you saw
+
+---------32:57----------
+that or not because I was on the camera
+
+---------32:59----------
+but I started scratching at this thing
+
+---------33:00----------
+and it turned on so what I'm going to do
+
+---------33:03----------
+now is I'm just going to scratch the
+
+---------33:06----------
+rest of it
+
+---------33:17----------
+don't argue with what works make a nice
+
+---------33:21----------
+new nice looking connection there deck
+
+---------33:24----------
+this cap looks like so that's
+
+---------33:26----------
+just got to go see do I have the
+
+---------33:30----------
+patience to wait for the hot air to turn
+
+---------33:31----------
+on or am I going to try to turn it off
+
+---------33:33----------
+with my son to get out my soldering iron
+
+---------33:37----------
+yeah we got I don't want the patience
+
+---------33:39----------
+for the way for the hot air and I'll
+
+---------33:42----------
+take this one too that looks nasty as
+
+---------33:44----------
+hell
+
+---------33:51----------
+right
+
+---------33:59----------
+you like
+
+---------34:11----------
+okay now we a little bit of cleanup
+
+---------34:27----------
+we're back to factory
+
+---------35:08----------
+you people with really good hands are
+
+---------35:11----------
+probably laughing at me
+
+---------35:19----------
+good enough
+
+---------35:35----------
+yeah this is the thought that looks like
+
+---------35:37----------
+ I'm not going to trust this stay
+
+---------35:44----------
+together so what can we do here and I
+
+---------35:47----------
+say it looks like I mean the path
+
+---------35:48----------
+where 5 volts is going to come to the
+
+---------35:50----------
+chip um now
+
+---------35:59----------
+I don't feel like having this come back
+
+---------36:01----------
+for warranty a day after I give it back
+
+---------36:03----------
+to the customer okay so we go like this
+
+---------36:10----------
+it's going to tend the end of the wire a
+
+---------36:12----------
+little bit
+
+---------36:37----------
+this is no fun when you're me okay get
+
+---------36:42----------
+the tiny iron on
+
+---------36:56----------
+beep you schmuck
+
+---------36:59----------
+this
+
+---------37:03----------
+and Jai offer this
+
+---------37:27----------
+okay now down here
+
+---------37:32----------
+okay much better
+
+---------37:35----------
+this is something I can actually trust
+
+---------37:37----------
+the last and not just fall apart
+
+---------37:48----------
+and yeah good mission that's a good
+
+---------37:51----------
+that's a good good strong wire there now
+
+---------38:14----------
+look at that fan spin it's beautiful so
+
+---------38:23----------
+that's that another board working and as
+
+---------38:25----------
+always with these videos I hope you
+
+---------38:27----------
+learn something
+

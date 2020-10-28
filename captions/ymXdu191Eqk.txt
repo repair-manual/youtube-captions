@@ -1,0 +1,871 @@
+https://www.youtube.com/watch?v=ymXdu191Eqk
+---------00:38----------
+hmm
+
+---------00:48----------
+[Music]
+
+---------01:13----------
+hi so today we're gonna be going over
+
+---------01:16----------
+just how easy it is to kill a MacBook
+
+---------01:18----------
+Air how little damage you need to get on
+
+---------01:20----------
+this board to render it entirely
+
+---------01:21----------
+worthless with a $750 repair bill just
+
+---------01:24----------
+14 months after purchase so this here is
+
+---------01:27----------
+an a 1466 MacBook Air with in 82000 165
+
+---------01:32----------
+motherboard and we're gonna take a look
+
+---------01:34----------
+at how it behaves
+
+---------01:36----------
+so there's turn off that fume extractor
+
+---------01:38----------
+since that thing is fairly loud and as
+
+---------01:45----------
+you can see when plugged in it has no
+
+---------01:49----------
+light on the charger and if you want to
+
+---------01:51----------
+see what it is you need to have done in
+
+---------01:53----------
+order to get a light in the charger you
+
+---------01:54----------
+can watch the stream that I did
+
+---------01:55----------
+yesterday on how to fix the MacBook Air
+
+---------01:58----------
+that doesn't turn on because I explained
+
+---------01:59----------
+the process required to get a green
+
+---------02:01----------
+light very clearly so if we look over
+
+---------02:03----------
+this board let's see if there's anything
+
+---------02:05----------
+that looks a little bit out of place any
+
+---------02:07----------
+sort of damage that is too great so
+
+---------02:10----------
+we're going to cut this under the
+
+---------02:14----------
+microscope and let's get looking alright
+
+---------02:20----------
+hopefully you can see what I see get it
+
+---------02:25----------
+into focus nope nothing here this
+
+---------02:33----------
+section looks fine a little hairy a
+
+---------02:35----------
+little dirty but this section here looks
+
+---------02:41----------
+fine as well alright looking good
+
+---------02:49----------
+looking good
+
+---------02:57----------
+have you seen Reba fix an iphone6 by
+
+---------02:59----------
+removing two capacitors inside the Wi-Fi
+
+---------03:01----------
+chip that's awesome I haven't I did see
+
+---------03:04----------
+two MacBook Air repairs they do that
+
+---------03:06----------
+I'm semi-closed to calling on
+
+---------03:09----------
+because they replace the diode like how
+
+---------03:13----------
+often does the diode I in a MacBook Air
+
+---------03:15----------
+for the backlight and then there was one
+
+---------03:18----------
+resistor by the TPS five one nine eight
+
+---------03:20----------
+zero chip that they replaced once when
+
+---------03:22----------
+there was no liquid damage and that
+
+---------03:26----------
+never attacked me if it happens I'm just
+
+---------03:28----------
+saying that as somebody who's been doing
+
+---------03:29----------
+this on camera for at least the last
+
+---------03:30----------
+four or five years that so not quite
+
+---------03:33----------
+sure I am skeptical okay so and hey
+
+---------03:40----------
+what's that
+
+---------03:42----------
+so we have the tiniest tiniest spot of
+
+---------03:46----------
+green right on the edge see this this
+
+---------03:49----------
+little spot of green it's not turning on
+
+---------03:52----------
+but watch this you go
+
+---------04:07----------
+bazinga
+
+---------04:23----------
+this little section getting messed up is
+
+---------04:26----------
+genuinely all it takes scrape away
+
+---------04:30----------
+scrape away
+
+---------04:40----------
+okay still dead interesting one all
+
+---------04:45----------
+right so we may actually have to think
+
+---------04:46----------
+for this one
+
+---------04:47----------
+oh my scary so holy crap I wish I had
+
+---------05:00----------
+the microscope attached to this Oh
+
+---------05:04----------
+oh my god it has to be a way to attach
+
+---------05:09----------
+the hdmi cord so let's take a look and
+
+---------05:16----------
+see if PP 3 before 2 is present
+
+---------05:22----------
+magnificent multimeter software is not
+
+---------05:26----------
+Megan if you so but that works VP bus g3
+
+---------05:29----------
+hot 8 point 18 which means the SMC is
+
+---------05:39----------
+probably not turning on so our corroded
+
+---------05:44----------
+area was over here my favorite cap to
+
+---------05:47----------
+rip off is usually c5 101 which shorts
+
+---------05:50----------
+SMC manual reset to ground let's take a
+
+---------05:53----------
+look here and see if SMC reset is where
+
+---------05:56----------
+it should be so SMC reset L is gonna be
+
+---------06:00----------
+on pin 5 over here
+
+---------06:11----------
+and it's low we're getting zero volts on
+
+---------06:14----------
+1.9 millivolts which is zero volts on
+
+---------06:17----------
+SMC reset L so let's see what's going on
+
+---------06:23----------
+here so I see corrosion between pin 1
+
+---------06:25----------
+and pin 2 and IO and let's also see if
+
+---------06:27----------
+pin 4 for SMC manual reset is low
+
+---------06:32----------
+because of SMC manual reset is low then
+
+---------06:34----------
+it's not going to be working SMC manual
+
+---------06:38----------
+reset is low so not working alright so
+
+---------06:42----------
+now what we got to do is find this chip
+
+---------06:46----------
+which is u 5110 and figure out how that
+
+---------06:50----------
+could happen so if we search for that
+
+---------06:52----------
+chip will see that SMC manual reset lc5
+
+---------06:58----------
+101 can tie it to ground if the
+
+---------07:01----------
+capacitor is bet some it's gonna turn
+
+---------07:02----------
+off the power here check resistance to
+
+---------07:04----------
+ground on that 60 ohms OH
+
+---------07:16----------
+60 ohms is no good no good at all twitch
+
+---------07:22----------
+stream doesn't work yep or sometimes
+
+---------07:24----------
+twitch just decides not to work
+
+---------07:25----------
+unfortunately you can watch it on
+
+---------07:27----------
+YouTube though 60-point forearms that's
+
+---------07:32----------
+not good so there's a good chance that
+
+---------07:34----------
+that teeny tiny piece of green managed
+
+---------07:36----------
+to sneak its way in there and destroy
+
+---------07:38----------
+that IC and yes i butchered the trace
+
+---------07:47----------
+I'm not I'm not at all apologetic for
+
+---------07:51----------
+that the trace kind of deserved it
+
+---------07:54----------
+this that cap goes bad so often it
+
+---------07:57----------
+really it doesn't deserve to be there so
+
+---------08:00----------
+yeah take this thing out because I don't
+
+---------08:02----------
+want to risk actually I have a little
+
+---------08:07----------
+metal shields here I think we can do
+
+---------08:10----------
+this with a little metal shield but
+
+---------08:13----------
+before I actually finish this I think
+
+---------08:14----------
+will be fun to show you what it is that
+
+---------08:16----------
+Paul has been working on for a data
+
+---------08:18----------
+recovery of one of these Touch bars oh
+
+---------08:21----------
+here we I'm just gonna give you a little
+
+---------08:24----------
+interlude
+
+---------08:25----------
+because you have to see this before we
+
+---------08:26----------
+get involved with anything else okay are
+
+---------08:36----------
+we ready oh my god oh that's an IDE
+
+---------08:44----------
+cable this is an IDE cable going to the
+
+---------08:48----------
+lifeboat connector of a touch bar
+
+---------08:51----------
+MacBook and the other end of that IDE
+
+---------08:53----------
+cable is going to a PCI Express SSD
+
+---------08:56----------
+adapter are you serious
+
+---------09:03----------
+but those wires the ID wires are much
+
+---------09:07----------
+bigger than I thought they would be so
+
+---------09:19----------
+do you think that the data is against
+
+---------09:20----------
+that it I really have to get a connector
+
+---------09:26----------
+for that if anybody out there happens to
+
+---------09:31----------
+have a connector for sale that fits the
+
+---------09:32----------
+lifeboat connector of wood that has an
+
+---------09:35----------
+adapter cable for the touch bar MacBook
+
+---------09:38----------
+would be much appreciated right now
+
+---------09:40----------
+because this is not fun this is that
+
+---------09:43----------
+fight Jason probably bought all and it's
+
+---------09:50----------
+going to raise the price on them
+
+---------09:59----------
+Oh
+
+---------10:12----------
+said are you ready to see if the data
+
+---------10:16----------
+works what if that gets what if you trip
+
+---------10:19----------
+walking to the other side of the room
+
+---------10:20----------
+while you're carrying it yeah with that
+
+---------10:22----------
+HDMI could you just put on the floor
+
+---------10:27----------
+anyway that back to this I gotta get
+
+---------10:30----------
+this yeah let's let's get ourselves some
+
+---------10:34----------
+metal shields to cover this area or
+
+---------10:36----------
+remove our SMC reset I see okay
+
+---------10:39----------
+bada-bing I'm gonna cover this area and
+
+---------10:44----------
+move our SMC reset IC at sixty ohms to
+
+---------10:50----------
+ground on the SMC manual reset is no
+
+---------10:52----------
+good
+
+---------10:56----------
+Apple will innovate on 2018 with a SATA
+
+---------10:59----------
+connection yes much innovation mic mixer
+
+---------11:10----------
+says that is one impressive abortion I
+
+---------11:13----------
+think that's the right term to use for
+
+---------11:15----------
+that honestly okay now
+
+---------11:18----------
+I'm not preheating the board much here
+
+---------11:20----------
+because I really don't want to burn
+
+---------11:22----------
+stuff that I shouldn't be burning
+
+---------11:40----------
+all right so now what we do is we check
+
+---------11:43----------
+SMC manual reset and we see if we've
+
+---------11:45----------
+made any improvements SMC manual reset
+
+---------11:48----------
+had 60 ohms to ground before
+
+---------11:58----------
+and now it appears we have infinite ohms
+
+---------12:00----------
+to ground so infinite almost the ground
+
+---------12:02----------
+is up is progress I would say I did
+
+---------12:06----------
+imagine this would be simpler
+
+---------12:14----------
+[Music]
+
+---------12:19----------
+I will say that 90% of the time that
+
+---------12:21----------
+that happens I just flicked that
+
+---------12:22----------
+capacitor off and it works you know you
+
+---------12:29----------
+don't get your way every time I would
+
+---------12:30----------
+suppose
+
+---------12:46----------
+let's the other pads under there anymore
+
+---------12:48----------
+no I was fairly abusive to that poor
+
+---------12:52----------
+little
+
+---------13:14----------
+see so this is gonna go
+
+---------13:22----------
+scrape scrape scrape scrape scrape
+
+---------13:26----------
+scrape scrape your corrosion
+
+---------13:53----------
+I really want to see if that actually
+
+---------13:54----------
+works are you just waiting right now
+
+---------13:57----------
+because you're afraid
+
+---------13:58----------
+[Music]
+
+---------14:08----------
+there's no need to fear
+
+---------14:18----------
+cleaning up that section but beautiful
+
+---------14:22----------
+now we see if when I plug in and I get a
+
+---------14:24----------
+light it's not gonna actually work but
+
+---------14:26----------
+it would at least get a light and we do
+
+---------14:29----------
+you can see that here but it's not going
+
+---------14:33----------
+to turn on properly because the SMC
+
+---------14:35----------
+reset I see is missing the reason that
+
+---------14:38----------
+happens is simple
+
+---------14:40----------
+so the SMC is powered by FA 3 V 4 to
+
+---------14:45----------
+underscore G 3 hot
+
+---------14:47----------
+now if PP 3 V 4 2 has any kind of any
+
+---------14:53----------
+kind of fluctuation as its first turning
+
+---------14:54----------
+on the SMC is dumb the SMC is gonna try
+
+---------14:57----------
+to turn on before this has the Cape
+
+---------15:00----------
+before PP 3 before 2 is stabilized so
+
+---------15:02----------
+let's say P P 3 before - is like 2 volts
+
+---------15:04----------
+or 6 volts or whatever the SMC which is
+
+---------15:07----------
+powered off of it's just going to try to
+
+---------15:08----------
+turn on immediately so what this does is
+
+---------15:09----------
+it sends a reset signal that tells the
+
+---------15:11----------
+SMC don't even try to turn on for like a
+
+---------15:14----------
+second or so turn on a second after I
+
+---------15:17----------
+tell you know PP 3 V 4 - comes on so we
+
+---------15:22----------
+need this IC so we're gonna put this one
+
+---------15:23----------
+back on the board and most likely it'll
+
+---------15:25----------
+work now a good amount of the time the
+
+---------15:27----------
+issue here is that C 5 101 gets shorted
+
+---------15:32----------
+to ground by the teeny tiny bicicleta
+
+---------15:34----------
+bit of corrosion that makes its way in
+
+---------15:36----------
+through right over here that happens all
+
+---------15:39----------
+the time it takes takes nothing too
+
+---------15:42----------
+short that capacitor and it's very easy
+
+---------15:43----------
+for corrosion and getting through this
+
+---------15:45----------
+entire section of the machine and it
+
+---------15:48----------
+happens from humidity it's and often
+
+---------15:51----------
+times I would say 99% of the time that
+
+---------15:54----------
+you have that issue you don't need to
+
+---------15:55----------
+replace the SMC reset I see 99% of the
+
+---------15:58----------
+time you're lucky enough that you could
+
+---------16:00----------
+simply pop that capacitor off the board
+
+---------16:01----------
+and bam you have a working machine this
+
+---------16:04----------
+one is not the case and the reason it's
+
+---------16:06----------
+not the case is because I had a snarky
+
+---------16:07----------
+title and I decided to record it so you
+
+---------16:10----------
+know that that's what you get for being
+
+---------16:11----------
+for being a douche as well that's what I
+
+---------16:14----------
+get for being a douche I'm gonna get
+
+---------16:15----------
+myself one of those chips and then we're
+
+---------16:19----------
+gonna see if Paul's recovery works
+
+---------16:22----------
+it seems like it's doing nothing well
+
+---------16:28----------
+it's time to face the music you have to
+
+---------16:32----------
+see if this works what do we say in chat
+
+---------16:39----------
+do you think that Paul's work is gonna
+
+---------16:41----------
+work how many votes for now yeah we
+
+---------16:54----------
+definitely need to get a lifeboat
+
+---------16:55----------
+connector and cable
+
+---------17:00----------
+yes let's patent something that Apple's
+
+---------17:03----------
+creative that's it great the legal
+
+---------17:07----------
+department will be incredibly happy with
+
+---------17:09----------
+that
+
+---------17:20----------
+do you enjoyment from fixing these
+
+---------17:22----------
+machines I get in dreaming from the
+
+---------17:24----------
+outcome happy customer is fun people
+
+---------17:28----------
+saving money is fun getting the money is
+
+---------17:31----------
+fun figuring out the puzzle is fun
+
+---------17:41----------
+a lot of people are saying they think
+
+---------17:43----------
+that your thing is gonna work what do
+
+---------17:45----------
+you think of this come on
+
+---------17:52----------
+yeah you boot it up come on why oh okay
+
+---------17:59----------
+so face face to music how long did you
+
+---------18:03----------
+spend soldering that wire three hours
+
+---------18:07----------
+all right everybody's has faith in you
+
+---------18:12----------
+they're saying you got this Paul
+
+---------18:36----------
+everyone here believes in you
+
+---------19:26----------
+don't trip
+
+---------19:29----------
+I would trip carrying that I know I
+
+---------19:30----------
+would I'd be far too nervous
+
+---------19:42----------
+how do you think we came to convince
+
+---------19:44----------
+Kylie Milliken to do a four hundred
+
+---------19:46----------
+billion dollar bully movie I would fund
+
+---------19:54----------
+it I think that
+
+---------20:03----------
+I'll never forget the look she gave me
+
+---------20:05----------
+saying okay for a four billion dollar
+
+---------20:07----------
+bullish or for a hundred billion dollar
+
+---------20:09----------
+bully no all right let's keep our eyes
+
+---------20:22----------
+on the prize the most important part of
+
+---------20:28----------
+the machine
+
+---------20:28----------
+our ultimate test of functionality when
+
+---------20:32----------
+I turn on the power supply fan spin my
+
+---------20:38----------
+friends orange light and fans spin so
+
+---------20:49----------
+that's just how little corrosion you
+
+---------20:51----------
+need to get in your machine that's how
+
+---------20:54----------
+little corrosion it takes for this tool
+
+---------20:55----------
+for that's how little corrosion it takes
+
+---------20:57----------
+to kill this this much and doesn't even
+
+---------21:01----------
+have to be from a liquid spill because
+
+---------21:02----------
+there's no sign of liquid spilling in
+
+---------21:03----------
+this machine all it took was a machine
+
+---------21:06----------
+probably sitting by a window sitting in
+
+---------21:08----------
+a humid environment maybe sitting next
+
+---------21:10----------
+to a desk that was located near a
+
+---------21:11----------
+bathroom where someone was taking a
+
+---------21:13----------
+shower it takes virtually nothing just
+
+---------21:16----------
+think Dini
+
+---------21:17----------
+tiniest bit and it's gone ah anyway
+
+---------21:23----------
+that's it for today and as always I hope
+
+---------21:27----------
+you learned something
+

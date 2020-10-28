@@ -1,0 +1,577 @@
+https://www.youtube.com/watch?v=YP6Z3Fml9f4
+---------00:00----------
+here we ever a 15-hour to retina it
+
+---------00:02----------
+doesn't turn off just try and find out
+
+---------00:04----------
+why it doesn't turn on now let's take a
+
+---------00:06----------
+look at this back let me take a look at
+
+---------00:07----------
+this MacBook you're gonna notice a
+
+---------00:09----------
+couple of things first thing you're
+
+---------00:11----------
+gonna notice is that this corrosion by
+
+---------00:14----------
+the trackpad connector second thing
+
+---------00:16----------
+you're gonna notice corrosion by the SMC
+
+---------00:20----------
+and the SMC reset ship so we're gonna do
+
+---------00:24----------
+a couple of measurements here the first
+
+---------00:25----------
+thing I'm going to do is I'm going to
+
+---------00:27----------
+plug in the charger and I'm going to see
+
+---------00:29----------
+what our pp bus measures now remember
+
+---------00:31----------
+pp bus g3 hot here's a power rail
+
+---------00:34----------
+created by the ISL 6259
+
+---------00:36----------
+the ISL 65:9 communicates with the SMC
+
+---------00:39----------
+in order to set the exact voltage if we
+
+---------00:41----------
+have a PP but g3 hot of a point one
+
+---------00:43----------
+volts means that SMC communication is
+
+---------00:45----------
+not occurring if we have an PP budget
+
+---------00:48----------
+III out of eight point five volts it
+
+---------00:49----------
+means that SMC communication is
+
+---------00:51----------
+occurring the reason it's important to
+
+---------00:52----------
+get an idea of whether SMC communication
+
+---------00:54----------
+is occurring is because SMC
+
+---------00:55----------
+communication is the thing that's going
+
+---------00:58----------
+to tell us whether or not the SMC is
+
+---------01:00----------
+running and whether or not the SMC is
+
+---------01:01----------
+the capability to speak to the charger
+
+---------01:03----------
+because getting a green light is a
+
+---------01:04----------
+function of the SMC communicating with
+
+---------01:07----------
+the charger so we are going to check and
+
+---------01:09----------
+see what it is
+
+---------01:10----------
+our pp busses on this board and see if
+
+---------01:13----------
+we get the low voltage of the high by
+
+---------01:16----------
+the way I meant twelve point two verses
+
+---------01:17----------
+twelve point five eight point one versus
+
+---------01:19----------
+eight point five is for an hour so we're
+
+---------01:20----------
+getting twelve point two volts on our pp
+
+---------01:23----------
+bus which means that our SMC is not
+
+---------01:24----------
+turning on
+
+---------01:25----------
+now the SM C could not be turning on or
+
+---------01:28----------
+it could be bad and when you look at how
+
+---------01:30----------
+much corrosion is by the SMC so the SMC
+
+---------01:33----------
+itself could be not turning on or be bad
+
+---------01:36----------
+as a result of corrosion or the reset
+
+---------01:38----------
+circuit which is supposed to turn the
+
+---------01:40----------
+SMC on could not be working now let's
+
+---------01:44----------
+take a look at a schematic for an eight
+
+---------01:47----------
+to zero 49:24 board and show you what I
+
+---------01:50----------
+mean by the SMC reset circuit so this
+
+---------01:52----------
+chip over here which seems to be
+
+---------01:54----------
+corroded you 5110 by the way available
+
+---------01:57----------
+on stored out Rosman group comm is a
+
+---------02:00----------
+chip that is going to turn on the SMC
+
+---------02:02----------
+there's a signal called SMC reset al
+
+---------02:04----------
+this signal is going to tell the SMC
+
+---------02:07----------
+that you should turn off when you're low
+
+---------02:10----------
+underscore L low
+
+---------02:13----------
+at the SMC and turned on when you're
+
+---------02:16----------
+high because the envious and the signal
+
+---------02:18----------
+will not be present so I present want to
+
+---------02:19----------
+flow the purpose of that signal is to
+
+---------02:21----------
+ensure that the SMC does not try to turn
+
+---------02:23----------
+on until pp3 before two is stable so
+
+---------02:26----------
+this chip over here gets PP 3 V 4 2 and
+
+---------02:28----------
+as a voltage going into the chip and it
+
+---------02:31----------
+tells when that is present once PP 3
+
+---------02:34----------
+before 2 has stabilized actually wait
+
+---------02:38----------
+does it no it gets PP 3 V 3 s 5 hmm all
+
+---------02:43----------
+right so P P 3 V 3 s 5 I believe goes
+
+---------02:45----------
+into this now PP 3 before 2 goes in on
+
+---------02:47----------
+pin 1 alright nevermind so I'm losing my
+
+---------02:49----------
+mind
+
+---------02:50----------
+so once PP 3 before - once this voltage
+
+---------02:52----------
+here has stabilized then the chip will
+
+---------02:55----------
+allow SMC reset l to be released which
+
+---------02:57----------
+will allow the SMC to turn on so the
+
+---------02:59----------
+whole point is to not turn the SMC on
+
+---------03:01----------
+until we arc we have a level in stable p
+
+---------03:05----------
+b3 b4 - p b3 b4 - is the power of the
+
+---------03:08----------
+SMC runs on and FP p 3 before - is not
+
+---------03:10----------
+stable prior to the SMC turning on the
+
+---------03:13----------
+SMC will crash with that we're going to
+
+---------03:16----------
+see if our pp 3 before - SMC reset all
+
+---------03:20----------
+that good stuff is present on this
+
+---------03:22----------
+motherboard so the first thing we're
+
+---------03:23----------
+gonna do is we're going to check for SMC
+
+---------03:26----------
+reset l at the point that we would
+
+---------03:28----------
+expect it to be and I'm gonna use paul
+
+---------03:31----------
+daniels of software to have it show up
+
+---------03:33----------
+on the screen paul daniels is lovely
+
+---------03:36----------
+software beautiful software garbage'
+
+---------03:40----------
+software then you could find it PL
+
+---------03:42----------
+daniels dot-com don't delay
+
+---------03:45----------
+check out Paul Daniels software today
+
+---------03:47----------
+and it's not present but also this may
+
+---------03:51----------
+be all the pads for this resistor are
+
+---------03:52----------
+destroyed there I'll see you later
+
+---------03:59----------
+Pepa but the bus the bus
+
+---------04:34----------
+now the SMC reset chip is been removed
+
+---------04:36----------
+from the board hmm now I need to find
+
+---------04:41----------
+myself at an SN nine zero three zero
+
+---------04:44----------
+four nine
+
+---------04:46----------
+that's SN 9 zero three zero four nine
+
+---------04:49----------
+where could I find myself an SN nine
+
+---------04:52----------
+zero three zero four nine if I needed to
+
+---------04:55----------
+purchase one hmm look no further than
+
+---------04:59----------
+store dot Rossmann group.com you could
+
+---------05:02----------
+find an SMC reset chip for the low low
+
+---------05:04----------
+price of 649 free shipping on orders
+
+---------05:07----------
+over $30.00 within the continental
+
+---------05:08----------
+United States same-day shipping
+
+---------05:10----------
+and full knowledge of the products that
+
+---------05:12----------
+we sell the description will tell you an
+
+---------05:14----------
+idea of when you need that chip the
+
+---------05:17----------
+additional information will tell you
+
+---------05:18----------
+what boards that's compatible with we
+
+---------05:20----------
+have a live chat we have email we have
+
+---------05:22----------
+phone support here at store dot Rossman
+
+---------05:24----------
+group.com unless you're a please bro
+
+---------05:27----------
+don't delay by today so I'm just gonna
+
+---------05:31----------
+head over to store down Rossmann grew
+
+---------05:32----------
+calm and buy a chip hmm SMC reset
+
+---------05:42----------
+hmm much tasty we're gonna put that chip
+
+---------05:47----------
+on the board
+
+---------05:57----------
+it's just too good to be true that you
+
+---------05:59----------
+can go to a sign like store down Rossman
+
+---------06:00----------
+Kaoru calm for all your MacBook chip and
+
+---------06:03----------
+tool needs I know the excitement is
+
+---------06:09----------
+overwhelming you want to go to store
+
+---------06:11----------
+down rossmann group calm right now you
+
+---------06:13----------
+don't even want to finish this video you
+
+---------06:15----------
+want to buy a quick a crest or some
+
+---------06:20----------
+chips then more well I know that urge
+
+---------06:22----------
+ladies and gentlemen but let me tell you
+
+---------06:24----------
+from an unbiased perspective I
+
+---------06:26----------
+definitely understand and believe that
+
+---------06:31----------
+you should go ahead and fulfill that
+
+---------06:32----------
+urge to buy from store dot Rossmann grew
+
+---------06:35----------
+calm or to watch our board repair videos
+
+---------06:38----------
+on boards dot Rossman group calm
+
+---------08:17----------
+appears we still don't have a green
+
+---------08:18----------
+light it appears our pp bus is still low
+
+---------08:20----------
+in voltage peers are SMC reset signal is
+
+---------08:23----------
+actually high now it was low before but
+
+---------08:25----------
+a tie now so the next thing it's gonna
+
+---------08:27----------
+be wrong with this board that the SMC
+
+---------08:29----------
+most likely is not going to be allowing
+
+---------08:31----------
+us to get a green light from the charger
+
+---------08:33----------
+because it has corrosion under it let's
+
+---------08:34----------
+clean that up
+
+---------11:48----------
+conservatively between em scopes and
+
+---------11:50----------
+other lower end ones then you won't feel
+
+---------11:52----------
+sick if you use them ahem scope is the
+
+---------11:55----------
+low end honestly at least from what I've
+
+---------11:57----------
+seen like the high end or the like is
+
+---------11:59----------
+are the vision engineering so well scope
+
+---------12:03----------
+is pretty cheap for what you get and
+
+---------12:06----------
+yeah hat for me I'm scope it just always
+
+---------12:08----------
+appeared to be the low Xcode they I
+
+---------12:11----------
+actually have a review that I need to
+
+---------12:13----------
+edit and publish for the Leica $1600 one
+
+---------12:15----------
+that I really don't understand why
+
+---------12:18----------
+somebody would pay for that over in
+
+---------12:19----------
+EBSCO
+
+---------12:20----------
+[Music]
+
+---------12:32----------
+[Music]
+
+---------13:03----------
+[Music]
+
+---------13:37----------
+yeah and look at that we get a light on
+
+---------13:42----------
+the charger
+
+---------13:50----------
+you
+
+---------13:58----------
+do you have a Macbook that needs to be
+
+---------13:59----------
+fixed come by our store which is open to
+
+---------14:02----------
+the public in 186 First Avenue in
+
+---------14:04----------
+Manhattan are you located outside of New
+
+---------14:06----------
+York no problem
+
+---------14:07----------
+send us a machine from anywhere in the
+
+---------14:09----------
+world by going to our website and
+
+---------14:11----------
+clicking on the mailbox or simply
+
+---------14:13----------
+heading over to send your macbook comm
+
+---------14:15----------
+that send your macbook comm will you be
+
+---------14:18----------
+redirected to our mail in instructions
+
+---------14:20----------
+page that includes the form and the
+
+---------14:22----------
+directions on how to send us a MacBook
+
+---------14:25----------
+for repair we have a live chat where you
+
+---------14:27----------
+can speak with us about the repair that
+
+---------14:29----------
+you need a phone number where a
+
+---------14:31----------
+representative will pick up during our
+
+---------14:32----------
+open hours and a contact form where you
+
+---------14:35----------
+can contact us about repairs
+

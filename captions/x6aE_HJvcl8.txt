@@ -1,0 +1,1177 @@
+https://www.youtube.com/watch?v=x6aE_HJvcl8
+---------00:00----------
+all right so today I'm gonna go over an
+
+---------00:01----------
+eight to zero 33:30 motherboard that was
+
+---------00:04----------
+having issues with the USB port the
+
+---------00:05----------
+client stated that they had no no USB
+
+---------00:08----------
+ports working so the first one and the
+
+---------00:09----------
+second one were both dead I tried it out
+
+---------00:12----------
+and I noticed that actually one of the
+
+---------00:13----------
+port's worked it was only one of them
+
+---------00:14----------
+that was dead
+
+---------00:15----------
+and I decided to go from there and try
+
+---------00:18----------
+to get a little an idea of what it was
+
+---------00:19----------
+that was going on now as you can
+
+---------00:21----------
+probably tell the microphone pop filter
+
+---------00:23----------
+that I'm using has gotten larger and
+
+---------00:25----------
+larger so as I said I just recently did
+
+---------00:28----------
+a video on why I use the DPA 4065 over
+
+---------00:31----------
+every other microphone on why I find it
+
+---------00:32----------
+to be one of the best literally the
+
+---------00:34----------
+video after I did that my DPA 4065 died
+
+---------00:38----------
+which brings me back to this piece of
+
+---------00:40----------
+crap which is the cheap short SM 35 it's
+
+---------00:42----------
+like $100 microphone you get what you
+
+---------00:44----------
+pay for it sounds like a piece of crap
+
+---------00:46----------
+and one of the problems with it is
+
+---------00:48----------
+plosives constant non-stop plus a like
+
+---------00:51----------
+if you if you breathe the wrong way this
+
+---------00:53----------
+microphone you need just just yeah it's
+
+---------00:55----------
+just garbage so what I did is I have a
+
+---------00:58----------
+shotgun microphone not the the Centaurs
+
+---------01:00----------
+of one I'm not going to touch the
+
+---------01:01----------
+Sennheiser one the one that civil lizard
+
+---------01:03----------
+guy I'm keeping that one because I'm
+
+---------01:05----------
+gonna use that for stuff but the little
+
+---------01:06----------
+shitty crappy garbage Sony microphone
+
+---------01:09----------
+that comes with the Sony camcorder has
+
+---------01:10----------
+is huge pop filter that's meant for a
+
+---------01:13----------
+shotgun microphone so I actually just
+
+---------01:15----------
+cut it with a set of scissors and I put
+
+---------01:17----------
+it over the pop filter that goes on here
+
+---------01:19----------
+all these little pop filters that you
+
+---------01:21----------
+get to go on the end of headset mics
+
+---------01:22----------
+they're meant to look nice but they
+
+---------01:25----------
+don't actually do much again especially
+
+---------01:27----------
+if your headset mic is a complete
+
+---------01:28----------
+steaming pile of like this sure SM
+
+---------01:31----------
+3/5 is so I yeah I don't give a if
+
+---------01:34----------
+I look silly I actually think it looks
+
+---------01:35----------
+kind of cool that it's completely
+
+---------01:37----------
+totally non proportional to anything
+
+---------01:39----------
+going on here so anyway let's say I've
+
+---------01:41----------
+already fixed this and I want to go over
+
+---------01:43----------
+a little bit of what's wrong because I
+
+---------01:44----------
+know that this is something that's going
+
+---------01:45----------
+to trick a lot of people so if you look
+
+---------01:47----------
+over in the in the USB area over here
+
+---------01:50----------
+you're gonna see that I've replaced a
+
+---------01:52----------
+couple of things under the microscope
+
+---------01:54----------
+you'll see some flux so yeah you see a
+
+---------01:58----------
+filter and you'll see another filter and
+
+---------02:04----------
+you'll see another filter and I want to
+
+---------02:10----------
+talk
+
+---------02:10----------
+about a couple of ideas because just
+
+---------02:13----------
+things that I know we're gonna get new
+
+---------02:15----------
+people so a lot of what I do when I'm
+
+---------02:17----------
+talking about with a what I'm doing to
+
+---------02:19----------
+fix these boards it's not really me
+
+---------02:21----------
+wanting you to do exactly what I did
+
+---------02:23----------
+because your problem is going to be
+
+---------02:25----------
+different than my problem so it doesn't
+
+---------02:27----------
+really make sense for you to take my
+
+---------02:29----------
+solution and apply it to your problem
+
+---------02:31----------
+because your problem was gonna be
+
+---------02:32----------
+different you may have no USB but when I
+
+---------02:35----------
+say that from problem I don't mean that
+
+---------02:36----------
+I have no USB and you have no USB I mean
+
+---------02:38----------
+that on mine you know the difference the
+
+---------02:40----------
+first differential payer has a bad
+
+---------02:42----------
+filter on the USB data line and on yours
+
+---------02:44----------
+the second high superspeed differential
+
+---------02:46----------
+pair has a bad filter on the data line
+
+---------02:48----------
+we're always gonna have something
+
+---------02:49----------
+different there's always gonna be
+
+---------02:50----------
+something different with my problem than
+
+---------02:52----------
+yours but what I want you to do is I
+
+---------02:54----------
+want you to pick up my mindset because
+
+---------02:56----------
+if you pick up my mindset you'll be able
+
+---------02:58----------
+to apply that mindset to all different
+
+---------03:00----------
+types of problems and you'll be able to
+
+---------03:01----------
+solve them on your own rather than be
+
+---------03:03----------
+forced to look on the internet for
+
+---------03:04----------
+somebody else to provide you with a
+
+---------03:05----------
+solution so one of the concepts I want
+
+---------03:08----------
+to get across in this video is that when
+
+---------03:10----------
+an inductor is used as a filter on a
+
+---------03:12----------
+data line to keep out you know Aaron is
+
+---------03:15----------
+noise that very often that filter is
+
+---------03:18----------
+gonna measure properly on a multimeter
+
+---------03:20----------
+and what I mean when I say a filter
+
+---------03:22----------
+let's just go over to the schematic here
+
+---------03:24----------
+on the PDF so that I can show you what
+
+---------03:25----------
+I'm talking about so this is the USB
+
+---------03:27----------
+port that wasn't working this is J 4700
+
+---------03:30----------
+now J 4700 over here is has so we have
+
+---------03:34----------
+the SuperSpeed stuff the SuperSpeed
+
+---------03:36----------
+stuff and then we have our basic
+
+---------03:37----------
+differential pair the standard crap that
+
+---------03:40----------
+gets used for USB so this over here is
+
+---------03:43----------
+for the USB 2 L 4700 you have these
+
+---------03:46----------
+diodes going to ground you have this
+
+---------03:49----------
+filter going between the first
+
+---------03:50----------
+differential pair which is the data line
+
+---------03:51----------
+for USB 2.0 and that is going to go to a
+
+---------03:57----------
+MUX chip and then that MUX chip over
+
+---------04:00----------
+here is going to go straight over to the
+
+---------04:03----------
+PCH and you really want to hope that
+
+---------04:05----------
+it's not the PCH because there's the PCH
+
+---------04:07----------
+it's it's not something that's going to
+
+---------04:08----------
+be worth doing you don't want to take a
+
+---------04:10----------
+board that fully works besides one USB
+
+---------04:12----------
+port and then replace a chip that you
+
+---------04:14----------
+can only get on ebay from knows who
+
+---------04:17----------
+replace that thing where there's a good
+
+---------04:19----------
+chance you could break the board
+
+---------04:20----------
+replacing it there's a very high chance
+
+---------04:22----------
+to chip you by is and then
+
+---------04:24----------
+have a dead board or a beeping board or
+
+---------04:26----------
+a board that turns off it doesn't do
+
+---------04:27----------
+anything for your customer so we don't
+
+---------04:29----------
+ with the PCH on boards that where
+
+---------04:32----------
+everything works we don't want to do
+
+---------04:33----------
+that that's that's not something that
+
+---------04:34----------
+you're gonna do you're not a PCH we we
+
+---------04:37----------
+replace or for hire that's a bad idea so
+
+---------04:39----------
+this is a filter this is another filter
+
+---------04:42----------
+then this is over here this is gonna be
+
+---------04:44----------
+for the SuperSpeed portion this is what
+
+---------04:46----------
+makes USB 3 USB 3 which is that extra
+
+---------04:48----------
+data line and this over here is going
+
+---------04:51----------
+directly to the PCH and then you have
+
+---------04:53----------
+another one more stuff for SuperSpeed
+
+---------04:55----------
+now here's the thing about the filter
+
+---------04:57----------
+here's the thing about the filter when
+
+---------05:00----------
+you go to measure this in resistance
+
+---------05:01----------
+mode on your multimeter say this is a
+
+---------05:03----------
+do-more 90 ohm whatever like that this
+
+---------05:05----------
+is the important part that a lot of
+
+---------05:06----------
+people are gonna get wrong it's gonna
+
+---------05:07----------
+it's gonna screw up a lot of people a
+
+---------05:09----------
+filter can be bad that filter cannot be
+
+---------05:12----------
+equipped or suited for USB 3
+
+---------05:15----------
+transmission or even USB 2 transmission
+
+---------05:17----------
+but on your multimeter it will measure
+
+---------05:19----------
+just fine do you know why I don't
+
+---------05:21----------
+measure finding your multimeter but not
+
+---------05:23----------
+provide usb on the board because your
+
+---------05:25----------
+multimeter is sending one boring ass
+
+---------05:26----------
+little signal just some boring flat
+
+---------05:29----------
+little voltage and then it's waiting for
+
+---------05:31----------
+that little boring flat voltage to come
+
+---------05:33----------
+back on the other end
+
+---------05:34----------
+whereas USB in USB 3 when you have 3 6
+
+---------05:38----------
+gigabit per second speeds going through
+
+---------05:40----------
+it I forget what USB 3 is if it's like 3
+
+---------05:42----------
+or 4 or 5 whether it's gigabit per
+
+---------05:44----------
+second transfer speeds that you have
+
+---------05:45----------
+going on there when you have that
+
+---------05:46----------
+gigabit per second speed going on you
+
+---------05:49----------
+have a lot of data moving back before
+
+---------05:51----------
+it's you have pulse no pulse pulse no
+
+---------05:52----------
+pulse pulse no possible and that filter
+
+---------05:55----------
+all the nice to do is get one of those
+
+---------05:57----------
+millions of pulses a second wrong and
+
+---------05:59----------
+you have no USB where as again the
+
+---------06:02----------
+multimeter all it's sending one static
+
+---------06:04----------
+pulse through and just hoping that it
+
+---------06:06----------
+gets it back on the other end that's
+
+---------06:07----------
+what the multimeters doing
+
+---------06:08----------
+but again what USB is doing is millions
+
+---------06:10----------
+of pulses per second and only one of
+
+---------06:13----------
+those pulses is to be up for this
+
+---------06:16----------
+to not work so even if the filter
+
+---------06:18----------
+measures perfectly fine on your
+
+---------06:20----------
+multimeter it could still actually not
+
+---------06:22----------
+work and cause you to have non-working
+
+---------06:24----------
+USB so your question at this point may
+
+---------06:26----------
+be well gee if I can't test it then what
+
+---------06:28----------
+do I do because a lot of people who come
+
+---------06:31----------
+to the the tutoring course here a lot of
+
+---------06:32----------
+people who also went to Jess's class a
+
+---------06:34----------
+lot of them one of the main questions is
+
+---------06:36----------
+you know how do we measure these
+
+---------06:37----------
+components
+
+---------06:38----------
+so we can fix these boards what are we
+
+---------06:39----------
+looking for how do we measure them and
+
+---------06:41----------
+the answers the end again the reason
+
+---------06:43----------
+that a lot of the times
+
+---------06:44----------
+answering these questions can be a
+
+---------06:46----------
+nightmare on the Internet especially
+
+---------06:48----------
+when people like you know or say things
+
+---------06:49----------
+like I will pay for you to answer this
+
+---------06:51----------
+one question the reason that's a
+
+---------06:52----------
+nightmare is because a lot of the times
+
+---------06:54----------
+I'm giving people answers that they
+
+---------06:55----------
+don't want so when somebody will say how
+
+---------06:57----------
+do I measure this inductor by USB I'll
+
+---------06:59----------
+say you replace it and you see if it
+
+---------07:01----------
+works and they don't like that answer
+
+---------07:02----------
+but the real answer is gonna be well you
+
+---------07:05----------
+buy a $40,000 spectrum analyzer and tone
+
+---------07:08----------
+generator and you read what comes out on
+
+---------07:10----------
+the other end but you don't like that
+
+---------07:12----------
+answer because that answer involves you
+
+---------07:14----------
+spending forty thousand dollars and then
+
+---------07:16----------
+the other answer is well you replace him
+
+---------07:17----------
+but you don't like that answer because
+
+---------07:19----------
+you don't have donor boards because you
+
+---------07:20----------
+don't have a pile like me where you can
+
+---------07:22----------
+just take another one of those filters
+
+---------07:23----------
+of the exact same specification rip it
+
+---------07:25----------
+off and put it on there you don't like
+
+---------07:27----------
+that I don't have the exact answer to
+
+---------07:28----------
+the question that you want but that is
+
+---------07:30----------
+the answer the practical way to measure
+
+---------07:32----------
+that filter is to replace it
+
+---------07:34----------
+the impractical but you know the proper
+
+---------07:38----------
+way to measure that fills room is that
+
+---------07:40----------
+$40,000 with the test equipment put a
+
+---------07:42----------
+bunch of little signals in see exactly
+
+---------07:44----------
+what comes out overlay them over one
+
+---------07:46----------
+another do some differential analysis
+
+---------07:49----------
+and you'll figure out what you get but
+
+---------07:50----------
+that's no you you get it you get a
+
+---------07:53----------
+ fifteen or thirty dollar donor
+
+---------07:55----------
+board you take off those little one cent
+
+---------07:57----------
+components from them you don't buy them
+
+---------07:59----------
+from Mouse or you don't buy them from
+
+---------08:00----------
+digi-key you don't wait one or two at
+
+---------08:02----------
+six weeks for it to come here because
+
+---------08:03----------
+your customer who had a perfectly
+
+---------08:05----------
+working computer besides one USB
+
+---------08:07----------
+port is going to rip you a new one if
+
+---------08:09----------
+they're waiting weeks on you to order
+
+---------08:10----------
+all this from mouse or to figure
+
+---------08:11----------
+out what's gone what's wrong what you do
+
+---------08:13----------
+is you replace them so I just started
+
+---------08:16----------
+over there so what the other thing that
+
+---------08:18----------
+I did here just to make sure that I
+
+---------08:19----------
+wasn't getting myself into a rabbit hole
+
+---------08:21----------
+to hell is I measured in diode mode to
+
+---------08:23----------
+ground or you can do this with
+
+---------08:25----------
+resistance mode if your multimeter
+
+---------08:26----------
+doesn't have dialed mode diet mode is a
+
+---------08:27----------
+bit easier and it'll just quicker to
+
+---------08:30----------
+work with what I did is I also measured
+
+---------08:31----------
+on the other side so you see how this
+
+---------08:34----------
+USB ext B goes to a MUX chip so let's
+
+---------08:38----------
+find that so that goes to this thing
+
+---------08:41----------
+over here and then this is going to go
+
+---------08:44----------
+to the PCH so what I did is I go to the
+
+---------08:46----------
+PCH is USB section over here so you have
+
+---------08:50----------
+USB
+
+---------08:51----------
+eech i know you can't see so you have
+
+---------08:55----------
+USB e CH i USB XE h i and all this other
+
+---------08:59----------
+USB crap so you know what I'm doing over
+
+---------09:01----------
+here is I'm measuring a dialed motor
+
+---------09:04----------
+ground my red probe on ground my black
+
+---------09:05----------
+probe on there or if you don't have that
+
+---------09:07----------
+you can use resistance mode I'm
+
+---------09:08----------
+comparing my values to unknown working
+
+---------09:10----------
+ward and what this is gonna do is it's
+
+---------09:12----------
+gonna tell me if my PCH is dead so if my
+
+---------09:16----------
+PCH is my values are gonna be
+
+---------09:18----------
+very very different
+
+---------09:19----------
+and if thing if the issue was with my
+
+---------09:21----------
+PCH then this is over then I'm you know
+
+---------09:25----------
+no you're gonna you're gonna you're
+
+---------09:26----------
+gonna buy yourself a little USB hub but
+
+---------09:29----------
+you're just gonna live with the
+
+---------09:30----------
+fact that you have one USB port and use
+
+---------09:32----------
+your firewire your Thunderbolt cuz hell
+
+---------09:34----------
+if I'm hell if I'm replace again I am
+
+---------09:37----------
+NOT replacing a PCH on a known good
+
+---------09:39----------
+board there's a small chance of me
+
+---------09:41----------
+ up the soldering there's a
+
+---------09:43----------
+really big chance of the PCH that you
+
+---------09:46----------
+buy on the internet being complete pile
+
+---------09:48----------
+of you know and like we can knock
+
+---------09:50----------
+on an inner soles door and say hi inner
+
+---------09:52----------
+cell I'd like a PCH here's 50 bucks will
+
+---------09:55----------
+you give me one outlet that that doesn't
+
+---------09:57----------
+happen that that's not how the world
+
+---------09:58----------
+works unfortunately you know again
+
+---------10:00----------
+someday we're gonna let some day people
+
+---------10:02----------
+are gonna laugh over the fact that we
+
+---------10:03----------
+had a scavenge and dumpster dive to find
+
+---------10:06----------
+stuff to fix anything someday the world
+
+---------10:07----------
+will laugh but right now the way the
+
+---------10:09----------
+world works it is a joke we fix stuff by
+
+---------10:12----------
+dumpster diving and it's wrong and it's
+
+---------10:14----------
+ and it's crap that's you know
+
+---------10:17----------
+the world isn't perfect and what you
+
+---------10:19----------
+just have to live with it so the USB
+
+---------10:21----------
+port that wasn't working was this one
+
+---------10:23----------
+over here so I'm gonna plug this thing
+
+---------10:25----------
+in
+
+---------10:26----------
+and what I want you to see is that it's
+
+---------10:28----------
+going to see my USB 3 enclosure with an
+
+---------10:31----------
+SSD plugged into it over there and it's
+
+---------10:33----------
+gonna show me a little external drive
+
+---------10:34----------
+icon on the screen and when I see a
+
+---------10:36----------
+little external drive icon I'll know
+
+---------10:38----------
+that that USB is good where it was not
+
+---------10:41----------
+good before I don't think I plug the
+
+---------10:46----------
+keyboard in all the way so instead of
+
+---------10:47----------
+show me that I kind of may just start
+
+---------10:49----------
+booting into an operating system which
+
+---------10:51----------
+is also good because that'll also show
+
+---------10:53----------
+you that USB works um why do you always
+
+---------11:01----------
+have to do something stupid or not work
+
+---------11:03----------
+when I turn the camera on
+
+---------11:05----------
+is it absolutely necessary to make me
+
+---------11:06----------
+look like an idiot for every video is it
+
+---------11:08----------
+really necessary motherboard okay so I
+
+---------11:11----------
+don't plug the keyboard in all the way
+
+---------11:12----------
+whatever it's it's it's 4:00 in the
+
+---------11:14----------
+morning I'm tired that but what you
+
+---------11:17----------
+can see over here is that I am booting
+
+---------11:19----------
+into the operating system that is on my
+
+---------11:23----------
+little SSD with this USB 3 it's a SATA
+
+---------11:28----------
+Startech thing I got on Amazon for 12
+
+---------11:30----------
+bucks really useful little tool it's
+
+---------11:32----------
+great because it's it's USB 3 it's a
+
+---------11:34----------
+really adorable wire and although the
+
+---------11:37----------
+entire chipset is inside of here it's
+
+---------11:38----------
+made to be used by people you know like
+
+---------11:41----------
+us that are not using it with it with a
+
+---------11:44----------
+drive where we're gonna keep it in there
+
+---------11:46----------
+like an Inc you know like a backup drive
+
+---------11:48----------
+that we're gonna build for ourselves
+
+---------11:50----------
+this is meant to be used by people who
+
+---------11:52----------
+are just handling raw drives and just
+
+---------11:54----------
+leaving them out for testing purposes so
+
+---------11:56----------
+as you can see here I am able to boot it
+
+---------11:59----------
+is gonna take a while because I don't
+
+---------12:02----------
+have a trackpad or a battery plugged in
+
+---------12:04----------
+so it's gonna run slow but it does work
+
+---------12:08----------
+actually yeah this is the wrong SSD this
+
+---------12:11----------
+is the one that has a SD on it and since
+
+---------12:13----------
+it's not the a SD for that machine
+
+---------12:14----------
+well it ain't never gonna boot but you
+
+---------12:18----------
+get the idea so we have working USB and
+
+---------12:20----------
+and the really the lesson that I want
+
+---------12:22----------
+you to get from this video is to
+
+---------12:23----------
+understand that measuring components
+
+---------12:26----------
+yeah and this is this is what really
+
+---------12:27----------
+sucks for new people but it's something
+
+---------12:29----------
+that I wish was pointed out to me again
+
+---------12:30----------
+if somebody had pointed this out to me
+
+---------12:32----------
+you know 10 years ago my life would have
+
+---------12:34----------
+been a lot easier for a long time what I
+
+---------12:36----------
+would have wished somebody pointed out
+
+---------12:37----------
+to me is that what you can you the way
+
+---------12:39----------
+you measure is not always just
+
+---------12:42----------
+mathematically it's not sometimes you
+
+---------12:44----------
+measure with your eyeballs sometimes
+
+---------12:46----------
+your eyes are gonna tell you that
+
+---------12:47----------
+something looks like crap when it
+
+---------12:49----------
+mentions 47 ohms on the multimeter and
+
+---------12:50----------
+it's gonna tell you that while the
+
+---------12:51----------
+component is actually good at the solder
+
+---------12:54----------
+joint under it it is not the V is right
+
+---------12:57----------
+by it is nasty or sometimes it's gonna
+
+---------13:00----------
+be that the component actually measures
+
+---------13:01----------
+fine because it because the signal that
+
+---------13:04----------
+you're sending through it's for
+
+---------13:04----------
+measuring is is is a very basic signal
+
+---------13:08----------
+but the signal that's actually going
+
+---------13:10----------
+through it on the board is a very
+
+---------13:11----------
+complex signal and that complex signal
+
+---------13:13----------
+can't make it through that component
+
+---------13:15----------
+once that component has failed but the
+
+---------13:17----------
+simple signal will make it through
+
+---------13:18----------
+it's these types of things that are
+
+---------13:20----------
+gonna drive you nuts it's these type of
+
+---------13:21----------
+things that are gonna keep you up at
+
+---------13:22----------
+night it's these types of things that
+
+---------13:24----------
+are gonna make you look like an idiot
+
+---------13:25----------
+it's these types of things that have
+
+---------13:26----------
+made me look like an idiot so I feel
+
+---------13:29----------
+like sharing so that you don't look like
+
+---------13:31----------
+an idiot so as always I hope you learned
+
+---------13:33----------
+something
+

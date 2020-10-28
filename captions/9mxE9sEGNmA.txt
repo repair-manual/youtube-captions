@@ -1,0 +1,364 @@
+https://www.youtube.com/watch?v=9mxE9sEGNmA
+---------00:00----------
+here we're gonna be opening up a Macbook
+
+---------00:01----------
+that is not powering on this is in a
+
+---------00:03----------
+1502 MacBook so this is an eight to zero
+
+---------00:06----------
+49:24 board or as high I would call it a
+
+---------00:09----------
+Sony Trinitron you know what this can
+
+---------00:11----------
+get an ultrasonic alright so this board
+
+---------00:13----------
+is the one that I was working on in the
+
+---------00:14----------
+beginning which is taking 50 milliamps
+
+---------00:16----------
+so let's go through this board and try
+
+---------00:18----------
+to figure out why it's taking 50
+
+---------00:19----------
+milliamps and what could be causing this
+
+---------00:21----------
+is an 8 - 0 - 49:24 macbook let's start
+
+---------00:24----------
+measuring its rails the first thing
+
+---------00:26----------
+we're gonna measure is our pp bus twelve
+
+---------00:28----------
+point six volts it's a beautiful number
+
+---------00:30----------
+to get on your PP bus next up we're
+
+---------00:31----------
+gonna measure PP 5 vs 555 es 5 can be
+
+---------00:35----------
+found down here 5 volts steady EP 5 es 4
+
+---------00:38----------
+PP 5 es 4 appears to be missing and the
+
+---------00:41----------
+enable let's see if the enables there if
+
+---------00:43----------
+it's jumping if you enable 4 PP 5 es 4
+
+---------00:46----------
+is not jumping it's def let's take a
+
+---------00:48----------
+look around this board and try and
+
+---------00:49----------
+figure out what could be causing such a
+
+---------00:50----------
+thing - hacker hmm now if we look by our
+
+---------00:53----------
+clock chip later this but as you can see
+
+---------00:55----------
+there are marks from where the gross
+
+---------00:57----------
+area was so see how this capacitor over
+
+---------00:59----------
+here looks nice it has two metal ends
+
+---------01:02----------
+pretty right whereas this capacitor over
+
+---------01:05----------
+here has a metal end but then the brown
+
+---------01:08----------
+part of it kind of is there and there's
+
+---------01:10----------
+no metal cap over it anymore so we do
+
+---------01:13----------
+that let's flick that little cap off the
+
+---------01:15----------
+board and after we flick that cap off of
+
+---------01:18----------
+the board so as you can tell as always
+
+---------01:25----------
+we pick the boards from the new slots
+
+---------01:27----------
+when Paul is not here at random and then
+
+---------01:29----------
+we only choose the ones that are the
+
+---------01:30----------
+most difficult at the random pile this
+
+---------01:32----------
+one was difficult because as you could
+
+---------01:34----------
+see it required an ultrasonic cleaning
+
+---------01:35----------
+which meant that I had to get out of my
+
+---------01:36----------
+chair they require drying it which means
+
+---------01:38----------
+waiting which is pain-in-the-ass
+
+---------01:40----------
+required touching the purplish goo on it
+
+---------01:43----------
+and then I had a flicker capacitor off
+
+---------01:45----------
+which meant that I had to bend my
+
+---------01:46----------
+tweezers a little bit which means that I
+
+---------01:47----------
+now have to walk up to the front and get
+
+---------01:49----------
+a new set of tweezers so any of you who
+
+---------01:50----------
+say that Paul is the one that gets all
+
+---------01:52----------
+the hard jobs just think of all the
+
+---------01:54----------
+heavy lifting that was required to fix
+
+---------01:56----------
+the void like this a lot of work next up
+
+---------02:01----------
+on the list is a liquid damage no power
+
+---------02:03----------
+which try and figure out what's wrong
+
+---------02:04----------
+with this liquid damage nope
+
+---------02:05----------
+err what happened to other new guy he's
+
+---------02:08----------
+sitting in the paul seat working on the
+
+---------02:09----------
+paul queue he also has paul RGB so has
+
+---------02:14----------
+the food seven dollars for all of that
+
+---------02:18----------
+was that how long guys or somebody else
+
+---------02:23----------
+yes so as you guys have noticed every
+
+---------02:25----------
+time you say a word the LED lights
+
+---------02:28----------
+change color so as can be seen here
+
+---------02:34----------
+there's no green light in the charger
+
+---------02:36----------
+the first thing we're gonna do is check
+
+---------02:37----------
+that a pepper three before two is there
+
+---------02:39----------
+so we have point one volts on pepper
+
+---------02:42----------
+three before two now let's see what
+
+---------02:43----------
+we're getting on the input we're getting
+
+---------02:45----------
+18.6 on input zero on output do keep in
+
+---------02:49----------
+mind that every single one of these
+
+---------02:51----------
+boards that I work on does get picked at
+
+---------02:53----------
+random random random random picked at
+
+---------02:55----------
+random so let's try and figure out why
+
+---------02:58----------
+it is that this board is missing PP
+
+---------03:00----------
+three before - we're not getting a green
+
+---------03:01----------
+light so the first thing we have to do
+
+---------03:03----------
+is open a schematic for a - zero - zero
+
+---------03:05----------
+zero 165 board alright let's check that
+
+---------03:08----------
+out so the first thing we need to do is
+
+---------03:10----------
+check out the enable line which is gonna
+
+---------03:12----------
+be right over here the way this works
+
+---------03:13----------
+shdn is the shutdown pin if the voltage
+
+---------03:16----------
+is lower than I think two or three volts
+
+---------03:18----------
+it's gonna shut the chip down and not
+
+---------03:19----------
+work so it has to have the zero ohm
+
+---------03:20----------
+resistor R 7080 here in order to send
+
+---------03:22----------
+power from the 16 volt input to pin a to
+
+---------03:26----------
+the chip let's see what's going on there
+
+---------03:27----------
+it appears that that resistor may be
+
+---------03:29----------
+missing does your own resistor
+
+---------03:30----------
+interesting interesting that the little
+
+---------03:32----------
+resistors not they're so strange I can
+
+---------03:34----------
+go and put a little with a bodge wire in
+
+---------03:37----------
+there which we're gonna do just test to
+
+---------03:39----------
+see if this is the only issue with this
+
+---------03:40----------
+board because this random board may have
+
+---------03:43----------
+the just a random issue of this one
+
+---------03:44----------
+random missing resistor random picked at
+
+---------03:47----------
+random random random random random
+
+---------03:49----------
+picked at random random
+
+---------03:55----------
+we're getting a fence fence so that's
+
+---------03:57----------
+about that so we were just missing one
+
+---------03:59----------
+simple resistor on this board we just
+
+---------04:02----------
+you know ran that little jumper wire and
+
+---------04:03----------
+it it seems to be completely fixed so
+
+---------04:05----------
+just case anybody is still wondering we
+
+---------04:07----------
+get some difficult jobs as well I had to
+
+---------04:09----------
+open the bottom of the case I had to use
+
+---------04:12----------
+the microscope to find that I didn't
+
+---------04:14----------
+have a zero ohm resistor on my desk so I
+
+---------04:16----------
+had to run the jumper wire I didn't have
+
+---------04:18----------
+the micro pencil plugged in so I had to
+
+---------04:20----------
+use a normal soldering iron to solder
+
+---------04:22----------
+that jumper wire on there so that's it
+
+---------04:24----------
+for today and as always I hope you
+
+---------04:26----------
+learned something
+
+---------04:35----------
+you
+

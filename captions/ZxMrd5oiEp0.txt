@@ -1,0 +1,538 @@
+https://www.youtube.com/watch?v=ZxMrd5oiEp0
+---------00:00----------
+okay so today we're gonna be going over
+
+---------00:01----------
+an 8 to 0 2530 it turns on but there's
+
+---------00:04----------
+no chime and there's nothing on the
+
+---------00:06----------
+screen now you can see that again like I
+
+---------00:12----------
+don't get anything that makes sense
+
+---------00:14----------
+anymore I just get like this where
+
+---------00:17----------
+yeah somebody did something I'm not sure
+
+---------00:20----------
+what they were thinking but somebody
+
+---------00:22----------
+that was doing something and here's the
+
+---------00:25----------
+thing it's gonna be harder to spot the
+
+---------00:28----------
+point of original corrosion when it was
+
+---------00:30----------
+that somebody was doing something than
+
+---------00:32----------
+it is if you just see the board
+
+---------00:33----------
+freshly damaged well let's try to get an
+
+---------00:36----------
+idea so yeah there was some funniness in
+
+---------00:38----------
+this area I see funniness and I see a
+
+---------00:40----------
+lot of stuff that doesn't look
+
+---------00:42----------
+particularly nice now when there's no
+
+---------00:43----------
+image that's one thing that troubleshoot
+
+---------00:46----------
+no image but when there's no chime when
+
+---------00:47----------
+it doesn't go dumb and turn on that is
+
+---------00:51----------
+often something having to do with CPU v
+
+---------00:54----------
+core CPU not turning on CPU not engaging
+
+---------00:57----------
+so let's just take a little look over
+
+---------00:59----------
+here at the area that appears to be
+
+---------01:01----------
+ up see if it makes any sense
+
+---------01:05----------
+so this overhears the BIOS chip area and
+
+---------01:07----------
+then this over here is use 7600 now if I
+
+---------01:12----------
+go over to the schematic and search for
+
+---------01:13----------
+you 7600 what I find is that that's for
+
+---------01:16----------
+CPU vtt now this is going to be
+
+---------01:20----------
+something important because it is for
+
+---------01:22----------
+the CPU which is part of why the machine
+
+---------01:25----------
+is not chiming now if I look in that
+
+---------01:27----------
+area before I even bother turning this
+
+---------01:31----------
+thing on let's just see if some let's
+
+---------01:33----------
+just get some basics down pat so what
+
+---------01:36----------
+are some of the things that you should
+
+---------01:37----------
+look for if a chip itself is not turning
+
+---------01:39----------
+on so what should you look for if well
+
+---------01:42----------
+what would you look for more that's
+
+---------01:46----------
+talking about okay
+
+---------01:51----------
+see if I can remember my train of
+
+---------01:52----------
+thought from a minute ago
+
+---------01:54----------
+the first thing to do is just try to
+
+---------01:56----------
+look for what looks physically somewhat
+
+---------01:58----------
+nasty and if we zoom in over here now
+
+---------02:02----------
+one of the things you're gonna realize
+
+---------02:04----------
+with resistors is that you get you don't
+
+---------02:07----------
+necessarily have that same oh boy let's
+
+---------02:13----------
+see okay you don't necessarily have the
+
+---------02:16----------
+the metal tabs that you do when they
+
+---------02:18----------
+look nicely so let's we before they're
+
+---------02:20----------
+damaged so let's take this for example
+
+---------02:22----------
+see this it has a nice metal tab and
+
+---------02:27----------
+then the metal tab is soldered onto the
+
+---------02:30----------
+board with a nice solder joint now when
+
+---------02:32----------
+you look at a up resistor the
+
+---------02:35----------
+metal tab is gone you kind of see this
+
+---------02:37----------
+white stuff see that it's kind of like
+
+---------02:40----------
+the resistor itself but the conducting
+
+---------02:43----------
+element that attaches it to the board is
+
+---------02:45----------
+there's not really there anymore let's
+
+---------02:48----------
+see if we can look at others in this
+
+---------02:50----------
+area that may look the same so these all
+
+---------02:53----------
+look black and nasty let's just take a
+
+---------02:56----------
+look at what's important in this area
+
+---------02:58----------
+and see where we should even start
+
+---------03:00----------
+measuring so if I look at what's
+
+---------03:01----------
+important in that particular area I may
+
+---------03:03----------
+notice is that this chip is going to be
+
+---------03:07----------
+powered off of five volts but that five
+
+---------03:09----------
+volts is not going straight to the chip
+
+---------03:10----------
+on this one pinned v5 filt
+
+---------03:15----------
+that's going to the chip through our
+
+---------03:17----------
+seven six zero one so the highest
+
+---------03:20----------
+voltage point here in this area is going
+
+---------03:22----------
+to be with a five volt rail the computer
+
+---------03:24----------
+directly goes over to you seventy six
+
+---------03:26----------
+hundred now if I were to measure this
+
+---------03:29----------
+lets get that view over here I get that
+
+---------03:33----------
+my multimeter over here of course it's
+
+---------03:36----------
+gonna be off camera yeah what the fell
+
+---------03:40----------
+well right right right yeah yeah I suck
+
+---------03:45----------
+at filming all right it I'll just
+
+---------03:46----------
+read it so I'm gonna measure our seven
+
+---------03:50----------
+six zero one
+
+---------04:08----------
+then we get 300
+
+---------04:25----------
+two-twenty okay so what I was talking
+
+---------04:27----------
+about makes no sense
+
+---------04:35----------
+you
+
+---------09:04----------
+yeah so this makes a pretty terrible
+
+---------09:06----------
+video I got confused in the middle of
+
+---------09:09----------
+what I was talking about so this the
+
+---------09:13----------
+resistor that was bad was actually one
+
+---------09:15----------
+of the SPI ROM resistors so the issue
+
+---------09:19----------
+had to do was most likely bios related
+
+---------09:22----------
+all along and had nothing to do with CPU
+
+---------09:23----------
+vtt now believe it or not the only
+
+---------09:27----------
+really come the only component that I
+
+---------09:29----------
+was truly bad was the one that I showed
+
+---------09:31----------
+you where the resistor you could see the
+
+---------09:32----------
+white stuff on it the rest of these
+
+---------09:34----------
+components believe it or not are
+
+---------09:35----------
+actually most likely fine I'm just
+
+---------09:37----------
+replacing because you know they looked
+
+---------09:43----------
+really disgusting that one flew away hey
+
+---------09:49----------
+find another one of same value same
+
+---------09:51----------
+value same value
+
+---------09:59----------
+oh yeah I can put those all on as uneven
+
+---------10:06----------
+as I want because I'm gonna just add
+
+---------10:08----------
+flux and hot air at the end anyway so as
+
+---------10:13----------
+long as they're sitting somewhat near
+
+---------10:14----------
+what I want them I'm fine for now if I'm
+
+---------10:18----------
+placing you know ten or twenty or thirty
+
+---------10:20----------
+components in a row wasting time sorting
+
+---------10:24----------
+each one is a waste of time each one of
+
+---------10:34----------
+those is pretty awful solder joints and
+
+---------10:36----------
+I don't care at this point in time not
+
+---------10:40----------
+because I'm somebody who encourages bad
+
+---------10:42----------
+workmanship that you're gonna see so
+
+---------10:49----------
+each one of those sections has nice
+
+---------10:51----------
+fresh solder on it
+
+---------10:53----------
+and what I'm gonna do here
+
+---------11:00----------
+then gets
+
+---------11:11----------
+eat from far away first
+
+---------11:19----------
+slowly come on get the resistors on the
+
+---------11:25----------
+right and the left one now all this
+
+---------11:28----------
+stuff around the CPU vtt chip all just
+
+---------11:34----------
+kind of flow on a place after that it's
+
+---------11:37----------
+gonna go into the ultrasonic cleaner cuz
+
+---------11:39----------
+I mean this board looks like yeah
+
+---------11:41----------
+I'm not giving this back to somebody
+
+---------11:42----------
+looking like this and then we'll see if
+
+---------11:44----------
+we have a chime oh that's the capacitor
+
+---------11:46----------
+that blew away before so yeah the issue
+
+---------11:51----------
+here was most likely with one of the
+
+---------11:53----------
+BIOS and serious terminators and
+
+---------11:55----------
+resistors so let's see our 6152 is the
+
+---------11:57----------
+one that I showed you our six one five
+
+---------12:01----------
+two so this is where BIOS chip which is
+
+---------12:04----------
+used 6100 or quote-unquote spi ROM to be
+
+---------12:07----------
+proper about it is SPI mossy MUX spi MUX
+
+---------12:25----------
+bypass so that's where the BIOS is gonna
+
+---------12:34----------
+talk to you 1,400 which is the mCP all
+
+---------12:38----------
+right so now when we like a look at it
+
+---------12:40----------
+so we get under the microscope you know
+
+---------12:43----------
+yeah it still looks like but that's
+
+---------12:45----------
+because it's a seven year old board that
+
+---------12:47----------
+somebody probably pissed their on
+
+---------12:50----------
+or through coca-cola on so what do you
+
+---------12:51----------
+expect and seven years old but let's see
+
+---------12:54----------
+if it works so I have my screen over
+
+---------12:58----------
+here my shitty board my dcn board a fan
+
+---------13:04----------
+and let's see what I get
+
+---------13:23----------
+this charger is trolling
+
+---------13:31----------
+come on you piece of
+
+---------13:39----------
+I don't know if it's because my charger
+
+---------13:41----------
+has a DC n board pin that's burned or if
+
+---------13:44----------
+it's the DC n board having a burnt Pig
+
+---------13:47----------
+what yeah
+
+---------13:49----------
+great test setup there we go
+
+---------13:56----------
+okay fan spin with that wasn't it the
+
+---------13:58----------
+issue is that no video no chime yay all
+
+---------14:07----------
+right let's see if we get a question
+
+---------14:08----------
+mark folder
+
+---------14:08----------
+I should have plugged in an operating
+
+---------14:14----------
+system damn it I have to hold this
+
+---------14:16----------
+for a minute give me a question mark
+
+---------14:33----------
+oh man's boring as hell here we go
+
+---------14:38----------
+and there you go it works so the cpu
+
+---------14:42----------
+wasn't turning on because some series
+
+---------14:44----------
+terminated resistors with the spi ROM
+
+---------14:47----------
+chip otherwise known as the BIOS chip
+
+---------14:49----------
+for those of you guys that work on pcs
+
+---------14:51----------
+mostly was corroded and again no image
+
+---------14:56----------
+and no chime first place to look is my
+
+---------14:59----------
+CPU turning on and that's that for today
+
+---------15:02----------
+as always I hope you learned something
+

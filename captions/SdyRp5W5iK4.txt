@@ -1,0 +1,1240 @@
+https://www.youtube.com/watch?v=SdyRp5W5iK4
+---------00:00----------
+all right so today we're going to go
+
+---------00:01----------
+over a MacBook Pro that has a sensor
+
+---------00:03----------
+issue this is going to be an annoying
+
+---------00:04----------
+thing to try to film firstly because the
+
+---------00:07----------
+phone is gonna ring but not only because
+
+---------00:08----------
+the phone is going to ring but because
+
+---------00:09----------
+it's gonna take forever to boot it up to
+
+---------00:11----------
+start the sensor test so what I'm doing
+
+---------00:13----------
+here is I'm going to boot into a SD and
+
+---------00:15----------
+I'm going to boot into the efi version
+
+---------00:16----------
+of a SD the reason I'm booting into the
+
+---------00:18----------
+efi version of a SD is because while the
+
+---------00:21----------
+older OS versions of a SD which is the
+
+---------00:23----------
+Apple service diagnostic those versions
+
+---------00:25----------
+allowed me to see exactly which sensor
+
+---------00:28----------
+failed on newer machines the a SD now
+
+---------00:31----------
+says a sensor has failed
+
+---------00:33----------
+thank you very helpful Apple but
+
+---------00:37----------
+I digress so what's going on with this
+
+---------00:40----------
+machine is it's working really slowly
+
+---------00:41----------
+when I move the mouse it skips all
+
+---------00:43----------
+around the screen and the fan is always
+
+---------00:47----------
+running at a really high temperature so
+
+---------00:49----------
+I'm gonna go on error stop so that
+
+---------00:51----------
+actually I'm gonna go on error continue
+
+---------00:53----------
+you can barely see that and the board is
+
+---------00:56----------
+not really screwed in I just didn't
+
+---------00:57----------
+screw it in so I could show you what's
+
+---------00:59----------
+failing so I'm just gonna deselect all
+
+---------01:01----------
+and then I'm only going to select the
+
+---------01:03----------
+sensor test we're going to run the
+
+---------01:04----------
+sensor test and try to figure out what's
+
+---------01:06----------
+going on because remember whenever you
+
+---------01:08----------
+have a machine that's running stupidly
+
+---------01:10----------
+slow not like hard drive kind of slow
+
+---------01:12----------
+but where it feels like it's running at
+
+---------01:14----------
+one mega hurt mega hurt not even hurts
+
+---------01:17----------
+it's usually a sensor issue so over here
+
+---------01:20----------
+we're going to see that there are a few
+
+---------01:21----------
+sensors that are failing right you see
+
+---------01:23----------
+how it's has failed now we have lists on
+
+---------01:26----------
+the screen of the sensor so I'm just
+
+---------01:27----------
+gonna read them because you can't see
+
+---------01:28----------
+that and I honestly don't feel like
+
+---------01:30----------
+ with the camera and getting up
+
+---------01:31----------
+right now because I'm very tired to zoom
+
+---------01:33----------
+in on the screen so it says s - camera
+
+---------01:36----------
+proximity sensor is reading below the
+
+---------01:39----------
+low limit ta 0 P input airflow sensor is
+
+---------01:43----------
+reading below the low limit and let's
+
+---------01:45----------
+just scroll up because there are some
+
+---------01:46----------
+other sensors here that are also
+
+---------01:48----------
+up
+
+---------01:50----------
+CPU proximity sensor is reading below
+
+---------01:54----------
+the low limit so and we also have
+
+---------01:56----------
+charged a proximity reading below the
+
+---------01:57----------
+low limit as to camera proximity and
+
+---------01:59----------
+input airflow so now let's try to get an
+
+---------02:03----------
+idea of what's going on with the
+
+---------02:04----------
+schematic so now that we have this
+
+---------02:05----------
+information I can turn this off and we
+
+---------02:10----------
+can look through this come at ik and try
+
+---------02:12----------
+to get an idea of what
+
+---------02:13----------
+going on with the sensors and why the
+
+---------02:15----------
+machine is running really really slow so
+
+---------02:17----------
+from here I'm just going to go over to
+
+---------02:19----------
+the schematic in the diagram and let's
+
+---------02:22----------
+try to figure out what's going on so
+
+---------02:24----------
+open broadcaster switch alright so now
+
+---------02:28----------
+we're in the sense a diagram here where
+
+---------02:30----------
+it's it's showing you all the different
+
+---------02:31----------
+points where the SMC is talking to
+
+---------02:33----------
+different parts of the computer so if I
+
+---------02:36----------
+were to search here for something like
+
+---------02:37----------
+CPU proximity what do you know CPU
+
+---------02:41----------
+proximity sensor inlet sensor this seems
+
+---------02:44----------
+to be very very relevant to all the
+
+---------02:46----------
+sensors that are failing and if we look
+
+---------02:49----------
+at this you can see that there are
+
+---------02:50----------
+different sensors here so it says detect
+
+---------02:53----------
+proximity temperature and blah blah blah
+
+---------02:56----------
+this is you 5800 and this chip is going
+
+---------02:59----------
+to take all the different sensors and
+
+---------03:01----------
+allow those different sensors to talk to
+
+---------03:03----------
+the SMC on this data line so as you can
+
+---------03:06----------
+see here we have alerts but what's
+
+---------03:09----------
+actually allowing it to talk to the SMC
+
+---------03:11----------
+which is what's dealing with all the
+
+---------03:12----------
+sensors here you can tell that from the
+
+---------03:14----------
+Apple service diagnostic test it'll tell
+
+---------03:16----------
+you that everything is talking to the
+
+---------03:18----------
+sensors what are you able to see
+
+---------03:21----------
+everything curious of open broadcaster
+
+---------03:23----------
+is properly resizing this it's not you
+
+---------03:25----------
+
+
+---------03:26----------
+okay let's rego over that open
+
+---------03:28----------
+broadcaster man as you're not open
+
+---------03:30----------
+broadcaster the idiot whom is
+
+---------03:32----------
+configured it who's sitting in front of
+
+---------03:33----------
+the screen running open broadcaster it's
+
+---------03:36----------
+funny how we blame the computer when
+
+---------03:37----------
+it's actually us so often at the time so
+
+---------03:39----------
+see over here sm bus sm c 1s OS c LC
+
+---------03:44----------
+this thing over here this is a
+
+---------03:45----------
+bi-directional data line in a
+
+---------03:47----------
+bi-directional clock line where the SMC
+
+---------03:50----------
+is going to talk to this chip so let's
+
+---------03:52----------
+just get an idea here so over here it
+
+---------03:53----------
+says CPU proximity and here's the thing
+
+---------03:56----------
+that we use the reason that I'm jumping
+
+---------03:58----------
+to this area in this chip the reason I'm
+
+---------04:00----------
+jumping to this area is because it's not
+
+---------04:02----------
+one sensor that failed its numerous
+
+---------04:05----------
+sensors so you have numerous sensors in
+
+---------04:07----------
+the board and all of them failed really
+
+---------04:10----------
+like if all four of those sensors are
+
+---------04:13----------
+doing the exact same thing which is
+
+---------04:14----------
+reading below the low point it's not
+
+---------04:16----------
+that it can't read one sensor one
+
+---------04:18----------
+sensors too high one sensors too low you
+
+---------04:20----------
+have three or four sensors that are all
+
+---------04:21----------
+reading too low so what I'm gonna do
+
+---------04:24----------
+here is I'm not gonna look at each
+
+---------04:25----------
+individual sensor I'm going to
+
+---------04:27----------
+trying to figure out what those sensors
+
+---------04:28----------
+have in common and the same thing is
+
+---------04:30----------
+true of your troubleshooting any type of
+
+---------04:32----------
+studio gear that is dual channel or
+
+---------04:35----------
+stereo if you get a compressor in to fix
+
+---------04:37----------
+and both channels have Distortion
+
+---------04:41----------
+you're not going to look at the left
+
+---------04:42----------
+channel circuitry and on the right
+
+---------04:43----------
+channel circuitry you're going to try to
+
+---------04:45----------
+figure out what they have in common are
+
+---------04:47----------
+they using some stereo feedback circuit
+
+---------04:50----------
+is the power supply that powers both
+
+---------04:52----------
+channels bad if it's a piece of
+
+---------04:54----------
+equipment that has one power supply for
+
+---------04:56----------
+two channels this is some of the stuff
+
+---------04:58----------
+to think about is what does it have in
+
+---------05:01----------
+common and here all those sensors have
+
+---------05:03----------
+in common this is chip and they're all
+
+---------05:06----------
+talking on the same data line so see
+
+---------05:09----------
+that SMC data line goes to it goes to
+
+---------05:15----------
+the CPU so CPU sensor it go it was
+
+---------05:19----------
+talking about camera something or s to
+
+---------05:21----------
+camera sensor it goes to the webcam it
+
+---------05:24----------
+goes to the SMC and it goes to these
+
+---------05:27----------
+other chips that are gonna read
+
+---------05:28----------
+information so let me just open the
+
+---------05:30----------
+board view software over here we're
+
+---------05:32----------
+gonna open up the board view software
+
+---------05:33----------
+alright so let's take a look over here
+
+---------05:35----------
+so we have C for component I'm gonna it
+
+---------05:37----------
+C for component now I'm gonna type wow
+
+---------05:39----------
+you see Oh shitty Windows 10 scaling is
+
+---------05:41----------
+can you believe this look up here
+
+---------05:44----------
+what the way I just had it you saw what
+
+---------05:45----------
+it did right you saw that I'm not losing
+
+---------05:47----------
+my mind so right up here everything was
+
+---------05:49----------
+virtually invisible but then when I
+
+---------05:51----------
+clicked it and dragged it over here
+
+---------05:52----------
+everything became a standard font size
+
+---------05:54----------
+but when I dragged it back up there it
+
+---------05:56----------
+doesn't turn it to being invisible again
+
+---------05:57----------
+I don't get it window like Microsoft has
+
+---------06:00----------
+no idea how to deal with scaling
+
+---------06:02----------
+or high-resolution displays it's it's
+
+---------06:04----------
+it's a real joke it's so dumb so you
+
+---------06:06----------
+5,800 u 5620 + j4 0 0 - so let's try to
+
+---------06:13----------
+get an idea here of what is going on and
+
+---------06:16----------
+let's see if we can get a hint from the
+
+---------06:17----------
+motherboard as to why this is not
+
+---------06:19----------
+working so J 4 0 0 2 is going to be the
+
+---------06:22----------
+webcam connector u 5800 is going to be
+
+---------06:30----------
+over here and u 56:24 chipset current is
+
+---------06:34----------
+going to be over here so now what I'm
+
+---------06:36----------
+gonna do is I'm gonna plug the
+
+---------06:37----------
+microscope camera and I'm just going to
+
+---------06:38----------
+pull the board out of the machine
+
+---------06:40----------
+so that I can get it just take a look at
+
+---------06:43----------
+it and try to inspect what's what's
+
+---------06:44----------
+going on now there are a lot of things
+
+---------06:46----------
+that I can do to try and figure out what
+
+---------06:49----------
+is pulling the data line down I mean I
+
+---------06:51----------
+can inject I could if the first I'd have
+
+---------06:53----------
+to see if the data line is being pulled
+
+---------06:54----------
+down by something I've done videos my
+
+---------06:57----------
+basic electronics video series on a data
+
+---------06:59----------
+line what is a data line and how do
+
+---------07:01----------
+pull-up resistors create them so if
+
+---------07:02----------
+you're not familiar with how these data
+
+---------07:04----------
+lines work what I if the word pull-up
+
+---------07:06----------
+resistor kind of confuses you I'd highly
+
+---------07:08----------
+suggest that you stop watching this
+
+---------07:10----------
+video that you pause it and in a new
+
+---------07:12----------
+window on your browser you look over my
+
+---------07:14----------
+basic a guide to basic electronics video
+
+---------07:16----------
+series that I've done and look up the
+
+---------07:18----------
+video I've done on a data line because
+
+---------07:19----------
+that's gonna be very helpful for you
+
+---------07:21----------
+here or else none of this is really
+
+---------07:23----------
+gonna make sense so I could do a lot of
+
+---------07:25----------
+things I could do to figure out what's
+
+---------07:26----------
+pulling down the data line but the first
+
+---------07:28----------
+thing that I'm really going to be
+
+---------07:29----------
+interested in is just taking a look
+
+---------07:31----------
+ahead and just using some common sense
+
+---------07:32----------
+to see if I can figure out what's going
+
+---------07:34----------
+on here so let's go ahead and do that so
+
+---------07:36----------
+I'm gonna switch over to the microscope
+
+---------07:37----------
+camera assuming that it lets me I hit f2
+
+---------07:40----------
+and beautiful so the first thing that
+
+---------07:42----------
+that talks to let's see so J 4 0 0 2
+
+---------07:46----------
+which is the webcam connector this is
+
+---------07:48----------
+the webcam connector and I think that
+
+---------07:50----------
+that webcam collector looks pristine I
+
+---------07:54----------
+don't see anything wrong with that
+
+---------07:55----------
+webcam connector I think it's great now
+
+---------07:57----------
+the next is going to be u 5800 which
+
+---------08:00----------
+takes information from the CPU
+
+---------08:02----------
+temperature sensor the beam on the
+
+---------08:05----------
+thermal Inlet and all the other crap and
+
+---------08:07----------
+let's just take a look at you 5,800 u
+
+---------08:12----------
+5800 is looking pretty good over there I
+
+---------08:14----------
+have no complaints about u 5800 so now
+
+---------08:16----------
+let's look at u 5620 which talks on that
+
+---------08:19----------
+same data line which is for chipset
+
+---------08:21----------
+current so u 5620 is going to be let's
+
+---------08:26----------
+see it's on that SMC data line and let's
+
+---------08:30----------
+see what that what that looks like and
+
+---------08:32----------
+that's oh oh well what do you know it
+
+---------08:36----------
+looks like complete now this may
+
+---------08:38----------
+work if I fix something you know if I
+
+---------08:40----------
+clean it and get rid of the corrosion I
+
+---------08:42----------
+have two ultrasonic this board anyway
+
+---------08:44----------
+and since I have a great selection of
+
+---------08:47----------
+boards here with that chipset on it that
+
+---------08:48----------
+don't look like complete garbage what
+
+---------08:51----------
+I'm going to do is I'm going to take
+
+---------08:52----------
+that chip off of a donor
+
+---------08:54----------
+and put it on this one and once that's
+
+---------08:57----------
+done let's see what happens with our
+
+---------08:59----------
+sensor issue let's see if we have to do
+
+---------09:01----------
+any further research or if we're good so
+
+---------09:03----------
+I'm just gonna go to the donor pile here
+
+---------09:06----------
+rip that stuff out I turn the GBC on I
+
+---------09:09----------
+turn my fume extractor on and let's go
+
+---------09:14----------
+for it yeah it's a pretty nasty looking
+
+---------09:16----------
+ right there isn't it that's what
+
+---------09:19----------
+water does it screws things up and as
+
+---------09:25----------
+usual this is just one of many many
+
+---------09:28----------
+machines where they're like I didn't
+
+---------09:30----------
+spill anything I didn't spill anything
+
+---------09:32----------
+what you mean I spat and spill anything
+
+---------09:35----------
+I didn't spill anything
+
+---------09:49----------
+okay take you off
+
+---------10:19----------
+let's restore that that over there this
+
+---------10:24----------
+slight gentle scraping so all the old
+
+---------10:27----------
+nasty corroded up solder gets sucked up
+
+---------10:30----------
+into my iron and get rid of that excess
+
+---------10:33----------
+over there there's still way too much in
+
+---------10:36----------
+the middle that's way too much
+
+---------10:37----------
+it's one of those things that I'm just
+
+---------10:39----------
+never gonna get right oh well
+
+---------11:14----------
+beautiful ship
+
+---------11:26----------
+way too much solder under it no I know
+
+---------11:29----------
+bad habits die hard
+
+---------11:39----------
+I know that looks like crap doesn't
+
+---------11:43----------
+absolute
+
+---------11:51----------
+okay we're all connected this thing over
+
+---------11:54----------
+here looks a little better now
+
+---------12:03----------
+you look like so you can get off my
+
+---------12:06----------
+motherboard
+
+---------12:12----------
+and we
+
+---------12:23----------
+some good ol common sense
+
+---------12:31----------
+whoops make this
+
+---------12:41----------
+now we get that capacitor from this
+
+---------12:43----------
+board right next to me
+
+---------13:13----------
+it's utter on that resistor bothers me
+
+---------13:15----------
+but at zero two zero one this iron is
+
+---------13:17----------
+probably not good enough to make it as
+
+---------13:20----------
+nice as I'd like
+
+---------13:24----------
+also other I did it that ends of this a
+
+---------13:29----------
+well
+
+---------13:35----------
+oh well I can live with it so let's see
+
+---------13:38----------
+what I get when I put this back inside
+
+---------13:40----------
+of a computer ja shall we what do you
+
+---------13:44----------
+think you think it'll still be pulling
+
+---------13:45----------
+my data line down or do you think I'll
+
+---------13:46----------
+be good to go
+
+---------13:47----------
+well one way to find out now I can run a
+
+---------13:51----------
+SD sure but honestly I can tell if it'll
+
+---------13:54----------
+be pulling the data line down because if
+
+---------13:56----------
+it if it stops doing that where the
+
+---------13:59----------
+fan is running really fast I don't know
+
+---------14:01----------
+that the sensor issue has been resolved
+
+---------14:06----------
+drives me nuts when people replace the
+
+---------14:08----------
+trackpad and don't bother making sure
+
+---------14:10----------
+that it's tight like without the you
+
+---------14:13----------
+know that on when you can like
+
+---------14:15----------
+click and then click again it's like
+
+---------14:16----------
+double click in one track pad with the
+
+---------14:18----------
+airs I hate that you're gonna
+
+---------14:21----------
+replace the track pad do it
+
+---------14:23----------
+right how do you not even notice that
+
+---------14:26----------
+when you're testing it that every time
+
+---------14:27----------
+you click a double clicks so say okay
+
+---------14:48----------
+this doing
+
+---------15:26----------
+okay I'm plugging in just the bare
+
+---------15:28----------
+minimum stuff that I need here just to
+
+---------15:30----------
+make sure that I actually fixed the
+
+---------15:31----------
+issue
+
+---------15:32----------
+I need the screen so that I can see
+
+---------15:34----------
+what's going on I need the trackpad and
+
+---------15:35----------
+keyboard because there is a sensor
+
+---------15:37----------
+inside the trackpad and keyboard inside
+
+---------15:39----------
+the trackpad I should say and without
+
+---------15:41----------
+that that palm rest temperature sensor
+
+---------15:43----------
+the fan will run non-stop and I also
+
+---------15:45----------
+won't be able to select tests I need the
+
+---------15:47----------
+screen so I can see things I need the
+
+---------15:48----------
+left
+
+---------15:49----------
+io board because that has the fin stack
+
+---------15:52----------
+sensor on it and with that I don't care
+
+---------15:56----------
+about Wi-Fi or webcam or any of that
+
+---------15:58----------
+ right now I'm just gonna turn it on
+
+---------16:01----------
+now you have to wait for RTC reset to
+
+---------16:04----------
+finish on on the air every time you
+
+---------16:06----------
+unplug the battery and the charger at
+
+---------16:09----------
+the same time the it's going to turn on
+
+---------16:12----------
+off on off on off if it's the 2013 14 or
+
+---------16:15----------
+15 editions do this okay we're gonna
+
+---------16:20----------
+plug in a SD and we're gonna run efi asd
+
+---------16:31----------
+the fan is STFU in that's nice good
+
+---------16:39----------
+little hair good little air come on I'm
+
+---------16:45----------
+tired I want to go home don't with
+
+---------16:50----------
+me
+
+---------16:51----------
+testing sensor
+
+---------16:57----------
+CPU proximity works what do you know
+
+---------17:01----------
+past now of course it's gonna have to
+
+---------17:05----------
+get ultrasonically clean because you
+
+---------17:06----------
+know if I know how many other chips
+
+---------17:08----------
+corrosion got under but that there's no
+
+---------17:11----------
+way in hell I'm gonna let this leave
+
+---------17:12----------
+just because it passed the decides to
+
+---------17:14----------
+get ultrasonically cleaned not so much
+
+---------17:15----------
+for the flux I would altra sonicate for
+
+---------17:18----------
+the flux but the main reason is I don't
+
+---------17:19----------
+know if there's liquid under the CPU I
+
+---------17:21----------
+don't know if there's liquid under the
+
+---------17:22----------
+SMC I don't know if there's liquid under
+
+---------17:24----------
+the RAM I can't see that with my eyes so
+
+---------17:26----------
+even if the board itself looks perfectly
+
+---------17:28----------
+clean I don't know if I actually did my
+
+---------17:30----------
+job so yeah that this is an example of
+
+---------17:33----------
+how to solve a sensor issue this is an
+
+---------17:35----------
+example of how to use the Apple service
+
+---------17:37----------
+diagnostic to solve a sensor issue now
+
+---------17:39----------
+again you would have to be you would
+
+---------17:42----------
+have to be blind to not find
+
+---------17:44----------
+this I used to work with somebody who
+
+---------17:46----------
+would say everything looked perfectly
+
+---------17:48----------
+clean and then you would like you would
+
+---------17:49----------
+open it and you would just see this big
+
+---------17:51----------
+green patch of like this beauty
+
+---------17:53----------
+patch of water damage and I would just
+
+---------17:55----------
+be thinking like it how did you miss
+
+---------17:58----------
+this otherwise like really great guy
+
+---------18:00----------
+really great you know really great tech
+
+---------18:02----------
+but for some reason he would always miss
+
+---------18:04----------
+these huge patches of green and say
+
+---------18:07----------
+that it was clean and we would get we
+
+---------18:08----------
+would give it giving stuff back to
+
+---------18:09----------
+people that was like failing and we'd
+
+---------18:11----------
+say bring it back in and there would be
+
+---------18:12----------
+this lovely little patch of water but
+
+---------18:17----------
+yeah obviously obviously you don't need
+
+---------18:20----------
+a schematic or a board view or even much
+
+---------18:23----------
+logic to figure out what's wrong with
+
+---------18:25----------
+this it was very obvious but sometimes
+
+---------18:27----------
+it won't be obvious sometimes but will
+
+---------18:29----------
+be a sensor as in the case with some of
+
+---------18:31----------
+the newer retinas I did a video recently
+
+---------18:33----------
+on humbling a retina board around August
+
+---------18:36----------
+or September or October of last year
+
+---------18:38----------
+about some sensor issue I couldn't see
+
+---------18:41----------
+the sensor with my eyes like I really I
+
+---------18:42----------
+couldn't ii actually see it like once it
+
+---------18:46----------
+was pointed out to me i could see it but
+
+---------18:47----------
+if you told me that look at this board
+
+---------18:50----------
+and tell me what's wrong with it I
+
+---------18:51----------
+genuinely would have not seen that
+
+---------18:53----------
+sensor without it being pointed out to
+
+---------18:54----------
+me I know it's there now that I see it
+
+---------18:56----------
+but before seeing it it's like what the
+
+---------18:57----------
+hell there are gonna be a lot of times
+
+---------18:59----------
+when you can't physically see the sensor
+
+---------19:02----------
+that's damaged and there are also going
+
+---------19:03----------
+to be lots of times where maybe it's
+
+---------19:06----------
+just damaged internally not externally
+
+---------19:08----------
+so you don't
+
+---------19:09----------
+where to look but this software is gonna
+
+---------19:11----------
+help you you know know where to look and
+
+---------19:14----------
+what sucks is that of course like with
+
+---------19:16----------
+everything in life Apple doesn't make it
+
+---------19:18----------
+available to independent repair shops oh
+
+---------19:20----------
+yeah don't ask me where to get this that
+
+---------19:23----------
+is your journey that is your journey
+
+---------19:24----------
+with Google and to figure out where this
+
+---------19:27----------
+stuff comes from but that's it for today
+
+---------19:29----------
+and as always I hope you learned
+
+---------19:31----------
+something
+

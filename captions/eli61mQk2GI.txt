@@ -1,0 +1,1876 @@
+https://www.youtube.com/watch?v=eli61mQk2GI
+---------00:00----------
+all right so we're going to work on this
+
+---------00:01----------
+MacBook Air motherboard that seems to
+
+---------00:04----------
+not be turning on and let me show you
+
+---------00:06----------
+how we're gonna fix this board today so
+
+---------00:08----------
+that we get fan spin alright so today
+
+---------00:14----------
+we're gonna get started on an 8 - 0 - 0
+
+---------00:17----------
+0 165 board this board goes into the
+
+---------00:21----------
+MacBook Air from 2015 to 2018 and let's
+
+---------00:25----------
+try and figure out what's wrong with
+
+---------00:26----------
+this MacBook right so let's plug in our
+
+---------00:29----------
+power adapter and see if we get so when
+
+---------00:32----------
+I plug in this power adapter they get a
+
+---------00:34----------
+green light on the charger which means
+
+---------00:37----------
+that our pp 3 V 4 2 must be present
+
+---------00:39----------
+because PP 3 V 4 to powers this chip
+
+---------00:41----------
+which is called the system management
+
+---------00:43----------
+controller which is going to communicate
+
+---------00:44----------
+with my charger and say what next what
+
+---------00:49----------
+we're gonna do is we're gonna measure
+
+---------00:50----------
+the other power rail because you can see
+
+---------00:52----------
+unlike this fan which is spinning this
+
+---------00:55----------
+fan is not so I'm gonna open up a
+
+---------00:58----------
+schematic for an 8 - 0 - 0 0 1 6 5 and
+
+---------01:02----------
+let's go through our power routes so
+
+---------01:04----------
+first thing we have to do is see if
+
+---------01:06----------
+we're all aboard our pp bus because the
+
+---------01:08----------
+first power rail on this that we're
+
+---------01:09----------
+gonna have to check since we already
+
+---------01:11----------
+have pp 3 before 2 is our pp bus this
+
+---------01:14----------
+can be seen over here on the power rails
+
+---------01:17----------
+page first rail up here pp bus and it
+
+---------01:21----------
+needs to be in G 3 hot which is eight
+
+---------01:24----------
+point six volts we can find people bus
+
+---------01:26----------
+g3 hot right over here on the PV bus g3
+
+---------01:28----------
+hot fuse F 7140 let's check what we
+
+---------01:31----------
+voltage we get on the PP bus views
+
+---------01:33----------
+they're gonna turn on Paul Daniels is
+
+---------01:35----------
+execrable multimeter software get it to
+
+---------01:38----------
+show up on the screen you're gonna get
+
+---------01:41----------
+to show up on the screen we're gonna get
+
+---------01:43----------
+it to put our black probe on ground get
+
+---------01:46----------
+a red probe right over here on the fuse
+
+---------01:48----------
+and we get eight volts wait no we don't
+
+---------01:51----------
+we get 0 volts we get zero point zeros
+
+---------01:54----------
+and on the other side of the fuse we get
+
+---------01:57----------
+eight point six volts my god
+
+---------02:02----------
+an Apple machine with a blown fuse
+
+---------02:06----------
+though what Camille that's why you
+
+---------02:08----------
+didn't see that's why you didn't get
+
+---------02:10----------
+this one you measured peepee bus g3 hot
+
+---------02:12----------
+on the fuse but you didn't check that it
+
+---------02:16----------
+was there on the other side of the fuse
+
+---------02:17----------
+because you assumes that it's a Macbook
+
+---------02:19----------
+in fuses don't blow on MacBooks all a
+
+---------02:22----------
+fuse blew on a Macbook yeah a fuse blew
+
+---------02:25----------
+on a Macbook yeah it's the only fuse
+
+---------02:29----------
+that actually blows okay well imagine
+
+---------02:35----------
+that yeah so this is the fuse between
+
+---------02:37----------
+the circuit that creates our pp bus g3
+
+---------02:39----------
+huh and the system that's gonna be
+
+---------02:41----------
+powered off of pipi bus g3 hot typically
+
+---------02:43----------
+a fuse is going to blow because of a
+
+---------02:44----------
+short-circuit so let's see if we got a
+
+---------02:45----------
+short-circuit either side that's not
+
+---------02:47----------
+getting any voltage February 15th 136
+
+---------02:50----------
+p.m. 2009 a fuse in an Apple product did
+
+---------02:54----------
+its job it seems that we have a zero
+
+---------02:58----------
+point 4 ohm short to ground on the other
+
+---------03:01----------
+side of the fuse now that is going to be
+
+---------03:03----------
+a short circuit to ground on our pp bus
+
+---------03:06----------
+let's see if we can find out what may be
+
+---------03:09----------
+shorting our pp bus typically I would
+
+---------03:11----------
+inject voltage into the board to find
+
+---------03:13----------
+this short but we may be able to find it
+
+---------03:15----------
+just by using our eyes and a really
+
+---------03:17----------
+expensive microscope that I affiliate
+
+---------03:19----------
+link on store Darusman group.com
+
+---------03:20----------
+orange list in the video description
+
+---------03:21----------
+down below don't delay buy em scope
+
+---------03:23----------
+today and that that are in video showing
+
+---------03:26----------
+is done and we are going to look through
+
+---------03:29----------
+the board with a microscope and see if
+
+---------03:31----------
+the microscope allows me to find out
+
+---------03:33----------
+what may be short circuited or if
+
+---------03:35----------
+anything looks funny so I'm gonna move
+
+---------03:36----------
+along this board and I want you all to
+
+---------03:40----------
+tell me when you see something that
+
+---------03:42----------
+looks funny if you do because I may miss
+
+---------03:44----------
+it
+
+---------03:49----------
+we're just all we're seeing here or a
+
+---------03:51----------
+couple of pubes nothing under the
+
+---------03:52----------
+ordinary on this Apple MacBook
+
+---------04:00----------
+hello little jtech
+
+---------04:04----------
+hmm
+
+---------04:06----------
+here we are what's this
+
+---------04:11----------
+what do we see here look at that that's
+
+---------04:14----------
+a little solder ball let's see what the
+
+---------04:16----------
+schematic says that that is oh look my
+
+---------04:21----------
+pp bus is shorter too says Jeff I hope
+
+---------04:23----------
+you get that looked at having a short PP
+
+---------04:25----------
+bus is gonna get you in trouble this is
+
+---------04:26----------
+a buck converter and it's using pp bus s
+
+---------04:29----------
+5 HS computer guy sets so if we follow
+
+---------04:32----------
+that back that goes to our 5450 and our
+
+---------04:35----------
+5450 is a current sensing resistor where
+
+---------04:38----------
+a PP bus g3 hot is going to become PP
+
+---------04:40----------
+bus has 5 a high side computing license
+
+---------04:42----------
+so that is technically PP bunch g3 hot
+
+---------04:45----------
+this is a cap along PP bus g3 hot over
+
+---------04:48----------
+here and it has this little solder ball
+
+---------04:50----------
+by it high-powered microscope that you
+
+---------04:54----------
+can check out at the affiliate link
+
+---------04:55----------
+below don't delay buy today and that
+
+---------04:57----------
+little solder ball could have come from
+
+---------04:59----------
+anything in this area see that I'm gonna
+
+---------05:05----------
+try our moving this camp and see if that
+
+---------05:06----------
+fixes my problem that would be really
+
+---------05:10----------
+cool if just removing the capacitor
+
+---------05:11----------
+fixes my problem
+
+---------05:52----------
+[Applause]
+
+---------05:55----------
+let's see if our short circuit is still
+
+---------05:57----------
+there
+
+---------06:02----------
+that wasn't
+
+---------06:06----------
+that was not the short perhaps it was
+
+---------06:09----------
+one of the kapap considers next to it
+
+---------06:10----------
+that was the short absolutely should
+
+---------06:15----------
+have just found the Fennell camera after
+
+---------06:16----------
+all
+
+---------06:53----------
+okay I was close so it wasn't the cap I
+
+---------06:56----------
+thought it was it was either the cap to
+
+---------06:57----------
+the left of it or the right of it since
+
+---------06:59----------
+the solder ball was sitting over here
+
+---------07:00----------
+there was an equal chance that it could
+
+---------07:03----------
+be this one or this one
+
+---------07:05----------
+so was this one so we're gonna have to
+
+---------07:09----------
+replace those caps and after we replace
+
+---------07:12----------
+those caps we're also going to have to
+
+---------07:14----------
+replace a fuse solder balls don't mean
+
+---------07:16----------
+anything they're a byproduct of the
+
+---------07:17----------
+solder paste man.you reflow
+
+---------07:19----------
+manufacturing process many times you
+
+---------07:20----------
+find solder balls next to perfectly fine
+
+---------07:22----------
+components as tubes and stuff says the
+
+---------07:24----------
+person that just watched me find a short
+
+---------07:26----------
+circuit in less than 10 minutes without
+
+---------07:28----------
+a thermal cam so my solder ball was over
+
+---------07:30----------
+here and my shorted capacitor was over
+
+---------07:33----------
+here and now it's not shorted after I
+
+---------07:36----------
+removed it at the total coincidence
+
+---------07:38----------
+right it's a total coincidence that the
+
+---------07:40----------
+only solder ball that you could see on
+
+---------07:41----------
+this board is right next to the
+
+---------07:44----------
+capacitor that had a short circuit to
+
+---------07:46----------
+ground charlie me lucky coincidence that
+
+---------07:50----------
+just so happens to happen couple of
+
+---------07:51----------
+times a day for the past few years
+
+---------07:54----------
+random alright so we're just gonna
+
+---------07:58----------
+replace that capacitor that just so
+
+---------08:00----------
+happened to coincidentally be right next
+
+---------08:01----------
+to the solder ball that totally had
+
+---------08:03----------
+nothing to do with the fact that it was
+
+---------08:04----------
+shorted to ground because sure two
+
+---------08:05----------
+components never shoot out solder balls
+
+---------08:08----------
+you know it is not true pancakes are
+
+---------08:10----------
+using hot tweezers to remove
+
+---------08:12----------
+ridiculously large capacitors is not
+
+---------08:14----------
+something I'd I think is efficient maybe
+
+---------08:17----------
+it's efficient to remove like a zero to
+
+---------08:18----------
+zero one but it's not efficient on this
+
+---------08:20----------
+I'm just gonna wick the pads Jesse Jones
+
+---------08:22----------
+are you watching you watching me wick
+
+---------08:24----------
+you're watching that yeah look at that
+
+---------08:26----------
+wick look at that good wick and wick
+
+---------08:29----------
+those pads wick those pads Paul do you
+
+---------08:32----------
+with your pets what about when you're
+
+---------08:35----------
+working on an iPhone iPhone audio I see
+
+---------08:38----------
+iPhone p.m. I see because Paul likes be
+
+---------08:40----------
+balling Mans and CPUs all day
+
+---------08:48----------
+well sure everybody your shirt to
+
+---------08:53----------
+everybody the shirt that you're brave
+
+---------08:54----------
+enough to walk around with in New York
+
+---------08:55----------
+City in 2019 climate you realize that if
+
+---------09:01----------
+you were to do customer service in this
+
+---------09:03----------
+shirt you would get me pitchforks right
+
+---------09:08----------
+without the lab coat if you go up to the
+
+---------09:11----------
+help of customer you will get pitch for
+
+---------09:12----------
+it just saying and I'm proud to not have
+
+---------09:16----------
+an angry mob outside of my store which
+
+---------09:18----------
+is not going to happen now okay you can
+
+---------09:25----------
+wear your NRA shirt in exchange how
+
+---------09:30----------
+about this let's make a deal you can do
+
+---------09:32----------
+customer service in your NRA sure you
+
+---------09:35----------
+are replacing this now I think this is a
+
+---------09:37----------
+fair [ __ ] deal you want there to be a
+
+---------09:39----------
+picket line in front of the store you
+
+---------09:41----------
+want you want this place to become a
+
+---------09:42----------
+Twitter hashtag for hate speech then
+
+---------09:44----------
+you're gonna replace cpu's no no what
+
+---------09:49----------
+are you stop that what are you a [ __ ]
+
+---------09:51----------
+camel why are you eating the cpu stop
+
+---------09:56----------
+that it is lead-free continue I think
+
+---------10:01----------
+Paul is passive aggressively protesting
+
+---------10:02----------
+his cue and the randomness of it by
+
+---------10:04----------
+trying to get me pro picket line
+
+---------10:09----------
+I do a video on a bunch of random board
+
+---------10:15----------
+repairs that you don't believe a random
+
+---------10:17----------
+even though they were the next day you
+
+---------10:19----------
+show up with a shirt that is going to
+
+---------10:21----------
+get me you want me to get hit in the
+
+---------10:25----------
+back ahead with a bike lock don't check
+
+---------10:27----------
+you might have a gun I don't all I have
+
+---------10:32----------
+is a buffet thoughts on Allstate
+
+---------10:33----------
+entering the iPhone repair business they
+
+---------10:36----------
+did it by buying I cracked I think
+
+---------10:38----------
+that's kind of lame I never really liked
+
+---------10:39----------
+I cracked I cracked seemed like one of
+
+---------10:41----------
+those it's it was one of those companies
+
+---------10:43----------
+where you know that let's just keep
+
+---------10:45----------
+getting investment rather than making
+
+---------10:47----------
+profits I remember there was this one
+
+---------10:49----------
+time they were bragging I Tex made this
+
+---------10:51----------
+much money this year and they were
+
+---------10:53----------
+talking about how great it is to become
+
+---------10:54----------
+an eye tech if you work for I crack this
+
+---------10:56----------
+is a great idea
+
+---------10:57----------
+so what I did is I decided all right how
+
+---------11:00----------
+many eye techs are there how much money
+
+---------11:02----------
+did you brag about and I have a video on
+
+---------11:03----------
+this one a long time ago and the dollar
+
+---------11:05----------
+amount came out to $6,000 a year that I
+
+---------11:09----------
+Tex made we're not even talking about
+
+---------11:10----------
+net profit we're talking like gross so
+
+---------11:13----------
+it's something like six thousand dollars
+
+---------11:14----------
+a year and they were bragging about
+
+---------11:17----------
+their revenue and this is one of the
+
+---------11:18----------
+things that drives me nuts with all
+
+---------11:19----------
+these startups that get started from
+
+---------11:20----------
+venture capital that don't focus on
+
+---------11:22----------
+profit that come out with these PRS
+
+---------11:23----------
+about all the amazing [ __ ] that they're
+
+---------11:25----------
+doing making you know it's saying that
+
+---------11:28----------
+the people that work for your company
+
+---------11:30----------
+make $6,000 a year does not impress me
+
+---------11:32----------
+this doesn't and it says something to me
+
+---------11:34----------
+when the head of a company is ok with
+
+---------11:37----------
+releasing a press release bragging about
+
+---------11:39----------
+the fact that when you divide the amount
+
+---------11:41----------
+of people working for the company by the
+
+---------11:43----------
+amount that they made that it comes out
+
+---------11:44----------
+to $6,000 a year I also hold beef with
+
+---------11:46----------
+them because in 2012 for two months I
+
+---------11:49----------
+was unable to get screens from Jack
+
+---------11:50----------
+Telecom because I cracked places
+
+---------11:52----------
+stupidly large order I don't know it
+
+---------11:53----------
+just seems like one of those business
+
+---------11:54----------
+models where I'm gonna design an app
+
+---------11:55----------
+then I'm going to force the vet people
+
+---------11:58----------
+to buy parts through me then I'm going
+
+---------12:00----------
+to become a multimillionaire off of
+
+---------12:02----------
+venture capital investments and then
+
+---------12:04----------
+before the business goes bust I'm gonna
+
+---------12:06----------
+convince some jackass to buy it for 10
+
+---------12:07----------
+times what it's actually worth I'm just
+
+---------12:10----------
+not I'm not impressed by those companies
+
+---------12:11----------
+I'm really not well maybe I'm just
+
+---------12:14----------
+jealous because the guy who started the
+
+---------12:16----------
+company is a multimillionaire
+
+---------12:17----------
+whereas I have a cat that can't even
+
+---------12:20----------
+clean its own [ __ ] maybe it's this
+
+---------12:21----------
+may be said
+
+---------12:23----------
+yeah keep in mind maybe I'm just the
+
+---------12:25----------
+salty [ __ ] I guess it's maybe I'm
+
+---------12:29----------
+just a bitter [ __ ]
+
+---------12:30----------
+maybe I'm just being a bitter [ __ ]
+
+---------12:32----------
+dissolve I don't know oh well see seven
+
+---------12:36----------
+seven seven beautiful the other thing
+
+---------12:38----------
+that kills me with the eye cracks is and
+
+---------12:39----------
+what drives me nuts with all of these
+
+---------12:40----------
+business models in general you're gonna
+
+---------12:43----------
+buy your own tools you're doing a lot of
+
+---------12:45----------
+your own advertising you know whether or
+
+---------12:48----------
+not you get good reviews in your locale
+
+---------12:50----------
+is dependent on the you know your work
+
+---------12:53----------
+alone so you're doing a lot of the work
+
+---------12:56----------
+that you would be doing if you were
+
+---------12:57----------
+starting a small business but the
+
+---------12:59----------
+problem is that you're not starting a
+
+---------13:01----------
+small business you're starting and I
+
+---------13:03----------
+cracked so my thing it would be why
+
+---------13:05----------
+instead of becoming an I cracked why
+
+---------13:08----------
+don't you just become a TC RS circuit or
+
+---------13:11----------
+appalled TLD or iPad rehab or a Rossman
+
+---------13:14----------
+group why do you want to attach all of
+
+---------13:16----------
+your work and your hustle to somebody
+
+---------13:17----------
+else's company when you're doing all the
+
+---------13:19----------
+all the work of business development of
+
+---------13:21----------
+a client act with a lot of the work of
+
+---------13:23----------
+client acquisition and all that [ __ ]
+
+---------13:24----------
+because I could understand that they
+
+---------13:26----------
+said if you work for I cracked you get
+
+---------13:28----------
+30,000 or 60,000 or 90,000 even if it
+
+---------13:31----------
+was like [ __ ] $20,000 a year they
+
+---------13:34----------
+would be saying you get a minimum of
+
+---------13:37----------
+this much money you are an employee and
+
+---------13:39----------
+you are working for I cracked building
+
+---------13:41----------
+our brand but you're not you are a
+
+---------13:43----------
+contractor and you are building somebody
+
+---------13:45----------
+else's brand you're getting and here at
+
+---------13:49----------
+you're a contractor but you're not
+
+---------13:52----------
+getting paid that's stupidly high rate
+
+---------13:53----------
+that you would expect to get paid as a
+
+---------13:54----------
+contractor with who's building somebody
+
+---------13:56----------
+else's business it's like you're getting
+
+---------13:58----------
+paid like an employee but you're taking
+
+---------14:00----------
+the risks of a business owner it doesn't
+
+---------14:02----------
+make sense to me if you're going if
+
+---------14:04----------
+you're going to buy your own tools
+
+---------14:06----------
+buy your own parts plus you're gonna buy
+
+---------14:09----------
+your own tools buy your own parts
+
+---------14:11----------
+promote your own business build your own
+
+---------14:13----------
+[ __ ] reputation do that as you don't
+
+---------14:17----------
+do that to build somebody else's brand
+
+---------14:18----------
+again if you're building somebody else's
+
+---------14:20----------
+brand but you're being compensated that
+
+---------14:22----------
+40,000 at 50,000 at 60,000 or 70,000
+
+---------14:25----------
+year 80,000 whatever I can understand it
+
+---------14:28----------
+but the idea that your salary is going
+
+---------14:30----------
+to be entirely dependent for the most
+
+---------14:32----------
+part on your hustle and maybe our app
+
+---------14:34----------
+will send you a couple of people
+
+---------14:36----------
+screw that and what if you have
+
+---------14:38----------
+competing I of competing ITEX in one
+
+---------14:40----------
+area this is another part if you have
+
+---------14:42----------
+multiple ITEX in a certain area then the
+
+---------14:44----------
+app maybe your client acquisition
+
+---------14:46----------
+process which is the most valuable part
+
+---------14:48----------
+of any business which is the part that
+
+---------14:50----------
+you're putting in all the work for that
+
+---------14:51----------
+app after you'd put four years of
+
+---------14:54----------
+working somebody else becomes an AI tech
+
+---------14:56----------
+in your area in that app sending them to
+
+---------14:57----------
+somebody else like no control your
+
+---------14:59----------
+client acquisition process so it just
+
+---------15:03----------
+kind of follows this startup meant it
+
+---------15:04----------
+seems to follow the startup mentality
+
+---------15:06----------
+that I'm not the biggest fan of which is
+
+---------15:08----------
+that we it's like with uber we are going
+
+---------15:12----------
+to expect what we would get out of an
+
+---------15:15----------
+employee but oh yeah you're buying your
+
+---------15:17----------
+own car and oh yeah you're not you know
+
+---------15:19----------
+you're not getting these types of
+
+---------15:21----------
+benefits and oh yeah you're not getting
+
+---------15:22----------
+a minimum guaranteed salary but we
+
+---------15:24----------
+expect you to be available all the time
+
+---------15:25----------
+it's like this end run around being an
+
+---------15:27----------
+employer that so many Silicon Valley
+
+---------15:29----------
+companies seem to be excited about we
+
+---------15:31----------
+don't want the workman's comp and all
+
+---------15:33----------
+the other crap that you have to deal
+
+---------15:34----------
+with as an employer we don't want to
+
+---------15:35----------
+deal with the fact that you're going to
+
+---------15:37----------
+want a minimum guaranteed salary
+
+---------15:39----------
+regardless of whether we're able to
+
+---------15:41----------
+generate enough business for you we
+
+---------15:42----------
+don't want to deal with that well one of
+
+---------15:43----------
+the benefits of having you as contractor
+
+---------15:45----------
+it's like no
+
+---------15:50----------
+if yeah I would suggest that anybody
+
+---------15:53----------
+who's looking at starting that stuff up
+
+---------15:54----------
+cuz that's the thing you're paying you
+
+---------15:56----------
+know you you're paying to be a part of
+
+---------15:57----------
+let's say the I crack brand you know you
+
+---------16:00----------
+have to pay for a start-up kid and all
+
+---------16:01----------
+this stuff and if if we're talking about
+
+---------16:04----------
+you know if we're talking about a lot of
+
+---------16:06----------
+other businesses maybe that makes sense
+
+---------16:08----------
+but one of the great parts about this
+
+---------16:09----------
+business is that there's a very low cost
+
+---------16:11----------
+a barrier to entry and so what you know
+
+---------16:15----------
+unless you're being paid a good amount
+
+---------16:17----------
+of money and at the end is a minimum
+
+---------16:19----------
+guaranteed money and somebody else has
+
+---------16:21----------
+already done all the work of client
+
+---------16:22----------
+acquisition and building up the
+
+---------16:23----------
+reputation for you why not do that work
+
+---------16:26----------
+to build your own brand that won't
+
+---------16:27----------
+simply go away if another company
+
+---------16:29----------
+decides you know they they're out of
+
+---------16:31----------
+business so they got bought by somebody
+
+---------16:32----------
+or the app is gonna refer people to
+
+---------16:34----------
+somebody else that's my thought on it I
+
+---------16:37----------
+would like to see and it's not about
+
+---------16:39----------
+being against large businesses I have
+
+---------16:41----------
+nothing against some multi-billion
+
+---------16:43----------
+dollar company entering the fray not
+
+---------16:45----------
+that I cracked is a multi-billion dollar
+
+---------16:47----------
+company I have I have no problem with
+
+---------16:49----------
+them entering the fray if they are
+
+---------16:51----------
+hiring people in treating them like
+
+---------16:53----------
+hired people but this whole thing where
+
+---------16:56----------
+you're kind of a contractor but you're
+
+---------16:57----------
+kind of an employee but we're gonna
+
+---------16:58----------
+treat you like I don't like that [ __ ] at
+
+---------17:01----------
+all I also question the profitability of
+
+---------17:04----------
+the model and how sustainable it would
+
+---------17:05----------
+be without consistent venture capital
+
+---------17:07----------
+because you know in the beginning I
+
+---------17:09----------
+would see all this just talk about this
+
+---------17:12----------
+company got this much in funding and
+
+---------17:14----------
+then they got this much in funding again
+
+---------17:15----------
+and then they got this much in funding
+
+---------17:17----------
+again then ok cool you know you got but
+
+---------17:19----------
+that's not what I care about I want to
+
+---------17:22----------
+see these companies talking about net
+
+---------17:23----------
+profit not gross revenue not how much
+
+---------17:27----------
+money were able to borrow what did you
+
+---------17:30----------
+actually create because if you don't
+
+---------17:31----------
+have a net profit you didn't actually
+
+---------17:33----------
+create anything you took you were a net
+
+---------17:35----------
+drain I think if you don't have a net
+
+---------17:37----------
+profit you've been a drain and there's a
+
+---------17:39----------
+lot of companies nowadays that are
+
+---------17:40----------
+following that model of like bragging
+
+---------17:42----------
+about the wrong thing it's like we got
+
+---------17:44----------
+this much investment or we made this
+
+---------17:46----------
+much in gross
+
+---------17:47----------
+about that welcome I'm never gonna
+
+---------17:49----------
+forget that I'm never gonna forget that
+
+---------17:51----------
+we did X in sales and all it took was
+
+---------17:53----------
+googling the amount of people who were
+
+---------17:55----------
+technicians and then and then dividing
+
+---------17:58----------
+the amount of money that the company
+
+---------18:00----------
+made in sales by the amount of
+
+---------18:02----------
+technicians they had for me to come up
+
+---------18:04----------
+with the figure that they were actually
+
+---------18:06----------
+bragging that when you average it out
+
+---------18:08----------
+6,000 bucks of you [ __ ] I'd almost
+
+---------18:13----------
+rather work at sisa
+
+---------18:55----------
+as I see some people have multiple irons
+
+---------18:57----------
+not just regular in micro is using two
+
+---------19:00----------
+irons good for removing or maybe
+
+---------19:02----------
+soldering components any good I have
+
+---------19:05----------
+never had more than two irons
+
+---------19:35----------
+I'm replacing a fuse
+
+---------19:47----------
+diet fused I
+
+---------19:56----------
+then
+
+---------19:59----------
+hmmm I think so
+
+---------20:08----------
+this is a donor board that has led the
+
+---------20:10----------
+fuse on it oh thanks for the free
+
+---------20:18----------
+education great content and also
+
+---------20:19----------
+beginner's guide hope this affords you a
+
+---------20:21----------
+fofo what's a foe foe this is a donor
+
+---------20:25----------
+board but what do you think the chances
+
+---------20:26----------
+are that that feels is good it works it
+
+---------20:28----------
+works I [ __ ] blew wait wait wait wait
+
+---------20:35----------
+look at the meter
+
+---------20:36----------
+wait the screen is not giving me the
+
+---------20:38----------
+meter Paul Daniels what [ __ ] is up with
+
+---------20:39----------
+your software man let's observe worse
+
+---------20:41----------
+look at this so when I measure the few
+
+---------20:43----------
+could get this thing in a view I'm gonna
+
+---------20:47----------
+expose to the world what Paul Daniels a
+
+---------20:48----------
+software is really like look at this it
+
+---------20:52----------
+says point three on the meter in open
+
+---------20:55----------
+line on the screen
+
+---------21:02----------
+Paul Paul would it kill you to make
+
+---------21:07----------
+software that works for a change right
+
+---------21:09----------
+so all the good money that we pay for
+
+---------21:10----------
+this this is on another board show you
+
+---------21:13----------
+this so Paul is this a good fuse or a
+
+---------21:15----------
+bad fuse look at the board look at it
+
+---------21:23----------
+look at it I should put this fuse on
+
+---------21:31----------
+there yeah this is this is a Macbook
+
+---------21:33----------
+yeah look this is the standard Mac but
+
+---------21:36----------
+this is a standard pp bus g3 Hut this is
+
+---------21:38----------
+a standard quality Apple fuse right here
+
+---------21:40----------
+this is what I come to expect from Apple
+
+---------21:42----------
+look at that that beautiful continuity
+
+---------21:45----------
+that's a fuse what if my other fuse was
+
+---------21:50----------
+good that Paul Daniels has [ __ ] software
+
+---------21:51----------
+I said it wasn't because I was looking
+
+---------21:53----------
+at the screen instead of the meter and I
+
+---------21:54----------
+just replaced it for nothing because I
+
+---------21:56----------
+had no I have I've been reading the that
+
+---------21:58----------
+I've been reading yeah I've been reading
+
+---------22:01----------
+though the readings off of the screen
+
+---------22:02----------
+instead of reading them off of the
+
+---------22:03----------
+multimeter this whole time because I
+
+---------22:05----------
+trusted Paul Daniels what if he's doing
+
+---------22:07----------
+this what if he's like sitting at home
+
+---------22:08----------
+and manipulating the results of the
+
+---------22:09----------
+software Paul I demand the source code
+
+---------22:13----------
+to this he could be actually watching
+
+---------22:14----------
+the stream of manipulating this [ __ ] to
+
+---------22:16----------
+make he look he thinks he's missing p.m.
+
+---------22:18----------
+sleep s4l but it's actually pulsing you
+
+---------22:21----------
+can totally be doing
+
+---------22:22----------
+because to be streaming I have to be
+
+---------22:24----------
+online and if I'm online then he can
+
+---------22:27----------
+yeah what if it's like some sort of
+
+---------22:29----------
+TeamViewer thing into the software don't
+
+---------22:31----------
+trust Paul Daniel
+
+---------22:32----------
+someone checked Paul Daniels is github
+
+---------22:34----------
+and see how much of that crap is
+
+---------22:35----------
+actually spyware
+
+---------22:43----------
+can you imagine what zxw tool is doing
+
+---------22:56----------
+[Applause]
+
+---------23:30----------
+always wary of chips that have green
+
+---------23:33----------
+next to them and this wet stuff on the
+
+---------23:35----------
+top I'm gonna just replace the clock
+
+---------23:38----------
+chip before finishing this board off
+
+---------23:43----------
+it's gonna add a little bit of flux over
+
+---------23:46----------
+there tiny bit small them out
+
+---------24:07----------
+we've got to turn this spyware into a
+
+---------24:09----------
+double agent and use it to spy on Paul
+
+---------24:11----------
+Daniels get all the his secrets
+
+---------24:26----------
+then I get ourselves a new clock shape
+
+---------24:28----------
+by the way if you need a new clock ship
+
+---------24:29----------
+you can find these in store dot Roscoe
+
+---------24:31----------
+group.com
+
+---------24:37----------
+that's not saying much
+
+---------24:39----------
+it's special so here you know that's
+
+---------24:42----------
+adorable
+
+---------24:47----------
+that's adorable tricycle she'll be ready
+
+---------24:52----------
+for a buffet in no time yeah yeah she's
+
+---------25:10----------
+getting the idea she wanted to stab
+
+---------25:18----------
+someone and she wanted to peddle herself
+
+---------25:22----------
+that's so awesome wow that was the first
+
+---------25:26----------
+time yeah yeah how old is she
+
+---------25:32----------
+wow she's 2 already dance yeah next year
+
+---------25:38----------
+she'll be fixing boards better than Alex
+
+---------25:43----------
+definitely rides a bike better than
+
+---------25:45----------
+Kevin all right I got myself a clock
+
+---------25:51----------
+chip do you repair Mad Catz controllers
+
+---------25:53----------
+for the Sega 32x absolutely send it to
+
+---------25:56----------
+186 First Avenue
+
+---------25:58----------
+Rossmann repair Group attention Paul New
+
+---------26:01----------
+York New York one zero zero zero nine
+
+---------26:02----------
+Paul s is it will happily fix your bad
+
+---------26:05----------
+cat's Sega controller look he has a
+
+---------26:08----------
+remote right in his hand right now and
+
+---------26:10----------
+the only reason that that remote works
+
+---------26:11----------
+is because it was fixed by Paul s I can
+
+---------26:16----------
+tell them apart because they clearly
+
+---------26:17----------
+look different they have a different
+
+---------26:18----------
+facial structure BlackBerry's eyes
+
+---------26:21----------
+always look like she's a little high and
+
+---------26:22----------
+what if you say her name it's like she
+
+---------26:25----------
+always has those eyes that kind of make
+
+---------26:26----------
+her look like she's a little and they
+
+---------26:28----------
+have different faces mr. Clinton
+
+---------26:29----------
+typically as his fangs out whereas
+
+---------26:31----------
+blackberry keeps them in blackberry
+
+---------26:33----------
+wraps her tail around her paws mr.
+
+---------26:35----------
+Clinton dozen because BlackBerry's a
+
+---------26:36----------
+lady and mr. Clinton
+
+---------26:37----------
+not mr. Clinton is 24 pounds in
+
+---------26:40----------
+Blackberry is 9 pounds listen so that
+
+---------26:43----------
+there is a difference there they're
+
+---------26:46----------
+totally different cats they look
+
+---------26:48----------
+entirely different there's no
+
+---------26:49----------
+resemblance between blackberry and
+
+---------26:50----------
+Clinton yes oh but definitely send us
+
+---------26:52----------
+the Mad Catz controller for the Sega 32x
+
+---------26:54----------
+hi I already put the address in the in
+
+---------26:56----------
+the chat we're gonna send it to oh that
+
+---------26:58----------
+has a baby can we meet the baby
+
+---------26:59----------
+sometimes yes she does she has an
+
+---------27:01----------
+adorable kid her name is Sophia
+
+---------27:09----------
+Oh be the best she's the one that I
+
+---------27:11----------
+trust to reassemble everything she'll
+
+---------27:15----------
+figure out if I screwed something up she
+
+---------27:18----------
+does an excellent job of testing
+
+---------27:19----------
+everything she cleans the machines but
+
+---------27:21----------
+before giving it back to the customer if
+
+---------27:23----------
+a machine smells funny she'll clean it
+
+---------27:25----------
+and get rid of the smell it's like I
+
+---------27:27----------
+don't and the beautiful thing about
+
+---------27:29----------
+although I don't ask her to do any of
+
+---------27:30----------
+this I never asked her she just started
+
+---------27:32----------
+doing it automatically because she
+
+---------27:34----------
+figured that she'd do it because that
+
+---------27:35----------
+would be a good job cuz that would been
+
+---------27:38----------
+doing a good job I'm a lucky dude I got
+
+---------27:43----------
+top-tier quality people working for me
+
+---------27:45----------
+whether it's Olga for the machinery
+
+---------27:46----------
+assembly or it's Paul for the Sega Mad
+
+---------27:48----------
+Catz 32x remote control repair we got
+
+---------27:51----------
+the best all right so we're gonna see if
+
+---------27:52----------
+this MacBook works and turns on again as
+
+---------27:58----------
+you can see we have fan spin and fan
+
+---------28:01----------
+spin means that we are done that is a
+
+---------28:03----------
+perfectly working MacBook and if you
+
+---------28:04----------
+want to learn more if you check us out
+
+---------28:06----------
+all the other videos we have them
+
+---------28:07----------
+categorized and classified on boards
+
+---------28:09----------
+Darusman group comics boards dr.osman
+
+---------28:11----------
+group comm where you can find every
+
+---------28:13----------
+single one of our videos classified by
+
+---------28:14----------
+both problem type and board model number
+
+---------28:16----------
+you can see them in higher quality
+
+---------28:17----------
+because Vimeo has higher bit rates and
+
+---------28:20----------
+above all it's a website that will be
+
+---------28:21----------
+available even if YouTube decides to do
+
+---------28:23----------
+something stupid and randomly remove my
+
+---------28:25----------
+channel thanks for watching and as
+
+---------28:26----------
+always I hope you learned something
+
+---------28:29----------
+awesome figure my gonna help you yeah I
+
+---------28:32----------
+wanted to call let you know that I am
+
+---------28:35----------
+incredibly independently
+
+---------28:39----------
+aggravated that I just got my computer
+
+---------28:42----------
+back with a label on it that was near
+
+---------28:46----------
+impossible to remove so I'm not sure how
+
+---------28:50----------
+that became a practice there because
+
+---------28:53----------
+I've sent my computer to you numerous
+
+---------28:56----------
+times before and it's never come back
+
+---------28:58----------
+with a sticker on it that it took me 25
+
+---------29:01----------
+minutes and goog on to remove but I
+
+---------29:04----------
+wanted to let you know that's a
+
+---------29:06----------
+disgusting practice that's completely
+
+---------29:09----------
+disrespect for your customers thank you
+
+---------29:12----------
+so much have a great day
+
+---------29:14----------
+sure okay if you want to talk about it I
+
+---------29:17----------
+can talk
+
+---------29:18----------
+[Music]
+

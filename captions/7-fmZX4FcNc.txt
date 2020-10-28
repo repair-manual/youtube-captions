@@ -1,0 +1,2560 @@
+https://www.youtube.com/watch?v=7-fmZX4FcNc
+---------00:00----------
+the stream is brought to you by Paul
+
+---------00:01----------
+Daniels is buggy software if you want to
+
+---------00:03----------
+feel just the way Superman felt when Dan
+
+---------00:05----------
+Turpin got killed by Darkseid you can
+
+---------00:07----------
+check out PL Daniel's comm slash flex
+
+---------00:09----------
+board view so we have a Macbook that we
+
+---------00:12----------
+could so here we have a MacBook
+
+---------00:14----------
+that's not turning on and a technician
+
+---------00:16----------
+that's boot looping let's see if we can
+
+---------00:19----------
+fix this MacBook and get Lewis to stop
+
+---------00:20----------
+boot looping and open this MacBook up
+
+---------00:22----------
+alright so what are the first things
+
+---------00:23----------
+that my eyes are drawn to here so the
+
+---------00:25----------
+first things that my eyes are drawn to
+
+---------00:27----------
+are this area over here it looks like
+
+---------00:30----------
+there was paper over a sticker or
+
+---------00:31----------
+something that's been removed it makes
+
+---------00:34----------
+me wonder if somebody's touched this
+
+---------00:35----------
+area and it looks like they have because
+
+---------00:37----------
+this comes off a little too easily so
+
+---------00:39----------
+this has been open before and the first
+
+---------00:42----------
+thing I'm gonna really be interested in
+
+---------00:44----------
+doing is unplugging the battery so that
+
+---------00:46----------
+I can tell how much amperage the board
+
+---------00:47----------
+takes so one of the ways that I
+
+---------00:49----------
+troubleshoot these boards is by fixing
+
+---------00:52----------
+it then writing down what the problem
+
+---------00:54----------
+was that I had and then writing down the
+
+---------00:56----------
+amperage that the board was taking when
+
+---------00:58----------
+it had that when I first started working
+
+---------00:59----------
+on it so this way I have a nice little
+
+---------01:01----------
+table so that when it's taking 50
+
+---------01:03----------
+milliamps it cuz probably one of these
+
+---------01:04----------
+problems when is taking 100 milliamps
+
+---------01:06----------
+that's probably one of these problems
+
+---------01:07----------
+and so on and so forth the problem is
+
+---------01:09----------
+that the battery the base depending on
+
+---------01:12----------
+how charged the battery is it's going to
+
+---------01:13----------
+draw a different amount of amperage from
+
+---------01:14----------
+the board charging circuit and that's
+
+---------01:16----------
+gonna mess up my readings so in order to
+
+---------01:18----------
+remove that from the mix I'm gonna
+
+---------01:19----------
+unplug the battery before I plug the
+
+---------01:21----------
+charger in that's very important so that
+
+---------01:23----------
+I get a reading of just what the board
+
+---------01:25----------
+is taking on its own without the
+
+---------01:28----------
+external variable of the battery which
+
+---------01:31----------
+could be a different amount of charge
+
+---------01:32----------
+from computer to computer so it looks
+
+---------01:34----------
+like this is at 5.20 2 volts zero point
+
+---------01:38----------
+zero zero amps and I don't know if it
+
+---------01:41----------
+just went to 19 right before it died or
+
+---------01:43----------
+not let me just watch that a little
+
+---------01:44----------
+closer yeah so it doesn't look like it
+
+---------01:49----------
+changes up to 20 volts before it dies it
+
+---------01:52----------
+just just immediately dies so I'm gonna
+
+---------01:56----------
+take the board out and try and figure
+
+---------01:57----------
+out why it is it's only going to 5 volts
+
+---------02:01----------
+and not 20 so let's get the board out of
+
+---------02:03----------
+the case before we can take a look at
+
+---------02:05----------
+this under the microscope we're going to
+
+---------02:06----------
+see if P P 3 P 3 under square G three
+
+---------02:09----------
+hottest present P P 3 B 3 underscore G 3
+
+---------02:11----------
+hot is going to be pow
+
+---------02:13----------
+these four chips that are going to be
+
+---------02:15----------
+speaking directly to the charger so
+
+---------02:16----------
+let's take a look at this so you 3100 as
+
+---------02:18----------
+a CD 32 15 this CD 32 15 is a USBC MUX
+
+---------02:23----------
+it's very similar to the CD 32 11 that
+
+---------02:26----------
+gets used on the 2013 and 14 MacBook
+
+---------02:28----------
+Airs as a thunderbolt bucks because
+
+---------02:31----------
+Thunderbolt is similar to USB see in
+
+---------02:32----------
+that regard and these chips are going to
+
+---------02:35----------
+have a direct line of communication with
+
+---------02:36----------
+the charger itself now remember USB see
+
+---------02:40----------
+chargers can put out different voltages
+
+---------02:41----------
+you can put out five volts nine volts
+
+---------02:43----------
+and it can put out 20 volts so that it
+
+---------02:47----------
+needs to have a negotiation with the
+
+---------02:50----------
+charger in order to say hi I am a
+
+---------02:52----------
+MacBook
+
+---------02:53----------
+I don't want five volts I'm a MacBook
+
+---------02:55----------
+MacBook I want full power now the chip
+
+---------02:57----------
+has to turn on in order to make that
+
+---------02:59----------
+happen
+
+---------02:59----------
+so in order for the chip to turn on and
+
+---------03:01----------
+needs to get its power rail so the same
+
+---------03:03----------
+way that my microscope camera is not
+
+---------03:06----------
+going to turn on if it doesn't have its
+
+---------03:08----------
+VCC or voltage into it as my CD 3215 USB
+
+---------03:13----------
+C much chip is not going to turn on if
+
+---------03:14----------
+it doesn't have voltage going into it
+
+---------03:16----------
+that it needs to turn on so up here
+
+---------03:18----------
+you'll see that typically on most
+
+---------03:20----------
+MacBook schematics that the power rails
+
+---------03:23----------
+that are going into a chip to turn it on
+
+---------03:25----------
+the power that's needed for it to work
+
+---------03:27----------
+is going to be on the top and up here we
+
+---------03:29----------
+have V in which I'm going to imagine
+
+---------03:30----------
+stands for voltage in 3.3 volts and that
+
+---------03:33----------
+is going to pp 3 V 3 underscore g3 hot
+
+---------03:37----------
+that rail needs to be present in order
+
+---------03:39----------
+for these chips to turn on if it's not
+
+---------03:40----------
+present the chip will not turn on and it
+
+---------03:42----------
+will not work so let's see if we have PP
+
+---------03:44----------
+3 B 3 underscore g3 hot we're gonna turn
+
+---------03:46----------
+on Paul Daniels as execrable multimeter
+
+---------03:48----------
+software and see if it works today and
+
+---------03:51----------
+get that on the screen now we're going
+
+---------03:54----------
+to find out where it is we can measure
+
+---------03:55----------
+pp 3 V 3 underscore g3 hot on this board
+
+---------03:58----------
+and it looks like that's going to be
+
+---------03:59----------
+present on a capacitor that's right next
+
+---------04:01----------
+to the chip which is fairly convenient
+
+---------04:02----------
+so we're gonna roll over our microscope
+
+---------04:04----------
+camera and take a look and see what we
+
+---------04:07----------
+get when we plug this in so we're going
+
+---------04:11----------
+to this and it looks like we do get 3.4
+
+---------04:16----------
+volts so three point four volts is
+
+---------04:20----------
+present on the on this cd32 15 so now
+
+---------04:25----------
+what we're going to do is we're going to
+
+---------04:26----------
+take a look at what
+
+---------04:27----------
+cd32 15 looks like so one thing that Tim
+
+---------04:29----------
+had said in his video on this is that
+
+---------04:32----------
+every CD 3215 needs to work if even one
+
+---------04:35----------
+of them does not function you will not
+
+---------04:37----------
+get anything to turn on so the way this
+
+---------04:39----------
+machine works is has four USB C ports if
+
+---------04:41----------
+any one of those USB seaports doesn't
+
+---------04:44----------
+work the entire machine will stop
+
+---------04:46----------
+working that's Apple design that is
+
+---------04:48----------
+beautiful beautiful Apple engineering
+
+---------04:50----------
+and design if you have a issue with one
+
+---------04:52----------
+port none of them will work Apple
+
+---------04:55----------
+[ __ ] design it's beautiful thank
+
+---------04:59----------
+different people wonder why I have a
+
+---------05:01----------
+broken chair there are so many reasons
+
+---------05:02----------
+to break something when working on Apple
+
+---------05:04----------
+products there's so many reasons to hit
+
+---------05:06----------
+something or throw something or break
+
+---------05:08----------
+something when working on Apple products
+
+---------05:10----------
+the deeper you go into the rabbit hole
+
+---------05:12----------
+of how these products are engineered and
+
+---------05:14----------
+designed the more you're going to want
+
+---------05:15----------
+to take things and some in Hulk smash
+
+---------05:17----------
+Hulk throw Hulk destroy its ah why do
+
+---------05:22----------
+you make [ __ ] like this why it's [ __ ]
+
+---------05:26----------
+awful let's take a look at each of our
+
+---------05:27----------
+cd32 15s so over here we have one CD
+
+---------05:32----------
+3215 this one looks fine this one looks
+
+---------05:35----------
+pretty I don't see any issue with this
+
+---------05:37----------
+this one also looks good it's difficult
+
+---------05:40----------
+to tell if that's simply pubes and dust
+
+---------05:42----------
+or actual signs of liquid damage aha and
+
+---------05:45----------
+here it comes out so I will leave you
+
+---------05:48----------
+all to tell me what it is you see over
+
+---------05:50----------
+here and what you think of what you see
+
+---------05:52----------
+let's see if you can spot what's going
+
+---------05:53----------
+on over here
+
+---------05:54----------
+[Music]
+
+---------06:16----------
+so what do you see over there Erica what
+
+---------06:19----------
+I see over here is you look a little
+
+---------06:22----------
+burned you look a little corroded and
+
+---------06:26----------
+you look a little corroded now here's
+
+---------06:28----------
+the thing I don't think that any of
+
+---------06:30----------
+these resistors are actually bad I think
+
+---------06:33----------
+that these resistors may be fine
+
+---------06:36----------
+what I think the actual issue is going
+
+---------06:39----------
+to wind up being is that the the path
+
+---------06:44----------
+under the resistor is going to be
+
+---------06:46----------
+corroded or that there's going to be
+
+---------06:48----------
+corrosion onto the chip that we cannot
+
+---------06:49----------
+see so even if somebody takes a scrub
+
+---------06:52----------
+brush or a q-tip and rubs all around
+
+---------06:53----------
+this area it's not actually going to
+
+---------06:55----------
+clean under the chip an ultrasonic
+
+---------06:57----------
+cleaner like the ones that we have out
+
+---------06:58----------
+of stock at stored out Rossman group
+
+---------06:59----------
+comm and Mikey the ultrasonics that are
+
+---------07:03----------
+out of stock on the store across from
+
+---------07:05----------
+group comm mmm hint would clean very
+
+---------07:11----------
+well underneath this chip so let's take
+
+---------07:14----------
+a look and see if the what these
+
+---------07:17----------
+resistors are rated for and what they
+
+---------07:19----------
+are actually so this resistor is for
+
+---------07:23----------
+Thunderbolts SPI there and you are
+
+---------07:28----------
+supposed to be 15 ohms we're gonna see
+
+---------07:30----------
+if that's actually 15 ohms 21 ohms close
+
+---------07:36----------
+enough the next resistor that's corroded
+
+---------07:37----------
+looking is this one down here even
+
+---------07:40----------
+though it's barely corroded that's for
+
+---------07:41----------
+display port aux channel so I don't I
+
+---------07:44----------
+don't give a crap about display port aux
+
+---------07:45----------
+channel why am I gonna care about this
+
+---------07:48----------
+this is for image we don't turn on this
+
+---------07:51----------
+doesn't charge it doesn't turn on so one
+
+---------07:53----------
+of the other things that's important
+
+---------07:54----------
+when going through the schematic to try
+
+---------07:56----------
+and figure out what is relevant so this
+
+---------07:58----------
+has an issue where it doesn't turn on I
+
+---------08:00----------
+don't care about display port because
+
+---------08:02----------
+display port is for image an image is
+
+---------08:04----------
+for machines that turn on the same way
+
+---------08:05----------
+that you're not going to think about
+
+---------08:07----------
+your twenty-fifth anniversary with
+
+---------08:08----------
+somebody who just went on a day you're
+
+---------08:09----------
+not gonna think about having kids before
+
+---------08:11----------
+you got married you're not gonna think
+
+---------08:12----------
+about marriage before you go out on the
+
+---------08:13----------
+first date don't jump the gun I'm not
+
+---------08:15----------
+gonna get excited about a display port
+
+---------08:18----------
+area being corroded when I don't even
+
+---------08:20----------
+have a machine that turns on so I'm not
+
+---------08:21----------
+even bothering to care about that at
+
+---------08:23----------
+this point now the other that's corroded
+
+---------08:25----------
+is this one up here let's see if this is
+
+---------08:27----------
+for something important also it has a
+
+---------08:29----------
+little bit of red by
+
+---------08:30----------
+that I thought was actually burned but
+
+---------08:32----------
+that is not a burn mark in the upper
+
+---------08:34----------
+left corner you'll notice that there is
+
+---------08:35----------
+actually a red pubic hair in there
+
+---------08:37----------
+because when I saw the red I thought
+
+---------08:39----------
+maybe that was something burned but no
+
+---------08:41----------
+it's purely a red pube so we're gonna
+
+---------08:42----------
+take a look on the schematic and see
+
+---------08:44----------
+what that resistor is for that looks
+
+---------08:46----------
+like an I squared C pulldown resistor to
+
+---------08:49----------
+ground I don't think that that actually
+
+---------08:51----------
+matters or that that is important RB 309
+
+---------08:53----------
+over here you're a good guy Mikey we
+
+---------08:57----------
+have a very good shipping person here
+
+---------08:58----------
+you may have noticed that ever since
+
+---------09:00----------
+around November December that if you
+
+---------09:03----------
+bought something from store that Rossman
+
+---------09:04----------
+group com you actually got what you
+
+---------09:06----------
+ordered rather than somebody just taking
+
+---------09:08----------
+any random thing out of the bin and
+
+---------09:10----------
+that's because mikey is the best
+
+---------09:12----------
+shipping clerk that we've ever had by
+
+---------09:13----------
+far the best he has never sent a laptop
+
+---------09:17----------
+to China when it was supposed to go to
+
+---------09:18----------
+Canada he has never gotten wasted in my
+
+---------09:23----------
+basement and fell asleep on
+
+---------09:25----------
+bubble-wrapped after getting drunk
+
+---------09:29----------
+he has never talked about how he wanted
+
+---------09:32----------
+to ask [ __ ] my customer service
+
+---------09:33----------
+representative who was female and not
+
+---------09:35----------
+attracted to him here he has never
+
+---------09:40----------
+missed work on Monday because of a
+
+---------09:41----------
+cocaine binge again I'm not setting the
+
+---------09:44----------
+standard very high here I'm just saying
+
+---------09:46----------
+that he is worlds ahead of every other
+
+---------09:50----------
+shipping clerk I've ever had he's a good
+
+---------09:52----------
+dude what I have going on here is
+
+---------09:54----------
+corrosion in this area that on several
+
+---------09:57----------
+different components but of these
+
+---------09:59----------
+different components that are corroded
+
+---------10:00----------
+what you'll notice is that none of them
+
+---------10:02----------
+are corroded to the point of it being a
+
+---------10:05----------
+deal breaker and when I say deal breaker
+
+---------10:06----------
+I mean where it's going to keep it from
+
+---------10:08----------
+turning on so what I most likely have is
+
+---------10:10----------
+generalized corrosion on to the chip the
+
+---------10:13----------
+fact that there is that the chip looks
+
+---------10:15----------
+burned but that there is no that the
+
+---------10:19----------
+resistors look burned but there's no
+
+---------10:20----------
+green tells me that somebody tried to
+
+---------10:22----------
+clean it but they did a poor job of it
+
+---------10:23----------
+which means they probably didn't clean
+
+---------10:25----------
+under the chip which means that under
+
+---------10:26----------
+the chip is going to be corrosion so I'm
+
+---------10:28----------
+guessing it's not going to even be a bad
+
+---------10:29----------
+chip but simply a bad soldering job on
+
+---------10:31----------
+on that chip as a result of corrosion
+
+---------10:34----------
+under it so I am going to remove the
+
+---------10:36----------
+charge port from that side of the board
+
+---------10:37----------
+before I do a reflow since I have a
+
+---------10:39----------
+tendency to melt the charge port off of
+
+---------10:42----------
+the board by being an idiot and this
+
+---------10:44----------
+sport also has corroded and should be
+
+---------10:45----------
+replaced anyway so we're going to take
+
+---------10:47----------
+this off of the board and then we are
+
+---------10:49----------
+going to reflow that and after reflow
+
+---------10:52----------
+it's probably gonna work and be
+
+---------10:54----------
+beautiful MA but the other thing Mikey
+
+---------10:57----------
+is that the with the crests being out of
+
+---------10:59----------
+stock is that they're probably not going
+
+---------11:02----------
+to want to sell me new ones until I pay
+
+---------11:04----------
+them for the old ones but we weren't
+
+---------11:06----------
+paying what we didn't pay crest for the
+
+---------11:08----------
+old cleaners because they took us months
+
+---------11:10----------
+to get back to us on the cleaners that
+
+---------11:11----------
+we had that didn't work it's it's a
+
+---------11:15----------
+tough relationship with that company
+
+---------11:16----------
+there's another company that I forget
+
+---------11:17----------
+the name of there and it's on the tip of
+
+---------11:18----------
+my tongue that I really wanted to sell
+
+---------11:20----------
+cleaners off but they don't fit anything
+
+---------11:22----------
+for the new MacBooks and the only stuff
+
+---------11:24----------
+that fits for the new MacBooks the only
+
+---------11:25----------
+cleaners that will actually fit this
+
+---------11:27----------
+board by this other company I was
+
+---------11:29----------
+looking at cost about three to five
+
+---------11:30----------
+thousand dollars and crest cells that
+
+---------11:33----------
+the P 1200 is perfect for touch bar
+
+---------11:35----------
+MacBooks it's genuinely amazing they the
+
+---------11:37----------
+only issue with the cleaner is that it's
+
+---------11:39----------
+sold by crest and crest makes amazing
+
+---------11:41----------
+cleaner and hopf notch cleaners but my
+
+---------11:44----------
+god doing business with them is a
+
+---------11:45----------
+nightmare
+
+---------11:46----------
+I love them I love I genuinely love
+
+---------11:48----------
+their product the only way I'm gonna get
+
+---------11:49----------
+them to actually answer my email when it
+
+---------11:51----------
+comes to an RMA because they don't
+
+---------11:53----------
+answer any emails they don't answer
+
+---------11:54----------
+voicemails or phone calls the only way
+
+---------11:56----------
+for them to care about me asking for an
+
+---------11:59----------
+RMA is to not pay them and then once
+
+---------12:02----------
+they email me saying we have hey we
+
+---------12:04----------
+notice you you owe its $14,000 it's for
+
+---------12:07----------
+me to respond to that email sewing oh
+
+---------12:08----------
+yes I probably do owe you that money but
+
+---------12:11----------
+while I'm here would you like to take
+
+---------12:13----------
+back these cleaners I got that don't
+
+---------12:15----------
+work that it's a bit of a New York way
+
+---------12:17----------
+of doing business but if someone doesn't
+
+---------12:19----------
+get back to you or respond to you and
+
+---------12:20----------
+you need them to respond to you what you
+
+---------12:22----------
+do is you typically withhold their money
+
+---------12:24----------
+and at some point the problem will solve
+
+---------12:26----------
+itself either a you've got fourteen
+
+---------12:29----------
+thousand dollars of free stuff or B they
+
+---------12:31----------
+actually email you about the money that
+
+---------12:33----------
+you haven't paid them and then you've
+
+---------12:34----------
+used that point to say oh yeah I'll pay
+
+---------12:36----------
+you for that by the way well I've got
+
+---------12:38----------
+you on the phone can you take back the
+
+---------12:41----------
+stuff that doesn't work give me a
+
+---------12:43----------
+warranty for it's a New York way of
+
+---------12:46----------
+doing business
+
+---------12:47----------
+it works the problem is that by the time
+
+---------12:49----------
+they actually got back to us on the
+
+---------12:50----------
+warranty form we were very behind on
+
+---------12:52----------
+everything so then it took us a while to
+
+---------12:54----------
+send them back
+
+---------12:57----------
+then by that point we were the ones that
+
+---------12:59----------
+were being slow but that's the thing do
+
+---------13:01----------
+it stuff like that it really strains the
+
+---------13:03----------
+relationship between the company and the
+
+---------13:06----------
+vendor and the customer it really does
+
+---------13:08----------
+strain it when like one of them doesn't
+
+---------13:10----------
+doesn't email you back when you ask
+
+---------13:12----------
+about returns and then the other person
+
+---------13:14----------
+with holds payments it's very straight
+
+---------13:16----------
+strenuous on the relationship especially
+
+---------13:18----------
+if you want to continue doing business
+
+---------13:19----------
+with them because they make a really
+
+---------13:21----------
+nice product I think that they make
+
+---------13:22----------
+excellent ultrasonics
+
+---------13:23----------
+I think they clean better than Branson
+
+---------13:25----------
+ones that as and the Branson ones will
+
+---------13:28----------
+cost more money I did some I did some
+
+---------13:31----------
+videos on that a few years ago and I
+
+---------13:33----------
+believe I earned the right to do that
+
+---------13:35----------
+video because I am the idiot that spent
+
+---------13:36----------
+over $1,000 on a Branson cleaner that
+
+---------13:39----------
+couldn't clean jack-shit
+
+---------13:40----------
+so I earned the right to review that by
+
+---------13:44----------
+wasting my own money on it now if I
+
+---------13:46----------
+found a company that had cleaners that
+
+---------13:47----------
+were the quality of crest in terms but
+
+---------13:49----------
+also had somebody other than half of a
+
+---------13:53----------
+Kevin answering their emails that point
+
+---------13:55----------
+that I would be very very excited though
+
+---------13:58----------
+alright so we're gonna do a gentle
+
+---------13:59----------
+reflow here I've got my twelve
+
+---------14:00----------
+millimeter nozzle which is not for sale
+
+---------14:03----------
+on store dot Ross Maghrib calm because
+
+---------14:04----------
+quick has not had them in stock for the
+
+---------14:07----------
+last six months makes me very glad that
+
+---------14:09----------
+I got these nozzles while I could so we
+
+---------14:17----------
+are going to reflow these chips and one
+
+---------14:20----------
+thing that you may notice here is that I
+
+---------14:22----------
+am reflowing
+
+---------14:23----------
+to chips at the same time 80gb uses
+
+---------14:25----------
+every man's dream right here to chips at
+
+---------14:28----------
+the same time because when you've got a
+
+---------14:35----------
+nozzle that's big enough you two can do
+
+---------14:38----------
+two chips at the same time oh that was
+
+---------14:42----------
+awful okay not only did I miss the
+
+---------14:47----------
+reflow not only did I not have it on
+
+---------14:48----------
+camera but oh my god that is dumb
+
+---------14:54----------
+oh I wrecked it okay that was that was
+
+---------15:00----------
+awful
+
+---------15:01----------
+that chip is sitting sideways
+
+---------15:04----------
+[Music]
+
+---------15:31----------
+you never want to stay and whatever it
+
+---------15:34----------
+is you're doing long enough to become a
+
+---------15:35----------
+joke this is a resistor book comes in
+
+---------15:41----------
+pretty handy as you can see from the
+
+---------15:48----------
+sizes of the resistor things that this
+
+---------15:52----------
+is not the first time that I've done
+
+---------15:54----------
+this you can see this is not the first
+
+---------15:57----------
+time that I've done this oh man
+
+---------16:02----------
+these tweezers are so sodomized these
+
+---------16:07----------
+are not trees anymore okay so remember
+
+---------16:09----------
+one of the things that you should do
+
+---------16:10----------
+when you're working is turn the board so
+
+---------16:13----------
+that you're comfortable not the board
+
+---------16:15----------
+most people appear to focus on the
+
+---------16:16----------
+board's comfort or how the board sits on
+
+---------16:18----------
+the desk as if an apple product as if
+
+---------16:21----------
+this thing deserves comfort throughout
+
+---------16:23----------
+its life it does not what you'd so I'm
+
+---------16:26----------
+gonna turn the board so that it is
+
+---------16:27----------
+easier to work on by my standards slide
+
+---------16:32----------
+over here these resistors are more
+
+---------16:35----------
+crooked than Google's Terms of Service
+
+---------16:36----------
+and Privacy Policy all of this even
+
+---------16:39----------
+though those are ridiculously crooked
+
+---------16:40----------
+it's actually fine it's okay that these
+
+---------16:41----------
+are crooked because this board is
+
+---------16:44----------
+running for office
+
+---------16:45----------
+no I'm kidding it the reason it's okay
+
+---------16:46----------
+that it's crooked is because as long as
+
+---------16:48----------
+there's flux on there when I actually
+
+---------16:50----------
+heat the BGA chip to have that sit into
+
+---------16:52----------
+place once I'm heating the BGA chip that
+
+---------16:55----------
+resistors are all gonna kind of settle
+
+---------16:57----------
+into place as long as this flux there so
+
+---------16:59----------
+that the solder doesn't become all mushy
+
+---------17:01----------
+and nasty so now I just got to replace
+
+---------17:02----------
+that capacitor and then I knocked off
+
+---------17:06----------
+and then this board will be set these
+
+---------17:11----------
+poor little hot razors they lasted at
+
+---------17:12----------
+this desk like two weeks before this
+
+---------17:14----------
+happened to them I wasn't scraping with
+
+---------17:18----------
+them either I was a I was a good boy
+
+---------17:21----------
+that happened because I dropped them on
+
+---------17:22----------
+the floor
+
+---------17:28----------
+okay [ __ ] it I'll just let them flow in
+
+---------17:30----------
+a place with hot air I clearly can't get
+
+---------17:33----------
+them to go into place with the tweezers
+
+---------17:35----------
+because I suck hey hello
+
+---------17:40----------
+delivery oh is it for Louis my name is
+
+---------17:45----------
+Louis yes Louis Louie let's see what
+
+---------17:49----------
+does it say huh if somebody else ordered
+
+---------17:53----------
+it there's nobody in this building
+
+---------17:55----------
+because it went on fire so this I'm the
+
+---------17:57----------
+only person here so what what address
+
+---------17:59----------
+does that say it's two yeah so there's
+
+---------18:03----------
+nobody in this building besides me so
+
+---------18:05----------
+that means somebody probably ordered
+
+---------18:06----------
+that for me my name is Louis but
+
+---------18:10----------
+somebody else I must have ordered that
+
+---------18:12----------
+for me I have no idea I'm doing a
+
+---------18:16----------
+livestream on YouTube and people order
+
+---------18:18----------
+me things every now and then either way
+
+---------18:21----------
+you can knock on the door there's nobody
+
+---------18:22----------
+in this building but me because it went
+
+---------18:23----------
+on fire see how it says over here
+
+---------18:25----------
+conditions are immediately perilous to
+
+---------18:27----------
+life that doesn't apply to me though cuz
+
+---------18:30----------
+I fix MacBooks anyway okay so yeah what
+
+---------18:41----------
+I was I talking about the hack ofr 810
+
+---------18:43----------
+fiasco so this video right here
+
+---------18:47----------
+HECO f ra 10 review if we just search
+
+---------18:50----------
+hack ofr a 10 review this right here is
+
+---------18:53----------
+why hako is going to take that stuff and
+
+---------18:55----------
+just rub it all like they're gonna go on
+
+---------18:57----------
+a treadmill they're gonna do they're
+
+---------18:59----------
+gonna go for a run on the treadmill when
+
+---------19:00----------
+it's really hot they're gonna make sure
+
+---------19:02----------
+their balls get really nice and salty
+
+---------19:03----------
+with sweat they're gonna take those tips
+
+---------19:05----------
+rub it all over they're salty balls and
+
+---------19:07----------
+send it to me
+
+---------19:08----------
+so that's prob that's why I feel really
+
+---------19:10----------
+really strange about ordering anything
+
+---------19:12----------
+from hack oh I wanted to order from test
+
+---------19:14----------
+equipment depot so I ordered it from
+
+---------19:15----------
+hack oh they're gonna take those tips
+
+---------19:17----------
+they're gonna take oh now I get some
+
+---------19:21----------
+hello
+
+---------19:24----------
+sure
+
+---------19:27----------
+you have it been no I don't I'm not
+
+---------19:29----------
+gonna return it I promise all right so
+
+---------19:32----------
+let's see what we have here
+
+---------19:33----------
+Devin Olson you strongly overestimate
+
+---------19:35----------
+the intelligence of the average for a
+
+---------19:37----------
+delivery person there are certain places
+
+---------19:40----------
+where I order the same thing every day
+
+---------19:42----------
+the same thing every day for two years
+
+---------19:44----------
+the guy walks in the same person every
+
+---------19:47----------
+day for two years looks at the receipt
+
+---------19:49----------
+looks to the place looks to the receipt
+
+---------19:50----------
+looks at the place looks at the receipt
+
+---------19:52----------
+is this for you and then he doesn't
+
+---------19:54----------
+believe me and then he calls me not
+
+---------19:56----------
+kidding the same [ __ ] food every day
+
+---------20:01----------
+but we finally managed to Train one of
+
+---------20:03----------
+them six months ago
+
+---------20:04----------
+so that's yes six months ago I was able
+
+---------20:06----------
+to train the burrito place because I
+
+---------20:09----------
+took him in one time yeah I said here's
+
+---------20:11----------
+here's 50 bucks you know what I look
+
+---------20:13----------
+like
+
+---------20:14----------
+you know I ordered the same thing every
+
+---------20:15----------
+day nobody else orders this at this
+
+---------20:16----------
+address can you do me a favor when the
+
+---------20:18----------
+food comes in can you just put it on the
+
+---------20:20----------
+desk over there so that I can eat it and
+
+---------20:22----------
+then and I think that at that point we
+
+---------20:24----------
+had an understanding so this is the
+
+---------20:25----------
+board that I knocked everything off of
+
+---------20:27----------
+including the CD 3215 while I was doing
+
+---------20:30----------
+the reflow I knocked all this and all
+
+---------20:32----------
+that off I put that stuff on but you can
+
+---------20:34----------
+see that the capacitor is not exactly in
+
+---------20:37----------
+place where it's supposed to be but
+
+---------20:38----------
+that's all gonna flow on a place for us
+
+---------20:40----------
+nicely we're gonna take a nice new CD
+
+---------20:42----------
+3215 that CD 32:15 probably needs to be
+
+---------20:45----------
+replaced anyway that's just God's Way of
+
+---------20:47----------
+saying that we don't think that that CD
+
+---------20:50----------
+32:15 belongs there because it had
+
+---------20:52----------
+corrosion under it you should be using a
+
+---------20:54----------
+new one so we are gonna make it so that
+
+---------20:55----------
+when you saw it try to reflow what it's
+
+---------20:57----------
+not gonna work every now and then my
+
+---------21:03----------
+Lord and Savior the Spaghetti Monster
+
+---------21:05----------
+gives me an idea of what I should be
+
+---------21:09----------
+doing and here my Lord and Savior the
+
+---------21:12----------
+Spaghetti Monster was telling me that
+
+---------21:14----------
+the proper thing to do was replace that
+
+---------21:16----------
+chip rather than reflow
+
+---------21:27----------
+that being said let's solder our
+
+---------21:30----------
+replacement CD 3215 onto the board
+
+---------21:38----------
+these two capacitors up here are
+
+---------21:40----------
+touching themselves similar to my new
+
+---------21:44----------
+board repair employee on Friday night at
+
+---------21:45----------
+the burlesque club let's see if we can
+
+---------21:47----------
+get this chip to slide into place
+
+---------21:48----------
+pick up those capacitors up there to
+
+---------21:50----------
+stop touching themselves
+
+---------22:02----------
+finally so how long did it take for this
+
+---------22:04----------
+basic cd32 15 job like an hour an hour
+
+---------22:07----------
+and 41 minutes
+
+---------22:09----------
+camilo lauren l would have done this job
+
+---------22:11----------
+probably in five minutes and it would
+
+---------22:13----------
+have worked but because i'm an idiot
+
+---------22:15----------
+it took an hour and 42 minutes so now
+
+---------22:20----------
+we're going to see if we get 20 volts on
+
+---------22:21----------
+this and if it turns on this is why I
+
+---------22:23----------
+have been avoiding doing board repair
+
+---------22:25----------
+lately if you'd like you can rewind the
+
+---------22:26----------
+stream to the part where I knock every
+
+---------22:27----------
+single piece off of the board along with
+
+---------22:29----------
+the CD 3215 there's a man doing
+
+---------22:31----------
+cartwheels in the sidewalk and he's
+
+---------22:33----------
+looking into the store why are you doing
+
+---------22:35----------
+cartwheels you're strange strange man
+
+---------22:37----------
+I'm just gonna Glock my door again I
+
+---------22:39----------
+don't trust the cartwheeling man thieves
+
+---------22:41----------
+and gangster looking people man I don't
+
+---------22:44----------
+care people who do cartwheels at 2:00
+
+---------22:47----------
+a.m. when it's 40 degrees outside
+
+---------22:48----------
+don't [ __ ] with those people as you can
+
+---------22:50----------
+see we're up to 20 volts and we have one
+
+---------22:53----------
+amp 20 volts 1 amp 20 volts 1 amp so P P
+
+---------22:58----------
+3 V 3 underscore g3 hot was there we saw
+
+---------23:00----------
+some corrosion by the CD 30 to 15 I went
+
+---------23:03----------
+for a reflow and after reflow E and
+
+---------23:06----------
+trying to change the scene on the camera
+
+---------23:08----------
+instead of actually changing the scene
+
+---------23:10----------
+on the camera but by doing this my hand
+
+---------23:13----------
+decided to ignore me when I said go this
+
+---------23:15----------
+way and decided to do this too and
+
+---------23:18----------
+knocked everything off of the board so
+
+---------23:21----------
+then I used my sample book of resistors
+
+---------23:24----------
+to change everything that I knocked off
+
+---------23:26----------
+of the board I got a new CD 3215 and if
+
+---------23:29----------
+you need to know where to buy a new CD
+
+---------23:31----------
+3215 because you're an idiot and you
+
+---------23:33----------
+knock your scrote at CD 3215 off of the
+
+---------23:36----------
+board like I did had no further in-store
+
+---------23:40----------
+dot rossmann group.com where you can
+
+---------23:43----------
+find specialty items like the CD 3215 we
+
+---------23:47----------
+have iPhone audio ICS on sale we have
+
+---------23:49----------
+older tristar's on sale if you need a 16
+
+---------23:52----------
+1082 or a 16 1083 you may even find
+
+---------23:55----------
+these as low as one dollar and fifty
+
+---------23:57----------
+cents don't delay get your 1610 82 today
+
+---------24:00----------
+or you can get audio ICS if you buy
+
+---------24:03----------
+enough audio icees you get them as low
+
+---------24:04----------
+as a dollar in 69 cents but above all
+
+---------24:06----------
+you can get a CD 3215 for the low low
+
+---------24:10----------
+price of 1899 by four for $15.99
+
+---------24:15----------
+save 16% by 10 for $14.99 each and save
+
+---------24:19----------
+22% by 20 for $13.99 each and save 27%
+
+---------24:23----------
+the savings they stack that being said
+
+---------24:26----------
+this board works and as always I hope
+
+---------24:29----------
+you learned something being that if
+
+---------24:32----------
+you're an idiot and you can't control
+
+---------24:34----------
+your hand and your hand just happens to
+
+---------24:36----------
+the side hey instead of doing what my
+
+---------24:38----------
+nervous system asset to do I'm gonna
+
+---------24:40----------
+knock everything off of the board that
+
+---------24:42----------
+you can still fix it even on livestream
+
+---------24:44----------
+and with that I'll see you in the next
+
+---------24:46----------
+one I got my monitor a second monitor
+
+---------24:48----------
+over here I got my second wireless
+
+---------24:50----------
+microphone set up
+
+---------24:51----------
+I got a nice clean desk so we're gonna
+
+---------24:53----------
+have more live streams up here featuring
+
+---------24:55----------
+Paul a now and Camille on boards that
+
+---------24:58----------
+they all have picked at random I'm
+
+---------25:00----------
+cleaning up my setup here a little bit
+
+---------25:02----------
+and trying to make it a little bit
+
+---------25:03----------
+better I have not been streaming as many
+
+---------25:05----------
+board repairs due to annoying headaches
+
+---------25:06----------
+and I'm hoping to get rid of some of my
+
+---------25:08----------
+headaches by making my desk area a
+
+---------25:10----------
+little cleaner making the space a little
+
+---------25:11----------
+nicer so I have a dedicated open
+
+---------25:13----------
+broadcaster monitor so hopefully if
+
+---------25:15----------
+something's out of space in the
+
+---------25:17----------
+microscope it's not like it's all the
+
+---------25:18----------
+way in the bottom of the screen anymore
+
+---------25:20----------
+having to move around the open
+
+---------25:21----------
+broadcaster window the live chat window
+
+---------25:22----------
+and what I had on screen was a bit
+
+---------25:25----------
+annoying so now that's not the case
+
+---------25:27----------
+above all I finally got my wireless
+
+---------25:29----------
+setup working here so I got a wireless
+
+---------25:31----------
+mic for me I've also got another
+
+---------25:33----------
+wireless microphone before I had a wired
+
+---------25:35----------
+microphone and a wireless microphone
+
+---------25:36----------
+that wasn't working properly so I fixed
+
+---------25:38----------
+the frequencies and all that since
+
+---------25:40----------
+there's a lot of interference here so
+
+---------25:41----------
+you got a scan for frequencies on a
+
+---------25:42----------
+regular basis in order to not have
+
+---------25:44----------
+interference this is a Sennheiser II W
+
+---------25:47----------
+100 this is the shitty capsule this is
+
+---------25:49----------
+the e 835 I'm thinking of upgrading it
+
+---------25:52----------
+so at 8:45 865 or 945 or 965 I'm not
+
+---------25:56----------
+sure it's not the best thing in the
+
+---------25:57----------
+world but I think if I upgrade the
+
+---------25:58----------
+capsule I'll get something decent and I
+
+---------25:59----------
+also got a little stand for it so I can
+
+---------26:00----------
+always have it on the desk and it'll be
+
+---------26:02----------
+easy for just hand it to a customer or
+
+---------26:03----------
+to camille or to paul if there's
+
+---------26:05----------
+something interesting going on now we're
+
+---------26:07----------
+gonna talk about some upgrades that
+
+---------26:09----------
+we're doing for some other people the
+
+---------26:10----------
+first thing i've got here goes to rob
+
+---------26:11----------
+brown this is a microscope camera i
+
+---------26:14----------
+don't know what mount would fit on it
+
+---------26:15----------
+cuz i don't know what type of microscope
+
+---------26:17----------
+he has so i'm just gonna send them this
+
+---------26:18----------
+now the next thing that i've got here is
+
+---------26:20----------
+for somebody else who has been watching
+
+---------26:22----------
+for a very long time who I think
+
+---------26:24----------
+deserves and has earned getting a gift
+
+---------26:27----------
+of something really cool this he
+
+---------26:29----------
+is a wireless microphone system and this
+
+---------26:33----------
+is for Tim Herrmann
+
+---------26:34----------
+now Tim Herrmann I did a video on a few
+
+---------26:37----------
+days ago okay so I would highly suggest
+
+---------26:38----------
+that you watch this video 18 year old
+
+---------26:40----------
+viewer versus 18 year olds company he
+
+---------26:43----------
+did fix a board that was butchered by a
+
+---------26:45----------
+company that's been in business as long
+
+---------26:47----------
+as he has been alive and he did a
+
+---------26:49----------
+bang-up job of it and he does a YouTube
+
+---------26:51----------
+channel where he shows people and
+
+---------26:52----------
+educates people the same way that I do
+
+---------26:54----------
+so I tried to show him how to do this
+
+---------26:56----------
+stuff and now he is showing other people
+
+---------26:58----------
+the thing is that as much as it left him
+
+---------26:59----------
+his audio sucks it's abominable he
+
+---------27:01----------
+sounds like he's talking into her like
+
+---------27:02----------
+1920s carbon phone so I got him this
+
+---------27:05----------
+thing over here this is in my rack of
+
+---------27:07----------
+equipment that I'm likely not going to
+
+---------27:08----------
+use again for a long time so this is a
+
+---------27:11----------
+Shore wireless receiver this is a-you
+
+---------27:13----------
+for D - UA yes it's not like crazy
+
+---------27:17----------
+expensive but it's a decent little
+
+---------27:19----------
+receiver over here now this is two
+
+---------27:20----------
+channels so it has one handheld
+
+---------27:23----------
+microphone so that if Tim wants to have
+
+---------27:25----------
+customers in for repairs or guests or
+
+---------27:27----------
+there's customers that are interested in
+
+---------27:28----------
+watching live and Tim thinks that they
+
+---------27:30----------
+would make a good addition to his
+
+---------27:31----------
+streams or videos he can have them on
+
+---------27:34----------
+just clean this thing because I hate
+
+---------27:35----------
+microphones that smell like the breath
+
+---------27:37----------
+of the last person that used them it
+
+---------27:38----------
+drives me nuts so I always use a very
+
+---------27:41----------
+very damp microfiber cloth and something
+
+---------27:44----------
+like I'm using the screen cleaning
+
+---------27:45----------
+liquid over here to clean it off I clean
+
+---------27:47----------
+my microphone - and over here we have a
+
+---------27:50----------
+countryman be six so this is very
+
+---------27:52----------
+similar to my DP a great Mike countryman
+
+---------27:55----------
+and DP a it's kind of like Coke versus
+
+---------27:58----------
+Pepsi so this is untangled and this is
+
+---------28:00----------
+going to go to a Shore you one - you a
+
+---------28:03----------
+wrist Ran's Mitter this is kind of cheap
+
+---------28:06----------
+[ __ ] but it works very it works decently
+
+---------28:07----------
+well I used to use this for my older
+
+---------28:10----------
+streams it looks like it must be
+
+---------28:12----------
+discontinued or something because I
+
+---------28:13----------
+don't see a lot of places actually
+
+---------28:14----------
+selling it it's not crazy but it does
+
+---------28:17----------
+the job it doesn't have the longest
+
+---------28:18----------
+range in the world but I could get from
+
+---------28:20----------
+the front of the store to the back of
+
+---------28:21----------
+the store with this thing you get a good
+
+---------28:22----------
+like I'd say 50 50 feet of usable range
+
+---------28:25----------
+with it and this little microphone here
+
+---------28:28----------
+so this is a countryman e6
+
+---------28:35----------
+I prefer DPA personally I like the sound
+
+---------28:37----------
+of DPA more than countryman but this is
+
+---------28:39----------
+still a nice little microphone it's it
+
+---------28:42----------
+doesn't look as nice
+
+---------28:43----------
+and sexy in person as it does in the
+
+---------28:45----------
+picture it's kind of like you know
+
+---------28:46----------
+McDonald's or any sort of fast-food
+
+---------28:49----------
+where it looks sexier in the picture
+
+---------28:50----------
+than it does when you actually get it
+
+---------28:52----------
+but this is a nice little microphone and
+
+---------28:54----------
+transmitter so we've got here a
+
+---------28:56----------
+microphone transmitter a countryman East
+
+---------28:59----------
+six microphone an sm58 wireless customer
+
+---------29:03----------
+microphone for Tim if he wants to
+
+---------29:04----------
+include customers on the stream the
+
+---------29:06----------
+antennas ends this sure you a u4d you a
+
+---------29:12----------
+receiver now he's just gonna have to
+
+---------29:14----------
+find a audio interface to plug it into
+
+---------29:17----------
+this has to yeah what is this is this
+
+---------29:20----------
+line out or mic out I forget if this is
+
+---------29:23----------
+line output or mic output actually we're
+
+---------29:28----------
+closed we are closed you can keep
+
+---------29:31----------
+putting your okay oh what's your
+
+---------29:35----------
+question what is your question a CD
+
+---------29:45----------
+there's nothing I can do with that
+
+---------29:51----------
+probably I don't know yeah you should
+
+---------29:55----------
+try wiping it off but if it's a cracked
+
+---------29:56----------
+CD I can't do anything with it no I'm
+
+---------30:04----------
+sorry no not if it's cracked that's
+
+---------30:11----------
+possible we just don't do it yeah get
+
+---------30:14----------
+exactly get a program called CD X it'll
+
+---------30:16----------
+do it for you CD e x c DX c de x so
+
+---------30:22----------
+that's how you spell it
+
+---------30:23----------
+CD e^x it does what you're asking me so
+
+---------30:29----------
+the question you ask me of how to do
+
+---------30:30----------
+that of can I do that that's the program
+
+---------30:32----------
+that'll do it for you that is why you
+
+---------30:33----------
+leave your door locked and never open it
+
+---------30:35----------
+after closing because people will ask
+
+---------30:37----------
+you to open the door after closing
+
+---------30:38----------
+because they have just one question but
+
+---------30:40----------
+that just one question is never a
+
+---------30:42----------
+question in a moment we'll make you
+
+---------30:44----------
+money never so here for Tim you've got
+
+---------30:46----------
+the shore u4d you a receiver we've got
+
+---------30:50----------
+the shore sm58 wireless mic so that he
+
+---------30:52----------
+can have a customer or a guest on his
+
+---------30:54----------
+stream and
+
+---------30:55----------
+we have a countryman ecigs
+
+---------30:58----------
+wireless omnidirectional head one
+
+---------31:00----------
+microphone for him and a you on you a
+
+---------31:02----------
+transmitter so what Tim's gonna need in
+
+---------31:05----------
+order to get good sound on a stream is
+
+---------31:06----------
+an audio interface to plug it into that
+
+---------31:08----------
+does not have latency so if any of you
+
+---------31:10----------
+can recommend him an audio interface
+
+---------31:12----------
+that doesn't add latency that would be
+
+---------31:13----------
+great I actually went back to using the
+
+---------31:15----------
+mic preamps and analog to digital
+
+---------31:17----------
+converter inside my camcorder because I
+
+---------31:19----------
+was I was trying to have this Presonus
+
+---------31:22----------
+audio interface work with my microphones
+
+---------31:24----------
+and I would plug the microphones into
+
+---------31:25----------
+the Presonus audio interface I'd set the
+
+---------31:27----------
+buffer size to 64 and people would still
+
+---------31:29----------
+complain that randomly the audio would
+
+---------31:31----------
+be out of sync so I just said screw it
+
+---------31:32----------
+I'm just gonna keep using this giant
+
+---------31:34----------
+camcorder here I got an audio interface
+
+---------31:36----------
+in the hopes that I could get a smaller
+
+---------31:37----------
+camcorder I use this large giant Sony
+
+---------31:40----------
+NEX EA 50 it's a nice camcorder it's
+
+---------31:44----------
+just this is ridiculously overkill for
+
+---------31:46----------
+the very very tiny workspace and desk
+
+---------31:48----------
+that I have here but this camcorder has
+
+---------31:49----------
+XLR inputs and an HDMI out which mate
+
+---------31:53----------
+which is really convenient for me so I
+
+---------31:55----------
+can plug the microphones into that and
+
+---------31:56----------
+then just use the HDMI capture card and
+
+---------31:58----------
+since the audio is being sent with the
+
+---------32:01----------
+same device that is sending the video
+
+---------32:02----------
+there's no such thing as out of sync the
+
+---------32:04----------
+audio is always going to be in sync
+
+---------32:06----------
+because the audio and video are coming
+
+---------32:07----------
+from the same device or as so I was
+
+---------32:09----------
+using a Presonus device to deal with
+
+---------32:13----------
+audio let me see if I can find what I
+
+---------32:14----------
+was using and it wasn't bad it was just
+
+---------32:18----------
+every now and then people were saying
+
+---------32:20----------
+that the audio was yeah I think it was
+
+---------32:21----------
+using one uh-huh yeah this was my so
+
+---------32:23----------
+this is the pretty sonís interface that
+
+---------32:24----------
+I used to have and it's not a bad
+
+---------32:27----------
+interface by any means it's just that
+
+---------32:29----------
+people would constantly complain that
+
+---------32:30----------
+sometimes my audio wasn't sync sometimes
+
+---------32:33----------
+it was and I tried all different types
+
+---------32:35----------
+of settings I've tried it on two
+
+---------32:36----------
+different computers and I tried setting
+
+---------32:39----------
+my buffer size to 64 within their
+
+---------32:41----------
+Universal control software and I always
+
+---------32:43----------
+had audio sync issues so if anybody can
+
+---------32:45----------
+suggest an interface for Tim's computer
+
+---------32:48----------
+he has USB 3 ports on it that would
+
+---------32:50----------
+allow him to use this receiver without
+
+---------32:53----------
+having ridiculous amounts of latency
+
+---------32:55----------
+since he uses a separate camera from the
+
+---------32:57----------
+audio gear that would be great I don't
+
+---------32:59----------
+have one to send him here and also if
+
+---------33:01----------
+anybody could suggest for Rob Brown
+
+---------33:04----------
+where he could get some decent adapters
+
+---------33:08----------
+for his microscope if
+
+---------33:09----------
+mentions his model microscope in the
+
+---------33:11----------
+comments for this microscope camera that
+
+---------33:12----------
+he's getting I do let me know but yeah I
+
+---------33:14----------
+think Tim and Rob have genuinely earned
+
+---------33:16----------
+it
+
+---------33:17----------
+especially Tim for constantly doing
+
+---------33:19----------
+videos on a regular basis and I really
+
+---------33:21----------
+hope that he produces some stuff of
+
+---------33:22----------
+higher quality now that or at the very
+
+---------33:24----------
+least stop sounding like [ __ ] because
+
+---------33:26----------
+he's using a microphone that was
+
+---------33:27----------
+recommended to him by Paul Daniels never
+
+---------33:30----------
+trust Paul Daniels
+

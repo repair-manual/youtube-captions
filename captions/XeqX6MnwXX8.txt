@@ -1,0 +1,463 @@
+https://www.youtube.com/watch?v=XeqX6MnwXX8
+---------00:00----------
+so today we're going to go over an eight
+
+---------00:02----------
+to zero 33:30 motherboard this is for an
+
+---------00:05----------
+eight twelve eighty six 2012 machine and
+
+---------00:07----------
+it appears to be dead we're gonna try
+
+---------00:09----------
+and figure out why it's dead we don't
+
+---------00:11----------
+have a light in the charger and it's
+
+---------00:12----------
+taking 0.065 amps so we're gonna go down
+
+---------00:15----------
+the list of power rails and see what's
+
+---------00:17----------
+present and what's not kind of curious
+
+---------00:19----------
+to see if PP 3 v 4 2 was present I don't
+
+---------00:21----------
+have a lie it seems like I can get PP 3
+
+---------00:22----------
+before 2 on this inductor over here so
+
+---------00:25----------
+it looks like we have one volt on PP 3 v
+
+---------00:27----------
+4 - and what we're supposed to get on PP
+
+---------00:29----------
+3 V 4 - is 3 point 4 2 - 3 point 4 - 5
+
+---------00:33----------
+volt power supply so the first thing
+
+---------00:34----------
+we're gonna do is see if it's missing
+
+---------00:36----------
+because of a short circuit to ground
+
+---------00:37----------
+that could always be the case we could
+
+---------00:38----------
+have a short circuit to ground that's
+
+---------00:40----------
+causing it to not work so it looks like
+
+---------00:41----------
+we have a 1.9 ohm short to ground on pp
+
+---------00:45----------
+3 v 4 - we're going to inject some
+
+---------00:46----------
+voltage all right now we need to put our
+
+---------00:48----------
+positive jumper on our pp 3 V 4 - in a
+
+---------00:51----------
+moment we should be able to tell what's
+
+---------00:53----------
+getting hot
+
+---------00:53----------
+is it the ISL chip doesn't seem to be
+
+---------01:00----------
+the ISL chip is it the system management
+
+---------01:04----------
+controller doesn't seem to be the system
+
+---------01:13----------
+management controller is it the PCH
+
+---------01:19----------
+doesn't seem to be that something should
+
+---------01:22----------
+be getting warm I was taken up two amps
+
+---------01:24----------
+maybe it's the actual regulator itself
+
+---------01:27----------
+we're gonna thermal camera because I
+
+---------01:29----------
+don't feel like soaking the board today
+
+---------01:31----------
+I think we need to resolder the DC jack
+
+---------01:33----------
+on the thermal camera six nine hundred
+
+---------01:34----------
+bucks nothing died already okay so it
+
+---------01:36----------
+seems like something's broken in this
+
+---------01:37----------
+bottom left corner over here and I got
+
+---------01:39----------
+to make sure to remove this very very
+
+---------01:41----------
+slowly since the DC jack and the thermal
+
+---------01:43----------
+camera that I've turned on like ten
+
+---------01:45----------
+times it stopped working
+
+---------01:46----------
+hey now it's putting out zero amps what
+
+---------01:48----------
+did my short for now my short burned out
+
+---------01:50----------
+yeah this entire left corner is only one
+
+---------01:52----------
+degree hotter than the rest of the board
+
+---------01:53----------
+but it's turning on what where's my
+
+---------01:57----------
+short I burned out my short okay so we
+
+---------02:02----------
+know it was something in the bottom left
+
+---------02:04----------
+corner because that was the area that
+
+---------02:05----------
+was most nasty looking so now we got to
+
+---------02:07----------
+go hunting in that area because that's
+
+---------02:08----------
+definitely gonna happen again
+
+---------02:10----------
+Wow in the time that it took for this
+
+---------02:11----------
+piece of crap thermal camera to turn on
+
+---------02:13----------
+the short actually burned its way out of
+
+---------02:15----------
+the board hmm shut up thermal camera now
+
+---------02:22----------
+that the thermal camera is blue looping
+
+---------02:24----------
+let's see if we can find out what this
+
+---------02:27----------
+is so it seems like PP 3 before 2 shows
+
+---------02:29----------
+up on this inductor and this inductor
+
+---------02:31----------
+doesn't look very nice this little
+
+---------02:32----------
+burned yeah we have 0.3 volts on one
+
+---------02:34----------
+side of this inductor and 3.42 on the
+
+---------02:38----------
+other so the short is gonna be on the
+
+---------02:39----------
+other side of this inductor on L 6400
+
+---------02:42----------
+and this is for audio this is actually a
+
+---------02:43----------
+really common short on the a 1278 models
+
+---------02:46----------
+when the a 1278 models there is a
+
+---------02:48----------
+capacitor that winds up dying and it's
+
+---------02:50----------
+for the audio circuit and it's a long P
+
+---------02:52----------
+P 3 V 4 2 it's sitting right under that
+
+---------02:54----------
+little foam piece on the bottom left
+
+---------02:56----------
+side of the board by the battery
+
+---------02:57----------
+indicator LED and you can't see that
+
+---------02:59----------
+capacitor to see that it's shorted
+
+---------03:01----------
+because it's covered under foam now we
+
+---------03:03----------
+know where it is you can see that
+
+---------03:04----------
+whatever's on the other side of this is
+
+---------03:06----------
+gonna be nasty and if we go to the
+
+---------03:07----------
+schematic and the board view here it's
+
+---------03:08----------
+gonna be one of these capacitors or the
+
+---------03:10----------
+actual audio IC itself so C's 64 10 C
+
+---------03:13----------
+6400 or C 6405 all right let's see am i
+
+---------03:22----------
+taking off the audio I see what the chip
+
+---------03:23----------
+or is that just the folding oh thank god
+
+---------03:25----------
+that's just folding right so I'm
+
+---------03:26----------
+actually just gonna replace all of those
+
+---------03:32----------
+my job title is bum tell you a little
+
+---------03:35----------
+story the joke behind the bum story
+
+---------03:37----------
+everybody got my mom's side of the
+
+---------03:38----------
+family who were Italian hated my dad and
+
+---------03:40----------
+my dad's side of the family but just
+
+---------03:42----------
+just because so my grandma got
+
+---------03:44----------
+Alzheimer's in the early 2000s and by
+
+---------03:48----------
+2009-2010 she didn't recognize her
+
+---------03:50----------
+daughter her son anybody in her family
+
+---------03:53----------
+she didn't know what her name was she
+
+---------03:54----------
+didn't know where she lived
+
+---------03:55----------
+she was completely out of it no brain
+
+---------03:57----------
+whatsoever and I was in the room and she
+
+---------04:00----------
+always used to say over the phone to my
+
+---------04:01----------
+mom when she was well that my dad was a
+
+---------04:04----------
+bum I remember being at my grandma's
+
+---------04:06----------
+house this was about six months before
+
+---------04:08----------
+she died completely out of it brain-dead
+
+---------04:11----------
+she didn't recognize who I was and she
+
+---------04:13----------
+went to smack me when I walked in the
+
+---------04:15----------
+door because she thought that I was a
+
+---------04:16----------
+burglar she didn't recognize my uncle
+
+---------04:18----------
+who was her son because she thought that
+
+---------04:19----------
+he was a burglar she had no idea who
+
+---------04:21----------
+anybody was and then I said my dad's
+
+---------04:23----------
+name
+
+---------04:24----------
+I said Stu and she goes Bob
+
+---------04:26----------
+bum bum I just found this hilarious she
+
+---------04:29----------
+doesn't know who she is
+
+---------04:31----------
+she doesn't know who her kids are she
+
+---------04:32----------
+doesn't know where she lives but that
+
+---------04:34----------
+just pure old-school Italian hatred for
+
+---------04:37----------
+your in-laws managed to survive enough
+
+---------04:39----------
+through eleven years of Alzheimer's so
+
+---------04:41----------
+that she was able to yell bum when I
+
+---------04:44----------
+said my dad's name so when my family we
+
+---------04:46----------
+have an inside joke when somebody asks
+
+---------04:48----------
+what is your job
+
+---------04:49----------
+so I joke and when my dad is asked by
+
+---------04:52----------
+people what do I do
+
+---------04:54----------
+he says he's a bum just like me but
+
+---------04:56----------
+there's that story so yes my job is that
+
+---------04:59----------
+I'm a bum anyway gotta love having
+
+---------05:01----------
+Italian and lost so what I'm gonna do
+
+---------05:03----------
+here is remove c64 ten c64 hundred and
+
+---------05:07----------
+c64 or five
+
+---------06:32----------
+see
+
+---------07:00----------
+I just fixed a 31:15 today with no
+
+---------07:02----------
+Ethernet you 3900 just die randomly no
+
+---------07:05----------
+liquid-like who uses Ethernet I use
+
+---------07:07----------
+Ethernet I only get 30 to 40 megabytes a
+
+---------07:10----------
+second over a Wi-Fi AC but I get however
+
+---------07:16----------
+I can get I can stop it I can get the
+
+---------07:21----------
+actual hundred megabytes a second on yr
+
+---------07:27----------
+so if I'm transferring the videos that I
+
+---------07:29----------
+record here to my laptop to edit I plug
+
+---------07:32----------
+that in because I want to be able to go
+
+---------07:33----------
+at full speed
+
+---------07:37----------
+[Music]
+
+---------07:47----------
+so
+
+---------07:58----------
+tada and it works so that's it for that
+
+---------08:02----------
+board and as always I hope you learn
+
+---------08:04----------
+something
+

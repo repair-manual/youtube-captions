@@ -1,0 +1,649 @@
+https://www.youtube.com/watch?v=VB8RrxbNqU8
+---------00:00----------
+hi today we're gonna fix yet another
+
+---------00:03----------
+dead MacBook here we have an a 1706
+
+---------00:06----------
+macbook pro touch bar that's not turning
+
+---------00:08----------
+on this is one of those machines that
+
+---------00:10----------
+has USB C ports in the side of the
+
+---------00:11----------
+machine it's known for things like it's
+
+---------00:13----------
+soldered on SSD sending 52 volts of the
+
+---------00:15----------
+CPU because the CPU data line is right
+
+---------00:17----------
+next to the backlight power line and the
+
+---------00:19----------
+keyboard dying for no reason as well as
+
+---------00:21----------
+being one of the only laptops made in
+
+---------00:23----------
+modern times that was recalled because
+
+---------00:25----------
+opening and closing the machine will
+
+---------00:28----------
+kill it
+
+---------00:28----------
+one of Apple's best works let's open it
+
+---------00:31----------
+up and see what's wrong with it okay
+
+---------00:41----------
+let's see how many amps this thing is
+
+---------00:46----------
+taking
+
+---------00:53----------
+it's taking 20 mil amps at 20 volts so
+
+---------00:58----------
+the cd32 15 is do appear to be
+
+---------01:00----------
+communicating but it's not turning on
+
+---------01:03----------
+now the next thing that I would do at
+
+---------01:05----------
+this point is check one of the primary
+
+---------01:07----------
+voltages which would just so happen to
+
+---------01:09----------
+be our pp bus now remember these that
+
+---------01:12----------
+thing is not going to show you the
+
+---------01:13----------
+amperage taken because the power supply
+
+---------01:15----------
+is not actually being used here and so
+
+---------01:16----------
+I'm just gonna close that program since
+
+---------01:18----------
+having it open is pointless if I don't
+
+---------01:20----------
+have the power supply attached to the
+
+---------01:21----------
+USBC cable because that that takes that
+
+---------01:24----------
+that's too confusing for me so I use
+
+---------01:26----------
+this little USB C ammeter with an apple
+
+---------01:28----------
+charger
+
+---------01:30----------
+one of the few Apple products I own
+
+---------01:32----------
+makes me sick to my stomach you know it
+
+---------01:35----------
+looks like our pp bus is 12 volts and it
+
+---------01:41----------
+also looks like somebody has arrived
+
+---------01:42----------
+that may have my food is that a man with
+
+---------01:48----------
+my food it looks like our pp bus is
+
+---------01:52----------
+indeed short-circuit it's a ground so
+
+---------01:54----------
+what do I mean when I say pp bus well if
+
+---------01:57----------
+we open up a schematic for the 8 to 0-0
+
+---------02:00----------
+0 to 3 9 board for the a 1706 MacBook
+
+---------02:04----------
+Pro you'll see that there's a bunch of
+
+---------02:06----------
+power rails pp bus is the voltage that
+
+---------02:09----------
+comes from the battery it's all the
+
+---------02:10----------
+voltage that goes to the battery now if
+
+---------02:12----------
+we take a look at just the PDF you'll
+
+---------02:14----------
+see that there's a page on the schematic
+
+---------02:15----------
+that has the list of power rails now
+
+---------02:18----------
+since I had my since while I turned the
+
+---------02:21----------
+when I plugged the charger in it was
+
+---------02:23----------
+giving me 20 volts I know that the main
+
+---------02:27----------
+rail that I need for this to work
+
+---------02:28----------
+PP 3v3 underscore g3 hot is go on
+
+---------02:31----------
+because if that rail was not on the cd32
+
+---------02:34----------
+15 would not be able to negotiate with
+
+---------02:36----------
+the charger that tell the charger to put
+
+---------02:37----------
+out 20 volts rather than 5 volts and I
+
+---------02:39----------
+talked about that in my prior videos
+
+---------02:41----------
+where I talked about the importance of
+
+---------02:42----------
+pp 3 V 3 underscore g3 hot that's that
+
+---------02:45----------
+set so the next rail after that is going
+
+---------02:47----------
+to be our pp bus and our PV bus is 0.4
+
+---------02:49----------
+volts it's also about 9 to 10 on short
+
+---------02:51----------
+to ground now this may be similar to one
+
+---------02:53----------
+of the videos that high probably has in
+
+---------02:55----------
+his editing queue right now most likely
+
+---------02:57----------
+on this board what winds up happening is
+
+---------02:59----------
+one of those little tantalum capacitors
+
+---------03:00----------
+decides to itself and explode and
+
+---------03:02----------
+we're gonna see if the same thing has
+
+---------03:04----------
+happened
+
+---------03:04----------
+you don't really even need a thermal
+
+---------03:06----------
+camera to find these shorts because they
+
+---------03:07----------
+wind up being so damn obvious pilot
+
+---------03:20----------
+pilot pilot where are we flying
+
+---------03:44----------
+all right let's see if we can find the
+
+---------03:45----------
+cause of the short circuit on this
+
+---------03:46----------
+MacBook over here
+
+---------04:30----------
+what's different read our main two to
+
+---------04:32----------
+three and NC five five nine and see five
+
+---------04:34----------
+five nine is what cool people use and
+
+---------04:36----------
+our ma two to three is what squares use
+
+---------04:39----------
+are you a square square be a bro
+
+---------04:59----------
+see this is something that's really
+
+---------05:00----------
+interesting about these machines now the
+
+---------05:02----------
+a 1706 in particular is a lot of the
+
+---------05:06----------
+dead boards on these are not really
+
+---------05:08----------
+water at this point they're just like
+
+---------05:10----------
+just sodomized capacitors and look at
+
+---------05:14----------
+this what is that what this this is
+
+---------05:20----------
+happening regularly on live streams now
+
+---------05:22----------
+so this is a cap a PV bus s5 CPU yeah
+
+---------05:28----------
+this is a polymer tantalum see what's
+
+---------05:31----------
+going on with this this thing 33
+
+---------05:40----------
+microfarad 16 volt and slim paulo so
+
+---------05:43----------
+this cap is made for 16 volts pp bus on
+
+---------05:46----------
+this machine is 12 volts and think
+
+---------05:47----------
+there's no water damage here I mean you
+
+---------05:49----------
+may tell me that this stuff here is
+
+---------05:51----------
+water but it's not this is just this
+
+---------05:53----------
+capacitor exploding I mean look at this
+
+---------05:57----------
+this is the machine that looks like it's
+
+---------05:59----------
+been treated pretty well on the outside
+
+---------06:01----------
+it looks nice on the inside it looks
+
+---------06:03----------
+nice you know there's no corrosion no
+
+---------06:05----------
+liquid no bugs what is this stuff houses
+
+---------06:17----------
+I mean I'm not gonna continue looking
+
+---------06:20----------
+through the board because that would be
+
+---------06:21----------
+a total waste of time how often does
+
+---------06:25----------
+this happen to your ThinkPad hi hi
+
+---------06:28----------
+how often do is open up your think pad
+
+---------06:30----------
+and it looks like this Hey
+
+---------06:35----------
+okay I did this to your USB port I sent
+
+---------06:39----------
+48 volts the high is USB port but we
+
+---------06:42----------
+don't talk about that
+
+---------06:44----------
+[Music]
+
+---------06:53----------
+on the desk I'm sitting in the worst
+
+---------06:55----------
+possible spot because that little noise
+
+---------06:57----------
+that the iron makes the speaker's
+
+---------07:00----------
+pointing right at my ear that are you
+
+---------07:05----------
+yeah this thing looks like it was welded
+
+---------07:06----------
+onto the board
+
+---------07:07----------
+Jesus well you can get this thing off
+
+---------07:12----------
+without using too much hotter there
+
+---------07:14----------
+can't we all right yeah give a little
+
+---------07:21----------
+bit of flux a little bit of wick this is
+
+---------07:24----------
+an e 1706 13.3 inch macbook pro touch
+
+---------07:30----------
+bar from 2016 with an 8 to 0-0 0 to 3 9
+
+---------07:36----------
+board but the SSD soldered onto the
+
+---------07:41----------
+board
+
+---------07:42----------
+[Music]
+
+---------08:04----------
+[Music]
+
+---------08:49----------
+now I don't move the q-tip I'm not gonna
+
+---------08:53----------
+shove it back and forth I like to roll
+
+---------08:55----------
+it so that the fibers if the fibers
+
+---------08:56----------
+happen to come off
+
+---------08:57----------
+I want the fibers to wind up wrapping
+
+---------09:00----------
+themselves around the q-tip rather than
+
+---------09:01----------
+going into the board that's my strategy
+
+---------09:04----------
+here
+
+---------09:26----------
+and dry that off
+
+---------09:29----------
+you notice the heat of the iron makes
+
+---------09:32----------
+[Music]
+
+---------09:33----------
+make it melt
+
+---------09:38----------
+now this is a really dangerous place to
+
+---------09:41----------
+use hot air it's right next to the
+
+---------09:42----------
+screen cable and everything
+
+---------09:44----------
+[Music]
+
+---------09:56----------
+[Music]
+
+---------10:02----------
+[Music]
+
+---------10:05----------
+Blair's a cleaning lady that comes once
+
+---------10:07----------
+a week you know I used to have a
+
+---------10:10----------
+cleaning lady and I came regularly I
+
+---------10:13----------
+haven't even had time to schedule but I
+
+---------10:15----------
+do need to do that because my place is
+
+---------10:17----------
+starting to look a little holy from
+
+---------10:19----------
+all the time at work
+
+---------10:24----------
+[Music]
+
+---------10:26----------
+I'm working with someone on getting my
+
+---------10:28----------
+training manual in order they can go
+
+---------10:31----------
+back to the good ol work-life balance
+
+---------10:32----------
+thing we have you know person I used to
+
+---------10:40----------
+do the customer service has been fairly
+
+---------10:42----------
+reluctant to put into we're writing what
+
+---------10:44----------
+there is to do
+
+---------11:09----------
+[Music]
+
+---------11:16----------
+[Music]
+
+---------11:57----------
+[Music]
+
+---------12:12----------
+you see if this thing turns on in a
+
+---------12:14----------
+moment just gonna have it wrap it cool
+
+---------12:43----------
+hey now if we plug in the USB si amp
+
+---------12:48----------
+meter we're getting nine hundred
+
+---------12:52----------
+milliamps which means that it is indeed
+
+---------12:55----------
+booting it's working and if we check our
+
+---------12:58----------
+PP bus the most important things you
+
+---------13:01----------
+should check every single day when you
+
+---------13:02----------
+wake up you'll see that our pp bus
+
+---------13:07----------
+voltage is a happy 13 volts so what was
+
+---------13:11----------
+wrong with this math book well this
+
+---------13:14----------
+MacBook decided to spontaneously combust
+
+---------13:16----------
+perhaps it was sick and tired of being a
+
+---------13:18----------
+MacBook and did the honorable thing but
+
+---------13:22----------
+we did drag it kicking and screaming
+
+---------13:24----------
+back to life now it works and that's the
+
+---------13:27----------
+issue this is something that I see
+
+---------13:28----------
+happening more and more with these a
+
+---------13:30----------
+1706 --is no liquid damage no drop no
+
+---------13:34----------
+scratching no scuffs just and it's
+
+---------13:37----------
+really interesting how the caps in that
+
+---------13:39----------
+specific circuits it's always the same
+
+---------13:40----------
+ones it's always one of the ones that's
+
+---------13:42----------
+either over here or over here it's
+
+---------13:47----------
+always the same - and it's interesting
+
+---------13:50----------
+that's always the same area I'm kind of
+
+---------13:51----------
+curious to figure out why
+
+---------13:54----------
+especially when it's you know just not
+
+---------13:57----------
+no liquid no nothing just poof I got a
+
+---------14:03----------
+lot of renovations that I have to do
+
+---------14:04----------
+around this place mic transmitter
+
+---------14:07----------
+doesn't work anymore how to get myself a
+
+---------14:09----------
+new air conditioner I have to make the
+
+---------14:13----------
+wall over here look a little bit nicer
+
+---------14:15----------
+change up the customer area a little bit
+
+---------14:17----------
+get a table for the zamo redo the
+
+---------14:20----------
+basement maybe eventually rent a larger
+
+---------14:24----------
+space once they're available all these
+
+---------14:26----------
+things require money but as long as
+
+---------14:28----------
+Apple is in business as long as they
+
+---------14:31----------
+design stuff like this I've got nothing
+
+---------14:35----------
+to worry about
+
+---------14:35----------
+that's it for today and as always I hope
+
+---------14:38----------
+you learned something
+

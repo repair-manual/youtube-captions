@@ -1,0 +1,733 @@
+https://www.youtube.com/watch?v=dZtrK9bNckI
+---------00:00----------
+here we have yet another MacBook this
+
+---------00:02----------
+MacBook has no power it needs to be
+
+---------00:04----------
+fixed this is an a 1398 MacBook let's
+
+---------00:07----------
+open this MacBook up and figure out
+
+---------00:08----------
+what's wrong with it it's 2:45 in the
+
+---------00:10----------
+morning and we're gonna fix a MacBook
+
+---------00:12----------
+this is an 8 to 0 de 33:32 board they
+
+---------00:16----------
+say it doesn't turn on but is that
+
+---------00:17----------
+really the case something tells me
+
+---------00:19----------
+you're a you 8900 issue masquerading as
+
+---------00:21----------
+a no power nope
+
+---------00:22----------
+you are indeed ed 30 milliamps taken no
+
+---------00:25----------
+turning on let's get to the bottom of
+
+---------00:27----------
+this so I'm plug everything from this
+
+---------00:29----------
+MacBook and see why it doesn't want to
+
+---------00:31----------
+turn on going home is going to suck it
+
+---------00:33----------
+as a straight up freezer outside this
+
+---------00:36----------
+takes a hundred milliamps
+
+---------00:37----------
+ok so 100 milliamps typically that's PP
+
+---------00:39----------
+but g3 hot missing or else's power good
+
+---------00:41----------
+missing one way to find out where the
+
+---------00:44----------
+problem here lies let's check through
+
+---------00:47----------
+our power rails and see what we have
+
+---------00:49----------
+let's get to Paul Daniel software
+
+---------00:50----------
+running pray that it works today our pp
+
+---------00:53----------
+best g3 hot is twelve point six o clock
+
+---------00:58----------
+voltage three point three PP v vs v 5.0
+
+---------01:04----------
+PP v vs 4 5 volts ok let's skip ahead
+
+---------01:10----------
+and check out PP v vs o let's see if
+
+---------01:15----------
+we're making it to an Esso state PP v vs
+
+---------01:19----------
+o present alright so we're in an Esso
+
+---------01:23----------
+state meaning we're gonna be missing one
+
+---------01:25----------
+of the s o rails so let's go through and
+
+---------01:27----------
+see if all says power good is present
+
+---------01:29----------
+because all says power good is going to
+
+---------01:31----------
+be present when all the rails that I
+
+---------01:34----------
+need to get CPU vcore are there so the
+
+---------01:37----------
+way this works is g3 hard with the rails
+
+---------01:38----------
+that always have to be present as five
+
+---------01:40----------
+of the rails present unsought off as for
+
+---------01:43----------
+the rails president when it is suspended
+
+---------01:44----------
+to disk as three of the rails that are
+
+---------01:46----------
+present when it suspend - Ram has over
+
+---------01:49----------
+the panel rails that have to be present
+
+---------01:50----------
+for the machine to be on so for example
+
+---------01:52----------
+a power rail to allow the machine to
+
+---------01:54----------
+charge would be considered a g3 hot rail
+
+---------01:56----------
+a rail that's on all the time because
+
+---------01:58----------
+even if your computer is completely
+
+---------01:59----------
+turned off you want it to be able to
+
+---------02:00----------
+charge whereas a rail for LCD backlight
+
+---------02:04----------
+would be an Sol because you don't need
+
+---------02:06----------
+the light of the screen to be on when
+
+---------02:07----------
+the machine is sleeping hibernating or
+
+---------02:09----------
+off but you do need to be on when it's
+
+---------02:11----------
+on so we're going to scroll over to the
+
+---------02:12----------
+list of
+
+---------02:13----------
+rales after we actually first know even
+
+---------02:16----------
+better than that would be to check out
+
+---------02:17----------
+the all see our good circuit I'm gonna
+
+---------02:20----------
+go here and see which rails are missing
+
+---------02:23----------
+in what I'm need so let's take a look so
+
+---------02:27----------
+we need PP 5 ves let's see pp 3 V 3 s oh
+
+---------02:31----------
+let's check that one and see if P P 3 v
+
+---------02:34----------
+3s I was present I'm gonna go through
+
+---------02:35----------
+every single one of these and measure
+
+---------02:38----------
+each of them because if all these rails
+
+---------02:40----------
+are not present the machine will not
+
+---------02:41----------
+turn on all right we got I think we've
+
+---------02:44----------
+got 5 or 6 boards working tonight and
+
+---------02:46----------
+one that I wasn't able to fix so this is
+
+---------02:48----------
+going pretty well I'm gonna keep going
+
+---------02:49----------
+as long as my slowest by luck continues
+
+---------02:53----------
+as long as I continue to get lucky I
+
+---------02:55----------
+don't get lucky very often I would be
+
+---------02:57----------
+expecting VP 3 V 3 s Oh on this pad over
+
+---------03:00----------
+here and that is present so the next up
+
+---------03:04----------
+is going to be PP u 1 V 5 PP 1 v 5s oh
+
+---------03:11----------
+okay let's let's find you so I would
+
+---------03:16----------
+expect to find you where show me show me
+
+---------03:24----------
+show me show me show me show me
+
+---------03:32----------
+Paul what the why don't we not have a
+
+---------03:35----------
+line going through every single part
+
+---------03:37----------
+that it supposed to that's one of the
+
+---------03:39----------
+features of this program the core
+
+---------03:40----------
+features can't get anything to work
+
+---------03:43----------
+right here
+
+---------03:44----------
+pp 1 B 5 underscore s oh okay so I
+
+---------03:50----------
+double click I hit search and which pad
+
+---------03:55----------
+is it fall so this one is it this one is
+
+---------03:57----------
+it this one is it this one tough Paul is
+
+---------04:00----------
+planting bugs in this software
+
+---------04:02----------
+while I sleep I'm gonna guess that what
+
+---------04:04----------
+I'm looking for is over here I say guess
+
+---------04:07----------
+because you can never be certain when it
+
+---------04:10----------
+comes to Paul Daniels and Australian
+
+---------04:12----------
+software can never be certain one point
+
+---------04:17----------
+35 volts is there
+
+---------04:19----------
+next up P P 1 vo 5s o 1 P P 1 vo 5 s o
+
+---------04:24----------
+is present okay next okay next up p1 v5
+
+---------04:29----------
+SOP good
+
+---------04:31----------
+p1 v8 SOP good around cp1 viateur so P P
+
+---------04:37----------
+we're closed
+
+---------04:38----------
+ 3m you bastard get the out
+
+---------04:45----------
+of my store 1.8 volts all right next up
+
+---------04:51----------
+P 5 vs 4 P good we have that I already
+
+---------04:53----------
+checked that one
+
+---------04:54----------
+I had CPU VCC io v CC IO
+
+---------05:31----------
+I comes out of you 7600 you 7600 let's
+
+---------05:38----------
+see so I can see if I'm getting that on
+
+---------05:42----------
+all right 7640 that's supposed to be one
+
+---------05:47----------
+point zero five volts and I can measure
+
+---------05:50----------
+the output of that on pins two and four
+
+---------05:52----------
+but you're gonna be over here that's
+
+---------06:00----------
+there okay next up pc h vc cio okay what
+
+---------06:04----------
+rail is this that's something I could
+
+---------06:07----------
+measure here are ninety eight forty I'm
+
+---------06:10----------
+tense 103 it's one point zero five volts
+
+---------06:15----------
+as I expected it all right I think
+
+---------06:17----------
+there's only one more rail left here
+
+---------06:36----------
+then we have PPV CCS Oh reg and this
+
+---------06:46----------
+little current sensing resistor right
+
+---------06:49----------
+over here is where I can measure it okay
+
+---------06:57----------
+I think we have our answer
+
+---------06:59----------
+this is the rail that's missing so the
+
+---------07:02----------
+rail that's missing is PPV si si si s o
+
+---------07:05----------
+reg that's created by you
+
+---------07:08----------
+7100 you 7100 can be found on the board
+
+---------07:14----------
+let's see where do we find you you 7100
+
+---------07:18----------
+show us yourself that can be found over
+
+---------07:23----------
+here and this chip is going to be
+
+---------07:27----------
+enabled by P PVC PVC si si enable which
+
+---------07:31----------
+is going to be on pin 15 which is gonna
+
+---------07:33----------
+be up here so let's see if our enable is
+
+---------07:36----------
+probably no enable wait no that's not
+
+---------07:44----------
+the enable this is the enable okay we do
+
+---------07:46----------
+have enabled so enable is present output
+
+---------07:49----------
+is not all right that's what I would
+
+---------07:53----------
+expect this is going to the CPU after
+
+---------07:56----------
+all so 8 ohms the ground that's not a
+
+---------07:57----------
+short-circuit it's just normal
+
+---------07:59----------
+nano Q 70 100 is gonna be responsible
+
+---------08:01----------
+for making that here Hugh 70 100 looks
+
+---------08:05----------
+pretty Hardy I wouldn't say that there's
+
+---------08:07----------
+much wrong with this but there is an
+
+---------08:09----------
+issue it could be potentially that I
+
+---------08:11----------
+have an issue with this IC itself and
+
+---------08:13----------
+this is right along that fault lines you
+
+---------08:15----------
+have you 8900 here and then this chip
+
+---------08:19----------
+over here so you never know so we're
+
+---------08:21----------
+gonna do is we're gonna replace that
+
+---------08:22----------
+with another one
+
+---------08:30----------
+notice these are the good tweezers I
+
+---------08:32----------
+just found them
+
+---------08:38----------
+I've often dreamed of fixing a Macbook
+
+---------08:40----------
+actually Jonathan there are many times
+
+---------08:42----------
+in the beginning when I first started
+
+---------08:44----------
+out that I would spend hours on a
+
+---------08:47----------
+machine get nowhere and then I go home
+
+---------08:49----------
+might go to sleep
+
+---------08:50----------
+I'd have a dream and my in my dream I
+
+---------08:52----------
+went over the problem and then fixed it
+
+---------08:54----------
+and then I got back to the I would ride
+
+---------08:56----------
+my bike to the store at 3:00 or 4:00 in
+
+---------08:58----------
+the morning because I couldn't wait till
+
+---------08:59----------
+the next day to see if that solution if
+
+---------09:01----------
+I end up being the solution that worked
+
+---------09:03----------
+and fix the macbook and oftentimes it
+
+---------09:05----------
+did I've come up with some of my best
+
+---------09:07----------
+fixes in a dream
+
+---------09:59----------
+now it's time to see if we get fan spin
+
+---------10:02----------
+as you can see we have fan spin now
+
+---------10:08----------
+seeing that this is an eight to zero
+
+---------10:09----------
+dash 33:32 it's likely going to have GPU
+
+---------10:12----------
+kernel panics if we don't reflow the you
+
+---------10:14----------
+8900 area so I will get to that right
+
+---------10:16----------
+now and then we will call it a day since
+
+---------10:19----------
+that will be it yet another fixed
+
+---------10:21----------
+macbook those are some of the worst
+
+---------10:23----------
+solder joints I've ever seen in my life
+
+---------10:25----------
+typical quality for Apple and good stuff
+
+---------10:30----------
+good stuff
+
+---------10:36----------
+so once is there genuinely concerned for
+
+---------10:38----------
+my health well the purpose of health is
+
+---------10:42----------
+to be able to fix a Macbook so why not
+
+---------10:46----------
+just skip over the health part and just
+
+---------10:47----------
+get to the fixing MacBooks that's what I
+
+---------10:50----------
+figured
+
+---------10:54----------
+my health is worthless however my
+
+---------10:58----------
+macbook repair team is worth quite a bit
+
+---------11:04----------
+customers could give a crap less if I'm
+
+---------11:07----------
+healthy but they care about is that
+
+---------11:09----------
+their MacBook is fixed in a reasonable
+
+---------11:11----------
+timeframe
+
+---------11:14----------
+okay
+
+---------11:29----------
+beautiful
+
+---------11:38----------
+[Music]
+
+---------11:39----------
+that's quality so it looks like this
+
+---------11:42----------
+power rail for PPV CCSA the chip that
+
+---------11:45----------
+was supposed to be creating it was not
+
+---------11:47----------
+that is along the fault line of where
+
+---------11:50----------
+the u 8900 trip breaks on this board as
+
+---------11:52----------
+well where this board is constantly
+
+---------11:54----------
+flexing this board goes into a case
+
+---------11:56----------
+where it's flexing all the time so it
+
+---------11:58----------
+may have just needed to be reshot or not
+
+---------12:00----------
+replaced but i figure you know might as
+
+---------12:01----------
+well and it went working again we were
+
+---------12:04----------
+able to find it by checking all the
+
+---------12:06----------
+rails that are supposed to be present in
+
+---------12:08----------
+the AUSA's power good sequence all says
+
+---------12:10----------
+power good is what was required to get
+
+---------12:12----------
+the CPU to work and everything else
+
+---------12:13----------
+typically if you're in an Esso state but
+
+---------12:15----------
+one rail is missing you want to go
+
+---------12:16----------
+through the list of rails required for
+
+---------12:18----------
+also power good to be present in that
+
+---------12:19----------
+machine to figure out what's wrong with
+
+---------12:22----------
+it so that's it for this one and as
+
+---------12:24----------
+always I hope you learned something it
+
+---------12:26----------
+is 3:15 in the morning which means it's
+
+---------12:28----------
+time to fix yet another MacBook but
+
+---------12:30----------
+you'll have to wait until the next video
+
+---------12:31----------
+to check that one out
+
+---------12:40----------
+you
+
+---------12:48----------
+do you have a Macbook that needs to be
+
+---------12:49----------
+fixed come by our store which is open to
+
+---------12:52----------
+the public at 186 First Avenue in
+
+---------12:54----------
+Manhattan are you located outside of New
+
+---------12:56----------
+York no problem
+
+---------12:57----------
+send us a machine from anywhere in the
+
+---------12:59----------
+world by going to our website and
+
+---------13:01----------
+clicking on the mailbox or simply
+
+---------13:03----------
+heading over to send your macbook comm
+
+---------13:05----------
+that send your macbook comm will you be
+
+---------13:08----------
+redirected to our mail and instructions
+
+---------13:10----------
+page that includes the form and the
+
+---------13:13----------
+directions on how to send us a Macbook
+
+---------13:15----------
+for repair we have a live chat where you
+
+---------13:18----------
+can speak with us about the repair that
+
+---------13:19----------
+you need a phone number where a
+
+---------13:21----------
+representative will pick up during our
+
+---------13:22----------
+open hours and a contact form where you
+
+---------13:25----------
+can contact us about repairs
+

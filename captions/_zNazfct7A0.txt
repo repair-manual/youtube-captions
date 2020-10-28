@@ -1,0 +1,1414 @@
+https://www.youtube.com/watch?v=_zNazfct7A0
+---------00:00----------
+alright so today we're going to be going
+
+---------00:01----------
+over a macbook pro retina that is not
+
+---------00:03----------
+sleeping when you close the lid after a
+
+---------00:06----------
+liquid spill we're going to go through
+
+---------00:07----------
+how you would troubleshoot something
+
+---------00:09----------
+like this and I got lucky here but we're
+
+---------00:12----------
+also going to go over some of my
+
+---------00:14----------
+frustration with Apple I no surprise
+
+---------00:16----------
+ surprise that I have something
+
+---------00:18----------
+bad to say about Apple on this channel
+
+---------00:21----------
+so one of the things that you should
+
+---------00:23----------
+understand is that there is a signal
+
+---------00:25----------
+called smc underscore lid when this
+
+---------00:28----------
+signal is asserted okay to be you know I
+
+---------00:31----------
+should have looked this up before I did
+
+---------00:33----------
+this I obviously don't even remember I
+
+---------00:35----------
+think the way that this works is when
+
+---------00:37----------
+this is the lid the signal is high it
+
+---------00:40----------
+thinks that the screen is not closed and
+
+---------00:42----------
+not closed and when the signal is low it
+
+---------00:46----------
+thinks the screen is closed or the other
+
+---------00:48----------
+way around to be honest with you I don't
+
+---------00:50----------
+even remember because I have this
+
+---------00:51----------
+problem very very rarely i think i can
+
+---------00:55----------
+actually look this up let's take a look
+
+---------00:56----------
+and see if i look this up smc underscore
+
+---------01:01----------
+lid on an older board it'll probably
+
+---------01:06----------
+tell me here here we go lid open
+
+---------01:08----------
+three-point 42 volts lid closed 0.5
+
+---------01:11----------
+volts so low the lid is closed high the
+
+---------01:14----------
+lid is open so let's take a look at this
+
+---------01:18----------
+on the schematic over here so what I do
+
+---------01:20----------
+is I go through smc lid and I try to
+
+---------01:23----------
+figure out what the sleep sensor is
+
+---------01:24----------
+because on these newer machines the
+
+---------01:26----------
+sleep center is integrated into the
+
+---------01:27----------
+motherboard itself and here we have a
+
+---------01:29----------
+hall sensor or lid sensor it used to be
+
+---------01:32----------
+called the hall sensor on really really
+
+---------01:34----------
+old laptops I'm not sure if you guys
+
+---------01:36----------
+remember back that far I know I got a
+
+---------01:38----------
+lot of new young subscribers on this
+
+---------01:39----------
+channel laptops used to have that little
+
+---------01:41----------
+thing that sticks up out of it right by
+
+---------01:43----------
+the top of the keyboard this little this
+
+---------01:45----------
+point and if you pressed it it would
+
+---------01:47----------
+actually put the laptop to sleep it was
+
+---------01:49----------
+a used to be a physical sense or before
+
+---------01:51----------
+they had magnets and all that to do the
+
+---------01:53----------
+job but now they have a magnet to do the
+
+---------01:56----------
+job and they have this little hall
+
+---------01:57----------
+sensor so if we go back to the schematic
+
+---------01:59----------
+here you can see it in the drawing so
+
+---------02:01----------
+this is what I'm going to guess the hall
+
+---------02:03----------
+sensor because it says Hall dash sensor
+
+---------02:05----------
+which come on now obvious so what's
+
+---------02:08----------
+going on here is smc underscore lid
+
+---------02:11----------
+underscore are as a signal that comes
+
+---------02:12----------
+from the hall sensor
+
+---------02:14----------
+and then it goes through the zero ohm
+
+---------02:15----------
+resistor where it then becomes smc lid
+
+---------02:19----------
+and smc lid is going to go straight to
+
+---------02:26----------
+the SMC again big surprise their smc
+
+---------02:29----------
+underscore lid what do you think manages
+
+---------02:31----------
+the machine knowing if it's open or
+
+---------02:33----------
+closed with the signal line named smc
+
+---------02:35----------
+underscore lid the SMC sm c stands for
+
+---------02:38----------
+system management role now if we were to
+
+---------02:41----------
+go over to this beautiful new board view
+
+---------02:43----------
+software that somebody put together for
+
+---------02:44----------
+me thank you so much by the way I really
+
+---------02:46----------
+appreciate this and we look for our 5250
+
+---------02:52----------
+this new board view they see can you see
+
+---------02:57----------
+what I see yeah you can you'll see that
+
+---------02:59----------
+it's right over here now if we go over
+
+---------03:01----------
+to the microscope alright so I up
+
+---------03:04----------
+my my my open broadcaster scene so I'm
+
+---------03:07----------
+overdubbing this after the fact so I
+
+---------03:09----------
+didn't notice that I wasn't recording
+
+---------03:10----------
+audio so the first thing that you're
+
+---------03:12----------
+going to notice if I go to this area
+
+---------03:13----------
+where smc lid is around where what this
+
+---------03:16----------
+thing over here which is what i can
+
+---------03:17----------
+assume the sleep sensor is the thing is
+
+---------03:18----------
+copyright 2010 i'm assuming that's the
+
+---------03:21----------
+sleep sensor and when you zoom in you're
+
+---------03:22----------
+going to notice that it looks like
+
+---------03:24----------
+there's a resistor next to that
+
+---------03:25----------
+capacitor that is missing and if you
+
+---------03:27----------
+take a look you can really see where the
+
+---------03:29----------
+damage was because right where this
+
+---------03:31----------
+traces its going to a probe pad that's
+
+---------03:33----------
+destroyed so I like to think of that as
+
+---------03:36----------
+kind of with a lightning struck when it
+
+---------03:37----------
+comes to liquid damage so anytime I see
+
+---------03:39----------
+that I kind of think that way so what
+
+---------03:40----------
+I'm going to do here is I'm going to
+
+---------03:41----------
+scrape away because you may think that
+
+---------03:43----------
+there's no pad there you may think
+
+---------03:45----------
+there's no pet oh my god I can't solder
+
+---------03:47----------
+this and as soon as you start scraping
+
+---------03:49----------
+away at it what you're going to notice
+
+---------03:50----------
+is that there is actually a pad there
+
+---------03:52----------
+and that there isn't any real serious
+
+---------03:55----------
+problem you can just simply scrape away
+
+---------03:56----------
+once you've scraped away all of the
+
+---------03:58----------
+corrosion then you'll be set and you'll
+
+---------04:01----------
+be able to go over it with some flux and
+
+---------04:04----------
+solder and you'll have what can you know
+
+---------04:06----------
+not really a solder pad but you'll have
+
+---------04:08----------
+something that you can use as a solder
+
+---------04:10----------
+pet now a lot of people in this business
+
+---------04:12----------
+like to talk about things like like like
+
+---------04:15----------
+pad repair kits and I get a lot of
+
+---------04:17----------
+common saying you're not professional
+
+---------04:19----------
+because you're not repairing the pad and
+
+---------04:20----------
+the reality is that the pad repair kits
+
+---------04:23----------
+are the first things first pad repair
+
+---------04:25----------
+kits they're really kind of
+
+---------04:28----------
+bigger devices they're not for devices
+
+---------04:30----------
+that are you know 0201 resistors and
+
+---------04:32----------
+when we're getting down and doing pad
+
+---------04:33----------
+repair on 0201 devices I mean that it's
+
+---------04:37----------
+just not practical for what we're doing
+
+---------04:39----------
+again this is not firstly I would fully
+
+---------04:41----------
+endorse using this method on you know I
+
+---------04:43----------
+would use this on a space shuttle that I
+
+---------04:45----------
+was on seriously but even if we you know
+
+---------04:49----------
+you're paranoid about that this is not a
+
+---------04:50----------
+space shuttle it's a laptop or a cell
+
+---------04:52----------
+phone this is a totally valid way to
+
+---------04:54----------
+repair because by the time you've
+
+---------04:57----------
+actually gone through all the effort to
+
+---------04:59----------
+put a new pad there and you've gone
+
+---------05:00----------
+through all that effort you've taken
+
+---------05:02----------
+away a lot of time and keep in mind a
+
+---------05:04----------
+lot of these jobs they got to be done in
+
+---------05:05----------
+20 to 40 minutes or else it goes in the
+
+---------05:07----------
+trash so if you're in the middle of
+
+---------05:09----------
+troubleshooting I may replace this
+
+---------05:11----------
+component and it may not work so if I
+
+---------05:12----------
+replace this component the minute it
+
+---------05:14----------
+doesn't work that's fine if I spend 40
+
+---------05:16----------
+minutes on 20 minutes or 30 minutes on
+
+---------05:18----------
+one single component then it kind of
+
+---------05:20----------
+stops being practical so you're going to
+
+---------05:22----------
+see what I'm going to do here is I
+
+---------05:23----------
+cleaned it off I scraped it away with my
+
+---------05:25----------
+tweezers and now I'm just going to run
+
+---------05:27----------
+solder and with flux day and you'll see
+
+---------05:29----------
+that I'm scraping because I want to make
+
+---------05:30----------
+sure that I you know I have a nice clean
+
+---------05:33----------
+surface that I'm soldering to and you
+
+---------05:35----------
+may ask why is it that I'm adding so
+
+---------05:37----------
+much Tyler that's ridiculous
+
+---------05:38----------
+well all of that excess is going to
+
+---------05:41----------
+stick to the elbow of my tip so you're
+
+---------05:43----------
+going to notice that my soldering tip
+
+---------05:44----------
+here has an elbow on it is a t15 dash J
+
+---------05:47----------
+so2 from hako and if you notice all the
+
+---------05:51----------
+excess solder it's not going to stay on
+
+---------05:53----------
+the board you're not gonna have a clump
+
+---------05:54----------
+of solder it's all going to get sucked
+
+---------05:56----------
+up onto that tip so what I'm doing there
+
+---------05:57----------
+is what the the flux is doing its pretty
+
+---------06:00----------
+much kind of cleaning the board and you
+
+---------06:02----------
+also have that big vat of solder we're
+
+---------06:04----------
+pretty much any dirt or any junk is
+
+---------06:05----------
+getting sucked into that vat of solder
+
+---------06:07----------
+that's going on in my tip so what I wind
+
+---------06:09----------
+up with once I clean the flux away is to
+
+---------06:12----------
+very clean quote pads end quote where
+
+---------06:16----------
+you're going to see here and it looks
+
+---------06:17----------
+like we're getting very close to the
+
+---------06:19----------
+part where I was not an idiot and I
+
+---------06:21----------
+actually have audio so since we're
+
+---------06:23----------
+getting very close to that part I can
+
+---------06:25----------
+now turn this microphone off yay he is
+
+---------06:30----------
+back in action I did fine I did send it
+
+---------06:33----------
+to them this was two hundred ninety
+
+---------06:35----------
+bucks that's the discounted rate so two
+
+---------06:39----------
+hundred ninety dollars was the
+
+---------06:41----------
+discounted rate to get this
+
+---------06:44----------
+thing back but you know what that's
+
+---------06:46----------
+totally fine by me I didn't get a new
+
+---------06:48----------
+nozzle my nozzle looks like because
+
+---------06:49----------
+it keeps dropping one thing you know the
+
+---------06:52----------
+hack Oh was a piece of crap compared to
+
+---------06:54----------
+the JBC there's no there's no way around
+
+---------06:55----------
+I mean like it was just much worse in
+
+---------06:58----------
+many ways but the one thing I liked
+
+---------06:59----------
+about is it didn't fall off the desk
+
+---------07:00----------
+this little stand that the JBC comes
+
+---------07:03----------
+with like it is so easy to knock this
+
+---------07:05----------
+ off the table it's ridiculous look
+
+---------07:07----------
+as whoops so what happens is the nozzle
+
+---------07:10----------
+of this $2,000 instrument winds
+
+---------07:12----------
+up falling onto the floor over and over
+
+---------07:13----------
+again and getting just destroyed I like
+
+---------07:16----------
+the hack off for having the nice side
+
+---------07:17----------
+mount so let's get started here with
+
+---------07:19----------
+this I'm going to stop bitching about
+
+---------07:20----------
+the JBC it's just one thing to think
+
+---------07:22----------
+about because again this thing is 2,000
+
+---------07:24----------
+ dollars it would be nice if this
+
+---------07:25----------
+little hold it over here we're worth
+
+---------07:27----------
+more than ten bucks but it feels nice
+
+---------07:30----------
+it's like it's not it's not light it's
+
+---------07:31----------
+just the way that this is put together
+
+---------07:32----------
+it's just designed to leverage it in a
+
+---------07:35----------
+manner where it's always going to fall
+
+---------07:37----------
+off the table and I didn't realize you
+
+---------07:41----------
+know just how much better this was in
+
+---------07:42----------
+the hako until honestly I mean I knew it
+
+---------07:45----------
+was better but I didn't realize just how
+
+---------07:47----------
+by leaps and bounds it was until I tried
+
+---------07:50----------
+to remove an smc with the hack oh and
+
+---------07:51----------
+six minutes in the smc wasn't off the
+
+---------07:53----------
+board I was able to give the thing a
+
+---------07:56----------
+reflow temperature within 45 seconds
+
+---------07:58----------
+with the jbc now you can't say anything
+
+---------08:00----------
+can you alright and we're back to the
+
+---------08:02----------
+part where I had no audio because I'm a
+
+---------08:04----------
+ that forgot how to use open
+
+---------08:06----------
+broadcaster so what i'm doing here is
+
+---------08:07----------
+i'm also going to remove that capacitor
+
+---------08:09----------
+on the left the capacitor itself is
+
+---------08:11----------
+probably fine that's cosmetic damage
+
+---------08:12----------
+it's a little bit of wear and tear to be
+
+---------08:14----------
+honest if they don't wind up you know
+
+---------08:16----------
+spilling something again that cap
+
+---------08:18----------
+probably could have been reused this is
+
+---------08:20----------
+just me having a bit of OCD me and yeah
+
+---------08:23----------
+but that's we're going to replace that
+
+---------08:25----------
+and same general procedure too much flux
+
+---------08:31----------
+as always
+
+---------08:36----------
+now keep in mind that probe point on the
+
+---------08:39----------
+bottom that is destroyed it doesn't
+
+---------08:41----------
+actually matter you that part where the
+
+---------08:42----------
+trace is going to that's a test point
+
+---------08:44----------
+that's not actually going to anything so
+
+---------08:46----------
+if you look in the schematic smc lid is
+
+---------08:48----------
+going to smc lid r is going to go from
+
+---------08:51----------
+the resistor to the other side of the
+
+---------08:54----------
+resistor where then becomes smc lid that
+
+---------08:57----------
+then goes to the capacitor and from that
+
+---------08:59----------
+capacitor it actually goes to the SMC
+
+---------09:00----------
+but it's an item I am pretty sure it's
+
+---------09:03----------
+not going to the SMC through that and
+
+---------09:06----------
+that that that try could be wrong I
+
+---------09:08----------
+could be on some actually no I
+
+---------09:11----------
+don't think I'm on some because
+
+---------09:12----------
+why would the signal before the resistor
+
+---------09:14----------
+go to the SMC yeah that that probe point
+
+---------09:16----------
+is pretty much worthless it's used
+
+---------09:18----------
+camcorder okay watch see this focus not
+
+---------09:22----------
+focus focus not focus these really small
+
+---------09:24----------
+differences these really small
+
+---------09:26----------
+differences in board height will affect
+
+---------09:28----------
+it whereas when you have the folk when
+
+---------09:30----------
+you have the zoomed out like this at
+
+---------09:31----------
+like let's say seven X it doesn't make a
+
+---------09:34----------
+difference you see that so when people
+
+---------09:36----------
+ask me why is it that I'm okay with the
+
+---------09:38----------
+microscope that only has the 10 and the
+
+---------09:39----------
+40 X to the 10 and the 30x of the lower
+
+---------09:41----------
+zoom is the thing is is that the lower
+
+---------09:44----------
+zoom itself is actually really easy to
+
+---------09:47----------
+work with whereas again when you zoom in
+
+---------09:49----------
+and this is just 20 X right here this
+
+---------09:50----------
+isn't even 40 or 50 or 90 or any of that
+
+---------09:52----------
+crazy as soon as you touch the
+
+---------09:54----------
+border you move it a little bit you're
+
+---------09:56----------
+out of focus and it really makes you
+
+---------09:57----------
+dizzy so one of the things I talk about
+
+---------10:00----------
+on this channel is making it easy for
+
+---------10:02----------
+yourself to do this work over long
+
+---------10:04----------
+periods of time and how to be efficient
+
+---------10:06----------
+and had to be good at this if you're
+
+---------10:07----------
+only a one-person shop like I am doing
+
+---------10:11----------
+all these repairs and one of the ways
+
+---------10:12----------
+that i keep my eyes from getting tired
+
+---------10:14----------
+on my head from getting too tired is i
+
+---------10:16----------
+keep myself zoomed out so I don't you
+
+---------10:19----------
+know I don't buy into this that
+
+---------10:21----------
+you know the only way to do this with
+
+---------10:24----------
+with ultra accuracies to you know be in
+
+---------10:26----------
+a dick waving contest about the zoom
+
+---------10:28----------
+level and zoom all the way in that's not
+
+---------10:29----------
+you no more zoom is not necessarily
+
+---------10:31----------
+better it just in my opinion more zoom
+
+---------10:34----------
+just gives you more of a
+
+---------10:36----------
+headache and you also that's not
+
+---------10:38----------
+soldered on there I know it's
+
+---------10:40----------
+alright so we're back here and you can
+
+---------10:43----------
+see the capacitor is not properly
+
+---------10:44----------
+soldered on the board and I don't care
+
+---------10:46----------
+the reason I don't care is because there
+
+---------10:48----------
+is still ample amounts of flux on the
+
+---------10:49----------
+board and when I have to solder the
+
+---------10:52----------
+resistor in place that's next to it
+
+---------10:53----------
+that's solder with two DS s 0 DD er
+
+---------10:56----------
+thank you wet dictionary.com for
+
+---------10:59----------
+pointing it out to me but when you see
+
+---------11:00----------
+you're going to see once i saw to the
+
+---------11:01----------
+resistor that these surface tension is
+
+---------11:03----------
+going to ensure that that capacitor
+
+---------11:05----------
+flows right into place now keep in mind
+
+---------11:07----------
+that that's not something that can
+
+---------11:08----------
+happen unless you have flux present the
+
+---------11:11----------
+reason that you cannot solder something
+
+---------11:13----------
+and then continually to add heat without
+
+---------11:15----------
+adding new solder or new flux is that
+
+---------11:18----------
+there's usually flux inside of the
+
+---------11:19----------
+solder that you're using so if you just
+
+---------11:22----------
+simply if you just simply keep adding
+
+---------11:24----------
+you know heat without adding new solder
+
+---------11:27----------
+with flux in it or flux on the board
+
+---------11:29----------
+you're going to notice that your joints
+
+---------11:30----------
+come out all crappy they look like these
+
+---------11:32----------
+little Hershey's kisses so if you're
+
+---------11:34----------
+kind of wondering why the ends of your
+
+---------11:35----------
+solder joints don't look like the
+
+---------11:36----------
+factory and have all these little spikes
+
+---------11:38----------
+sticking up out of them it's mostly
+
+---------11:40----------
+likely because you ran out of flux okay
+
+---------11:44----------
+since there's no audio from the original
+
+---------11:45----------
+video at this point I don't know what
+
+---------11:47----------
+the hell it was I was doing Wow why are
+
+---------11:50----------
+you why are you just showing us a
+
+---------11:52----------
+picture of the bored in the
+
+---------11:54----------
+microscope [ __ ] what were you doing
+
+---------11:56----------
+who are you helping a customer were you
+
+---------11:59----------
+taking a piss were you just aah jaka the
+
+---------12:02----------
+idiot moves something so I think he's
+
+---------12:04----------
+finally about to get back to work come
+
+---------12:08----------
+on now don't make me have to edit I
+
+---------12:09----------
+hate editing you know the thing is I
+
+---------12:12----------
+actually like doing YouTube videos i
+
+---------12:14----------
+genuinely enjoy it but I hate
+
+---------12:16----------
+editing I've just kind of gotten to this
+
+---------12:17----------
+point where I don't want to listen to
+
+---------12:19----------
+myself talk I don't want to see myself
+
+---------12:21----------
+work the the worst punishment that you
+
+---------12:24----------
+could give me at the end of a day is to
+
+---------12:26----------
+make me sit through hours of my own
+
+---------12:28----------
+repairs editing videos and it's
+
+---------12:31----------
+just like stupid that I want
+
+---------12:33----------
+abetting it seem like it's me going to
+
+---------12:35----------
+the bathroom me helping a customer
+
+---------12:36----------
+somebody calling and cursing or you know
+
+---------12:39----------
+just it's just stupid like that
+
+---------12:41----------
+that I know I have to edit because again
+
+---------12:44----------
+I have a wireless microphone there's
+
+---------12:46----------
+really no reason for you to hear me in
+
+---------12:47----------
+the bathroom but anyway here's here's
+
+---------12:49----------
+the money shot you're going to see that
+
+---------12:51----------
+everything flows right into place and
+
+---------12:52----------
+it's not going to go out of focus but
+
+---------12:54----------
+i'm only at 7x see that it's called
+
+---------12:56----------
+surface tension everything just flows
+
+---------12:57----------
+right into place BAM and the flux is
+
+---------13:00----------
+heated away so I wait until the flux
+
+---------13:03----------
+kind of heated a way to put the hot air
+
+---------13:04----------
+really close when it but the hot a
+
+---------13:05----------
+really close it just flows and now we're
+
+---------13:08----------
+on to the next video clip okay so here
+
+---------13:11----------
+I'm going to hold up the machine and you
+
+---------13:13----------
+see a ? folder right so now I'm going to
+
+---------13:15----------
+take my magnets that I'm using to hold
+
+---------13:17----------
+all the screws over here when I put it
+
+---------13:19----------
+right where the whole sensor should be
+
+---------13:22----------
+it turns off now I do this and it's back
+
+---------13:25----------
+but I put it over here it turns off
+
+---------13:28----------
+which means that we fixed the problem
+
+---------13:31----------
+with the hall sensor now here we had the
+
+---------13:34----------
+opposite of what the usual problem is so
+
+---------13:36----------
+I figure I should tell you at the very
+
+---------13:37----------
+least what the usual problem is usually
+
+---------13:39----------
+the issue is not that the computer never
+
+---------13:41----------
+goes to sleep rather the issue is that
+
+---------13:43----------
+there's a broken capacitor or a broken
+
+---------13:45----------
+hall sensor that's keeping the smc lid
+
+---------13:48----------
+signal low at zero volts and what this
+
+---------13:50----------
+will cause is random freezing randomly
+
+---------13:53----------
+not waking from sleep or no backlight
+
+---------13:56----------
+because keep in mind that the screen
+
+---------13:58----------
+itself is not going to be on if it
+
+---------13:59----------
+thinks the lid is closed so these are
+
+---------14:02----------
+some of the issues where people will
+
+---------14:03----------
+search for the backlight circuit they'll
+
+---------14:05----------
+search power circuits they'll search all
+
+---------14:06----------
+different things but they won't look at
+
+---------14:09----------
+the smc lids signal and the reason the
+
+---------14:11----------
+smc lid signal is important is because
+
+---------14:12----------
+again all these other problems and all
+
+---------14:14----------
+these other parts of the machine can be
+
+---------14:16----------
+caused by the smc lid signal being low
+
+---------14:18----------
+so it's something to look at something
+
+---------14:20----------
+to think about and also again this is
+
+---------14:22----------
+one of those things that people try to
+
+---------14:23----------
+fix with the whole heat gunning in the
+
+---------14:24----------
+oven thing if that capacitor is shorting
+
+---------14:27----------
+the ground so let's just go over this
+
+---------14:28----------
+again smc lid I know some of the new
+
+---------14:34----------
+subscribers are going to think I'm
+
+---------14:35----------
+picking on Linus here I'm really not
+
+---------14:37----------
+trying to pick on him when i say oven
+
+---------14:38----------
+i've been talking about this oven thing
+
+---------14:41----------
+on this channel for years because it's a
+
+---------14:42----------
+very very common practice in our
+
+---------14:44----------
+industry it's been a practice long
+
+---------14:46----------
+before Linus even at a channel so i'm
+
+---------14:48----------
+not trying to snark on Linus here
+
+---------14:49----------
+because every every time I mentioned the
+
+---------14:51----------
+word oven now I realize that people are
+
+---------14:52----------
+like mentioning him and okay yes i did a
+
+---------14:56----------
+douchey video on him talking about ovens
+
+---------14:58----------
+but that was one time only and he and we
+
+---------15:01----------
+talked about it and he's honestly a nice
+
+---------15:04----------
+guy that actually cares about people
+
+---------15:05----------
+doing stuff the right way
+
+---------15:07----------
+for the most part you know so I'm not
+
+---------15:09----------
+talking about him but what I'm talking
+
+---------15:11----------
+about here is see these capacitors over
+
+---------15:13----------
+here sometimes if these capacitors are
+
+---------15:14----------
+screwed up they'll actually work again
+
+---------15:16----------
+with heat so let's say this capacitor is
+
+---------15:18----------
+shorten the ground or something right
+
+---------15:19----------
+you can actually kind of temporarily
+
+---------15:21----------
+stop that from happening by heating it
+
+---------15:23----------
+so let's say this is shorten the ground
+
+---------15:25----------
+it's going to make the computer think
+
+---------15:27----------
+that the lid is closed when it's not
+
+---------15:28----------
+closed it's just one of those things
+
+---------15:29----------
+that I want you to be aware of because
+
+---------15:31----------
+again I see it all the time especially
+
+---------15:33----------
+with new students that come here they
+
+---------15:35----------
+start checking the back light circuit
+
+---------15:36----------
+the power circuit the CPU vcore circuit
+
+---------15:38----------
+they check all these different things
+
+---------15:40----------
+when instead of just checking like does
+
+---------15:43----------
+the computer think that it's sleeping if
+
+---------15:45----------
+the computer thinks it's sleeping it's
+
+---------15:47----------
+not going to work regardless of whether
+
+---------15:49----------
+everything else is in good condition
+
+---------15:51----------
+it's a very common defect and it's
+
+---------15:54----------
+something that I think you should look
+
+---------15:55----------
+for now the reason that I'm pissed off
+
+---------15:56----------
+with this one is because there's no
+
+---------16:00----------
+schematic for it so i'm actually using
+
+---------16:02----------
+the schematic for an older motherboard
+
+---------16:03----------
+just hoping that nothing changed again
+
+---------16:05----------
+if something changed in this design for
+
+---------16:07----------
+all I know I put the wrong on this
+
+---------16:08----------
+machine i'm using a schematic for a 2013
+
+---------16:12----------
+Haswell on a 2015-16 machine because i
+
+---------16:16----------
+can't get the schematic to this
+
+---------16:18----------
+bored now luckily common sense just
+
+---------16:20----------
+looking at the circuit looking at how
+
+---------16:22----------
+simple it is looking at how it works I
+
+---------16:23----------
+know that nothing actually changed but
+
+---------16:26----------
+what if everything changed what if
+
+---------16:27----------
+everything had changed all together it
+
+---------16:29----------
+was completely different I'd never
+
+---------16:31----------
+solved this I still have the schematic
+
+---------16:32----------
+for this machine and that sucks but that
+
+---------16:34----------
+is Apple and that is what I deal with in
+
+---------16:37----------
+order to do my job that's it for today
+
+---------16:39----------
+and as always I hope you learned
+
+---------16:40----------
+something
+

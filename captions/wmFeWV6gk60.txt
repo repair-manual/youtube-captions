@@ -1,0 +1,736 @@
+https://www.youtube.com/watch?v=wmFeWV6gk60
+---------00:00----------
+people how's it going today we're gonna
+
+---------00:02----------
+be fixing another broken MacBook this is
+
+---------00:06----------
+a MacBook that's decided to go its own
+
+---------00:07----------
+way the liquid damaged way straight to
+
+---------00:10----------
+my office well we're gonna get this
+
+---------00:11----------
+thing fixed up so that it starts going
+
+---------00:14----------
+the proper way again and works it's
+
+---------00:17----------
+gonna go over to the desk camera over
+
+---------00:19----------
+here zoom in a little bit so it doesn't
+
+---------00:22----------
+show you my crotch and I'll show you
+
+---------00:24----------
+something even better than my crotch a
+
+---------00:26----------
+ThinkPad keyboard now this is a keyboard
+
+---------00:30----------
+for my friends this oh yeah look at that
+
+---------00:33----------
+look at that that is awesome
+
+---------00:36----------
+this allows me to scroll this MacBook
+
+---------00:38----------
+has no light on the charger
+
+---------00:41----------
+what could keep a MacBook from having a
+
+---------00:43----------
+light in the charger the one wire
+
+---------00:44----------
+circuit is powered by pp 3 V 4 - that's
+
+---------00:48----------
+what allows the charger to speak to the
+
+---------00:51----------
+system management controller now first
+
+---------00:53----------
+thing that we're going to do is ensure
+
+---------00:55----------
+that we have our PP 3 V 4 2 by checking
+
+---------00:59----------
+with our multimeter on the pp 3 V 4 2
+
+---------01:02----------
+line
+
+---------01:10----------
+we get 3.4 volts so that means that the
+
+---------01:14----------
+power supply required for that to turn
+
+---------01:15----------
+on works we're gonna go and check over a
+
+---------01:18----------
+little bit on our DC and board connector
+
+---------01:20----------
+because this is gonna be where the
+
+---------01:21----------
+charger talks to the SMC and also where
+
+---------01:24----------
+the three point 42 volts is gonna go
+
+---------01:26----------
+over to the DC and board and that looks
+
+---------01:27----------
+just fine we're gonna look at our DC and
+
+---------01:30----------
+board cable and that also looks just
+
+---------01:32----------
+fine and this looks fine as well in our
+
+---------01:36----------
+DC in board we're r1y our circuit is
+
+---------01:38----------
+this is what powers the one wire circuit
+
+---------01:40----------
+chip here and this chip is what's going
+
+---------01:42----------
+to allow the charger to talk to the SMC
+
+---------01:44----------
+one of these is gonna be charged or the
+
+---------01:46----------
+other SMC looks just fine all this looks
+
+---------01:49----------
+just fine so the next thing we're gonna
+
+---------01:51----------
+do I'm going to assume that the pathway
+
+---------01:54----------
+is there and power lines are good but we
+
+---------01:55----------
+need to do is figure out if the SMC is
+
+---------01:57----------
+actually turning on so we're gonna plug
+
+---------01:59----------
+this back in we have to do here and see
+
+---------02:01----------
+if the SMC is turning on so let's go
+
+---------02:04----------
+over here to the schematic in the board
+
+---------02:05----------
+view and figure out why the SMC is not
+
+---------02:07----------
+turning on now there's a chip that's
+
+---------02:09----------
+going to tell the SMC to turn on or to
+
+---------02:12----------
+tell it to not turn off more accurately
+
+---------02:16----------
+and that is you 5110 you 5110 is going
+
+---------02:21----------
+to pull a reset signal to ground which
+
+---------02:23----------
+will tell it to not turn on and here you
+
+---------02:26----------
+have SMC reset underscore l and let's
+
+---------02:29----------
+check out the u 5110 area and see what
+
+---------02:31----------
+that looks like so we look at SMC reset
+
+---------02:33----------
+l over there and that's something that I
+
+---------02:35----------
+would hope to be at 3.40 to volt turn
+
+---------02:38----------
+the meter right back on measure we get
+
+---------02:39----------
+it SMC reset and as oh wow
+
+---------02:43----------
+zero point zero zero three volts hmm
+
+---------02:46----------
+that's interesting why don't we have
+
+---------02:49----------
+0.03 volts
+
+---------02:50----------
+well SMC reset L is supposed to be
+
+---------02:53----------
+pulled up to 3.3 volts or 3.42 volts by
+
+---------02:57----------
+our 5100 you can see here our 5100 sits
+
+---------03:02----------
+between SMC reset l and bb3 before to
+
+---------03:07----------
+underscore G 3 hot so let's see what our
+
+---------03:09----------
+5100 looks like now shall we that's
+
+---------03:12----------
+gonna be pulling up our signal we turn
+
+---------03:14----------
+the board around we locate it we're
+
+---------03:18----------
+gonna find this little thought of a
+
+---------03:19----------
+resistor and see what's wrong
+
+---------03:23----------
+and as you can see the little thought of
+
+---------03:27----------
+a resistor had something spooge all over
+
+---------03:29----------
+it you little thought my god who have
+
+---------03:37----------
+you let cream on you look at all the
+
+---------03:39----------
+cream on the side of that resistor Jesus
+
+---------03:42----------
+Christ and it just comes right off the
+
+---------03:46----------
+board
+
+---------03:46----------
+damn the gun thought resistor is gone so
+
+---------03:53----------
+now it looks like we're gonna have to
+
+---------03:54----------
+fix some pads here so the pull-up
+
+---------03:56----------
+resistor
+
+---------03:56----------
+was causing our problems all along
+
+---------03:58----------
+that's no good we are going to fix that
+
+---------04:01----------
+with our little exacto knife
+
+---------04:12----------
+it's we're just gonna scrape away that
+
+---------04:14----------
+corrosion on each side and once the
+
+---------04:20----------
+corrosion is scraped away then we have
+
+---------04:22----------
+something that we can at least solder to
+
+---------04:23----------
+so first thing to do is scrape away the
+
+---------04:26----------
+corrosion with the exacto knife the
+
+---------04:28----------
+second thing I'm gonna do is take some
+
+---------04:30----------
+alcohol and a q-tip and wipe off all the
+
+---------04:34----------
+stuff that I that I got on the board as
+
+---------04:38----------
+I was using the knife because it's gonna
+
+---------04:41----------
+leave little bits of residues and little
+
+---------04:44----------
+pieces of dust kind of like the wall of
+
+---------04:48----------
+the short and the shawshank redemption'
+
+---------04:51----------
+next thing we're gonna do is turn on our
+
+---------04:53----------
+fume extractor because we're gonna begin
+
+---------04:54----------
+soldering we're gonna take this little
+
+---------04:57----------
+phim extractor put it right in front of
+
+---------05:00----------
+there add a little bit of NC 5:59 v2 TF
+
+---------05:03----------
+flux available from store dot Rossum
+
+---------05:05----------
+group comm where you get everyday low
+
+---------05:08----------
+prices on all your micro soldering needs
+
+---------05:10----------
+don't delay
+
+---------05:11----------
+buy today we're gonna take a little bit
+
+---------05:14----------
+of solder over here I'm going to put a
+
+---------05:24----------
+little bit aside on each pad there just
+
+---------05:27----------
+a little bit of scraping for your
+
+---------05:30----------
+tweezers thank you my friend
+
+---------05:34----------
+all right now we have some nice new
+
+---------05:39----------
+solder pads for a nice new resistor just
+
+---------05:42----------
+like that some nice new solder pads for
+
+---------05:45----------
+a pretty new resistor and that little
+
+---------05:48----------
+resistor next to it looks like he use a
+
+---------05:49----------
+little bit of TLC so we're gonna give it
+
+---------05:51----------
+a little TLC I'm using the wrong tip I
+
+---------05:53----------
+am using a BC m2 but hopefully this
+
+---------05:57----------
+encourages you to solder even if you
+
+---------05:58----------
+don't have the tip that will be perfect
+
+---------05:59----------
+for your needs don't let the fact that
+
+---------06:01----------
+you don't have the tip that you need
+
+---------06:03----------
+stop you from achieving your goals I
+
+---------06:07----------
+haven't had the tip that I would have
+
+---------06:09----------
+preferred for the past thirteen years
+
+---------06:11----------
+and I still try so here we go
+
+---------06:19----------
+look at this design this tip is not the
+
+---------06:22----------
+finest tip for this job because you know
+
+---------06:26----------
+like this tip covers or I could solder
+
+---------06:30----------
+four of these resistors all at once with
+
+---------06:32----------
+their pads but I'm using the edge of it
+
+---------06:34----------
+and using the edge of the tip is what
+
+---------06:36----------
+matters
+
+---------06:37----------
+technique my friends technique now I can
+
+---------06:43----------
+you get another one of those resistors
+
+---------06:44----------
+from another board we're going to solder
+
+---------06:47----------
+it onto this board and then hopefully
+
+---------06:51----------
+this board will start to learn how to
+
+---------06:52----------
+behave
+
+---------07:09----------
+you got a nice new resistor but on there
+
+---------07:12----------
+we're gonna see how this board functions
+
+---------07:14----------
+and see if we get a fan spin I'm fairly
+
+---------07:17----------
+certain that we'll get a fan spin I have
+
+---------07:20----------
+lots of confidence and fan spin m/m
+
+---------07:30----------
+little bastard trying to make me look
+
+---------07:32----------
+bad
+
+---------07:33----------
+there we go fan spin orange light in the
+
+---------07:36----------
+charger and this board just works that's
+
+---------07:40----------
+how you decide a Macbook board and as
+
+---------07:43----------
+always I hope you learned something with
+
+---------07:45----------
+that you move on to the next motherboard
+
+---------07:48----------
+SMC reset l so all it took and you saw
+
+---------07:52----------
+how small that was was this little speck
+
+---------07:55----------
+that speck of corrosion was barely the
+
+---------07:57----------
+size of my tweezers but that's all it
+
+---------07:59----------
+took to kill a MacBook just little drop
+
+---------08:04----------
+it this was it imagine just imagine if
+
+---------08:09----------
+they covered their boards with the tape
+
+---------08:11----------
+that Anna that Lenovo and IBM have been
+
+---------08:13----------
+using to cover their ThinkPad boards for
+
+---------08:16----------
+the past 10 to 12 years but that's all
+
+---------08:18----------
+it would take just $1 $1 worth of tape
+
+---------08:21----------
+that goes over the board so that when
+
+---------08:23----------
+the liquid gets in the Machine it just
+
+---------08:25----------
+goes to the sides and away from the
+
+---------08:27----------
+circuit it's just like it's probably
+
+---------08:29----------
+less than $1 worth of tape it's it's
+
+---------08:31----------
+nothing it's all it would take and they
+
+---------08:35----------
+don't want to spend that on you well
+
+---------08:38----------
+it's most valued company on planet Earth
+
+---------08:40----------
+that's all it took to kill their
+
+---------08:42----------
+products and you're probably still gonna
+
+---------08:48----------
+buy him too
+
+---------08:50----------
+[Music]
+
+---------08:57----------
+all right so this is their MacBook and
+
+---------09:00----------
+this has one of the most knock off
+
+---------09:02----------
+batteries I've ever seen in my life
+
+---------09:05----------
+look at how bad this knockoff is tell me
+
+---------09:08----------
+this isn't
+
+---------09:08----------
+and that's not my camera not focusing
+
+---------09:11----------
+that is just ridiculously blurry print
+
+---------09:14----------
+it looks like the camera's not focusing
+
+---------09:17----------
+but it is and has this matte finish so
+
+---------09:19----------
+it hasn't some antimicrobial finish on
+
+---------09:21----------
+the battery this is not even but this is
+
+---------09:24----------
+not even trying let's take a look over
+
+---------09:27----------
+this MacBook Ford alright so this board
+
+---------09:34----------
+does have some layers of nasty on it
+
+---------09:36----------
+does look like a little bug came in here
+
+---------09:38----------
+and puked on the board
+
+---------09:49----------
+hmm had to stay - so this is not nice
+
+---------09:53----------
+and this actually looks like flux not
+
+---------09:56----------
+corrosion over here so I'm not the first
+
+---------10:02----------
+person here it seems all right seems
+
+---------10:08----------
+like some oh so all that and they missed
+
+---------10:11----------
+this corrosion by these capacitors by
+
+---------10:16----------
+the SMC all right these two capacitors
+
+---------10:19----------
+have to be gone be gone junk junk all
+
+---------10:28----------
+right so you've got that it's kind of
+
+---------10:33----------
+nasty wonder if it's gonna work now well
+
+---------10:41----------
+I'll be
+
+---------10:43----------
+fans Ben and lighten the charger
+
+---------10:57----------
+it's another MacBook same spot of water
+
+---------11:03----------
+so all it takes imagine an address they
+
+---------11:09----------
+put tape over the motherboard imagine
+
+---------11:12----------
+how many hundreds of thousands of
+
+---------11:13----------
+millions of people would have saved
+
+---------11:15----------
+untold amounts of money wouldn't you a
+
+---------11:20----------
+man wouldn't you'd be great to live in a
+
+---------11:22----------
+world where people like me were not
+
+---------11:23----------
+necessary it would be great to live in a
+
+---------11:26----------
+world where somebody like me had no job
+
+---------11:31----------
+unfortunately that's not the world that
+
+---------11:33----------
+we live in man maybe I could replace
+
+---------11:35----------
+that stuff to be nice animal ultrasonic
+
+---------11:38----------
+it may be our place yeah I'll put two
+
+---------11:43----------
+caps there where they're supposed to go
+
+---------11:45----------
+Paul is watching he's gonna be mad if I
+
+---------11:47----------
+don't
+
+---------11:55----------
+hmm
+
+---------12:01----------
+my job only exists because one large
+
+---------12:03----------
+company acts like an [ __ ] like if
+
+---------12:07----------
+Apple stopped being an [ __ ] tomorrow
+
+---------12:09----------
+my job would be gone I have to find
+
+---------12:12----------
+something else to do with my life
+
+---------12:14----------
+should I just add a resistor get oh
+
+---------12:20----------
+that's fine
+
+---------12:44----------
+ouais out a bluff
+
+---------13:00----------
+that's gonna require a little jumper
+
+---------13:02----------
+wire via side of love
+
+---------13:49----------
+it really doesn't seem to be much space
+
+---------13:51----------
+for a cap over there
+
+---------13:58----------
+I don't think I need another one
+
+---------14:23----------
+all right this boards probably good to
+
+---------14:26----------
+go
+
+---------14:27----------
+[Music]
+
+---------14:33----------
+you
+

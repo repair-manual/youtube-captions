@@ -1,0 +1,1138 @@
+https://www.youtube.com/watch?v=zNjuVQcoNYo
+---------00:00----------
+hi welcome back for another episode of
+
+---------00:01----------
+component-level board repair so I was
+
+---------00:04----------
+sick laughs a sick last week and I look
+
+---------00:06----------
+like and the thing is I'm not sick
+
+---------00:08----------
+anymore I don't have a fever but I still
+
+---------00:11----------
+look like and I'm kind of worried
+
+---------00:12----------
+like is this one of those things where I
+
+---------00:14----------
+mean I'm just gonna be stuck like this
+
+---------00:15----------
+like I know my eyes are usually black
+
+---------00:17----------
+and blue and just irregardless of how
+
+---------00:19----------
+much sleep I get it doesn't matter I can
+
+---------00:20----------
+go to sleep at 7:00 at night I could
+
+---------00:22----------
+wake up at 12 noon the next day I still
+
+---------00:25----------
+look like this that's just that's just
+
+---------00:27----------
+you know amazing genetics but I feel
+
+---------00:29----------
+like I'm stuck like I realized that I've
+
+---------00:32----------
+gotten uglier from when I was a month
+
+---------00:33----------
+ago which would which takes work by the
+
+---------00:35----------
+way and yeah it's not going back maybe
+
+---------00:38----------
+this is just what they call aging but I
+
+---------00:40----------
+find it interesting that it happened
+
+---------00:42----------
+right after getting sick it's like I'm
+
+---------00:43----------
+I'm permanently uglier now that's just
+
+---------00:46----------
+that that that's great I'm gonna have to
+
+---------00:49----------
+get a have to get somebody else to do
+
+---------00:51----------
+these videos once I'm too ugly to be on
+
+---------00:53----------
+camera anymore anyway so what we have
+
+---------00:55----------
+over here is a board that is completely
+
+---------00:58----------
+dead so when I plug the charger in as
+
+---------01:01----------
+you'll see I get no green light now if
+
+---------01:03----------
+you've been following my videos for any
+
+---------01:04----------
+period of time you know that we need the
+
+---------01:06----------
+P P 3 V 4 to underscore G 3 hot power
+
+---------01:09----------
+lines to be present in order for the
+
+---------01:11----------
+charger to talk to the SMC so that we
+
+---------01:13----------
+can get a green light so if I were to
+
+---------01:16----------
+look this up on the schematic and the
+
+---------01:17----------
+board view here I will be able to show
+
+---------01:20----------
+you how that works I'm going to be short
+
+---------01:22----------
+with explaining how it works because
+
+---------01:23----------
+I've explained it about 200 times in
+
+---------01:25----------
+Prior videos if you want to know exactly
+
+---------01:26----------
+how the one wire circuit works search
+
+---------01:28----------
+through my videos click on my name down
+
+---------01:30----------
+below and search through my videos for
+
+---------01:31----------
+the word one wire one word one wire so
+
+---------01:34----------
+this is going to be the one wire circuit
+
+---------01:36----------
+area now I know I know confusing
+
+---------01:38----------
+confusing confusing let's break this
+
+---------01:40----------
+down and try to make it simple because
+
+---------01:41----------
+when it's all out like this and it's new
+
+---------01:43----------
+it's confusing so you have this over
+
+---------01:45----------
+here which is your charger so this this
+
+---------01:48----------
+thing that you're looking at are there
+
+---------01:49----------
+that's this that's where this plugs into
+
+---------01:51----------
+the computer J I think stands for jumper
+
+---------01:53----------
+or something so that's pretty much where
+
+---------01:55----------
+any type of wired connector is going to
+
+---------01:57----------
+be now over here you have 18 volts power
+
+---------02:02----------
+ground which is needed for a circuit and
+
+---------02:05----------
+then you have adapter sense now what do
+
+---------02:07----------
+you think is going to be responsible for
+
+---------02:09----------
+that little light turning on so this
+
+---------02:10----------
+light well when does this letter on this
+
+---------02:11----------
+light turns on
+
+---------02:13----------
+senses a computer so it's not on right
+
+---------02:15----------
+now but when I plug it in I expected to
+
+---------02:17----------
+turn green because it has sense the
+
+---------02:18----------
+computer so this is required for the
+
+---------02:21----------
+light to turn on now this is going to
+
+---------02:23----------
+this chip use 7,000 now it has a couple
+
+---------02:26----------
+of pins here it is GND ground that's not
+
+---------02:29----------
+going to be for anything because the
+
+---------02:30----------
+ground is nothing it has X it has int
+
+---------02:33----------
+which goes to sis one wire and it has
+
+---------02:36----------
+VCC now VCC usually means here is where
+
+---------02:40----------
+power is coming into as I always say
+
+---------02:42----------
+this is my microscope camera this is the
+
+---------02:44----------
+plug that goes into the wall for it and
+
+---------02:47----------
+this is my microscope cameras VCC pin so
+
+---------02:50----------
+it needs to have power there in order
+
+---------02:52----------
+for it to turn itself on same way that
+
+---------02:54----------
+you 7-thousand needs to have power at
+
+---------02:56----------
+pin 1 in order to turn on so what's
+
+---------02:59----------
+going to bring power to pin 1 of this
+
+---------03:00----------
+chip this thingy over here and how does
+
+---------03:03----------
+this work this is a logic gate when you
+
+---------03:06----------
+have a and B you get Y so when PP 3 V 4
+
+---------03:10----------
+2 is present because PP 3 V 4 2 is the
+
+---------03:12----------
+power line that turns this on E and then
+
+---------03:16----------
+this will be on and when this is on and
+
+---------03:18----------
+it sees a and B your presence so SMC bc
+
+---------03:20----------
+AC okay is present it will shoot out
+
+---------03:22----------
+3.42 volts out of Y which will then
+
+---------03:25----------
+power this chip now this chip allows the
+
+---------03:27----------
+adapter external to talk to the SMC
+
+---------03:31----------
+internal the chip inside the computer
+
+---------03:33----------
+and then the this chip over here the SMC
+
+---------03:37----------
+via the cysts one wireline is going to
+
+---------03:40----------
+allow the charger to talk to the
+
+---------03:42----------
+computer and the chart and the computer
+
+---------03:44----------
+is going to say computer I'm in charger
+
+---------03:46----------
+I'm a computer turn on give it a light
+
+---------03:48----------
+and that's that so we need three point
+
+---------03:50----------
+42 volts for that to happen now if I
+
+---------03:53----------
+were to try and measure PP 3 V 4 to on
+
+---------03:56----------
+this motherboard let's see if is any
+
+---------03:57----------
+place in the top of the board I can
+
+---------03:58----------
+measure pp 3 V 4 to underscore g3 hot
+
+---------04:02----------
+I'm going to try and measure this and
+
+---------04:04----------
+we're going to see what we get
+
+---------04:06----------
+so I'm going to put the multimeter over
+
+---------04:07----------
+here and hope that you can see it but
+
+---------04:09----------
+you probably won't be able to see it
+
+---------04:10----------
+bunch of 16 year old just walked in and
+
+---------04:12----------
+asked if I but if I sell or buy do I buy
+
+---------04:16----------
+I said no and he's like you know anybody
+
+---------04:18----------
+that buys I point out to somebody that
+
+---------04:19----------
+buys because I know what what do you buy
+
+---------04:22----------
+in the East Village
+
+---------04:24----------
+I know exactly what do you buy stuff
+
+---------04:26----------
+means that me
+
+---------04:26----------
+will you take my stolen stuff and I
+
+---------04:28----------
+point over to cex again you should never
+
+---------04:31----------
+say I can't help you should say I can't
+
+---------04:33----------
+help you
+
+---------04:33----------
+but here's who may so that instead of
+
+---------04:35----------
+them having a negative feelings towards
+
+---------04:37----------
+you they have negative feelings towards
+
+---------04:39----------
+whoever the they decided to go to
+
+---------04:40----------
+you know it's bad pass the buck keep it
+
+---------04:42----------
+moving so I have a friend CX I'm like oh
+
+---------04:46----------
+you have to be six to 18 to buy my howl
+
+---------04:48----------
+to you sixteen that's again pretty sure
+
+---------04:50----------
+nobody's gonna buy stuff off you then
+
+---------04:53----------
+and then the other kid asks so you do
+
+---------04:56----------
+iCloud unlock and I go no how about just
+
+---------05:00----------
+taking it for parts and it's like why
+
+---------05:02----------
+why don't you just give it back to
+
+---------05:03----------
+whoever you took it from my god they
+
+---------05:05----------
+exploded with anger but still why do you
+
+---------05:09----------
+need two iCloud unlock it why are you so
+
+---------05:11----------
+eager to sell it without showing ID was
+
+---------05:13----------
+you stole it I mean come they like that
+
+---------05:20----------
+like seriously offended but they weren't
+
+---------05:21----------
+even trying to hide the fact that this
+
+---------05:23----------
+ was stolen that's that's what kills
+
+---------05:25----------
+me
+
+---------05:25----------
+like not even hide it like it just like
+
+---------05:27----------
+you can tell when somebody walks in and
+
+---------05:29----------
+I like so um
+
+---------05:32----------
+um did you buy stuff you can ask for ID
+
+---------05:37----------
+I mean I got a phone forget the
+
+---------05:39----------
+come on they start yelling Oh are we
+
+---------05:46----------
+gonna come back with this and week I'm
+
+---------05:48----------
+gonna come back well we're gonna
+
+---------05:50----------
+999 Nana now you're not yet that's the
+
+---------05:54----------
+thing because if you if you have to go
+
+---------05:56----------
+through your life if that's how you go
+
+---------05:58----------
+through life like taking phones and
+
+---------06:00----------
+people aren't looking you're not I'm
+
+---------06:02----------
+sorry you don't scare me like that that
+
+---------06:05----------
+gang that that is not what gangsters do
+
+---------06:07----------
+anyway so P P three before two is
+
+---------06:09----------
+missing and this just so happens to be
+
+---------06:11----------
+the chick required for the creation of
+
+---------06:12----------
+the P P 3 V 4 2 circuit
+
+---------06:20----------
+like I tried to be polite up until they
+
+---------06:23----------
+started going into the iCloud and
+
+---------06:25----------
+like jittering and all that so this is
+
+---------06:27----------
+what this looks like on a board that's
+
+---------06:29----------
+like partially and this is what
+
+---------06:31----------
+it looks like on a board that's totally
+
+---------06:33----------
+
+
+---------06:33----------
+so these boards have a slightly
+
+---------06:35----------
+different layout but one thing that you
+
+---------06:37----------
+should be able to tell is that somebody
+
+---------06:40----------
+stabs this motherboard so I say that
+
+---------06:44----------
+because actually this isn't InFocus is
+
+---------06:47----------
+it yeah this isn't InFocus for you Oh
+
+---------06:51----------
+somebody moved my camera I'm gonna blame
+
+---------06:54----------
+Jason it's easy to blame the new guy for
+
+---------06:56----------
+everything yeah Jason Jason you touching
+
+---------07:01----------
+my camera every now and then I come in
+
+---------07:04----------
+and I see Jason sitting at my desk my
+
+---------07:09----------
+camera is out of focus the computer's
+
+---------07:12----------
+frozen new people mm-hmm all right so
+
+---------07:20----------
+this diode needs to get refloat into
+
+---------07:23----------
+place what is going on here man I'm not
+
+---------07:27----------
+the first person to be here I come on
+
+---------07:28----------
+what the is this this doesn't this
+
+---------07:30----------
+doesn't happen on its own and I don't
+
+---------07:33----------
+get what's going on with this I
+
+---------07:35----------
+really don't now this board is a little
+
+---------07:38----------
+bit of a different layout than the one
+
+---------07:39----------
+that my donor this board has less RAM on
+
+---------07:42----------
+it and because it has less RAM a lot of
+
+---------07:46----------
+stuff is in different places because
+
+---------07:48----------
+that's just the way Apple does business
+
+---------07:50----------
+so what I'm going to do here is I'm just
+
+---------07:51----------
+going to see if there's a short two
+
+---------07:53----------
+grounds on pp3 before to maybe there's a
+
+---------07:55----------
+reason for this nonsense for this
+
+---------07:57----------
+[ __ ] so we're just going to check and
+
+---------07:59----------
+see if there is a short to ground you
+
+---------08:02----------
+buy phones do you buff do you do iCloud
+
+---------08:05----------
+unlock are you gonna ask me for my ID
+
+---------08:07----------
+why don't you to show me you like your
+
+---------08:10----------
+membership card to like people who steal
+
+---------08:12----------
+phones like hi I'm a criminal because
+
+---------08:15----------
+that's the thing like if I was going to
+
+---------08:16----------
+steal a phone and do that like I
+
+---------08:17----------
+would be so I would be smart about it
+
+---------08:19----------
+you know like when I get I you know I
+
+---------08:24----------
+would go no short to ground 0.278 and
+
+---------08:26----------
+diet mode it's like Mike's like I would
+
+---------08:30----------
+be I would do I would do it a little bit
+
+---------08:31----------
+different you know okay
+
+---------08:32----------
+so do you do you guys buy phones yes
+
+---------08:38----------
+okay here you go and then you know when
+
+---------08:41----------
+it comes time to show the ID I'm going
+
+---------08:42----------
+to go through my pocket bit crap oh you
+
+---------08:45----------
+had Sunday modes cuz today Sunday go oh
+
+---------08:47----------
+oh man I knew that that woman at the bar
+
+---------08:50----------
+last night wasn't after me for you know
+
+---------08:52----------
+just cuz she liked me she took my wallet
+
+---------08:54----------
+you know I play it I play off something
+
+---------08:56----------
+smart so you know people could say what
+
+---------08:57----------
+they want later but at the very least
+
+---------08:59----------
+you try to play it off smart make it
+
+---------09:01----------
+seem like you're not the one that stole
+
+---------09:03----------
+you know it's not that I don't want to
+
+---------09:05----------
+show you my ID I just don't have it on
+
+---------09:07----------
+me right now because of these
+
+---------09:08----------
+unfortunate circumstances and you could
+
+---------09:10----------
+play you Negin like but this does they
+
+---------09:13----------
+weren't trying to play anything off
+
+---------09:15----------
+smart why do you think I'm a
+
+---------09:18----------
+idiot get the out of here it's
+
+---------09:24----------
+insulting insulting to the intelligence
+
+---------09:29----------
+let's let's do a little bit of
+
+---------09:32----------
+corrective surgery like I've owned a
+
+---------09:36----------
+store in New York for almost four years
+
+---------09:40----------
+now like an actual now not just a
+
+---------09:41----------
+regular office an actual store and you
+
+---------09:46----------
+think I'm so dumb that I think that you
+
+---------09:49----------
+did not steal that phone my God why you
+
+---------09:54----------
+jittering why you shake trust me I know
+
+---------10:00----------
+the different that's the thing you you
+
+---------10:01----------
+you learn this stuff as time goes on I
+
+---------10:03----------
+know the difference between Parkinson's
+
+---------10:05----------
+or Huntington's shaking and I just stole
+
+---------10:09----------
+a form shake like it's you own a store
+
+---------10:12----------
+long enough then it becomes obvious are
+
+---------10:16----------
+you gonna make me show my ID why do you
+
+---------10:18----------
+want to sell a phone without showing
+
+---------10:20----------
+your ID why do you not want to give me a
+
+---------10:22----------
+real name why are you asking about
+
+---------10:26----------
+iCloud unlock why are you all giggling
+
+---------10:28----------
+why do you all seem like you've done
+
+---------10:31----------
+something wrong it's just like
+
+---------10:36----------
+why is this chip welded to the board
+
+---------10:40----------
+this chip does look like it's welded to
+
+---------10:43----------
+the board though checking to make sure I
+
+---------10:50----------
+unplug the battery thank God that would
+
+---------10:53----------
+have been just really dumb
+
+---------11:04----------
+this is the 450 Celsius so
+
+---------11:12----------
+450 Celsius and this thing is not even
+
+---------11:14----------
+moving just checking to make sure that
+
+---------11:21----------
+this thing is putting out hot air and it
+
+---------11:22----------
+is how to keep looking up and make sure
+
+---------11:27----------
+nobody walks in yeah this is this is
+
+---------11:36----------
+nuts
+
+---------11:41----------
+the amount of heat that these boards
+
+---------11:42----------
+absorb is absolutely nuts
+
+---------11:50----------
+they could probably sit here all day
+
+---------11:51----------
+with this and not melt any solder not
+
+---------11:56----------
+even the resistors and capacitors are
+
+---------11:57----------
+rounded or Willingham actually the
+
+---------11:59----------
+capacitor is willing to move we're
+
+---------12:02----------
+getting close to that melting point
+
+---------12:11----------
+maybe I need more air
+
+---------12:20----------
+I gave it some more air I'm going to
+
+---------12:23----------
+have to reflow that die out in a place I
+
+---------12:25----------
+might as well put the damn flux there
+
+---------12:27----------
+let's give you a better view see the
+
+---------12:30----------
+diode up here that diode is almost all
+
+---------12:32----------
+the way off the path
+
+---------12:40----------
+okay so that diode has flowed into place
+
+---------12:44----------
+my capacitor has flown it flew
+
+---------12:48----------
+flied flighted it holy crap you don't
+
+---------12:55----------
+want to come off and here we ruin
+
+---------13:00----------
+another pair of tweezers
+
+---------13:05----------
+get the off how he is as sad as
+
+---------13:10----------
+this happen man this did not happen
+
+---------13:13----------
+on its own where's the top of this chip
+
+---------13:15----------
+it burned off but where's the rest of it
+
+---------13:18----------
+and where's that pad somebody did
+
+---------13:21----------
+something here and I want to know
+
+---------13:28----------
+everything that comes in the door going
+
+---------13:30----------
+to be something that's been with
+
+---------13:31----------
+now I guess that's just how it is that's
+
+---------13:35----------
+the world that we live in today all
+
+---------13:38----------
+right
+
+---------13:50----------
+so we're gonna have to run a wire there
+
+---------13:52----------
+because there's no it's you know friggin
+
+---------13:58----------
+pad let's see can I run the wire without
+
+---------14:05----------
+somebody walking in hopefully let's go
+
+---------14:10----------
+for it
+
+---------14:10----------
+I'm gonna go for it okay wire drop some
+
+---------14:16----------
+flux there I have a little bit of solder
+
+---------14:18----------
+on the iron just a little bit can you be
+
+---------14:27----------
+a lot I thought it was a little bit but
+
+---------14:29----------
+then I look under the microscope it's a
+
+---------14:31----------
+lot this isn't going very well because
+
+---------14:37----------
+the MagSafe connector is on the
+
+---------14:41----------
+way all right
+
+---------14:42----------
+tweezers tweezer time it's like this
+
+---------14:50----------
+that's too high on the board so I'm
+
+---------14:52----------
+gonna have to lower the wire to make it
+
+---------14:54----------
+to my liking there we go now it's low
+
+---------14:58----------
+see the lower the lower it is the lower
+
+---------15:00----------
+the wire is the better a connection you
+
+---------15:02----------
+can have long term all right so now time
+
+---------15:06----------
+to take a regulator off of a donor
+
+---------15:13----------
+run this over there and see if it smokes
+
+---------15:17----------
+again I only took a measurement on PP 3
+
+---------15:20----------
+before to output I didn't measure input
+
+---------15:22----------
+this is short two grounds on input
+
+---------15:24----------
+because of a cap or something then that
+
+---------15:25----------
+could potentially blow up again this is
+
+---------15:33----------
+one of those very few times we're
+
+---------15:34----------
+damaged this may have not been caused by
+
+---------15:35----------
+liquid I'm open to that
+
+---------15:52----------
+okay I had too much solder on the centre
+
+---------15:55----------
+pet but don't worry that's all magically
+
+---------15:59----------
+fixing it magically fixable this BAM
+
+---------16:18----------
+now it's everything in
+
+---------16:27----------
+make sure my wire is nice and melted
+
+---------16:30----------
+make sure my cap is happy
+
+---------16:43----------
+and let's make this knot crooked and
+
+---------16:44----------
+lopsided
+
+---------16:51----------
+push it down make it flat on the board
+
+---------16:53----------
+did I make that even more crooked and
+
+---------16:55----------
+lopsided than it was originally you
+
+---------16:59----------
+idiot you'd sure did oh well this is my
+
+---------17:04----------
+warranty sticker this is my version of a
+
+---------17:07----------
+warranty sticker if I open it up and I
+
+---------17:09----------
+just look for the thing that's crooked
+
+---------17:11----------
+and I know that that's my work oh well
+
+---------17:19----------
+well let's just move the junk from the
+
+---------17:24----------
+top of the casing you can always
+
+---------17:28----------
+ultrasonic this boards make it look less
+
+---------17:30----------
+like I touched it later but let's see
+
+---------17:33----------
+what we have now so this board is taken
+
+---------17:35----------
+in a lot of heat and notice it also has
+
+---------17:40----------
+a scratch mark that I'm 99% certain was
+
+---------17:42----------
+not caused by me see that over there
+
+---------17:44----------
+where the coating is ripped off and the
+
+---------17:45----------
+copper is exposed and untouched that
+
+---------17:47----------
+section so this was definitely
+
+---------17:52----------
+with in some way
+
+---------17:57----------
+let's get rid of this yeah okay
+
+---------18:01----------
+all right so now I would say it's time
+
+---------18:03----------
+to plug it in see if we get anything
+
+---------18:05----------
+sounds much nicer when you turn off all
+
+---------18:07----------
+that noisy crap so I'm going to keep the
+
+---------18:09----------
+microscope in this area just in case as
+
+---------18:11----------
+I turn it on it blows up because that
+
+---------18:12----------
+would be a cool thing to catch on camera
+
+---------18:14----------
+let's see what we get plugged it in
+
+---------18:17----------
+green light fan spinning and hey nothing
+
+---------18:23----------
+blew up that's pretty cool see this is
+
+---------18:27----------
+the MagSafe it's orange you can barely
+
+---------18:29----------
+see that because of overexposure due to
+
+---------18:31----------
+the light off of the camera here we mean
+
+---------18:35----------
+the light off of the metal but yeah look
+
+---------18:38----------
+John C is on so well as always I hope
+
+---------18:45----------
+you learned something
+

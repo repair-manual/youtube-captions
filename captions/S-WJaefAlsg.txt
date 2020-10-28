@@ -1,0 +1,679 @@
+https://www.youtube.com/watch?v=S-WJaefAlsg
+---------00:00----------
+hi so today I'm gonna be going over a
+
+---------00:02----------
+dead eight to zero
+
+---------00:04----------
+31:15 motherboard when I plug in the
+
+---------00:06----------
+charger it doesn't turn on at all so
+
+---------00:08----------
+let's just get a DC n board here and
+
+---------00:10----------
+plug it in so that you can see what's
+
+---------00:12----------
+going on and we can go over how it's
+
+---------00:14----------
+troubleshoot it now it's the end of the
+
+---------00:16----------
+day and I'm a little bit more tired than
+
+---------00:19----------
+I usually am at the end of the day so
+
+---------00:20----------
+I'm probably not gonna go over as much
+
+---------00:22----------
+as I usually go over but I am still
+
+---------00:24----------
+going to fix this on camera and it's
+
+---------00:27----------
+going to get humbled and you'll get to
+
+---------00:28----------
+see how so the first issue that we have
+
+---------00:32----------
+here is that there's no green light on
+
+---------00:33----------
+the charger now if you've been watching
+
+---------00:35----------
+this video series for any period of time
+
+---------00:37----------
+what's the first power rail that I need
+
+---------00:38----------
+to check if there's no green light the
+
+---------00:40----------
+first power outlet I need to check is
+
+---------00:42----------
+going to be pp 3 V 4 to underscore g3
+
+---------00:44----------
+hot please watch my video series on why
+
+---------00:47----------
+what is pp 3 V 4 to underscore g3 hot
+
+---------00:51----------
+and why must it show up first or what is
+
+---------00:53----------
+how does pp 3 before to differentiate
+
+---------00:55----------
+from ppbut g3 hot
+
+---------00:56----------
+so pp 3 before 2 is zero volts also keep
+
+---------00:59----------
+in mind look at this pp wise g3 hot
+
+---------01:01----------
+which is supposed to be 12 point 6 volts
+
+---------01:03----------
+on this board right now is zero point
+
+---------01:05----------
+seven seven five volts now you may think
+
+---------01:07----------
+to yourself if you measure pp bus g3 hot
+
+---------01:10----------
+first this is a common mistake I need to
+
+---------01:11----------
+check PP bus g3 hot first because that's
+
+---------01:14----------
+the first power rail on the list in the
+
+---------01:16----------
+schematic diagram so if I open the
+
+---------01:18----------
+schematic diagram here and I go over to
+
+---------01:20----------
+Page 3 or 4 channel 7 or 8 I think it's
+
+---------01:22----------
+8 here we go
+
+---------01:24----------
+if I open the diagram here and I show
+
+---------01:27----------
+you the diagram on this page what you're
+
+---------01:29----------
+going to see is that the first power
+
+---------01:31----------
+rail up here is pp bus g3 hot whereas pp
+
+---------01:34----------
+3 V 4 2 is down the list which makes no
+
+---------01:36----------
+sense because pp 3 before 2's to show up
+
+---------01:38----------
+first so why are they listing at sixth
+
+---------01:39----------
+I'm not sure so the most common mistake
+
+---------01:42----------
+people are gonna make is they're gonna
+
+---------01:43----------
+start troubleshooting pp bus g3 hot
+
+---------01:45----------
+instead of pp 3 before - first the
+
+---------01:47----------
+reason you have to troubleshoot pp 3
+
+---------01:48----------
+before to underscore g3 hot first is
+
+---------01:50----------
+because the circuit down here that
+
+---------01:52----------
+creates pp bus g3 hot thinking we're
+
+---------01:55----------
+getting advanced here you should all be
+
+---------01:56----------
+watching this if you've been watching
+
+---------01:57----------
+for a long time go over my other videos
+
+---------01:59----------
+if this is getting confusing when I
+
+---------02:00----------
+explain everything a little bit more
+
+---------02:02----------
+clearly this chip which creates pp bus
+
+---------02:04----------
+g3 hot over here this buck regulator
+
+---------02:06----------
+controller is going to turn on when the
+
+---------02:09----------
+SMC
+
+---------02:10----------
+tells it to turn on the SMC is going to
+
+---------02:12----------
+talk to it on a data line called
+
+---------02:13----------
+bus charger SDA that data line is
+
+---------02:17----------
+created by pull-up resistors on the PP 3
+
+---------02:21----------
+v4 - line further the SMC itself on this
+
+---------02:25----------
+machine is powered by PP 3 v4 - so if we
+
+---------02:28----------
+you go over to page 3 on the schematic
+
+---------02:30----------
+diagram you'll see that the charger
+
+---------02:33----------
+creates pp 3 before - which goes here
+
+---------02:35----------
+which then goes over to the SMC
+
+---------02:37----------
+so without PP 3 V 4 - we're not gonna
+
+---------02:39----------
+get anything done so let's figure out
+
+---------02:41----------
+what's because keeping pp 3 V 4 - from
+
+---------02:43----------
+being created by searching for u 6990
+
+---------02:46----------
+which is the page on the schematic for
+
+---------02:48----------
+pp 3 v 4 - now once we're here we're
+
+---------02:51----------
+going to check every step of the way and
+
+---------02:52----------
+try to get an idea of what is happening
+
+---------02:54----------
+so over here we have where two different
+
+---------02:57----------
+sources can power pp 3 before to
+
+---------03:00----------
+remember that pp 3 before 2 needs to be
+
+---------03:02----------
+the first rail to show up so why does it
+
+---------03:04----------
+have two different sources why is pp bus
+
+---------03:05----------
+g3 hot there as well as the charger
+
+---------03:08----------
+youth that I said that pp 3 before - as
+
+---------03:10----------
+the show up first so why would PP bus g3
+
+---------03:12----------
+hot be the input to the pp 3 before -
+
+---------03:15----------
+power supply I'm glad you asked when you
+
+---------03:17----------
+plug in the charger the charger is going
+
+---------03:20----------
+to create pp bus g3 hot and pp 3 before
+
+---------03:22----------
+- simultaneously however if the charger
+
+---------03:24----------
+is not plugged in let's say the computer
+
+---------03:26----------
+is running off battery power pp bus g3
+
+---------03:28----------
+hot is going to be the only power source
+
+---------03:30----------
+in the machine that does not have to be
+
+---------03:32----------
+quote unquote created by the charger or
+
+---------03:35----------
+the charging chip because it's simply
+
+---------03:37----------
+coming from the battery so if I go over
+
+---------03:40----------
+to where you 7000 is on this board
+
+---------03:42----------
+notice that pp bus g3 ha can be provided
+
+---------03:44----------
+by this buck regulator over here so the
+
+---------03:47----------
+chargers 18 volts will be turned into 12
+
+---------03:49----------
+point 6 volts for the system using the
+
+---------03:50----------
+buck regulator this is the chip over
+
+---------03:52----------
+here this is what has to talk to the SMC
+
+---------03:54----------
+before it turns on and if the Chargers
+
+---------03:56----------
+not plugged in then you have the battery
+
+---------03:58----------
+providing power on pp bus g3 huh so when
+
+---------04:01----------
+you look at you 6990 over here what I
+
+---------04:04----------
+want you to see and notice is that there
+
+---------04:06----------
+are two different sources so let's check
+
+---------04:08----------
+our 6990 over here and let's see what's
+
+---------04:10----------
+going on so if I go before I even check
+
+---------04:13----------
+that I'm gonna check for a short to
+
+---------04:14----------
+ground on PP 3 V 4 - by finding the pp 3
+
+---------04:18----------
+V 4 - points on the board which I can
+
+---------04:20----------
+easily do over here let me just open up
+
+---------04:22----------
+the board view for this model
+
+---------04:23----------
+motherboard we're gonna open up the
+
+---------04:25----------
+board view software
+
+---------04:27----------
+so let's get the board view open all
+
+---------04:31----------
+right now I'm gonna find where pp 3
+
+---------04:33----------
+before to underscore G 3 hot shows up
+
+---------04:35----------
+and it's going to be down here now I'm
+
+---------04:38----------
+gonna check right now with with the
+
+---------04:41----------
+multimeter I'm gonna take my red probe
+
+---------04:43----------
+but the red probe on ground but the
+
+---------04:45----------
+black probe on where pp 3 before 2 is
+
+---------04:48----------
+and I get zero point three oh four
+
+---------04:49----------
+that's not a short I get no short on
+
+---------04:50----------
+either side of L 6 9 9 5 l 6 9 9 5 is
+
+---------04:54----------
+going to be this coil over here M so now
+
+---------05:00----------
+we're going to check voltage every step
+
+---------05:02----------
+of the way so let's see if on our 6 9 9
+
+---------05:03----------
+0 on our 6 9 9 0 do I get power is power
+
+---------05:08----------
+going into this circuit
+
+---------05:20----------
+ ceiling light there now well
+
+---------05:25----------
+I'll read the voltage to you you're
+
+---------05:28----------
+never gonna be able to see it so I'm
+
+---------05:29----------
+gonna do over here is measure 16 volts
+
+---------05:32----------
+going in on the other side of the
+
+---------05:34----------
+resistor 12 volts 12 volts on the other
+
+---------05:41----------
+side of the diode on d6 nine nine zero
+
+---------05:43----------
+twelve point three volts alright so
+
+---------05:46----------
+something is definitely pulling this
+
+---------05:47----------
+down so see this over here I have I have
+
+---------05:54----------
+16 volts here but then I have twelve
+
+---------05:56----------
+volts here so let's see what the
+
+---------05:57----------
+resistance of our 6990 is our 6990 good
+
+---------06:00----------
+or is our 6990 blown our six nine nine
+
+---------06:03----------
+zero is supposed to be forty seven ohms
+
+---------06:05----------
+and according to my multimeter it's
+
+---------06:07----------
+forty seven ohms so that's not our
+
+---------06:10----------
+problem now something is going to be
+
+---------06:11----------
+pulling that power down perhaps our
+
+---------06:14----------
+short to ground well you never know
+
+---------06:16----------
+that's what our microscope and alcohol
+
+---------06:18----------
+is gonna be for now if there's a short
+
+---------06:19----------
+to ground than any component on that
+
+---------06:21----------
+line and here the only component let's
+
+---------06:22----------
+face it as either you 6990 see 6990 if
+
+---------06:26----------
+there is any type of short to ground
+
+---------06:27----------
+here what's going to happen is you're
+
+---------06:30----------
+going to have a lot of energy going
+
+---------06:32----------
+through that component because the
+
+---------06:33----------
+electricity is going to want to go to
+
+---------06:35----------
+ground very very badly so we're going
+
+---------06:38----------
+going to take a look here you could look
+
+---------06:41----------
+at my videos on what is a short circuit
+
+---------06:44----------
+if you don't know why electricity would
+
+---------06:47----------
+want to go to ground so I'm gonna turn
+
+---------06:49----------
+on the microscope camera here which
+
+---------06:51----------
+means I have to get plug it in great job
+
+---------06:54----------
+dumbass how about you plug it in before
+
+---------06:55----------
+you switch over to it come on turn on
+
+---------06:59----------
+there we go
+
+---------07:00----------
+so I'm gonna plug the charger in at this
+
+---------07:02----------
+point let's see if you can tell me which
+
+---------07:05----------
+one of my components is shorted oh
+
+---------07:09----------
+stick yep
+
+---------07:10----------
+it's a P P 3 V 4 to regulator so you 69
+
+---------07:14----------
+90 which is the P P 3 V 4 to regulator
+
+---------07:17----------
+see this over here this that's you 6990
+
+---------07:22----------
+right there so we're going to take off
+
+---------07:25----------
+you 6990 using the hot air station
+
+---------07:32----------
+let's turn on the hot air station let's
+
+---------07:34----------
+turn on the the fume extractor
+
+---------07:42----------
+and we rip this off the board remember
+
+---------07:49----------
+to be nice to the RAM slot the RAM slot
+
+---------07:51----------
+is right next door it doesn't like
+
+---------07:52----------
+excessive heat
+
+---------08:10----------
+okay
+
+---------08:37----------
+got all that lead-free solder sucked up
+
+---------08:40----------
+Lana my iron they're way too much in the
+
+---------08:43----------
+middle which is my I always do
+
+---------08:46----------
+that and too much flux to piss off the
+
+---------08:50----------
+electrical engineers and now I find a
+
+---------08:54----------
+scrap board to pull the chip off of just
+
+---------08:57----------
+in case I haven't pissed off everybody
+
+---------08:59----------
+in the engineering community
+
+---------09:03----------
+you should go glue yourself someday my
+
+---------09:07----------
+receptionist googled me a two months ago
+
+---------09:10----------
+and man who the amount of people that
+
+---------09:13----------
+hate me that I've never met her talked
+
+---------09:15----------
+to his astounding pretty cool though
+
+---------09:37----------
+and the most important thing is to get
+
+---------09:38----------
+it flat on the board so I don't care if
+
+---------09:40----------
+I put too much solder on the center pad
+
+---------09:41----------
+because I can always just push down and
+
+---------09:43----------
+get it flat on the board later but that
+
+---------09:44----------
+means that you have to keep track of the
+
+---------09:47----------
+little solder balls that come out
+
+---------09:49----------
+afterwards
+
+---------09:51----------
+think of it like a video game okay get
+
+---------10:00----------
+over here get over here alrighty now
+
+---------10:07----------
+let's see if that was the cause of my
+
+---------10:09----------
+short if it was the cause of my short
+
+---------10:11----------
+when I plugged this in the fan will spin
+
+---------10:24----------
+BAM baby alright
+
+---------10:31----------
+you know this board looks like it's been
+
+---------10:34----------
+pissed on every board I get looks like
+
+---------10:38----------
+it's been pissed on
+

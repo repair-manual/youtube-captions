@@ -1,0 +1,640 @@
+https://www.youtube.com/watch?v=--TZHAoKJu8
+---------00:00----------
+we're going to get started on an 8 to 0
+
+---------00:01----------
+31 15 over here that is not giving me a
+
+---------00:05----------
+green light on the charger so let's plug
+
+---------00:07----------
+in the charger and show you what I get I
+
+---------00:13----------
+get nothing so I'm going to use my
+
+---------00:15----------
+multimeter and we're going to go over
+
+---------00:16----------
+some of the most basic things that we
+
+---------00:18----------
+measure when we have no green light so
+
+---------00:19----------
+as you all know by now in order for this
+
+---------00:22----------
+to work the charger over here
+
+---------00:25----------
+this adapter sense line needs to talk to
+
+---------00:27----------
+the SMC on this one wire line but it has
+
+---------00:30----------
+to go through you 6900 first just in
+
+---------00:33----------
+case adapter sense of 16 volts because
+
+---------00:35----------
+our dr charger is broken we don't want
+
+---------00:37----------
+to send 16 volts the SMC you 6900 is you
+
+---------00:40----------
+6900 is the white knight of the SMC you
+
+---------00:43----------
+6900 is going to make sure with its
+
+---------00:46----------
+sword and it's horse that if adapter
+
+---------00:48----------
+sense is 16 volts how dare you talk to
+
+---------00:50----------
+my SMC whereas if it's only 29.9 or 3
+
+---------00:53----------
+volts it'll allow these SMC which you
+
+---------00:56----------
+can see here that's even 4900 SMC says
+
+---------01:00----------
+right over here SMC it will allow the
+
+---------01:03----------
+SMC to talk to the charger on that line
+
+---------01:05----------
+in order for this trip to turn on it
+
+---------01:06----------
+needs to have three-point 42 volts at
+
+---------01:08----------
+pin 1 and it's VCC pin anytime you see
+
+---------01:10----------
+VCC that usually means that that's the
+
+---------01:14----------
+pin where the chip is going to get its
+
+---------01:16----------
+power to turn on now in order for it to
+
+---------01:18----------
+get that this logic gate over here needs
+
+---------01:20----------
+to shoot that voltage out to the VCC pin
+
+---------01:22----------
+this logic gate needs to have
+
+---------01:24----------
+three-point 42 volts present at pin 5
+
+---------01:26----------
+which is its power pin to turn it on if
+
+---------01:28----------
+you look up the datasheet for this trip
+
+---------01:30----------
+you'll notice that the way this works if
+
+---------01:31----------
+a and B are present you get Y if a and B
+
+---------01:37----------
+are present then you get Y so I need SM
+
+---------01:41----------
+CBC AC okay to be present and PP 3v4 to
+
+---------01:44----------
+to be present in order to get the output
+
+---------01:45----------
+over there which I probably don't have
+
+---------01:48----------
+right now pp 3 before - I'm going to
+
+---------01:51----------
+pretend it on a where it is just to show
+
+---------01:53----------
+you how I find stuff and that's going to
+
+---------01:55----------
+be over here and we've got our
+
+---------01:56----------
+multimeter here in serial mode
+
+---------02:03----------
+so pp3 before - is 3.42 volts ain't that
+
+---------02:08----------
+beautiful now we have to see what's
+
+---------02:09----------
+going on in the use 6901 area over here
+
+---------02:11----------
+so let's find new 6901 you 6901 is going
+
+---------02:15----------
+to be up here in new Oh
+
+---------02:18----------
+you you what that what the [ __ ] [ __ ]
+
+---------02:24----------
+is this this is some [ __ ]
+
+---------02:28----------
+this is not what I came for this is
+
+---------02:34----------
+gross what the [ __ ] [ __ ] boo boo boo
+
+---------02:47----------
+free works on board
+
+---------02:52----------
+boo
+
+---------02:54----------
+all right so let's get serious here
+
+---------02:56----------
+let's get serious here shall we all
+
+---------02:59----------
+right so we're going to see what we get
+
+---------03:01----------
+on pin five so is TP three before two
+
+---------03:03----------
+making it to the trip in one smc bc AC
+
+---------03:07----------
+okay SMC bc AC okay is present on pin
+
+---------03:12----------
+one of my chip now let's see what's
+
+---------03:13----------
+coming out of it on pin y if the chip is
+
+---------03:16----------
+working on pin 1 Y which is four which
+
+---------03:18----------
+is this I should get three point four
+
+---------03:20----------
+and then get three point four nine all
+
+---------03:22----------
+right what do you what do we got to do
+
+---------03:24----------
+now we got to follow it along let's
+
+---------03:27----------
+follow it along to you sixty nine
+
+---------03:28----------
+hundred you sixty nine hundred is going
+
+---------03:31----------
+to be on the bottom of the board
+
+---------03:32----------
+now you sixty nine hundred let's see if
+
+---------03:36----------
+the voltage from here is making its way
+
+---------03:39----------
+to here so we click on pin four isn't it
+
+---------03:44----------
+isn't it still a little too disgusting
+
+---------03:47----------
+for ultrasonic yeah we'll see I'm not
+
+---------03:51----------
+supposed to show up in pin one of you
+
+---------03:52----------
+sixty nine hundred and you sixty nine
+
+---------03:54----------
+hundred is going to be here so let's
+
+---------03:56----------
+measure what we get on ten one of you
+
+---------03:59----------
+sixty nine hundred and it looks like on
+
+---------04:04----------
+pin one of you sixty nine hundred I get
+
+---------04:07----------
+zero point zero zero eight volts now
+
+---------04:10----------
+that's interesting so this over here I'm
+
+---------04:12----------
+getting 3.42 volts like I'm supposed to
+
+---------04:15----------
+and over here I'm getting
+
+---------04:17----------
+but these two are supposed to be
+
+---------04:19----------
+directly connected so let me just go up
+
+---------04:20----------
+to the other side of the board and just
+
+---------04:22----------
+confirm that I'm not losing my mind and
+
+---------04:23----------
+let's confirm that on the other side I
+
+---------04:27----------
+am getting my 3.42 volts on pin four of
+
+---------04:33----------
+you 6901 as I would expect and I am
+
+---------04:36----------
+getting my three point four so at this
+
+---------04:39----------
+point I would guess that my issue is
+
+---------04:42----------
+that my link between you 6901 and you
+
+---------04:45----------
+6900 is broke so between you 6901 over
+
+---------04:49----------
+here this connection the path between
+
+---------04:51----------
+this and this is burned out on the board
+
+---------04:53----------
+which means that we're going to run a
+
+---------04:55----------
+little wire from there to there and I'm
+
+---------04:59----------
+guessing this is a it looks like
+
+---------05:02----------
+somebody's a lot of rework to this
+
+---------05:03----------
+already and they just weren't able to
+
+---------05:05----------
+figure out the last part so let's figure
+
+---------05:07----------
+out the last part form and we're going
+
+---------05:09----------
+to redo this and it's interesting
+
+---------05:10----------
+because there's a lot of ugly points on
+
+---------05:11----------
+this board there but this is this one is
+
+---------05:13----------
+not so the part that's broken here is
+
+---------05:15----------
+this so as you can see this is where
+
+---------05:19----------
+this this is the pin that's broken it's
+
+---------05:21----------
+not going to the other side right and
+
+---------05:22----------
+there's a lot of nasty stuff here but
+
+---------05:23----------
+the irony is that this is not this is
+
+---------05:27----------
+not really the nasty part so I'm going
+
+---------05:32----------
+to see if I just resaw to this a little
+
+---------05:33----------
+bit if if this fix is our problem
+
+---------05:37----------
+because I may not have to run our jumper
+
+---------05:38----------
+I really find it hard to believe
+
+---------05:56----------
+it's gonna scrape away at that trace
+
+---------05:58----------
+there a little bit and let's see if that
+
+---------06:00----------
+fixes it but I feel like we may have to
+
+---------06:03----------
+run a wire
+
+---------06:06----------
+yeah no dice okay
+
+---------06:08----------
+so there's no way around the the good ol
+
+---------06:10----------
+real work of running a wire
+
+---------06:29----------
+my hands are killing me today what the
+
+---------06:32----------
+hell are you doing dumbass alright that
+
+---------06:35----------
+is that is close this now we're going to
+
+---------06:40----------
+send that wire to the other side of the
+
+---------06:43----------
+board you got a route this creatively
+
+---------06:52----------
+okay so where are we going to send this
+
+---------06:54----------
+how are we going to send this wire
+
+---------07:12----------
+so let's run my wire and I probably
+
+---------07:17----------
+should avoid the backlight section but
+
+---------07:19----------
+running it through the 50 volt backlight
+
+---------07:21----------
+section is probably not the smartest
+
+---------07:23----------
+idea but I like the idea of the wire
+
+---------07:25----------
+having some security on the board all
+
+---------07:30----------
+right
+
+---------08:00----------
+beautiful
+
+---------08:24----------
+let's get that lower on the board don't
+
+---------08:28----------
+want you I don't want any of the exposed
+
+---------08:31----------
+wire to be available sticking out this
+
+---------08:39----------
+is got to be nice and tight on the board
+
+---------08:47----------
+I'm going to route this whichever way
+
+---------08:48----------
+around doesn't give it any flag not
+
+---------08:54----------
+giving his wire then any slack
+
+---------09:07----------
+okay now we plug it in and see if it
+
+---------09:10----------
+explodes
+
+---------09:27----------
+whoa look at what I got I has a green
+
+---------09:32----------
+light baby oh look at that green light
+
+---------09:36----------
+ain't that nice ain't that nice that's
+
+---------09:40----------
+my green light oh boy
+
+---------09:44----------
+so that is it for that one and as always
+
+---------09:47----------
+I hope you learned something and now
+
+---------09:49----------
+time for an advertisement this is our
+
+---------09:51----------
+website here male iNDOT prepare you will
+
+---------09:53----------
+be able to find on most of the different
+
+---------09:55----------
+cleaners stencils connectors ICS and
+
+---------09:58----------
+small chips that we use throughout these
+
+---------10:01----------
+repairs on this website so here you'll
+
+---------10:03----------
+find the ultrasonic cleaner that we use
+
+---------10:05----------
+at the store that's fixed many other
+
+---------10:07----------
+boards that I was unable to fix in the
+
+---------10:08----------
+video this here is shipped straight from
+
+---------10:10----------
+the store here you'll see a bunch of LCD
+
+---------10:12----------
+connectors we've got keyboard connectors
+
+---------10:15----------
+we've got digitizer connectors and
+
+---------10:17----------
+they're all organized here so if you go
+
+---------10:18----------
+connectors by type or you can search by
+
+---------10:21----------
+your device so if we go here components
+
+---------10:23----------
+by device iPhone iPhone 6's it'll bring
+
+---------10:26----------
+you to a screen where you'll find a
+
+---------10:28----------
+bunch of different parts for your iPhone
+
+---------10:30----------
+the same is true for stencils we've got
+
+---------10:32----------
+stencils over here like the SMC stencil
+
+---------10:34----------
+that is typically hard to buy directly
+
+---------10:36----------
+in America you have to wait a long time
+
+---------10:38----------
+to get that from China here we've got
+
+---------10:40----------
+the some different parts like the LPP
+
+---------10:43----------
+3v4 to regulator over here so this is a
+
+---------10:47----------
+TP 3 b4 to regulator you can actually
+
+---------10:49----------
+search by the number on the schematic
+
+---------10:51----------
+and if there are different chips with
+
+---------10:53----------
+that same number it'll bring up all the
+
+---------10:54----------
+different chips you can scroll down and
+
+---------10:56----------
+figure out which one is for your
+
+---------10:57----------
+motherboard because over here it'll say
+
+---------10:59----------
+compatible boards and it will list all
+
+---------11:01----------
+the boards the chip is compatible with
+
+---------11:03----------
+if you don't want to deal with that you
+
+---------11:04----------
+can even just search by your motherboard
+
+---------11:06----------
+so if I search over here for a t20 3462
+
+---------11:09----------
+it will only show me chips that are
+
+---------11:11----------
+compatible with my model motherboard and
+
+---------11:15----------
+this was all put together with high
+
+---------11:17----------
+resolution pictures that you can compare
+
+---------11:19----------
+it to your chip to make sure that you
+
+---------11:21----------
+buy the right one and if you ever have a
+
+---------11:23----------
+question feel free to email feel free to
+
+---------11:25----------
+comment feel free to live chat so thank
+
+---------11:27----------
+you very much for watching the video
+
+---------11:28----------
+thank you very much for your patronage
+
+---------11:30----------
+if you used our website we've also got
+
+---------11:32----------
+flux here if you want flux we've got
+
+---------11:35----------
+solder paste over here if you want
+
+---------11:38----------
+solder paste
+

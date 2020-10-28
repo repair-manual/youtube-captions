@@ -1,0 +1,478 @@
+https://www.youtube.com/watch?v=h29GpDL0mn4
+---------00:00----------
+all right so today we're gonna be going
+
+---------00:01----------
+over an 8 2 0 36 62 with no image on the
+
+---------00:04----------
+screen now the problem with this board
+
+---------00:06----------
+is one that's most often caused when the
+
+---------00:08----------
+connector is plugged in sideways which
+
+---------00:11----------
+is also most common problem when other
+
+---------00:13----------
+repair stores send me stuff so this is
+
+---------00:17----------
+you could probably see over here when i
+
+---------00:19----------
+zoom in and just set up the color on the
+
+---------00:21----------
+microscope camera what I'm talking about
+
+---------00:24----------
+it should be pretty obvious so I'm just
+
+---------00:29----------
+gonna open up the board view in the
+
+---------00:30----------
+schematic for this model board so that
+
+---------00:31----------
+you could see what that what that's for
+
+---------00:33----------
+and Rex land Rex and it's constant
+
+---------00:37----------
+complaining somebody commented on how I
+
+---------00:38----------
+could fix that the thing is I finally I
+
+---------00:41----------
+read a lot of the YouTube comments that
+
+---------00:43----------
+usually like one in the morning so I see
+
+---------00:45----------
+it and then I forget who said it and
+
+---------00:48----------
+what they said the next day when it
+
+---------00:50----------
+comes time to actually implement it
+
+---------00:51----------
+alright so here we have a burned el 8300
+
+---------00:54----------
+so let's look up what el 8300 does el
+
+---------00:57----------
+8300 is responsible if it's an inductor
+
+---------01:00----------
+responsible for getting PP not PP PP 5
+
+---------01:05----------
+vs for not PP PP 5 vs for over to the
+
+---------01:09----------
+LCD to power it and turn it on
+
+---------01:12----------
+interesting if funny Easter egg lookin
+
+---------01:15----------
+thing here so they have pins 33 to 41 on
+
+---------01:18----------
+the schematic here for the LCD connector
+
+---------01:20----------
+when there are no pins 33 to 41 on the
+
+---------01:23----------
+actual motherboard go Apple so you 8300
+
+---------01:26----------
+is responsible when the PCH or the moxa
+
+---------01:28----------
+let's see what is it in this case the
+
+---------01:30----------
+PCH or the MUX I'm curious when the PCH
+
+---------01:34----------
+or the MUX tells it to send PP 5 vs 4 to
+
+---------01:38----------
+the LCD it will do so and in this case
+
+---------01:41----------
+it is you 1100 yeah so with it the PCH
+
+---------01:51----------
+so when the PCH tells you 8300 to send
+
+---------01:55----------
+to turn on the screen it's going to send
+
+---------01:57----------
+PP 5 vs 4 to V out which is going to go
+
+---------02:01----------
+to this inductor which then goes to the
+
+---------02:03----------
+screen in just a case anybody does
+
+---------02:05----------
+something stupid stupid you have this
+
+---------02:06----------
+inductor in place which is being used as
+
+---------02:08----------
+a fuse is to keep in mind here it's not
+
+---------02:10----------
+really going to be used for smoothing
+
+---------02:11----------
+out for all digital
+
+---------02:13----------
+pp 5 vs 4 is going to many other parts
+
+---------02:16----------
+of the machine and it's good it has its
+
+---------02:18----------
+own smoothing capacitors it has its own
+
+---------02:20----------
+you know power supply it's not it's not
+
+---------02:22----------
+like that's know what I want it's not
+
+---------02:25----------
+like a power system where the idea is
+
+---------02:27----------
+that it's going to sound like a wall
+
+---------02:30----------
+charger that puts out you know this
+
+---------02:32----------
+rippling crap that you then have to that
+
+---------02:35----------
+you then have to smooth out later it's
+
+---------02:37----------
+it's a very smooth power round so this
+
+---------02:39----------
+is I can assume that this is being used
+
+---------02:41----------
+as a fuse
+
+---------02:41----------
+because again PP 5 vs 4 is going to many
+
+---------02:44----------
+other parts of the system and if we look
+
+---------02:45----------
+at the power supply responsible for PP
+
+---------02:47----------
+5e s 4 over here you'll see let's see
+
+---------02:54----------
+you'll see where it's created that
+
+---------02:56----------
+everything responsible for yes on you
+
+---------03:07----------
+7501 so this is a buck converter and PP
+
+---------03:10----------
+5 es 4 is being created here we have a
+
+---------03:13----------
+bunch of smoothing capacitors we have
+
+---------03:15----------
+abundant we have an inductor between the
+
+---------03:16----------
+switching output in PP 5 es 4 so this is
+
+---------03:19----------
+a very clean nice clean line there's
+
+---------03:21----------
+really no need to do additional
+
+---------03:22----------
+smoothing so this inductor is pretty
+
+---------03:24----------
+much here as a few there's a very large
+
+---------03:27----------
+fuse and it's and it looks like so
+
+---------03:30----------
+let's see what happens if we replace it
+
+---------03:32----------
+with sparkling brand new one from a
+
+---------03:38----------
+brand new one from yeah from another
+
+---------03:42----------
+board right so let's get the air filter
+
+---------03:47----------
+on
+
+---------03:52----------
+hot air station on soldering iron on
+
+---------03:58----------
+from alright disgusting
+
+---------04:27----------
+the section of the board looks like it's
+
+---------04:28----------
+seen better days one thing you also may
+
+---------04:31----------
+notice the more i zoom in here
+
+---------04:33----------
+the more that I zoom in the easier it is
+
+---------04:36----------
+to go out of focus if the board moves or
+
+---------04:39----------
+the microscope moves in any direction so
+
+---------04:40----------
+the reason that I'm often very using
+
+---------04:42----------
+this really zoomed out is not because
+
+---------04:44----------
+you know being zoomed out is optimal for
+
+---------04:47----------
+the specific item that I'm viewing it's
+
+---------04:48----------
+just because I don't have to worry about
+
+---------04:50----------
+the you know going in and out of focus
+
+---------04:52----------
+constantly it's pretty annoying so you
+
+---------04:59----------
+take this put it down there on this
+
+---------05:05----------
+beautiful looking motherboard beautiful
+
+---------05:11----------
+that's a beautiful looking trace
+
+---------05:12----------
+beautiful looking pet factory standards
+
+---------05:18----------
+right here and
+
+---------05:36----------
+yes looks like entire traces kind of
+
+---------05:40----------
+ripped up from the board and looks like
+
+---------05:41----------
+ the other thing I'm pretty sure
+
+---------05:43----------
+that this is not a problem here I just
+
+---------05:45----------
+want to see if there's a short inside
+
+---------05:46----------
+the LCD connector or something that
+
+---------05:48----------
+could have caused that again I'm pretty
+
+---------05:49----------
+sure that the short was caused by the
+
+---------05:51----------
+screen and I'm also pretty certain that
+
+---------05:54----------
+I'm going to get a quote unquote
+
+---------05:56----------
+warranty call from this person saying
+
+---------05:58----------
+that there is no image on the screen
+
+---------06:01----------
+after I'm done with this because they're
+
+---------06:03----------
+gonna plug in the same screen that
+
+---------06:04----------
+ it up to begin with which is why
+
+---------06:06----------
+it's suggest that you don't give these
+
+---------06:08----------
+super discounts to every Tom Dick and
+
+---------06:10----------
+Harry that calls in and says I have a
+
+---------06:12----------
+repair store and I want a discount
+
+---------06:14----------
+because they're gonna drive you
+
+---------06:16----------
+crazy but let's see what we get do we
+
+---------06:19----------
+get a picture on the screen I think that
+
+---------06:21----------
+sucks about these Retina screens is
+
+---------06:22----------
+testing theirs this is a broken assembly
+
+---------06:25----------
+but I should at the very least be able
+
+---------06:26----------
+to tell getting something before this
+
+---------06:29----------
+goes off to Quality Assurance I'm gonna
+
+---------06:34----------
+plug this in and let's see if I get
+
+---------06:38----------
+something yeah the cable is really short
+
+---------06:41----------
+very short so I'm gonna plug on a fan so
+
+---------06:44----------
+I can see that it's spinning this is a
+
+---------06:45----------
+2000 2013 the 2014 models so it's not
+
+---------06:49----------
+one of those with the fans not going to
+
+---------06:50----------
+spin when you turn it on that's
+
+---------06:53----------
+infuriating with the new with the 2015
+
+---------06:56----------
+Retina it's almost as if Apple figured
+
+---------06:59----------
+out we designed a computer that will not
+
+---------07:01----------
+fail from overheating or some stupid
+
+---------07:03----------
+ within a few years of you buying it
+
+---------07:05----------
+whoopsy that's little it's let's fix
+
+---------07:09----------
+that
+
+---------07:10----------
+isn't it beautiful isn't it beautiful
+
+---------07:14----------
+see that that's my screen getting
+
+---------07:16----------
+powered on and that's that so be careful
+
+---------07:21----------
+of plugging this connector in sideways
+
+---------07:23----------
+if you can't tell if something is broken
+
+---------07:26----------
+and what I would do is plug your screen
+
+---------07:28----------
+in then put your multimeter in ohms or
+
+---------07:31----------
+diode mode read probe on ground black
+
+---------07:33----------
+probe on the pin of the connector for
+
+---------07:36----------
+backlight of the pin of the connector
+
+---------07:37----------
+for powering the LCD and check that way
+
+---------07:39----------
+so if you see a short to ground you'll
+
+---------07:41----------
+know maybe I shouldn't plug this in
+
+---------07:43----------
+because it'll blow it up but
+
+---------07:46----------
+that's that
+

@@ -1,0 +1,1030 @@
+https://www.youtube.com/watch?v=iot4lO1Nork
+---------00:00----------
+hi today I'm gonna be going over a board
+
+---------00:01----------
+that was not turning on it had no power
+
+---------00:03----------
+at all and that was because CPU V core
+
+---------00:05----------
+was shorted to ground so I'm gonna go
+
+---------00:07----------
+over why I was doing that how I figured
+
+---------00:09----------
+it out and what I did to fix it and I'm
+
+---------00:12----------
+not gonna be doing this in real time
+
+---------00:13----------
+like I did with some of the other board
+
+---------00:15----------
+repairs because the other technician who
+
+---------00:16----------
+works here is out for two weeks on
+
+---------00:18----------
+surgically which means that in addition
+
+---------00:20----------
+are doing all of the board repairs from
+
+---------00:21----------
+my business all the boarder pairs for
+
+---------00:23----------
+every other business that sends me
+
+---------00:24----------
+boards I also have to fix every single
+
+---------00:26----------
+laptop that comes in for a walk-in
+
+---------00:28----------
+customer so I got my hands full for the
+
+---------00:31----------
+next two weeks but I still would like to
+
+---------00:32----------
+try to take a little bit of time out
+
+---------00:34----------
+just to be able to explain these and
+
+---------00:35----------
+just to keep the the series going as I
+
+---------00:37----------
+have so on this board again it's already
+
+---------00:40----------
+fixed what was happening was you'd get a
+
+---------00:42----------
+green light and you'd you'd see that one
+
+---------00:45----------
+point seven volts was showing up on P P
+
+---------00:47----------
+bus g3 hot but that's that's not twelve
+
+---------00:49----------
+point six you need twelve point six not
+
+---------00:50----------
+one point seven and when I put my
+
+---------00:52----------
+multimeter in diode mode what happened
+
+---------00:54----------
+is that it was shorted to ground
+
+---------00:55----------
+completely it was straight zero volts
+
+---------00:56----------
+now before I even got my short testers
+
+---------00:59----------
+power supply that I used to finding
+
+---------01:00----------
+shorts and a motherboard you could see
+
+---------01:02----------
+what I do with that in a previous video
+
+---------01:03----------
+how to find a short and a motherboard
+
+---------01:04----------
+without a $6,000 camera what I noticed
+
+---------01:07----------
+is that my CPU II think was getting hot
+
+---------01:09----------
+now the thing is the voltage was
+
+---------01:11----------
+actually being brought down the charger
+
+---------01:12----------
+assist gets kind of smart if there's a
+
+---------01:13----------
+short to ground that's not gonna keep
+
+---------01:15----------
+trying to create 12 volts into it it
+
+---------01:16----------
+lowers it to one point seven and at that
+
+---------01:18----------
+one point seven volts my heatsink was
+
+---------01:20----------
+getting hot which meant that my CPU had
+
+---------01:22----------
+something wrong with it so what I
+
+---------01:23----------
+noticed under the microscope is that
+
+---------01:24----------
+there was a little bit of corrosion in
+
+---------01:25----------
+that area now you're not still going to
+
+---------01:27----------
+be able to see any of this corrosion
+
+---------01:28----------
+because I actually I replaced the
+
+---------01:31----------
+components that were at fault and I also
+
+---------01:34----------
+ran it under the ultrasonic cleaner
+
+---------01:37----------
+after I did all of that and brushed it
+
+---------01:39----------
+all off but you could still see some red
+
+---------01:41----------
+probe points and that's going to be
+
+---------01:42----------
+what's what gives you a hint that there
+
+---------01:44----------
+was some kind of liquid damage so in
+
+---------01:48----------
+this area you could well you can't see
+
+---------01:50----------
+anything because I have light turned all
+
+---------01:52----------
+the way up there the camera doesn't like
+
+---------01:54----------
+light as much as I do yeah you could see
+
+---------01:56----------
+that there's a lot of red probe points
+
+---------01:58----------
+over here and this general vicinity
+
+---------02:00----------
+looked nasty now if this is the CPU
+
+---------02:03----------
+right down here right so I'm gonna show
+
+---------02:06----------
+you on the schematic why it is I thought
+
+---------02:09----------
+that CPU v core was the fault so let me
+
+---------02:11----------
+just open up the schematic here
+
+---------02:13----------
+and then switch over to it in open
+
+---------02:15----------
+broadcaster software so we're gonna get
+
+---------02:19----------
+come on PDF reader pretend that you're
+
+---------02:22----------
+running on a computer with SSDs and raid
+
+---------02:23----------
+zero come on just for a sec okay go go
+
+---------02:37----------
+okay so here we have the V chord circuit
+
+---------02:40----------
+now what the way this works is it takes
+
+---------02:43----------
+the power from P P bus underscore s v
+
+---------02:46----------
+underscore H s underscore computing
+
+---------02:48----------
+underscore I sense and if you want to
+
+---------02:49----------
+know what that is derived from if you
+
+---------02:51----------
+didn't know that that was derived from P
+
+---------02:52----------
+P bus g3 hot I'll show you how you can
+
+---------02:55----------
+figure that out so we got this and
+
+---------03:03----------
+alright so on the first page of the
+
+---------03:05----------
+schematic I believe I mentioned this in
+
+---------03:06----------
+the previous video it tells you what all
+
+---------03:08----------
+the power rails are well hopefully I'm
+
+---------03:11----------
+not taking my video out of Sanka
+
+---------03:13----------
+rendering this PDF like that
+
+---------03:14----------
+come on redrawing a PDF in 4k is a pain
+
+---------03:19----------
+in the ass from my computer alright so
+
+---------03:21----------
+see this pp bus g3 hot that's the power
+
+---------03:23----------
+line that's shorted to ground you have
+
+---------03:24----------
+twelve point eight and under it is this
+
+---------03:27----------
+and it says twelve point eight so it's a
+
+---------03:29----------
+derivative of this power over there now
+
+---------03:31----------
+let's go back to the page that I'm
+
+---------03:32----------
+interested in and show you what's going
+
+---------03:34----------
+on here
+
+---------03:34----------
+now I already explained in a previous
+
+---------03:37----------
+video how the CPU power circuit works
+
+---------03:39----------
+and I did that on a MacBook Air
+
+---------03:41----------
+motherboard so on this board it's not
+
+---------03:44----------
+two MOSFETs it's actually one it's two
+
+---------03:47----------
+in one so it's this this package over
+
+---------03:49----------
+here now the CPU is getting really hot
+
+---------03:52----------
+now what's going on here is instead of
+
+---------03:54----------
+this making spikes for the CPU one of
+
+---------03:56----------
+these MOSFETs has shorted so as I've
+
+---------03:58----------
+said I think of a transistor like a
+
+---------04:00----------
+variable resistor like a resistor whose
+
+---------04:02----------
+resistance you can change depending on
+
+---------04:03----------
+what you tell it so based on the signals
+
+---------04:05----------
+going here to this gate and this gate
+
+---------04:07----------
+that transistor and that little
+
+---------04:09----------
+transistor in there will decide to open
+
+---------04:10----------
+and the way this works is they open and
+
+---------04:12----------
+close open and close open and close open
+
+---------04:13----------
+and close and again I showed you this in
+
+---------04:15----------
+a previous video if you want to look
+
+---------04:17----------
+that up you can look up the air v core
+
+---------04:18----------
+video I'm gonna put it in the in the
+
+---------04:20----------
+annotations here so that you can click
+
+---------04:21----------
+it if you want to further explanation
+
+---------04:23----------
+the point is what's happened here is
+
+---------04:24----------
+instead of opening and closing opening
+
+---------04:26----------
+and closing
+
+---------04:27----------
+these has the street gotten destroyed
+
+---------04:29----------
+whether it's Q 7510 Q 7520 Q 7550
+
+---------04:33----------
+honestly I do not care one of those has
+
+---------04:35----------
+been blown and what's going on here is
+
+---------04:37----------
+instead of this only opening when the
+
+---------04:39----------
+controller tells it to its open all the
+
+---------04:41----------
+time so it's actually sending this 12
+
+---------04:44----------
+volts constantly so instead of been
+
+---------04:45----------
+sending a bunch of pulses the thing it
+
+---------04:47----------
+converted into one volt only when the
+
+---------04:49----------
+controller tells it to it's constantly
+
+---------04:52----------
+sending 12 volts in which by the way you
+
+---------04:54----------
+know it's a miracle that this
+
+---------04:56----------
+thing still has a working CPU because
+
+---------04:57----------
+again the CPU is seeing one point seven
+
+---------05:00----------
+volts instead of whatever it's supposed
+
+---------05:01----------
+to now that that's a big overclock I
+
+---------05:03----------
+yeah this is Ivy Bridge I honestly don't
+
+---------05:05----------
+know off the top of my head but if it
+
+---------05:06----------
+works on point nine and a 1/4 1.0 1.1
+
+---------05:09----------
+but why did I know one point seven volts
+
+---------05:11----------
+is way way above what this is supposed
+
+---------05:14----------
+to be working on and every time you
+
+---------05:15----------
+plugged it in and was sending that P P
+
+---------05:17----------
+bus G to be hot signal direct to the CPU
+
+---------05:19----------
+luckily the charger is a little smart
+
+---------05:21----------
+and knows to limit the power going in
+
+---------05:22----------
+here if you know if it sees that or the
+
+---------05:24----------
+P P bus g3 hot circuit is because if it
+
+---------05:26----------
+wasn't it would be sending 12 point 6
+
+---------05:28----------
+volts straight to there and that would
+
+---------05:29----------
+just be hell so one of these was shorted
+
+---------05:32----------
+to ground what not one of these
+
+---------05:34----------
+transistors was shorted so instead of it
+
+---------05:36----------
+being on all instead of it being on only
+
+---------05:38----------
+when the controller tells it to to send
+
+---------05:40----------
+those pulses it was in sending pulses
+
+---------05:42----------
+we're just sending a flat 12 volts
+
+---------05:44----------
+through so what I did is I don't
+
+---------05:46----------
+honestly don't care to figure out which
+
+---------05:48----------
+one it is again as I said these
+
+---------05:49----------
+motherboards these dead boards that I
+
+---------05:50----------
+get they they cost me like what 15 30
+
+---------05:53----------
+bucks I mean I don't care I'm gonna take
+
+---------05:55----------
+all those transistors off this is this
+
+---------05:56----------
+job's get paying 325 so you know I'm not
+
+---------05:59----------
+interested in like figuring the exact
+
+---------06:01----------
+transistor and then figuring out that
+
+---------06:03----------
+later it's another MOSFET that's
+
+---------06:04----------
+up but no anyway so I'm this this and
+
+---------06:07----------
+this then got replaced now here's a
+
+---------06:10----------
+really really important gotcha here's
+
+---------06:12----------
+something that you really got to be
+
+---------06:13----------
+aware of if you're dealing with these
+
+---------06:15----------
+type of but if you're dealing with any
+
+---------06:17----------
+type of buck regulator and one of your
+
+---------06:19----------
+the transistors in the buck regulator
+
+---------06:20----------
+dies so see this over here where it says
+
+---------06:24----------
+CPU I MVP phase this is this over here
+
+---------06:28----------
+right over here this is the gate or for
+
+---------06:31----------
+the high side MOSFET right so this is
+
+---------06:34----------
+telling this one to open this CPU I MVP
+
+---------06:37----------
+L gate this is the gate for the bottom
+
+---------06:39----------
+one so this is tell
+
+---------06:40----------
+this when to open so pretty much this
+
+---------06:42----------
+signal over here controls the resistance
+
+---------06:45----------
+of this variable resistor and this over
+
+---------06:48----------
+here controls the resistance of this
+
+---------06:49----------
+variable resistor now when this is going
+
+---------06:53----------
+like it's supposed to it's sending 12
+
+---------06:54----------
+volts through phase yeah viously it's
+
+---------06:56----------
+sending a bunch of 12 volt spikes
+
+---------06:57----------
+through phase that averages out into
+
+---------06:59----------
+about one volt and after this inductor
+
+---------07:00----------
+and the capacitors that all get smoothed
+
+---------07:02----------
+out into about a volt but when this
+
+---------07:04----------
+thing is shorted when this is shorted
+
+---------07:06----------
+and always on when it's always at no
+
+---------07:09----------
+resistance because the mosfet or the
+
+---------07:10----------
+transistor or whatever you'd like to
+
+---------07:12----------
+call it because people love to troll
+
+---------07:13----------
+when I say transistor instead of MOSFET
+
+---------07:15----------
+is is blown
+
+---------07:16----------
+then this phase over here is gonna have
+
+---------07:18----------
+12 volts permanently sent to it not 12
+
+---------07:21----------
+volt spikes that average one volt 12
+
+---------07:22----------
+volts permanently now where else does
+
+---------07:24----------
+that go to so CP UI MVP underscore phase
+
+---------07:27----------
+one watch this this is again this is
+
+---------07:32----------
+this is very very important because this
+
+---------07:33----------
+this this this is what I call part of
+
+---------07:35----------
+the rabbit hole to hell so the rabbit
+
+---------07:36----------
+hole the hell is the problem that you're
+
+---------07:37----------
+never ever gonna solve and this is that
+
+---------07:39----------
+this stuff people get themselves in some
+
+---------07:40----------
+serious so over here you see that
+
+---------07:45----------
+this is the controller for it this is
+
+---------07:46----------
+sending out the signals that tell those
+
+---------07:48----------
+transistors when to open but it also is
+
+---------07:52----------
+connected directly to that now if that
+
+---------07:54----------
+is used to being one volt and now
+
+---------07:57----------
+because a transistor blew it's 12 volts
+
+---------08:00----------
+don't you think that's going to screw
+
+---------08:01----------
+this chip a little bit it is so here's
+
+---------08:03----------
+here's how these let me explain how this
+
+---------08:04----------
+works the MOSFET died the MOSFET then
+
+---------08:07----------
+was sending 12 volts instead of sending
+
+---------08:09----------
+one since that goes directly back to the
+
+---------08:11----------
+controller now the controller that's
+
+---------08:12----------
+used to seeing one volt on that pin now
+
+---------08:14----------
+so at 12 which means that your
+
+---------08:16----------
+controller is dead so you replace the
+
+---------08:17----------
+MOSFET with a good one with a known
+
+---------08:19----------
+working one even whether it's off a dead
+
+---------08:21----------
+board or with you bought it from Mouser
+
+---------08:22----------
+comm you really think that you just
+
+---------08:23----------
+fixed your problem right wrong because
+
+---------08:26----------
+now you're gonna plug that MOSFET in
+
+---------08:27----------
+you're gonna solder that onto the board
+
+---------08:28----------
+but the dead controller trip that got
+
+---------08:30----------
+killed by the previous MOSFET is going
+
+---------08:32----------
+to tell that's a constantly be on so
+
+---------08:34----------
+even if that chip is not dead the signal
+
+---------08:37----------
+going to it is going to tell it to
+
+---------08:38----------
+always stay on to always have 12 volts
+
+---------08:41----------
+not pulses of 12 volts I mean just the
+
+---------08:43----------
+straight 12 volts so that little MOSFET
+
+---------08:44----------
+that's meant from one or two or three
+
+---------08:46----------
+volt circuit now it's 12 volts going
+
+---------08:47----------
+through it all the time which means it's
+
+---------08:49----------
+going to die then you think to yourself
+
+---------08:51----------
+you know what maybe it was the
+
+---------08:53----------
+controller after all maybe
+
+---------08:54----------
+wasn't the MOSFET I just replaced the
+
+---------08:56----------
+MOSFET so I know that a in it let me
+
+---------08:58----------
+replace the controller but your old
+
+---------08:59----------
+controller just killed your new MOSFETs
+
+---------09:01----------
+and now you're gonna put the new
+
+---------09:02----------
+controller and you're still gonna have
+
+---------09:03----------
+the same behavior this is one of those
+
+---------09:05----------
+things where if you don't know what
+
+---------09:06----------
+you're doing you could literally sit
+
+---------09:07----------
+down for 40 hours in a room just just
+
+---------09:09----------
+just wanting to cry and scream and throw
+
+---------09:11----------
+things at the wall because no matter
+
+---------09:13----------
+what you were plays it never
+
+---------09:15----------
+works the answer when he buck regulator
+
+---------09:17----------
+has any symptoms like this which it's
+
+---------09:19----------
+just directly shorted and instead of
+
+---------09:21----------
+making pulses it's just one static
+
+---------09:23----------
+voltage the only thing that you can do
+
+---------09:25----------
+here is change everything at the same
+
+---------09:27----------
+time so what I did over here and I'll
+
+---------09:29----------
+show you in them and the microscope is I
+
+---------09:32----------
+changed everything
+
+---------09:33----------
+at the same time so you shrink myself so
+
+---------09:37----------
+that you can see so this is Q 75 10 over
+
+---------09:42----------
+there
+
+---------09:43----------
+that's new that is Q 75 20 over there
+
+---------09:49----------
+that is new and yeah that capacitor got
+
+---------09:54----------
+shorted to it but apparently it's it's
+
+---------09:57----------
+it's all one plane so I get to not care
+
+---------09:59----------
+this over here is Q 75 50 that was
+
+---------10:02----------
+replaced not exactly my finest soldering
+
+---------10:07----------
+job I'll admit one of the things I've
+
+---------10:08----------
+always admitted on this channel is
+
+---------10:09----------
+everything I do is is kind of lopsided
+
+---------10:12----------
+because I don't have much in terms of
+
+---------10:14----------
+steady hands for putting anything or
+
+---------10:16----------
+placing anything but it's soldered there
+
+---------10:18----------
+well and it and I always say that I
+
+---------10:20----------
+clean these a lot of people say no you
+
+---------10:22----------
+don't you leave the mess on there but
+
+---------10:24----------
+really I actually do clean these like
+
+---------10:25----------
+after I'm done with it
+
+---------10:26----------
+it gets put in the ultrasonic cleaner it
+
+---------10:28----------
+stays in there for a little bit i
+
+---------10:29----------
+toothbrush the junk off and then it
+
+---------10:31----------
+stays in there a little more gets put in
+
+---------10:33----------
+the alcohol bath gets put in the oven
+
+---------10:34----------
+because again you don't want to send
+
+---------10:36----------
+boards back to people with flux all over
+
+---------10:37----------
+them it's just nasty
+
+---------10:38----------
+and I also replaced the buck Retton
+
+---------10:41----------
+controller I see and if you want to
+
+---------10:43----------
+troll me on you know like how not align
+
+---------10:45----------
+my soldering is you're welcome to
+
+---------10:48----------
+because again I'm not claiming to be the
+
+---------10:51----------
+best at it I am NOT a micro solder ER I
+
+---------10:53----------
+am a an electronics repair technician I
+
+---------10:57----------
+saw it or to get my job done as an
+
+---------10:59----------
+electronics repair technician I think
+
+---------11:01----------
+I'm a good electronics repair technician
+
+---------11:03----------
+but I will I will totally admit that me
+
+---------11:05----------
+Anna I'm not I'm not a soldering expert
+
+---------11:08----------
+anyway as I always say on this channel
+
+---------11:09----------
+if what I do does not work you should
+
+---------11:11----------
+not listen to me you should not follow
+
+---------11:13----------
+anything I do so the next step here
+
+---------11:16----------
+would be to prove that this thing
+
+---------11:17----------
+actually actually functions I have been
+
+---------11:20----------
+getting lazy in some of these like some
+
+---------11:21----------
+of these videos I see you know whether
+
+---------11:22----------
+it was dead or no power like I measure V
+
+---------11:25----------
+core I measure hey I show you the fan
+
+---------11:26----------
+spin and I go I'm done but I gotta I'm
+
+---------11:30----------
+gonna stop doing that even if it is kind
+
+---------11:32----------
+of busy so one of the things with this
+
+---------11:34----------
+board is when it has no CPU v core it
+
+---------11:37----------
+won't chime it will make a little when
+
+---------11:40----------
+it turns on but when it does it will
+
+---------11:42----------
+chime so now not only will you see that
+
+---------11:45----------
+it turns on you'll also be able to hear
+
+---------11:47----------
+edit Dung's
+
+---------11:52----------
+isn't that a pretty sound
+

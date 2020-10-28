@@ -1,0 +1,397 @@
+https://www.youtube.com/watch?v=FlaUiYB9FbM
+---------00:00----------
+okay let's see what we have on the other
+
+---------00:02----------
+side of this board plug this in
+
+---------00:14----------
+thank you so much this Vicki Shore for a
+
+---------00:16----------
+thousand Thunderbolts bp3 before - is
+
+---------00:21----------
+present TP bus is present but low
+
+---------00:25----------
+meaning the SMC is not turning on
+
+---------00:27----------
+meaning it's an SMC issue or an SMC
+
+---------00:29----------
+reset issue is SMC reset higher law SMC
+
+---------00:33----------
+reset is one point forty four volts so
+
+---------00:36----------
+we have an issue with SMC reset circuit
+
+---------00:38----------
+or SMC all right let's remove SMC reset
+
+---------00:45----------
+chip and if we remove the SMC reset ship
+
+---------00:47----------
+and SMC reset is high we're lucky and
+
+---------00:50----------
+all this board would need is an SMC
+
+---------00:53----------
+reset [ __ ] if we remove the SMC reset
+
+---------00:56----------
+chip on this board and it doesn't work
+
+---------00:59----------
+that means the SMC is pulling it down so
+
+---------01:03----------
+and I will go over the why of that the
+
+---------01:06----------
+moment I remove this chip
+
+---------01:12----------
+okay chip removed so let's just open up
+
+---------01:15----------
+a schematic and a board view for the 8 -
+
+---------01:18----------
+0 - 35 36 that this is so I can show you
+
+---------01:24----------
+all what's going on there 8 - 0 3 5 3 6
+
+---------01:29----------
+now there's no green light in the charge
+
+---------01:31----------
+and in order to have a green light in
+
+---------01:33----------
+the charger what ah
+
+---------01:38----------
+wait out no no okay in order to have a
+
+---------01:41----------
+green light on the charger I need 4 PP 3
+
+---------01:46----------
+V 4 to underscore g3 ought to be present
+
+---------01:48----------
+pp 3 before to underscore g3 hot so here
+
+---------01:51----------
+this chip is gonna pass pp 3 before to
+
+---------01:55----------
+underscore g3 outs of this chip this
+
+---------01:56----------
+chip is going to take the adapter sends
+
+---------01:58----------
+signal and sends it over to the system
+
+---------02:01----------
+management controller on the SIS 1 wire
+
+---------02:03----------
+line since one wire here is gonna go to
+
+---------02:05----------
+the SMC chip that's what's gonna turn
+
+---------02:07----------
+the charger on now our charger is not
+
+---------02:08----------
+turning on right now the charger as you
+
+---------02:10----------
+saw is not turning green or orange the
+
+---------02:14----------
+SMC itself is going to turn on when SMC
+
+---------02:18----------
+reset L is present SMC reset L is a
+
+---------02:22----------
+signal that's going to keep the SMC from
+
+---------02:23----------
+trying to turn on before all the power
+
+---------02:25----------
+as I've stabilized this chip is going to
+
+---------02:27----------
+keep SMC reset L low for maybe a 100 to
+
+---------02:29----------
+200 milliseconds think of it like a
+
+---------02:30----------
+brownout detector it's just gonna make
+
+---------02:32----------
+sure that people through before - is
+
+---------02:34----------
+exactly 3.42 volts before it turns on
+
+---------02:36----------
+now there's two ways I can tell before I
+
+---------02:38----------
+even measure SMC reset l at the SMC is
+
+---------02:40----------
+off the SMC not chosen to communicate
+
+---------02:43----------
+with the charger it also communicates
+
+---------02:44----------
+with the chip that creates voltage
+
+---------02:45----------
+required for the Machine use 7100 which
+
+---------02:48----------
+is gonna create PP but g3 hi see over
+
+---------02:50----------
+here we have an SMC data line over here
+
+---------02:52----------
+the data line at the bi-directional data
+
+---------02:54----------
+line speaking with this chip and this
+
+---------02:56----------
+chip is creating PP bunch d3 hot at the
+
+---------02:58----------
+wrong voltage it's creating it at 12.20
+
+---------02:59----------
+3 rather than 12 point 56 and it usually
+
+---------03:02----------
+creates at a 12 point 56 in the SMC
+
+---------03:04----------
+works 12 point 23 when it doesn't no
+
+---------03:06----------
+thanks thank you
+
+---------03:10----------
+so let's see what we get over here what
+
+---------03:14----------
+now that we have turned off the we've
+
+---------03:17----------
+removed the SMC resettle chip so when I
+
+---------03:19----------
+plug this in as you can see we get a
+
+---------03:22----------
+green light on the charger it's not
+
+---------03:24----------
+going to turn on because
+
+---------03:25----------
+is SMC they're not going to turn on so
+
+---------03:28----------
+as you can see here after moving the SMC
+
+---------03:29----------
+reset chip we are getting a green light
+
+---------03:32----------
+on the charger and we're also getting
+
+---------03:33----------
+three point four volts on SMC reset
+
+---------03:36----------
+meaning this is most likely a problem
+
+---------03:37----------
+with SMC reset so let me just get a
+
+---------03:43----------
+replacement chip from a donor thank you
+
+---------03:46----------
+and now for this board that has already
+
+---------03:49----------
+remote place SMC and a jagged looking
+
+---------03:52----------
+SMC reset chip
+
+---------03:59----------
+that's fine okay Oh Mako yeah I'll just
+
+---------04:03----------
+ask out but I'll sell me one that'll
+
+---------04:05----------
+that'll go great all right so we do this
+
+---------04:07----------
+and we're gonna replace that ship with
+
+---------04:12----------
+another one
+
+---------04:16----------
+and once this works my accountants
+
+---------04:19----------
+assistance machine will work and
+
+---------04:20----------
+hopefully he can go back to making sure
+
+---------04:22----------
+that I don't get owned by the IRS and
+
+---------04:30----------
+yeah
+
+---------04:35----------
+okay you bet
+
+---------05:16----------
+so hopefully you understand why it is
+
+---------05:18----------
+that I checked PP but g3 hot to confirm
+
+---------05:20----------
+that the SMC was off and I hope you
+
+---------05:23----------
+understand why it is that 12 point 28
+
+---------05:25----------
+volts versus 12 point 56 volts means
+
+---------05:27----------
+something to me
+
+---------05:28----------
+the chip that creates BP budged III hoc
+
+---------05:30----------
+communicates with the SMC and this wear
+
+---------05:32----------
+pattern recognition comes in handy
+
+---------05:34----------
+because I don't have a manual for this
+
+---------05:35----------
+or anything like that it's just that
+
+---------05:36----------
+every single time that the SMC has been
+
+---------05:39----------
+corroded or broken or this not working
+
+---------05:41----------
+right or it's not turning on I get 12
+
+---------05:43----------
+point 28 versus when it works I get 12
+
+---------05:45----------
+point 56 so I've associated in my head
+
+---------05:47----------
+that when the assistant management
+
+---------05:49----------
+controller is working I will get 12
+
+---------05:51----------
+point 56 volts and when it's not working
+
+---------05:53----------
+I'll get 12 point 28 volts I need your
+
+---------05:55----------
+quarterly filings please says IRS what
+
+---------05:59----------
+get out of here get tough
+
+---------06:07----------
+get the [ __ ] out of my store we are
+
+---------06:09----------
+closed anyway back to this let's see if
+
+---------06:13----------
+this thing it gives me fan spin now that
+
+---------06:14----------
+we replace the SMC SMC reset lic
+
+---------06:35----------
+and it works beautiful lovely so now
+
+---------06:39----------
+this machine works now we move on to
+
+---------06:41----------
+some more important questions
+
+---------06:43----------
+why are my company's finance is being
+
+---------06:45----------
+held on a MacBook MacBook like the [ __ ]
+
+---------06:55----------
+the shitty companies okay just making
+
+---------06:57----------
+sure
+
+---------07:01----------
+okay can you hand this to one of the
+
+---------07:05----------
+three people in the front and just say
+
+---------07:06----------
+Louis asked if you could please
+
+---------07:08----------
+reassemble this and it'll be set in
+
+---------07:10----------
+working no more MacBook I will actually
+

@@ -1,0 +1,1195 @@
+https://www.youtube.com/watch?v=j6Q1CBwXMtY
+---------00:00----------
+hi so today Apple decided to make my
+
+---------00:02----------
+life just a little bit harder like they
+
+---------00:04----------
+always do by giving customers a shitty
+
+---------00:05----------
+estimates so they told a customer that
+
+---------00:08----------
+this machine only needed a screen and
+
+---------00:10----------
+then the guy calls and says Apple said I
+
+---------00:11----------
+needed a screen how long is it gonna
+
+---------00:13----------
+take and we say if it's a screen one
+
+---------00:15----------
+hour but we like to do our own estimate
+
+---------00:17----------
+because they are often wrong and this is
+
+---------00:19----------
+this guy was you know it was a douchebag
+
+---------00:21----------
+so he he hung up before we could
+
+---------00:23----------
+actually finish the [ __ ] sentence now
+
+---------00:25----------
+I have to sleep sensor unplugged and
+
+---------00:27----------
+this computer is on so one of the things
+
+---------00:28----------
+that I want to show you here is why it
+
+---------00:30----------
+won't work with another screen and why
+
+---------00:32----------
+it drives me nuts when they do their own
+
+---------00:34----------
+bullshit-ass estimates so when you get
+
+---------00:36----------
+what you're gonna see over here is you
+
+---------00:38----------
+only get 17 volts on backlight now tell
+
+---------00:45----------
+me how the [ __ ] is this [ __ ] gonna work
+
+---------00:47----------
+with the new screen when you're only
+
+---------00:49----------
+sending 17 volts of the screen it's not
+
+---------00:51----------
+it's not a screen I plugged in a new
+
+---------00:53----------
+screen it didn't work and the guy's
+
+---------00:54----------
+going on how am I supposed to live three
+
+---------00:55----------
+to five days without my laptop you said
+
+---------00:58----------
+who would live three to five days
+
+---------00:59----------
+without their laptop my answer is if you
+
+---------01:02----------
+have a dead motherboard like what what
+
+---------01:03----------
+are you gonna do it this is the e you
+
+---------01:05----------
+can't use it I mean really and yeah I
+
+---------01:08----------
+don't I don't tell people same day even
+
+---------01:09----------
+if it is a backlight because why make
+
+---------01:12----------
+the Y make life a nightmare hell for
+
+---------01:14----------
+yourself so we're gonna go through
+
+---------01:15----------
+fixing this uh I'm gonna show you what I
+
+---------01:18----------
+do so let's just turn it off turn it
+
+---------01:20----------
+back on again and first thing to do here
+
+---------01:24----------
+is take some measurements and check out
+
+---------01:27----------
+why this is messing up so first things
+
+---------01:29----------
+first since we have that voltage on
+
+---------01:30----------
+backlight obviously the fuse is good if
+
+---------01:32----------
+the fuse were blown you would not have
+
+---------01:33----------
+17 volts on output or 12 or anything now
+
+---------01:36----------
+the fact that it's 17 it's the lowest
+
+---------01:38----------
+amount that it would go through while
+
+---------01:40----------
+boosting is occurring so we're gonna go
+
+---------01:42----------
+through and make sure that everything
+
+---------01:44----------
+here measures the way it's supposed to
+
+---------01:45----------
+so the first thing to go through here on
+
+---------01:48----------
+the screen is going to be backlight and
+
+---------01:50----------
+able so backlight enable is right over
+
+---------01:53----------
+here and that has to work that has to be
+
+---------01:57----------
+3 volts that's not the revolts we won't
+
+---------01:59----------
+get what we need so let's check
+
+---------02:03----------
+backlight a navel
+
+---------02:19----------
+three volts
+
+---------02:21----------
+okay so backlight enable is there and
+
+---------02:23----------
+the next thing to check since it's
+
+---------02:24----------
+telling it to actually turn the
+
+---------02:25----------
+backlight on is the PWM signal so the
+
+---------02:27----------
+pullet pwm signal is what tells the
+
+---------02:29----------
+Machine what brightness to set so if the
+
+---------02:34----------
+PWM signal is too low or not present
+
+---------02:36----------
+it's not going to turn the brightness up
+
+---------02:37----------
+even if the LED booth circuit is
+
+---------02:40----------
+actually working so we're gonna turn on
+
+---------02:43----------
+the oscilloscope and let's see what we
+
+---------02:44----------
+get over there let's try to move this
+
+---------02:49----------
+that you can actually see it it's oom a
+
+---------02:53----------
+little bit on that
+
+---------02:54----------
+alrighty and we're gonna measure and
+
+---------03:03----------
+what the hell just for fun I'll even
+
+---------03:04----------
+show you what I'm measuring let's get
+
+---------03:07----------
+microscope yeah I don't have the voltage
+
+---------03:20----------
+here set right so we're gonna set it to
+
+---------03:21----------
+one volt
+
+---------03:22----------
+so we can actually see what the PWM
+
+---------03:24----------
+looks like this this obviously means I
+
+---------03:28----------
+haven't touched the ground properly
+
+---------04:06----------
+all sadly the ground probe to my
+
+---------04:09----------
+oscilloscope finally broke and him hit
+
+---------04:12----------
+the bucket which is why that looks like
+
+---------04:13----------
+complete and utter [ __ ] that's not what
+
+---------04:15----------
+that's supposed to look like so that's
+
+---------04:16----------
+just another day in me trying to do a
+
+---------04:18----------
+video and it not working so I the ground
+
+---------04:21----------
+they don't even get a difference anyway
+
+---------04:23----------
+but I see what I need to see so pretty
+
+---------04:25----------
+much even though that that is a complete
+
+---------04:26----------
+pile of [ __ ] I can tell that there's
+
+---------04:28----------
+actually a PWM signal which means that
+
+---------04:30----------
+the light should be on which leads me to
+
+---------04:33----------
+probably bad LED driver so great it's
+
+---------04:41----------
+gonna go on to replace the LED driver
+
+---------05:29----------
+the other LED drivers are exactly where
+
+---------05:32----------
+they're supposed to be in a little pouch
+
+---------05:33----------
+on the floor under my desk under a cable
+
+---------05:57----------
+an important thing to take note of here
+
+---------05:58----------
+is that this LED driver is oriented
+
+---------06:00----------
+differently on different boards so it's
+
+---------06:02----------
+important that you remember the way it's
+
+---------06:03----------
+oriented obviously if you put it on the
+
+---------06:06----------
+wrong way bad bad things happening
+
+---------07:23----------
+this is the wrong soldering tip for the
+
+---------07:25----------
+job I should be using the flat one I
+
+---------07:26----------
+just don't feel like changing it and
+
+---------07:29----------
+this is so small an area that it's not
+
+---------07:32----------
+worth changing the tip for the cleaning
+
+---------07:34----------
+I'll be able to do a perfect job without
+
+---------07:38----------
+this is
+
+---------08:01----------
+I'm out of q-tips so I'm using a paper
+
+---------08:03----------
+towel not even a good look down a paper
+
+---------08:05----------
+towel one of those cheap-ass Sparkle
+
+---------08:07----------
+paper towels that you get off of off of
+
+---------08:09----------
+Amazon I can't believe I keep leaving
+
+---------08:15----------
+the brush in the front
+
+---------08:28----------
+rub around that esd-safe towel clean
+
+---------08:48----------
+the eye
+
+---------09:07----------
+throat lining this push down and make
+
+---------09:09----------
+sure it's actually stuck wherever you
+
+---------09:10----------
+put it
+
+---------09:16----------
+it's hard to do that because when you
+
+---------09:18----------
+push down when you push back up it's a
+
+---------09:20----------
+it's gonna move around that's a pain in
+
+---------09:21----------
+the ass like that okay the other day I
+
+---------09:24----------
+got that nasty flux there let's put the
+
+---------09:26----------
+fume extractor right up close and time
+
+---------09:30----------
+for heating
+
+---------10:28----------
+you
+
+---------10:59----------
+so I'm currently a victim of my hot air
+
+---------11:02----------
+station not getting hot in that didn't
+
+---------11:05----------
+melt the way it should
+
+---------11:14----------
+for the sudden the last few videos idea
+
+---------11:16----------
+this thing has just not been heating
+
+---------11:19----------
+lately the way it's supposed to so once
+
+---------11:26----------
+you heat it you can see it move back and
+
+---------11:27----------
+forth like I just did like you see how I
+
+---------11:29----------
+poke did it move but then the air itself
+
+---------11:31----------
+is actually moving it back and forth so
+
+---------11:32----------
+you can see the chip was swaying like
+
+---------11:34----------
+that that that that depth that's how you
+
+---------11:35----------
+know that it's actually been sorted
+
+---------11:36----------
+properly but if it's not moving back and
+
+---------11:39----------
+forth and doing that motion you probably
+
+---------11:41----------
+didn't solder it properly you should be
+
+---------11:43----------
+able to get that cuz then you know that
+
+---------11:44----------
+all the balls are fluid all the walls
+
+---------11:47----------
+are liquidus and yet you've melted
+
+---------11:49----------
+everything so yeah I'm at 8 right now
+
+---------11:53----------
+which should be actually burning the
+
+---------11:54----------
+chips so as soon as I touch the chip it
+
+---------11:56----------
+should be burning because I'm at a too
+
+---------11:57----------
+high temperature and it was still and it
+
+---------12:00----------
+wasn't even melting it so I need to
+
+---------12:01----------
+replace the heating element in my affari
+
+---------12:03----------
+I don't want that's something that I I
+
+---------12:05----------
+keep saying I'm gonna do and the real
+
+---------12:08----------
+world keeps getting in the way of me
+
+---------12:09----------
+having the time one of the I mean I know
+
+---------12:13----------
+I'm gonna have the time once that thing
+
+---------12:15----------
+doesn't eat at all I'm gonna have a lot
+
+---------12:16----------
+of a lot of spare time left so it really
+
+---------12:19----------
+is something I should do immediately and
+
+---------12:24----------
+what do you know the screen that Apple
+
+---------12:27----------
+wanted to replace is [ __ ] fine and
+
+---------12:30----------
+responsible for another customer coming
+
+---------12:32----------
+in and screaming and thinking of mine
+
+---------12:34----------
+trying to rip them off I'm wondering why
+
+---------12:37----------
+it's gonna take longer and blah blah
+
+---------12:38----------
+blah is what it is so um lesson of the
+
+---------12:44----------
+day
+
+---------12:44----------
+never trust the Genius Bar because
+
+---------12:46----------
+they're not geniuses a lot of the time
+
+---------12:50----------
+they're pretty [ __ ] dumb alright so
+
+---------12:51----------
+here's another thing that bothers me
+
+---------12:53----------
+about this so right we got the machine
+
+---------12:54----------
+working now this person came in and said
+
+---------12:57----------
+that we had told him it's possible to
+
+---------12:59----------
+fix and one hour this was because he had
+
+---------13:02----------
+told us he guaranteed it was the screen
+
+---------13:04----------
+you knew was the screen you know ba ba
+
+---------13:06----------
+ba now it comes in and it's a
+
+---------13:08----------
+motherboard issue and since the weekend
+
+---------13:10----------
+is coming up and there's nobody really
+
+---------13:12----------
+here to do that on the weekend or do
+
+---------13:13----------
+this type of troubleshooting we say
+
+---------13:15----------
+three to five days we always tell people
+
+---------13:16----------
+you know it's 2:00 to 4:00 3:00 to 5:00
+
+---------13:18----------
+when it comes to board repairs because
+
+---------13:19----------
+let's face it you really never know
+
+---------13:21----------
+what's gonna go wrong you never know
+
+---------13:22----------
+again it's a hoarder stuff and you never
+
+---------13:24----------
+know when it's gonna be a rabbit hole to
+
+---------13:25----------
+hell and he goes on
+
+---------13:27----------
+and on and on about how I who would
+
+---------13:30----------
+God's name could be three to five days
+
+---------13:32----------
+without their computer that's ridiculous
+
+---------13:34----------
+why would just take so long you needless
+
+---------13:36----------
+to say like this yeah how many places in
+
+---------13:38----------
+the u.s. actually do these board level
+
+---------13:39----------
+repairs where they can do them on camera
+
+---------13:41----------
+and explain everything inside of 13
+
+---------13:43----------
+minutes like yep but beside that's
+
+---------13:45----------
+beside the point
+
+---------13:46----------
+so I did something that I usually tell
+
+---------13:47----------
+you not to do so once somebody starts
+
+---------13:49----------
+acting like that
+
+---------13:50----------
+I will simply not take their money I'll
+
+---------13:51----------
+give it back to them because if you've
+
+---------13:52----------
+done as you've shown me that you are
+
+---------13:53----------
+gonna become a problem you show me
+
+---------13:55----------
+you're gonna be a problem and you really
+
+---------13:57----------
+just show me that you'd have no general
+
+---------13:58----------
+respect for us or well anything that
+
+---------14:00----------
+we're doing by acting in that manner we
+
+---------14:02----------
+take it in anyway and just because he
+
+---------14:05----------
+reads it I just want just one one time I
+
+---------14:08----------
+broke my rule I always do things in the
+
+---------14:09----------
+order that I get them I look at
+
+---------14:11----------
+everything in the order that I get them
+
+---------14:12----------
+I may decide that because this is
+
+---------14:14----------
+miserable you're going to the bottom of
+
+---------14:16----------
+the pile but I always look at the jobs
+
+---------14:17----------
+in the order that they actually come in
+
+---------14:18----------
+it's just basic human fairness he tells
+
+---------14:21----------
+me how he needs it for work I we just
+
+---------14:22----------
+flew in how everything stopped working
+
+---------14:23----------
+right I have to reflow you know flew
+
+---------14:25----------
+here from internationally and now this
+
+---------14:27----------
+is just a nightmare
+
+---------14:27----------
+and I feel just a little little a little
+
+---------14:29----------
+bit bad and this is the problem yeah
+
+---------14:31----------
+after you start feeling bad for people
+
+---------14:32----------
+this is why in these videos and also in
+
+---------14:35----------
+with people that I know I encourage you
+
+---------14:36----------
+to look at this board as money look at
+
+---------14:38----------
+it as a piece of silicon don't look at
+
+---------14:40----------
+it like the you the people using it
+
+---------14:42----------
+don't look at it like this person as
+
+---------14:44----------
+their what the work on it this person is
+
+---------14:45----------
+their life on it this person is their
+
+---------14:46----------
+baby pictures on it you look at it like
+
+---------14:48----------
+it's just another job it's just another
+
+---------14:50----------
+board in the pile because if you start
+
+---------14:52----------
+looking at it like that then you become
+
+---------14:53----------
+emotionally invested in the jobs you
+
+---------14:55----------
+become emotionally invested and trying
+
+---------14:56----------
+to figure it out
+
+---------14:57----------
+but more importantly you also won't
+
+---------15:00----------
+start to care when they start to do
+
+---------15:01----------
+things like what I'm gonna say next so I
+
+---------15:03----------
+call him the town listen I understand
+
+---------15:04----------
+that this was a priority for you
+
+---------15:06----------
+so I actually pushed you you know we
+
+---------15:07----------
+were able to get it done today it was
+
+---------15:09----------
+what do you mean you said it would be
+
+---------15:10----------
+three to five days and I go with board
+
+---------15:11----------
+issues it can take through up to three
+
+---------15:13----------
+to five days but we can figure it out
+
+---------15:15----------
+sooner I actually decided to be honest
+
+---------15:17----------
+do you know again like most people when
+
+---------15:18----------
+dealing with the douche they're gonna
+
+---------15:19----------
+pay they were gonna purposely call you
+
+---------15:21----------
+in a few days to make it look like it
+
+---------15:23----------
+was harder than it actually was and
+
+---------15:25----------
+that's one of the things that we try not
+
+---------15:26----------
+to do here so one of the differences
+
+---------15:27----------
+between us and other places are very
+
+---------15:29----------
+often is instead of lying to people to
+
+---------15:31----------
+get the point across we simply make them
+
+---------15:33----------
+humble so you know we make them instead
+
+---------15:35----------
+of instead of having a lie and cheat to
+
+---------15:38----------
+get them to feel a certain way we will
+
+---------15:40----------
+we explain everything the way it is and
+
+---------15:42----------
+if you decide to be a douchebag we will
+
+---------15:45----------
+make you feel bad for it she's like come
+
+---------15:46----------
+on man that was easy you figured it out
+
+---------15:49----------
+like nothing you're still gonna charge
+
+---------15:50----------
+me that for it and as you know I said
+
+---------15:52----------
+sir you're welcome I'm gonna take this
+
+---------15:54----------
+off and you're welcome to figure it out
+
+---------15:55----------
+and if you can figure it out in under
+
+---------15:57----------
+three to five days I'll give it to you
+
+---------15:58----------
+for free you know I even said most
+
+---------16:00----------
+people are when they deal with somebody
+
+---------16:02----------
+like you and he was what do you mean
+
+---------16:03----------
+like me as an impatient and
+
+---------16:05----------
+disrespectful what they're going to do
+
+---------16:06----------
+is they're gonna purposely call you in a
+
+---------16:08----------
+few days just to make it seem harder but
+
+---------16:09----------
+we don't lie to you usually people are
+
+---------16:11----------
+actually happier when they're pushed to
+
+---------16:13----------
+the front of the line and have that
+
+---------16:14----------
+courtesy that they were done faster than
+
+---------16:16----------
+somebody else usually if somebody comes
+
+---------16:18----------
+in and their board is fixed within 30
+
+---------16:20----------
+minutes of arriving here that is
+
+---------16:21----------
+something that that they would enjoy but
+
+---------16:23----------
+I can see that you're not one of those
+
+---------16:24----------
+people so what I can do is I can remove
+
+---------16:26----------
+this chip and I will put it back on on
+
+---------16:28----------
+Wednesday since that's what we agreed so
+
+---------16:30----------
+you are correct and he goes oh no no no
+
+---------16:32----------
+no I'm sorry I'll be right then like ya
+
+---------16:33----------
+[ __ ] you aren't sorry and and it
+
+---------16:35----------
+is it's one of those things you know
+
+---------16:37----------
+again I'm not gonna start lying to
+
+---------16:38----------
+people so that they they that I I don't
+
+---------16:40----------
+I don't want to start lying to people
+
+---------16:42----------
+and making it seem like it's that much
+
+---------16:43----------
+harder than it actually is
+
+---------16:44----------
+just because they're gonna be a douche
+
+---------16:46----------
+bag like if I had taken five days he
+
+---------16:48----------
+would have said what I mean I'm five
+
+---------16:50----------
+days without a computer that's [ __ ]
+
+---------16:51----------
+I do it fast it's like what you mean you
+
+---------16:53----------
+did it that fast it's bullish it's like
+
+---------16:54----------
+either way you don't win so one of the
+
+---------16:56----------
+points I want to get across with this
+
+---------16:57----------
+video lying is not it's not not always
+
+---------17:00----------
+the property thing to do again I've
+
+---------17:01----------
+talked in other videos about why
+
+---------17:02----------
+technicians lie to customers I
+
+---------17:04----------
+understand it but really honestly
+
+---------17:06----------
+speaking it is not the thing to do the
+
+---------17:08----------
+thing that you should be aiming to do is
+
+---------17:09----------
+keep your customers humble and again you
+
+---------17:12----------
+have to you can't explain it like
+
+---------17:13----------
+passive-aggressively like a wiseass
+
+---------17:14----------
+because again when I'm doing these
+
+---------17:16----------
+videos I'm usually doing them with the
+
+---------17:18----------
+I'm trying to get a point across so I'm
+
+---------17:19----------
+a little bit more animated than I am in
+
+---------17:21----------
+the real world I'm a little bit more
+
+---------17:22----------
+exaggerated you know one example of this
+
+---------17:25----------
+is cursing you know believe it or not in
+
+---------17:26----------
+the real world I actually don't curse
+
+---------17:28----------
+that much not at all but my point here
+
+---------17:30----------
+is the whole idea is to keep them humble
+
+---------17:33----------
+it's not to lie to them it's not to make
+
+---------17:35----------
+things seem harder than they are it's
+
+---------17:36----------
+not to lie and say that you did
+
+---------17:37----------
+something different I know if you're
+
+---------17:39----------
+charging if you're charging somebody you
+
+---------17:41----------
+know $1,000 to replace a single zero
+
+---------17:44----------
+4:02 capacitor on a board for a crane
+
+---------17:46----------
+that operates a crane or something like
+
+---------17:48----------
+that you need to be honest and happy
+
+---------17:50----------
+about what it is you're doing and what
+
+---------17:51----------
+you're charging
+
+---------17:52----------
+and that's it like whatever business
+
+---------17:55----------
+model you have you need to be proud of
+
+---------17:57----------
+it and you can't be like you can't be
+
+---------17:59----------
+lying and cheating in the scheming just
+
+---------18:01----------
+because people are trying to beat you
+
+---------18:02----------
+down on price or make it seem like
+
+---------18:03----------
+you're ripping them off and blah blah
+
+---------18:04----------
+blah
+
+---------18:05----------
+you really do have to make them humble
+
+---------18:07----------
+so in this case somebody comes in they
+
+---------18:09----------
+complain I did the wrong thing I push
+
+---------18:11----------
+you to the front of the line I get your
+
+---------18:13----------
+border pair done on camera in 13 minutes
+
+---------18:15----------
+I call you within 20 to 30 minutes to
+
+---------18:17----------
+tell you it's completed and you're
+
+---------18:19----------
+actually mad again this is one of those
+
+---------18:21----------
+things like I finish it in three days
+
+---------18:22----------
+you're mad it took three days I'm mad
+
+---------18:24----------
+that my machine
+
+---------18:25----------
+you take one day you're mad you without
+
+---------18:26----------
+your shame for one day I do it in an
+
+---------18:28----------
+hour you're mad that I'm charging here
+
+---------18:30----------
+it's like you know what the you have to
+
+---------18:31----------
+realize that with some people you're
+
+---------18:32----------
+never going to win and it's not worth
+
+---------18:34----------
+lowering yourself to their level it's
+
+---------18:36----------
+not worth lying it's not worth becoming
+
+---------18:38----------
+the same very piece of [ __ ] that they
+
+---------18:39----------
+are just to deal with them it's it's not
+
+---------18:42----------
+worth lowering yourself to that level it
+
+---------18:44----------
+really is you know you should begin
+
+---------18:46----------
+simply make people humble and in when
+
+---------18:50----------
+you're dealing with them it's not about
+
+---------18:52----------
+you know it's not about lying to them
+
+---------18:54----------
+it's not about making [ __ ] up and again
+
+---------18:56----------
+you know I I didn't even bother going
+
+---------18:57----------
+through the whole idea of you know yes
+
+---------19:00----------
+it is simple enough to do in 13 minutes
+
+---------19:02----------
+after like 17 years of electronics you
+
+---------19:04----------
+just lay it on the table and that's it
+
+---------19:07----------
+I'll take it off and if you can reattach
+
+---------19:10----------
+it if you can do if you can do any
+
+---------19:12----------
+estimate with any of the equipment that
+
+---------19:13----------
+I have here by all means you can have it
+
+---------19:17----------
+free
+

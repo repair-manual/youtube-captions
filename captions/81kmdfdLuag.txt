@@ -1,0 +1,466 @@
+https://www.youtube.com/watch?v=81kmdfdLuag
+---------00:00----------
+okay today we're going over an 820 3115
+
+---------00:03----------
+board that was totally dead it had no
+
+---------00:04----------
+green light in the charger no voltage
+
+---------00:06----------
+anywhere on the board and what we found
+
+---------00:07----------
+was that it was because of a short to
+
+---------00:09----------
+ground on the main DC and rail so just
+
+---------00:11----------
+they go over here to the computer and
+
+---------00:13----------
+the PDF reader so that I can show you
+
+---------00:14----------
+what was wrong let's switch over here so
+
+---------00:17----------
+over here on the power system
+
+---------00:18----------
+architecture for an 820 3115 the AC
+
+---------00:21----------
+adapter comes in and then goes to f6 905
+
+---------00:23----------
+now on this side right over here on the
+
+---------00:26----------
+other side of F 6 9 05 there was a zero
+
+---------00:28----------
+ohm short to ground so I did what I tell
+
+---------00:31----------
+you guys to do when there's a short to
+
+---------00:32----------
+ground and I put power in the board from
+
+---------00:34----------
+the power supply so I attached the
+
+---------00:35----------
+positive probe of this to that fuse and
+
+---------00:39----------
+I attached the negative end or the
+
+---------00:40----------
+ground and to a screw hole in the board
+
+---------00:42----------
+and what I notice is regardless of how
+
+---------00:44----------
+much power I put in the Boyd never got
+
+---------00:46----------
+hot in none of the components got hot
+
+---------00:48----------
+which meant this the grid short to
+
+---------00:50----------
+ground is not on the component it was
+
+---------00:52----------
+actually inside of the motherboard and
+
+---------00:54----------
+that's no good so let me show you what
+
+---------00:56----------
+it is we did to get around that so this
+
+---------00:58----------
+rail so let's go to the board view so
+
+---------01:01----------
+you can see the board view here now on
+
+---------01:09----------
+the board view what I did is I just did
+
+---------01:11----------
+this and it's going to show me
+
+---------01:13----------
+everywhere in the board that shows up so
+
+---------01:15----------
+that shows up first at the dcn board
+
+---------01:18----------
+fuse if you aren't good at pac man in
+
+---------01:23----------
+the 80s you're not going to be good at
+
+---------01:24----------
+navigating this board view software so
+
+---------01:26----------
+it shows up on f6 905 then it goes down
+
+---------01:29----------
+here to the input of the pp 3 V 4 2
+
+---------01:31----------
+power supply by our 6990 then it goes
+
+---------01:35----------
+over here to the ISL 6259 circuit to
+
+---------01:39----------
+provide 16 volts over here it goes to
+
+---------01:41----------
+this FET that provides the 16 volts from
+
+---------01:43----------
+the charger through the buck converter
+
+---------01:45----------
+that the ISL 6259 is controlling it goes
+
+---------01:48----------
+over here to the voltage divider that
+
+---------01:50----------
+feeds the gate of this of this of this
+
+---------01:54----------
+MOSFET over here and it goes to this
+
+---------01:57----------
+diode DC 7005 which feeds 70 r70 10
+
+---------02:04----------
+which is for charger ACN and it also
+
+---------02:07----------
+goes to the SMC DC and sense which
+
+---------02:09----------
+senses the amount of voltage on the DC
+
+---------02:11----------
+and rail so let's just show you that in
+
+---------02:13----------
+the PD
+
+---------02:13----------
+Oh is I just doing Oh what was I
+
+---------02:32----------
+Oh short to ground all right so short to
+
+---------02:34----------
+ground over here so this is PPD CNG
+
+---------02:37----------
+three hot from the charger this was
+
+---------02:38----------
+short it's a ground and over here that
+
+---------02:40----------
+feeds this voltage divider with our 7010
+
+---------02:43----------
+and our 7011 that goes to the charger AC
+
+---------02:45----------
+and pin now you it needs to see four
+
+---------02:47----------
+vaults here before the ISL 6259 will
+
+---------02:50----------
+shoot at smc bc AC okay which is needed
+
+---------02:52----------
+for the one wire circuit to work if
+
+---------02:53----------
+you're kind of confuses what the one
+
+---------02:55----------
+wire circuit does you can check the out
+
+---------02:56----------
+the one wire circuit videos on this
+
+---------02:58----------
+channel so if you guys watch that video
+
+---------03:01----------
+on the no backlight because of the
+
+---------03:04----------
+backlight shorted to ground inside the
+
+---------03:05----------
+board you probably have an idea of what
+
+---------03:07----------
+i'm going to do at this point and here
+
+---------03:09----------
+is what i did so we took all the stuff
+
+---------03:12----------
+that was running along that line so from
+
+---------03:15----------
+here that were short it's a ground then
+
+---------03:16----------
+we decided to create a new path for it
+
+---------03:17----------
+so this here is where the fuse was for
+
+---------03:22----------
+dcn that little wire goes around here
+
+---------03:28----------
+and to the fuse which is professionally
+
+---------03:31----------
+mounted on the fan the fuse then goes to
+
+---------03:35----------
+the inrush limiter which is also
+
+---------03:38----------
+professionally mounted on the fan that
+
+---------03:41----------
+then goes over to the ISL circuit area
+
+---------03:44----------
+over here so this is where the voltage
+
+---------03:47----------
+divider is for the gate of that limiter
+
+---------03:49----------
+to turn it on so this is going to be for
+
+---------03:51----------
+the gate of that mosfet over there it
+
+---------03:53----------
+also goes to this diode over here so you
+
+---------03:55----------
+have the fuse going to the diode where
+
+---------03:57----------
+that's going to be going to the voltage
+
+---------03:59----------
+divider of this resistor and i believe
+
+---------04:01----------
+the one right next to it for charger ACN
+
+---------04:04----------
+now that is also going to smc DC and I
+
+---------04:08----------
+sense over here for the scent of so that
+
+---------04:12----------
+the smc can tell the exact voltage on
+
+---------04:13----------
+the DCM board and that's also going to
+
+---------04:15----------
+the other side of the board where the
+
+---------04:17----------
+input to the pp 3 V 4 2 circuit is right
+
+---------04:20----------
+here
+
+---------04:26----------
+and let's see what the result of that is
+
+---------04:28----------
+do you think that my Frankenstein board
+
+---------04:30----------
+works one way to find out so we have a
+
+---------04:32----------
+ram stick plugged in there we have a
+
+---------04:35----------
+speaker we have these en bord a fan and
+
+---------04:40----------
+a screen so let's plug it in and see
+
+---------04:43----------
+what we get so we have a green light
+
+---------04:53----------
+give a fan spinning we have a nice long
+
+---------04:57----------
+dong now we have a screen which pretty
+
+---------05:00----------
+much means that this is good obviously
+
+---------05:02----------
+yeah you have to run a SD and all that
+
+---------05:04----------
+other good stuff but just seeing the
+
+---------05:06----------
+naughty before you even get the dong and
+
+---------05:08----------
+before you even get the screen just
+
+---------05:09----------
+seeing a fan spin on a board that looks
+
+---------05:11----------
+like this is pretty fun and I will
+
+---------05:14----------
+follow up with some high resolution
+
+---------05:15----------
+pictures to put in the video because
+
+---------05:17----------
+this is definitely one that's going in
+
+---------05:18----------
+on the wall so let's just get the let's
+
+---------05:25----------
+get the focus going here
+
+---------05:35----------
+you
+
+---------05:48----------
+now one thing to note about this is that
+
+---------05:51----------
+the fan is no longer a customer or
+
+---------05:54----------
+technician serviceable part and I'm
+
+---------05:57----------
+totally okay with that because that's
+
+---------05:58----------
+the direction that Apple has actually
+
+---------05:59----------
+been asking that we all head and I feel
+
+---------06:01----------
+like I'm just kind of stepping ahead or
+
+---------06:03----------
+just a little bit ahead of them in
+
+---------06:05----------
+following their lead so first the
+
+---------06:07----------
+battery was not user removable then they
+
+---------06:09----------
+made the drive not user replaceable by
+
+---------06:11----------
+making it a proprietary type of drive
+
+---------06:12----------
+instead of using the standard PCI
+
+---------06:13----------
+Express m2 slot then they decided that
+
+---------06:16----------
+oh the keyboards going to be riveted
+
+---------06:17----------
+into the machine so you can't replace it
+
+---------06:19----------
+then they decided to make the battery
+
+---------06:21----------
+glued into the machine to the riveted
+
+---------06:22----------
+keyboard under the trackpad so that you
+
+---------06:24----------
+can't replace the battery the keyboard
+
+---------06:26----------
+the trackpad then the screen instead of
+
+---------06:28----------
+having a screen that screws into the
+
+---------06:29----------
+computer they have that'd he's the one
+
+---------06:30----------
+then they made even one step worse the
+
+---------06:32----------
+retina so you know what I'm doing I'm
+
+---------06:33----------
+step I've taken a step in the right
+
+---------06:35----------
+direction here this fan is no longer
+
+---------06:37----------
+user replaceable which actually puts me
+
+---------06:40----------
+ahead of where they are with the rent in
+
+---------06:42----------
+the new air because in those models the
+
+---------06:44----------
+fan is user replaceable but here you
+
+---------06:46----------
+want that fan replaced good luck
+

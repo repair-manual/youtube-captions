@@ -1,0 +1,628 @@
+https://www.youtube.com/watch?v=tC1NMouKsqg
+---------00:00----------
+hey everybody how's it going so today
+
+---------00:01----------
+we're going to be getting started on a
+
+---------00:03----------
+Macbook that's not powering on here we
+
+---------00:05----------
+have and what looks like an a 1707 this
+
+---------00:12----------
+is a 2016 through 2017 15-inch MacBook
+
+---------00:15----------
+Pro let's get it under the camera open
+
+---------00:19----------
+this thing up and see if we can get it
+
+---------00:22----------
+to work again this case really doesn't
+
+---------00:26----------
+want to come off
+
+---------00:27----------
+I hate these cases not just for all the
+
+---------00:30----------
+dirt that go winds up getting inside of
+
+---------00:32----------
+them they're disgusting but it's also
+
+---------00:35----------
+they crack really easily and then the
+
+---------00:37----------
+customer says I want you to order me a
+
+---------00:40----------
+new case that's fill it dirt gross hate
+
+---------00:48----------
+these cases
+
+---------01:01----------
+I see something that makes me want to
+
+---------01:03----------
+cry I see something here that makes me
+
+---------01:06----------
+want to cry this this makes me puke are
+
+---------01:11----------
+you ready
+
+---------01:17----------
+so
+
+---------01:18----------
+this computer has a connector put on
+
+---------01:22----------
+over the screw so as you can see on the
+
+---------01:25----------
+right side is the screw screwing this
+
+---------01:30----------
+cover over the connector on the left
+
+---------01:33----------
+side they put the screw in first and
+
+---------01:34----------
+then this over it that that actually
+
+---------01:38----------
+ruined me that kind of set a bad tone
+
+---------01:43----------
+for this dream I kind of I'm really sad
+
+---------01:46----------
+now
+
+---------01:54----------
+well
+
+---------02:02----------
+okay
+
+---------02:05----------
+something tells me this is this MacBook
+
+---------02:06----------
+is gonna have more wrong with it than
+
+---------02:08----------
+what is usually wrong can anybody guess
+
+---------02:11----------
+why I'm making the assumption that
+
+---------02:12----------
+there's gonna be more wrong with this
+
+---------02:13----------
+MacBook than what's usually wrong I like
+
+---------02:15----------
+to unplug the battery so that like when
+
+---------02:18----------
+I plug in the charger I can see the
+
+---------02:20----------
+amperage that the board is taking by
+
+---------02:21----------
+itself I can get a nice nice isolated
+
+---------02:23----------
+measurement of just what the board's
+
+---------02:24----------
+taking and I plug my USB C amp meter
+
+---------02:27----------
+into my USB C charger before I plug it
+
+---------02:29----------
+into the MacBook is it gonna tell me a
+
+---------02:31----------
+couple of things how many amps are the
+
+---------02:32----------
+board using it's also gonna tell me if
+
+---------02:34----------
+the charge controllers are activating
+
+---------02:36----------
+the CD 32 are activating the USB C
+
+---------02:39----------
+charger and getting it to turn off and
+
+---------02:41----------
+on this board as you can see it's taking
+
+---------02:43----------
+five volts at 20 milliamps which means
+
+---------02:46----------
+that the machine is not activating the
+
+---------02:49----------
+USB C charger this can put out five
+
+---------02:51----------
+volts to charge a GoPro nine volts to
+
+---------02:53----------
+charge a LG G 8 phone or 20 volts to
+
+---------02:56----------
+charge a macbook and those chips are
+
+---------02:58----------
+supposed to communicate with this Thank
+
+---------03:00----------
+You David Stoll I don't drink coffee but
+
+---------03:03----------
+I will get a I will put it that towards
+
+---------03:05----------
+the new store fund thank you very much
+
+---------03:07----------
+so where was I so though this trip to CD
+
+---------03:15----------
+3215 and the ones on the other side of
+
+---------03:17----------
+the board they're gonna communicate with
+
+---------03:18----------
+the charger but they're not able to so
+
+---------03:20----------
+let's try and figure out why they're not
+
+---------03:21----------
+able to we're just going to open this
+
+---------03:23----------
+thing up
+
+---------03:32----------
+you
+
+---------04:22----------
+I think that just killed the macbook
+
+---------04:24----------
+folks
+
+---------04:30----------
+that just killed a Macbook let's open up
+
+---------04:34----------
+the schematic and board view so I can
+
+---------04:35----------
+show you what that is watch is the Paul
+
+---------04:37----------
+Daniel software opens it vertically so
+
+---------04:43----------
+it looks like we've got corrosion on
+
+---------04:44----------
+this resistor that's P P 3 v3 UPC X al
+
+---------04:48----------
+do so that's an LD o voltage that's
+
+---------04:50----------
+created by the the CD 3215 which is the
+
+---------04:53----------
+USB C port control and that is going to
+
+---------04:56----------
+be for a data line that's a pull-up
+
+---------04:58----------
+resistor on a data line and that's a
+
+---------05:01----------
+data line that is going to speak to jtag
+
+---------05:07----------
+connector so that doesn't exist now I
+
+---------05:12----------
+don't think that that resistor having
+
+---------05:14----------
+corrosion on it really matters because
+
+---------05:15----------
+it's oh that is a that's a pull-up
+
+---------05:18----------
+resistor for a data line for something
+
+---------05:20----------
+to speak to something that doesn't
+
+---------05:22----------
+actually exist because that JTAG
+
+---------05:24----------
+connectors not populated on the board a
+
+---------05:26----------
+jtag connector is going to be something
+
+---------05:28----------
+like this where you could have a
+
+---------05:29----------
+connector and you could plug some
+
+---------05:31----------
+external thing in to communicate with
+
+---------05:33----------
+the board so you could see that they put
+
+---------05:34----------
+pads on the board for it here but it's
+
+---------05:36----------
+not actually used for anything so it
+
+---------05:38----------
+doesn't really matter what really
+
+---------05:40----------
+matters is that that's an indication of
+
+---------05:43----------
+corrosion being under the CD 3215 itself
+
+---------05:46----------
+so if we try to clean that up you're
+
+---------05:48----------
+going to notice that this board is far
+
+---------05:49----------
+too heavily populated with pubes from my
+
+---------05:51----------
+q-tip and alcohol to actually fix or get
+
+---------05:54----------
+rid of those that number of peeps so
+
+---------05:55----------
+we're gonna use the exacto and see if we
+
+---------05:57----------
+can scrape away some of those pubes and
+
+---------06:00----------
+I'm gonna give this a light reflow with
+
+---------06:02----------
+a little bit of flux just a tiny amount
+
+---------06:05----------
+not too much
+
+---------06:16----------
+we're looking to conserve flux
+
+---------07:11----------
+so I hear that Paul Daniels adjusted the
+
+---------07:13----------
+pricing of his software from $79 to $149
+
+---------07:22----------
+so that he this way he can hire a
+
+---------07:25----------
+full-time developer with the extra money
+
+---------07:28----------
+to fix all the bugs in the software I'm
+
+---------07:31----------
+happy that he's made that decision
+
+---------07:37----------
+that thing does need full-time
+
+---------07:39----------
+bug-fixing
+
+---------07:52----------
+now that resistor to the left is nasty
+
+---------07:55----------
+but you have to keep in mind that the
+
+---------07:56----------
+purpose of that resistor is to
+
+---------07:58----------
+communicate with an empty jtag connector
+
+---------08:00----------
+that has no reason to exist so you'll
+
+---------08:02----------
+excuse me if I don't think that that
+
+---------08:04----------
+resistor has a lot of purpose on this
+
+---------08:05----------
+board given that its sole purpose for
+
+---------08:09----------
+existing it is going to be to allow this
+
+---------08:13----------
+chip to communicate with a port that
+
+---------08:17----------
+doesn't even exist now I know there may
+
+---------08:21----------
+be some purists out there that are
+
+---------08:23----------
+aggravated that I'm taking that data
+
+---------08:25----------
+line and I'm not putting it back where
+
+---------08:27----------
+it belongs if that's the case if you
+
+---------08:30----------
+would like that your cd32 15's on your
+
+---------08:33----------
+macbook after spill damage continue to
+
+---------08:35----------
+have access to a data line that goes to
+
+---------08:37----------
+an empty board connector that doesn't do
+
+---------08:40----------
+anything you might just in fact be
+
+---------08:45----------
+looking for another repair service
+
+---------08:46----------
+because mine may not be the repair
+
+---------08:48----------
+service for you that being said let's
+
+---------08:51----------
+see if this turns on with our reflow
+
+---------08:54----------
+might as well be nice and make that cap
+
+---------09:00----------
+a little nicer on the outside
+
+---------09:22----------
+I'm not gonna be able to get to the
+
+---------09:24----------
+bottom of that actually without removing
+
+---------09:25----------
+the cap or removing the CD 3215 so we'll
+
+---------09:28----------
+leave that for later I'm gonna let the
+
+---------09:30----------
+board wrap it cool using rapid cool
+
+---------09:32----------
+technology
+
+---------09:56----------
+ah as you can see here we have a green
+
+---------09:59----------
+look oh yes I'm so used to saying that
+
+---------10:02----------
+we have 20 volts in the charger and it's
+
+---------10:06----------
+using 1.4 amps which means this is
+
+---------10:08----------
+booting up so I'm gonna plug this in to
+
+---------10:11----------
+a screen so that you can see that we're
+
+---------10:12----------
+getting an image and it's booting up and
+
+---------10:14----------
+just to trigger some of you out there
+
+---------10:16----------
+that are diehard perfectionists I am NOT
+
+---------10:19----------
+gonna put the pull-up resistor back on
+
+---------10:20----------
+the board that allows the machine to
+
+---------10:22----------
+communicate with a non-existing port you
+
+---------10:30----------
+know I've actually had customers in the
+
+---------10:31----------
+past call me and say after you fix my
+
+---------10:33----------
+motherboard my machine was heavier and
+
+---------10:35----------
+they were serious they are they they
+
+---------10:36----------
+they would it's like yeah I used about 6
+
+---------10:40----------
+pounds of lead solder when I rebuild
+
+---------10:41----------
+your SMC that's what but I'm curious if
+
+---------10:45----------
+this customer calls me and says Louis
+
+---------10:47----------
+you know since you worked in my back
+
+---------10:48----------
+book I noticed it's a little bit lighter
+
+---------10:49----------
+did you put all the resistors back now I
+
+---------10:55----------
+made it thinner bro Apple tries to make
+
+---------10:57----------
+the thinner every single year I
+
+---------10:59----------
+just saved them zero point zero zero
+
+---------11:01----------
+zero zero zero zero zero zero micrograms
+
+---------11:04----------
+I will not put it back delete one two
+
+---------11:10----------
+three Paul would you put back a resistor
+
+---------11:13----------
+that goes to that allows the CD 3215 to
+
+---------11:16----------
+speak with a JTAG connector that's not
+
+---------11:18----------
+soldered to the board why literally goes
+
+---------11:23----------
+it's a to the jtech because Apple
+
+---------11:26----------
+intended to put a JTAG there so that
+
+---------11:28----------
+they could program the CD 3215 using
+
+---------11:30----------
+some machine at the factory that clearly
+
+---------11:31----------
+doesn't even work or exists because
+
+---------11:33----------
+there's no jtech there's pads for a JTAG
+
+---------11:35----------
+connector but there's no jtech okay so
+
+---------11:38----------
+there's boots so it looks like we had
+
+---------11:40----------
+corrosion by a CD 32:15 wery hotted it
+
+---------11:43----------
+and it works and that really seems to be
+
+---------11:49----------
+all it was and there was the wrong screw
+
+---------11:51----------
+and the it was the right screw in the
+
+---------11:54----------
+right hole but wrong order they put the
+
+---------11:58----------
+screw and in the connector and then that
+
+---------12:01----------
+blew my mind but either way this works
+
+---------12:03----------
+so we're gonna put this through a nice
+
+---------12:04----------
+altra sonic cleaning process after the
+
+---------12:06----------
+ultrasonic cleaning is done we will
+
+---------12:09----------
+reassemble test
+
+---------12:10----------
+and bring back to the customer are any
+
+---------12:14----------
+of you surprised at just how little
+
+---------12:15----------
+liquid it takes to kill a Macbook that's
+
+---------12:25----------
+it for today and as always I hope you
+
+---------12:26----------
+learned something
+

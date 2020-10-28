@@ -1,0 +1,811 @@
+https://www.youtube.com/watch?v=sI7rvFLUzH0
+---------00:00----------
+hello so today we're going to be looking
+
+---------00:01----------
+at an 8 to 0 2530 board that does not
+
+---------00:04----------
+turn on and yet no green light on the
+
+---------00:07----------
+charger I'm going to have to keep this
+
+---------00:09----------
+quick because as I said my lead
+
+---------00:11----------
+technician is still out on surgical
+
+---------00:13----------
+leave which means I have to do his job
+
+---------00:14----------
+plus mine and I'm also taking this class
+
+---------00:17----------
+on the weekends which means that I had
+
+---------00:21----------
+no free time I have no rest times as you
+
+---------00:24----------
+can see I plug it in is no green light
+
+---------00:27----------
+and I'm just going to go through the
+
+---------00:28----------
+troubleshooting process with you here a
+
+---------00:31----------
+little quickly because again no free
+
+---------00:33----------
+time so not going to go through opening
+
+---------00:37----------
+up the schematics I've done this a
+
+---------00:38----------
+million times already if you want to see
+
+---------00:40----------
+troubleshooting from beginning to end
+
+---------00:41----------
+you're welcome to view videos that I've
+
+---------00:44----------
+done in the past or I use the schematics
+
+---------00:46----------
+and I show you what I'm doing so I have
+
+---------00:49----------
+pp bus g3 hot which is a twelve point
+
+---------00:51----------
+six volt rail let's see if we have the 5
+
+---------00:55----------
+and the 3 volt rails here
+
+---------01:00----------
+you
+
+---------01:07----------
+you
+
+---------01:13----------
+you
+
+---------01:16----------
+you
+
+---------01:19----------
+so all right
+
+---------01:21----------
+three volt or
+
+---------01:26----------
+but no green light now I've talked about
+
+---------01:28----------
+the one wire circa 50 million times so I
+
+---------01:30----------
+am NOT going to get into how that works
+
+---------01:32----------
+I'm not going to explain how it works or
+
+---------01:34----------
+how it keeps the machine from turning on
+
+---------01:36----------
+what I will do very very quickly is show
+
+---------01:39----------
+you what it is that's 99 percent
+
+---------01:41----------
+likelihood wrong with this motherboard
+
+---------01:43----------
+let me just open up the screen capture
+
+---------01:45----------
+software so that I can show you exactly
+
+---------01:46----------
+what that is here so what I'm going to
+
+---------01:49----------
+be showing you here as soon as I open up
+
+---------01:51----------
+this is a chip that is very often the
+
+---------01:55----------
+problem or not a chip but a power line
+
+---------01:57----------
+to a chip that goes bad very often in
+
+---------01:59----------
+the cases of liquid damage now I'm not
+
+---------02:01----------
+going to explain everything here because
+
+---------02:03----------
+I have videos on the one wire circuit
+
+---------02:05----------
+you can freely search for the one wire
+
+---------02:06----------
+circuit and you'll see where I've
+
+---------02:08----------
+discussed it in these videos you it
+
+---------02:09----------
+doesn't need to be discussed 50 million
+
+---------02:11----------
+times as if it's from scratch every
+
+---------02:13----------
+single time I decide to go ahead and do
+
+---------02:16----------
+a video but her eyelids so we shrink me
+
+---------02:20----------
+because who the hell wants to see me
+
+---------02:22----------
+when you can see the beautiful
+
+---------02:23----------
+schematics okay so long story short once
+
+---------02:27----------
+my PDF reader decides to read something
+
+---------02:30----------
+we go long story short so the adapt this
+
+---------02:33----------
+is the DCN board right mag saved DC
+
+---------02:35----------
+power jack adapter sense talks to this
+
+---------02:38----------
+chip this then allows the adapter to
+
+---------02:41----------
+communicate with the SMC via the system
+
+---------02:43----------
+animator controller via this one wire
+
+---------02:45----------
+line this chip see the VCC tap VCC or
+
+---------02:49----------
+VDD anything like that that is the power
+
+---------02:51----------
+that the chip is using so that's the
+
+---------02:53----------
+power that the chip is using to actually
+
+---------02:54----------
+turn on so that you can you know so you
+
+---------02:56----------
+can so can work so when you see VCC or
+
+---------02:58----------
+VDD that's going to be the main power
+
+---------03:00----------
+line for a chip that is powering it and
+
+---------03:02----------
+allowing it to turn on so this is
+
+---------03:04----------
+turning on off of what comes from here
+
+---------03:06----------
+this over here is a logic gate this is
+
+---------03:08----------
+not going to turn on and send PP 3 V 4 2
+
+---------03:11----------
+G 3 hot through here if SM CBC a [ __ ] is
+
+---------03:14----------
+not here now
+
+---------03:15----------
+what happens all the time is that this
+
+---------03:17----------
+is a very very small very very small vo
+
+---------03:21----------
+right by the edge of the board it always
+
+---------03:23----------
+always dies so I will show you that here
+
+---------03:26----------
+and when I say always dies because it's
+
+---------03:28----------
+close to the it's close to is this thing
+
+---------03:33----------
+this is in Reverse isn't orange you're
+
+---------03:36----------
+upside down
+
+---------03:37----------
+come on mofo come on there we go
+
+---------03:41----------
+alright so what I mean is since it's
+
+---------03:43----------
+close to the edge of the board that's
+
+---------03:44----------
+where the water damage occurs and that's
+
+---------03:46----------
+where the problems arise so I showed you
+
+---------03:50----------
+that I have PP 3 V 4 to underscore g3
+
+---------03:53----------
+hot right but over here where I'm
+
+---------03:55----------
+supposed to so this over here is pin 5
+
+---------03:58----------
+of you 6901 so let's just switch back
+
+---------04:01----------
+real quick so you 6901 over here where
+
+---------04:06----------
+come on PDF reader this PDF reader is
+
+---------04:09----------
+not acting like it as to SSDs and raid 0
+
+---------04:11----------
+all right so this over here p b3 b4 to
+
+---------04:13----------
+underscore g3 hot is supposed to be on
+
+---------04:15----------
+pin 5 so watch what happens if I try to
+
+---------04:18----------
+measure for pin 5 let's see what I get
+
+---------04:21----------
+so if I try to measure that I'm probably
+
+---------04:24----------
+going to get something like 0 even
+
+---------04:26----------
+though my PB 3 V 4 to underscore g3
+
+---------04:27----------
+haunt our supply is just fine so when I
+
+---------04:30----------
+measure over there I get zero instead of
+
+---------04:33----------
+3.42 volts so I have to do now is I have
+
+---------04:36----------
+to find where I can get 3.42 volts on
+
+---------04:39----------
+this board and then steel 3.42 volts so
+
+---------04:43----------
+I can send it over to that leg of the
+
+---------04:45----------
+chip and that's going to be the fun part
+
+---------04:48----------
+so right next to it I have a leg from
+
+---------04:50----------
+this other chip which is
+
+---------04:54----------
+let's see what I get here
+
+---------04:58----------
+multi-meter because I faced it towards
+
+---------05:00----------
+you ad to put the camera up so I can see
+
+---------05:03----------
+that
+
+---------05:07----------
+I have nothing there because I actually
+
+---------05:08----------
+unplugged the board from the charger
+
+---------05:10----------
+this is what happens when you rush
+
+---------05:13----------
+because you have a bunch of stuff to do
+
+---------05:15----------
+and somebody is out sick so any I'll
+
+---------05:17----------
+just measure this here again just for
+
+---------05:19----------
+the hell of it because I okay so it's
+
+---------05:20----------
+zero point zero nine volts needless to
+
+---------05:22----------
+say that ain't what we need so if I go
+
+---------05:24----------
+over next door I can steal PP 3 V 4 -
+
+---------05:28----------
+from this which is cool yeah so that is
+
+---------05:32----------
+three point P P 3 P 3 on there and P P 3
+
+---------05:35----------
+V 4 - so I'm going to do is I'm going to
+
+---------05:37----------
+run a little wire from one to the other
+
+---------05:39----------
+and that is why Apple calls this the 1
+
+---------05:43----------
+wire circuit because when it [ __ ] up
+
+---------05:45----------
+you can always fix it using just one
+
+---------05:47----------
+wire so now I taught somebody had to do
+
+---------05:51----------
+border pair from scratch from not ever
+
+---------05:54----------
+having done it and he is much better
+
+---------05:57----------
+than I am at doing a better trick so
+
+---------06:01----------
+what he does I'll show you into the
+
+---------06:02----------
+microscope let me just turn the light a
+
+---------06:04----------
+little down so that you can see so let
+
+---------06:08----------
+me show you what he usually does which I
+
+---------06:10----------
+always fail at so this is where the 3
+
+---------06:12----------
+point 42 volts is supposed to come in
+
+---------06:14----------
+right it comes in through here and this
+
+---------06:15----------
+actually goes through the board right
+
+---------06:17----------
+there so what he will do is he will
+
+---------06:18----------
+simply grab it from the other side by
+
+---------06:20----------
+making a hole in the board so that hole
+
+---------06:23----------
+will go yeah like right over here
+
+---------06:29----------
+so he will simply make a hole on the
+
+---------06:31----------
+board and have that hole go all the way
+
+---------06:33----------
+through the board you can see where I I
+
+---------06:35----------
+tried to make a hole so that I could put
+
+---------06:37----------
+a wire through there and I failed
+
+---------06:39----------
+miserably so and he's always able to do
+
+---------06:42----------
+that he's much better at much better at
+
+---------06:43----------
+the arts and crafts kind of [ __ ] than I
+
+---------06:44----------
+am I suck at it so since I suck at it
+
+---------06:47----------
+what I'm going to do is I'm going to be
+
+---------06:48----------
+running a wire from here to here again
+
+---------06:54----------
+the right thing to do would just be to
+
+---------06:56----------
+make the hole and recreate the the blown
+
+---------06:59----------
+via that would be the right thing to do
+
+---------07:01----------
+but since I suck at that and you all can
+
+---------07:04----------
+laugh and make fun and say I can't
+
+---------07:06----------
+believe you're teaching the class on
+
+---------07:07----------
+these Emily you want to teach mother bow
+
+---------07:09----------
+to bear when you can't even fix a beer
+
+---------07:11----------
+oh yeah so that's what you're thinking
+
+---------07:14----------
+you you can all go [ __ ] yourself so this
+
+---------07:16----------
+over here I'm going to take a wire and
+
+---------07:18----------
+run it from there to there and this is
+
+---------07:21----------
+all probably going to work happily ever
+
+---------07:23----------
+after so let's turn on my soldering iron
+
+---------07:24----------
+and let's put the proper tip to do this
+
+---------07:26----------
+on my soldering iron and yeah shut the
+
+---------07:31----------
+[ __ ] up I have this hack o FX minus mu
+
+---------07:36----------
+change the tip whoever it hack o decided
+
+---------07:38----------
+to make it make that a loud annoying
+
+---------07:40----------
+beep when you change tips like I really
+
+---------07:42----------
+I would I would love to meet that person
+
+---------07:44----------
+I would love to I would love to give
+
+---------07:48----------
+them a piece of my mind
+
+---------07:48----------
+but so we're gonna put a little bit of
+
+---------07:50----------
+flux over here a little bit of flux over
+
+---------07:53----------
+here okay we're going to take my air
+
+---------07:58----------
+filter and put it over here because as
+
+---------08:00----------
+I've said many times I don't want to get
+
+---------08:02----------
+cancer subsided
+
+---------08:19----------
+all righty hit it nice and get this here
+
+---------08:26----------
+nice and juiced up
+
+---------08:39----------
+you
+
+---------08:49----------
+all righty now we get the cutters and
+
+---------08:57----------
+little piece of wire
+
+---------09:05----------
+your little piece of wire where'd you go
+
+---------09:15----------
+you
+
+---------09:18----------
+you
+
+---------09:20----------
+you
+
+---------09:29----------
+then the tweezers that I just put down
+
+---------09:31----------
+here we go wire that I
+
+---------09:42----------
+two short getting like a bigger wah-wah
+
+---------09:44----------
+they grow on
+
+---------09:50----------
+you can always make a long wire shorter
+
+---------09:54----------
+but you can't make a shorter wire longer
+
+---------09:56----------
+which is why it's good to just cut a
+
+---------09:58----------
+bigger piece and then shorten it to the
+
+---------10:00----------
+length that you would like it to be just
+
+---------10:04----------
+by twisting it that's what I like to do
+
+---------10:06----------
+I never put the nasty liquid in there
+
+---------10:15----------
+venire the ultrasonic cleaning stuff no
+
+---------10:18----------
+I forgot
+
+---------10:19----------
+that's just plain water right now I'm
+
+---------10:21----------
+sorry I hate this part of the job this
+
+---------10:41----------
+is the worst running jumpers is the
+
+---------10:43----------
+worst this is maddening
+
+---------10:57----------
+I'm not pulling on this directly I'm
+
+---------10:59----------
+moving it back and forth I'm not pulling
+
+---------11:01----------
+on the joint but right in front of the
+
+---------11:02----------
+joint you're going to see where it's
+
+---------11:03----------
+really becoming unstable because I'm
+
+---------11:05----------
+pulling it back and forth back and forth
+
+---------11:07----------
+back and forth and eventually it's going
+
+---------11:10----------
+to cut itself to the perfect length so
+
+---------11:13----------
+that is my 100% professional method form
+
+---------11:18----------
+for shortening my wire and there we go
+
+---------11:23----------
+obviously I have to coat that I'm not
+
+---------11:26----------
+going to leave that wire exposed that
+
+---------11:27----------
+would be that would that would seriously
+
+---------11:29----------
+be unprofessional so that I'm not going
+
+---------11:31----------
+to do what I'm going to do is I'm going
+
+---------11:33----------
+to plug it in to show you that the green
+
+---------11:34----------
+light works
+
+---------11:59----------
+fan spins yep so this is a common
+
+---------12:04----------
+problem with these boards with the older
+
+---------12:06----------
+2009-2010 ones because they have that
+
+---------12:08----------
+they have that one wire circuitry right
+
+---------12:11----------
+on the edge there and the other thing to
+
+---------12:13----------
+think about here is on the newer boards
+
+---------12:15----------
+that's not on the edge the one wire
+
+---------12:16----------
+circuit is not on that specific edge but
+
+---------12:19----------
+what is is current sensing circuitry and
+
+---------12:21----------
+also voltage sense circuitry for the
+
+---------12:23----------
+machine so if you have liquid in that
+
+---------12:25----------
+area on the newer machines it's going to
+
+---------12:26----------
+be very common is that it's running very
+
+---------12:28----------
+slow and then it's you know just when
+
+---------12:30----------
+it's running off of the battery it's
+
+---------12:31----------
+unbearably slow so that is an area to
+
+---------12:34----------
+check that's a common issue on the eight
+
+---------12:36----------
+to zero twenty five thirty eight to zero
+
+---------12:38----------
+2879 board which honestly is so old at
+
+---------12:41----------
+this point that they kind of belong in
+
+---------12:44----------
+the trash can I mean this this is Core 2
+
+---------12:47----------
+Duo I mean you know this has a video
+
+---------12:49----------
+chip on it that gets boiling hot and the
+
+---------12:52----------
+very nice cool CPU in the two-year-old
+
+---------12:54----------
+laptop that I have has a better video on
+
+---------12:58----------
+it than this boiling discrete video chip
+
+---------13:01----------
+just because it's so old but it was
+
+---------13:03----------
+decent when it came out but now like
+
+---------13:05----------
+this this kind of really belongs you
+
+---------13:08----------
+know but somebody wanted to fix it
+
+---------13:10----------
+and somebody wanted to pay so I'll fix
+
+---------13:13----------
+it so that's a common one wire circuit
+
+---------13:15----------
+issue it's called the one wire circuit
+
+---------13:17----------
+by Apple because you can always fix it
+
+---------13:19----------
+by just using one wire and that's that
+

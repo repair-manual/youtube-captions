@@ -1,0 +1,400 @@
+https://www.youtube.com/watch?v=bNmEXcYZQVw
+---------00:00----------
+here we have a Macbook let's figure out
+
+---------00:03----------
+what's wrong with this math book it says
+
+---------00:04----------
+that it doesn't power on let's open up
+
+---------00:06----------
+this MacBook and see what's going on
+
+---------00:07----------
+with it show me where they touched you
+
+---------00:11----------
+MacBook who hurts you all right time to
+
+---------00:14----------
+figure it out
+
+---------00:14----------
+why it is that this will not turn off so
+
+---------00:16----------
+this is drawing a consistent 200
+
+---------00:18----------
+milliamps but it's not turning on 200
+
+---------00:21----------
+milliamps is much higher than what we
+
+---------00:24----------
+normally not over 150 milliamps and not
+
+---------00:28----------
+turning on is usually one of two things
+
+---------00:29----------
+behind door number one our issue is that
+
+---------00:32----------
+pp bus g3 hot is short circuited which
+
+---------00:35----------
+we're going to check for right now let's
+
+---------00:37----------
+just forget Paul Daniels is multimeter
+
+---------00:38----------
+software on the screen and it's not we
+
+---------00:45----------
+have eight point six volts
+
+---------00:56----------
+and the second likelihood is that we're
+
+---------00:59----------
+not making an Esso state so let's get
+
+---------01:01----------
+the board out of the case so the next
+
+---------01:03----------
+thing that we're gonna do is try and
+
+---------01:04----------
+figure out why it is we're getting 200
+
+---------01:06----------
+milliamps rather than what we're
+
+---------01:07----------
+supposed to be getting so let's take a
+
+---------01:08----------
+look at the board underneath our
+
+---------01:09----------
+microscope see if the microscope can
+
+---------01:12----------
+help me solve my problem a lot of the
+
+---------01:16----------
+times what you got to do is take a look
+
+---------01:18----------
+at the board they have a really
+
+---------01:19----------
+interesting pubes there and just knock
+
+---------01:21----------
+that off the board SMC area looks fine
+
+---------01:34----------
+hiya Sally Aria looks fine which we
+
+---------01:36----------
+expected since it does get 8.6 volts on
+
+---------01:38----------
+our pp bus all says power good area
+
+---------01:41----------
+looks fine that I was not expecting I
+
+---------01:43----------
+was expecting there to be some sort of
+
+---------01:44----------
+corrosion or something over here since
+
+---------01:46----------
+that is what key would keep us from
+
+---------01:48----------
+getting cpu vcore in an Esso state aha
+
+---------01:51----------
+look at that that's something I don't
+
+---------01:54----------
+think I would have spotted easily wonder
+
+---------01:57----------
+what that is
+
+---------01:58----------
+hmm what are you for this is the 1.05
+
+---------02:03----------
+volt PCH switch this is going to send
+
+---------02:06----------
+out key P 1 vo 5 s o SW PCH something
+
+---------02:12----------
+something which trap which this is going
+
+---------02:15----------
+to power the platform controller hub
+
+---------02:17----------
+section of my CPU which is similar to
+
+---------02:19----------
+like a north bridge in the South Bridge
+
+---------02:21----------
+which you're going to need in order for
+
+---------02:22----------
+this to power on and work so I'm not
+
+---------02:24----------
+just going to assume that that capacitor
+
+---------02:26----------
+has an issue with it I'm probably just
+
+---------02:27----------
+going to replace the switch as well
+
+---------02:56----------
+[Music]
+
+---------03:09----------
+we will soon Paul Daniels we will soon
+
+---------03:45----------
+never detect
+
+---------03:50----------
+never
+
+---------04:17----------
+it's gonna scrape away the junk you
+
+---------04:19----------
+don't want to solder on top of junk we
+
+---------04:21----------
+want to scrape away the junk and have
+
+---------04:23----------
+the junk flow onto this ball of my
+
+---------04:26----------
+solder that's on my iron and my iron
+
+---------04:29----------
+would be filled with junk but then
+
+---------04:31----------
+that's fine because we just put it in
+
+---------04:32----------
+the EKKO f99 B tip cleaning station
+
+---------04:42----------
+scrape scrape scrape scrape scrape
+
+---------04:45----------
+scrape scrape scrape scrape roflcopter
+
+---------04:53----------
+scrape scrape speak
+
+---------04:56----------
+scrape scrape scrape roflcopter
+
+---------05:01----------
+roflcopter
+
+---------06:26----------
+let's see if there's anything else
+
+---------06:28----------
+around this board
+
+---------06:54----------
+okay see if we get any change and how
+
+---------06:56----------
+this thing works
+
+---------07:08----------
+as you can see we now have a fan spin
+
+---------07:11----------
+and the reason we have a fan spin on
+
+---------07:13----------
+this board is because we fixed our issue
+
+---------07:15----------
+with the PCH not getting power
+
+---------07:17----------
+it was corrosion on this chip 1.05 volt
+
+---------07:20----------
+PCH kisi ou switch and since we didn't
+
+---------07:25----------
+have the hissy Oh switch the PCH threw a
+
+---------07:28----------
+hissy fit and didn't turn on and that is
+
+---------07:31----------
+why this MacBook didn't work but now
+
+---------07:32----------
+it's working because it's not able to
+
+---------07:34----------
+throw a hissy fit since we have the
+
+---------07:35----------
+hissy uh switch on and that's it for
+
+---------07:37----------
+today and this board and as always I
+
+---------07:39----------
+hope you learned something with that
+
+---------07:40----------
+you're gonna be moving on to the next
+
+---------07:41----------
+MacBook do you have a MacBook that needs
+
+---------07:43----------
+to be fixed we fix MacBooks come by our
+
+---------07:46----------
+storage 186 first Avenue located in
+
+---------07:48----------
+Manhattan open 12:00 to 8:00 on the
+
+---------07:49----------
+weekday 12:00 to 4:00 on the weekends if
+
+---------07:51----------
+you have a macbook that needs to be
+
+---------07:52----------
+fixed t live outside New York City no
+
+---------07:55----------
+problem head over to our website and
+
+---------07:57----------
+click on the outside New York mailbox
+
+---------07:59----------
+icon or go to send your macbook comm
+
+---------08:01----------
+that send your macbook comm to be
+
+---------08:04----------
+redirected to the mail and repair
+
+---------08:06----------
+instructions page on our website and a
+
+---------08:08----------
+form that will tell you how to send your
+
+---------08:10----------
+macbook in at rossmann group comm we
+
+---------08:12----------
+offer mac laptop repair logic board
+
+---------08:14----------
+repairs clean room data recovery on hard
+
+---------08:16----------
+drives iPhone and iPad data recovery
+
+---------08:18----------
+after hard drops or liquid damage and
+
+---------08:20----------
+liquid spill damage repairs on mac books
+
+---------08:23----------
+check us out on Google you'll find
+
+---------08:24----------
+amazing reviews spanning the past 10
+
+---------08:26----------
+years of our being in business whether
+
+---------08:28----------
+it's on Google Yelp or other platforms
+
+---------08:31----------
+people love the service that we provided
+
+---------08:32----------
+for them and we're more than happy to
+
+---------08:34----------
+provide that level of service you can
+
+---------08:35----------
+also check us out on YouTube we're over
+
+---------08:37----------
+the past 600 repair videos we showcase
+
+---------08:39----------
+exactly how we do the job we do and show
+
+---------08:42----------
+you that we are actually capable of
+
+---------08:43----------
+doing it unlike many websites that brag
+
+---------08:45----------
+about their infinite number of
+
+---------08:46----------
+certifications while using photos from
+
+---------08:48----------
+stock photo comm where they hold a
+
+---------08:50----------
+soldering iron from the hot end we take
+
+---------08:52----------
+pride in the work that we do and we take
+
+---------08:54----------
+pride in doing it here not outsourcing
+
+---------08:56----------
+it thank you for your business thank you
+
+---------08:58----------
+for watching and as always I hope you
+
+---------09:00----------
+learned something
+

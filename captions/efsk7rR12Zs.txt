@@ -1,0 +1,475 @@
+https://www.youtube.com/watch?v=efsk7rR12Zs
+---------00:00----------
+all right so today we're gonna go over
+
+---------00:01----------
+just a little bit of how you figure out
+
+---------00:03----------
+what certain circuits do when you're
+
+---------00:05----------
+working on the same boards over and over
+
+---------00:07----------
+again I am back to the wired microphone
+
+---------00:08----------
+I'm hoping this sounds better my
+
+---------00:10----------
+wireless transmitter was actually dying
+
+---------00:12----------
+for a while and it finally ended with it
+
+---------00:14----------
+just not having anything above 2
+
+---------00:15----------
+kilohertz and I don't want to pay for a
+
+---------00:19----------
+new one and I also don't want to spend
+
+---------00:21----------
+my time fixing a 100 dollar wireless mic
+
+---------00:23----------
+transmitter to which I have no schematic
+
+---------00:25----------
+so wired microphone it is and hopefully
+
+---------00:29----------
+this sounds better so we're going to go
+
+---------00:31----------
+over this board over here now this is a
+
+---------00:33----------
+board that's missing the PM sleep s4l
+
+---------00:35----------
+signal and it's also it's missing a
+
+---------00:38----------
+bunch of power rails as a result of that
+
+---------00:39----------
+so when you look over on the microscope
+
+---------00:41----------
+it should be obvious where the corrosion
+
+---------00:42----------
+is this is the only spot of the board
+
+---------00:44----------
+that has any type of corrosion it
+
+---------00:45----------
+doesn't really look like components are
+
+---------00:47----------
+disgustingly bad it doesn't look like
+
+---------00:48----------
+they're destroyed but there's just a
+
+---------00:50----------
+minor bit of corrosion so what this does
+
+---------00:52----------
+is in my brain it gives me a little clue
+
+---------00:53----------
+it says aha so I'm missing this signal
+
+---------00:56----------
+and this is the this is what's going on
+
+---------00:59----------
+so when you poke around and you look
+
+---------01:00----------
+around the board you see them the
+
+---------01:02----------
+corrosion is on this section and this is
+
+---------01:05----------
+the consequence so if I have corrosion
+
+---------01:07----------
+here then the consequence is well I'm
+
+---------01:10----------
+not saying that this is always going to
+
+---------01:11----------
+happen that way what I'm saying is that
+
+---------01:13----------
+I want you to start creating a little
+
+---------01:15----------
+Bank in your head and I want you to have
+
+---------01:16----------
+some some capability for analytical
+
+---------01:18----------
+thinking and problem and pattern
+
+---------01:20----------
+recognition so we move over to the
+
+---------01:22----------
+schematic over here and we see that
+
+---------01:24----------
+those components are our 1802 C 1802 C 2
+
+---------01:30----------
+2 3 3 so the components that have this
+
+---------01:33----------
+little blotch of corrosion on them are
+
+---------01:34----------
+pull-up resistors for these signals RTC
+
+---------01:37----------
+reset and system RTC reset and we also
+
+---------01:41----------
+have this these capacitors over here to
+
+---------01:46----------
+keep you know keep keep those signals
+
+---------01:48----------
+charged and we have some other resistors
+
+---------01:50----------
+of pull-up resistors for PCH intruder
+
+---------01:53----------
+bzh inter V are men and when you see
+
+---------01:56----------
+where these are going let's just copy
+
+---------01:58----------
+and paste and see where these are going
+
+---------02:02----------
+those are signals for the RTC circuit so
+
+---------02:05----------
+now you kind of get in your head okay
+
+---------02:06----------
+RTC circuit has something to do with
+
+---------02:09----------
+p.m. sleep s4l so if I manage to clean
+
+---------02:11----------
+this or I ultrasonically clean this and
+
+---------02:13----------
+it works again then I will have an I
+
+---------02:15----------
+will you know have the idea in my head
+
+---------02:17----------
+that the RTC circuit has something to do
+
+---------02:19----------
+with that so now I know that this
+
+---------02:20----------
+circuit this thing right over here is
+
+---------02:22----------
+related to the issue of the PCH not
+
+---------02:25----------
+putting out PM sleep as far out now you
+
+---------02:27----------
+know two or three years ago I may have
+
+---------02:29----------
+simply thought that RTC Circuit
+
+---------02:31----------
+literally just four o'clock who cares
+
+---------02:32----------
+but the way you come to these
+
+---------02:34----------
+conclusions again the way you come to
+
+---------02:35----------
+them is not necessarily by just you know
+
+---------02:38----------
+reading it and going
+
+---------02:39----------
+AHA the RTC reset circuit is indeed
+
+---------02:43----------
+required it's required because the
+
+---------02:46----------
+manual says it's required to put out the
+
+---------02:49----------
+power signals no it's the manual doesn't
+
+---------02:52----------
+tell you any of this you have to
+
+---------02:54----------
+infer it this is why I don't often read
+
+---------02:56----------
+manuals is why I find manuals to be such
+
+---------02:58----------
+a complete waste of time in so many
+
+---------02:59----------
+situations because the information that
+
+---------03:01----------
+I'm actually interested in it's never in
+
+---------03:04----------
+the manual this I trust me if they
+
+---------03:06----------
+weren't manuals that answered my
+
+---------03:07----------
+questions I would happily read them all
+
+---------03:09----------
+day long the problem is that the manuals
+
+---------03:11----------
+that I find are manuals that don't have
+
+---------03:12----------
+answers of the questions that I'm asking
+
+---------03:14----------
+so what I have to do for myself is I
+
+---------03:16----------
+have to create my own manual based on
+
+---------03:18----------
+what's sitting in front of me and I've
+
+---------03:20----------
+done videos on this on the quarter fans
+
+---------03:22----------
+been in the art I've done videos in the
+
+---------03:23----------
+RTC circuits several times before and
+
+---------03:25----------
+you'll find them on this channel but
+
+---------03:27----------
+yeah I mean I just want to give you an
+
+---------03:28----------
+idea cuz and people think that I
+
+---------03:30----------
+graduated the college where they tell
+
+---------03:32----------
+you that that the RTC circuit is related
+
+---------03:35----------
+to no p.m. sleep as for L and you know
+
+---------03:38----------
+no that's not college that that's
+
+---------03:42----------
+staring at the board and then
+
+---------03:45----------
+you know and I talked and the thing is
+
+---------03:47----------
+I'm not just getting this information
+
+---------03:49----------
+and these opinions just from myself it's
+
+---------03:51----------
+just I talked to other people who do
+
+---------03:52----------
+this for a living and the people who
+
+---------03:54----------
+were successful at the same way they
+
+---------03:55----------
+have an issue they look around they
+
+---------03:58----------
+apply what they saw to what's going on
+
+---------04:00----------
+they analyze then they jump to their own
+
+---------04:03----------
+conclusion because again you have to
+
+---------04:04----------
+jump to a lot of your own conclusions
+
+---------04:06----------
+because there's nobody there with a
+
+---------04:07----------
+written down conclusion in the manual
+
+---------04:09----------
+for you and once you're done with that
+
+---------04:10----------
+you'll come up with a solution so I'm
+
+---------04:13----------
+gonna ultrasonic this and we'll see
+
+---------04:14----------
+where it goes and if I ultrasonic it and
+
+---------04:16----------
+that doesn't
+
+---------04:16----------
+fix it then I know exactly what I'm
+
+---------04:18----------
+gonna go back alright so let's take a
+
+---------04:20----------
+look at this and see what happens now so
+
+---------04:22----------
+if I take my charger wire here and I
+
+---------04:26----------
+plug it in it spins let's see what it
+
+---------04:34----------
+looks like I just wheel my microscope
+
+---------04:38----------
+over here still looks a little bit
+
+---------04:53----------
+shitty since it looks a little shitty
+
+---------04:56----------
+I'll just be touching that up later on
+
+---------04:58----------
+but yeah that this is pretty much how
+
+---------05:00----------
+this type of troubleshooting works again
+
+---------05:01----------
+you know you have a problem you poke
+
+---------05:03----------
+around look at what you think is causing
+
+---------05:05----------
+your problem and you just go from there
+
+---------05:07----------
+and you try to make these associations
+
+---------05:09----------
+in your head again nobody starts out
+
+---------05:11----------
+knowing what every single one of these
+
+---------05:12----------
+things are it's really about the
+
+---------05:14----------
+willingness to poke around and figure it
+
+---------05:15----------
+out and I want to encourage you to do
+
+---------05:18----------
+that with this channel the whole point
+
+---------05:19----------
+of this channel is to make all of this
+
+---------05:20----------
+seem like common sense so instead of it
+
+---------05:23----------
+seeming like this advanced thing that
+
+---------05:24----------
+you could never learn it seems like
+
+---------05:25----------
+something that oh I can do that
+
+---------05:28----------
+I don't want you to go into it being
+
+---------05:29----------
+uninformed I don't want you to go into
+
+---------05:31----------
+it with the wrong tools I don't want you
+
+---------05:33----------
+to go into it with no knowledge which is
+
+---------05:35----------
+why I put up all this stuff I don't want
+
+---------05:37----------
+people watching one of these videos and
+
+---------05:39----------
+then trying to fix tons of boards that
+
+---------05:41----------
+will end in tragedy but the whole idea
+
+---------05:43----------
+here is I just want you to understand
+
+---------05:44----------
+how the troubleshooting process goes
+

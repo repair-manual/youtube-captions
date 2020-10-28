@@ -1,0 +1,661 @@
+https://www.youtube.com/watch?v=fcjbnQNamS8
+---------00:00----------
+[Music]
+
+---------00:04----------
+don't delay by today so this here is a
+
+---------00:08----------
+touch bar MacBook as you can see here
+
+---------00:11----------
+this is nineteen point eight volts 0
+
+---------00:12----------
+amps so where's our pp bus the first
+
+---------00:15----------
+thing we need is a proper pp bus twelve
+
+---------00:19----------
+point six seems good screw going through
+
+---------00:22----------
+rails one by one
+
+---------00:23----------
+aha alright so after doing that let's
+
+---------00:32----------
+see if this MacBook much bar touch bar
+
+---------00:35----------
+turns on much bar is still dead zero
+
+---------00:43----------
+amps are being used
+
+---------00:52----------
+nastiness hmm is that capacitor on a
+
+---------00:55----------
+line that could be short-circuited that
+
+---------00:57----------
+capacitor is on want PP 12v SSD what's
+
+---------01:02----------
+its resistance to ground so one volt
+
+---------01:04----------
+rail so I expected to have a fairly low
+
+---------01:07----------
+resistance to ground 19 point 43 kilo
+
+---------01:09----------
+ohms so as nasty as this area's that's
+
+---------01:13----------
+not a point of contention for me no a
+
+---------01:18----------
+little bit of corrosion over there but
+
+---------01:20----------
+that's a negligible and according to the
+
+---------01:22----------
+schematics Kemetic schematic that's
+
+---------01:26----------
+something else for the SSD boring SSD
+
+---------01:29----------
+power rails not shorted hello what's
+
+---------01:31----------
+this oh boy
+
+---------01:35----------
+what are you for your UB 700 what do you
+
+---------01:42----------
+do you create PP 5 e for s for
+
+---------01:45----------
+thunderbolt 5 volt regulator PP 5 V s
+
+---------01:48----------
+for s underscore t underscore USB C and
+
+---------01:53----------
+I can measure the output of that on lb
+
+---------01:56----------
+700 where is lb 700 perhaps it's on the
+
+---------02:02----------
+other side of the board yes it's right
+
+---------02:06----------
+here right to the left or left to the
+
+---------02:10----------
+right over this
+
+---------02:11----------
+let's see if that short-circuited to
+
+---------02:13----------
+ground MacBook actually no kilohm hmm
+
+---------03:17----------
+how can Apple use such underrated high
+
+---------03:20----------
+side low side MOSFETs chokes and caps
+
+---------03:22----------
+and VRMs for i7 i9 products there's a
+
+---------03:25----------
+very simple answer to that my friend is
+
+---------03:27----------
+a very simple answer are you ready for
+
+---------03:29----------
+it
+
+---------03:29----------
+are you ready for it because you're
+
+---------03:32----------
+gonna buy it anyway as long as you're
+
+---------03:34----------
+going to buy it anyway and as long as
+
+---------03:36----------
+the users are going to continue to
+
+---------03:37----------
+defend the company that makes poor
+
+---------03:39----------
+design decisions they will continue to
+
+---------03:40----------
+get away with it so as long as you
+
+---------03:42----------
+continue to buy it they'll continue to
+
+---------03:44----------
+put it out there and they're gonna keep
+
+---------03:45----------
+pushing a lemon and see how much can we
+
+---------03:47----------
+cheap out how much engineering can we
+
+---------03:49----------
+outsource to somebody else how much
+
+---------03:51----------
+engineering can we have done by an
+
+---------03:52----------
+intern instead of a paid employee what
+
+---------03:54----------
+can we get away with and what they can
+
+---------03:57----------
+get away with is exactly what you let
+
+---------04:00----------
+them get away with there can be a lot of
+
+---------04:02----------
+things that are corroded but only one of
+
+---------04:03----------
+them that's actually relevant you gotta
+
+---------04:04----------
+come to learn what's actually relevant
+
+---------04:06----------
+like on the older boards I look and I go
+
+---------04:08----------
+USB circa corroded yon sensor corroded
+
+---------04:11----------
+yon PP bus circuit Oh interesting
+
+---------04:13----------
+I have to get to a point where I know
+
+---------04:14----------
+what stuff is needed and what is not on
+
+---------04:16----------
+here that's gonna be a while all right
+
+---------04:18----------
+so this is trackpad can SPI connection
+
+---------04:23----------
+this hit this is something to do with
+
+---------04:26----------
+the trackpad SPI can I that has nothing
+
+---------04:28----------
+to do with why my thing is not working
+
+---------04:31----------
+so I don't care that that's corroded
+
+---------04:33----------
+just yet this has a little bit of
+
+---------04:36----------
+nastiness near it
+
+---------04:42----------
+what are you for that's you 7,000 this
+
+---------04:45----------
+chip creates PP bus g3 ha which happens
+
+---------04:48----------
+to be present so I can ignore that and
+
+---------04:50----------
+move on to the oh my god what's this
+
+---------04:54----------
+what's all this stuff over here so it's
+
+---------04:57----------
+a bunch of pull-up resistors PM Ricimer
+
+---------04:59----------
+isset PM sleep s 3l bingo sm c PM g 2 en
+
+---------05:05----------
+so this is where all the enables are for
+
+---------05:08----------
+all the different power lines this is
+
+---------05:11----------
+important
+
+---------05:12----------
+PM IC and power control ding-ding-ding
+
+---------05:14----------
+we have found our answer as to what is
+
+---------05:16----------
+actually important and what needs to be
+
+---------05:18----------
+fixed on this board so we're just gonna
+
+---------05:20----------
+put a little bit of flux
+
+---------05:22----------
+that's one micro pall of flux one micro
+
+---------05:28----------
+Paul see we found the important the
+
+---------05:32----------
+corroded section so it can be a lot of
+
+---------05:37----------
+corroded sections but only one of them
+
+---------05:38----------
+is going to be one that's actually worth
+
+---------05:40----------
+putting time into
+
+---------05:55----------
+shake it off
+
+---------06:00----------
+scrape it off shake it off scrape it off
+
+---------06:07----------
+shake it off scrape it off
+
+---------06:16----------
+melt crappy solder joint sorry hot
+
+---------06:26----------
+yes good crappy solder joints now cool
+
+---------06:32----------
+yourself crappy solder joints
+
+---------06:50----------
+variety I think we found the cause of
+
+---------06:52----------
+our problem can anybody say they see
+
+---------06:55----------
+what the cause of our problem is see
+
+---------06:58----------
+what I said about finding the right area
+
+---------07:00----------
+this is the area that's important all
+
+---------07:03----------
+the enable signals are and will you look
+
+---------07:09----------
+at that wow I'm barely scraping and it's
+
+---------07:12----------
+just gone look at that
+
+---------07:16----------
+[Music]
+
+---------07:30----------
+[Applause]
+
+---------07:32----------
+[Music]
+
+---------07:41----------
+all right so we've scraped away the
+
+---------07:43----------
+coppery on the PCB now we're going
+
+---------07:51----------
+to run a jumper wire we're gonna put a
+
+---------07:57----------
+tiny one micro pall of flux
+
+---------08:13----------
+now I don't know if that piece under it
+
+---------08:15----------
+is actually going to ground or something
+
+---------08:17----------
+else I'm gonna run my wire around this
+
+---------08:20----------
+you never know in case I dug too deeper
+
+---------08:26----------
+did something stupid damn these tweezers
+
+---------08:29----------
+are destroyed
+
+---------08:36----------
+these are no longer tweezers
+
+---------09:01----------
+need to get a new set of tweezers I'm
+
+---------09:05----------
+gonna scrape with the exacto and tweeze
+
+---------09:07----------
+with the tweezers I'm gonna make a new
+
+---------09:09----------
+year's resolution to myself starting
+
+---------09:11----------
+immediately
+
+---------09:12----------
+- never scrape with tweezers again but
+
+---------09:16----------
+it's very tempting to do that but it's
+
+---------09:18----------
+very bad to do that okay we plug it in
+
+---------09:24----------
+let's see if we get any change as can be
+
+---------09:28----------
+seen here our touch bar is drawing power
+
+---------09:33----------
+and it's working this touch bar has been
+
+---------09:37----------
+made great again by that little jumper
+
+---------09:39----------
+wire but we have PP 5v underscore PMI CL
+
+---------09:43----------
+do so that comes out of you 7800 which
+
+---------09:46----------
+looks like PMI C and power control where
+
+---------09:50----------
+does it go has to go to something
+
+---------09:54----------
+alright it goes to one part of banjo
+
+---------09:57----------
+which is the same chip so it goes from
+
+---------10:00----------
+one side of banjo to another really this
+
+---------10:03----------
+is a BGA p.m. ice you 7800 this is an IC
+
+---------10:10----------
+you 7800 okay this this genuinely
+
+---------10:19----------
+confuses me why would this signal why
+
+---------10:21----------
+would that trace missing even matter
+
+---------10:23----------
+look at this am I am I losing it is this
+
+---------10:27----------
+am i being silly here no seriously look
+
+---------10:29----------
+so p.m. BP 5 e p.m. I see L do the
+
+---------10:32----------
+jumper wire for it was broken but it
+
+---------10:34----------
+seems like a signal that's completely
+
+---------10:36----------
+self-contained within you 7800 look it's
+
+---------10:39----------
+going to you 7,800 ball m10 it's going
+
+---------10:42----------
+to use 7800 ball a 13 it's going to use
+
+---------10:47----------
+7800 ball and 7 it's going to use 7800
+
+---------10:51----------
+are seven eight six six beef before this
+
+---------10:55----------
+is zero ohm resistor before it goes to
+
+---------10:57----------
+another part of you 7800 this signal
+
+---------11:01----------
+appears to be entirely self-contained
+
+---------11:03----------
+within one ship so this makes no sense
+
+---------11:07----------
+this makes absolutely no sense why would
+
+---------11:10----------
+it matter if a trace was broken because
+
+---------11:11----------
+think about that signal is entirely
+
+---------11:13----------
+created with
+
+---------11:15----------
+one ship it's created and distributed
+
+---------11:17----------
+within that one ship so if a trace on
+
+---------11:20----------
+the board is broken and that trace is
+
+---------11:22----------
+for that signal why would it matter if
+
+---------11:24----------
+that is entirely self-contained within
+
+---------11:26----------
+one ship so let's figure out where you
+
+---------11:29----------
+7800 is so you 7800 is gonna be the
+
+---------11:36----------
+power management chip which is though
+
+---------11:42----------
+yeah so that's going to be the chip
+
+---------11:44----------
+that's right over here so that signal
+
+---------11:47----------
+that we reattach with that jumper wire
+
+---------11:49----------
+on this side of the board we read it's
+
+---------11:53----------
+not like that signal comes from the CPU
+
+---------11:55----------
+and then goes to the PM IC or it goes
+
+---------11:57----------
+from the PM IC to the charging IC or
+
+---------12:00----------
+goes from the PM IC to the SMC or the
+
+---------12:04----------
+chip that creates the five volt rail or
+
+---------12:06----------
+anything like that that signal is
+
+---------12:08----------
+entirely self-contained within this one
+
+---------12:10----------
+chip yet for some reason if a trace gets
+
+---------12:13----------
+corroded on the board that chip with the
+
+---------12:16----------
+dimension the board just stops working
+
+---------12:17----------
+you understand why this makes no sense
+
+---------12:20----------
+it's it's it's like saying that if I'm
+
+---------12:24----------
+sitting next to you right let's say
+
+---------12:26----------
+somebody named Chris was sitting next to
+
+---------12:28----------
+me and our cell phones were broken
+
+---------12:30----------
+that's like saying that we're no longer
+
+---------12:32----------
+able to talk to each other or
+
+---------12:33----------
+communicate because both of our cell
+
+---------12:35----------
+phones are broken but I'm sitting right
+
+---------12:37----------
+next to the person so how is it that
+
+---------12:38----------
+we're unable to communicate you know
+
+---------12:40----------
+it's just silly it's stupid it doesn't
+
+---------12:41----------
+make a damn bit of sense I mean that
+
+---------12:46----------
+that just really like why and now let's
+
+---------12:53----------
+say that that signal was linked from one
+
+---------12:56----------
+part of that trip to the other chip
+
+---------12:58----------
+let's say it was something that's stupid
+
+---------12:59----------
+and crazy why is it that that's
+
+---------13:01----------
+happening on the other side of the board
+
+---------13:03----------
+if you wish to combine several pads
+
+---------13:05----------
+internally why not simply have traces on
+
+---------13:08----------
+this side of the board under the chip
+
+---------13:09----------
+why run that trace on the other side of
+
+---------13:12----------
+the board so that a signal can duplicate
+
+---------13:16----------
+itself or something within one chip
+
+---------13:18----------
+I don't get it really really and I'm the
+
+---------13:25----------
+one with the brain injury
+
+---------13:28----------
+Apple if you're hiring I think finally
+
+---------13:32----------
+got the qualifications all right that's
+
+---------13:34----------
+it for today and as always I hope you
+
+---------13:36----------
+learned something
+
+---------13:44----------
+don't delay by today
+

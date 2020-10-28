@@ -1,0 +1,1471 @@
+https://www.youtube.com/watch?v=vVLuW3UUUoo
+---------00:00----------
+okay so today we're going to be going
+
+---------00:01----------
+over an MCP 79 bass board that does not
+
+---------00:04----------
+turn on and it is a problem that is not
+
+---------00:07----------
+BGA related so a lot of people like to
+
+---------00:09----------
+think that this is a BGA problem and one
+
+---------00:11----------
+of the things that I try to do on this
+
+---------00:13----------
+channel is I try to inform you I try to
+
+---------00:14----------
+teach you and one of the things that I
+
+---------00:16----------
+try to teach is that you should use your
+
+---------00:17----------
+brain and have a proper understanding of
+
+---------00:19----------
+how a circuit works instead of buying
+
+---------00:21----------
+into this culture of just replacing
+
+---------00:23----------
+things for no reason or flowing things
+
+---------00:25----------
+for no reason heating things up in an
+
+---------00:26----------
+oven for no reason and the thing is if
+
+---------00:28----------
+you heat this it will work again but not
+
+---------00:30----------
+for the reason that you think think of
+
+---------00:32----------
+all those people on the internet that
+
+---------00:33----------
+are telling you to do things because of
+
+---------00:35----------
+the solder balls and those cheap let
+
+---------00:38----------
+free Saturday laws it is for the most
+
+---------00:40----------
+part they're just dumb they don't know
+
+---------00:42----------
+what they're talking about and they're
+
+---------00:44----------
+just giving away really really shitty
+
+---------00:46----------
+information so as you can see I'm
+
+---------00:48----------
+plugging this thing in I'm getting a
+
+---------00:50----------
+green light my charger but when I short
+
+---------00:53----------
+the pads turn it on it does not turn on
+
+---------00:57----------
+so one of the first things that I'm
+
+---------00:59----------
+gonna do the thing that I tell all you
+
+---------01:01----------
+guys to do when you have a board that
+
+---------01:02----------
+has this type of issue is you're going
+
+---------01:04----------
+to go through your list of power rails
+
+---------01:06----------
+and see which power rail is not present
+
+---------01:09----------
+so this is an 8 - 0 - 26 10 motherboard
+
+---------01:12----------
+which as I like to say is an old piece
+
+---------01:15----------
+of crap so we're gonna go through the
+
+---------01:17----------
+list of power rails here and I'm gonna
+
+---------01:18----------
+show you what's going on how this works
+
+---------01:20----------
+so that you can hopefully learn
+
+---------01:21----------
+something I'm finally figuring out what
+
+---------01:24----------
+Adobe doesn't like when I use these
+
+---------01:25----------
+shortcuts like control one two and three
+
+---------01:27----------
+for open broadcaster all this doesn't
+
+---------01:30----------
+like when I use those two in Adobe it
+
+---------01:32----------
+actually screws it something in Adobe so
+
+---------01:34----------
+I'm starting to figure out the things
+
+---------01:36----------
+that that make my videos wind up being a
+
+---------01:39----------
+mess anyway so let's go over to the a20
+
+---------01:42----------
+26:10 board and start going through the
+
+---------01:45----------
+power rails in the machine so this is
+
+---------01:47----------
+one of the older ones where you get this
+
+---------01:48----------
+nice block diagram on the newer Apple
+
+---------01:50----------
+products you don't get that the block
+
+---------01:51----------
+diagram you get a middle finger now
+
+---------01:53----------
+let's see power rails is gonna be
+
+---------01:59----------
+getting close okay so let's just start
+
+---------02:03----------
+testing we have pp bus g3 hot let's see
+
+---------02:05----------
+if I have pp bus g3 hot
+
+---------02:07----------
+I'm gonna take my multimeter probes
+
+---------02:14----------
+plug them back in and we're gonna go
+
+---------02:18----------
+over why this is as always a circuit
+
+---------02:20----------
+problem not a BGA problem because I'm
+
+---------02:30----------
+cheating by the way I know what's wrong
+
+---------02:31----------
+with this I haven't measured this board
+
+---------02:32----------
+I have not measured it it's just I've
+
+---------02:34----------
+been fooled by it so many times and
+
+---------02:36----------
+recently I got fooled by it even though
+
+---------02:38----------
+I've done this so many times and got
+
+---------02:40----------
+owned by it until this intelligent
+
+---------02:42----------
+gentleman named ooh gonna form that I'm
+
+---------02:43----------
+on pointed out why I was being an idiot
+
+---------02:45----------
+and I realized that I was missing
+
+---------02:47----------
+something that I had done a million
+
+---------02:48----------
+times before I was actually heating a
+
+---------02:51----------
+certain part of the board and right
+
+---------02:53----------
+under it was that was the point that was
+
+---------02:55----------
+the issue and I thought the thing that I
+
+---------02:56----------
+was heating on the top was it and it was
+
+---------02:57----------
+just driving me nuts
+
+---------02:58----------
+and I want to actually wind up looking
+
+---------02:59----------
+on the bottom of the board and I saw the
+
+---------03:00----------
+position of it I'm like you
+
+---------03:03----------
+but anyway moving on so this says on
+
+---------03:05----------
+this board that PP buzz G 3 ha is
+
+---------03:07----------
+supposed to be 6 volts I don't think
+
+---------03:10----------
+that that is correct let's see on this
+
+---------03:12----------
+board it's eight point three so the
+
+---------03:14----------
+schematic is wrong I know that because
+
+---------03:15----------
+I've measured this a million times I
+
+---------03:17----------
+know that my DC and rail is good again
+
+---------03:19----------
+there's no reason to measure the DC in
+
+---------03:20----------
+rail when I have any type of rail on the
+
+---------03:23----------
+machine working the way it's supposed to
+
+---------03:24----------
+I know the charger works there's no
+
+---------03:25----------
+reason to measure P P 3 P 4 - as I've
+
+---------03:27----------
+mentioned in other in other videos that
+
+---------03:31----------
+is the for the one wire circuit the one
+
+---------03:33----------
+wire circuit works off of P P 3 V 4 -
+
+---------03:35----------
+which means that if I have a green light
+
+---------03:36----------
+on my charger the one wire circuit works
+
+---------03:38----------
+which means P P 3 V 4 200 G 3 hot is
+
+---------03:41----------
+working just fine now let's measure 4 PP
+
+---------03:43----------
+5 V underscore s 3 that's the next rail
+
+---------03:45----------
+PP 5 V underscore s 3 and I measure that
+
+---------03:48----------
+and when I measure that over here let's
+
+---------03:51----------
+see what I get
+
+---------03:52----------
+so I'm PP 5 vs 3 I get 0 volts now as I
+
+---------03:55----------
+said before you start trying to figure
+
+---------03:57----------
+out if there's a problem with the chip
+
+---------04:00----------
+with the with the circuit see if the
+
+---------04:03----------
+chip is actually turning on so let's
+
+---------04:04----------
+scroll over to what creates PP 5 vs 3
+
+---------04:22----------
+you can do it PDF reader
+
+---------04:32----------
+okay so you 7201 now as I've said a
+
+---------04:34----------
+couple of times look for enable pins or
+
+---------04:36----------
+in trip pins or something that tells
+
+---------04:37----------
+this chip to turn on so the enable on
+
+---------04:40----------
+this is coming from p5 vs3 enable p5 vs
+
+---------04:45----------
+three underscore enable that comes from
+
+---------04:50----------
+PM sleep s4l now do you think PM sleep
+
+---------04:53----------
+s4l is going to be good on my board or
+
+---------04:55----------
+bad let's measure so that's where it
+
+---------05:02----------
+shows up when I measure PM sleep s4l I
+
+---------05:06----------
+get sits right next to the fan connector
+
+---------05:10----------
+on this probe point well that's not
+
+---------05:16----------
+really a good place to measure let's try
+
+---------05:17----------
+on the resistor above I get zero volts
+
+---------05:24----------
+now let's see where p.m. sleep s4l comes
+
+---------05:27----------
+from some reason how it's switched over
+
+---------05:32----------
+the microscope oh well hey just to go
+
+---------05:36----------
+back over that in case was missed PEP 5v
+
+---------05:43----------
+underscore s3 is created by u 7201 the
+
+---------05:47----------
+enable 10 of that chip had the enable
+
+---------05:50----------
+signal comes in through p5 vs three
+
+---------05:52----------
+underscore en I look for pv 5 vs 3 and
+
+---------05:56----------
+to see where that came from
+
+---------05:57----------
+that comes from PM sleep s4l let's make
+
+---------06:00----------
+sure open broadcasted and switch on me
+
+---------06:01----------
+it didn't now we look for what PM sleep
+
+---------06:03----------
+s4l comes from and we see that PM sleep
+
+---------06:06----------
+s4l which is going to be needed to
+
+---------06:07----------
+enable PP 5 es 3 comes from our mCP 79
+
+---------06:12----------
+which me and the mCP 79 is also the
+
+---------06:15----------
+graphics chip so what the average person
+
+---------06:16----------
+is gonna think at this point is they're
+
+---------06:17----------
+gonna think that the signal that is
+
+---------06:19----------
+missing comes from the graphics chip the
+
+---------06:21----------
+graphics chip burned out I need to
+
+---------06:23----------
+replace the graphics chip I need to buy
+
+---------06:24----------
+a new one I need to solder a new one on
+
+---------06:25----------
+there this needs BGA rework right wrong
+
+---------06:28----------
+well let's go over what powers the mCP
+
+---------06:31----------
+so the MCU
+
+---------06:33----------
+because there's a list of power rails
+
+---------06:34----------
+here and again that's the thing like
+
+---------06:36----------
+I've solved this problem and I got to a
+
+---------06:38----------
+point where I had this problem and I
+
+---------06:40----------
+edit so let me just heat the BIOS chip
+
+---------06:41----------
+first because for some reason I just
+
+---------06:42----------
+decided to be a monkey that day and do
+
+---------06:44----------
+the same that everybody else does
+
+---------06:45----------
+and heat
+
+---------06:46----------
+ BIOS chip and it worked and what
+
+---------06:48----------
+you're gonna see is right under the BIOS
+
+---------06:50----------
+chip on this board is my problem spot so
+
+---------06:55----------
+okay so let's scroll over here and see
+
+---------06:57----------
+if there's anything of interest to us so
+
+---------07:00----------
+here are certain rails P p1 v 8 1 v 5s o
+
+---------07:07----------
+MC P now we're not in an Esso state so
+
+---------07:10----------
+I'm not gonna check in SL rail yet P P 1
+
+---------07:14----------
+vo 5s o MC P again I'm not in an Esso
+
+---------07:17----------
+state I'm in an S 5 state I'm off I'm
+
+---------07:19----------
+not really interested in that P P 1 vo 5
+
+---------07:22----------
+s 5 MC P ok that's something I may want
+
+---------07:25----------
+to check that's something I may be
+
+---------07:26----------
+interested in so let's take a look for
+
+---------07:28----------
+it so that creates PP 1 V 2 R 1 vo 5
+
+---------07:33----------
+underscore s 5 so let's look for that
+
+---------07:36----------
+that's supposed to be 1.5 volts
+
+---------07:37----------
+according to the schematic here P P 1 V
+
+---------07:40----------
+2 R 1 vo 5 underscore s 5
+
+---------07:55----------
+so that's created from the you 7750 chip
+
+---------07:58----------
+you 7750 chip okay so this is a buck
+
+---------08:03----------
+converter that's something that you
+
+---------08:04----------
+should know if you watched any of my
+
+---------08:05----------
+other videos now let me explain to you
+
+---------08:07----------
+the the sheer amount of idiocy that I've
+
+---------08:10----------
+seriously why does this keep switching
+
+---------08:12----------
+over what key am i hitting on this
+
+---------08:13----------
+keyboard to switch the camera over as
+
+---------08:16----------
+you can okay just since I don't know if
+
+---------08:20----------
+you actually saw the stuff that I was
+
+---------08:21----------
+looking at I'm gonna scroll back to it I
+
+---------08:26----------
+said I'm gonna get a second monitor for
+
+---------08:28----------
+open broadcaster so it stops trolling me
+
+---------08:31----------
+is it is it when i zoom in and out in a
+
+---------08:34----------
+PDF file that's doing okay so what I was
+
+---------08:43----------
+looking for is a power rail for the mCP
+
+---------08:46----------
+because I wanted to start checking all
+
+---------08:48----------
+the lines and what I see here is a bunch
+
+---------08:50----------
+of soo rails but then there's also an s5
+
+---------08:52----------
+rail which is a relative to beyond that
+
+---------08:54----------
+powers the mCP on the mCP itself is not
+
+---------08:57----------
+even the computer itself is off so I
+
+---------09:00----------
+searched and I found that that power
+
+---------09:01----------
+rail that s5 power rail is provided by
+
+---------09:03----------
+you 7750 so that creates pp1 vo v
+
+---------09:06----------
+underscore has five MCP this tells me
+
+---------09:08----------
+that is a 1.5 volt power rail that are
+
+---------09:10----------
+supposed to be present on the mCP when
+
+---------09:11----------
+the MC when the machine is in an s5
+
+---------09:13----------
+power state meaning the machine itself
+
+---------09:15----------
+is off
+
+---------09:15----------
+so if you see s5 that's the power state
+
+---------09:17----------
+that should be present when the machine
+
+---------09:18----------
+is off as three that the power state
+
+---------09:20----------
+that should be there when the machine is
+
+---------09:21----------
+sleeping as oh that's a power state that
+
+---------09:22----------
+should be there when the machine is on
+
+---------09:24----------
+so let's measure that let's measure that
+
+---------09:26----------
+along ll 7770 and what I'm gonna do over
+
+---------09:29----------
+here is I'm gonna go over all the stupid
+
+---------09:31----------
+ that I've done to learn what I've
+
+---------09:33----------
+learned okay so when we measure over
+
+---------09:38----------
+here that's supposed to be one point
+
+---------09:40----------
+zero five volts and when I measure on
+
+---------09:42----------
+that inductor what I get is gonna be
+
+---------09:46----------
+let's if I can put the multimeter where
+
+---------09:48----------
+you can see it
+
+---------09:49----------
+oh my kidding that's almost invisible
+
+---------09:52----------
+there oh well you'll just have to trust
+
+---------09:55----------
+me when I read the voltage then I
+
+---------09:56----------
+suppose it shouldn't be that hard so on
+
+---------10:00----------
+high measure on that and dr. what do I
+
+---------10:03----------
+get the spot
+
+---------10:09----------
+0.317 volts let's see if I can hold this
+
+---------10:11----------
+here see how good my chopsticks sir see
+
+---------10:17----------
+that that's not one point zero five
+
+---------10:19----------
+volts so let's talk a little bit about
+
+---------10:22----------
+what could be going on here so what most
+
+---------10:24----------
+people are going to do is they're going
+
+---------10:25----------
+to think that the mCP is bad and that's
+
+---------10:27----------
+bringing the line down and they're going
+
+---------10:30----------
+to replace the mCP or they're gonna
+
+---------10:31----------
+reflow it and well you know what's
+
+---------10:33----------
+really really sad here the sad thing is
+
+---------10:35----------
+that it's actually gonna work again and
+
+---------10:36----------
+they're gonna think that it's because
+
+---------10:37----------
+they're the mCP I bet solder ball is
+
+---------10:39----------
+they're gonna think it's because the mCP
+
+---------10:40----------
+had some kind of maybe the you just
+
+---------10:43----------
+reflow the inside of the chip whatever
+
+---------10:45----------
+silly theory you have as to why that
+
+---------10:46----------
+made it work again people are gonna
+
+---------10:47----------
+believe it now what I thought I know I
+
+---------10:50----------
+already know that's but I
+
+---------10:52----------
+believe it or not at one point I tried
+
+---------10:53----------
+it and it worked and then it died again
+
+---------10:54----------
+I didn't know why what other people are
+
+---------10:56----------
+gonna think is that this power supply
+
+---------10:58----------
+here is not working or one of these
+
+---------10:59----------
+transistors is bad or this controller is
+
+---------11:01----------
+bad something here is not working
+
+---------11:03----------
+they're gonna drive themselves
+
+---------11:04----------
+absolutely batshit insane going through
+
+---------11:06----------
+this circuit on the screen over here
+
+---------11:08----------
+trying to figure out what doesn't work
+
+---------11:09----------
+and they're gonna think of something
+
+---------11:11----------
+over here now what I want you to think
+
+---------11:14----------
+about is this what components in the
+
+---------11:15----------
+circuit is going to be affected by heat
+
+---------11:18----------
+think about what the come with the
+
+---------11:20----------
+makeups are these components an inductor
+
+---------11:23----------
+is a coil this chip here is just a bunch
+
+---------11:30----------
+of integrated circuits of transistors
+
+---------11:31----------
+and resistors whatnot inside of it these
+
+---------11:33----------
+are just resistors the one part of the
+
+---------11:35----------
+circuit which one of the components in
+
+---------11:38----------
+the circuit is known for it's
+
+---------11:39----------
+intermittent nature it's gonna be a
+
+---------11:40----------
+capacitor the capacitor is known as a
+
+---------11:42----------
+part that can sometimes work sometimes
+
+---------11:43----------
+not sometimes work sometimes not
+
+---------11:45----------
+sometimes work sometimes not so I was
+
+---------11:47----------
+heating this thing and it would work
+
+---------11:48----------
+again and then would die the beginning I
+
+---------11:50----------
+really honestly thought that maybe it
+
+---------11:51----------
+was the mCP later on I realized that had
+
+---------11:54----------
+to be something else and again I was I
+
+---------11:57----------
+was so close what one point in time even
+
+---------11:59----------
+after having replaced the stupid little
+
+---------12:00----------
+capacitor at least ten times that I have
+
+---------12:02----------
+a whole spool of them here I was
+
+---------12:04----------
+so close to actually replacement he
+
+---------12:06----------
+replacing the BIOS chip again that I
+
+---------12:09----------
+just think I'd like I replaced the BIOS
+
+---------12:10----------
+chip and it worked and then I died i
+
+---------12:12----------
+heated the BIOS chip it worked and then
+
+---------12:14----------
+it died I put another one on there at
+
+---------12:15----------
+work and then I died so on this board
+
+---------12:18----------
+right here is the BIOS chip right on the
+
+---------12:22----------
+other side of the board is the capacitor
+
+---------12:24----------
+so let me show you the capacitor that
+
+---------12:26----------
+goes back the capacitor that goes bad
+
+---------12:28----------
+over here is C seven seven seven one and
+
+---------12:30----------
+one of the hints that I should have had
+
+---------12:31----------
+one of the hints that I really should
+
+---------12:33----------
+have brought this out to me based on my
+
+---------12:34----------
+history and with recording consoles is
+
+---------12:37----------
+the fact that this capacitor is made of
+
+---------12:39----------
+tantalum so I can zoom in because the
+
+---------12:41----------
+PDF reader is being a piece of crap
+
+---------12:42----------
+fortunately but right over here you see
+
+---------12:44----------
+this where it says poly tant tantalum is
+
+---------12:47----------
+a miserable miserable type of capacitor
+
+---------12:49----------
+for one reason to me and I have some
+
+---------12:51----------
+really bad memories attached to it
+
+---------12:52----------
+tantalum can actually make you sick so
+
+---------12:55----------
+when a tantalum capacitor explodes like
+
+---------12:57----------
+some of the tantalum capacitors that
+
+---------12:58----------
+they have in these old consoles when the
+
+---------13:00----------
+capacitor itself explodes you can you
+
+---------13:02----------
+can get a good 102 fever over the course
+
+---------13:04----------
+of just a few hours from being in the
+
+---------13:06----------
+room to inhale that so I know that
+
+---------13:12----------
+I hate tantalum I have I have a natural
+
+---------13:14----------
+hatred for capacitors that are made of
+
+---------13:16----------
+tantalum and one of the things that
+
+---------13:17----------
+you'll notice about tantalum capacitors
+
+---------13:18----------
+and one of the reasons they get used is
+
+---------13:20----------
+they're they're pretty small compared to
+
+---------13:22----------
+any other type of capacitor so this is a
+
+---------13:25----------
+the tantalum capacitor right over here
+
+---------13:27----------
+it doesn't look bad at all and III just
+
+---------13:30----------
+I should have known the sleeve so what I
+
+---------13:32----------
+do is I replace it with a standard
+
+---------13:34----------
+polymer capacitor instead of a tantalum
+
+---------13:36----------
+capacitor you can replace it with many
+
+---------13:40----------
+different types I just chose to 330
+
+---------13:44----------
+microfarad capacitor rated for the same
+
+---------13:47----------
+two volts and here's the thing the
+
+---------13:51----------
+problem this so I have to get away for
+
+---------13:55----------
+this to fit here and that is going to
+
+---------14:00----------
+suck but we're gonna find a way to get
+
+---------14:03----------
+this to fit in here because this will
+
+---------14:05----------
+provide a good option this is actually
+
+---------14:10----------
+gonna work it's just again it takes a
+
+---------14:12----------
+lot of finagling and which
+
+---------14:14----------
+we're gonna be going over and we're
+
+---------14:15----------
+gonna see if this actually works when
+
+---------14:17----------
+it's done now one of the things I wanted
+
+---------14:20----------
+to put the camera back on so you could
+
+---------14:21----------
+see I was actually gonna take it off for
+
+---------14:23----------
+this because I was gonna have the other
+
+---------14:24----------
+person here help scrape away the pads is
+
+---------14:26----------
+that somebody else at some point in time
+
+---------14:27----------
+figured out this problem because watch
+
+---------14:29----------
+what's gonna happen when I use my my
+
+---------14:32----------
+he had his liquid flowing away that's
+
+---------14:34----------
+flux so that means that somebody else at
+
+---------14:36----------
+some point in time probably refurbished
+
+---------14:38----------
+this board because the flux is right
+
+---------14:39----------
+around the component that I said always
+
+---------14:40----------
+goes bad and what they did with that
+
+---------14:42----------
+we're not gonna do is they reused the
+
+---------14:45----------
+ tantalum capacitor that I said
+
+---------14:46----------
+that you're not supposed to use so they
+
+---------14:48----------
+probably took another tantalum capacitor
+
+---------14:49----------
+off of another ship board and put that
+
+---------14:51----------
+tantalum capacitor here and it died
+
+---------14:53----------
+again again so you may think that this
+
+---------14:55----------
+is silly that I'm gonna be using a
+
+---------14:57----------
+different capacitor than the one that
+
+---------14:58----------
+was intended but I'm using a different
+
+---------14:59----------
+one because I have a fundamental
+
+---------15:01----------
+district for tantalum and as silly as it
+
+---------15:04----------
+may seem it is well founded on the fact
+
+---------15:07----------
+that these things have made me sick not
+
+---------15:09----------
+only have they made me sick but they
+
+---------15:10----------
+also cause the board to stop working so
+
+---------15:15----------
+they heat this thing
+
+---------15:24----------
+thanks a lot of heat to get this damn
+
+---------15:26----------
+thing off now here there's no reason to
+
+---------15:29----------
+remember orientation the reason I don't
+
+---------15:31----------
+care about the orientation of the chip
+
+---------15:33----------
+of the capacitor is because the
+
+---------15:35----------
+capacitor that I'm installing is not a
+
+---------15:37----------
+polarized capacitor if you're installing
+
+---------15:39----------
+a capacitor that's polarized you have to
+
+---------15:40----------
+worry about the orientation of the chip
+
+---------15:42----------
+but when you're installing a capacitor
+
+---------15:43----------
+that's not polarized you have nothing to
+
+---------15:45----------
+worry about here it is completely
+
+---------15:46----------
+acceptable for this specific application
+
+---------15:48----------
+that we don't care for using a polarized
+
+---------15:50----------
+or a non polarized capacitor either one
+
+---------15:52----------
+will work fine again the only trouble
+
+---------15:54----------
+here is going to be how do you fit that
+
+---------15:55----------
+in there when there is no space so the
+
+---------15:58----------
+first thing I'm gonna do is turn the
+
+---------16:00----------
+pads so that I can properly remove all
+
+---------16:02----------
+of the solder and all the junk on there
+
+---------16:04----------
+so we can get it nice and flat and then
+
+---------16:05----------
+we can start scraping along on both
+
+---------16:07----------
+sides
+
+---------16:52----------
+and then so you know a capacitor is a
+
+---------16:53----------
+component that when you heat it you can
+
+---------16:56----------
+actually get it close back to the
+
+---------16:57----------
+original value and get it working the
+
+---------16:59----------
+way it was again that's not necessarily
+
+---------17:00----------
+true for every type of component but it
+
+---------17:02----------
+is true for a capacitor all right so
+
+---------17:07----------
+that's replaced so let's just get a
+
+---------17:09----------
+little look what that looks like under
+
+---------17:10----------
+the microscope I haven't cleaned it off
+
+---------17:13----------
+the board yet I'm not gonna I can't tell
+
+---------17:16----------
+you that this is a nice looking thing in
+
+---------17:17----------
+the world but what I can tell you is
+
+---------17:20----------
+that most likely will work so let's just
+
+---------17:22----------
+find where what I did is and that is
+
+---------17:25----------
+that's this pile right here so that's
+
+---------17:31----------
+the capacitor
+
+---------17:37----------
+there we go
+
+---------17:42----------
+yeah so that's that that's the new and
+
+---------17:45----------
+large capacitor and I also I move the
+
+---------17:47----------
+coil up because the inductor was
+
+---------17:49----------
+actually keeping that from working so
+
+---------17:50----------
+Jess always says it's not the coil
+
+---------17:52----------
+sometimes it actually is the coil the
+
+---------17:54----------
+coil is in the way of my new capacitor
+
+---------17:55----------
+fitting so let's see what we get now I'm
+
+---------17:58----------
+gonna take my DC n board again a lot of
+
+---------18:06----------
+people think they heat that component
+
+---------18:08----------
+after they heat the component that works
+
+---------18:09----------
+because when you're not heating the mCP
+
+---------18:11----------
+you're heating the capacitor next to the
+
+---------18:13----------
+mCP and you're making that cap work
+
+---------18:15----------
+again for a short period of time so
+
+---------18:17----------
+let's see what we get before we add
+
+---------18:19----------
+point three volts now we get Milan says
+
+---------18:24----------
+we get pouf
+
+---------18:25----------
+this is his board so hopefully we don't
+
+---------18:27----------
+get pouf 1.09 one point we're supposed
+
+---------18:32----------
+to get one point zero five one point
+
+---------18:33----------
+zero nine I will certainly settle for
+
+---------18:35----------
+because that's good enough and so when
+
+---------18:39----------
+you see these voltages in the schematic
+
+---------18:41----------
+one of the things you need to understand
+
+---------18:42----------
+is that there's tolerances so if you see
+
+---------18:44----------
+five volts and you measure four point
+
+---------18:46----------
+nine nine nine that doesn't mean you
+
+---------18:47----------
+need to start troubleshooting that rail
+
+---------18:49----------
+that means that you need to start going
+
+---------18:51----------
+on to what the actual problem is so I'm
+
+---------18:53----------
+gonna short the pads see if it turns on
+
+---------18:55----------
+and as you can see my fan spins which
+
+---------18:59----------
+here is the ultimate test that the board
+
+---------19:01----------
+works and that no further testing is
+
+---------19:03----------
+required send back to customer kidding
+
+---------19:07----------
+but you get the point here so if this
+
+---------19:09----------
+was the repair do you and I'm gonna wind
+
+---------19:12----------
+up doing a video on this on BGA rework
+
+---------19:14----------
+in general because I feel like a lot of
+
+---------19:16----------
+people jump to BGA rework just to kind
+
+---------19:19----------
+of make the excuse to themselves that
+
+---------19:20----------
+they can't fix it when it's not a BGA
+
+---------19:22----------
+problem this board does have BGA
+
+---------19:23----------
+problems it has an L VDS MUX chip that
+
+---------19:26----------
+goes bad by the way this chip goes bad
+
+---------19:27----------
+ten times more often than the GPU does
+
+---------19:29----------
+and it is a complete [ __ ] to to work on
+
+---------19:33----------
+but these boards do have BGA problems
+
+---------19:35----------
+but they're not the BGA problems that
+
+---------19:37----------
+you think a lot of people get caught up
+
+---------19:38----------
+in this idea of replacing BGA chipsets
+
+---------19:41----------
+when the BGA chipsets are not the actual
+
+---------19:43----------
+chips instead of at fault its power
+
+---------19:44----------
+going to them it's signals going in and
+
+---------19:46----------
+out of them and you know I'm trying to
+
+---------19:48----------
+get you out of that culture that mindset
+
+---------19:49----------
+of just like oh there's being a monkey
+
+---------19:52----------
+that replaces chips for no reason
+
+---------19:54----------
+without thinking without looking without
+
+---------19:55----------
+no I don't want you to be like me eating
+
+---------19:58----------
+you know eating the who would being
+
+---------19:59----------
+somebody who actually went through this
+
+---------20:01----------
+already over the course of several years
+
+---------20:02----------
+is heating the bioship because
+
+---------20:04----------
+he's just being an idiot
+

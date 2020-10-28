@@ -1,0 +1,1552 @@
+https://www.youtube.com/watch?v=8Cc01ZEJDJY
+---------00:00----------
+all right so today we have an a 1502
+
+---------00:02----------
+MacBook and it says no power let's open
+
+---------00:05----------
+this thing up and try and figure out why
+
+---------00:06----------
+it has no power and see if we can make
+
+---------00:08----------
+it work again all right so the first
+
+---------00:14----------
+thing that I like to do on these
+
+---------00:16----------
+machines is I like to see how much power
+
+---------00:18----------
+it's taking without the battery plugged
+
+---------00:22----------
+in because if the battery is plugged in
+
+---------00:23----------
+it's going not gonna let me know exactly
+
+---------00:25----------
+what the board is taken by itself it's a
+
+---------00:27----------
+troubleshooting methodology so if I know
+
+---------00:31----------
+how much power the board is taking then
+
+---------00:33----------
+I may have an idea as to where I should
+
+---------00:35----------
+begin with my troubleshooting process so
+
+---------00:38----------
+I am going to plug in the then turn on
+
+---------00:44----------
+this power supply software here it works
+
+---------00:46----------
+great so 24 milliamp s-- may have a
+
+---------00:50----------
+light but we have 24 milliamps being
+
+---------00:52----------
+taken 24 milliamps most of the time is
+
+---------00:54----------
+missing p.m. sleep s4l one of our
+
+---------00:56----------
+favorite problems so let's unplug
+
+---------00:59----------
+everything from the machine and see
+
+---------01:00----------
+where we go from there we listen any
+
+---------01:02----------
+podcast that we favorite one I enjoy
+
+---------01:04----------
+some of the Scott Galloway podcast
+
+---------01:06----------
+okay so we've unplugged everything from
+
+---------01:08----------
+the casing I remember 24 milliamps is
+
+---------01:10----------
+typically a missing PM sleep s4l I've
+
+---------01:13----------
+realized that because on other boards
+
+---------01:14----------
+where I was taking 24 mm so I would
+
+---------01:16----------
+troubleshoot and I would see that p.m.
+
+---------01:18----------
+sleep s4l is missing now p.m. sleep s4l
+
+---------01:20----------
+is a signal that's going to be required
+
+---------01:23----------
+in order for the charger I mean in order
+
+---------01:26----------
+for all the s4 rails to get turned on so
+
+---------01:29----------
+p.m. sleep s4l is power management sleep
+
+---------01:33----------
+s2 and s4 state when low I want you to
+
+---------01:38----------
+be awake I don't want you to sleep so I
+
+---------01:40----------
+so that signal needs to be present so
+
+---------01:42----------
+that it doesn't sleep now this is an 8 -
+
+---------01:45----------
+0 - 4 9 - 4 board so we're gonna open a
+
+---------01:47----------
+schematic and a board view here using
+
+---------01:49----------
+Paul Daniels a software that as usual is
+
+---------01:51----------
+drunk and thank you very much for it -
+
+---------01:54----------
+Poupon I highly appreciate it but yeah
+
+---------01:56----------
+this here is drunk so as you can see
+
+---------01:58----------
+what's happening is the board is opening
+
+---------02:02----------
+in a different orientation than it is on
+
+---------02:04----------
+the desk because apparently in Australia
+
+---------02:06----------
+they do vertical video and they fix
+
+---------02:08----------
+their boards like this now if you if you
+
+---------02:11----------
+do this in America and then you fix the
+
+---------02:13----------
+board like
+
+---------02:13----------
+in Australia that I can understand but
+
+---------02:16----------
+who the [ __ ] fixes the board like this
+
+---------02:17----------
+like this is just no nobody nobody on
+
+---------02:20----------
+planet earth fixes a board in this
+
+---------02:22----------
+[ __ ] position this is insanity but
+
+---------02:24----------
+that is the very orientation that Paul
+
+---------02:27----------
+Daniels a software will open the board
+
+---------02:29----------
+to by default this ridiculous Australian
+
+---------02:33----------
+upside down backward ass
+
+---------02:34----------
+toilet flushing [ __ ] why and in true
+
+---------02:42----------
+Apple fashion not only does he do that
+
+---------02:44----------
+but he changes the shortcut to rotate
+
+---------02:46----------
+the board from the old version to this
+
+---------02:49----------
+version absolute [ __ ] madman like dr.
+
+---------02:54----------
+Eggman from Sonic the Hedgehog I can
+
+---------02:55----------
+just see his teeth grinning and his
+
+---------02:58----------
+moustache twisting though what am I
+
+---------03:00----------
+talking about PM sleep s4l so let's just
+
+---------03:02----------
+go through our so when it's not turning
+
+---------03:04----------
+on the first thing that you want to do
+
+---------03:05----------
+is check through your list of power
+
+---------03:08----------
+rails so this is the list of power rails
+
+---------03:13----------
+and several of those power rails are
+
+---------03:15----------
+rails that are s3 or as for as for a
+
+---------03:18----------
+state like this now there is a chip that
+
+---------03:21----------
+creates some of those power rails you
+
+---------03:23----------
+7501 you 7501 is going to create PP 5 es
+
+---------03:27----------
+3 as well as PPE 3 B 3 S 5 now let's
+
+---------03:31----------
+check out how this is enabled so it
+
+---------03:33----------
+looks like the 5 volt line of this chip
+
+---------03:35----------
+s 3 rail is enabled by P 5 vs 3
+
+---------03:38----------
+underscore enable and if we trace that
+
+---------03:40----------
+back to where it is coming from you'll
+
+---------03:46----------
+see that that comes from P 5 es 3 en D
+
+---------03:54----------
+so usually underscore L means that's
+
+---------03:57----------
+present when it's low and I guess
+
+---------03:59----------
+underscore diene means it's enabled when
+
+---------04:01----------
+you have dick so this P 5 vs 3 enabled
+
+---------04:07----------
+dick comes from p.m. sleep best for L
+
+---------04:09----------
+p.m. sleep best for L is gonna come from
+
+---------04:12----------
+the CPU / PCH that PCH is integrated
+
+---------04:15----------
+into the CPU here but it's the same
+
+---------04:16----------
+general principle the PCH is creating it
+
+---------04:18----------
+now that's signal let's see if that's
+
+---------04:21----------
+present I'm probably is not because it's
+
+---------04:24----------
+taking 24 milliamps
+
+---------04:26----------
+right so we plug the thing in well you
+
+---------04:30----------
+have that on the screen where you gonna
+
+---------04:31----------
+turn on Paul Daniels is multimeter
+
+---------04:33----------
+software let's see what orientation that
+
+---------04:35----------
+[ __ ] shows up in on the screen all right
+
+---------04:37----------
+at least some of the software appears to
+
+---------04:38----------
+be sane and we are going to measure and
+
+---------04:41----------
+see what's present on pin 4 of this chip
+
+---------04:44----------
+and go from there so here we have the
+
+---------04:48----------
+TPS five one nine nine zero chip and it
+
+---------04:51----------
+looks like we have zero volts on p.m.
+
+---------04:53----------
+sleep s4l BAM see so now we're gonna
+
+---------04:58----------
+take a look around the board and see if
+
+---------04:59----------
+there's anything that sticks out to us
+
+---------05:01----------
+as to why that's not present now
+
+---------05:02----------
+sometimes it's not present because the
+
+---------05:05----------
+clock chip is not creating a clock
+
+---------05:08----------
+signal could be it what doesn't seem to
+
+---------05:11----------
+be here I have a little corrosion on
+
+---------05:12----------
+this stuff above it but that stuff is
+
+---------05:14----------
+kind of irrelevant in the grand scheme
+
+---------05:17----------
+of things that though those are for CJ
+
+---------05:20----------
+tech rubbish and it's not now when Jay
+
+---------05:23----------
+tags are corroded that can be bad
+
+---------05:24----------
+because little short things to each
+
+---------05:26----------
+other but over here
+
+---------05:27----------
+nothing is shorted directly to something
+
+---------05:29----------
+right next to it so I'm not necessarily
+
+---------05:31----------
+as concerned about that although we'll
+
+---------05:33----------
+come back to the fact that this poles
+
+---------05:34----------
+where Pro point should be later now if
+
+---------05:37----------
+we take a look around here let's see do
+
+---------05:40----------
+we have any shorted caps because often
+
+---------05:42----------
+you'll have a shorted cap in the corner
+
+---------05:43----------
+that messes up the 5 volt rails and
+
+---------05:46----------
+they'll move back and forth but I don't
+
+---------05:47----------
+think that's the case here because when
+
+---------05:49----------
+you have a short circuit on a rail and
+
+---------05:51----------
+p.m. sleeve s4l is missing typically
+
+---------05:54----------
+it'll be pulsing so it'll go try to turn
+
+---------05:56----------
+on notice a short and go up off on out
+
+---------05:59----------
+off and that'll repeat itself so you'll
+
+---------06:01----------
+see it go three zero three zero three
+
+---------06:02----------
+zero and that's not happening here so
+
+---------06:04----------
+we're just gonna continue our trip
+
+---------06:05----------
+around the board what is you what be
+
+---------06:14----------
+what what are you doing oh oh oh ouch
+
+---------06:18----------
+alright this is a common corroder on the
+
+---------06:20----------
+air on the a 1466 models this is
+
+---------06:24----------
+important so what this does is if you
+
+---------06:27----------
+have all six our good and P P 3 v 3s Oh
+
+---------06:33----------
+present with CPU VR P good people pretty
+
+---------06:35----------
+much as long as you have see this little
+
+---------06:38----------
+pole
+
+---------06:39----------
+signal over here and all says power good
+
+---------06:41----------
+it'll create PMS Oh pika now if you have
+
+---------06:43----------
+PMS Oh P good because else is power good
+
+---------06:45----------
+is present meaning only wrestle rails
+
+---------06:46----------
+are there and SMC delay power good which
+
+---------06:48----------
+comes from the SMC you will get
+
+---------06:50----------
+something called assist power ok which
+
+---------06:52----------
+turns to the PM PCH says power ok now
+
+---------06:55----------
+let's take a look at the page that we
+
+---------06:56----------
+find the signal on shall we so if we
+
+---------06:59----------
+click through you'll see that there is
+
+---------07:00----------
+this page for PCH power management
+
+---------07:03----------
+system power management in this page is
+
+---------07:05----------
+put together a lot nicer than it is on
+
+---------07:07----------
+some of the schematics for the new
+
+---------07:08----------
+MacBooks so what I like about this page
+
+---------07:10----------
+is there's a pattern you have all these
+
+---------07:13----------
+ends no left and outs on the right so in
+
+---------07:15----------
+order for you to have all your PMS Li
+
+---------07:17----------
+best 5 LS 4 l and 3 L in order to enable
+
+---------07:20----------
+your rails to turn on you need to have
+
+---------07:22----------
+these being present and something tells
+
+---------07:24----------
+me when the chip that creates that rail
+
+---------07:26----------
+looks like this they're not present this
+
+---------07:28----------
+is a chip that can be purchased on store
+
+---------07:29----------
+dot Rossman group comm and we are going
+
+---------07:32----------
+to replace it right now and see if that
+
+---------07:35----------
+fixes our problem and then we can
+
+---------07:37----------
+address the issues around the jtag
+
+---------07:38----------
+connector area but first let's address
+
+---------07:40----------
+this why is Eli the computer gay hates
+
+---------07:45----------
+you I want to punch a stupid face about
+
+---------07:47----------
+after talking ish about you what's the
+
+---------07:50----------
+mic you use for your life experience
+
+---------07:53----------
+videos help me I use this rode videomic
+
+---------07:56----------
+thing it's I like it it's some rode TRS
+
+---------07:59----------
+shotgun mic Evo and I are just people
+
+---------08:02----------
+that have a typical back and forth I
+
+---------08:05----------
+don't hate you I I don't dislike Eli I
+
+---------08:07----------
+listen to his videos sometimes I agree
+
+---------08:10----------
+with what he has to say sometimes I
+
+---------08:11----------
+don't agree or disagree but it provides
+
+---------08:14----------
+thought-provoking content sometimes I
+
+---------08:15----------
+think what he's saying is ridiculous but
+
+---------08:17----------
+it is a thought process and we both are
+
+---------08:21----------
+just adults that disagree every now and
+
+---------08:23----------
+then and also adults that like to give
+
+---------08:26----------
+each other [ __ ] so we both occupy this
+
+---------08:28----------
+really strange niche on YouTube of
+
+---------08:30----------
+long-form one to two hour-long
+
+---------08:32----------
+instructional videos that most people
+
+---------08:35----------
+are going why is the video so long why
+
+---------08:37----------
+is the video so long why is the video so
+
+---------08:39----------
+long why is the video so long and we
+
+---------08:41----------
+also occupy this strange niche where
+
+---------08:43----------
+people say we really like your
+
+---------08:44----------
+educational content make more of it but
+
+---------08:46----------
+when we make more of it nobody watches
+
+---------08:48----------
+it so and we both generally we can
+
+---------08:52----------
+to YouTube it the same idea so he had a
+
+---------08:54----------
+successful business and then moved on to
+
+---------08:56----------
+YouTube is not like his life was started
+
+---------08:57----------
+from YouTube I came onto YouTube and I
+
+---------09:00----------
+was about three and a half four years
+
+---------09:02----------
+into my business or yeah you know it's
+
+---------09:04----------
+four years into my business already my
+
+---------09:05----------
+repair business when I came on here so
+
+---------09:08----------
+we both and we both also did not
+
+---------09:11----------
+envision there being
+
+---------09:13----------
+tens of thousands of people watching it
+
+---------09:14----------
+wasn't like that was ever the goal we
+
+---------09:16----------
+both suck at creating thumbnails we both
+
+---------09:18----------
+suck at editing so there's a lot of
+
+---------09:21----------
+similarities there even if there are
+
+---------09:22----------
+differences and things like whether or
+
+---------09:23----------
+not I'm going to go out of business or
+
+---------09:26----------
+go bankrupt similar to his computer
+
+---------09:27----------
+repair shop in 2009 that offered about
+
+---------09:29----------
+half the services that we do that are
+
+---------09:30----------
+value of the customers did I just say
+
+---------09:33----------
+that although anyway so what I'm going
+
+---------09:35----------
+to do here yeah I don't I don't hate to
+
+---------09:38----------
+do it at all we just disagree every now
+
+---------09:39----------
+and then and because we disagree and
+
+---------09:41----------
+what grown-ups we like to give each
+
+---------09:42----------
+other's [ __ ] and that that is that is
+
+---------09:44----------
+what it is I like giving you like [ __ ]
+
+---------09:46----------
+and every now and then I'm sure he likes
+
+---------09:47----------
+giving me [ __ ] but at the end of the day
+
+---------09:49----------
+it's all it's all just friendly back and
+
+---------09:52----------
+forth and banter and the other thing is
+
+---------09:58----------
+like I can appreciate where he's coming
+
+---------09:59----------
+from when he says I don't give a [ __ ]
+
+---------10:01----------
+about anybody any of the viewers etc and
+
+---------10:03----------
+so forth when he says you know I want
+
+---------10:05----------
+you to lead a good life but I never want
+
+---------10:06----------
+to meet you
+
+---------10:06----------
+I honestly I get that because I feel the
+
+---------10:09----------
+same way about you know many people on
+
+---------10:11----------
+YouTube are and honest about certain
+
+---------10:13----------
+things like that like I'm you know if
+
+---------10:14----------
+you I try to be nice to people but at
+
+---------10:18----------
+the same time I try to also you know I'm
+
+---------10:21----------
+not your friend I'm not your family
+
+---------10:23----------
+member I'm a dude on the internet I
+
+---------10:26----------
+don't know we we also seem to have the
+
+---------10:29----------
+same general what's the word I'm looking
+
+---------10:31----------
+for we have the same general thoughts
+
+---------10:38----------
+with regards to social behavior and you
+
+---------10:41----------
+know being confused by social norms and
+
+---------10:43----------
+getting along with people or lack of
+
+---------10:47----------
+getting along with people anyway
+
+---------10:57----------
+quality is dropped low yeah so what I
+
+---------11:00----------
+would suggest that you do if you don't
+
+---------11:02----------
+like the quality of the stream or the
+
+---------11:03----------
+bitrate that I'm forced to stream at I
+
+---------11:05----------
+would highly suggest that you call
+
+---------11:07----------
+spectrum and ask them why the [ __ ] they
+
+---------11:09----------
+give this type of garbage connection as
+
+---------11:11----------
+somebody who pays them $450 a month call
+
+---------11:14----------
+spectrum tell them rossmann or pair
+
+---------11:16----------
+group at 186 first Avenue has been
+
+---------11:18----------
+paying you over $400 a month like three
+
+---------11:21----------
+[ __ ] years now and his connection
+
+---------11:23----------
+still sucks and I can't watch your
+
+---------11:25----------
+stream so I would do is I would tell
+
+---------11:29----------
+spectrum to fix my [ __ ] internet but
+
+---------11:34----------
+that's never gonna happen because the
+
+---------11:35----------
+spectrum alright so that being said
+
+---------11:38----------
+that's oh these are the duck-billed
+
+---------11:41----------
+tweezers again I can't use those for
+
+---------11:42----------
+anything
+
+---------11:46----------
+okay
+
+---------12:26----------
+okay
+
+---------12:31----------
+it looks like I may be missing the pp3
+
+---------12:33----------
+before - via over here let's dig a
+
+---------12:39----------
+little bit I might actually be able to
+
+---------12:43----------
+scrape it away from right next to door
+
+---------12:48----------
+how can I help you
+
+---------12:50----------
+oh this it's just green green blue blue
+
+---------12:55----------
+yellow yeah I had a little marker on
+
+---------12:59----------
+each of them but it was the the washable
+
+---------13:01----------
+marker yep the hall sensor is not but
+
+---------13:08----------
+the normal phase wires are
+
+---------13:33----------
+I destroyed the wire as well as the
+
+---------13:35----------
+motor that's awesome
+
+---------13:45----------
+all right so I think I've created enough
+
+---------13:47----------
+in there to this solder to see
+
+---------14:00----------
+whenever you think something's gone you
+
+---------14:02----------
+can actually make it reappear with an
+
+---------14:03----------
+exacto sometimes and just digging a
+
+---------14:05----------
+little I think that was one of my
+
+---------14:07----------
+biggest red pill moments when it came to
+
+---------14:09----------
+border para going how do they do that
+
+---------14:11----------
+there's no more pad Sean sighs stick one
+
+---------14:14----------
+of the spectrum supervisors on your
+
+---------14:15----------
+connection they've solved chronic issues
+
+---------14:17----------
+Mian hours it doesn't matter it doesn't
+
+---------14:19----------
+matter they'll fix it and then the next
+
+---------14:21----------
+day it'll just be [ __ ] up again the
+
+---------14:22----------
+solution is to move to a store that
+
+---------14:24----------
+doesn't have spectrum and the new store
+
+---------14:25----------
+has files that's gonna be great
+
+---------14:27----------
+I could stream in 28 megabit per second
+
+---------14:30----------
+or four I could stream in the [ __ ]
+
+---------14:31----------
+recording bitrate if I wanted to I got
+
+---------14:33----------
+gigabit it's gonna be awesome sometimes
+
+---------14:36----------
+at home just for the hell of it just for
+
+---------14:38----------
+just reflexing purposes I tried
+
+---------14:39----------
+streaming at 20 or 30 megabit per second
+
+---------14:41----------
+and it just works it's beautiful it's
+
+---------14:44----------
+beautiful I mean there's no point to
+
+---------14:48----------
+doing it but it's just like I can so I'm
+
+---------14:50----------
+going to because I can't hello Paul
+
+---------14:58----------
+pretty
+
+---------15:05----------
+connected which the hall sensor thing
+
+---------15:07----------
+it's so annoying yeah I push in and then
+
+---------15:13----------
+I silicone the crap out of it so that I
+
+---------15:15----------
+would never move again but I didn't
+
+---------15:17----------
+realize that there would be maintenance
+
+---------15:23----------
+how do you know which one is which color
+
+---------15:26----------
+this one's still green this one's yellow
+
+---------15:29----------
+why did the green is the only one that
+
+---------15:31----------
+survived this is so pretty
+
+---------15:37----------
+eventually I'm gonna have to get some
+
+---------15:39----------
+quarter-twenty bolts for the metal
+
+---------15:40----------
+string but it's surviving very well with
+
+---------15:43----------
+only two oh my god oh [ __ ] how did my
+
+---------15:51----------
+battery even put out enough power to do
+
+---------15:53----------
+this the casing burned up smells good I
+
+---------15:57----------
+don't even have the casing on the other
+
+---------15:59----------
+one
+
+---------16:15----------
+all right what do I have to do here ah
+
+---------16:17----------
+yes get my donor board what are the
+
+---------16:24----------
+chances of a donor board having you 1950
+
+---------16:26----------
+on it the first one I pulled out of the
+
+---------16:32----------
+slot out of you 1950 god damn that's
+
+---------16:36----------
+sexy
+
+---------16:43----------
+you should try please brewing spectrum
+
+---------16:46----------
+that requires being on the phone and on
+
+---------16:48----------
+hold for a very long time which is time
+
+---------16:51----------
+that means no board repair which means
+
+---------16:52----------
+no making money which means no moving
+
+---------16:55----------
+very bad must fix boards but
+
+---------17:07----------
+one second can't hear you
+
+---------17:16----------
+that's that's floating above the pads
+
+---------17:18----------
+which is no good I got to push it down
+
+---------17:20----------
+because when you grab it with the
+
+---------17:21----------
+tweezers if you grab it too low on the
+
+---------17:23----------
+chip it did you just did you just did
+
+---------17:29----------
+you really just nothing wait no way no
+
+---------17:32----------
+way no way
+
+---------17:35----------
+you didn't just fly away
+
+---------17:53----------
+and now I got to figure out which side
+
+---------17:55----------
+is which
+
+---------18:08----------
+now you may notice that there's a
+
+---------18:09----------
+disconnect and the PPP before it to
+
+---------18:11----------
+underscore g3 hot raise above
+
+---------18:21----------
+I don't know what m12 is I'm sorry I
+
+---------18:23----------
+know I'm a noob I apologize for being a
+
+---------18:26----------
+noob but I don't know what that means
+
+---------18:28----------
+one of the most difficult things I've
+
+---------18:30----------
+realized while I was trying to put
+
+---------18:31----------
+together the bike is like I know what I
+
+---------18:35----------
+know what I want I don't know what it's
+
+---------18:36----------
+called and I won't be able to say what I
+
+---------18:39----------
+need so for example like when I needed
+
+---------18:42----------
+to make the Hall sensor wire from the
+
+---------18:44----------
+Sabaton controller to the BBS HD I
+
+---------18:47----------
+needed the connector in the plug but I
+
+---------18:49----------
+know what it looks like but what the
+
+---------18:51----------
+[ __ ] is this called and it's a jst
+
+---------18:53----------
+connector and then everybody kept saying
+
+---------18:54----------
+oh yes just the jst and I said ok that's
+
+---------18:56----------
+what I need so then I asked for and then
+
+---------18:58----------
+I look like a dumbass because jst is a
+
+---------19:00----------
+brand not a connector it's not like it's
+
+---------19:03----------
+not like I'm saying the exact thing I
+
+---------19:05----------
+want so I wound up having to buy every
+
+---------19:07----------
+single one of them to find the one that
+
+---------19:09----------
+fits in the worst part is I forgot the
+
+---------19:11----------
+damn name of it so now if I had to
+
+---------19:13----------
+answer that again I couldn't but that's
+
+---------19:15----------
+what my order history is for but yes I
+
+---------19:18----------
+honestly don't know what that is I'm
+
+---------19:19----------
+sorry I'm a noob and the other thing is
+
+---------19:21----------
+not really knowing where to learn that
+
+---------19:23----------
+stuff
+
+---------19:29----------
+so I'm gonna put a wire here just to
+
+---------19:31----------
+make sure that the pp 3 before 2 makes
+
+---------19:33----------
+its way
+
+---------19:40----------
+to the ship
+
+---------20:04----------
+m12 12 millimeter 0.472 inches in
+
+---------20:08----------
+freedom unit okay so that's a unit of
+
+---------20:12----------
+measurement but I still don't understand
+
+---------20:14----------
+- what the question wasn't afraid I'm
+
+---------20:16----------
+sorry doesn't change my tip my numbness
+
+---------20:20----------
+at all okay so now we are going to move
+
+---------20:25----------
+this hot air it into place nicely so I
+
+---------20:37----------
+want my jumper to be where it's
+
+---------20:38----------
+comfortable
+
+---------20:39----------
+not just where I put it I want it to
+
+---------20:41----------
+actually flow to where it would be
+
+---------20:42----------
+comfortable because that's where it's
+
+---------20:48----------
+gonna be the most stable long term now I
+
+---------20:52----------
+want this to be able to survive getting
+
+---------20:53----------
+dropped all sorts of things I want this
+
+---------20:57----------
+to survive all the abuse that I should
+
+---------20:59----------
+expect a Mac owner to inflict on their
+
+---------21:01----------
+product this is rapid cool it for a
+
+---------21:03----------
+second get it by a breeze
+
+---------21:16----------
+all right we're getting six hundred
+
+---------21:17----------
+milliamps which should mean we getting
+
+---------21:19----------
+fans been soon now keep in mind this is
+
+---------21:21----------
+an eight to zero 49 24 not an eight to
+
+---------21:23----------
+zero 35 36 or eight to zero 34 seventy
+
+---------21:26----------
+six that means that the fan is not going
+
+---------21:27----------
+to spin on this until it's about twenty
+
+---------21:29----------
+degrees Celsius higher than the older
+
+---------21:33----------
+machine so Apple had a design that
+
+---------21:36----------
+actually wasn't overheating it's rare
+
+---------21:37----------
+for Apple but it was you know running at
+
+---------21:39----------
+a somewhat reasonable temperature and
+
+---------21:40----------
+they decided to well what we can't have
+
+---------21:43----------
+that so the things on right now you may
+
+---------21:46----------
+not believe me but it is and you're
+
+---------21:48----------
+gonna see that it's gonna take about a
+
+---------21:50----------
+minute or two for this fan to come on
+
+---------21:51----------
+even as this heatsink burns because
+
+---------21:55----------
+Apple so let's just give it a minute
+
+---------21:58----------
+that's a nice one heatsink all right the
+
+---------22:01----------
+fan really doesn't seem to want to spin
+
+---------22:03----------
+on this so now that that's worrying me
+
+---------22:05----------
+because even by Apple's cooling
+
+---------22:07----------
+standards that should have started
+
+---------22:08----------
+spinning so let's see if this thing is
+
+---------22:10----------
+capable of booting into an operating
+
+---------22:11----------
+system maybe they just updated the
+
+---------22:14----------
+firmware or something and made it even
+
+---------22:16----------
+run even more warm I know there was
+
+---------22:20----------
+recently an update with Catalina where I
+
+---------22:23----------
+was updating the firmware and there was
+
+---------22:24----------
+some 32 64 bit kind of issue and it was
+
+---------22:27----------
+it was killing a lot of them so that
+
+---------22:29----------
+that's that's some pretty interesting
+
+---------22:30----------
+firmware updates that I applied going on
+
+---------22:32----------
+for this model but for glitch to see
+
+---------22:34----------
+what I get on the screen see if this
+
+---------22:36----------
+thing is brain-dead and I'm good and we
+
+---------22:41----------
+have an Apple logo there beautiful
+
+---------22:46----------
+I don't have the webcam plugged in so
+
+---------22:50----------
+it's not doing the ambient light sensing
+
+---------22:52----------
+or it sees that it's a really bright
+
+---------22:53----------
+environment and turning the screen up I
+
+---------22:55----------
+don't have the ambient light sensor
+
+---------22:56----------
+plugged in so it's stuck on the last
+
+---------22:58----------
+brightness and again I have a lot of
+
+---------22:59----------
+lighting in this office so that you can
+
+---------23:01----------
+see all the wrinkles and contortions in
+
+---------23:03----------
+my aging face as well as you be able to
+
+---------23:06----------
+see all the corrosion on the board and
+
+---------23:07----------
+without the webcam plugged in it's it's
+
+---------23:09----------
+booting to the low brightness because
+
+---------23:12----------
+inside the webcam is the automated light
+
+---------23:13----------
+sensor so we did to this machine to make
+
+---------23:15----------
+it work again first thing we did is we
+
+---------23:17----------
+plugged it in and we realized recognized
+
+---------23:20----------
+that there was a problem with p.m. sleep
+
+---------23:24----------
+best ferrell missing before I even took
+
+---------23:26----------
+out the board or off my multimeter by
+
+---------23:28----------
+seeing how much power the board's using
+
+---------23:29----------
+that is an excellent diagnostic shortcut
+
+---------23:33----------
+how many amps azar taking and if you
+
+---------23:36----------
+can't remember it that's fine write down
+
+---------23:37----------
+a table every time you have a problem
+
+---------23:39----------
+this is how many amps it was taking
+
+---------23:40----------
+without the battery plugged in and this
+
+---------23:41----------
+was my problem so that you can associate
+
+---------23:43----------
+it and then in the future you save time
+
+---------23:45----------
+and troubleshoot that was done beautiful
+
+---------23:48----------
+great then we figured out that that was
+
+---------23:50----------
+was actually missing we looked around
+
+---------23:51----------
+the board at the typical culprits for a
+
+---------23:53----------
+missing p.m. sleep s4l clock not there
+
+---------23:55----------
+short-circuit not there you 1950 ow
+
+---------23:57----------
+burned destroyed replaced there's a
+
+---------24:00----------
+little bit of other corrosion on the
+
+---------24:02----------
+board that's unrelated that's only if I
+
+---------24:03----------
+want to program it to the jtag connector
+
+---------24:04----------
+which I don't necessarily care about
+
+---------24:06----------
+because I don't have access to the tool
+
+---------24:08----------
+to do that
+
+---------24:08----------
+so I'm gonna clean up that corrosion a
+
+---------24:11----------
+little bit this thing go get ultrasonics
+
+---------24:12----------
+reassembled test it and it'll go back to
+
+---------24:14----------
+a happy customer that otherwise probably
+
+---------24:16----------
+would have been bent over the bar by
+
+---------24:17----------
+Apple you know that's it for today and
+
+---------24:20----------
+as always I hope you learned something
+
+---------24:22----------
+thank you so much for watching thank you
+
+---------24:24----------
+so much for taking part in what we do
+
+---------24:25----------
+here and I will see you all in the next
+
+---------24:27----------
+video
+

@@ -1,0 +1,1183 @@
+https://www.youtube.com/watch?v=xXPSmvBTrYY
+---------00:00----------
+all right so today I'm gonna be going
+
+---------00:01----------
+over an eight to zero 29:36 logic board
+
+---------00:03----------
+that goes into a 2011 13-inch MacBook
+
+---------00:06----------
+Pro we're gonna go over what's wrong
+
+---------00:08----------
+with it what happened to it - and the
+
+---------00:11----------
+very sad attempt at fixing it that was
+
+---------00:13----------
+made by an $80.00 eBay person so by the
+
+---------00:16----------
+way I'm not against people who make
+
+---------00:17----------
+mistakes because I make a lot of
+
+---------00:19----------
+mistakes and that's how I learn
+
+---------00:20----------
+what I but what I do like is making fun
+
+---------00:23----------
+of the combination of arrogance and
+
+---------00:24----------
+ignorance when that results in a poor
+
+---------00:27----------
+job or when somebody is really really do
+
+---------00:30----------
+valuing what we do and then while
+
+---------00:32----------
+devaluing it they something up
+
+---------00:34----------
+because it's exactly like this this is
+
+---------00:36----------
+why this is $80 like I get a lot of
+
+---------00:39----------
+people who come in asking this because
+
+---------00:40----------
+they'll see this this and this probably
+
+---------00:41----------
+why because they see that motherboard
+
+---------00:43----------
+repair on eBay cost $80 and I'm not
+
+---------00:47----------
+talking about connector replacement I'm
+
+---------00:48----------
+not talking about backlight issue I'm
+
+---------00:50----------
+talking about honest-to-god full service
+
+---------00:53----------
+macbook logic board repair for $80 and
+
+---------00:56----------
+free shipping and you know this kind of
+
+---------00:58----------
+reminds me of a honeymooners quote
+
+---------00:59----------
+because this thing wound up here I
+
+---------01:01----------
+googled the address and the name and
+
+---------01:03----------
+everything cuz it seemed familiar to
+
+---------01:04----------
+figure out that this was somebody was
+
+---------01:05----------
+offering the service on eBay for 80
+
+---------01:07----------
+bucks it reminds me of this honeymooners
+
+---------01:09----------
+quote I'm not sure if any of you guys
+
+---------01:10----------
+watched the honeymooners it was after I
+
+---------01:12----------
+think he got fired from the bus company
+
+---------01:13----------
+or something and he's complaining to his
+
+---------01:16----------
+wife and he goes aggravation 101
+
+---------01:18----------
+aggravations everyday driving a bus in
+
+---------01:20----------
+the summertime diet from the heat and
+
+---------01:21----------
+the wintertime freezing from the cold
+
+---------01:23----------
+all kinds of weather through the rain
+
+---------01:24----------
+the snow and the sleet you know that
+
+---------01:26----------
+sign they have in the post office the
+
+---------01:27----------
+mail gets through no matter what kind of
+
+---------01:29----------
+weather you know why because the mailman
+
+---------01:30----------
+rides with me that's why and that's kind
+
+---------01:32----------
+of what I feel like saying to a lot of
+
+---------01:33----------
+these people when they're like why you
+
+---------01:35----------
+know the you know how this eighty dollar
+
+---------01:38----------
+motherboard repair person gets by when
+
+---------01:39----------
+he can't figure it out or he up
+
+---------01:41----------
+your board he sends it here and I and
+
+---------01:43----------
+I'm gonna charge him full retail rate
+
+---------01:45----------
+because he's not a wholesale customer I
+
+---------01:47----------
+digress let's go over what's actually
+
+---------01:49----------
+wrong with this thing and let's go over
+
+---------01:51----------
+what went on to fix it so here's the
+
+---------01:53----------
+thing again I make a lot of these
+
+---------01:55----------
+mistakes but at the end of the day
+
+---------01:56----------
+you'll see cuz I uploaded a few keyboard
+
+---------01:59----------
+videos like this at the end of the day I
+
+---------02:00----------
+catch it this this is just the sad sack
+
+---------02:04----------
+over here so let's go over so again it
+
+---------02:06----------
+wasn't seeing the keyboard so you got
+
+---------02:09----------
+the keyboard connector though it got
+
+---------02:10----------
+semi replaced I say semi because
+
+---------02:13----------
+well look at this for the keyboard
+
+---------02:16----------
+connector got replaced but there's no
+
+---------02:18----------
+keyboard that resistor got kind of
+
+---------02:21----------
+knocked off no keyboard we were placed
+
+---------02:23----------
+you 5701 which is the keyboard
+
+---------02:25----------
+controller chip and oh my god there's
+
+---------02:27----------
+still no keyboard what are we going to
+
+---------02:28----------
+do
+
+---------02:29----------
+well the first thing that you should be
+
+---------02:30----------
+doing here is using a brain what type of
+
+---------02:32----------
+device is the keyboard on this machine
+
+---------02:34----------
+if you read the schematic you realize
+
+---------02:36----------
+that the keyboard is a USB device now
+
+---------02:38----------
+the keyboard is going to communicate
+
+---------02:39----------
+with this chip and this chip pretty much
+
+---------02:42----------
+turns it into a USB signal that can be
+
+---------02:43----------
+accepted by a USB controller hub so
+
+---------02:46----------
+let's go over the block diagram in the
+
+---------02:47----------
+schematic now we're here it's telling me
+
+---------02:48----------
+how everything goes right so this should
+
+---------02:50----------
+give me a couple of hints so where is
+
+---------02:58----------
+keyboard I don't give a about
+
+---------03:01----------
+Windows 10 go away
+
+---------03:04----------
+all right so trackpad keyboard goes
+
+---------03:07----------
+through this connector J 5800 and J 5713
+
+---------03:11----------
+that ghetto is to you 5701
+
+---------03:14----------
+u 5701 goes to the USB hub - that's on
+
+---------03:17----------
+page 24 which is u 2650 and that then
+
+---------03:20----------
+goes to the PCH which takes all the
+
+---------03:22----------
+information from the USB devices and
+
+---------03:24----------
+pretty much manages it let's check this
+
+---------03:30----------
+out let's check out u 2650 here we go
+
+---------03:38----------
+we're on a USB page USB hub so you have
+
+---------03:43----------
+two USB hubs you have u 2600 and you
+
+---------03:46----------
+2650 so this hub down here you 2650 you
+
+---------03:56----------
+2650 is responsible for let's see
+
+---------04:05----------
+bluetooth trackpad keyboard external a
+
+---------04:09----------
+an SD card slot you 2600 is responsible
+
+---------04:15----------
+for the other externals so this computer
+
+---------04:20----------
+has multiple USB ports on it
+
+---------04:24----------
+so let's see what these go to so USB
+
+---------04:27----------
+underscore ext B underscore n so this
+
+---------04:36----------
+the top chip goes to JIT a J 46:10 which
+
+---------04:42----------
+is a USB port so let's write this down
+
+---------04:52----------
+because as I like to say all the time I
+
+---------04:53----------
+have a very very bad memory
+
+---------04:55----------
+so J 46:10 first USB hub now the USB hub
+
+---------05:08----------
+responsible for the trackpad and the
+
+---------05:09----------
+keyboard goes to USB external a and P
+
+---------05:14----------
+let's see where that goes to that goes
+
+---------05:25----------
+to this which then goes to J 4600 just
+
+---------05:34----------
+in case you missed that that's where USB
+
+---------05:38----------
+X a goes to it goes to this chip and
+
+---------05:40----------
+that chip goes to this USB port J 4600
+
+---------05:46----------
+so let's write that down J 4600 USB hub
+
+---------05:52----------
+that keyboard is controlled from so now
+
+---------05:57----------
+we're gonna go over to the board view
+
+---------06:00----------
+delete this.j 4600 J 46:10 alright so
+
+---------06:11----------
+these are the two USB ports and again I
+
+---------06:12----------
+wrote this down because I got a really
+
+---------06:14----------
+bad memory and it comes to these short
+
+---------06:15----------
+term remembering of numbers so J 4600 is
+
+---------06:19----------
+the USB port that is attached to the USB
+
+---------06:24----------
+hub that may be good and J 46:10 is
+
+---------06:26----------
+connected J 46 huh see I'm bad with this
+
+---------06:29----------
+J 46:10 is the first USB hub J 4600 is
+
+---------06:33----------
+connected to the USB hub that the
+
+---------06:34----------
+keyboard in the trackpad goes to so what
+
+---------06:37----------
+you
+
+---------06:37----------
+could do to try to figure this issue out
+
+---------06:39----------
+before you even open the screws in the
+
+---------06:41----------
+bottom of the computer you can have this
+
+---------06:43----------
+motherboard diagnosed as whether it's a
+
+---------06:45----------
+keyboard issue or a keyboard controller
+
+---------06:46----------
+chip issue or a USB hub or PCH issue so
+
+---------06:51----------
+I'm gonna take this board I'm gonna put
+
+---------06:52----------
+the memory and the fan in it
+
+---------07:05----------
+might as well screw one or two of the
+
+---------07:07----------
+heatsink screws in I want to burn it now
+
+---------07:26----------
+I'm gonna unplug the internal drive what
+
+---------07:28----------
+sucks about this old pile of is
+
+---------07:30----------
+that it doesn't have USB 3 it only as
+
+---------07:32----------
+USB 2 which is totally gonna defeat the
+
+---------07:34----------
+purpose of the fact that I keep a
+
+---------07:36----------
+crucial SSD here with an operating
+
+---------07:38----------
+system with tools on it just so that one
+
+---------07:40----------
+I want to test things that loads fast
+
+---------07:42----------
+it's gonna load like because of the
+
+---------07:43----------
+USB to chicken I'm not even gonna plug
+
+---------07:47----------
+anything any keyboard or trackpad or any
+
+---------07:49----------
+of that in what I'm gonna do is I'm
+
+---------07:52----------
+gonna plug the screen in battery and
+
+---------07:56----------
+then I'm gonna take this and I'm gonna
+
+---------07:59----------
+plug it into the regular USB port so the
+
+---------08:01----------
+regular USB port again let me just check
+
+---------08:03----------
+my thing ok J 46:10 so according to my
+
+---------08:07----------
+board view J 46:10 is this USB port here
+
+---------08:11----------
+now I've unplugged to the hard drive so
+
+---------08:13----------
+it's not gonna try to boot off of the
+
+---------08:15----------
+internal hard drive the fan is spinning
+
+---------08:21----------
+it's turning on now what I want to see
+
+---------08:23----------
+over here what I'm looking for is to see
+
+---------08:26----------
+if that USB hub is working so what I'm
+
+---------08:28----------
+doing here is I'm narrowing down whether
+
+---------08:30----------
+it's a USB hub issue or a PCH issue so
+
+---------08:33----------
+while I'm waiting for the slow piece of
+
+---------08:35----------
+crap to boot over USB - let me show you
+
+---------08:38----------
+what I'm talking about on the schematic
+
+---------08:56----------
+so the trackpad and the keyboard
+
+---------08:59----------
+controller talks to the trackpad on the
+
+---------09:03----------
+keyboard over here this talks to the USB
+
+---------09:06----------
+hub and the USB hub talks to the PCH
+
+---------09:16----------
+erase this so the trackpad and the
+
+---------09:20----------
+keyboard talk to this keyboard
+
+---------09:22----------
+controller chip that I showed you that
+
+---------09:23----------
+the guy replaced that talks to this USB
+
+---------09:26----------
+hub and then this talks to the PCH if
+
+---------09:28----------
+neither of my USB ports work most likely
+
+---------09:31----------
+I have a PCH issue this is the chip that
+
+---------09:33----------
+talks to the CPU but controls the things
+
+---------09:35----------
+like SATA PCI Express computer turning
+
+---------09:38----------
+on because all the USB hubs talk to the
+
+---------09:42----------
+PCH right
+
+---------09:43----------
+if one USB port works like this one but
+
+---------09:47----------
+then this USB port doesn't work then I
+
+---------09:49----------
+have a USB hub issue if none of the USB
+
+---------09:52----------
+ports work I could have two USB hub
+
+---------09:53----------
+issues which is unlikely or a PCH issue
+
+---------09:56----------
+which is more likely if all the USB hubs
+
+---------09:58----------
+work but I have no trackpad or keyboard
+
+---------10:01----------
+then it's most likely something to do
+
+---------10:03----------
+with the trackpad keyboard circuit so
+
+---------10:05----------
+now that I've gotten that out of the way
+
+---------10:07----------
+let's see how my machine has booted with
+
+---------10:09----------
+the first USB port as you can see it's
+
+---------10:12----------
+booting slow as because again we're
+
+---------10:14----------
+booting over USB 2 and also since I
+
+---------10:17----------
+didn't plug in the trackpad in the
+
+---------10:18----------
+keyboard it's clocking itself down but
+
+---------10:19----------
+clearly that USB hub works it sees that
+
+---------10:22----------
+there's a drive there and it's trying to
+
+---------10:23----------
+boot off of it which means that you know
+
+---------10:26----------
+it's not totally destroyed again without
+
+---------10:28----------
+the trackpad plugged in that's gonna run
+
+---------10:30----------
+slow and it's booting over USB 2 now
+
+---------10:33----------
+what I'm gonna do is I'm gonna try the
+
+---------10:35----------
+other USB hub so I actually forgot which
+
+---------10:38----------
+one I started with thank god I wrote it
+
+---------10:39----------
+down so I tried J 46:10 which is over
+
+---------10:42----------
+here now when I tried J 4600 which is
+
+---------10:44----------
+the USB hope that the keyboard is
+
+---------10:45----------
+controlled by O which is J 4600 that's
+
+---------10:48----------
+the USB hub that is next to the SD card
+
+---------10:50----------
+slot wait is plug the battery in and I'm
+
+---------10:55----------
+gonna plug my charger and to turn the
+
+---------10:57----------
+computer on
+
+---------11:02----------
+and I'm gonna wait let's see what
+
+---------11:05----------
+happens is it gonna try to boot into the
+
+---------11:07----------
+operating system or is it gonna be
+
+---------11:10----------
+screwed up so on my crappy little two
+
+---------11:15----------
+dollar eBay junky USB 2 too sad a thing
+
+---------11:19----------
+I have a red light so at the very least
+
+---------11:21----------
+it is providing power now let's see if
+
+---------11:23----------
+data is working at the USB hub not
+
+---------11:35----------
+booting yet
+
+---------11:49----------
+I should really just put this down so
+
+---------11:52----------
+that you can watch along with me Oh what
+
+---------12:02----------
+do you know one of our USB hubs ain't
+
+---------12:05----------
+working right so now let's take a look
+
+---------12:07----------
+and see what's going on again this
+
+---------12:08----------
+problem did not require soldering to
+
+---------12:11----------
+diagnose it did not require replacing a
+
+---------12:13----------
+chip but did not require replacing a
+
+---------12:14----------
+connector this is the problem with
+
+---------12:16----------
+monkey-see monkey-do thinking or should
+
+---------12:18----------
+I say a lack of thinking and monkey-see
+
+---------12:21----------
+monkey-do behavior keyboard not working
+
+---------12:23----------
+me replace connector me replace
+
+---------12:25----------
+connector and still no work meera plays
+
+---------12:27----------
+keyboard controller chip why are you not
+
+---------12:28----------
+thinking to come up with a solution for
+
+---------12:30----------
+why this doesn't work oh because you do
+
+---------12:32----------
+this for $80 in exactly like billion
+
+---------12:34----------
+that is what you get when you
+
+---------12:37----------
+send this thing off to somebody's gonna
+
+---------12:38----------
+do it for 80 bucks you think you're
+
+---------12:40----------
+getting somebody to think for $80 no all
+
+---------12:44----------
+right so let's go over the schematic
+
+---------12:46----------
+again and go to that area so this USB
+
+---------12:53----------
+hub is you 2650 oh I'm in the wrong
+
+---------13:02----------
+thing I want to see where it is
+
+---------13:06----------
+okay USB hub is over here so this year
+
+---------13:09----------
+is you 2650 hi corrosion
+
+---------13:19----------
+hello corrosion hello actual cause of
+
+---------13:25----------
+problem again this diagnosis did not
+
+---------13:28----------
+require opening the computer yes the
+
+---------13:31----------
+computer is open because it was sent in
+
+---------13:32----------
+for a motherboard repair but this was
+
+---------13:34----------
+clearly obviously diagnosable without
+
+---------13:37----------
+actually taking screws out of the laptop
+
+---------14:00----------
+okay here donor board you're a
+
+---------14:09----------
+nice-lookin donor board actually no
+
+---------14:11----------
+you're not you're the one that as is
+
+---------14:14----------
+your own short to ground on everything
+
+---------14:16----------
+but your USB hub actually looks very
+
+---------14:19----------
+nice so I'll steal you my hack go on
+
+---------14:25----------
+flamethrower mode I got it on this seven
+
+---------14:27----------
+and a half and air is at 16 air filter
+
+---------14:32----------
+on no up breathing here
+
+---------14:42----------
+so for all you people asking what
+
+---------14:44----------
+temperature my hat goes on it's on seven
+
+---------14:45----------
+and a half and my air is at sixteen you
+
+---------14:48----------
+want to know what that is in Fahrenheit
+
+---------14:49----------
+or Celsius I have no idea
+
+---------14:51----------
+just live with non knowing it's hot
+
+---------14:54----------
+enough that's what I care about
+
+---------15:11----------
+goodbye eBay is just such a
+
+---------15:21----------
+cesspool it's just it's all price it's
+
+---------15:24----------
+nobody gives a about quality like
+
+---------15:26----------
+every I just almost everything that sold
+
+---------15:28----------
+on eBay is complete garbage basis it's
+
+---------15:33----------
+not a quality based marketplace
+
+---------16:07----------
+you may think that's too much side or my
+
+---------16:09----------
+point is not to have a lot of solder on
+
+---------16:11----------
+the pads
+
+---------16:11----------
+the idea is to pick up the old it old
+
+---------16:14----------
+lead lead-free solder and sell it at
+
+---------16:17----------
+gtfo
+
+---------16:51----------
+too much solder on the center pad
+
+---------17:00----------
+Oh oh that was awful
+
+---------17:06----------
+but what I did right there was very $80
+
+---------17:09----------
+he person on eBay of me
+
+---------17:12----------
+okay let's catch the little solder ball
+
+---------17:14----------
+that ran away you Inc let's get rid of
+
+---------17:22----------
+that mess
+
+---------17:38----------
+what I'm
+
+---------17:45----------
+whoa bigger mess
+
+---------18:28----------
+my trademark never soldered on straight
+
+---------18:32----------
+chip
+
+---------18:47----------
+all righty what do you think I'm gonna
+
+---------18:54----------
+get working USB workin keyboard working
+
+---------19:01----------
+mouse or junk let's see
+
+---------19:18----------
+you know let's inspire some confidence
+
+---------19:21----------
+here that I got it right I'm gonna turn
+
+---------19:22----------
+off the hakko and the air filter because
+
+---------19:24----------
+the hot air station takes about a minute
+
+---------19:26----------
+before it gets hot I'm confident that
+
+---------19:29----------
+I'd rather to save the energy I know I
+
+---------19:34----------
+fixed this
+
+---------19:35----------
+I don't need actually I don't because
+
+---------19:40----------
+this is not my keyboard connector
+
+---------19:43----------
+keyboard controller chip
+
+---------19:45----------
+ah there's flux everywhere
+
+---------19:50----------
+gross disgusting I hate flux everywhere
+
+---------19:55----------
+good thing the bathroom is next to my
+
+---------19:58----------
+office nasty puke
+
+---------20:27----------
+yeah I hate getting honed by flux
+
+---------20:38----------
+you
+
+---------20:40----------
+I still don't want to be touching this
+
+---------20:43----------
+not only is
+
+---------20:45----------
+ that's just a really it's a one of
+
+---------20:47----------
+those computers this is generally dirty
+
+---------20:49----------
+all around yeah disgusting it's even
+
+---------20:57----------
+smelly it's one of those things where
+
+---------20:59----------
+you can almost smell like the the
+
+---------21:02----------
+unshowered for a six year person that
+
+---------21:05----------
+owns it and you guys who do you know you
+
+---------21:08----------
+guys are don't do this for a living can
+
+---------21:09----------
+say that like I'm just being an [ __ ]
+
+---------21:11----------
+but you people who do this for a living
+
+---------21:13----------
+you know what I'm talking about when I
+
+---------21:15----------
+say that the device smells like the end
+
+---------21:18----------
+user in a really bad way you know what
+
+---------21:22----------
+I'm talking about all right
+
+---------21:35----------
+all right now remember before not only
+
+---------21:38----------
+did the keyboard not work but that USB
+
+---------21:40----------
+port didn't work now I'm even I know the
+
+---------21:42----------
+keyboard works because I held down
+
+---------21:43----------
+option and it brings me to the screen
+
+---------21:45----------
+where I get to select the boot device so
+
+---------21:47----------
+if I hold down option it brings me to
+
+---------21:48----------
+that screen that allows me to select the
+
+---------21:49----------
+boot device and I fayed enter is able to
+
+---------21:52----------
+see that boot device which is a USB boot
+
+---------21:54----------
+device and boot off of it which means
+
+---------21:57----------
+that it's done it does have to get
+
+---------21:59----------
+cleaned up because the board it's again
+
+---------22:01----------
+this whole this whole machine is a
+
+---------22:03----------
+little a little $80 on eBay ish for me
+
+---------22:07----------
+oh yeah thank God I have a lot of soap
+
+---------22:11----------
+in here but yeah it's I gotta get gloves
+
+---------22:14----------
+I know I have them here and I like
+
+---------22:16----------
+wearing them when I'm working on nasty
+
+---------22:17----------
+crap but for some reason I just I didn't
+
+---------22:19----------
+wear them it's it's great when you take
+
+---------22:21----------
+it's great to feel like I'm touching
+
+---------22:22----------
+this nasty stuff and I don't care
+
+---------22:24----------
+because I'm protected that's the beauty
+
+---------22:26----------
+of gloves which I really should just
+
+---------22:28----------
+remember where mine are because I know I
+
+---------22:29----------
+have them and I really got to start
+
+---------22:31----------
+wearing them with how nasty some of this
+
+---------22:33----------
+crap is but yeah this is it so before
+
+---------22:36----------
+you had no keyboard no trackpad now you
+
+---------22:38----------
+have keyboard trackpad USB and again
+
+---------22:39----------
+it's just a matter of using your brain
+
+---------22:41----------
+you know if you don't don't replace
+
+---------22:44----------
+things don't guess come up with a plan
+
+---------22:46----------
+and try to come up with ways to narrow
+
+---------22:48----------
+down what the problem is and just think
+
+---------22:51----------
+every step of the way ask questions they
+
+---------22:52----------
+ask lots of questions ask stupid
+
+---------22:54----------
+questions because sometimes stupid
+
+---------22:56----------
+questions will lead you to a smart
+
+---------22:57----------
+answer but if you don't ask any
+
+---------22:59----------
+questions and you just start just going
+
+---------23:00----------
+hmm okay ding ding ding ding and this
+
+---------23:03----------
+replacing without thinking you'll
+
+---------23:05----------
+just be so you need to think
+
+---------23:06----------
+before you replace something if you
+
+---------23:08----------
+don't think before you replace something
+
+---------23:09----------
+I can almost guarantee you that you will
+
+---------23:11----------
+regularly get owned now time to send a
+
+---------23:15----------
+bill for $225 to somebody that I know is
+
+---------23:18----------
+only making 80 bucks off of this that's
+
+---------23:20----------
+gonna feel good
+

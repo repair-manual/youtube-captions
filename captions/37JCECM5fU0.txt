@@ -1,0 +1,2053 @@
+https://www.youtube.com/watch?v=37JCECM5fU0
+---------00:00----------
+hi today I'm gonna be going over the one
+
+---------00:02----------
+wire circuit on an older MacBook Pro
+
+---------00:04----------
+because on these machines it's a little
+
+---------00:06----------
+bit more confusing than what it was on
+
+---------00:08----------
+the newer MacBook Pros now this is
+
+---------00:11----------
+something that I wanted to do in real
+
+---------00:12----------
+time it's been something that's been
+
+---------00:14----------
+getting asked a lot and I wanted to go
+
+---------00:16----------
+over it in a repair video today and some
+
+---------00:20----------
+of my repair videos lately have kind of
+
+---------00:21----------
+been going like and this one really
+
+---------00:24----------
+took the cake like I say that I post
+
+---------00:26----------
+everything I post even when I screw up
+
+---------00:28----------
+and this I have this repair actually
+
+---------00:29----------
+worked everything came out well but
+
+---------00:31----------
+there's kind of a limit to how dumb I'll
+
+---------00:33----------
+allow myself to look on camera and today
+
+---------00:36----------
+I definitely managed to reach that limit
+
+---------00:38----------
+with this video so I'm not gonna be
+
+---------00:40----------
+doing this in real time but I am going
+
+---------00:42----------
+to walk you through it and it's gonna be
+
+---------00:45----------
+again it's gonna be after the fact so
+
+---------00:46----------
+it's gonna be a little lame compared to
+
+---------00:48----------
+one that's done in real time but
+
+---------00:50----------
+hopefully it winds up being something
+
+---------00:52----------
+that's somewhat informative that you can
+
+---------00:53----------
+use and you know kind of learn something
+
+---------00:56----------
+from so I'm gonna open up a schematic
+
+---------00:58----------
+for one of the newer model machines here
+
+---------00:59----------
+because with the newer model machines
+
+---------01:01----------
+you're it's a little bit easier to
+
+---------01:03----------
+understand how the one wire circuit
+
+---------01:05----------
+works compared to the older one so once
+
+---------01:07----------
+you understand the newer one
+
+---------01:08----------
+understanding the older one will become
+
+---------01:10----------
+a little easier but if you don't
+
+---------01:11----------
+understand the newer one or the older
+
+---------01:13----------
+one then it's gonna be a little bit
+
+---------01:14----------
+confusing all around so that said let's
+
+---------01:19----------
+get over to discussing that part of it
+
+---------01:21----------
+so let's move over to the screen capture
+
+---------01:24----------
+here so we're gonna go over to the
+
+---------01:26----------
+screen capture here is that screen
+
+---------01:29----------
+capture are we in screen capture oh this
+
+---------01:33----------
+is this is this is not screen capture
+
+---------01:39----------
+hmm we're getting close Oh capturing the
+
+---------01:45----------
+wrong screen there we go
+
+---------01:48----------
+I know I just got a shrink me no need
+
+---------01:50----------
+for me to be big yeah you can go away
+
+---------01:53----------
+ go down here there we go
+
+---------01:56----------
+fine go away all right so that being
+
+---------02:00----------
+said hi kitty
+
+---------02:08----------
+good kitty alright so we're going to go
+
+---------02:11----------
+over to the 1y circuit so this is pretty
+
+---------02:29----------
+simple the whole idea here is that the
+
+---------02:31----------
+one wire circuit is going to allow the
+
+---------02:33----------
+adapter see here it says MagSafe DC jack
+
+---------02:35----------
+it's going to allow the adapter to talk
+
+---------02:38----------
+to the SMC so the adapter has 18 volts
+
+---------02:41----------
+you know DC electricity duh it has
+
+---------02:44----------
+ground again duh required for a circuit
+
+---------02:46----------
+but the one that confuses people is
+
+---------02:48----------
+adapter sense adapter sense since the
+
+---------02:51----------
+adapter turn-on so that is going to go
+
+---------02:53----------
+over to this I see this I see over here
+
+---------02:56----------
+has X and int now let's think about this
+
+---------03:02----------
+year X as an external as in the charger
+
+---------03:05----------
+and then int as an internal meaning and
+
+---------03:10----------
+newer versions of open broadcast would
+
+---------03:12----------
+have this slow Mouse on both of my
+
+---------03:14----------
+computers I'm telling you and you find
+
+---------03:16----------
+good software and it's not software that
+
+---------03:18----------
+connects to the internet or can have
+
+---------03:19----------
+security vulnerabilities don't
+
+---------03:22----------
+update this never dated anyway so we
+
+---------03:25----------
+have sis one wire is gonna be internal
+
+---------03:27----------
+this is the going to be for the SMC oh
+
+---------03:31----------
+thank you for making me deaf so the SM
+
+---------03:35----------
+see here see sis one wire it says by for
+
+---------03:40----------
+bi-directional data line that is the SMC
+
+---------03:47----------
+over here it's gonna say in the bottom
+
+---------03:48----------
+right corner of the schematic here see
+
+---------03:50----------
+it says SMC so this IC is going to allow
+
+---------03:56----------
+the SMC to talk to the charger and
+
+---------03:59----------
+that's how you get your green light on
+
+---------04:00----------
+your Mac safe charge now this IC has
+
+---------04:03----------
+another pin VCC VCC VDD V in are pretty
+
+---------04:07----------
+much the same when it comes to
+
+---------04:08----------
+these schematics it's just the power pin
+
+---------04:11----------
+that's required to turn it on so you
+
+---------04:13----------
+know like like this shitty little
+
+---------04:15----------
+interface that I have it has a cable
+
+---------04:17----------
+going into it you can think of this
+
+---------04:18----------
+cable as the VC
+
+---------04:20----------
+beep in if I don't plug that in it
+
+---------04:22----------
+doesn't get power so this trip over here
+
+---------04:24----------
+as a VCC pin that's where you apply 3.42
+
+---------04:26----------
+volts when you want it to turn on
+
+---------04:28----------
+now it's 3.42 volts it's going to come
+
+---------04:31----------
+from this IC over here this is a logic
+
+---------04:33----------
+gate this logic gate is going to take PP
+
+---------04:36----------
+3 V 4 2 which is 3 point 42 volts and
+
+---------04:39----------
+it's going to pass it on to this chip
+
+---------04:42----------
+which is going to allow the charger to
+
+---------04:43----------
+talk to the SMC it's going to do that if
+
+---------04:46----------
+smc bc AC ok is present so let's find s
+
+---------04:49----------
+MC bc AC ok in this command now this
+
+---------04:52----------
+over here again this is where a little
+
+---------04:54----------
+bit of common sense is required in
+
+---------04:55----------
+charger AC okay little equal sign
+
+---------04:58----------
+hamburger looking thing and then sm c bc
+
+---------05:01----------
+AC okay so what this is telling me is
+
+---------05:03----------
+that for the rest of the schematic
+
+---------05:05----------
+charger AC ok is going to be used
+
+---------05:07----------
+instead of SMC bcs you okay and that's
+
+---------05:10----------
+fine now this is you 7000 this is what's
+
+---------05:14----------
+going to take charger voltage this is a
+
+---------05:16----------
+buck convert if you don't know what a
+
+---------05:17----------
+buck converter is watch the buck
+
+---------05:18----------
+converter videos this is going to take
+
+---------05:21----------
+the 16 or 18 volt from the charger and
+
+---------05:23----------
+turn it into 12 point 6 volts for the
+
+---------05:25----------
+machine now this chip is what's going to
+
+---------05:27----------
+shoot out charger AC ok now it's not
+
+---------05:30----------
+gonna shoot out charger AC ok unless it
+
+---------05:32----------
+gets 4 volts on the charger AC and pin
+
+---------05:35----------
+right so make sure you make sure you're
+
+---------05:37----------
+following here so you have from adapter
+
+---------05:39----------
+that's the 16 or 18 volts from your
+
+---------05:40----------
+charger it's going to come through here
+
+---------05:42----------
+and in this voltage divider if you don't
+
+---------05:44----------
+know what a voltage divider is check my
+
+---------05:45----------
+videos and what a voltage divider is are
+
+---------05:47----------
+is going to take are this wrote the
+
+---------05:49----------
+divider of our 70 10 and our 70 11 are
+
+---------05:51----------
+going to take these 16 volts extend it
+
+---------05:54----------
+hit the 16 volts from the charger and
+
+---------05:55----------
+it's going to turn that 16 volts in the
+
+---------05:57----------
+charger into 4 volts for the charger AC
+
+---------05:59----------
+in pin now once it gets 4 volts in the
+
+---------06:02----------
+charger AC in pin if the chip itself is
+
+---------06:05----------
+not and it is also getting power
+
+---------06:07----------
+on the charge of DC n pin check r700 5
+
+---------06:10----------
+because in the case of a knockoff
+
+---------06:11----------
+charger it's always gonna be blown and
+
+---------06:13----------
+then it won't shoot out charger AC ok
+
+---------06:16----------
+but if it's getting its 16 or 18 volts
+
+---------06:18----------
+on charge of DC n if it's getting its 4
+
+---------06:20----------
+volts in charger AC and it will shoot
+
+---------06:22----------
+out charger AC ok which is sm c bc AC
+
+---------06:26----------
+okay i can really type today here we go
+
+---------06:29----------
+which will allow this logic 8 to pass
+
+---------06:31----------
+3.42 volts onto
+
+---------06:33----------
+chip once this chip gets his 3.42 volts
+
+---------06:36----------
+it allows the adapter again this is this
+
+---------06:38----------
+is the charging port over here it allows
+
+---------06:39----------
+the adapter this adapter sense line to
+
+---------06:41----------
+talk to the SMC
+
+---------06:44----------
+that's the newer one wire circuit simple
+
+---------06:47----------
+easy breezy beautiful covergirl I have
+
+---------06:51----------
+that stuck in my head I don't know why I
+
+---------06:52----------
+remember watching cartoons as a kid and
+
+---------06:54----------
+there was a commercial and we'll go easy
+
+---------06:56----------
+breezy beautiful kapa haka I even heard
+
+---------06:59----------
+that chance it's like 1999 and today
+
+---------07:02----------
+just in the middle of nowhere like 4:30
+
+---------07:03----------
+in the middle of the day I just hear
+
+---------07:05----------
+that in my head like five times
+
+---------07:07----------
+it's driving me crazy
+
+---------07:08----------
+anyway that's probably one of my videos
+
+---------07:11----------
+when right today so let's go over to an
+
+---------07:13----------
+older one wire circuit now the reason I
+
+---------07:15----------
+bring this up I know people are gonna
+
+---------07:16----------
+say why the should we care about
+
+---------07:18----------
+this this is from 2009 firstly this is
+
+---------07:21----------
+for a 17-inch MacBook Pro now a lot of
+
+---------07:25----------
+people like the 17-inch MacBook Pro they
+
+---------07:27----------
+don't want to move on so they you know
+
+---------07:28----------
+they don't want to try something new
+
+---------07:31----------
+they want to stick with what works and
+
+---------07:34----------
+they like this device for whatever
+
+---------07:36----------
+reason so they're no they're not buying
+
+---------07:38----------
+a new one so there is some value in
+
+---------07:40----------
+fixing these and the second thing I want
+
+---------07:41----------
+you to understand is that a lot of
+
+---------07:42----------
+people who watch these videos are not
+
+---------07:44----------
+from the United States in the United
+
+---------07:46----------
+States you know you're one thousand
+
+---------07:47----------
+dollar device dies you buy a fifteen
+
+---------07:49----------
+hundred dollar one next week in other
+
+---------07:51----------
+countries you know people you spend a
+
+---------07:53----------
+one or two three spend two thousand
+
+---------07:54----------
+bucks on this thing you expect it to
+
+---------07:55----------
+last for the next ten or fifteen years
+
+---------07:57----------
+it's just the way it is so a lot of
+
+---------07:59----------
+people will still bring these so I want
+
+---------08:00----------
+to talk a little bit about how this
+
+---------08:02----------
+circuit works and I want to bring up
+
+---------08:04----------
+some of the flaws and how Apple drew the
+
+---------08:06----------
+schematic because I think a lot of the
+
+---------08:08----------
+misunderstanding of this circuit is not
+
+---------08:10----------
+necessarily from the fact that it's more
+
+---------08:12----------
+complicated it's rather from the fact
+
+---------08:14----------
+that the way Apple draws the schematic
+
+---------08:16----------
+is fundamentally up and confusing
+
+---------08:17----------
+to a lot of people so let's go over that
+
+---------08:20----------
+so everything else in this circuit is
+
+---------08:23----------
+the same so when it comes to charger AC
+
+---------08:25----------
+in charger AC n over here a my insulin
+
+---------08:29----------
+surveillance tool in sumantra charger AC
+
+---------08:31----------
+and you still have the voltage divider
+
+---------08:32----------
+here you seven thousand is still going
+
+---------08:35----------
+to shoot out charger AC okay all that
+
+---------08:37----------
+stuff is still true that stuff is still
+
+---------08:41----------
+the same but when you get to the SMC BC
+
+---------08:43----------
+AC okay area that you really get to the
+
+---------08:46----------
+to the confusing part so let's yeah
+
+---------08:51----------
+so this yeah this is that this is a head
+
+---------08:55----------
+this is a mouthful for most people this
+
+---------08:57----------
+is a bit of a so let's go
+
+---------08:59----------
+over it now let's break it down adapter
+
+---------09:02----------
+sense right same adapter sense line over
+
+---------09:05----------
+here you have your adapter sense line
+
+---------09:06----------
+your adapter sense line is going over to
+
+---------09:09----------
+this transistor and then this other
+
+---------09:12----------
+transistor which is going to allow it to
+
+---------09:14----------
+talk to the SMC right now remember that
+
+---------09:20----------
+this is a data line and like mo all data
+
+---------09:22----------
+lines well and that are made this way
+
+---------09:24----------
+it's going to have to be pulled up by a
+
+---------09:26----------
+pull-up resistor if you don't understand
+
+---------09:27----------
+how that works check out my video on how
+
+---------09:29----------
+a pull up resistor creates a data line
+
+---------09:31----------
+take a look over here
+
+---------09:32----------
+see this over here this is the the new 1
+
+---------09:34----------
+1 wire circuit even after this chip
+
+---------09:37----------
+allows the external adapter sense to
+
+---------09:39----------
+talk to the internal which is the SMC
+
+---------09:40----------
+you still have this resistor over here
+
+---------09:43----------
+this pull-up resistor between the three
+
+---------09:44----------
+point 42 volts of the VCC pin and since
+
+---------09:47----------
+one wire so that there can actually be a
+
+---------09:48----------
+data line now take a look over here at
+
+---------09:51----------
+this one wire circuit let's check it out
+
+---------09:53----------
+let's check out what goes on here so SM
+
+---------09:55----------
+CBC a CLK comes through this resistor
+
+---------09:58----------
+and it's going to now this over here is
+
+---------10:00----------
+an n-channel MOSFET so this is going to
+
+---------10:03----------
+allow the power to flow between source
+
+---------10:04----------
+and drain
+
+---------10:05----------
+if the voltage in the gate is
+
+---------10:06----------
+considerably greater than the voltage in
+
+---------10:08----------
+the source now if we look at the voltage
+
+---------10:10----------
+on the source over here you're going to
+
+---------10:12----------
+notice if I actually get my head
+
+---------10:14----------
+out of the way you'll see that the
+
+---------10:15----------
+source is going to ground ground is 0
+
+---------10:18----------
+volts which means that if I put
+
+---------10:20----------
+virtually anything on the gate this is
+
+---------10:22----------
+going to open and it's going to allow
+
+---------10:24----------
+power through
+
+---------10:24----------
+so if sm c bc AC okay is present if u
+
+---------10:28----------
+7000 says everything's good then at that
+
+---------10:31----------
+point
+
+---------10:32----------
+this will allow whatever's on the other
+
+---------10:34----------
+ends whatever on the drain to go to
+
+---------10:36----------
+ground now I want you to take a look up
+
+---------10:38----------
+here this over here is a p-channel
+
+---------10:40----------
+mosfet by the way if you don't know how
+
+---------10:41----------
+to tell if it's an N or a p-channel or
+
+---------10:43----------
+you don't know what they do you can
+
+---------10:44----------
+watch my videos on transistors and you
+
+---------10:47----------
+can also check in just google this
+
+---------10:49----------
+little number here and it will tell you
+
+---------10:50----------
+this up here is a p-channel MOSFET this
+
+---------10:53----------
+works a little bit differently the N
+
+---------10:55----------
+channel MOSFET is going to let the
+
+---------10:57----------
+power through when the voltage on the
+
+---------10:58----------
+gate is higher than the source the
+
+---------11:00----------
+p-channel MOSFET is going to let volt
+
+---------11:02----------
+that you know it's going to let
+
+---------11:03----------
+everything through if the resistance is
+
+---------11:05----------
+going to go down when the voltage on the
+
+---------11:07----------
+gate is considerably lower than what's
+
+---------11:09----------
+on the source so let's look at it like
+
+---------11:11----------
+this let me just make it a little let me
+
+---------11:15----------
+just make it simple by minimizing what
+
+---------11:17----------
+it is you see on the screen here we go
+
+---------11:22----------
+okay so we have 18 volts up here 18
+
+---------11:25----------
+volts up here going on the source of the
+
+---------11:27----------
+transistor and then we have a resistor R
+
+---------11:30----------
+69 11 which is going to take that 18
+
+---------11:33----------
+volts that's on the source and it's
+
+---------11:35----------
+gonna place it on the gate now knowing
+
+---------11:37----------
+that with a p-channel that the voltage
+
+---------11:38----------
+on the gate has to be lower than the
+
+---------11:40----------
+voltage on the source in order for it to
+
+---------11:42----------
+open
+
+---------11:42----------
+what our 6911 is doing is it's pretty
+
+---------11:44----------
+much ensuring that this transistor is
+
+---------11:46----------
+constantly in a in a mode of high
+
+---------11:48----------
+resistance it's not letting power
+
+---------11:50----------
+through right so let's check out over
+
+---------11:53----------
+here now what our 69 12 does is it then
+
+---------11:56----------
+turns this into a voltage divider stop
+
+---------11:59----------
+ with the recycling clinton
+
+---------12:07----------
+sometimes you gotta put your foot down
+
+---------12:09----------
+over here this is pretty much taking the
+
+---------12:12----------
+18 volts in the source and putting it on
+
+---------12:14----------
+the gate with which with a p-channel
+
+---------12:15----------
+MOSFET the source voltage equals the
+
+---------12:17----------
+gate voltage with this particular MOSFET
+
+---------12:19----------
+it's going to be in a high impedance
+
+---------12:21----------
+mode it's not gonna let power through
+
+---------12:22----------
+now what we do over here with our 69 12
+
+---------12:25----------
+now this is a voltage divider it's not
+
+---------12:28----------
+just one resistor with this resistor
+
+---------12:30----------
+over here if we give this resistor R 69
+
+---------12:32----------
+12 a path to ground that then becomes a
+
+---------12:34----------
+voltage divider so rather than 18 volts
+
+---------12:36----------
+being put from the source to the gate
+
+---------12:38----------
+now that 18 volts is going from the
+
+---------12:40----------
+source to the gate but then our 69 12 if
+
+---------12:42----------
+we give it a path to ground
+
+---------12:44----------
+well then lower this to maybe 9 volts or
+
+---------12:46----------
+7 volts or 11 volts or something like
+
+---------12:49----------
+that I don't remember the exact voltage
+
+---------12:50----------
+it's not like I work on on relics and
+
+---------12:53----------
+antiques every day but every now and
+
+---------12:55----------
+then I do so if this opens if this
+
+---------12:58----------
+transistor is allowed to open then it
+
+---------13:00----------
+will make this into a voltage divider if
+
+---------13:02----------
+our 69 12 gets a path to ground and
+
+---------13:05----------
+turns us into a voltage divider then the
+
+---------13:07----------
+voltage on the gate here is going to be
+
+---------13:08----------
+lower than the voltage
+
+---------13:10----------
+source if the voltage in the gate is
+
+---------13:12----------
+lower than the voltage on the source
+
+---------13:13----------
+then this entire circuit will open which
+
+---------13:17----------
+will allow 18 volts through here now
+
+---------13:20----------
+let's take a look at what happens when
+
+---------13:22----------
+you allow 18 volts through here
+
+---------13:23----------
+stop with my recycling can kitty
+
+---------13:26----------
+oh let's see
+
+---------13:34----------
+I know cat I know Clinton you're a mad
+
+---------13:51----------
+kitty it's okay okay what type of
+
+---------14:00----------
+transistor II you are an n-channel I
+
+---------14:09----------
+know you could have told me that right
+
+---------14:12----------
+mr. Clinton so my other monitor froze
+
+---------14:20----------
+boo oh well that's what happens when you
+
+---------14:25----------
+use a dead video card in your recording
+
+---------14:26----------
+computer so this is going to open when
+
+---------14:29----------
+the voltage on the gate is higher than
+
+---------14:31----------
+the voltage that's on either the source
+
+---------14:33----------
+of the drain either should I forget my
+
+---------14:34----------
+brain is fried
+
+---------14:35----------
+anyway 18 volts is gonna be higher than
+
+---------14:37----------
+what's on any of that so it's going to
+
+---------14:39----------
+allow these two these to open so you
+
+---------14:42----------
+would need the voltage to go from the
+
+---------14:44----------
+source of the drain here in order for
+
+---------14:46----------
+this stuff to open and you also need
+
+---------14:48----------
+that for the rest of what's going on
+
+---------14:49----------
+here to work so let's take a look at
+
+---------14:51----------
+what's going on over here and let's also
+
+---------14:53----------
+take a look at what makes this system so
+
+---------14:56----------
+confusing now a couple of things that
+
+---------14:58----------
+make the system confusing is the fact
+
+---------15:00----------
+that Apple has completely failed
+
+---------15:02----------
+and I mean completely failed at
+
+---------15:04----------
+making any of this make any sense so
+
+---------15:09----------
+how's it going little kitten
+
+---------15:12----------
+so if we go over here to the board view
+
+---------15:15----------
+first things first is where the hell is
+
+---------15:17----------
+our 69 18 spin to going to where does
+
+---------15:20----------
+this line going I see pin - I don't see
+
+---------15:23----------
+a
+
+---------15:23----------
+anywhere let's see our 69 18 on the
+
+---------15:27----------
+board view then we're gonna check out
+
+---------15:29----------
+pintu and see where that's going so pin
+
+---------15:31----------
+1 is 1 wire en and pin 2 is grounds ok
+
+---------15:36----------
+so pin 2 over here is going to be ground
+
+---------15:42----------
+now second thing to get here is on cue
+
+---------15:51----------
+69 15 where is pin 4 going i see the
+
+---------15:54----------
+drain of this is one wire enable where's
+
+---------15:56----------
+the source let's take a look at Q 69 15
+
+---------16:00----------
+pin 4 pin 4 is also ground ok this is
+
+---------16:13----------
+making some sense now
+
+---------16:14----------
+so the voltage on the gate over here
+
+---------16:16----------
+you're probably not going to want that
+
+---------16:18----------
+to be 18 volts it's it's because that's
+
+---------16:21----------
+pretty much gonna say okay even if
+
+---------16:23----------
+adapter sense is
+
+---------16:25----------
+send 18 okay let's say the DCM board
+
+---------16:27----------
+dies right adapter sense should be like
+
+---------16:29----------
+three three three and a half volts if
+
+---------16:30----------
+the DCN board is or something is
+
+---------16:33----------
+ with the system adapter sense can
+
+---------16:35----------
+go up to sixteen you don't want adapt
+
+---------16:36----------
+you don't want 16 volts going to the SMC
+
+---------16:38----------
+on sis 1 wire that's very very bad that
+
+---------16:40----------
+will kill the SMC so this will pretty
+
+---------16:44----------
+much not allow the adapter sense line
+
+---------16:46----------
+through if it goes over a certain
+
+---------16:47----------
+voltage and so this is a voltage divider
+
+---------16:50----------
+over here that's probably gonna lower it
+
+---------16:51----------
+to something like maybe seven eight
+
+---------16:53----------
+something around there for the gate but
+
+---------16:55----------
+also this over here attaches to ground
+
+---------16:58----------
+now the reason that I think this
+
+---------16:59----------
+confuses a lot of people is it's not
+
+---------17:01----------
+even because they don't understand how
+
+---------17:02----------
+the circuit works
+
+---------17:03----------
+it's that they'd rather they don't know
+
+---------17:04----------
+where the individual elements are even
+
+---------17:06----------
+ going because they never
+
+---------17:07----------
+bothered to draw it so look at Q
+
+---------17:10----------
+6915 let's take this into context again
+
+---------17:12----------
+right so the way that this entire
+
+---------17:16----------
+general system is going to work is that
+
+---------17:19----------
+this over here is going to allow the
+
+---------17:23----------
+cysts one wire line to go from the
+
+---------17:25----------
+adapter sense to the SMC so we need to
+
+---------17:28----------
+get these transistors or these MOSFETs I
+
+---------17:30----------
+guess a MOSFET is a transistor but a lot
+
+---------17:32----------
+of people have been trolling me lately
+
+---------17:33----------
+at me calling a MOSFET a transistor even
+
+---------17:35----------
+though
+
+---------17:36----------
+transistor these transistors to piss off
+
+---------17:39----------
+the engineers that watch we need to get
+
+---------17:41----------
+these turning on and we get these
+
+---------17:43----------
+turning on and we have power going
+
+---------17:45----------
+through down here now check it out so we
+
+---------17:48----------
+have one wire and Nabal over here this
+
+---------17:50----------
+one wire enable voltage is pretty much
+
+---------17:52----------
+going to be the voltage that comes
+
+---------17:53----------
+through from this so when s MC bc AC
+
+---------17:56----------
+okay allows this voltage divider to work
+
+---------17:59----------
+when this transistor takes this voltage
+
+---------18:01----------
+divider and allow us to go to ground
+
+---------18:02----------
+it's then going to allow this transistor
+
+---------18:04----------
+to send 18 volts through once this
+
+---------18:07----------
+transistor has sent 18 volts through we
+
+---------18:09----------
+now have this voltage divider working
+
+---------18:11----------
+because it's power on the other side
+
+---------18:12----------
+which is going to allow these
+
+---------18:14----------
+transistors are open and allows this one
+
+---------18:16----------
+wire to talk to my SMC however however
+
+---------18:20----------
+big however here where can this
+
+---------18:23----------
+all go wrong well this voltage here one
+
+---------18:26----------
+wire enabled meaning enable my one wire
+
+---------18:28----------
+circuit meaning allow these transistors
+
+---------18:31----------
+to open this can all be shorted to
+
+---------18:33----------
+ground by Q 6915 now let's see this is
+
+---------18:39----------
+also an N channel MOSFET meaning that if
+
+---------18:41----------
+the power on the gate is higher than the
+
+---------18:43----------
+power on the source it's going to sends
+
+---------18:46----------
+my one wire enables signal to ground and
+
+---------18:48----------
+the reason that you wouldn't tell that
+
+---------18:50----------
+from the stupid diagram is that
+
+---------18:52----------
+the lazy piece of at Apple in 2009
+
+---------18:55----------
+didn't even manage to draw a line to
+
+---------18:58----------
+ ground how much work would that
+
+---------18:59----------
+have taken for your four hundred billion
+
+---------19:01----------
+dollar company anyway but let's take a
+
+---------19:04----------
+look at this now this transistor over
+
+---------19:07----------
+here is going to pretty this is going to
+
+---------19:11----------
+turn on and send my one wire enable
+
+---------19:13----------
+voltage here which is the voltage that I
+
+---------19:15----------
+need in order for these transistors to
+
+---------19:16----------
+work its gonna send it to ground if one
+
+---------19:18----------
+wire over volt goes high now what's
+
+---------19:21----------
+going to enable one wire over volt to go
+
+---------19:24----------
+high this IC this one if it detects
+
+---------19:28----------
+something that it doesn't like so this
+
+---------19:31----------
+IC is hooked up to the adapter sense
+
+---------19:33----------
+line and it's also hooked up to the 18
+
+---------19:38----------
+volts from the charger over here right
+
+---------19:41----------
+see make sense so here's what usually
+
+---------19:46----------
+happens let's go over what usually
+
+---------19:47----------
+happens with these circuits you
+
+---------19:49----------
+what's going to happen is that this over
+
+---------19:52----------
+here see that this resistor are 69 11
+
+---------19:54----------
+where it says 470 kilohms it's going to
+
+---------19:57----------
+measure 200 or 300 or 100 ohms now I
+
+---------20:01----------
+want you to think about the video that I
+
+---------20:03----------
+did on resistors and how resistors fail
+
+---------20:05----------
+resistors usually fail by becoming a
+
+---------20:08----------
+higher resistance than the resistance
+
+---------20:10----------
+that it specified to so a 2 ohm resistor
+
+---------20:12----------
+may become a hundred kilo ohm resistor
+
+---------20:13----------
+100 kilo ohm resistor may become a five
+
+---------20:16----------
+million ohm resistor a five million ohm
+
+---------20:18----------
+resistor may become a infinity ohms
+
+---------20:20----------
+resistor that's the way resistors
+
+---------20:22----------
+usually fail resistors don't fail at
+
+---------20:25----------
+least in my lifetime I've never seen a
+
+---------20:27----------
+resistor fail of any type by going down
+
+---------20:30----------
+in resistance I'm not saying it's
+
+---------20:31----------
+impossible I'm saying it's something
+
+---------20:33----------
+that I've never seen in like ten eleven
+
+---------20:36----------
+years of professionally repairing a so
+
+---------20:40----------
+this is probably not going to fail our
+
+---------20:43----------
+6911 is probably not going to fail so
+
+---------20:45----------
+what else is could possibly fail to
+
+---------20:48----------
+create zero ohms of resistance between
+
+---------20:50----------
+pins 1 & 2 well what else is connected
+
+---------20:52----------
+pin 1 of the resistor is attached to pin
+
+---------20:54----------
+1 of this transistor pin 2 of this
+
+---------20:57----------
+resistor is attached to pin 2 of this
+
+---------20:58----------
+transistor if the transistor fails
+
+---------21:01----------
+internally and this transistor has a
+
+---------21:02----------
+short between pins 1 & 2 then you're
+
+---------21:05----------
+going to measure a short on pins 1 in
+
+---------21:07----------
+two of the resistors so the resistor
+
+---------21:09----------
+usually is not bad what's bad is Q 69 10
+
+---------21:13----------
+and Q 69 10 being bad is then going to
+
+---------21:17----------
+not allow this entire system will work
+
+---------21:19----------
+right when this is shorted so you
+
+---------21:21----------
+replace Q 69 10 but nothing is working
+
+---------21:24----------
+now one of the things you can do at this
+
+---------21:26----------
+point as a cheat not saying you give it
+
+---------21:29----------
+back to the customer this way
+
+---------21:31----------
+I'm not saying you give it back to the
+
+---------21:33----------
+customer this way one thing you can do
+
+---------21:35----------
+as a cheat once you replace Q 69 10 is
+
+---------21:40----------
+you can remove Q 69 15 and you 69 15
+
+---------21:45----------
+what this is going to do is ensure that
+
+---------21:48----------
+voltage is going to the one wire circuit
+
+---------21:50----------
+all the time you're going to remove Q 69
+
+---------21:54----------
+15 and u 69 15 s having a path to ground
+
+---------21:57----------
+to screw up your circuit so adapter
+
+---------21:59----------
+sense is going to go over here the
+
+---------22:01----------
+voltage from here
+
+---------22:02----------
+voltage-divider our 69 79 69 18 is going
+
+---------22:05----------
+to ensure that once q 69 10 opens that
+
+---------22:08----------
+voltage goes over to the gate of these
+
+---------22:09----------
+transistors which then allows this one
+
+---------22:11----------
+wire to talk to the SMC I'm not saying
+
+---------22:15----------
+that you give it back to the customer
+
+---------22:17----------
+that way I'm just saying that if you've
+
+---------22:19----------
+already measured your adapter sense line
+
+---------22:22----------
+and your adapter sense line is 3 2 3
+
+---------22:24----------
+point 4 volts and not 16 volts meaning
+
+---------22:27----------
+your adapter sense line is within a
+
+---------22:29----------
+range that's not going to blow up your
+
+---------22:30----------
+SMC that you can remove q 69 15 and use
+
+---------22:34----------
+69 15 and see if you get a green light
+
+---------22:37----------
+temporarily if you get a green light
+
+---------22:39----------
+temporarily then you can buy a new Q 69
+
+---------22:43----------
+15 and a you knew you 69 15 and it's
+
+---------22:47----------
+gonna be a pain in the ass because if
+
+---------22:49----------
+you're like me and you'll only stock
+
+---------22:50----------
+donor boards that are relevant to your
+
+---------22:52----------
+time you're probably not gonna have a
+
+---------22:54----------
+lot of LM 397 s in your in your parts
+
+---------22:57----------
+bin so you'll have to order it
+
+---------22:59----------
+regardless of how much the customer
+
+---------23:02----------
+ and screams you're not gonna
+
+---------23:04----------
+leave you 69 15 and Q 69 15 off the
+
+---------23:06----------
+board you're not gonna let the one wire
+
+---------23:08----------
+protection not be on the board and
+
+---------23:10----------
+you're not going to allow the customers
+
+---------23:12----------
+balls to explore it if they plug in a
+
+---------23:13----------
+knockoff charger don't do that but it is
+
+---------23:18----------
+something you can do because again look
+
+---------23:20----------
+at this Q 6915 this is where your one
+
+---------23:23----------
+wire voltage over here I mean this is
+
+---------23:25----------
+the pole this is another public this is
+
+---------23:27----------
+the resistant that's going to allow
+
+---------23:28----------
+these transistors to open that's going
+
+---------23:30----------
+to allow your adapter sense to talk to
+
+---------23:31----------
+the SMC that's what you need for a green
+
+---------23:33----------
+light if this transistor is bad or this
+
+---------23:35----------
+IC is bad it's gonna tell this
+
+---------23:37----------
+transistor to do things that it
+
+---------23:38----------
+shouldn't or even if the IC isn't bad
+
+---------23:40----------
+but the transistor is bad it may short
+
+---------23:42----------
+to ground and it will take your one wire
+
+---------23:45----------
+voltage away to ground so if you remove
+
+---------23:46----------
+Q 6915 and you 6915 you've then removed
+
+---------23:49----------
+your path to ground which means that you
+
+---------23:52----------
+have a one wire sir you don't have a one
+
+---------23:53----------
+you have a one wire circuit which is
+
+---------23:56----------
+literally at this point one wire which
+
+---------23:59----------
+is bad that is always working and if you
+
+---------24:02----------
+get a green light then you can invest in
+
+---------24:05----------
+buying this and this and waiting but
+
+---------24:08----------
+it's a quick way to cheat and see if
+
+---------24:10----------
+your SMC is dead as well and see if it's
+
+---------24:11----------
+kind of even worth bothering to fix it's
+
+---------24:13----------
+a way you can cheat and look ahead and
+
+---------24:15----------
+that's the way the one wire sir
+
+---------24:16----------
+it works on this machine so long story
+
+---------24:18----------
+short as confusing as this entire
+
+---------24:21----------
+looks if you break it down it's very
+
+---------24:22----------
+similar to the old machines and if you
+
+---------24:24----------
+ever do get to a point in the schematic
+
+---------24:26----------
+where you don't know where something is
+
+---------24:28----------
+going with the Apple engineer was on
+
+---------24:30----------
+crack and you get one of these lines
+
+---------24:31----------
+that doesn't go anywhere just go over to
+
+---------24:33----------
+your board view software search for the
+
+---------24:35----------
+component click on the leg that you
+
+---------24:38----------
+don't know where the it goes and on
+
+---------24:39----------
+the bottom left you'll get ass it'll
+
+---------24:42----------
+tell you where it goes and it'll give
+
+---------24:43----------
+you a little bit of an idea so hopefully
+
+---------24:46----------
+this has been helpful I know I haven't
+
+---------24:47----------
+done a great job at explaining it I'm
+
+---------24:49----------
+sorry for that I did want to do a real
+
+---------24:51----------
+video of fixing this in real time again
+
+---------24:53----------
+some of my videos lately I've been
+
+---------24:55----------
+coming out kind of forgetful and shitty
+
+---------24:57----------
+and this one was just like a new level
+
+---------24:59----------
+of forgetful and shitty and my
+
+---------25:01----------
+explanation right now is kind of a good
+
+---------25:03----------
+level of forgetful and shitty but I do I
+
+---------25:04----------
+did want to do a video on this and it's
+
+---------25:06----------
+not something that I come across very
+
+---------25:08----------
+often so I know it's something that if I
+
+---------25:10----------
+don't make the time now to do a video on
+
+---------25:12----------
+I probably never will but hopefully if
+
+---------25:14----------
+you're working on one of these older
+
+---------25:15----------
+machines with the shitty one wires or
+
+---------25:16----------
+the shitty huge complicated one wire
+
+---------25:18----------
+circuit this helps and you can see even
+
+---------25:20----------
+if you go to this like this the
+
+---------25:22----------
+schematics really do get worse and worse
+
+---------25:23----------
+like check this one out
+
+---------25:25----------
+same one wire circuit by the way same
+
+---------25:27----------
+ this is pretty much the exact same
+
+---------25:28----------
+thing it's on the 15 inch board from
+
+---------25:31----------
+that year rather than the 17 so I just
+
+---------25:33----------
+show you to one for the 17 inch board
+
+---------25:34----------
+now on the phone for the 15 inch board
+
+---------25:36----------
+look they show you these resistors go to
+
+---------25:40----------
+ground right look there look at how
+
+---------25:42----------
+ nice they where they put crowns
+
+---------25:43----------
+and the resistor over here the resistor
+
+---------25:47----------
+over here goes through this line and
+
+---------25:48----------
+this line goes to ground it was so nice
+
+---------25:50----------
+but look Q 69 20 this one wire it's just
+
+---------25:55----------
+one wire bilateral bilat whatever Oh pin
+
+---------25:59----------
+three weight with doesn't where the
+
+---------26:02----------
+ does pin three come from where to
+
+---------26:04----------
+ this pin three go - who the hell
+
+---------26:06----------
+knows again a big reason that people are
+
+---------26:09----------
+confused is because Apple doesn't draw
+
+---------26:11----------
+this look look at that look pee-wee
+
+---------26:13----------
+Herman is back as a pee-wee Herman has
+
+---------26:15----------
+been rehired he's the artist that draws
+
+---------26:18----------
+the Apple schematics look at this check
+
+---------26:20----------
+it out - adapter sense goes from this is
+
+---------26:25----------
+such a new level of stupid I don't even
+
+---------26:26----------
+know what to say so it looks like
+
+---------26:28----------
+Sigma's going to
+
+---------26:29----------
+but it stops here signal signal stops
+
+---------26:32----------
+here see in the good schematic and the
+
+---------26:34----------
+good schematic you have a depth pin five
+
+---------26:36----------
+is signal which goes over to adapter
+
+---------26:39----------
+sense which goes over here in the
+
+---------26:42----------
+ schematic you have signal
+
+---------26:44----------
+signal goes home and then you have
+
+---------26:48----------
+adapter sense and adapter Sanj dose goes
+
+---------26:50----------
+in a Square and touches itself it just
+
+---------26:55----------
+touches itself these these schematics
+
+---------26:58----------
+are such I'm telling
+
+---------27:00----------
+you every Apple engineer from 2008 and
+
+---------27:03----------
+2009 must have been on some amazing
+
+---------27:05----------
+ drugs I'm incredibly jealous and
+
+---------27:08----------
+that's it for today and as always I hope
+
+---------27:12----------
+you learned something if you did learn
+
+---------27:14----------
+something I want to see you apply it
+
+---------27:17----------
+apply this stuff fix boards and I will
+
+---------27:21----------
+be very happy I remember every time you
+
+---------27:25----------
+fix one of these boards that would have
+
+---------27:27----------
+been thrown away or you're keeping
+
+---------27:29----------
+somebody from buying a new one
+
+---------27:31----------
+and every time you keep somebody from
+
+---------27:33----------
+buying a new one you're keeping Apple
+
+---------27:35----------
+from making money that's gonna put a big
+
+---------27:39----------
+smile on all of our faces that's it for
+
+---------27:41----------
+today
+

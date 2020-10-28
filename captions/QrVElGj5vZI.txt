@@ -1,0 +1,553 @@
+https://www.youtube.com/watch?v=QrVElGj5vZI
+---------00:04----------
+here we have a retina macbook that has
+
+---------00:06----------
+no power try and figure out why the SE
+
+---------00:09----------
+1502 has no power by opening it up one
+
+---------00:11----------
+of the cool things about Paul s being
+
+---------00:13----------
+gone is that I get to do all the easy
+
+---------00:16----------
+jobs for the next two weeks
+
+---------00:18----------
+typically all the easy jobs got
+
+---------00:20----------
+designated to Paul but finally getting a
+
+---------00:22----------
+crack at a vacation I mean this isn't a
+
+---------00:24----------
+vacation I'm still at work but the
+
+---------00:26----------
+clothes let's face it the closest thing
+
+---------00:27----------
+you can get to a vacation are doing all
+
+---------00:29----------
+the jobs that Paul used to do because
+
+---------00:31----------
+this stuff is easy yeah so this is
+
+---------00:35----------
+intermittently turning on and off aka
+
+---------00:37----------
+random random still drawing 30 and 90
+
+---------00:46----------
+milliamps in a loop it's going to take
+
+---------00:48----------
+our multimeter and go through our power
+
+---------00:50----------
+rails and see what we get let's check
+
+---------00:51----------
+our PP bus and see if it's g3 hot
+
+---------00:55----------
+P P bus is twelve point six volts next
+
+---------00:59----------
+up we're gonna check PP 5 es 5 check PP
+
+---------01:02----------
+5 es 5 PP 5 es 5 is ou 5 to 5 volts 5 4
+
+---------01:16----------
+volts 2 volts 1 volt three bones 5 volts
+
+---------01:19----------
+3 volts 2 volts 1 volt 5 volts
+
+---------01:25----------
+interesting so we're gonna open up a
+
+---------01:28----------
+board view here for an 8 to 0 a 30 for
+
+---------01:30----------
+76 math book so this is looping which is
+
+---------01:33----------
+nice because it sucks when a power rail
+
+---------01:35----------
+just missing and there's nothing there's
+
+---------01:36----------
+no activity so this trip is responsible
+
+---------01:38----------
+for 3 rails so if one rail is not
+
+---------01:39----------
+working then all three of them are gonna
+
+---------01:42----------
+boot loop if one of them is shorted to
+
+---------01:43----------
+ground and typically the other two are
+
+---------01:44----------
+also gonna be messed up because they all
+
+---------01:46----------
+share one common chip which is gonna be
+
+---------01:48----------
+creating them all so I'm gonna check and
+
+---------01:49----------
+see if there's a short to ground than
+
+---------01:51----------
+any of the other rails and chip is
+
+---------01:52----------
+responsible for creating maybe 5 es 5 is
+
+---------01:56----------
+not shorted to ground
+
+---------02:00----------
+maybe five es four is not shorted to
+
+---------02:02----------
+ground p3 v3 s5 is so none of these are
+
+---------02:08----------
+actually sure it's a girl babe oh you
+
+---------02:12----------
+gotta check the rails upstream so we got
+
+---------02:14----------
+to check all the upstream arounds here
+
+---------02:16----------
+so we're gonna check PP 5 es 3 B 5 ESO
+
+---------02:19----------
+people 3 b3 yes so let's see if any of
+
+---------02:23----------
+them are missing yeah let's see where
+
+---------02:25----------
+they are
+
+---------02:28----------
+- b5 ESO is not short it's brown all
+
+---------02:38----------
+right here we go
+
+---------02:39----------
+so I believe I have found our short so I
+
+---------02:43----------
+went down the list of rails that are
+
+---------02:44----------
+related to the chip that's power cycling
+
+---------02:46----------
+so PP 5vs5 is power cycling that chip is
+
+---------02:48----------
+the chip to make 55 es 5 p b3 b3 s 5 +
+
+---------02:52----------
+55 es for now so I went number those
+
+---------02:55----------
+rails are shorted to ground so then we
+
+---------02:56----------
+start looking at the rails that are then
+
+---------02:58----------
+created as sub routes of that which is
+
+---------02:59----------
+gonna be P P 3 P 3 s 3 p p3 creosote or
+
+---------03:01----------
+PP 5 es o and P P 3 B 3 S 4 is the one
+
+---------03:04----------
+that seems to be short-circuited here
+
+---------03:06----------
+now I'm gonna guess that the short could
+
+---------03:07----------
+be this capacitor over here but maybe
+
+---------03:10----------
+not because hmm even though there was a
+
+---------03:12----------
+solder ball next to that that's not
+
+---------03:13----------
+something they found that pp 3 P 3 S 4
+
+---------03:14----------
+line that's for rail so let's see what
+
+---------03:17----------
+else on that line that looks nasty this
+
+---------03:20----------
+does not look nasty this does not look
+
+---------03:24----------
+nasty
+
+---------03:29----------
+this does not look nice oh yeah so this
+
+---------03:32----------
+is where people through p3s forest so I
+
+---------03:34----------
+can't find the short easily so I'm going
+
+---------03:35----------
+to inject some voltage into that short
+
+---------03:37----------
+and see if I can burn it up okay so now
+
+---------03:40----------
+we are going to inject some voltage into
+
+---------03:42----------
+this board this is my favorite time of
+
+---------03:43----------
+the day because you get to blow [ __ ] up
+
+---------03:46----------
+blowing stuff up is that the most fun
+
+---------03:48----------
+part of this job I love blowing stuff up
+
+---------03:51----------
+I hope I never have I'm at a point where
+
+---------03:54----------
+I'm not allowed to blow things up
+
+---------03:55----------
+anymore yeah but Chris long yes the
+
+---------04:00----------
+connector is still in decent condition
+
+---------04:01----------
+yeah all right awesome yeah that's fine
+
+---------04:06----------
+hey guy would you pay for I imagine it's
+
+---------04:08----------
+good connector Chris long you got a
+
+---------04:10----------
+connector coming your way it's it we
+
+---------04:12----------
+actually KaiKai didn't have time to
+
+---------04:14----------
+desolder so I just clipped off the piece
+
+---------04:15----------
+of the board with the connector
+
+---------04:23----------
+California is a shitty state that's why
+
+---------04:26----------
+everybody in California is moving to
+
+---------04:28----------
+Texas have you ever seen those bumper
+
+---------04:31----------
+stickers they have in Texas that says
+
+---------04:33----------
+Texas is not California in all caps I
+
+---------04:35----------
+love it everything causes cancer in
+
+---------04:38----------
+California I think just living in
+
+---------04:40----------
+California causes cancer by virtue of
+
+---------04:42----------
+the people there all right so let's
+
+---------04:49----------
+inject some voltage let's burn this
+
+---------04:51----------
+board up
+
+---------04:57----------
+where is my short
+
+---------05:12----------
+I'm misusing alcohol to find shorts this
+
+---------05:14----------
+these were the days all right so it's
+
+---------05:17----------
+somewhere in this area that our shortest
+
+---------05:19----------
+so let's figure this up yeah yep that
+
+---------05:26----------
+little capacitor it's a tube at 2.5
+
+---------05:29----------
+volts it's using 6.3 m/s that's insane
+
+---------05:33----------
+now we're gonna remove that capacitor
+
+---------05:36----------
+and make this Mac look great again by
+
+---------05:41----------
+the way everybody say good night to
+
+---------05:42----------
+Kevin he did an amazing job today this
+
+---------05:44----------
+customer after customer after customer
+
+---------05:45----------
+and he kicked ass and troll calls and
+
+---------05:48----------
+troll calls and half of them patrol
+
+---------05:50----------
+calls with probably all you [ __ ] Kevin
+
+---------05:52----------
+take a bow for you excellent performance
+
+---------05:53----------
+today that's stylish
+
+---------06:06----------
+you
+
+---------06:14----------
+all right now we're just gonna make sure
+
+---------06:16----------
+that our short circuit is completely
+
+---------06:18----------
+gone and also see what that capacitor
+
+---------06:22----------
+campus sitter actually was for so it
+
+---------06:24----------
+looks like that capacitor or something
+
+---------06:26----------
+to do with the Thunderbolt circuit this
+
+---------06:28----------
+is gonna go to you 2800 you 2800 is our
+
+---------06:32----------
+Thunderbolt controller right over here
+
+---------06:34----------
+one of the reasons that I like scraping
+
+---------06:36----------
+thunderbolt off of the board like a
+
+---------06:37----------
+broken appendix exploding appendix by
+
+---------06:46----------
+the way everybody today is one of the
+
+---------06:48----------
+lead reassembly testing screen repair
+
+---------06:50----------
+technicians is birthday everybody wish
+
+---------06:52----------
+to gear a happy birthday
+
+---------07:12----------
+this is a MacBook this is a macbook
+
+---------07:15----------
+charger this is a macbook fan and this
+
+---------07:22----------
+is a macbook fan spinning yeah oh yeah
+
+---------07:27----------
+short detection without a thermal cam
+
+---------07:29----------
+using nothing but alcohol you can get
+
+---------07:31----------
+any local drugstore without having to
+
+---------07:33----------
+spend $900 so that's it and we fixed the
+
+---------07:38----------
+board I'm sure everything else in this
+
+---------07:40----------
+board is gonna work just fine we've done
+
+---------07:41----------
+a quality control fully tested just
+
+---------07:43----------
+ignore those little sparks that you
+
+---------07:44----------
+heard right there I'm sure everything's
+
+---------07:45----------
+gonna be just fine on this MacBook so
+
+---------07:48----------
+that's it for today and as always I hope
+
+---------07:49----------
+you learned something
+
+---------07:50----------
+my heart'll model goes bbl bbl BBB BBB
+
+---------07:54----------
+BBB L bbl bbl bbl bbl
+
+---------07:59----------
+bb-bb-bb-bb-bb-bb-bb
+
+---------08:02----------
+my rattle man goes rattle Rothen SWA SWA
+
+---------08:05----------
+rotten rotten swathmore rotten rotten
+
+---------08:08----------
+SWA SWA rattle rattle SWA SWA
+
+---------08:12----------
+my WTF car goes WTF WTF oh my god oh my
+
+---------08:17----------
+god WTF WTF WTF oh my god oh my god WTF
+
+---------08:22----------
+oh my god oh my god oh my god what the
+
+---------08:25----------
+[ __ ]
+
+---------08:28----------
+my heart'll model goes bbl bbl BBB BBB
+
+---------08:31----------
+BBB l pblpblpblpbl bb-bb-bb-bb-bb-bb-bb
+
+---------08:37----------
+do
+
+---------08:39----------
+my rattle man goes rattle rattle SWA SWA
+
+---------08:42----------
+rotten rotten swathmore rotten rotten
+
+---------08:45----------
+SWA SWA rattle rattle SWA SWA
+
+---------08:50----------
+my WTF car goes WTF WTF oh my god oh my
+
+---------08:54----------
+god WTF WTF WTF oh my god oh my god WTF
+
+---------08:59----------
+oh my god oh my god oh my god what the
+
+---------09:02----------
+[ __ ]
+
+---------09:05----------
+my local model goes bbl bbl BBB BBB BBB
+
+---------09:09----------
+L pblpblpblpbl BBB BBB BBB BBB BBB
+
+---------09:16----------
+my rattle man goes rotten Rothen SWA SWA
+
+---------09:19----------
+rotten rotten suave suave rotten rotten
+
+---------09:22----------
+SWA SWA rotten rotten SWA SWA
+
+---------09:27----------
+my WTF car goes WTF WTF oh my god oh my
+
+---------09:31----------
+god WTF WTF WTF oh my god oh my god WTF
+
+---------09:36----------
+oh my god oh my god oh my god what the
+
+---------09:39----------
+[ __ ]
+
+---------09:47----------
+you
+

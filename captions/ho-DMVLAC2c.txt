@@ -1,0 +1,1102 @@
+https://www.youtube.com/watch?v=ho-DMVLAC2c
+---------00:04----------
+here we have a macbook air
+
+---------00:05----------
+that has liquid damage that's not
+
+---------00:06----------
+powering on let's figure out what's
+
+---------00:08----------
+wrong with this macbook
+
+---------00:09----------
+and where the liquid got to that's
+
+---------00:11----------
+causing it to not power on and work
+
+---------00:12----------
+properly
+
+---------00:13----------
+first thing we're going to do is we're
+
+---------00:14----------
+going to take the screws out of the
+
+---------00:15----------
+bottom of the case memory
+
+---------00:18----------
+all alone in the moonlight
+
+---------00:21----------
+i can dream of the old days
+
+---------00:24----------
+i was beautiful then
+
+---------00:27----------
+i remember the time i knew what
+
+---------00:31----------
+happiness was
+
+---------00:34----------
+let the memory live again
+
+---------00:41----------
+every street lamp seems to
+
+---------00:44----------
+beat a fatalistic
+
+---------00:47----------
+warning someone mutters and the street
+
+---------00:52----------
+lamp gutters
+
+---------00:54----------
+and soon it will be morning
+
+---------00:59----------
+daylight i must wait for the sunrise
+
+---------01:04----------
+i must think of a new life and i mustn't
+
+---------01:07----------
+give in
+
+---------01:09----------
+when the dawn comes tonight will be
+
+---------01:13----------
+a memory too and a new
+
+---------01:16----------
+day will begin
+
+---------01:28----------
+[Music]
+
+---------01:31----------
+burned out ends of smokey days
+
+---------01:36----------
+the stale cold smell of morning
+
+---------01:40----------
+a street lamb dies another night
+
+---------01:44----------
+is over another
+
+---------01:47----------
+day is dawning
+
+---------01:50----------
+touch me it's so easy to leave
+
+---------01:54----------
+me all alone with the memory
+
+---------01:57----------
+of my days in the sun if you touch
+
+---------02:00----------
+me you'll understand what happiness is
+
+---------02:04----------
+look a new day has begun
+
+---------02:13----------
+my favorite version of that is the one
+
+---------02:14----------
+with vl castellan
+
+---------02:16----------
+i had such a crush on veal casterlynn
+
+---------02:19----------
+she'll probably never find my youtube
+
+---------02:21----------
+channel or have a clue who i am
+
+---------02:24----------
+but damn vl castelin
+
+---------02:28----------
+what an amazing voice just one of those
+
+---------02:30----------
+angelic voices
+
+---------02:31----------
+people would pay 1 000 tickets to watch
+
+---------02:33----------
+lewis on stage fixing macbooks
+
+---------02:36----------
+are you serious i sincerely doubt this i
+
+---------02:38----------
+would like to have
+
+---------02:40----------
+yeah i think high high with ross khan i
+
+---------02:42----------
+think that could be a good idea it's
+
+---------02:43----------
+just i'd have to find somebody to
+
+---------02:45----------
+help me administer roscon and set it up
+
+---------02:48----------
+that's not such um
+
+---------02:49----------
+how do i put this uh a [ __ ] trader
+
+---------02:53----------
+for that i'm totally clipping that and
+
+---------02:54----------
+giving the footage to her i wager she'll
+
+---------02:55----------
+be flattered
+
+---------02:56----------
+i sincerely doubt it i get a light on
+
+---------02:58----------
+the charger
+
+---------03:00----------
+and this is almost trying to turn on
+
+---------03:02----------
+it's using 40 milliamps and spiking to
+
+---------03:04----------
+160.
+
+---------03:05----------
+so let's look over this board because
+
+---------03:06----------
+this is a quite the
+
+---------03:08----------
+this board is quite something
+
+---------03:16----------
+can you imagine if vl castellan actually
+
+---------03:19----------
+showed up to sing at roscon
+
+---------03:21----------
+oh man i could die happy right there
+
+---------03:25----------
+or rachel tucker oh if i could get
+
+---------03:28----------
+rachel tucker to sing there
+
+---------03:30----------
+the best absolute best
+
+---------03:34----------
+or ruby lewis but that no
+
+---------03:38----------
+what are the chances of getting ruby
+
+---------03:39----------
+lewis to show up to roscon 2020
+
+---------03:41----------
+[Music]
+
+---------03:44----------
+from cirque du soleil am i aiming a
+
+---------03:46----------
+little too high
+
+---------03:47----------
+am i aiming a little too high to have
+
+---------03:48----------
+cirque du soleil singers showing up at
+
+---------03:51----------
+my conference
+
+---------03:52----------
+probably first thing we do here
+
+---------03:59----------
+what is this connector called
+
+---------04:02----------
+yeah it's dead that's what you are all
+
+---------04:04----------
+right now see how there's a pin missing
+
+---------04:05----------
+over here
+
+---------04:06----------
+see that pin that's burned
+
+---------04:10----------
+now granted this connector doesn't
+
+---------04:11----------
+matter for anything it's a jtag
+
+---------04:12----------
+connector it's used for diagnostics
+
+---------04:14----------
+but what i care about is that that pin
+
+---------04:17----------
+being burned is going to tell me
+
+---------04:19----------
+where there was any sort of electrical
+
+---------04:21----------
+or circuit overload
+
+---------04:22----------
+that's what i'm interested in so i'm
+
+---------04:24----------
+going to open up the schematic in the
+
+---------04:25----------
+boardview for the 820164
+
+---------04:28----------
+and check that out pp3v42 okay so pp3v42
+
+---------04:31----------
+had some sort of nonsense on it
+
+---------04:33----------
+so everything on that line i'm going to
+
+---------04:35----------
+expect has been a little bit jumpy
+
+---------04:37----------
+and that's likely because liquid got on
+
+---------04:39----------
+my regulator which means that the 16
+
+---------04:40----------
+volts coming into there
+
+---------04:42----------
+was likely sent to everything on that
+
+---------04:44----------
+line great
+
+---------04:45----------
+that's that's just great that's going to
+
+---------04:46----------
+make me very happy now
+
+---------04:48----------
+it is still putting out pp342 do keep in
+
+---------04:50----------
+mind that we did get a green light in
+
+---------04:52----------
+the charger we wouldn't be getting a
+
+---------04:53----------
+green light in the charger like we did
+
+---------04:54----------
+in the beginning if the one wire circle
+
+---------04:55----------
+wasn't working the one wire circuit
+
+---------04:56----------
+is going to require 5342 to be present
+
+---------04:58----------
+so that the
+
+---------04:59----------
+two logic gates as well as the smc can
+
+---------05:02----------
+be powered which they're not powered
+
+---------05:03----------
+pp342 is missing
+
+---------05:05----------
+yes chances of ruby lewis showing up at
+
+---------05:07----------
+roscon
+
+---------05:09----------
+negative 50. i'm not i wouldn't even put
+
+---------05:11----------
+one percent on that i would put a
+
+---------05:13----------
+negative percent on that
+
+---------05:16----------
+she would say no to that before she even
+
+---------05:18----------
+knew it existed what if she showed up
+
+---------05:19----------
+and sang a song about wanting an iphone
+
+---------05:21----------
+4 where is my iphone 4
+
+---------05:23----------
+i want an iphone 4. get the [ __ ] out of
+
+---------05:26----------
+my store
+
+---------05:27----------
+we are closed it's you
+
+---------05:31----------
+you're so amazing
+
+---------05:35----------
+that's the other thing is that the
+
+---------05:36----------
+million subscriber thing is not going to
+
+---------05:38----------
+happen anytime soon uh youtube algorithm
+
+---------05:40----------
+started doing that thing where it takes
+
+---------05:42----------
+me out of people's speed
+
+---------05:44----------
+as you know something's going wrong what
+
+---------05:46----------
+the f
+
+---------05:47----------
+fizzly [ __ ] is that
+
+---------05:52----------
+holy moly what did you
+
+---------05:55----------
+do dumb dumb
+
+---------06:04----------
+i wonder if this is why i'm boot looping
+
+---------06:10----------
+oh cd 3211 that's so cute
+
+---------06:13----------
+that's before they use cd3215s
+
+---------06:18----------
+thunderbolt moxing chips from yesteryear
+
+---------06:22----------
+adorable it's adorable
+
+---------06:28----------
+someone says gotta push those mainstream
+
+---------06:30----------
+media channels on youtube yeah
+
+---------06:33----------
+because i've noticed recently i you know
+
+---------06:34----------
+i noticed that my view count
+
+---------06:36----------
+uh had went down considerably but it
+
+---------06:39----------
+also happened at the exact
+
+---------06:40----------
+which i don't care you know my my
+
+---------06:41----------
+viewpoint my view count is going to go
+
+---------06:43----------
+down because my content is [ __ ]
+
+---------06:44----------
+boring
+
+---------06:45----------
+but what i noticed is that the view
+
+---------06:47----------
+count was going down at the exact same
+
+---------06:49----------
+time that a bunch of people were saying
+
+---------06:51----------
+hey louis i just noticed that i'm not
+
+---------06:53----------
+getting notifications when you release a
+
+---------06:54----------
+new video anymore hey louis you're not
+
+---------06:56----------
+showing up in my subscriber feed
+
+---------06:58----------
+like expect me to put time and effort
+
+---------06:59----------
+into this effing platform i damn near
+
+---------07:02----------
+rather learn to code
+
+---------07:08----------
+i damn near rather learn to code so
+
+---------07:11----------
+let's see what's going on around here we
+
+---------07:12----------
+have these
+
+---------07:13----------
+bios traces that are uh
+
+---------07:17----------
+so these are traces between the spi rom
+
+---------07:19----------
+and the cpu and there's going to be
+
+---------07:20----------
+resistors in between
+
+---------07:22----------
+just want to make sure that none of
+
+---------07:24----------
+these
+
+---------07:25----------
+are missing there's a lot of dirt over
+
+---------07:28----------
+here so you got to scrape through a lot
+
+---------07:30----------
+of junk to see if those resistors are
+
+---------07:31----------
+any good
+
+---------07:32----------
+also got some corrosion over here and
+
+---------07:34----------
+the resistors underneath the cpu
+
+---------07:45----------
+memory alone in the moonlight
+
+---------07:56----------
+memory
+
+---------07:59----------
+i think i'm tired of this board
+
+---------08:02----------
+it looks like a piece of [ __ ]
+
+---------08:13----------
+burned out ends of smokey
+
+---------08:17----------
+cpus the stale cold smell
+
+---------08:22----------
+of failing pm sleep
+
+---------08:25----------
+s4 l dies another repair
+
+---------08:29----------
+is over another
+
+---------08:32----------
+touch bar is darning
+
+---------08:44----------
+pp5 es4 is missing pp5 es5 is present
+
+---------08:47----------
+same old [ __ ] so it's going to be our
+
+---------08:50----------
+bios traces most effectively because
+
+---------08:51----------
+that's going to keep pm sleep s4
+
+---------08:53----------
+functioning and look at these resistors
+
+---------08:55----------
+like what what the hell is this these
+
+---------08:56----------
+are all called
+
+---------08:57----------
+junk so let's see if any let's see which
+
+---------08:59----------
+one of these doesn't resist anymore
+
+---------09:03----------
+15 ohms you resist
+
+---------09:09----------
+this resistor hashtag resists
+
+---------09:15----------
+this resistor hashtag resists
+
+---------09:18----------
+this resistor hashtag resists
+
+---------09:24----------
+this resistor hashtag resists
+
+---------09:28----------
+this resistor resists
+
+---------09:32----------
+this resistor resists
+
+---------09:35----------
+this resistor hashtag resists know what
+
+---------09:38----------
+i think now's a great time to head home
+
+---------09:41----------
+eat some apples and cinnamon oatmeal
+
+---------09:43----------
+play with my cat
+
+---------09:45----------
+be done with this [ __ ]
+
+---------09:50----------
+sorry folks it's time for me to rage
+
+---------09:52----------
+quit it's been fun having you here
+
+---------09:55----------
+i'll see y'all in the next video thank
+
+---------09:57----------
+you very much for watching and as always
+
+---------09:59----------
+i hope you learned something
+
+---------10:02----------
+have you bought our green uv curable
+
+---------10:04----------
+solder mask
+
+---------10:06----------
+but you're not sure how to cure it well
+
+---------10:08----------
+don't delay
+
+---------10:09----------
+today you can buy our magical uv curing
+
+---------10:12----------
+pen
+
+---------10:13----------
+this uv curing pen allows you to cure
+
+---------10:16----------
+any sort of uv solder mask or conformal
+
+---------10:19----------
+coating
+
+---------10:20----------
+by simply pressing a button this pen
+
+---------10:23----------
+batteries not included
+
+---------10:24----------
+is sold on store.rostmangroup.com for
+
+---------10:27----------
+the low low price
+
+---------10:28----------
+of seven dollars and 96 cents you can
+
+---------10:31----------
+simply go to the home page
+
+---------10:32----------
+scroll down click on this 405 nanometer
+
+---------10:35----------
+laser pointer
+
+---------10:36----------
+and this little laser pointer will
+
+---------10:38----------
+happily cure all of your uv paste these
+
+---------10:40----------
+items
+
+---------10:40----------
+will be shipped by mikey say hello mikey
+
+---------10:45----------
+that's mikey my goal is by the end of
+
+---------10:47----------
+the year that every item that i link
+
+---------10:49----------
+below that we actually sell it rather
+
+---------10:51----------
+than affiliate link to it on amazon
+
+---------10:53----------
+because i'd rather be paying people like
+
+---------10:55----------
+mikey than paying people like jeff bezos
+
+---------10:57----------
+every time you buy one of these pens you
+
+---------10:59----------
+support people like mikey me
+
+---------11:01----------
+and unfortunately kevin but that's fun
+
+---------11:03----------
+of the cost of doing business
+
+---------11:04----------
+unfortunately
+
+---------11:05----------
+so check out store.rosmangroup.com to
+
+---------11:07----------
+get one of these nice little uv pen
+
+---------11:09----------
+let's go to work
+
+---------11:10----------
+so we're gonna continue with that
+
+---------11:12----------
+macbook air that we were working on
+
+---------11:14----------
+yesterday this is the macbook air that
+
+---------11:16----------
+was not turning on it was giving us 20
+
+---------11:17----------
+to 40 milliamps uh boot looping
+
+---------11:19----------
+most likely due to some damage in the
+
+---------11:21----------
+spi rom area so the first resistor that
+
+---------11:24----------
+i'd like to remove
+
+---------11:25----------
+is going to be this one in the upper
+
+---------11:26----------
+right corner here
+
+---------11:37----------
+[Music]
+
+---------11:44----------
+okay i took all those resistors off and
+
+---------11:46----------
+it was only one of them that i actually
+
+---------11:47----------
+needed to take off
+
+---------11:48----------
+and as as usual here's the fun part is
+
+---------11:51----------
+that the resistor that i took off
+
+---------11:53----------
+that needed to be taken off was the last
+
+---------11:55----------
+one you see how that worked
+
+---------11:58----------
+i took every single one
+
+---------12:13----------
+so that was the only one that actually
+
+---------12:15----------
+needed to be taken off that's some good
+
+---------12:17----------
+luck right there
+
+---------12:24----------
+she knows that um
+
+---------12:45----------
+[Music]
+
+---------12:47----------
+okay that's one resistor it was a bios
+
+---------12:50----------
+issue
+
+---------12:50----------
+and what's interesting is that last
+
+---------12:52----------
+night we actually measured every single
+
+---------12:54----------
+one of those resistors and they were
+
+---------12:55----------
+fine
+
+---------12:56----------
+but the thing is while the resistor is
+
+---------12:58----------
+still on the board you can't see the pad
+
+---------12:59----------
+under it and this is one of those
+
+---------13:00----------
+reasons when people say why don't you
+
+---------13:02----------
+just measure everything
+
+---------13:03----------
+that measuring everything doesn't matter
+
+---------13:06----------
+because you're not going to see
+
+---------13:07----------
+every single part that is important to
+
+---------13:10----------
+be seen
+
+---------13:11----------
+we're working on that
+
+---------13:52----------
+10 16
+
+---------14:02----------
+all right
+
+---------14:22----------
+i thought he was going to punch you in
+
+---------14:23----------
+the face
+
+---------14:26----------
+he walks in which one of you is kevin
+
+---------14:45----------
+let's see if we uh get a fan spin now we
+
+---------14:47----------
+would be pretty happy if after all this
+
+---------14:49----------
+we get a fan screen well no why
+
+---------14:51----------
+so when i hit the web browser yeah
+
+---------15:01----------
+[Music]
+
+---------15:07----------
+damn it still 40 milliamps
+
+---------15:13----------
+how the hell
+
+---------15:16----------
+still 40 milliamps gur
+
+---------15:21----------
+and we fixed the one with the messed up
+
+---------15:22----------
+pad did i miss a resistor perhaps i
+
+---------15:24----------
+missed a resistor
+
+---------15:26----------
+looks like i did all of them here we
+
+---------15:29----------
+have ultrasonic to that airboard that
+
+---------15:30----------
+was driving us
+
+---------15:31----------
+nuts and i'm going to give it a second
+
+---------15:34----------
+look
+
+---------15:35----------
+what would you like for lunch escargot
+
+---------15:36----------
+filet mignon
+
+---------15:38----------
+um is that oreos over there
+
+---------15:41----------
+oh is that the back panel to it what
+
+---------15:43----------
+would you like for lunch cargo
+
+---------15:45----------
+filet mignon get whatever you want the
+
+---------15:47----------
+highest tastes for the rest
+
+---------15:49----------
+for the rest of the month that question
+
+---------15:51----------
+right there that's your way today's last
+
+---------15:52----------
+day okay the next two weeks
+
+---------15:54----------
+get the nice get whatever you want okay
+
+---------15:56----------
+now the fan spins
+
+---------15:58----------
+look at that so all it needed was an
+
+---------16:00----------
+ultrasonic after all that work and i'll
+
+---------16:02----------
+let you look over and see what the board
+
+---------16:03----------
+looks like you saw what it looked like
+
+---------16:05----------
+in the beginning
+
+---------16:05----------
+and now you can see what it looks like
+
+---------16:07----------
+in the end after going through a trip
+
+---------16:08----------
+from
+
+---------16:09----------
+that send your macbook.com
+
+---------16:12----------
+don't delay send your macbook to
+
+---------16:15----------
+sendyourmacbook.com
+
+---------16:16----------
+today well folks
+
+---------16:21----------
+you can barely even recognize it
+
+---------16:27----------
+beautiful beautiful fan spin and look at
+
+---------16:30----------
+that
+
+---------16:31----------
+this board has no more jtag connector
+
+---------16:35----------
+lovely so that's it for this one and as
+
+---------16:38----------
+always i hope you learned something
+
+---------16:55----------
+do you have a macbook that needs to be
+
+---------16:56----------
+fixed come by our store
+
+---------16:58----------
+which is open to the public at 186 first
+
+---------17:00----------
+avenue in manhattan
+
+---------17:01----------
+are you located outside in new york no
+
+---------17:03----------
+problem send us a machine from anywhere
+
+---------17:05----------
+in the world
+
+---------17:06----------
+by going to our website and clicking on
+
+---------17:08----------
+the mailbox or simply heading over to
+
+---------17:11----------
+sendyourmacbook.com
+
+---------17:12----------
+that's sendyourmacbook.com will you be
+
+---------17:15----------
+redirected
+
+---------17:15----------
+to our mail in instructions page that
+
+---------17:18----------
+includes the form
+
+---------17:19----------
+and the directions on how to send us a
+
+---------17:21----------
+macbook for repair
+
+---------17:22----------
+we have a live chat where you can speak
+
+---------17:24----------
+with us about the repair that you need
+
+---------17:26----------
+a phone number where a representative
+
+---------17:28----------
+will pick up during our open hours
+
+---------17:30----------
+and a contact form where you can contact
+
+---------17:32----------
+us about repairs
+

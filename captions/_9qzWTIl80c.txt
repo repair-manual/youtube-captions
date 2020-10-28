@@ -1,0 +1,451 @@
+https://www.youtube.com/watch?v=_9qzWTIl80c
+---------00:00----------
+here we have an a 1708 that is liquid
+
+---------00:02----------
+damage it's not powering on let's take a
+
+---------00:05----------
+look at why this is not powering on we
+
+---------00:06----------
+can open the ends this machine and see
+
+---------00:08----------
+what's on the inside all right first
+
+---------00:10----------
+thing that I like to do here is I'm
+
+---------00:12----------
+going to unplug the battery because I
+
+---------00:15----------
+want to see how much amperage this is
+
+---------00:17----------
+using without having a battery plugged
+
+---------00:19----------
+in I want to see just what the logic
+
+---------00:21----------
+board itself is using not the battery
+
+---------00:25----------
+okay 5 volts 40 milliamps it doesn't
+
+---------00:30----------
+look like this is going to twenty volts
+
+---------00:31----------
+this is stuck at 5 volts 40 milliamps
+
+---------00:35----------
+okay so let's get the board out of the
+
+---------00:37----------
+case so we can check if we have 53 V 3
+
+---------00:42----------
+underscore g3 huh remember DP 3 V 3
+
+---------00:44----------
+undersquare g3 hot as the rail that's
+
+---------00:46----------
+going to allow the USBC controllers to
+
+---------00:48----------
+talk to the charger to request 20 volts
+
+---------00:50----------
+rather than 5 volts so the cd32 15 of
+
+---------00:53----------
+the chips that are going to communicate
+
+---------00:54----------
+with the USBC charger to allow the USBC
+
+---------00:56----------
+charger to put out 20 volt instead of 5
+
+---------00:59----------
+volts this chip is powered by pp3 v3
+
+---------01:01----------
+underscore g3 hot which is the very very
+
+---------01:03----------
+clean circuit over here so I'm gonna
+
+---------01:04----------
+guess the issue is not that pp3 v3
+
+---------01:06----------
+underscore g3 how does not present the
+
+---------01:07----------
+Rev that these CD 32 15s are not working
+
+---------01:09----------
+the way that they're supposed to so the
+
+---------01:11----------
+first thing I'm gonna do is I'm gonna
+
+---------01:11----------
+try to undo some of that corrosion here
+
+---------01:13----------
+by using some flux that you can buy it
+
+---------01:15----------
+stored on rossmann group comm and the
+
+---------01:16----------
+quick 861 DW hot air rework station
+
+---------01:18----------
+which you could also buy it stored on
+
+---------01:19----------
+rossmann group comm to reflow these
+
+---------01:21----------
+chips I'm just gonna use a tiny bit of
+
+---------01:23----------
+flux just a now you know not too much
+
+---------01:24----------
+just an appropriate amount to reflow
+
+---------01:26----------
+these chips and then we will go from
+
+---------01:28----------
+there so you don't want to use too much
+
+---------01:29----------
+you want to use just a proper amount of
+
+---------01:31----------
+flux and then you'll be all set and
+
+---------01:33----------
+ready to go so as you can see there
+
+---------01:34----------
+we've put the right amount of flux on
+
+---------01:35----------
+the board and now we are going to reflow
+
+---------01:38----------
+those chips and it should work very very
+
+---------01:39----------
+nicely
+
+---------02:50----------
+five four three two one three one but a
+
+---------03:04----------
+bing bada boom now we just wait for it
+
+---------03:09----------
+to cool off
+
+---------03:09----------
+also notice that our reflow to chips at
+
+---------03:12----------
+one time so as my dream is to reflow two
+
+---------03:15----------
+chips at the same time two chips one
+
+---------03:18----------
+flux syringe and one nozzle now it looks
+
+---------03:20----------
+like we also got some more corrosion
+
+---------03:22----------
+around here and some other spots that is
+
+---------03:25----------
+LED driver area yuck
+
+---------03:27----------
+TPS 5:09 zero yuck and that's an LED
+
+---------03:30----------
+driver that I think just has to be
+
+---------03:32----------
+replaced
+
+---------03:35----------
+even if that's reusable it's it's too
+
+---------03:38----------
+nasty
+
+---------03:52----------
+Wow those resistors really wanted to run
+
+---------03:54----------
+away look at them they all stood up
+
+---------04:01----------
+that was something else I've never had
+
+---------04:03----------
+three resistors at once fly away or
+
+---------04:06----------
+stand up when I was doing a qfn package
+
+---------04:08----------
+that was interesting
+
+---------04:10----------
+did you see that if you're a wine by
+
+---------04:12----------
+like 10 seconds those three resistors
+
+---------04:13----------
+all went well they did something that
+
+---------04:16----------
+I'm not going to say on camera because I
+
+---------04:17----------
+don't want to end up like count dank
+
+---------04:18----------
+EULA but they did something that would
+
+---------04:21----------
+have gotten that count that got count
+
+---------04:24----------
+dank you'll have put in those resistors
+
+---------04:25----------
+did something that got count angular
+
+---------04:27----------
+sent to court and maybe prison I don't
+
+---------04:29----------
+want to be sent to prison if I ever one
+
+---------04:31----------
+day decide that I will want to visit
+
+---------04:32----------
+Europe so I will leave that to myself
+
+---------06:05----------
+I haven't burned myself in a long time
+
+---------06:07----------
+pickle
+
+---------07:12----------
+[Music]
+
+---------07:22----------
+[Music]
+
+---------07:51----------
+oh boy I almost forgot I was here okay
+
+---------07:55----------
+so let's see if we get a question my
+
+---------07:57----------
+folder on this MacBook or a backlight or
+
+---------07:59----------
+a picture
+
+---------08:18----------
+45 volts well that's a backlight give me
+
+---------08:22----------
+a nice little question mark hey question
+
+---------08:27----------
+mark folders so this MacBook was not
+
+---------08:29----------
+turning on we had 5 volts in the charger
+
+---------08:33----------
+instead of 20 volts via the reflow of
+
+---------08:34----------
+the cd32 15 s we had a little bit of
+
+---------08:37----------
+corrosion by the backlight circuit we
+
+---------08:38----------
+cleaned it up replace the chip set and
+
+---------08:39----------
+also cleaned off a little bit more of
+
+---------08:41----------
+the corrosion by the TPS 5.99 zero chip
+
+---------08:43----------
+so remember if you're not getting 20
+
+---------08:45----------
+volts in the charger is PP 3v3
+
+---------08:47----------
+underscore g3 hot there do your CD 32 15
+
+---------08:49----------
+MUX chips that allow the charger to
+
+---------08:51----------
+communicate with the board and and put
+
+---------08:55----------
+out 20 volts good if not figure it out
+
+---------08:58----------
+and if your CD 32 15 s are bad look no
+
+---------09:00----------
+further than store tout Rossmann group
+
+---------09:02----------
+comm on store dot Rossmann greet comm
+
+---------09:04----------
+you can purchase CD 32 15 s and more we
+
+---------09:08----------
+even have the c00 version the version
+
+---------09:10----------
+that actually works don't delay get your
+
+---------09:13----------
+chips at store down trosman group calm
+
+---------09:15----------
+today that's stored up rossmann
+
+---------09:18----------
+group.com that's stored on trosman
+
+---------09:21----------
+group.com store dot Rosman group.com
+
+---------09:27----------
+have I mentioned that it's store dot
+
+---------09:29----------
+rossmann group comm stored out rossmann
+
+---------09:32----------
+roof store dot Rosman group.com look at
+
+---------09:37----------
+that ship look at that beautiful chip
+
+---------09:39----------
+with its beautiful balls and it's
+
+---------09:41----------
+available and it's in stock with
+
+---------09:43----------
+same-day shipping from new york city
+
+---------09:45----------
+free shipping on any order in the
+
+---------09:47----------
+continental United States over $30
+
+---------09:52----------
+beautiful store dot rossmann group.com
+
+---------09:57----------
+alright with that we'll move on to the
+
+---------09:59----------
+next board and as always I hope you
+
+---------10:02----------
+learned something
+
+---------10:10----------
+you
+
+---------10:18----------
+do you have a Macbook that needs to be
+
+---------10:19----------
+fixed come by our store which is open to
+
+---------10:22----------
+the public in 186 first Avenue in
+
+---------10:24----------
+Manhattan are you located outside of New
+
+---------10:26----------
+York no problem
+
+---------10:27----------
+send us a machine from anywhere in the
+
+---------10:29----------
+world by going to our website and
+
+---------10:31----------
+clicking on the mailbox or simply
+
+---------10:33----------
+heading over to send your macbook comm
+
+---------10:35----------
+that send your macbook comm will you be
+
+---------10:38----------
+redirected to our mail and instructions
+
+---------10:40----------
+page that includes the form and the
+
+---------10:42----------
+directions on how to send us a Macbook
+
+---------10:45----------
+for repair we have a live chat where you
+
+---------10:48----------
+can speak with us about the repair that
+
+---------10:49----------
+you need a phone number where a
+
+---------10:51----------
+representative will pick up during our
+
+---------10:52----------
+open hours and a contact form
+

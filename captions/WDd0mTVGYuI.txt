@@ -1,0 +1,760 @@
+https://www.youtube.com/watch?v=WDd0mTVGYuI
+---------00:23----------
+start streaming
+
+---------00:32----------
+all right looks like we're live so today
+
+---------00:34----------
+we're gonna be working on yet another
+
+---------00:35----------
+MacBook this is an eight to zero 3437
+
+---------00:37----------
+board inside of an a 1466 MacBook Air so
+
+---------00:40----------
+let's just take a look at what's going
+
+---------00:41----------
+on with this MacBook first thing we're
+
+---------00:43----------
+gonna do is I'm have to make sure we
+
+---------00:44----------
+have the battery unplugged again all you
+
+---------00:46----------
+always when working on these machines we
+
+---------00:48----------
+have the battery unplug the reason for
+
+---------00:50----------
+it is what I want to see how many amps
+
+---------00:52----------
+the machine is taking when I plug the
+
+---------00:53----------
+MagSafe in I only want to know how much
+
+---------00:55----------
+power the board is taking not the
+
+---------00:57----------
+variable amount of power that will be
+
+---------00:58----------
+taken by the battery depending on how
+
+---------01:00----------
+charged it is so it looks like it's
+
+---------01:01----------
+taken a good old zero amps and I do have
+
+---------01:05----------
+this thing plugged in and I am not
+
+---------01:06----------
+getting any green light on my charger as
+
+---------01:09----------
+can be seen here if I turn off a
+
+---------01:10----------
+microscope light there is no light on
+
+---------01:12----------
+the chargers we're just gonna check the
+
+---------01:14----------
+voltage at a couple of points here so
+
+---------01:16----------
+the first thing gonna do is see what my
+
+---------01:17----------
+paper three before two is and we got
+
+---------01:20----------
+three point 42 volts and my pippi bus
+
+---------01:23----------
+so my pp bus is eight point one volts
+
+---------01:25----------
+not eight point five volts now as you
+
+---------01:27----------
+know the pp bus is going to be a lower
+
+---------01:30----------
+voltage when the SMC is not turning on
+
+---------01:33----------
+and the SMC could not be turning on
+
+---------01:35----------
+because the reset signal could be stuck
+
+---------01:36----------
+down or it could be an SMC that needs to
+
+---------01:38----------
+be replaced hi Paul
+
+---------01:45----------
+smc replace Oh fine so we're just gonna
+
+---------01:50----------
+take a look around this board and try
+
+---------01:51----------
+and figure out why SMC reset is low so
+
+---------01:53----------
+there's two possible points that could
+
+---------01:55----------
+be an issue here
+
+---------01:56----------
+the first could be the chip that's told
+
+---------01:58----------
+to pull SMC reset down for the first I
+
+---------02:00----------
+would say the first quarter of a second
+
+---------02:03----------
+of the machine turns on and the next
+
+---------02:05----------
+issue could be something relating to the
+
+---------02:08----------
+the pull-up resistor that pulls that
+
+---------02:10----------
+signal up it's one or the other so let's
+
+---------02:13----------
+try and see which it is by just taking a
+
+---------02:15----------
+look at the board under the good old
+
+---------02:16----------
+microscope camera all right so we're
+
+---------02:20----------
+just gonna get this board out the case
+
+---------02:21----------
+you can take a look-see here and see
+
+---------02:24----------
+what's going on at our SMC reset circuit
+
+---------02:26----------
+so if we just take a look at the board
+
+---------02:28----------
+right by here this is the SMC reset area
+
+---------02:33----------
+now this chip this chip could
+
+---------02:37----------
+potentially be bad but it's not like the
+
+---------02:39----------
+ends of the world kind of thing it's not
+
+---------02:41----------
+the prettiest chip but again it's not
+
+---------02:43----------
+something that I'm gonna be mad at no
+
+---------02:45----------
+big deal so I think this may be fine now
+
+---------02:49----------
+we're just gonna take a look at the
+
+---------02:51----------
+board around the SMC area over
+
+---------03:00----------
+Oh
+
+---------03:15----------
+yeah
+
+---------03:20----------
+take a look at the
+
+---------03:40----------
+I'm guessing those those eggs belong to
+
+---------03:44----------
+you
+
+---------04:03----------
+Oh
+
+---------04:47----------
+[Music]
+
+---------04:58----------
+is that those eggs or is that [ __ ]
+
+---------05:04----------
+that's a leg all right so how do they
+
+---------05:10----------
+all get killed
+
+---------05:11----------
+it's the MacBook Air of the is that a
+
+---------05:17----------
+head or a piece of yeah this is where
+
+---------05:29----------
+most of the cockroach pieces are no I
+
+---------05:38----------
+imagine that's where they got in from
+
+---------06:00----------
+like that looks like a leg right there
+
+---------06:09----------
+that looks like a leg that was once I
+
+---------06:13----------
+probably a front a leg
+
+---------06:19----------
+[Music]
+
+---------06:30----------
+well this sounds like a voyage for Paul
+
+---------06:36----------
+yeah
+
+---------06:52----------
+he ran out of the store with short
+
+---------06:54----------
+sleeves while it's snowing
+
+---------07:07----------
+he ran out the door he has short sleeves
+
+---------07:10----------
+on right now while it's snowing and he's
+
+---------07:12----------
+outside I think we lost him well as I
+
+---------07:23----------
+said we are looking for a new employee
+
+---------07:25----------
+in that last video that I did so we're
+
+---------07:27----------
+looking for somebody who can do board
+
+---------07:28----------
+level rework and since I beautiful stuff
+
+---------07:31----------
+that you'll be working on if you decide
+
+---------07:32----------
+to take us up on that job offer so don't
+
+---------07:36----------
+delay email helped at Rosslyn Group comm
+
+---------07:39----------
+to apply for a job today Paul bored
+
+---------07:44----------
+bored bored
+
+---------07:53----------
+[Laughter]
+
+---------08:03----------
+your guns jammed you shot the bug off or
+
+---------08:09----------
+the board
+
+---------08:10----------
+[Laughter]
+
+---------08:12----------
+orhan move Paul I want you fix the board
+
+---------08:33----------
+Paul it's an easy one it's just one
+
+---------08:37----------
+resistor all you got to do is dig under
+
+---------08:39----------
+all of those eggs and get to and get to
+
+---------08:41----------
+SMC reset resistant it's one signal you
+
+---------08:45----------
+don't even have to view that side of the
+
+---------08:46----------
+board you can run that jumper on the
+
+---------08:47----------
+other side okay you know what fine I'm
+
+---------08:53----------
+gonna show you all how if you get a
+
+---------08:54----------
+board that's covered in eggs how you can
+
+---------08:56----------
+fix it
+
+---------08:57----------
+without having to even go to that side
+
+---------08:59----------
+of the board because the days gonna come
+
+---------09:00----------
+in your career where you're working on a
+
+---------09:02----------
+board that just so happens to be covered
+
+---------09:04----------
+in row checks because your customer base
+
+---------09:06----------
+may be filthy and disgusting like like
+
+---------09:10----------
+this one for instance so we are going to
+
+---------09:12----------
+show you how it is you can fix this
+
+---------09:14----------
+board without having to take it out of
+
+---------09:17----------
+the case without even having to turn it
+
+---------09:19----------
+around we're gonna fix this board and
+
+---------09:20----------
+get it a green light right now and I'm
+
+---------09:22----------
+gonna show you how we do it so let's
+
+---------09:24----------
+just dive in now I improved once and for
+
+---------09:29----------
+all that it's not me but Paul that
+
+---------09:32----------
+cherry picks the easy boards for himself
+
+---------09:33----------
+so I'm gonna open up a schematic for the
+
+---------09:36----------
+eight to zero they've got this rumor
+
+---------09:38----------
+going around that I picked the easy
+
+---------09:40----------
+boards for myself so check this out this
+
+---------09:42----------
+is a way that you could fix this machine
+
+---------09:43----------
+without even taking it out of the case
+
+---------09:45----------
+so our issue is that SMC reset is not
+
+---------09:49----------
+high this signal is low as a result of
+
+---------09:52----------
+the resistor being covered in a bunch of
+
+---------09:55----------
+spider brooch bed bug eggs whatever the
+
+---------09:58----------
+hell that is I'm not an animal I don't
+
+---------10:00----------
+really know I'm not good grip but check
+
+---------10:03----------
+this out we need PP 3 v 4 - and we need
+
+---------10:04----------
+SMC reset l so if we go to the other
+
+---------10:06----------
+side of the board here what you'll
+
+---------10:08----------
+notice is that we have those two signals
+
+---------10:10----------
+and they just so happen to be very close
+
+---------10:12----------
+to each other on you 5110 so we can
+
+---------10:14----------
+attach ourselves a 100 kilo ohm resistor
+
+---------10:17----------
+to
+
+---------10:17----------
+smc reset l over here and then run a
+
+---------10:20----------
+little wire from PP 3 v 4 2 which is
+
+---------10:24----------
+gonna be present right over here so
+
+---------10:26----------
+we're just gonna go from pp 3 before -
+
+---------10:29----------
+actually I'm pin 1 depend v and that
+
+---------10:33----------
+signal is gonna be pulled up by a
+
+---------10:34----------
+hundred kilo ohm resistor so all I need
+
+---------10:36----------
+now is a hundred kiloohm resistor see we
+
+---------10:38----------
+have a hundred kilo ohm resistor on 201
+
+---------10:40----------
+sighs hmm
+
+---------11:01----------
+not most difficult boards here and I
+
+---------11:05----------
+leave the easy ones for Paul and Camille
+
+---------11:07----------
+because I'm such a benevolent employer
+
+---------11:14----------
+alrighty so all we kind of do over here
+
+---------11:16----------
+is get some good old lead free I mean
+
+---------11:22----------
+let it solder going over all these
+
+---------11:24----------
+points see there's no eggs on the side
+
+---------11:29----------
+of the board which makes it easier to
+
+---------11:32----------
+work because there's no eggs Paul you
+
+---------11:39----------
+like eggs right not a vegan Oh would you
+
+---------11:44----------
+eat these eggs
+
+---------11:45----------
+why not how do you know that if you've
+
+---------11:52----------
+never tried them
+
+---------11:59----------
+all right when this board gets a green
+
+---------12:03----------
+light Jessie wait just you wait I'm
+
+---------12:10----------
+gonna get this a green light and I'm
+
+---------12:12----------
+gonna keep all those eggs there huh
+
+---------12:21----------
+probably
+
+---------12:26----------
+are you kidding me you're not going to
+
+---------12:28----------
+attempt to repair that board and leave
+
+---------12:29----------
+all that [ __ ] in the other side are you
+
+---------12:31----------
+gonna touch those eggs are you gonna try
+
+---------12:34----------
+to hatch those dragons ice I watched
+
+---------12:37----------
+Game of Thrones I know what happens when
+
+---------12:38----------
+you hatched dragons nah bro that's not
+
+---------12:41----------
+for me
+
+---------12:45----------
+I'm not hatching them dragons alright
+
+---------12:58----------
+yeah we're just gonna slide that
+
+---------13:01----------
+resistor in there yes I know NPR it's a
+
+---------13:04----------
+pain in the ass to edit which you can't
+
+---------13:06----------
+do it from within the restream interface
+
+---------13:13----------
+I hate having added the game by logging
+
+---------13:15----------
+in a Trish returns me nuts I'm fixing
+
+---------13:18----------
+that board without I'm gonna do it
+
+---------13:20----------
+without removing the eggs just
+
+---------13:33----------
+it's set to face focus
+
+---------13:39----------
+I have to turn face detect off
+
+---------13:44----------
+there we go
+
+---------13:47----------
+Wow much coin how money so crypto
+
+---------13:53----------
+currency Wow do I have how many of those
+
+---------14:01----------
+do I have if I have enough of those I
+
+---------14:03----------
+won't have to fix the egg board positive
+
+---------14:15----------
+that's cuz you all go at the same time
+
+---------14:18----------
+you stop all going to the bathroom at
+
+---------14:23----------
+the same time
+
+---------14:41----------
+all right we're just gonna put this
+
+---------14:43----------
+right here
+
+---------15:18----------
+okay so now SMC reset L is going to be
+
+---------15:21----------
+pulled up and we do not have to look at
+
+---------15:24----------
+the side of the board that's covered in
+
+---------15:25----------
+X once I'm done with this wire we're
+
+---------15:27----------
+gonna have a green light and and now we
+
+---------15:32----------
+put this in Kevin status for reassembly
+
+---------15:33----------
+by the way our front desk gentlemen
+
+---------15:36----------
+tomorrow is gonna be live-streaming his
+
+---------15:39----------
+first ever border pair this is gonna be
+
+---------15:42----------
+some good stuff hopefully you all will
+
+---------15:44----------
+be a good sport with him as I planned to
+
+---------15:50----------
+be all right one let's see if this thing
+
+---------15:54----------
+gives a light
+
+---------16:04----------
+yes okay let's plug you in
+
+---------16:14----------
+and let's see what we get all right as
+
+---------16:22----------
+you can see we now have a light on the
+
+---------16:24----------
+charger just zoom in so that that's more
+
+---------16:27----------
+visible there we go see that that is an
+
+---------16:30----------
+orange light and that is the fan
+
+---------16:32----------
+spinning this is a thirty four thirty
+
+---------16:33----------
+seven so it's going to turn on off on
+
+---------16:34----------
+off on off on that's totally normal but
+
+---------16:37----------
+as you can see the light is on and this
+
+---------16:40----------
+board is fixed so would you like to
+
+---------16:49----------
+return to your cue
+
+---------17:10----------
+these batteries are causing my
+
+---------17:12----------
+microphone to reboot
+
+---------17:16----------
+hmm
+
+---------17:19----------
+as you could see Paul picks all the easy
+
+---------17:21----------
+ones for himself I get stuck yeah like
+
+---------17:23----------
+spider eggs Lois hold on the board Lois
+
+---------17:34----------
+what's that get that away from get that
+
+---------17:37----------
+away from me so that's it for today and
+
+---------17:42----------
+as always I hope you learned something
+
+---------17:44----------
+and as you can see this is a nice and
+
+---------17:47----------
+pretty board like that look at this oh
+
+---------17:51----------
+yeah
+
+---------17:53----------
+look I fixed it it has fan spinning
+
+---------17:56----------
+light I didn't want to touch that side
+
+---------17:59----------
+of the board so I put the SMC reset
+
+---------18:01----------
+resistor over here instead okay hey
+
+---------18:07----------
+touching those eggs
+
+---------18:08----------
+I'm not hatching that [ __ ]
+
+---------18:53----------
+depends who you ask honor I do it for
+
+---------18:56----------
+the former he thinks it's for the latter
+
+---------18:58----------
+alright so that's it for today and as
+
+---------19:01----------
+always I hope you learned something
+

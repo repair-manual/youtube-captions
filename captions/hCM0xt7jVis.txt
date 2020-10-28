@@ -1,0 +1,1681 @@
+https://www.youtube.com/watch?v=hCM0xt7jVis
+---------00:00----------
+all right so today we're gonna be going
+
+---------00:01----------
+over a board that doesn't turn on so
+
+---------00:03----------
+this is an eight to zero twenty nine
+
+---------00:04----------
+thirty six aka an old piece of but
+
+---------00:08----------
+somebody wants to fix it and yeah they
+
+---------00:11----------
+want to fix it
+
+---------00:12----------
+Oh fine it's not old enough that it's
+
+---------00:15----------
+something is going to catastrophic lead
+
+---------00:16----------
+I the moment after I fix it so yeah if
+
+---------00:19----------
+something so catastrophically old that I
+
+---------00:21----------
+can expect to see it again in a week or
+
+---------00:23----------
+that I'm gonna fix Part A and Part B
+
+---------00:25----------
+will be dead after I won't do it but
+
+---------00:27----------
+this is right on the cusp of that this
+
+---------00:29----------
+is a pretty stable board so as you can
+
+---------00:31----------
+see here we have a green light in the
+
+---------00:32----------
+charger as you can see here well you
+
+---------00:38----------
+have to take my word for it on that one
+
+---------00:40----------
+but you have a green light in the
+
+---------00:41----------
+charger but it's not turning on so we're
+
+---------00:43----------
+gonna do is we're just gonna go through
+
+---------00:44----------
+our main power rails anytime you have a
+
+---------00:47----------
+power rail missing anytime it's not
+
+---------00:49----------
+turning on it's usually a result of a
+
+---------00:50----------
+power rail missing so we're gonna do is
+
+---------00:53----------
+open up a schematic and go through the
+
+---------00:55----------
+power rails and trying to figure out
+
+---------00:57----------
+what is going on that's right CP we're
+
+---------01:04----------
+gonna go through the power rails
+
+---------01:12----------
+let's see if you want to make them sad
+
+---------01:14----------
+it's much harder watch No
+
+---------01:29----------
+no see it's the family yes
+
+---------01:33----------
+I give up
+
+---------01:38----------
+it is possible to make him make a little
+
+---------01:42----------
+but it's just so much work anyway so I'm
+
+---------01:46----------
+gonna go over to the page and skip ahead
+
+---------01:48----------
+there as main power else and let's check
+
+---------01:51----------
+out what's going on here
+
+---------01:53----------
+that's gonna be page seven so P let's go
+
+---------01:59----------
+through now with most electronics there
+
+---------02:01----------
+is going to be a list of the power rails
+
+---------02:03----------
+that you should expect to be present and
+
+---------02:05----------
+then the nice thing here is that I got
+
+---------02:07----------
+this nice little board view software
+
+---------02:08----------
+which is gonna tell me where to find so
+
+---------02:11----------
+things like where is pp bus g3 hot I can
+
+---------02:15----------
+hit n I can type in P P bus underscore
+
+---------02:18----------
+g3 hot see this this is a rail and BAM
+
+---------02:22----------
+just shows up and tells me where it is
+
+---------02:24----------
+so P P bus g3 hot is present and stand
+
+---------02:35----------
+up little multimeter p p3 before to
+
+---------02:39----------
+present PP 5vs5 present PPV RTC g3 Hart
+
+---------02:54----------
+present PP 5 vs 4 hmm not present now
+
+---------03:05----------
+we're gonna try and figure out why that
+
+---------03:07----------
+is missing so we're just gonna go over
+
+---------03:09----------
+to where PP 5 vs 4 shows up on this
+
+---------03:11----------
+board and let's go from there
+
+---------03:16----------
+let's go from there somebody asked me
+
+---------03:20----------
+why I went back to using this that's
+
+---------03:22----------
+just PP 5 es 3 same same and I just
+
+---------03:24----------
+lost track of it yeah PP 5 years 3 I was
+
+---------03:27----------
+measuring the right point in the board I
+
+---------03:29----------
+just called it the wrong thing when
+
+---------03:30----------
+people ask why did you go back to these
+
+---------03:32----------
+documents and that's the thing it's like
+
+---------03:35----------
+I mean on one hand and on the other
+
+---------03:37----------
+hands
+
+---------03:38----------
+I have over 200 videos up with them you
+
+---------03:41----------
+know it's not like maybe this okay so
+
+---------03:46----------
+let's say some of my content winds up
+
+---------03:48----------
+getting claims for whatever reason it's
+
+---------03:51----------
+not like if there was one video at a 700
+
+---------03:53----------
+it's one thing but it's like it's like
+
+---------03:55----------
+two or three hundred of them you know
+
+---------03:56----------
+like if YouTube is going to decide that
+
+---------03:59----------
+they don't want me here I'm pretty sure
+
+---------04:01----------
+that YouTube would make that decision
+
+---------04:02----------
+the same if it was two hundred twenty
+
+---------04:05----------
+videos versus two hundred and twenty
+
+---------04:07----------
+eight videos you know what I'm saying so
+
+---------04:19----------
+what to do so we're gonna figure out
+
+---------04:21----------
+where PP 5 vs 3 comes from this is the
+
+---------04:25----------
+reason I'm skipping is because this is
+
+---------04:26----------
+where PP 5 es 3 is powering something
+
+---------04:28----------
+like this is it powering infrared which
+
+---------04:30----------
+by the way is that not ridiculous that
+
+---------04:32----------
+they actually have infrared circuitry on
+
+---------04:34----------
+this computer I remember the original
+
+---------04:35----------
+MacBook had that thing with the little
+
+---------04:36----------
+remote that you could use to control
+
+---------04:38----------
+like make it play music and in the
+
+---------04:40----------
+front they still have that circuitry on
+
+---------04:41----------
+this computer like this is carried over
+
+---------04:43----------
+from the a 1181 why it's there's beyond
+
+---------04:45----------
+me
+
+---------04:45----------
+alright anyway we're gonna continue
+
+---------04:48----------
+looking for where it comes so that's
+
+---------04:50----------
+where it's powering something this is
+
+---------04:52----------
+going into the sleep LED circuit I want
+
+---------04:54----------
+to this is where it's being used to
+
+---------04:56----------
+power the trackpad sensor what I'm
+
+---------04:58----------
+looking for is where it's actually made
+
+---------05:00----------
+and this is it powering the audio codec
+
+---------05:02----------
+powering audio powering something
+
+---------05:06----------
+something something where are you made
+
+---------05:08----------
+here we go this is where you are made 5
+
+---------05:13----------
+volt s3 power supply now let's take a
+
+---------05:16----------
+look at how this works so people this is
+
+---------05:19----------
+a buck converter if you don't know what
+
+---------05:20----------
+a buck converter is you should check out
+
+---------05:21----------
+my video on buck converters now over
+
+---------05:24----------
+here there is an end trip see this
+
+---------05:26----------
+little end trip thing over here this is
+
+---------05:28----------
+what's gonna tell this thing to turn on
+
+---------05:30----------
+now the way this works is different than
+
+---------05:32----------
+how some of the other chips work there
+
+---------05:34----------
+are trips where if you wanna if you want
+
+---------05:35----------
+to enable it you send 3 volts through
+
+---------05:37----------
+the enable pin and trip works just a
+
+---------05:40----------
+little bit differently than that end
+
+---------05:41----------
+trip is gonna work like this you owe
+
+---------05:43----------
+that pin is always gonna have 3 volts
+
+---------05:45----------
+present at it the chip is going to have
+
+---------05:47----------
+3 volts present at the end trip pin and
+
+---------05:48----------
+the chip by default is on the way you
+
+---------05:51----------
+turn the chip off is by taking its
+
+---------05:53----------
+voltage away from it so with some chips
+
+---------05:55----------
+you send 3 volts to the enable pin and
+
+---------05:57----------
+it turns on by default the chip is off
+
+---------05:59----------
+here by default the chip is on it has
+
+---------06:02----------
+its own 3 volts at the end trip in the
+
+---------06:04----------
+way you're going to turn it off is by
+
+---------06:06----------
+taking its entropy voltage and shorting
+
+---------06:08----------
+it to ground so for this to work we need
+
+---------06:10----------
+to do a couple of funny things so in
+
+---------06:13----------
+order for this to work you have to you
+
+---------06:17----------
+have to make sure that this end trip
+
+---------06:19----------
+well tidge is allowed to be there now CP
+
+---------06:22----------
+5 vs 3 enable L meaning enable PP 5 vs 3
+
+---------06:26----------
+when it's low as an L this transistor
+
+---------06:29----------
+over here has the power to short this to
+
+---------06:32----------
+grass
+
+---------06:32----------
+so it can take the three volts that's
+
+---------06:34----------
+naturally present at end trip that this
+
+---------06:36----------
+chip is naturally making and it could
+
+---------06:38----------
+send it to ground but we don't want that
+
+---------06:39----------
+to happen so the way this works is if
+
+---------06:42----------
+the voltage on the gate of this
+
+---------06:43----------
+transistor is higher than the voltage
+
+---------06:45----------
+and the source of the transistor and the
+
+---------06:47----------
+source is zero so anything over here is
+
+---------06:49----------
+going to be higher it's gonna take the
+
+---------06:50----------
+voltage in the drain which is our end
+
+---------06:52----------
+trip signal and send it to ground which
+
+---------06:54----------
+we don't want to happen oh excuse me
+
+---------06:58----------
+it sneezing like crazy so what we do is
+
+---------07:03----------
+we take this and we need to get rid of
+
+---------07:04----------
+this signal cp5 vs3 enable when it's low
+
+---------07:07----------
+so we need to get rid of this because if
+
+---------07:09----------
+this is present it's gonna allow our end
+
+---------07:11----------
+trip signal to go to ground and then
+
+---------07:13----------
+this chips not gonna work so we got to
+
+---------07:15----------
+see where this comes from we got to make
+
+---------07:16----------
+this signal go away all right so let's
+
+---------07:19----------
+check this out so this signal is over
+
+---------07:20----------
+here now there's a transistor between
+
+---------07:23----------
+this signal and ground so remember if we
+
+---------07:24----------
+make this signal go away we're good this
+
+---------07:27----------
+signal got to go away so this is a
+
+---------07:30----------
+transistor to ground and R if the
+
+---------07:32----------
+voltage and the gate of this transistor
+
+---------07:33----------
+is higher than the source then this will
+
+---------07:36----------
+get sent to ground and PM sleep as 4l is
+
+---------07:40----------
+responsible for that p.m. sleep s4l so
+
+---------07:42----------
+where do you come from so we need PM
+
+---------07:43----------
+sleep s4l and that comes from the PCH
+
+---------07:47----------
+ all right so let's see if that's
+
+---------07:50----------
+present let's see if that's present so
+
+---------07:53----------
+we're gonna look for PM sleep s4l PM
+
+---------07:59----------
+underscore sleep underscore s4
+
+---------08:01----------
+underscore L and we're gonna search for
+
+---------08:03----------
+that we're gonna see where we find it
+
+---------08:05----------
+okay where's a nice place that we can
+
+---------08:08----------
+measure our PM sleep s4l signal so let's
+
+---------08:11----------
+just check over here and see if we have
+
+---------08:12----------
+a PM sleep s4l signal so let's just
+
+---------08:15----------
+check on the board view software and
+
+---------08:17----------
+we're just gonna poke at the end of this
+
+---------08:19----------
+resistor and see if we get anything and
+
+---------08:21----------
+we get 0 volts which means no PM sleep
+
+---------08:25----------
+s4l now PM sleep s4 L is going to be
+
+---------08:28----------
+present when a couple of things occur
+
+---------08:29----------
+the PCH has to shoot that out the PCH is
+
+---------08:32----------
+gonna have to shoot out PM sleep s4 L so
+
+---------08:34----------
+let's check out that page
+
+---------08:40----------
+so system power management so the PCH
+
+---------08:43----------
+which is you 1800 over here the PCH is a
+
+---------08:46----------
+combination of the north bridge and the
+
+---------08:48----------
+South Bridge into one chipset for a very
+
+---------08:49----------
+simple simplified way to explain it this
+
+---------08:52----------
+is going to shoot out these signals on
+
+---------08:55----------
+the right would we have these what's
+
+---------08:57----------
+present on the left now one of the
+
+---------09:00----------
+issues we're gonna have here is that
+
+---------09:02----------
+this need this thing needs to turn on
+
+---------09:04----------
+and honestly when you're missing p.m.
+
+---------09:05----------
+sleep s4l it's very open-ended so what I
+
+---------09:07----------
+like to do with missing p.m. sleep s4l
+
+---------09:09----------
+is I like to categorize it by something
+
+---------09:11----------
+that is I like to try to put it into a
+
+---------09:14----------
+category as to whether this is something
+
+---------09:16----------
+that's going to be simple or a
+
+---------09:17----------
+ so simple is when one of the
+
+---------09:21----------
+input signals is obviously missing
+
+---------09:23----------
+simple is when I can narrow it down so
+
+---------09:27----------
+for example I don't have a green light
+
+---------09:29----------
+therefore it could be an SMC issue and
+
+---------09:32----------
+my SMC is not working and so on it's not
+
+---------09:34----------
+gonna shoot out the signals to the PCH
+
+---------09:35----------
+that are required but I have a light or
+
+---------09:37----------
+there's an obvious mark of gunk on the
+
+---------09:39----------
+board or something so what I'm gonna do
+
+---------09:41----------
+right now is I'm gonna start going
+
+---------09:43----------
+hunting and then now there are certain
+
+---------09:45----------
+things that have to work the SMC has to
+
+---------09:48----------
+shoot out the signals it's supposed to
+
+---------09:49----------
+the we need the PCH to receive power
+
+---------09:53----------
+that it supposed to I don't even bother
+
+---------09:54----------
+checking the 3.3 volt rail to be honest
+
+---------09:56----------
+with you because it almost never dies
+
+---------09:57----------
+and it's never the problem the pp 3v3 s3
+
+---------10:00----------
+rail or the pp 3 B 3 s5 rail they just
+
+---------10:02----------
+always work they just always always work
+
+---------10:04----------
+it could be that the RTC circuit is not
+
+---------10:07----------
+working so if the clock circuit is not
+
+---------10:08----------
+working then the PCH is never going to
+
+---------10:10----------
+actually start for you know in executing
+
+---------10:13----------
+instructions and turning on there are
+
+---------10:15----------
+countless videos and even books you
+
+---------10:17----------
+could read on how clock circuits working
+
+---------10:18----------
+computers I won't get into that here so
+
+---------10:20----------
+let's just take a look over the board
+
+---------10:21----------
+and start hunting for liquid damage with
+
+---------10:25----------
+my friend the Sheep he's too old to me
+
+---------10:30----------
+to the duel noise anymore
+
+---------10:45----------
+Ready Set hunt alright let's see what we
+
+---------10:52----------
+find
+
+---------10:52----------
+oh you're banding don't banned on me
+
+---------10:57----------
+don't do that don't do that come on be a
+
+---------11:01----------
+good cheap ass capture card be good good
+
+---------11:03----------
+cash your car good capture car alright
+
+---------11:10----------
+so we have some stuff over here that
+
+---------11:11----------
+doesn't look great but it's by the audio
+
+---------11:16----------
+circuit and since it's by the audio
+
+---------11:18----------
+circuit we don't care and we keep it
+
+---------11:20----------
+moving keep it moving keep it moving
+
+---------11:24----------
+keep it moving
+
+---------11:28----------
+not the sexiest stuff in the world over
+
+---------11:30----------
+there but it's but it's audio keep it
+
+---------11:32----------
+moving Wow then we got a little bit more
+
+---------11:36----------
+dust you know a couple of pubes some red
+
+---------11:39----------
+pubes keep it movin and I thought I
+
+---------11:45----------
+thought I thought I thought I did it
+
+---------11:52----------
+mm-hmm can I fix this board using the
+
+---------11:55----------
+Jesse Jones iPad Rehab to prove method
+
+---------11:58----------
+of knocking this off with my tweezers
+
+---------11:59----------
+I'm just gonna throw them at the board
+
+---------12:01----------
+I'm not even gonna 1 2 let's see you
+
+---------12:06----------
+kill we have two in one day
+
+---------12:07----------
+dude yep that is all right so
+
+---------12:12----------
+what let's figure out what you are for
+
+---------12:15----------
+and what is going on here so let's take
+
+---------12:18----------
+a look at the board view and see how
+
+---------12:20----------
+that lines up with this
+
+---------12:23----------
+oh boy I'm happy that's two in one day
+
+---------12:26----------
+that is something the the Jesse Jones
+
+---------12:30----------
+iPad rehab method is kicking ass I'm
+
+---------12:33----------
+just gonna start knocking off of
+
+---------12:34----------
+the board instead of replacing it from
+
+---------12:35----------
+now on how does he get it - I think I'm
+
+---------12:40----------
+gonna get ya c5 - OH - I'm just gonna
+
+---------12:43----------
+I'm gonna take a get like a little I'm
+
+---------12:47----------
+gonna get like a little water pistol or
+
+---------12:49----------
+something and just see if I can shoot at
+
+---------12:51----------
+it from here like a little micro BB gun
+
+---------12:54----------
+that is shoot them off the board make it
+
+---------12:56----------
+into a drinking game
+
+---------12:59----------
+I might but please tell me I'm not gonna
+
+---------13:00----------
+publish this to YouTube but I'll never
+
+---------13:02----------
+have a customer again I'm never gonna
+
+---------13:04----------
+have okay enough so what is that
+
+---------13:14----------
+that's ppv RTC g3 ah what do you know
+
+---------13:17----------
+now that's a power rail that I as you
+
+---------13:19----------
+saw before that was indeed present that
+
+---------13:22----------
+power rail was present right but let's
+
+---------13:24----------
+see if it's present on the top of the
+
+---------13:26----------
+board so it's present on the bottom of
+
+---------13:27----------
+the board but is it present on the top
+
+---------13:29----------
+so this is one of those things that can
+
+---------13:30----------
+really with you is that there there
+
+---------13:32----------
+can be 90 different points on a board
+
+---------13:35----------
+that a power rail shows up can you see
+
+---------13:37----------
+that yes look it showed up on the other
+
+---------13:44----------
+side 3.3 volts showed up on the other
+
+---------13:46----------
+side but over here we have zero point
+
+---------13:48----------
+zero four eight and zero point zero
+
+---------13:50----------
+three nine now one hint that there's a
+
+---------13:53----------
+broken via in the board or a broken
+
+---------13:55----------
+trace is when you see it going up and
+
+---------13:57----------
+down like that you see how it's not
+
+---------13:58----------
+steady 29 28 29 31 33 34 31 30 29 28
+
+---------14:04----------
+that means that there's a broken path so
+
+---------14:07----------
+if you measure let's say 1 volt when you
+
+---------14:09----------
+expect one volt that's one thing but
+
+---------14:12----------
+when you when you expending when you're
+
+---------14:13----------
+expecting that when you
+
+---------14:23----------
+distracting month if you're measuring
+
+---------14:27----------
+one volve when you expect to see 12 or
+
+---------14:29----------
+something that's one thing I hope I have
+
+---------14:31----------
+a bottleneck it doesn't he's broken if
+
+---------14:40----------
+you're expecting 12 and you get one
+
+---------14:42----------
+that's one thing if you're expecting 12
+
+---------14:44----------
+and yet one 1.1 1.2 1.1 1.2 ohm per
+
+---------14:46----------
+moment where we took way to you know
+
+---------14:48----------
+that there has to be an actual physical
+
+---------14:49----------
+break somewhere in the line and yes this
+
+---------14:51----------
+is empty so it wouldn't hurt as much if
+
+---------14:53----------
+I threw it at somebody but this means if
+
+---------14:56----------
+there's a break in the line now let's go
+
+---------14:58----------
+over just how ridiculous this is
+
+---------15:00----------
+this is this is one of those things with
+
+---------15:02----------
+PC board design we're like you just know
+
+---------15:04----------
+that somebody fell asleep and is
+
+---------15:05----------
+probably getting fired so check this out
+
+---------15:07----------
+check this out because this this is
+
+---------15:08----------
+pretty stupid this is this is
+
+---------15:10----------
+one of those things where you just got a
+
+---------15:12----------
+laugh right all right so check to check
+
+---------15:14----------
+out the way this is drawn in the
+
+---------15:15----------
+schematic and check out the way this
+
+---------15:17----------
+works you ready you ready for a laugh
+
+---------15:19----------
+all right come on board come on board
+
+---------15:21----------
+and we will show you so there are three
+
+---------15:23----------
+capacitors along ppv RTC underscore g3
+
+---------15:26----------
+hot c 22 31 c 22 32 + c 22 33 so c 22 31
+
+---------15:34----------
+all right
+
+---------15:36----------
+that's a capacitor next to the PCH right
+
+---------15:39----------
+C 22 32 that's a capacitor next to the
+
+---------15:43----------
+PCH right okay then we have yeah yeah
+
+---------15:47----------
+then we have C 22 33 that's a capacitor
+
+---------15:52----------
+and this is funny
+
+---------15:53----------
+you just can't make this up that's
+
+---------15:55----------
+a capacitor all the way on the other
+
+---------15:56----------
+side of the board right now check out
+
+---------15:59----------
+the way this works this it goes like
+
+---------16:02----------
+this this is right next to the PCH this
+
+---------16:05----------
+is right next to the PCH but before we
+
+---------16:08----------
+actually get to the PCH instead of this
+
+---------16:09----------
+going to hear this instead of these how
+
+---------16:13----------
+I put this instead of the power yeah
+
+---------16:16----------
+it's better if I just demonstrate it in
+
+---------16:18----------
+person rather than a mouse so we have
+
+---------16:19----------
+3.3 volts created we have 3.3 volts
+
+---------16:23----------
+created over here then we have that
+
+---------16:28----------
+voltage go over here and rather have
+
+---------16:30----------
+that voltage go from here to here to
+
+---------16:32----------
+here we have that voltage go from here
+
+---------16:35----------
+to here to here all the way to the other
+
+---------16:38----------
+side of the board only to go
+
+---------16:40----------
+again to the other side of the board
+
+---------16:42----------
+over here does that make any sense so if
+
+---------16:46----------
+you have a break over here on this side
+
+---------16:48----------
+it destroys the 3.3 volts is going to go
+
+---------16:51----------
+to the chip so if I measure 3.3 volts I
+
+---------16:53----------
+can literally measure 3.3 volts right
+
+---------16:56----------
+next to this chip however if I were to
+
+---------16:58----------
+physically remove the PCH I would be
+
+---------17:00----------
+getting pad it's just it's it's it's
+
+---------17:04----------
+it's funnier in my head than it is when
+
+---------17:06----------
+I explain it but if you're an engineer
+
+---------17:07----------
+you do PC board design you know why this
+
+---------17:09----------
+is funny like 3.3 volts makes its way
+
+---------17:12----------
+from here to here and rather than go
+
+---------17:14----------
+from here rather than simply go from
+
+---------17:16----------
+here to here it literally literally has
+
+---------17:19----------
+to go all the way around the board and
+
+---------17:20----------
+then around the board again would you do
+
+---------17:27----------
+this why why why
+
+---------17:30----------
+so anyway so let's let's fix this let's
+
+---------17:34----------
+see if we can make do some digging and
+
+---------17:36----------
+get something done
+
+---------17:37----------
+so enough laughing at Apple for today
+
+---------17:44----------
+this is so does funky funky board design
+
+---------17:52----------
+if so that cap can suck it
+
+---------18:12----------
+it is not a nice path to the other side
+
+---------18:14----------
+of the board here don't banned on me
+
+---------18:17----------
+capture card stick with me capture card
+
+---------18:21----------
+stick with me
+
+---------18:24----------
+between the capture card constantly
+
+---------18:26----------
+freezing in this IKEA desk on the uneven
+
+---------18:29----------
+floor sitting on top of a whole thing
+
+---------18:30----------
+I'm starting to I don't know I've never
+
+---------18:33----------
+really felt self-conscious about my
+
+---------18:34----------
+YouTube setup before but it kind of
+
+---------18:37----------
+sucks I don't know I mean I used to
+
+---------18:40----------
+pride myself on quality video and I'm
+
+---------18:45----------
+not like high production quality but you
+
+---------18:48----------
+know you could at least see stuff and
+
+---------18:50----------
+make it out what has happened to that
+
+---------18:58----------
+yeah so we're first things first we'll
+
+---------19:08----------
+get a nice little capacitor to go to
+
+---------19:09----------
+that area
+
+---------19:16----------
+and then we're gonna run a wire from the
+
+---------19:19----------
+other side of the board to this side of
+
+---------19:21----------
+the board and we're gonna make it all
+
+---------19:22----------
+okay
+
+---------20:12----------
+now let's just do a little bit of
+
+---------20:15----------
+scraping away
+
+---------20:42----------
+so I have something for my wire to go to
+
+---------20:44----------
+so once my wire attaches to here then
+
+---------20:46----------
+it'll attach to every place else on the
+
+---------20:48----------
+side of the board or PPV RTC g3 hot is
+
+---------20:51----------
+supposed to be
+
+---------21:11----------
+that's a little close to ground from my
+
+---------21:13----------
+taste I feel like I'm being a little
+
+---------21:15----------
+adventurous here with my how adventurous
+
+---------21:19----------
+can I be let's see can I do this without
+
+---------21:22----------
+touching the grounded resistor right
+
+---------21:23----------
+under it
+
+---------21:36----------
+you know I think I can make this work
+
+---------21:41----------
+when I have mine my cat's leg got to get
+
+---------21:44----------
+reattached I went to several vets that
+
+---------21:46----------
+all said that they he was he was
+
+---------21:49----------
+screwing around with stuff in my
+
+---------21:50----------
+apartment and he was trying to my light
+
+---------21:53----------
+fixture was moving back and forth and he
+
+---------21:54----------
+wanted to kill it because he likes to
+
+---------21:56----------
+kill things that are moving back and
+
+---------21:57----------
+forth even if they're inanimate objects
+
+---------21:58----------
+because that's what cats do so he
+
+---------22:00----------
+climbed up to try and kill it right and
+
+---------22:04----------
+the issue that my cat ran into is that
+
+---------22:08----------
+he when he when he jumped up he didn't
+
+---------22:11----------
+look at what was below him and what was
+
+---------22:12----------
+below him was a baseboard heating unit
+
+---------22:18----------
+which was in open so he fell just about
+
+---------22:21----------
+20 feet after he climbed up to try to
+
+---------22:24----------
+kill the to kill did try to kill the
+
+---------22:28----------
+light fixture so you know he he cut all
+
+---------22:33----------
+the way through his Achilles tendon so I
+
+---------22:35----------
+went to several vets that just said
+
+---------22:36----------
+amputate amputate amputate and I found
+
+---------22:38----------
+one person who is nuts who's like yeah I
+
+---------22:42----------
+think I can make this work again that's
+
+---------22:45----------
+the attitude that I want my vet to have
+
+---------22:47----------
+like yeah I think I can make this work
+
+---------22:50----------
+that's a good attitude that's that
+
+---------22:53----------
+can-do attitude all right so let's try
+
+---------22:56----------
+to actually make this work shall we
+
+---------22:57----------
+I'm gonna put a little bit more air on
+
+---------23:00----------
+the JBC so that'll have more control
+
+---------23:03----------
+over violently blowing things in a place
+
+---------23:05----------
+when I want to
+
+---------23:14----------
+dammit mother mother you piece of
+
+---------23:20----------
+ okay
+
+---------23:23----------
+take two
+
+---------23:46----------
+all right let's get an really really
+
+---------23:49----------
+long wire it's gonna go all the way
+
+---------23:53----------
+around lots of different things it's
+
+---------24:00----------
+gonna tin some areas that need tending
+
+---------24:26----------
+Brij ma bridge nothing bridges when you
+
+---------24:31----------
+wanted to
+
+---------24:34----------
+nothing bridges when you want it to look
+
+---------24:36----------
+at that I'm trying to bridge those two I
+
+---------24:39----------
+would like nothing more than a nice big
+
+---------24:42----------
+careless solder blob between this and
+
+---------24:44----------
+that it's not gonna happen because I'm
+
+---------24:51----------
+trying to oh well alright so first
+
+---------24:54----------
+things first let's get you to go to here
+
+---------24:58----------
+and then we're gonna have this make a
+
+---------25:00----------
+turn
+
+---------25:14----------
+better with tweezers don't try to do
+
+---------25:16----------
+this with your hands that's a mistake
+
+---------26:07----------
+whoops chance again get in there all
+
+---------26:16----------
+right that's fine break you all all
+
+---------26:23----------
+right so let's stop number one for the
+
+---------26:25----------
+wire now stop number two on the train
+
+---------26:29----------
+it's gonna be here where we attach it to
+
+---------26:34----------
+both the resistor and the capacitor
+
+---------26:51----------
+scraping okay so we got it
+
+---------26:56----------
+are we attached about the resistor and
+
+---------26:58----------
+the capacitor
+
+---------27:10----------
+we can eat that in a second
+
+---------27:22----------
+much kneading this is gonna be easy
+
+---------27:24----------
+breezy beautiful covergirl easy breezy
+
+---------27:29----------
+beautiful covergirl Oh son of a did I
+
+---------27:35----------
+just that's what I deserve for singing
+
+---------27:37----------
+that disgusting commercial
+
+---------27:43----------
+now we can still save this we can still
+
+---------27:46----------
+save this that's let's save this shall
+
+---------27:49----------
+we
+
+---------27:58----------
+yeah
+
+---------28:11----------
+No
+
+---------28:29----------
+okay kind of there and
+
+---------28:41----------
+remember I have no seconds pad to put
+
+---------28:43----------
+the capacitor on that's destroyed all
+
+---------28:46----------
+right so that little loop-d-loop is
+
+---------28:50----------
+satisfactory for me now let's just take
+
+---------28:52----------
+the friggin antenna off at the end of
+
+---------28:54----------
+this wire no need to have this
+
+---------28:56----------
+hanging off there get it off these
+
+---------29:04----------
+tweezers suck I really do need to get
+
+---------29:06----------
+some new tweezers
+
+---------29:23----------
+okay on to the other side of the board
+
+---------29:26----------
+now the wire is going to go from there
+
+---------29:33----------
+see it nicely routed prettily routed to
+
+---------29:37----------
+the other side
+
+---------30:06----------
+- PPV RTC underscore g3 hot
+
+---------30:20----------
+make it nice and easy and I forget which
+
+---------30:27----------
+side of the damn capacitor that that's
+
+---------30:28----------
+the let it's the right side duh just
+
+---------30:34----------
+obviously the right side you're still
+
+---------30:36----------
+double-checking with the day that I've
+
+---------30:38----------
+had nope it's the left Wow and that is
+
+---------30:41----------
+that misleading looking trace okay so
+
+---------31:12----------
+and had some folks since fluxing that
+
+---------31:15----------
+side was gonna burn away while I'm
+
+---------31:17----------
+getting rid of the excess on the wire
+
+---------31:22----------
+Charlie get you flat on the crystal the
+
+---------31:26----------
+crystal is that thing above the
+
+---------31:27----------
+capacitor all right go this would have
+
+---------31:38----------
+been easier if I use the thinner wire
+
+---------31:39----------
+thinner wire would have probably been
+
+---------31:42----------
+the smart thing to do here they've been
+
+---------31:44----------
+much more easy to manage I have 40 gauge
+
+---------31:46----------
+this wire I think is 34 which is this is
+
+---------31:50----------
+this rail really doesn't use any power
+
+---------31:52----------
+so I mean I could have gotten away with
+
+---------31:53----------
+40 gauge just fine and it really would
+
+---------31:58----------
+have been neater so why I'm torturing
+
+---------32:05----------
+myself what this is beyond me all right
+
+---------32:09----------
+so
+
+---------32:34----------
+the reason I'm doing this is because I
+
+---------32:36----------
+can still see the outline of the wire
+
+---------32:37----------
+which I don't want to see
+
+---------32:48----------
+I really prefer to see a nice solid kind
+
+---------32:50----------
+of mountain looking joint over that
+
+---------33:07----------
+and again it's combined with enamel
+
+---------33:09----------
+there we go looks a little nicer okay so
+
+---------33:15----------
+now if I plug my charger and what
+
+---------33:19----------
+happens ladies and gentlemen the fan is
+
+---------33:31----------
+spinning and we have her nice ring
+
+---------33:34----------
+around the as what wire around the world
+
+---------33:38----------
+here this is gonna get ultrasonic after
+
+---------33:42----------
+altro sonicing I'm gonna green that wire
+
+---------33:44----------
+to the board that's it for today and as
+
+---------33:47----------
+always I hope you learned something do
+
+---------33:50----------
+come back tomorrow for another episode
+
+---------33:51----------
+of hunting liquid damage and that's it
+
+---------33:55----------
+for today
+

@@ -1,0 +1,985 @@
+https://www.youtube.com/watch?v=IXg1auvix1I
+---------00:00----------
+so let's get started with the 8 to 0 37
+
+---------00:02----------
+87 that is not turning on so we're going
+
+---------00:04----------
+to plug it in and see what it does and
+
+---------00:07----------
+we get no light on the charger and it is
+
+---------00:11----------
+dead this is going to allow the charger
+
+---------00:12----------
+to talk to the SMC let's look on 10 one
+
+---------00:15----------
+of you 7000 come on turn down the
+
+---------00:19----------
+exposure this is advice okay
+
+---------00:33----------
+so what am i measuring see pen for is
+
+---------00:36----------
+one wire okay pin 1 and 1 it supposed to
+
+---------00:39----------
+be pp is to see if this is turning on
+
+---------00:41----------
+and this chip is turning on I'm getting
+
+---------00:43----------
+three point three seven volts at this
+
+---------00:45----------
+chip yet I'm getting a zero for my for
+
+---------00:49----------
+my green light so let's see what adapter
+
+---------00:51----------
+sentences adapter sent is going to show
+
+---------00:52----------
+up on pin five over here
+
+---------01:00----------
+that's kind of weird that's low 0.7
+
+---------01:02----------
+volts and adapter sense I'm not sure if
+
+---------01:04----------
+maybe that's something different from AG
+
+---------01:05----------
+save too but that seems kind of low to
+
+---------01:06----------
+me hmm that seems low seems too low look
+
+---------01:16----------
+what the DCN board looks like you see in
+
+---------01:21----------
+board ooh you crusty you broken
+
+---------01:25----------
+[Music]
+
+---------01:31----------
+seriously there you go okay dcn board
+
+---------01:37----------
+got the light on but you're still dead
+
+---------01:42----------
+why are you still dead all right let's
+
+---------01:46----------
+check out what adaptor senses now
+
+---------01:47----------
+remember adapter sense is supposed to be
+
+---------01:50----------
+somewhere between usually around two
+
+---------01:52----------
+point nine volts if it's 16 that's bad
+
+---------01:54----------
+that means that charger voltage is
+
+---------01:56----------
+getting into the sense line and if it's
+
+---------01:57----------
+too low that's also bad if it's too low
+
+---------02:00----------
+it's bad because that means that that
+
+---------02:03----------
+it's not communicating so do that so
+
+---------02:05----------
+that so the adapter sends voltage is
+
+---------02:08----------
+going to let me know if the DCN board is
+
+---------02:09----------
+good or not most of the time so now we
+
+---------02:11----------
+got a green light but it's dead so the
+
+---------02:13----------
+next thing I'm going to do is I'm going
+
+---------02:14----------
+to check the rest of my voltages on the
+
+---------02:15----------
+list let's check out PB bus g3 huh
+
+---------02:26----------
+you know
+
+---------02:32----------
+on the fuse and if you're short at the
+
+---------02:35----------
+ground this is getting sold
+
+---------02:37----------
+gtfo your four folds okay so four volts
+
+---------02:46----------
+sucks because that means that we're not
+
+---------02:48----------
+sure it's ground but that we're not also
+
+---------02:50----------
+not creating the rail but it's still
+
+---------02:52----------
+better than being fully shorted if it
+
+---------02:54----------
+was one point seven volts or 0.7 volts
+
+---------02:56----------
+then I'd be screwed so let's see if
+
+---------02:58----------
+there's a short circuit that's not a
+
+---------03:00----------
+short circuit for a line that's attached
+
+---------03:01----------
+just about everything yeah that's fine
+
+---------03:04----------
+that's what we're expecting like
+
+---------03:05----------
+somewhere between 0.125 to 0.184 so now
+
+---------03:09----------
+let's look at the area that's going to
+
+---------03:10----------
+create PP buzz g3 huh which is the you
+
+---------03:12----------
+70-100 area so there's a couple of
+
+---------03:19----------
+things that we're going to be looking
+
+---------03:19----------
+for here first thing is how does it look
+
+---------03:25----------
+how healthy does it look visually
+
+---------03:29----------
+visually it looks pretty nice so the
+
+---------03:31----------
+first thing that I'm going to go through
+
+---------03:33----------
+here is let's see what voltage I get on
+
+---------03:34----------
+charge or DC n at pin 2 then we're also
+
+---------03:37----------
+going to look for I'm sure you can't see
+
+---------03:39----------
+that what do we get on charge of DC in
+
+---------03:40----------
+at pin to do we get PP 5 v 1 charge or
+
+---------03:43----------
+VDD P then also we're going to go over
+
+---------03:45----------
+the current sensing section we're going
+
+---------03:46----------
+to make sure that these resistors for
+
+---------03:47----------
+CSI current sensing current sensing for
+
+---------03:51----------
+charger i stands for charger and here we
+
+---------03:53----------
+have current sensing for battery o
+
+---------03:55----------
+stands for battery that that's that's an
+
+---------03:57----------
+addition in this language so i'm
+
+---------03:59----------
+guessing that that's part of some other
+
+---------04:01----------
+language all right so charge a DC in
+
+---------04:03----------
+pres it now we're going to do is we're
+
+---------04:07----------
+going to check our current sensing
+
+---------04:08----------
+section so what here we have a loop so
+
+---------04:14----------
+this is the current sensing resistor
+
+---------04:15----------
+there's going to be a voltage drop
+
+---------04:16----------
+across this resistor and the voltage
+
+---------04:18----------
+drop across our 7120 is going to be
+
+---------04:20----------
+proportional to the amount of current
+
+---------04:22----------
+the system is using so here you have
+
+---------04:23----------
+where it says from adapter so that this
+
+---------04:26----------
+entire point of this page of the circuit
+
+---------04:27----------
+is to take the 16 or 18 volts in the
+
+---------04:29----------
+charger and turn it into 12 volts for
+
+---------04:31----------
+the system so it's going to come through
+
+---------04:33----------
+here here so the more current going
+
+---------04:37----------
+through this resistor the greater the
+
+---------04:39----------
+voltage drop will be between the
+
+---------04:41----------
+beginning and the end now our 7121 and
+
+---------04:44----------
+our 71 22 are going to deliver
+
+---------04:46----------
+those voltages to use 7100 you 7100 is
+
+---------04:49----------
+going to compare them and once the
+
+---------04:50----------
+voltage difference is too great it turns
+
+---------04:52----------
+off the circuit or disables it so since
+
+---------04:54----------
+there is a 10 ohm resistor then a 0.02
+
+---------04:58----------
+of resistor no the federal reserve's
+
+---------05:00----------
+care that means that I get to go to
+
+---------05:01----------
+sleep I mean that means that hey that
+
+---------05:03----------
+the resistance that I get between 10 27
+
+---------05:05----------
+and 28 should be the sum of all those
+
+---------05:07----------
+resistances which would be twenty point
+
+---------05:09----------
+zero two ohms so let's find pins 27 and
+
+---------05:14----------
+28 now as you can see here the
+
+---------05:16----------
+resistance I get between 10 27 and 28 is
+
+---------05:19----------
+3 million ohms 3 million is higher than
+
+---------05:23----------
+20 point zero 2 which means that one of
+
+---------05:26----------
+these resistors or both of them are
+
+---------05:27----------
+blown as you can see here each of these
+
+---------05:30----------
+resistors has a little hole on the top
+
+---------05:32----------
+of it see each of those resistors has a
+
+---------05:35----------
+hole in it
+
+---------05:35----------
+which means that they are blown now
+
+---------05:38----------
+what's going to cause those resistors to
+
+---------05:40----------
+blow often what's going to cause those
+
+---------05:42----------
+resistors to blow is a path to ground
+
+---------05:44----------
+so those resistors sit between the
+
+---------05:46----------
+charger and use 7100 if you 70 100 goes
+
+---------05:50----------
+bad then it was short to ground if you
+
+---------05:53----------
+70 100 is shorted to ground then the
+
+---------05:55----------
+things that are plugged into you 70 100
+
+---------05:57----------
+are also short it's a ground like let's
+
+---------05:59----------
+say the current sensing section so we're
+
+---------06:01----------
+not just going to replace the current
+
+---------06:02----------
+sensing resistors if the only problem
+
+---------06:04----------
+where that the traces were bad so let's
+
+---------06:07----------
+say we were in a in a case where the
+
+---------06:09----------
+only issue with these with this circuit
+
+---------06:11----------
+was that the trace this to that was
+
+---------06:14----------
+broken this was ripped up off the board
+
+---------06:16----------
+or this probe point was liquid damaged
+
+---------06:17----------
+then we probably would not have to
+
+---------06:19----------
+replace the used 70 100 and often we
+
+---------06:21----------
+wouldn't even have to replace the
+
+---------06:22----------
+resistors
+
+---------06:22----------
+however since each resistor is blown and
+
+---------06:24----------
+the system is cosmetically perfect the
+
+---------06:28----------
+issue is most likely going to be an
+
+---------06:30----------
+electrical issue so if I were to measure
+
+---------06:31----------
+resistance to ground and either one of
+
+---------06:33----------
+those pins I have a feeling that it's
+
+---------06:36----------
+going to be very low and as you can see
+
+---------06:39----------
+here I'm being proven wrong
+
+---------06:40----------
+let's check this and I'm not being
+
+---------06:43----------
+proven wrong because on pin 28 we have a
+
+---------06:45----------
+2 point 1 ohm resistance to ground
+
+---------06:47----------
+meaning the u 7100 is shorted to ground
+
+---------06:50----------
+so if i were to replace our 7121 and our
+
+---------06:53----------
+71 22 it would be pointless because as
+
+---------06:56----------
+soon as i plug in the charger they blow
+
+---------06:57----------
+again because u 70 100 which is our
+
+---------06:59----------
+primary fault is causing the secondary
+
+---------07:02----------
+fault of our current sensors is blind so
+
+---------07:04----------
+we're going to repeal and replace both
+
+---------07:06----------
+you 7100 and the current sense resistors
+
+---------07:08----------
+in order to fix this problem so let's
+
+---------07:10----------
+get the rework station on and get going
+
+---------07:31----------
+let's get a tiny bit of flux on there
+
+---------07:39----------
+we're going to preheat the board a
+
+---------07:41----------
+little bit since my office is cold and I
+
+---------07:42----------
+have not done any soldering on this
+
+---------07:43----------
+board yet don't want a thermally shock
+
+---------07:45----------
+it are not streaming on your other
+
+---------07:50----------
+platform anymore
+
+---------07:51----------
+no I'm streaming to youtube but just a
+
+---------07:55----------
+different channel on YouTube that's
+
+---------07:56----------
+meant for live video only
+
+---------08:59----------
+just about done preheating
+
+---------09:11----------
+now we can go in and repeal some stuff
+
+---------09:15----------
+also might as well turn off the
+
+---------09:17----------
+multimeter
+
+---------09:31----------
+so that is all been repealed now we're
+
+---------09:35----------
+going to wick the board and after we
+
+---------09:37----------
+wick out the old solder it'll be time
+
+---------09:39----------
+for the replacement stage
+
+---------09:56----------
+so now we're going to add some let it
+
+---------09:59----------
+solder here because adding let it solder
+
+---------10:00----------
+makes it easier to repeal the lead-free
+
+---------10:03----------
+solder now I'm going to take some wick
+
+---------10:13----------
+and we are going to repeal the lead-free
+
+---------10:17----------
+leaded solder combination that we asked
+
+---------10:38----------
+remember wicking is the professional way
+
+---------10:40----------
+to repair
+
+---------10:41----------
+I learned this while I was teaching with
+
+---------10:43----------
+Jesse iPad rehab right before I quit
+
+---------10:47----------
+teaching with her she said I don't want
+
+---------10:49----------
+you to leave here without understanding
+
+---------10:50----------
+the secret to how it is I have the
+
+---------10:53----------
+highest success rate in the industry for
+
+---------10:55----------
+liquid damage data recovery and I said
+
+---------10:57----------
+Jessa what's the secret please tell me
+
+---------10:58----------
+the secret and she said I wick every pad
+
+---------11:01----------
+on every qf p qf n & BGA that I work on
+
+---------11:05----------
+and I said wow thank you so much and
+
+---------11:07----------
+I've been following that advice for the
+
+---------11:09----------
+past two years and as a result of
+
+---------11:11----------
+following that advice all of my repairs
+
+---------11:13----------
+go amazing wick everything what great
+
+---------11:23----------
+advice
+
+---------11:23----------
+I just want to never thought of it on my
+
+---------11:25----------
+own
+
+---------11:35----------
+clean the area off
+
+---------11:39----------
+okay so I can safely say that the
+
+---------11:41----------
+lead-free solder and the old chips have
+
+---------11:45----------
+been repealed
+
+---------12:57----------
+you
+
+---------13:28----------
+okay now we're going to go for the is L
+
+---------13:31----------
+six two five nine
+
+---------14:04----------
+okay get it sided on there now it's not
+
+---------14:08----------
+flat on the board just yet so I need it
+
+---------14:10----------
+to be flat on the board so I'm going to
+
+---------14:16----------
+push
+
+---------14:52----------
+that was dumb you're going to put that
+
+---------14:55----------
+back into place in a second actually not
+
+---------15:00----------
+the ideal tip to be using the touch-up
+
+---------15:01----------
+QFP pads but we like to live on the edge
+
+---------15:06----------
+and put you back in a place where I can
+
+---------15:15----------
+never happen all right
+
+---------16:05----------
+Wolfgang says I think Eli is writing the
+
+---------16:07----------
+YouTube drama thingy to attract more
+
+---------16:09----------
+views no comment
+
+---------16:24----------
+no comment
+
+---------16:34----------
+[Music]
+
+---------16:36----------
+damnit you're going to make me use flux
+
+---------16:39----------
+to touch that up aren't you
+
+---------16:44----------
+[Music]
+
+---------16:50----------
+all right
+
+---------17:04----------
+okay so now before I plug it in I'm
+
+---------17:08----------
+going to check the resistance to grounds
+
+---------17:10----------
+on my current sends lines just to make
+
+---------17:13----------
+sure that nothing funny is happening and
+
+---------17:16----------
+take black probe ground red probe and
+
+---------17:18----------
+current sent
+
+---------17:27----------
+hello what's the range that we're in
+
+---------17:30----------
+there okay so in line change the range
+
+---------17:37----------
+too
+
+---------17:54----------
+all right I'd say that we're pretty safe
+
+---------17:56----------
+here except I didn't really get the top
+
+---------18:00----------
+done nicely since I was using that large
+
+---------18:02----------
+BCM to tip which is really inappropriate
+
+---------18:04----------
+for qfm soldering I was being lazy if
+
+---------18:08----------
+you caught me being lazy there for a
+
+---------18:10----------
+moment I really should have had the
+
+---------18:11----------
+something else on a little better for
+
+---------18:15----------
+that but yeah at this point it's clear
+
+---------18:18----------
+that our issue with the short on the
+
+---------18:21----------
+current sense line is gone and it's see
+
+---------18:25----------
+much cleaner much cleaner
+
+---------18:39----------
+okay so now we're going to plug it in
+
+---------18:41----------
+and see if the fan spins so this is the
+
+---------18:44----------
+fan look how look how pretty it is this
+
+---------18:48----------
+is my charger
+
+---------18:58----------
+it spins isn't that great so that's how
+
+---------19:04----------
+we repair a machine that's dead not
+
+---------19:06----------
+turning on that is how we figure out if
+
+---------19:08----------
+the DCN board is bad or not before you
+
+---------19:10----------
+even grab a new DC n board the adapter
+
+---------19:12----------
+sense line will give you some good hints
+
+---------19:13----------
+as to whether your DC n board is good
+
+---------19:15----------
+what 32.9 to three volts good 16 volts
+
+---------19:18----------
+very bad charger voltage is making its
+
+---------19:20----------
+way into the adapter sense line and zero
+
+---------19:22----------
+anything considerably below two volts or
+
+---------19:25----------
+0.7 volts means that it's not doing its
+
+---------19:27----------
+job it's not working at all and now time
+
+---------19:30----------
+for an advertisement this is our website
+
+---------19:32----------
+here mail in dot repair you will be able
+
+---------19:34----------
+to find on most of the different
+
+---------19:36----------
+cleaners stencils connectors ICS
+
+---------19:39----------
+and small ships that we use throughout
+
+---------19:41----------
+these repairs on this website so here
+
+---------19:44----------
+you'll find the ultrasonic cleaner that
+
+---------19:46----------
+we use at the store that's fixed many of
+
+---------19:48----------
+the boards that I was unable to fix in
+
+---------19:49----------
+the video this here is shipped straight
+
+---------19:51----------
+from the store here you'll see a bunch
+
+---------19:53----------
+of LCD connectors we've got keyboard
+
+---------19:55----------
+connectors we've got digitizer
+
+---------19:57----------
+connectors and they're all organized
+
+---------19:59----------
+here so if you go connectors by type or
+
+---------20:01----------
+you can search by your device so if we
+
+---------20:03----------
+go here components by device iPhone
+
+---------20:05----------
+iPhone 6's it'll bring you to a screen
+
+---------20:08----------
+where you'll find a bunch of different
+
+---------20:10----------
+parts for your iPhone the same is true
+
+---------20:12----------
+for stencils we've got stencils over
+
+---------20:14----------
+here like the SMC stencil that it's
+
+---------20:15----------
+typically hard to buy directly in
+
+---------20:18----------
+America you have to wait a long time to
+
+---------20:19----------
+get that from China here we've got the
+
+---------20:22----------
+some different parts like the LPP 3v4 to
+
+---------20:25----------
+regulator over here so this is a TP 3
+
+---------20:28----------
+before to regulator you can actually
+
+---------20:30----------
+search by the number on the schematic
+
+---------20:32----------
+and if there are different chips with
+
+---------20:34----------
+that same number it'll bring up all the
+
+---------20:35----------
+different ships you can scroll down and
+
+---------20:37----------
+figure out which one is for your
+
+---------20:38----------
+motherboard because over here it'll say
+
+---------20:40----------
+compatible boards and it will list all
+
+---------20:42----------
+the boards the chip is compatible with
+
+---------20:44----------
+if you don't want to deal with that you
+
+---------20:45----------
+can even just search by your motherboard
+
+---------20:47----------
+so if I search over here for a t20 3462
+
+---------20:50----------
+it will only show me chips that are
+
+---------20:52----------
+compatible with my model motherboard and
+
+---------20:56----------
+this was all put together we have high
+
+---------20:58----------
+resolution pictures that you can compare
+
+---------21:00----------
+it to your chip to make sure that you
+
+---------21:02----------
+buy the right one and if you ever have a
+
+---------21:04----------
+question feel free to email feel free to
+
+---------21:06----------
+comment feel free to live chat so thank
+
+---------21:08----------
+you very much for watching the video
+
+---------21:09----------
+thank you very much for your
+
+---------21:11----------
+patronage if you use their website we've
+
+---------21:13----------
+also got flux here if you want flux
+
+---------21:15----------
+we've got solder paste over here if you
+
+---------21:18----------
+want solder paste
+

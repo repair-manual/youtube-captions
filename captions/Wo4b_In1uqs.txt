@@ -1,0 +1,1030 @@
+https://www.youtube.com/watch?v=Wo4b_In1uqs
+---------00:00----------
+welcome to phone Mart how may I help you
+
+---------00:03----------
+iPhone 4 where is the iPhone 4 I need an
+
+---------00:06----------
+iPhone 4 I'm never going to try to do 50
+
+---------00:09----------
+deadlifts at 200 pounds when I want to
+
+---------00:12----------
+throw up ever again
+
+---------00:13----------
+today we're going to fix a MacBook we
+
+---------00:16----------
+get a green light and no fan spin so if
+
+---------00:20----------
+we have a green light but we don't have
+
+---------00:21----------
+fan spin what power rail is it that we
+
+---------00:24----------
+already know must be present on this
+
+---------00:26----------
+MacBook nasarah wins with the first
+
+---------00:28----------
+answer pp 3 v 4 - indeed so we are gonna
+
+---------00:33----------
+go down the list of power rails on this
+
+---------00:35----------
+MacBook and try and figure out which
+
+---------00:37----------
+one's missing let's open up a schematic
+
+---------00:39----------
+in a board view for the 8 - 0 - 34 37
+
+---------00:43----------
+and fix this board before I pass out and
+
+---------00:45----------
+the board view here we have a list of
+
+---------00:47----------
+power rails so the first rail that we're
+
+---------00:50----------
+going to check for is our pp bus let's
+
+---------00:52----------
+see if our pp bus is g3 hot or sick here
+
+---------00:55----------
+we go we have eight point six volts on
+
+---------00:58----------
+pp bus PPV RTC is present now we check
+
+---------01:05----------
+to see if PPS FIV s5 is present
+
+---------01:14----------
+PP 5vs5 is present now we're gonna check
+
+---------01:17----------
+and see if PP 5 es 4 is present
+
+---------01:25----------
+PP 5 es 4 is not present so it seems
+
+---------01:28----------
+that PP 5 es 4 is the rail that's not
+
+---------01:30----------
+present so what would we do next so a
+
+---------01:33----------
+power rail is missing PP 5e s 4 RS 3
+
+---------01:38----------
+what do we do at this point where do we
+
+---------01:40----------
+go but we're gonna do is we're gonna
+
+---------01:42----------
+find the chip that creates this rail and
+
+---------01:45----------
+then take a look around it a little bit
+
+---------01:46----------
+so let's take a look around the board to
+
+---------01:49----------
+see where PP 5 es 4 RS 3 is created now
+
+---------01:53----------
+the first thing is when we look around
+
+---------01:54----------
+the board we're gonna see a lot of
+
+---------01:55----------
+different PP 5 vs 4 RS 3s we're not
+
+---------01:58----------
+looking for where PP 5 vs 4 is going
+
+---------02:00----------
+into something we're looking for it
+
+---------02:02----------
+coming out of something so we're not
+
+---------02:04----------
+looking for the mouth we're looking for
+
+---------02:06----------
+the [ __ ] if that makes any sense so
+
+---------02:08----------
+this is pp 5 es 4 going in to the camera
+
+---------02:13----------
+that is the mouth now we're looking for
+
+---------02:17----------
+this is pp 5 es 4 RS 3 going in to a USB
+
+---------02:21----------
+port power switch
+
+---------02:22----------
+see how PP 5 es 4 RS 3 is here and it
+
+---------02:25----------
+says in that's the mouth no we're
+
+---------02:27----------
+looking for over here PP 5 es 4 RS 3 is
+
+---------02:36----------
+going into the speaker amplifier not in
+
+---------02:39----------
+next we're gonna click it again
+
+---------02:41----------
+this is where PP 5 es 4 RS 3 is going
+
+---------02:44----------
+into the DCN board next this is where PP
+
+---------02:49----------
+5 es 4 RS 3 is going into use 7501 again
+
+---------02:53----------
+that's the mouth we're not looking for
+
+---------02:55----------
+the mouth we're looking for the [ __ ]
+
+---------02:57----------
+and here check this out it says PP 5 es
+
+---------03:03----------
+4 RS 3 output so this is not the input
+
+---------03:07----------
+the mouth this is the output of the
+
+---------03:09----------
+[ __ ]
+
+---------03:10----------
+meaning that you 7501 is responsible for
+
+---------03:14----------
+creating PP 5 es 4 RS 3 something that
+
+---------03:18----------
+has confused a lot of the students that
+
+---------03:20----------
+I had when I'm sitting in front of them
+
+---------03:21----------
+and they're trying to figure out how to
+
+---------03:22----------
+troubleshoot this stuff is they cannot
+
+---------03:24----------
+tell when a signal is going into a chip
+
+---------03:26----------
+versus coming out of it they don't know
+
+---------03:28----------
+how to look that up so when I say find
+
+---------03:30----------
+me where this rail is created they skip
+
+---------03:32----------
+over the chip because they can't tell
+
+---------03:34----------
+which it is they can't tell the mouth
+
+---------03:36----------
+from the [ __ ]
+
+---------03:38----------
+and it's important to tell the mouth
+
+---------03:39----------
+from the [ __ ] because there's clear
+
+---------03:40----------
+differences between the two so if we go
+
+---------03:44----------
+back over here now we're gonna look to
+
+---------03:46----------
+see if the issue is with the chip or
+
+---------03:49----------
+with another part of the machine this
+
+---------03:52----------
+trip is gonna create that but we want to
+
+---------03:54----------
+figure out whose fault it is
+
+---------03:55----------
+so there's several things that can keep
+
+---------03:57----------
+a pal rail from being created so it
+
+---------03:59----------
+could be chip is not being enabled chip
+
+---------04:01----------
+is broken chip does not have input
+
+---------04:02----------
+voltage output has a short circuit so
+
+---------04:05----------
+the first thing we're gonna do is check
+
+---------04:06----------
+and see if the chip has a short circuit
+
+---------04:08----------
+and to do that we must unplug the
+
+---------04:11----------
+charger so I'm gonna check on the pin
+
+---------04:13----------
+for PP 5e s for RS 3 turn on the
+
+---------04:16----------
+multimeter on the screen and as can be
+
+---------04:19----------
+seen here we have four point something
+
+---------04:21----------
+million ohms to ground that's not a
+
+---------04:23----------
+short-circuit so we don't have a
+
+---------04:24----------
+short-circuit two grounds on PP 5e s for
+
+---------04:26----------
+RS 3 PP 5e s for RS 3 is 4 million ohms
+
+---------04:29----------
+next up we're gonna see if the voltage
+
+---------04:30----------
+is coming into the chip on pinched 23
+
+---------04:33----------
+8.6 volts so we have input coming into
+
+---------04:36----------
+the chip we have another short circuit
+
+---------04:37----------
+to ground now the last thing to check to
+
+---------04:40----------
+determine whether or not we blame
+
+---------04:41----------
+something else on the board of the chip
+
+---------04:42----------
+is the enable let's see if the enable is
+
+---------04:44----------
+present if the enable is present the
+
+---------04:47----------
+issue was likely the chip and it'll be a
+
+---------04:48----------
+simple easy board if the enable is not
+
+---------04:51----------
+present that means p.m. sleep as 4 L is
+
+---------04:53----------
+missing and this board is gonna go to
+
+---------04:55----------
+somebody else who's about to start
+
+---------04:57----------
+feeling a lot more sick
+
+---------05:00----------
+ok fine by the way everybody take a look
+
+---------05:04----------
+at Paul's RGB
+
+---------05:05----------
+isn't it pretty Paul has RGB
+
+---------05:17----------
+looking at this is very good for my
+
+---------05:19----------
+stomach I love it
+
+---------05:25----------
+this is also unique in that every time
+
+---------05:28----------
+it makes a different color the
+
+---------05:29----------
+controller makes a different squeaking
+
+---------05:30----------
+noise yes but we do have RGB at the
+
+---------05:39----------
+store now so let's check the Enable for
+
+---------05:42----------
+people 5 vs 4 and see what we get on
+
+---------05:43----------
+this board we have nothing at the enable
+
+---------05:46----------
+point 1 millivolts which means that we
+
+---------05:49----------
+cannot blame the chip because every
+
+---------05:51----------
+condition is correct for the to turn on
+
+---------05:52----------
+if it was being asked to turn on we have
+
+---------05:54----------
+input voltage we have no short on output
+
+---------05:57----------
+so P 5 vs 4 whatever the hell enable
+
+---------06:01----------
+over here we're gonna right-click that
+
+---------06:02----------
+and that goes to this resistor that
+
+---------06:05----------
+resistor goes to this on this side that
+
+---------06:10----------
+resistors gonna go to this area that's
+
+---------06:17----------
+going to come from p.m. sleep s4l if you
+
+---------06:20----------
+follow this little rabbit hole up here
+
+---------06:21----------
+and PM sleep s4l come straight from your
+
+---------06:27----------
+cpu one of our favorite signals there's
+
+---------06:31----------
+no signal that we like better than p.m.
+
+---------06:34----------
+sleep s4l Paul said he just started
+
+---------06:40----------
+feeling sick yes this signal crushes
+
+---------06:43----------
+technicians even the best of them so
+
+---------06:45----------
+let's take a look at why it is the
+
+---------06:47----------
+signal is such a crushing just
+
+---------06:49----------
+destruction of confidence this signal
+
+---------06:53----------
+comes here from the PCH the platform
+
+---------06:56----------
+controller hub that's kind of like a
+
+---------06:57----------
+Northbridge and Southbridge all-in-one
+
+---------06:59----------
+on newer Intel platforms now on this
+
+---------07:02----------
+machine the PCH is built into the CPU
+
+---------07:04----------
+meaning that signal comes directly from
+
+---------07:06----------
+the CPU now a couple of things have to
+
+---------07:08----------
+be present in order for this to come
+
+---------07:10----------
+from the CPU the first is some signals
+
+---------07:13----------
+and the left have to be here you may
+
+---------07:14----------
+notice a pattern where all the left's
+
+---------07:16----------
+are the signals are ins and all the
+
+---------07:18----------
+right signals are outs you need to have
+
+---------07:20----------
+your ins to get your outs the second
+
+---------07:22----------
+thing that must be occurring is the CPU
+
+---------07:24----------
+must be communicating with the SPI ROM
+
+---------07:26----------
+or if you come from PC land you most
+
+---------07:28----------
+likely know that as the BIOS chip
+
+---------07:31----------
+if it's not communicating with the BIOS
+
+---------07:33----------
+the SPI rom then it's not going to
+
+---------07:36----------
+create the signals required to turn on
+
+---------07:38----------
+the power rails the third thing that
+
+---------07:39----------
+must be present is a lack of shorts if
+
+---------07:41----------
+there are short circuits present that
+
+---------07:43----------
+sigmund will show up for teeny-tiny
+
+---------07:45----------
+hundreds of a millisecond and then go
+
+---------07:47----------
+away so at this point the thing to do is
+
+---------07:53----------
+really just to look over the board
+
+---------07:54----------
+because again since this could be
+
+---------07:55----------
+literally anything broken peat traces
+
+---------07:58----------
+inside the board bad CPU bad BIOS
+
+---------08:01----------
+missing BIOS files traces missing short
+
+---------08:05----------
+circuit on any rail it's a nightmare
+
+---------08:07----------
+it's a completely open ended challenge
+
+---------08:09----------
+so we are going to take a look over the
+
+---------08:11----------
+board and see if there's a hint because
+
+---------08:13----------
+if there's not a hint that's easily
+
+---------08:14----------
+visible then this is the type of board
+
+---------08:16----------
+that we would throw in Paul status
+
+---------08:31----------
+hmm
+
+---------08:33----------
+warm Oh jackpot
+
+---------08:42----------
+imagine that one simple probe point
+
+---------08:45----------
+missing for the BIOS so this is a probe
+
+---------08:48----------
+point where by some resistors by the
+
+---------08:50----------
+BIOS that connect to the BIOS will
+
+---------08:59----------
+communicate with a resistor under here
+
+---------09:01----------
+and this resistor goes to the CPU so
+
+---------09:06----------
+check this out this resistor is going to
+
+---------09:12----------
+go to a signal that goes to the CPU and
+
+---------09:14----------
+the other ends of that resistor is going
+
+---------09:16----------
+to go to a signal that goes to the BIOS
+
+---------09:19----------
+chip so we just flip this back over
+
+---------09:22----------
+that's going to the CPU this side of the
+
+---------09:26----------
+resistor is going up here and that hole
+
+---------09:30----------
+is going to this resistor that resistor
+
+---------09:33----------
+goes to the BIOS chip so let's see what
+
+---------09:35----------
+happens if we rework that area now the
+
+---------09:39----------
+first thing I'm going to do is see if I
+
+---------09:40----------
+can find a probe point I can find the
+
+---------09:43----------
+nub inside there now the last time I
+
+---------09:46----------
+tried to find the nub I shorted my
+
+---------09:48----------
+backlight circuit to ground because I am
+
+---------09:50----------
+a novel but let's see if we can do a
+
+---------09:53----------
+halfway decent job this time we're not
+
+---------09:57----------
+promising anything here
+
+---------10:05----------
+let's do some scrapey scrapey I'm glad I
+
+---------10:12----------
+just wiped my hands off with some
+
+---------10:14----------
+alcohol this is a beautiful plate
+
+---------10:19----------
+there's nothing wrong with this blade TC
+
+---------10:22----------
+RSS can I come to New York for a week
+
+---------10:24----------
+and fix SBI Turman i traces termination
+
+---------10:26----------
+traces and clock chips sure we don't
+
+---------10:29----------
+have anybody here for all that easy
+
+---------10:30----------
+stuff to go to
+
+---------10:42----------
+okay I think we're about to get to the
+
+---------10:45----------
+nub Tim we have a couple of cpu
+
+---------10:52----------
+replacements to do with the Zama Paul's
+
+---------10:54----------
+not being a good sport about it thank
+
+---------10:58----------
+you okay now we're going to use a q-tip
+
+---------11:01----------
+and a little bit of alcohol to dig in
+
+---------11:05----------
+there and really clean up all those
+
+---------11:08----------
+little bits that are gonna make it hard
+
+---------11:10----------
+to put a wire there now one of the most
+
+---------11:12----------
+satisfying things to watch is 99%
+
+---------11:14----------
+alcohol evaporate on its own it isn't
+
+---------11:19----------
+that nice
+
+---------11:22----------
+TeamViewer has alerted me that my laptop
+
+---------11:24----------
+at home is just signed in meaning that
+
+---------11:27----------
+mr. Clinton just jumped on my keyboard
+
+---------11:28----------
+because when I left home it was asleep
+
+---------11:33----------
+good job mr. Clinton
+
+---------11:41----------
+okay at this point that's fairly clean
+
+---------11:45----------
+so I'm gonna have to get a micro pencil
+
+---------11:47----------
+tip in order to run a teeny-tiny jumper
+
+---------11:51----------
+wire so I'm just gonna hold the eye on
+
+---------11:54----------
+there to melt away the alcohol and now
+
+---------11:57----------
+that I think the alcohol is absorbing
+
+---------11:59----------
+the light let me just change the
+
+---------12:01----------
+exposure on my camera there a little bit
+
+---------12:07----------
+there we go so the heat from the iron
+
+---------12:09----------
+has kind of melted all the alcohol you
+
+---------12:11----------
+know evaporated all the alcohol the way
+
+---------12:13----------
+so now we're going to put a tiny bit of
+
+---------12:16----------
+flux here just a small amount like that
+
+---------12:22----------
+and we're going to take some solder and
+
+---------12:28----------
+we're going to ten those that the nub as
+
+---------12:31----------
+well as ten the trace
+
+---------12:41----------
+now we have to run a wire there so I'm
+
+---------12:44----------
+gonna use a little bit more flux in that
+
+---------12:47----------
+area teeny tiny bit more we are out of
+
+---------12:50----------
+stock of flux at the moment and my tube
+
+---------12:52----------
+is just about out so I'm gonna have to
+
+---------12:54----------
+be a little conservative today it's
+
+---------12:59----------
+normal for us to go through about 30
+
+---------13:02----------
+thousand cc's every month or to hear
+
+---------13:06----------
+much flux for much repairing
+
+---------13:17----------
+nice i want to scrape away all of the
+
+---------13:22----------
+insulation from the wire now we got it
+
+---------13:33----------
+onto the large part which is the easy
+
+---------13:35----------
+part and we're gonna try to get it onto
+
+---------13:37----------
+the nub
+
+---------13:47----------
+much harder
+
+---------14:01----------
+[Music]
+
+---------14:20----------
+this is one of the most satisfying
+
+---------14:21----------
+MacBook Air repairs
+
+---------14:50----------
+can I start diagnosing MacBooks which is
+
+---------14:52----------
+the magnifying glass on an amp meter you
+
+---------14:55----------
+can start diagnosing MacBooks with
+
+---------14:56----------
+nothing but your brain and your eyes
+
+---------14:57----------
+really
+
+---------15:07----------
+I was it gonna be the two most important
+
+---------15:09----------
+tools all right now let's see how this
+
+---------15:13----------
+MacBook works
+
+---------15:25----------
+let's see if we get a fan spin
+
+---------15:34----------
+we still have no fan spin
+
+---------15:39----------
+well isn't that sad
+
+---------15:45----------
+let's take a look around the rest of
+
+---------15:47----------
+this MacBook
+
+---------15:53----------
+missing p.m. sleep s4l I do want to
+
+---------15:57----------
+throw it in the trash it's tempting
+
+---------16:09----------
+first thing is that the resistor looks a
+
+---------16:11----------
+little corroded let's see if it matters
+
+---------16:13----------
+or not hmm
+
+---------16:17----------
+this resistor is burned we're getting
+
+---------16:22----------
+three point three on one side and 0.7 on
+
+---------16:24----------
+the other this resistor that seems a
+
+---------16:26----------
+little corroded is a pull-up resistor
+
+---------16:30----------
+between the 3.3 volt power line and spi
+
+---------16:35----------
+ROM use and I'll be which is a reset
+
+---------16:37----------
+signal so I'm guessing that this thing
+
+---------16:40----------
+is going to be reset without that being
+
+---------16:42----------
+present as you can see this area doesn't
+
+---------16:45----------
+look very nice tonight it is that
+
+---------16:46----------
+resistor
+
+---------16:53----------
+we're gonna repeal that resistor and
+
+---------16:56----------
+replace it with a better one
+
+---------16:59----------
+this MacBooks gonna feel much better
+
+---------17:01----------
+inside
+
+---------17:06----------
+it's gonna be a happy healthy little
+
+---------17:08----------
+MacBook
+
+---------17:23----------
+[Applause]
+
+---------17:33----------
+iPhone 4
+
+---------17:37----------
+I want an iPhone
+
+---------18:12----------
+iPhone 4
+
+---------18:17----------
+where is my iPhone 4
+
+---------18:23----------
+as you can see we have achieved fan spin
+
+---------18:25----------
+which means everything in this MacBook
+
+---------18:27----------
+works eh okay
+
+---------18:30----------
+Quality Assurance testing complete so
+
+---------18:33----------
+this MacBook was missing a power rail
+
+---------18:35----------
+it was missing PP 5 vs 4 RS 3 it was
+
+---------18:38----------
+missing PP 5 e RS 3 because of a missing
+
+---------18:40----------
+enable that missing enable came from the
+
+---------18:42----------
+CPU p.m. sleep s4l they enable was
+
+---------18:45----------
+missing because the CPU was not creating
+
+---------18:48----------
+it since it was not able to speak to the
+
+---------18:50----------
+SPI ROM otherwise known as the BIOS as a
+
+---------18:52----------
+result of a missing probe point and also
+
+---------18:56----------
+the BIOS was stuck since a pull-up
+
+---------18:59----------
+resistor for a signal called SPI ROM use
+
+---------19:02----------
+mold was not there because of a corroded
+
+---------19:07----------
+resistor after fixing it we now have the
+
+---------19:09----------
+beautiful sounds of fans been here that
+
+---------19:12----------
+folks that's the sound of a perfectly
+
+---------19:16----------
+functioning MacBook and that's it for
+
+---------19:20----------
+today and as always I hope you learned
+
+---------19:23----------
+something
+
+---------19:25----------
+Godspeed Louis your channels anyway to
+
+---------19:27----------
+pay for both my ThinkPad t 580 I've
+
+---------19:31----------
+repaired many MacBooks with your
+
+---------19:32----------
+knowledge awesome that sounds very cool
+
+---------19:35----------
+I'm glad to hear it
+
+---------19:37----------
+I also want an iPhone 4 don't even get
+
+---------19:40----------
+me started with that where is my
+
+---------19:42----------
+iPhone 4 I want an iPhone 4 get the
+
+---------19:46----------
+out of my store
+

@@ -1,0 +1,2035 @@
+https://www.youtube.com/watch?v=FWVqsY9B4tc
+---------00:00----------
+okay so today I'm gonna be going over an
+
+---------00:01----------
+eight to zero 26:10 motherboard that's
+
+---------00:04----------
+not turning on we're going to start with
+
+---------00:06----------
+how we troubleshoot why we go through
+
+---------00:09----------
+the steps that we go through and what
+
+---------00:11----------
+leads us to our conclusion to how to fix
+
+---------00:14----------
+it and all of this is going to be done
+
+---------00:16----------
+in real time like with all of these
+
+---------00:17----------
+videos so this is a 2009 17 inch unibody
+
+---------00:22----------
+the reason I enjoy bringing this board
+
+---------00:24----------
+up is because often when I get trolled
+
+---------00:26----------
+saying it what by people who say Apple
+
+---------00:28----------
+products don't have problems for every
+
+---------00:30----------
+year you're making this stuff up and I
+
+---------00:33----------
+bring up the recalls very often they'll
+
+---------00:34----------
+say what about 2008 what about 2009
+
+---------00:37----------
+those are solid models right wrong and
+
+---------00:41----------
+you're going to see exactly why in this
+
+---------00:43----------
+video so this doesn't turn on and it has
+
+---------00:46----------
+no liquid damage so if I am to plug the
+
+---------00:49----------
+MagSafe in I get a nice light see I get
+
+---------00:55----------
+a light and when I short e power pads
+
+---------00:59----------
+here it doesn't turn on so in a no power
+
+---------01:04----------
+issue the first thing that I'm going to
+
+---------01:06----------
+want to do is check each one of my power
+
+---------01:09----------
+rails so what I do here is I open the
+
+---------01:11----------
+schematic and I'm going to go to a page
+
+---------01:12----------
+on the schematic that shows me this
+
+---------01:14----------
+stuff so let's just open up the open
+
+---------01:16----------
+broadcaster monitor on the other screen
+
+---------01:18----------
+so I can see what I'm showing you the
+
+---------01:20----------
+first thing that I'm going to check for
+
+---------01:21----------
+is pp bus g3 hot which is an always
+
+---------01:24----------
+present rail so I'm going to check pp
+
+---------01:27----------
+bus g3 hot over here and let's see if I
+
+---------01:30----------
+can set this up so that you can see the
+
+---------01:32----------
+multimeter along with the screen here we
+
+---------01:34----------
+go so I have my multimeter right here
+
+---------01:36----------
+you probably won't be able to see that
+
+---------01:38----------
+because it's too damn small but we're
+
+---------01:40----------
+gonna check pp bus g3 hot on the
+
+---------01:42----------
+sections that it says it's supposed to
+
+---------01:43----------
+show up now the schematic says it's
+
+---------01:45----------
+supposed to be 6 volts which i think is
+
+---------01:47----------
+wrong I think it's actually supposed to
+
+---------01:48----------
+be 8.4 on this one and it's 8.39 so I
+
+---------01:51----------
+ignore the schematic the schematic in
+
+---------01:53----------
+this case is wrong pp bus g3 hot is
+
+---------01:55----------
+supposed to be 8 point 4 volts on this
+
+---------01:57----------
+board I know that from testing working
+
+---------01:59----------
+boards so it's really important if you
+
+---------02:01----------
+want to do something like this for a
+
+---------02:03----------
+living that you have known working
+
+---------02:05----------
+devices so that when the schematic is
+
+---------02:07----------
+wrong or when you're confused about
+
+---------02:09----------
+something that the schematic says that
+
+---------02:11----------
+you can clarify that information
+
+---------02:13----------
+so what we're gonna do right now is move
+
+---------02:15----------
+on to the next voltage rail which is
+
+---------02:16----------
+this pp bus CPU I MVP blah blah blah we
+
+---------02:21----------
+are going to check to see if that exists
+
+---------02:23----------
+so we check to see if this exists not
+
+---------02:26----------
+found sometimes the stuff is named
+
+---------02:28----------
+differently in the schematic than it is
+
+---------02:30----------
+in the board view software which is a
+
+---------02:32----------
+complete pain in the ass alright so
+
+---------02:34----------
+we're gonna check on this side of the
+
+---------02:35----------
+board where it says that I'm supposed to
+
+---------02:39----------
+check I get eight point three nine now
+
+---------02:47----------
+we move on to the next one now P P 18 V
+
+---------02:50----------
+v DC n connection I know that I can
+
+---------02:53----------
+ignore that one and the reason I know I
+
+---------02:54----------
+can ignore that one is because
+
+---------02:56----------
+everything else in the machine wouldn't
+
+---------02:57----------
+work if the charger rail wasn't present
+
+---------02:59----------
+so P P 18 V v DC in connector I'm adding
+
+---------03:04----------
+some words in there so I'm just seeing
+
+---------03:06----------
+Kannan I'm assuming that means connector
+
+---------03:09----------
+this is coming in that was loud this is
+
+---------03:12----------
+coming in from the charging so this is
+
+---------03:15----------
+this is gonna be coming in from the
+
+---------03:16----------
+charger so I have no interest in
+
+---------03:19----------
+checking that if my other rails are
+
+---------03:21----------
+present if the charger rail wasn't
+
+---------03:23----------
+present P P bus g3 hot would not be
+
+---------03:25----------
+present therefore I can save time by
+
+---------03:26----------
+just not checking that power rail now
+
+---------03:29----------
+let's move on to the next one the next
+
+---------03:31----------
+one here is pp 3 V 4 to underscore g3
+
+---------03:35----------
+hot now I know that that rail is present
+
+---------03:38----------
+because that pret rail needs to be
+
+---------03:39----------
+present in order for the one wire
+
+---------03:41----------
+circuit to operate if you don't know
+
+---------03:42----------
+what the one wire circuit is I would
+
+---------03:44----------
+highly suggest that you check out my
+
+---------03:45----------
+other videos in this channel related to
+
+---------03:47----------
+the 1 wire circuit long story short the
+
+---------03:49----------
+1 wire circuit is what allows the
+
+---------03:51----------
+charger to talk to the system management
+
+---------03:53----------
+controller chip on the motherboard if
+
+---------03:54----------
+the charger cannot talk to the system
+
+---------03:56----------
+manager controller chip you won't get a
+
+---------03:59----------
+green light in the charger and because I
+
+---------04:01----------
+have a green light on the charger I know
+
+---------04:03----------
+that my SMC is on so I know that PP 3
+
+---------04:07----------
+before 2 must be present so what I can
+
+---------04:08----------
+do at this point is move on to the next
+
+---------04:11----------
+rail which is pp 5v s3 so I'm gonna
+
+---------04:14----------
+check and see where that rail is and
+
+---------04:16----------
+where I can measure it on the
+
+---------04:18----------
+motherboard let's see if I can measure
+
+---------04:19----------
+it here alright so I'm going to check
+
+---------04:22----------
+for it and where it says that I'm
+
+---------04:26----------
+supposed to
+
+---------04:27----------
+let's see where is that on this board
+
+---------04:30----------
+too big I should just check it on the
+
+---------04:41----------
+other side I never bother taking the
+
+---------04:43----------
+speaker off which makes it a little bit
+
+---------04:44----------
+more difficult that's a nice big place
+
+---------04:48----------
+to check for it is right here there we
+
+---------04:50----------
+go
+
+---------04:53----------
+this thing always knows which way it is
+
+---------04:55----------
+on the desk so that it can put it the
+
+---------04:56----------
+opposite way and we have zero point zero
+
+---------05:01----------
+zero zero volts now we're on to
+
+---------05:03----------
+something so now let's continue
+
+---------05:04----------
+following along this path and see if we
+
+---------05:06----------
+can understand what's going on so what
+
+---------05:08----------
+I'm gonna do at this point is I'm going
+
+---------05:09----------
+to see if PP 5 vs 3 is being told to
+
+---------05:13----------
+turn on now what I like to say what I've
+
+---------05:15----------
+been saying in this video series for a
+
+---------05:17----------
+while now is that I like to check the
+
+---------05:19----------
+beginning of a circuit and the end of a
+
+---------05:21----------
+circuit so that I avoid wasting time on
+
+---------05:24----------
+everything that's going on in between so
+
+---------05:26----------
+the way that I like to save time I
+
+---------05:27----------
+checked the end of the circuit meaning
+
+---------05:29----------
+PP 5 vs 3 is not there now instead of
+
+---------05:32----------
+going back to see what creates PP 5 es 3
+
+---------05:34----------
+and bla bla bla bla bla
+
+---------05:35----------
+I'm gonna go back to the enable signal
+
+---------05:38----------
+that tells it to turn on so let's go
+
+---------05:40----------
+over the PP 5 vs three circuit in the
+
+---------05:42----------
+schematic here
+
+---------05:45----------
+I'm just looking for where it shows up
+
+---------05:47----------
+it shows up everywhere but I want it I
+
+---------05:49----------
+want the page that actually creates it
+
+---------05:51----------
+and here we are
+
+---------05:52----------
+so let's fullscreen this so that you can
+
+---------05:54----------
+see it a little better and let's get my
+
+---------05:56----------
+ugly face out of the way ah that's more
+
+---------05:59----------
+of my ugly face in the way okay so we
+
+---------06:02----------
+are what see where was that here here
+
+---------06:05----------
+all right now this seems very very
+
+---------06:07----------
+confusing very confusing right let's try
+
+---------06:10----------
+to make this a little less confusing
+
+---------06:11----------
+what do you think here is going to turn
+
+---------06:13----------
+on or enable my chip hmmm maybe it's one
+
+---------06:17----------
+of those pads it says en4 enable you're
+
+---------06:20----------
+going to notice that a lot of what
+
+---------06:21----------
+you're doing here a lot of your job is
+
+---------06:22----------
+just when you're doing this type of
+
+---------06:24----------
+thing it's just adding vowels and
+
+---------06:27----------
+consonants on to words that are very
+
+---------06:28----------
+hyper abbreviated now where is pp 5 es 3
+
+---------06:32----------
+PP 5 es 3 it's here it says 5 volt 3.3
+
+---------06:36----------
+volt power supply and over here at the
+
+---------06:37----------
+end you can see PP 5 es 3 underscore reg
+
+---------06:41----------
+is the rail that is missing so it's
+
+---------06:42----------
+created by the left side now this is a
+
+---------06:44----------
+buck converter if you don't understand
+
+---------06:46----------
+what a buck converter is or how it works
+
+---------06:48----------
+again I have a video in the basic
+
+---------06:50----------
+electronics video series that tells you
+
+---------06:52----------
+exactly how a buck converter works what
+
+---------06:54----------
+it is I show you with pictures I
+
+---------06:56----------
+represent what's going on at every
+
+---------06:58----------
+single individual point if you don't
+
+---------06:59----------
+know what a buck converter is I would
+
+---------07:01----------
+suggest you pause this video at this
+
+---------07:02----------
+time and move on to the video where I
+
+---------07:04----------
+explain what a buck converter is if you
+
+---------07:07----------
+don't know what is enabling pp5 es3 when
+
+---------07:10----------
+you can do is you can take the name of
+
+---------07:12----------
+the chip which is included right over
+
+---------07:13----------
+here and I can google that and let's see
+
+---------07:16----------
+if we can get a datasheet for the chip
+
+---------07:18----------
+so here we go we're getting a datasheet
+
+---------07:21----------
+so now I'm not interested in most of
+
+---------07:24----------
+this what I'm interested in is the pin
+
+---------07:25----------
+out where it's going to tell me what
+
+---------07:26----------
+each individual pin does I don't care
+
+---------07:28----------
+about this whole operating temperature
+
+---------07:30----------
+and all of this engineering mumbo-jumbo
+
+---------07:32----------
+that's not for us
+
+---------07:34----------
+that's for designers I'm interested in
+
+---------07:37----------
+is this okay what pin does what what pin
+
+---------07:40----------
+does what there we go en 1 & en 2
+
+---------07:47----------
+channel 1 in channel 2 switched-mode
+
+---------07:50----------
+power supply enable pins because that is
+
+---------07:53----------
+what a buck converter is switched-mode
+
+---------07:54----------
+power supply when turning on apply
+
+---------07:56----------
+greater than 0.5 volts in less than 6
+
+---------07:58----------
+volts to connect to ground to disable so
+
+---------08:03----------
+en 1 and e n2
+
+---------08:04----------
+let's go back to my schematic over here
+
+---------08:07----------
+now on the right you see en 1 and that's
+
+---------08:10----------
+on the side of pp 3 B 3 on the left you
+
+---------08:13----------
+see Ian Noctor on the right you see en 2
+
+---------08:17----------
+which is on the side of pp 3 B 3 on the
+
+---------08:20----------
+left you see en 1 which is on the side 4
+
+---------08:23----------
+PP 5v which enable do you think is the
+
+---------08:26----------
+one that we're looking for do you think
+
+---------08:28----------
+this is channel 1 or do you think this
+
+---------08:29----------
+is channel 1 I'm pretty sure that the
+
+---------08:31----------
+left side is channel 1 because the left
+
+---------08:33----------
+enable is on the left side which is
+
+---------08:36----------
+where PP 5 es 3 is so en 1 is probably
+
+---------08:38----------
+what I'm looking for so let's follow
+
+---------08:40----------
+this line a little bit and see where
+
+---------08:43----------
+this is coming from
+
+---------08:44----------
+now unfortunately during 2008 and a
+
+---------08:47----------
+little bit of early 2009 the schematics
+
+---------08:49----------
+were written by people who are you know
+
+---------08:52----------
+kind of high on marijuana so you can
+
+---------08:54----------
+see that they decided instead of drawing
+
+---------08:56----------
+a line that they just decided to draw a
+
+---------08:58----------
+box this is some kind of you know hippie
+
+---------09:01----------
+existentialist movement you know like
+
+---------09:03----------
+yeah man why is a signal gotta like go
+
+---------09:07----------
+to places man like why can't it just
+
+---------09:10----------
+circle around and become one with itself
+
+---------09:12----------
+now I know this is [ __ ] confusing I'm
+
+---------09:15----------
+sorry on behalf of whatever hippy Apple
+
+---------09:17----------
+engineer was roasted the day that they
+
+---------09:19----------
+decided to do this but here see where it
+
+---------09:22----------
+says in this is the signal that is going
+
+---------09:25----------
+to enable one I know it's hard to
+
+---------09:26----------
+[ __ ] tell but and the other
+
+---------09:27----------
+schematics it's not because they didn't
+
+---------09:29----------
+have crackheads doing it that day p5 vs
+
+---------09:32----------
+3e n remember what I said to save time I
+
+---------09:35----------
+don't check the every single thing along
+
+---------09:38----------
+the way I checked the front of the
+
+---------09:40----------
+circuit and the back of the circuit so
+
+---------09:42----------
+I've already checked over here I don't
+
+---------09:44----------
+have 5 volts I'm not going to check this
+
+---------09:46----------
+now I want to see where this [ __ ] comes
+
+---------09:47----------
+from because I don't want to waste my
+
+---------09:49----------
+time on everything in between I'm not
+
+---------09:51----------
+gonna taste my time checking that I'm
+
+---------09:54----------
+not gonna waste my time checking this
+
+---------09:55----------
+resistor let's see now I'm gonna try to
+
+---------09:58----------
+figure out where this ends so p.m. sleep
+
+---------10:00----------
+s 4 L is going to create that through
+
+---------10:02----------
+this resistor I'm not even gonna check
+
+---------10:03----------
+that resistor yet I'm not gonna check
+
+---------10:05----------
+this signal I'm going to check where
+
+---------10:07----------
+this begins we've checked the end I'll
+
+---------10:10----------
+lower the volume [ __ ] sake so p.m. sleep
+
+---------10:14----------
+s4l that comes from mCP 79 which is the
+
+---------10:19----------
+big chip in the center of the
+
+---------10:20----------
+motherboard which must mean that that
+
+---------10:22----------
+chip is dead right I need to reball it I
+
+---------10:25----------
+need to replace it I need to reflow it
+
+---------10:28----------
+with a heat gun like they tell me on all
+
+---------10:30----------
+these dumbass websites because that chip
+
+---------10:32----------
+on this board is also the GPU and all
+
+---------10:34----------
+these people they put towels on it and
+
+---------10:36----------
+they fixed it with towels or with heat
+
+---------10:38----------
+guns because that's the or ovens and
+
+---------10:39----------
+reflow ovens and this is where you guys
+
+---------10:42----------
+you've got to stop that [ __ ] because
+
+---------10:45----------
+you're giving our industry a reputation
+
+---------10:47----------
+as people who don't have a brain who
+
+---------10:49----------
+can't think and it's it's just very very
+
+---------10:53----------
+bad the way I actually wound up figuring
+
+---------10:55----------
+out what's really wrong with this board
+
+---------10:56----------
+is I was actually I thought it was a
+
+---------10:59----------
+bios issue because the BIOS controls the
+
+---------11:01----------
+mCP 79 or in this case for the SPI ROM
+
+---------11:04----------
+so I would replace BIOS
+
+---------11:07----------
+and it would work but then it would stop
+
+---------11:09----------
+working you want to work and then would
+
+---------11:10----------
+stop working and the BIOS is right over
+
+---------11:13----------
+here the problem with this board is
+
+---------11:15----------
+right over here so what I was actually
+
+---------11:16----------
+doing is I was heating the section that
+
+---------11:18----------
+is heating around the section with the
+
+---------11:20----------
+problem and the component that was dead
+
+---------11:22----------
+would come back to life for a second and
+
+---------11:24----------
+I'm gonna show you how he figured out
+
+---------11:25----------
+what component that is so MC P 79 is not
+
+---------11:28----------
+putting out a signal that it's supposed
+
+---------11:29----------
+to put out so let's see something here
+
+---------11:31----------
+so instead of assuming that the mCP is
+
+---------11:33----------
+dead how about we check and see if the
+
+---------11:35----------
+mCP actually has power to turn on so
+
+---------11:38----------
+we're gonna go back to that page that
+
+---------11:39----------
+lists all the power rails inside the
+
+---------11:41----------
+machine and let's see what here is
+
+---------11:43----------
+probably going to the mCP so where we
+
+---------11:46----------
+are we're not making it to an S 5 s3
+
+---------11:49----------
+state we're not making it to an s3 State
+
+---------11:50----------
+so I'm not gonna check the s oh where
+
+---------11:52----------
+else I know they're not there because
+
+---------11:52----------
+we're not even in s3 I'm not gonna check
+
+---------11:55----------
+this at the moment not this at the
+
+---------11:57----------
+moment so we go down the list of rails
+
+---------11:58----------
+down the list of rails and we're gonna
+
+---------12:04----------
+get to one that is interesting because
+
+---------12:07----------
+it's one that's responsible for the mCP
+
+---------12:10----------
+to be working P P 1 vo 5 s 5 MC P right
+
+---------12:15----------
+this rail this thing right here
+
+---------12:27----------
+this is also a buck converter so let's
+
+---------12:30----------
+see what we have here so this is gonna
+
+---------12:31----------
+be one point zero five volts that goes
+
+---------12:34----------
+to the mCP and we can check that right
+
+---------12:38----------
+over here around this coil el seven
+
+---------12:41----------
+seven seven zero now let's see what
+
+---------12:43----------
+happens on the multimeter voltage mode
+
+---------12:47----------
+we get this back on zero point three one
+
+---------12:55----------
+five volts now that doesn't seem like
+
+---------12:58----------
+one point zero five volts to me now if
+
+---------13:02----------
+you take a look at that area let's think
+
+---------13:04----------
+about this logically let's think about
+
+---------13:06----------
+what is likely to go wrong when there's
+
+---------13:08----------
+no liquid damage on the board when
+
+---------13:10----------
+there's no / signs of overheating
+
+---------13:12----------
+because keep in mind this is a machine
+
+---------13:13----------
+that actually runs pretty cool the
+
+---------13:15----------
+graphics card that comes with it is not
+
+---------13:17----------
+the way too powerful way to a hot for
+
+---------13:20----------
+the cooling system that Apple is used to
+
+---------13:21----------
+putting in these machines it's something
+
+---------13:23----------
+that's actually appropriate so what in
+
+---------13:25----------
+this area is going to go bad for no
+
+---------13:28----------
+apparent reason or what component has
+
+---------13:30----------
+the reputation for going bad for no
+
+---------13:33----------
+apparent reason so if I switch over to
+
+---------13:34----------
+the microscope camera and you look
+
+---------13:36----------
+around you can see there's no real
+
+---------13:38----------
+liquid damage there's no physical damage
+
+---------13:40----------
+there's no damage in terms of something
+
+---------13:43----------
+exploding or a shock or over voltage or
+
+---------13:46----------
+anything like that there's no evidence
+
+---------13:48----------
+of any of that but we do have a
+
+---------13:49----------
+capacitor over here and here's where I
+
+---------13:51----------
+want to get it now I'm gonna get into
+
+---------13:54----------
+what what Apple did wrong so they ran
+
+---------13:56----------
+out of space over here they ran out of
+
+---------13:58----------
+space and what you may notice is that
+
+---------14:00----------
+these over here these 330 micro farad
+
+---------14:04----------
+capacitors are large whereas this one is
+
+---------14:07----------
+tiny not only is this one tiny but it's
+
+---------14:10----------
+also really really expensive and that is
+
+---------14:14----------
+that is an issue so it increases the
+
+---------14:15----------
+cost of the board and it also it doesn't
+
+---------14:18----------
+last as long now one thing I want you to
+
+---------14:20----------
+understand is that this is an s5 rail so
+
+---------14:22----------
+this being an s5 rail means that it's
+
+---------14:24----------
+going to be on all the time so that
+
+---------14:27----------
+little cap is going to be working all
+
+---------14:29----------
+the time if the computers plugged in
+
+---------14:31----------
+it'll be working if the computers not
+
+---------14:33----------
+plugged in but the battery is there it
+
+---------14:35----------
+will be working even if the battery is
+
+---------14:37----------
+too low to provide power for the
+
+---------14:39----------
+computer to turn on that
+
+---------14:41----------
+we'll still be working so what's OPP
+
+---------14:43----------
+buzz g3 had instead of being 8.4 volts
+
+---------14:45----------
+because the battery is dead it's at 8
+
+---------14:47----------
+volts or 7.9 two-bit that buck converter
+
+---------14:50----------
+is still gonna be working it may not be
+
+---------14:52----------
+making 1.0 5 volts may be making one
+
+---------14:54----------
+point zero four zero three but still
+
+---------14:56----------
+that thing is working all the time so
+
+---------14:59----------
+for something that's gonna be working in
+
+---------15:00----------
+on all the time you're gonna want to use
+
+---------15:02----------
+a component that is going to be able to
+
+---------15:04----------
+stand up to that level of abuse not one
+
+---------15:07----------
+single little tantalum capacitor that is
+
+---------15:10----------
+too small for the job at hand that has
+
+---------15:12----------
+that that doesn't have anything in
+
+---------15:14----------
+parallel to help it out and that's the
+
+---------15:17----------
+problem that we encounter here and this
+
+---------15:19----------
+is why a lot of the 2008 and 2009
+
+---------15:21----------
+unibody boards die a random death just
+
+---------15:25----------
+just out of nowhere again no water no
+
+---------15:27----------
+drop no no over voltage no knockoff
+
+---------15:30----------
+charger it just dies and for all of you
+
+---------15:33----------
+saying that there was no recall in 2008
+
+---------15:35----------
+and 2009
+
+---------15:36----------
+you are right Apple didn't have a recall
+
+---------15:39----------
+for unibody Zin that year in unlike
+
+---------15:41----------
+again they had the 2007 and 8 pre
+
+---------15:45----------
+unibody recall they at the 2010 graphics
+
+---------15:47----------
+recall 2011 graphics recall 2012
+
+---------15:50----------
+graphics recall recently the Mac Pro
+
+---------15:53----------
+2013 graphics recall but this [ __ ]
+
+---------15:55----------
+should have been a recall this should
+
+---------15:58----------
+have been an extended warranty now you I
+
+---------15:59----------
+know what you're thinking you may be
+
+---------16:00----------
+looking at me and saying Louis it's 2016
+
+---------16:03----------
+of course [ __ ] from 2008 is gonna be
+
+---------16:05----------
+[ __ ] dim the thing is this [ __ ] was
+
+---------16:07----------
+dying in 2010 the [ __ ] was dying in 2011
+
+---------16:10----------
+this was dying in 2012-2013 it's been
+
+---------16:12----------
+dying for a very long time and Apple
+
+---------16:15----------
+managed to weasel their way out of
+
+---------16:16----------
+supporting their customers here and if
+
+---------16:18----------
+you look at let's say C 95 60 on the 8 -
+
+---------16:23----------
+0 - 28 50 board you may get a some bit
+
+---------16:27----------
+of understanding as to why that board
+
+---------16:30----------
+has graphics chip issues tell me if
+
+---------16:32----------
+anything looks similar to you tell me if
+
+---------16:35----------
+anything looks familiar to you from what
+
+---------16:37----------
+you see on this board a lot of people on
+
+---------16:40----------
+forums have been driving themselves
+
+---------16:42----------
+crazy trying to figure this out I know
+
+---------16:44----------
+you know duco from from Netherlands was
+
+---------16:47----------
+one of them who just thought you know
+
+---------16:48----------
+you thought that these boards were all
+
+---------16:49----------
+trashed for a very long period of time
+
+---------16:51----------
+and he's very good at pattern
+
+---------16:53----------
+recognition he's amazing at pattern
+
+---------16:54----------
+ignition he's great at just general
+
+---------16:56----------
+basic logic and common sense and good at
+
+---------16:58----------
+like distilling the stuff down into
+
+---------16:59----------
+common sense and then one day he looks
+
+---------17:01----------
+at this board at that cap and then he
+
+---------17:04----------
+looks at the 2850 board and he sees that
+
+---------17:06----------
+cap and he thinks to himself wait a
+
+---------17:09----------
+second and bada-bing the 2850 boards are
+
+---------17:14----------
+no longer useless crap you know pretty
+
+---------17:17----------
+cool stuff I actually hope to be opening
+
+---------17:20----------
+a question and answer forum soon where
+
+---------17:22----------
+you're gonna have access to people like
+
+---------17:24----------
+that who will be able to answer these
+
+---------17:25----------
+questions to a high standard of quality
+
+---------17:27----------
+for you and I'm you know that's
+
+---------17:29----------
+something that I'm excited about
+
+---------17:31----------
+hopefully that goes well so back to what
+
+---------17:33----------
+we were doing so the proper thing to do
+
+---------17:34----------
+here is to put a non tantalum capacitor
+
+---------17:36----------
+there so that this [ __ ] will actually
+
+---------17:38----------
+work and that's going to be the fun part
+
+---------17:40----------
+because we have to do a little bit of
+
+---------17:41----------
+moving around because the non tantalum
+
+---------17:43----------
+capacitor is going to be considerably
+
+---------17:46----------
+larger in size so fitting it into that
+
+---------17:48----------
+space is going to be a bit of a mess but
+
+---------17:51----------
+so a little bit of relocating you know
+
+---------17:54----------
+nothing crazy just a bit of Rila you
+
+---------17:57----------
+know it's been a mood just a bit of
+
+---------17:58----------
+housecleaning so let's see what we have
+
+---------18:02----------
+to do here first things first this these
+
+---------18:07----------
+are large components on a multi-layer
+
+---------18:09----------
+PCB so I got to turn the temperature up
+
+---------18:11----------
+a little bit here
+
+---------18:22----------
+Apple by the way never solved that
+
+---------18:24----------
+problem when they would fix those boards
+
+---------18:27----------
+they were still kernel panicking so a
+
+---------18:29----------
+lot of people will say you know
+
+---------18:30----------
+authorized repair is the only way to go
+
+---------18:33----------
+when Apple failed to figure out what was
+
+---------18:35----------
+wrong with those boards some random dude
+
+---------18:38----------
+who fixes the stuff out of his home did
+
+---------18:43----------
+just something to be thinking about if
+
+---------18:45----------
+you're one of those trolls who always
+
+---------18:47----------
+talks about a authorized repair can't
+
+---------18:49----------
+figure [ __ ] out again an unauthorized
+
+---------18:51----------
+person who does this like as a hobby out
+
+---------18:55----------
+of his house managed to figure out [ __ ]
+
+---------18:58----------
+that Apple's entire engineering
+
+---------19:00----------
+department looked over just something to
+
+---------19:03----------
+think about here okay now we're gonna
+
+---------19:09----------
+make some room made a little bit of room
+
+---------19:12----------
+there and now we're gonna remove this
+
+---------19:13----------
+capacitor
+
+---------19:23----------
+okay we take that out of the way let's
+
+---------19:27----------
+get rid of some of that old led a
+
+---------19:29----------
+lead-free solder first thing I'm gonna
+
+---------19:31----------
+do here let's add some leaded to make it
+
+---------19:36----------
+easier to get rid of my iron doesn't
+
+---------19:40----------
+want to get hot it's a lazy Sunday lazy
+
+---------19:48----------
+Sunday here at work one thing I love
+
+---------19:53----------
+about this JBC is I can actually turn it
+
+---------19:55----------
+off when I'm done and turn it back on
+
+---------19:56----------
+I don't like with the with the I like
+
+---------19:58----------
+the hakko and I like the WH a 900 but
+
+---------20:01----------
+the thing is it takes so long for that
+
+---------20:02----------
+[ __ ] to heat up that you turn it on when
+
+---------20:04----------
+you start your workday and you turn it
+
+---------20:07----------
+off when you're done with your workday
+
+---------20:08----------
+like that that's really the way that
+
+---------20:11----------
+works some you can't if you actually
+
+---------20:13----------
+expect that you can turn that thing off
+
+---------20:15----------
+and then turn it back on and have a
+
+---------20:17----------
+productive work day it's impossible
+
+---------20:18----------
+because I like the well or WH a 900 but
+
+---------20:21----------
+the amount of time it takes to get the
+
+---------20:22----------
+temperature is just absolutely
+
+---------20:24----------
+ridiculous I mean maybe if you're
+
+---------20:26----------
+working on stuff that that doesn't
+
+---------20:28----------
+really that doesn't require a high
+
+---------20:32----------
+temperature it's good but if you're
+
+---------20:33----------
+working on stuff like this you know
+
+---------20:35----------
+again you're gonna notice that thing
+
+---------20:36----------
+takes forever I got a little bit of dust
+
+---------20:38----------
+on the board along with the flux I guess
+
+---------20:41----------
+I'll have to live with it I also scraped
+
+---------20:42----------
+very hard and you may think that's a bad
+
+---------20:44----------
+thing that I shouldn't have done again
+
+---------20:46----------
+but you'll see like again what I'm gonna
+
+---------20:48----------
+be doing to this board to make it work
+
+---------20:50----------
+is so ridiculous that what I did right
+
+---------20:55----------
+here is really of no consequence in the
+
+---------20:58----------
+greater scheme of things usually you
+
+---------21:00----------
+actually are scraping in order to fit
+
+---------21:02----------
+the larger capacitor in I'm doing my
+
+---------21:04----------
+best to not heat up that dust and crap
+
+---------21:06----------
+because I don't want it to get inside my
+
+---------21:07----------
+solder joint get out of here so now what
+
+---------21:11----------
+I'm going to do is is fine myself for
+
+---------21:15----------
+330 microfarad capacitor that is not
+
+---------21:19----------
+made of tantalum that I'm gonna put in
+
+---------21:21----------
+that space and once I do that this will
+
+---------21:25----------
+be set and working as soon as I find the
+
+---------21:30----------
+board that actually has one left let's
+
+---------21:33----------
+see
+
+---------21:35----------
+oh I have one left in the spool
+
+---------21:37----------
+beautiful I have one left in the spool
+
+---------21:40----------
+and there's no need for theft
+
+---------21:51----------
+I went through an entire spool of this
+
+---------21:53----------
+already
+
+---------22:16----------
+this is so ghetto let's see which way
+
+---------22:22----------
+would this be better suited
+
+---------22:46----------
+yeah some [ __ ] like this let's move it
+
+---------22:50----------
+out of the way of that coil yeah I know
+
+---------22:53----------
+what you're thinking unprofessional
+
+---------22:55----------
+you know it's unprofessional designing a
+
+---------22:58----------
+board that's made to die so don't don't
+
+---------23:01----------
+give me that [ __ ]
+
+---------23:09----------
+Apple gave me enough room on the circuit
+
+---------23:11----------
+board I would be more than happy to fix
+
+---------23:13----------
+this quote-unquote
+
+---------23:14----------
+properly but they didn't what do you
+
+---------23:17----------
+want from me seriously
+
+---------23:19----------
+you want me to put another tantalum one
+
+---------23:21----------
+on there that's gonna die in a month I
+
+---------23:25----------
+often talk about reputation in this
+
+---------23:27----------
+industry and you know in doing things
+
+---------23:30----------
+that are gonna last and doing things
+
+---------23:32----------
+that you can actually feel good about
+
+---------23:33----------
+you know I want the [ __ ] that I do has
+
+---------23:36----------
+to actually work that's the last and I
+
+---------23:42----------
+talked about decreased consumer
+
+---------23:43----------
+confidence in repair because you have a
+
+---------23:45----------
+lot of idiots that go around you know
+
+---------23:47----------
+doing stupid [ __ ]
+
+---------23:49----------
+it's like reflowing graphics chips and
+
+---------23:52----------
+blood giving it back to people with
+
+---------23:56----------
+30-day warrantee and it dying and you
+
+---------23:58----------
+know that's gonna make people less
+
+---------24:00----------
+likely to fix stuff I'm not gonna I'm
+
+---------24:03----------
+not gonna put a tantalum one there just
+
+---------24:04----------
+cuz it looks nice it's gonna die
+
+---------24:14----------
+yeah I can actually get a better fit if
+
+---------24:16----------
+I just it's the first thing to do here
+
+---------24:19----------
+at us
+
+---------24:31----------
+I mean the technical I mean if you
+
+---------24:33----------
+really wanted to get into the
+
+---------24:34----------
+professionalism of what I'm doing
+
+---------24:36----------
+technically yeah this is probably less
+
+---------24:38----------
+less structurally sound in terms of if
+
+---------24:41----------
+you dropped it from the top of a
+
+---------24:43----------
+building like would it still work kind
+
+---------24:45----------
+of thing because you I'm you you know
+
+---------24:47----------
+the component is too big for the pads
+
+---------24:49----------
+and over here I have the component a
+
+---------24:51----------
+coil it's soldered so let's say half of
+
+---------24:53----------
+the pad so you're right there but at the
+
+---------24:55----------
+same time you know it's compromised like
+
+---------24:58----------
+what's if somebody drops this off of the
+
+---------25:01----------
+top of a building it's going to be dead
+
+---------25:02----------
+anyway so it might have you know might
+
+---------25:05----------
+as well have it so that for the people
+
+---------25:07----------
+who don't decide to drop it off the top
+
+---------25:08----------
+of a building it will actually work
+
+---------25:11----------
+right so first things first here we're
+
+---------25:17----------
+gonna put that coil back on but first I
+
+---------25:22----------
+want to make sure that that could pass
+
+---------25:23----------
+the capacitor to solder ball growing on
+
+---------25:25----------
+the side of it that I wasn't fond of the
+
+---------25:27----------
+reason I'm redoing that is because what
+
+---------25:29----------
+i'm doing here is like with the what was
+
+---------25:35----------
+i saying
+
+---------25:44----------
+because there was a solder ball right on
+
+---------25:46----------
+the side of the capacitor that I
+
+---------25:47----------
+couldn't get to but also again if I'm
+
+---------25:48----------
+gonna have the if I'm going to have the
+
+---------25:51----------
+the coil soldered to half of the pads at
+
+---------25:54----------
+the very least it would be nice if I
+
+---------25:57----------
+could do that with you know some fresh
+
+---------26:01----------
+solder joint instead of a seven-year-old
+
+---------26:03----------
+solder joint that I just semi refloat
+
+---------26:06----------
+with no flux
+
+---------27:07----------
+I could definitely move that over a
+
+---------27:09----------
+little bit
+
+---------27:42----------
+okay now that that is done now I'm just
+
+---------27:45----------
+gonna move the capacitor up a tiny bit
+
+---------27:49----------
+get it right where I want it
+
+---------28:02----------
+so there you have it nicely
+
+---------28:09----------
+yeah nice crooked board everything that
+
+---------28:13----------
+I do is crooked so I mean they've in
+
+---------28:15----------
+terms of you know aligning stuff fits
+
+---------28:17----------
+it's almost kind of like my warranty
+
+---------28:19----------
+sticker at this point so I'm okay with
+
+---------28:21----------
+that
+
+---------28:25----------
+okay we swing this back into place if
+
+---------28:29----------
+you're thinking of getting the
+
+---------28:29----------
+articulating stand do realize that it
+
+---------28:31----------
+moves around constantly when you have
+
+---------28:33----------
+here if somebody's walking down the room
+
+---------28:36----------
+down the hall you're gonna have it shake
+
+---------28:38----------
+all the time the articulating boom stand
+
+---------28:40----------
+drives me nuts so what I do is I have
+
+---------28:41----------
+the non articulating one but I just keep
+
+---------28:44----------
+the knobs semi loose and I can just
+
+---------28:45----------
+swing it to the side and push it out of
+
+---------28:47----------
+my way I strongly recommend not getting
+
+---------28:49----------
+the articulating boom because it'll
+
+---------28:50----------
+drive you nuts
+
+---------28:51----------
+watching Mark Schaefer try to do long
+
+---------28:54----------
+screw at practical board repair school
+
+---------28:56----------
+with that articulating microscope is the
+
+---------28:58----------
+funniest [ __ ] okay so let's see what I
+
+---------29:02----------
+get now on the multimeter so I'm going
+
+---------29:03----------
+to move it back to voltage mode I had it
+
+---------29:05----------
+in in ohms just so that I could see that
+
+---------29:08----------
+is there were three there were three
+
+---------29:11----------
+pads on that capacitor I just wanted to
+
+---------29:13----------
+see which ones were same so I wouldn't
+
+---------29:17----------
+short my circuit to ground one point one
+
+---------29:20----------
+zero one it's not one point zero five
+
+---------29:23----------
+but it's definitely closer to one point
+
+---------29:24----------
+zero five then 0.316 --is alright so now
+
+---------29:30----------
+if I short the power pads on that same
+
+---------29:33----------
+board what do you know the fan spins
+
+---------29:37----------
+which as I like the joke on this channel
+
+---------29:40----------
+means that I'm done totally done so yeah
+
+---------29:45----------
+that's that and I hope you learned
+
+---------29:47----------
+something you can join the forum that's
+
+---------29:50----------
+going to be in the link in a description
+
+---------29:51----------
+it's going to be a $30 a month
+
+---------29:53----------
+membership if you would like to be able
+
+---------29:55----------
+to ask questions on this stuff and get
+
+---------29:57----------
+answers from people with equal or more
+
+---------29:59----------
+knowledge than myself
+
+---------30:00----------
+we also teach an in-person tutoring
+
+---------30:03----------
+class at the store where we go over this
+
+---------30:05----------
+stuff one-on-one so if you want to learn
+
+---------30:07----------
+more about motherboard repair and you're
+
+---------30:10----------
+not really getting what you need to get
+
+---------30:11----------
+out of the videos you can come here I'm
+
+---------30:13----------
+gonna have a link to that as well and if
+
+---------30:15----------
+you don't want to spend
+
+---------30:16----------
+a dime you would rather die than see me
+
+---------30:19----------
+get like a nickel of your money then you
+
+---------30:21----------
+can watch these videos which are
+
+---------30:23----------
+completely free I have over a hundred
+
+---------30:25----------
+videos and instructional content on
+
+---------30:27----------
+component-level motherboard repair and
+
+---------30:28----------
+it's all free so that you can learn how
+
+---------30:30----------
+to do this stuff and hope you learned
+
+---------30:33----------
+something
+

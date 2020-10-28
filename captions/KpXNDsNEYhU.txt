@@ -1,0 +1,1144 @@
+https://www.youtube.com/watch?v=KpXNDsNEYhU
+---------00:03----------
+all right so today we're gonna be
+
+---------00:07----------
+working on an a 1502 that probably turns
+
+---------00:11----------
+on that at this rate this is the fourth
+
+---------00:15----------
+one in this room so I hope that this
+
+---------00:17----------
+doesn't turn on if this one also turns
+
+---------00:19----------
+on then [ __ ] it I'm just quitting and
+
+---------00:21----------
+going home for the day there's only so
+
+---------00:23----------
+many machines I can get where it says no
+
+---------00:25----------
+power I open it up I take everything out
+
+---------00:27----------
+and it already works before I just start
+
+---------00:29----------
+to feel like I'm just useless so let's
+
+---------00:31----------
+open the bottom of this machine and see
+
+---------00:33----------
+if it is turning on or not for those of
+
+---------00:37----------
+you who are confused what I say when I
+
+---------00:39----------
+said that on stream I do have a live
+
+---------00:41----------
+channel as well I record my live streams
+
+---------00:44----------
+in a higher quality and then I edit out
+
+---------00:46----------
+the interesting tidbits for the main
+
+---------00:48----------
+channel but if you'd like to watch all
+
+---------00:50----------
+the stuff that I record and post even
+
+---------00:52----------
+the boring crappy shitty outtakes you
+
+---------00:54----------
+can check out the Louis rossmann random
+
+---------00:57----------
+live Channel
+
+---------00:58----------
+let's open this up just if this returns
+
+---------01:00----------
+on I'm just gonna I'm gonna break it see
+
+---------01:02----------
+for you in a little bits and pieces and
+
+---------01:03----------
+leave it for fall I'm gonna rip the PM
+
+---------01:06----------
+sleep s4l right out of this board and
+
+---------01:07----------
+donate it to a board that actually needs
+
+---------01:09----------
+it so here it's going from 20 milliamps
+
+---------01:12----------
+to 60 20 to 60 20 to 60 now what this
+
+---------01:15----------
+tells us here when you see that the mill
+
+---------01:18----------
+amps are going from 20 70 26 to 26 to
+
+---------01:21----------
+2060 with this number tells me up here
+
+---------01:24----------
+is that it's power cycling it's trying
+
+---------01:25----------
+to turn on it's failing to turn on
+
+---------01:27----------
+usually because one of the rails is
+
+---------01:29----------
+shorted so our job here is gonna be to
+
+---------01:30----------
+figure out which rail that is that is
+
+---------01:32----------
+shorted so let's switch over to the
+
+---------01:34----------
+schematic and the board view and we're
+
+---------01:36----------
+going to see using Paul Daniels as
+
+---------01:38----------
+lovely software here if we can find the
+
+---------01:40----------
+page that lists all the different power
+
+---------01:42----------
+rails then we're gonna go through them
+
+---------01:45----------
+methodically and figure out which one is
+
+---------01:48----------
+there which one is missing
+
+---------01:52----------
+which one is shorted now P B 3 B 4 to
+
+---------01:55----------
+underscore g3 hot needs to be present in
+
+---------01:57----------
+order if you to get a light in the
+
+---------01:58----------
+charger we do get a light in the charger
+
+---------01:59----------
+so I don't need to check for that
+
+---------02:00----------
+there's other rails I also don't need to
+
+---------02:01----------
+check for like PPD CM p p3 p p3 p4 2
+
+---------02:06----------
+needs to be present have a light in the
+
+---------02:07----------
+charger and obviously in order to have
+
+---------02:08----------
+53 before 2 you have to have the DCM so
+
+---------02:11----------
+in order for a board voltage to be
+
+---------02:13----------
+present on this
+
+---------02:13----------
+worth it needs to be getting power from
+
+---------02:15----------
+the DCN this has to be present before
+
+---------02:17----------
+anything on here can work so that I
+
+---------02:19----------
+already know you know before doing any
+
+---------02:21----------
+other work is present so now we got to
+
+---------02:24----------
+do is go through the rest of this board
+
+---------02:26----------
+and see what we have about it hmm yeah
+
+---------02:31----------
+good boy yeah next up is gonna be our
+
+---------02:35----------
+beeping bus beeping bus g3 hard to look
+
+---------02:40----------
+at ppbut g3 hard over here see what we
+
+---------02:42----------
+get 13 volts let's just fix the range on
+
+---------02:48----------
+this meter so that it's more accurate
+
+---------02:51----------
+12.5 at twelve point zero twelve point
+
+---------02:54----------
+six to three volts 50 bus g3 Honda's
+
+---------02:56----------
+good SMC's working
+
+---------02:57----------
+thank you very much prodigy I appreciate
+
+---------03:00----------
+that PPV RTC is present now you're a
+
+---------03:04----------
+busy but any news in the 1 million
+
+---------03:05----------
+subscriber party location 1 million
+
+---------03:07----------
+subscribers is not coming for longer
+
+---------03:09----------
+than I thought
+
+---------03:10----------
+we're only getting a few hundred a day
+
+---------03:11----------
+now so I have some time to think about
+
+---------03:13----------
+it I have nope we're gonna do two
+
+---------03:15----------
+parties I think what we're gonna do is
+
+---------03:17----------
+one that we're gonna have one on the day
+
+---------03:20----------
+that we actually hit a million it's
+
+---------03:21----------
+gonna be a come it's gonna be a meetup
+
+---------03:22----------
+group that I arranged spontaneously it's
+
+---------03:25----------
+not something I can be pre-planned cuz I
+
+---------03:27----------
+don't know what day it's gonna be
+
+---------03:28----------
+probably at an arcade around here and
+
+---------03:29----------
+then there's gonna be an official 1
+
+---------03:31----------
+million subscriber party I have no idea
+
+---------03:33----------
+we're gonna hold that one just yet
+
+---------03:34----------
+that's gonna be one where we announce
+
+---------03:35----------
+the date in advance and we give people a
+
+---------03:38----------
+chance to make plans and show up but
+
+---------03:40----------
+that's so we're gonna have two separate
+
+---------03:42----------
+ones all right next up PPP RTC is there
+
+---------03:46----------
+we're gonna check out PP 5vs5
+
+---------03:48----------
+which can be found down here
+
+---------03:55----------
+it's five volts and going on and off
+
+---------04:00----------
+look at that what's going on going off
+
+---------04:05----------
+going on going off now let's take a look
+
+---------04:09----------
+at that area on the schematic and the
+
+---------04:10----------
+board view now shall we this over here
+
+---------04:12----------
+is our five volt regulator now this chip
+
+---------04:18----------
+is responsible for creating three
+
+---------04:19----------
+different rails PP 3 B 3 S 5
+
+---------04:22----------
+it creates PP 5 vs 3 and it also creates
+
+---------04:27----------
+PP 5 v s 5 l do so I checked BP 5 vs 5 l
+
+---------04:33----------
+do and it's pumping up and down so the
+
+---------04:34----------
+first thing I want to do there is see if
+
+---------04:36----------
+there's a short 2 grounds on that rail
+
+---------04:38----------
+probably not but you never know let's
+
+---------04:41----------
+just see if there is no short to ground
+
+---------04:45----------
+15 million ohms that is far from a short
+
+---------04:47----------
+now what you have to keep in mind is
+
+---------04:49----------
+that this chip is responsible for 3
+
+---------04:50----------
+rails so even if the rail that is that
+
+---------04:55----------
+it's jumping up and down is not shorted
+
+---------04:57----------
+the chip could still be to blame if one
+
+---------04:58----------
+of its other rails are shorted so we're
+
+---------05:00----------
+going to check out and see what's
+
+---------05:01----------
+presents at PP 5 vs 3 let's see if that
+
+---------05:05----------
+rail is shorted because if any of these
+
+---------05:07----------
+rails are shorted then everything this
+
+---------05:09----------
+chip does is not gonna work so imagine
+
+---------05:11----------
+this chip over here the TPS 509 8 0 is
+
+---------05:14----------
+responsible for 3 power rails so even if
+
+---------05:17----------
+one of those power rails is shorted it
+
+---------05:19----------
+doesn't mean all of them are going to
+
+---------05:22----------
+not work properly because the chip is
+
+---------05:24----------
+getting hurt by it it's like oh it's
+
+---------05:25----------
+like being punched in the face over and
+
+---------05:27----------
+over again so if I were petting my kitty
+
+---------05:30----------
+with one hand and I was playing a video
+
+---------05:32----------
+game with the other hand if you stab my
+
+---------05:35----------
+left hand it's not just a video game I'm
+
+---------05:37----------
+playing that's going to be affected I'm
+
+---------05:38----------
+all I'm also not gonna be able to pet my
+
+---------05:40----------
+kitty anymore
+
+---------05:41----------
+even though you didn't stab my right
+
+---------05:42----------
+hands both of these hands share in
+
+---------05:44----------
+common that they're attached to a person
+
+---------05:45----------
+with the same brain and if this brain is
+
+---------05:47----------
+going I'm not gonna be able to do
+
+---------05:51----------
+anything and the same is true here the
+
+---------05:52----------
+reason that PP 5 es 5 is jumping even
+
+---------05:55----------
+though PP 5 es 3 is the rail that's
+
+---------05:56----------
+shorted is because they're both being
+
+---------05:58----------
+made by the same chip so now we have to
+
+---------06:00----------
+figure out why PP 5 es 3 is shorter
+
+---------06:02----------
+which means looking around the board for
+
+---------06:04----------
+all the things that it's a
+
+---------06:05----------
+- so I am going to load this up here
+
+---------06:08----------
+we're going to click on PP 5 es 3 and
+
+---------06:12----------
+now Paul Daniels is lovely software is
+
+---------06:14----------
+going to show me everywhere that it goes
+
+---------06:15----------
+and we're going to see if anything on
+
+---------06:17----------
+this line appears to be clearly and
+
+---------06:21----------
+obviously damaged so let's go for it
+
+---------06:25----------
+we're gonna have to find the short what
+
+---------06:27----------
+do I need to do basic logic board or
+
+---------06:29----------
+pairs the first thing you need is a
+
+---------06:30----------
+brain the second thing you need is a
+
+---------06:32----------
+soldering iron the third thing you need
+
+---------06:33----------
+is a hot air station and I'm probably
+
+---------06:36----------
+gonna have to inject voltage nothing is
+
+---------06:38----------
+getting obviously warm oh ohoh what's
+
+---------06:46----------
+this
+
+---------06:59----------
+I see something getting warm here is
+
+---------07:03----------
+there any PP v es3 over there is there
+
+---------07:08----------
+any PP v es3 over there there is not
+
+---------07:12----------
+there is a PP v ESO audio amp is over
+
+---------07:16----------
+there and PP v es 3 on this XW thin you
+
+---------07:29----------
+I think I know what it is it's going to
+
+---------07:33----------
+be this [ __ ] that's pulsing over here
+
+---------07:37----------
+see that when I hit the Chinese ium
+
+---------07:41----------
+button that's how you get the software
+
+---------07:44----------
+to show you the hottest point on the
+
+---------07:46----------
+board so is it this this is my tweezer I
+
+---------07:53----------
+think it's this let's see if that's what
+
+---------07:58----------
+it is I'm gonna remove that from the
+
+---------07:59----------
+board it's gonna unplug power for a
+
+---------08:01----------
+moment
+
+---------08:16----------
+now a part of the capacitor was left
+
+---------08:19----------
+behind after I removed it - check this
+
+---------08:21----------
+out
+
+---------08:21----------
+this is a hint see that see how the leg
+
+---------08:24----------
+of the capacitor is all broken off and
+
+---------08:26----------
+if you look over here you can see how
+
+---------08:29----------
+after I remove the capacitor it's not
+
+---------08:31----------
+just the leg stayed behind but there's
+
+---------08:32----------
+this brownish stuff over here this
+
+---------08:36----------
+section looks burned let me just get my
+
+---------08:41----------
+exposure up on my camera so see this
+
+---------08:46----------
+that's not your normal metal coloring
+
+---------08:49----------
+over there though it's burned and that
+
+---------08:50----------
+looks like a burn happened so that's
+
+---------08:52----------
+evidence that before I even do any other
+
+---------08:55----------
+work here that that was before I even
+
+---------08:57----------
+measured the multimeter to see if my
+
+---------08:58----------
+shorts removed I know that my shorts
+
+---------09:00----------
+removed because that looks like
+
+---------09:02----------
+something that would have been my shorts
+
+---------09:04----------
+so now these boards unlike many other PC
+
+---------09:07----------
+boards cool themselves very quickly
+
+---------09:09----------
+MacBooks have no cooling so it's very
+
+---------09:11----------
+very important that the MacBook Board be
+
+---------09:13----------
+able to absorb and dissipate ridiculous
+
+---------09:16----------
+amounts of heat because you can't trust
+
+---------09:18----------
+this little piece of [ __ ] heatsink and
+
+---------09:20----------
+fan setup if they have to do any work on
+
+---------09:22----------
+these machines this fan doesn't start
+
+---------09:24----------
+spinning on so you've gone into the 80
+
+---------09:25----------
+to 90 Celsius range it's on the newer
+
+---------09:28----------
+models I think 70 to 80 on the older
+
+---------09:29----------
+ones no update as I think I said 10
+
+---------09:32----------
+minutes ago but I appreciate it thank
+
+---------09:34----------
+you very much for the $1.99 no update
+
+---------09:36----------
+zero update pretty much where I was
+
+---------09:39----------
+before these spontaneous events will
+
+---------09:40----------
+probably be at AB arcade and then there
+
+---------09:42----------
+will be a second event after at a
+
+---------09:43----------
+predetermined at a to be determined
+
+---------09:45----------
+location this over here this fan does
+
+---------09:50----------
+this this heatsink does not really do
+
+---------09:51----------
+much this fan also does not really do
+
+---------09:54----------
+much so the board itself absorbs an
+
+---------09:56----------
+insane amount of heat so I can actually
+
+---------09:58----------
+turn this on right now you know it cools
+
+---------10:01----------
+off faster than most of the board's I am
+
+---------10:03----------
+going to turn the amperage readings on
+
+---------10:06----------
+on the strain and let's see if this
+
+---------10:08----------
+thing turns on as you can see it is
+
+---------10:10----------
+taking six hundred milliamps which means
+
+---------10:12----------
+that it is working now the fan is not
+
+---------10:14----------
+going to spin because what if people
+
+---------10:16----------
+donate it to a gfm and return they would
+
+---------10:18----------
+get their name printed on that glass
+
+---------10:20----------
+wall you plan on doing that's something
+
+---------10:22----------
+I'm considering honestly Bruna Brujo
+
+---------10:24----------
+now this fan is not going to spin on
+
+---------10:26----------
+this because this is a MacBook
+
+---------10:28----------
+this thing needs to get to like 70 80 90
+
+---------10:30----------
+degrees before this fan will do anything
+
+---------10:33----------
+but it is taking 500 milliamps which
+
+---------10:35----------
+means it is turning on which means that
+
+---------10:36----------
+we have cleared our short now I'm going
+
+---------10:38----------
+to replace that capacitor with another
+
+---------10:39----------
+capacitor and then this board will be
+
+---------10:41----------
+fixed and after that we will be ready to
+
+---------10:44----------
+do another board this please broke
+
+---------10:46----------
+camera is pleased and pleasing it is
+
+---------10:49----------
+these broke cameras actually did not
+
+---------10:51----------
+didn't do a bad job today and usually to
+
+---------10:53----------
+find this short I have to inject voltage
+
+---------10:55----------
+in on this one the short was actually
+
+---------10:57----------
+showing up without me showing voltage in
+
+---------10:59----------
+even though the power rail was turning
+
+---------11:01----------
+on and off and on and off and on and off
+
+---------11:02----------
+in power cycling even though it was
+
+---------11:04----------
+power cycling it was enough just enough
+
+---------11:07----------
+there for the thermal camera the police
+
+---------11:09----------
+brought camera as I call it to be able
+
+---------11:10----------
+to pick it up I call it a please broke
+
+---------11:13----------
+camera because when people ask for
+
+---------11:15----------
+solutions that don't require using your
+
+---------11:17----------
+brain they always start their sentence
+
+---------11:19----------
+with please bro or please met them in
+
+---------11:22----------
+the YouTube comments and it's in that
+
+---------11:26----------
+can't that camera allows me to not use
+
+---------11:28----------
+my brain I don't have to figure out
+
+---------11:30----------
+what's wrong I just put the camera on
+
+---------11:32----------
+there whatever is hot please bro
+
+---------11:34----------
+thank you rob Brown I appreciate that
+
+---------11:37----------
+that is very very kind of you thank you
+
+---------11:40----------
+I don't know if I deserve it but thank
+
+---------11:42----------
+you nonetheless all right so we do this
+
+---------11:47----------
+do that
+
+---------11:50----------
+and we're gonna get ready to solder a
+
+---------11:52----------
+new capacitor onto this MacBook
+
+---------11:56----------
+motherboard so let's see what that
+
+---------11:58----------
+campus sitter was for the one that was
+
+---------12:00----------
+getting really hot that we just so
+
+---------12:02----------
+happened to remove it looks like that
+
+---------12:04----------
+was c64 12 c64 12 is capacitor for the
+
+---------12:10----------
+audio amp on PG 5 ESO so most likely PP
+
+---------12:14----------
+5 vs Oh will is shorted MPP 5e s 3
+
+---------12:18----------
+connects to there so maybe 5e s 3 was
+
+---------12:21----------
+showing up is shorted even LPP 5 ESO is
+
+---------12:23----------
+the rail that the actual short resigner
+
+---------12:24----------
+which means maybe the PP 5 ESO
+
+---------12:26----------
+transistor was stuck open when the
+
+---------12:30----------
+machine went off and I made my
+
+---------12:31----------
+measurement so that's interesting to see
+
+---------12:33----------
+and the way that I was able to ascertain
+
+---------12:35----------
+from the very beginning that the likely
+
+---------12:38----------
+issue was a short-circuit is that it was
+
+---------12:40----------
+power cycling in the way I was able to
+
+---------12:41----------
+tell that it was power cycling is by the
+
+---------12:43----------
+reading the amp reading that it was
+
+---------12:46----------
+giving me when it was turning on so this
+
+---------12:48----------
+is another important part of the
+
+---------12:49----------
+troubleshooting process I don't just use
+
+---------12:51----------
+a normal MagSafe adapter I cut the ends
+
+---------12:55----------
+off of my MagSafe adapter you know what
+
+---------12:57----------
+I'll do is I'll take this MagSafe and I
+
+---------13:00----------
+cut this and I plug this end into a
+
+---------13:02----------
+power supply and then I use the power
+
+---------13:04----------
+supply to power the actual board because
+
+---------13:07----------
+the amount of power that it's taking is
+
+---------13:08----------
+going to give me a clue the same way
+
+---------13:10----------
+that a diode mode reading to ground on
+
+---------13:12----------
+backlight output is going to give me a
+
+---------13:13----------
+clue these are all clues and I want as
+
+---------13:16----------
+many clues as I can so that I can use
+
+---------13:18----------
+those so that I can pinpoint the issue
+
+---------13:20----------
+with the least amount of using my brain
+
+---------13:24----------
+again how Balan is YouTube yes and thank
+
+---------13:29----------
+you very much for the 2 dollars and that
+
+---------13:31----------
+is it for this stream thank you very
+
+---------13:34----------
+much for watching and as always I hope
+
+---------13:37----------
+that you learned something I'll see you
+
+---------13:39----------
+in the next one I will try to make more
+
+---------13:41----------
+time for these I'm sorry the real estate
+
+---------13:42----------
+thing has not just been taking up a lot
+
+---------13:45----------
+of my time dealing with brokers Realtors
+
+---------13:48----------
+attorneys architects contractors
+
+---------13:51----------
+designers and trying to get everything
+
+---------13:54----------
+together and also while also trying to
+
+---------13:56----------
+negotiate a price for myself on all
+
+---------13:57----------
+these different things that's worthwhile
+
+---------13:58----------
+but honestly it just kind of burns your
+
+---------14:00----------
+brain after
+
+---------14:01----------
+and it takes me out of a mindset where I
+
+---------14:03----------
+can work on stuff you know if I'm
+
+---------14:05----------
+dealing with two or three different
+
+---------14:06----------
+brokers at two or three different
+
+---------14:07----------
+buildings at two or three different
+
+---------14:08----------
+agents at the same time trying to get a
+
+---------14:10----------
+good deal on a property and dealing with
+
+---------14:12----------
+all the garbage involved in New York
+
+---------14:14----------
+City negotiating a space to get
+
+---------14:16----------
+something remotely resembling a good
+
+---------14:17----------
+deal it does unfortunately take away
+
+---------14:20----------
+from my ability to sit here and in a
+
+---------14:23----------
+common relaxed manner work on boards it
+
+---------14:25----------
+just sucks me into a different world
+
+---------14:27----------
+that I have to live in in order to do
+
+---------14:28----------
+that and that it doesn't make itself
+
+---------14:31----------
+it's not something that's amenable to
+
+---------14:33----------
+explaining component level board repair
+
+---------14:36----------
+in an educational fashion but hopefully
+
+---------14:40----------
+I'll have time to get back to that more
+
+---------14:41----------
+since it looks like we are close to
+
+---------14:43----------
+closing in on a space on 30th Street as
+
+---------14:46----------
+long as my attorney reviews the lease
+
+---------14:47----------
+and it's not filled with garbage we are
+
+---------14:49----------
+going to be moving full steam ahead with
+
+---------14:50----------
+it I got an architect on board I got a
+
+---------14:52----------
+contractor on board and we're gonna try
+
+---------14:55----------
+and build ourselves an amazing space all
+
+---------14:58----------
+I got to do now is get the the
+
+---------14:59----------
+electrician on board because I don't I
+
+---------15:01----------
+don't want just anybody put you know
+
+---------15:03----------
+dealing with putting a 600 amp system in
+
+---------15:06----------
+there we do have 600 amps available to
+
+---------15:08----------
+my store which is awesome and is it I
+
+---------15:10----------
+think there's a 15 or a 20 a single 20
+
+---------15:12----------
+amp breaker for the entire store which
+
+---------15:14----------
+is I mean that's a [ __ ] joke
+
+---------15:17----------
+but it's that has to get changed out and
+
+---------15:20----------
+once that's changed out once we got all
+
+---------15:23----------
+the stuff going it's gonna be awesome
+
+---------15:25----------
+we're gonna have a real store a real
+
+---------15:27----------
+office a real business and it's gonna be
+
+---------15:30----------
+cool I've always wanted a real office
+
+---------15:33----------
+it's close finally anyway see you in the
+
+---------15:38----------
+next one thanks for watching
+

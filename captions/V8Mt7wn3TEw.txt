@@ -1,0 +1,1723 @@
+https://www.youtube.com/watch?v=V8Mt7wn3TEw
+---------00:00----------
+okay so today we're gonna be going over
+
+---------00:01----------
+a retina board that does not turn on so
+
+---------00:04----------
+the issue that this one is having is you
+
+---------00:05----------
+plug in the power you don't get a green
+
+---------00:08----------
+light and nothing happens so one of the
+
+---------00:10----------
+first things that I noticed when I
+
+---------00:12----------
+plugged this in I left this plugged in
+
+---------00:13----------
+for about a minute is that it some
+
+---------00:15----------
+components get really really hot I
+
+---------00:17----------
+noticed because when I went to unplug it
+
+---------00:18----------
+I touch the board and I burn myself so
+
+---------00:21----------
+let's go on to look in that area and get
+
+---------00:22----------
+an idea of what it is that's going on
+
+---------00:24----------
+and why it's burning I also probably
+
+---------00:26----------
+should have noticed that because it
+
+---------00:28----------
+smelled really really bad when I went to
+
+---------00:30----------
+pick it up and that should have been an
+
+---------00:31----------
+indicator that I should not have touched
+
+---------00:33----------
+it so if you look over here you're gonna
+
+---------00:34----------
+see that these two components look
+
+---------00:36----------
+really really nasty they look burned
+
+---------00:38----------
+over here and over here so what we're
+
+---------00:40----------
+gonna do is we're going to go over to
+
+---------00:42----------
+the board view and see what those things
+
+---------00:45----------
+are so when I go over to the board view
+
+---------00:47----------
+I'm gonna look and see what these things
+
+---------00:49----------
+are and I see that it's our 6920 and our
+
+---------00:54----------
+6905 so our 6920 okay by the way a lot
+
+---------01:02----------
+of people said I should try out Foxit I
+
+---------01:03----------
+honestly didn't even bother going to the
+
+---------01:05----------
+settings I spend two maybe five seconds
+
+---------01:07----------
+trying to figure out to get rid of those
+
+---------01:08----------
+huge bars that show up in the top and
+
+---------01:10----------
+when I couldn't I just gave up so I
+
+---------01:12----------
+figured out I can drag around this PDF
+
+---------01:14----------
+reader with all ten I'm just gonna all
+
+---------01:15----------
+tab to other things so our 6905 here is
+
+---------01:19----------
+shot and our 6920 here these two are
+
+---------01:23----------
+both burned alright so with with our
+
+---------01:25----------
+6905 and our 69 2004 it's pretty simple
+
+---------01:30----------
+so this is pp 3 v4 - this is a power
+
+---------01:33----------
+supply for the machine now this is one
+
+---------01:35----------
+of the few power supplies that turns on
+
+---------01:36----------
+before everything else turns on so it's
+
+---------01:38----------
+it's own separate power supply on this
+
+---------01:40----------
+machine
+
+---------01:40----------
+pp Bush g3 ha PP on this machine PP 5 vs
+
+---------01:45----------
+3 PP 5 vs 5 PP 3 V 3 all the other power
+
+---------01:49----------
+supplies they turn on based on pp bus g3
+
+---------01:52----------
+hot this is a power supply that can
+
+---------01:54----------
+actually work independently of pp bus g3
+
+---------01:56----------
+Hunt if you're plugging the charger in
+
+---------01:58----------
+so over here you can see that its
+
+---------02:01----------
+sources power from either pp bus g3 hot
+
+---------02:04----------
+or its source is powered directly from
+
+---------02:06----------
+the charger and there's this little
+
+---------02:07----------
+diode over here so the way this works is
+
+---------02:09----------
+pretty simple so you have P P but P P 3
+
+---------02:11----------
+before to underscore g3 hot over here
+
+---------02:13----------
+this is one of the few power supplies
+
+---------02:15----------
+that turns itself on to create the green
+
+---------02:17----------
+light on the charger before any power
+
+---------02:19----------
+actually starts getting made for the
+
+---------02:20----------
+machine well if all the other power
+
+---------02:22----------
+supplies like pp bus g3 hot PV 5vs5 PP
+
+---------02:26----------
+5e s 3 are not present before this one
+
+---------02:29----------
+is then how is it going to turn on when
+
+---------02:31----------
+you first plug in the charger well the
+
+---------02:33----------
+way this works is this will actually
+
+---------02:35----------
+take the power directly from the charger
+
+---------02:37----------
+so let me just try to show you that here
+
+---------02:39----------
+so over here you have the charger coming
+
+---------02:42----------
+through and it will take power from the
+
+---------02:44----------
+charge directly if P P bus g3 hot is not
+
+---------02:46----------
+present and it goes through this diode
+
+---------02:48----------
+over here so this is burning burning hot
+
+---------02:51----------
+so the first thing that I did is I
+
+---------02:54----------
+decided to look up where P P 3 V 4 to
+
+---------02:56----------
+underscore g3 hot was on the board
+
+---------02:58----------
+so let's look up where PP 3 V 4 to
+
+---------03:00----------
+underscore g3 Hadas on this board this
+
+---------03:03----------
+is this is scaling in Windows 8 gotta
+
+---------03:06----------
+love it then again I can't really blame
+
+---------03:07----------
+Windows 8 for the scaling and the soft
+
+---------03:09----------
+way because this software is garbage
+
+---------03:10----------
+trash that was made probably for Windows
+
+---------03:12----------
+3.1
+
+---------03:13----------
+when you look up blender X test link
+
+---------03:15----------
+you'll see that this software and has a
+
+---------03:17----------
+milestone on their website where they're
+
+---------03:19----------
+so excited that they created and that
+
+---------03:21----------
+milestone where they're so excited that
+
+---------03:22----------
+they created is from 1995 so what I'm
+
+---------03:25----------
+doing right now matters I'll move some
+
+---------03:27----------
+things around so they actually see how
+
+---------03:29----------
+I'm troubleshooting and also do that in
+
+---------03:32----------
+the camcorder so what I'm doing right
+
+---------03:34----------
+now is I'm gonna measure that little one
+
+---------03:37----------
+of those little spots that I see over
+
+---------03:39----------
+here on my multimeter so on the on the
+
+---------03:45----------
+screen over here it says that that's a
+
+---------03:46----------
+place where I can find pp 3 V 4 to
+
+---------03:48----------
+underscore g3 hot so I have a multimeter
+
+---------03:50----------
+diode mode I have the red pin of the
+
+---------03:52----------
+multimeter you know on ground and I take
+
+---------03:54----------
+the black probe and I put it right to
+
+---------03:56----------
+where pp 3 before it's you under square
+
+---------03:58----------
+G 3 hottests that's not a short to
+
+---------04:00----------
+ground at all so back to the drawing
+
+---------04:01----------
+board here now I'm going to go back to
+
+---------04:04----------
+my screen capture and go over to the
+
+---------04:06----------
+here so this is not shorted to ground
+
+---------04:09----------
+which means this chip is probably not
+
+---------04:11----------
+shorted to ground so let's get closer
+
+---------04:12----------
+over here our 6905 and our 6920 are
+
+---------04:15----------
+burned these got burned for a good
+
+---------04:18----------
+reason there's there was no corrosion
+
+---------04:19----------
+there there was no evidence of liquid
+
+---------04:20----------
+damage in that particular spot of the
+
+---------04:22----------
+board the liquid damage on this board
+
+---------04:23----------
+was in a totally different spot so that
+
+---------04:25----------
+means that something over here must have
+
+---------04:26----------
+been
+
+---------04:27----------
+being power through so much power
+
+---------04:28----------
+through that it actually managed to burn
+
+---------04:30----------
+this so let's check these capacitors
+
+---------04:32----------
+because these are also a path to ground
+
+---------04:34----------
+you have c6 992 c6 9 and 1 and c6 9 9 0
+
+---------04:37----------
+remember PP 3 V 4 2 undersquare g3 hot
+
+---------04:40----------
+is not shorted to ground so all the
+
+---------04:41----------
+things that go to ground then that bus
+
+---------04:43----------
+I'm not interested in because they
+
+---------04:44----------
+didn't show it to ground
+
+---------04:45----------
+let's try c6 9 9 to c6 9 9 1 and c6 9 9
+
+---------04:49----------
+0 these three are tied together so it's
+
+---------04:51----------
+gonna be a little bit difficult to find
+
+---------04:53----------
+out which one it is to c6 9 9 1 c6 9 9 0
+
+---------04:59----------
+ok now this is this component over here
+
+---------05:03----------
+so I'm going to try and check that
+
+---------05:06----------
+component
+
+---------05:06----------
+now we're gonna measure it and you'll
+
+---------05:08----------
+see what I see on my multimeter in a
+
+---------05:10----------
+second now I love this all switching
+
+---------05:13----------
+back and forth thing the editing is just
+
+---------05:15----------
+I don't have to edit anymore it is it's
+
+---------05:18----------
+gonna make doing these videos so much
+
+---------05:20----------
+easier so I'm gonna take my multimeter
+
+---------05:21----------
+right now and I'm gonna go over to that
+
+---------05:23----------
+capacitor now on this side I'm supposed
+
+---------05:25----------
+to see PP 3v I'm supposed to see the
+
+---------05:28----------
+incoming power from the charge and as
+
+---------05:30----------
+you can see there is a zero voltage drop
+
+---------05:32----------
+to ground meaning that the power there
+
+---------05:33----------
+is there's a perfect path to ground
+
+---------05:35----------
+through there which means one of those
+
+---------05:37----------
+three capacitors is probably destroyed
+
+---------05:39----------
+now what I'm gonna do here is replace
+
+---------05:42----------
+all three I am NOT a cheapskate i buy
+
+---------05:44----------
+these boards very very cheaply from ana
+
+---------05:46----------
+kind gentleman called david at advanced
+
+---------05:49----------
+three works so if you go to advanced
+
+---------05:50----------
+three works calm you can ask David to
+
+---------05:54----------
+sell you both donor boards where you can
+
+---------05:56----------
+get all these parts from and that is
+
+---------05:58----------
+what I recommend you do again it really
+
+---------06:00----------
+it makes no damn sense to be buying
+
+---------06:03----------
+these little things from Mouser and
+
+---------06:04----------
+waiting a week for two weeks to get them
+
+---------06:06----------
+because as I always say what if
+
+---------06:08----------
+something else is wrong with your board
+
+---------06:09----------
+what if this is not the problem what if
+
+---------06:11----------
+it's something else then you gotta wait
+
+---------06:12----------
+a week for other components to show up
+
+---------06:14----------
+then you have another problem you gotta
+
+---------06:15----------
+wait another week for another set of
+
+---------06:17----------
+components the shop and you wind up
+
+---------06:18----------
+wasting so much ridiculous time and
+
+---------06:20----------
+really what customers are gonna wind up
+
+---------06:23----------
+waiting for you to figure out
+
+---------06:25----------
+around with
+
+---------06:26----------
+along with their board as you order them
+
+---------06:28----------
+over and over and over again so I have
+
+---------06:30----------
+these donor boards here and I'm gonna
+
+---------06:31----------
+use them to replace see 6 9 9 0 C 6 9 +
+
+---------06:35----------
+1 + C 6 9 9 - now if we go over to the
+
+---------06:38----------
+microscope I'm pretty confident that
+
+---------06:39----------
+that component is going to look like
+
+---------06:41----------
+complete so let me just turn on
+
+---------06:43----------
+this fume extractor here because I don't
+
+---------06:46----------
+want to die of inhaling all of this
+
+---------06:48----------
+garbage and early death let's go over
+
+---------06:55----------
+here into the microscope and we're gonna
+
+---------06:56----------
+take a look at what these things look
+
+---------06:57----------
+like yeah you see that's and that's
+
+---------07:03----------
+nasty so
+
+---------07:12----------
+rest in peace new tweezers they actually
+
+---------07:17----------
+didn't land on the point for once
+
+---------07:26----------
+Steve here was kind enough to allow me
+
+---------07:28----------
+to take these new tweezers since I've
+
+---------07:30----------
+destroyed all of mine they're pretty
+
+---------07:31----------
+nice they have this cool grip on them I
+
+---------07:33----------
+like I'm just waiting for my heat this
+
+---------07:40----------
+to heat up
+
+---------07:47----------
+come on Echo eat up
+
+---------08:00----------
+more little abused hot air station I
+
+---------08:02----------
+really think it's about time I replaced
+
+---------08:04----------
+the heating element in this thing it
+
+---------08:05----------
+does not heat up like it used to all
+
+---------08:07----------
+right let's try to get it off a little
+
+---------08:09----------
+bit easier it's some place the cruddy
+
+---------08:16----------
+old lead-free solder with some leaded
+
+---------08:19----------
+yeah it's really as time I get a new
+
+---------08:21----------
+eating element for that thing that's one
+
+---------08:24----------
+of the things that one of millions of
+
+---------08:26----------
+things I just don't have time for okay I
+
+---------08:28----------
+plan I go I plan to go to the website
+
+---------08:29----------
+and then it snows what does this look
+
+---------08:32----------
+like Louis do you think you could fix
+
+---------08:33----------
+this in this much time though somebody's
+
+---------08:35----------
+calling about a camera install
+
+---------08:46----------
+okay now just for curious shits and
+
+---------08:49----------
+giggles let's see if I've removed my
+
+---------08:51----------
+short to ground here I didn't click it
+
+---------08:56----------
+just changed over on the screen I didn't
+
+---------08:58----------
+click from just from dropping the
+
+---------09:01----------
+keyboard on my messy desk it clicked
+
+---------09:03----------
+that's scary I am multimeter how day you
+
+---------09:10----------
+try to save battery still a short to
+
+---------09:15----------
+ground so let's see what the other
+
+---------09:16----------
+capacitors here are talking about so
+
+---------09:18----------
+we're gonna go over and find the other
+
+---------09:20----------
+ones yeah where is c6 9 9 0 and c6 9 9 1
+
+---------09:26----------
+up there since I'm turning the board I
+
+---------09:29----------
+have the unique opportunity to actually
+
+---------09:31----------
+put the board in the view that it isn't
+
+---------09:32----------
+in in the software so we're gonna look
+
+---------09:35----------
+at those two capacitors and see what we
+
+---------09:36----------
+have
+
+---------09:39----------
+yeah alright so that entire section
+
+---------09:42----------
+could use replacing that's gonna be the
+
+---------09:44----------
+chip that creates PP 3 V 4 it's you
+
+---------09:46----------
+underscore g3 hunt along with the
+
+---------09:49----------
+inductor that's me and those two
+
+---------09:53----------
+smoothing capacitors on input to the
+
+---------09:57----------
+chip that creates PP 3 V 4 2 so first
+
+---------10:03----------
+things first I would prefer to not
+
+---------10:04----------
+destroy and burn the keyboard connector
+
+---------10:07----------
+so in a previous video I showed complete
+
+---------10:09----------
+disregard for the battery indicator
+
+---------10:11----------
+connector because I know that I was
+
+---------10:14----------
+gonna be replacing it anyway because it
+
+---------10:16----------
+didn't work this is actually a perfectly
+
+---------10:18----------
+fine connector there is nothing wrong
+
+---------10:20----------
+with it and further it's also a
+
+---------10:21----------
+connector that's really really not fun
+
+---------10:23----------
+to replace it's actually very miserable
+
+---------10:25----------
+to replace that connector and since it's
+
+---------10:27----------
+miserable to replace it and I have no
+
+---------10:28----------
+reason to replace it I don't go on to
+
+---------10:30----------
+protect it with some captain tape so
+
+---------10:32----------
+that I don't destroy it
+
+---------10:38----------
+better be safe than sorry okay so we're
+
+---------10:41----------
+gonna remove those other two pieces
+
+---------10:46----------
+let's just remove all this entire
+
+---------10:48----------
+section all together let's though there
+
+---------10:49----------
+isn't that the whole point of buying
+
+---------10:50----------
+these donor boards and having five or
+
+---------10:53----------
+ten of them available yeah I know what
+
+---------10:56----------
+the problem is and she here's the other
+
+---------10:58----------
+problem check out the donor board that I
+
+---------11:00----------
+have here somebody got to it before I
+
+---------11:05----------
+did okay so before maybe I don't have as
+
+---------11:08----------
+much Liberty as I thought in replacing
+
+---------11:10----------
+every component let's see I have two
+
+---------11:15----------
+more here and tell me that those
+
+---------11:17----------
+stole everything okay so my other donor
+
+---------11:21----------
+board is here let's see what I have a
+
+---------11:26----------
+that's right okay so there was only that
+
+---------11:29----------
+one and think I know exactly who stole
+
+---------11:34----------
+all of that stuff and for once it was
+
+---------11:37----------
+not me
+
+---------11:39----------
+all right so I know that I have the
+
+---------11:43----------
+go-ahead the resources so that I can
+
+---------11:46----------
+just take all that junk out cuz really I
+
+---------11:48----------
+don't want to look at it it's all liquid
+
+---------11:49----------
+damage like one of those resistors may
+
+---------11:51----------
+be good but really they do I care no
+
+---------11:55----------
+it's time to get rid of this
+
+---------11:56----------
+goodbye goodbye bye
+
+---------12:02----------
+gtfo
+
+---------12:19----------
+rest in peace okay some of those pads
+
+---------12:26----------
+are yeah you see what I'm talking about
+
+---------12:28----------
+they don't look very nice
+
+---------12:33----------
+some of those pads are gone and done for
+
+---------12:35----------
+so there's probably going to be some
+
+---------12:38----------
+jumper ring work to be done here
+
+---------12:47----------
+we'll see just how much you know to what
+
+---------12:49----------
+extent in a second
+
+---------13:01----------
+first things first is my short gun
+
+---------13:04----------
+righty so let's take a look
+
+---------13:10----------
+multimeter diode mode black probe red
+
+---------13:14----------
+probe I don't screw around with these
+
+---------13:16----------
+probes because they will go in through
+
+---------13:18----------
+your hand one end and out the other so I
+
+---------13:19----------
+honestly don't care if I knock things
+
+---------13:21----------
+around my desk if it means that I'm not
+
+---------13:23----------
+letting these probes run around and get
+
+---------13:25----------
+me so red probe on groans black probe
+
+---------13:28----------
+right had the short before it says oh
+
+---------13:36----------
+well which means I'm good which means I
+
+---------13:38----------
+removed my short so let's now go back
+
+---------13:41----------
+and rebuild that section of the board so
+
+---------13:44----------
+that's the PP three before to underscore
+
+---------13:46----------
+eg three hot section that I would like
+
+---------13:48----------
+to rebuild here and let's put my
+
+---------13:50----------
+keyboard over here where I can't get in
+
+---------13:52----------
+my way
+
+---------13:55----------
+alright so first things first
+
+---------14:01----------
+yeah that doesn't look very good
+
+---------14:07----------
+see what I'm talking about here
+
+---------14:29----------
+well idea here is I want to scratch away
+
+---------14:31----------
+so I actually have something to solder
+
+---------14:33----------
+to
+
+---------14:42----------
+that's gonna be peepee Bush g3 hot input
+
+---------14:45----------
+or charger input dependence remember
+
+---------14:48----------
+that was that was where we are short to
+
+---------14:49----------
+ground was right over here and that's
+
+---------14:51----------
+grounds to the section that got messed
+
+---------14:54----------
+up we also want to see about that other
+
+---------15:02----------
+side
+
+---------15:19----------
+okay and we flick away all right so
+
+---------15:21----------
+we've got solder connected pretty much
+
+---------15:23----------
+everything so now we can start adding
+
+---------15:26----------
+components let's get some work going on
+
+---------15:35----------
+here
+
+---------16:30----------
+now these tweezers conduct heat a lot
+
+---------16:32----------
+worse than my other ones which is nice
+
+---------16:33----------
+my hands are not getting irritated I
+
+---------16:37----------
+could get used to this
+
+---------16:53----------
+we'll have to make that look better
+
+---------16:54----------
+later because that is disgraceful
+
+---------17:42----------
+can't help myself
+
+---------18:09----------
+okay
+
+---------18:33----------
+see when the solder is flux on it
+
+---------18:36----------
+surface tension moves everything in a
+
+---------18:38----------
+place if you just heat it up
+
+---------18:41----------
+it's nice thing to rely on if you're a
+
+---------18:44----------
+klutz with your hands like I am
+
+---------18:48----------
+nice try resistor you're not escaping
+
+---------18:51----------
+but you see you tried to make a run for
+
+---------18:53----------
+it
+
+---------18:54----------
+little mofo nice try
+
+---------19:09----------
+now that capacitor that was by the SMC
+
+---------19:12----------
+from before
+
+---------19:25----------
+Wow this port still has an SMC on it
+
+---------19:27----------
+that I'm stealing the capacitor from I'm
+
+---------19:29----------
+surprised
+
+---------19:46----------
+and also remember those two diodes not
+
+---------19:52----------
+the two diodes or two resistors
+
+---------20:01----------
+yeah I know all that stuff above it is
+
+---------20:04----------
+gonna blow away I've learned my lesson
+
+---------20:07----------
+like that little piece of right
+
+---------20:10----------
+over there
+
+---------20:10----------
+and the connector is going to get all
+
+---------20:12----------
+burned up now I know you're gonna try
+
+---------20:28----------
+captain tape is my friend
+
+---------20:42----------
+that's an ass nasty junk left over on
+
+---------20:45----------
+that pad let's get a little bit of it so
+
+---------20:48----------
+was how there was some little junk left
+
+---------20:50----------
+on it when I started working I was a
+
+---------20:53----------
+piece of wood whatever resistor I
+
+---------20:56----------
+removed
+
+---------21:08----------
+now the short is gone those two
+
+---------21:10----------
+resistors shouldn't burn again
+
+---------21:46----------
+hey OCD touch-ups are done now let's see
+
+---------21:49----------
+if I get a green light
+
+---------21:51----------
+no green light on the charger I'm afraid
+
+---------21:54----------
+so now I go back to measuring
+
+---------22:27----------
+pp 3v4 - is only 1.2 volts and goes back
+
+---------22:32----------
+and forth very quickly
+
+---------22:39----------
+said
+
+---------22:43----------
+charge revolted is present
+
+---------23:00----------
+nothing else is present
+
+---------23:14----------
+you got the birds a cage of in there
+
+---------23:17----------
+it's okay can I see the birds can I see
+
+---------23:21----------
+the birds why did Steve give you the
+
+---------23:24----------
+birds back why don't you want to take
+
+---------23:28----------
+care of them
+
+---------23:32----------
+can I see what it looks like you have a
+
+---------23:34----------
+picture
+
+---------23:37----------
+I want to see a picture destroying a
+
+---------23:42----------
+motherboard same as always
+
+---------23:45----------
+this is all gonna get edited because I'm
+
+---------23:48----------
+ this board to hell and back
+
+---------23:49----------
+anyway hopefully I don't include that if
+
+---------23:54----------
+I I include that I'll get in trouble
+
+---------23:57----------
+you're not bothering me at all veneer
+
+---------23:59----------
+this motherboard is bothering me but
+
+---------24:02----------
+you're not bothering me how could you
+
+---------24:05----------
+ever think you're bothering me
+
+---------24:08----------
+Hey look you can switch this what's cool
+
+---------24:10----------
+about this office you could switch back
+
+---------24:11----------
+and forth between this and the one I'm
+
+---------24:14----------
+ up in real time no more yeah I
+
+---------24:17----------
+don't have to edit like crazy anymore
+
+---------24:19----------
+just boom zing and you can switch and
+
+---------24:21----------
+see the screen and everything so if I
+
+---------24:23----------
+want to record the screen you can do
+
+---------24:25----------
+this and I can show the schematic I love
+
+---------24:29----------
+this software it's awesome awesome and
+
+---------24:31----------
+amazing
+
+---------24:37----------
+I'm destroying right now threatened her
+
+---------24:40----------
+mother point that's no good
+
+---------24:43----------
+I removed an inductor did I removed an
+
+---------24:50----------
+inductor so there's a three point four
+
+---------24:52----------
+volt power supply that was missing
+
+---------24:54----------
+that's where the spill was on the board
+
+---------24:55----------
+so there's a little piece that attaches
+
+---------24:58----------
+that to the rest of the computer so I
+
+---------25:00----------
+removed that little piece because I want
+
+---------25:01----------
+to see if there's something wrong in
+
+---------25:03----------
+front of it or if the thingy that makes
+
+---------25:04----------
+three point four volts is broken it
+
+---------25:07----------
+depends if they want to pay yeah so
+
+---------25:10----------
+let's see so is this three point four
+
+---------25:11----------
+crap see this is we're having an assist
+
+---------25:14----------
+coming so handy every other company gets
+
+---------25:16----------
+to have an assistant in their videos I
+
+---------25:18----------
+don't have an assistant because venire
+
+---------25:20----------
+is a shame that she works here she's it
+
+---------25:24----------
+so that's not good yikes
+
+---------25:32----------
+see that's supposed to be three
+
+---------25:37----------
+instead of being three it's 15 oh that's
+
+---------25:43----------
+Mme inductor it's a coil that power goes
+
+---------25:46----------
+through but see there's that's supposed
+
+---------25:48----------
+to be three volts and it's fifteen point
+
+---------25:49----------
+seven that's no good venir don't let
+
+---------25:58----------
+them know that they'll stop watching my
+
+---------26:00----------
+videos this is what makes it h mmm so
+
+---------26:06----------
+this was sure this is a capacitor that
+
+---------26:08----------
+goes to ground that this was shorted
+
+---------26:09----------
+these two were burned because this was
+
+---------26:11----------
+shorting the ground so replaced this and
+
+---------26:13----------
+now it's still not making what it's
+
+---------26:15----------
+supposed to this is what makes three
+
+---------26:19----------
+point four volts but it's not creating
+
+---------26:21----------
+it so I think our 699 this is the
+
+---------26:24----------
+feedback network that's supposed to tell
+
+---------26:26----------
+this what it's doing and I don't think
+
+---------26:27----------
+it is our six nine nine five or six nine
+
+---------26:30----------
+nine six let's see our 6 9 9 5 r 6 9 9 6
+
+---------26:36----------
+r r 6 9 9 5 r 6 9 9 6 did i attach these
+
+---------26:58----------
+okay I didn't attach them so see how one
+
+---------27:01----------
+two three one two I'm not that smart
+
+---------27:09----------
+okay let's see if I put that there what
+
+---------27:13----------
+happens do any of these have that left
+
+---------27:16----------
+there we go
+
+---------27:17----------
+there's one that has it if I put this on
+
+---------27:23----------
+I should get 3.3 volts now
+
+---------27:30----------
+don't bring your finger in here I don't
+
+---------27:32----------
+want you to hurt yourself here
+
+---------27:44----------
+and where'd I put my inductor here's the
+
+---------27:46----------
+inductor stuck on the desk this is a
+
+---------27:50----------
+keyboard backlight connector which I'm
+
+---------27:51----------
+probably going to burn
+
+---------28:15----------
+but you see what happened when you
+
+---------28:17----------
+walked in the room I've been
+
+---------28:18----------
+with this for the past half-hour and I
+
+---------28:19----------
+got nowhere that was you
+
+---------28:23----------
+you helped me Pinero without your help
+
+---------28:30----------
+yes and help me fix you just made me
+
+---------28:33----------
+$425
+
+---------28:35----------
+you made me $425 but here help me fix
+
+---------28:42----------
+okay so what happened here real quick is
+
+---------28:45----------
+my assistant came in with something
+
+---------28:46----------
+important to talk about and I had to fix
+
+---------28:48----------
+the board and work on things while she
+
+---------28:51----------
+was talking to me so me as I say you
+
+---------28:54----------
+know a lot of the times I want to do
+
+---------28:55----------
+these videos and I wind up getting
+
+---------28:56----------
+interrupted by real life so let me just
+
+---------28:58----------
+go over what it was that I was doing
+
+---------29:00----------
+when you couldn't see everything so what
+
+---------29:02----------
+happened is I soldered everything back
+
+---------29:05----------
+on here for a P P 3 V 4 2 and since I
+
+---------29:09----------
+was trying to do two things at once what
+
+---------29:11----------
+happened was I didn't solder the
+
+---------29:13----------
+feedback resistor over here so this was
+
+---------29:15----------
+only creating one volt and then going
+
+---------29:17----------
+back down to zero one ball 0-1 volt zero
+
+---------29:19----------
+and when I removed an inductor which is
+
+---------29:21----------
+the flat 15 I wasn't working so what
+
+---------29:23----------
+happened is I looked at it again and I
+
+---------29:25----------
+tried to figure out what you know what
+
+---------29:27----------
+could be causing this I figured maybe
+
+---------29:28----------
+was feedback so I looked on the
+
+---------29:30----------
+schematic and I saw that the feedback
+
+---------29:32----------
+resistor was not on there so let me just
+
+---------29:36----------
+show you that on the schematic I just
+
+---------29:39----------
+put the screen and capture back on
+
+---------29:42----------
+so yeah I'm not always gonna get to do
+
+---------29:45----------
+the videos as complete as I like and
+
+---------29:47----------
+that is something I'm gonna have to live
+
+---------29:49----------
+with but it's better I figure it's
+
+---------29:51----------
+better than putting up no content at all
+
+---------29:52----------
+you know like in a lot of places that do
+
+---------29:54----------
+this kind of thing they don't put up any
+
+---------29:55----------
+content at all because they they just
+
+---------29:57----------
+don't want it getting in the way of
+
+---------29:58----------
+their everyday life so anyway so this
+
+---------30:01----------
+resistant over here so you can see this
+
+---------30:02----------
+is the chip that creates PP 3 V 4 - this
+
+---------30:05----------
+is where it outputs now here you have R
+
+---------30:07----------
+6 9 + 5 + r 6 9 9 6 which goes to PP 3 v
+
+---------30:10----------
+4 to underscore g 3 a trying to score FB
+
+---------30:12----------
+which is for feedback if you don't know
+
+---------30:14----------
+what that pin means you can always look
+
+---------30:16----------
+up the name of this you can google the
+
+---------30:17----------
+chip LT 3 4 7 0 AED you can get a
+
+---------30:20----------
+datasheet for that chip and that will
+
+---------30:22----------
+tell you so what I did is I looked on
+
+---------30:24----------
+the board view and I noticed I had C 6 9
+
+---------30:26----------
+5 r 6 9 9 5 but I did not have our 6 9 9
+
+---------30:28----------
+6 3
+
+---------30:29----------
+therefore the feedback network was not
+
+---------30:31----------
+fully functional so now what we're going
+
+---------30:36----------
+to do is plug it in and see if this
+
+---------30:38----------
+turns on do keep in mind that before
+
+---------30:40----------
+this board had absolutely no power parts
+
+---------30:43----------
+of it would get boiling hot when you
+
+---------30:45----------
+touch them and there was no green light
+
+---------30:47----------
+on the charger there was no voltage
+
+---------30:49----------
+going to the board now after doing
+
+---------30:51----------
+everything
+
+---------30:59----------
+the fan spins which as I like to joke
+
+---------31:04----------
+means we're done
+
+---------31:06----------
+yeah let's plug it into the machine for
+
+---------31:09----------
+shits and giggles see that everything
+
+---------31:11----------
+done here actually works I can't get one
+
+---------31:15----------
+of those keyboard things that goes under
+
+---------31:16----------
+the desk because of the metal bar on
+
+---------31:17----------
+this IKEA desk it's killing me that got
+
+---------31:19----------
+spoiled too having that in the other
+
+---------31:21----------
+office that I opened a month ago so what
+
+---------31:26----------
+I'm gonna look for here is that we just
+
+---------31:27----------
+have made some basics you know the
+
+---------31:30----------
+screen comes on CPU v core and I'll run
+
+---------31:34----------
+a SD on this later I don't really feel
+
+---------31:37----------
+like running a SD on stuff on camera
+
+---------31:38----------
+because it's kind of boring so what I do
+
+---------31:41----------
+is I upload these videos if the board
+
+---------31:43----------
+wound up fully working if the board did
+
+---------31:45----------
+not wind up working I don't upload it
+
+---------31:47----------
+because I am strongly against half-assed
+
+---------31:50----------
+videos where I'm showing you how to do
+
+---------31:52----------
+things that don't work now don't get me
+
+---------31:54----------
+wrong I don't mind uploading a video
+
+---------31:55----------
+where I show you that something doesn't
+
+---------31:56----------
+work and I show you why but I'm really
+
+---------31:58----------
+not for making it look like something
+
+---------32:01----------
+worked when it actually did not so well
+
+---------32:04----------
+I don't put all the testing on camera
+
+---------32:06----------
+if this thing winds up not working you
+
+---------32:09----------
+can bet your ass that this video is
+
+---------32:11----------
+going to go in the recycling bin until
+
+---------32:16----------
+unless I feel like going back and
+
+---------32:18----------
+troubleshooting why it doesn't work in
+
+---------32:19----------
+which case you know it'll just get
+
+---------32:21----------
+edited accordingly
+
+---------32:58----------
+so we made some progress you got to see
+
+---------33:01----------
+my troubleshooting process you got to
+
+---------33:03----------
+see you make a couple of mistakes along
+
+---------33:06----------
+the way and hopefully you learn
+
+---------33:07----------
+something
+

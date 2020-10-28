@@ -1,0 +1,1204 @@
+https://www.youtube.com/watch?v=lL2pCCFdxHU
+---------00:00----------
+hey hello so today we're gonna be going
+
+---------00:01----------
+over another board that doesn't have any
+
+---------00:02----------
+liquid damage oh honey we're just gonna
+
+---------00:04----------
+see what we can find and see if we can
+
+---------00:06----------
+make it work again so the first step
+
+---------00:08----------
+here is to figure out what the symptoms
+
+---------00:10----------
+are so I'm just gonna plug some of the
+
+---------00:12----------
+stuff back in so we can just get an idea
+
+---------00:13----------
+of what the symptoms are
+
+---------00:15----------
+before I take everything out of the
+
+---------00:16----------
+machine so the first thing I'm gonna
+
+---------00:18----------
+want to do is plug the power in see if I
+
+---------00:21----------
+get a light see what happens and go from
+
+---------00:23----------
+there so I got my screen plugged in I'm
+
+---------00:26----------
+gonna take my charger I'm gonna plug
+
+---------00:27----------
+that in now the first thing that I
+
+---------00:29----------
+notice here is that when I plug it in I
+
+---------00:32----------
+get a green light my charger and my fan
+
+---------00:34----------
+spins so half the battle is actually
+
+---------00:36----------
+already won because it is turning on
+
+---------00:38----------
+however it doesn't chime not only does
+
+---------00:43----------
+it not chime but well hopefully you can
+
+---------00:46----------
+trust me there is that there was nothing
+
+---------00:48----------
+on the screen before I kick the charger
+
+---------00:50----------
+out of the plug so it doesn't make a
+
+---------00:52----------
+chime and there's nothing on the screen
+
+---------00:53----------
+now at this point a lot of people are
+
+---------00:55----------
+going to think that the problem is that
+
+---------00:56----------
+we have no image there's an issue with
+
+---------00:57----------
+the screen there's an image with the
+
+---------00:59----------
+graphics chip they're gonna start you
+
+---------01:02----------
+know no heat gunning something and this
+
+---------01:05----------
+is where I want you to think a little
+
+---------01:07----------
+bit if we don't have a chime our problem
+
+---------01:10----------
+is not know image our problem is no post
+
+---------01:12----------
+it's not actually it's not getting
+
+---------01:14----------
+anywhere so for example if I were to
+
+---------01:15----------
+take a USB mouse if I were to take my
+
+---------01:17----------
+gaming mouse here that I use for all of
+
+---------01:20----------
+my extreme dota matches that I win by
+
+---------01:23----------
+last-hitting so often I would i plug in
+
+---------01:28----------
+my gaming mouse this gaming mouse comes
+
+---------01:32----------
+for free with the purchase of any $40.00
+
+---------01:34----------
+NVR from China you're gonna notice
+
+---------01:37----------
+something here
+
+---------01:51----------
+it never turns on our issue is not an
+
+---------01:55----------
+issue of no picture rather it's an issue
+
+---------01:57----------
+of no brain and let's go through how it
+
+---------02:00----------
+is we would diagnose and solve that
+
+---------02:01----------
+problem now as many of you who build
+
+---------02:04----------
+CPUs may be familiar build computers may
+
+---------02:06----------
+be familiar with there is a term called
+
+---------02:07----------
+v core this is the voltage that goes to
+
+---------02:10----------
+the CPU so that it can do all of its
+
+---------02:11----------
+basic tasks and all of its thinking so
+
+---------02:14----------
+we have to see if we have CPU v core
+
+---------02:16----------
+that's the first thing that we would
+
+---------02:17----------
+check for so this board is an 8 to 0 32
+
+---------02:21----------
+or 9 and we're just going to check and
+
+---------02:23----------
+see where it is we can measure CPU v
+
+---------02:25----------
+core and my computer is freezing so it's
+
+---------02:37----------
+freezing so I got a weight hello hello
+
+---------02:41----------
+oh there we go
+
+---------02:47----------
+loaded beautiful just kick it yeah I
+
+---------02:53----------
+should do the same to this what do you
+
+---------02:54----------
+guys think just this kick it
+
+---------02:55----------
+just bash it a little bit maybe I'll get
+
+---------02:57----------
+my V core back
+
+---------03:07----------
+goddamnit Pisa okay one more try
+
+---------03:13----------
+there we go
+
+---------03:20----------
+BAM all right it's open ourselves a
+
+---------03:23----------
+schematic and a board view
+
+---------03:34----------
+so let's get started here so where would
+
+---------03:38----------
+I find CPU vcore
+
+---------03:53----------
+CPU vcore where are you hello cpu vcore
+
+---------03:58----------
+commie okay here we go chipset vcore
+
+---------04:04----------
+rails let's check chipset v core rails
+
+---------04:06----------
+alright
+
+---------04:07----------
+so PPV core SOS cpu let's try and find
+
+---------04:10----------
+that PPV core Esso cpu please do not
+
+---------04:18----------
+freeze well I'm capturing video please
+
+---------04:20----------
+do not freeze while I'm capturing video
+
+---------04:22----------
+please do not freeze while I'm capturing
+
+---------04:24----------
+video okay zero volts so what are we
+
+---------04:30----------
+gonna do next we're gonna try to figure
+
+---------04:32----------
+out where CPU v core comes from anyway
+
+---------04:35----------
+so let's find u 7400 so this is a buck
+
+---------04:37----------
+converter and the way that the buck
+
+---------04:39----------
+converter is going to work very very
+
+---------04:41----------
+simple this chip is going to cause the
+
+---------04:44----------
+transistor over here to switch on and
+
+---------04:47----------
+off and just to give you an idea I'm
+
+---------04:50----------
+gonna open up my notes it's fine like
+
+---------04:53----------
+them here we go I'm gonna open up my
+
+---------04:54----------
+notes here we go there we go so
+
+---------05:00----------
+this is a buck converter the whole idea
+
+---------05:02----------
+is you take a higher voltage and you
+
+---------05:04----------
+turn it into a lower voltage so here's
+
+---------05:06----------
+how you would make CPU v core so we have
+
+---------05:08----------
+let's say we have a controller chip here
+
+---------05:10----------
+this controller chip is gonna control
+
+---------05:12----------
+when these transistors open and then the
+
+---------05:14----------
+inductor and the capacitors are gonna
+
+---------05:15----------
+smooth it out but you're probably
+
+---------05:17----------
+confused at that because that's not
+
+---------05:19----------
+really great an explanation so we start
+
+---------05:21----------
+out with a high voltage like 8 the buck
+
+---------05:24----------
+converter is going to switch it on and
+
+---------05:26----------
+off eight zero eight zero eight zero and
+
+---------05:30----------
+then when it's done it gets averaged out
+
+---------05:32----------
+to something like 0.8 volts so this is
+
+---------05:35----------
+what it looks like so you got eight
+
+---------05:37----------
+volts at the top spikes of eight volts
+
+---------05:39----------
+here and then after the inductor you
+
+---------05:41----------
+have eight I'm in point eight volts over
+
+---------05:43----------
+here and over here this is obviously
+
+---------05:45----------
+ground so you have nothing and after
+
+---------05:46----------
+that it should be obvious what we're
+
+---------05:47----------
+gonna get over here that doesn't look
+
+---------05:48----------
+very similar to this in fact it looks
+
+---------05:50----------
+almost the exact same now doesn't it
+
+---------05:52----------
+so we got this see this see this same
+
+---------05:56----------
+ so let's check out what that buck
+
+---------05:59----------
+converter trick looks like that buck
+
+---------06:00----------
+converter regulated by u 7400 and with
+
+---------06:03----------
+any luck my capture hardware will not
+
+---------06:04----------
+have frozen by them because a real
+
+---------06:06----------
+good chance a little frozen by them
+
+---------06:07----------
+because the machine that I record all
+
+---------06:09----------
+these videos on is a complete pile of
+
+---------06:12----------
+crap one way to find out so I'm just
+
+---------06:15----------
+gonna unplug everything that's plugged
+
+---------06:16----------
+in here we're gonna look for you 7400 on
+
+---------06:18----------
+the board and see if we get anything
+
+---------06:20----------
+that's interesting so what are your bets
+
+---------06:22----------
+do you think that this is gonna be a
+
+---------06:24----------
+BIOS issue do you think it's going to be
+
+---------06:27----------
+a corrosion issue do you think it's
+
+---------06:28----------
+gonna be a burned component issue or do
+
+---------06:32----------
+you think the board is going to fix
+
+---------06:33----------
+itself like the trackpad one did in that
+
+---------06:35----------
+last muffin video it's been happening
+
+---------06:38----------
+too much lately alright so let's take a
+
+---------06:41----------
+look at what we have on the other side
+
+---------06:43----------
+of the board
+
+---------06:52----------
+Oh Oh gross oh hey feel a little better
+
+---------07:09----------
+but since I'm at the end of my
+
+---------07:11----------
+Jagermeister bottle I don't
+
+---------07:20----------
+yeah I'm done we've only had two or
+
+---------07:27----------
+three episodes together you're gone
+
+---------07:32----------
+goodbye friend
+
+---------07:38----------
+oh well back to work
+
+---------07:42----------
+no use crying over used up alcohol so
+
+---------07:46----------
+this is the cpu V core puck controller
+
+---------07:49----------
+and yeah is it not obvious why this is
+
+---------07:54----------
+not working it's because nobody spilled
+
+---------07:58----------
+anything on it that's why that's cuz
+
+---------08:00----------
+nobody spilled anything on it that's why
+
+---------08:04----------
+okay let's get to work we're gonna turn
+
+---------08:08----------
+on the fume extractor and we're gonna
+
+---------08:12----------
+turn on the JBC
+
+---------08:14----------
+and we're gonna I don't think that we'll
+
+---------08:20----------
+ever get a sponsor on these videos I
+
+---------08:24----------
+don't think any company in their right
+
+---------08:26----------
+mind would sponsor its yeah
+
+---------08:33----------
+I was talking about that with what the
+
+---------08:36----------
+sales got here
+
+---------08:41----------
+because there is some company you know
+
+---------08:43----------
+there are a lot of companies that have
+
+---------08:44----------
+been sending me offers for all this type
+
+---------08:45----------
+of stupid by the way if you want to
+
+---------08:48----------
+know why it's not working it's this one
+
+---------08:49----------
+and I'll explain why that that's the one
+
+---------08:52----------
+that's causing it later anyway the
+
+---------08:56----------
+capacitor being disgusting is disgusting
+
+---------08:58----------
+but that's not actually what's doing it
+
+---------08:59----------
+it's the resistance any indi so there
+
+---------09:05----------
+are a lot of companies though that have
+
+---------09:07----------
+been asking me to review and some
+
+---------09:08----------
+of the some of its it's interesting some
+
+---------09:10----------
+of its just really stupid yeah it's like
+
+---------09:12----------
+what would you think of some type of
+
+---------09:14----------
+arrangement where you sell sponsorship
+
+---------09:16----------
+slots where you sell sponsorship slots
+
+---------09:19----------
+and receive Commission and he's like
+
+---------09:23----------
+yeah like what do you mean and he's like
+
+---------09:26----------
+you know you've kind of built this
+
+---------09:28----------
+channel off of being an [ __ ] so I
+
+---------09:30----------
+don't see let's see how that works
+
+---------09:32----------
+anyway you know he wasn't being
+
+---------09:33----------
+insulting about it it was completely and
+
+---------09:35----------
+utterly truthful you know and when I
+
+---------09:38----------
+look back on it yeah yeah yeah I don't
+
+---------09:42----------
+think I'd spot I don't think if I were
+
+---------09:44----------
+an equipment company now I'm not gonna
+
+---------09:46----------
+advertise that some dude that bashed a
+
+---------09:48----------
+Baku station to pieces no that's that's
+
+---------09:53----------
+and yet but that's not happening so
+
+---------09:58----------
+let's reconnect this this nasty-looking
+
+---------10:00----------
+area yeah we're gonna put a nice nice
+
+---------10:02----------
+resistor on there a nice little resistor
+
+---------10:06----------
+on there and I bet that most of our
+
+---------10:07----------
+problems will be solved so the first
+
+---------10:11----------
+thing that I have to do is get myself a
+
+---------10:14----------
+90.9 killer ohm resistor alright so the
+
+---------10:18----------
+resistor that's burned is here for CPU i
+
+---------10:20----------
+MVP underscore ton t o n stands for time
+
+---------10:24----------
+on this is going to set the time that
+
+---------10:26----------
+the buck converter stays on so let's
+
+---------10:29----------
+check this out a little bit so you see
+
+---------10:30----------
+how we have spikes now we're going from
+
+---------10:32----------
+8 volts 2.8 volts now if we were going
+
+---------10:35----------
+from 15 volts 2.8 volts we would have
+
+---------10:38----------
+smaller spikes and more zero in order to
+
+---------10:41----------
+average out eight volts a poem 2.8 volts
+
+---------10:44----------
+you need more spikes than you would if
+
+---------10:48----------
+you were averaging out 15 volts 2.8
+
+---------10:50----------
+volts so the amount of time that the
+
+---------10:52----------
+buck converter spends on to see here
+
+---------10:53----------
+this is
+
+---------10:54----------
+this is off this is on this is off this
+
+---------10:58----------
+is on this is off the amount of time
+
+---------11:00----------
+that it spends on is going to be
+
+---------11:02----------
+dependent on the voltage that's present
+
+---------11:04----------
+at the top of the transistor so the
+
+---------11:07----------
+power that's actually being switched
+
+---------11:08----------
+through so P P VIN soc Pui MVP is going
+
+---------11:12----------
+to this time on pin over here so that
+
+---------11:15----------
+this chip can figure out how much time
+
+---------11:17----------
+that you spend on because do keep in
+
+---------11:19----------
+mind that this chip can be used in
+
+---------11:20----------
+multiple designs this can be used to
+
+---------11:22----------
+turn eight volts in two point eight
+
+---------11:24----------
+volts it can be used to turn twelve
+
+---------11:25----------
+volts in a point eight volt it can be
+
+---------11:27----------
+used to turn 15 volts in a point eight
+
+---------11:28----------
+volts it can be used to turn 20 volts in
+
+---------11:29----------
+two point eight volts and so on and so
+
+---------11:31----------
+forth the entire point of this chip is
+
+---------11:33----------
+to be versatile so that it can be used
+
+---------11:35----------
+in multiple different designs the
+
+---------11:37----------
+ability of this chip to be used in
+
+---------11:38----------
+multiple different designs is going to
+
+---------11:39----------
+increase its value and also increase its
+
+---------11:42----------
+versatility which brings the company
+
+---------11:43----------
+that made it maximum greater returns so
+
+---------11:46----------
+the idea here is if we can simply rather
+
+---------11:48----------
+than just have it say this chip is
+
+---------11:50----------
+designed to make 8 volts into whatever
+
+---------11:52----------
+if we design it to say this chip is
+
+---------11:53----------
+designed to turn whatever into whatever
+
+---------11:55----------
+and we can have a pin there that's going
+
+---------11:58----------
+to set you know what the source voltage
+
+---------12:00----------
+is then we're golden we can use this in
+
+---------12:02----------
+a MacBook Air we can use this in a
+
+---------12:04----------
+MacBook Pro we can use this in an
+
+---------12:05----------
+alienware or adel or whatever the hell
+
+---------12:07----------
+and it'll work just fine
+
+---------12:09----------
+so cpoe MVP tun is going to be helpful
+
+---------12:11----------
+because it allows us to use this in
+
+---------12:13----------
+multiple different machines that use
+
+---------12:16----------
+multiple different power lines now if we
+
+---------12:18----------
+cut that if we say if we never give it a
+
+---------12:20----------
+source if that if that V is broken
+
+---------12:22----------
+another V if the trace is broken then
+
+---------12:25----------
+it's going to see zero volts at that pin
+
+---------12:28----------
+which means no switching no time on so
+
+---------12:32----------
+we have to restore that but we also have
+
+---------12:34----------
+to find a 90.9 kilohm resistor cuz
+
+---------12:38----------
+jackass here doesn't have a spool of
+
+---------12:40----------
+them left and person who didn't spill
+
+---------12:42----------
+anything is calling three times a day
+
+---------12:43----------
+asking why it ain't done yet so let's
+
+---------12:46----------
+find a resistor you would better not
+
+---------12:52----------
+either you don't get to get caught here
+
+---------12:55----------
+with a repair that takes longer than a
+
+---------12:56----------
+day or you will you will have your heart
+
+---------12:59----------
+and soul ripped out of you right there
+
+---------13:03----------
+alright let's get this started on the
+
+---------13:06----------
+road
+
+---------13:09----------
+all right so this is gonna go on
+
+---------13:12----------
+sideways because I mean just look a look
+
+---------13:15----------
+at what I'm working with here
+
+---------13:33----------
+okay
+
+---------13:41----------
+although again
+
+---------13:56----------
+this tip is ridiculously oversized for
+
+---------13:59----------
+what I'm doing let's see if it came out
+
+---------14:02----------
+looking the way that I wanted to yes I'm
+
+---------14:09----------
+not gonna say that looks exactly the way
+
+---------14:10----------
+that I'd like it to look uh you do the
+
+---------14:14----------
+best with what you have you know what
+
+---------14:15----------
+I'm saying all right so now I just got
+
+---------14:19----------
+to put that capacitor back in place
+
+---------14:21----------
+so let's find myself and nice beautiful
+
+---------14:26----------
+equal value capacitor and once I have
+
+---------14:30----------
+that I'll be offset and ready to go and
+
+---------14:35----------
+I'm sure after that that there'll be no
+
+---------14:36----------
+other issues I'm sure that the liquid
+
+---------14:39----------
+didn't go to anything else
+
+---------14:41----------
+I'm confident see this is what would
+
+---------14:49----------
+make fixing other stuff a complete and
+
+---------14:50----------
+utter nightmare I mean we really what
+
+---------14:53----------
+makes me look smart and good and
+
+---------14:54----------
+efficient at this is having a good donor
+
+---------14:56----------
+pile you know if I want to test the
+
+---------14:57----------
+theory hey does this work but does this
+
+---------14:59----------
+not work all I have to do the only thing
+
+---------15:01----------
+I have to do you just walk over here and
+
+---------15:03----------
+take parts off if I want to test the
+
+---------15:05----------
+theory testing a theory takes no time
+
+---------15:06----------
+without a good spare part string testing
+
+---------15:09----------
+theories is an idea testing theories
+
+---------15:16----------
+you're seeing what resistance the ground
+
+---------15:18----------
+is at certain points and you know this
+
+---------15:22----------
+all helps
+
+---------15:34----------
+alright so we put this here wait a
+
+---------15:40----------
+second the capacitor as if that
+
+---------15:45----------
+capacitor has a chip in it
+
+---------15:48----------
+ hell no I'm using that okay
+
+---------15:53----------
+giant number two that was bull
+
+---------16:21----------
+god bless surface tension all right this
+
+---------16:24----------
+thing still has to get ultrasonic
+
+---------16:25----------
+because this is gross we're just gonna
+
+---------16:27----------
+go over the board and check out some of
+
+---------16:28----------
+the other sections of it and let's see
+
+---------16:31----------
+what is our what is our no liquid damage
+
+---------16:33----------
+you look like alright go over here boo
+
+---------16:42----------
+shoot going no liquid
+
+---------17:01----------
+let's go over the other side
+
+---------17:05----------
+yeah these diagnostic ports let me show
+
+---------17:08----------
+you what I think of this diagnostic port
+
+---------17:09----------
+so every single part of the machine
+
+---------17:13----------
+every single important signal often
+
+---------17:15----------
+combines here it's one of those JTAG
+
+---------17:18----------
+ports maybe for programming the SMC or
+
+---------17:21----------
+programming the bios or something like
+
+---------17:23----------
+that I'd have to look at it again to see
+
+---------17:25----------
+exactly what it's for here's the thing
+
+---------17:28----------
+here's the way I see this right so this
+
+---------17:30----------
+port for me they can quote it can be a
+
+---------17:32----------
+liability if anything if any of those
+
+---------17:35----------
+pins short together it gets corroded
+
+---------17:37----------
+right it becomes a liability however it
+
+---------17:40----------
+doesn't benefit me in any way shape or
+
+---------17:42----------
+form the only way this benefits anybody
+
+---------17:44----------
+is if Apple we're to take this board
+
+---------17:47----------
+back and want to repair it or want to
+
+---------17:49----------
+test something this would make the
+
+---------17:50----------
+apples life easier now now now now now
+
+---------17:54----------
+now now everybody here raise your hand
+
+---------17:58----------
+if you think that I should do work to
+
+---------17:59----------
+make apples life easier raise your hand
+
+---------18:01----------
+show hands your hands should I keep that
+
+---------18:04----------
+port on should I solder a new one on the
+
+---------18:05----------
+board yeah I don't see any raised hands
+
+---------18:12----------
+okay so screw that we're gonna wick that
+
+---------18:13----------
+and call it a day I'm pretty sure at
+
+---------18:16----------
+this point that this board will work
+
+---------18:17----------
+just fine
+
+---------18:18----------
+so that's it's gonna wick that away yeah
+
+---------18:25----------
+corrosion on that can very easily wind
+
+---------18:28----------
+up screwing up the board okay now we're
+
+---------18:32----------
+gonna do is we're gonna plug the same
+
+---------18:33----------
+we're gonna see if we have CPU vcore and
+
+---------18:35----------
+if we have CPU vcore we will celebrate I
+
+---------18:37----------
+mean I don't really know how to
+
+---------18:38----------
+celebrate you know do you really call an
+
+---------18:45----------
+empty bottle a celebration ah so it
+
+---------18:51----------
+looks like I was able to get through you
+
+---------18:53----------
+know one video without the capture
+
+---------18:54----------
+hardware screwing up it's pretty
+
+---------18:56----------
+interesting I mean granted the entire
+
+---------18:58----------
+can computer froze for quite a
+
+---------19:00----------
+bit but the capture Hardware never
+
+---------19:01----------
+screwed up something tells me that the
+
+---------19:03----------
+capture Hardware probably caused that to
+
+---------19:05----------
+happen but we'll see we'll see so first
+
+---------19:09----------
+thing they do here is just plug this in
+
+---------19:11----------
+and see if I have something I can work
+
+---------19:15----------
+with and if I don't I'm gonna go back
+
+---------19:23----------
+and work on my impressions a little bit
+
+---------19:25----------
+see if I can get it okay we're gonna
+
+---------19:31----------
+plug it in
+
+---------19:32----------
+I didn't plug the speaker in so I won't
+
+---------19:35----------
+know if I get a nice loooong dawn hey
+
+---------19:37----------
+what do you know the screen comes on the
+
+---------19:43----------
+screen comes on I mean it looks like it
+
+---------19:46----------
+looks like from all that not water
+
+---------19:47----------
+spilled in it but but works come on we
+
+---------20:02----------
+get a question mark I did leave the heat
+
+---------20:03----------
+sink on and the fan so I don't feel
+
+---------20:05----------
+guilty about leaving it on until it gets
+
+---------20:06----------
+the question mark come on yeah there we
+
+---------20:10----------
+go we got a nice question mark folder
+
+---------20:12----------
+and look it's circled the question mark
+
+---------20:14----------
+folder is circled nice little puddle of
+
+---------20:16----------
+bottle of no water so that's it for
+
+---------20:21----------
+today and thank you for watching another
+
+---------20:23----------
+episode of component-level border pare
+
+---------20:24----------
+and as always I hope you learned
+
+---------20:26----------
+something
+

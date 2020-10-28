@@ -1,0 +1,1045 @@
+https://www.youtube.com/watch?v=N5OI0KM-NEA
+---------00:00----------
+all right so today we have a Macbook
+
+---------00:02----------
+that needs to be fixed let's see what
+
+---------00:05----------
+it's doing in my overhead camera by the
+
+---------00:07----------
+way in the next few days I have to
+
+---------00:08----------
+install this power supply software that
+
+---------00:10----------
+I got from circuit specialists they
+
+---------00:12----------
+actually sent me a power supply that
+
+---------00:13----------
+shows up on screen so you'll be able to
+
+---------00:18----------
+see the ampere just taking but I never
+
+---------00:21----------
+set it up I really should do that so at
+
+---------00:24----------
+some point so this MacBook is taking 12
+
+---------00:28----------
+milliamps and we don't get a light in
+
+---------00:30----------
+the charger and it's not turning on so
+
+---------00:34----------
+no green light not turning on so the
+
+---------00:36----------
+first thing we're gonna do see if the
+
+---------00:38----------
+power required for the one wire circuit
+
+---------00:40----------
+is there that's pp3 before - this is
+
+---------00:43----------
+also the power rail that has the SMC
+
+---------00:44----------
+working and as you can see it's three
+
+---------00:47----------
+point 4 volts hmm interesting
+
+---------00:51----------
+now the next thing we have to do is see
+
+---------00:55----------
+if the SMC is turning on so we have the
+
+---------00:57----------
+power required for the SMC to turn on
+
+---------00:59----------
+the SMC is gonna be what speaks to the
+
+---------01:01----------
+charger but now we have to see if we
+
+---------01:03----------
+have power for the SMC
+
+---------01:07----------
+so let's look up Boyd view for an 8 - 0
+
+---------01:10----------
+- 0 0 165 this over here is the SMC
+
+---------01:16----------
+recession this SMC reset L signal is
+
+---------01:19----------
+going to tell the SMC to turn off for
+
+---------01:22----------
+the first quarter of a second the
+
+---------01:23----------
+machine is on until PP 3 before 2 is
+
+---------01:26----------
+stabilized so we are gonna see if SMC
+
+---------01:30----------
+reset L is present on this MacBook
+
+---------01:37----------
+and it appears to not be present even
+
+---------01:41----------
+though PP 3v4 - he is present PP through
+
+---------01:44----------
+s MC reset he is not so we're gonna take
+
+---------01:48----------
+this MacBook out of the case and try and
+
+---------01:51----------
+find out why it's missing so much
+
+---------01:59----------
+allergies have you seen in early 2015
+
+---------02:02----------
+MacBook Pro at the issue called stain
+
+---------02:04----------
+gate yes but you yeah what I recommend
+
+---------02:08----------
+people do there is just rip the entire
+
+---------02:09----------
+coating off so at least it's even
+
+---------02:11----------
+throughout yeah I still recommended the
+
+---------02:17----------
+2013-14 retinas even though they had the
+
+---------02:19----------
+issue with staying gate because at the
+
+---------02:20----------
+very least it would not cause the
+
+---------02:22----------
+machine to be dead so the other so it
+
+---------02:24----------
+doesn't cause it to be unusable it's
+
+---------02:25----------
+just a cosmetic defect
+
+---------02:51----------
+what are your thoughts in sync panics
+
+---------02:53----------
+200 I would not want to buy a machine
+
+---------02:55----------
+that has to be modified to 1080p cuz I
+
+---------02:58----------
+honestly don't even want to deal with
+
+---------02:59----------
+1080p anymore much less having to modify
+
+---------03:01----------
+to get 1080p drink some tea I don't have
+
+---------03:07----------
+any tea at work afraid
+
+---------03:15----------
+I ordered a Macbook 409 with Vega 20
+
+---------03:18----------
+yesterday somebody says you ordered a
+
+---------03:25----------
+MacBook Pro with you ordered a you
+
+---------03:40----------
+you what you watch this channel and you
+
+---------03:44----------
+just order the new MacBook get the [ __ ]
+
+---------03:47----------
+out of my store get the [ __ ] out of my
+
+---------03:51----------
+store get the [ __ ] out of my store
+
+---------03:56----------
+that's great now get the [ __ ] out of
+
+---------04:00----------
+here
+
+---------04:08----------
+i overlay thank you to ever produce the
+
+---------04:11----------
+overlay paper you stopped buying it
+
+---------04:13----------
+stored out Ross from group.com hi hi
+
+---------04:15----------
+stops being fed so where were we
+
+---------04:16----------
+so it's all taking 15 milliamps and not
+
+---------04:18----------
+turning on so what I want to do is see
+
+---------04:20----------
+why SMC reset is being pulled low we're
+
+---------04:23----------
+gonna go back to the schematic in the
+
+---------04:25----------
+board view we're gonna take a look at
+
+---------04:26----------
+the schematic in the board view
+
+---------04:28----------
+allergies great I'm gonna get burned in
+
+---------04:31----------
+on my LED oh oh let now funny you say
+
+---------04:34----------
+that I actually have burned it on my
+
+---------04:35----------
+secondary monitor I actually have a
+
+---------04:40----------
+little tiny piece of burnin for the
+
+---------04:42----------
+other day that I noticed from the
+
+---------04:43----------
+multimeter overlay Paul Daniels do you
+
+---------04:46----------
+realize that your software cost Vernon
+
+---------04:48----------
+on my monitor can't trust Australians
+
+---------04:52----------
+for anything anyway back to this over
+
+---------04:55----------
+here you'll see there's a pull up
+
+---------04:56----------
+resistor it's a hundred kilo ohms it's
+
+---------04:58----------
+gonna be using it that's gonna use PP 3
+
+---------05:00----------
+V 4 to underscore G 3 hot as a power
+
+---------05:01----------
+rail to create SMC reset now let's take
+
+---------05:03----------
+a look at what this power this total
+
+---------05:06----------
+pull-up resistor looks like over here so
+
+---------05:08----------
+that resistor is gonna be over here
+
+---------05:10----------
+we're gonna take a look in the
+
+---------05:11----------
+microscope the resistor is a little
+
+---------05:18----------
+dusty but it actually looks fine so now
+
+---------05:21----------
+you have two options there's two things
+
+---------05:23----------
+that could be causing this to be pulled
+
+---------05:26----------
+down behind door number one the SMC pine
+
+---------05:29----------
+door number two the SMC reset ship now
+
+---------05:32----------
+if we have the look of Loess it'll be
+
+---------05:34----------
+the SMC reset ship if we have the luck
+
+---------05:36----------
+of Paul it will be the SMC whose luck do
+
+---------05:41----------
+you think we have today all right that's
+
+---------05:43----------
+supposed to be my microscope camera and
+
+---------05:44----------
+the microscope camera doesn't appear to
+
+---------05:45----------
+be showing up let's see what happened on
+
+---------05:49----------
+my microscope camera my microscope
+
+---------05:51----------
+camera is not showing anything
+
+---------05:54----------
+let's you try turning it off I tried
+
+---------05:57----------
+plugging it in and unplugging it so
+
+---------05:59----------
+let's see if we have Paul's luck or
+
+---------06:00----------
+Louis's luck today I'm gonna think that
+
+---------06:02----------
+we have Louis's luck today because as
+
+---------06:04----------
+you can see there's a pin that is a
+
+---------06:06----------
+little bit of green on it it's barely
+
+---------06:07----------
+noticeable it's barely there but as you
+
+---------06:10----------
+can see here is a pin it has a little
+
+---------06:13----------
+bit of green right here right there and
+
+---------06:19----------
+that little pin with a little bit of
+
+---------06:20----------
+green means this chip is probably a
+
+---------06:22----------
+problem because this chip had liquid
+
+---------06:24----------
+damage even though the customer said
+
+---------06:27----------
+this bull this machine had never had
+
+---------06:28----------
+liquid damage but you saw how little bit
+
+---------06:31----------
+of green that was that's barely
+
+---------06:32----------
+noticeable that's it
+
+---------06:34----------
+it's like a little cockroach walked us
+
+---------06:36----------
+in the machine and he didn't even finish
+
+---------06:38----------
+peeing because he got a phone call and
+
+---------06:40----------
+then he peed and he stopped and that's
+
+---------06:43----------
+all it took to kill this MacBook because
+
+---------06:45----------
+there's no liquid resistance whatsoever
+
+---------06:47----------
+none nada it doesn't matter that Lenovo
+
+---------06:51----------
+and IBM figure this stuff out 15 years
+
+---------06:53----------
+ago on their low-end line
+
+---------06:54----------
+Apple still hasn't figured it out today
+
+---------06:56----------
+and they will continue to charge you
+
+---------06:58----------
+talk to your prices charge capture
+
+---------07:02----------
+prices harsh sheer price
+
+---------07:09----------
+get the [ __ ] out of my store I thought
+
+---------07:16----------
+still hasn't figured it out today and
+
+---------07:18----------
+they will continue to charge you talk to
+
+---------07:20----------
+your prices top quality prices as if
+
+---------07:23----------
+this product is better than everything
+
+---------07:25----------
+else when it's actually not let's see if
+
+---------07:31----------
+we get a green light
+
+---------07:32----------
+once remove this chip now remember it's
+
+---------07:36----------
+still not gonna work when I remove this
+
+---------07:38----------
+chip because the whole purpose of this
+
+---------07:40----------
+trip is to have SMC reset l held low for
+
+---------07:43----------
+the first quarter of a second after the
+
+---------07:45----------
+machine turns on set the SMC doesn't
+
+---------07:48----------
+crash so the SMC runs up a PPP before -
+
+---------07:50----------
+but the first parallel becomes present
+
+---------07:52----------
+in the computer however while that power
+
+---------07:54----------
+L is being created it's gonna be jumpy
+
+---------07:58----------
+and if it tries to power the SMC the SMC
+
+---------08:01----------
+tries to boot and turn on and do all of
+
+---------08:03----------
+its internal processes and signal
+
+---------08:04----------
+stuffing engineering mumbo-jumbo
+
+---------08:08----------
+while PP 3 before 2 is 4 volts 5 volts 2
+
+---------08:10----------
+volts 1 volt it's it's gonna crash so
+
+---------08:13----------
+the way we keep it from crashing is by
+
+---------08:18----------
+having and it turned off until PP 3 or 2
+
+---------08:22----------
+is stabilized so this is kind of like a
+
+---------08:23----------
+brownout detector chip however it will
+
+---------08:26----------
+very least allow me to see if this is if
+
+---------08:31----------
+SMC reset L is high so even if the
+
+---------08:33----------
+computer doesn't work if SMC reset L is
+
+---------08:35----------
+high although the distillates job that
+
+---------08:37----------
+removing this chip would have been
+
+---------08:39----------
+effects
+
+---------08:42----------
+let's use too much solder muscles too
+
+---------08:45----------
+much solder to trigger the
+
+---------08:47----------
+perfectionists on the eevblog form and
+
+---------08:52----------
+say that I am an ape and ape
+
+---------08:59----------
+I would much rather be insulted by being
+
+---------09:01----------
+called a koala than an ape they're much
+
+---------09:03----------
+cuter and if trying to call somebody
+
+---------09:08----------
+dumb I think that's also a far better
+
+---------09:09----------
+way to do it I like Dave Jones and I
+
+---------09:13----------
+especially like the comments that he
+
+---------09:14----------
+leaves in response to people who are
+
+---------09:17----------
+jackasses in his comment section their
+
+---------09:19----------
+quality
+
+---------09:39----------
+[Music]
+
+---------09:49----------
+[Music]
+
+---------09:58----------
+Sanatana Sarah
+
+---------10:14----------
+all right Neal office wrong
+
+---------10:20----------
+yeah
+
+---------10:23----------
+[Music]
+
+---------10:28----------
+okay
+
+---------10:30----------
+now we're going to see if we get a light
+
+---------10:32----------
+or SMC reset l
+
+---------10:37----------
+we do have a light and SMC reset l is
+
+---------10:46----------
+high indicating that today we have
+
+---------10:49----------
+Louis's luck and not Paul's luck I did
+
+---------10:53----------
+pick this board at random just went
+
+---------10:56----------
+through the slot eeny meeny miny moe
+
+---------10:58----------
+eyes closed and this is what I got
+
+---------11:02----------
+can you imagine that Paul can you
+
+---------11:04----------
+imagine that alright now we need a new
+
+---------11:07----------
+SMC reset l chip so let's see on the
+
+---------11:11----------
+schematic what this is what we need here
+
+---------11:14----------
+is SN zero nine zero three zero four
+
+---------11:18----------
+nine if only there was a website that
+
+---------11:20----------
+listed every single macbook chip by both
+
+---------11:22----------
+its macbook schematic designator and
+
+---------11:25----------
+actual model number of the chip
+
+---------11:27----------
+if only such a site existed hmm if only
+
+---------11:33----------
+if only there was a place a one-stop
+
+---------11:35----------
+shop that had every single thing that
+
+---------11:37----------
+you needed to fix a macbook on it oh
+
+---------11:40----------
+wait oh wait there is at store dot
+
+---------11:46----------
+Rosman coop comm you can type in u5 one
+
+---------11:49----------
+one zero and you'll find with
+
+---------11:55----------
+autocomplete the SN zero nine zero three
+
+---------11:59----------
+zero four nine
+
+---------12:00----------
+it's in stock it's on sale if you buy
+
+---------12:02----------
+five there's additional savings and it
+
+---------12:04----------
+even tells you which MacBook boards it's
+
+---------12:05----------
+compatible with and it tells you what to
+
+---------12:08----------
+check first this website is not just a
+
+---------12:10----------
+website put together by some ecommerce F
+
+---------12:12----------
+faces that are trying to get rich by
+
+---------12:13----------
+linking to via using Amazon Fulfillment
+
+---------12:16----------
+for products they don't know anything
+
+---------12:17----------
+about this website actually tells you
+
+---------12:19----------
+exactly what you need to know about
+
+---------12:21----------
+every single product is it tells you
+
+---------12:23----------
+what this chips purpose is within the
+
+---------12:24----------
+machine it tells you how to troubleshoot
+
+---------12:26----------
+the machine before you replace this chip
+
+---------12:29----------
+and it tells you what the job of the
+
+---------12:31----------
+chip is it tells you the compatible
+
+---------12:32----------
+boards of the chip and it's available
+
+---------12:34----------
+with same-day shipping from New York
+
+---------12:36----------
+free shipping on all orders in the
+
+---------12:37----------
+continental United States over $30 with
+
+---------12:39----------
+amazing ratings on stored rossmann
+
+---------12:42----------
+group.com local pickup available in New
+
+---------12:45----------
+York City if you place your order and
+
+---------12:46----------
+choose shipping method local pickup
+
+---------12:51----------
+you can't lose now we're gonna get
+
+---------12:56----------
+ourselves a new chip from store doll
+
+---------12:57----------
+Rossman group calm oh wow
+
+---------13:04----------
+somebody sent me a power supply for free
+
+---------13:06----------
+holy crap Wow
+
+---------13:08----------
+who send me this I don't deserve this
+
+---------13:11----------
+thank you this is a gift or is this
+
+---------13:17----------
+something like I have to review it and
+
+---------13:18----------
+give them a good reveal which I'm not
+
+---------13:20----------
+okay good because they're they're not
+
+---------13:21----------
+gonna be happy if it's a visa but thank
+
+---------13:23----------
+you very much to the person who got me
+
+---------13:24----------
+this new a power supply that's very nice
+
+---------13:27----------
+of you
+
+---------13:28----------
+no seriously thank you okay now I need a
+
+---------13:33----------
+chip from slot c1 let me give me a chip
+
+---------13:36----------
+from slot c1 can you show our audience
+
+---------13:38----------
+how large the warehouse it's stored out
+
+---------13:40----------
+Rossmann grief calm is hi hi okay where
+
+---------13:43----------
+is the first warehouse where's the first
+
+---------13:45----------
+one for warehouse number one where was
+
+---------13:49----------
+where's warehouse number two no where's
+
+---------13:52----------
+warehouse number three warehouse number
+
+---------13:54----------
+four whoa well you need the camera to be
+
+---------13:58----------
+able to switch to see that yeah you
+
+---------14:00----------
+can't oh this is 65% of our warehouse
+
+---------14:04----------
+right here oh yeah all right we're
+
+---------14:11----------
+invading okay so give me a question what
+
+---------14:23----------
+percentage of boards crap overlay [ __ ]
+
+---------14:27----------
+must must move overlay sir
+
+---------14:30----------
+what percentage of boards can the
+
+---------14:31----------
+ultrasonic cleaner goddamn Oh can repair
+
+---------14:37----------
+via cymbal corrosion removal alone oh
+
+---------14:39----------
+I'd say the Edley about fifty percent a
+
+---------14:42----------
+good 50 percent of the board's the
+
+---------14:43----------
+ultrasonic cleaner fixes so yeah the
+
+---------14:45----------
+ultrasonic cleaner is definitely the
+
+---------14:47----------
+most productive employee here far more
+
+---------14:49----------
+so than I am I just fixed the boards
+
+---------14:51----------
+that the ultrasonic cleaner fails at but
+
+---------14:53----------
+the ultrasonic cleaner does fix more
+
+---------14:55----------
+than me we were using the ultrasonic
+
+---------14:58----------
+cleaner for a long
+
+---------14:59----------
+I'm prior to us having the knowledge to
+
+---------15:01----------
+do that stuff ourselves I got my
+
+---------15:02----------
+ultrasonic cleaner in 2009 by the way my
+
+---------15:05----------
+keys say hi what's your shirt neat he's
+
+---------15:12----------
+dying you wear death on your shirt that
+
+---------15:15----------
+is that is something else okay but yeah
+
+---------15:20----------
+so that is that is that
+
+---------15:24----------
+yeah the ultrasonic all the way thank
+
+---------15:26----------
+you by the way to blur yeah that is a
+
+---------15:29----------
+one of the most productive employees and
+
+---------15:32----------
+it's an inanimate object it definitely
+
+---------15:34----------
+does more work than I do that ultrasonic
+
+---------15:37----------
+cleaner just kills it I got that thing
+
+---------15:39----------
+in 2009 I actually have a video about
+
+---------15:41----------
+that ultrasonic cleaner yeah this is a
+
+---------15:42----------
+very very old video here that I did next
+
+---------15:44----------
+to my ultrasonic cleaner this is about
+
+---------15:49----------
+six years old now so yeah I think I was
+
+---------15:55----------
+one of the few times that gave good
+
+---------15:56----------
+advice in this video yep I got that
+
+---------15:59----------
+thing yeah that ultrasonic cleaner is
+
+---------16:02----------
+very close to turning ten years old and
+
+---------16:05----------
+it was one of the best purchases I ever
+
+---------16:06----------
+made that was the tiny Orca sonic
+
+---------16:10----------
+cleaner that you see in that picture
+
+---------16:11----------
+though
+
+---------16:25----------
+[Music]
+
+---------16:41----------
+wait a second
+
+---------16:44----------
+I was looking at the orientation of
+
+---------16:46----------
+going down [ __ ] you go this way
+
+---------16:49----------
+[Music]
+
+---------17:02----------
+[Music]
+
+---------17:13----------
+[Music]
+
+---------17:15----------
+hey how they go food yes sir thank you
+
+---------17:19----------
+very much
+
+---------17:21----------
+[Music]
+
+---------17:32----------
+[Music]
+
+---------17:56----------
+[Music]
+
+---------18:00----------
+as always I hope you learned something
+
+---------18:12----------
+do you have a Macbook that needs to be
+
+---------18:14----------
+fixed come by our store which is open to
+
+---------18:16----------
+the public
+
+---------18:17----------
+186 first Avenue in Manhattan are you
+
+---------18:19----------
+located outside of New York no problem
+
+---------18:21----------
+we have a live chat where you can speak
+
+---------18:24----------
+with us about the repair that you need a
+
+---------18:25----------
+phone number where a representative
+
+---------18:27----------
+olefinic up during our open hours where
+
+---------18:29----------
+you can contact us about repairs send us
+
+---------18:31----------
+a machine from anywhere in the world by
+
+---------18:33----------
+going to our website and clicking on the
+
+---------18:35----------
+mailbox or simply heading over to send
+
+---------18:37----------
+your macbook comm that send your Mac
+
+---------18:40----------
+Vodacom will you be redirected to our
+
+---------18:43----------
+mail and instructions page that includes
+
+---------18:45----------
+the form and the directions on how to
+
+---------18:47----------
+send us a Macbook for repair
+
+---------18:50----------
+don't let clicker affiliate link down
+
+---------18:52----------
+below
+

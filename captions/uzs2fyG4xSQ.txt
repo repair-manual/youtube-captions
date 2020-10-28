@@ -1,0 +1,907 @@
+https://www.youtube.com/watch?v=uzs2fyG4xSQ
+---------00:00----------
+all right so today we're gonna be
+
+---------00:01----------
+working on a Macbook that has no
+
+---------00:02----------
+trackpad connected so it will work with
+
+---------00:05----------
+the keyboard but it won't work with the
+
+---------00:07----------
+trackpad and there's a couple of things
+
+---------00:09----------
+that I have to mention about this when
+
+---------00:10----------
+it comes to the a 1502 Retina for the
+
+---------00:13----------
+2015 and 16 models which is what we have
+
+---------00:15----------
+here which is what we have here which is
+
+---------00:19----------
+what we what we [ __ ] what we have he
+
+---------00:26----------
+what we have here this is it 2015-16
+
+---------00:29----------
+retina and if we take a look at the
+
+---------00:31----------
+schematic and the board view you'll
+
+---------00:32----------
+notice that there's something
+
+---------00:33----------
+interesting about this model that's
+
+---------00:34----------
+particularly unique to this model when
+
+---------00:38----------
+it comes to the pros so the keyboard
+
+---------00:40----------
+signal all of this stuff over here
+
+---------00:42----------
+WS keyboard 1 2 3 4 5 6 7 8 9 the
+
+---------00:45----------
+keyboard does not go direct to the board
+
+---------00:47----------
+and into the CPU anymore the keyboard
+
+---------00:49----------
+goes to this chip this chip then
+
+---------00:53----------
+communicates on this I squared C line
+
+---------00:56----------
+Paul wins there I'm gonna say I squared
+
+---------00:58----------
+C to the trackpad and then the trackpad
+
+---------01:01----------
+then talks to the CPU on on another line
+
+---------01:05----------
+here so the way this works is the
+
+---------01:08----------
+keyboard goes to the board the board
+
+---------01:11----------
+then sends the keyboard data to the
+
+---------01:13----------
+trackpad and then that keyboard data
+
+---------01:15----------
+goes from the trackpad then back to the
+
+---------01:17----------
+CPU because the board itself is too dumb
+
+---------01:20----------
+to do that it has to actually take a
+
+---------01:21----------
+trip from the board to the trackpad then
+
+---------01:25----------
+back from the trackpad to the computer
+
+---------01:26----------
+to get to the machine so why is that
+
+---------01:29----------
+important well great question the reason
+
+---------01:31----------
+that's important is because it helps us
+
+---------01:32----------
+narrow down whether or not our issue is
+
+---------01:34----------
+with the trackpad the trackpad cable or
+
+---------01:37----------
+the board itself so why is it that I
+
+---------01:39----------
+think this is a board issue the reason I
+
+---------01:41----------
+think it's a board issue is because the
+
+---------01:42----------
+keyboard itself is actually working when
+
+---------01:44----------
+I try to type something and the reason
+
+---------01:46----------
+that's important is because if the
+
+---------01:47----------
+keyboard was not working as well this
+
+---------01:49----------
+would be a trackpad cable issue and
+
+---------01:50----------
+trackpad cable issues are very common on
+
+---------01:53----------
+this machine this cable over here that
+
+---------01:54----------
+you can buy it stored rossmann group.com
+
+---------01:57----------
+don't delay by today often goes bad on
+
+---------01:59----------
+these machines for no good reason even
+
+---------02:01----------
+if you didn't drop it and even if you
+
+---------02:03----------
+didn't get liquid on it so I can
+
+---------02:04----------
+demonstrate here by booting into a test
+
+---------02:06----------
+operating system that the keyboard
+
+---------02:08----------
+itself does work fine so I'm going to
+
+---------02:11----------
+turn this thing on
+
+---------02:12----------
+and go from there let's just do a little
+
+---------02:17----------
+bit of a demonstration turn on your
+
+---------02:22----------
+piece of [ __ ] boot your piece of [ __ ]
+
+---------02:24----------
+boot any comments on a new MacBook Pro
+
+---------02:28----------
+throttling Wow Apple released a computer
+
+---------02:33----------
+that throttles because it is
+
+---------02:34----------
+insufficient cooling no way Paul they
+
+---------02:38----------
+released a computer that throttles no
+
+---------02:41----------
+[ __ ] way
+
+---------02:42----------
+I had oh my god call the press yeah Wow
+
+---------02:48----------
+okay yeah I mean come on it's Apple
+
+---------02:50----------
+that's this is what they do all the time
+
+---------02:52----------
+they built their company doing that [ __ ]
+
+---------02:54----------
+so as you can see the keys on the
+
+---------02:56----------
+keyboard work when I type so the
+
+---------02:59----------
+communication is working which means the
+
+---------03:02----------
+trackpad is working to some extent which
+
+---------03:04----------
+means the cable itself is likely not the
+
+---------03:06----------
+issue here and the cable is often the
+
+---------03:08----------
+issue which is why I bring this up
+
+---------03:09----------
+because when the cable is the issue you
+
+---------03:10----------
+won't get any keys working at all but
+
+---------03:12----------
+when I move the track when I try to move
+
+---------03:14----------
+the trackpad here you can see that
+
+---------03:15----------
+there's no cursor on the screen so let's
+
+---------03:17----------
+take a look and see what it is that I
+
+---------03:19----------
+should be looking for on this board and
+
+---------03:21----------
+this is the gonna be the trackpad
+
+---------03:24----------
+connector right here
+
+---------03:25----------
+j48 oh - so it looks like what I need to
+
+---------03:28----------
+have here is I need to have the eight
+
+---------03:31----------
+point six volts on my trackpad fuse so
+
+---------03:34----------
+we've got 13 volts there we're doing
+
+---------03:36----------
+good now we need to check for PP 5 vs
+
+---------03:38----------
+for trackpad F and as you can see I
+
+---------03:41----------
+that's on the other side of the board or
+
+---------03:43----------
+over here now here's the problem with
+
+---------03:45----------
+trying to measure that it's over it's
+
+---------03:49----------
+over here over so I got to take the
+
+---------03:54----------
+board out in order to tell so what we
+
+---------03:56----------
+need to do is see if we are getting 5
+
+---------03:59----------
+volts on this MacBook on pin 25 that's
+
+---------04:07----------
+gonna be on the other side of the board
+
+---------04:09----------
+down here on
+
+---------04:18----------
+Dondre dun dun dun dun point one volts
+
+---------04:24----------
+on one side point one volts on the other
+
+---------04:30----------
+so point one volts is no good so now we
+
+---------04:33----------
+got to trace this back and see where
+
+---------04:34----------
+it's coming from and PP 5 vs 4 is going
+
+---------04:37----------
+to come from this MOSFET on the side you
+
+---------04:42----------
+80/60 alright let's take a look at you
+
+---------04:45----------
+80 60 you 80 60
+
+---------04:47----------
+all right so this is gonna take PP 5 es
+
+---------04:49----------
+5 and it's going to turn it on it's
+
+---------04:52----------
+gonna turn on this trip which is gonna
+
+---------04:54----------
+let PP 5vs5 go through 2 PP 5 es 4 so I
+
+---------04:57----------
+need to have a voltage on pin 1 for
+
+---------05:00----------
+input and voltage on pin 2 to turn it on
+
+---------05:02----------
+so let's see what I get on pin 1 so pin
+
+---------05:06----------
+1 on the MOSFET can be measured up here
+
+---------05:13----------
+5 volts and pin 2 which would turn it on
+
+---------05:16----------
+can you measure down here
+
+---------05:25----------
+three volts but output which is gonna be
+
+---------05:28----------
+pens three and five the output of that
+
+---------05:32----------
+circuit is zero volts so there's two
+
+---------05:38----------
+possibilities here behind door number
+
+---------05:39----------
+one there's a short circuit to ground
+
+---------05:40----------
+which I can check for right here and
+
+---------05:46----------
+what do you know there is a short
+
+---------05:47----------
+circuit to ground hmm well what's
+
+---------05:49----------
+causing that short circuit to ground or
+
+---------05:50----------
+which side is it on two point three ohms
+
+---------05:54----------
+interesting interesting
+
+---------05:56----------
+so how are we gonna find where that
+
+---------05:59----------
+short circuit to ground is well let's
+
+---------06:03----------
+see what goes to ground on that line so
+
+---------06:05----------
+we have P P v V as v FET she's gonna be
+
+---------06:12----------
+coming out on pin five so that's gonna
+
+---------06:14----------
+come out on pin five and go here that
+
+---------06:19----------
+goes here where there is a capacitor to
+
+---------06:22----------
+ground C 48 64 so that capacitor could
+
+---------06:31----------
+be it or what else
+
+---------06:38----------
+that capacitor could be it under there
+
+---------06:41----------
+or it could be something along the
+
+---------06:45----------
+actual inside the board itself so
+
+---------06:47----------
+there's not a lot of choices here now as
+
+---------06:49----------
+you can see what's interesting is that
+
+---------06:51----------
+we have this little defect spot on the
+
+---------06:53----------
+board right here I'm not sure if this is
+
+---------06:56----------
+it really a defect I'm just guessing
+
+---------06:57----------
+because this part that's exposed a
+
+---------07:01----------
+little up here see that you probably
+
+---------07:03----------
+only see it if i zoom in more let me
+
+---------07:05----------
+just get the multimeter off the screen
+
+---------07:06----------
+to remove everything that's gonna be
+
+---------07:08----------
+distracting you from what I want to show
+
+---------07:09----------
+you you see that it's like a little hole
+
+---------07:12----------
+but it's not a natural hole like these
+
+---------07:14----------
+are the natural holes for the for things
+
+---------07:16----------
+to be traveling from one side of the
+
+---------07:18----------
+board to the other but this here it just
+
+---------07:20----------
+looks like some broken ass looking
+
+---------07:21----------
+pothole that's no good
+
+---------07:24----------
+and that's probably gonna cause a
+
+---------07:26----------
+breakdown in the system working no good
+
+---------07:30----------
+so the only way we can really figure out
+
+---------07:32----------
+what it is and keep in mind it's not a
+
+---------07:34----------
+lot on this line is by knocking the
+
+---------07:36----------
+things off that go to ground and the
+
+---------07:38----------
+only things that go to ground on this
+
+---------07:40----------
+line are this capacitor and this
+
+---------07:42----------
+capacitor so it's not like we have a lot
+
+---------07:44----------
+that we can guess on so I'm gonna knock
+
+---------07:45----------
+those two off I turn on my fume
+
+---------07:47----------
+extractor before I do so and see if we
+
+---------07:51----------
+can make this board work again all right
+
+---------07:53----------
+so we're gonna remove these two
+
+---------07:54----------
+capacitors and if it's still messed up
+
+---------07:58----------
+that means that the short-circuit is
+
+---------07:59----------
+actually inside the board at which point
+
+---------08:02----------
+this will go to Paul now we'll destroy
+
+---------08:07----------
+that short inside the board
+
+---------08:26----------
+I think I use the last one recently
+
+---------08:39----------
+all right
+
+---------08:42----------
+let's see if we still have a short
+
+---------08:43----------
+circuit to ground one pin on ground
+
+---------08:48----------
+other pin over here and 2.1 ohms okay
+
+---------08:53----------
+then
+
+---------08:55----------
+seems like our short circuit is gonna be
+
+---------08:57----------
+inside the really I mean there's not a
+
+---------09:09----------
+lot of places for that to be bad ok
+
+---------09:11----------
+let's see what side it's on let's see
+
+---------09:12----------
+what side it's on how about that let's
+
+---------09:15----------
+at least try and narrow down where the
+
+---------09:17----------
+short circuit is so is the short circuit
+
+---------09:19----------
+going to be is it going to be on the
+
+---------09:26----------
+this side or this side I can't tell as
+
+---------09:28----------
+long as this damn ferrite bead is on the
+
+---------09:30----------
+board so okay so we're gonna figure out
+
+---------09:32----------
+what side this thing is on
+
+---------09:40----------
+okay so let's see which side the
+
+---------09:42----------
+short-circuit is on are you on this side
+
+---------09:50----------
+or on this side okay so this is
+
+---------09:55----------
+interesting so these two things I
+
+---------09:56----------
+knocked off I actually didn't need to
+
+---------09:57----------
+knock off because the things I knocked
+
+---------09:59----------
+off are on this side the short is on
+
+---------10:02----------
+this side so it's going to be something
+
+---------10:04----------
+on here so what are the things that go
+
+---------10:06----------
+to ground so the only other thing it
+
+---------10:08----------
+could be is this stupid little MOSFET
+
+---------10:12----------
+what for
+
+---------10:14----------
+oh did Alec and Alex didn't leave a note
+
+---------10:26----------
+are you beating Alex right now go and go
+
+---------10:31----------
+with Steve and beat the crap out of Alex
+
+---------10:32----------
+and take a weapon with you my grandpa
+
+---------10:38----------
+made this for my dad and my dad gave it
+
+---------10:40----------
+to me you're gonna use this to make sure
+
+---------10:42----------
+Alex learns his lesson okay this isn't
+
+---------10:45----------
+good enough this is a pure this is pure
+
+---------10:47----------
+titanium this will this will break
+
+---------10:50----------
+through all different types of stuff
+
+---------10:52----------
+this is what they make for the screws
+
+---------10:54----------
+that go into people's shoulders to fix
+
+---------10:55----------
+the rotator cuff so I bestow upon you
+
+---------10:58----------
+the stick now disciplic Stidham put a
+
+---------11:01----------
+label on the machine how much time did
+
+---------11:03----------
+you spend so looking for this machine
+
+---------11:05----------
+45 minutes all right make sure he learns
+
+---------11:08----------
+his lesson go
+
+---------11:10----------
+you and Steve Steve hold them down all
+
+---------11:12----------
+right the only thing that could be on
+
+---------11:16----------
+that line now is the MOSFET that's the
+
+---------11:17----------
+last thing left so it's got to be that
+
+---------11:24----------
+so let's we're gonna take this and we're
+
+---------11:27----------
+gonna remove it and I think that's gonna
+
+---------11:30----------
+be it cuz if we look over here you'll
+
+---------11:32----------
+see that the only other thing on that
+
+---------11:34----------
+line that goes to x-ray no it could be
+
+---------11:35----------
+this capacitor crap yeah it could be see
+
+---------11:37----------
+fill 4803 so let's see what see 4803
+
+---------11:39----------
+looks like dammit I got excited too soon
+
+---------11:42----------
+all right see 4803 I know I removed that
+
+---------11:45----------
+yeah I remove this and I remove this and
+
+---------11:48----------
+that capacitor is on the okay I removed
+
+---------11:53----------
+this thing people on PP 5es for trackpad
+
+---------11:56----------
+I removed this thing on here okay so the
+
+---------12:02----------
+only thing left that it can be the only
+
+---------12:04----------
+thing left that goes to ground is you
+
+---------12:06----------
+80/60 someone says this is how amazon's
+
+---------12:10----------
+warehouses HR department works
+
+---------12:11----------
+yeah Jeff Bezos didn't make a hundred
+
+---------12:14----------
+billion dollars by being a nice guy for
+
+---------12:17----------
+Alex do you hear any screaming yet I
+
+---------12:21----------
+don't hear any screaming Daniel Oh
+
+---------12:32----------
+I should hear screaming there should be
+
+---------12:35----------
+lots of screaming oh this is still a
+
+---------12:39----------
+customer okay so wait wait until the
+
+---------12:42----------
+wait until all the customers are gone
+
+---------12:43----------
+and then just you know what do you think
+
+---------12:46----------
+that's a little harsher do you think
+
+---------12:47----------
+that's just right
+
+---------12:59----------
+do you ever talk to hi hi from chat Paul
+
+---------13:01----------
+I offered him a job and he didn't take
+
+---------13:05----------
+it he probably has some executive job
+
+---------13:10----------
+that pays way better than what I get
+
+---------13:12----------
+paid but okay now the short circuit is
+
+---------13:18----------
+gone so since the short circuit is gone
+
+---------13:19----------
+I'm gonna put the MOSFET back I'm gonna
+
+---------13:22----------
+put these two caps back and I'm gonna
+
+---------13:23----------
+put the inductor back in place and we
+
+---------13:25----------
+should have a working trackpad
+
+---------13:36----------
+I can't understand how anybody that
+
+---------13:38----------
+watches these videos would decline a job
+
+---------13:40----------
+opportunity or a job offer like why
+
+---------13:42----------
+wouldn't you want to work here after why
+
+---------13:46----------
+would you not want to be the next person
+
+---------13:48----------
+that comes to work here I don't
+
+---------13:49----------
+understand it's like we post all these
+
+---------13:52----------
+videos and we show how great the morale
+
+---------13:53----------
+is in the in the company culture
+
+---------14:21----------
+okay let's get a donor board that has
+
+---------14:25----------
+all my little pieces on it I'm glad they
+
+---------14:28----------
+stopped using that glass kind of MOSFET
+
+---------14:30----------
+for this because that thing is so easy
+
+---------14:32----------
+to crack and break taking it off
+
+---------14:47----------
+I'm so much
+
+---------14:50----------
+so harmless watch TV in one part
+
+---------15:13----------
+yeah what is this gooey [ __ ] I'll come
+
+---------15:16----------
+off in the cleaner all right now it's
+
+---------15:20----------
+time to see if there's a trackpad here
+
+---------15:21----------
+alright so let's see if the trackpad
+
+---------15:23----------
+moves and it moves it moves around the
+
+---------15:26----------
+screen which means that we're done so it
+
+---------15:29----------
+looks like we had a short to ground and
+
+---------15:31----------
+the five volt line required for the
+
+---------15:32----------
+trackpad to work and after we removed
+
+---------15:34----------
+the MOSFET that was the offender it
+
+---------15:37----------
+worked again and we have a trackpad and
+
+---------15:38----------
+it's beautiful so that's it for today
+
+---------15:40----------
+and as always I hope you learned
+
+---------15:42----------
+something
+
+---------15:43----------
+[Music]
+

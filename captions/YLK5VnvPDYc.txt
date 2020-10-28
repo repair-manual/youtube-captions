@@ -1,0 +1,616 @@
+https://www.youtube.com/watch?v=YLK5VnvPDYc
+---------00:00----------
+hi so today I'm gonna be going over a
+
+---------00:01----------
+board that is working off of the battery
+
+---------00:03----------
+but not off of the charger now there are
+
+---------00:05----------
+a couple of things that can cause this
+
+---------00:06----------
+to happen and I want to go over them
+
+---------00:08----------
+today I also want to go home because I
+
+---------00:11----------
+feel sick to my stomach
+
+---------00:13----------
+what are you gonna do first common thing
+
+---------00:16----------
+that happens here
+
+---------00:17----------
+well first common thing that happens is
+
+---------00:19----------
+open broadcaster forgets that I want to
+
+---------00:21----------
+capture the 4k screen at the open
+
+---------00:22----------
+broadcaster screen no foe the first
+
+---------00:28----------
+thing that happens here very often is
+
+---------00:30----------
+that PP 3 before 2 is not working pp 3
+
+---------00:33----------
+before 2 is a power supply it's a 3.42
+
+---------00:35----------
+or power supply that can be powered off
+
+---------00:37----------
+of one of two elements it can be powered
+
+---------00:39----------
+off of PP bus g3 hot which is the
+
+---------00:42----------
+battery or PPA 18 V 5 DC n which is your
+
+---------00:44----------
+charger so often if it's working off the
+
+---------00:46----------
+charger but not off of the battery or
+
+---------00:48----------
+the battery burn off the charger one of
+
+---------00:49----------
+the things that I would check is to see
+
+---------00:51----------
+the pp 3 before 2 is there on this board
+
+---------00:53----------
+pp 3 before 2 is present so I'm not
+
+---------00:56----------
+quite sure as to why I'm not getting
+
+---------00:58----------
+voltage that I'm supposed to now I don't
+
+---------01:00----------
+get a green light on my charger so
+
+---------01:02----------
+that's something I'm gonna have to
+
+---------01:03----------
+troubleshoot via the one wire circuit
+
+---------01:05----------
+which I've talked about in numerous
+
+---------01:06----------
+older videos so if you don't know how
+
+---------01:08----------
+the one wire circuit works you should
+
+---------01:09----------
+definitely check out the one wire
+
+---------01:11----------
+circuit videos you have an idea of what
+
+---------01:12----------
+the one wire circuit is and what it does
+
+---------01:15----------
+so I'm supposed to have smc bc AC ok
+
+---------01:18----------
+over here this signal supposed to be
+
+---------01:20----------
+present at this logic gate so that this
+
+---------01:22----------
+logic gate can pass 3.42 volts onto this
+
+---------01:24----------
+chip so that this chip could allow
+
+---------01:26----------
+whereas for you to talk to my SMC sis
+
+---------01:30----------
+one wire goes to the SMC so let's
+
+---------01:32----------
+measure on pins one and two of you 6901
+
+---------01:35----------
+which means first then I must find them
+
+---------01:37----------
+so on pins what I have to go back
+
+---------01:41----------
+because I forgot the numbers of the pins
+
+---------01:42----------
+I can just do this I can use the Nets
+
+---------01:46----------
+feature I hit the end button and that's
+
+---------01:49----------
+going to show me all the points on this
+
+---------01:51----------
+board that SMC bc AC ok show up alright
+
+---------01:57----------
+so that's gonna be over there now we're
+
+---------02:02----------
+gonna go over to the microscope here and
+
+---------02:04----------
+get to measuring
+
+---------02:09----------
+three it's kind of going back and forth
+
+---------02:13----------
+and my is l6 two five nine is only
+
+---------02:18----------
+giving me 1.8 volts on PP bus to you
+
+---------02:21----------
+three hot now there's no can't be a
+
+---------02:26----------
+short to ground on PP bus g3 hot because
+
+---------02:30----------
+the battery works now well my head
+
+---------02:40----------
+alright so before I put this in the
+
+---------02:45----------
+ultrasonic cleaner there were some
+
+---------02:48----------
+schmutz are over there and that leads to
+
+---------02:52----------
+it powers the use 7000 so what if the
+
+---------02:56----------
+7000 is not doing what it's supposed to
+
+---------02:58----------
+so I've measured here I'm getting four
+
+---------03:00----------
+volts a charger ACN just to show you
+
+---------03:03----------
+what that is for let's go to the you
+
+---------03:04----------
+7000 circuit here well I am dead
+
+---------03:11----------
+one thing that sucks about being the
+
+---------03:13----------
+only one that fixes boys at your
+
+---------03:14----------
+business is no days off hmm
+
+---------03:21----------
+so are 7010 are seventy eleven the way
+
+---------03:25----------
+this circuit works is the power comes
+
+---------03:27----------
+into the charger it goes through here
+
+---------03:29----------
+and then four volts goes to charger AC n
+
+---------03:31----------
+then after it goes to charger AC in you
+
+---------03:34----------
+get three volts and charger AC okay
+
+---------03:36----------
+which I do now I measured four volts
+
+---------03:38----------
+over there that's good after the diode
+
+---------03:41----------
+is supposed to be a 20 ohm resistor that
+
+---------03:43----------
+sends that sends power to the you 7,000
+
+---------03:48----------
+all right so I should even though I to
+
+---------03:52----------
+check could see that there was both a
+
+---------03:54----------
+there I still should check that resistor
+
+---------03:57----------
+which is what I will do right now so I
+
+---------04:02----------
+checked the resistor and I get 21.73
+
+---------04:08----------
+kilo ohm
+
+---------04:11----------
+okay so what did I just check here so
+
+---------04:17----------
+back through the microscope so that
+
+---------04:20----------
+resistor that r700 five so see this with
+
+---------04:25----------
+a diode with the three legs
+
+---------04:26----------
+see this one two three and then that's
+
+---------04:30----------
+the resistor and there that from there
+
+---------04:32----------
+it leads to the is L six two five nine
+
+---------04:34----------
+which is you seven thousand now I do
+
+---------04:36----------
+this I get twenty to kill homes and
+
+---------04:42----------
+that's not a recommended value so I'm
+
+---------04:49----------
+gonna get up that was harder than I
+
+---------04:52----------
+expected and get a donor board and
+
+---------04:57----------
+ripped that resistor off and I also
+
+---------04:59----------
+might as well get a donor board that has
+
+---------05:00----------
+a good you seven thousand on it because
+
+---------05:03----------
+if there was a voltage spike there
+
+---------05:04----------
+there's a chance that my you seven
+
+---------05:07----------
+thousand ship is dead so let's just make
+
+---------05:16----------
+sure that I'm not losing it and just
+
+---------05:17----------
+measure that resistor on my donor board
+
+---------05:19----------
+so when I measure that resistor on the
+
+---------05:22----------
+donor board twenty oaks which means that
+
+---------05:33----------
+it is indeed [ __ ] on this one let's
+
+---------05:36----------
+turn on the soldering in the rework
+
+---------05:38----------
+station
+
+---------05:39----------
+so the rework station is on
+
+---------05:50----------
+that's the resistor
+
+---------05:57----------
+goodbye
+
+---------06:04----------
+I should wait for my hot air to get hot
+
+---------06:06----------
+before doing that but I would like to
+
+---------06:10----------
+get this done as quickly as possible so
+
+---------06:12----------
+I don't pass out in the middle of the
+
+---------06:14----------
+repair so we are racing the clock on
+
+---------06:22----------
+this one okay now we take the resistor
+
+---------06:36----------
+from the donor board
+
+---------06:45----------
+by the way this is why it really sucks
+
+---------06:49----------
+to do business like this with other
+
+---------06:50----------
+businesses that clean this [ __ ] first
+
+---------06:52----------
+could you see since I was the first
+
+---------06:54----------
+point of contact with this board I got
+
+---------06:56----------
+to see that there was nonsense on that
+
+---------06:59----------
+diode which allowed me to run over to
+
+---------07:01----------
+this area and then when I ran over to
+
+---------07:04----------
+the area an idea of where to start
+
+---------07:05----------
+looking that that old resistor like that
+
+---------07:08----------
+that thing look you have to realize that
+
+---------07:10----------
+old resistor looked fine I saw nothing
+
+---------07:12----------
+wrong with that resistor when you look
+
+---------07:14----------
+at that resistor post ultrasonic you're
+
+---------07:16----------
+not going to notice anything wrong with
+
+---------07:17----------
+it either there's a lot of components on
+
+---------07:19----------
+this board there's a lot of pieces that
+
+---------07:21----------
+you're gonna have to narrow narrow down
+
+---------07:23----------
+to and it's annoying when your ability
+
+---------07:26----------
+to narrow it down has been taken away by
+
+---------07:28----------
+somebody else and it adds insult to
+
+---------07:31----------
+injury when they make it harder and then
+
+---------07:36----------
+they ask for a lower bill than the
+
+---------07:40----------
+retail customers that don't make it
+
+---------07:42----------
+harder so if you're sending boards to a
+
+---------07:45----------
+place like this and you clean them first
+
+---------07:48----------
+please have the common courtesy to mark
+
+---------07:50----------
+the board where that stuff is so that
+
+---------07:54----------
+it's easier for us to know what's going
+
+---------07:58----------
+on with it so we have a green light
+
+---------08:01----------
+bita and we have a fan spinning which is
+
+---------08:05----------
+something we didn't have before and
+
+---------08:06----------
+again I'm good at this at this point so
+
+---------08:10----------
+I'm gonna figure that out regardless of
+
+---------08:11----------
+whether there's a little mark there it's
+
+---------08:13----------
+just a question of whether I'm able to
+
+---------08:14----------
+offer you a turnaround time of this or a
+
+---------08:16----------
+turnaround time of who the hell knows so
+
+---------08:21----------
+just something to think about and that's
+
+---------08:23----------
+that for today so just to go back over
+
+---------08:25----------
+to the schematic here what was wrong
+
+---------08:29----------
+with this board is r700 v was blown and
+
+---------08:35----------
+there was some type of liquid damage
+
+---------08:37----------
+that was in this area that caused it
+
+---------08:39----------
+this is where the 16 volts comes in from
+
+---------08:41----------
+the charger and then goes to the charger
+
+---------08:44----------
+DC and pen of the u 7000 ship which
+
+---------08:48----------
+again there's no datasheet for this
+
+---------08:50----------
+there's no datasheet for this so you
+
+---------08:52----------
+have to guess on everything but VDD here
+
+---------08:54----------
+has no source so VDD and vtdp are you
+
+---------08:57----------
+those it usually depends that
+
+---------08:58----------
+but he used to turn the chip on and the
+
+---------09:01----------
+problem we have here is that there is no
+
+---------09:04----------
+source for that pp5 you are in charge of
+
+---------09:05----------
+EDD that's not created by anything on
+
+---------09:07----------
+the machine like this is it doesn't come
+
+---------09:10----------
+from anywhere or perhaps it does it does
+
+---------09:19----------
+I'm losing my mind I need to go home and
+
+---------09:23----------
+go to sleep
+
+---------09:24----------
+anyway so where where I was before I
+
+---------09:27----------
+completely forgot what I was talking
+
+---------09:29----------
+about is peepee charger DC in this this
+
+---------09:33----------
+needs to be here and this needs to be 16
+
+---------09:34----------
+volts this here can measure this here
+
+---------09:44----------
+can measure 16 volts and still not work
+
+---------09:46----------
+if this resistor is 2.2 kilohms so the
+
+---------09:49----------
+way this needs to work is this needs to
+
+---------09:51----------
+receive a certain amount of amperage on
+
+---------09:52----------
+the DC and pin it needs to be able to
+
+---------09:54----------
+receipt to receive enough energy to
+
+---------09:56----------
+power on so I'm going to open a new
+
+---------09:57----------
+incognito window we're gonna go to the
+
+---------09:59----------
+Ohm's law calculator so 16 volts at 20
+
+---------10:03----------
+ohms has the capability to deliver C 16
+
+---------10:07----------
+volts 12 point 8 Watts now let's say
+
+---------10:15----------
+that you're at 2000 ohms you have the
+
+---------10:18----------
+ability to deliver point 1 watts which
+
+---------10:20----------
+is not going to make that thing very
+
+---------10:23----------
+happy so that's it for today and as
+
+---------10:26----------
+always I hope you learned something
+

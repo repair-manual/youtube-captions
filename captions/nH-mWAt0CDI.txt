@@ -1,0 +1,2593 @@
+https://www.youtube.com/watch?v=nH-mWAt0CDI
+---------00:00----------
+so here we have it says no image and I
+
+---------00:03----------
+want to see if it's actually no image no
+
+---------00:05----------
+backlight or no CPU so it turns on I
+
+---------00:10----------
+could feel that the CPU is getting a
+
+---------00:12----------
+little warm so the first thing I want to
+
+---------00:13----------
+do is see if the CPU is getting power
+
+---------00:14----------
+remember a lot of the times when people
+
+---------00:16----------
+say they have no image but they actually
+
+---------00:17----------
+mean is that there's no CPU
+
+---------00:19----------
+there's no CPU there's no image because
+
+---------00:21----------
+there's no CPU but that doesn't mean we
+
+---------00:23----------
+should be troubleshooting image that
+
+---------00:24----------
+means we need to troubleshoot no CPU so
+
+---------00:26----------
+I'm going to go over here and try to
+
+---------00:27----------
+find the CPU vcore rail which is PVC CSO
+
+---------00:30----------
+CPU and I'm getting one point eight five
+
+---------00:32----------
+two volts on CPU v core which means that
+
+---------00:34----------
+the CPU is turning on so the next thing
+
+---------00:36----------
+that I'm going to want to do is check
+
+---------00:38----------
+the LCD connectors here we go LCD
+
+---------00:43----------
+connector here now on the LCD connector
+
+---------00:45----------
+we're gonna have a bunch of different
+
+---------00:46----------
+stuff so first we have backlight
+
+---------00:48----------
+but remember backlight comes after image
+
+---------00:50----------
+so I'm not going to check backlight
+
+---------00:51----------
+first we have an i2c line it's going to
+
+---------00:54----------
+be going to the screen we have the image
+
+---------00:56----------
+DisplayPort circuit over here which is
+
+---------00:58----------
+going to send the image data to the
+
+---------01:01----------
+screen also one thing to keep in mind
+
+---------01:02----------
+when it comes to defective screen cables
+
+---------01:04----------
+this is something that I get asked a lot
+
+---------01:06----------
+when you are talking about LVDS which is
+
+---------01:09----------
+the old signaling protocol for screens
+
+---------01:10----------
+you could have one of the lines be a
+
+---------01:12----------
+little intermittent and you would get a
+
+---------01:13----------
+funny-looking image with display for it
+
+---------01:16----------
+99.99999% of the times and you have an
+
+---------01:18----------
+issue on any one of those display signal
+
+---------01:20----------
+lines you will get no picture at all so
+
+---------01:23----------
+if you're getting kind of a fuzzy image
+
+---------01:24----------
+on your screen or an image that kind of
+
+---------01:25----------
+goes in and out or anything like that
+
+---------01:26----------
+most likely it is not an issue that has
+
+---------01:29----------
+anything to do with the cable it's
+
+---------01:31----------
+either bad screen or bad board but I
+
+---------01:34----------
+just want to destroy your hopes there if
+
+---------01:35----------
+you have hopes and dreams of it being a
+
+---------01:37----------
+cheap fix during easy fix because it's
+
+---------01:39----------
+just the cable I just want to destroy
+
+---------01:40----------
+your hopes and dreams right there and
+
+---------01:42----------
+you know even back when LVDS was popular
+
+---------01:44----------
+it was rarely the cable and now that EVP
+
+---------01:47----------
+which is not emotionally disturbed
+
+---------01:49----------
+person with what rather means
+
+---------01:50----------
+DisplayPort inside of a laptop and now
+
+---------01:53----------
+that we're using this protocol mostly
+
+---------01:54----------
+it's almost never the cable just wanted
+
+---------01:57----------
+the treasure hopes there just in case
+
+---------01:58----------
+you had any now the next thing we're
+
+---------02:00----------
+going to have that's important here is
+
+---------02:01----------
+El is this over here which is going to
+
+---------02:03----------
+send 5 volts to our screen circuit so
+
+---------02:06----------
+over here we have pp 5 ESO this chip is
+
+---------02:09----------
+going to take the 5 volts and send it on
+
+---------02:12----------
+to
+
+---------02:13----------
+the screen you're going to have a
+
+---------02:15----------
+current sensing resistor here so that
+
+---------02:17----------
+something can sense how much power the
+
+---------02:18----------
+LCD is using and then you have an
+
+---------02:20----------
+inductor over here which is going to act
+
+---------02:23----------
+with two things a it's going to act as a
+
+---------02:25----------
+fuse so if somebody plugs something in
+
+---------02:27----------
+and properly it is water it'll blow
+
+---------02:29----------
+rather than the computer blowing up and
+
+---------02:30----------
+secondly it's also going to slow the
+
+---------02:34----------
+initial flow of current because the LCD
+
+---------02:35----------
+takes up a lot of current and you don't
+
+---------02:38----------
+want to blow the circuit or torture the
+
+---------02:39----------
+computer so this slows it down a teeny
+
+---------02:41----------
+tiny bit so on pin 28 29 and 30 over
+
+---------02:44----------
+here I'm going to measure that and let's
+
+---------02:46----------
+see what voltage we get on pin 28 29 30
+
+---------02:49----------
+as you can see here we're getting five
+
+---------02:50----------
+point one volts which is close enough
+
+---------02:52----------
+that's what I expect so the last thing
+
+---------02:54----------
+we're going to measure here is backlight
+
+---------02:56----------
+because most likely we are getting an
+
+---------02:57----------
+image at this point and the Machine is
+
+---------02:59----------
+turning on and has a CPU but it just
+
+---------03:01----------
+doesn't have a backlight so we're going
+
+---------03:03----------
+to measure at the backlight capacitors
+
+---------03:05----------
+over here and see what's present so when
+
+---------03:08----------
+I measure at those caps we get 0.01 2
+
+---------03:13----------
+volts so as you can see here it looks
+
+---------03:15----------
+like there was an attempt at cleaning
+
+---------03:16----------
+what appears to be some liquid damage
+
+---------03:19----------
+right near this chip which what do you
+
+---------03:23----------
+know is the backlight ship ok so we're
+
+---------03:27----------
+just going to wait for my hot air
+
+---------03:28----------
+station to get hot at least this mount
+
+---------03:31----------
+is better than just a seasick version ok
+
+---------03:33----------
+so that justice mount is annoying
+
+---------03:35----------
+because it constantly is moving but how
+
+---------03:37----------
+it's much easier to move around the
+
+---------03:39----------
+table like in terms of actual workflow
+
+---------03:41----------
+see she has this one so she has this so
+
+---------03:44----------
+Jessa has the same microscope mount that
+
+---------03:46----------
+jason has over here which you probably
+
+---------03:47----------
+can't see cuz of the damo but see this
+
+---------03:49----------
+like I want you to go out of the way go
+
+---------03:51----------
+out of the way I want you to come here
+
+---------03:52----------
+it shows up you want to go up this this
+
+---------03:55----------
+is beautiful in terms of being able to
+
+---------03:57----------
+freely move it around this is awesome
+
+---------03:59----------
+the one thing I don't like about this
+
+---------04:01----------
+mount obviously is the fact that it's
+
+---------04:02----------
+constantly it's constantly jiggling
+
+---------04:05----------
+because it's designed to be moved around
+
+---------04:08----------
+and because it's designed to be moved
+
+---------04:09----------
+around that naturally means that it's
+
+---------04:11----------
+going to be sensitive since it's not
+
+---------04:12----------
+clamped into anything to those types of
+
+---------04:14----------
+desk movements which makes it very
+
+---------04:15----------
+frustrating to work with but it is nice
+
+---------04:18----------
+to move around the desk or as this one
+
+---------04:20----------
+you have to constantly move clamps and
+
+---------04:21----------
+should and if it's annoying
+
+---------04:23----------
+it's going to be annoying either way
+
+---------04:25----------
+it's just a level of annoying how do I
+
+---------04:31----------
+subscribe I don't think you can because
+
+---------04:35----------
+I'm not a twitch partner twitch have
+
+---------04:37----------
+this jealous thing where they won't let
+
+---------04:38----------
+you become a partner if you stream to
+
+---------04:40----------
+other platforms simultaneously so I
+
+---------04:42----------
+never partnered because I don't want
+
+---------04:44----------
+yeah no I don't want to sign away my
+
+---------04:47----------
+content like that unless I'm making a
+
+---------04:49----------
+lot of money if somebody wants me to be
+
+---------04:51----------
+exclusive to their platform and they're
+
+---------04:52----------
+willing to give me like five or ten
+
+---------04:54----------
+thousand bucks a month that's cool but
+
+---------04:56----------
+yeah if you're just giving me like sense
+
+---------04:58----------
+of ad revenue then no no no no deal no
+
+---------05:04----------
+deal
+
+---------05:04----------
+no deal okay if you would move you
+
+---------05:14----------
+couldn't afford the new place you are
+
+---------05:15----------
+moving to right yep pretty much
+
+---------05:17----------
+how you doing nitro caster yeah I am
+
+---------05:20----------
+saving up to move to a mansion on a
+
+---------05:23----------
+Magic Mountain someday I am not saving
+
+---------05:25----------
+up to get a better store which will
+
+---------05:27----------
+bring the zero new business
+
+---------05:35----------
+say goodbye corroded backlight shift it
+
+---------05:40----------
+very rarely if ever is the actual
+
+---------05:41----------
+backlight shifts you'll see once I
+
+---------05:43----------
+replace this it's really going to wind
+
+---------05:44----------
+up being something else like the screen
+
+---------05:46----------
+so we'll see actually nevermind I take
+
+---------05:49----------
+that back
+
+---------05:49----------
+I take that back okay so let's see we've
+
+---------05:51----------
+got something that's pretty corroded
+
+---------05:52----------
+here it's almost never the backlight
+
+---------05:54----------
+driver run retinas you guys have noticed
+
+---------05:56----------
+it's always the L it's always the LCD
+
+---------05:59----------
+connector or something like that it's
+
+---------06:00----------
+never the LED driver so this is a rare
+
+---------06:02----------
+case so if we look over here you'll see
+
+---------06:04----------
+that the line that is corroded is you
+
+---------06:06----------
+7,700 pin 11 and if you go over here
+
+---------06:10----------
+pin 11 is going to be the pin that
+
+---------06:12----------
+allows Q 7700 to open so here we have
+
+---------06:15----------
+the backlight fuse and this is going to
+
+---------06:18----------
+be 12 point 56 volts from P P bus g3 hot
+
+---------06:21----------
+on the back light fuse after the
+
+---------06:23----------
+backlight fuse let's just make sure you
+
+---------06:25----------
+can see what I've seen good after the
+
+---------06:28----------
+backlight fuse you're going to have a
+
+---------06:30----------
+current sensing resistor now the idea
+
+---------06:31----------
+here is there's going to be a very very
+
+---------06:34----------
+tiny drop in voltage across this
+
+---------06:35----------
+resistor barely noticeable but the drop
+
+---------06:38----------
+in voltage is going to be directly
+
+---------06:39----------
+proportional to how much current or how
+
+---------06:41----------
+much power the circuit in front of it is
+
+---------06:43----------
+using so you 7700 is going to measure
+
+---------06:46----------
+the voltage difference between the
+
+---------06:48----------
+beginning of this current sensing
+
+---------06:49----------
+resistor in the end and use that to
+
+---------06:50----------
+determine how much current power the
+
+---------06:53----------
+entire circuit is using and if it's
+
+---------06:54----------
+using too much it's going to turn it off
+
+---------06:56----------
+this is a really nice feature because
+
+---------06:57----------
+what this does is it keeps this fuse
+
+---------06:59----------
+from blowing it keeps the LCD connector
+
+---------07:01----------
+from from burning to pieces if the
+
+---------07:03----------
+screen or the screen cable go bad now
+
+---------07:05----------
+this over this transistor is controlled
+
+---------07:08----------
+by you 7,700 this here is AP channel
+
+---------07:11----------
+MOSFET so this is a p-channel MOSFET
+
+---------07:14----------
+meaning that in order for this to open
+
+---------07:16----------
+in order for this to allow PP vin m so
+
+---------07:17----------
+SW LCD backlight to go over to the other
+
+---------07:20----------
+side and make its way to the back light
+
+---------07:22----------
+circuit in order for this to open the
+
+---------07:24----------
+voltage in the gate which is pin 3 needs
+
+---------07:26----------
+to be lower than the voltage on pin 4
+
+---------07:27----------
+now our 7701 ensures if the voltage on
+
+---------07:31----------
+the gate is the same as the voltage on
+
+---------07:33----------
+the source at all times meaning that
+
+---------07:34----------
+this will never open however if we put a
+
+---------07:36----------
+second resistor under it it then becomes
+
+---------07:38----------
+a voltage divider if this resistor goes
+
+---------07:40----------
+to ground so if this resistor goes to
+
+---------07:42----------
+ground now we have two resistors in
+
+---------07:44----------
+series and one of them going to ground
+
+---------07:46----------
+this will be a voltage divider meaning
+
+---------07:48----------
+that what is
+
+---------07:48----------
+the middle points over here what's
+
+---------07:50----------
+beginning at the second resistor will be
+
+---------07:52----------
+a lower voltage than what's at the top
+
+---------07:53----------
+however this does not have a path to
+
+---------07:56----------
+ground it has a path to use 7700 u 7700
+
+---------07:59----------
+will decide whether pin 11 has a path to
+
+---------08:02----------
+ground based on the information receives
+
+---------08:04----------
+from the current sensing resistor if the
+
+---------08:05----------
+current sensing resistor has a huge
+
+---------08:07----------
+voltage gap between it it's going to say
+
+---------08:09----------
+no we're using way too much power Q 7700
+
+---------08:12----------
+close do not allow this to open do not
+
+---------08:14----------
+send voltage through our back light
+
+---------08:17----------
+circuit and this voltage this here is
+
+---------08:20----------
+required to send the voltage from this
+
+---------08:23----------
+voltage divider to ground so that this
+
+---------08:25----------
+can act as a voltage divider without r7
+
+---------08:27----------
+702 having a path to ground
+
+---------08:29----------
+r7 708 this resistor may not even even
+
+---------08:32----------
+have to be here there's just no point
+
+---------08:33----------
+for it
+
+---------08:33----------
+r7 701 is going to take the voltage from
+
+---------08:36----------
+the source put it on the gate and since
+
+---------08:38----------
+the voltage and the source and the gate
+
+---------08:39----------
+will be the same q 7700 will never open
+
+---------08:41----------
+r7 702 has to have passed the ground in
+
+---------08:44----------
+order to lower the voltage at this point
+
+---------08:45----------
+which it will get if the SD pin of u
+
+---------08:48----------
+7700 goes to ground like it's supposed
+
+---------08:51----------
+to when it tells the backlight circuit
+
+---------08:53----------
+to turn on but it can't do that because
+
+---------08:54----------
+if you look over here you'll notice that
+
+---------08:56----------
+that pin is completely corroded so as
+
+---------09:00----------
+you can see here the pad for SD is
+
+---------09:02----------
+burned and we're going to try to revive
+
+---------09:04----------
+that pad without having to run a jumper
+
+---------09:07----------
+and it looks like that may be possible
+
+---------09:10----------
+here
+
+---------09:14----------
+we're going to go around and do that
+
+---------09:25----------
+nice I'm going to add some lead solder
+
+---------09:28----------
+here since it's going to make it easier
+
+---------09:29----------
+to remove the lead-free that's there and
+
+---------09:32----------
+then we're going into wick I learned how
+
+---------09:35----------
+to wick from Jessa at practical board
+
+---------09:37----------
+repair school before starting before
+
+---------09:40----------
+going off and starting my own tutoring
+
+---------09:42----------
+service at the store Jessa said I really
+
+---------09:44----------
+want you to be I want you to be
+
+---------09:46----------
+successful with everything you do and
+
+---------09:48----------
+for that as a thank you for the time you
+
+---------09:50----------
+spend teaching I'm going to show you how
+
+---------09:52----------
+I fix every motherboard here at iPad
+
+---------09:53----------
+rehab and she told me not to tell
+
+---------09:55----------
+anybody that it was a secret but I've
+
+---------09:57----------
+decided that I can't leave it as a
+
+---------09:59----------
+secret anymore I need to tell all of you
+
+---------10:00----------
+and that the secret to justice success
+
+---------10:02----------
+has been that she wicks every pad on
+
+---------10:05----------
+every BGA I see that she ever replaces
+
+---------10:08----------
+even if it doesn't have solder on it
+
+---------10:10----------
+already
+
+---------10:11----------
+she wicks it for good luck and that
+
+---------10:15----------
+genuinely changed my life it changed the
+
+---------10:18----------
+way I do business it changed the way I
+
+---------10:20----------
+look at board repairs that changed the
+
+---------10:21----------
+way I look at my tools it was just it
+
+---------10:23----------
+was one of those i opening moments that
+
+---------10:27----------
+i will never never ever take for granted
+
+---------10:31----------
+and I just I thank her so much for it
+
+---------10:40----------
+okay so we're going to clean the area
+
+---------10:44----------
+the area is nice and clean the chip that
+
+---------10:49----------
+was required was used 7700 which is an
+
+---------10:53----------
+LP 8 5 4 8 B 1 sq and if you want it to
+
+---------11:00----------
+be able to find a chip like that you
+
+---------11:03----------
+didn't know where to go you can check
+
+---------11:06----------
+out this website here which I'm going to
+
+---------11:09----------
+shamelessly keep promoting here we go is
+
+---------11:12----------
+this it
+
+---------11:14----------
+b1 sq yeah so you could type in the name
+
+---------11:21----------
+of your chip here LP 8 5 4 8 and it'll
+
+---------11:26----------
+show up
+
+---------11:34----------
+and the cool part if you just want to
+
+---------11:38----------
+search by the board so we're on an 8 to
+
+---------11:40----------
+0 for 9 to 4 over here you can type that
+
+---------11:43----------
+in and it will show you all the chips
+
+---------11:47----------
+that are compatible with that model
+
+---------11:48----------
+motherboard
+
+---------11:56----------
+and you can hit next and it will
+
+---------11:58----------
+continue on and on to the next page I am
+
+---------12:02----------
+a shill
+
+---------12:03----------
+I am a shell and I'm proud of it
+
+---------12:08----------
+I will show my website until the day I
+
+---------12:10----------
+die
+
+---------12:13----------
+so let's pin our pads
+
+---------12:47----------
+I'm going to fix that little mess in the
+
+---------12:49----------
+bottom left shortly
+
+---------13:17----------
+you can see this board really likes to
+
+---------13:19----------
+absorb heat if I try to touch the center
+
+---------13:21----------
+pad with just the tip of the iron rather
+
+---------13:23----------
+than the elbow of it when I say elbow by
+
+---------13:25----------
+the way this is the elbow much larger
+
+---------13:28----------
+and this is a tip it doesn't allow me to
+
+---------13:32----------
+it doesn't allow me much ability to
+
+---------13:36----------
+solder the center pad okay so let's get
+
+---------13:40----------
+ourselves the chip you know it's funny
+
+---------13:42----------
+if I'm actually going to grab it off a
+
+---------13:43----------
+donor board because I don't want to dip
+
+---------13:45----------
+into my own stock that I'd be selling
+
+---------13:46----------
+and that chief yes and we're going to
+
+---------13:50----------
+get that nice looking ship started on
+
+---------13:53----------
+the board for my beautiful donor
+
+---------14:18----------
+there we go now once so I made a dance
+
+---------14:21----------
+little just to make sure it's aligned
+
+---------14:22----------
+once it's dry I'm going to do and I'm
+
+---------14:24----------
+going to push down on it and then heat
+
+---------14:29----------
+it up one more time just to make it nice
+
+---------14:30----------
+and flat on the board make sure it's
+
+---------14:32----------
+making good contact I had some flux
+
+---------14:36----------
+before I do that so I don't want it to
+
+---------14:39----------
+move from side to side as Ariana would
+
+---------14:40----------
+say but I want it to just go straight
+
+---------14:42----------
+down see the fact that solder is popping
+
+---------14:46----------
+out means that it wasn't perfectly flat
+
+---------14:48----------
+which not going to be unless I get a
+
+---------14:51----------
+perfect amount of solder on the center
+
+---------14:52----------
+pads which I never do so now we're just
+
+---------14:55----------
+going to get rid of the excess on the
+
+---------14:57----------
+sides and we'll be good now this is
+
+---------15:03----------
+where the fine tip comes in handy on
+
+---------15:05----------
+this and let's see what we get
+
+---------15:18----------
+right up
+
+---------15:23----------
+light up you bastard shut up you muffle
+
+---------15:28----------
+all right turn on the meter since I
+
+---------15:32----------
+think we're not getting a light sad so
+
+---------15:37----------
+sad
+
+---------15:40----------
+okay we getting vcore you're turning on
+
+---------15:45----------
+screen turning on screen is turning on
+
+---------15:49----------
+back light turning on back light not
+
+---------15:53----------
+turning on all right that's my chip so
+
+---------15:56----------
+let's take a look at this area so I want
+
+---------15:58----------
+to see if pin four is getting 12 volts
+
+---------16:00----------
+that supposed to be the input to the
+
+---------16:02----------
+backlight circuit and then I want to see
+
+---------16:03----------
+if pin three is getting five or six
+
+---------16:05----------
+volts and we check pin four so voltage
+
+---------16:09----------
+is a range well okay so it looks like
+
+---------16:14----------
+we're getting voltage into our backlight
+
+---------16:16----------
+circuit now let now pin three is going
+
+---------16:18----------
+to tell us if it's being told to open
+
+---------16:21----------
+okay and it's not being told to open so
+
+---------16:25----------
+you 7700 is not is either is not pulling
+
+---------16:28----------
+this down so we have a couple of options
+
+---------16:30----------
+you 7700 is not pulling r7 702 to ground
+
+---------16:33----------
+r7 702 is blown or C 7700 is shorted or
+
+---------16:37----------
+this is shorted internally which is
+
+---------16:39----------
+causing this to always be there even if
+
+---------16:41----------
+this is pulling at the ground so let's
+
+---------16:43----------
+measure the resistance between tens four
+
+---------16:45----------
+and three on Q 7700 so in order to
+
+---------16:47----------
+measure resistance I have to unplug
+
+---------16:48----------
+power here so we're going to this
+
+---------16:53----------
+treating pin 4 and 3 so it's 80 point
+
+---------16:56----------
+six kilohms which completely ruins the
+
+---------16:58----------
+opportunity that I 7 701 is blown Q 7700
+
+---------17:01----------
+is internally shorted or C 7700 being
+
+---------17:03----------
+bad now let's measure R 7 702 which is
+
+---------17:07----------
+most likely go and see where's our seven
+
+---------17:08----------
+702 that's going to be C seven seven on
+
+---------17:16----------
+our seven seven or two over here so if
+
+---------17:18----------
+this is not blown then this is just
+
+---------17:20----------
+going to be a really sad sad case of
+
+---------17:22----------
+board repair our seven 702 is 63.4
+
+---------17:28----------
+kilohms which is exactly what it's
+
+---------17:29----------
+supposed to be now let's see if it's
+
+---------17:31----------
+making its way to pin 11 on the IC like
+
+---------17:35----------
+it's supposed to
+
+---------17:36----------
+point on you know the resistance between
+
+---------17:38----------
+this and this is zero so that's making
+
+---------17:44----------
+its way to the IC okay so now let's well
+
+---------17:50----------
+this is just a portion SMC lid so if
+
+---------17:54----------
+it's if the computer thinks it's closed
+
+---------17:55----------
+the backlights not going to open so
+
+---------17:57----------
+let's check okay turning it on SMC lid
+
+---------18:28----------
+to be three point 4 volts if not it's
+
+---------18:30----------
+going to think that it's closed and
+
+---------18:32----------
+we're going to put it in voltage mode
+
+---------18:36----------
+and it's 3.39 which means the computer
+
+---------18:40----------
+does not think it's closed so it thinks
+
+---------18:42----------
+that the computer is open which means we
+
+---------18:46----------
+[Music]
+
+---------18:47----------
+use 7700 for you getting voltage of pins
+
+---------18:50----------
+5 in pin 18 10-5 and pin 18 you sure are
+
+---------18:56----------
+and 10 18 up here
+
+---------19:00----------
+five volts exactly like it's supposed to
+
+---------19:02----------
+be now we could check our current sense
+
+---------19:04----------
+traces perhaps our current sense traces
+
+---------19:07----------
+are blown so as you can see the
+
+---------19:10----------
+Carrington's resistors are going to
+
+---------19:11----------
+attach the pins 9 and 10 here so Karen
+
+---------19:18----------
+sends resistor I 7700 which is this
+
+---------19:23----------
+let's see what you worry
+
+---------19:25----------
+these two traces here so let's turn off
+
+---------19:32----------
+power
+
+---------19:33----------
+let's check the resistance between the
+
+---------19:35----------
+traces do you go to here
+
+---------19:40----------
+of course you do and there's the second
+
+---------19:44----------
+current sense line over here go to pin 4
+
+---------19:50----------
+of course you do ah me and this
+
+---------20:00----------
+course goes to you and that of course
+
+---------20:07----------
+goes to here f me huh
+
+---------20:14----------
+backlight an able on 10 17 backlight
+
+---------20:18----------
+enable on pin 17 well backlight enable
+
+---------20:21----------
+please stand up
+
+---------20:31----------
+backlighted able are it's good to be
+
+---------20:34----------
+over here and that 3.3 volts exactly as
+
+---------20:38----------
+it's supposed to be pwm keyboard I don't
+
+---------20:41----------
+give a about the keyboard ah SDA
+
+---------20:46----------
+and STL okay so these are I to see lines
+
+---------20:49----------
+where do these go connects to Jerry what
+
+---------20:54----------
+Zack from Jerry rigged everything is in
+
+---------20:57----------
+the a20 4924 connects to Jerry okay so
+
+---------21:02----------
+we need to bother Jerry rig everything
+
+---------21:04----------
+somebody get Jerry rig everything on the
+
+---------21:06----------
+phone and ask him how I how I fix this
+
+---------21:09----------
+piece of computer i 775 where where
+
+---------21:13----------
+is this that's 15 16 16 where the hell
+
+---------21:18----------
+does this go okay that's going to go
+
+---------21:25----------
+okay that's an SDA line to the screen
+
+---------21:28----------
+itself
+
+---------21:29----------
+that's an i2c line that goes directly to
+
+---------21:32----------
+the screen so it has to talk to the
+
+---------21:38----------
+screen
+
+---------21:39----------
+okay so Jerry is the screen I thought
+
+---------21:44----------
+Jerry was a YouTube personality that
+
+---------21:48----------
+recorded YouTube videos so I have to
+
+---------21:53----------
+measure between here dear god this is
+
+---------21:55----------
+annoying so you have to hold the board
+
+---------21:57----------
+up like this and do this oh yeah talk
+
+---------22:01----------
+about annoying okay so you on this
+
+---------22:04----------
+side
+
+---------22:17----------
+okay that connects that's fine next is
+
+---------22:19----------
+the next resistor I'm just sliding it
+
+---------22:22----------
+across the LCD connector telephone
+
+---------22:24----------
+counting pins okay so they make they
+
+---------22:27----------
+make contact just fine so let's go over
+
+---------22:30----------
+what we've done here because this kind
+
+---------22:33----------
+of making me set I'm getting defeated by
+
+---------22:36----------
+a no backlight I'm glad that there's
+
+---------22:38----------
+only 90 people watching this and so this
+
+---------22:42----------
+is where nitro caster gets to come in
+
+---------22:43----------
+and be a hero and solve it for me
+
+---------22:45----------
+there's an upside to having intelligent
+
+---------22:47----------
+viewers and I'm going to milk that as
+
+---------22:49----------
+long as I can
+
+---------22:51----------
+so this is our LED driver section the
+
+---------22:56----------
+fuse is fine
+
+---------22:57----------
+the current sensing traces attach
+
+---------22:59----------
+perfectly to our LED driver the current
+
+---------23:01----------
+sense resistor is fine least this
+
+---------23:04----------
+transistor was not opening before
+
+---------23:05----------
+because the voltage divider that opens
+
+---------23:08----------
+the transistor was did not have a path
+
+---------23:11----------
+to ground
+
+---------23:11----------
+r7 702 did not have a path to ground
+
+---------23:14----------
+because you 7700 had a burned pin 11 and
+
+---------23:19----------
+the pad was also burned in the board we
+
+---------23:22----------
+repealed in replace you 7700 as well as
+
+---------23:24----------
+repairing the pad at pen 11 and yet Q
+
+---------23:28----------
+7700 still does not open C 7700 is not
+
+---------23:31----------
+shorted q 7700 is not shorted internally
+
+---------23:34----------
+r7 702 with r7 Sevilla would measure
+
+---------23:38----------
+proper values we are getting backlight
+
+---------23:41----------
+enable on pin 17 the current sense
+
+---------23:44----------
+traces to the current sense resistor are
+
+---------23:46----------
+fine and the traces between the
+
+---------23:50----------
+backlight s data lines over here to the
+
+---------23:53----------
+screen are both perfectly fine the next
+
+---------23:56----------
+thing that I have to check which I
+
+---------23:57----------
+didn't check are these pull ups over
+
+---------23:58----------
+here which I didn't look at but I'm
+
+---------24:02----------
+fairly certain that these two pull ups
+
+---------24:04----------
+are fine and that 99% chance is just
+
+---------24:07----------
+that this this is just being a true oh
+
+---------24:10----------
+and we all do not forget we also have 5
+
+---------24:13----------
+volts at pins 5 and 18 of the LCD
+
+---------24:16----------
+connector and we do not have a short to
+
+---------24:18----------
+ground anywhere around this area so you
+
+---------24:22----------
+know what may be possible what if I have
+
+---------24:24----------
+a short to ground oh oh here's what I
+
+---------24:26----------
+didn't check oh here's what I didn't
+
+---------24:28----------
+check so after the transistor do we
+
+---------24:30----------
+the short to ground because these
+
+---------24:31----------
+capacitors go to ground so I checked for
+
+---------24:33----------
+a short to ground at output and checking
+
+---------24:36----------
+for a short to ground here would not
+
+---------24:37----------
+show me if there's a short to ground
+
+---------24:38----------
+here because there's a diode there Oh
+
+---------24:40----------
+what if this is it what if see 7710 c77
+
+---------24:43----------
+11 SC 77 12 are shorted and that's why
+
+---------24:46----------
+it's not working ooh all right so let's
+
+---------24:49----------
+check the output of cue 7700 I am happy
+
+---------24:52----------
+I am excited oh boy oh boy this could be
+
+---------24:56----------
+it this could be it and if this isn't it
+
+---------24:59----------
+then I'm chucking this board of the wall
+
+---------25:00----------
+I mean I'm not checking the sport of the
+
+---------25:02----------
+wall because then you'll have to find
+
+---------25:03----------
+he'll have to explain it to them I
+
+---------25:05----------
+almost got in trouble ok so this is I
+
+---------25:09----------
+think it's going to be 77 10 11 or 12
+
+---------25:12----------
+and now the reason that we cannot see if
+
+---------25:13----------
+that's the problem is because it's
+
+---------25:14----------
+hiding behind the diode on this side and
+
+---------25:16----------
+the tiny B high-sided transistor which
+
+---------25:18----------
+as you can see has a diode inside of it
+
+---------25:20----------
+on this side so let's check at l77 10
+
+---------25:22----------
+and see if we can blame the coil because
+
+---------25:24----------
+as you all know it's always the coil so
+
+---------25:28----------
+on pin 1 of the coil do we have a short
+
+---------25:29----------
+to ground so we're going to turn the
+
+---------25:31----------
+board upside right side up again and
+
+---------25:33----------
+that is a funny looking coil I don't
+
+---------25:36----------
+even know where to measure on this
+
+---------25:37----------
+ coil so we're going to measure
+
+---------25:39----------
+on the set instead because it's the same
+
+---------25:41----------
+thing to see where is C 7710 actually
+
+---------25:44----------
+Cee 7/7 n show me see seven seven ten
+
+---------25:48----------
+all right so that is this capacitor
+
+---------25:50----------
+we're going to measure on pin one and
+
+---------25:52----------
+I'm going to pray that this is shorted
+
+---------25:54----------
+to ground because if it's not sure it at
+
+---------25:55----------
+the ground and I'm I'm out of ideas with
+
+---------25:58----------
+this one until nitro casts their answers
+
+---------26:00----------
+to me tweet eight one two oh you piece
+
+---------26:06----------
+is shared you're not shorted you're not
+
+---------26:08----------
+even close to short it look you mug that
+
+---------26:13----------
+you are my hope
+
+---------26:16----------
+hi hmm
+
+---------26:20----------
+lame so lame so lame
+
+---------26:28----------
+sad what haven't I checked I didn't
+
+---------26:31----------
+check the 5 volt pull-ups for the data
+
+---------26:33----------
+line for i2c but I mean who are we
+
+---------26:34----------
+kidding that's gonna be fine that's
+
+---------26:36----------
+gonna be fine
+
+---------26:37----------
+might as well check them just for that
+
+---------26:38----------
+ of it
+
+---------26:41----------
+J 8300 that's going to be on pins three
+
+---------26:46----------
+and four right and the only corrosion on
+
+---------26:49----------
+this entire board was on backlight SD on
+
+---------26:51----------
+the LED driver which was totally fixed
+
+---------26:53----------
+perhaps i2c doesn't happen because of
+
+---------26:55----------
+corroded paths we measured the path
+
+---------26:57----------
+between the screen and between the
+
+---------26:59----------
+screen connector and the i2c line of the
+
+---------27:01----------
+LED driver already of 54.8 and I seven
+
+---------27:16----------
+seven five three one side is five the
+
+---------27:22----------
+other side is zero and zero okay are
+
+---------27:29----------
+seven seven five three are seven seven
+
+---------27:36----------
+five three that's the last thing that we
+
+---------27:38----------
+didn't check so I checked these
+
+---------27:39----------
+resistors and I check to make sure that
+
+---------27:41----------
+this signal was making its way from the
+
+---------27:44----------
+LED driver to the LCD connector but I
+
+---------27:47----------
+seven seven five three over here has
+
+---------27:50----------
+zero which means that something is
+
+---------27:52----------
+pulling down that line or are seven
+
+---------27:56----------
+seven five three is not two points
+
+---------27:58----------
+something kilohms huh let's see are you
+
+---------28:02----------
+open
+
+---------28:02----------
+maybe you're open or kilohms range
+
+---------28:05----------
+kilohms range is fine so I'm expecting
+
+---------28:07----------
+that resistor to be two kilo ohms and I
+
+---------28:09----------
+get one point five which is close enough
+
+---------28:11----------
+and on the other one I get yeah same
+
+---------28:13----------
+thing alright so now let's check
+
+---------28:15----------
+resistance to ground on each side
+
+---------28:19----------
+resistance the ground on our seven seven
+
+---------28:23----------
+five two on the data line side is three
+
+---------28:27----------
+kilo ohms and on the other side is zero
+
+---------28:32----------
+ohms that doesn't sound right to me but
+
+---------28:35----------
+that's what the screen plugged in huh
+
+---------28:37----------
+so what let's see what happens if I
+
+---------28:39----------
+unplug the screen because perhaps the
+
+---------28:40----------
+screen that I was given is actually a
+
+---------28:42----------
+bad screen that would be funny if every
+
+---------28:44----------
+screen I've tried today was bad so let
+
+---------28:46----------
+me unplug the screen okay so the screen
+
+---------28:49----------
+has been unplugged
+
+---------28:54----------
+and we're going to do the same thing
+
+---------29:07----------
+and we still get 0 ohms like oh that's
+
+---------29:10----------
+that's no good that's really bad that's
+
+---------29:12----------
+as pretty
+
+---------29:13----------
+so what could short my data line to
+
+---------29:15----------
+ground like that let's see yeah we have
+
+---------29:21----------
+one point 6 ohms the ground without
+
+---------29:22----------
+something plugged in well the s the the
+
+---------29:28----------
+SCL line now the SEL line is 3 kilometer
+
+---------29:31----------
+ground it's the SDA line that's shorted
+
+---------29:33----------
+so look SCO line is 3 kilo ohms and the
+
+---------29:35----------
+SDA line is shorted but really what
+
+---------29:40----------
+gives us a path to ground let's see so I
+
+---------29:42----------
+to where does this go
+
+---------29:44----------
+so if I click here this goes to this
+
+---------29:47----------
+resistor which goes to the back light
+
+---------29:49----------
+ship this OH
+
+---------29:51----------
+Oh son of a [ __ ] you piece of
+
+---------29:56----------
+physical app to ground on that line god
+
+---------30:00----------
+really really Apple really you know
+
+---------30:03----------
+you're going to put a cap to ground on
+
+---------30:04----------
+the line that's that important then not
+
+---------30:06----------
+included in the schematic over
+
+---------30:07----------
+here are you serious you pricks alright
+
+---------30:10----------
+so I to see backlight SDA right over
+
+---------30:14----------
+here see this eye to see backlight SDA
+
+---------30:17----------
+this line it has a capacitor to
+
+---------30:20----------
+ground right over here right over here
+
+---------30:24----------
+see eight three five eight and it's tell
+
+---------30:26----------
+me you have that on the LCD side you
+
+---------30:28----------
+piece of this see 8 3 5 8 see 8 3 5
+
+---------30:36----------
+8 ah you pricks you [ __ ] what my ah
+
+---------30:44----------
+goddamnit it's over here ok see 8 3 5 8
+
+---------30:48----------
+let's find it oh I'm such a
+
+---------30:51----------
+smooth brain if this is the problem this
+
+---------30:53----------
+is going to be so oh man this is going
+
+---------30:55----------
+to be embarrassing this is going to be
+
+---------30:57----------
+embarrassing why why don't you put this
+
+---------31:01----------
+on the LED driver page where I can
+
+---------31:03----------
+easily see it okay so see a 3 5 8 is
+
+---------31:07----------
+going to be this thing over here and
+
+---------31:09----------
+it's a solder ball coming out of it look
+
+---------31:12----------
+at that there's a solder ball coming at
+
+---------31:14----------
+you you prick you prick oh man
+
+---------31:21----------
+oh man that's bad that's that's bad
+
+---------31:24----------
+that's reputation destroying right there
+
+---------31:26----------
+that's reputation destroying right there
+
+---------31:28----------
+ok so where hello mad it's not on the
+
+---------31:33----------
+same side of the board is the LCD
+
+---------31:35----------
+connector it's not next to the LED
+
+---------31:36----------
+driver it's in the middle of
+
+---------31:38----------
+nowhere just like the distance like here
+
+---------31:41----------
+what's up [ __ ] get the sucker
+
+---------31:45----------
+piece of
+
+---------31:47----------
+get the off my board you know what
+
+---------31:51----------
+the funny thing is of all the that
+
+---------31:54----------
+we checked we didn't check that I
+
+---------31:56----------
+checked the resistors in between the LCD
+
+---------32:00----------
+driver and the LCD connector but I never
+
+---------32:02----------
+checked the pull-up resistors and/or
+
+---------32:04----------
+their resistance to ground what a noob
+
+---------32:07----------
+mistake that is so noobish that is so
+
+---------32:12----------
+incredibly noobish oh that's
+
+---------32:15----------
+embarrassing that's embarrassing
+
+---------32:18----------
+alright so we're going to plug this in
+
+---------32:20----------
+and obviously it's going to work now I'm
+
+---------32:22----------
+not putting that kapkan suck it let's
+
+---------32:24----------
+see you're not going back on today oh
+
+---------32:30----------
+man it's really interesting when it's
+
+---------32:34----------
+not in front of your eyes how you just
+
+---------32:36----------
+don't see it or think of it they look at
+
+---------32:40----------
+of course we're going to get a light now
+
+---------32:43----------
+but like when you look at this over here
+
+---------32:45----------
+like it's easy to not have this show up
+
+---------32:48----------
+in your head let's just see if to the
+
+---------32:50----------
+light first before I celebrate
+
+---------32:58----------
+wait no what why am i celebrating
+
+---------33:03----------
+voltage
+
+---------33:16----------
+hmm Oh goddamnit
+
+---------33:25----------
+voltage yes still no light screen screen
+
+---------33:38----------
+is five backlight is zero okay so we
+
+---------33:43----------
+still don't have a light so let's lend
+
+---------33:45----------
+us and then let's see if we at least
+
+---------33:49----------
+removing a capacitor fixed our
+
+---------33:51----------
+resistance issue
+
+---------33:57----------
+so if I were to check for resistance to
+
+---------33:59----------
+ground can't get excited there so if I
+
+---------34:06----------
+were to check for resistance to ground
+
+---------34:07----------
+at this the SDA line which was shorted
+
+---------34:16----------
+yeah we haven't fixed our problem 1.6
+
+---------34:20----------
+ohms of resistance to ground we haven't
+
+---------34:22----------
+fixed our problem where else does this
+
+---------34:23----------
+go so this goes to LCD connector and
+
+---------34:25----------
+that's it it goes to LCD connector this
+
+---------34:34----------
+resistor and there so what else could it
+
+---------34:38----------
+be what else could be shorting this line
+
+---------34:40----------
+to ground what else could it be so we
+
+---------34:43----------
+remove the cap we remove the cap the cap
+
+---------34:49----------
+is not there and yet we still have a
+
+---------34:51----------
+short end this is without display let's
+
+---------34:53----------
+just keep in mind that the display is
+
+---------34:54----------
+not plugged in right now and that's one
+
+---------34:57----------
+point six ohms the ground you're seeing
+
+---------34:58----------
+there so I'm going to remove our seven
+
+---------35:01----------
+seven five one so that I can see what
+
+---------35:03----------
+side the short is on is this short on
+
+---------35:05----------
+the LED driver's side or is the short on
+
+---------35:08----------
+the screen and the system side so let's
+
+---------35:10----------
+remove our seven seven five one to
+
+---------35:13----------
+figure that out
+
+---------35:13----------
+so our seven seven five one is here
+
+---------35:17----------
+let's take that out SCO has no SEL is
+
+---------35:21----------
+totally different SEL is three kilohms
+
+---------35:23----------
+to ground which is totally acceptable
+
+---------35:29----------
+all right so let's remove
+
+---------35:35----------
+are seven seven five one
+
+---------35:52----------
+this will allow us to determine where
+
+---------35:55----------
+the short-circuit is on the board
+
+---------36:10----------
+come on hot air station
+
+---------36:23----------
+you can do it out air station
+
+---------36:35----------
+we're just going to take you and put you
+
+---------36:37----------
+aside on top of the fan and that's
+
+---------36:40----------
+already gone this the moment that I put
+
+---------36:42----------
+it down so let's see which side our
+
+---------36:44----------
+short circuit is on on the backlight SDA
+
+---------36:47----------
+line is it on the LED driver's side over
+
+---------36:49----------
+here or is it on the screen sign over
+
+---------36:51----------
+here so on the LED driver's side it's
+
+---------36:58----------
+1.5 ohm and on the system side
+
+---------37:02----------
+it's 6.7 kilohms which means that the
+
+---------37:06----------
+LED driver that I took off a donor board
+
+---------37:08----------
+is actually no good
+
+---------37:09----------
+most likely so that's actually a bad LED
+
+---------37:12----------
+driver okay now this is just starting to
+
+---------37:15----------
+get sad
+
+---------37:26----------
+is it the soldering and the LED driver
+
+---------37:29----------
+that did it
+
+---------37:36----------
+maybe it's deciding at the LED driver
+
+---------37:38----------
+that did it
+
+---------37:50----------
+1.3 ohms okay let's remove this LED
+
+---------37:52----------
+driver altogether
+
+---------37:55----------
+go away long
+
+---------38:04----------
+now that that's been removed let's check
+
+---------38:11----------
+not short it's ground okay breathe in
+
+---------38:16----------
+breathe out breathe in breathe out
+
+---------38:17----------
+breathe in breathe out I'm going to
+
+---------38:24----------
+check on a donor and make sure that on
+
+---------38:26----------
+the donor board that I'm going to steal
+
+---------38:27----------
+this from now that I don't have a short
+
+---------38:29----------
+to ground on that pin and say 65 kilo
+
+---------38:35----------
+ohms and on my donor the 65 kilo ohms
+
+---------38:39----------
+there and open line and 556 kilohms on
+
+---------38:48----------
+the SDA line okay let's do this again so
+
+---------38:58----------
+I know that on my board that I'm
+
+---------38:59----------
+stealing this from that the board that
+
+---------39:03----------
+I'm stealing this from has an LED driver
+
+---------39:04----------
+that's not short it good to know
+
+---------39:16----------
+the cap wasn't bad I blamed the cap for
+
+---------39:18----------
+no reason I'm not apologizing to it
+
+---------39:22----------
+either if the cap expects an apology
+
+---------39:25----------
+it's going to come to the wrong place
+
+---------39:30----------
+and I just that wasn't good what I did
+
+---------39:33----------
+to the center pad
+
+---------39:56----------
+that is a good little filtering cat yeah
+
+---------39:59----------
+but well I want to apologize to it I
+
+---------40:01----------
+know it's wrong I should apologize to
+
+---------40:03----------
+that I'm not in the mood today
+
+---------40:07----------
+to apologize to capacity
+
+---------40:18----------
+okay
+
+---------40:20----------
+that's all
+
+---------40:22----------
+that's all you get Center pet okay we're
+
+---------40:30----------
+going to remove the chip from the donor
+
+---------40:33----------
+take our time removing the chip from the
+
+---------40:35----------
+donor
+
+---------40:44----------
+you
+
+---------40:52----------
+yeah come on stay in place go back where
+
+---------40:56----------
+you're supposed to be
+
+---------42:09----------
+now let's measure resistance to ground
+
+---------42:11----------
+and use fine
+
+---------42:14----------
+okay over 20 kilo ohms for SC l-29
+
+---------42:22----------
+kilohms for s da so it seems like I just
+
+---------42:25----------
+had a bad LED driver the entire time
+
+---------42:27----------
+from the donor now let's see what
+
+---------42:30----------
+happens if I put my resistor back on
+
+---------42:54----------
+come on you lead free melt you lead
+
+---------43:00----------
+free you don't want to melt look at
+
+---------43:10----------
+the size of the soldering iron I'm using
+
+---------43:12----------
+for a zero to zero one component if this
+
+---------43:14----------
+is not the definition of being an idiot
+
+---------43:16----------
+I don't know what is all right come on
+
+---------43:20----------
+you lead free but cut my resistor
+
+---------43:22----------
+in there and all of the patience to
+
+---------43:24----------
+change my iron right now just melt come
+
+---------43:29----------
+on
+
+---------43:36----------
+there you go that my resistor and you
+
+---------43:39----------
+ okay
+
+---------43:50----------
+now it's interesting is that cat I
+
+---------43:52----------
+wonder if that cap having a solder ball
+
+---------43:53----------
+there was actually sure I wonder if if
+
+---------43:55----------
+you short that line to ground if it
+
+---------43:57----------
+actually killed the LED driver because
+
+---------43:59----------
+that's the only thing I can imagine
+
+---------44:00----------
+because even after I removed it my short
+
+---------44:01----------
+was still there and that cap that little
+
+---------44:03----------
+filter cap that then had a solder blob
+
+---------44:05----------
+next to it so I'm not going to say that
+
+---------44:07----------
+that cap is come totally innocent here
+
+---------44:15----------
+that cat may have been killing my LED
+
+---------44:17----------
+drivers all right let's see what we get
+
+---------44:25----------
+huh a backlight finally a light on the
+
+---------44:31----------
+screen okay so so what did we learn here
+
+---------44:37----------
+that what what did you learn from all
+
+---------44:41----------
+this that bad LED driver can make your
+
+---------44:45----------
+life a complete living hell
+
+---------44:49----------
+and as adjusted for the last hours so
+
+---------44:53----------
+for me as well as the cap so the cap was
+
+---------44:57----------
+probably killing all the LED drivers
+
+---------44:58----------
+that I was putting on so if you short
+
+---------45:00----------
+that line of ground maybe it can kill
+
+---------45:02----------
+the LED driver that's the only thing I
+
+---------45:04----------
+can imagine at this point that's really
+
+---------45:06----------
+all I can imagine at this point that
+
+---------45:08----------
+that's Wow
+
+---------45:10----------
+this has to be the longest no backlight
+
+---------45:13----------
+since the Jessa one where I had to run a
+
+---------45:14----------
+wire all the way around the board that
+
+---------45:17----------
+was not fun that was not fun at all but
+
+---------45:24----------
+at least it's over and it works and I
+
+---------45:28----------
+can build for it which is really all
+
+---------45:31----------
+that I care about you want to avoid my
+
+---------45:34----------
+misery and biology drivers that actually
+
+---------45:36----------
+work that doesn't take them off of donor
+
+---------45:38----------
+Boyd's like I've been doing cheaply have
+
+---------45:40----------
+you checked out our site here or you can
+
+---------45:42----------
+just buy LED drivers you just go here
+
+---------45:44----------
+and you can type in the model number of
+
+---------45:47----------
+your board you can go lp8 five four
+
+---------45:51----------
+eight and you'll find it in the
+
+---------45:54----------
+schematic the LED driver is going to
+
+---------45:56----------
+show up here as you 7700 so you can just
+
+---------45:59----------
+go up here and type in you seven seven
+
+---------46:01----------
+zero zero and it just shows up
+
+---------46:03----------
+you can click it and if you need support
+
+---------46:05----------
+of any type on any one of these types of
+
+---------46:07----------
+board level issues you can just go to
+
+---------46:09----------
+our site here where we will help walk
+
+---------46:12----------
+you through any of these board level
+
+---------46:13----------
+issues and people like myself and Duke
+
+---------46:15----------
+who have made these mistakes a million
+
+---------46:17----------
+times over will happily help you and
+
+---------46:19----------
+walk you through your problems you can
+
+---------46:22----------
+click on here and you can see issues
+
+---------46:24----------
+that have been solved issues that have
+
+---------46:25----------
+not been solved and all sorts of fun
+
+---------46:28----------
+stuff and will tell you what to measure
+
+---------46:31----------
+will tell you where to look and often
+
+---------46:33----------
+times will solve your problem so that's
+
+---------46:35----------
+it for today as always I hope that you
+
+---------46:38----------
+learn something
+

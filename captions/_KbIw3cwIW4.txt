@@ -1,0 +1,1462 @@
+https://www.youtube.com/watch?v=_KbIw3cwIW4
+---------00:00----------
+hi today I want to talk about how to
+
+---------00:01----------
+replace the LED driver on a MacBook Pro
+
+---------00:04----------
+or a MacBook Air that use a ball grid
+
+---------00:06----------
+array LP 8550 chipset to boost the
+
+---------00:10----------
+backlight voltage so on older machines
+
+---------00:12----------
+they use the qfn package which is a lot
+
+---------00:14----------
+less scary to people than this one which
+
+---------00:15----------
+uses a BGA package one of the common
+
+---------00:18----------
+things that a lot of people ask is how
+
+---------00:20----------
+do I replace this how do i reball the
+
+---------00:22----------
+chip after I take it off another board
+
+---------00:23----------
+so that I can use it on mine and what I
+
+---------00:25----------
+have to say to you is that you're asking
+
+---------00:27----------
+the wrong question the right question
+
+---------00:29----------
+should be how can I spend two dollars
+
+---------00:31----------
+and 50 cents to buy this chip with the
+
+---------00:33----------
+balls already on it you are asking the
+
+---------00:35----------
+wrong question if you're trying to
+
+---------00:37----------
+reball the chip then you can buy new
+
+---------00:39----------
+three-balled for two dollars and fifty
+
+---------00:41----------
+cents either a you are a just a cheap
+
+---------00:44----------
+ or be you're simply ignorant as I
+
+---------00:48----------
+was at one time and you don't think that
+
+---------00:50----------
+you can buy this thing new but I assure
+
+---------00:52----------
+you if you go to Mouser calm right now
+
+---------00:55----------
+that's Mouse as in little thing that my
+
+---------00:57----------
+cat kills when he sees it running across
+
+---------00:58----------
+the floor with an R at the end
+
+---------01:01----------
+Mouser calm and search for L as in Lewis
+
+---------01:04----------
+P as in Peter eight five five zero lp8
+
+---------01:08----------
+55 zero you will find this I see it will
+
+---------01:11----------
+be about two dollars and fifty cents and
+
+---------01:12----------
+it will come with balls already on it so
+
+---------01:15----------
+you don't have to care about rebelling
+
+---------01:17----------
+the chip am I gonna show you how to
+
+---------01:18----------
+reball it no do I know how to reball
+
+---------01:21----------
+this chip probably not if I tried would
+
+---------01:24----------
+I be able to do it successfully
+
+---------01:25----------
+maybe maybe after a few hours or maybe
+
+---------01:28----------
+after a few hours I'd fail I don't know
+
+---------01:30----------
+because I never took the trying to try
+
+---------01:32----------
+because it is worth it to me to spend
+
+---------01:34----------
+two dollars and fifty cents to get this
+
+---------01:37----------
+thing new with balls when I'm charging
+
+---------01:39----------
+hundreds of dollars for service now that
+
+---------01:41----------
+we've gotten that out of the way let's
+
+---------01:43----------
+go on to the actual soldering of the
+
+---------01:45----------
+chip because for some reason a lot of
+
+---------01:48----------
+people find this very very hard when it
+
+---------01:50----------
+should be very very easy the hard part
+
+---------01:54----------
+is not in soldering the chip the hard
+
+---------01:55----------
+part isn't figuring out why my soldering
+
+---------01:58----------
+station is not on and I should know the
+
+---------02:00----------
+answer to that by now
+
+---------02:01----------
+I should very much so know the answer to
+
+---------02:03----------
+that by now it's because I'm doing a
+
+---------02:06----------
+video
+
+---------02:07----------
+so now let's wait for that to heat up a
+
+---------02:16----------
+little bit so this is a macbook air
+
+---------02:23----------
+motherboard it's an a20
+
+---------02:24----------
+3437 now this video is mainly gonna be
+
+---------02:27----------
+on how to actually do the work I'm not
+
+---------02:29----------
+gonna go into the Diagnostics I'm not
+
+---------02:30----------
+gonna go into the schematics I'm not
+
+---------02:32----------
+gonna go into all that because I've done
+
+---------02:33----------
+that before in other videos enough right
+
+---------02:35----------
+now I just want to show you that
+
+---------02:36----------
+replacing this is possible that you
+
+---------02:38----------
+don't have to be a genius that you don't
+
+---------02:39----------
+have to have some fancy-schmancy to
+
+---------02:41----------
+do it you can just do it with any all
+
+---------02:43----------
+hot air rework station and soldering
+
+---------02:45----------
+iron and that you don't have to reball
+
+---------02:47----------
+it and that it's easy because a big
+
+---------02:49----------
+problem with all of this work a big
+
+---------02:51----------
+problem with all this stuff is that
+
+---------02:53----------
+people make it seem so hard they make it
+
+---------02:55----------
+seem like it's so impossible they make
+
+---------02:57----------
+it seem like you have to be so cool and
+
+---------02:58----------
+so experienced in order to get any of it
+
+---------03:01----------
+done
+
+---------03:02----------
+and you don't you really don't you just
+
+---------03:05----------
+have to have some common sense and you
+
+---------03:07----------
+have to have somebody already spent all
+
+---------03:08----------
+the time figuring it out show you so
+
+---------03:12----------
+that you can do it and once somebody's
+
+---------03:14----------
+showing you how to do it it's not that
+
+---------03:16----------
+hard anymore so since I don't want to
+
+---------03:18----------
+inhale solder smoke and die a terrible
+
+---------03:20----------
+death of lung cancer I'm gonna put this
+
+---------03:23----------
+nice level hack oh FA 430 fume extractor
+
+---------03:26----------
+next to where I'm going to be working
+
+---------03:29----------
+okay
+
+---------03:30----------
+so I have a hack ofr 801 rework station
+
+---------03:32----------
+so the first thing you should know
+
+---------03:34----------
+before you ask me what temperature I'm
+
+---------03:36----------
+on I'm on six and a half I spent $200
+
+---------03:40----------
+less to get the hack or that analog
+
+---------03:42----------
+temperature control instead of digital
+
+---------03:44----------
+temperature control because the
+
+---------03:46----------
+temperature I'm at I don't I don't care
+
+---------03:48----------
+I I will get used to where I am on the
+
+---------03:50----------
+knob versus an actual number and the
+
+---------03:53----------
+number that you use is gonna be
+
+---------03:55----------
+different based on the nozzle you use
+
+---------03:56----------
+and all this crap anyway so I figured I
+
+---------03:58----------
+would save $200 on my tool by buying an
+
+---------04:00----------
+analog one so if you want to know what
+
+---------04:02----------
+temperature I'm on I'm on six and a half
+
+---------04:05----------
+and I'm on about 10 for airflow so with
+
+---------04:09----------
+that said let's get on to removing the
+
+---------04:11----------
+LED driver now to remove the LED driver
+
+---------04:14----------
+take my hot air I'm gonna take my
+
+---------04:18----------
+tweezers
+
+---------04:19----------
+this broke-ass pair of tweezers and my
+
+---------04:22----------
+good pair of tweezers are probably
+
+---------04:24----------
+stolen by my coworker which is karma
+
+---------04:27----------
+because I always steal things from him
+
+---------04:29----------
+and I'm gonna do this so I'm gonna be
+
+---------04:31----------
+about however far away that is
+
+---------04:40----------
+now the thing I'm gonna do with this
+
+---------04:42----------
+chip I'm gonna tap it every now and then
+
+---------04:44----------
+to see if it's actually ready to be
+
+---------04:46----------
+moved so the first thing is I want to
+
+---------04:47----------
+preheat the board a little bit you don't
+
+---------04:49----------
+want to just like go in on the chip
+
+---------04:50----------
+immediately preheat the board around a
+
+---------04:52----------
+little bit to make it easy and then
+
+---------04:57----------
+after a while when you see the resulting
+
+---------04:59----------
+solder or like see that and see how
+
+---------05:00----------
+that's kind of starting to move around a
+
+---------05:02----------
+little then you can go in touch the chip
+
+---------05:06----------
+not not ready to go yet not ready to go
+
+---------05:10----------
+yet still not ready to go now it's ready
+
+---------05:16----------
+to go see I moved it in a moved see the
+
+---------05:19----------
+thing that moving it does is it tells me
+
+---------05:21----------
+that the chip itself is disconnected
+
+---------05:25----------
+from the balls because if I just picked
+
+---------05:27----------
+this up in any of those balls what this
+
+---------05:30----------
+tells me when I poke it and then I see
+
+---------05:32----------
+it move is that every single ball is
+
+---------05:35----------
+disconnected from every single pad and
+
+---------05:36----------
+that they are every single one of those
+
+---------05:38----------
+balls is melted if the balls are not
+
+---------05:40----------
+melted and stop it I know some of you
+
+---------05:42----------
+are laughing right now if the balls
+
+---------05:44----------
+don't melt if the balls are dry what
+
+---------05:46----------
+they're gonna do is they're gonna rip
+
+---------05:47----------
+those pads off of the board and then
+
+---------05:48----------
+you're gonna have to run trace wires to
+
+---------05:50----------
+the components underneath the chip that
+
+---------05:52----------
+is 25 balls
+
+---------05:53----------
+that's about one-eighth the size of my
+
+---------05:56----------
+pinky fingernail and you don't want to
+
+---------05:58----------
+do that so poke the chip a little bit
+
+---------06:00----------
+after your digging and poke the chip a
+
+---------06:02----------
+little and then once you've poked if you
+
+---------06:04----------
+actually see that it moves not just a
+
+---------06:06----------
+tiny bit but if the entire thing can
+
+---------06:08----------
+move
+
+---------06:08----------
+make sure your heat is there keep it
+
+---------06:10----------
+there for another two seconds the reason
+
+---------06:12----------
+I say keep it there for another two
+
+---------06:13----------
+seconds is because if you poke it and
+
+---------06:15----------
+then you go to remove it what's gonna
+
+---------06:17----------
+happen is when you poke it you probably
+
+---------06:19----------
+move the hot air away which is actually
+
+---------06:20----------
+allowed it to cool so put it back there
+
+---------06:22----------
+again for just another two seconds and
+
+---------06:23----------
+then lift it up or even better you could
+
+---------06:25----------
+simply keep the hot air there and not
+
+---------06:27----------
+move your hands when you poke it don't
+
+---------06:29----------
+be like me and move your hand without
+
+---------06:30----------
+realizing it when you poke the chip
+
+---------06:32----------
+because you can't control your left in
+
+---------06:33----------
+your right hand at the same time and
+
+---------06:34----------
+just remove it now the cleaning stage
+
+---------06:38----------
+what you're gonna want is a flat tip
+
+---------06:40----------
+soldering iron for this part of the
+
+---------06:42----------
+project so there are different types of
+
+---------06:45----------
+tips that you can get I'm gonna show you
+
+---------06:46----------
+under the microscope so you can have a
+
+---------06:48----------
+conical tip like this which is all the
+
+---------06:50----------
+way around
+
+---------06:51----------
+same thing and then you could have this
+
+---------06:52----------
+flat chisel tip which is perfectly flat
+
+---------06:56----------
+at one point we want the flechette
+
+---------06:57----------
+though oh my god this iron can be
+
+---------07:00----------
+annoying sometimes I want to talk and
+
+---------07:02----------
+finish my sentence but no it's you
+
+---------07:06----------
+okay so let's wait for this thing to
+
+---------07:09----------
+heat up now it's gonna beat but it heats
+
+---------07:12----------
+up so it's gonna allow me the latest
+
+---------07:16----------
+there perfectly flat in order to clean
+
+---------07:18----------
+everything so the first thing I'm gonna
+
+---------07:20----------
+do here is add some flux so the flux
+
+---------07:23----------
+that I use is Ametek 5:59 it's good
+
+---------07:28----------
+stuff have it in one of these nice
+
+---------07:31----------
+little syringes now I have the wrong
+
+---------07:32----------
+syringe so too much flux is going to
+
+---------07:34----------
+come out because I haven't taken the
+
+---------07:35----------
+time since moving to fine or I put my
+
+---------07:37----------
+syringes so I'm just gonna put some flux
+
+---------07:39----------
+here and what I want to do is I want to
+
+---------07:42----------
+remove all that old solder all that
+
+---------07:44----------
+solder is lead-free solder which is a
+
+---------07:45----------
+little bit more difficult to work with
+
+---------07:46----------
+and pick up also it's old crusty old
+
+---------07:49----------
+solder and I don't want that I want some
+
+---------07:52----------
+nice fresh news so I'm doing here trying
+
+---------07:55----------
+to do here with one eye piece is add
+
+---------07:59----------
+something like so it's a nice let it
+
+---------08:03----------
+solder with a good flux add it all
+
+---------08:06----------
+around now what I'm gonna do is I'm
+
+---------08:07----------
+gonna take some solder awake I like to
+
+---------08:10----------
+use goat wick spelled gooo T you can so
+
+---------08:17----------
+it's a good stuff I'm not a biggest fan
+
+---------08:19----------
+of wick I usually use the desoldering
+
+---------08:21----------
+iron the hakko 808 that I have here but
+
+---------08:24----------
+I don't feel like plugging it in right
+
+---------08:25----------
+now
+
+---------08:25----------
+and realistically speaking most of you
+
+---------08:27----------
+guys are gonna be more comfortable
+
+---------08:28----------
+buying a $5 wick than you are $200 d
+
+---------08:31----------
+soldering gun
+
+---------08:32----------
+so what I'm gonna do is I'm gonna put
+
+---------08:35----------
+the wick on top of here now that I have
+
+---------08:37----------
+a flat tip and not a conical one it's
+
+---------08:39----------
+going to be much easier to picking up
+
+---------08:41----------
+all the junk now what I'm doing is I'm
+
+---------08:43----------
+not moving the iron I'm moving the wick
+
+---------08:45----------
+back and forth because it helps control
+
+---------08:47----------
+the iron and helps me move what I wanted
+
+---------08:49----------
+to and one of the other things with wick
+
+---------08:51----------
+never put the never take the iron off
+
+---------08:53----------
+and then move it because here's the way
+
+---------08:55----------
+this works this is really just kind of a
+
+---------08:57----------
+bunch of braided wire that's designed
+
+---------08:59----------
+and put together in a manner in which it
+
+---------09:01----------
+absorbs solder so if I put this on the
+
+---------09:03----------
+pads
+
+---------09:04----------
+and then I take the iron off and then I
+
+---------09:06----------
+move this the pad and the solder and
+
+---------09:08----------
+this is going to get dry then it's going
+
+---------09:11----------
+to solidify and this is going to be
+
+---------09:12----------
+stuck and soldered on to the pad I'm
+
+---------09:14----------
+gonna move it and the pads are gonna get
+
+---------09:16----------
+ripped off so never ever ever move this
+
+---------09:18----------
+ without having the iron firmly
+
+---------09:20----------
+pressed on it and without the iron
+
+---------09:22----------
+actually being hot that's the second
+
+---------09:24----------
+thing so now I'm going to go over this
+
+---------09:26----------
+again you just cut off a little bit of
+
+---------09:29----------
+wick that I used and we're gonna make
+
+---------09:31----------
+sure that we've got a nice flat surface
+
+---------09:32----------
+here
+
+---------09:41----------
+okay nice flat surface and you don't
+
+---------09:45----------
+want to go nuts with this part okay
+
+---------09:47----------
+another mistake that some people make
+
+---------09:49----------
+who are bad at this and I'm not the best
+
+---------09:51----------
+at soldering but I know enough to not
+
+---------09:54----------
+destroy things is what they do is they
+
+---------09:56----------
+over wicket they get obsessed with
+
+---------09:57----------
+cleaning every single little piece and
+
+---------09:59----------
+what happens is they actually wear the
+
+---------10:00----------
+pads away to the point where they can't
+
+---------10:02----------
+solder to them I used to have somebody
+
+---------10:04----------
+who did that with graphics with graphics
+
+---------10:07----------
+chips you know half of the graphics
+
+---------10:08----------
+chips in me that he did wouldn't
+
+---------10:10----------
+actually work because he whipped the
+
+---------10:11----------
+hell out of it
+
+---------10:12----------
+I wonder why is it taking seven or eight
+
+---------10:15----------
+hours to do one job and then I saw how
+
+---------10:17----------
+much time he spent wicking it and then I
+
+---------10:19----------
+started removing some of the graphics
+
+---------10:21----------
+chips off of the boards after he was no
+
+---------10:23----------
+longer working here and I saw that a lot
+
+---------10:26----------
+of those pads were just gone and they
+
+---------10:30----------
+were covered in this junk and one of
+
+---------10:32----------
+them would say ways I was able to fix it
+
+---------10:33----------
+by the way it's a good thing that you
+
+---------10:34----------
+should know in case you ever make this
+
+---------10:36----------
+mistake because I've made it before too
+
+---------10:37----------
+if you see that a pad is almost gone and
+
+---------10:40----------
+after you've wiped it down with the
+
+---------10:41----------
+alcohol and everything run put the iron
+
+---------10:43----------
+on it at a temperature maybe 750 get a
+
+---------10:45----------
+good Kester a leaded solder with some
+
+---------10:48----------
+good flux inside of it because they make
+
+---------10:50----------
+these with flux there's some good flux
+
+---------10:51----------
+inside that you can get on all speck and
+
+---------10:53----------
+just keep running solder into it move it
+
+---------10:55----------
+around like this and you'll notice that
+
+---------10:57----------
+what it does is it takes all the crap
+
+---------10:59----------
+that was on the paddle the junk and all
+
+---------11:00----------
+the garbage and it actually winds up
+
+---------11:02----------
+getting us you know stuck inside the the
+
+---------11:04----------
+flux and it goes away pretty much flows
+
+---------11:08----------
+away into that solder ball so when you
+
+---------11:09----------
+flick it away you guys are the wind up
+
+---------11:10----------
+flicking away the crab and you have a
+
+---------11:11----------
+nice pad and then you can wake it again
+
+---------11:13----------
+and you'll see that it's clean but
+
+---------11:14----------
+hopefully you don't get to the point of
+
+---------11:16----------
+doing that so now we have a nice clean
+
+---------11:18----------
+pad so I'm gonna do now is put some flux
+
+---------11:21----------
+on here probably too much because I
+
+---------11:23----------
+don't have the right little needle and
+
+---------11:24----------
+somebody on YouTube is gonna troll me
+
+---------11:26----------
+for it and I'm probably gonna tell them
+
+---------11:30----------
+to go themselves so we're going to
+
+---------11:34----------
+get a LP 8550 now again Mouser comm how
+
+---------11:38----------
+do you reball the chip what is the
+
+---------11:40----------
+proper way to reball the chip the proper
+
+---------11:42----------
+way to reball the chip is to buy it with
+
+---------11:44----------
+the balls on it which is two dollars and
+
+---------11:47----------
+fifty cents
+
+---------11:50----------
+now another important thing here is to
+
+---------11:52----------
+remember the orientation of the chip
+
+---------11:53----------
+remember the way you took it off of the
+
+---------11:55----------
+board because if you put the chip on the
+
+---------11:56----------
+wrong way it will not actually light up
+
+---------11:59----------
+the screen so you put it on now aligning
+
+---------12:04----------
+this is a [ __ ] if you don't have a
+
+---------12:06----------
+microscope so the other thing I should
+
+---------12:07----------
+have mentioned here buy a microscope
+
+---------12:10----------
+this is from Oman oh I got this set up
+
+---------12:14----------
+for three or four hundred bucks posted
+
+---------12:17----------
+probably 450 or somewhere around there
+
+---------12:19----------
+Romano's website I like it I've often
+
+---------12:22----------
+talked about the am scope SC 400 I don't
+
+---------12:25----------
+like that anymore after using this
+
+---------12:26----------
+because the image quality on it is not
+
+---------12:28----------
+as good and I like the light that this
+
+---------12:29----------
+comes with better it's a whiter light
+
+---------12:30----------
+than the am scope lights because the am
+
+---------12:32----------
+scope one is like a little you know
+
+---------12:34----------
+crappy lamp on that thing because it's
+
+---------12:36----------
+cheap and on the higher end ones it's
+
+---------12:38----------
+something that's really really blue I
+
+---------12:39----------
+don't like that super cold blue so it's
+
+---------12:44----------
+totally possible to do this without a
+
+---------12:45----------
+microscope but I don't really recommend
+
+---------12:47----------
+it so my chip is placed it's not
+
+---------12:50----------
+perfectly square but it's close enough
+
+---------12:51----------
+you want it to be close enough that it
+
+---------12:53----------
+could slide in a place without touching
+
+---------12:54----------
+other balls so again see how it's not
+
+---------12:55----------
+perfect over there I'm gonna try my best
+
+---------12:59----------
+to get it as perfect as possible
+
+---------13:05----------
+the thing is it's never gonna be totally
+
+---------13:07----------
+perfect so but that doesn't matter it's
+
+---------13:11----------
+gonna slide into place and I'll show you
+
+---------13:12----------
+now the thing is you don't want to get
+
+---------13:14----------
+this too close up on it immediately
+
+---------13:15----------
+because it'll fly away and let's see if
+
+---------13:18----------
+it flies away from me here it eventually
+
+---------13:20----------
+will fly away for you so I'm heating it
+
+---------13:23----------
+I'm heating it
+
+---------13:24----------
+I want to preheat everything a little
+
+---------13:27----------
+bit just so that when I actually go to
+
+---------13:29----------
+solder it it sutter's nicely now when I
+
+---------13:35----------
+go close and I'll be able to tell once I
+
+---------13:37----------
+solder it because it's going to move a
+
+---------13:38----------
+little and you'll see
+
+---------13:46----------
+okay moved a little five four three two
+
+---------13:50----------
+one zero okay so when once I saw it move
+
+---------13:58----------
+a little bit in the place and once I
+
+---------14:00----------
+started moving my iron in a little
+
+---------14:02----------
+circle and I actually saw that the
+
+---------14:03----------
+entire chip was moving it wasn't just
+
+---------14:05----------
+one move like I blew it away with air
+
+---------14:07----------
+but it was moving back and forth like
+
+---------14:09----------
+it's sitting on a bed on a waterbed
+
+---------14:11----------
+which is pretty much you know bed of a
+
+---------14:13----------
+bunch of wet solder balls once I saw
+
+---------14:15----------
+that I knew that it was liquidus under
+
+---------14:17----------
+the chip liquidus means that I've melted
+
+---------14:18----------
+all the balls underneath the chip and
+
+---------14:20----------
+that because all those balls are wet
+
+---------14:23----------
+that whatever's on top of it will be
+
+---------14:24----------
+able to move back and forth once I saw
+
+---------14:27----------
+that I said I'm gonna keep it here for a
+
+---------14:28----------
+few seconds just to make sure all the
+
+---------14:30----------
+balls melt because you could have a
+
+---------14:31----------
+couple of balls melted you could have
+
+---------14:33----------
+the side ones melted but the middle ones
+
+---------14:35----------
+won't be melted so just because you see
+
+---------14:36----------
+that you've melted solder does not mean
+
+---------14:38----------
+that you're actually done with ball grid
+
+---------14:40----------
+array rework because the balls on the
+
+---------14:42----------
+side we are going to have are gonna melt
+
+---------14:45----------
+sooner than the balls in the middle so
+
+---------14:46----------
+once I see that it's moving back and
+
+---------14:47----------
+forth I'm not just happy I want to
+
+---------14:49----------
+actually see that it's going back and
+
+---------14:50----------
+forth a couple of times so that I know
+
+---------14:53----------
+that I've melted the center balls but I
+
+---------14:55----------
+don't want to keep it hot long enough
+
+---------14:57----------
+that I actually burn the chip and if you
+
+---------14:59----------
+see chisels on the corners of the chip
+
+---------15:01----------
+if you see that is chiseling in any way
+
+---------15:03----------
+then it's no good
+
+---------15:05----------
+now if you actually chisel the chip
+
+---------15:07----------
+because you touch it with the tweezers
+
+---------15:08----------
+too hard to you scratch the chip it's
+
+---------15:10----------
+okay if you scratch the chip you're okay
+
+---------15:13----------
+with tweezers on the outer skip part but
+
+---------15:15----------
+if the chip looks like it's it's broken
+
+---------15:18----------
+off or chipped solely from heat
+
+---------15:20----------
+not from you scratching it but the heat
+
+---------15:22----------
+itself has actually destroyed it then
+
+---------15:24----------
+you it up a little bit and it's
+
+---------15:26----------
+time to move on to the next one which
+
+---------15:28----------
+again very very good thing that this
+
+---------15:29----------
+chip here cost two dollars and fifty
+
+---------15:31----------
+cents so it's no big deal and let me
+
+---------15:35----------
+show you what the ball is under it look
+
+---------15:36----------
+like a little bit
+
+---------15:38----------
+that's those got some alcohol in there
+
+---------15:41----------
+so let's just get rid of that so I'm
+
+---------15:42----------
+gonna lower the heat on this to
+
+---------15:43----------
+something that won't melt solder and put
+
+---------15:44----------
+the air up I want to be able to
+
+---------15:46----------
+evaporate the alcohol away without
+
+---------15:49----------
+actually melting the chip just to make
+
+---------15:55----------
+it easier for you to see
+
+---------16:06----------
+so as you can see it's a good soldering
+
+---------16:08----------
+job the chip itself is still in good
+
+---------16:10----------
+condition and as always with these
+
+---------16:17----------
+videos I do not do this and then
+
+---------16:19----------
+edit it and then put it together with a
+
+---------16:21----------
+machine that works later or do this on
+
+---------16:23----------
+ that already worked I'm gonna
+
+---------16:25----------
+actually put this in a machine and show
+
+---------16:27----------
+you that what we did worked because if
+
+---------16:28----------
+the stuff that I do doesn't work you
+
+---------16:30----------
+should not listen to my advice you
+
+---------16:32----------
+should only listen to my advice if the
+
+---------16:34----------
+advice that I'm giving you is proven to
+
+---------16:36----------
+actually work and actually end in a
+
+---------16:38----------
+product that you can charge money for
+
+---------17:07----------
+let's just put this into my testbed
+
+---------17:10----------
+machine so that I can show you that we
+
+---------17:12----------
+have a perfectly working backlight also
+
+---------17:14----------
+as to why we replaced the LED driver on
+
+---------17:16----------
+this one so there was a short on the
+
+---------17:20----------
+backlight output to ground and when I
+
+---------17:24----------
+put some voltage there to figure out
+
+---------17:26----------
+where it was the lp 8550 got really hot
+
+---------17:29----------
+which indicates that the backlight
+
+---------17:31----------
+driver the LED driver was shorted to
+
+---------17:33----------
+ground so I replaced it now I haven't
+
+---------17:36----------
+actually made any other measurements yet
+
+---------17:37----------
+so there is a very good chance this
+
+---------17:39----------
+doesn't work I'm just hoping that this
+
+---------17:40----------
+is going to be an easy one because I
+
+---------17:42----------
+want to be able to do a video where
+
+---------17:44----------
+instead of troubleshooting everything I
+
+---------17:45----------
+just go through the basics of how to
+
+---------17:46----------
+solder this particular part but this is
+
+---------17:51----------
+a video and as I've explained previously
+
+---------17:52----------
+anything that I try to do for a video
+
+---------17:54----------
+doesn't work
+
+---------18:06----------
+I'm not sure if you can see the blinking
+
+---------18:08----------
+question mark or not because I'm looking
+
+---------18:10----------
+into a 2 inch screen for a camcorder
+
+---------18:19----------
+wait a sec that's what zoom is for I
+
+---------18:22----------
+forgot I got a good camcorder now
+
+---------18:32----------
+okay so as you can see our job but the
+
+---------18:34----------
+LED driver is now done so if you have
+
+---------18:40----------
+any questions post in the comments I
+
+---------18:41----------
+will try to get back to them at my
+
+---------18:43----------
+convenience as usual
+
+---------18:45----------
+you can message me you can send comments
+
+---------18:48----------
+here but do not call me if I get a phone
+
+---------18:51----------
+call saying I saw your LED driver video
+
+---------18:52----------
+and I had a question about soldering the
+
+---------18:54----------
+ball now no no I'm busy I got working
+
+---------18:56----------
+but if you have any questions I am more
+
+---------18:59----------
+than happy to get back to them my
+
+---------19:01----------
+convenience if you can ask them in the
+
+---------19:04----------
+comments section here or in youtube
+
+---------19:05----------
+messages so that it's something that I
+
+---------19:07----------
+can get back to you know as my schedule
+
+---------19:10----------
+allows
+

@@ -1,0 +1,352 @@
+https://www.youtube.com/watch?v=1AByavrsAhE
+---------00:17----------
+put your left summit on let's open this
+
+---------00:25----------
+thing up and see what's wrong with it
+
+---------00:26----------
+and see if we can fix it so what were
+
+---------00:28----------
+you gonna do is unplug the battery see
+
+---------00:34----------
+how much power this thing's using get
+
+---------00:37----------
+the multimeter power supply software up
+
+---------00:40----------
+on the screen plug it in plug it in plug
+
+---------00:46----------
+it in we're taking 40 milliamps no power
+
+---------00:52----------
+not 24 which is interesting cuz 24
+
+---------00:54----------
+milliamps is usually what happens when
+
+---------00:56----------
+p.m. sleep best for ELLs mr. Wilmer
+
+---------00:58----------
+can't find resistor where resistor y x
+
+---------01:02----------
+DP this is x DP something this doesn't
+
+---------01:06----------
+sound like it this goes to anything also
+
+---------01:08----------
+there's that actually that's not
+
+---------01:09----------
+corrosion that looks like conformal
+
+---------01:11----------
+coating uh-huh yes yes I found it what
+
+---------01:16----------
+are you you just want to say boomer a
+
+---------01:19----------
+lot don't you
+
+---------01:20----------
+you figured yeah yeah yeah okay
+
+---------01:27----------
+what is this thing what is this thing do
+
+---------01:29----------
+is going to be responsible for if all
+
+---------01:37----------
+says power good as present and p.m.
+
+---------01:39----------
+sleep as 3l is present which actually
+
+---------01:40----------
+needs to be present create us or else
+
+---------01:42----------
+that I believe a required to get also
+
+---------01:43----------
+power good to begin with then you get
+
+---------01:45----------
+CPU v CT power good but I don't think
+
+---------01:49----------
+we're there yet because if we're taking
+
+---------01:51----------
+40 milliamps we're not really in an Esso
+
+---------01:53----------
+state we're in an s4 state burn s5 state
+
+---------01:56----------
+however we're not taking that we're
+
+---------01:59----------
+taking 40 to 60 milliamps so maybe all
+
+---------02:01----------
+this chip needs is a little reflow
+
+---------02:03----------
+wouldn't that be something
+
+---------02:05----------
+oh my god Paul would kill me he's
+
+---------02:08----------
+watching this he's going to kill me if
+
+---------02:12----------
+Paul is at home he will kill me is he
+
+---------02:19----------
+if reef lowing this chip makes us work
+
+---------02:21----------
+again I am in for such a shitstorm when
+
+---------02:23----------
+he shows up tomorrow also what the hell
+
+---------02:29----------
+is that edge bonding it wasn't even
+
+---------02:30----------
+touching a chip
+
+---------02:57----------
+what's that which pen is that that's
+
+---------03:01----------
+corroded and that's corrode it is pen
+
+---------03:05----------
+six six gross
+
+---------03:21----------
+is there a reason you know he's
+
+---------03:22----------
+compressed there on the board to get all
+
+---------03:23----------
+the hair and dust off because then the
+
+---------03:26----------
+hair and dust goes into the air and
+
+---------03:27----------
+after it goes into the air it goes into
+
+---------03:29----------
+my body and after it goes to my body it
+
+---------03:31----------
+goes into my soul
+
+---------03:44----------
+hello Cindy hello Cindy how are you
+
+---------03:53----------
+doing this evening was not I would never
+
+---------04:04----------
+talk smack about you and
+
+---------04:18----------
+we're about to be shot
+
+---------04:41----------
+put your the left summers on Louis
+
+---------04:48----------
+congrats on the location my wife says my
+
+---------04:51----------
+wife says she loves it when you say pp
+
+---------04:54----------
+bus she is watching please say PP bus
+
+---------05:06----------
+pp bus
+
+---------06:23----------
+so it looks like the issue that we were
+
+---------06:25----------
+having this MacBook Air motherboard da20
+
+---------06:26----------
+dead zero zero one six five that goes
+
+---------06:28----------
+into the 2015/2016 a 14-6 13-inch
+
+---------06:31----------
+MacBook Air is that it was taking four
+
+---------06:33----------
+to 60 milliamps which means that most of
+
+---------06:35----------
+our S 5 and s 4 rails are likely present
+
+---------06:37----------
+but we're missing the S over else in the
+
+---------06:38----------
+issue that we're having here is that
+
+---------06:39----------
+even though p.m. sleeve s trail was
+
+---------06:41----------
+partially present and allowing the s or
+
+---------06:42----------
+s to turn on even though all says power
+
+---------06:44----------
+good was present meaning that most of
+
+---------06:46----------
+the sub rails were turning on it was not
+
+---------06:48----------
+sending out the signal called CPU VCT
+
+---------06:50----------
+power good which is going to allow the
+
+---------06:52----------
+rest of this isn't to turn on the CPU
+
+---------06:53----------
+power L doesn't turn on we're never
+
+---------06:54----------
+gonna get fans been we're never gonna
+
+---------06:55----------
+get the rest of the motion in the system
+
+---------06:57----------
+going and that was not turning on
+
+---------06:59----------
+because we had corrosion on new 1930
+
+---------07:01----------
+which could potentially show up people
+
+---------07:02----------
+in vol 5 so2 ground potentially short
+
+---------07:04----------
+pp5 es5 intermittently but also cause us
+
+---------07:07----------
+to have issues with PM sleep s3l as well
+
+---------07:10----------
+as with AUSA's power good if you short
+
+---------07:11----------
+all says power good or p.m. Slee best
+
+---------07:13----------
+three out of ground or you have
+
+---------07:14----------
+corrosion in that area then you're not
+
+---------07:16----------
+only are you not going to be getting
+
+---------07:17----------
+most of the Esso rails to work you're
+
+---------07:19----------
+also not going to get cpu v quarter work
+
+---------07:20----------
+which means you're not gonna get cpu VCC
+
+---------07:22----------
+st which means the CPU is not going to
+
+---------07:23----------
+turn on which means the CPUs not gonna
+
+---------07:24----------
+request the proper voltage and then it's
+
+---------07:26----------
+not gonna work
+
+---------07:26----------
+no I meant CPU is not gonna request the
+
+---------07:29----------
+power of proper voltage and then it's
+
+---------07:30----------
+not gonna work but now it does and we
+
+---------07:34----------
+have a fan spin
+
+---------07:38----------
+there's a very poor weapon grip I'll
+
+---------07:41----------
+have you know that I learned everything
+
+---------07:43----------
+on how to grip a weapon from watching
+
+---------07:44----------
+nerf videos on YouTube perfect accuracy
+
+---------07:52----------
+that's it for today and as always I hope
+
+---------07:55----------
+you learned something
+
+---------07:57----------
+[Music]
+
+---------08:05----------
+lasting this moment is where I want to
+
+---------08:10----------
+stay
+
+---------08:13----------
+[Music]
+
+---------08:17----------
+this can
+
+---------08:18----------
+can
+
+---------08:22----------
+[Music]
+

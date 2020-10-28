@@ -1,0 +1,1531 @@
+https://www.youtube.com/watch?v=DzcgT_fiVTA
+---------00:00----------
+all right so today we're going to be
+
+---------00:00----------
+going over a machine that's having some
+
+---------00:02----------
+graphical issues so this is a 2010 model
+
+---------00:05----------
+MacBook Pro this is a model if you
+
+---------00:07----------
+actually do a Google search you won't
+
+---------00:08----------
+find it if you just go to Apple comm but
+
+---------00:10----------
+if you google search you will find a
+
+---------00:11----------
+support Apple comm article on these
+
+---------00:14----------
+machines being covered for a certain
+
+---------00:16----------
+graphics issue now the 2011 is famous
+
+---------00:18----------
+for graphics issues the 2008 and 7 ones
+
+---------00:22----------
+famous for graphics issues 2010 is in
+
+---------00:24----------
+famous for a graphics issue but it does
+
+---------00:26----------
+indeed have one and I can show you here
+
+---------00:29----------
+here we go intermittent black screen or
+
+---------00:32----------
+loss of video quality program so this is
+
+---------00:34----------
+for this model which uses an 8 to 0
+
+---------00:37----------
+2850 motherboard now I'm going to link
+
+---------00:39----------
+over here to a video where I go over a
+
+---------00:41----------
+very very similar pramana different
+
+---------00:43----------
+machine if you follow the channel
+
+---------00:45----------
+regularly you may be familiar with an
+
+---------00:47----------
+older machine where there was an issue
+
+---------00:48----------
+with a capacitor on a buck converter the
+
+---------00:50----------
+idea with this buck converter is it
+
+---------00:51----------
+turns twelve point six volts into
+
+---------00:53----------
+somewhere around one point zero five
+
+---------00:55----------
+volts and when you have an issue with
+
+---------00:57----------
+this capacitor it will drop the voltage
+
+---------00:59----------
+and I was talking about this in a video
+
+---------01:01----------
+on recycling and refurbishing and and
+
+---------01:03----------
+heating things and talking about how
+
+---------01:04----------
+warranty service centers rather than
+
+---------01:06----------
+often try to find the problem what
+
+---------01:08----------
+they'll do is Oh to shove the board in
+
+---------01:09----------
+an oven and it works again and I did a
+
+---------01:11----------
+demonstration with the iron where I
+
+---------01:12----------
+tried heating up a that capacitor and
+
+---------01:15----------
+you saw the voltage jump from 0.3 volts
+
+---------01:17----------
+to 1.0 5 volts it was obviously the
+
+---------01:21----------
+capacitor and I'm just going to give you
+
+---------01:23----------
+a little bit of an overview of what that
+
+---------01:25----------
+circuit looked like over here so we're
+
+---------01:27----------
+just going to open the board that has
+
+---------01:28----------
+that very very very common flaw and if
+
+---------01:31----------
+we look for that board the capacitor
+
+---------01:34----------
+that was heated is right down here so
+
+---------01:37----------
+let's just get this on the screen so
+
+---------01:39----------
+this is a buck converter that's going to
+
+---------01:41----------
+turn one point zero five volts into this
+
+---------01:44----------
+is going to turn 12 volts into one point
+
+---------01:46----------
+zero five volts you have buck controller
+
+---------01:49----------
+I see you have your two transistors you
+
+---------01:52----------
+have your coil and then after that you
+
+---------01:55----------
+have a 330 micro farad poly tantalum
+
+---------01:57----------
+capacitor to ground this is going to be
+
+---------02:00----------
+the the battery so to speak
+
+---------02:02----------
+now if we go over to this board you're
+
+---------02:06----------
+going to notice that it's we have a very
+
+---------02:08----------
+very similar circuit around the graphics
+
+---------02:10----------
+area so if we look in this board we go
+
+---------02:12----------
+over to the graphics area
+
+---------02:13----------
+you you're going to see that we have
+
+---------02:15----------
+almost the same thing we have the buck
+
+---------02:17----------
+controller I see we have the 12 point
+
+---------02:19----------
+six volts we have two two transistors
+
+---------02:21----------
+except here those two transistors are in
+
+---------02:23----------
+one discrete package and after that we
+
+---------02:26----------
+have the coil and then we have what do
+
+---------02:28----------
+you know a 330 micro farad cap so here
+
+---------02:31----------
+you have the coil one point dot micro
+
+---------02:33----------
+henries and over here you have two point
+
+---------02:35----------
+two micro henries but mainly you still
+
+---------02:37----------
+have that same poly tant cap and over
+
+---------02:39----------
+here that is going to the graphics rail
+
+---------02:42----------
+that's going to the frame buffer so if I
+
+---------02:44----------
+were to look and just bring this up on
+
+---------02:46----------
+the board view software you have a bit
+
+---------02:49----------
+of a better idea of what it is that I'm
+
+---------02:51----------
+discussing with you so let's just bring
+
+---------02:53----------
+this up on the board view software and
+
+---------02:56----------
+if I bring it up on here maybe it'll
+
+---------02:57----------
+make a little more sense so that's going
+
+---------03:00----------
+to be this little capacitor over here
+
+---------03:01----------
+and if we try finding this area I could
+
+---------03:05----------
+I can do is I can make it so that it
+
+---------03:07----------
+will show up everywhere now that this
+
+---------03:09----------
+goes to so this capacitor is before
+
+---------03:12----------
+current sensing resistor we go to a
+
+---------03:14----------
+current sensing resistor and from here
+
+---------03:16----------
+you can see that this shows up on the
+
+---------03:20----------
+graphics chip as well as showing up on
+
+---------03:22----------
+the video memory so this power line not
+
+---------03:25----------
+only goes to the graphic strip it also
+
+---------03:26----------
+powers the video memory and the reason
+
+---------03:29----------
+this is important is we have the exact
+
+---------03:30----------
+same circuit now this is not as
+
+---------03:33----------
+prevalent an issue as it was with the
+
+---------03:35----------
+2008 2009 models it is an issue that is
+
+---------03:38----------
+a less prevalent because this could this
+
+---------03:40----------
+circuit is only working when the
+
+---------03:42----------
+computer is on in the older models well
+
+---------03:45----------
+a it was a much more catastrophic
+
+---------03:47----------
+failure since it was on a powerline
+
+---------03:48----------
+required for the computer to even turn
+
+---------03:50----------
+on here it's only on a power line
+
+---------03:52----------
+required for graphics but secondly it
+
+---------03:55----------
+used to be on an s5 power line which
+
+---------03:57----------
+would mean that that power line was
+
+---------03:59----------
+always on even if your battery in the
+
+---------04:02----------
+computer is dead that power line would
+
+---------04:04----------
+be on because even if the battery goes
+
+---------04:05----------
+below the voltage required to turn on
+
+---------04:07----------
+it's still enough to turn 11 you know 12
+
+---------04:09----------
+or 11 into one and here this is on an
+
+---------04:12----------
+Esso rail meaning that that rail is only
+
+---------04:14----------
+being utilized when the computer itself
+
+---------04:16----------
+is on in an Esso state now this is an
+
+---------04:20----------
+issue that was not figured out by Apple
+
+---------04:22----------
+for the longest time Apple had no idea
+
+---------04:24----------
+why this board was failing so if you had
+
+---------04:25----------
+this board replaced under the
+
+---------04:27----------
+program they would give you back a board
+
+---------04:29----------
+that did the exact same thing again and
+
+---------04:32----------
+this is something that drove a lot of
+
+---------04:34----------
+independent repair technicians
+
+---------04:35----------
+absolutely batshit crazy out of their
+
+---------04:37----------
+minds for the longest period of time and
+
+---------04:39----------
+what you did had is you had a lot of
+
+---------04:41----------
+people heating the graphics chip in
+
+---------04:43----------
+order to make it work again and the sad
+
+---------04:45----------
+part is that it often would make it work
+
+---------04:46----------
+again and I want to explain why now in
+
+---------04:49----------
+the video that I did on the tantalum
+
+---------04:51----------
+capacitor I showed you on that video and
+
+---------04:53----------
+I'm going to link it in the annotation
+
+---------04:54----------
+here and if I forget to please yell at
+
+---------04:56----------
+me what I did is I showed you it was
+
+---------04:58----------
+dead and then I isolate I didn't heat
+
+---------05:00----------
+the ground I didn't heat the big chip
+
+---------05:01----------
+that it was powering isolated it I only
+
+---------05:04----------
+heated the capacitor and nothing else
+
+---------05:05----------
+and you saw that it worked beautifully
+
+---------05:06----------
+again that's because the capacitor was
+
+---------05:08----------
+bent so what people are doing is they're
+
+---------05:10----------
+often heating the graphics chip which is
+
+---------05:12----------
+going to be up here and while they're
+
+---------05:14----------
+doing that they're preheating the entire
+
+---------05:16----------
+board and this heat is going to try and
+
+---------05:18----------
+move over a little bit over here so this
+
+---------05:20----------
+is the graphics chip and then you have
+
+---------05:22----------
+the capacitor over here so when they
+
+---------05:23----------
+heat the graphics chip they're actually
+
+---------05:25----------
+heating the capacitor and heating the
+
+---------05:26----------
+capacitor they're making it work again
+
+---------05:27----------
+and it took a long time for somebody to
+
+---------05:29----------
+I finally figured out that there was a
+
+---------05:30----------
+pattern here I'm not going to take
+
+---------05:32----------
+credit for finding this as a pattern
+
+---------05:33----------
+Duke in the Netherlands who by the way
+
+---------05:35----------
+is one of the individuals who's
+
+---------05:37----------
+answering questions on the paid
+
+---------05:38----------
+motherboard or pair form that I linked
+
+---------05:40----------
+to and all these all these video cards
+
+---------05:42----------
+annotations and whatnot
+
+---------05:44----------
+he's one of the engineers that I have
+
+---------05:46----------
+answering questions he's the one that
+
+---------05:47----------
+thought that along with everybody else
+
+---------05:49----------
+these boards would just crap and looked
+
+---------05:51----------
+at it one day and is like that looks
+
+---------05:54----------
+familiar I'm used to replacing that same
+
+---------05:56----------
+thing over and over and over again and
+
+---------05:59----------
+the reason I bring this up is because
+
+---------06:00----------
+it's something that I want people to
+
+---------06:02----------
+think about so you have all this entire
+
+---------06:04----------
+concept that you know we you know the
+
+---------06:07----------
+independent repair centers are idiots
+
+---------06:09----------
+they don't know what they're doing
+
+---------06:10----------
+they're not qualified they're not this
+
+---------06:12----------
+they're not that why work with them
+
+---------06:14----------
+what's the benefit and here this is this
+
+---------06:16----------
+is a case of jet of independent service
+
+---------06:19----------
+centers again a guy working out of his
+
+---------06:21----------
+garage and you know guy working out of
+
+---------06:24----------
+his garage doing this you know
+
+---------06:26----------
+refurbishing hot as is as his hobby just
+
+---------06:30----------
+to keep his head straight again he's not
+
+---------06:32----------
+somebody who needs money like he'll work
+
+---------06:34----------
+for money to make money but he's not
+
+---------06:37----------
+somebody where if he didn't work for six
+
+---------06:40----------
+months I
+
+---------06:41----------
+I'm on the street somebody was doing
+
+---------06:42----------
+this just you noticed the keep is is to
+
+---------06:44----------
+keep his head in order and you know
+
+---------06:46----------
+exercise his brain was able to figure
+
+---------06:48----------
+this out in his garage before you know a
+
+---------06:50----------
+large multi-billion dollar company with
+
+---------06:51----------
+with the multi-billion dollar
+
+---------06:54----------
+engineering department could and the
+
+---------06:56----------
+reason I bring this up is that even with
+
+---------06:59----------
+the industry the way it is right now
+
+---------07:00----------
+even with this even with this really
+
+---------07:02----------
+really really anti repair culture and
+
+---------07:05----------
+even with this whole hiding the
+
+---------07:07----------
+information thing you still have
+
+---------07:08----------
+individuals who are genuinely willing
+
+---------07:11----------
+and able to figure this stuff out for
+
+---------07:13----------
+the betterment of the stock is it I mean
+
+---------07:15----------
+how many people receive back a
+
+---------07:16----------
+motherboard that was just as bad as the
+
+---------07:19----------
+original but how many people receive
+
+---------07:21----------
+back a board from that program and
+
+---------07:24----------
+actually waited two or three weeks to
+
+---------07:25----------
+get the 2 or $3,000 device fixed only
+
+---------07:28----------
+for it to fail in the same fashion
+
+---------07:29----------
+during a live filming or a live band
+
+---------07:33----------
+recording I mean it's it's it's just sad
+
+---------07:40----------
+and if we all if we work together a
+
+---------07:42----------
+little bit more rather than just have
+
+---------07:44----------
+this whole you know
+
+---------07:45----------
+oh you V these guys are not qualified oh
+
+---------07:48----------
+I don't want to work with them blah blah
+
+---------07:50----------
+blah just imagine how much more
+
+---------07:52----------
+productive this would be imagine how
+
+---------07:54----------
+much better it would be for the end
+
+---------07:56----------
+consumer because think
+
+---------08:01----------
+and see the same idea with open-source
+
+---------08:03----------
+software except the difference is that
+
+---------08:05----------
+when when you give me the software
+
+---------08:07----------
+you're not giving me all the information
+
+---------08:10----------
+as to where everything is interconnected
+
+---------08:11----------
+and whatnot but when you give me the
+
+---------08:13----------
+board the schematic is just a
+
+---------08:16----------
+convenience the board itself is
+
+---------08:17----------
+literally going to tell me everything I
+
+---------08:20----------
+need to know what is connected to what I
+
+---------08:21----------
+can figure that out in a different so
+
+---------08:24----------
+it's not even because I had somebody
+
+---------08:25----------
+bring that up you know isn't this like
+
+---------08:27----------
+asking them to give away source code
+
+---------08:29----------
+it's not because again the source code
+
+---------08:32----------
+for an operating system I can't easy I
+
+---------08:34----------
+can't get a $20 tool and then just start
+
+---------08:36----------
+measuring and write out all the source
+
+---------08:38----------
+code for the operating system so I just
+
+---------08:44----------
+want you to think about this this is an
+
+---------08:45----------
+issue that was not solved for years and
+
+---------08:47----------
+years and a lot of consumers really got
+
+---------08:49----------
+screwed over with this and just how much
+
+---------08:53----------
+sooner could these issues be solved if
+
+---------08:54----------
+we work together as a community and I
+
+---------08:56----------
+don't even mean just with laptops and
+
+---------08:57----------
+cell phones I mean in general maybe I'm
+
+---------09:00----------
+asking a little too much what do you
+
+---------09:01----------
+guys think so what I'm going to do over
+
+---------09:03----------
+here is I'm going to put a capacitor
+
+---------09:05----------
+that's not tantalum because the tantalum
+
+---------09:07----------
+capacitor is what's causing this issue
+
+---------09:08----------
+to begin with the issue is that the
+
+---------09:10----------
+capacitor that's not tantalum is much
+
+---------09:12----------
+bigger so what I have to do over here is
+
+---------09:14----------
+make some room
+
+---------09:16----------
+the solder and one that is not a
+
+---------09:18----------
+tantalum so this year over here is the
+
+---------09:19----------
+ground plane nothing crazy nothing fancy
+
+---------09:22----------
+I'm just going to scrape away over here
+
+---------09:25----------
+scrape away scrape away until I can fit
+
+---------09:29----------
+a standard capacitor over here and I
+
+---------09:32----------
+want to see if I can turn it on and boot
+
+---------09:33----------
+into the OS without a kernel panic so
+
+---------09:35----------
+the issues would manifest themselves on
+
+---------09:37----------
+this board with the screen going black
+
+---------09:38----------
+or a kernel panic and the kernel panic
+
+---------09:41----------
+is always going to be something related
+
+---------09:42----------
+to graphics yeah people will think that
+
+---------09:44----------
+the issue is a chip but the real issue
+
+---------09:46----------
+is this power rail is fluctuating in
+
+---------09:49----------
+voltage and it's not as catastrophic as
+
+---------09:51----------
+with the older ones again the older
+
+---------09:53----------
+models they don't have they don't have
+
+---------09:55----------
+the same issue they have the issue with
+
+---------09:57----------
+with the mCP and if the mCP doesn't turn
+
+---------10:00----------
+on then it's you know you're just
+
+---------10:02----------
+screwed so we're just going to scrape
+
+---------10:04----------
+away over here we're going to keep
+
+---------10:05----------
+scraping until we get a nice base we can
+
+---------10:09----------
+just extend our solder pad out so that
+
+---------10:10----------
+we can put a regular capacitor on there
+
+---------10:12----------
+and we're just going to keep scraping
+
+---------10:13----------
+keep scraping
+
+---------10:14----------
+scraping keep scraping away this is not
+
+---------10:21----------
+a soldering iron tip that I really use a
+
+---------10:23----------
+lot so I'm okay with scraping with it
+
+---------10:27----------
+it's not it's not a nice it's doing nice
+
+---------10:29----------
+things so we're just going to spray and
+
+---------10:31----------
+spray
+
+---------10:50----------
+all right so that's that's good enough
+
+---------10:52----------
+all right so we're just going to do this
+
+---------10:54----------
+and we're going to solder to that I
+
+---------10:56----------
+could probably scrape a little bit more
+
+---------10:58----------
+I have a this set of tweezers is pretty
+
+---------11:01----------
+destroyed so I'm okay demoting them to
+
+---------11:05----------
+scrape duty yeah but this scrapes much
+
+---------11:09----------
+better I don't usually use tweezers for
+
+---------11:12----------
+all the scraping because they're good
+
+---------11:14----------
+tweezers but this set of tweezers is
+
+---------11:16----------
+particularly destroyed so there's no
+
+---------11:18----------
+loss here so we're just going to scrape
+
+---------11:21----------
+away a pad probably shouldn't be doing
+
+---------11:26----------
+this after I put the flux down yeah I
+
+---------11:30----------
+should clean that if I finish extending
+
+---------11:33----------
+it out so you just extend this out yeah
+
+---------11:40----------
+I'm pretty happy with who I found to do
+
+---------11:42----------
+the support on the form then you made
+
+---------11:45----------
+this a thing you may not always like the
+
+---------11:47----------
+exact manner in which Duke will give you
+
+---------11:49----------
+an answer I can tell you right now that
+
+---------11:52----------
+you're probably not always going to like
+
+---------11:54----------
+the manner in which he gives you an
+
+---------11:55----------
+answer but what he does do is he does
+
+---------11:57----------
+give you an answer he's very strict and
+
+---------12:00----------
+Stern if he asks you for a certain thing
+
+---------12:01----------
+I want you to measure this or I want you
+
+---------12:04----------
+to do that you have to do what he tells
+
+---------12:06----------
+you know if he says plug in the USB
+
+---------12:08----------
+mouse and tell me what you get you can't
+
+---------12:10----------
+plug in a USB microphone and tell him
+
+---------12:12----------
+when you get he's very particular for
+
+---------12:15----------
+very good reasons he's trying to
+
+---------12:17----------
+troubleshoot a board over the Internet
+
+---------12:23----------
+but
+
+---------12:29----------
+and I'm a bit the same way I I don't
+
+---------12:33----------
+have a ridiculous amount of patience for
+
+---------12:36----------
+certain things we honestly we both it's
+
+---------12:38----------
+a really odd it's it's kind of an odd
+
+---------12:40----------
+relationship to have going back and
+
+---------12:41----------
+forth like none of you
+
+---------12:44----------
+you know usually you'll have the
+
+---------12:46----------
+engineer and the people person and it's
+
+---------12:49----------
+like we don't have the we just have the
+
+---------12:51----------
+engineer and the and the the impatient
+
+---------12:55----------
+jackass tech we don't have a people
+
+---------12:58----------
+person oh my god I can just imagine how
+
+---------13:02----------
+many people quit the forum just because
+
+---------13:03----------
+they don't like one of us or the other
+
+---------13:05----------
+but I what I can say and what I am proud
+
+---------13:07----------
+of is that we have created one of the
+
+---------13:09----------
+definitive places online to get answers
+
+---------13:11----------
+to this it made it fairly affordable
+
+---------13:14----------
+twenty nine bucks a month I would have
+
+---------13:17----------
+killed when I was learning this to pay
+
+---------13:19----------
+twenty nine bucks a month and have
+
+---------13:20----------
+somebody answer every single stupid
+
+---------13:21----------
+question that I had I wouldn't have
+
+---------13:28----------
+cared how they gave me the answer let me
+
+---------13:29----------
+tell you you call me an idiot a dumb ass
+
+---------13:33----------
+monkey I just said thank you for the
+
+---------13:37----------
+answer alright so now we're going to
+
+---------13:39----------
+take our so take off a cap and get it on
+
+---------13:48----------
+there is it the nozzle off of the JBC
+
+---------13:50----------
+it's going to make a little bit easier
+
+---------13:51----------
+to get a cap on here we're going to take
+
+---------13:54----------
+a 330 microfarad today same value but
+
+---------13:58----------
+again we're going to take one that is
+
+---------14:00----------
+not a tantalum we're going to take a
+
+---------14:01----------
+standard one standard film
+
+---------14:07----------
+I'm going to fit it right in that space
+
+---------14:09----------
+over there and then we're going to boot
+
+---------14:10----------
+it up and see if we get a boot up or if
+
+---------14:12----------
+we get a kernel panic
+
+---------14:22----------
+okay we got some flux see this capacitor
+
+---------14:25----------
+is now going to fit since we extended
+
+---------14:27----------
+the size of that pad over there since
+
+---------14:30----------
+the pad has an extended size we can just
+
+---------14:32----------
+start heating and don't get me wrong
+
+---------14:36----------
+it's going to look funny it's going to
+
+---------14:39----------
+look really funny but it's going to fit
+
+---------15:04----------
+then I say it was going to look funny or
+
+---------15:06----------
+what
+
+---------15:19----------
+okay clean it up a little give it a tap
+
+---------15:21----------
+test make sure it's nice and flat on
+
+---------15:23----------
+there it doesn't move around all right
+
+---------15:26----------
+so now that that's placed we're going to
+
+---------15:28----------
+check it out and see if it will boot
+
+---------15:29----------
+into an operating system and it's my
+
+---------15:33----------
+hope that this will boot into an
+
+---------15:34----------
+operating system and then it won't
+
+---------15:36----------
+kernel panic along the way right now at
+
+---------15:38----------
+kernel panics constantly let's kiss it's
+
+---------15:44----------
+so cute you can't see it from there but
+
+---------15:47----------
+it's adorable it's in a nice little non
+
+---------15:50----------
+tantalum capacitor nothing that kills me
+
+---------15:54----------
+with Apple is the thing is this happened
+
+---------15:55----------
+in the 2008 machine happened in the 2009
+
+---------15:58----------
+machine can you learn your lesson can
+
+---------16:03----------
+you learn your lesson at me a guy did
+
+---------16:10----------
+some stupid stuff but I try to learn my
+
+---------16:12----------
+lesson particularly a couple years into
+
+---------16:14----------
+it because I mean the failure rates on
+
+---------16:18----------
+those 2008/9 machines had open
+
+---------16:19----------
+catastrophic they had to open something
+
+---------16:24----------
+else I mean I see how many of them walk
+
+---------16:29----------
+in here with that issue it is the same
+
+---------16:32----------
+thing every time
+
+---------16:37----------
+and that's why temperature has an effect
+
+---------16:40----------
+on it for some people it'll work if it
+
+---------16:42----------
+stays running for a while if they keep
+
+---------16:44----------
+it running for a while a try over and
+
+---------16:45----------
+over again and the reason is once you
+
+---------16:46----------
+heat that capacitor up as I did in the
+
+---------16:48----------
+older video once you heat the capacitor
+
+---------16:50----------
+up it's good but once it cools down it
+
+---------16:55----------
+stops being good and obviously you will
+
+---------16:57----------
+eventually get to a point where even if
+
+---------16:59----------
+you heat the capacitor it won't work but
+
+---------17:03----------
+it's not the chip it's not the chip even
+
+---------17:07----------
+Duke it's idiot red chips for a while
+
+---------17:09----------
+that's the thing we all don't know what
+
+---------17:10----------
+we're doing until we know what we're
+
+---------17:11----------
+doing and we're all we're all kind of
+
+---------17:14----------
+wandering around in the dark when it
+
+---------17:15----------
+comes to fixing flaws like this even
+
+---------17:18----------
+Apple you know just look at how many of
+
+---------17:20----------
+these they fixed and look at how many
+
+---------17:21----------
+stopped working again very very soon
+
+---------17:23----------
+after and you'll see but if we wander
+
+---------17:27----------
+around in the dark together that's what
+
+---------17:29----------
+will make us strong
+
+---------17:37----------
+all right is going to connect most of
+
+---------17:39----------
+the stuff here not going to screw it in
+
+---------17:42----------
+yet because I would like to clean the
+
+---------17:43----------
+flux and all that [ __ ] off of the board
+
+---------17:46----------
+I'm just going to connect enough that it
+
+---------17:48----------
+will turn on chime alrighty
+
+---------18:37----------
+yeah this is from Apple store multiple
+
+---------18:39----------
+kernel panics a parenting console
+
+---------18:41----------
+related to graphics processor graphics
+
+---------18:43----------
+processor may be failing requiring logic
+
+---------18:45----------
+board replacement by the way you guys
+
+---------18:47----------
+are going to say that I'm full of it
+
+---------18:49----------
+right you guys are going to say that I
+
+---------18:50----------
+make this up that Apple doesn't know
+
+---------18:51----------
+what they're doing check yeah
+
+---------18:52----------
+let's lift and check it out yeah it's
+
+---------18:56----------
+although it's Apple store Potter Mac
+
+---------19:01----------
+Genius Bar the problem description
+
+---------19:14----------
+customer states machine will
+
+---------19:16----------
+intermittently shut off during use
+
+---------19:18----------
+that's the multiple kernel panics
+
+---------19:23----------
+graphics processor may be failing
+
+---------19:25----------
+requiring logic board replacement
+
+---------19:27----------
+graphics processor graphics processor
+
+---------19:31----------
+again this this isn't even recycling
+
+---------19:33----------
+centers saying this stuff at this point
+
+---------19:49----------
+okay we're turned on and it looks like
+
+---------19:57----------
+it was in sleep mode
+
+---------20:05----------
+so what I'm going to do is I'm going to
+
+---------20:07----------
+actually boot up into the Apple service
+
+---------20:08----------
+diagnostic test and I'm going to let it
+
+---------20:10----------
+run I'm going to let the graphics test
+
+---------20:11----------
+run so that you can see that this has
+
+---------20:14----------
+indeed fixed our problem all right so
+
+---------20:16----------
+now I'm going to boot into the Apple
+
+---------20:18----------
+service diagnostic tests so I have an
+
+---------20:23----------
+external drive that's going to have all
+
+---------20:25----------
+this stuff this one uses 3s one three
+
+---------20:27----------
+eighths and since an eight to zero 2850
+
+---------20:29----------
+motherboard so we're going to turn this
+
+---------20:31----------
+around and Who am I kidding you can't
+
+---------20:33----------
+see that all right so let's let's get
+
+---------20:38----------
+some Casey Neistat filmography going
+
+---------20:40----------
+here okay here we go this is next to its
+
+---------20:46----------
+Genius Bar work authorization Genius Bar
+
+---------20:49----------
+so we're going to hit ok I don't care
+
+---------20:52----------
+about this I don't care about this all
+
+---------20:55----------
+right so I don't I can't see anything in
+
+---------20:59----------
+this viewfinder because of glare like
+
+---------21:00----------
+hopefully you're getting the computer
+
+---------21:02----------
+and not just a view of my crotch that
+
+---------21:05----------
+would not be that's that's not what
+
+---------21:07----------
+people want to see so we do video
+
+---------21:10----------
+controller we do continue on error and
+
+---------21:14----------
+we hit start testing and now we wait and
+
+---------21:17----------
+see if it passes the test for the video
+
+---------21:20----------
+controller so with any luck it's going
+
+---------21:22----------
+to pass the test for the video
+
+---------21:23----------
+controller let's do this
+
+---------21:25----------
+and it's testing its testing its testing
+
+---------21:35----------
+and with any luck it passes so let's
+
+---------21:40----------
+turn the camera on face focus here since
+
+---------21:42----------
+there's no need to focus on my face
+
+---------21:44----------
+since there's no face here
+
+---------21:56----------
+as you can see we're continuing to pass
+
+---------21:58----------
+every single test not only was there no
+
+---------22:04----------
+kernel panic on boot but it's passing
+
+---------22:06----------
+every single test like BAM it's nice and
+
+---------22:12----------
+polygons and shapes and [ __ ] you're not
+
+---------22:34----------
+this is the really boring part there's
+
+---------22:37----------
+no fun and just watching this go by
+
+---------22:40----------
+usually I don't do the full testing I
+
+---------22:43----------
+leave this to the rest of the staff but
+
+---------22:45----------
+for obvious reasons it's important that
+
+---------22:47----------
+I show this part working
+
+---------22:56----------
+you
+
+---------29:46----------
+and as you can see it passed which means
+
+---------29:50----------
+it was the capacitor and it wasn't the
+
+---------29:52----------
+graphics processor
+
+---------29:54----------
+it wasn't what the genius said it was
+
+---------29:57----------
+whereas anybody surprised that's it and
+
+---------30:01----------
+as always I hope you learned something
+

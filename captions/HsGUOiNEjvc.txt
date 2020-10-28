@@ -1,0 +1,967 @@
+https://www.youtube.com/watch?v=HsGUOiNEjvc
+---------00:00----------
+all right so today we're gonna start
+
+---------00:01----------
+work on a MacBook Air that does not see
+
+---------00:03----------
+the keyboard and does not see the
+
+---------00:04----------
+trackpad which is something that I
+
+---------00:06----------
+covered in a couple of earlier videos so
+
+---------00:08----------
+one of the first things that I want you
+
+---------00:10----------
+to do whenever it doesn't see the
+
+---------00:11----------
+keyboard of the trackpad particularly if
+
+---------00:13----------
+your machine is an 8 to 0 34:37 model or
+
+---------00:16----------
+an eight to zero 3435 with a Haswell
+
+---------00:18----------
+series CPU that has the PCH in a grid
+
+---------00:21----------
+what I want you to do is I want you to
+
+---------00:25----------
+turn the computer off the power button
+
+---------00:27----------
+will still work usually when the
+
+---------00:28----------
+keyboard and trackpad don't work often
+
+---------00:30----------
+now and I want you to turn it on and
+
+---------00:32----------
+hold down the option key if it works
+
+---------00:35----------
+with your hold up any and you can use
+
+---------00:37----------
+the keyboard in the trackpad in that
+
+---------00:39----------
+mode if it works then it would doesn't
+
+---------00:42----------
+work in the operating system you're
+
+---------00:44----------
+
+
+---------00:45----------
+99% of the time I'm gonna say that
+
+---------00:47----------
+you're I still haven't figured
+
+---------00:48----------
+out a solution for that I have none I
+
+---------00:50----------
+have a bunch of Haswell series machines
+
+---------00:53----------
+that have that issue if we go over the
+
+---------00:56----------
+schematic here you'll notice well good
+
+---------00:59----------
+chance as to why that is so let's see do
+
+---------01:01----------
+as my screen capture still one frame per
+
+---------01:03----------
+second it is still one frame per second
+
+---------01:06----------
+ piece of
+
+---------01:08----------
+that's yeah that this the screen capture
+
+---------01:11----------
+sux ballz it used to not do that so
+
+---------01:13----------
+let's see I'm just gonna add program
+
+---------01:15----------
+capture window capture PDF yeah all
+
+---------01:22----------
+right
+
+---------01:22----------
+let's reset this the screen
+
+---------01:26----------
+captured we delete the screen capture
+
+---------01:28----------
+because doesn't work all
+
+---------01:30----------
+right so let's go over to the 8 to 0
+
+---------01:33----------
+3437 let's go over to the trackpad
+
+---------01:39----------
+keyboard connector by the trackpad
+
+---------01:43----------
+keyboard connector what you're going to
+
+---------01:44----------
+notice is that there are actually two
+
+---------01:46----------
+ways for the trackpad and the keyboard
+
+---------01:48----------
+to communicate with this with the CPU
+
+---------01:54----------
+come on get me to where I want to go
+
+---------01:57----------
+here we go IPD so you have USB trackpad
+
+---------02:05----------
+and USB C over here and then you also
+
+---------02:08----------
+have SPI data lines so there's two
+
+---------02:11----------
+different ways for it to communicate you
+
+---------02:12----------
+have these two
+
+---------02:13----------
+and then you have the spi lines over
+
+---------02:16----------
+here see if now the these are the two
+
+---------02:23----------
+different ways that can communicate so
+
+---------02:24----------
+most likely it's using SPI in the
+
+---------02:26----------
+operating system in USB and EFI or it's
+
+---------02:29----------
+using SPI in the EFI mode and USB in the
+
+---------02:32----------
+operating system I forget which way it
+
+---------02:34----------
+is but that's why it will work in one
+
+---------02:35----------
+and not the other why will it not work
+
+---------02:37----------
+via SPI when these resistors are fine
+
+---------02:40----------
+and there's no noticeable corrosion and
+
+---------02:41----------
+it looks just fine I have no
+
+---------02:44----------
+idea that's gonna be your journey that's
+
+---------02:46----------
+going to be your nightmare to solve
+
+---------02:48----------
+I still haven't solved it yet one of
+
+---------02:50----------
+these days I'll get around to it when I
+
+---------02:52----------
+actually have free time but
+
+---------02:53----------
+again really good luck with that one
+
+---------02:55----------
+so this one doesn't have it working at
+
+---------02:58----------
+all as you saw I held down the keys it
+
+---------02:59----------
+sees nothing nothing the only thing that
+
+---------03:01----------
+works is the power button now the power
+
+---------03:03----------
+button is gonna be able to work
+
+---------03:04----------
+independently of everything else the
+
+---------03:07----------
+reason that is is because the power
+
+---------03:08----------
+button is not a part of the rest of the
+
+---------03:10----------
+keyboard it's not actually something
+
+---------03:11----------
+that requires power to work see where
+
+---------03:13----------
+you have SMC on/off L here the whole
+
+---------03:16----------
+idea is what you're shorting that signal
+
+---------03:17----------
+to ground in order to turn the computer
+
+---------03:19----------
+on so this over here is gonna be the SMC
+
+---------03:22----------
+see over here it says SMC right next to
+
+---------03:25----------
+this nice big alert that says that I'm
+
+---------03:26----------
+not allowed to show you how to fix these
+
+---------03:27----------
+products there I actually educate you we
+
+---------03:29----------
+ignore this these people over here
+
+---------03:31----------
+can get a big big big you because
+
+---------03:35----------
+frankly you huge you have the right to
+
+---------03:38----------
+learn how to repair your own products
+
+---------03:39----------
+you have the right to fix things like
+
+---------03:41----------
+again what they think anyway back
+
+---------03:45----------
+to what we were doing here so back to
+
+---------03:47----------
+what we were doing so over here this is
+
+---------03:50----------
+the SMC the way that works is that
+
+---------03:51----------
+signal SMC on off L it means that you're
+
+---------03:54----------
+touching the power button when the
+
+---------03:55----------
+signal is low if you don't understand
+
+---------03:58----------
+what the underscore L is you can watch
+
+---------03:59----------
+my video on what the underscore L is
+
+---------04:01----------
+that means that the signal is asserted
+
+---------04:02----------
+when it's low so that signal is always
+
+---------04:04----------
+gonna be 3.4 442 volts and when you hit
+
+---------04:06----------
+the power button you're bringing it low
+
+---------04:07----------
+which means that it thinks you touch the
+
+---------04:10----------
+power button so that's always gonna work
+
+---------04:12----------
+independently of everything else
+
+---------04:13----------
+unless your keyboard itself is totally
+
+---------04:15----------
+ up and destroyed so let's go over
+
+---------04:17----------
+to that keyboard connector area and just
+
+---------04:23----------
+start measuring around and see what we
+
+---------04:25----------
+get so one of the things that I could
+
+---------04:26----------
+measure for really
+
+---------04:27----------
+quickly just as things that were that I
+
+---------04:30----------
+I expect to be there so PP 5 vs 4 I
+
+---------04:34----------
+expect to be on pin 14 its power P P 3 V
+
+---------04:37----------
+4 2 on pin 19 I expect to be there pp 3
+
+---------04:40----------
+V 3 s 4 1 pin 10 I expect to be a so
+
+---------04:42----------
+let's see if keyboard is even being
+
+---------04:43----------
+powered and being told to turn on so
+
+---------04:45----------
+with that let's switch over to another
+
+---------04:47----------
+mode and hope that my function keys here
+
+---------04:48----------
+actually work so we're gonna put the
+
+---------04:50----------
+multimeter where maybe you can kind of
+
+---------04:53----------
+sort of see it I can barely see it over
+
+---------04:55----------
+there but oh well
+
+---------04:57----------
+and let's move the microscope over and
+
+---------04:59----------
+see what I get on different pins now the
+
+---------05:02----------
+first one over here is going to be pin
+
+---------05:04----------
+19 pp 3 before to underscore g3 hot
+
+---------05:06----------
+underscore IPD is supposed to be there
+
+---------05:08----------
+so we should see three point four volts
+
+---------05:10----------
+on pin 19 and on pin 19 or you can't see
+
+---------05:14----------
+ let me just move this around a
+
+---------05:16----------
+little so you can actually see there we
+
+---------05:19----------
+go pp 3 v 3 f PP 3 V 4 - and I get 3.42
+
+---------05:29----------
+volts beautiful now on pin 14 I'm
+
+---------05:32----------
+supposed to have PP 5 vs 4 underscore IP
+
+---------05:34----------
+D which is going to be pp 5 V 5 volts as
+
+---------05:37----------
+long as the computers in an S 4 State or
+
+---------05:39----------
+higher it's on right now so obviously we
+
+---------05:41----------
+have surpassed an S 4 state so let's see
+
+---------05:44----------
+20 19 18 17 16 15 14 and what do I get
+
+---------05:48----------
+five volt five point one volts close
+
+---------05:50----------
+enough now we check on pin 10 let's see
+
+---------05:53----------
+so you got one two three four five six
+
+---------05:56----------
+seven eight nine ten and I get one point
+
+---------05:59----------
+nine five six Wow what the all
+
+---------06:03----------
+right so let's see where that comes from
+
+---------06:05----------
+because that's going to be the cause of
+
+---------06:06----------
+our issue here so if I go backwards P P
+
+---------06:09----------
+3 P 3 S 4 underscore I PD and I follow
+
+---------06:12----------
+the little line it looks like pp 3 B 3 s
+
+---------06:15----------
+4 turns into pp 3 B 3 as far underscore
+
+---------06:19----------
+IPD through this resistor r 48:30 so
+
+---------06:21----------
+we're gonna try to find out where that
+
+---------06:23----------
+is on the board view software so let's
+
+---------06:24----------
+get the board view software in view here
+
+---------06:27----------
+which means doing a window capture of
+
+---------06:30----------
+the lander X program and let's see that
+
+---------06:31----------
+ actually works BAM it does that's
+
+---------06:34----------
+surprising ok make it show up the way
+
+---------06:37----------
+it's supposed to and wow that that looks
+
+---------06:39----------
+incredibly up
+
+---------06:40----------
+this looks up beyond what I would
+
+---------06:42----------
+ever imagined hey let's just reload the
+
+---------06:44----------
+board view okay so what do you guys see
+
+---------06:47----------
+what you see is yeah that looks like
+
+---------06:52----------
+ is it just me or does that look
+
+---------06:54----------
+totally worthless and you can actually
+
+---------06:56----------
+kind of see my hands on the bottom -
+
+---------06:58----------
+that's interesting and that's that's
+
+---------07:02----------
+that's kind of weird yeah this sucks oh
+
+---------07:06----------
+well what do we do what are you gonna do
+
+---------07:08----------
+I'll figure out this open broadcaster
+
+---------07:10----------
+ later you know what I'm actually
+
+---------07:11----------
+better off with that one frame a second
+
+---------07:12----------
+ so let's just do that
+
+---------07:14----------
+ this window capture thing we're
+
+---------07:16----------
+gonna do the screen capture just below
+
+---------07:19----------
+his display capture create No thank you
+
+---------07:24----------
+food is here so now I have a very little
+
+---------07:27----------
+motivation to do this repair properly
+
+---------07:29----------
+I'm hungry all right this look at that
+
+---------07:35----------
+one frame a second see there's
+
+---------07:38----------
+no I don't know what I did to make that
+
+---------07:40----------
+thing fast maybe it's just that
+
+---------07:41----------
+something that up in the versions
+
+---------07:43----------
+I said I'm telling you if you find
+
+---------07:44----------
+software that works for you and it
+
+---------07:46----------
+actually does what you want never
+
+---------07:47----------
+ updated ever ever ever ever ever
+
+---------07:50----------
+ever because if you have something that
+
+---------07:51----------
+works and there's everything you need
+
+---------07:53----------
+and you update it it's not gonna do it
+
+---------07:55----------
+what what you it's not gonna do more of
+
+---------07:56----------
+what you need because it already does
+
+---------07:58----------
+what you need but it can potentially
+
+---------07:59----------
+ up what it did that was actually
+
+---------08:00----------
+right so right over here we have our 48
+
+---------08:02----------
+30 that's supposed to be a zero ohm
+
+---------08:04----------
+resistor so let's check out what it
+
+---------08:05----------
+looks like on the motherboard my bagels
+
+---------08:09----------
+are here it's bagel with this beautiful
+
+---------08:12----------
+bagel with this amazing toast tasting
+
+---------08:14----------
+tofu spread this is place that just
+
+---------08:17----------
+opened up recently in the area it has
+
+---------08:20----------
+some really good stuff I never it opened
+
+---------08:22----------
+up with this old bakery used to be and a
+
+---------08:24----------
+lot of people were pissed off that it
+
+---------08:25----------
+did and the thing that I really don't
+
+---------08:27----------
+get is when people do you know they say
+
+---------08:29----------
+things like oh they're destroying the
+
+---------08:31----------
+history by tearing down the things that
+
+---------08:33----------
+were in this neighborhood forever
+
+---------08:34----------
+because the rent is getting higher and
+
+---------08:36----------
+blah blah blah and I'm all for I
+
+---------08:38----------
+understand the idea that rent in New
+
+---------08:40----------
+York City is a ripoff I'm trust me I get
+
+---------08:42----------
+it but what what I'm not necessarily for
+
+---------08:45----------
+is this idea there's just blind loyalty
+
+---------08:47----------
+towards businesses just because they've
+
+---------08:48----------
+been here for a really long time like
+
+---------08:50----------
+that happened with this store this used
+
+---------08:51----------
+to be a linoleum store and a lot of
+
+---------08:53----------
+people were pissed off that I
+
+---------08:54----------
+came in and turns it into a laptop
+
+---------08:55----------
+repair place right but and he was
+
+---------08:58----------
+bitching about the rent and like I know
+
+---------09:00----------
+what his rent was when he was here it
+
+---------09:02----------
+was not a lot of money for what it is if
+
+---------09:03----------
+you can't make money in this location
+
+---------09:06----------
+then it's yes you know it's not the
+
+---------09:09----------
+world's problem it's yours for offering
+
+---------09:11----------
+in a relevant service or good like
+
+---------09:14----------
+linoleum in 2016 but he seemed like a
+
+---------09:23----------
+nice enough guy it's just you know is
+
+---------09:26----------
+what it is things change and there was
+
+---------09:29----------
+this bakery and you know I mean I
+
+---------09:31----------
+remember getting stuff there and it was
+
+---------09:32----------
+like nine-day it tasted like it was nine
+
+---------09:35----------
+days old like sometimes you got really
+
+---------09:37----------
+good stuff sometimes the stuff tasted
+
+---------09:38----------
+like was nine days old and right across
+
+---------09:40----------
+the street is this bakery where
+
+---------09:41----------
+everything's always fresh for the same
+
+---------09:43----------
+price and it's just you know why why
+
+---------09:46----------
+would I why like I'm happy that there's
+
+---------09:51----------
+a place there that makes much better
+
+---------09:53----------
+food in the place that used to be some
+
+---------09:55----------
+day what I do will be irrelevant and
+
+---------09:56----------
+hopefully somebody who is relevant will
+
+---------09:58----------
+take this space over you know 50 years
+
+---------10:01----------
+from now this shouldn't just be a laptop
+
+---------10:03----------
+repair store here just you know for
+
+---------10:04----------
+historic sake anyway let's find that
+
+---------10:08----------
+little resistor you can still see the
+
+---------10:10----------
+multimeter through my bag I really want
+
+---------10:13----------
+that I want my food yeah we'll finish
+
+---------10:17----------
+the border pair first Oh our 48:30
+
+---------10:23----------
+supposed to be zero ohms we go into the
+
+---------10:25----------
+microscope view here let's find that
+
+---------10:27----------
+thing where are you mofo are you near
+
+---------10:36----------
+the u9 that you 7100 know you're the
+
+---------10:39----------
+left of the you 7100 here we are this is
+
+---------10:43----------
+supposed to be zero ohms and it's some
+
+---------10:47----------
+number that I can't read that's not zero
+
+---------10:49----------
+so we replace it and let's see what
+
+---------10:52----------
+happens from there something I take
+
+---------10:53----------
+first thing I'm gonna do is I'm gonna
+
+---------10:54----------
+turn on my fume extractor so I don't
+
+---------10:56----------
+breathe in any of this stuff second
+
+---------10:57----------
+thing I'm gonna do is take my food and
+
+---------10:59----------
+move it over to the next room this is
+
+---------11:02----------
+absolutely positively no reason to do
+
+---------11:04----------
+this crap around food
+
+---------12:38----------
+I think I saw some lead-free on that
+
+---------12:40----------
+resistor so get rid of that BAM remember
+
+---------12:49----------
+the faster we finished the faster we get
+
+---------12:51----------
+to that tofu's herbs bread bagel that
+
+---------12:55----------
+place makes some good stuff
+
+---------13:30----------
+now we wait for the RTC reset to
+
+---------13:33----------
+complete and then we go from there the
+
+---------13:38----------
+fan is gonna turn on off on off on off
+
+---------13:47----------
+okay I missed my option I hit the power
+
+---------13:50----------
+button lame the trackpad does work I
+
+---------13:55----------
+have a caps lock key I thank God it's
+
+---------14:00----------
+letting me go into guest user without
+
+---------14:01----------
+that long reboot so I'm in the I'm
+
+---------14:04----------
+in here the cameras on face focus and
+
+---------14:08----------
+it's meant to zoom in on me not there so
+
+---------14:10----------
+it's gonna look like but this is
+
+---------14:11----------
+good enough for you to tell see mouse is
+
+---------14:14----------
+good and my caps lock key didn't work
+
+---------14:18----------
+before got my caps lock I love when you
+
+---------14:24----------
+can boot in the guest mode without
+
+---------14:25----------
+having to do that rebooting if
+
+---------14:28----------
+you guys noticed I mean see it's like
+
+---------14:29----------
+Apple can get it they have a computer
+
+---------14:31----------
+with a 2 gigabyte per second solid-state
+
+---------14:33----------
+drive 2 gigabyte per second saw SSD
+
+---------14:36----------
+quad-core Haswell processor 16 gigabytes
+
+---------14:39----------
+of RAM just blazing fast and when you at
+
+---------14:41----------
+will you you've got a booting the guest
+
+---------14:43----------
+user mode when it does that thing where
+
+---------14:44----------
+it's like securely booting into guest
+
+---------14:45----------
+user mode oh my god I mean it
+
+---------14:53----------
+sucks man it really does it takes
+
+---------14:55----------
+forever it's insane but yeah that's it
+
+---------14:59----------
+for today and as always I hope you
+
+---------15:01----------
+learned something just keep that thing
+
+---------15:03----------
+in mind that I told you about that whole
+
+---------15:05----------
+SPI and USB thing in the hole when when
+
+---------15:07----------
+it when it works in EFI but it doesn't
+
+---------15:08----------
+work in the OS that's a nightmare I want
+
+---------15:11----------
+you to understand how to avoid
+
+---------15:12----------
+nightmares that is a big
+
+---------15:15----------
+nightmare that is best if you learn to
+
+---------15:18----------
+avoid and that's that for today
+

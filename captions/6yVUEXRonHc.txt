@@ -1,0 +1,964 @@
+https://www.youtube.com/watch?v=6yVUEXRonHc
+---------00:00----------
+here's another macbook that needs to be
+
+---------00:01----------
+fixed this is an a 1706 macbook with no
+
+---------00:04----------
+power let's open this thing up and see
+
+---------00:06----------
+why it doesn't turn on the first thing
+
+---------00:08----------
+we're going to do is confirm that it
+
+---------00:10----------
+doesn't turn on we're gonna confirm this
+
+---------00:12----------
+by unplugging the battery and then
+
+---------00:14----------
+plugging in a charger the reason we
+
+---------00:16----------
+unplug the battery besides the fact that
+
+---------00:18----------
+this looks like some shitty knockoff
+
+---------00:20----------
+ in the box is that I don't want to
+
+---------00:24----------
+have a reading from my USB C amp meter
+
+---------00:26----------
+that includes
+
+---------00:27----------
+the amperage that the battery is drawing
+
+---------00:30----------
+the battery is going to draw different
+
+---------00:31----------
+levels of amperage depending on how much
+
+---------00:33----------
+it's charged which makes it a wild card
+
+---------00:35----------
+I'm not interested in having a wild card
+
+---------00:36----------
+on my reading I want to know exactly how
+
+---------00:38----------
+many amps the motherboard by itself
+
+---------00:40----------
+pulls so that I can get an idea of why
+
+---------00:42----------
+it is not working because different
+
+---------00:44----------
+amounts of amperage that the board is
+
+---------00:46----------
+pulling are going to mean different
+
+---------00:47----------
+things to me in terms of why it's not
+
+---------00:49----------
+turning on
+
+---------00:49----------
+I'd like to associate how many amps the
+
+---------00:51----------
+board is pulling with specific problems
+
+---------00:53----------
+over time this board is pulling 5 volt
+
+---------00:55----------
+and 50 milliamps but it's stuck at 5
+
+---------01:00----------
+volts at 50 milliamps which means that
+
+---------01:03----------
+the cd32 15 ships are not communicating
+
+---------01:06----------
+with the charger
+
+---------01:07----------
+now these cd32 15 ships need to
+
+---------01:09----------
+communicate with the charger in order to
+
+---------01:10----------
+tell the charger hey I want 20 volts not
+
+---------01:12----------
+5 volts I'm a Macbook not a phone so
+
+---------01:15----------
+these chips these USB CMOS chips are not
+
+---------01:18----------
+communicating with the charger now the
+
+---------01:20----------
+power rail that must be present in order
+
+---------01:23----------
+for those chips to turn on is PP 3 V 3
+
+---------01:25----------
+underscore G 3 hot which is going to be
+
+---------01:28----------
+present on the board right here where it
+
+---------01:31----------
+can use Paul Daniels as execrable
+
+---------01:33----------
+software to get the multimeter to
+
+---------01:35----------
+display on the screen and see if we're
+
+---------01:37----------
+getting our P P 3 V 3 underscore G 3 hot
+
+---------01:40----------
+and it looks like we're not no P P 3 V 3
+
+---------01:43----------
+underscore G 3 hot in this board alright
+
+---------01:46----------
+so first thing we're gonna do is get
+
+---------01:48----------
+this board out of the case and try and
+
+---------01:49----------
+figure out why we're not getting PP 3 V
+
+---------01:51----------
+3 underscore G 3 hot is it a short
+
+---------01:53----------
+circuit to ground is it not being asked
+
+---------01:55----------
+to be created could be anything
+
+---------01:58----------
+we're closed no it's what I am we're
+
+---------02:02----------
+closed
+
+---------02:03----------
+get the what
+
+---------02:07----------
+we were so close you really thought that
+
+---------02:13----------
+if you pulled on the door again after I
+
+---------02:14----------
+said we're closed twice that we would
+
+---------02:16----------
+just reopen you like you pulled
+
+---------02:26----------
+on the door twice what do you think like
+
+---------02:28----------
+if you pull the third time it's gonna
+
+---------02:30----------
+magically open we can open up a
+
+---------02:36----------
+schematic for the eight to zero zero
+
+---------02:38----------
+zero to three nine
+
+---------02:40----------
+now as I said we have chips for the cd32
+
+---------02:42----------
+15s is one for each USB C port and this
+
+---------02:45----------
+chip is going to speak with the charger
+
+---------02:47----------
+this is a CD 32 15 it allows the
+
+---------02:49----------
+charging voltage to go through to the
+
+---------02:50----------
+Machine and it also has bi-directional
+
+---------02:52----------
+data lines with the charger and these
+
+---------02:54----------
+bi-directional data lines that it's got
+
+---------02:55----------
+with the charger are going to be
+
+---------02:57----------
+bi-directional data lines where it is
+
+---------02:59----------
+going to tell the charger I want 20
+
+---------03:01----------
+volts so that I could turn on now this
+
+---------03:03----------
+chip is powered by PP 3 V 3 underscore
+
+---------03:06----------
+g3 hot over here see where it says VN as
+
+---------03:08----------
+in voltage in that is pp 3 V 3
+
+---------03:11----------
+underscore g3 hot pp 3 V 3 underscore g4
+
+---------03:13----------
+your hot is created right over here at U
+
+---------03:15----------
+69 o 3 u 69 o 3 is the chip that's going
+
+---------03:19----------
+to take the 18 volts from the charger or
+
+---------03:21----------
+the 12 to 13 volts from the battery and
+
+---------03:23----------
+turned it into 3.3 volts for the pp 3 V
+
+---------03:26----------
+3 underscore g3 hot rail this chip is
+
+---------03:27----------
+going to be enabled on pin 10 by p.m. en
+
+---------03:30----------
+p3 v3 underscore g3 hot so what I'm
+
+---------03:32----------
+gonna do is I'm going to see what's
+
+---------03:33----------
+present on pin 10 and make sure Paul
+
+---------03:35----------
+Daniels a software is up on the screen
+
+---------03:37----------
+so that you can see the multimeter on
+
+---------03:39----------
+screen as I measure and we've got
+
+---------03:44----------
+nothing now if we look on the schematic
+
+---------03:46----------
+PME NP 3 V 3 underscore g3 hot is going
+
+---------03:51----------
+to come from 7000 u 7,000 is going to be
+
+---------03:57----------
+an ISO 93 9 chip incorrectly labeled as
+
+---------04:00----------
+the ISL 6 2 5 9 on the schematic because
+
+---------04:03----------
+Apple so this is L 9 2 3 9 chip it's
+
+---------04:06----------
+gonna be at the bottom of the board and
+
+---------04:07----------
+this is where that enables signal would
+
+---------04:09----------
+come from now you may be wondering hmm
+
+---------04:12----------
+where could I get an ISO 93 9 chip if I
+
+---------04:14----------
+needed an ISL 93 9 chip well look no
+
+---------04:17----------
+further then story dot Rosman group
+
+---------04:21----------
+don't delay checkout store dot rossmann
+
+---------04:23----------
+group comm today where you can buy chips
+
+---------04:25----------
+tools components and more we sell all
+
+---------04:29----------
+different types of chips and we even
+
+---------04:30----------
+tell you which mother boys they're
+
+---------04:31----------
+compatible with give you high-resolution
+
+---------04:33----------
+photos of the top and the bottom of the
+
+---------04:35----------
+chip and tell you what the chip is for
+
+---------04:37----------
+rather than giving you some lame generic
+
+---------04:39----------
+description let's grab ourselves an ISO
+
+---------04:41----------
+nine two three nine and replace this
+
+---------04:43----------
+chip and make this board work again I
+
+---------04:45----------
+believe it's the ISO 93 nine and only
+
+---------04:48----------
+the ISO 92 three nine that may be the
+
+---------04:50----------
+problem with this board random random
+
+---------04:53----------
+this is a very interesting chip the ISL
+
+---------04:56----------
+six two five nine used in older Mac
+
+---------04:57----------
+books used to fail under two conditions
+
+---------04:59----------
+the first condition would fail under his
+
+---------05:01----------
+water damage the second condition would
+
+---------05:03----------
+fail under is having a knockoff charger
+
+---------05:05----------
+used with the system this new ISL fails
+
+---------05:08----------
+under a third condition a very strange
+
+---------05:10----------
+one which is randomly for no reason at
+
+---------05:13----------
+all the ISO nine two three nine on these
+
+---------05:16----------
+new MacBooks just dies you know just as
+
+---------05:18----------
+Tyre to be the chip you know it's been
+
+---------05:22----------
+fun it's been great but by I'm done and
+
+---------05:25----------
+then the MacBook will stop working this
+
+---------05:28----------
+MacBook has no liquid damage on it the
+
+---------05:30----------
+person who sent it sent it with the
+
+---------05:31----------
+charger they're using with it I've asked
+
+---------05:33----------
+them ahead of time if they were using
+
+---------05:34----------
+any other charger but he sent it with an
+
+---------05:36----------
+apple original this chip just likes to
+
+---------05:38----------
+die isn't that great isn't that great
+
+---------05:43----------
+good for repair shops good for Apple
+
+---------05:46----------
+since people will buy new ones terrible
+
+---------05:48----------
+for the customer but that's Apple for
+
+---------05:50----------
+you
+
+---------05:56----------
+so we're gonna add a little bit of flux
+
+---------06:00----------
+use a little bit of heat and take this
+
+---------06:04----------
+chip off the board and then put on a new
+
+---------06:06----------
+one and see if it works
+
+---------06:29----------
+that is l9 two three nine is no gun you
+
+---------06:33----------
+want to get rid of that nasty lead-free
+
+---------06:35----------
+solder adding some leaded solder add
+
+---------06:38----------
+some flux go over those balls
+
+---------07:31----------
+here's a new ISL 939 in town
+
+---------08:37----------
+okay we're just gonna pull the board off
+
+---------08:39----------
+putting it really near the fume
+
+---------08:42----------
+extractor which has a lot of air getting
+
+---------08:43----------
+sucked into it will often cool the board
+
+---------08:45----------
+off we're gonna see if we get 20 volts
+
+---------08:49----------
+on our USBC ammeter
+
+---------09:04----------
+still five volts let's see if PP 3v3 is
+
+---------09:07----------
+present or its enable signal not getting
+
+---------09:09----------
+40 milliamps which is higher than before
+
+---------09:12----------
+but still not quite what I'd like all
+
+---------09:18----------
+right it looks like we're actually
+
+---------09:18----------
+getting 2.5 volts on the enable
+
+---------09:21----------
+interesting we're not getting anything
+
+---------09:23----------
+out now we have made progress so we do
+
+---------09:26----------
+have an enable but we're missing the
+
+---------09:27----------
+actual rail we don't have a short to
+
+---------09:29----------
+ground odd the rail so let's check out
+
+---------09:31----------
+this chip so keep in mind over here pin
+
+---------09:33----------
+10 we are getting the enable that's
+
+---------09:34----------
+required now I could check on pin 2 for
+
+---------09:37----------
+a supply voltage going into the chip
+
+---------09:39----------
+that's most likely gonna be present just
+
+---------09:41----------
+fine interesting that it's so low so why
+
+---------09:49----------
+is it that our supply voltage is 1 volt
+
+---------09:53----------
+what the heck yeah so over here you have
+
+---------09:56----------
+from DC n it's gonna be 18 volts on our
+
+---------09:59----------
+6 9 O 2 and our 6 9 O 2 is going to be
+
+---------10:04----------
+over here 5 volts on one side 5 volts on
+
+---------10:08----------
+the other now that should be passing
+
+---------10:10----------
+from pin 2 to 3 on this diode so from
+
+---------10:13----------
+pin 2 and 3 where it's gonna go into the
+
+---------10:15----------
+chip so let's just check the diode so we
+
+---------10:18----------
+got pin 2 of the diode yeah oh and 2 of
+
+---------10:25----------
+the diode is the top one over here
+
+---------10:26----------
+you're following there are you coming
+
+---------10:30----------
+out nope
+
+---------10:31----------
+diode BAM diode all right so is l 9 to 3
+
+---------10:35----------
+9 was bad we didn't ever enable we
+
+---------10:37----------
+replace the is ah 9 through 39 several
+
+---------10:39----------
+times I found one the king of my enable
+
+---------10:41----------
+back and now that PP 3v3 underscore g3
+
+---------10:44----------
+hot input diode is bad so we're going to
+
+---------10:47----------
+replace that one and with any luck this
+
+---------10:50----------
+thing starts to work
+
+---------11:15----------
+[Music]
+
+---------11:58----------
+diode really enjoys running away
+
+---------12:08----------
+let's try a little diode nice try
+
+---------12:32----------
+I also I'm not sure if that's the old
+
+---------12:33----------
+one of the new one yes I'll find out in
+
+---------12:36----------
+a second all right hope it's the no.1
+
+---------12:40----------
+you put the bad diode back on didn't you
+
+---------12:43----------
+dumbass you did you dumbass
+
+---------12:47----------
+all right you know what I'm just gonna
+
+---------12:48----------
+get myself another diode
+
+---------12:56----------
+and I imagine we're gonna find some
+
+---------12:57----------
+shorted input capacitors after this
+
+---------13:18----------
+alright let's just see if we have a
+
+---------13:19----------
+short to ground after this diode I'm
+
+---------13:22----------
+feeling we do this diode to die
+
+---------13:25----------
+we had a pulling so much current that it
+
+---------13:28----------
+got over overflow over over
+
+---------13:30----------
+something see 6905 is gonna be on this
+
+---------13:33----------
+side of the board it's either C 6905 or
+
+---------13:35----------
+C 60 906 so let's take a look at what C
+
+---------13:38----------
+6905 looks like on the other side of the
+
+---------13:40----------
+board yeah 167 ohms is really bad
+
+---------13:43----------
+alright so it's out there gonna be the
+
+---------13:44----------
+caps of the chip but I'm gonna go with
+
+---------13:46----------
+the chip first because the capacitors
+
+---------13:48----------
+look fine
+
+---------13:49----------
+typically a chip can fail internally
+
+---------13:52----------
+without having any outside signs but
+
+---------13:55----------
+capacitors don't often fail internally
+
+---------13:58----------
+without having a ceramic ones don't fail
+
+---------13:59----------
+internally short without having outside
+
+---------14:01----------
+signs also a cap shorting to 164 ohms is
+
+---------14:04----------
+not something I would expect I would
+
+---------14:05----------
+expect the capacitor to short so you
+
+---------14:08----------
+know just dead short not not something
+
+---------14:09----------
+like this they let's see if my theory is
+
+---------14:11----------
+correct and my theory is incorrect is we
+
+---------14:15----------
+still seem to have a short all right so
+
+---------14:17----------
+we're just going to toss the caps off as
+
+---------14:19----------
+well
+
+---------14:22----------
+you go bye-bye and you on the other side
+
+---------14:27----------
+of the board are gonna go bye-bye
+
+---------14:29----------
+once these two have both gone goodbye I
+
+---------14:34----------
+should at this point definitely have
+
+---------14:37----------
+something better than a hundred ohms to
+
+---------14:39----------
+ground what hope so
+
+---------14:42----------
+sincerely hope so all right here we go
+
+---------14:46----------
+we're going over a kilohm so Wow bad
+
+---------14:49----------
+diode bad capacitors after the diode bad
+
+---------14:52----------
+iso nine two three nine since you aren't
+
+---------14:54----------
+even getting an enable signal for it
+
+---------14:56----------
+this board had a little bit of just
+
+---------14:58----------
+about everything we didn't have the
+
+---------14:59----------
+enable then we had the enable and the
+
+---------15:01----------
+diode was blown because of a
+
+---------15:03----------
+short-circuited capacitor damn a lot of
+
+---------15:06----------
+broken stuff for one macbook this
+
+---------15:08----------
+macbook really did not want to be fixed
+
+---------15:10----------
+but it's going to be fixed
+
+---------15:11----------
+cuz that's what we do here is we take
+
+---------15:13----------
+mac books that do not wish to be fixed
+
+---------15:15----------
+and we fix them
+
+---------15:20----------
+I have no idea which way this chip goes
+
+---------15:21----------
+on the board and I just messed up
+
+---------15:25----------
+those two resistors whoops
+
+---------15:28----------
+alright so pin 10 is up there let's open
+
+---------15:30----------
+this other board view and see where this
+
+---------15:32----------
+is supposed to be on the other board
+
+---------15:33----------
+view
+
+---------15:37----------
+tube says wrong way hey why is this oh
+
+---------15:40----------
+yeah you're right
+
+---------15:41----------
+I see the dot now yeah so I definitely
+
+---------15:44----------
+did put that the wrong way that would
+
+---------15:45----------
+have sucked
+
+---------15:54----------
+one time I listened to chat never again
+
+---------17:15----------
+to make sure our short circuit is gone
+
+---------17:18----------
+have the execrable Paul Daniel software
+
+---------17:20----------
+on the screen ok execrable Paul Daniel
+
+---------17:29----------
+software shows us that the short circuit
+
+---------17:31----------
+is gone
+
+---------17:34----------
+now let's see if this board will turn on
+
+---------17:36----------
+and work
+
+---------17:44----------
+20 volts
+
+---------17:47----------
+who 20 volts let's see if we get an
+
+---------17:51----------
+image on the screen Apple logo it works
+
+---------18:00----------
+BP 3 V 3 underscore G 3 hot is present
+
+---------18:03----------
+the diode is working the shorted
+
+---------18:05----------
+capacitors have been removed ISO 93 9
+
+---------18:07----------
+that was keeping our enable from working
+
+---------18:09----------
+has been replaced and it works we have
+
+---------18:11----------
+fixed another MacBook Board and this
+
+---------18:13----------
+other MacBook board appears to work
+
+---------18:15----------
+after being fixed beautiful absolutely
+
+---------18:17----------
+beautiful so that's it for that one and
+
+---------18:19----------
+as always I hope you learned something
+
+---------18:21----------
+with that we move on to the next macbook
+
+---------18:25----------
+because we're not even close to done
+
+---------18:26----------
+just because it's 2:40 in the morning on
+
+---------18:29----------
+a weeknight does not mean or even close
+
+---------18:31----------
+to done fixing MacBooks we got more to
+
+---------18:34----------
+go so let's do it
+
+---------18:43----------
+you
+
+---------18:51----------
+do you have a Macbook that needs to be
+
+---------18:52----------
+fixed come by our store which is open to
+
+---------18:55----------
+the public at 186 First Avenue in
+
+---------18:57----------
+Manhattan are you located outside of New
+
+---------18:59----------
+York no problem
+
+---------19:00----------
+send us a machine from anywhere in the
+
+---------19:02----------
+world by going to our website and
+
+---------19:04----------
+clicking on the mailbox or simply
+
+---------19:06----------
+heading over to send your macbook comm
+
+---------19:08----------
+that send your macbook comm will you be
+
+---------19:11----------
+redirected to our mail and instructions
+
+---------19:13----------
+page that includes the form and the
+
+---------19:16----------
+directions on how to send us a Macbook
+
+---------19:18----------
+for repair we have a live chat where you
+
+---------19:21----------
+can speak with us about the repair that
+
+---------19:22----------
+you need a phone number where a
+
+---------19:24----------
+representative will pick up during our
+
+---------19:25----------
+open hours and a contact form where you
+

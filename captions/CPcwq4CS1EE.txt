@@ -1,0 +1,1192 @@
+https://www.youtube.com/watch?v=CPcwq4CS1EE
+---------00:00----------
+hi today I'm gonna be going over an
+
+---------00:01----------
+eight to zero 3115 board that does not
+
+---------00:04----------
+turn on that has no green light and
+
+---------00:06----------
+we're gonna go over some of the things
+
+---------00:07----------
+that are wrong with it so first things
+
+---------00:10----------
+first here let me just turn the board
+
+---------00:12----------
+around I'm going to plug it in and I get
+
+---------00:15----------
+no green light so some of the things
+
+---------00:17----------
+that I want to look through are the main
+
+---------00:19----------
+power rails so there's pp bus g3 hot
+
+---------00:22----------
+which is the main 12 volt power rail let
+
+---------00:25----------
+me just show you that on the screen over
+
+---------00:27----------
+here so in the beginning of these
+
+---------00:30----------
+schematics which you're probably gonna
+
+---------00:31----------
+ask me where to find because you don't
+
+---------00:32----------
+know how to use Google I know I'm
+
+---------00:35----------
+cynical but I've learned my lesson from
+
+---------00:37----------
+all the messages that I get even though
+
+---------00:40----------
+the schematics have this on them telling
+
+---------00:42----------
+you where to get them and anyway so when
+
+---------00:48----------
+you scroll down on here you're going to
+
+---------00:50----------
+see a list of power rails and what you
+
+---------00:54----------
+want to do is you want to see if they're
+
+---------00:55----------
+actually there so the first one is pp
+
+---------00:57----------
+bus g3 hot as usual we will go over to
+
+---------01:00----------
+the board view hit n type pp bus g3 hot
+
+---------01:03----------
+and what do we find hopefully this looks
+
+---------01:06----------
+somewhat good because I am gonna be
+
+---------01:08----------
+downsizing a 4k image to 1080p for the
+
+---------01:12----------
+YouTube video and so we're gonna measure
+
+---------01:17----------
+for PP bus g3 hot and see what we get a
+
+---------01:20----------
+commonplace to measure for pp bus g3 hot
+
+---------01:22----------
+is going to be on this fuse F 70 40 down
+
+---------01:25----------
+here and no the fuse never goes bad so
+
+---------01:28----------
+don't don't don't even try replacing
+
+---------01:30----------
+that this time I've had one of them go
+
+---------01:33----------
+bad for years so we have point eight
+
+---------01:37----------
+volts and also we have no light on the
+
+---------01:41----------
+charger so the other thing I'm gonna
+
+---------01:42----------
+want to measure is the next power rail
+
+---------01:43----------
+which is one of the rails that goes to
+
+---------01:45----------
+the one wire circuit if you don't know
+
+---------01:47----------
+what the one wire circuit is I'm gonna
+
+---------01:48----------
+link to it over here you can click and
+
+---------01:50----------
+you can read about it so that you can
+
+---------01:51----------
+catch up because I can't explain
+
+---------01:52----------
+everything over again in every video so
+
+---------01:54----------
+read in the one wire circuit and we'll
+
+---------01:56----------
+go from there next power supply is going
+
+---------01:58----------
+to be pp 3 V 4 to underscore g3 hots so
+
+---------02:00----------
+pp 3 V 4 to underscore g3 huh so you can
+
+---------02:04----------
+see that over here on the screen and
+
+---------02:06----------
+that power is the one wire circuit which
+
+---------02:09----------
+is one of the things responsible for
+
+---------02:10----------
+giving me a green light which is why I
+
+---------02:11----------
+have interest in it
+
+---------02:12----------
+so let's find it this board view
+
+---------02:14----------
+software is just some of the worst
+
+---------02:16----------
+in the world but you use what you get
+
+---------02:18----------
+you know it's not like anybody wants us
+
+---------02:20----------
+fixing these boards anyway so not like
+
+---------02:22----------
+we're gonna be able to get anything
+
+---------02:23----------
+that's close to convenient or useful see
+
+---------02:27----------
+all the crap that I have to go through
+
+---------02:28----------
+just to turn this around it's like
+
+---------02:30----------
+oh it's I swear I'm gonna get a
+
+---------02:33----------
+joystick and map all this stuff so that
+
+---------02:34----------
+I don't have to do this anymore because
+
+---------02:37----------
+every time you zoom in or out it just
+
+---------02:38----------
+totally takes you away from where you
+
+---------02:40----------
+work and when you dare you want to are
+
+---------02:42----------
+for rotator you know or find a new
+
+---------02:45----------
+component you have to start over from
+
+---------02:46----------
+where you were so l69 9/5 here this
+
+---------02:50----------
+little thing is gonna be where pipi bus
+
+---------02:52----------
+pp3 before two shows up so i'm gonna
+
+---------02:54----------
+measure and on my multimeter it says I
+
+---------02:56----------
+have points zero zero zero volts on the
+
+---------03:00----------
+other side of this inductor I have the
+
+---------03:01----------
+same thing now since those power
+
+---------03:03----------
+supplies are missing power what I want
+
+---------03:05----------
+to find out is is it not being produced
+
+---------03:07----------
+or is being produced but is it being
+
+---------03:09----------
+shorted to ground so I just put my
+
+---------03:11----------
+multimeter in diode mode I use diode
+
+---------03:13----------
+mode instead of ohms or resistance mode
+
+---------03:15----------
+because it's much quicker it tells you
+
+---------03:18----------
+the voltage drop across two points so
+
+---------03:19----------
+you put red on ground and your black
+
+---------03:21----------
+where you're looking and you get a
+
+---------03:22----------
+reading a lot faster than you do with
+
+---------03:25----------
+resistance so P P brush g3 hot is not
+
+---------03:27----------
+shorted to ground and pp three before
+
+---------03:30----------
+two is not shorted to ground so the
+
+---------03:32----------
+first thing that I like to do is get a
+
+---------03:33----------
+green light my what I'm primarily
+
+---------03:35----------
+interested in is having a green light so
+
+---------03:39----------
+one of the things I'm gonna want to do
+
+---------03:41----------
+is try to figure out why pp 3 V 4 to
+
+---------03:43----------
+underscore g3 hot is not being produced
+
+---------03:45----------
+so let's go over here and figure out
+
+---------03:47----------
+what produces it on the schematic I'm
+
+---------03:49----------
+gonna pretend I don't know what produces
+
+---------03:51----------
+it I'm gonna pretend that I don't have
+
+---------03:52----------
+that component memorized from having
+
+---------03:53----------
+looked at it on every single board 90
+
+---------03:55----------
+times just to give you an idea of how
+
+---------03:56----------
+you find it so this is evens this is a
+
+---------03:59----------
+linux PDF reader that lists every single
+
+---------04:01----------
+occurrence over here which is pretty
+
+---------04:03----------
+cool compared to the standard adobe
+
+---------04:04----------
+reader because the standard adobe
+
+---------04:05----------
+reading it next next next but you can't
+
+---------04:08----------
+really get an idea of everywhere it
+
+---------04:09----------
+shows up so this this makes it very easy
+
+---------04:12----------
+for me to scroll through and again quick
+
+---------04:14----------
+and efficient is key here because I
+
+---------04:16----------
+don't want to spend all day
+
+---------04:17----------
+troubleshooting one problem I don't
+
+---------04:18----------
+wanna spend all day finding something I
+
+---------04:20----------
+wanna be able to go that that that is
+
+---------04:21----------
+that it is that it is that it no no
+
+---------04:23----------
+here we go pp 3v4 to supplies so this is
+
+---------04:27----------
+provided by you 6990 let's see so we got
+
+---------04:31----------
+critical as d 6990 critical is from the
+
+---------04:35----------
+Chargers are sixty nine ninety so let's
+
+---------04:37----------
+see where this stuff is so it's on the
+
+---------04:39----------
+other side of the board of course
+
+---------04:40----------
+everything that I need is always on the
+
+---------04:42----------
+side of the board that I do not have up
+
+---------04:43----------
+so let's rotate this so that the
+
+---------04:45----------
+orientation matches where I am and let's
+
+---------04:47----------
+take a look at what this side of the
+
+---------04:48----------
+board looks like and get a little bit of
+
+---------04:50----------
+an idea of what it is we're dealing with
+
+---------04:52----------
+so we're gonna do this again nine this
+
+---------04:56----------
+is all made this software is
+
+---------05:01----------
+probably laughing their ass off right
+
+---------05:03----------
+now like this if he's still alive that
+
+---------05:06----------
+is I mean you know this is old okay
+
+---------05:09----------
+so let's look at what this area looks
+
+---------05:10----------
+like over here so you got you sixty nine
+
+---------05:12----------
+ninety which is responsible for creating
+
+---------05:14----------
+PP 3 V 4 2 which is 3 point 42 volt
+
+---------05:16----------
+power supply we're gonna take a look at
+
+---------05:18----------
+it and see what it is and it looks like
+
+---------05:26----------
+so that looks like this and this looks
+
+---------05:31----------
+like so see all these red Pro
+
+---------05:35----------
+points bad should happen to you bad
+
+---------05:37----------
+should happened here bad happened
+
+---------05:40----------
+here right you understand okay so I'm
+
+---------05:43----------
+gonna do is I'm gonna replace this thing
+
+---------05:45----------
+because that looks like crap and that
+
+---------05:47----------
+looks like crap I'm gonna unplug the
+
+---------05:49----------
+charger I take my hot air my hack ofr
+
+---------05:53----------
+801 I'm gonna put it to the proper
+
+---------05:55----------
+soldering temperature of six and a half
+
+---------05:59----------
+yep that's analog temperature control
+
+---------06:03----------
+for you and I'm gonna remove that junk
+
+---------06:06----------
+and be careful around the RAM slot
+
+---------06:08----------
+because the RAM is right there and you
+
+---------06:11----------
+don't want to be the jackass giving
+
+---------06:12----------
+boards back to people with run RAM slot
+
+---------06:14----------
+I mean we've all been there
+
+---------06:16----------
+we've all done it we've all been that
+
+---------06:19----------
+jackass but it's good to try to avoid it
+
+---------06:24----------
+so we take this old off we're gonna
+
+---------06:29----------
+put a new one on and see if the
+
+---------06:30----------
+measurements change at all and again we
+
+---------06:32----------
+have we have space you know we have
+
+---------06:34----------
+other things that we have to check but I
+
+---------06:35----------
+am just going by
+
+---------06:37----------
+what is most you know immediately
+
+---------06:40----------
+looking nasty you know that I did I do
+
+---------06:42----------
+tests to see if that's bad no I'm just
+
+---------06:45----------
+using common sense now that the pair
+
+---------06:48----------
+that that was on doesn't really look
+
+---------06:49----------
+very good anymore oh boy I've done
+
+---------06:53----------
+something stupid already you know why
+
+---------06:55----------
+something stupid happen doing a video
+
+---------06:58----------
+stupid stuff never happens that I'm not
+
+---------07:00----------
+doing a video well that's a lie
+
+---------07:03----------
+if you believe that I have a bridge to
+
+---------07:04----------
+sell you but a lot more dumbass
+
+---------07:07----------
+ happens when I'm doing a video then
+
+---------07:09----------
+then when the camera is not rolling so
+
+---------07:13----------
+let's just fix that Little Miss dumbass
+
+---------07:16----------
+mistake over there
+
+---------07:25----------
+man yeah yeah I know you can laugh all
+
+---------07:33----------
+you want it'll happen to you someday
+
+---------07:36----------
+trust me it will happen to you someday
+
+---------07:41----------
+and somebody will be sitting here
+
+---------07:42----------
+laughing at you so okay so back to the
+
+---------07:49----------
+drawing board here get the camera so
+
+---------07:52----------
+it's at least remotely close to even the
+
+---------07:56----------
+HDMI cable turns the camera come on stay
+
+---------08:00----------
+straight okay no yeah
+
+---------08:10----------
+go and get rid of that nasty see
+
+---------08:12----------
+other whatever junk that was on the pad
+
+---------08:14----------
+it went away so I'm using the iron
+
+---------08:17----------
+itself with some solder to actually
+
+---------08:19----------
+scratch away and I want a nice full of
+
+---------08:23----------
+healthy pad and then I actually scratch
+
+---------08:27----------
+to the point where I don't have a pad at
+
+---------08:28----------
+all oh boy isn't that smart okay so I
+
+---------08:35----------
+totally something up on camera
+
+---------08:37----------
+and I don't care I don't care because
+
+---------08:40----------
+I'm gonna show you how I fix it because
+
+---------08:43----------
+you are gonna have to fix things that
+
+---------08:45----------
+you break and I am human just like you
+
+---------08:48----------
+I'm gonna dumb just like you and
+
+---------08:51----------
+you need to see that it doesn't matter
+
+---------08:53----------
+so let's see so from pin 3 of d6 9 9 0
+
+---------09:05----------
+yeah pin 3 of d6 9 9 0 which is probably
+
+---------09:10----------
+this thing over here yep we are gonna go
+
+---------09:16----------
+right over there without touching this I
+
+---------09:22----------
+don't know how I feel about that what
+
+---------09:29----------
+you're gonna do
+
+---------09:35----------
+okay
+
+---------09:54----------
+beep-beep-beep
+
+---------09:59----------
+that's right mouthful okay
+
+---------10:10----------
+okay be talking to somebody a while ago
+
+---------10:14----------
+who had messed up soldering this chip in
+
+---------10:17----------
+an iPhone 5 or an iPad air or something
+
+---------10:19----------
+had some you to chip she was sad about
+
+---------10:22----------
+she messed it up and you know and some
+
+---------10:28----------
+of the somebody was actually a potential
+
+---------10:29----------
+client was gonna be able to see that it
+
+---------10:33----------
+got her down and I said you know I have
+
+---------10:37----------
+messed up so much worse than you on so
+
+---------10:39----------
+many occasions and I don't care because
+
+---------10:43----------
+I fix it and also I realized that I'm
+
+---------10:46----------
+human and that as a human I will I will
+
+---------10:48----------
+mess things up and that most of the
+
+---------10:49----------
+people are gonna laugh at you they have
+
+---------10:52----------
+accomplished a lot less with their lives
+
+---------10:53----------
+than you where I have whatever will so I
+
+---------10:56----------
+don't care so what sets us apart is not
+
+---------11:03----------
+how amazing we are at everything we do
+
+---------11:06----------
+it's how we fix things that we destroy
+
+---------11:10----------
+so that's fixed this total mess and then
+
+---------11:16----------
+laugh about it later
+
+---------11:20----------
+so first things first I'm going to put a
+
+---------11:23----------
+new chip in there
+
+---------11:37----------
+actually I should probably run my wire
+
+---------11:39----------
+first because that is going to be a
+
+---------11:42----------
+female dog based on where I have to run
+
+---------11:45----------
+it
+
+---------12:31----------
+hmm
+
+---------12:56----------
+I hate the fact that this job requires
+
+---------12:58----------
+fine motor control I don't have any
+
+---------13:03----------
+motor control okay I'm gonna have to
+
+---------13:08----------
+wind up cutting this a little bit
+
+---------13:21----------
+let's see if that shows up anywhere else
+
+---------13:24----------
+just for the hell of it
+
+---------13:46----------
+hmm
+
+---------13:50----------
+might be an easier run just from that I
+
+---------13:53----------
+was hoping a little cap right under or
+
+---------13:56----------
+do yet but no life's not gonna be that
+
+---------14:01----------
+easy okay so we can grab from here
+
+---------14:23----------
+okay
+
+---------14:30----------
+and it's gonna get dropped off over
+
+---------14:34----------
+there
+
+---------14:38----------
+this is where having two sets of
+
+---------14:41----------
+tweezers comes in handy
+
+---------14:51----------
+two sets of clean tweezers comes in
+
+---------14:53----------
+handy yeah I know I'm asking for too
+
+---------14:58----------
+much so it can touch that and you can't
+
+---------15:03----------
+touch that it's gotta touch this ain't
+
+---------15:07----------
+that some yeah this is why you
+
+---------15:10----------
+don't out to begin with
+
+---------15:13----------
+doesn't you up you have to do
+
+---------15:15----------
+this miserable crap to fix it
+
+---------15:17----------
+alright so the idea here is I want to
+
+---------15:24----------
+cut the wire off at exactly that point I
+
+---------15:26----------
+don't need the excess actually better if
+
+---------15:29----------
+I had two choices of the same type I'm
+
+---------15:31----------
+just gonna walk over to the table next
+
+---------15:32----------
+to me and steal my co-workers tweezers
+
+---------15:34----------
+because he's not here and he'll never
+
+---------15:36----------
+know unless he watches the video but he
+
+---------15:40----------
+doesn't watch jack that I do on
+
+---------15:41----------
+YouTube so he'll never know that I steal
+
+---------15:46----------
+his tools regularly and laugh about it
+
+---------15:50----------
+on camera so yes we're just gonna move
+
+---------15:52----------
+this back and forth until the wire
+
+---------15:54----------
+breaks at the end
+
+---------16:03----------
+can't get a good grip on it they might
+
+---------16:07----------
+be able to hold that thing for more than
+
+---------16:08----------
+five seconds okay so the things there
+
+---------16:11----------
+now now we're gonna take this chip
+
+---------16:13----------
+mateship but let's develop good habits I
+
+---------16:15----------
+stole the tweezers let's put it back on
+
+---------16:17----------
+his desk so he doesn't fit later
+
+---------16:21----------
+okay and take the chip off here
+
+---------16:36----------
+you know what I'm not gonna take the
+
+---------16:38----------
+chip off of this board let's get a board
+
+---------16:40----------
+that doesn't look like it's been through
+
+---------16:41----------
+the through the laundry they all look
+
+---------16:47----------
+like they've been through the laundry
+
+---------16:49----------
+yes this one has hope
+
+---------17:18----------
+okay let's see a little jumper not fly
+
+---------17:22----------
+away
+
+---------17:33----------
+solder is melted and we pushed down to
+
+---------17:37----------
+confirm that it's perfectly melted
+
+---------17:39----------
+everywhere and got on there and my
+
+---------17:42----------
+jumper is in place I have fixed my
+
+---------17:47----------
+[ __ ] and you'll see if this channel
+
+---------17:51----------
+ever becomes really popular on the
+
+---------17:52----------
+internet that there are gonna be a lot
+
+---------17:53----------
+of people posting look at this [ __ ] he
+
+---------17:56----------
+doesn't even know what it do to clean a
+
+---------17:59----------
+pad without breaking in blabla you
+
+---------18:04----------
+okay cuz there you're not gonna find a
+
+---------18:13----------
+lot of people that are ok with posting
+
+---------18:14----------
+their on the Internet
+
+---------18:15----------
+especially if they do something
+
+---------18:17----------
+professionally because they're kind of
+
+---------18:19----------
+afraid of it you know but people what
+
+---------18:21----------
+are people going to think of me oh no
+
+---------18:25----------
+I'm human I'm aware that I'm human
+
+---------18:28----------
+those are the people who are gonna be
+
+---------18:30----------
+making fun of that they're also human ok
+
+---------18:34----------
+so so let's see
+
+---------18:40----------
+plug-in smoke no smoke greenlight fan
+
+---------18:45----------
+spins see check it out in the microscope
+
+---------18:48----------
+camera you got a fan spinning when I
+
+---------18:51----------
+unplug adjust so that you can see that
+
+---------18:52----------
+the fan spinning a nutter stationary
+
+---------18:55----------
+alright so obviously I have more work to
+
+---------18:58----------
+do here
+
+---------18:59----------
+obviously I actually have to run tests
+
+---------19:01----------
+on it to make sure that this thing
+
+---------19:02----------
+actually works cuz again for all I know
+
+---------19:03----------
+it doesn't even work but the point is
+
+---------19:05----------
+you know again I want to do these
+
+---------19:07----------
+troubleshooting videos on a more regular
+
+---------19:08----------
+basis I want you to see how I work how I
+
+---------19:10----------
+think on a more regular basis I want you
+
+---------19:12----------
+to be encouraged to think on a more
+
+---------19:14----------
+regular basis I want you to think if
+
+---------19:16----------
+this dumbass can do it if this [ __ ] can
+
+---------19:18----------
+do it then so can i that's the point
+
+---------19:20----------
+with these videos it's to get you to
+
+---------19:22----------
+think is to get you to realize that that
+
+---------19:24----------
+you should do some of your own research
+
+---------19:25----------
+you soon stop just because there's a
+
+---------19:27----------
+bunch of scary acronyms and scary
+
+---------19:28----------
+letters and P P whatever I want you to
+
+---------19:31----------
+look at this with the same confidence
+
+---------19:32----------
+that I do I don't want you to look at it
+
+---------19:34----------
+and see confusing long acronyms and
+
+---------19:36----------
+funny little jiggly things that you
+
+---------19:37----------
+don't understand I want you to look at
+
+---------19:39----------
+it from a common sense perspective I
+
+---------19:41----------
+want you to look at it with an idea that
+
+---------19:42----------
+I can learn this this is what this means
+
+---------19:44----------
+I'm not going to be afraid because it's
+
+---------19:46----------
+a silly acronym
+
+---------19:47----------
+afraid because I don't know exactly what
+
+---------19:48----------
+this thing means I want you to look at
+
+---------19:50----------
+it from a common sense perspective and I
+
+---------19:52----------
+want you to be able to solve the
+
+---------19:53----------
+problems from a common sense perspective
+
+---------19:54----------
+and I don't want you to be afraid to
+
+---------19:56----------
+jump in there and solve them and I don't
+
+---------19:58----------
+want you to be afraid to up and I
+
+---------19:59----------
+don't want you to be afraid to let other
+
+---------20:01----------
+people know that you up because
+
+---------20:02----------
+again I'm gonna be posting this and I
+
+---------20:04----------
+ up in 4,700 people right now
+
+---------20:07----------
+we're gonna be able to see that I don't
+
+---------20:09----------
+care here you go this is a board that
+
+---------20:14----------
+had no PP Bush g3 hot and also no pp 3
+
+---------20:18----------
+before - one thing you should know on
+
+---------20:20----------
+this board as I've mentioned in the PP
+
+---------20:21----------
+3v4 - video which I'm gonna mention here
+
+---------20:24----------
+is that pp 3 V 4 - is one of the few
+
+---------20:26----------
+power supplies that's created
+
+---------20:28----------
+independent of pp bus g3 hot so if you
+
+---------20:30----------
+are missing pp 3 V 4 - you may actually
+
+---------20:33----------
+be missing pp bus G 3 hot even if the
+
+---------20:36----------
+circuitry for pp bus G 3 op is perfectly
+
+---------20:39----------
+fine let me say that again if you see
+
+---------20:41----------
+that you don't have pp bus g3 hot don't
+
+---------20:43----------
+immediately start troubleshooting pp bus
+
+---------20:45----------
+g3 hot look and see if the other supply
+
+---------20:47----------
+that works independently of it is
+
+---------20:49----------
+missing because if you are missing pp 3
+
+---------20:51----------
+V 4 to underscore g3 hot you are not
+
+---------20:53----------
+going to get pp bus g3 hot even if the I
+
+---------20:56----------
+the is L can be perfect the you know the
+
+---------20:59----------
+current sensing and the circuitry can be
+
+---------21:01----------
+perfect there could be no short on PP
+
+---------21:02----------
+bus 3 3 hot but if PP bus G PPE 3 V 4 2
+
+---------21:06----------
+is missing you're not gonna have PP bus
+
+---------21:09----------
+G 3 hot
+

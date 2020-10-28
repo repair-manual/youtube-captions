@@ -1,0 +1,1597 @@
+https://www.youtube.com/watch?v=5FCcM5ABtRg
+---------00:00----------
+all right so today we're going to be
+
+---------00:01----------
+going over a macbook pro that does not
+
+---------00:03----------
+have a left click and if I plug in a
+
+---------00:06----------
+mouse I can right click but I can't
+
+---------00:08----------
+left-click now on a laptop this is a
+
+---------00:11----------
+problem that you could solve by simply
+
+---------00:13----------
+right-clicking whenever you needed to do
+
+---------00:15----------
+something there's many ways that you can
+
+---------00:17----------
+use the right-click but unfortunately
+
+---------00:20----------
+this is a macbook so we have click no
+
+---------00:23----------
+left click no right click just click so
+
+---------00:26----------
+if you can't click then you're
+
+---------00:29----------
+and there's no workaround so let's go
+
+---------00:31----------
+over what it is that may cause this so
+
+---------00:33----------
+the first thing we have to do is kind of
+
+---------00:34----------
+really understand this trackpad
+
+---------00:37----------
+circuitry and the way that this sends
+
+---------00:40----------
+messages to the CPU or the PCH to let it
+
+---------00:43----------
+know that something is being clicked so
+
+---------00:44----------
+the first thing that I would like to do
+
+---------00:46----------
+in one of these situations is I would
+
+---------00:47----------
+plug in a USB mouse so here I plugged in
+
+---------00:50----------
+my gaming mouse that I use for all my
+
+---------00:53----------
+dota games which is why I have won every
+
+---------00:55----------
+single match undefeated this is my
+
+---------00:58----------
+gaming mouse it comes free with any $40
+
+---------01:01----------
+DVR it eats its 3d it's a 3d optical
+
+---------01:05----------
+mouse it's a it's tested to comply with
+
+---------01:10----------
+FCC standards for a home or office use
+
+---------01:12----------
+even though it says home or office I
+
+---------01:14----------
+know this can be used for gaming and
+
+---------01:16----------
+when I plug that in I don't get any
+
+---------01:19----------
+click so over here I can just show you
+
+---------01:21----------
+how this machine looks you know the
+
+---------01:23----------
+focus is gonna be screwed up on the
+
+---------01:24----------
+camera cause it's set up to focus on my
+
+---------01:26----------
+face but is what it is so as you can see
+
+---------01:28----------
+it is moving but when I click on
+
+---------01:30----------
+something like this now it's gonna click
+
+---------01:35----------
+because I'm doing a video so you
+
+---------01:39----------
+gotta be what the this is
+
+---------01:50----------
+there's been like an hour
+
+---------01:51----------
+troubleshooting this piece of oh
+
+---------01:56----------
+yeah laughs laughs laughs no check it
+
+---------02:00----------
+out look it works now watch I'm gonna do
+
+---------02:03----------
+this hold down option and a scroll oh
+
+---------02:06----------
+you're on the track come on track bed
+
+---------02:11----------
+yeah once it's done with that little
+
+---------02:13----------
+loading bar then we'll let me move the
+
+---------02:15----------
+mouse around I'm gonna move the mouse
+
+---------02:16----------
+down here and it clicks you
+
+---------02:22----------
+piece of
+
+---------02:26----------
+no it's gonna register a click when its
+
+---------02:29----------
+high was it me literally touching that
+
+---------02:32----------
+probe with the multimeter that fixed it
+
+---------02:35----------
+okay let's see what it's measuring now
+
+---------02:37----------
+let's see if it's measuring something
+
+---------02:38----------
+different than it did before all right
+
+---------02:39----------
+just to give you an idea man that's
+
+---------02:44----------
+ all right so this is the
+
+---------02:49----------
+trackpad connector in this pic BL now
+
+---------02:52----------
+this is dumb because this is not a
+
+---------02:54----------
+guitar this is a trackpad you don't pick
+
+---------02:57----------
+a trackpad you press it every time you
+
+---------02:59----------
+press the trackpad pick B L goes from 3
+
+---------03:03----------
+point 4 volts to 0 volt so essentially
+
+---------03:05----------
+when you click the trackpad you are
+
+---------03:07----------
+shorting that signal to ground so it
+
+---------03:08----------
+means that it's being picked or pressed
+
+---------03:10----------
+when it is low underscore L that's pin 9
+
+---------03:13----------
+of the trackpad now the thing is we
+
+---------03:14----------
+can't measure pin 9 of the trackpad
+
+---------03:16----------
+because it's it's covered so like if I
+
+---------03:18----------
+were to show you what the connector
+
+---------03:19----------
+looks like right now it looks something
+
+---------03:21----------
+like this how the hell am I gonna fit my
+
+---------03:24----------
+multimeter under that just not happening
+
+---------03:26----------
+it's not happening so what I would do is
+
+---------03:29----------
+I would measure it where it's going on
+
+---------03:31----------
+the USB controller chip one of the USB
+
+---------03:33----------
+controller to the interpreter next to it
+
+---------03:35----------
+so this is what this thing does is it
+
+---------03:37----------
+takes the information from the trackpad
+
+---------03:40----------
+in the keyboard this up here it
+
+---------03:42----------
+takes the information from the trackpad
+
+---------03:44----------
+and the keyboard and it turns it into a
+
+---------03:46----------
+USB signal over here that the PCH will
+
+---------03:51----------
+understand and so let's see where that
+
+---------03:55----------
+shows up so we try to look for pic BL
+
+---------03:59----------
+you don't understand how annoying this
+
+---------04:02----------
+is I mean just just just think about it
+
+---------04:03----------
+think about this right I have to measure
+
+---------04:05----------
+so I have to put the left the the black
+
+---------04:08----------
+probe on ground the right probe on the
+
+---------04:10----------
+chip and then try to get my foot
+
+---------04:12----------
+on the desk or something I'll like click
+
+---------04:14----------
+the trackpad that's this no I think this
+
+---------04:16----------
+I just gave up and eventually I Jason
+
+---------04:18----------
+helped me click it but that this is
+
+---------04:20----------
+annoying so the fact that it just fixed
+
+---------04:22----------
+itself really pisses me off
+
+---------04:23----------
+so I went around measuring all this
+
+---------04:26----------
+horseshit so when we look over here I
+
+---------04:30----------
+measure pick BL that's gonna be on pin
+
+---------04:33----------
+52 so I go over here I find pin 52 and I
+
+---------04:37----------
+bet that this measures properly now
+
+---------04:39----------
+you prick nicely we went to do a
+
+---------04:46----------
+video this morning on something else and
+
+---------04:48----------
+the camera literally like it just might
+
+---------04:51----------
+sometimes the capture card will just act
+
+---------04:52----------
+funny and it was just flickering and
+
+---------04:54----------
+showing a funny image and then it showed
+
+---------04:56----------
+a ghost image where you could see the
+
+---------04:57----------
+board and then two showed nothing at all
+
+---------04:58----------
+and that repair didn't work this video
+
+---------05:03----------
+is working I got video I have audio
+
+---------05:05----------
+everything's working the way it's
+
+---------05:07----------
+supposed to fixes itself I mean you
+
+---------05:10----------
+can't make this stuff up anyway so if we
+
+---------05:12----------
+were to go over here you'll see that pic
+
+---------05:16----------
+BL is that's the thing it's two point
+
+---------05:20----------
+nine volts that should be higher that
+
+---------05:21----------
+should be closer to three point three
+
+---------05:23----------
+that still has not given me a great
+
+---------05:24----------
+feeling
+
+---------05:25----------
+so watch if I remove the trackpad let's
+
+---------05:27----------
+see if pic BL is yeah it's still the
+
+---------05:32----------
+same it's actually look at it look at it
+
+---------05:36----------
+two point nine one point seven two point
+
+---------05:38----------
+nine one point seven two point nine one
+
+---------05:39----------
+point seven either way I'm not gonna
+
+---------05:41----------
+trust this the others have to
+
+---------05:42----------
+believe me that this didn't actually
+
+---------05:44----------
+work before and the other thing I want
+
+---------05:46----------
+to talk about here the other thing I
+
+---------05:48----------
+want to talk about before we get in the
+
+---------05:50----------
+the actual figure they're a pair of
+
+---------05:52----------
+everything I want you to be able to
+
+---------05:54----------
+differentiate between not clicking and
+
+---------05:56----------
+not moving because these are actually
+
+---------05:57----------
+two different problems so if this chip
+
+---------06:00----------
+over here this this this interpreter
+
+---------06:01----------
+chip that's going to take the keyboard
+
+---------06:04----------
+and the trackpad information and turn it
+
+---------06:05----------
+into a USB signal if let's say if
+
+---------06:07----------
+there's an issue with this and it's not
+
+---------06:09----------
+clicking if pick BL is a you know is
+
+---------06:12----------
+always low and it's not registering a
+
+---------06:14----------
+click that's an issue over here however
+
+---------06:16----------
+if it's not moving then you have an
+
+---------06:18----------
+issue with the booster circuit so this
+
+---------06:21----------
+is a DC to DC boost circuit that is
+
+---------06:23----------
+going to take the 5 volts going into it
+
+---------06:26----------
+and it's going to turn it into 18 volts
+
+---------06:28----------
+for the trackpad so if you don't have 18
+
+---------06:30----------
+volts on the trackpad it's not going to
+
+---------06:32----------
+register when you touch it so you need
+
+---------06:35----------
+18 volts of the trackpad
+
+---------06:37----------
+to register you moving it and the click
+
+---------06:39----------
+is going to be a separate part
+
+---------06:40----------
+altogether the click is going to be that
+
+---------06:42----------
+pick BL section so you can have clicking
+
+---------06:45----------
+without having moving and you can have
+
+---------06:47----------
+moving without having clicking the other
+
+---------06:49----------
+thing that you should think about here
+
+---------06:50----------
+is also whether or not the trackpad
+
+---------06:52----------
+button has been disabled one of the
+
+---------06:53----------
+silly features that I find on this
+
+---------06:55----------
+machine is there's actually a feature
+
+---------06:58----------
+called button disabled and this is just
+
+---------07:01----------
+kind of I don't I don't really
+
+---------07:03----------
+understand what's going on here the
+
+---------07:05----------
+whole idea is SMC lid is a signal that
+
+---------07:08----------
+will be 3.42 volts when the computer is
+
+---------07:10----------
+open and it will be closer to zero or
+
+---------07:14----------
+lower when the computer is closed the
+
+---------07:16----------
+whole idea here is this transistor will
+
+---------07:17----------
+short button disable to ground so if the
+
+---------07:20----------
+computer is open then we will allow the
+
+---------07:23----------
+trackpad to work but if SMC slit is
+
+---------07:25----------
+closed if it's low then button disabled
+
+---------07:28----------
+will exist and button disabled will
+
+---------07:30----------
+disable the button the trackpad now the
+
+---------07:32----------
+reason that I think this is silly is
+
+---------07:34----------
+firstly you're causing another point of
+
+---------07:37----------
+failure if something goes wrong with
+
+---------07:38----------
+that transistor if something goes wrong
+
+---------07:41----------
+with that signal now the trackpad is not
+
+---------07:43----------
+going to work the second reason that I
+
+---------07:44----------
+think it's silly is I don't understand
+
+---------07:46----------
+the functionality of it if this computer
+
+---------07:48----------
+is closed the whole idea I get it
+
+---------07:51----------
+the trackpad is going to wake the
+
+---------07:52----------
+computer from sleep so if the computer
+
+---------07:55----------
+is closed we don't want the trackpad to
+
+---------07:57----------
+be clickable because then the computer
+
+---------07:59----------
+could wake from sleep while it's closed
+
+---------08:00----------
+my counter-argument is going to be how
+
+---------08:03----------
+the are you going to click the
+
+---------08:05----------
+trackpad while the computer is closed
+
+---------08:07----------
+like what do you have to do to this
+
+---------08:09----------
+thing to register a trackpad click while
+
+---------08:11----------
+it's closed because you can smack it you
+
+---------08:13----------
+can bash it you could bang it in it's
+
+---------08:15----------
+nothing like you would have to shoot
+
+---------08:17----------
+this computer you'd have to shoot it
+
+---------08:19----------
+with a gun had the bullet go all the way
+
+---------08:21----------
+through for it to register a click and
+
+---------08:23----------
+at that point you have much bigger
+
+---------08:24----------
+problems than your computer waking
+
+---------08:25----------
+wallets in sleep but that's just my
+
+---------08:27----------
+opinion anyway so that's another thing
+
+---------08:29----------
+that can cause the button to not work
+
+---------08:32----------
+now here I did measure that signal in
+
+---------08:35----------
+button disable was zero volts meaning
+
+---------08:38----------
+that button disabled is not present
+
+---------08:40----------
+meaning that the button will not be
+
+---------08:42----------
+disabled so what we have to do now is
+
+---------08:44----------
+the fun of replacing this chip because I
+
+---------08:47----------
+don't trust it it's doing funny things
+
+---------08:49----------
+and it's trolling me by not what a piece
+
+---------08:52----------
+of seriously they by working on
+
+---------08:57----------
+camera not working off camera
+
+---------09:01----------
+I'm telling you if you try to record
+
+---------09:04----------
+instructional videos or videos where
+
+---------09:06----------
+things go right it's just it just you'll
+
+---------09:09----------
+see everything will go wrong and then
+
+---------09:11----------
+when you want things to go wrong so you
+
+---------09:12----------
+could record yourself fixing them go go
+
+---------09:14----------
+right you try to do like a video Luis
+
+---------09:19----------
+loses the lottery how about that what do
+
+---------09:23----------
+you think Jason Madhu a video caught
+
+---------09:25----------
+Jason loses the lottery and see what the
+
+---------09:28----------
+results are so I'm gonna captain tape
+
+---------09:31----------
+all the stuff in the surrounding area
+
+---------09:33----------
+because I don't want to burn it too
+
+---------09:34----------
+badly and I applied the captain tape
+
+---------09:40----------
+very poorly over here so I put too much
+
+---------09:43----------
+of it turn on the hot air station turn
+
+---------09:48----------
+on the air filter I know this is a
+
+---------09:51----------
+different microphone I usually use the
+
+---------09:52----------
+DPA 4065 omnidirectional microphone the
+
+---------09:55----------
+reason is it is really good sound
+
+---------09:57----------
+quality and also when you place the
+
+---------09:59----------
+microphone it since it's an
+
+---------10:01----------
+omnidirectional microphone you can place
+
+---------10:03----------
+the microphone very very very close to
+
+---------10:06----------
+your mouth without getting proximity
+
+---------10:07----------
+effect or any of that stuff so having a
+
+---------10:09----------
+mic close to your mouth gives you a
+
+---------10:11----------
+higher signal-to-noise ratio the
+
+---------10:13----------
+increased signal of noise ratio means
+
+---------10:15----------
+that you hear less of the air filter so
+
+---------10:17----------
+if mine if I can make my voice louder by
+
+---------10:20----------
+putting them by putting the microphone
+
+---------10:23----------
+closer to my face that means I can lower
+
+---------10:25----------
+the gain if I lower the gain that means
+
+---------10:26----------
+you hear less air filter in fume
+
+---------10:29----------
+extractor now the trick here is that
+
+---------10:34----------
+still it's not a it's not a cardioid mic
+
+---------10:37----------
+it's an omni so it's gonna pick up from
+
+---------10:38----------
+everywhere this microphone is a cardioid
+
+---------10:40----------
+microphone so it's going to do so it's
+
+---------10:43----------
+gonna be a little bit sillier when it
+
+---------10:44----------
+comes to things like
+
+---------10:46----------
+like let's say it moves a little bit the
+
+---------10:48----------
+tone of my voice may change or may block
+
+---------10:50----------
+out sound rather than this have it go
+
+---------10:52----------
+lower for a second
+
+---------10:53----------
+if if it moves at all however it's gonna
+
+---------10:57----------
+block out from all sides so I'm kind of
+
+---------10:58----------
+curious how this how this sounds now the
+
+---------11:00----------
+reason I haven't used this for a while
+
+---------11:02----------
+is it's a DPA DPA stuff is very very
+
+---------11:04----------
+expensive very pricey and the thing that
+
+---------11:07----------
+with this microphone is that it didn't
+
+---------11:10----------
+come with this dual ear hook so see how
+
+---------11:11----------
+this has like a dual ear hook so it
+
+---------11:13----------
+hooks here in here if you don't have the
+
+---------11:15----------
+dual ear hook if you have the single
+
+---------11:16----------
+your hook it wobbles around like crazy
+
+---------11:17----------
+and the sound is constantly changing it
+
+---------11:19----------
+sounds like and it's worthless like
+
+---------11:21----------
+when I turn around I'm half the volume
+
+---------11:22----------
+than when I'm here because it moves that
+
+---------11:25----------
+banding and yeah we'll figure that out
+
+---------11:27----------
+later but so this is this dual ear hook
+
+---------11:30----------
+thing this thing that allows them I'm
+
+---------11:31----------
+not talking about the microphone I'm not
+
+---------11:33----------
+talking about the like a preamp or a
+
+---------11:36----------
+wireless thing I'm talking about the the
+
+---------11:38----------
+piece that the microphone clips into is
+
+---------11:41----------
+eighty-seven dollars plus tax I just I
+
+---------11:45----------
+was I was speechless when I saw
+
+---------11:47----------
+that so this thing's sat and had been
+
+---------11:49----------
+for five months because I couldn't bring
+
+---------11:51----------
+myself to spend eighty-seven dollars on
+
+---------11:52----------
+like I love DPA DPA makes good stuff in
+
+---------11:55----------
+the whole argument with it is you know
+
+---------11:57----------
+if you're buying DPA stuff then you
+
+---------11:59----------
+shouldn't be complaining about price
+
+---------12:00----------
+you're in a league where you shouldn't
+
+---------12:01----------
+complain about fries and I'll say I will
+
+---------12:04----------
+pay a lot of money for a good microphone
+
+---------12:06----------
+I'm okay with paying money for a
+
+---------12:07----------
+microphone this is a little like a
+
+---------12:12----------
+little a little hook that goes around my
+
+---------12:14----------
+ear eighty seven dollars plus tax holy
+
+---------12:17----------
+ alright so let's get started with
+
+---------12:23----------
+this we're going to remove this chip
+
+---------12:28----------
+and see if we get any changes now we're
+
+---------12:33----------
+gonna do our best enough around the
+
+---------12:34----------
+keyboard latch that'll be a bonus not
+
+---------12:38----------
+burning the keyboard latch will be a
+
+---------12:39----------
+bonus if I was smart I would take after
+
+---------12:42----------
+Jason and put a penny over the keyboard
+
+---------12:44----------
+latch but that's if I were smart leave
+
+---------12:52----------
+the what
+
+---------12:55----------
+yeah we'll just get started right onto
+
+---------12:58----------
+the board okay now I'm gonna use my
+
+---------13:00----------
+soldering iron to my soldering iron -
+
+---------13:03----------
+mother
+
+---------13:06----------
+HECO wants to charge me eleven dollars
+
+---------13:09----------
+to fix the other one even though it's
+
+---------13:10----------
+within warranty can you believe that and
+
+---------13:13----------
+you know I got tips eleven bucks to fix
+
+---------13:16----------
+it the outrage that's just one
+
+---------13:20----------
+of those battles that I just don't think
+
+---------13:22----------
+I'm gonna fight on one hand that thing
+
+---------13:24----------
+is within warranty and it did
+
+---------13:26----------
+feel like I didn't I didn't do anything
+
+---------13:27----------
+to it I didn't step on it I didn't
+
+---------13:29----------
+on it I didn't stab it it just stopped
+
+---------13:33----------
+recognizing tips one day it's a hot
+
+---------13:34----------
+swappable tip iron comes with a 250
+
+---------13:37----------
+something to 250 26 t dollar station at
+
+---------13:40----------
+the time on the other hand they're only
+
+---------13:44----------
+asking 11 bucks so I mean I can't really
+
+---------13:48----------
+there's an extent I mean like even if I
+
+---------13:51----------
+did want to argue with them and say like
+
+---------13:52----------
+hey I've spent thousands
+
+---------13:56----------
+and thousands of dollars on your
+
+---------13:57----------
+products other people have spent
+
+---------13:59----------
+thousands and thousands on my
+
+---------14:01----------
+recommendations I see this that
+
+---------14:03----------
+sells an Amazon affiliate every day blah
+
+---------14:05----------
+blah blah again the time it takes to say
+
+---------14:07----------
+all that is not worth the eleven dollars
+
+---------14:10----------
+it just isn't
+
+---------14:14----------
+but yeah if you buy any of the the it's
+
+---------14:17----------
+reasonable like it's not that's the
+
+---------14:19----------
+thing like I think it should be covered
+
+---------14:20----------
+under warranty I think it should be
+
+---------14:22----------
+covered under warranty but they're
+
+---------14:25----------
+asking for 11 bucks like if I thought it
+
+---------14:27----------
+should be covered under warranty and
+
+---------14:28----------
+they're asking for 100 bucks even 30
+
+---------14:31----------
+bucks
+
+---------14:31----------
+okay I'll argue but for 10 bucks what
+
+---------14:35----------
+the you gonna do you know fine
+
+---------14:37----------
+here take your $11 for your
+
+---------14:42----------
+defective ass a soldering handpiece that
+
+---------14:46----------
+couldn't make it from October of
+
+---------14:50----------
+last year to August of this year on the
+
+---------14:55----------
+RMA procedure is all leave Jesus do you
+
+---------14:57----------
+have the tip all the way in yes are you
+
+---------14:58----------
+sure you have the tip all the way in yes
+
+---------15:00----------
+are you sure you have the tip all the
+
+---------15:01----------
+way in yes I know I have a small tip you
+
+---------15:04----------
+can stop rubbing it in my face
+
+---------15:05----------
+hackle representative how often do I
+
+---------15:10----------
+like there are many times in life where
+
+---------15:12----------
+I'm gonna be reminded that I have a
+
+---------15:13----------
+small tip I just don't expect it to be
+
+---------15:15----------
+when I'm like dealing with my industrial
+
+---------15:16----------
+equipment supplier on Saturday night I
+
+---------15:21----------
+expect to be reminded that I have a
+
+---------15:22----------
+small tip this is one area in my life
+
+---------15:26----------
+where I don't want to feel inadequate
+
+---------15:27----------
+about my tip so it's gonna tend the pads
+
+---------15:36----------
+here you're gonna turn this stuff up
+
+---------15:38----------
+here and we're gonna and I am getting
+
+---------15:43----------
+too much solder on the center pad the
+
+---------15:44----------
+thing is that's a huge that's a huge
+
+---------15:46----------
+center pen that's the thing so I'm gonna
+
+---------15:48----------
+have to spread that sided out all
+
+---------15:49----------
+amongst the center pad anywhere soon I
+
+---------15:51----------
+think I like about this t15 Jaso to tip
+
+---------15:54----------
+from the company that I'm pissed that
+
+---------15:55----------
+right now but still promoting because I
+
+---------15:57----------
+have no idea how to market or if L
+
+---------16:00----------
+myself as a sponsor is that it in watch
+
+---------16:05----------
+see I was able to get each one of those
+
+---------16:07----------
+individual pads up there using the I was
+
+---------16:09----------
+using the very very fine tip but then I
+
+---------16:12----------
+can use the really really thick elbow to
+
+---------16:14----------
+get the centered pad that is just
+
+---------16:18----------
+beautiful so now we're going to take
+
+---------16:20----------
+that USB thingy from a donor board
+
+---------16:24----------
+because it comes with programming so I
+
+---------16:25----------
+can't buy it new
+
+---------16:28----------
+yay
+
+---------16:30----------
+if you buy that thing new it's not going
+
+---------16:32----------
+to do a damn thing for you we're gonna
+
+---------16:37----------
+take it off of a donor Swiper no swiping
+
+---------16:44----------
+you swiped
+
+---------16:46----------
+he stole my paper towel everybody steals
+
+---------16:50----------
+my paper towels because it's on the
+
+---------16:52----------
+spool oh yeah and I use the microscope
+
+---------16:54----------
+stand in the school and it's right next
+
+---------16:55----------
+to my desk my desk is right next to the
+
+---------16:59----------
+bathroom you know because the bathroom
+
+---------17:01----------
+is where people and that's what
+
+---------17:02----------
+that's what everybody here thinks of my
+
+---------17:04----------
+soldering so when they leave the
+
+---------17:06----------
+bathroom they just take the paper towels
+
+---------17:07----------
+from me and then I wind up with no paper
+
+---------17:09----------
+towels and I got to get up and get paper
+
+---------17:10----------
+towels and I think this is unfair and
+
+---------17:15----------
+I'm gonna start you know I'm gonna start
+
+---------17:17----------
+putting flux and castor 951 and
+
+---------17:20----------
+ on those paper towels see how
+
+---------17:23----------
+people like it this is totally defeating
+
+---------17:28----------
+the purpose of Captain T oh well alright
+
+---------17:31----------
+so let's get this heated and on there
+
+---------17:52----------
+Terry you have some excess solder on the
+
+---------17:55----------
+center pad story of my life and we're
+
+---------17:58----------
+just going to clean up around the chip
+
+---------18:00----------
+and once it's all cleaned up then we can
+
+---------18:02----------
+go and flow it zactly in a place so
+
+---------18:05----------
+right now my priority is getting the
+
+---------18:07----------
+chip to be flat on the paths
+
+---------18:16----------
+so we're gonna get this nice and flat on
+
+---------18:18----------
+the pads love this tip love I love my
+
+---------18:27----------
+tip I love my tip every day
+
+---------18:34----------
+I don't care if the hakko service
+
+---------18:36----------
+representative doesn't like my tip or
+
+---------18:38----------
+how I handle my tip or where I put my
+
+---------18:40----------
+tip
+
+---------18:49----------
+now let's
+
+---------18:57----------
+now the proper amount of solder is on
+
+---------19:00----------
+every pad
+
+---------19:09----------
+now we flow it into exactly where it's
+
+---------19:11----------
+supposed to be
+
+---------19:18----------
+crap
+
+---------19:20----------
+just I just destroyed that did not
+
+---------19:34----------
+the more you try to make something
+
+---------19:36----------
+perfect - the more you will just screw
+
+---------19:37----------
+it up so learn from my repeated mistakes
+
+---------19:40----------
+and stop doing that to yourself
+
+---------19:52----------
+make the area look a little nice nice
+
+---------19:55----------
+nice nice nice nice I just saw a solder
+
+---------20:01----------
+ball let's make sure that solder ball
+
+---------20:03----------
+didn't fly away where I can't see it I
+
+---------20:07----------
+am genuinely curious if this mic will
+
+---------20:09----------
+end up sounding better the same or worse
+
+---------20:11----------
+how is it at rejecting noise from the
+
+---------20:13----------
+air filter the air conditioner is having
+
+---------20:16----------
+a cardioid head Ward mic all that it's
+
+---------20:18----------
+made up to because I will say as much as
+
+---------20:20----------
+my older yes and thirty-five sounded
+
+---------20:22----------
+like a piece of you sounded like
+
+---------20:25----------
+you were underwater using that so I
+
+---------20:26----------
+would have to do it like you know 15 DB
+
+---------20:28----------
+boost at 3 killer it's for you to
+
+---------20:30----------
+actually hear me with that thing this is
+
+---------20:32----------
+ridiculous
+
+---------20:33----------
+yeah it did do a really interesting job
+
+---------20:36----------
+of blocking out all the noise very good
+
+---------20:41----------
+job of that but it was it was incredibly
+
+---------20:43----------
+uncomfortable and you add to the fact
+
+---------20:45----------
+that in addition to being incredibly
+
+---------20:46----------
+uncomfortable that it sounded like crap
+
+---------21:04----------
+okay sometime beautiful
+
+---------21:19----------
+see if we are at least not worse off
+
+---------21:23----------
+than we were before I hold down option
+
+---------21:31----------
+okay and can I quick I can click but I
+
+---------21:42----------
+could click before so now let's measure
+
+---------21:48----------
+and see if pic BL is any better than it
+
+---------21:53----------
+was before
+
+---------21:55----------
+so pic BL
+
+---------22:07----------
+pick BL how about the turn on the
+
+---------22:13----------
+multimeter you dumb all right
+
+---------22:15----------
+let's see if you can see that so before
+
+---------22:17----------
+was peeking before this was peeking at
+
+---------22:20----------
+two point nine volts two point eight
+
+---------22:22----------
+volts and right now with everything
+
+---------22:24----------
+plugged in it peaks at three point two
+
+---------22:28----------
+nine which is close to three point three
+
+---------22:30----------
+which is the voltage that this chip uses
+
+---------22:32----------
+for its own power
+
+---------22:33----------
+now one thing to realize a lot of people
+
+---------22:34----------
+are gonna say well how do you know what
+
+---------22:35----------
+voltage it's supposed to be or they'll
+
+---------22:38----------
+say well you get to compare with all the
+
+---------22:39----------
+board's around you so you know of course
+
+---------22:41----------
+you know involved it as opposed to me
+
+---------22:42----------
+but I can't do that
+
+---------22:43----------
+listen we have to think a little bit so
+
+---------22:45----------
+this is the chip that is creating but
+
+---------22:48----------
+pick the L right and this chip is
+
+---------22:52----------
+powered from its VDD pin and on the VDD
+
+---------22:55----------
+pin it receives PP 3 V 3 s 3 so I would
+
+---------22:58----------
+just guess that it needs pp 3 V 3 s 3 I
+
+---------23:02----------
+mean that that that signal is gonna be
+
+---------23:04----------
+3.3 volts since that's the voltage that
+
+---------23:06----------
+that chip is working with so yeah that
+
+---------23:09----------
+tells me something so I could see how
+
+---------23:11----------
+2.9 would be in that intermittent area
+
+---------23:13----------
+so it but as you see once it's in the
+
+---------23:15----------
+right area then it's more likely to
+
+---------23:18----------
+actually work the way it's supposed to
+
+---------23:19----------
+you never got to see it not working it's
+
+---------23:22----------
+ but that is the way doing
+
+---------23:25----------
+videos for the internet works as usual
+
+---------23:27----------
+nothing never goes as you plan it how
+
+---------23:30----------
+much you know what the only difference
+
+---------23:32----------
+before was I had the Wi-Fi plugged in so
+
+---------23:33----------
+let's see if that had an any difference
+
+---------23:35----------
+or anything to do with it which it
+
+---------23:36----------
+probably won't
+
+---------23:37----------
+it probably won't it probably has
+
+---------23:40----------
+nothing to do with this at all
+
+---------23:45----------
+yep still works I can't explain it I
+
+---------23:49----------
+have known I wish more of the stuff in
+
+---------23:51----------
+my pile would fix itself I mean I get
+
+---------23:55----------
+closer to going on that permanent
+
+---------23:57----------
+vacation until the next video thank you
+
+---------24:00----------
+for watching and I am as always I hope
+
+---------24:03----------
+you learned something and I hope this
+
+---------24:04----------
+mic sounds better let me know in the
+
+---------24:06----------
+comments what you think
+

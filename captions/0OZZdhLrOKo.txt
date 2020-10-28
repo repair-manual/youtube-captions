@@ -1,0 +1,1816 @@
+https://www.youtube.com/watch?v=0OZZdhLrOKo
+---------00:00----------
+all right so today we're going over an
+
+---------00:01----------
+eight to zero 34:37 air board this has
+
+---------00:03----------
+already been ultrasonic but the stated
+
+---------00:05----------
+problem is that it is dead so you get no
+
+---------00:07----------
+light in the charger no light in the
+
+---------00:10----------
+charger now the reason for no light in
+
+---------00:12----------
+the charger is usually the PP 3v for 2
+
+---------00:14----------
+circuits so to give you an idea on a
+
+---------00:16----------
+motherboard we can actually see it on
+
+---------00:17----------
+the schematic what that circuit is and
+
+---------00:18----------
+what it does the last time I'm probably
+
+---------00:20----------
+going to explain this since I've
+
+---------00:21----------
+explained it in 60 other videos the one
+
+---------00:23----------
+wire circuit is used oh no one here we
+
+---------00:26----------
+go alright so this over here is the
+
+---------00:31----------
+adapter this is where the adapter comes
+
+---------00:32----------
+into the machine this is on an older
+
+---------00:34----------
+motherboard so this is 18 volts going
+
+---------00:36----------
+through to the Machine and this over
+
+---------00:37----------
+here is the line called adapter sense
+
+---------00:39----------
+adapter sense attaches to this chip this
+
+---------00:42----------
+chip and the adapter sense line from the
+
+---------00:44----------
+charger the adapter sense attaches to X
+
+---------00:47----------
+for external then there's internal where
+
+---------00:50----------
+that chip is going to take that same
+
+---------00:51----------
+signal and send it out sis one wire on a
+
+---------00:53----------
+bi-directional data line to the SMC
+
+---------00:55----------
+right over here see where it says by
+
+---------00:57----------
+that it means bi-directional data line
+
+---------01:00----------
+now the SMC needs to talk to the charger
+
+---------01:02----------
+for it to turn on so let's go back to
+
+---------01:05----------
+where that was this is one wire line now
+
+---------01:07----------
+what turns this chip on every time you
+
+---------01:09----------
+see VCC VDD or anything like that you're
+
+---------01:11----------
+going to see you know that that is what
+
+---------01:13----------
+this chip needs in order to actually
+
+---------01:14----------
+powered or turned on so the VCC pin for
+
+---------01:16----------
+this and also the pull-up resistor for
+
+---------01:18----------
+the data line for this one wire if you
+
+---------01:20----------
+don't know what a pull-up resistor is of
+
+---------01:21----------
+either what is a pull-up resistor and
+
+---------01:23----------
+how does it create a data line video
+
+---------01:24----------
+that is created from this chip this is a
+
+---------01:27----------
+logic aid the way this works is when it
+
+---------01:29----------
+sees SMC bc AC okay come in when that
+
+---------01:31----------
+comes in then PP 3 V 4 to underscore G 3
+
+---------01:35----------
+out which is a three-point 42 volt power
+
+---------01:37----------
+line will be let through to this chip
+
+---------01:38----------
+and it will turn on without PP 3 V 4 to
+
+---------01:41----------
+you will get nothing else now the air
+
+---------01:43----------
+board is a little bit different because
+
+---------01:44----------
+the one wire circuit on the Dare board
+
+---------01:46----------
+is on the DCN board and we don't get a
+
+---------01:48----------
+schematic for the DC n board because
+
+---------01:49----------
+Apple sucks so we just have to assume
+
+---------01:51----------
+based on the older circuit idea that we
+
+---------01:54----------
+still have to deal with one wire circuit
+
+---------01:56----------
+and that that's the you know still
+
+---------01:58----------
+Nia requires pp3 before - so when I go
+
+---------02:01----------
+to search for assists underscore one
+
+---------02:03----------
+wire on this board here we go so since
+
+---------02:07----------
+one wire is on this J 9500 J 9500 which
+
+---------02:11----------
+you can't see because I'm on the wrong
+
+---------02:12----------
+cat
+
+---------02:13----------
+since one wire goes to the DCN board so
+
+---------02:16----------
+J 9500 when you go to the board view
+
+---------02:19----------
+software J 9500
+
+---------02:22----------
+yeah that's C that's that that's the
+
+---------02:24----------
+connector for the DCN board and there's
+
+---------02:25----------
+also PP 3 V 4 to sum we're going to the
+
+---------02:28----------
+DC and boards let's just look for that
+
+---------02:32----------
+yeah if sm c bc AC ok going there so you
+
+---------02:35----------
+know that the one wiring circuit has to
+
+---------02:37----------
+be on that side you need sm c bc AC ok
+
+---------02:39----------
+to be present in order for the one wire
+
+---------02:41----------
+circuit to turn on and allow the charger
+
+---------02:43----------
+to talk to the SMC and you have PP 3 V 4
+
+---------02:45----------
+to underscore G 3 hot going there so
+
+---------02:51----------
+let's see if P P 3 V 4 to underscore G 3
+
+---------02:53----------
+hot is present on my board so since
+
+---------02:59----------
+that's needed for the one wire circuit
+
+---------03:00----------
+to work and to get a charge alight so
+
+---------03:02----------
+that's supposed to be coming out right
+
+---------03:03----------
+over here so when I check that on the
+
+---------03:08----------
+board that's gonna be over there
+
+---------03:12----------
+I'm gonna take my multimeter and diode
+
+---------03:14----------
+mode put the red probe on ground but the
+
+---------03:16----------
+black probe where pp 3 V 4 2 is supposed
+
+---------03:19----------
+to be and I have a 0 ohms short to
+
+---------03:22----------
+ground which means that it is shorted to
+
+---------03:24----------
+ground by something so we have to figure
+
+---------03:25----------
+out what that is because PP 3 V 4 -
+
+---------03:27----------
+won't be present if it's being sent to
+
+---------03:28----------
+ground and also if you look in this area
+
+---------03:32----------
+doesn't really look the nicest it looks
+
+---------03:34----------
+like there is corrosion there even
+
+---------03:36----------
+though it has been through an ultrasonic
+
+---------03:37----------
+cleaner already so let's just zoom in on
+
+---------03:39----------
+microscope turn the light up a little
+
+---------03:41----------
+bit so you can see not the nicest thing
+
+---------03:45----------
+in the world now the funny thing here is
+
+---------03:47----------
+even though this area is covered under
+
+---------03:48----------
+this under finished looking nonsense
+
+---------03:50----------
+used they were still it was still able
+
+---------03:52----------
+to get damaged by liquid so this didn't
+
+---------03:54----------
+do anything
+
+---------03:55----------
+nice try and pretending to be lenovo
+
+---------03:58----------
+your stuff was not waterproof and it
+
+---------04:00----------
+never will be so let's remove that just
+
+---------04:03----------
+have to heat it up a little bit and then
+
+---------04:11----------
+I'm going to attach a wire there and
+
+---------04:12----------
+we're gonna see what gets hot since the
+
+---------04:14----------
+short to ground is so immediate I'm
+
+---------04:16----------
+pretty sure it's gonna be something
+
+---------04:17----------
+obvious and something that's gonna get
+
+---------04:19----------
+hot really quickly
+
+---------04:25----------
+well I almost burned my microscope okay
+
+---------04:39----------
+I hate this junk this doesn't actually
+
+---------04:44----------
+do just annoy that is just annoying
+
+---------04:47----------
+alright so let's see where the short is
+
+---------04:51----------
+so we have to inject three volts there
+
+---------04:52----------
+to see where the short is let's take my
+
+---------04:55----------
+power supply wire and blow up the board
+
+---------05:06----------
+so I'm going to put solder on a screw
+
+---------05:09----------
+hole I know I'm sure there are more
+
+---------05:13----------
+professional ways to do this and I'm
+
+---------05:15----------
+sure that a lot of people will say that
+
+---------05:16----------
+this is not professional and I'm also
+
+---------05:18----------
+certain that I won't care so I'm going
+
+---------05:24----------
+to take the ground
+
+---------05:32----------
+and shove it in there I don't care about
+
+---------05:34----------
+the quality of the soldering there
+
+---------05:35----------
+because it's not like that's gonna stay
+
+---------05:37----------
+there anyway I'm gonna take this area
+
+---------05:39----------
+over here where three volts is supposed
+
+---------05:41----------
+to be and 3.42 volts isn't again not
+
+---------05:44----------
+giving a crap about the quality of the
+
+---------05:45----------
+soldering this is the purpose of this EF
+
+---------05:48----------
+that realizes to blow something up it's
+
+---------05:49----------
+not a permanent repair so I I'm not
+
+---------05:52----------
+gonna waste time on those things now I
+
+---------05:54----------
+set my power supply over here to 3.42
+
+---------05:56----------
+volts voltage 3.42 currents a lot of
+
+---------06:03----------
+people ask why I don't limit current and
+
+---------06:05----------
+makes it harder to find things alright
+
+---------06:08----------
+so let's see what's let's see if it's
+
+---------06:11----------
+obvious so what gets hot what gets hot
+
+---------06:17----------
+what gets hot
+
+---------06:46----------
+now a little guide here what's gonna get
+
+---------06:50----------
+hot has to be something that is pp3
+
+---------06:51----------
+before - so these are the potential
+
+---------06:56----------
+things that could be getting hot
+
+---------06:58----------
+I should rotate this so it's the same
+
+---------07:00----------
+way as the board is in the desk
+
+---------07:10----------
+hmm you guys see anything that looks
+
+---------07:12----------
+suspicious hmm hmm all right
+
+---------07:22----------
+this is gonna be even after that
+
+---------07:24----------
+I can just tell from what it looks like
+
+---------07:26----------
+the SMC will likely need replacing well
+
+---------07:35----------
+okay and the short is gone all righty
+
+---------07:42----------
+now keep in mind that the short will on
+
+---------07:45----------
+three caps that go directly to the SMC
+
+---------07:47----------
+so what do you think is gonna be screwed
+
+---------07:49----------
+next oh yeah this will be no fun okay so
+
+---------07:53----------
+we're gonna take those three caps off of
+
+---------07:55----------
+a donor board and pray that the SMC is
+
+---------07:57----------
+good which it probably isn't are you
+
+---------08:07----------
+still recording I can't read that Ernest
+
+---------08:11----------
+I really can't read that
+
+---------08:24----------
+common sense prevails
+
+---------08:48----------
+Rahn tip
+
+---------09:12----------
+now the pads are kind of messed up so
+
+---------09:14----------
+it's gonna require some scraping let's
+
+---------09:16----------
+make them work again worst case scenario
+
+---------09:25----------
+we can just break that trace run a wire
+
+---------09:28----------
+to the capacitor and just do that
+
+---------09:54----------
+you'll feel it in your in your hand when
+
+---------09:56----------
+you're scraping it versus when you're
+
+---------09:58----------
+not so in the beginning there I wasn't
+
+---------09:59----------
+scraping a damn thing and I couldn't
+
+---------10:04----------
+feel it and I also noticed that you
+
+---------10:05----------
+couldn't really see any solder getting
+
+---------10:07----------
+on the pad but now it's scraped and it's
+
+---------10:09----------
+good you're also gonna see that there
+
+---------10:11----------
+are some burned resistors to the side
+
+---------10:12----------
+those at this time I don't care about
+
+---------10:14----------
+because I know that those are actually
+
+---------10:16----------
+for those are for you know that's for
+
+---------10:19----------
+Apple that's for programming the SMC
+
+---------10:20----------
+using that little connector on the other
+
+---------10:22----------
+side of the board that will never ever
+
+---------10:23----------
+get to use over the course of our
+
+---------10:24----------
+lifetime I don't give a about
+
+---------10:26----------
+programming the SMC because I don't get
+
+---------10:28----------
+to do that if I want to fix the SMC I
+
+---------10:31----------
+have to take it off with another board
+
+---------10:32----------
+and attach ninety six point two five
+
+---------10:35----------
+millimeter balls to it oh yeah so I
+
+---------10:38----------
+don't give a about those resistors
+
+---------10:40----------
+they're for something I don't get to
+
+---------10:41----------
+have or play with I just flew something
+
+---------10:50----------
+right off of the board
+
+---------10:53----------
+I'll have to put that back on unless
+
+---------10:56----------
+it's for programming the SMC that is in
+
+---------11:00----------
+which case I won't
+
+---------12:09----------
+the cool thing about the flux and the
+
+---------12:10----------
+hot air is that it's gonna remote
+
+---------12:11----------
+everything in a place so it doesn't look
+
+---------12:13----------
+like I screwed with it and everything is
+
+---------12:14----------
+gonna be aligned perfectly even if I did
+
+---------12:16----------
+aligned it really badly so let's see
+
+---------12:18----------
+what that little this thing is over here
+
+---------12:20----------
+is this important you 37:10
+
+---------12:33----------
+that's for the SSD yeah we're gonna
+
+---------12:36----------
+assume I got to put that back on all
+
+---------12:38----------
+right
+
+---------12:41----------
+there are certain things I don't care
+
+---------12:43----------
+about like programming they're that
+
+---------12:45----------
+thing to program the SMC while the SMC
+
+---------12:47----------
+is on the board that's not something I'm
+
+---------12:49----------
+ever gonna put back on a fight or waste
+
+---------12:52----------
+timeline ready
+
+---------13:07----------
+if I were smart I would be seeing if the
+
+---------13:09----------
+board actually works at this point and
+
+---------13:10----------
+care about the SSD thing later but I
+
+---------13:13----------
+know that I'm gonna forget to put this
+
+---------13:14----------
+back on later and this board will come
+
+---------13:17----------
+back saying it works but I get a
+
+---------13:19----------
+question mark folder all the time now
+
+---------13:21----------
+you happen to know why that is no I have
+
+---------13:27----------
+no idea it's a bunch of little balls
+
+---------13:33----------
+shooting out from under the chip that's
+
+---------13:35----------
+a sign of quality soldering right there
+
+---------13:37----------
+oh you missed that it's a good thing you
+
+---------13:39----------
+missed it I have a chance to correct
+
+---------13:41----------
+that before you ever see it yeah
+
+---------13:57----------
+move out where I can catch you okay so a
+
+---------14:05----------
+bunch of questions to answer here is my
+
+---------14:07----------
+SMC any good no idea is my pp 3d for to
+
+---------14:11----------
+rail going to work now that I remove the
+
+---------14:12----------
+short no idea is the rest of the board
+
+---------14:14----------
+gonna work even if it turns on all good
+
+---------14:18----------
+questions and all stuff I'll be able to
+
+---------14:19----------
+answer in a few all right so I get a
+
+---------14:21----------
+green light now for the next test this
+
+---------14:35----------
+is the most important one of them all
+
+---------14:37----------
+there are some places before we started
+
+---------14:39----------
+doing this that we were outsourcing
+
+---------14:40----------
+boards too and the reason this is such a
+
+---------14:42----------
+long-running joke is because you know
+
+---------14:45----------
+they would go on and on about all the
+
+---------14:46----------
+procedures that they use the test boards
+
+---------14:47----------
+my personal favorite excuse
+
+---------14:50----------
+we sent aboard a long time ago to this
+
+---------14:52----------
+place that wasn't booting into the
+
+---------14:54----------
+operating system it would and that's
+
+---------14:57----------
+what we sent it for so they sent it back
+
+---------14:58----------
+saying that it was fixed and it still
+
+---------15:02----------
+did anyone please they send it back
+
+---------15:03----------
+saying that it was fixed and it
+
+---------15:06----------
+distilled in boo no nos so eventually
+
+---------15:08----------
+after a few months we managed to root
+
+---------15:09----------
+out of them that what they did is they
+
+---------15:10----------
+booted it into Windows seven because for
+
+---------15:12----------
+some reason I wasn't booting in a Mac OS
+
+---------15:13----------
+and because of that they said it was
+
+---------15:15----------
+fixed and it's like you you really do
+
+---------15:19----------
+dislike when the fan spins you guys are
+
+---------15:21----------
+done so that's why we have this running
+
+---------15:23----------
+joke that when the fan spins we're done
+
+---------15:25----------
+all right so it's still not turning on
+
+---------15:27----------
+so now we have to go through the power
+
+---------15:28----------
+rails and see what's missing and I also
+
+---------15:29----------
+want to see what state the computer
+
+---------15:31----------
+itself is in so is the machine entering
+
+---------15:33----------
+an Esso state now as I said on the newer
+
+---------15:35----------
+air boards this is one of us apples ways
+
+---------15:37----------
+are just making things harder I think
+
+---------15:39----------
+they used to have all the power diagram
+
+---------15:40----------
+and all the test points on page one two
+
+---------15:42----------
+or three of the schematic which kind of
+
+---------15:44----------
+makes sense because that's you know what
+
+---------15:45----------
+you're the first thing that you should
+
+---------15:47----------
+check for us put on the first page now
+
+---------15:49----------
+all that information is on page 64 you
+
+---------15:56----------
+[ __ ] all right
+
+---------15:57----------
+here we go so what I want to do here is
+
+---------15:59----------
+I want to see what state the machine is
+
+---------16:00----------
+entering S 5 s 3 s o so it could be that
+
+---------16:04----------
+the machine is actually trying to turn
+
+---------16:05----------
+on but there's one power wheel missing
+
+---------16:06----------
+or it could be this not trying to turn
+
+---------16:08----------
+on at all so if I see an S
+
+---------16:10----------
+the s3 power rails are missing arrests
+
+---------16:12----------
+you know then I know that it's not even
+
+---------16:14----------
+trying to turn on but this machine
+
+---------16:16----------
+itself is supposed to try to turn on as
+
+---------16:18----------
+soon as you plug it in all the core i5
+
+---------16:19----------
+and core i7 series MacBook Pros when you
+
+---------16:21----------
+plug the charger into the machine it's
+
+---------16:23----------
+supposed to just come and turn on which
+
+---------16:24----------
+means entering in Essos state so as five
+
+---------16:26----------
+is off as three is suspend when the
+
+---------16:27----------
+little light is blinking on the front
+
+---------16:29----------
+and s o is on so let's see if my Sol
+
+---------16:33----------
+power rails are present so let's just
+
+---------16:34----------
+see if let's let's find an SL power
+
+---------16:36----------
+let's say PP 3 V 3 SL let's see if that
+
+---------16:38----------
+one is present
+
+---------16:49----------
+windows 8 scaling sucks all right so
+
+---------16:54----------
+let's turn this around so where can I
+
+---------17:00----------
+measure P P 3 B 3 soo
+
+---------17:12----------
+this software could cause brain
+
+---------17:14----------
+hemorrhaging let's check over here
+
+---------17:46----------
+0.056 Oh interesting
+
+---------17:49----------
+let's try another Sol pp5 eso I would
+
+---------17:52----------
+expect it to be there and not be there
+
+---------17:53----------
+but not be there partially
+
+---------18:08----------
+peace
+
+---------18:15----------
+so pp5 VSO is not there all right so
+
+---------18:21----------
+it's not even trying to enter in s5
+
+---------18:23----------
+state I mean an Esso state well there's
+
+---------18:31----------
+a corrosion on another part of this
+
+---------18:32----------
+board here Yanks
+
+---------18:43----------
+that's not good all right so let's see
+
+---------18:46----------
+what these things are for I'm pretty
+
+---------18:47----------
+sure this for the five volt rail let's
+
+---------18:50----------
+go back to that's I don't want to see
+
+---------18:52----------
+that
+
+---------19:04----------
+No
+
+---------19:13----------
+r7 539 what's that for delete that
+
+---------19:36----------
+it's supposed to be 20 kilo ohms and 20
+
+---------19:38----------
+kilohms so before I go troubleshooting
+
+---------19:45----------
+this because this is the chip that
+
+---------19:46----------
+creates PP v V s for rs3 and also P P 3
+
+---------19:50----------
+V 3 s 5 before I troubleshoot any of
+
+---------19:53----------
+this because this could be one to being
+
+---------19:54----------
+a total waste of time
+
+---------19:55----------
+let's see if they're being told to turn
+
+---------19:56----------
+on let's also see if they're present so
+
+---------19:58----------
+P P 3 B 3 is 5 because again as nasty as
+
+---------20:02----------
+all that stuff looks if it's actually
+
+---------20:03----------
+working then that's that's not the area
+
+---------20:05----------
+to be looking pp 3 V 3 underscore s 5
+
+---------20:21----------
+so that's ship I was looking at and this
+
+---------20:25----------
+is where I'm gonna see it I imagine all
+
+---------20:28----------
+right remember to measure voltage put
+
+---------20:35----------
+the black probe in a screw hole and the
+
+---------20:37----------
+red probe on where you want to measure
+
+---------20:40----------
+so PP 3 B 3 as 5 is not being created
+
+---------20:45----------
+now PB 3 B 3 is one of the power rails
+
+---------20:47----------
+that's going to be used by the PCH for
+
+---------20:51----------
+certain logic Sophie B 3 B 3 as 5 is
+
+---------20:52----------
+missing it's not gonna try to enter an
+
+---------20:54----------
+Esso state because it can't try to enter
+
+---------20:55----------
+an Esso state so let's see what the
+
+---------20:59----------
+enable is for PP 3 B 3 s 5 let's see why
+
+---------21:03----------
+it's not turning on so PP 3 V 3 is 5
+
+---------21:07----------
+underscore en underscore R that comes
+
+---------21:12----------
+from s 5 power enable s 5 power enable
+
+---------21:15----------
+comes from s MC boo
+
+---------21:20----------
+all right let's see if s MC PMG 2 en is
+
+---------21:23----------
+there yeah yeah you've missed that
+
+---------21:28----------
+section so en - 4 PP 3 B 3 s 5 goes
+
+---------21:34----------
+through R 7 5 5 - so there's gonna be
+
+---------21:36----------
+voltage that comes to this chip over
+
+---------21:37----------
+here - and turn on that rail and
+
+---------21:38----------
+remember I'm not gonna troubleshoot this
+
+---------21:40----------
+entire [ __ ] and mess and test
+
+---------21:42----------
+every resistor and transistor before
+
+---------21:43----------
+seeing if the rail is even being told to
+
+---------21:45----------
+turn on so you go to s 5 power enable
+
+---------21:48----------
+and s 5 power enable here comes from the
+
+---------21:51----------
+SMC you saw up my SMC area look like
+
+---------21:54----------
+before so man let's see s please don't
+
+---------21:58----------
+be the SMC let's see is that signal
+
+---------22:03----------
+present my SMC is partially functional
+
+---------22:05----------
+you have to keep in mind that at least
+
+---------22:07----------
+that's it's getting something because I
+
+---------22:09----------
+have a green light but it still could be
+
+---------22:10----------
+dead it still could be bad so let's see
+
+---------22:14----------
+where can where can I get that no I
+
+---------22:16----------
+don't want to use my multimeter on the
+
+---------22:18----------
+ball into the SMC
+
+---------22:19----------
+how about yeah that bottom resistor yeah
+
+---------22:27----------
+you you
+
+---------22:33----------
+alright let's measure let's put the
+
+---------22:36----------
+charger plugged in it's very easy to
+
+---------22:37----------
+start seeing zero volts everywhere
+
+---------22:39----------
+because as I'm moving the board in the
+
+---------22:40----------
+desk I forget to plug the charger back
+
+---------22:42----------
+in
+
+---------22:59----------
+thank God all right the SMC is producing
+
+---------23:02----------
+it oh boy that would have sucked having
+
+---------23:04----------
+to read ball that okay so where does
+
+---------23:06----------
+this go next
+
+---------23:07----------
+so I checked the beginning and remember
+
+---------23:09----------
+I I don't like checking one point then
+
+---------23:11----------
+here then here then on and on I like I
+
+---------23:13----------
+check the beginning in the end and then
+
+---------23:15----------
+I'll go to the middle if I need to so
+
+---------23:17----------
+let's check and see if that is actually
+
+---------23:19----------
+getting to my chip so on pin one of our
+
+---------23:23----------
+seven five five two that should be there
+
+---------23:24----------
+I have our seven five five two
+
+---------23:48----------
+well that doesn't look nice which point
+
+---------23:50----------
+on this do you see the biggest red nasty
+
+---------23:52----------
+ see on the board view this is where
+
+---------23:58----------
+I'm checking and on the schematic this
+
+---------24:00----------
+is where inch mean on the actual
+
+---------24:01----------
+physical board itself this is its okay
+
+---------24:06----------
+so the three volts is making its way to
+
+---------24:07----------
+the chip so now I know that I can start
+
+---------24:09----------
+suspecting the chip because the chip
+
+---------24:11----------
+itself is being told to turn on I can
+
+---------24:13----------
+start suspecting the chip or a component
+
+---------24:14----------
+in The Associated area I remember again
+
+---------24:17----------
+if the chip is not being told to turn on
+
+---------24:18----------
+you don't replace you don't replace the
+
+---------24:20----------
+chip that makes three volts just because
+
+---------24:21----------
+you don't have three volts because very
+
+---------24:22----------
+often it's not being told to turn on so
+
+---------24:26----------
+let's see so now we start to look at the
+
+---------24:30----------
+area that's corroded and try to figure
+
+---------24:33----------
+out what is most likely messed up there
+
+---------24:39----------
+so let's say board view r7 539 we looked
+
+---------24:49----------
+at already that was 20 kilo ohms what's
+
+---------24:51----------
+next to it
+
+---------24:52----------
+c7 539 let's see if it's actually
+
+---------25:01----------
+possible to get a datasheet of what the
+
+---------25:02----------
+hell what everything on this chip does
+
+---------25:04----------
+so this is TPS five one nine eight zero
+
+---------25:09----------
+a let's make a new window and Chrome
+
+---------25:15----------
+what do you think the chances are that
+
+---------25:17----------
+we can actually find anything on this
+
+---------25:42----------
+yeah there's all right no not
+
+---------25:47----------
+much we can do there so let's try to
+
+---------25:50----------
+guess what this does Kampf
+
+---------26:18----------
+all I can guess is that it's comparing
+
+---------26:20----------
+something from the reference voltage
+
+---------26:21----------
+that's created by the LDO inside the
+
+---------26:23----------
+chip over here - but it's comparing it
+
+---------26:26----------
+to what SOCOM - so one pin of the chip
+
+---------26:32----------
+is attaching to another pin of the chip
+
+---------26:34----------
+but what for oh well okay so at this
+
+---------26:38----------
+point we're just going to turn brains
+
+---------26:39----------
+off and reserve the brains for later
+
+---------26:41----------
+because I don't have a datasheet and I
+
+---------26:42----------
+don't feel like driving myself nuts so
+
+---------26:45----------
+we're leaving brain mode and or entering
+
+---------26:47----------
+monkey replacement chip mode so let's
+
+---------26:49----------
+just we take this
+
+---------27:06----------
+bye-bye goodbye goodbye sayonara
+
+---------27:52----------
+righty
+
+---------28:00----------
+what a nice big mess with a minute I'm s
+
+---------28:08----------
+has a capacitor in the bottom of it to
+
+---------28:10----------
+look at that alright now this was not a
+
+---------28:17----------
+ten-second repair now I can charge you
+
+---------28:21----------
+more than $200 I'm thinking 400 maybe
+
+---------28:31----------
+let's have Steve with the agreement was
+
+---------28:46----------
+well this is gonna be a mess but Evan oh
+
+---------28:48----------
+well all can be fixed
+
+---------29:01----------
+that was atrocious soldering
+
+---------29:04----------
+atrocious and it's just gonna get worse
+
+---------29:18----------
+look at that nice big saddle ball I saw
+
+---------29:22----------
+her I went I also felt her went it hit
+
+---------29:30----------
+my pinkie as I was running off of the
+
+---------29:31----------
+bar not fast this thing gets hot
+
+---------30:31----------
+smc PMG to en was on this board meaning
+
+---------30:35----------
+that my SMC was not bad
+
+---------30:36----------
+god is good for the most part god is
+
+---------30:41----------
+good it would have really sucked if the
+
+---------30:45----------
+SMC were bad but sometimes just
+
+---------30:48----------
+sometimes he kind of smiles and gives me
+
+---------30:50----------
+a working SMC
+
+---------31:00----------
+ it ran away
+
+---------31:17----------
+this thing is too damn small I look at
+
+---------31:27----------
+that thing
+
+---------31:27----------
+look at the size of the tweezer and look
+
+---------31:29----------
+at the resistor
+
+---------31:36----------
+it's ridiculous but nice try
+
+---------31:48----------
+
+
+---------32:31----------
+it's already gone before I even got it
+
+---------32:33----------
+there it's already gone
+
+---------32:53----------
+Pro points where you can test uh hurts
+
+---------33:01----------
+this is awful that looks like a
+
+---------33:06----------
+kindergarten I did it
+
+---------33:20----------
+that's the beauty of Amtech 5:59 you see
+
+---------33:24----------
+that now look the fight from kid to
+
+---------33:28----------
+guard a professional hey nobody looking
+
+---------33:31----------
+at this is to know that I suck boy that
+
+---------33:36----------
+looked nasty at one point so I'm
+
+---------33:37----------
+interested in seeing what that is right
+
+---------33:42----------
+here that's where PP 3 before to
+
+---------33:46----------
+underscore g3 hot comes into the chip to
+
+---------33:48----------
+create an s5 power good the reason I'm
+
+---------33:51----------
+interested in that is because that power
+
+---------33:53----------
+rail was missing and that was the one
+
+---------33:55----------
+that had the fluctuations on it because
+
+---------33:56----------
+of the short to ground so it makes sense
+
+---------33:58----------
+that that's corroded and I'm gonna check
+
+---------34:01----------
+and make sure that that is present on
+
+---------34:03----------
+the other side of this cuz here's the
+
+---------34:04----------
+other thing so I was looking for enables
+
+---------34:06----------
+right it was actually a very good chance
+
+---------34:08----------
+that that resisted that I didn't check
+
+---------34:09----------
+was the one that was bad and the chip
+
+---------34:10----------
+was good so even though the chip was
+
+---------34:11----------
+being told to turn on watch you know
+
+---------34:14----------
+that this chip was being tilt are told
+
+---------34:15----------
+to turn on before it before it will
+
+---------34:17----------
+actually turn on and wants to see that a
+
+---------34:18----------
+power a good signal is present so there
+
+---------34:20----------
+are different power good signals at
+
+---------34:21----------
+different points in the machine for
+
+---------34:23----------
+example let's say on a retina board the
+
+---------34:33----------
+PCH will want to see p.m. PCH power ok
+
+---------34:36----------
+come in if it doesn't see that it won't
+
+---------34:38----------
+turn on the machine and over here that
+
+---------34:40----------
+resistor is for as five power ok so the
+
+---------34:44----------
+way this works is the s5 rails won't
+
+---------34:46----------
+turn on without PP 3 v 4 to 1 to square
+
+---------34:48----------
+g 3 op coming up sequence is also
+
+---------34:50----------
+important so let's see so that's our 81
+
+---------34:53----------
+41 cs5 nice try open broadcaster said S
+
+---------35:04----------
+5 power good that goes to the SMC it
+
+---------35:14----------
+also goes to this month's not changing
+
+---------35:16----------
+the screen it also goes to this chip
+
+---------35:18----------
+sure it doesn't go to this chip it goes
+
+---------35:20----------
+it comes out of this chip I guess I
+
+---------35:23----------
+guess PP 3 V 4 - is a pull-up for it
+
+---------35:25----------
+either way without that there it kind of
+
+---------35:27----------
+screwed
+
+---------35:29----------
+so let's I didn't do a good job of
+
+---------35:35----------
+explaining that this let's just clean
+
+---------35:38----------
+this area a little bit bunch of put it
+
+---------35:45----------
+in focus you can see so I just kind of
+
+---------35:47----------
+had the flux there so I just heated it
+
+---------35:49----------
+and it moved a bunch of small components
+
+---------35:51----------
+that I poorly soldered back into place
+
+---------35:56----------
+to clean up some of the shorts from the
+
+---------35:58----------
+poor soldering from before was a short
+
+---------36:01----------
+on that side I saw this side wasn't
+
+---------36:03----------
+really soldered that great okay that
+
+---------36:07----------
+short has cleaned up the site is
+
+---------36:14----------
+soldered on
+
+---------36:27----------
+yeah what have I done the thing I'm
+
+---------36:32----------
+using to clean my soldering iron has
+
+---------36:34----------
+more solder on it than the motherboard
+
+---------36:35----------
+does
+
+---------37:02----------
+all right let's see if we have any
+
+---------37:04----------
+changes and also since I have PP 3d for
+
+---------37:06----------
+- I can finally remove these wires power
+
+---------37:09----------
+supply wires from the board
+
+---------37:22----------
+so that means I get to charge more yeah
+
+---------37:30----------
+Rita
+
+---------37:54----------
+and we're done so let's go over what God
+
+---------38:00----------
+fixed here first
+
+---------38:01----------
+P P 3 V 4 2 which is the main power rail
+
+---------38:03----------
+required for the 1 wire circuit was
+
+---------38:05----------
+shorted to ground because of capacitors
+
+---------38:07----------
+by the SMC after that was done the all
+
+---------38:10----------
+es 5 power rails were not turning on it
+
+---------38:12----------
+could have been because the chip was bad
+
+---------38:13----------
+it could have been because that little
+
+---------38:15----------
+resistor that I replaced was bad
+
+---------38:16----------
+sometimes I don't really care what the
+
+---------38:18----------
+actual problem is I just care about
+
+---------38:19----------
+solving it as quickly as I can so once I
+
+---------38:22----------
+saw that that area was corroded and that
+
+---------38:24----------
+that's and that my s 5 rails were not
+
+---------38:25----------
+coming up well first I saw that my a so
+
+---------38:27----------
+rails weren't coming up in there
+
+---------38:28----------
+supposed to so I started looking for the
+
+---------38:30----------
+ones that were higher like the s 5 ones
+
+---------38:31----------
+the S 5 one wasn't coming on so I
+
+---------38:34----------
+checked the chip that controls the S 5
+
+---------38:35----------
+rails it was receiving the enable
+
+---------38:37----------
+signals to receive those as five rails
+
+---------38:39----------
+the power good signal was not coming out
+
+---------38:41----------
+of the chip so at that point you kind of
+
+---------38:43----------
+blame the chip and the things around it
+
+---------38:44----------
+that are corroded we replaced and we're
+
+---------38:46----------
+good again do I need to test this any
+
+---------38:49----------
+further is there anything I have to do
+
+---------38:51----------
+like boot it into Windows and say that
+
+---------38:53----------
+it's good not even that the fans fun
+
+---------38:56----------
+we're done all right so this is what
+
+---------39:00----------
+that same motherboard looks like after
+
+---------39:01----------
+the ultrasonic cleaner so this is the
+
+---------39:04----------
+TPS five or nine eight zero area I'm not
+
+---------39:07----------
+gonna say that it's perfect but as you
+
+---------39:09----------
+can see even though I'm really really
+
+---------39:11----------
+bad at soldering small components all I
+
+---------39:13----------
+really care about is that I get the
+
+---------39:15----------
+component on the board once it's on the
+
+---------39:17----------
+board I don't care how straight it is
+
+---------39:18----------
+I'm gonna use that am tech 559 and hot
+
+---------39:21----------
+air and it's gonna move it in a place so
+
+---------39:22----------
+it's going to look like I am perfect at
+
+---------39:25----------
+soldering I mean really this this this
+
+---------39:27----------
+has a very factory ish feel to it you
+
+---------39:29----------
+would have no idea that a complete idiot
+
+---------39:31----------
+worked on this motherboard which is
+
+---------39:33----------
+pretty cool
+

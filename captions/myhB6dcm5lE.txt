@@ -1,0 +1,1321 @@
+https://www.youtube.com/watch?v=myhB6dcm5lE
+---------00:03----------
+hey everybody how's it going today we're
+
+---------00:06----------
+gonna fix a MacBook here we have an a
+
+---------00:10----------
+1708 that appears to be not turning on
+
+---------00:13----------
+let's open up the bottom of this map but
+
+---------00:15----------
+can try and figure out why it's not
+
+---------00:16----------
+turning on
+
+---------00:17----------
+then see if we can fix it we're gonna
+
+---------00:19----------
+make this MacBook work because we
+
+---------00:20----------
+believe in the future and the power of
+
+---------00:22----------
+the innovation economy I use the
+
+---------00:27----------
+buzzword and my screwdriver literally
+
+---------00:29----------
+dropped out of my hand as I said like I
+
+---------00:31----------
+want innovation to come little wee huh
+
+---------00:35----------
+screwdriver could tell it was being full
+
+---------00:37----------
+of [ __ ] renovation couldn't you we uh
+
+---------00:39----------
+couldn't you we uh oh you're so good oh
+
+---------00:42----------
+yeah you're a good little wee huh you're
+
+---------00:44----------
+not part of the innovation economy now
+
+---------00:46----------
+are you renovation alright so the first
+
+---------00:48----------
+oh no warranty sticker
+
+---------00:50----------
+what are you who are you what company
+
+---------00:53----------
+are you no huh no not a foreign warranty
+
+---------00:58----------
+sticker no you're on the motherboard oh
+
+---------01:02----------
+it looks like flux by what I imagine is
+
+---------01:06----------
+a RAM chip
+
+---------01:13----------
+so over here you can see that when the
+
+---------01:16----------
+battery is unplugged we're drawing five
+
+---------01:18----------
+volts at zero point zero zero milliamps
+
+---------01:20----------
+this is not common I'm not used to
+
+---------01:21----------
+drawing zero point zero zero milliamps
+
+---------01:24----------
+that's very strange
+
+---------01:25----------
+you should be drawing something anything
+
+---------01:27----------
+even if it's you know 0.02 or something
+
+---------01:30----------
+like that if p.m. sleep s4l is missing
+
+---------01:32----------
+that does worry me so let's take your
+
+---------01:35----------
+ica cindy with a y nope
+
+---------01:43----------
+what's your name go hmm what's your name
+
+---------01:47----------
+Erica I've seen Erica hi RW r ec k hey I
+
+---------01:59----------
+think it's kind of funny
+
+---------02:06----------
+let's say we're gonna give this board a
+
+---------02:12----------
+look-see and see what's happening with
+
+---------02:14----------
+it
+
+---------02:14----------
+oh no no okay let's see Erica what do
+
+---------02:23----------
+you see go a bunch of things all right
+
+---------02:34----------
+tell me what you notice renovation some
+
+---------02:39----------
+kind of there's some kind of blob on bow
+
+---------02:41----------
+the bluish looking square can you point
+
+---------02:44----------
+to it how about this I will have my
+
+---------02:46----------
+tweezers here and you tell me when I'm
+
+---------02:48----------
+by this thing yeah where's the blob go
+
+---------02:51----------
+up right no down the other right huh
+
+---------02:56----------
+down okay go up up wait maybe that's
+
+---------03:00----------
+just a smear do you see that one knowing
+
+---------03:02----------
+that oh yes this thing do you know what
+
+---------03:09----------
+that is
+
+---------03:10----------
+no that is flux residue do you know what
+
+---------03:14----------
+flux residue means it's uh the secret
+
+---------03:18----------
+sauce what does it mean if flux is on a
+
+---------03:21----------
+board magical things happen what does it
+
+---------03:26----------
+mean if flux is on a board before I
+
+---------03:27----------
+opened it and did anything to it that
+
+---------03:28----------
+one who worked on it what does that mean
+
+---------03:30----------
+for my likelihood of fixing this not
+
+---------03:33----------
+very good what does that mean for my
+
+---------03:34----------
+likelihood of making money from this
+
+---------03:36----------
+repair well it's possible you just have
+
+---------03:41----------
+to fix their missile what does that mean
+
+---------03:43----------
+my incentive in general morale and
+
+---------03:45----------
+excitement towards working on this
+
+---------03:47----------
+particular MacBook not very high but you
+
+---------03:52----------
+may want a challenge you know me well so
+
+---------03:54----------
+let's go over what's going on here on
+
+---------03:57----------
+why I went straight to this chip so the
+
+---------03:58----------
+first thing to understand here is that
+
+---------04:00----------
+on this machine in order for the charger
+
+---------04:02----------
+to speak to the machine and you know
+
+---------04:06----------
+just turn on 220 volts it needs to talk
+
+---------04:09----------
+to these two cd32 that steamships over
+
+---------04:10----------
+here so this charger it can put out
+
+---------04:13----------
+multiple different voltages it can put
+
+---------04:14----------
+out five volts if it's plugged into my
+
+---------04:16----------
+lg phone it can put out nine volt if
+
+---------04:19----------
+it's plugged into my LG
+
+---------04:20----------
+but the screen is off in which case
+
+---------04:21----------
+it'll fast charge and it can put out
+
+---------04:23----------
+twenty volts plug into a MacBook but it
+
+---------04:25----------
+needs to talk to the computer in order
+
+---------04:26----------
+to do that and in order to do that let's
+
+---------04:28----------
+just open up a schematic and a board
+
+---------04:30----------
+view schematic board view it's this chip
+
+---------04:36----------
+this chip is going to deal with speaking
+
+---------04:38----------
+to the charger now this chip is powered
+
+---------04:41----------
+by none other than voltage in P R P P 3
+
+---------04:46----------
+V 3 underscore g3 hot now let's see if P
+
+---------04:50----------
+P 3 V 3 underscore g3 hot is present on
+
+---------04:53----------
+this MacBook that is gonna be the rail
+
+---------04:55----------
+that is required for all of these chips
+
+---------04:57----------
+to actually work and turn on we're gonna
+
+---------05:00----------
+turn on Paul Daniels as multimeter
+
+---------05:02----------
+software let's see if Erica is a good
+
+---------05:04----------
+luck charm and Paul Daniels as software
+
+---------05:05----------
+works while in her presence renovation
+
+---------05:10----------
+zero volts so let's go over the circuit
+
+---------05:13----------
+responsible for creating PP 3 V 3
+
+---------05:14----------
+underscore g3 hot and see how that works
+
+---------05:17----------
+P P 3 V 3 underscore g3 hot is created
+
+---------05:20----------
+this over here is the circuit
+
+---------05:23----------
+responsible for creating PP 3 V 3
+
+---------05:26----------
+underscore g3 hot it looks very similar
+
+---------05:29----------
+to the circuit responsible for creating
+
+---------05:31----------
+something called
+
+---------05:32----------
+PP 3 before to underscore g3 hot in the
+
+---------05:35----------
+older machines now if you take a look at
+
+---------05:36----------
+this circuit it's very similar it's got
+
+---------05:38----------
+your input from the battery your input
+
+---------05:40----------
+from the charger and then over here it's
+
+---------05:43----------
+going to take that 18 or 12 volts in and
+
+---------05:45----------
+turn it into 3.3 volts out however it
+
+---------05:49----------
+needs to turn on and the way the ship is
+
+---------05:51----------
+gonna turn on is when it gets voltage
+
+---------05:52----------
+add it's an enable pin the enable
+
+---------05:55----------
+voltage is going to come from PM
+
+---------05:56----------
+underscore en p3 v3 underscore g3 on
+
+---------06:00----------
+underscore R which comes from r6 9 9 1
+
+---------06:03----------
+which comes from p.m. en p3 v3
+
+---------06:06----------
+underscore g3 huh how do I know that
+
+---------06:07----------
+this is a signal that goes into it
+
+---------06:09----------
+rather than out besides the fact that
+
+---------06:10----------
+the chip is not going to want to enable
+
+---------06:12----------
+other stuff this means enable for this
+
+---------06:13----------
+chip it also says in over here which is
+
+---------06:16----------
+important see where it says in alright
+
+---------06:19----------
+now if we click on this to try to figure
+
+---------06:22----------
+out where it comes from in the schematic
+
+---------06:24----------
+software that's coded by paul daniels
+
+---------06:29----------
+you'll see that comes from you 7,000
+
+---------06:33----------
+7,000 is the chip that's going to create
+
+---------06:35----------
+that you 7,000 is the ISL nine two three
+
+---------06:38----------
+nine conveniently available on store dot
+
+---------06:41----------
+Rosman group.com list at his is L six
+
+---------06:44----------
+two five nine in the schematic because
+
+---------06:45----------
+the person who put together the
+
+---------06:46----------
+schematic is too lazy to put down the
+
+---------06:49----------
+right thing and the unauthorized repair
+
+---------06:52----------
+people are the one that shouldn't have
+
+---------06:53----------
+access to the diagrams perhaps if we had
+
+---------06:55----------
+access to the diagrams we'd be able to
+
+---------06:57----------
+correct them but I digress if we go down
+
+---------07:00----------
+here you'll see that that chip looks
+
+---------07:02----------
+like [ __ ] which means that somebody
+
+---------07:04----------
+probably tried to reflow it or simply
+
+---------07:05----------
+stride to solder it on and was unable to
+
+---------07:07----------
+do it properly so first thing I'm gonna
+
+---------07:09----------
+do I'm gonna be gonna measure to see if
+
+---------07:11----------
+that signals there I know it's not there
+
+---------07:12----------
+because some dumbass messed with the
+
+---------07:14----------
+chip so let see what they did we're just
+
+---------07:17----------
+gonna put a very small amount of flux
+
+---------07:18----------
+over there reasonable amount exactly
+
+---------07:25----------
+it's like a tiny is just a P it's barely
+
+---------07:26----------
+any flux at all Erica they recommend you
+
+---------07:29----------
+to use or brushing your teeth right yep
+
+---------07:31----------
+just like brushing your teeth go just
+
+---------07:34----------
+like brushing your teeth
+
+---------07:39----------
+by the way um Oriol is doing good here
+
+---------07:42----------
+he was very low energy I believe he
+
+---------07:45----------
+noticed we were gone because because
+
+---------07:49----------
+when he saw us he he just wanted
+
+---------07:53----------
+greenies from us and for food
+
+---------08:02----------
+all right what do you think we're gonna
+
+---------08:04----------
+find under this chip old
+
+---------08:33----------
+does he didn't kill the cheap with my
+
+---------08:37----------
+gas bill it sure does
+
+---------08:39----------
+I pay something like three to five
+
+---------08:42----------
+hundred dollars a month in the winter
+
+---------08:43----------
+for gas and I am very cheap that does
+
+---------08:45----------
+kill me it does piss me off
+
+---------08:47----------
+luckily I enjoy the cold I love the cold
+
+---------08:50----------
+so in my apartment in the winter there's
+
+---------08:52----------
+never heat on
+
+---------08:54----------
+however at all I think it's great I
+
+---------08:58----------
+think there's absolutely no need to
+
+---------09:01----------
+waste money on heat because I enjoy a
+
+---------09:03----------
+naturally cold environment you're gonna
+
+---------09:05----------
+be a popsicle I like being a popsicle
+
+---------09:11----------
+how do you feel about seven degree
+
+---------09:14----------
+weather outside crying I don't know if
+
+---------09:17----------
+the human body is the most uh handle at
+
+---------09:20----------
+low temperature you come from a fairly
+
+---------09:22----------
+cold environment though don't you know
+
+---------09:25----------
+Hawaii is not cold it's very tropical
+
+---------09:27----------
+you know it's landed the beaches not the
+
+---------09:30----------
+frozen beaches either
+
+---------09:31----------
+and the palm trees not the pine trees
+
+---------09:34----------
+hey I really did the I got confused
+
+---------09:40----------
+between palm tree and pine tree he was
+
+---------09:42----------
+uh he was recording something and he was
+
+---------09:45----------
+saying them end up and the pine tree
+
+---------09:47----------
+keeps on piney we're on a beach like you
+
+---------09:52----------
+know what's going on what is this pine
+
+---------09:54----------
+tree palm tree palm tree what did I say
+
+---------09:58----------
+I said like the ocean keeps the ocean in
+
+---------09:59----------
+or something and the pine tree keeps on
+
+---------10:01----------
+pining
+
+---------10:12----------
+that is not the sound of a phone ringing
+
+---------10:14----------
+that is not the sound of PM sleep s4l
+
+---------10:17----------
+missing or an apple chime that is not
+
+---------10:20----------
+the sound of a customer complaining that
+
+---------10:22----------
+if they don't have it done in one hour
+
+---------10:23----------
+they will leave a one-star yelp review
+
+---------10:25----------
+and then we should really listen to them
+
+---------10:26----------
+because they are in a leader on Yelp and
+
+---------10:28----------
+their review matters that is the sound
+
+---------10:31----------
+of waves hitting up against the beach
+
+---------10:34----------
+the shore and then the waves go out any
+
+---------10:41----------
+waves come in and the waves come out
+
+---------10:45----------
+this little torch over there continues
+
+---------10:49----------
+to burn the pine tree continues to pie
+
+---------10:51----------
+and the ocean continues to ocean
+
+---------10:56----------
+yeah
+
+---------11:01----------
+yes on the sandy beaches / Lewis there
+
+---------11:05----------
+is a pine tree yeah I was gonna install
+
+---------11:09----------
+a split system that had that which
+
+---------11:10----------
+requires access to choirs me being able
+
+---------11:13----------
+to communicate with the building
+
+---------11:15----------
+we finally got communication with them
+
+---------11:17----------
+after three months all it took was me
+
+---------11:20----------
+calling them a slumlord in a video that
+
+---------11:21----------
+had a hundred thousand views on YouTube
+
+---------11:23----------
+yeah cuz you're an influencer now so you
+
+---------11:24----------
+influence so far being an influencer is
+
+---------11:28----------
+not been good for anything but he your
+
+---------11:31----------
+influence or status backfired on you
+
+---------11:33----------
+with the landlord yeah I influence the
+
+---------11:36----------
+landlord to think I'm a con good
+
+---------11:40----------
+honestly I'm glad that happened though
+
+---------11:42----------
+power is too strong that place was gonna
+
+---------11:45----------
+cost me like on the low side was about a
+
+---------11:47----------
+hundred fifty thousand or renovate fix
+
+---------11:49----------
+all the [ __ ] up demo
+
+---------11:51----------
+I mean the demolition cause even though
+
+---------11:53----------
+we got it negotiated up to two hundred
+
+---------11:54----------
+thousand given the cost of construction
+
+---------11:56----------
+them amortize it so every year twenty
+
+---------11:58----------
+thousand comes off wasn't gonna work any
+
+---------12:00----------
+more they weren't interested in going
+
+---------12:02----------
+back and forth on negotiations any more
+
+---------12:04----------
+than they already did and getting six
+
+---------12:06----------
+months free was going to be virtually
+
+---------12:08----------
+impossible and upgrading that stored up
+
+---------12:13----------
+you seriously just fly into the air
+
+---------12:15----------
+filter really my chip just flew away
+
+---------12:19----------
+into the air filter by Davidson ain't my
+
+---------12:22----------
+chip you bastard
+
+---------12:24----------
+where'd you go where'd you go well Falls
+
+---------12:27----------
+to come back are you it are you my chip
+
+---------12:32----------
+wait is this the one that I threw away
+
+---------12:33----------
+or is this the new one no this is the
+
+---------12:36----------
+old one that has balls missing where's
+
+---------12:38----------
+my chip where'd you go hey why are you
+
+---------12:40----------
+throwing it on the floor cuz that's how
+
+---------12:42----------
+I do that like the next dimension or
+
+---------12:44----------
+something it's actually the fifth
+
+---------12:45----------
+dimension the sixth of the fifth
+
+---------12:47----------
+dimension I forget what I call it my
+
+---------12:49----------
+chip just flew net on your fume
+
+---------12:53----------
+extractor no you got to squeeze your way
+
+---------12:57----------
+in says Oleg sirico for a dollar
+
+---------13:00----------
+ninety-nine cents you know that's
+
+---------13:03----------
+fitting nicely if you get into the spots
+
+---------13:06----------
+around here you bump into one another
+
+---------13:08----------
+pretty quick easily sometimes you just
+
+---------13:11----------
+to shove your way in
+
+---------13:12----------
+yeah sometimes people may tell you
+
+---------13:16----------
+you're in the wrong spot but you know
+
+---------13:18----------
+sometimes you just got to assert
+
+---------13:19----------
+dominance and make it yours Oh Catherine
+
+---------13:28----------
+Catherine's here how are you doing today
+
+---------13:41----------
+Louis you know if it's worth it a
+
+---------13:43----------
+possible place record the GPO on @w 520
+
+---------13:45----------
+ThinkPad worth it are you no no again
+
+---------13:48----------
+worth it is subjective worth it is
+
+---------13:50----------
+subjective in my opinion sock no all
+
+---------13:57----------
+right oh yeah then a MacBook Air has got
+
+---------14:00----------
+to probably have a better GPU than that
+
+---------14:01----------
+thing by now it's just even if you
+
+---------14:03----------
+upgrade it it's gonna be you have
+
+---------14:05----------
+limited options to put in there I
+
+---------14:08----------
+wouldn't do it
+
+---------14:14----------
+if you want to do it for lulz go for it
+
+---------14:17----------
+but you're gonna waste a lot of time a
+
+---------14:18----------
+lot of money trying to find a chip
+
+---------14:22----------
+that's actually good you're trying to
+
+---------14:23----------
+find a BGA chip to an eight year old
+
+---------14:25----------
+laptop that hasn't been produced in god
+
+---------14:27----------
+knows how long
+
+---------14:28----------
+what you get is gonna be garbage so they
+
+---------14:30----------
+said no to your terms xxx is dead now
+
+---------14:32----------
+yeah there were a xxx was open - they
+
+---------14:36----------
+were open to four months free rather
+
+---------14:38----------
+than three since I'm gonna be redoing
+
+---------14:40----------
+that I'm gonna be spending you know an
+
+---------14:41----------
+additional probably 10 or 15,000 on
+
+---------14:43----------
+electrician to get their stuff up to
+
+---------14:45----------
+code
+
+---------14:45----------
+the construction went considerably over
+
+---------14:47----------
+what I thought for four months and I you
+
+---------14:51----------
+know part of that is probably influenced
+
+---------14:53----------
+by the fact that they saw me calling
+
+---------14:54----------
+them yeah liberal use of the C word but
+
+---------14:58----------
+the word that's not a very good
+
+---------15:00----------
+negotiation tactic I thought I was
+
+---------15:02----------
+leaving and honestly with that video
+
+---------15:04----------
+would that really taught me is when you
+
+---------15:05----------
+leave and you walk away for a good
+
+---------15:07----------
+reason
+
+---------15:07----------
+trust your decision I should have
+
+---------15:10----------
+trusted my decision I really should have
+
+---------15:11----------
+you know the guy really put some effort
+
+---------15:13----------
+in on the phone to try to get me to
+
+---------15:15----------
+reconsider the space do another
+
+---------15:16----------
+walkthrough talk it over think over the
+
+---------15:18----------
+terms that would work for you and
+
+---------15:20----------
+honestly at the end of the day the terms
+
+---------15:21----------
+that work is yeah and also the other
+
+---------15:25----------
+thing too is that you can walk away and
+
+---------15:27----------
+say no but once you drop the C word
+
+---------15:29----------
+expect the door to be shut slam that
+
+---------15:31----------
+when I slam the door I prefer for that
+
+---------15:33----------
+door to stay slam shut because I slammed
+
+---------15:35----------
+it for a good reason and I kind of
+
+---------15:39----------
+disappointed that I didn't trust myself
+
+---------15:40----------
+and I decided to go back there all right
+
+---------15:42----------
+let's see if this is still stuck at 5
+
+---------15:44----------
+volt zero amps 5 volts 20 milliamps 12
+
+---------15:49----------
+volts 19 volts 20 volts 600 millets
+
+---------15:52----------
+yes yes you work you did it I have
+
+---------15:57----------
+achieved the innovation economy I am
+
+---------16:00----------
+part of the innovation economy
+
+---------16:01----------
+I am the innovation economy are you part
+
+---------16:05----------
+of the innovation economy girl I'm with
+
+---------16:08----------
+you so if you're part of it
+
+---------16:10----------
+I guess I'll - damn straight so let's go
+
+---------16:12----------
+over what was going on here it looks
+
+---------16:13----------
+like Oh what oh ok ok what was going on
+
+---------16:17----------
+here actually you know what you know
+
+---------16:20----------
+what let's see if you were paying
+
+---------16:22----------
+attention what was wrong with this board
+
+---------16:25----------
+go huh
+
+---------16:26----------
+yeah don't okay someone tried to repair
+
+---------16:31----------
+it and it didn't work and then you had
+
+---------16:34----------
+to go ahead and look at the power rails
+
+---------16:36----------
+which is the people and then you went
+
+---------16:42----------
+ahead and you put a chip on there and
+
+---------16:45----------
+then that got sucked up into your your
+
+---------16:47----------
+holy fume extractor and then you put
+
+---------16:50----------
+another one and then it it worked what
+
+---------16:52----------
+power I was missing what was the
+
+---------16:56----------
+importance of the power rail that was
+
+---------16:57----------
+missing it's the main power rail
+
+---------16:59----------
+what does that power will do it's a
+
+---------17:01----------
+buzzword girl you just said innovation
+
+---------17:03----------
+economy main power rail what is that
+
+---------17:06----------
+power rail for I don't know do you
+
+---------17:11----------
+actually watch my content I watch it but
+
+---------17:14----------
+do you I do but I only watch you I don't
+
+---------17:17----------
+watch the chips you don't watch yeah I
+
+---------17:20----------
+go cry now you're gonna cry cry
+
+---------17:22----------
+renovation so let's go I was wrong with
+
+---------17:24----------
+this board so it looks like the issue
+
+---------17:26----------
+that we were having
+
+---------17:26----------
+thank you very much team D'Angelo the
+
+---------17:28----------
+issue we're having is that we're getting
+
+---------17:29----------
+five volts in the charger and zero
+
+---------17:31----------
+milliamps not 0.02 which would be 20
+
+---------17:34----------
+milliamp so we're getting straight-up
+
+---------17:35----------
+zero now in order for this charger to
+
+---------17:37----------
+get to 20 volts it needs to speak with a
+
+---------17:39----------
+chip on the board
+
+---------17:41----------
+the cd32 15 the cd32 15 is a USBC MUX
+
+---------17:44----------
+chip included on any one of these
+
+---------17:46----------
+machines that has a USB C port I also
+
+---------17:48----------
+like to call a cloaca it's kind of like
+
+---------17:51----------
+a multi-purpose orifice as as a Frank
+
+---------17:54----------
+would say so with that chip needs is pp
+
+---------17:57----------
+3 B 3 underscore g3 huh in order to work
+
+---------17:59----------
+that's a power rel it's acquired for
+
+---------18:00----------
+that chip to turn on if it's not present
+
+---------18:02----------
+it won't turn on so when we decided to
+
+---------18:04----------
+take a look we saw that that power rail
+
+---------18:07----------
+was missing and that power rail is going
+
+---------18:09----------
+to be enabled by the is l9 239 which
+
+---------18:12----------
+creates an enable signal that is
+
+---------18:14----------
+required for the power rail to turn on
+
+---------18:16----------
+now what's going on with this board is
+
+---------18:18----------
+that in order for a PB 3 V 3 underscore
+
+---------18:21----------
+g3 out to turn on the chip needs to make
+
+---------18:22----------
+it in order for the chip to make it is
+
+---------18:24----------
+l9 to 390 s to send out an enable signal
+
+---------18:26----------
+so we took a look at the ISO 93 9
+
+---------18:28----------
+section of the board and it looked like
+
+---------18:30----------
+what I would expect from from asset
+
+---------18:33----------
+genie actually this looks like an asset
+
+---------18:35----------
+genie morin see sticker
+
+---------18:39----------
+oh joy look at that these are the same
+
+---------18:43----------
+guys that used to reflow GPUs instead of
+
+---------18:45----------
+replacing 95/60
+
+---------18:47----------
+good job asset genie good job as a genie
+
+---------18:50----------
+innovation
+
+---------18:51----------
+I said genies also a company that thinks
+
+---------18:53----------
+I owe them five or ten ltn 1/5 for BT o2
+
+---------18:55----------
+is from 2011 I keep track of your army
+
+---------18:59----------
+is better and keep track of whoever the
+
+---------19:01----------
+[ __ ] is diagnosing these boards you
+
+---------19:03----------
+reflow the ISO nine to three nine
+
+---------19:04----------
+without replacing and are you [ __ ]
+
+---------19:06----------
+serious that's a five dollar chip you
+
+---------19:08----------
+[ __ ] noob and I wouldn't be I really
+
+---------19:10----------
+wouldn't be saying that if it wasn't for
+
+---------19:11----------
+the fact that they claimed that I owe
+
+---------19:12----------
+them $2,000 worth of screens that I
+
+---------19:14----------
+don't
+
+---------19:15----------
+I sent them back to you I sent you back
+
+---------19:18----------
+your stinking RMA's Jeremy Bilski but
+
+---------19:20----------
+anyway the issue that we're having over
+
+---------19:23----------
+here is that that is l9 239 that creates
+
+---------19:26----------
+the enable signal who is not creating
+
+---------19:29----------
+the enable signal so we took the old
+
+---------19:32----------
+chip off we put a new chip on and now
+
+---------19:34----------
+this board works
+
+---------19:35----------
+that's all it needed this whole time
+
+---------19:37----------
+renovation and a hug let's see so this
+
+---------19:45----------
+was sent in by OU school which I'm
+
+---------19:51----------
+hopefully stealing from asset genie as a
+
+---------19:53----------
+client
+
+---------19:55----------
+take that Jeremy Bilski and that's it
+
+---------19:59----------
+for today and as always I hope you
+
+---------20:01----------
+learned something
+
+---------20:02----------
+see you in the next video and
+
+---------20:05----------
+[Music]
+

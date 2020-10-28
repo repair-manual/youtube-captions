@@ -1,0 +1,673 @@
+https://www.youtube.com/watch?v=P89b9oKxxfU
+---------00:00----------
+all right today we're working on a
+
+---------00:03----------
+MacBook Air 34 37 bore but no backlight
+
+---------00:06----------
+it's one of the more recent ones only go
+
+---------00:08----------
+over what I did here honest I'm a little
+
+---------00:10----------
+busy because I've spent the last six
+
+---------00:12----------
+hours in the microscope and also some of
+
+---------00:15----------
+it was done at 20x I hate using the 20x
+
+---------00:17----------
+lenses because they have it's not
+
+---------00:19----------
+looking through a keyhole
+
+---------00:20----------
+honestly I don't have enough experience
+
+---------00:22----------
+with microscopes to know if that's all
+
+---------00:23----------
+of them well if mine just sucks but when
+
+---------00:26----------
+I change the 10x lens to 20 I'm sure you
+
+---------00:29----------
+hear so this is the 10x lens here as in
+
+---------00:32----------
+a nice big peephole and then you have
+
+---------00:34----------
+these 20x lenses look large people tiny
+
+---------00:50----------
+people and when you're looking through
+
+---------00:52----------
+this not only is it is it kind of more
+
+---------00:54----------
+painful because there's 20x but when
+
+---------00:56----------
+you're looking through this thing it's
+
+---------00:57----------
+like the sales guy who said it's like
+
+---------01:01----------
+you're trying to look through the
+
+---------01:02----------
+keyhole that's it's a joke and it really
+
+---------01:05----------
+gives you aging one right now right so
+
+---------01:10----------
+let's go over what we did to this the
+
+---------01:12----------
+first thing I notice is that the LVDS
+
+---------01:13----------
+was completely sodomized
+
+---------01:16----------
+pins missing pads missing I started a
+
+---------01:18----------
+new one no backlight and the fuse was
+
+---------01:21----------
+not blown which is good I had 8 to 12
+
+---------01:24----------
+volts at the fuse and I also had a
+
+---------01:27----------
+measurement of 0.5 for one and I add
+
+---------01:30----------
+mode with my multimeter
+
+---------01:32----------
+so let's check this out right here let
+
+---------01:33----------
+me show you what I mean so that's the
+
+---------01:35----------
+multimeter we had one over
+
+---------01:36----------
+mode in previous videos diode mode is
+
+---------01:39----------
+different than resistance similar but
+
+---------01:42----------
+different measures the voltage drop in
+
+---------01:43----------
+the circuit so I put the positive lead
+
+---------01:45----------
+on ground it's down for this so
+
+---------01:48----------
+that I can actually work okay come on
+
+---------01:52----------
+camera if you're tired of these videos
+
+---------01:56----------
+looking like you're welcome to
+
+---------01:57----------
+reply to my other video and help me pick
+
+---------01:59----------
+out a new setup this will be for you
+
+---------02:04----------
+and the measurement you should get with
+
+---------02:06----------
+anything based on an LP
+
+---------02:08----------
+8550 is something like this I'm gonna
+
+---------02:10----------
+try to hold this like chopsticks this
+
+---------02:14----------
+0.53 one or this honestly is fine I had
+
+---------02:21----------
+pointed in five four five point five
+
+---------02:22----------
+four five four one or something like
+
+---------02:25----------
+that and what that indicates is that
+
+---------02:28----------
+there isn't as much going to ground now
+
+---------02:30----------
+the LP 8550 being an amplifier circuit
+
+---------02:33----------
+obviously has some connection to ground
+
+---------02:35----------
+so that would mean that there is a
+
+---------02:36----------
+connection missing somewhere in the
+
+---------02:38----------
+output going to something that would be
+
+---------02:40----------
+going to ground now what could that be
+
+---------02:43----------
+let's look here what's after the output
+
+---------02:46----------
+we have these capacitors going to ground
+
+---------02:48----------
+and notice those never fail no we have
+
+---------02:51----------
+this little feedback circuit here took
+
+---------02:53----------
+the out so LCD booklets foot which is P
+
+---------02:58----------
+is the LCD backlight output feedback now
+
+---------03:03----------
+most amplifiers have feedback it tells
+
+---------03:05----------
+them what they're doing so after they've
+
+---------03:06----------
+done the actual application so here's
+
+---------03:08----------
+the 12 volts that comes in here is it
+
+---------03:11----------
+getting combined with something from the
+
+---------03:13----------
+amplifier the LP 8550 amplifier and
+
+---------03:16----------
+here's the point where it gets bigger so
+
+---------03:19----------
+over there there's a feedback line now
+
+---------03:22----------
+what feedback does is it tells the amp
+
+---------03:23----------
+what it's doing so an audio amplifiers a
+
+---------03:25----------
+lot of them use something called
+
+---------03:26----------
+negative feedback which is where the
+
+---------03:29----------
+amplifier will adjust what it's doing to
+
+---------03:32----------
+the input signal based on the output so
+
+---------03:35----------
+it does is it compares the output to the
+
+---------03:37----------
+input signal of course it's the output
+
+---------03:40----------
+signal down
+
+---------03:40----------
+so it'll match the input that's not
+
+---------03:42----------
+amplified and then it modifies the input
+
+---------03:44----------
+signal a little bit to try to remove the
+
+---------03:46----------
+distortion in real-time and there are
+
+---------03:48----------
+all these raging Wars out there as to
+
+---------03:50----------
+whether that's a good way to combat
+
+---------03:51----------
+distortion whether it's not a good way
+
+---------03:53----------
+to combat distortion and there's this
+
+---------03:56----------
+little guy who disagrees it's like it
+
+---------03:58----------
+looks like mr. Mixel bit like some from
+
+---------04:00----------
+Superman that is an entire company based
+
+---------04:02----------
+on the idea of no no feed negative
+
+---------04:05----------
+feedback in amplifiers and they actually
+
+---------04:07----------
+sound pretty good although they're
+
+---------04:08----------
+expensive and I'm getting way off topic
+
+---------04:10----------
+here so most amplifiers have a feedback
+
+---------04:13----------
+circuit and so does this one so what
+
+---------04:15----------
+after the amplifier could possibly go to
+
+---------04:17----------
+ground that's missing because remember
+
+---------04:19----------
+the measurement I'm supposed to get is
+
+---------04:20----------
+0.5 31 and the measurement I am getting
+
+---------04:23----------
+is 0.5 for 1 what that means is that
+
+---------04:25----------
+there is not as much of a voltage drop
+
+---------04:27----------
+as there was before between the
+
+---------04:29----------
+amplifier and ground so it's this
+
+---------04:31----------
+obviously it's this is the only thing
+
+---------04:33----------
+left so what I did is I decided to try
+
+---------04:35----------
+to measure from this diode or the any of
+
+---------04:38----------
+these capacitors here to this pad on the
+
+---------04:42----------
+after I removed the LP 8550 and there
+
+---------04:46----------
+was nothing there there was no
+
+---------04:48----------
+continuity so this which is supposed to
+
+---------04:50----------
+connect to this was not connecting to
+
+---------04:52----------
+that and that happens a lot of the time
+
+---------04:54----------
+because this is as you can see right up
+
+---------04:56----------
+to the amplifier circuit this is the
+
+---------04:57----------
+first thing in line which so it's often
+
+---------04:59----------
+the first thing you get that's a
+
+---------05:01----------
+tiny little board trace and it's easy
+
+---------05:03----------
+for it to get you're not gonna
+
+---------05:04----------
+ any of these big capacitors but you
+
+---------05:06----------
+are getting gonna this board trace
+
+---------05:08----------
+and by the way if the voltage that went
+
+---------05:10----------
+through here was enough that it
+
+---------05:11----------
+sodomized the LVDS pins if it went
+
+---------05:13----------
+through here and syn burned metal you
+
+---------05:16----------
+can bet your ass would probably burn the
+
+---------05:17----------
+little portrait so here's what I did
+
+---------05:21----------
+now I don't want to solder a wire under
+
+---------05:25----------
+a BGA under a BGA chip set because
+
+---------05:28----------
+that's that's not fun that's that's not
+
+---------05:31----------
+fun in the least but luckily on this
+
+---------05:33----------
+board
+
+---------05:34----------
+there is a probe point you see try to
+
+---------05:37----------
+zoom in on that again if you want a
+
+---------05:39----------
+better camera please go over to the
+
+---------05:41----------
+other video and recommend what I should
+
+---------05:43----------
+get because I'm not spending money and
+
+---------05:45----------
+so I'm absolutely satisfied I'm gonna
+
+---------05:47----------
+get something cool it's time to light on
+
+---------05:49----------
+here I missed it
+
+---------05:52----------
+LED lights for the camera will make this
+
+---------05:54----------
+better view hopefully I also have to
+
+---------05:58----------
+clean the flux off this let me do that
+
+---------05:59----------
+so you can get a better keep alcohol
+
+---------06:06----------
+alcohol bin is almost empty he's pour it
+
+---------06:08----------
+on
+
+---------06:16----------
+toothbrush
+
+---------06:25----------
+there
+
+---------06:29----------
+mm-hmm it looks like
+
+---------06:35----------
+so this is the diode this is this is
+
+---------06:38----------
+this see this is where see this is after
+
+---------06:43----------
+the amplification too much right now
+
+---------06:50----------
+luckily there is a probe point right
+
+---------06:52----------
+here and that is for the feedback so
+
+---------06:57----------
+what I did is like beeps that probe
+
+---------06:59----------
+point when I say beep I mean continuity
+
+---------07:01----------
+test on my multimeter i beep that probe
+
+---------07:02----------
+point to the feedback pad on the bottom
+
+---------07:06----------
+of the board where the lp identities so
+
+---------07:08----------
+here's the LP 8550 that's here is the LP
+
+---------07:15----------
+8550 there's a resistor that goes to the
+
+---------07:17----------
+SMC that i knocked off that i have to
+
+---------07:19----------
+replace but i don't care about that
+
+---------07:21----------
+right now because my back might actually
+
+---------07:22----------
+works anyway so this is the LP 8550 and
+
+---------07:25----------
+on the bottom right there is a pad on
+
+---------07:27----------
+the bottom of the chip for feedback so
+
+---------07:29----------
+what I did is I use a continuity test on
+
+---------07:31----------
+the multimeter and I beat to that to
+
+---------07:32----------
+that pad and it worked so what that
+
+---------07:35----------
+means is that instead of having to run a
+
+---------07:36----------
+wire around the board torture myself to
+
+---------07:38----------
+get my feedback working all I did is I
+
+---------07:40----------
+put a wire between the output of the
+
+---------07:42----------
+amplifier and that probe point because
+
+---------07:45----------
+that probe point is going to feedback on
+
+---------07:47----------
+the on the LP 8550 M
+
+---------07:50----------
+after I did that my measurement read
+
+---------07:53----------
+fine I got the zero point five to six
+
+---------07:55----------
+five to eight that you saw before but I
+
+---------07:57----------
+still had no backlit because the pads
+
+---------07:59----------
+that I thought were good we're not good
+
+---------08:01----------
+and also the trace is going to the
+
+---------08:03----------
+- so that's here so I put this
+
+---------08:07----------
+nasty looking wire here to see if that
+
+---------08:10----------
+would fix it
+
+---------08:10----------
+and it did fix it and this is this is by
+
+---------08:13----------
+the way a shitty way to put the
+
+---------08:14----------
+wire because it sits as I move it
+
+---------08:17----------
+see I bent it over here so that when I
+
+---------08:19----------
+move it back and forth it moves it at
+
+---------08:20----------
+the bend point and not at the point that
+
+---------08:23----------
+is soldered to the pins in the chip see
+
+---------08:25----------
+I bent it over there i credit i crimped
+
+---------08:27----------
+it kind of with my nail so that when it
+
+---------08:29----------
+was back and forth it's not moving the
+
+---------08:31----------
+pads at least but still this is a
+
+---------08:32----------
+fucked-up way to do it you have to run
+
+---------08:33----------
+the wire flat on the board yeah I put
+
+---------08:35----------
+that wire there and then my
+
+---------08:37----------
+actually worked I am gonna come in
+
+---------08:40----------
+tomorrow when I'm not dizzy and put a
+
+---------08:42----------
+nice neat wire there instead of this no
+
+---------08:44----------
+LVDS cable horseshit no cortical cord it
+
+---------08:47----------
+up so that no it looks nice and stays
+
+---------08:50----------
+there well that's just for testing and I
+
+---------08:53----------
+have a minute left on my SD card so I
+
+---------08:55----------
+don't have time to keep talking anymore
+
+---------08:57----------
+hopefully this was helpful to you and if
+
+---------08:59----------
+you have any questions feel free to ask
+
+---------09:01----------
+feel free to type them and I do not feel
+
+---------09:03----------
+free to call if you call me and they
+
+---------09:05----------
+interrupt what I'm doing in my pain work
+
+---------09:08----------
+or my staff gets their paying work
+
+---------09:11----------
+interrupted for you to ask what's the
+
+---------09:13----------
+best way to solder a PG a packrat AC we
+
+---------09:15----------
+will rage and probably hang up on you
+
+---------09:17----------
+anyway that's pretty much it thanks for
+
+---------09:20----------
+you
+

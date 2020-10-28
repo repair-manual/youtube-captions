@@ -1,0 +1,658 @@
+https://www.youtube.com/watch?v=jG0WpGu-0Mk
+---------00:00----------
+all right so today we're gonna be
+
+---------00:01----------
+working on a machine that has no video
+
+---------00:03----------
+on the screen and we're gonna be solving
+
+---------00:05----------
+something that the Apple recall of this
+
+---------00:06----------
+computer could not solve back in 2012
+
+---------00:09----------
+and 13 so this is an 8 to 0 2850
+
+---------00:12----------
+motherboard that has no image on the
+
+---------00:14----------
+screen when it turns on so it's turning
+
+---------00:16----------
+on right now but you get no picture on
+
+---------00:20----------
+the screen now credit is gonna go to do
+
+---------00:23----------
+Co at chip masters for this because he
+
+---------00:26----------
+has been working nonstop to figure this
+
+---------00:28----------
+out in hell if I'm gonna take credit for
+
+---------00:30----------
+what was his idea which is or related to
+
+---------00:33----------
+the problem on the 2008-9 model so what
+
+---------00:36----------
+you're gonna notice in the 2008-9 model
+
+---------00:38----------
+a 1286 is that it'll be charging but
+
+---------00:40----------
+you'll have a missing power L which is P
+
+---------00:42----------
+P 1 vo 5 underscore s 5 underscore MC P
+
+---------00:44----------
+and you'll have point 3 volts there
+
+---------00:46----------
+instead of 1 point 0 5 volts there and
+
+---------00:49----------
+the problem is that there is a very
+
+---------00:50----------
+little tantalum capacitor on the end of
+
+---------00:53----------
+it that is there instead of let's say a
+
+---------00:54----------
+polymer film or something that is better
+
+---------00:56----------
+suited for it so let me just show you
+
+---------00:58----------
+what's going on over there on the
+
+---------01:01----------
+schematic wireless keyboard you
+
+---------01:05----------
+piece of here we go this what
+
+---------01:08----------
+happens if you drop six pounds of leaded
+
+---------01:10----------
+solder balls into your keyboard so this
+
+---------01:12----------
+buck converter over here instead of
+
+---------01:13----------
+putting at one point zero 5 volts we'll
+
+---------01:15----------
+be putting out point three because of
+
+---------01:17----------
+this camp and solution to fixing this
+
+---------01:19----------
+you can replace it with an electrolytic
+
+---------01:21----------
+you can replace it with a polymer film
+
+---------01:22----------
+you can replace with anything but a
+
+---------01:24----------
+piece of crap tantalum capacitor and one
+
+---------01:26----------
+of the reasons that I've always hated
+
+---------01:27----------
+tantalum capacitors is because one of
+
+---------01:28----------
+them actually managed to make me sick
+
+---------01:30----------
+out of a very very old audio console so
+
+---------01:31----------
+this thing exploded and I had a 103
+
+---------01:33----------
+fever for almost a week
+
+---------01:34----------
+I've had these capacitors explode in
+
+---------01:36----------
+front of me let me you know not gonna
+
+---------01:37----------
+say that it's the nicest smelling thing
+
+---------01:38----------
+in the world but it doesn't make you
+
+---------01:40----------
+sick with a 103 fever so you know I had
+
+---------01:43----------
+noticed one time I was I was heating the
+
+---------01:45----------
+board and heating the board and I was
+
+---------01:46----------
+getting it to the point where would work
+
+---------01:47----------
+again but I wasn't heating anywhere near
+
+---------01:49----------
+enough that I was actually heating the
+
+---------01:50----------
+mCP and right under the point or I was
+
+---------01:53----------
+heating was c7 771 and let me tell you
+
+---------01:56----------
+like it's one thing when you do that
+
+---------01:58----------
+once and you figure it out and you feel
+
+---------01:59----------
+stupid because you know you you you were
+
+---------02:01----------
+about to replace things on the other
+
+---------02:02----------
+side of the board it's another one
+
+---------02:04----------
+you've actually figured that out and
+
+---------02:05----------
+then you go on a form and then you say I
+
+---------02:07----------
+heated the BIOS and that's it and it
+
+---------02:11----------
+worked again but I replaced the by
+
+---------02:14----------
+I actually went through the entire
+
+---------02:15----------
+process again after having figured it
+
+---------02:16----------
+out once which is just
+
+---------02:18----------
+humiliating and dumb but anyway well
+
+---------02:20----------
+what do Co was able to do was apply that
+
+---------02:22----------
+same thinking to this motherboard again
+
+---------02:24----------
+one of the things I keep telling people
+
+---------02:26----------
+is don't replace BGA chipsets when it's
+
+---------02:28----------
+not a BGA chip that's at fault so let's
+
+---------02:30----------
+go over to the eight to zero 2850
+
+---------02:31----------
+motherboard and give you an idea what's
+
+---------02:33----------
+going on here so on the third of the
+
+---------02:35----------
+fourth page of the schematic you can
+
+---------02:36----------
+have a list of all these different power
+
+---------02:38----------
+rails and what I tell you is before you
+
+---------02:40----------
+replace any chip go through and see if
+
+---------02:42----------
+any of these power rails are missing so
+
+---------02:44----------
+let's just go over to this page that you
+
+---------02:45----------
+can see the power rails and one of the
+
+---------02:47----------
+power rails that you're going to notice
+
+---------02:48----------
+it's missing on this particular machine
+
+---------02:51----------
+is the one of the 1.8 volt rails for the
+
+---------02:55----------
+GPU is actually going to be 1.3 which is
+
+---------02:58----------
+a very similar voltage drop to the other
+
+---------03:00----------
+machine so that's going to be I believe
+
+---------03:03----------
+let's see of this here we go so right
+
+---------03:09----------
+over here
+
+---------03:21----------
+mmm-hmm
+
+---------03:30----------
+let's yeah think I got the name of it
+
+---------03:32----------
+wrong here frame buffer here we go so
+
+---------03:39----------
+right over here so this is a 1.8 volt
+
+---------03:41----------
+power line and what do you notice it's a
+
+---------03:44----------
+buck converter which is similar to the
+
+---------03:45----------
+other circuit but what in here looks
+
+---------03:47----------
+similar to the circuit that you see over
+
+---------03:49----------
+here
+
+---------03:58----------
+Shh now we go to the 2850 is anything
+
+---------04:03----------
+seem familiar to you a 330 microfarad
+
+---------04:06----------
+poly tantalum capacitor exact same thing
+
+---------04:10----------
+an exact same problem the difference is
+
+---------04:13----------
+that on the older machine it'll die
+
+---------04:14----------
+completely because the mCP 79 is not
+
+---------04:16----------
+receiving power the mCP is in just four
+
+---------04:18----------
+graphics it's also for functions in the
+
+---------04:20----------
+computer like turning on turning on the
+
+---------04:22----------
+power rails and bit all the other basic
+
+---------04:24----------
+functions on this machine the that
+
+---------04:26----------
+tantalum capacitor is on the frame
+
+---------04:29----------
+buffer regulator which is only for the
+
+---------04:31----------
+GPU so the machine will still turn on
+
+---------04:33----------
+and work but you just won't have
+
+---------04:35----------
+anything on the GPU because the power to
+
+---------04:36----------
+it is too low so I'm gonna do over here
+
+---------04:41----------
+is I'm going to apply 1.8 volts there
+
+---------04:43----------
+and see if it works again with the bench
+
+---------04:46----------
+power supply so what I'm gonna do is I'm
+
+---------04:47----------
+going to remove this coil L 95 60 and
+
+---------04:50----------
+I'm gonna put on this coil 1.8 volts
+
+---------04:52----------
+we're going to turn it on we're gonna
+
+---------04:53----------
+see if we get anything on the screen
+
+---------05:03----------
+you
+
+---------05:30----------
+so I'm going to remove the coil to
+
+---------05:31----------
+remove the path from the buck converter
+
+---------05:33----------
+so it's not interfering with my power
+
+---------05:34----------
+supply and then I'm gonna put 1.8 volts
+
+---------05:40----------
+right on this point over here
+
+---------05:49----------
+and it's very common that people want to
+
+---------05:51----------
+replace the BGA chip we replace the
+
+---------05:52----------
+graphics chip but they think that the
+
+---------05:54----------
+$7,000 machine or the BGA rework machine
+
+---------05:56----------
+is what's actually solving their problem
+
+---------05:58----------
+the BGA rework machine doesn't solve
+
+---------06:00----------
+most of the problems circuit rework
+
+---------06:03----------
+issues solve the problems which is why
+
+---------06:07----------
+my personal opinion is that a BGA rework
+
+---------06:10----------
+machine for this type of business is
+
+---------06:12----------
+just it's not the best way to make money
+
+---------06:14----------
+it's not an investment that I think you
+
+---------06:16----------
+will make back unless you have a very
+
+---------06:19----------
+specialized workflow doing a very
+
+---------06:21----------
+specific job that absolutely requires it
+
+---------06:35----------
+okay coil is off now to remove our dumpy
+
+---------06:42----------
+capacitor now we're gonna put some
+
+---------06:49----------
+solder on here so that I said I have
+
+---------06:51----------
+something to attach my wire to I don't
+
+---------06:53----------
+care if it's particularly crusty or a
+
+---------06:55----------
+mix of lead and lead free because this
+
+---------06:56----------
+is for testing purposes anyway and
+
+---------06:58----------
+there's absolutely no reason to care and
+
+---------07:08----------
+I'm gonna put a little bit of solder on
+
+---------07:09----------
+a ground point so that I can hook up the
+
+---------07:12----------
+power supply test probe over there so
+
+---------07:18----------
+this is the internet cat 5 watt broken
+
+---------07:22----------
+up wire that's coming from the power
+
+---------07:23----------
+supply we're going to put the ground on
+
+---------07:28----------
+the screw hole solder it right in and
+
+---------07:37----------
+then we take the positive lead and
+
+---------07:40----------
+that's going to get soldered to where
+
+---------07:42----------
+the output of the buck converter that's
+
+---------07:44----------
+sending 1.8 volts the GPU would be there
+
+---------07:50----------
+doesn't have to be any amazing soldering
+
+---------07:52----------
+it's not like this is gonna be staying
+
+---------07:53----------
+here anyway okay so now we're gonna turn
+
+---------07:57----------
+this on and we're gonna have 1.8 volts
+
+---------08:00----------
+going to the GPU during that
+
+---------08:08----------
+and this is a common enough problem that
+
+---------08:11----------
+if you google MacBook Pro video
+
+---------08:13----------
+distortion or anything like that in 2010
+
+---------08:15----------
+it'll actually find a page on Apple's
+
+---------08:17----------
+website about this and now the really
+
+---------08:20----------
+ up part is that this was this
+
+---------08:22----------
+problem had an extended warranty issued
+
+---------08:23----------
+for it for a very short period of time
+
+---------08:26----------
+so it expired in 2013 and it was issued
+
+---------08:29----------
+years after the machine came out so very
+
+---------08:32----------
+few people actually were able to get
+
+---------08:34----------
+their machines fixed under this program
+
+---------08:35----------
+even though it is clearly a defect on
+
+---------08:36----------
+the product but that's Apple righty
+
+---------08:45----------
+let's get see if this actually works I
+
+---------08:52----------
+had another one with this exact same
+
+---------08:54----------
+problem what I noticed is that I
+
+---------08:55----------
+actually got a picture on the screen but
+
+---------08:57----------
+no backlight and there was no reason for
+
+---------08:58----------
+the backlight to not be working 1.8
+
+---------09:12----------
+see so voltage 1.8 currents up to 5 amps
+
+---------09:19----------
+did not like the GP is doing anything
+
+---------09:21----------
+anyway and on
+
+---------09:50----------
+well in this case the GPU itself is fact
+
+---------09:52----------
+Oh in this case the GPU is actually very
+
+---------09:58----------
+ like badly but even if you
+
+---------10:05----------
+were to replace the GPU you wouldn't fix
+
+---------10:07----------
+the underlying problem the reason this
+
+---------10:08----------
+happens to the GPU was ripple on that
+
+---------10:10----------
+power rail for the frame buffer
+
+---------10:12----------
+regulator the 1.8 volts frame buffer
+
+---------10:14----------
+regulator so you can replace the
+
+---------10:19----------
+graphics chip you're still gonna be
+
+---------10:20----------
+ because your graphics chips not
+
+---------10:21----------
+going to be getting power
+
+---------10:33----------
+Lisa's booting now
+
+---------10:42----------
+what if I raise the current go it's
+
+---------10:49----------
+better than nothing let's see again the
+
+---------10:51----------
+point here is if you go to replace a
+
+---------10:53----------
+chip without thinking you you will be
+
+---------10:56----------
+ and you think I'm gonna try to
+
+---------10:57----------
+find the graphics chip to this which is
+
+---------10:58----------
+probably gonna be some piece of
+
+---------11:00----------
+that got pulled off of another board to
+
+---------11:03----------
+fix a board that's five and a half years
+
+---------11:04----------
+old I will probably die again now
+
+---------11:06----------
+this ain't getting fixed but hope you
+
+---------11:09----------
+learned something
+

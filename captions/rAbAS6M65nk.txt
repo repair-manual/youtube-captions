@@ -1,0 +1,850 @@
+https://www.youtube.com/watch?v=rAbAS6M65nk
+---------00:00----------
+all right so today we're gonna be
+
+---------00:01----------
+working on I'm cleaning out my slots
+
+---------00:03----------
+here because I'm piling everything in
+
+---------00:04----------
+the slots in the front and I'm almost
+
+---------00:06----------
+done using both cases in the front and I
+
+---------00:09----------
+didn't notice that a lot of the stuff
+
+---------00:10----------
+that's been in here has been here for
+
+---------00:12----------
+like two years so I'm cleaning out all
+
+---------00:14----------
+the garbage and I'm here at one of my
+
+---------00:17----------
+one of my no fixes from back when we
+
+---------00:20----------
+used to outsource board repair and you
+
+---------00:23----------
+there was so much neater with the wires
+
+---------00:25----------
+than I was man like look at look at look
+
+---------00:27----------
+at the beauty of these wires like see
+
+---------00:29----------
+that just run around the board nicely
+
+---------00:32----------
+the wires are all nice and taut and it's
+
+---------00:37----------
+nothing like yeah it's nothing like the
+
+---------00:39----------
+garbage I do now anyways let's take a
+
+---------00:42----------
+look around this beautiful board so you
+
+---------00:44----------
+can see just how beautiful it is so you
+
+---------00:51----------
+just get my microscope and focus for me
+
+---------00:53----------
+and then after that I'll get it in focus
+
+---------00:55----------
+for for you hopefully my longer hdmi
+
+---------01:00----------
+cord will make it easier for this to
+
+---------01:01----------
+stop getting up I just got them
+
+---------01:04----------
+in Amazon today I haven't had time to
+
+---------01:06----------
+plug them in you
+
+---------01:07----------
+there we go so
+
+---------01:15----------
+is that pretty or what
+
+---------01:20----------
+yeah that's pretty this is a beautiful
+
+---------01:23----------
+looking board this is the 2915 so even
+
+---------01:26----------
+if we do manage to make this piece of
+
+---------01:29----------
+ work again yeah look at that look
+
+---------01:33----------
+at that this may actually die of natural
+
+---------01:42----------
+causes rather than graphics chip so
+
+---------01:47----------
+let's see what what my what my problems
+
+---------01:50----------
+are here so I'm gonna plug it in and
+
+---------01:54----------
+let's see if I get a light on the
+
+---------01:55----------
+charger as you can barely see no light
+
+---------02:04----------
+in the charger and no fan spinning so
+
+---------02:08----------
+the first thing we need in order to get
+
+---------02:09----------
+a light in the charger is PP 3 V 4 2 so
+
+---------02:12----------
+let's take a measure and see if that's
+
+---------02:14----------
+present so on this board PP 3 V 4 2 is
+
+---------02:21----------
+gonna be on this big coil over here and
+
+---------02:24----------
+we have none so now the next thing I do
+
+---------02:27----------
+if I have no power on output is I check
+
+---------02:29----------
+for a short two grounds on an output so
+
+---------02:32----------
+I go on a diode mode in the meter read
+
+---------02:34----------
+probe on ground black probe on output as
+
+---------02:36----------
+you can see no short to ground so now
+
+---------02:39----------
+what I'm gonna do next as I checked the
+
+---------02:41----------
+end of the circuit for a short to ground
+
+---------02:43----------
+and also for voltage now I'm going to
+
+---------02:45----------
+check the beginning of this of that
+
+---------02:46----------
+circuit so I have 16 volts going in
+
+---------02:51----------
+alright so now let's open it up on the
+
+---------02:53----------
+schematics we have 16 volts going in
+
+---------02:54----------
+nothing coming out and no short to
+
+---------02:57----------
+ground so let's see if we can paint a
+
+---------03:00----------
+picture of what this means so I'm gonna
+
+---------03:02----------
+open up the schematic at the end of my
+
+---------03:05----------
+way I twisted this again I need to cut
+
+---------03:09----------
+hook up the longer cables I got him
+
+---------03:12----------
+because when I was moving the salmo off
+
+---------03:13----------
+that desk to clean that desk up I may
+
+---------03:17----------
+have may or may not have dropped his
+
+---------03:18----------
+ammo on all the cables and the splitter
+
+---------03:21----------
+I hope it's the cables that are being
+
+---------03:23----------
+finicky and not the splitter cuz that
+
+---------03:25----------
+would suck if it was display
+
+---------03:27----------
+so let's go over to PP three before to
+
+---------03:30----------
+regulator on this board here we go hue
+
+---------03:34----------
+six nine nine something all right so
+
+---------03:38----------
+here's what I have so over here on input
+
+---------03:42----------
+I have 16 volts this is output and I
+
+---------03:45----------
+have zero so let's take a look at the
+
+---------03:48----------
+use 6900 area and see if anything looks
+
+---------03:52----------
+funky and on this board everything looks
+
+---------03:55----------
+funky it's nine nine zero because that's
+
+---------04:01----------
+gonna be right over here it's a now
+
+---------04:05----------
+let's just get on the microscope and
+
+---------04:12----------
+okay so I'm gonna give you guys a few
+
+---------04:15----------
+seconds to tell me what's wrong with
+
+---------04:17----------
+this what's wrong with this board that's
+
+---------04:20----------
+been sitting in my slot for over two
+
+---------04:23----------
+years now
+
+---------04:28----------
+okay now see how this over here and
+
+---------04:31----------
+unplug it for this that's a flat pad
+
+---------04:33----------
+flat pad flat pad flat pad a little bit
+
+---------04:37----------
+of solder a little bit over here this
+
+---------04:39----------
+was knocked off so let's see what that's
+
+---------04:42----------
+for in the schematic so here alright so
+
+---------04:46----------
+here we have the piece that's missing
+
+---------04:47----------
+are 6 9 9 5 1 million ohm resistor
+
+---------04:50----------
+between main input and T o n now teo n
+
+---------04:54----------
+stands for time on so this is a buck
+
+---------04:56----------
+converter I see even though you can't
+
+---------04:58----------
+see it the switching transistors are
+
+---------05:00----------
+although all that stuff is done inside
+
+---------05:01----------
+the chip now the idea here is that this
+
+---------05:03----------
+can be powered by the power adapter 18
+
+---------05:06----------
+point 5 volts or pp bus g3 hot the
+
+---------05:08----------
+battery which is twelve point six volts
+
+---------05:09----------
+but it's always gonna output the same
+
+---------05:12----------
+amount 3.42 volts it's gonna output 3.42
+
+---------05:15----------
+regardless of whether the input is the
+
+---------05:17----------
+battery at 12 or the charger at 18 so it
+
+---------05:20----------
+has to stay on for a different amount of
+
+---------05:22----------
+time to get to the three point four
+
+---------05:23----------
+volts if you have spikes of 18 volts you
+
+---------05:26----------
+need less of them which means this chip
+
+---------05:28----------
+has to stay on for a lower period of
+
+---------05:29----------
+time to get down to three point four
+
+---------05:31----------
+then if you were using the battery so
+
+---------05:34----------
+this resistor is going to be between the
+
+---------05:35----------
+input source and here to let know how
+
+---------05:38----------
+much time it should stay on
+
+---------05:39----------
+for in that resistor is not here and
+
+---------05:43----------
+because that resistor is not here this
+
+---------05:45----------
+board sat in the bin for two
+
+---------05:47----------
+years great because that that's the way
+
+---------05:50----------
+this works and it's anything that that
+
+---------05:51----------
+actually belongs to me is is always on
+
+---------05:53----------
+the lowest lowest priority in the pile
+
+---------05:57----------
+computer regular customers stuff goes
+
+---------06:00----------
+first in the problem it's my fault cuz
+
+---------06:02----------
+you know I don't call to and ask
+
+---------06:04----------
+for status updates on myself so I never
+
+---------06:06----------
+work on my own stuff so let's replace
+
+---------06:08----------
+this thing and pray that the rest of
+
+---------06:15----------
+this works
+
+---------06:21----------
+what do you think the chances all the
+
+---------06:22----------
+rest of this will work Jason did I show
+
+---------06:24----------
+you it look at this I don't know what
+
+---------06:31----------
+that is but it's it's everywhere look at
+
+---------06:34----------
+this look at this board it's growing
+
+---------06:37----------
+
+
+---------06:44----------
+I'm gonna sell this to somebody on the
+
+---------06:46----------
+weekend and tell them you get support
+
+---------06:48----------
+from micro citing supply.com
+
+---------06:54----------
+has the website still making a bunch of
+
+---------06:57----------
+orders
+
+---------07:09----------
+the board I'm trying to take this chip
+
+---------07:11----------
+off of this freezing cold it's it was
+
+---------07:14----------
+all the donors for the 2915 we're
+
+---------07:16----------
+sitting right underneath an
+
+---------07:17----------
+air-conditioning vent luckily I have the
+
+---------07:21----------
+JBC on my side
+
+---------07:34----------
+now with any luck the graphics chip
+
+---------07:36----------
+didn't die this has been sitting this is
+
+---------07:39----------
+the 29:15 and has been sitting in the
+
+---------07:40----------
+slot for two years I'm not even going to
+
+---------07:50----------
+try plugging this into a screen because
+
+---------07:51----------
+that that's gonna ruin my high moment so
+
+---------07:53----------
+that's about that so there was a missing
+
+---------07:57----------
+time on resistor and that does have to
+
+---------07:59----------
+be present so that the machine knows how
+
+---------08:01----------
+long so that the regulator knows how
+
+---------08:04----------
+long to stay on because remember if you
+
+---------08:06----------
+have 18 if you're trying to turn 18 into
+
+---------08:08----------
+3 you need less 18 volt pulses to make 3
+
+---------08:11----------
+then you need 12 volt pulses to make 3
+
+---------08:13----------
+so that's about that for today and as
+
+---------08:16----------
+always I hope you learn something can
+
+---------08:18----------
+you believe this turns on Oh Mike
+
+---------08:20----------
+this is nuts
+
+---------08:22----------
+ah what do you think the chances of the
+
+---------08:27----------
+graphics chip actually works Jason yeah
+
+---------08:34----------
+if this thing runs really really hot
+
+---------08:38----------
+like really really hot yeah it looks
+
+---------08:44----------
+like the PCH has been reflow the
+
+---------08:47----------
+graphics chip I'd like to say the word
+
+---------08:48----------
+replaced but no way in hell they
+
+---------08:51----------
+replaced it so the graphics chip on this
+
+---------08:52----------
+is probably refloat it's missing all the
+
+---------08:55----------
+ground plane I kind of want to plug it
+
+---------09:00----------
+in I got to see this this you do
+
+---------09:03----------
+anything doesn't even light up a USB
+
+---------09:05----------
+mouse I'll be amazed if it lights up the
+
+---------09:07----------
+USB mouse alright the suspense is
+
+---------09:13----------
+killing me
+
+---------09:25----------
+this couldn't look more like if a
+
+---------09:27----------
+tribe alrightso plug it in let's see if
+
+---------09:33----------
+we can get to a question mark
+
+---------09:44----------
+I forgot the 2915 s all turn on and off
+
+---------09:47----------
+and then on
+
+---------09:59----------
+Jason I get no picture on the screen
+
+---------10:18----------
+maybe it's a bad screen maybe my tester
+
+---------10:21----------
+screen is not working yeah let's see
+
+---------10:30----------
+let's see if it even sees a USB mouse
+
+---------10:35----------
+can you even post yeah my USB mouse
+
+---------10:43----------
+lights up interesting when I touch it it
+
+---------10:51----------
+magically turns off it looks like the
+
+---------10:57----------
+MUX has been refloat on this as well
+
+---------11:03----------
+this is worse than a sunny board
+
+---------11:13----------
+okay I was about to measure something
+
+---------11:15----------
+and I forget now turn it back on measure
+
+---------11:20----------
+voltage at LCD connector would you like
+
+---------11:24----------
+to turn back on board it doesn't want to
+
+---------11:27----------
+turn back on come on
+
+---------11:41----------
+it's not that hot anymore
+
+---------11:50----------
+it doesn't want to turn on anymore
+
+---------12:00----------
+and peepee Bush g3 hot is down a 1 point
+
+---------12:03----------
+7 volts well that sounds like a short to
+
+---------12:09----------
+ground hmm wouldn't it be interesting if
+
+---------12:15----------
+a GPU fed yeah there's a great there's a
+
+---------12:17----------
+short to ground on PP but g3 high oh boy
+
+---------12:20----------
+that's I wonder if it happens to be a
+
+---------12:24----------
+graphics chip fat or inside the board
+
+---------12:31----------
+seriously this thing's been on for all
+
+---------12:33----------
+of like 30 seconds and it's already
+
+---------12:34----------
+ all right how long are the wires
+
+---------12:41----------
+on your power supply I'll do it on that
+
+---------12:46----------
+soon
+
+---------12:47----------
+no no 20 you know I just I want to what
+
+---------12:51----------
+if I were the shortest Oh bring it over
+
+---------12:55----------
+there
+
+---------13:03----------
+you
+
+---------15:37----------
+I'm not sure how long I was talking
+
+---------15:38----------
+without remember
+
+---------15:40----------
+gone back in I don't think he missed
+
+---------15:43----------
+anything great I found out where the
+
+---------15:45----------
+short-circuit was I used the I used
+
+---------15:51----------
+Jason's table too to find it because the
+
+---------15:55----------
+power supply is on his table I found out
+
+---------15:58----------
+it was that transistor it wasn't the
+
+---------15:59----------
+caps on the other side I was being an
+
+---------16:01----------
+idiot and now we're gonna put back the
+
+---------16:03----------
+caps that I removed while I was being an
+
+---------16:04----------
+idiot that Adam made no sense with no
+
+---------16:09----------
+audio bonus points if you were following
+
+---------16:12----------
+along though
+
+---------16:29----------
+so now I'm just taking these caps off
+
+---------16:31----------
+the donor board but the donor board is
+
+---------16:33----------
+called I have to turn around the
+
+---------16:36----------
+air-conditioning then it's really
+
+---------16:40----------
+counterproductive that an
+
+---------16:41----------
+air-conditioning vent is blowing on the
+
+---------16:42----------
+board that I'm reflow in trying to get
+
+---------16:47----------
+pieces off okay that will flow in a
+
+---------16:51----------
+place you'll see
+
+---------17:32----------
+these boards absorb a particular amount
+
+---------17:34----------
+of heat it's an organ dissipate tansy
+
+---------18:00----------
+yeah this is going to be a fan in the
+
+---------18:02----------
+answer
+
+---------18:08----------
+that that was if that was an annoying
+
+---------18:11----------
+thing to have happen
+
+---------18:12----------
+my captors flew away
+
+---------18:22----------
+I think I'm just gonna take them all off
+
+---------18:24----------
+at once
+
+---------19:16----------
+I can add flux and make sure everything
+
+---------19:18----------
+looks nice on reflowing it later
+
+---------19:28----------
+okay I need to get the one that I lost
+
+---------19:30----------
+now off another donor let's see I should
+
+---------19:39----------
+have won here
+
+---------20:17----------
+let's take so long
+
+---------20:39----------
+all right final cap
+
+---------21:30----------
+all right one way to see if we let's see
+
+---------21:33----------
+do we still have a short circuit to
+
+---------21:35----------
+ground here I'm just gonna check on my
+
+---------21:39----------
+meter
+
+---------21:45----------
+sure it's gone just clear off the solder
+
+---------21:49----------
+bridge I made on the fuse can't believe
+
+---------21:54----------
+them spending time on this board I do
+
+---------21:59----------
+want to clean out all the stuff here
+
+---------22:01----------
+like if it's if it can be fixed great if
+
+---------22:04----------
+it can't be fixed it's tossed in the
+
+---------22:07----------
+ pile but I just want to categorize
+
+---------22:08----------
+it kind of everything in one place so
+
+---------22:21----------
+it's plug in a screen
+
+---------22:28----------
+and pray
+
+---------22:40----------
+fans are spinning fans are not spinning
+
+---------22:48----------
+come on you can do it boot
+
+---------22:59----------
+and mere pieces you have a ribald GPU
+
+---------23:07----------
+don't you that was what I was gonna
+
+---------23:12----------
+measure before the FET died yeah this is
+
+---------23:15----------
+this for this one's I also
+
+---------23:17----------
+noticed that start recording said stop
+
+---------23:19----------
+stop according to the star which means I
+
+---------23:21----------
+probably missed a clip but yeah it's
+
+---------23:23----------
+ on the screen the CPU got 12
+
+---------23:28----------
+volts rest in pieces
+

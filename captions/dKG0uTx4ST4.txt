@@ -1,0 +1,985 @@
+https://www.youtube.com/watch?v=dKG0uTx4ST4
+---------00:00----------
+all right so today I want to talk about
+
+---------00:01----------
+a basic topic when it comes to
+
+---------00:03----------
+troubleshooting some of these circuits
+
+---------00:05----------
+and this is something that comes in
+
+---------00:06----------
+handy if you haven't known good around
+
+---------00:08----------
+so this is a machine that has no
+
+---------00:10----------
+backlight on the screen and it's
+
+---------00:12----------
+something I've mentioned in a couple of
+
+---------00:13----------
+prior videos but it's not something that
+
+---------00:14----------
+has its own dedicated video and it
+
+---------00:16----------
+should because this is a really this
+
+---------00:18----------
+basic concept in electronics and it's
+
+---------00:21----------
+something that's gonna help you along in
+
+---------00:22----------
+your troubleshooting so if let's say
+
+---------00:24----------
+that we have a circuit that is it that
+
+---------00:27----------
+it's supposed to create a certain amount
+
+---------00:28----------
+of brightness for the screen a certain
+
+---------00:29----------
+amount of voltage for the screen and it
+
+---------00:31----------
+knows what the load of the screen is
+
+---------00:33----------
+going to be let's say if we want to
+
+---------00:35----------
+create 27 volts now the output of a
+
+---------00:39----------
+circuit can actually give you an idea of
+
+---------00:41----------
+what's going on with it so here I'm
+
+---------00:44----------
+gonna measure backlight output at a
+
+---------00:45----------
+specific point in the circuit and I get
+
+---------00:49----------
+thirty nine point six volts now this is
+
+---------00:52----------
+where again one of the things that
+
+---------00:53----------
+really helps me is having this whole
+
+---------00:56----------
+pile of stuff that works well some of it
+
+---------00:58----------
+works where I can just go okay what's
+
+---------00:59----------
+that supposed to be and I measure it and
+
+---------01:01----------
+I have an answer and it kind of helps me
+
+---------01:03----------
+with my thought process so I'm so I know
+
+---------01:05----------
+that I'm supporting machine when
+
+---------01:07----------
+brightness is all the way up I get 27
+
+---------01:08----------
+volts so why is my voltage 39.6
+
+---------01:12----------
+that means I should have more light
+
+---------01:14----------
+right now what a lot of people will say
+
+---------01:16----------
+is oh the screen must be broken or that
+
+---------01:18----------
+the light got blown out because the
+
+---------01:20----------
+board was delivering too much voltage
+
+---------01:21----------
+that's what I hear from a lot of new
+
+---------01:22----------
+students and a lot of people when I ask
+
+---------01:24----------
+them this question rhetorically the real
+
+---------01:26----------
+issue here is that there is no path to
+
+---------01:28----------
+the screen so I want you to think of
+
+---------01:30----------
+this don't you think this kind like
+
+---------01:32----------
+channel competent analogy here my nose
+
+---------01:36----------
+is stuffed and it's screwing up my brain
+
+---------01:38----------
+okay let's say you have an arm wrestling
+
+---------01:40----------
+match right and you're pushing as hard
+
+---------01:42----------
+as you can you're pushing as hard as you
+
+---------01:43----------
+can but you're not but you're not
+
+---------01:45----------
+falling down then if I let go for a
+
+---------01:48----------
+second so there's no load you'll in
+
+---------01:50----------
+storm is gonna move down onto the table
+
+---------01:52----------
+really really fast so before when I was
+
+---------01:54----------
+resisting you your arm was really moving
+
+---------01:57----------
+really really slowly but then when I
+
+---------01:59----------
+stopped resisting you even though using
+
+---------02:00----------
+the same amount of pressure your arm is
+
+---------02:02----------
+gonna move really really fast because
+
+---------02:03----------
+there's no push back so this it's kind
+
+---------02:06----------
+of the same thing going on here
+
+---------02:07----------
+so this is supposed to British 27 volts
+
+---------02:09----------
+when a screen which presents a load to
+
+---------02:12----------
+the circuit some resistance
+
+---------02:13----------
+back to the circuit is connected but
+
+---------02:15----------
+there isn't but if there's a break in
+
+---------02:17----------
+the line that same circuit is then gonna
+
+---------02:19----------
+produce more voltage so you'll see 39 at
+
+---------02:21----------
+the end of it instead of 27 so it is
+
+---------02:24----------
+producing voltage but that voltage is
+
+---------02:25----------
+not actually connect it to anything
+
+---------02:27----------
+which is why the vote what you're seeing
+
+---------02:29----------
+is higher now if you look along in the
+
+---------02:31----------
+circuit
+
+---------02:31----------
+the theory is then going to match
+
+---------02:33----------
+reality because if I go over here and
+
+---------02:35----------
+put the camera over the connector you'll
+
+---------02:39----------
+see that it's quite clearly see
+
+---------02:44----------
+ very
+
+---------02:53----------
+they're killing me so the pins are
+
+---------02:56----------
+broken so there's no path so if you
+
+---------03:03----------
+think of things in these terms becomes
+
+---------03:05----------
+easier to figure things out one of the
+
+---------03:08----------
+things I like to get across here is that
+
+---------03:10----------
+most of the stuff that people think is
+
+---------03:12----------
+magic and crazy engineering is is common
+
+---------03:15----------
+sense and when you start to see all this
+
+---------03:17----------
+common sense it then becomes that much
+
+---------03:19----------
+more accessible to you what can I get
+
+---------03:22----------
+you yes what happened to mother piece of
+
+---------03:31----------
+
+
+---------03:34----------
+my FM 20:32 died oh well
+
+---------03:42----------
+luckily I have a spare
+
+---------04:19----------
+you have to realize that if electronics
+
+---------04:21----------
+were anything other than common sense
+
+---------04:23----------
+you'd never it would have never been
+
+---------04:26----------
+something that a dumbass like me would
+
+---------04:27----------
+have been able to get my head around
+
+---------04:33----------
+weight you can take this micro pencil
+
+---------04:38----------
+weight so that the big iron is the one
+
+---------04:40----------
+that died oshizu okay that means I have
+
+---------04:46----------
+to try to wick a connector with a micro
+
+---------04:48----------
+pencil this should be fun I'm glad that
+
+---------04:53----------
+one died because that one is much
+
+---------04:54----------
+cheaper ah so now the most expensive
+
+---------05:01----------
+portion of it is broken
+
+---------05:14----------
+okay how much of this can I get done
+
+---------05:16----------
+with a micro pencil
+
+---------05:31----------
+see we're gonna bring those pads back
+
+---------05:34----------
+really Louis you're scraping is too hard
+
+---------05:37----------
+Louis what you're doing is not properly
+
+---------05:39----------
+Louis this is too much you're rough on
+
+---------05:44----------
+this stuff I don't think a lot of people
+
+---------05:45----------
+realize that like half of the stuff that
+
+---------05:47----------
+I'm working on has been sitting in
+
+---------05:49----------
+coca-cola
+
+---------05:49----------
+for two years or cat piss before it gets
+
+---------05:55----------
+here
+
+---------05:56----------
+like there's different soldering
+
+---------06:00----------
+technique that you're going to use when
+
+---------06:03----------
+you're working on something that looks
+
+---------06:04----------
+like it's been pissed on that's had
+
+---------06:06----------
+power be going through it for two years
+
+---------06:08----------
+as it's been pissed on then you're going
+
+---------06:11----------
+to use on a single layer PC board that's
+
+---------06:15----------
+never been abused that just needs a
+
+---------06:17----------
+single component replaced
+
+---------06:27----------
+so this is obviously not the proper iron
+
+---------06:30----------
+to be doing this with but equipment
+
+---------06:32----------
+issues let's see how long I'll be doing
+
+---------06:36----------
+this for ya that's gonna take forever
+
+---------06:45----------
+what do you want micro pencil yeah we
+
+---------06:48----------
+did you figure out what's wrong the tip
+
+---------06:55----------
+died which one just give me the name so
+
+---------06:59----------
+I can buy another one or five of them at
+
+---------07:02----------
+the end of today how does it how does
+
+---------07:08----------
+the tip actually die
+
+---------07:12----------
+I never get them to die I just wind up
+
+---------07:22----------
+bending them to the point that I can't
+
+---------07:23----------
+recognize them there we go much better
+
+---------07:34----------
+come on
+
+---------07:39----------
+yeah
+
+---------07:51----------
+ideally I'd be using one of the flat
+
+---------07:53----------
+tips for this but I don't have one
+
+---------07:54----------
+he had one but it died mine died too and
+
+---------07:57----------
+I've just been using this one it's
+
+---------07:59----------
+really good as a multi-purpose tip you
+
+---------08:02----------
+save a lot of time if you don't change
+
+---------08:03----------
+tips in time and this business is
+
+---------08:05----------
+important because again as I say you
+
+---------08:08----------
+will receive a phone call from people 5
+
+---------08:11----------
+10 15 times a day asking if it's done
+
+---------08:13----------
+yet and my god the they will say to
+
+---------08:17----------
+you if it's not see that that's ripped
+
+---------08:19----------
+off now but that's totally fine because
+
+---------08:21----------
+I'm gonna be running a wire there anyway
+
+---------08:27----------
+if it looks that bad I always wind up
+
+---------08:30----------
+running a wire instead of trust in the
+
+---------08:31----------
+pad
+
+---------08:40----------
+yeah I don't always care so much about
+
+---------08:42----------
+it looking factory I care about it being
+
+---------08:44----------
+fixed that it never comes back here
+
+---------08:50----------
+ideally I would never see this person
+
+---------08:53----------
+again maybe at a birthday party
+
+---------09:01----------
+maybe at a Broadway show maybe in line
+
+---------09:06----------
+at the DMV but hopefully I won't see
+
+---------09:08----------
+them again with this piece of crap
+
+---------09:09----------
+computer
+
+---------09:10----------
+the idea is to fix it so that you never
+
+---------09:13----------
+see them again so
+
+---------09:25----------
+but some people said neither you know oh
+
+---------09:26----------
+I can't believe you say things like you
+
+---------09:28----------
+never want to see your customers again
+
+---------09:30----------
+chillax
+
+---------09:32----------
+people take the things in the worst
+
+---------09:34----------
+possible way it's like worse than my ex
+
+---------09:38----------
+relationships that's how you know
+
+---------09:40----------
+usually in a bad relationship with your
+
+---------09:42----------
+significant other is when there's five
+
+---------09:44----------
+different ways anything you say can be
+
+---------09:45----------
+interpreted and they interpret it in the
+
+---------09:47----------
+worst possible way I kind of think
+
+---------09:49----------
+that's what the youtube comment section
+
+---------09:50----------
+is the internet in general what I mean
+
+---------09:56----------
+when I say that I don't want to see
+
+---------09:57----------
+somebody again it means that I want to
+
+---------10:00----------
+do the job to the point where they never
+
+---------10:04----------
+have another problem and they don't have
+
+---------10:05----------
+to come back meaning that I've done my
+
+---------10:07----------
+job well the problem is solved it's like
+
+---------10:13----------
+it's supposed to be a good thing like
+
+---------10:15----------
+not just for me but for them don't know
+
+---------10:20----------
+how that lines up getting turned into
+
+---------10:21----------
+hate
+
+---------10:27----------
+that's horrible we're off to a horrible
+
+---------10:30----------
+start
+
+---------10:49----------
+don't get me wrong there are some people
+
+---------10:51----------
+that I would never want to see again on
+
+---------10:55----------
+a DMV line at a partyer purgatory there
+
+---------10:59----------
+are some people I just know but for the
+
+---------11:00----------
+most part I mean it in a happy positive
+
+---------11:03----------
+way
+
+---------11:20----------
+this is the but you got to be careful
+
+---------11:21----------
+with a lot of people put too much cider
+
+---------11:24----------
+here and then they can't get the damn
+
+---------11:25----------
+LCD cable stuck in there you don't need
+
+---------11:30----------
+a lot you just need enough
+
+---------11:41----------
+think of this like drinking when you're
+
+---------11:43----------
+putting a soda on the sides of the LCD
+
+---------11:45----------
+connector you don't need a lot you just
+
+---------11:48----------
+need enough
+
+---------11:49----------
+once you feel buzzed you can stop
+
+---------11:52----------
+drinking you're welcome to keep drinking
+
+---------11:56----------
+after you're buzzed but it's probably
+
+---------11:58----------
+not going to end well
+
+---------12:25----------
+thank you
+
+---------12:33----------
+this is another thing when it comes to
+
+---------12:35----------
+fixing other stuff like I get people
+
+---------12:37----------
+emailing me a lot saying you know can
+
+---------12:39----------
+you fix this oven thing can you fix this
+
+---------12:42----------
+this thing from my pool this PC board
+
+---------12:45----------
+and this that and the other and I
+
+---------12:47----------
+usually say no to those things they in I
+
+---------12:49----------
+don't haven't known working I don't have
+
+---------12:51----------
+a manual I don't have parts that I can
+
+---------12:52----------
+just grab off a donor board or any of
+
+---------12:54----------
+that but where am I gonna find donor
+
+---------12:56----------
+parts first though you know a pool or a
+
+---------13:00----------
+Jacuzzi PC board or anything like that
+
+---------13:02----------
+so I stopped saying no recently because
+
+---------13:05----------
+I didn't want to make it me I didn't
+
+---------13:06----------
+want to make it that I'm saying no so
+
+---------13:07----------
+what I do now is I tell people just turn
+
+---------13:11----------
+the stamp filter off what I do is I tell
+
+---------13:15----------
+people yeah I'll work on it
+
+---------13:17----------
+so okay so how much is it I don't know
+
+---------13:19----------
+so is the estimate free No
+
+---------13:21----------
+so how does it work well I will bill you
+
+---------13:23----------
+when it's done okay so how long does it
+
+---------13:25----------
+take I don't know why not okay I don't
+
+---------13:28----------
+fix jacuzzis if you'd like to find
+
+---------13:32----------
+somebody that fixes jacuzzis that's
+
+---------13:34----------
+great it's not that I won't do it it's
+
+---------13:37----------
+just it'll be done under my my very very
+
+---------13:40----------
+undesirable terms really you know
+
+---------13:45----------
+there's not there's no real such thing
+
+---------13:46----------
+as a free estimate I mean okay I offer a
+
+---------13:49----------
+free estimate but I offer of just
+
+---------13:51----------
+checking for a short to ground I offer a
+
+---------13:53----------
+free estimate based on the fact that I
+
+---------13:55----------
+have like thousands of dollars in
+
+---------13:57----------
+inventory that allows me to check every
+
+---------13:59----------
+single thing that it could be if I
+
+---------14:01----------
+didn't have thousands of dollars in
+
+---------14:02----------
+inventory I'd have to buy thousands of
+
+---------14:04----------
+dollars in inventory to offer the free
+
+---------14:06----------
+estimate it's free for me now because I
+
+---------14:08----------
+invested in all that stuff years ago but
+
+---------14:10----------
+they're gonna you know somebody brings
+
+---------14:14----------
+me some like board that's worth 250
+
+---------14:16----------
+bucks I'm not gonna that I can only
+
+---------14:18----------
+repair 450 am I going to bring some $50
+
+---------14:23----------
+my gun is like if I can't fix her 50
+
+---------14:26----------
+bucks am I gonna buy another $200 board
+
+---------14:28----------
+just to have a donor now I could charge
+
+---------14:33----------
+you for it but nobody wants to pay for
+
+---------14:35----------
+that which is fine that's why I do this
+
+---------14:38----------
+just a tacky just in case you're curious
+
+---------14:40----------
+if you've asked if I want to do some
+
+---------14:42----------
+other type of repair and I've said no
+
+---------14:45----------
+I'm changing my policy
+
+---------14:47----------
+I will just now do it with the terms of
+
+---------14:50----------
+I don't know what it will cost I'll bill
+
+---------14:51----------
+you when it's done you won't know until
+
+---------14:53----------
+it's done what it'll cost and there's no
+
+---------14:57----------
+free estimate it would literally be the
+
+---------14:58----------
+exact opposite of my present model so
+
+---------15:01----------
+that's the only way can be economically
+
+---------15:03----------
+viable to do any of that stuff so 27
+
+---------15:06----------
+point 77 volts and as you can see
+
+---------15:09----------
+there's a light see there's a light so
+
+---------15:14----------
+when you have a voltage that is higher
+
+---------15:16----------
+than the voltage that you want on output
+
+---------15:19----------
+usually that could mean that there's
+
+---------15:21----------
+actually a break in the line
+
+---------15:22----------
+particularly with any of these DC to DC
+
+---------15:23----------
+boost circuits where it's expecting a
+
+---------15:25----------
+certain voltage at a certain point I
+
+---------15:28----------
+really would like to work on some other
+
+---------15:30----------
+stuff I honestly would it's just it's
+
+---------15:33----------
+it's not like a mean thing it's just
+
+---------15:34----------
+it's got to make sense it's got to make
+
+---------15:37----------
+sense it's got to be something where
+
+---------15:39----------
+like again like if I spent three hours
+
+---------15:42----------
+on it am i spending three hours for two
+
+---------15:45----------
+for 20 bucks and like no fix no fee it's
+
+---------15:48----------
+just the reason no fix no fee works so
+
+---------15:50----------
+well is because I know that there's such
+
+---------15:52----------
+a high likelihood of me being successful
+
+---------15:54----------
+and I know the price that people are
+
+---------15:58----------
+willing to pay but if it's like no no
+
+---------16:00----------
+fix no fee doesn't work on like 40 or 20
+
+---------16:03----------
+to 40 dollars stuff just doesn't like if
+
+---------16:07----------
+you if you're if you're in that if
+
+---------16:09----------
+you're in that market where it's like
+
+---------16:10----------
+where it's like 20 to 40 bucks a job
+
+---------16:13----------
+because people always ask that they go
+
+---------16:14----------
+you know how is it that you charge so
+
+---------16:17----------
+much do you watch my three-hour videos
+
+---------16:20----------
+do you watch my three-hour videos where
+
+---------16:22----------
+I spent three hours on something and it
+
+---------16:23----------
+still doesn't work you know I could
+
+---------16:27----------
+charge the person that I didn't fix
+
+---------16:29----------
+anything for they'll find that unfair I
+
+---------16:31----------
+could charge the fixes more money
+
+---------16:33----------
+they'll find that unfair but it really
+
+---------16:35----------
+comes down to what people are willing to
+
+---------16:36----------
+live with when I notices people are
+
+---------16:39----------
+willing to spend a little bit more to
+
+---------16:41----------
+have a no fix no fee than they are to
+
+---------16:44----------
+pay to live like a hundred bucks to
+
+---------16:45----------
+literally find out that something
+
+---------16:47----------
+doesn't work but it's all it's all in
+
+---------16:50----------
+the business model so that's that for
+
+---------16:52----------
+today as always I hope you learned some
+

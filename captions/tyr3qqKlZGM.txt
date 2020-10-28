@@ -1,0 +1,616 @@
+https://www.youtube.com/watch?v=tyr3qqKlZGM
+---------00:00----------
+time to fix you at another MacBook here
+
+---------00:01----------
+we have a MacBook that had now tried to
+
+---------00:03----------
+fix and then left for me
+
+---------00:04----------
+let's see what's wrong with this MacBook
+
+---------00:05----------
+and let's see if the new person that I
+
+---------00:07----------
+hired is about to get fired he says that
+
+---------00:09----------
+it's only giving us 5 volts on the
+
+---------00:11----------
+charger and not 20 volts so I'm gonna
+
+---------00:14----------
+plug in this USB C amp meter and the
+
+---------00:16----------
+first thing we're gonna do is we're
+
+---------00:17----------
+going to confirm whether or not that's
+
+---------00:18----------
+true so it takes five point one volts in
+
+---------00:21----------
+George 20 milliamps typically it's
+
+---------00:22----------
+drawing one at 200 milliamps when it's
+
+---------00:24----------
+about to jump to 20 but here it's not
+
+---------00:26----------
+it's drawing 20 milliamps steady now in
+
+---------00:29----------
+El claims that he's replaced both cd32
+
+---------00:32----------
+15 chips let's see if that's correct
+
+---------00:34----------
+let's also see what his soldering job
+
+---------00:36----------
+was like and see if it's put on there
+
+---------00:38----------
+properly MacBook MacBook much MacBook
+
+---------00:44----------
+look at all these resistors knocked from
+
+---------00:46----------
+side to side
+
+---------00:47----------
+my Jesus who votes this is time for a
+
+---------00:49----------
+firing are you even soldered to the
+
+---------00:51----------
+board spider first thing we're gonna do
+
+---------00:56----------
+is see what happens when we put those
+
+---------00:57----------
+resistors soldered onto the board nicely
+
+---------01:00----------
+oh yeah Joe Martin that is clear focus
+
+---------01:03----------
+and the thing is I'm never gonna be able
+
+---------01:05----------
+to get one of these microscopes again
+
+---------01:07----------
+because I have yet to find a single
+
+---------01:09----------
+company or factory still making them
+
+---------01:12----------
+with the tube that makes it look this
+
+---------01:15----------
+good they're all using that long tube
+
+---------01:17----------
+that makes it really hard to focus and
+
+---------01:19----------
+gives you all that vignetting and all
+
+---------01:20----------
+that gross disgusting nonsense I wish I
+
+---------01:24----------
+could find these again but unfortunately
+
+---------01:26----------
+can't so I've got to keep this
+
+---------01:28----------
+microscope working for as long as
+
+---------01:29----------
+humanly possible
+
+---------01:42----------
+yeah I wanted to call and let you know
+
+---------01:45----------
+that I am incredibly densely incredibly
+
+---------01:50----------
+aggravated that I just got my computer
+
+---------01:53----------
+back with a label label label label
+
+---------01:57----------
+label label on it that was near
+
+---------01:59----------
+impossible to remove I wanted to let you
+
+---------02:01----------
+know that's a disgusting practice of
+
+---------02:04----------
+complete disrespect the disgusting
+
+---------02:07----------
+practice of completely disrespect label
+
+---------02:09----------
+label label
+
+---------02:12----------
+[Music]
+
+---------02:21----------
+make sure these are properly closed in
+
+---------02:22----------
+place
+
+---------02:24----------
+now it looks like we are still stuck at
+
+---------02:26----------
+5 volts a USBC ant meter does not show
+
+---------02:29----------
+it going to 20 the next thing I'm going
+
+---------02:31----------
+to do is check and see if Kiki 3 B 3
+
+---------02:33----------
+underscore gypsy hot is present because
+
+---------02:34----------
+people 3 B 3 under Square D 3 hot needs
+
+---------02:37----------
+to be present in order for us to get
+
+---------02:39----------
+this chip working
+
+---------02:41----------
+three-two-three underscore g3 hot is
+
+---------02:44----------
+pressed
+
+---------02:45----------
+now you're going into the ship that's
+
+---------02:46----------
+the other question so P P 3 P 3
+
+---------02:48----------
+underscore g3 hot is going to go
+
+---------02:50----------
+incident ship through our 3000 and is
+
+---------02:54----------
+also going to be another one this is the
+
+---------02:55----------
+same thing people III underscore g3 hot
+
+---------02:57----------
+goes into the chip through this resistor
+
+---------02:59----------
+R 3 0 0 1 so what are the values of
+
+---------03:03----------
+these resistors is supposed to be
+
+---------03:04----------
+according to Paul Daniels a software
+
+---------03:06----------
+that's supposed to be a zero ohm
+
+---------03:07----------
+resistor let's see if it's measuring
+
+---------03:09----------
+zero homes left one seems good because I
+
+---------03:14----------
+have both a jumbo-sized it's what's
+
+---------03:16----------
+going on over here
+
+---------03:18----------
+resistor seems a little sickly
+
+---------03:19----------
+unfortunately that resistors working
+
+---------03:22----------
+wasn't working it might give us a reason
+
+---------03:24----------
+as to why though the board is not
+
+---------03:25----------
+functioning HM let's see if it's passing
+
+---------03:29----------
+voltage properly
+
+---------03:36----------
+interesting it's not passing voltage
+
+---------03:39----------
+properly but how could that be the
+
+---------03:41----------
+resistor just measured zero ohms
+
+---------03:43----------
+it's supposed to be passing our 3.3
+
+---------03:45----------
+volts through let's see we have 3.3
+
+---------03:48----------
+volts there 3.4 here in 1.4 at the
+
+---------03:57----------
+capacitor what so P P 3 P 3 under square
+
+---------04:01----------
+G 3 hot is supposed to come in through R
+
+---------04:03----------
+3 0 0 1 R 3 0 0 1 is where 53 V 3
+
+---------04:06----------
+underscore G 3 ha is then going to be
+
+---------04:08----------
+allowed to enter the cd32 15 so it's
+
+---------04:10----------
+gonna have a path through that resistor
+
+---------04:11----------
+to this capacitor to here but now it's
+
+---------04:13----------
+over here but it's not there so why is
+
+---------04:15----------
+the pathway between this and this broken
+
+---------04:17----------
+or is that pathway broken one way to
+
+---------04:20----------
+find out let's zoom in a little bit that
+
+---------04:22----------
+is really interesting because it doesn't
+
+---------04:25----------
+look like that path has any damage but
+
+---------04:31----------
+they're both it's going up and down
+
+---------04:32----------
+there would indicate that a path that
+
+---------04:34----------
+way in the board is broken
+
+---------04:41----------
+so what I'm gonna do here is I'm going
+
+---------04:43----------
+to use my micro pencil and you can find
+
+---------04:45----------
+out where to get a micro pencil like
+
+---------04:46----------
+this by looking at the links in the
+
+---------04:48----------
+description down below you do receive a
+
+---------04:50----------
+commission if you do use those links and
+
+---------04:51----------
+by the way have noticed a little bit of
+
+---------04:53----------
+a pickup in people using those links and
+
+---------04:54----------
+thank you very much me genuinely from
+
+---------04:57----------
+the bottom of my heart appreciate at
+
+---------04:58----------
+anytime you buy something from those
+
+---------04:59----------
+links below or even just check it out if
+
+---------05:01----------
+you don't plan on buying something
+
+---------05:03----------
+[Music]
+
+---------05:10----------
+you're all too common
+
+---------05:16----------
+[Music]
+
+---------05:23----------
+[Music]
+
+---------05:26----------
+interesting so there's nothing for me to
+
+---------05:28----------
+really solder to here yep and there's no
+
+---------05:34----------
+pad under there okay so that's just got
+
+---------05:37----------
+to go
+
+---------05:39----------
+[Music]
+
+---------05:40----------
+yeah so I was noticing as I was trying
+
+---------05:42----------
+to solder the wire that even though
+
+---------05:45----------
+there was conductivity on the top of the
+
+---------05:47----------
+resistor there was no conductivity on
+
+---------05:48----------
+the side of the bottom of the resistor
+
+---------05:49----------
+and I'm talking about thermal
+
+---------05:50----------
+conductivity in terms of icons solder to
+
+---------05:52----------
+it and solder will stick and it wasn't
+
+---------05:57----------
+all it just wasn't responding at all to
+
+---------05:59----------
+anything I was doing thermal
+
+---------06:00----------
+conductivity is the wrong word there you
+
+---------06:03----------
+get the idea
+
+---------06:04----------
+like I was trying to solder to it and
+
+---------06:06----------
+getting nowhere
+
+---------06:16----------
+so even though the top of the resistor
+
+---------06:18----------
+was conducting the bottom of it wasn't
+
+---------06:20----------
+that's something Wow saying when people
+
+---------06:23----------
+say measure this measure that the top of
+
+---------06:26----------
+the resistor was conducting in the
+
+---------06:28----------
+bottom wasn't that that's an interesting
+
+---------06:30----------
+case so perhaps if we clean the bottom
+
+---------06:33----------
+of this resistor R pad off we won't even
+
+---------06:35----------
+need to have it in a wire it's just
+
+---------06:40----------
+gonna take a little bit of gentle
+
+---------06:41----------
+scraping so some flux some solder some
+
+---------06:43----------
+heat some back-and-forth scraping
+
+---------06:48----------
+scraping gonna turn the board a little
+
+---------06:50----------
+so that it's more comfortable for me
+
+---------06:51----------
+remember you don't care about the
+
+---------06:52----------
+board's comfort you care about your own
+
+---------06:53----------
+see this way it's gonna be much more
+
+---------06:55----------
+comfortable for the scraping spoon
+
+---------07:13----------
+okay
+
+---------07:18----------
+now we're going to get ourselves a zero
+
+---------07:20----------
+ohm resistor
+
+---------07:27----------
+[Music]
+
+---------07:30----------
+it's hard to fit in there due to those
+
+---------07:31----------
+capacitors that are in the way
+
+---------07:33----------
+perhaps if we turn the board around yet
+
+---------07:35----------
+again
+
+---------07:54----------
+[Music]
+
+---------08:29----------
+now we're gonna let the board cool off
+
+---------08:31----------
+using our rapid cool technology
+
+---------08:38----------
+rapid coal technology as you can see
+
+---------08:47----------
+barely we are now getting 20 volts on
+
+---------08:50----------
+the charger and it's taking 500 min to
+
+---------08:52----------
+600 milliamps which was what I would
+
+---------08:54----------
+expect a healthy MacBook to be taking
+
+---------08:56----------
+when it's fixed
+
+---------08:58----------
+so all this needed was a single resistor
+
+---------09:02----------
+that was zero homes that's I imagine
+
+---------09:04----------
+acting as either a fuse or a jumper to
+
+---------09:07----------
+be replaced that sits between PP 3v3
+
+---------09:09----------
+underscore g3 hot which is the power
+
+---------09:10----------
+line that powers our cd32 15 s and the
+
+---------09:13----------
+cd32 15 so that's it for today and as
+
+---------09:16----------
+always I hope you learned something do
+
+---------09:18----------
+you have a Macbook that needs to be
+
+---------09:19----------
+fixed come by our store which is open to
+
+---------09:22----------
+the public at 186 1st Avenue in
+
+---------09:23----------
+Manhattan are you located outside of New
+
+---------09:26----------
+York no problem send us a machine from
+
+---------09:28----------
+anywhere in the world by going to our
+
+---------09:30----------
+website and clicking on the mailbox or
+
+---------09:32----------
+simply heading over to send your macbook
+
+---------09:34----------
+comm that send your macbook comm will
+
+---------09:38----------
+you be redirected to our mail and
+
+---------09:39----------
+instructions page that includes the form
+
+---------09:42----------
+and the directions on how to send us a
+
+---------09:44----------
+MacBook for repair we have a live chat
+
+---------09:47----------
+where you can speak with us about the
+
+---------09:48----------
+repair that you need a phone number
+
+---------09:50----------
+where a representative will pick up
+
+---------09:52----------
+during our open hours and a contact form
+
+---------09:54----------
+will contact us about repairs
+

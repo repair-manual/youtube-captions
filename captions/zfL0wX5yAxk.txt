@@ -1,0 +1,958 @@
+https://www.youtube.com/watch?v=zfL0wX5yAxk
+---------00:00----------
+okay so today I'm gonna be
+
+---------00:01----------
+troubleshooting in old MacBook that's
+
+---------00:03----------
+not charging from start to finish one of
+
+---------00:05----------
+the first things that you want to look
+
+---------00:06----------
+for here when somebody says it's not
+
+---------00:08----------
+charging is to figure out if the issue
+
+---------00:09----------
+is not charging or no battery
+
+---------00:12----------
+recognition because these are two very
+
+---------00:14----------
+different issues so if it sees the
+
+---------00:16----------
+charger and works off the charger and
+
+---------00:18----------
+sees the battery and works off the
+
+---------00:20----------
+battery but simply will not charge it
+
+---------00:21----------
+that's a very different issue than when
+
+---------00:23----------
+you simply see an X on the battery so
+
+---------00:25----------
+over here I have a machine and one of
+
+---------00:28----------
+the first things I noticed is that I
+
+---------00:29----------
+have a green light on the charger I'm
+
+---------00:32----------
+not sure if you can see the green light
+
+---------00:33----------
+in the charger here but we've got a
+
+---------00:35----------
+green light right there that we do
+
+---------00:38----------
+indeed have a green light so that means
+
+---------00:40----------
+that the one wire circuit is working now
+
+---------00:42----------
+if the one wire circuit is working in it
+
+---------00:43----------
+seeing the charger now the next step
+
+---------00:45----------
+here is to see if it sees the battery so
+
+---------00:47----------
+I'm gonna boot up into the operating
+
+---------00:49----------
+system here and I see that it says the
+
+---------00:52----------
+battery is a hundred percent and it also
+
+---------00:54----------
+has a little it sees a hundred percent
+
+---------00:58----------
+it also has a little charging icon so it
+
+---------01:00----------
+sees a battery so now let's try to
+
+---------01:02----------
+figure out why it is it may not be
+
+---------01:03----------
+charging the battery so I'm just going
+
+---------01:05----------
+to open it up here
+
+---------01:14----------
+I love having an air-conditioner this is
+
+---------01:17----------
+such crappy weather to not have an air
+
+---------01:18----------
+conditioner one of the things I used to
+
+---------01:21----------
+hate with working at other places is
+
+---------01:23----------
+like they would have a fan or something
+
+---------01:25----------
+I mean what the good is a fan going
+
+---------01:28----------
+to do when it's 95 degrees 90% humidity
+
+---------01:30----------
+thank you for blowing some 95 degree air
+
+---------01:33----------
+in my face that really makes it better
+
+---------01:34----------
+when the AC goes off I stopped working
+
+---------01:37----------
+that's really it's as simple as that if
+
+---------01:40----------
+I'm not comfortable I'm not working can
+
+---------01:42----------
+I work through discomfort sure am I
+
+---------01:44----------
+gonna work for some other [ __ ]
+
+---------01:45----------
+through discomfort no so first thing
+
+---------01:50----------
+that I'm gonna do here justice let's see
+
+---------01:52----------
+if some of the main power rails are
+
+---------01:54----------
+present when the battery is connected so
+
+---------01:57----------
+I'm going to check PP 3 V 4 2 when the
+
+---------02:00----------
+battery is connected without the charger
+
+---------02:03----------
+let's see what I get I go here it's
+
+---------02:09----------
+present PP but G 3 hot is kinda low
+
+---------02:13----------
+because the battery is not charging ok
+
+---------02:15----------
+so now I see that the battery says
+
+---------02:19----------
+replacement battery 4 and it's from a
+
+---------02:21----------
+company called they think key power
+
+---------02:23----------
+oh boy this is gonna this is no good no
+
+---------02:25----------
+good no good alright so let's see some
+
+---------02:28----------
+of the reasons that it may not be
+
+---------02:29----------
+charging so one of the first things that
+
+---------02:31----------
+I go over here is the current sensing
+
+---------02:32----------
+circuitry so let me just show you what
+
+---------02:35----------
+that is on the screen I'm going to go
+
+---------02:36----------
+over to the screen capture once I open
+
+---------02:38----------
+up the schematic for this board this is
+
+---------02:39----------
+an 8 to 0 29:36
+
+---------02:41----------
+which means it's all this dirt okay so
+
+---------02:44----------
+now we're gonna switch over to the
+
+---------02:46----------
+screen capture and let's take a look at
+
+---------02:51----------
+the current sensing section now if you
+
+---------02:54----------
+don't know what current sensing is you
+
+---------02:55----------
+should watch one of my many videos on
+
+---------02:57----------
+what current sensing circuitry does so
+
+---------02:59----------
+I'm gonna check two current sensing
+
+---------03:00----------
+circuits here the first current sensing
+
+---------03:02----------
+circuit I'm gonna check is the charger
+
+---------03:04----------
+current sensing which is over here so
+
+---------03:06----------
+the charger power before going through
+
+---------03:08----------
+to the rest of the computer goes through
+
+---------03:10----------
+this resistor there is a very small
+
+---------03:12----------
+voltage drop across the resistor very
+
+---------03:13----------
+tiny and the u 7000 is going to measure
+
+---------03:16----------
+that voltage drop at the top and the
+
+---------03:18----------
+bottom so it's gonna see what fault that
+
+---------03:19----------
+is at the top and what voltage is at the
+
+---------03:21----------
+bottom and once it does that calculation
+
+---------03:24----------
+is going to have an idea of how much
+
+---------03:26----------
+current this system is using
+
+---------03:27----------
+same thing is true for the battery we
+
+---------03:29----------
+have a battery current sensing resistor
+
+---------03:31----------
+here this is where the battery is going
+
+---------03:34----------
+to come in to the computer but before it
+
+---------03:36----------
+comes into the computer it is going to
+
+---------03:39----------
+go through this current sensing resistor
+
+---------03:40----------
+and the u 7000 chip is going to tell how
+
+---------03:44----------
+much voltage is on each end of the
+
+---------03:47----------
+current sensing resistor and once it
+
+---------03:49----------
+knows what voltage is here and what
+
+---------03:50----------
+voltage is there it's gonna have an idea
+
+---------03:52----------
+of how much voltage the system is using
+
+---------03:54----------
+now before the u 7000 gets the C 2 volt
+
+---------03:58----------
+on each side here it has to go through
+
+---------04:00----------
+one of these resistors so sometimes
+
+---------04:02----------
+these resistors are blown so let's think
+
+---------04:04----------
+here what's a quick way that I could
+
+---------04:05----------
+test every single component and also
+
+---------04:07----------
+every single line in this circuit
+
+---------04:09----------
+without having to do multiple
+
+---------04:10----------
+measurements I want to know if the line
+
+---------04:12----------
+between this current sensing line and
+
+---------04:15----------
+this resistor is good if this resistor
+
+---------04:17----------
+is good if the line between here and
+
+---------04:19----------
+this resistor is good if this resistor
+
+---------04:21----------
+is good if this line from here to here
+
+---------04:22----------
+is good if this resistor is good all
+
+---------04:24----------
+instead of measuring all that I'm gonna
+
+---------04:26----------
+measure the resistance between pins 27
+
+---------04:29----------
+and 28 and then over here I'm also going
+
+---------04:31----------
+to measure the resistance between pin 17
+
+---------04:33----------
+and 18 what I should get when I measure
+
+---------04:35----------
+the resistance between pinch 27 and 28
+
+---------04:37----------
+what I should get is the combined sum of
+
+---------04:40----------
+all the resistors in the circuit so for
+
+---------04:43----------
+the charger current sensing circuit I
+
+---------04:44----------
+should see 10 plus 0.02 plus 10 and for
+
+---------04:48----------
+the battery current sensing circuit I
+
+---------04:50----------
+should see 0 plus 0.01 plus 2.2 if I get
+
+---------04:54----------
+something much higher I know something
+
+---------04:56----------
+is wrong with that being said let me get
+
+---------04:58----------
+the microscope camera on so I can show
+
+---------05:00----------
+you what this area of the board looks
+
+---------05:01----------
+like so that I could start making
+
+---------05:03----------
+measurements and you can watch and see
+
+---------05:05----------
+how it goes now let's just switch over
+
+---------05:09----------
+and open broadcaster 2 if in view here
+
+---------05:13----------
+we go let's switch on the light for the
+
+---------05:16----------
+microscope camera so that you can see
+
+---------05:17----------
+things and I'm gonna um promote any
+
+---------05:20----------
+resistance measurements we make on a
+
+---------05:21----------
+motherboard you're going to want to
+
+---------05:23----------
+unplug any power going through the board
+
+---------05:25----------
+because power going through the board in
+
+---------05:27----------
+these cases is very very bad so we have
+
+---------05:29----------
+the multimeter over here in resistance
+
+---------05:31----------
+mode and with my phase right by the
+
+---------05:33----------
+multimeter and then move my face away so
+
+---------05:34----------
+that hopefully it stays focused on the
+
+---------05:36----------
+multimeter crap it's on my face hello I
+
+---------05:39----------
+have face detect
+
+---------05:41----------
+on my camcorder and it's really screwing
+
+---------05:44----------
+up my filmography here let's see what if
+
+---------05:47----------
+I move and if I give up oh oh I'll
+
+---------05:51----------
+figure out how to turn that stuff off
+
+---------05:52----------
+via remote or something later maybe I'll
+
+---------05:55----------
+make a foot switch for it I'll be and
+
+---------05:58----------
+that'll be a project so we do this and
+
+---------06:03----------
+let's see what am I getting look at that
+
+---------06:07----------
+beautiful leaded lead-free solder oh wow
+
+---------06:11----------
+it's really it really takes nothing to
+
+---------06:12----------
+scrape away that so we measure or
+
+---------06:15----------
+from here and here fire or is it 56 kilo
+
+---------06:24----------
+ohms whatever it is it's more it's more
+
+---------06:27----------
+than the two is more than a 2.3 ohms I
+
+---------06:31----------
+was expecting now let's measure the
+
+---------06:32----------
+charging current sensing circuit so
+
+---------06:34----------
+we're gonna measure the resistance
+
+---------06:35----------
+between here and here and that's the
+
+---------06:43----------
+twenty point would okay it's not exactly
+
+---------06:44----------
+what I was expecting but it's it's it's
+
+---------06:46----------
+fine twenty point zero three twenty
+
+---------06:49----------
+point zero nine same same for the
+
+---------06:51----------
+most part here that's that's negligible
+
+---------06:52----------
+but here's where the real problem lies
+
+---------06:54----------
+and now this is where I have to figure
+
+---------06:56----------
+out what which part of it is blown so
+
+---------06:59----------
+let's start with this resistor over here
+
+---------07:00----------
+so as you can see this is our current
+
+---------07:02----------
+sensing circuit we're going from here to
+
+---------07:04----------
+here there's this resistor on one line
+
+---------07:06----------
+that resistor is exactly what it's
+
+---------07:11----------
+supposed to be of course of course do
+
+---------07:13----------
+you know why that resistor is fine
+
+---------07:14----------
+because it's gonna be the other one
+
+---------07:15----------
+that's under this epoxy under fill'
+
+---------07:17----------
+looking it's always the stuff
+
+---------07:19----------
+that's under the epoxy under fill'
+
+---------07:21----------
+looking why would it be
+
+---------07:22----------
+something that's simple girl so let's
+
+---------07:26----------
+remove that epoxy ish underfill lookin
+
+---------07:28----------
+crap and then check the other resistor
+
+---------07:43----------
+okay I'm gonna heat it let's heat this
+
+---------07:47----------
+from far away
+
+---------08:03----------
+and eventually this epoxy should come
+
+---------08:05----------
+right off in one piece in the fantasy
+
+---------08:10----------
+world that's in my mind yep definitely
+
+---------08:17----------
+in the fantasy world that's in my mind
+
+---------08:19----------
+cuz that's not what's gonna happen on
+
+---------08:20----------
+this point it's Gemma
+
+---------08:29----------
+you
+
+---------08:39----------
+okay you now we measure the
+
+---------08:42----------
+resistor is it you
+
+---------08:55----------
+wait a second if it's not you
+
+---------09:00----------
+and it's not you
+
+---------09:09----------
+then why did I get that ridiculously
+
+---------09:11----------
+high measurement
+
+---------09:21----------
+what
+
+---------09:24----------
+you are not measuring that just a
+
+---------09:26----------
+ minute ago I piece of
+
+---------09:30----------
+ seriously that was fifty two kilos
+
+---------09:33----------
+one minute ago oh you
+
+---------09:47----------
+okay now we're going to move over to
+
+---------09:51----------
+theory number two that knockoff
+
+---------09:56----------
+eBay battery doesn't charge because it's
+
+---------09:58----------
+a knockoff eBay battery let's
+
+---------10:05----------
+try an original battery
+
+---------10:19----------
+hey giant original original okay this
+
+---------10:31----------
+battery is charging it
+
+---------10:36----------
+open this thing up we're going to turn
+
+---------10:39----------
+it on it turns on from this battery
+
+---------10:43----------
+beautiful and let's see what we get now
+
+---------10:50----------
+I'm going to plug my charger in which
+
+---------10:52----------
+was stuck on green before
+
+---------11:03----------
+and the charger light turns orange I
+
+---------11:07----------
+don't know if you can see that from here
+
+---------11:09----------
+but it turns orange now here's the part
+
+---------11:11----------
+where I'm going to lose my because
+
+---------11:13----------
+I have a really strong feeling that what
+
+---------11:15----------
+I'm gonna do is I'm gonna reconnect the
+
+---------11:17----------
+original battery that was not working
+
+---------11:19----------
+and that it's gonna give me an orange
+
+---------11:20----------
+light how much do you want to bet that
+
+---------11:22----------
+the computer fixed itself while
+
+---------11:24----------
+I was doing this on camera without me
+
+---------11:25----------
+actually doing anything that would be
+
+---------11:27----------
+pretty funny people don't get it like
+
+---------11:31----------
+nothing goes the way you want when
+
+---------11:32----------
+you're doing a video all right so I'm
+
+---------11:40----------
+gonna unplug by unplug the charger plug
+
+---------11:44----------
+it in it's green and now it's orange
+
+---------11:53----------
+mother what did I do some bit seriously
+
+---------12:00----------
+somebody watching like oh I know I get
+
+---------12:01----------
+trolled by a lot of engineers on this
+
+---------12:03----------
+channel and right now at fifty-six
+
+---------12:04----------
+thousand subscribers I know that I have
+
+---------12:06----------
+at least one of you people watching is
+
+---------12:08----------
+one of those engineers I likes a troll
+
+---------12:09----------
+everything I do what did I do
+
+---------12:11----------
+why does this work explain to me what
+
+---------12:13----------
+the did I do
+
+---------12:16----------
+seriously the resistor was because the
+
+---------12:20----------
+thing is you can heat a capacitor like a
+
+---------12:21----------
+like a tantalum capacitor or an
+
+---------12:23----------
+electrolytic and see it work again but
+
+---------12:26----------
+resistors I mean what did it not like
+
+---------12:31----------
+having epoxy over the speaker I see
+
+---------12:42----------
+medicine I'm not gonna argue with it do
+
+---------12:45----------
+you know how much I do where I
+
+---------12:46----------
+spend two or three or four hours on
+
+---------12:48----------
+something and nothing works do you know
+
+---------12:50----------
+many times I beat my head against the
+
+---------12:52----------
+wall when just something doesn't work
+
+---------12:54----------
+that should work we're against all logic
+
+---------12:56----------
+something decides to just break or be
+
+---------12:59----------
+destroyed for no reason and I look like
+
+---------13:01----------
+an idiot it happens all the time all the
+
+---------13:06----------
+time so yeah I should just take this as
+
+---------13:09----------
+you know oh yeah I'm not gonna get
+
+---------13:14----------
+tortured all the time I might as well
+
+---------13:16----------
+get some that are easy it's even working
+
+---------13:20----------
+off of it - it's at 5% already what the
+
+---------13:27----------
+ did I do
+
+---------13:31----------
+it didn't work before it does work now
+
+---------13:36----------
+I touched it anyway guess it's one of
+
+---------13:38----------
+those things it's like I get blamed all
+
+---------13:40----------
+the time for that I I get blamed
+
+---------13:43----------
+constantly for things that had nothing
+
+---------13:44----------
+to do with me I was just commenting
+
+---------13:46----------
+earlier today on some comments somebody
+
+---------13:48----------
+left on on a car mechanic they had and
+
+---------13:51----------
+you know I remember a few years ago back
+
+---------13:53----------
+before everybody knew that the that the
+
+---------13:55----------
+2011 MacBook Pro is a steaming pile of
+
+---------13:58----------
+ the 15-inch model with the GPU
+
+---------14:00----------
+issues I remember commenting on that I
+
+---------14:01----------
+said you know I remember one time that I
+
+---------14:04----------
+reinstalled somebody's operating system
+
+---------14:06----------
+and I put Libre Office on for them and
+
+---------14:08----------
+they said that ever since I installed
+
+---------14:11----------
+Libre Office they've been having
+
+---------14:12----------
+flickering with the screen and like I
+
+---------14:14----------
+didn't even charge them I told him to
+
+---------14:16----------
+leave a tip and they genuinely call back
+
+---------14:18----------
+like 10 times really mad like very close
+
+---------14:20----------
+to filing licensing claim you know
+
+---------14:23----------
+claims with the licensing agency in New
+
+---------14:24----------
+York City because they thought that I
+
+---------14:26----------
+caused their graphic strip to die so
+
+---------14:28----------
+like I am blamed constantly constantly
+
+---------14:30----------
+for where I didn't do anything and
+
+---------14:32----------
+something didn't work so yeah I can't
+
+---------14:36----------
+really say that I'm I'll take it I
+
+---------14:39----------
+didn't do anything I didn't do
+
+---------14:42----------
+it I did
+
+---------14:49----------
+and it worked so
+
+---------14:57----------
+hey I'm happy
+
+---------15:03----------
+I don't got to run 15 wires
+
+---------15:14----------
+the same way that I can kill a GPU by
+
+---------15:17----------
+installing an office application I can
+
+---------15:19----------
+fix a motherboard by looking at
+
+---------15:22----------
+it that's pretty cool yeah this is a
+
+---------15:26----------
+much shittier video than I thought it
+
+---------15:27----------
+would be really shitty video I mean like
+
+---------15:30----------
+did you learn anything cuz I didn't
+
+---------15:32----------
+learn anything that's it for today
+
+---------15:34----------
+thanks for watching
+

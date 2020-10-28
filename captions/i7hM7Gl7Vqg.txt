@@ -1,0 +1,1138 @@
+https://www.youtube.com/watch?v=i7hM7Gl7Vqg
+---------00:00----------
+okay so this takes 400 milliamps and
+
+---------00:05----------
+turns huh huh huh
+
+---------00:10----------
+hi here happy tapi chime chime okay so
+
+---------00:15----------
+this happy happy chime chime but no
+
+---------00:18----------
+happy happy screen screen there's
+
+---------00:20----------
+nothing on the screen see that that's a
+
+---------00:21----------
+backlight it's dark now one of the
+
+---------00:23----------
+things I go over in all of my videos
+
+---------00:25----------
+including the guide that I did on
+
+---------00:28----------
+MacBook no backlight issues is what
+
+---------00:30----------
+voltage is your backlight output because
+
+---------00:33----------
+the backlight output voltage is going to
+
+---------00:35----------
+be very important to doing a proper
+
+---------00:37----------
+diagnosis so I'm gonna measure backlight
+
+---------00:40----------
+output at the backlight output section
+
+---------00:44----------
+and we can take a look at that okay
+
+---------00:48----------
+eight point five volts so that means
+
+---------00:51----------
+that we don't have boosting going on now
+
+---------00:52----------
+typically what causes no boosting is
+
+---------00:54----------
+this little trace over here this is
+
+---------00:58----------
+where backlight output is going to both
+
+---------01:01----------
+go to the chip and the bottom of the
+
+---------01:03----------
+board that makes the back light output
+
+---------01:04----------
+for feedback so this is a diode now let
+
+---------01:08----------
+me just go through the signal flow here
+
+---------01:09----------
+so you have the backlight fuse backlight
+
+---------01:12----------
+fuse goes to this transistor over here
+
+---------01:14----------
+here we go backlight fuse backlight fuse
+
+---------01:17----------
+goes to transistor transistor then goes
+
+---------01:20----------
+opens up when the Machine supposed to
+
+---------01:22----------
+give a backlight goes to this coil then
+
+---------01:24----------
+at the other end of this coil it goes to
+
+---------01:26----------
+the LED driver which is going to switch
+
+---------01:27----------
+on off on off on off to ground and it's
+
+---------01:30----------
+gonna make the coil really mad and when
+
+---------01:31----------
+the coil gets mad it shoots out spikes
+
+---------01:33----------
+of higher voltage that then goes through
+
+---------01:35----------
+the diode and this way that once those
+
+---------01:38----------
+large spikes are saved by these
+
+---------01:40----------
+capacitors over here they're unable to
+
+---------01:42----------
+go backwards through the circuit and
+
+---------01:44----------
+send 27 volts the [ __ ] that's supposed
+
+---------01:45----------
+to only be eight volts because this fuse
+
+---------01:47----------
+is providing eight volts to this area
+
+---------01:49----------
+not 27 it's gonna become 27 at this
+
+---------01:52----------
+point over here now this is gonna send
+
+---------01:56----------
+it off eventually over here to the
+
+---------01:58----------
+screen on pins three and four now
+
+---------02:01----------
+however the LED driver on the other side
+
+---------02:04----------
+of the board is going to want to see
+
+---------02:05----------
+what voltage it's creating but it can't
+
+---------02:08----------
+see how much voltage is creating if
+
+---------02:09----------
+feedback is broken that's usually broken
+
+---------02:12----------
+that's the thing that usually
+
+---------02:13----------
+keeps the backlight here from working
+
+---------02:14----------
+but that doesn't seem to be the case
+
+---------02:15----------
+here because that area looks fine so
+
+---------02:18----------
+what I'd like to do now let's take the
+
+---------02:21----------
+board out of the case take a look at the
+
+---------02:23----------
+other side and see if we can figure out
+
+---------02:25----------
+why this is not working
+
+---------02:26----------
+shall we we shall there's no overhead
+
+---------02:34----------
+camera great microscope picture someone
+
+---------02:40----------
+says yeah Matt wait till I actually put
+
+---------02:42----------
+up a second monitor since they'll have
+
+---------02:44----------
+space to put up a second monitor so I
+
+---------02:45----------
+can see what you see cuz right now I
+
+---------02:48----------
+just adjust based on what I think it
+
+---------02:49----------
+looks like wait till I can actually
+
+---------02:51----------
+monitor what I do it's gonna be [ __ ]
+
+---------02:55----------
+crazy it's gonna be crazy
+
+---------02:57----------
+it's gonna be crazy you have a special
+
+---------02:59----------
+monitor just for OBS Congrats on the
+
+---------03:02----------
+move and dough board on dobroe utro
+
+---------03:07----------
+don't be done that's I think all I know
+
+---------03:11----------
+how to say in Slovenian okay let's take
+
+---------03:13----------
+a look at support go around the LED
+
+---------03:15----------
+drivers section where I expect to see
+
+---------03:19----------
+corrosion well there you go and as I
+
+---------03:22----------
+said the most corrosion here is going to
+
+---------03:25----------
+be right along that feedback line see ya
+
+---------03:30----------
+see that okay let me open up the
+
+---------03:34----------
+schematic and show you why that is using
+
+---------03:36----------
+Paul Daniels's software let's open up
+
+---------03:39----------
+some Paul Daniels software I feel like
+
+---------03:44----------
+I'm polluting the new store Oh what am i
+
+---------03:48----------
+doing so the first first time opening up
+
+---------03:50----------
+the Paul Daniels software in the new
+
+---------03:52----------
+place let's see if it works there we go
+
+---------03:57----------
+so let's go over the backlight circuit
+
+---------03:59----------
+that I discussed before this is where
+
+---------04:01----------
+voltage rise of the battery or the
+
+---------04:03----------
+charger is gonna come through the
+
+---------04:05----------
+Machine people brush teeth free huh
+
+---------04:06----------
+that's your backlight fuse the thing
+
+---------04:08----------
+that never blows in a Macbook except for
+
+---------04:10----------
+when louis forgets to bring a backlight
+
+---------04:11----------
+fuse like yesterday because life is
+
+---------04:13----------
+ridiculous it goes to this transistor
+
+---------04:18----------
+once the CPU PCH sends out these two
+
+---------04:22----------
+signals allowing the backlight to turn
+
+---------04:24----------
+on
+
+---------04:26----------
+you have oil over here so this coil is
+
+---------04:28----------
+gonna get really mad if it gets short
+
+---------04:30----------
+it's a ground after output when the coil
+
+---------04:31----------
+gets mad it goes rara rara
+
+---------04:34----------
+and then it outputs more voltage that's
+
+---------04:36----------
+how a DC to DC boost circuit works so
+
+---------04:38----------
+over here you see it says SW that stands
+
+---------04:41----------
+for switch the LED driver that does the
+
+---------04:42----------
+work is going to switch that eight volts
+
+---------04:45----------
+coming out of here to ground really
+
+---------04:48----------
+really quickly and that's gonna make the
+
+---------04:49----------
+coil man when it goes for our hour hour
+
+---------04:51----------
+you're gonna have spikes up to 27 volts
+
+---------04:54----------
+27 volts 27 volts but you can't have a
+
+---------04:56----------
+spike of 27 0 27 0 27 0 that's what the
+
+---------04:59----------
+caps are for the caps are like little
+
+---------05:01----------
+batteries they're gonna hold that 27
+
+---------05:03----------
+volt so it's steady the diode is here
+
+---------05:05----------
+because what goes forward can also go
+
+---------05:07----------
+backwards and I don't want to send I
+
+---------05:09----------
+don't want to send 27 volts through a
+
+---------05:12----------
+circuit that's being powered off of any
+
+---------05:14----------
+volt well I'd like to keep the 27 on the
+
+---------05:15----------
+27th side and the 8 on the 8th side
+
+---------05:17----------
+that's what this diode is for now this
+
+---------05:20----------
+chip also wants to see what it's doing
+
+---------05:21----------
+kind of like if you're driving you don't
+
+---------05:22----------
+want to just drive to 30 or 40 or 50
+
+---------05:25----------
+miles an hour and then just stay there
+
+---------05:26----------
+you want to see what's ahead of you on
+
+---------05:27----------
+the road you may slow yourself down if
+
+---------05:29----------
+somebody you know Jay walks in front of
+
+---------05:31----------
+your car
+
+---------05:32----------
+that's what feedback is for feedback is
+
+---------05:34----------
+gonna allow the chip to see what it's
+
+---------05:35----------
+creating that's the only line and on the
+
+---------05:38----------
+chip from backlight output after the
+
+---------05:41----------
+diode back to the chip and if it can't
+
+---------05:42----------
+see that it's gonna break
+
+---------05:43----------
+also back light output is gonna be the
+
+---------05:45----------
+highest voltage point because that's
+
+---------05:46----------
+where all the boosting occurred and
+
+---------05:47----------
+feedback is gonna be the one part of the
+
+---------05:50----------
+chip the one ball the chip that has the
+
+---------05:53----------
+most voltage on it which is why that's
+
+---------05:56----------
+the one that always corrodes the most so
+
+---------05:58----------
+people always ask why does that ball
+
+---------05:59----------
+corrode the most that's because the
+
+---------06:01----------
+highest voltage that was the one that's
+
+---------06:02----------
+gonna corrode the fastest which is why
+
+---------06:04----------
+it looks like this so corrosion is
+
+---------06:06----------
+happening in this general area as you
+
+---------06:08----------
+can see there's a bunch of corrosion in
+
+---------06:09----------
+this general area but the nastiest
+
+---------06:11----------
+corrosion is on the highest voltage
+
+---------06:12----------
+point which is LED backlight now
+
+---------07:40----------
+zero effect know the word influencer
+
+---------07:44----------
+does not work with an x-ray company I'll
+
+---------07:46----------
+give you this the word in floor insert
+
+---------07:49----------
+works just as well with an x-ray company
+
+---------07:52----------
+as it does with global industrial
+
+---------07:54----------
+regarding getting my damn desks the
+
+---------07:56----------
+influencer [ __ ] is essentially useless
+
+---------07:58----------
+unless you want to get $3,000 one time
+
+---------08:01----------
+to show Nord VPN right before they have
+
+---------08:03----------
+a security breach and all your
+
+---------08:04----------
+credibility gets destroyed for
+
+---------08:05----------
+recommending a shitty company that seems
+
+---------08:07----------
+to be something that being an influencer
+
+---------08:09----------
+is good for I did get an offer not once
+
+---------08:14----------
+not twice but three times
+
+---------08:16----------
+it's a shill Nord VPN which would have
+
+---------08:19----------
+been great that's exactly what I need
+
+---------08:21----------
+nobody to ever trust me again because I
+
+---------08:24----------
+garbage that I did not personally
+
+---------08:26----------
+inspect or had the ability to personally
+
+---------08:29----------
+but that's pretty much all you get as an
+
+---------08:30----------
+influencer Nord VPN Nord VPN shadow
+
+---------08:36----------
+legends whatever the [ __ ] oh that's crap
+
+---------08:40----------
+give me a [ __ ] desk I'll be happy
+
+---------08:44----------
+just to get a desk and the switch trace
+
+---------08:46----------
+is a little nasty as well so I'm
+
+---------08:48----------
+probably gonna run a jumper up in there
+
+---------08:55----------
+and where's my little exacto knife yes
+
+---------09:03----------
+how much flux do you go through lots
+
+---------09:05----------
+what's wrong with this board this is a
+
+---------09:07----------
+no back light board but it's not gonna
+
+---------09:10----------
+be much long for it with it for long
+
+---------09:12----------
+alright so it wasn't just the corrosion
+
+---------09:13----------
+under the chip check that out we have a
+
+---------09:15----------
+that that is totally gone there's
+
+---------09:17----------
+nothing there look at that alright so
+
+---------09:22----------
+what I do here is I'm gonna scrape away
+
+---------09:24----------
+that solder mask with my exacto knife
+
+---------09:27----------
+link in the description down below can I
+
+---------09:31----------
+interest you and my influence or
+
+---------09:33----------
+affiliate links down below that will
+
+---------09:35----------
+allow us to get little bits here and
+
+---------09:40----------
+there
+
+---------09:48----------
+all right I'm going to use a nice little
+
+---------09:52----------
+wire which we also have an influencer
+
+---------09:54----------
+affiliate link for down below
+
+---------10:01----------
+this is why I don't show [ __ ] like Nord
+
+---------10:03----------
+VPN because now I'm since I didn't show
+
+---------10:06----------
+Nord VPN now I can show [ __ ] like magnet
+
+---------10:09----------
+wire and people aren't going to think
+
+---------10:11----------
+that this is the magnet wire that ruins
+
+---------10:15----------
+your data security when you take when
+
+---------10:17----------
+you buy Rossman group recommended enamel
+
+---------10:20----------
+wire to run your jumper wire as your
+
+---------10:23----------
+security is not going to be compromised
+
+---------10:26----------
+and you can trust me when I say that
+
+---------10:28----------
+this enamel wire is not gonna compromise
+
+---------10:29----------
+the security and privacy and integrity
+
+---------10:31----------
+of your tik-tok because I didn't show
+
+---------10:33----------
+Nord VPN I didn't show Nord VPN see if I
+
+---------10:37----------
+see how that works see how that works
+
+---------10:40----------
+this wire has no tick-tock on it but if
+
+---------10:45----------
+you watch the videos of the other
+
+---------10:46----------
+youtubers that showed Nord VPN you have
+
+---------10:49----------
+to worry because they may be giving you
+
+---------10:52----------
+wires that have tik-tok installed on
+
+---------10:55----------
+them what are you gonna do then very
+
+---------10:57----------
+serious matter my friends serious matter
+
+---------11:00----------
+you don't want to get
+
+---------11:06----------
+can't have tik-tok installed on your
+
+---------11:08----------
+Nord VPN by the way if you don't want to
+
+---------11:10----------
+buy this chip this is an LP 8550 LED
+
+---------11:12----------
+driver I wonder where you could go where
+
+---------11:14----------
+would you go if you needed to buy an LED
+
+---------11:16----------
+driver well folks look no more then
+
+---------11:19----------
+store dot Rossman group.com if you need
+
+---------11:23----------
+an LED driver chip you can head right on
+
+---------11:25----------
+over to store down trosman group comm
+
+---------11:26----------
+today to get yourself some authentic LED
+
+---------11:29----------
+drivers and authentic an tech flux if
+
+---------11:31----------
+you're not sure which one goes to your
+
+---------11:33----------
+board no problem you can go I see chips
+
+---------11:35----------
+and components chips by device MacBook
+
+---------11:38----------
+MacBook Air 13-inch you can even choose
+
+---------11:40----------
+by the model of your motherboard by
+
+---------11:42----------
+reading it straight off and go eight -
+
+---------11:44----------
+zero - zero zero one six five components
+
+---------11:46----------
+as soon as you click it they'll take you
+
+---------11:48----------
+to a page that has every single one of
+
+---------11:50----------
+the chips that's needed for that board
+
+---------11:52----------
+available that store dot Rossmann
+
+---------11:54----------
+group.com cells like the LP 8550 LED
+
+---------11:57----------
+driver it'll even say in the title of
+
+---------11:59----------
+the product what chip it is on that
+
+---------12:01----------
+specific motherboard and when you click
+
+---------12:03----------
+it it'll tell you the board that's
+
+---------12:04----------
+compatible with down below here on this
+
+---------12:06----------
+compatible boards listing don't delay
+
+---------12:09----------
+head over to store down tras maboob comm
+
+---------12:10----------
+today we'll install tik tok on your
+
+---------12:15----------
+computer alright let's get back to a
+
+---------12:18----------
+place in this board or this chip over
+
+---------12:20----------
+here and this beautiful motherboard this
+
+---------12:23----------
+beautiful day you know this is like one
+
+---------12:25----------
+of those times or actually went over to
+
+---------12:27----------
+the twitch chat chat and said I've kind
+
+---------12:29----------
+of been unfair to those people maybe I
+
+---------12:31----------
+should read it but yeah I give up you
+
+---------12:34----------
+know if you spent half as much time
+
+---------12:36----------
+installing tik tok on those computers
+
+---------12:38----------
+you hacked as you did using it to [ __ ]
+
+---------12:41----------
+with twitch chat the world's would
+
+---------12:43----------
+likely be a better place because we we
+
+---------12:45----------
+need in this world are not people that
+
+---------12:48----------
+[ __ ] with twitch chat but we need in
+
+---------12:50----------
+this world if we're gonna have any sort
+
+---------12:51----------
+of hacker we need people that are going
+
+---------12:53----------
+to install tik tok on things like look
+
+---------12:55----------
+at this this is rich rich chat what is
+
+---------12:57----------
+this oh my god look at this let's do
+
+---------13:00----------
+this
+
+---------13:02----------
+why aren't you installing tick tock
+
+---------13:04----------
+clearly you're not independent repair
+
+---------13:06----------
+center
+
+---------13:28----------
+[Music]
+
+---------13:35----------
+I don't like the way that solder pad
+
+---------13:37----------
+looks so I'd like to clean it up a
+
+---------13:38----------
+little bit for that backlight enable
+
+---------13:39----------
+resistor to the right because I don't
+
+---------13:44----------
+know what that is Tenace that's why I
+
+---------13:46----------
+had it wasn't considering that other
+
+---------13:47----------
+camera oh that's a black magic well
+
+---------13:53----------
+that's probably why it's made by a
+
+---------13:55----------
+company that makes buggy stuff this
+
+---------13:59----------
+doesn't have any XLR ends useless to me
+
+---------14:04----------
+as a smaller sensor than my Sony smaller
+
+---------14:08----------
+sense within the camera I have no XLR
+
+---------14:10----------
+inputs
+
+---------14:24----------
+now Prater that's not gonna do anything
+
+---------14:32----------
+all right so back here I'm just gonna
+
+---------14:35----------
+make sure that that little resistor
+
+---------14:37----------
+feels appreciated
+
+---------14:53----------
+also that the ends of the pad feels
+
+---------14:54----------
+appreciated another but I'm not really
+
+---------15:05----------
+happy with that resistor actually yeah
+
+---------15:07----------
+you can go
+
+---------15:09----------
+gtfo
+
+---------15:16----------
+that's likely gonna cause it to come
+
+---------15:17----------
+back for warranty we'll take a different
+
+---------15:19----------
+resistor
+
+---------15:30----------
+sorry Lois I have to evidently around my
+
+---------15:32----------
+social security number has been
+
+---------15:33----------
+suspended fraud at a Western Union some
+
+---------15:36----------
+money and overseas company to reinstate
+
+---------15:38----------
+my card oh wow you belong in twitch chat
+
+---------15:44----------
+head over to the twitch chat I think
+
+---------15:46----------
+there's someone in there that'll be able
+
+---------15:46----------
+to help you out my friend
+
+---------15:59----------
+right all that generalize corrosion
+
+---------16:01----------
+that's sitting around the chip is going
+
+---------16:02----------
+to come off once it's ultrasonically
+
+---------16:04----------
+cleans
+
+---------16:10----------
+right along the top those those two are
+
+---------16:13----------
+not really too crucial but they look
+
+---------16:16----------
+nasty you know so I don't want to keep
+
+---------16:17----------
+him there
+
+---------16:44----------
+ah I'm not used to Hutch Weezer's
+
+---------17:14----------
+criminal minded if I figure out how to
+
+---------17:17----------
+mod you on twitch can you fix all that
+
+---------17:18----------
+crap
+
+---------17:25----------
+here we go the windows working again I'm
+
+---------17:28----------
+gonna mod some people that I recognize
+
+---------17:29----------
+here maybe you guys can fix I know you I
+
+---------17:37----------
+think I remember you I think I know you
+
+---------17:51----------
+okay there we go
+
+---------17:54----------
+yeah twitch chat can't get me at any
+
+---------17:56----------
+worse than already is so BAM
+
+---------18:09----------
+let's make twitch chat great again okay
+
+---------18:13----------
+speaking of making things great again
+
+---------18:34----------
+this was a bit corroded
+
+---------18:51----------
+app some being a bit OCD with it but I
+
+---------18:54----------
+don't like leaving that bit of corrosion
+
+---------18:56----------
+some stuff I'll trust of the ultrasonic
+
+---------18:59----------
+cleaner other stuff that kind of want to
+
+---------19:00----------
+do myself
+
+---------19:10----------
+and this is the basic pp3 before to
+
+---------19:13----------
+corrosion that I would expect from this
+
+---------19:14----------
+type of spill and a little bit of SMC
+
+---------19:17----------
+reset corrosion I'm actually surprised
+
+---------19:18----------
+the SMC reset chip is doing its job
+
+---------19:20----------
+that's pretty disgusting how about Jimmy
+
+---------19:22----------
+John's cookie they're great I can't eat
+
+---------19:23----------
+a cookie I'm still working on staying in
+
+---------19:26----------
+shape and I haven't really been able to
+
+---------19:28----------
+have time to go to the gym with moving
+
+---------19:29----------
+keeping me busy over the past few days
+
+---------19:33----------
+I've been coming back from the waste of
+
+---------19:35----------
+time main hearing that I went to but I
+
+---------19:39----------
+appreciate it
+
+---------19:42----------
+I'll definitely mean no cookie for Erica
+
+---------19:46----------
+no no cookie for Erica
+
+---------19:53----------
+Erica gets zero cookie
+
+---------20:39----------
+it's grape off the corrosion I want to
+
+---------20:41----------
+put cider on top of corrosion you want
+
+---------20:43----------
+to scrape through the corrosion
+
+---------20:49----------
+and Blackberry of greenies yes
+
+---------20:52----------
+blackberry can have a greenie I will
+
+---------20:55----------
+give blackberry a greenie but she's not
+
+---------20:58----------
+here at the moment so I can't show you
+
+---------20:59----------
+giving her a greenie
+
+---------21:47----------
+okay I feel like this board is going
+
+---------21:50----------
+have a backlight now so we're going to
+
+---------21:53----------
+see how it works let's clean off the
+
+---------22:05----------
+desk a little bit 25 volts on backlight
+
+---------22:13----------
+all right let's see if we had a question
+
+---------22:16----------
+mark folder here in a minute
+
+---------22:17----------
+if we do we'll be good backlight so we
+
+---------22:24----------
+have a working macbook that is it for
+
+---------22:26----------
+today and as always I hope you learned
+
+---------22:28----------
+something I'll see you in the next video
+
+---------22:31----------
+thanks for watching
+

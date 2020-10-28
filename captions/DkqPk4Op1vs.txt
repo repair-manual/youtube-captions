@@ -1,0 +1,946 @@
+https://www.youtube.com/watch?v=DkqPk4Op1vs
+---------00:00----------
+that's it today we're going to start on
+
+---------00:01----------
+an eight to zero 33 30 it turns on
+
+---------00:04----------
+perfectly on the battery but it gives
+
+---------00:05----------
+you a no green light in the charger
+
+---------00:09----------
+common issue one wire a circuit problem
+
+---------00:11----------
+as I've explained before so one of the
+
+---------00:13----------
+things we're gonna do before we start
+
+---------00:15----------
+doing anything else is let's see what
+
+---------00:17----------
+kind of voltage gives me on PP brushed
+
+---------00:19----------
+III hot not that it matters but I'm just
+
+---------00:21----------
+curious
+
+---------00:25----------
+so it gives me absolutely nothing 170
+
+---------00:29----------
+millivolts which is worthless for our
+
+---------00:32----------
+intensive purposes so now let's open the
+
+---------00:37----------
+schematic the board view for the a20 33
+
+---------00:40----------
+30
+
+---------00:42----------
+and look for that lovely one wire
+
+---------00:44----------
+circuit that I talked about so often
+
+---------00:50----------
+so if you don't know what a data line is
+
+---------00:53----------
+look for the data line video this is a
+
+---------00:56----------
+data line between the charger where you
+
+---------00:58----------
+see adapter sense and they misspelled
+
+---------01:01----------
+adapter on the schematic and the SMC
+
+---------01:07----------
+which is that's this one wire so if you
+
+---------01:09----------
+follow us this one wire you'll see that
+
+---------01:12----------
+that goes to you 4900 which is as you'll
+
+---------01:16----------
+see over here the SMC so over here this
+
+---------01:23----------
+is gonna be a data line so this is chip
+
+---------01:25----------
+over here see it as a couple of paths
+
+---------01:27----------
+you have ground and c4 not connected you
+
+---------01:30----------
+have internal which is the system side
+
+---------01:32----------
+of the data line the SMC external which
+
+---------01:35----------
+is the outside portion of the data line
+
+---------01:37----------
+which is the charger and then you have
+
+---------01:40----------
+VCC VCC is power to turn this chip on
+
+---------01:43----------
+that power over here is also attached to
+
+---------01:45----------
+this resistor the pull-up resistor for
+
+---------01:47----------
+the data line so if this chip over here
+
+---------01:49----------
+this logic gate does not let 3.42 volts
+
+---------01:51----------
+through this is a logic gate this chip
+
+---------01:54----------
+over here is gonna take PP 3 V 4 2 and
+
+---------01:56----------
+it's going to send it to power this chip
+
+---------01:58----------
+and it's also going to send it over here
+
+---------02:00----------
+to create the data line along which the
+
+---------02:03----------
+charger is going to talk to the SMC it's
+
+---------02:06----------
+not gonna happen without sm c bc AC ok
+
+---------02:08----------
+being pressed so I'm going to make a few
+
+---------02:10----------
+measurements on my board over here and
+
+---------02:12----------
+again the way I find out where this crap
+
+---------02:14----------
+is using this board view software
+
+---------02:19----------
+you're going to ask me what I get
+
+---------02:20----------
+from even though the answer is obvious
+
+---------02:23----------
+in every video so just just to
+
+---------02:28----------
+get that that point across for all you
+
+---------02:29----------
+people are gonna ask me where the stuff
+
+---------02:31----------
+comes from because I know that you will
+
+---------02:32----------
+ask me where it comes from let me show
+
+---------02:35----------
+you so this is not a good example of the
+
+---------02:38----------
+schematic because this is one of the
+
+---------02:39----------
+very very few schematics where it
+
+---------02:41----------
+doesn't actually show you it but since I
+
+---------02:43----------
+know you're going to ask let me just
+
+---------02:45----------
+find find one where I know it has it in
+
+---------02:48----------
+there
+
+---------02:53----------
+hmmm I wonder where Louis gets
+
+---------02:56----------
+schematics from hmm I wonder where Louis
+
+---------02:58----------
+gets a schematics from hmm I wonder
+
+---------03:01----------
+where he gets this stuff from where do
+
+---------03:04----------
+you get them from
+
+---------03:05----------
+use your brain it's written
+
+---------03:07----------
+right there it's written in large 72
+
+---------03:11----------
+size font in 1080p resolution and let me
+
+---------03:14----------
+tell you something that you know I don't
+
+---------03:15----------
+answer those questions because if you
+
+---------03:17----------
+can't Google like like the model of your
+
+---------03:20----------
+board and the word schematic you I just
+
+---------03:22----------
+know you have no chance of ever ever
+
+---------03:24----------
+ever figuring this out you are never
+
+---------03:26----------
+gonna troubleshoot a system that has
+
+---------03:27----------
+5000 little components on it that you
+
+---------03:29----------
+can't see and figure out how they work
+
+---------03:31----------
+if you don't know how to use Google but
+
+---------03:33----------
+even if you can't use Google right in
+
+---------03:36----------
+there so just stop asking but back to
+
+---------03:41----------
+the point so what I'm gonna do over here
+
+---------03:43----------
+is I'm gonna measure at different parts
+
+---------03:45----------
+in the circuit and we're gonna try to
+
+---------03:46----------
+troubleshoot and see what's going on so
+
+---------03:48----------
+first thing I want to see is is 3.42
+
+---------03:52----------
+volts making it to this chip so I take
+
+---------03:54----------
+my low so let's go probe you may wonder
+
+---------03:57----------
+why I use an oscilloscope to measure for
+
+---------03:58----------
+voltage it's to make life quicker so I
+
+---------04:00----------
+keep my multimeter in resistance or
+
+---------04:02----------
+diode mode and then I use this for
+
+---------04:04----------
+voltage first let's see if that's there
+
+---------04:09----------
+it isn't now we're going to check for
+
+---------04:13----------
+hmm just make sure this didn't stop
+
+---------04:16----------
+recording great
+
+---------04:19----------
+let's check if it's coming out of here
+
+---------04:23----------
+no let's check a pp3 view for two is on
+
+---------04:27----------
+that logic eight
+
+---------04:29----------
+is so there's peepee 3v4 - on u6 901
+
+---------04:32----------
+which is over here let's make that
+
+---------04:34----------
+bigger you can't see a damn thing right
+
+---------04:37----------
+now
+
+---------04:40----------
+oh my PDF reader doesn't want me to zoom
+
+---------04:42----------
+anymore
+
+---------04:45----------
+I know a lot of you say that I should
+
+---------04:47----------
+use Foxit and I'm probably really dumb
+
+---------04:49----------
+for not figuring out how to do this but
+
+---------04:50----------
+when I opened it the icons in the top
+
+---------04:52----------
+were much bigger and they waste a lot of
+
+---------04:53----------
+space and I spent about 40 seconds
+
+---------04:57----------
+trying to figure out how to get rid of
+
+---------04:58----------
+them and now is honestly the maximum
+
+---------05:01----------
+amount of time that I was willing to
+
+---------05:02----------
+spend because see how this annoyed me
+
+---------05:03----------
+with Adobe that annoyance took me like
+
+---------05:05----------
+three seconds and I solved it or five
+
+---------05:07----------
+seconds whereas Foxit I spent 40 seconds
+
+---------05:09----------
+trying to figure that out which is like
+
+---------05:11----------
+this annoyance times 11 or 12 13 and
+
+---------05:14----------
+that's now if Fox it needs to make a way
+
+---------05:18----------
+for me to in less than three seconds
+
+---------05:20----------
+figure out how to remove all those huge
+
+---------05:22----------
+icons that waste space in the top and
+
+---------05:23----------
+then I will use foxy but until it is so
+
+---------05:26----------
+obvious that I can do it in 10 seconds
+
+---------05:28----------
+or less I'm not interested anyway back
+
+---------05:31----------
+to the point so over here we are going
+
+---------05:33----------
+to be looking to see if we have s/m CBC
+
+---------05:38----------
+AC okay which is going to be over there
+
+---------05:41----------
+so let's try measuring that and when I
+
+---------05:43----------
+measure that
+
+---------05:48----------
+it's not there hmm where it is SM CBC AC
+
+---------05:52----------
+okay come from so that's the signal I
+
+---------05:54----------
+need open this logic a so this I can't
+
+---------05:57----------
+say that this is not working because
+
+---------05:58----------
+it's not getting power it's not getting
+
+---------06:00----------
+power because this is not sending power
+
+---------06:02----------
+and it's not because this chip doesn't
+
+---------06:03----------
+have power it's not because this logic
+
+---------06:05----------
+gate doesn't work it's because the logic
+
+---------06:07----------
+gate is not being told to turn on so see
+
+---------06:09----------
+how the troubleshooting one I ruled out
+
+---------06:10----------
+this chip I ruled out this chip I ruled
+
+---------06:13----------
+out this power line not being present
+
+---------06:15----------
+now we're gonna check and see when smc
+
+---------06:17----------
+BCE is he ok does so that goes into the
+
+---------06:21----------
+SMC and see now here here's what this
+
+---------06:27----------
+means see how it says this that that's
+
+---------06:28----------
+kind of like a little up way of
+
+---------06:30----------
+saying equals so SMC bc AC okay equals
+
+---------06:33----------
+charger AC okay after this point so
+
+---------06:35----------
+we're going to search for charger AC
+
+---------06:36----------
+okay that goes and over here
+
+---------06:41----------
+that's not really gonna pull it anything
+
+---------06:44----------
+down the you 7,000 over there
+
+---------06:51----------
+hmmm this is the chip related to
+
+---------06:53----------
+charging my computer is not charging
+
+---------06:57----------
+maybe I'm getting warm
+
+---------06:59----------
+and that's it so let's look at the use
+
+---------07:04----------
+of a thousand area
+
+---------07:10----------
+I need to clean this lens I don't know
+
+---------07:14----------
+if those are scratches or just dirt I've
+
+---------07:16----------
+tried cleaning it a few times and some
+
+---------07:17----------
+of it goes away but a lot of it does
+
+---------07:23----------
+now let's see if we have some basics
+
+---------07:25----------
+here another thing I forgot I actually
+
+---------07:28----------
+forgot to check for
+
+---------07:32----------
+charger ACN so this here does it's a
+
+---------07:35----------
+voltage divider from the charger so this
+
+---------07:38----------
+from adapter from adapter goes to this
+
+---------07:42----------
+de volta CH divider which is going to
+
+---------07:43----------
+turn the 18 volts of the charger into 4
+
+---------07:45----------
+volts for this AC and pin so let's see
+
+---------07:47----------
+if at charger AC in I have 4 volts
+
+---------07:51----------
+Finnegan you may wonder how do I know
+
+---------07:53----------
+that 4 volts is supposed to be there I
+
+---------07:55----------
+did the calculation and also it says
+
+---------07:59----------
+over here charger AC in so in my brain
+
+---------08:03----------
+that's does this chip see that the
+
+---------08:05----------
+charger has been plugged in that's like
+
+---------08:07----------
+a little indicator over there and if you
+
+---------08:09----------
+go to a website a voltage divider
+
+---------08:10----------
+calculator so there one of these voltage
+
+---------08:13----------
+one of these resistors is 30 kilo ohms
+
+---------08:15----------
+the other is 9.3 kilohms so again let's
+
+---------08:18----------
+just Google voltage divider calculator
+
+---------08:21----------
+because I sure as hell am NOT an
+
+---------08:22----------
+engineer that could figure that out on
+
+---------08:24----------
+my own we'll click the first result on
+
+---------08:26----------
+Google input voltage I know the charger
+
+---------08:28----------
+is 18.5 because it listed in the
+
+---------08:30----------
+schematic if you can't find it in the
+
+---------08:31----------
+schematic you can always measure
+
+---------08:32----------
+resistor 1 I've already forgotten so
+
+---------08:35----------
+we're gonna click thirty point one and
+
+---------08:37----------
+nine point thirty one thirty point one
+
+---------08:39----------
+and then 9.30 one that's gonna be in
+
+---------08:43----------
+kilohms which means that's in thousand
+
+---------08:46----------
+homes so that's nine point so that's
+
+---------08:50----------
+going to be this remember K ohms is
+
+---------08:53----------
+thousand ohms whereas this over here is
+
+---------08:55----------
+just ohms
+
+---------08:57----------
+and we compute and we should see four
+
+---------09:00----------
+point three volts there give or take
+
+---------09:01----------
+maybe I know maybe up to ten percent or
+
+---------09:03----------
+so and now let's see where charger AC it
+
+---------09:09----------
+is charger AC is going to be present
+
+---------09:11----------
+right here
+
+---------09:13----------
+oh so we measure and let's see what we
+
+---------09:16----------
+get
+
+---------09:18----------
+you
+
+---------09:20----------
+four volts that 99.9999% of the time
+
+---------09:26----------
+that's not the problem
+
+---------09:27----------
+so what I'm gonna do now is I'm gonna
+
+---------09:28----------
+try replacing use 7000 and see if that
+
+---------09:31----------
+fixes my problem because you 7000 is
+
+---------09:34----------
+partially responsible for that whole
+
+---------09:36----------
+charger AC ok smc BCE AC ok thing and
+
+---------09:41----------
+maybe responsible for it now yeah I
+
+---------09:45----------
+really gotta clean this lens that's
+
+---------09:48----------
+that's embarrassing
+
+---------10:07----------
+as r700 to know stuff it is yeah so I
+
+---------10:14----------
+noticed the resistor was not there and I
+
+---------10:16----------
+just wanted to make sure was no stuff on
+
+---------10:18----------
+the schematic a resistor or a capacitor
+
+---------10:19----------
+or a diode is called no stuff when they
+
+---------10:22----------
+put it there on the schematic but it
+
+---------10:24----------
+doesn't actually ever show up in the
+
+---------10:26----------
+computer have any use it's just like no
+
+---------10:28----------
+they just they just decide to throw that
+
+---------10:31----------
+in there to waste some ink
+
+---------10:58----------
+this new heating element is such a piece
+
+---------11:00----------
+of not even close to melting
+
+---------11:07----------
+anything
+
+---------11:24----------
+if I turn the heat up anymore the thing
+
+---------11:25----------
+will just instantly turn off I feel like
+
+---------11:36----------
+I'm just slow roasting things like
+
+---------11:38----------
+people with iOS stations are I would
+
+---------11:42----------
+usually pull off at this point because
+
+---------11:43----------
+I'd be confident in the heat but I'm not
+
+---------11:45----------
+confident in the heat of this thing at
+
+---------11:47----------
+all l think it's actually kind of I'm
+
+---------11:55----------
+blaming the hakko and okay that was
+
+---------12:02----------
+really sad I just turned the air all the
+
+---------12:06----------
+way up to this piece of crap doesn't
+
+---------12:07----------
+have an excuse to turn off so the hakko
+
+---------12:10----------
+FR 801 sometimes the heat if the heat is
+
+---------12:12----------
+too high and the air is too low it'll
+
+---------12:15----------
+turn itself off but it said it were like
+
+---------12:17----------
+a ridiculous level I mean you have to
+
+---------12:18----------
+have the thing blowing really really
+
+---------12:20----------
+hard you know
+
+---------12:28----------
+you know like Kim Kardashian and her
+
+---------12:32----------
+earlier works kind of hard in order for
+
+---------12:38----------
+it to not turn off
+
+---------13:09----------
+so I used to be able to turn this if I
+
+---------13:12----------
+had it above six and a half and the air
+
+---------13:15----------
+below 1000 would turn off now if I have
+
+---------13:17----------
+the air below 20 and not hair the heat
+
+---------13:20----------
+above 6 the just turns itself off
+
+---------13:23----------
+it's so annoying
+
+---------13:45----------
+a lot of people keep asking what the goo
+
+---------13:46----------
+is that's flux that helps make solder
+
+---------13:48----------
+flow so every time you're heating solder
+
+---------13:51----------
+your move yours and you see the smoke
+
+---------13:53----------
+come out that smoke is actually the flux
+
+---------13:55----------
+if you have sided with flux inside the
+
+---------13:58----------
+flux will run away and when you have no
+
+---------14:00----------
+more flux the solder just becomes kind
+
+---------14:02----------
+of like a dry booger and it doesn't
+
+---------14:04----------
+actually really flow anymore
+
+---------14:07----------
+so that's Ametek 5:59 and I have it in a
+
+---------14:10----------
+little syringe there spools syringe
+
+---------14:13----------
+whatever you want to call I want to see
+
+---------14:32----------
+that they all have good contact I don't
+
+---------14:33----------
+really want to see like a separate I
+
+---------14:35----------
+don't want to see a separate pad on the
+
+---------14:39----------
+chip and a separate pad on the board I
+
+---------14:40----------
+just kind of want to see that that what
+
+---------14:43----------
+do you see right now like it's really
+
+---------14:45----------
+easy to start of this chicken properly I
+
+---------14:47----------
+actually did a last video I didn't how
+
+---------14:50----------
+to solder this chip I actually saw him
+
+---------14:51----------
+properly and you know cuz they have I'm
+
+---------14:56----------
+insane I decided to upload it anyway
+
+---------14:58----------
+that you could all see how to not solder
+
+---------15:01----------
+it in properly anyway let's see forget
+
+---------15:07----------
+anything now any any changes any
+
+---------15:09----------
+differences any okay as you can see that
+
+---------15:18----------
+was it so my my SMC bc AC okay or in my
+
+---------15:27----------
+charger AC okay signals were missing
+
+---------15:30----------
+because of a faulty is l6 259 that was
+
+---------15:35----------
+not so again so this is one of the cool
+
+---------15:37----------
+things about this system you know there
+
+---------15:38----------
+are a lot of things that I say about
+
+---------15:40----------
+Apple motherboards that are that are bad
+
+---------15:43----------
+but that's a pretty cool way this works
+
+---------15:44----------
+so you know that this chip takes the
+
+---------15:48----------
+charging voltage and turns it into 12
+
+---------15:51----------
+volts for the machine if that signal is
+
+---------15:53----------
+not present it will not allow the
+
+---------15:56----------
+charger to talk to the SMC you
+
+---------15:58----------
+in the one wire line therefore the
+
+---------16:00----------
+charger will not turn on so if there's a
+
+---------16:02----------
+fault with that circuit and it's a
+
+---------16:03----------
+serious fault serious enough that this
+
+---------16:05----------
+chip is not what is malfunctioning and
+
+---------16:07----------
+not working it just turns off the
+
+---------16:08----------
+charger which is a pretty cool pretty
+
+---------16:10----------
+cool safety feature there and yeah
+
+---------16:12----------
+that's it for today
+

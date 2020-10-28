@@ -1,0 +1,1561 @@
+https://www.youtube.com/watch?v=EG8Osy-hNtg
+---------00:00----------
+all right so today we're gonna be going
+
+---------00:01----------
+over an eight to zero 3115 motherboard
+
+---------00:04----------
+that has no backlight so the first thing
+
+---------00:06----------
+that I like to do in these cases when
+
+---------00:08----------
+there's no light on the screen is I like
+
+---------00:10----------
+to measure the voltage at output because
+
+---------00:12----------
+different voltages that output are going
+
+---------00:14----------
+to tell me different things about what
+
+---------00:15----------
+the machine is doing so I'm gonna plug
+
+---------00:17----------
+this in since this is a Core i5 i7 board
+
+---------00:20----------
+it will turn on automatically when I
+
+---------00:23----------
+plug the charger and that's what all
+
+---------00:24----------
+these machines should do it did and I'm
+
+---------00:28----------
+gonna just measure the voltage I get on
+
+---------00:30----------
+output so let's just push this
+
+---------00:31----------
+microscope out of the way and you change
+
+---------00:36----------
+that camera angle so the waving paper
+
+---------00:37----------
+towel is out of the way in the corner
+
+---------00:39----------
+I'm soaked it's raining outside I don't
+
+---------00:41----------
+have an umbrella and I always managed to
+
+---------00:44----------
+lose my umbrella on the train or leave
+
+---------00:46----------
+it somewhere so I just did I gave up on
+
+---------00:48----------
+them by the time I get to the place
+
+---------00:50----------
+where I can actually buy an umbrella
+
+---------00:51----------
+I'm already soaked so I don't buy don't
+
+---------00:53----------
+bother buying one I feel like it's a
+
+---------00:55----------
+waste of money to buy an umbrella once
+
+---------00:56----------
+you're already soaked so I'm drying off
+
+---------00:58----------
+right now so let's see can you see the
+
+---------01:00----------
+meter yeah you can kind of see the meter
+
+---------01:02----------
+so on backlight output I get 0 volts now
+
+---------01:07----------
+what I'm gonna do is I'm gonna check the
+
+---------01:08----------
+backlight fuse at the beginning of the
+
+---------01:09----------
+circuit by 12.5 volts on one side in 12
+
+---------01:13----------
+point 5 volts on the other so 0 volts at
+
+---------01:16----------
+output means either a complete break in
+
+---------01:19----------
+the line somewhere or oh yeah a complete
+
+---------01:21----------
+break in the line somewhere because if
+
+---------01:23----------
+even if it wasn't boosting even if it
+
+---------01:26----------
+wasn't doing any boosting I should still
+
+---------01:28----------
+see 12 volts on output even if the boost
+
+---------01:31----------
+section is broken now if it doesn't see
+
+---------01:33----------
+the screen at all I would see 0 volts on
+
+---------01:35----------
+out but because the transistor wouldn't
+
+---------01:37----------
+open the power go through but I do know
+
+---------01:39----------
+it sees the screen because the screen
+
+---------01:40----------
+did this thing where you can kind of see
+
+---------01:41----------
+the ink move around inside it you're not
+
+---------01:43----------
+gonna be able to notice this with the
+
+---------01:44----------
+retinas because of the retinas are they
+
+---------01:46----------
+use a different technology for the
+
+---------01:47----------
+screen but on this one you can you could
+
+---------01:50----------
+kind of see like this even if there's no
+
+---------01:51----------
+life that you just looks like this ink
+
+---------01:53----------
+moving around and at the moment it
+
+---------01:55----------
+becomes activate at the moment that's 3
+
+---------01:56----------
+volts gets sent to the screen so let's
+
+---------01:58----------
+just go over this for a quick second
+
+---------02:00----------
+before we go in and we try to figure out
+
+---------02:02----------
+exactly where the problem lies I'm going
+
+---------02:04----------
+to show you where I measured and why I
+
+---------02:06----------
+measured what I measure so let's go over
+
+---------02:09----------
+to the screen here and BAM
+
+---------02:14----------
+and open broadcaster still moving slower
+
+---------02:16----------
+than it did two years ago and I'll yeah
+
+---------02:19----------
+I'm probably never gonna find out why so
+
+---------02:20----------
+just bear with a really slow mouse
+
+---------02:22----------
+pointer so I measured it output I got
+
+---------02:24----------
+zero then I measured back here at the
+
+---------02:27----------
+back light fuse and I got 12 in 12 so I
+
+---------02:30----------
+mean somewhere between here and here
+
+---------02:34----------
+there's a break in the line so I'm gonna
+
+---------02:36----------
+check right after the backlight fuse I'm
+
+---------02:38----------
+gonna check to see what I get on pin 4
+
+---------02:40----------
+and then I'm pin 1 2 5 & 6 of q 9 7 0 6
+
+---------02:44----------
+this is a transistor that's only going
+
+---------02:45----------
+to open if these two signals are present
+
+---------02:49----------
+I've gone over this in other videos if
+
+---------02:50----------
+this signal is present then this signal
+
+---------02:52----------
+is present it will allow this transistor
+
+---------02:54----------
+to open if this transistor opens it will
+
+---------02:56----------
+allow this voltage divider to work if
+
+---------02:58----------
+this voltage divider works then this
+
+---------03:00----------
+will open because this is a p-channel
+
+---------03:01----------
+and this is an end channel I'm honestly
+
+---------03:05----------
+just kind of too tired to re-explain
+
+---------03:06----------
+that whole thing again but I've gone
+
+---------03:07----------
+over it in like 10 are there no
+
+---------03:09----------
+backlight videos I'll try and see if I
+
+---------03:11----------
+can link one in the car to you that
+
+---------03:12----------
+explains how this set of transistors
+
+---------03:14----------
+works to open it but long story short I
+
+---------03:15----------
+got 12 here 12 here and all the way at
+
+---------03:18----------
+the end I have 0 so there could be a
+
+---------03:21----------
+break this component could be bad this
+
+---------03:23----------
+trace could be bad this component could
+
+---------03:25----------
+be
+
+---------03:25----------
+Who am I kidding this is never bad or
+
+---------03:27----------
+this trace could be bad boy this trace
+
+---------03:31----------
+could be bad or this component could be
+
+---------03:32----------
+bad or this trace could be bad so it's a
+
+---------03:34----------
+number of different things that could be
+
+---------03:35----------
+so let's just check at q9 706 which
+
+---------03:39----------
+means I have to get up and turn on my my
+
+---------03:41----------
+new HDMI broadcast splitter thingy this
+
+---------03:45----------
+thing is pretty cool that allows me to
+
+---------03:47----------
+broadcast this microscope to the other
+
+---------03:50----------
+monitor or take Jason's microscope and
+
+---------03:52----------
+put it on my mic capture hardware it's
+
+---------03:55----------
+it's a pretty cool little piece of tech
+
+---------03:57----------
+so what I have to do here is q9 706 it's
+
+---------04:02----------
+gonna show me where it is
+
+---------04:04----------
+ahem it's gonna show me where it piece
+
+---------04:10----------
+of I know here we go so it's right
+
+---------04:12----------
+over here
+
+---------04:13----------
+so now we're gonna go over the
+
+---------04:14----------
+microscope camera do you work the
+
+---------04:18----------
+exposures really low so let's just fix
+
+---------04:20----------
+that so that you can actually see things
+
+---------04:23----------
+BAM
+
+---------04:25----------
+all right so let's check out q9 706
+
+---------04:28----------
+what the what the what why why why why
+
+---------04:34----------
+why missing parts alright so this is
+
+---------04:42----------
+yeah okay so that explains everything
+
+---------04:46----------
+and this is where I get firing the gusts
+
+---------04:50----------
+the clients the way the way I see Do It
+
+---------04:53----------
+Yourself is as follows because people
+
+---------04:55----------
+think I discourage Do It Yourself
+
+---------04:56----------
+I don't discourage Do It Yourself stuff
+
+---------04:58----------
+in any way shape or form by all means go
+
+---------05:01----------
+ahead and try to make stuff work
+
+---------05:02----------
+yourself I respect that but you started
+
+---------05:05----------
+it you finish it because I don't know
+
+---------05:08----------
+what the you did did you use a huge
+
+---------05:12----------
+heat gun at like you know three minutes
+
+---------05:15----------
+over here to get that off heating this
+
+---------05:16----------
+trip to the point where this chip died I
+
+---------05:18----------
+don't know what you did and honestly I
+
+---------05:21----------
+don't feel like warranty in it so this
+
+---------05:23----------
+will be the fix and after this
+
+---------05:25----------
+hopefully the salesperson will tell them
+
+---------05:28----------
+I don't want their boards anymore that
+
+---------05:30----------
+ really does happen like every time
+
+---------05:31----------
+you fixed up for people to try to do
+
+---------05:33----------
+this stuff on their own and all this
+
+---------05:37----------
+other starts to break and it's like
+
+---------05:40----------
+I really don't know what you did to it
+
+---------05:41----------
+you know I have no idea what you did to
+
+---------05:44----------
+it cuz like what if instead of using a
+
+---------05:46----------
+nozzle that pointed over here they use
+
+---------05:48----------
+one of those $20 hot air stations off
+
+---------05:50----------
+Aliexpress with no nozzles and they
+
+---------05:52----------
+heated this thing and after they heated
+
+---------05:54----------
+this chip then that causes the board to
+
+---------05:56----------
+die again in a month like do it and I do
+
+---------05:58----------
+I have to warranty that is the burden of
+
+---------06:00----------
+proof on me to prove that do I care I
+
+---------06:07----------
+I'd rather just not deal with it at all
+
+---------06:14----------
+yeah that well that whole thing is a
+
+---------06:16----------
+mess that whole situations a mess so I
+
+---------06:21----------
+might do it yourself rule is you started
+
+---------06:23----------
+it you finish it okay so that's that's
+
+---------06:32----------
+okay so this is where the transistor
+
+---------06:34----------
+goes now what the is going on here
+
+---------06:41----------
+oh it's gone okay was that gone from the
+
+---------06:47----------
+beginning was that gone because somebody
+
+---------06:49----------
+ with it wow did you make more
+
+---------06:53----------
+work for me
+
+---------07:00----------
+all right so first things first it seems
+
+---------07:06----------
+like see this stuff over here so this is
+
+---------07:12----------
+missing our 9 7 8 8 pin 1 so our 9 7 8 8
+
+---------07:17----------
+pin 1 luckily this is for a voltage
+
+---------07:20----------
+divider that delivers very little power
+
+---------07:22----------
+so I can run a thin wire there and be
+
+---------07:24----------
+fine and also see 9 7 10 which riches
+
+---------07:30----------
+where is see 9 17 see 9 7 10 so that
+
+---------07:37----------
+that's a pin that's going to ground
+
+---------07:38----------
+anyway yes so this cook you know it
+
+---------07:42----------
+doesn't pin one goes to the pp 5 VSO
+
+---------07:46----------
+backlight well this is not the most
+
+---------07:53----------
+critical thing in the world so you if
+
+---------07:54----------
+you knocked off the pad for that I don't
+
+---------07:56----------
+really care but if you knocked off the
+
+---------07:57----------
+pad for this I'm
+
+---------07:58----------
+see this is a p-channel MOSFET I'm gonna
+
+---------08:00----------
+do what I said I wasn't gonna do before
+
+---------08:02----------
+which is explain everything
+
+---------08:03----------
+see this is only gonna open when the
+
+---------08:05----------
+voltage in the gate is lower than the
+
+---------08:07----------
+voltage on the source over here so this
+
+---------08:08----------
+is the gate and this is the source so
+
+---------08:10----------
+what this voltage divider does is it
+
+---------08:11----------
+takes the voltage from the source and
+
+---------08:14----------
+brings it to the gate but it lowers it
+
+---------08:15----------
+from something like I said of it being
+
+---------08:17----------
+12 volts it'll be 5 volts on the gate in
+
+---------08:19----------
+order for that to happen notif is to be
+
+---------08:20----------
+a voltage divider at the bottom of the
+
+---------08:22----------
+voltage divider has to go to ground but
+
+---------08:23----------
+this transistor blocks it so this is an
+
+---------08:26----------
+N channel MOSFET it's the opposite of
+
+---------08:27----------
+the P channel it'll open if the voltage
+
+---------08:29----------
+and the gate is equal to or higher than
+
+---------08:31----------
+the source by a certain amount so if
+
+---------08:32----------
+these two signals are present this
+
+---------08:34----------
+voltage divider gets to go to ground if
+
+---------08:36----------
+this voltage divider gets to go to
+
+---------08:37----------
+ground then it allows this Transit's
+
+---------08:39----------
+that are open by making sure that 5
+
+---------08:41----------
+volts goes to the to the to the gate
+
+---------08:45----------
+instead of having 12 volts now if this
+
+---------08:48----------
+will obviously if this you know this
+
+---------08:50----------
+this release resistors are burned and
+
+---------08:52----------
+then you're kind of you have no
+
+---------08:53----------
+voltage divider so I need to run a wire
+
+---------08:55----------
+between here and here and if I really
+
+---------08:58----------
+feel like it I need to run a wire
+
+---------09:00----------
+between this capacitor and this we'll
+
+---------09:05----------
+see how I feel about that by the end
+
+---------09:08----------
+because I don't I don't know if I want
+
+---------09:10----------
+to do
+
+---------09:11----------
+it's not really necessary and I'm not
+
+---------09:13----------
+the one who knock that off to begin
+
+---------09:14----------
+with the first thing to do is find
+
+---------09:18----------
+myself a top-quality top-notch donor
+
+---------09:21----------
+board to find the most beautiful donor
+
+---------09:24----------
+board in the pile
+
+---------09:26----------
+and luckily I found one and it still has
+
+---------09:29----------
+it transistor and that's amazing so I'm
+
+---------09:33----------
+gonna put some of my components there
+
+---------09:35----------
+we'll get started
+
+---------10:01----------
+then tried to squeeze it with the
+
+---------10:05----------
+tweezer a little too hard there that was
+
+---------10:07----------
+okay time for another donor this donor
+
+---------10:10----------
+is missing the transistor which means
+
+---------10:13----------
+it's time for yet another donor
+
+---------10:31----------
+at the time
+
+---------11:11----------
+not the prettiest thing in the world but
+
+---------11:13----------
+we can make it look pretty once we make
+
+---------11:15----------
+it work first things first is to make it
+
+---------11:17----------
+work
+
+---------11:30----------
+but this stuff over here is for
+
+---------11:31----------
+backlight the stuff that was to the left
+
+---------11:33----------
+is for firewire
+
+---------11:43----------
+and you can see that there's a trace
+
+---------11:46----------
+that goes to the pad that's missing and
+
+---------11:48----------
+I could scratch that but even if I did
+
+---------11:50----------
+that this trace is going over to this
+
+---------11:53----------
+which is missing anyway so I might as
+
+---------11:56----------
+well just run the wire from the other
+
+---------11:57----------
+side of the board now I may not run the
+
+---------12:02----------
+wire for the other capacitor the whole
+
+---------12:04----------
+light the whole point of that capacitor
+
+---------12:05----------
+is to get rid of some Ripple right
+
+---------12:08----------
+that's the point of that supposed to
+
+---------12:09----------
+keep some ripple from going back into
+
+---------12:11----------
+the system yet here's the thing if I run
+
+---------12:14----------
+a wire all the way around the board I'm
+
+---------12:16----------
+kind of introducing more ripple than I
+
+---------12:18----------
+would be getting rid of with that
+
+---------12:19----------
+capacitor so the way I see it me because
+
+---------12:23----------
+of what that capacitor is therefore if I
+
+---------12:26----------
+actually run the jumper wire from one
+
+---------12:28----------
+side of the board to the other which is
+
+---------12:29----------
+what I have to do that's a local bypass
+
+---------12:31----------
+capacitor I'm pretty much defeating the
+
+---------12:34----------
+purpose of the bypass capacitor so I'm
+
+---------12:36----------
+gonna leave that as is so let's just
+
+---------12:42----------
+clean off this transistor here look a
+
+---------12:46----------
+little bit nicer now do remember that
+
+---------12:48----------
+those those four bottom pads are all
+
+---------12:49----------
+supposed to be shorted together now that
+
+---------12:52----------
+what I did that's not supposed to be
+
+---------12:53----------
+shorted scanner so that I have to fix
+
+---------12:55----------
+not every pin but the bottom four pins
+
+---------13:01----------
+are supposed to be shorted together it's
+
+---------13:04----------
+all one one set of alpha that's why I
+
+---------13:07----------
+output on the on the schematic for the
+
+---------13:09----------
+transistors pins one two five and six
+
+---------13:11----------
+they're all going to the same place this
+
+---------13:24----------
+they'll add a little bid to the
+
+---------13:27----------
+upper-left one just like all right now
+
+---------13:30----------
+what I have to do is I have decided to
+
+---------13:32----------
+here I have to go from one side of the
+
+---------13:36----------
+backlight fuse to one side of the
+
+---------13:41----------
+backlight fuse so from from here to this
+
+---------13:48----------
+this is where the connection is broken
+
+---------13:51----------
+so they wait if that connection is
+
+---------13:53----------
+broken I have to use a thick wire then
+
+---------13:56----------
+ cuz if that's I thought it was just
+
+---------13:58----------
+from here to here but obviously if this
+
+---------14:00----------
+that this is broken that means that this
+
+---------14:01----------
+to that is also broken so that yeah
+
+---------14:04----------
+alright so I'll use a thicker back light
+
+---------14:05----------
+wire it's it's harder to do this if
+
+---------14:08----------
+you have to use a thicker wire
+
+---------14:09----------
+especially if you're trying to go all
+
+---------14:10----------
+the way around the board what are you
+
+---------14:12----------
+gonna do trying to go to one resistor so
+
+---------14:18----------
+that has to go to pin 4 in here so I
+
+---------14:21----------
+have to make this wire go to this and
+
+---------14:22----------
+then this alright so let's do that
+
+---------14:26----------
+let's start with that so here we go
+
+---------14:31----------
+I'm gonna have a little bit of solder on
+
+---------14:32----------
+the end of my iron and have flux over
+
+---------14:36----------
+here and I'm gonna have to tin I'm gonna
+
+---------14:39----------
+have to tend this wire which means I'm
+
+---------14:41----------
+gonna have to get rid of some of that
+
+---------14:42----------
+enameled coating at a couple of
+
+---------14:43----------
+different points
+
+---------14:50----------
+this is gonna be a little tricky I
+
+---------14:55----------
+really should use the micro pencil for
+
+---------14:57----------
+this if I was smart I would change to
+
+---------14:59----------
+the micro pencil but I don't want to
+
+---------15:00----------
+hear that go beep at me alright so part
+
+---------15:03----------
+one accomplished now I don't want to
+
+---------15:06----------
+attach this to anything else I just
+
+---------15:07----------
+wanted to go to this pin here and then
+
+---------15:11----------
+here sorry I'm just gonna scrape I'll
+
+---------15:17----------
+zoom so you can get a better look
+
+---------15:25----------
+make it flat on the board that's
+
+---------15:26----------
+important scrape
+
+---------15:36----------
+now this still the pyre is better
+
+---------15:43----------
+scraping
+
+---------16:05----------
+yeah I could have done a much better job
+
+---------16:07----------
+with this
+
+---------16:11----------
+scrape it on the other side there we go
+
+---------16:15----------
+I didn't scrape it on both sides way to
+
+---------16:17----------
+be a dumbass I could do that wire better
+
+---------16:19----------
+now cuz I exposed too much I don't like
+
+---------16:21----------
+the way this came out you idiot
+
+---------16:26----------
+alright so let's try this again
+
+---------16:34----------
+as nasty as this looks now when it comes
+
+---------16:36----------
+out of the ultrasonic get a look very
+
+---------16:37----------
+nice so this yeah that was the easy one
+
+---------16:49----------
+now this I'm going to scrape this side
+
+---------16:51----------
+in advance
+
+---------16:58----------
+there we go
+
+---------17:00----------
+that's a nice that's a that's a
+
+---------17:03----------
+connection you know in break off the
+
+---------17:05----------
+excess here all right so we're connected
+
+---------17:08----------
+to the leg of the transistor and that
+
+---------17:10----------
+yeah I'll clear it up a little so you
+
+---------17:12----------
+can see what it looks like
+
+---------17:23----------
+lower the temperature and up the air
+
+---------17:34----------
+see it's partially disgusting it's not
+
+---------17:37----------
+totally disgusting so now we have to go
+
+---------17:39----------
+over to the fuse and we have to solder
+
+---------17:40----------
+to pin two of the fuse
+
+---------17:54----------
+who the fun part of working with other
+
+---------17:56----------
+repair shops they want a discount cuz
+
+---------17:59----------
+they're a store this would be done
+
+---------18:04----------
+already if it wasn't a store because it
+
+---------18:07----------
+wouldn't have had pads ripped
+
+---------18:12----------
+so I don't really fight for wholesale
+
+---------18:14----------
+business anymore I used to think let me
+
+---------18:19----------
+do what I can do to get as much
+
+---------18:21----------
+wholesale business as possible
+
+---------18:22----------
+it's very more tonight that was a very
+
+---------18:24----------
+naive Louis zoom out so I can see
+
+---------18:31----------
+everything in context a little better
+
+---------18:57----------
+yeah screw though merry-go-round thing
+
+---------19:00----------
+let's just wire directly up yeah I like
+
+---------19:05----------
+this better
+
+---------19:08----------
+okay let's not make the same mistake
+
+---------19:11----------
+twice
+
+---------19:12----------
+definitely
+
+---------19:21----------
+let's make it flat in the board
+
+---------19:36----------
+try to make it flat on the board
+
+---------20:00----------
+better
+
+---------20:29----------
+yep what a beautiful board okay now
+
+---------20:33----------
+let's see what got ripped off in the
+
+---------20:34----------
+firewire section what did what did you
+
+---------20:40----------
+have against firewire
+
+---------20:54----------
+okay so I'll just to run a wire for PP
+
+---------20:56----------
+buzz g3 hot no big no biggie
+
+---------21:00----------
+I'm not gonna guarantee firewire on this
+
+---------21:03----------
+because yeah I don't want to rip that
+
+---------21:07----------
+off but I'll put it back on just just to
+
+---------21:12----------
+be nice
+
+---------21:21----------
+just to be nice
+
+---------21:42----------
+forgot to turn my hot air temperature
+
+---------21:44----------
+back up you're not getting anything off
+
+---------21:48----------
+this board at 355 Celsius
+
+---------21:56----------
+not without a lot of bottom preheating
+
+---------21:58----------
+in like five or six minutes
+
+---------22:10----------
+okay
+
+---------22:18----------
+I dropped the chip and lost its
+
+---------22:20----------
+orientation let's see if I can read the
+
+---------22:23----------
+top of the chip and get the orientation
+
+---------22:24----------
+from a different boy so it says 6 3 8 J
+
+---------22:32----------
+so let's see what another board says
+
+---------22:36----------
+another board says 6 3 8 f close enough
+
+---------22:42----------
+so I just have to turn this round the
+
+---------22:45----------
+other way
+
+---------22:46----------
+yeah the cap that the top cap of the hot
+
+---------22:50----------
+air of the ethernet transformer always
+
+---------22:54----------
+melts a little when you when you use hot
+
+---------22:55----------
+air it's not gonna do anything you're
+
+---------22:57----------
+not you you're not destroying the
+
+---------22:59----------
+transformer inside of it in any way
+
+---------23:00----------
+shape or form it's just a plastic cap so
+
+---------23:03----------
+if you've done that don't go and drive
+
+---------23:05----------
+yourself nuts
+
+---------23:40----------
+that's great
+
+---------23:48----------
+I'm pretty sure there's not gonna be a
+
+---------23:50----------
+pad under there that red stuff is a
+
+---------23:52----------
+giveaway that I'm scraping away at a
+
+---------23:54----------
+dead area
+
+---------24:02----------
+all right so let's see if I can yr P P
+
+---------24:05----------
+by 2 G 3 hot over here it's the same
+
+---------24:11----------
+principle
+
+---------25:08----------
+okay now let's get pipi bus G three hot
+
+---------25:12----------
+wire it up there
+
+---------25:22----------
+yeah excuse me
+
+---------25:50----------
+as you can see the solder gets cruddy
+
+---------25:52----------
+you're in creditor as you burn the flux
+
+---------25:53----------
+away
+
+---------26:35----------
+I hope the little probe point next to it
+
+---------26:37----------
+is also pp bus g3 hot because I'm oh you
+
+---------26:44----------
+started to the wrong side of the
+
+---------26:45----------
+resistor dumb ass dumb ass you
+
+---------26:51----------
+idiot it's over here
+
+---------27:00----------
+that was stupid
+
+---------27:14----------
+okay that was stupider but we will fix
+
+---------27:17----------
+it
+
+---------27:27----------
+and the wire wants to do everything but
+
+---------27:29----------
+lay flat just love sticking up
+
+---------27:48----------
+let's get rid of that piece yeah get the
+
+---------27:53----------
+there we go it's gone
+
+---------27:57----------
+beautiful now we're gonna bring this
+
+---------27:59----------
+wire up the board all the way over to my
+
+---------28:03----------
+firewire circuit
+
+---------28:12----------
+now same principle as before this wire
+
+---------28:15----------
+has got to make two stops got to go here
+
+---------28:18----------
+and then here
+
+---------28:27----------
+so I think the best way to have this why
+
+---------28:29----------
+I get routed around is gonna be
+
+---------28:30----------
+something like this it's gonna be like
+
+---------28:34----------
+bit like here just get it around this
+
+---------28:39----------
+piece of
+
+---------28:42----------
+we're gonna go to there and then there
+
+---------28:45----------
+so get ready
+
+---------29:13----------
+you know what is that probe point above
+
+---------29:15----------
+it okay that probe point above right
+
+---------29:17----------
+above the capacitor 4pp buzz g3 out is
+
+---------29:19----------
+supposed to be is for something totally
+
+---------29:20----------
+unrelated to P P bus g3 huh thank you
+
+---------29:23----------
+for putting that probe point there Thank
+
+---------29:26----------
+You Apple at that that's just cruel
+
+---------29:30----------
+all right so we're gonna go from here
+
+---------29:32----------
+stay here come on
+
+---------29:43----------
+there we go
+
+---------29:51----------
+and let's just make sure that the wire
+
+---------29:53----------
+is touching where it's supposed to over
+
+---------29:55----------
+here but you see it has to touch this
+
+---------29:57----------
+capacitor without touching that hole
+
+---------29:59----------
+right next to it yeah
+
+---------30:08----------
+I'm happy with that I'm satisfied with
+
+---------30:10----------
+that so let's see if I have backlight
+
+---------30:12----------
+now I can test backlight I can't test
+
+---------30:14----------
+firewire because I don't I don't even
+
+---------30:15----------
+own I mean who has firewire anymore
+
+---------30:18----------
+I really I mean all right army had some
+
+---------30:22----------
+good firewire audio interfaces like you
+
+---------30:26----------
+know 1972 I don't know I like how it's
+
+---------30:30----------
+in that is so man so old just so so
+
+---------30:34----------
+old so yeah it's the same thing with CD
+
+---------30:38----------
+drives like I don't test functionality
+
+---------30:41----------
+of the CD Drive of any of these machines
+
+---------30:42----------
+because I don't have a CD I don't
+
+---------30:45----------
+support fixing the CD drives because
+
+---------30:48----------
+even when I could buy CD drives the CD
+
+---------30:50----------
+drives that I could buy a roll ship and
+
+---------30:52----------
+warranty knows sucked Oh on the whole
+
+---------30:55----------
+idea of like the disc is going in but
+
+---------30:57----------
+it's like touching the top because their
+
+---------31:00----------
+case has been but I don't know I don't
+
+---------31:04----------
+have CDs and I can't test it unless
+
+---------31:05----------
+somebody brings me a CD same thing with
+
+---------31:07----------
+firewire for me to test firewire you
+
+---------31:09----------
+have to bring me something that uses
+
+---------31:10----------
+firewire and as you can see I have a
+
+---------31:15----------
+light on the screen see it's a light the
+
+---------31:19----------
+other side of it is all cracked so
+
+---------31:20----------
+there's nothing to see there but look it
+
+---------31:23----------
+lights you can tell it's lit because if
+
+---------31:25----------
+I unplug it actually you can't because
+
+---------31:28----------
+there's so much light from there that ok
+
+---------31:30----------
+fine I'll turn it around so you can see
+
+---------31:34----------
+filming
+
+---------31:38----------
+come on Jenna need one hand to hold this
+
+---------31:42----------
+up and two hands to align the MagSafe
+
+---------31:45----------
+which means I'm one hand short well
+
+---------31:48----------
+great
+
+---------31:50----------
+did I blow the backlight fuse that I
+
+---------31:52----------
+sided a wire to come on plug in you
+
+---------31:59----------
+all right plugged in
+
+---------32:15----------
+this is my up screen see it
+
+---------32:20----------
+lights
+
+---------32:21----------
+it's a screwed up screen what do you
+
+---------32:23----------
+what do you want from me I don't use
+
+---------32:24----------
+good parts for testing I use the broken
+
+---------32:27----------
+crap I take out of machines no need to
+
+---------32:30----------
+waste money when you don't have to so
+
+---------32:31----------
+that's it for today and as always I hope
+
+---------32:35----------
+you learned something and for the love
+
+---------32:36----------
+of God if you're gonna do your own
+
+---------32:37----------
+repair go for it I wish you the best of
+
+---------32:39----------
+success I hope you succeed if you fail
+
+---------32:42----------
+this is not the place to send it I'm
+
+---------32:45----------
+doing this because this person sent me
+
+---------32:47----------
+like five or ten of them already but now
+
+---------32:49----------
+that I'm going through the pile and I
+
+---------32:50----------
+see more and more of them that have had
+
+---------32:52----------
+DIY I'm just now it's it's time to
+
+---------32:55----------
+move on but if I don't know you and use
+
+---------32:59----------
+that just no no no Do It Yourself stuff
+
+---------33:04----------
+fixes cuz this see this no warranty zero
+
+---------33:08----------
+warranty but that's it
+

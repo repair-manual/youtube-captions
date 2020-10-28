@@ -1,0 +1,625 @@
+https://www.youtube.com/watch?v=XKppy3TRTpM
+---------00:00----------
+all right next up is in a 1502 that
+
+---------00:03----------
+claims it has no power let's try and
+
+---------00:05----------
+figure out what's wrong with this a 1502
+
+---------00:06----------
+that has no power by opening it up I've
+
+---------00:08----------
+opened up the a 1502 is no power now
+
+---------00:10----------
+we're going to plug it in and see what
+
+---------00:12----------
+happens it's the M&E amps this thing
+
+---------00:13----------
+uses if any this uses 70 milliamps but
+
+---------00:17----------
+doesn't turn on wonder if we have a
+
+---------00:19----------
+similar Alice's power good problem to
+
+---------00:20----------
+what we had before so this board is an 8
+
+---------00:22----------
+to 0 4924 where as high I would call it
+
+---------00:25----------
+a Texas Instruments graphing calculator
+
+---------00:27----------
+let's see what's wrong with this MacBook
+
+---------00:28----------
+let's go and check out our power rails
+
+---------00:30----------
+first thing we're going to check is our
+
+---------00:33----------
+pp bus all aboard the pp bus twelve
+
+---------00:36----------
+point six volts on PP bus good let's
+
+---------00:39----------
+check some other rails keep you 5vs5
+
+---------00:42----------
+it's five point two volts let's see what
+
+---------00:45----------
+we get on something like PP 5es for five
+
+---------00:47----------
+point two volts let's see what we get on
+
+---------00:49----------
+something like GP five ESO five point
+
+---------00:53----------
+two volts so it seems like we're in a
+
+---------00:54----------
+similar situation as to where we were
+
+---------00:56----------
+with that MacBook Air Board previously
+
+---------00:57----------
+we are in an Esso state if we're in an
+
+---------01:00----------
+Esso state that means all of our s 3 S 4
+
+---------01:02----------
+S 5 and G 3 hot rails are present which
+
+---------01:04----------
+bees been off the waste time checking
+
+---------01:05----------
+everything on this list because that
+
+---------01:06----------
+would be quite a bit of time so what
+
+---------01:07----------
+we're gonna do now is we're only going
+
+---------01:09----------
+to check s o rails and I'm also gonna
+
+---------01:11----------
+check the all says powered good signal
+
+---------01:12----------
+to see if that's present because when
+
+---------01:14----------
+all of our Sol rails are present all
+
+---------01:15----------
+says power good is supposed to come high
+
+---------01:16----------
+and when that comes I were supposed to
+
+---------01:18----------
+be getting CPU v core so let's take a
+
+---------01:19----------
+look or else's power good in our
+
+---------01:21----------
+schematic now you'll see that Q 8150
+
+---------01:23----------
+here is very similar to the air of the
+
+---------01:25----------
+same year it's actually the same chip in
+
+---------01:27----------
+virtually the same circuit let's see
+
+---------01:28----------
+what's going on with our else's power
+
+---------01:29----------
+good and see if my systems power is
+
+---------01:32----------
+actually all good let's get the
+
+---------01:33----------
+microscope open roll over to the AUSA's
+
+---------01:35----------
+power good area and we're missing all
+
+---------01:39----------
+this power good bosses power good is 0.1
+
+---------01:41----------
+volts no good let's go through all the
+
+---------01:44----------
+rails required so we check PP 5 ESO now
+
+---------01:47----------
+we're gonna check up the 350th tow Wow
+
+---------01:50----------
+pepper through the 3s oh is almost
+
+---------01:51----------
+everywhere pepper 3 v 3s Oh is 0.6 volts
+
+---------01:55----------
+that's
+
+---------01:55----------
+good point 6 volts I'm Peppa 3v3
+
+---------01:58----------
+yourself so now what I'm gonna do is I'm
+
+---------01:59----------
+gonna see if there's a shorter grounds
+
+---------02:00----------
+I'm Peppa through the three or so no
+
+---------02:02----------
+short to ground to kilohms that looks
+
+---------02:04----------
+fine so now we're gonna search down on
+
+---------02:07----------
+our list of rails is Pepe 3 4 3 s 3
+
+---------02:08----------
+there's pep 2 3 B 3 s floor there's pep
+
+---------02:11----------
+2 3 4 3 s 5 there and so on and so forth
+
+---------02:14----------
+now my guess is that pepper 3 4 3 s 5 is
+
+---------02:16----------
+there because pepti 3 2 3 s 5 is gonna
+
+---------02:17----------
+be used for all those PCH signals like
+
+---------02:20----------
+p.m. sleeve s4l p.m. sleep s 3o and so
+
+---------02:22----------
+on and so forth that are required to get
+
+---------02:23----------
+all the other s 4 and s 3 and s o rails
+
+---------02:25----------
+so I'm not even gonna probably not even
+
+---------02:27----------
+gonna bother to check that all right
+
+---------02:28----------
+what I am interested in is pepper 3 3 3
+
+---------02:29----------
+s for pepper 3 3 3 s 3 and what's going
+
+---------02:32----------
+on from there now just to be complete
+
+---------02:34----------
+with everything so I don't get trolled
+
+---------02:35----------
+even though I know pepper 3 B 3 is 5 is
+
+---------02:37----------
+there I'm gonna check that 2 3 B 3 s 5
+
+---------02:38----------
+just to make sure as I said I'm not
+
+---------02:40----------
+being trolled you never know when
+
+---------02:42----------
+trolling is occurring especially when
+
+---------02:43----------
+punching sweet is in your chat so we are
+
+---------02:45----------
+getting 4 pepper 3 B 3 s 5 3.30 5 volts
+
+---------02:48----------
+now we're gonna check up to 3 B 3 s for
+
+---------02:52----------
+3.3 now we're gonna eject pepper 3 over
+
+---------02:54----------
+3 s 3 epithelia s 3 can be found up here
+
+---------02:57----------
+pepper 3 V 3 s 3 is there I actually
+
+---------03:00----------
+kind of started to like the RGB started
+
+---------03:02----------
+to grow on me RGB RGB RG e
+
+---------03:12----------
+makes me happy what we need to do here
+
+---------03:14----------
+is figure out where Peppa 3b 3sl comes
+
+---------03:16----------
+from so we have to find out where it's
+
+---------03:18----------
+created so that means going through the
+
+---------03:19----------
+entire schematic piece by piece and
+
+---------03:22----------
+searching now this is where people 3 as
+
+---------03:25----------
+I was going into something not
+
+---------03:26----------
+interested in that not interested in
+
+---------03:29----------
+that all the things I'm clicking past
+
+---------03:31----------
+right now is our P P 3 P 3 s o is going
+
+---------03:33----------
+into something I want to see what P P 3
+
+---------03:35----------
+V 3 s I was coming out of so that I can
+
+---------03:37----------
+see what's creating it I understand
+
+---------03:40----------
+here we go 3 V 3 s so switch this is
+
+---------03:42----------
+gonna be what allows Peppa 3 V 3 s o to
+
+---------03:44----------
+be created so when you have a signal
+
+---------03:46----------
+here at the on pin pepper 3 V 3 s o is
+
+---------03:49----------
+gonna turn off let's take a look at what
+
+---------03:50----------
+you a t30 looks like on this board it's
+
+---------03:52----------
+gonna be right in the middle section
+
+---------03:53----------
+over here
+
+---------03:54----------
+this thing over here is gonna be
+
+---------03:55----------
+responsible for creating pepper through
+
+---------03:57----------
+the three SS so what we need to do here
+
+---------03:58----------
+is see if we're getting pepper 3 B 3 s
+
+---------04:00----------
+Oh enabled the signal that tells it to
+
+---------04:01----------
+turn on so that can be measured right
+
+---------04:03----------
+under the chip on this capacitor over
+
+---------04:05----------
+here let's measure it on that capacitor
+
+---------04:10----------
+hmm 3.3 volts so it's being told to
+
+---------04:14----------
+create it but it's not creating it very
+
+---------04:16----------
+interesting now the voltage pound ep 3 V
+
+---------04:19----------
+3 s 5 goes in and then keep these 3 v 3s
+
+---------04:21----------
+o FET is supposed to come out but it
+
+---------04:24----------
+doesn't which means that most likely our
+
+---------04:25----------
+issue is with this little chip does it
+
+---------04:28----------
+look bad at all
+
+---------05:51----------
+by the way if you're watching this video
+
+---------05:53----------
+on Vimeo you may notice that the quality
+
+---------05:55----------
+it looks better than it does on YouTube
+
+---------05:56----------
+check out her junior comm / Ross group
+
+---------05:59----------
+or you can go to boards dot Rossman
+
+---------06:00----------
+group comm we can browse through every
+
+---------06:03----------
+single one of our logical order pair
+
+---------06:04----------
+videos by either the model number of the
+
+---------06:06----------
+board or the type of the problem don't
+
+---------06:08----------
+delay check us out at Boyd's dot Rossman
+
+---------06:11----------
+recom today to find our videos without
+
+---------06:15----------
+ads and higher video quality
+
+---------06:22----------
+bye-bye little chip
+
+---------06:29----------
+you bastard
+
+---------06:34----------
+stay you bastard
+
+---------07:00----------
+flux that's so good we'll post noid
+
+---------07:02----------
+steals it every time you've a it's
+
+---------07:03----------
+chipped alright so we're gonna plug this
+
+---------07:05----------
+thing in let's see what we get on output
+
+---------07:06----------
+PP 33 s o is 3.3 volts beautiful all sis
+
+---------07:10----------
+is 3.3 volts beautiful the final test
+
+---------07:15----------
+this is how we know that this is
+
+---------07:17----------
+actually done fan spin so it seems like
+
+---------07:21----------
+we were grabbing 70 to 90 ml amps which
+
+---------07:23----------
+is common when you're missing one of the
+
+---------07:24----------
+Esso rails but the other SL rails are
+
+---------07:26----------
+present that's been a pattern that I've
+
+---------07:27----------
+talked about in many of the soo rails
+
+---------07:29----------
+missing videos I've talked about how it
+
+---------07:31----------
+is you can hook up the DC power supply
+
+---------07:32----------
+to the machine you could just look at my
+
+---------07:33----------
+video on how to hook up a macbook
+
+---------07:35----------
+charger to a DC power supply this way
+
+---------07:37----------
+you can read exactly how many amps are
+
+---------07:39----------
+being used it's helpful in
+
+---------07:40----------
+troubleshooting and I went to alters
+
+---------07:42----------
+power good and I noticed that all the
+
+---------07:43----------
+rails were present besides one and that
+
+---------07:45----------
+also power grid was missing we then
+
+---------07:46----------
+traced back so P P 3 P 3s I was missing
+
+---------07:49----------
+P V 3 V 3 s5 is present P P 3 P 3 S 4
+
+---------07:51----------
+and 3 or present VP 3 V 3 s our current
+
+---------07:54----------
+was not so we checked for a short
+
+---------07:55----------
+circuit to ground there was no short
+
+---------07:56----------
+circuit to ground meaning the rail was
+
+---------07:58----------
+just likely not being created so when we
+
+---------07:59----------
+look at the schematic this is gonna be
+
+---------08:01----------
+the junction at which P P 3 V 3 s 5 is
+
+---------08:04----------
+going to turn to pp 3 V 3 s up now we
+
+---------08:08----------
+had to see if this chip is being told to
+
+---------08:09----------
+turn on thank you very much UK Ross NATO
+
+---------08:11----------
+it's very kind you we saw that this
+
+---------08:12----------
+enable was present so it says P 3 B 3 s
+
+---------08:15----------
+Oh enable that's going to the on pin of
+
+---------08:17----------
+the chip which is gonna be that
+
+---------08:18----------
+obviously the pin that turns it on you
+
+---------08:20----------
+don't got to be an electronics engineer
+
+---------08:21----------
+to figure that one out
+
+---------08:22----------
+and you a t30 over here was broken even
+
+---------08:25----------
+though it didn't look broken it was
+
+---------08:27----------
+broken and when we replaced it we got
+
+---------08:28----------
+fan spins as they have fan spin we can
+
+---------08:30----------
+be guaranteed that this works without
+
+---------08:31----------
+any sort of further testing and quality
+
+---------08:33----------
+assurance and if you want to watch these
+
+---------08:34----------
+videos in higher quality check out the
+
+---------08:37----------
+vimeo.com slash Rossman group where you
+
+---------08:38----------
+can watch them with no pre-roll or post
+
+---------08:41----------
+roll or banner ads on the video itself
+
+---------08:43----------
+higher bit rates better streaming and
+
+---------08:45----------
+above all you can see onboard Strassman
+
+---------08:48----------
+group comm where all these videos
+
+---------08:50----------
+including the last 5 years in the
+
+---------08:51----------
+archive are not only sorted by board
+
+---------08:53----------
+model number they're also sorted by
+
+---------08:55----------
+board problem type and their hosts are
+
+---------08:57----------
+they're just the case YouTube decides to
+
+---------08:59----------
+be a fuck-boy and do something screwy so
+
+---------09:01----------
+that's it for today and as always I hope
+
+---------09:03----------
+you learned something
+

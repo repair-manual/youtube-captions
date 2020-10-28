@@ -1,0 +1,607 @@
+https://www.youtube.com/watch?v=naXglCTEtLw
+---------00:00----------
+alright this already turns on so let's
+
+---------00:03----------
+see what's wrong with this machine what
+
+---------00:07----------
+could this be here for today hmm no
+
+---------00:13----------
+light on the screen let's see do we get
+
+---------00:15----------
+a picture so first thing to do here is
+
+---------00:18----------
+see if we get a picture so I'm going to
+
+---------00:23----------
+admit to that by measuring the LCD
+
+---------00:25----------
+connector at pins 28 29 and 30 let's see
+
+---------00:30----------
+if we get 5 volts
+
+---------00:42----------
+and there's no five volts at the LCD
+
+---------00:44----------
+connector so let's see if it's being
+
+---------00:46----------
+told to turn on so the LCD enable line
+
+---------00:49----------
+is going to be pin 1 on you 9000 which
+
+---------00:52----------
+is zero point zero zero two volts so
+
+---------00:57----------
+five volts in and obviously zero volts
+
+---------00:59----------
+out okay so why is the LCD not being
+
+---------01:02----------
+told to turn on here what if I press on
+
+---------01:05----------
+the board do we have a GPU V core that's
+
+---------01:08----------
+something to check for so let's open up
+
+---------01:10----------
+the schematic and see if we've got GPU V
+
+---------01:12----------
+core
+
+---------01:12----------
+all right I want to see if my GPU V core
+
+---------01:15----------
+is present so that's going to be and I
+
+---------01:19----------
+get nothing
+
+---------01:20----------
+I have no picture on the screen and I
+
+---------01:23----------
+measure to see if there was voltage
+
+---------01:24----------
+going to the screen on the chip called u
+
+---------01:26----------
+9000 so this is the page for the LCD
+
+---------01:30----------
+panel this is the LCD connector now the
+
+---------01:32----------
+LCD panel needs to get 5 volts on right
+
+---------01:36----------
+over here PP 5v whatever unpinch 28 29
+
+---------01:39----------
+and 32 turn on and I measured zero volts
+
+---------01:42----------
+there u 9000 when turned on when LCD
+
+---------01:45----------
+power enable is going to it's on pin
+
+---------01:47----------
+will allow PP 5v which is a 5 volt rail
+
+---------01:50----------
+to flow to V out pins 4 and 5 this is a
+
+---------01:54----------
+buck controller for creating PPV core
+
+---------01:57----------
+SLE graphics reg u 8900 which is located
+
+---------02:04----------
+right over here but we're going to do is
+
+---------02:07----------
+we're going to use my micro pencil with
+
+---------02:09----------
+the t30 - KN tip and I'm going to
+
+---------02:11----------
+surround this with some flux
+
+---------02:18----------
+and now I'm going to run through and add
+
+---------02:23----------
+some nice new leaded solder over here
+
+---------02:26----------
+make sure that I get each individual pin
+
+---------02:29----------
+of the qfn package
+
+---------03:21----------
+we slide right through
+
+---------03:44----------
+now I'm going to add a little bit more
+
+---------03:46----------
+flux to the general area
+
+---------03:55----------
+and just in case anything else other
+
+---------03:57----------
+than that was our problem so now what
+
+---------04:01----------
+I'm going to do is I'm going to give
+
+---------04:02----------
+this entire area localized reflow so in
+
+---------04:07----------
+addition to redoing the solder on the
+
+---------04:09----------
+qfn it's going to get anything else in
+
+---------04:12----------
+that area that they have been been to
+
+---------04:14----------
+seen some impact
+
+---------04:50----------
+now we're going to give it a moment of
+
+---------04:51----------
+dry
+
+---------05:01----------
+exposure is a little too high there
+
+---------05:06----------
+and that's way too much exposure come on
+
+---------05:08----------
+turn down I haven't seen that much
+
+---------05:10----------
+exposure since vice offered me a TV
+
+---------05:11----------
+contract
+
+---------05:18----------
+so now we're going to I'm going to get
+
+---------05:20----------
+the multimeter back on and we're going
+
+---------05:21----------
+to see if we get GPU V core I just I'm
+
+---------05:24----------
+going to plug in the screen and we'll
+
+---------05:29----------
+see if we get a light picture all that
+
+---------05:32----------
+good stuff alright we're going to plug
+
+---------05:34----------
+it in you've got our moment of truth so
+
+---------05:37----------
+we have a picture a backlight and GPU
+
+---------05:39----------
+vcore as can be seen here we have zero
+
+---------05:45----------
+point eight eight nine volts of GPU v
+
+---------05:48----------
+core
+
+---------05:48----------
+I haven't light there's a light on the
+
+---------05:52----------
+screen and in a minute you're going to
+
+---------05:53----------
+be able to see a question mark and once
+
+---------05:55----------
+we see the question mark will be said
+
+---------06:02----------
+tada
+
+---------06:04----------
+question mark fold oh so that is how we
+
+---------06:08----------
+fixed the signature problem with no
+
+---------06:10----------
+video in the 2012 and 2013 15 inch
+
+---------06:13----------
+retina MacBook Pros before I finish for
+
+---------06:15----------
+the day I just want to explain why it is
+
+---------06:18----------
+I find this program that Apple has to be
+
+---------06:20----------
+particularly detestable so if we were to
+
+---------06:22----------
+look at this page this program ends on
+
+---------06:24----------
+December 31st 2016 they call it a repair
+
+---------06:27----------
+extension program and they also say they
+
+---------06:29----------
+determined that a small percentage of
+
+---------06:31----------
+systems may exhibit and if you google
+
+---------06:33----------
+search on the internet and a small
+
+---------06:35----------
+percentage it's a lot of people and the
+
+---------06:38----------
+issue that I have with this is that
+
+---------06:39----------
+there was no effort made to email people
+
+---------06:42----------
+to reach out to people that had this
+
+---------06:45----------
+issue that registered their machines
+
+---------06:46----------
+there was no effort made to put this on
+
+---------06:48----------
+the front page of the website so that
+
+---------06:49----------
+people knew hey it Temba 31st was coming
+
+---------06:52----------
+don't you want to make sure if you have
+
+---------06:53----------
+this machine that you can get the board
+
+---------06:54----------
+fixed before the extended warranty is up
+
+---------06:56----------
+no most people who come here and have no
+
+---------06:58----------
+idea that this program ever existed and
+
+---------07:00----------
+frankly if you don't Google you've got a
+
+---------07:02----------
+lot of digging to do on Apple's website
+
+---------07:03----------
+to ever figure out that this is an issue
+
+---------07:05----------
+unlike most manufacturers that when they
+
+---------07:08----------
+have some type of serious issue with
+
+---------07:09----------
+their products well make sure to put it
+
+---------07:11----------
+on the news section of their website or
+
+---------07:12----------
+release some type of service bulletins
+
+---------07:14----------
+that everybody can see Apple kind of
+
+---------07:16----------
+digs it really deep in their website and
+
+---------07:18----------
+it's my opinion and I could be wrong and
+
+---------07:21----------
+I state I used the word opinion very
+
+---------07:23----------
+carefully because I know that from
+
+---------07:24----------
+Kilpatrick and Townsend said last year
+
+---------07:27----------
+that they watch my channel and their
+
+---------07:28----------
+fans so just in case any one of my
+
+---------07:30----------
+favorite
+
+---------07:31----------
+they're watching my channel today I just
+
+---------07:33----------
+want to make sure that I use the word
+
+---------07:34----------
+opinion that you can't do any funny
+
+---------07:37----------
+business but it is my opinion that Apple
+
+---------07:40----------
+does not want people with these problems
+
+---------07:42----------
+going to the store to get these boards
+
+---------07:44----------
+fixed Apple doesn't want their tech
+
+---------07:46----------
+support to you filled up with their own
+
+---------07:48----------
+problems that they are responsible for
+
+---------07:50----------
+and they just want you to play a new one
+
+---------07:52----------
+they're just hoping that you're going to
+
+---------07:53----------
+forget about this and that is going to
+
+---------07:55----------
+fail outside the warranty period and
+
+---------07:57----------
+then they could do the bare minimum
+
+---------07:58----------
+required to not get sued and get away
+
+---------08:00----------
+with it and often sadly they succeed and
+
+---------08:03----------
+to me in my opinion that's a fairly
+
+---------08:06----------
+shitty thing to do to people that spend
+
+---------08:08----------
+3000 or 4000 dollars in your product
+
+---------08:10----------
+when they could have spent 1,000 or
+
+---------08:11----------
+2,000 someone else's they're not going
+
+---------08:13----------
+to tell you and there's a flaw but if
+
+---------08:15----------
+you stay subscribe to this channel
+
+---------08:16----------
+you'll get to learn every single
+
+---------08:17----------
+signature flaw as we figure them out and
+
+---------08:19----------
+we will figure them out and if you want
+
+---------08:22----------
+us to find out where it is you can learn
+
+---------08:23----------
+more you can check out our forum over
+
+---------08:25----------
+here where we are regularly walking
+
+---------08:27----------
+people through all of these different
+
+---------08:29----------
+types of problems this is free to view
+
+---------08:32----------
+and $29 a month to post so if you have a
+
+---------08:34----------
+business and you're doing any type of
+
+---------08:35----------
+MacBook component-level board repair and
+
+---------08:37----------
+you're just starting to make money at it
+
+---------08:39----------
+but you kind of getting confused with
+
+---------08:40----------
+some of your problems we are not not to
+
+---------08:43----------
+have you know go on an ego trip we're
+
+---------08:44----------
+pretty good at this we will figure out
+
+---------08:46----------
+over the internet what's wrong with your
+
+---------08:48----------
+board will tell you what to measure will
+
+---------08:49----------
+tell you where the where the corrosion
+
+---------08:51----------
+is and very often people who follow our
+
+---------08:54----------
+advice will end up with 6 motherboards
+
+---------08:56----------
+and if you don't do this is a business
+
+---------08:57----------
+and you're just kind of curious you can
+
+---------08:59----------
+check it out it's free to look at and
+
+---------09:01----------
+it's always free to watch the videos in
+
+---------09:02----------
+this channel we will demonstrate from
+
+---------09:04----------
+start to finish just like we did today
+
+---------09:05----------
+how you can diagnose these issues you
+
+---------09:08----------
+can figure out that your issue matches
+
+---------09:09----------
+the one in the video and how you can
+
+---------09:11----------
+repair the problem without any type of
+
+---------09:14----------
+fancy schmancy editing out all the good
+
+---------09:16----------
+stuff so that you don't know what to do
+
+---------09:17----------
+I really hope that people who watch this
+
+---------09:19----------
+channel and who read the forum are able
+
+---------09:21----------
+to make these broken products work again
+
+---------09:22----------
+I really hope that you go out there and
+
+---------09:24----------
+find all of these eight 1398 2012 and
+
+---------09:27----------
+2013 machines that are sitting in
+
+---------09:29----------
+landfills recycling centers aways
+
+---------09:31----------
+facilities or just in somebody's
+
+---------09:32----------
+nitrogen just somebody's night table
+
+---------09:34----------
+drawer that they're just close to
+
+---------09:36----------
+throwing away and that you make them
+
+---------09:38----------
+work again so that somebody else could
+
+---------09:39----------
+be happy using it that's the point of
+
+---------09:41----------
+this channel and I really like seeing in
+
+---------09:43----------
+the comments when people say hey I
+
+---------09:45----------
+this exact same problem and now I fixed
+
+---------09:47----------
+it that's awesome and I want to see more
+
+---------09:49----------
+of that
+
+---------09:49----------
+so find these machines make them work
+
+---------09:51----------
+again make the video come on again and
+
+---------09:53----------
+let me know how it went
+
+---------09:54----------
+thanks for watching and as always I hope
+
+---------09:56----------
+you learned something
+

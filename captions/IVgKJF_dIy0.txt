@@ -1,0 +1,1453 @@
+https://www.youtube.com/watch?v=IVgKJF_dIy0
+---------00:00----------
+hi today I'm going to go over a MacBook
+
+---------00:01----------
+Air that wasn't turning on I'm not going
+
+---------00:03----------
+to do it in real time because I was busy
+
+---------00:06----------
+and I also had more as video
+
+---------00:08----------
+problems which I'm pretty excited that
+
+---------00:09----------
+I've solved I've switched over from
+
+---------00:11----------
+using ffmpeg to VLC so it doesn't
+
+---------00:14----------
+there's some issue with video for Linux
+
+---------00:16----------
+drivers with ffmpeg again god bless
+
+---------00:18----------
+ffmpeg god bless the fact that it is
+
+---------00:20----------
+free and that is a bunch of cool
+
+---------00:22----------
+but it doesn't always work so moving on
+
+---------00:26----------
+so this is not going to be real time but
+
+---------00:28----------
+I am going to walk you through the
+
+---------00:29----------
+things that I did the troubleshooting
+
+---------00:31----------
+steps that I took one of the first
+
+---------00:32----------
+things you should look for if the
+
+---------00:33----------
+computer charges the battery and it
+
+---------00:35----------
+seems to charge the battery it doesn't
+
+---------00:37----------
+seem like it's really that liquid
+
+---------00:39----------
+damaged it seems like everything is in
+
+---------00:40----------
+good condition but it doesn't turn on is
+
+---------00:43----------
+do I have a working 5 volt rail so there
+
+---------00:47----------
+are different power rails in the machine
+
+---------00:48----------
+this SOS 3s 5 and these are power States
+
+---------00:51----------
+so you have s 5 which is all if you have
+
+---------00:53----------
+s 3 which is sleeping in you have SL
+
+---------00:55----------
+which is on so even if you do have your
+
+---------00:58----------
+5 volt rail and your 3.3 volt rail do
+
+---------01:01----------
+you have s o versions of those so you
+
+---------01:04----------
+have this sleeping version of that rail
+
+---------01:06----------
+but then when the computer actually is
+
+---------01:07----------
+time to turn on and the fans that's been
+
+---------01:09----------
+in the CPU to work there's a separate
+
+---------01:11----------
+version of that rail that gets derived
+
+---------01:13----------
+from the original S 5 rail so you'll
+
+---------01:15----------
+have the S 5 rail which is pretty much
+
+---------01:17----------
+the 5 volts of the 3 volts that's
+
+---------01:18----------
+showing up while it's off or sleeping
+
+---------01:20----------
+and then from that rail there's a little
+
+---------01:22----------
+switch that gets clicked that says ok
+
+---------01:24----------
+now it's time for the s o version of
+
+---------01:26----------
+that to turn on and the S o version is
+
+---------01:27----------
+what's going to send power to the CPU
+
+---------01:29----------
+and all the other stuff so that the
+
+---------01:30----------
+computer can actually start computing
+
+---------01:32----------
+and working now in this case there was 5
+
+---------01:33----------
+volts but there was not 5 volts for the
+
+---------01:36----------
+s o rail and I'm going to go through a
+
+---------01:38----------
+little bit of the troubleshooting
+
+---------01:39----------
+process and what I did to figure out
+
+---------01:41----------
+what was wrong so let's turn over to the
+
+---------01:44----------
+schematic here I have to do the video
+
+---------01:48----------
+all the way over there or else you won't
+
+---------01:49----------
+see me because the light is so
+
+---------01:50----------
+ridiculously blinding from my table that
+
+---------01:53----------
+when I'm next to it in regular light you
+
+---------01:55----------
+practically can't see me alright
+
+---------02:04----------
+so now I had pp5 es3 this is let's
+
+---------02:10----------
+search for that
+
+---------02:25----------
+let me open the boy view so I can
+
+---------02:27----------
+actually find out where that I was
+
+---------02:29----------
+coming from so I can show you that okay
+
+---------02:35----------
+so you 7501 okay okay so here is where
+
+---------02:49----------
+the pp 5vs5 comes from right here you
+
+---------02:52----------
+can't see that zoom via reg 5 PP 5vs5
+
+---------02:58----------
+so I have that voltage that voltage is
+
+---------03:00----------
+there but I don't have PP 5 ESL I mean
+
+---------03:03----------
+if PP 5 ESO is what's going to get bits
+
+---------03:06----------
+it's powering all these different
+
+---------03:08----------
+components in the machine look again
+
+---------03:09----------
+keyboard backlight you need you you
+
+---------03:12----------
+don't need that to be on when the
+
+---------03:14----------
+computer is off that's why there's
+
+---------03:15----------
+different power rails for the different
+
+---------03:16----------
+power states to the Machine again do you
+
+---------03:18----------
+want your keyboard backlight on when
+
+---------03:20----------
+your computer is off no which is why
+
+---------03:22----------
+there's a separate PP 5 vs o and PP 5 es
+
+---------03:25----------
+5 so let's keep scrolling down here to
+
+---------03:27----------
+see where PP 5 vs o comes from if we
+
+---------03:30----------
+scroll down eventually we'll find it by
+
+---------03:32----------
+the way if you want to know what how I
+
+---------03:34----------
+know what power voltages need to be here
+
+---------03:36----------
+what voltages need to be where there's a
+
+---------03:37----------
+list so see this list over here all this
+
+---------03:39----------
+crap this is literally just a list of
+
+---------03:41----------
+the different power lines that are in
+
+---------03:44----------
+the machine so you can see if they're
+
+---------03:46----------
+there like it starts with the important
+
+---------03:47----------
+1 PP but G 3 ha which is what everything
+
+---------03:49----------
+winds up coming from in the machine you
+
+---------03:51----------
+check that and you can just go down the
+
+---------03:53----------
+line here checking that all these
+
+---------03:54----------
+voltages are here so what you're going
+
+---------03:55----------
+to do is you can hit ctrl F you're going
+
+---------03:57----------
+to type this in here you're going to see
+
+---------03:59----------
+what component it's hanging off of and
+
+---------04:01----------
+then you go to the board view and then
+
+---------04:03----------
+you see what where that is and then you
+
+---------04:05----------
+measure for it so that's pretty much
+
+---------04:07----------
+that
+
+---------04:07----------
+so let's so for example let's say you
+
+---------04:11----------
+want it to see if P P 3 V 4 to
+
+---------04:12----------
+underscore g3 hottest there let's just
+
+---------04:14----------
+see P 3 V 4 to underscore g3 hot right
+
+---------04:18----------
+just going to enter in
+
+---------04:22----------
+and eventually you'll find something
+
+---------04:25----------
+that is hanging off so again you can do
+
+---------04:27----------
+this really with anything well let's
+
+---------04:28----------
+just let's just check in at you
+
+---------04:31----------
+nineteen fifty right I'm just choosing
+
+---------04:34----------
+any point so you go here you see you
+
+---------04:36----------
+nineteen fifty okay that's this little
+
+---------04:40----------
+piece of crap over here alright and then
+
+---------04:45----------
+you find out which tab of it has pp
+
+---------04:48----------
+three okay so it's this tab now you
+
+---------04:50----------
+don't know this because it's not in
+
+---------04:52----------
+front of you but this small component
+
+---------04:53----------
+actually is not going to have the it's
+
+---------04:56----------
+not going to have pro legs that you can
+
+---------04:59----------
+see so you'll have to find a pro point
+
+---------05:01----------
+now in this program on the bottom over
+
+---------05:02----------
+here it's going to show you the probe
+
+---------05:04----------
+points let me just lift this up a little
+
+---------05:05----------
+so you can see so right over here it
+
+---------05:07----------
+says probe 853 you can't see that but
+
+---------05:09----------
+hopefully you trust me that I'm not
+
+---------05:10----------
+bullshitting you and you do this and
+
+---------05:13----------
+it's going to show you where that probe
+
+---------05:14----------
+point is so I can go over here where
+
+---------05:16----------
+it's red and lit up like this over here
+
+---------05:19----------
+and then I can just measure here and go
+
+---------05:21----------
+is pp 3 V 4 2 g 3 H there is three point
+
+---------05:24----------
+42 volts over here and if it is there
+
+---------05:26----------
+great that's a power supply can check
+
+---------05:27----------
+off my list if it's not there then I
+
+---------05:29----------
+know that that's what I got to start
+
+---------05:30----------
+trough troubleshooting and or you can
+
+---------05:33----------
+just do this this is a cool thing with
+
+---------05:34----------
+this program you go P P 3 V 4 2 G 3 8
+
+---------05:38----------
+it'll actually show you every place on
+
+---------05:40----------
+the board where this pops up so you'll
+
+---------05:42----------
+see it in green and cool you know it's
+
+---------05:44----------
+pretty cool so that's by the SMC where
+
+---------05:46----------
+there's a lot of three point 42 volts
+
+---------05:48----------
+and yeah that's that's that so alright
+
+---------05:51----------
+again Adam sell these I don't
+
+---------05:53----------
+redistribute them in any way I simply
+
+---------05:55----------
+purchase them off of places on the
+
+---------05:57----------
+internet where it's available to any Tom
+
+---------05:59----------
+Dick or Harry with a PayPal account and
+
+---------06:01----------
+then I just use them for the educational
+
+---------06:05----------
+and again I I don't redistribute these
+
+---------06:08----------
+in any way shape or form do not ask for
+
+---------06:10----------
+them I do not redistribute them I simply
+
+---------06:12----------
+purchase them off of the internet you
+
+---------06:13----------
+can simply google for a schematic and
+
+---------06:16----------
+there are places where any Tom Dick or
+
+---------06:18----------
+Harry could spend 20 bucks and they send
+
+---------06:21----------
+you the schematic and the board view so
+
+---------06:22----------
+that you can use them and in this case
+
+---------06:24----------
+I'm using this for the educational
+
+---------06:26----------
+purpose of teaching you how to
+
+---------06:27----------
+troubleshoot a dead board so back to my
+
+---------06:29----------
+PP 5 ESO so I had PP 5 es 5 and measure
+
+---------06:32----------
+that and then all the places PP 5 ESL
+
+---------06:35----------
+was supposed to be I didn't get it one
+
+---------06:37----------
+of the places that I measure for pp5 ESO
+
+---------06:39----------
+on this machine is actually on the fan
+
+---------06:40----------
+connector because it's just the first
+
+---------06:41----------
+thing that pops into my head as soon as
+
+---------06:43----------
+you plug the newer airs in they turn on
+
+---------06:45----------
+so the cool thing about the newer air ii
+
+---------06:47----------
+you plug the power adapter in you don't
+
+---------06:49----------
+have to go around trying to find
+
+---------06:50----------
+the two pads too short to turn it on or
+
+---------06:52----------
+you get a keyboard the thing about these
+
+---------06:54----------
+airs is that they turn on and the second
+
+---------06:56----------
+power is attached so if you attach power
+
+---------06:58----------
+the second you attach this magazine if
+
+---------07:00----------
+it knows switch me to s ou turn the
+
+---------07:02----------
+on and so if I don't have power in the
+
+---------07:05----------
+fan connector at that point I know that
+
+---------07:07----------
+this is something wrong so let's see
+
+---------07:11----------
+where PP five ESO gets started
+
+---------07:14----------
+now one of the things you should know
+
+---------07:16----------
+about most of these chips is that they
+
+---------07:17----------
+have something called enable pen zone
+
+---------07:19----------
+let me show you what that means all
+
+---------07:23----------
+right let me show you something so right
+
+---------07:26----------
+over here where it says en si this stuff
+
+---------07:28----------
+right over your en 1 en tu usually
+
+---------07:31----------
+there's 3.3 volt with these enable pins
+
+---------07:33----------
+there's usually 3.3 volts that enable
+
+---------07:35----------
+pin that's going to tell to turn on
+
+---------07:37----------
+sometimes it's a lower voltage sometimes
+
+---------07:38----------
+it's a higher voltage it really just
+
+---------07:40----------
+depends on the chip that you're using
+
+---------07:41----------
+and what you're doing is making sure I'm
+
+---------07:42----------
+still recording because I don't trust
+
+---------07:44----------
+this computer and that's pretty much
+
+---------07:47----------
+that
+
+---------07:47----------
+so if you're not getting a voltage one
+
+---------07:48----------
+of the things that you should do is see
+
+---------07:50----------
+if it's actually enabled so one of the
+
+---------07:53----------
+things I was doing once is looking for
+
+---------07:56----------
+PP 5 ESO the first thing I want to do is
+
+---------07:57----------
+see how it is created where it comes
+
+---------07:59----------
+from so let's find that alright
+
+---------08:12----------
+yawn yawn yawn this is a finding all the
+
+---------08:20----------
+stuff that pp5 ESO is powered off of but
+
+---------08:23----------
+I'm not finding where it comes from okay
+
+---------08:25----------
+here we go okay see this 5v esos which
+
+---------08:28----------
+you see what I was talking about so I
+
+---------08:30----------
+have power I have power when it's in the
+
+---------08:32----------
+s5 state which is not on but I don't
+
+---------08:35----------
+have any power in the esos state when
+
+---------08:36----------
+it's off that's no good that's worthless
+
+---------08:38----------
+that's useless to me so I need the S Oh
+
+---------08:40----------
+so here is P p5 ESO out right we zoom in
+
+---------08:44----------
+a little more because I know that the
+
+---------08:45----------
+setup sucks balls for showing you stuff
+
+---------08:47----------
+on the screen
+
+---------08:48----------
+pp five es up this is fed by also I had
+
+---------08:55----------
+voltage here right
+
+---------08:56----------
+I had pp 5v underscore s 4 RS 3 so this
+
+---------09:00----------
+was actually sure this crap of showing
+
+---------09:02----------
+up wasn't showing up as this p5 vs o
+
+---------09:05----------
+underscore again remember what I said
+
+---------09:07----------
+you should always look for these enable
+
+---------09:08----------
+tabs so if you have a certain voltage
+
+---------09:10----------
+that's not showing up see what's
+
+---------09:12----------
+producing that voltage enough for the
+
+---------09:13----------
+chip that's producing that voltage has
+
+---------09:14----------
+an en tab or even if an on tab or
+
+---------09:17----------
+something like that like you know turn
+
+---------09:19----------
+on use your common sense and say maybe I
+
+---------09:21----------
+want this is not working
+
+---------09:22----------
+maybe there's no voltage at the enable
+
+---------09:24----------
+tab at the on 10 and again he sometimes
+
+---------09:26----------
+it's called en sometimes it's called on
+
+---------09:28----------
+the reason I know this is because it
+
+---------09:30----------
+says over here this voltage going in
+
+---------09:31----------
+says en so even if I didn't suddenly
+
+---------09:34----------
+realize that Oh N means on like turn on
+
+---------09:36----------
+vs. turn off I could simply look over
+
+---------09:39----------
+here and see that the voltage here is
+
+---------09:41----------
+says en so that's what the signal is for
+
+---------09:43----------
+it's to enable and again if you truly
+
+---------09:45----------
+don't understand what this means see
+
+---------09:47----------
+this number over here the great thing
+
+---------09:49----------
+about Google the great thing about
+
+---------09:50----------
+Google on the internet is that you can
+
+---------09:52----------
+find and answer to almost anything again
+
+---------09:53----------
+just like I found this schematic - by
+
+---------09:55----------
+doing a simple Google search I can also
+
+---------09:57----------
+for a lot of these chips find data
+
+---------09:59----------
+sheets on them now you when you get a
+
+---------10:01----------
+data sheet for these chips you're going
+
+---------10:02----------
+to get some 70-page nightmare of
+
+---------10:06----------
+information that you probably are not
+
+---------10:08----------
+going to know anything about unless
+
+---------10:09----------
+you're a damn PhD in engineering but you
+
+---------10:12----------
+don't need that what I look for is the
+
+---------10:14----------
+description of what the pins do so I'll
+
+---------10:15----------
+go to the pin out and we'll describe but
+
+---------10:17----------
+each pin does at a tab so if I go let's
+
+---------10:19----------
+say pin 2 on and it goes when this goes
+
+---------10:22----------
+to 3.3 volts it enables the chip
+
+---------10:25----------
+you know I learned something so again if
+
+---------10:27----------
+you don't know what this does hit ctrl K
+
+---------10:29----------
+you can again I was trying to figure out
+
+---------10:31----------
+how to use VLC to do some of the things
+
+---------10:33----------
+I want and I have some form questions
+
+---------10:34----------
+and the answers weren't really helping
+
+---------10:36----------
+me so I used I use this I went ctrl C
+
+---------10:41----------
+and I typed in something and I Google
+
+---------10:43----------
+then I found information and again you
+
+---------10:44----------
+have the same power so long as you have
+
+---------10:46----------
+an internet connection so let's follow
+
+---------10:49----------
+the rabbit hole this is what I call
+
+---------10:50----------
+going down the rabbit hole you have a
+
+---------10:51----------
+problem and you just kind of dig down to
+
+---------10:54----------
+find and down deeper and deeper and
+
+---------10:56----------
+deeper to try to find out what to do so
+
+---------11:00----------
+P P P v vs o underscore yet what creates
+
+---------11:06----------
+that signal okay and you have all these
+
+---------11:10----------
+rails that you're going to need not
+
+---------11:12----------
+turning on and they're all coming off of
+
+---------11:14----------
+here so this is coming off of here to
+
+---------11:16----------
+create the so this is coming off of here
+
+---------11:20----------
+to create the 5-volt enable this is
+
+---------11:22----------
+coming off of here to make the three
+
+---------11:23----------
+volt enable this is coming off here to
+
+---------11:25----------
+make the 1.5 volt enable voltage and
+
+---------11:28----------
+again these are all going to be going to
+
+---------11:29----------
+their respective ICS and telling them
+
+---------11:31----------
+turn the on and start making power
+
+---------11:33----------
+it's all coming from here and when I
+
+---------11:35----------
+measured over here
+
+---------11:36----------
+I got 0 I got nothing on the output and
+
+---------11:39----------
+they also had nothing over here on this
+
+---------11:41----------
+input of p.m. sleep s3 this resistor was
+
+---------11:44----------
+good all of these resistors I measured
+
+---------11:46----------
+they were just fine and dandy so and now
+
+---------11:49----------
+this chip is powered off of 3.3 volts
+
+---------11:51----------
+and since most enables our work off of
+
+---------11:53----------
+3.3 volts my best guess as to what this
+
+---------11:55----------
+does again I'm guessing because I have
+
+---------11:58----------
+no idea what you eight 180 does I don't
+
+---------12:00----------
+and I googled and I looked and I
+
+---------12:02----------
+couldn't find anything my guess is that
+
+---------12:04----------
+when a certain input signal comes in it
+
+---------12:05----------
+takes that 3.3 volts and just sends it
+
+---------12:07----------
+this way or this power just allows the
+
+---------12:11----------
+chip to tell it to send this this way
+
+---------12:13----------
+whatever whatever the it does I
+
+---------12:14----------
+honestly don't even know I don't really
+
+---------12:16----------
+give a what I thought I could do
+
+---------12:18----------
+since the enables on all these pins of
+
+---------12:20----------
+3.3 volts is short this to this very
+
+---------12:22----------
+very high tech repair again right now
+
+---------12:24----------
+I'm the proper thing to do the proper
+
+---------12:27----------
+thing to do is figure out why this sleep
+
+---------12:29----------
+signal why this is the widest hole
+
+---------12:30----------
+is not working why when I plug the
+
+---------12:32----------
+ power in why it doesn't send the
+
+---------12:34----------
+Esso enables and why doesn't turn on
+
+---------12:36----------
+that's the right thing to do
+
+---------12:37----------
+the wrong thing to do
+
+---------12:39----------
+the wrong thing to do is the short that
+
+---------12:41----------
+3.3 volts over here so that all these SM
+
+---------12:44----------
+enables our on/off time
+
+---------12:50----------
+so yeah I want them doing
+
+---------12:53----------
+and that's what I wound up doing because
+
+---------12:56----------
+again I need the machine to turn on I
+
+---------12:57----------
+need to do something because when I
+
+---------12:59----------
+follow further down the rabbit hole here
+
+---------13:00----------
+and I go p.m. sleep s3l let's see so
+
+---------13:06----------
+that input signal that comes in here
+
+---------13:08----------
+comes from the CPU let me tell you I
+
+---------13:11----------
+don't want to troubleshoot why my CPU is
+
+---------13:13----------
+not putting out a sleep signal that's
+
+---------13:15----------
+not really how I want to start my day I
+
+---------13:17----------
+don't know I'm I'm again I don't I'm not
+
+---------13:20----------
+gonna remove the CPU I don't plan on
+
+---------13:22----------
+balling the see battle I don't I don't
+
+---------13:24----------
+want misery I want to figure out what
+
+---------13:26----------
+the actual problem is here first so what
+
+---------13:28----------
+I did I just again I just wanted to see
+
+---------13:30----------
+where I stand at this point I want to
+
+---------13:32----------
+figure out how much time am I going to
+
+---------13:33----------
+waste on this motherboard how miserable
+
+---------13:35----------
+is this board going to make me so what I
+
+---------13:37----------
+decided to do was short these two
+
+---------13:40----------
+together so that the machine would
+
+---------13:42----------
+always be on so it doesn't matter it
+
+---------13:44----------
+doesn't matter if you want to be asleep
+
+---------13:45----------
+it doesn't matter if you want to
+
+---------13:46----------
+hibernate it doesn't matter if you want
+
+---------13:48----------
+to take a nap or go on a low-power mode
+
+---------13:50----------
+ you you're staying on SO all the
+
+---------13:52----------
+time so I shorted that 3.3 volts to here
+
+---------13:54----------
+and it turned on as soon as I hit the
+
+---------13:57----------
+power button which is gray which is
+
+---------13:58----------
+beautiful which is amazing but it would
+
+---------14:01----------
+turn on and boot and then turn off then
+
+---------14:03----------
+turn on then turn off then turn on then
+
+---------14:06----------
+finally stay on so we're doing that
+
+---------14:08----------
+thing where we turn on turn off turn on
+
+---------14:10----------
+turn off and then it finally turn on and
+
+---------14:12----------
+stay on and everything worked I tried it
+
+---------14:14----------
+it truly did work beautifully but again
+
+---------14:17----------
+it's on SO all the time so I had it so I
+
+---------14:20----------
+charged it to 100% battery I let the
+
+---------14:22----------
+thing sleep on my table let's go back to
+
+---------14:25----------
+this view here oh so yeah I let it
+
+---------14:29----------
+charge overnight I let it sleep on my
+
+---------14:30----------
+table and what do you think happened
+
+---------14:32----------
+when I came back it was at 18 percent
+
+---------14:34----------
+battery so I had this thing asleep on my
+
+---------14:36----------
+table all night in a sleep on my table
+
+---------14:38----------
+all night I came back 18 percent battery
+
+---------14:41----------
+which is just complete poor so it
+
+---------14:43----------
+could give us again SOS it's always in s
+
+---------14:46----------
+oh all those SLE power rails are always
+
+---------14:48----------
+on and always being used so the battery
+
+---------14:50----------
+ran out completely almost completely
+
+---------14:52----------
+then I decided let me reset the
+
+---------14:54----------
+parameters for the help let me try
+
+---------14:55----------
+resetting P Ram I reset the P Ram and
+
+---------14:57----------
+instead of doing that were
+
+---------14:58----------
+aboot 'add into in a loop it like would
+
+---------15:00----------
+boot and stop the boot them stopped boot
+
+---------15:02----------
+did stop it would just boot instantly
+
+---------15:04----------
+and after I reset the PRM I figured
+
+---------15:06----------
+me let's see if that helped with the
+
+---------15:08----------
+whole sleep signal crap I removed that
+
+---------15:10----------
+little solder blob that he saw and it
+
+---------15:12----------
+worked
+
+---------15:13----------
+did a little rebooting thing I've reset
+
+---------15:15----------
+PRM again and it worked now here's the
+
+---------15:17----------
+thing
+
+---------15:17----------
+resetting PRM is what I needed to do to
+
+---------15:19----------
+fix this problem but how do I reset the
+
+---------15:21----------
+PRM on a computer that doesn't turn on
+
+---------15:23----------
+so that's why I forced it to turn on so
+
+---------15:25----------
+I forced it to turn on it you
+
+---------15:27----------
+you're getting s o power whether you
+
+---------15:28----------
+like it or not I turned it on I reset
+
+---------15:31----------
+the P Ram then after I recent appear and
+
+---------15:33----------
+I remove that solder blob because again
+
+---------15:35----------
+this computer is going to have
+
+---------15:36----------
+battery life if it's in soo all the time
+
+---------15:38----------
+like the computer is sitting there off
+
+---------15:39----------
+and the SL power rails are working
+
+---------15:41----------
+that's no good and now it works
+
+---------15:44----------
+beautifully and again this is why you
+
+---------15:45----------
+really this is why you got to use your
+
+---------15:47----------
+brain this is why I'm always trolling
+
+---------15:48----------
+and saying use your brain because you
+
+---------15:50----------
+know that I have so many people saying
+
+---------15:52----------
+like I don't have 5 volts what is the
+
+---------15:54----------
+vault that I see that creates 5 volts
+
+---------15:56----------
+again I showed you the IC that creates 5
+
+---------15:58----------
+volts it's fine it works great it's not
+
+---------16:00----------
+the IC that creates 5 volts that was a
+
+---------16:02----------
+fault I shown you the chip that takes
+
+---------16:05----------
+that sleep signal and sends it on to
+
+---------16:06----------
+create those enable voltages that turn
+
+---------16:08----------
+all these chips on that wasn't at fault
+
+---------16:10----------
+none of those resistors around were at
+
+---------16:11----------
+fault you know people like they get this
+
+---------16:13----------
+tunnel vision mindset where it's like
+
+---------16:15----------
+you know this creates 5 volts and
+
+---------16:18----------
+there's no 5 volts here so the thing
+
+---------16:20----------
+behind it must be the thing that's
+
+---------16:21----------
+broken no no no it's not that easy it
+
+---------16:23----------
+doesn't it's not that easy it's almost
+
+---------16:25----------
+never that easy you don't get for the
+
+---------16:26----------
+problem to be that easy don't do these
+
+---------16:28----------
+monkey-see monkey-do tricks this you
+
+---------16:30----------
+know like I saw this person fixed their
+
+---------16:33----------
+computer for not turning on that way so
+
+---------16:34----------
+I'm going to do the same thing but don't
+
+---------16:36----------
+apply somebody else's solution to your
+
+---------16:37----------
+problem you may have a different problem
+
+---------16:40----------
+with me but what I mean what I'm trying
+
+---------16:41----------
+to do with this channel is I'm trying to
+
+---------16:42----------
+encourage you to go down the rabbit hole
+
+---------16:44----------
+and figure out your specific problem
+
+---------16:46----------
+rather than simply read some silly guide
+
+---------16:48----------
+or somebody else's post and how to do
+
+---------16:50----------
+something if you want a great example of
+
+---------16:52----------
+a complete [ __ ] go to MacRumors
+
+---------16:54----------
+and read the SMC troubleshooting thread
+
+---------16:56----------
+again god bless the people in this
+
+---------16:58----------
+thread truly god bless the people in
+
+---------16:59----------
+this thread that are helping people that
+
+---------17:02----------
+are giving the way their information for
+
+---------17:03----------
+free and trying to make the world a
+
+---------17:04----------
+better place through having more fixed
+
+---------17:06----------
+computers I support that but at the same
+
+---------17:08----------
+time it's like 90 people all screaming
+
+---------17:11----------
+at once
+
+---------17:12----------
+you know asking questions that and then
+
+---------17:15----------
+they're getting answered by other
+
+---------17:16----------
+questions and then they're trying stuff
+
+---------17:19----------
+that other people tried like I don't
+
+---------17:20----------
+have three volts because our 50 was 57
+
+---------17:23----------
+was bad and then they change our 57 and
+
+---------17:26----------
+then you know it still doesn't work
+
+---------17:27----------
+because our 57 was was their problem
+
+---------17:29----------
+like not yours you need to solve your
+
+---------17:31----------
+problem I can't tell you like it very
+
+---------17:33----------
+often I'm not replacing chips to solve
+
+---------17:35----------
+these problems most of the time I'm not
+
+---------17:36----------
+replacing a chip to solve problems
+
+---------17:39----------
+because the chips themselves very often
+
+---------17:41----------
+are just fine
+
+---------17:42----------
+the problem is somewhere else and it's
+
+---------17:44----------
+just it's your job to go down the rabbit
+
+---------17:46----------
+hole and find it
+

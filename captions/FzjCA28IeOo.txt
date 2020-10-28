@@ -1,0 +1,1597 @@
+https://www.youtube.com/watch?v=FzjCA28IeOo
+---------00:00----------
+hi so today we're gonna be going over a
+
+---------00:01----------
+board for somebody who took the class
+
+---------00:03----------
+name is Michael he said that it heats up
+
+---------00:05----------
+a lot so this is an 8 to 0 31:15 board
+
+---------00:09----------
+and let's try to figure out what it is
+
+---------00:11----------
+that's heating up to try to get an idea
+
+---------00:12----------
+of what's going on with it and see if we
+
+---------00:14----------
+can help him out and see if this is
+
+---------00:16----------
+something that is savable or something
+
+---------00:18----------
+that's hopelessly so the first
+
+---------00:20----------
+thing I'm gonna do here is I'm going to
+
+---------00:22----------
+plug it into a charger so let me just
+
+---------00:24----------
+get a working DC and board which it
+
+---------00:26----------
+looks like I don't have he ha ha of
+
+---------00:29----------
+course I have it here yeah yeah okay I
+
+---------00:32----------
+can't wait to get my office back so
+
+---------00:35----------
+today I'm gonna be moving everything
+
+---------00:36----------
+back to my office because in two days my
+
+---------00:39----------
+staff will be back and they will get to
+
+---------00:42----------
+have fun because after all this I am
+
+---------00:46----------
+definitely going on a well-needed who am
+
+---------00:49----------
+i kidding no vacation for me I'm going
+
+---------00:51----------
+on well needed more work alright so
+
+---------00:53----------
+let's see so if I plug this thing in
+
+---------00:56----------
+what okay get a green light in the
+
+---------00:58----------
+charger so the first thing I'm gonna
+
+---------00:59----------
+start doing here is I'm gonna measure
+
+---------01:00----------
+the voltage rails I want to see what is
+
+---------01:02----------
+present what is not present and go from
+
+---------01:05----------
+there so the first voltage rail that I'm
+
+---------01:07----------
+gonna measure on this machine to see
+
+---------01:08----------
+what's going on with it is pp bus g3 hah
+
+---------01:11----------
+that's the most important rail and let's
+
+---------01:13----------
+see what I get over there so I get one
+
+---------01:15----------
+point five six volts also going around
+
+---------01:18----------
+to one point seven of course you can't
+
+---------01:19----------
+see that because the multimeter is
+
+---------01:21----------
+hiding so yeah let's see I get one point
+
+---------01:26----------
+yeah like it's going 1.5 1.4 1.6 and
+
+---------01:31----------
+that's what happens when the charger is
+
+---------01:33----------
+limiting power Oh because of a
+
+---------01:36----------
+short-circuit so I just wanted to touch
+
+---------01:38----------
+the board I just want to touch the board
+
+---------01:40----------
+right now and something burned me now I
+
+---------01:42----------
+mean this should kind of give you an
+
+---------01:44----------
+idea of what's going on so again I'm
+
+---------01:46----------
+before I even go for the detective short
+
+---------01:49----------
+circuit I understand that something is
+
+---------01:50----------
+shorting at the ground and I understand
+
+---------01:52----------
+that what's shorting at the ground maybe
+
+---------01:53----------
+the stuff that's on the corner of the
+
+---------01:55----------
+board because it just burned my finger
+
+---------01:57----------
+when I went to touch the board and move
+
+---------01:58----------
+it over so that I could start measuring
+
+---------02:00----------
+it so I'm gonna open up a schematic for
+
+---------02:02----------
+the a20
+
+---------02:02----------
+3115 motherboard this isn't the I reckon
+
+---------02:05----------
+when this was a new but this is actually
+
+---------02:07----------
+like starting to become a piece of
+
+---------02:09----------
+just because it's you know it's
+
+---------02:11----------
+Ivy Bridge and the
+
+---------02:12----------
+Peter's resolute err has a lower screen
+
+---------02:15----------
+resolution than my than my phone you
+
+---------02:18----------
+know it's a piece of now so I mean
+
+---------02:20----------
+this is a board that it goes to a
+
+---------02:22----------
+computer that is again this machine
+
+---------02:25----------
+still sells for like 700 bucks and
+
+---------02:27----------
+that's the thing with Apple their stuff
+
+---------02:29----------
+holds value even after the
+
+---------02:30----------
+specifications long make it a piece of
+
+---------02:32----------
+crap
+
+---------02:32----------
+so PP buys g3 hot is not where it's
+
+---------02:34----------
+supposed to be right and the part of the
+
+---------02:35----------
+board that burned me is right up here
+
+---------02:38----------
+these caps so c-38 97 see 38 96 when we
+
+---------02:45----------
+look at these capacitors under the
+
+---------02:47----------
+microscope let's just take a look at
+
+---------02:49----------
+that area that burned me let's get a
+
+---------02:50----------
+good view of it so that I can show you
+
+---------02:52----------
+what's going on let's see alright so I
+
+---------02:59----------
+think yeah I mean it you should have an
+
+---------03:01----------
+idea of what's of what the problem is
+
+---------03:03----------
+here because I mean look at that
+
+---------03:04----------
+so those capacitors don't really look
+
+---------03:06----------
+very nice now this is a classic case of
+
+---------03:09----------
+the t29 boost circuit for the
+
+---------03:12----------
+Thunderbolt and shorty and DisplayPort
+
+---------03:14----------
+and all that good stuff shorting PP buzz
+
+---------03:17----------
+g3 hard to ground so let's go back over
+
+---------03:20----------
+to the schematic over here so see 38 97
+
+---------03:23----------
+I'm miss 4k god I miss 4k alright so
+
+---------03:27----------
+this over here these capacitors are
+
+---------03:30----------
+burning absolutely burning and remember
+
+---------03:35----------
+the t29 boost circuit comes about from
+
+---------03:38----------
+the PPV in t29 boost so this comes from
+
+---------03:45----------
+pp bus g3 hot see this is pp bus g3 hot
+
+---------03:49----------
+is the first rail over here it's the
+
+---------03:50----------
+first rail I checked that after you
+
+---------03:52----------
+checked the pp 3 before 2 rail I know
+
+---------03:54----------
+that the pp 3 before 2 RL is there
+
+---------03:56----------
+because my one wire circuit is working
+
+---------03:57----------
+so what I'm gonna try to do now is I'm
+
+---------04:00----------
+gonna try to get rid of that short to
+
+---------04:01----------
+ground and see if removing those
+
+---------04:03----------
+capacitors that are burning my fingers
+
+---------04:05----------
+through the job
+
+---------04:06----------
+so again pp bus g3 hot is being shorted
+
+---------04:09----------
+to ground the capacitors that burned me
+
+---------04:11----------
+are on the long something that's around
+
+---------04:14----------
+this power rail and that power rail is
+
+---------04:15----------
+actually PP bus g3 hot soapy Peabody
+
+---------04:17----------
+three hot fees the t29 boost regulator
+
+---------04:20----------
+and the output of the t29 boost
+
+---------04:22----------
+regulator is actually burning my finger
+
+---------04:24----------
+so what I'm going to do over here is I'm
+
+---------04:26----------
+going to remove
+
+---------04:26----------
+those disgusting looking capacitors that
+
+---------04:28----------
+just burned me again I'm not gonna
+
+---------04:31----------
+really measure anymore I'm not gonna
+
+---------04:33----------
+inject power to see if there's a short
+
+---------04:34----------
+there because the little mark that it's
+
+---------04:36----------
+on my finger right now is proof enough
+
+---------04:37----------
+for me that that's the problem
+
+---------04:39----------
+and you're gonna see this very often on
+
+---------04:41----------
+the on these boards any mainly because
+
+---------04:44----------
+they have the they have all this
+
+---------04:46----------
+circuitry right on this on the edge and
+
+---------04:48----------
+the edge is absolutely no protection
+
+---------04:50----------
+from water not a single thing is done
+
+---------04:52----------
+here to keep liquid from getting in the
+
+---------04:54----------
+machine again these Apple products they
+
+---------04:56----------
+are not designed like the IBM ThinkPads
+
+---------04:58----------
+they're not designed like the Lenovo
+
+---------05:00----------
+ThinkPad they're not designed with any
+
+---------05:02----------
+real idea towards longevity or
+
+---------05:03----------
+durability they're just designed to look
+
+---------05:05----------
+pretty and I have pretty software and
+
+---------05:08----------
+have a pretty interface and a be thin
+
+---------05:09----------
+but no real the thought goes into what's
+
+---------05:14----------
+going ahead like how is this gonna get
+
+---------05:15----------
+used in the real world our people are
+
+---------05:18----------
+gonna be are they gonna be sitting in
+
+---------05:19----------
+coffee shops where people will spill
+
+---------05:21----------
+coffee on a table should we make it so
+
+---------05:23----------
+that the part that's absorbing it is
+
+---------05:25----------
+right next to where the water is most
+
+---------05:26----------
+likely going to spill on the side again
+
+---------05:28----------
+it's you know are we gonna make this
+
+---------05:31----------
+product so that when something is
+
+---------05:33----------
+spilled it's resistant a little to it
+
+---------05:35----------
+are we gonna make this products that
+
+---------05:36----------
+when something is spilled it actively
+
+---------05:37----------
+gets shot into the highest voltage part
+
+---------05:40----------
+of the Machine and it this is one
+
+---------05:43----------
+of the subtle differences between a
+
+---------05:44----------
+think pad and a MacBook Andy and a big
+
+---------05:49----------
+part of it is just you know this stuff
+
+---------05:52----------
+they just there is no thought put any of
+
+---------05:56----------
+these things it's all about making it
+
+---------05:58----------
+look good it's all about nice interface
+
+---------05:59----------
+it's all about like nice looking design
+
+---------06:02----------
+but when it actually comes to things
+
+---------06:04----------
+like long term durability you are not
+
+---------06:07----------
+gonna find that Apple gives a ship and
+
+---------06:09----------
+the thing is there's absolutely no
+
+---------06:12----------
+reason for them to give a because
+
+---------06:14----------
+we have collectively shown them as
+
+---------06:16----------
+customers that we will continue to buy
+
+---------06:18----------
+their products regardless of the lack of
+
+---------06:20----------
+durability regardless of the lack of
+
+---------06:22----------
+upgrade ability that again it doesn't
+
+---------06:24----------
+matter like people always complain they
+
+---------06:26----------
+say the MacBook Air doesn't have user
+
+---------06:28----------
+upgradeable RAM and it doesn't use a
+
+---------06:30----------
+standard m2 SSD and it doesn't use this
+
+---------06:33----------
+in blah blah blah it's okay then stop
+
+---------06:35----------
+buying it or the iPod doesn't remove a
+
+---------06:37----------
+battery okay then stop buying it like
+
+---------06:39----------
+but
+
+---------06:40----------
+but you keep buying it like all the same
+
+---------06:41----------
+people who complain about all these
+
+---------06:42----------
+features they complain about all this
+
+---------06:44----------
+ left and right but do you actually
+
+---------06:46----------
+have it in you to stop buying the
+
+---------06:47----------
+product that has these limitations that
+
+---------06:51----------
+you don't like see I think Apple has a
+
+---------06:53----------
+lot of great things about their products
+
+---------06:55----------
+but there are all the things that I
+
+---------06:56----------
+don't like about their product and
+
+---------06:57----------
+because I don't like those things about
+
+---------06:59----------
+their product I will simply and not buy
+
+---------07:01----------
+them but you guys I notice a lot of the
+
+---------07:04----------
+people who really complain hardcore
+
+---------07:06----------
+about all this you're the same people
+
+---------07:07----------
+very often that will actually buy this
+
+---------07:09----------
+ and it just doesn't make sense
+
+---------07:11----------
+because like again what motivation what
+
+---------07:12----------
+are you giving them to not to you know
+
+---------07:15----------
+to change you're not giving them any
+
+---------07:16----------
+motivation to change so as you can see
+
+---------07:17----------
+pipi bus g3 Han has to be back because
+
+---------07:19----------
+the fan is spinning since the fan is
+
+---------07:23----------
+spinning I know pipi bus g3 hot is back
+
+---------07:24----------
+so what I'm gonna do over here under the
+
+---------07:26----------
+microscope is I'm gonna replace those
+
+---------07:28----------
+ capacitors with new ones so that
+
+---------07:31----------
+we have a properly working t29 boost
+
+---------07:33----------
+circuit again now also you have to keep
+
+---------07:35----------
+in mind that there are times when you're
+
+---------07:36----------
+not gonna have a working t29 boost
+
+---------07:38----------
+circuit sometimes there are three levels
+
+---------07:40----------
+of Thunderbolt failure here the first
+
+---------07:43----------
+level of Thunderbolt failure is
+
+---------07:45----------
+something really really basic like this
+
+---------07:46----------
+where it's really it's just like a few
+
+---------07:49----------
+components a few you know a few
+
+---------07:51----------
+capacitors are one of you two pieces
+
+---------07:53----------
+that's shorted to ground in a very
+
+---------07:54----------
+relatively superficial fashion and what
+
+---------07:56----------
+I mean by superficial fashion is that
+
+---------07:58----------
+there's no hole on the motherboard you
+
+---------08:00----------
+know it's not like this thing is is
+
+---------08:02----------
+totally destroyed it's not you know you
+
+---------08:05----------
+don't you don't notice a lot of issue
+
+---------08:06----------
+with it it's not like the board is is
+
+---------08:10----------
+really thick the PC board looks good the
+
+---------08:12----------
+surrounding components look good it's
+
+---------08:13----------
+just a few components that just so
+
+---------08:14----------
+happen to have have gotten hurt the
+
+---------08:16----------
+second level is when you have a couple
+
+---------08:18----------
+of burnt pads here and there and a
+
+---------08:20----------
+couple of like really destroyed
+
+---------08:21----------
+components around it if that's not great
+
+---------08:24----------
+but then you can still fix it the third
+
+---------08:26----------
+level of failure is when you'll see that
+
+---------08:29----------
+there's holes in the motherboard you
+
+---------08:30----------
+actually have holes in the motherboard
+
+---------08:32----------
+and at that point what I do is I cut out
+
+---------08:35----------
+the t29 boost circuit as if it were a
+
+---------08:38----------
+you know an appendix and I've talked
+
+---------08:41----------
+about this before when that circuit is
+
+---------08:43----------
+really destroyed you actually risk
+
+---------08:45----------
+ruining pp bus g3 hot from ever working
+
+---------08:47----------
+again by trying to fix it so again in
+
+---------08:51----------
+those situations what I do is I just I
+
+---------08:53----------
+actually I cut the trace on the boards
+
+---------08:56----------
+that leads to anything relating to t29
+
+---------08:58----------
+and I cut the traces I cut the so that
+
+---------09:02----------
+nothing is going to be traveling there
+
+---------09:03----------
+and then I remove all the components
+
+---------09:05----------
+after it just as a precaution but this
+
+---------09:09----------
+is a case where it's clearly okay to
+
+---------09:11----------
+restore Thunderbolt will be just fine
+
+---------09:35----------
+man now it makes that capacitor up with
+
+---------09:39----------
+the bad ones mofo
+
+---------09:56----------
+all right I have a bunch of 8/2 0:31 15
+
+---------10:04----------
+boards so no harm no foul here
+
+---------10:11----------
+you're just not organized as nicely in
+
+---------10:13----------
+this box here as they were when they
+
+---------10:14----------
+were in the separate boxes for the
+
+---------10:16----------
+different types of boys in my office but
+
+---------10:19----------
+I'll find it and of course most of them
+
+---------10:24----------
+are actually missing those pieces
+
+---------10:25----------
+because that's a very very common thing
+
+---------10:27----------
+to go bad since it's very common I use
+
+---------10:30----------
+it often here we go fresh donor boards
+
+---------10:37----------
+from David let me unpack these he should
+
+---------10:43----------
+have those pieces on them geez these
+
+---------10:58----------
+boards of all the new just destroyed
+
+---------11:02----------
+they have nothing useful on them anymore
+
+---------11:04----------
+I couldn't if I sold these boards for
+
+---------11:06----------
+five bucks on eBay five bucks I would I
+
+---------11:09----------
+would find myself with PayPal claims
+
+---------11:12----------
+these boards are not are legitimately
+
+---------11:14----------
+not worth five dollars anymore I mean
+
+---------11:17----------
+they're just yeah everything is missing
+
+---------11:24----------
+it's like we're pillagers at this store
+
+---------11:29----------
+okay
+
+---------11:35----------
+okay let's get this
+
+---------11:51----------
+my soldering as usual his so let's
+
+---------11:54----------
+see if we can make that look a little
+
+---------11:55----------
+bit better through the magic of an Tek
+
+---------11:58----------
+559 and curvy tip so let's get curvy tip
+
+---------12:13----------
+here up to a good point that's eight
+
+---------12:16----------
+forty degrees there we go
+
+---------12:19----------
+look better looking better looking
+
+---------12:25----------
+better see what it does
+
+---------12:29----------
+good flux good stuff
+
+---------12:38----------
+okay that's good now what I want to see
+
+---------12:43----------
+here is I'm going to unplug my monitor
+
+---------12:46----------
+and I'm gonna hope that it doesn't ruin
+
+---------12:47----------
+my recording here or freeze anything on
+
+---------12:49----------
+my system and I'm gonna use that plug
+
+---------12:52----------
+with this first I got to put a Ram stick
+
+---------12:54----------
+in it so let's get a Ram stick here Oh
+
+---------12:58----------
+Who am I kidding I have a bin of ddr2
+
+---------13:01----------
+here we really are sodomizer is
+
+---------13:03----------
+everything is Jesus Christ it's all gone
+
+---------13:10----------
+where can I find some ram ah I miss my
+
+---------13:16----------
+office I can't wait to go back to my
+
+---------13:18----------
+office I'm excited
+
+---------13:20----------
+litter like one day that's all we have
+
+---------13:23----------
+right here we go
+
+---------13:27----------
+Luis is liquid computer so we gonna
+
+---------13:33----------
+put a little Ram stick in there and I
+
+---------13:36----------
+touched the flux part of the MA
+
+---------13:39----------
+disgusting I'm gonna wash that off with
+
+---------13:41----------
+soap in a second and wiping it off with
+
+---------13:44----------
+alcohol is really not the right way to
+
+---------13:46----------
+do this anyway but see we're gonna okay
+
+---------13:52----------
+we unplug my monitor and plug you in
+
+---------13:57----------
+here and so I know that it turns on
+
+---------14:01----------
+let's see if I get this blade port
+
+---------14:02----------
+because if I get DisplayPort then both
+
+---------14:04----------
+issues are fixed and I'm good so let's
+
+---------14:06----------
+pay attention to the screen over here
+
+---------14:07----------
+and let's see what happens when it turns
+
+---------14:09----------
+on is it come on you're the only monitor
+
+---------14:14----------
+attached okay here we go so it turned
+
+---------14:19----------
+gray it's a good sign all I'm waiting
+
+---------14:26----------
+for now is a question mark folder once I
+
+---------14:29----------
+get the question mark folder I'll know
+
+---------14:30----------
+that I'm good and that I'm set and that
+
+---------14:33----------
+this is ready to go back
+
+---------14:56----------
+question mark folder mofo come on come
+
+---------15:01----------
+on you I'm so impatient he's impatient -
+
+---------15:08----------
+you see that guy jackass and the left
+
+---------15:10----------
+monitor over there
+
+---------15:19----------
+okay I see a world icon whatever same
+
+---------15:22----------
+ that's a picture good enough for me
+
+---------15:24----------
+you're good to go
+
+---------15:26----------
+alright so let's plug this monitor back
+
+---------15:29----------
+in so that we can go over a little bit
+
+---------15:30----------
+of what was going on here and also go
+
+---------15:33----------
+over what it is you missed so that you
+
+---------15:35----------
+won't miss it next time
+
+---------15:44----------
+alrighty so remember in class when we
+
+---------15:47----------
+were doing that whole thing with finding
+
+---------15:49----------
+a short to ground so and remember when
+
+---------15:51----------
+we were checking the panel rails so the
+
+---------15:52----------
+first thing that you would do here on
+
+---------15:54----------
+this on this schematic here is you're
+
+---------15:56----------
+gonna check for power rails come on
+
+---------15:58----------
+wireless piece-of-crap keyboard there we
+
+---------16:00----------
+go
+
+---------16:01----------
+kay 3:30 with new batteries you are
+
+---------16:04----------
+literally like two feet away from the
+
+---------16:06----------
+computer and sometimes you don't work
+
+---------16:07----------
+love it
+
+---------16:08----------
+obviously we go to the power rails page
+
+---------16:10----------
+you know this lists every power in the
+
+---------16:11----------
+computer so you should plug it in and
+
+---------16:13----------
+see what it is that's missing so over
+
+---------16:15----------
+here PP buz g3 hot was the one that was
+
+---------16:17----------
+missing now if you want to find where PP
+
+---------16:19----------
+but g3 hot is in the computer you can go
+
+---------16:22----------
+over to the board view software type N
+
+---------16:24----------
+and then type in the name of the power
+
+---------16:25----------
+rail PP bus underscore g3 hot and then
+
+---------16:28----------
+it's gonna show you everywhere on the
+
+---------16:29----------
+board that that power drill shows up so
+
+---------16:31----------
+you can measure anywhere and my favorite
+
+---------16:33----------
+place to measure for it is on the big
+
+---------16:34----------
+white fuse right next to the RAM slot
+
+---------16:36----------
+which is F 70/40
+
+---------16:38----------
+now what I did at that point is I just
+
+---------16:41----------
+had a multimeter in voltage mode which
+
+---------16:43----------
+meant that I take the I can't wait to go
+
+---------16:47----------
+back to my office this
+
+---------16:50----------
+alright so I take the black probe over
+
+---------16:52----------
+here and I put it on ground on this
+
+---------16:53----------
+board ground is going to be a screw hole
+
+---------16:56----------
+so any one of these things on the side
+
+---------16:57----------
+and then I take the red probe and I put
+
+---------16:59----------
+it over there and then I read the value
+
+---------17:01----------
+that I get now the value that I get is
+
+---------17:03----------
+supposed to be twelve point six so again
+
+---------17:04----------
+if we go back to the schematic over here
+
+---------17:07----------
+you'll see it says voltage well twelve
+
+---------17:08----------
+point eight so most of the time at
+
+---------17:10----------
+twelve point six and that's really
+
+---------17:11----------
+realistically what you're gonna see on
+
+---------17:13----------
+your multimeter so it says twelve point
+
+---------17:14----------
+eight and what I got was one point five
+
+---------17:16----------
+now at that point one of the first
+
+---------17:18----------
+things that you want to get you're gonna
+
+---------17:19----------
+want to do is unplug power from the
+
+---------17:21----------
+board take your multimeter and put it
+
+---------17:23----------
+into either
+
+---------17:24----------
+Omo diode mode resistance mode whatever
+
+---------17:26----------
+it is you have I take usually read probe
+
+---------17:28----------
+on ground and black probe on here if
+
+---------17:32----------
+you're doing resistance
+
+---------17:33----------
+measurements it doesn't matter if you're
+
+---------17:34----------
+doing dial more measurements it's best
+
+---------17:36----------
+to keep the red probe on ground for the
+
+---------17:37----------
+specific measurement so I take that and
+
+---------17:39----------
+put it on ground and I take the other
+
+---------17:41----------
+probe and I put it on where the power
+
+---------17:44----------
+rail is and what I'm doing here is I'm
+
+---------17:46----------
+trying to measure the resistance to
+
+---------17:48----------
+ground now if the resistance to ground
+
+---------17:49----------
+is really really low that means that
+
+---------17:52----------
+there's a component somewhere along this
+
+---------17:53----------
+board that's sending all of its power to
+
+---------17:55----------
+ground so right now I have you know 15
+
+---------17:57----------
+million ohms and Counting which is you
+
+---------18:01----------
+know not a short to ground now before
+
+---------18:03----------
+again I didn't actually measure using
+
+---------18:04----------
+the multimeter to see if I had a short
+
+---------18:06----------
+to ground I knew that I had a short to
+
+---------18:08----------
+ground because something was getting
+
+---------18:09----------
+really really hot now the way this works
+
+---------18:11----------
+is if any one of the components on this
+
+---------18:13----------
+line is shorted to ground all the power
+
+---------18:15----------
+is gonna go to ground instead of going
+
+---------18:17----------
+on another part of the computer so if we
+
+---------18:19----------
+go over to f7 T for T over here here we
+
+---------18:22----------
+go so this is where I was this is where
+
+---------18:24----------
+I was measuring right here come on you
+
+---------18:27----------
+there we go so let's say this capacitor
+
+---------18:29----------
+over here see this it's going to ground
+
+---------18:31----------
+now let's say it's short it's a ground
+
+---------18:33----------
+let's say this capacitors become a wire
+
+---------18:34----------
+instead of only passing the AC component
+
+---------18:36----------
+to ground it's gonna be passing
+
+---------18:38----------
+everything to ground and if this
+
+---------18:40----------
+capacitor is passing everything the
+
+---------18:41----------
+ground what's going to happen is that
+
+---------18:43----------
+all this power here is gonna be going to
+
+---------18:45----------
+ground through this component instead of
+
+---------18:47----------
+going to wherever it's supposed to now
+
+---------18:50----------
+this capacitor over here it's not meant
+
+---------18:51----------
+to pass a lot of power it's meant to
+
+---------18:54----------
+pass the tiny tiny little bits of AC
+
+---------18:56----------
+that may be present there it's not meant
+
+---------18:58----------
+to actually pass the entire signal to
+
+---------19:00----------
+ground so what happens when you put a
+
+---------19:02----------
+lot more power through something than
+
+---------19:03----------
+you're supposed to so let's say you take
+
+---------19:05----------
+a little speaker and you hook it up to a
+
+---------19:06----------
+500 watt amplifier like a tiny little
+
+---------19:08----------
+speaker like these PC speakers let's say
+
+---------19:10----------
+hook them up to the power sound amp in
+
+---------19:11----------
+my office and I turn them all the way up
+
+---------19:13----------
+the voice coil inside the speaker is
+
+---------19:15----------
+gonna get really hot because it's not
+
+---------19:16----------
+meant for that level of power and then
+
+---------19:18----------
+it's gonna melt or explode and the same
+
+---------19:20----------
+thing is true over here that little
+
+---------19:22----------
+capacitor is gonna get really really hot
+
+---------19:24----------
+it's because it's not meant to have that
+
+---------19:26----------
+much energy going through it it's going
+
+---------19:28----------
+to burn so it's gonna be really hot and
+
+---------19:30----------
+you're gonna feel that and then when you
+
+---------19:32----------
+feel that you're gonna want to remove
+
+---------19:33----------
+the components that get really hot now
+
+---------19:35----------
+sometimes they don't get really hot
+
+---------19:36----------
+sometimes when there's a short to ground
+
+---------19:38----------
+the power rail will actually not work at
+
+---------19:40----------
+all in this case what happens is the
+
+---------19:42----------
+protection circuitry limits the charger
+
+---------19:45----------
+to one point seven volts in your case
+
+---------19:46----------
+was one point
+
+---------19:47----------
+five for some strange reason usually
+
+---------19:48----------
+it's one point seven and it's it's gonna
+
+---------19:50----------
+limit the power so you actually didn't
+
+---------19:52----------
+even have to inject voltage to find out
+
+---------19:54----------
+what the hot component was if you
+
+---------19:56----------
+haven't short to ground and you notice
+
+---------19:58----------
+that nothing is getting hot with the
+
+---------19:59----------
+charger plugged in as will happen in
+
+---------20:00----------
+most cases you'll take a bench power
+
+---------20:02----------
+supply and what you want to do is you
+
+---------20:03----------
+want to inject one volt into that line
+
+---------20:05----------
+so when I say in Jeff one volt what I
+
+---------20:07----------
+mean is you take the ground of the power
+
+---------20:09----------
+supply and you'll solder it to a screw
+
+---------20:12----------
+hole or a ground terminal on the
+
+---------20:13----------
+motherboard and then you'll take the
+
+---------20:15----------
+positive terminal of your power supply
+
+---------20:17----------
+and you'll put it on the panel rail
+
+---------20:19----------
+that's missing now I like to start at
+
+---------20:20----------
+one volt the reason I like to start at
+
+---------20:22----------
+one volt what if the FET for CPU
+
+---------20:24----------
+circuitry is what's shorted and and that
+
+---------20:27----------
+that short is going to the CPU so if I
+
+---------20:29----------
+say this is a 12 volt power line let me
+
+---------20:31----------
+just put 12 volts in there and the
+
+---------20:32----------
+component that shorted is a component
+
+---------20:34----------
+that's supposed to make pulses for the
+
+---------20:35----------
+CPU I'm gonna send 12 volts directly to
+
+---------20:38----------
+my CPU and I'm going to kill it or if
+
+---------20:40----------
+the FET for the GPU is bad I'm gonna
+
+---------20:42----------
+send 12 volts to my GPU and I'm gonna
+
+---------20:43----------
+kill it you know what I mean
+
+---------20:44----------
+so I like to start this at 1 volt and
+
+---------20:46----------
+then slowly raise it up based on whether
+
+---------20:48----------
+or not I am NOT able to find with the
+
+---------20:50----------
+shortest again I don't bother with
+
+---------20:51----------
+current limiting make sure the power
+
+---------20:53----------
+supply is set to deliver the maximum
+
+---------20:54----------
+amount of current possible always have
+
+---------20:56----------
+the power supply set or like turn to
+
+---------20:58----------
+current all the way up but you're gonna
+
+---------20:59----------
+limit the current by limiting the
+
+---------21:01----------
+voltage so you want the current turned
+
+---------21:03----------
+all the way up on your bench power
+
+---------21:04----------
+supply no current limiting but start out
+
+---------21:06----------
+at like point 5 volts and then see if it
+
+---------21:08----------
+something gets hot then go to 0.6 volts
+
+---------21:10----------
+0.7 volts 0.8 volts and you'll
+
+---------21:11----------
+eventually find something like a top so
+
+---------21:13----------
+again if you didn't burn yourself on the
+
+---------21:15----------
+board like I just did what you could do
+
+---------21:16----------
+is you could touch this power supply to
+
+---------21:18----------
+the board in the manner in which I
+
+---------21:19----------
+showed you the ground going to the screw
+
+---------21:21----------
+hole the positive terminal going on the
+
+---------21:24----------
+powers rail that's shorted and then go
+
+---------21:26----------
+over the board and see what gets hot and
+
+---------21:27----------
+slowly raise the voltage based on what
+
+---------21:29----------
+it is you see that's going on and that's
+
+---------21:32----------
+pretty much what you're gonna do and you
+
+---------21:34----------
+would have found out that those
+
+---------21:35----------
+capacitors we're boiling hot you take
+
+---------21:37----------
+them off and you replace them with other
+
+---------21:39----------
+ones you make sure everything works
+
+---------21:40----------
+afterwards you make sure the short is
+
+---------21:42----------
+gone and you're good to go so that's
+
+---------21:44----------
+pretty much that
+
+---------21:44----------
+and I hope you learned something
+

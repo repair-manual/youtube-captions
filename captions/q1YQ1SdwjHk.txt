@@ -1,0 +1,2299 @@
+https://www.youtube.com/watch?v=q1YQ1SdwjHk
+---------00:00----------
+hello people how's it going so today
+
+---------00:01----------
+we're gonna be working on in a 1708
+
+---------00:04----------
+that's not powering on let's open this
+
+---------00:06----------
+thing up and see if we could figure out
+
+---------00:07----------
+what's wrong with it all right so we're
+
+---------00:09----------
+inside the MacBook and this can be seen
+
+---------00:10----------
+over here there's quite a bit of
+
+---------00:12----------
+corrosion so you see what that looks
+
+---------00:14----------
+like under the microscope
+
+---------00:16----------
+yikes alright so let's get the board out
+
+---------00:19----------
+of this machine makes it easier to work
+
+---------00:21----------
+on and we have t5 and T three screws
+
+---------00:25----------
+that we've got to remove here okay first
+
+---------00:27----------
+thing we're gonna do you see how much
+
+---------00:29----------
+power this thing is using when we plug a
+
+---------00:30----------
+charger in because that typically gives
+
+---------00:33----------
+us an idea of what the fault may be so
+
+---------00:38----------
+we make it the twenty volts but it's
+
+---------00:39----------
+only taking ten milliamps and I'm gonna
+
+---------00:41----------
+take a wild guess given on the fact that
+
+---------00:43----------
+this side of the board looks like this
+
+---------00:44----------
+and this side of the board looks like
+
+---------00:46----------
+that that our problem is gonna be
+
+---------00:48----------
+localized in this area so let's open up
+
+---------00:50----------
+a schematic for this this is an eight to
+
+---------00:51----------
+zero - zero zero eight four zero and see
+
+---------00:55----------
+if we can figure out what is going on
+
+---------00:56----------
+with this particular board so we've got
+
+---------00:58----------
+the schematic in the board view so let's
+
+---------00:59----------
+take a look at what is going on in this
+
+---------01:01----------
+corner so the first thing we have are
+
+---------01:03----------
+some ppbut g3 hot capacitors as you can
+
+---------01:06----------
+see these are some ppbut g3 hot caps so
+
+---------01:11----------
+we may have a short on ppbut g3 how it
+
+---------01:12----------
+should check that and then on this area
+
+---------01:15----------
+we have a chip that is responsible for
+
+---------01:18----------
+3.3 volts and
+
+---------01:20----------
+5 volts so as you can see that chip over
+
+---------01:23----------
+here is going to be the 3.3 volts maybe
+
+---------01:30----------
+3 3 s 5 and 5 volt
+
+---------01:34----------
+VP 5 es 4 regulator so we may be missing
+
+---------01:37----------
+one of those rails so what I would do
+
+---------01:39----------
+here at this point is turn on Paul
+
+---------01:40----------
+Daniels is lovely multimeter software
+
+---------01:42----------
+you can bug him for the software if you
+
+---------01:45----------
+go to PL Daniel's calm lovely excellent
+
+---------01:47----------
+program all-around good guy
+
+---------01:54----------
+first thing we're gonna do is we're
+
+---------01:56----------
+going to check on this the power rail
+
+---------01:58----------
+that's attached to these disgusting caps
+
+---------02:00----------
+so as you can see on this command can
+
+---------02:02----------
+board view that is pp bus g3 hot for the
+
+---------02:07----------
+speaker and PPP h g3 hot is a power rail
+
+---------02:10----------
+that I'm expecting to be about 13 volts
+
+---------02:14----------
+that's from measuring it unknown good
+
+---------02:16----------
+boards having known good boards you can
+
+---------02:18----------
+measure is really helpful in these cases
+
+---------02:20----------
+but you can also get an idea of it just
+
+---------02:22----------
+from reading around the schematic
+
+---------02:23----------
+usually on this one it doesn't seem like
+
+---------02:25----------
+list the voltage that each rail uses
+
+---------02:27----------
+anymore it used to do that so I'm kind
+
+---------02:29----------
+of sad for that because it used to tell
+
+---------02:31----------
+you what to expect from them if I had
+
+---------02:33----------
+not been fixing these for years prior I
+
+---------02:36----------
+would know off the bat from the
+
+---------02:38----------
+schematic what I'm expecting for PB
+
+---------02:39----------
+birch d3 off from the power rails page
+
+---------02:40----------
+anymore well that's such as life so what
+
+---------02:43----------
+I'm gonna do here is measure and see
+
+---------02:46----------
+what I get on PB bus and as you can see
+
+---------02:48----------
+one ohm now a 1 ohm means that it's
+
+---------02:52----------
+short it's a ground which means
+
+---------02:53----------
+everything is going to ground through
+
+---------02:54----------
+most likely that I'm gonna guess it's
+
+---------02:56----------
+this cap because as you know it as soon
+
+---------02:58----------
+as I tapped it this came off the top
+
+---------02:59----------
+over here so I'm gonna knock that thing
+
+---------03:02----------
+off at the board and see what happens
+
+---------03:04----------
+now I'm gonna put on my fume extractor
+
+---------03:06----------
+take my hot right soldering iron I'm
+
+---------03:11----------
+gonna put a little bit of flux over that
+
+---------03:13----------
+I don't want to use hot air because I'm
+
+---------03:14----------
+right next to the connector
+
+---------03:17----------
+I'm just heightening the likelihood of
+
+---------03:20----------
+me ruining it that way
+
+---------03:21----------
+but I can just take my soldering iron
+
+---------03:24----------
+you can add an L in there if you're from
+
+---------03:27----------
+Europe or Australia can be you can call
+
+---------03:31----------
+it a Seoul during iron
+
+---------03:36----------
+soldiering
+
+---------03:45----------
+all right let's knock that cap right out
+
+---------03:47----------
+of here
+
+---------04:14----------
+now let's see if our short is still
+
+---------04:16----------
+present is it present elsewhere was that
+
+---------04:20----------
+cap it all right look at that
+
+---------04:23----------
+our impedance is going up so that was
+
+---------04:25----------
+the bad cat now this cap over here
+
+---------04:27----------
+doesn't exactly give me a lot of hope
+
+---------04:29----------
+but this may just be something I can
+
+---------04:32----------
+refurbish a little bit a little solder
+
+---------04:35----------
+over there some flux clean it up a
+
+---------04:37----------
+little so I'm moving back and forth the
+
+---------04:45----------
+reason for that is I'm scraping the side
+
+---------04:46----------
+of it so we have flux and this you don't
+
+---------04:48----------
+want to solder on top of corrosion you
+
+---------04:50----------
+want to make sure it goes away so with
+
+---------04:52----------
+the flux and this I want the corrosion
+
+---------04:54----------
+to go up into this little solder blob
+
+---------04:56----------
+there and then I wipe the solder blob
+
+---------04:58----------
+off in this hack oh five nine nine B
+
+---------05:01----------
+this is cheap-ass tip cleaner which I
+
+---------05:04----------
+use I know J BC has some automatic tip
+
+---------05:06----------
+cleaner that's a 2 or $300 I'm I'm cheap
+
+---------05:09----------
+so I use this it does the job just fine
+
+---------05:11----------
+it's not automatic it's not an automatic
+
+---------05:13----------
+typically nor you still got a jerk it up
+
+---------05:14----------
+and down but I mean really like do you
+
+---------05:18----------
+really want to spend an additional two
+
+---------05:20----------
+hundred dollars just to have somebody
+
+---------05:21----------
+else jerk your tip up and down yeah I
+
+---------05:23----------
+don't think so some people are into that
+
+---------05:26----------
+but not me yeah so let's see I'm gonna
+
+---------05:31----------
+see if I can knock this thing out of
+
+---------05:33----------
+here
+
+---------05:36----------
+this cap is
+
+---------06:09----------
+go clean those pads up a little bit get
+
+---------06:15----------
+rid of that peepee vest III hot shorts
+
+---------06:19----------
+and the other caps next to it are fine
+
+---------06:22----------
+there's no reason to do anything crazy
+
+---------06:24----------
+with those all right so now we're gonna
+
+---------06:26----------
+go get a nice little donor board from
+
+---------06:28----------
+our donor boards collection grab those
+
+---------06:31----------
+two put them on also we've got to be
+
+---------06:33----------
+careful because you got a BGA chip right
+
+---------06:35----------
+next to this area you don't want to
+
+---------06:37----------
+overheat that that is for the camera
+
+---------06:39----------
+overheat that they won't be able to take
+
+---------06:41----------
+selfies with the webcam and God forbid
+
+---------06:46----------
+so this you're going to take our donor
+
+---------06:52----------
+board over here
+
+---------07:22----------
+nice track capacitor the cap is trying
+
+---------07:26----------
+to escape but it can run but it can't
+
+---------07:29----------
+hide I can chase it I can outrun this
+
+---------07:33----------
+cap
+
+---------07:57----------
+all right Kappas honor
+
+---------08:14----------
+now we get the next guy
+
+---------08:35----------
+position this was no easier for me to
+
+---------08:38----------
+get in
+
+---------08:42----------
+alright that cap is settled
+
+---------08:45----------
+next up want to make sure that our five
+
+---------08:47----------
+volt regulator is working properly now
+
+---------08:52----------
+this again this is not terrible damage
+
+---------08:54----------
+here it looks much worse than it
+
+---------08:57----------
+actually is
+
+---------08:58----------
+it's just cosmetics nothing that can't
+
+---------09:06----------
+be fixed without a little bit of
+
+---------09:07----------
+concealer
+
+---------09:17----------
+okay into this
+
+---------09:29----------
+that
+
+---------10:09----------
+these caps look nice
+
+---------10:12----------
+and we're just about done here this
+
+---------10:15----------
+boards gonna take it's good 4 to 500
+
+---------10:18----------
+milliamps and work like it's supposed to
+
+---------10:19----------
+once this is all complete after this
+
+---------10:24----------
+thing goes to the ultrasonic cleaner
+
+---------10:25----------
+it's even gonna look nice again is you
+
+---------10:29----------
+don't want to solder on top of corrosion
+
+---------10:30----------
+you want to make sure the old corrosion
+
+---------10:32----------
+gets scraped away that's the idea here
+
+---------10:47----------
+I'm gonna lower the temperature and up
+
+---------10:49----------
+the air is to get some of the Flex out
+
+---------10:52----------
+of the way see everything clearly
+
+---------11:03----------
+all right I'm gonna give this a second
+
+---------11:06----------
+to cool off and then we're gonna see how
+
+---------11:07----------
+many amps it takes when we plug it in so
+
+---------11:10----------
+we're going to cool this using rapid
+
+---------11:12----------
+cool technology rapid cool technology
+
+---------11:17----------
+has been engaged
+
+---------11:42----------
+20 volts 10 to 30 mil amps back and
+
+---------11:45----------
+forth all right so now at least it's
+
+---------11:47----------
+moving up and down its power cycling
+
+---------11:48----------
+back and forth which is actual progress
+
+---------11:51----------
+and then they also notice they missed a
+
+---------11:52----------
+teeny tiny bit of corrosion right over
+
+---------11:55----------
+here we got to figure out what that's
+
+---------11:56----------
+about and what that's for and if that's
+
+---------11:58----------
+important so what is that for
+
+---------12:13----------
+why how interesting it that's not in the
+
+---------12:15----------
+board view oh that's hysterical alright
+
+---------12:21----------
+so check this out
+
+---------12:22----------
+you look at the schematic in the board
+
+---------12:24----------
+view right above this chip it literally
+
+---------12:31----------
+says there's nothing there is there's
+
+---------12:34----------
+nothing nothing here so according to the
+
+---------12:37----------
+board view this chip doesn't exist
+
+---------12:40----------
+whatever this is just doesn't exist okay
+
+---------12:47----------
+well it can't be that important doesn't
+
+---------12:48----------
+exist so guess I'll just touch up the
+
+---------12:51----------
+solder joints on that and then I'll go
+
+---------12:52----------
+searching somewhere else from my problem
+
+---------12:54----------
+is
+
+---------13:15----------
+I paid good money for this schematic do
+
+---------13:23----------
+well can you call Apple customer care
+
+---------13:25----------
+and ask them why there's a chip right
+
+---------13:26----------
+next to the USB seaports that's not in
+
+---------13:28----------
+the schematic actually should I do it
+
+---------13:35----------
+should I call Apple and ask them about
+
+---------13:36----------
+this they just post with yeah I should
+
+---------13:45----------
+please bro Apple I should offer
+
+---------14:07----------
+let's turn the multimeter back on the
+
+---------14:10----------
+screen
+
+---------14:12----------
+BP 5vs5 is present but it's jumping up
+
+---------14:15----------
+and down sad is pp bus solid AP bus a
+
+---------14:22----------
+solid now we got to figure out why this
+
+---------14:25----------
+chip is turning itself on and off so
+
+---------14:27----------
+it's not pp 5vs5 that's likely turning
+
+---------14:29----------
+itself on and off I bet it's turning
+
+---------14:31----------
+itself on and off because something
+
+---------14:32----------
+upstream is broken and the chip is
+
+---------14:36----------
+turning itself off to keep to protect
+
+---------14:38----------
+itself from a short-circuit
+
+---------14:45----------
+yeah you see how P P P 5 vs 4 is pulsing
+
+---------14:51----------
+it's going a 40 millivolts back and
+
+---------14:53----------
+forth so there's a short-circuit
+
+---------14:55----------
+somewhere here that we have got to find
+
+---------15:05----------
+and right there it is pp 5 vs 4 is the
+
+---------15:08----------
+short all right now it looks like the
+
+---------15:10----------
+transistor that's right above the chip
+
+---------15:11----------
+is actually responsible pp 5 BS 4 so
+
+---------15:14----------
+remember what I said when I was talking
+
+---------15:15----------
+about this chip earlier to keep it in
+
+---------15:17----------
+mind that this trip that had corrosion
+
+---------15:19----------
+on it that you see in the bottom left
+
+---------15:20----------
+this chip is responsible for creating 2
+
+---------15:24----------
+power rails it creates PP 5 vs 4 up here
+
+---------15:28----------
+it controls this transistor that's gonna
+
+---------15:31----------
+switch 12 volts to 5 volts and it
+
+---------15:34----------
+controls this transistor over here
+
+---------15:35----------
+that's gonna do switching to turn
+
+---------15:36----------
+3-point turn 12 volts into 3.3 so I
+
+---------15:39----------
+would suggest at this point if you're
+
+---------15:40----------
+confused as to how this chip works you
+
+---------15:42----------
+watch my video on what a buck converter
+
+---------15:43----------
+is a buck converter is going to take the
+
+---------15:46----------
+13 volts going in and it's going to tell
+
+---------15:48----------
+a transistor hey take that 13 volts and
+
+---------15:51----------
+give me a slice but then don't give me a
+
+---------15:53----------
+slice but they give me a slice but then
+
+---------15:54----------
+don't give me a slice so we'll have
+
+---------15:56----------
+let's say in order to get 13 volts to 5
+
+---------15:58----------
+you'll have this much time at 13 that
+
+---------16:01----------
+much time if nothing this much time of
+
+---------16:03----------
+13 that much time of nothing and that's
+
+---------16:06----------
+going to average itself out and it's
+
+---------16:07----------
+gonna be different if you want to have
+
+---------16:09----------
+let's say 3 volts you're gonna have this
+
+---------16:12----------
+much 13 that much nothing this much 13
+
+---------16:14----------
+that much nothing and what you do in the
+
+---------16:17----------
+circuit is you have an inductor which is
+
+---------16:21----------
+going to resist it's going to resist
+
+---------16:25----------
+quick changes and you also have a bunch
+
+---------16:28----------
+of caps to ground which are gonna smooth
+
+---------16:30----------
+it out so rather than get having out 12
+
+---------16:32----------
+volts 0 out 12 volts 0 out 12 volts 0
+
+---------16:34----------
+you're just gonna have 3 because if you
+
+---------16:39----------
+you can't give a circuit that wants 3
+
+---------16:40----------
+volts just you know pulses of 12 it's
+
+---------16:43----------
+gonna feel like it's getting punched in
+
+---------16:44----------
+the face you want to just give it a nice
+
+---------16:45----------
+gentle steady push and but this chip
+
+---------16:48----------
+does is it is controlling let's just
+
+---------16:53----------
+make this full screen to make this a
+
+---------16:54----------
+little easier what this chip does over
+
+---------16:56----------
+here is it's actually controlling this
+
+---------16:58----------
+transistor now this transistor is gonna
+
+---------17:00----------
+turn on it's like a switch like a light
+
+---------17:02----------
+switch and it's gonna take the 13 volts
+
+---------17:05----------
+of P P bus g3 hot and it's going to send
+
+---------17:07----------
+it out to the circuit every time this
+
+---------17:09----------
+trends this chip tells the transistor to
+
+---------17:11----------
+so this chip tells the transistor send
+
+---------17:14----------
+13 and then send nothing and then send
+
+---------17:17----------
+13 and then
+
+---------17:18----------
+send nothing think of this like a light
+
+---------17:22----------
+switch and think of this like a person
+
+---------17:24----------
+that's flipping the light switch but
+
+---------17:25----------
+it's flipping it really really fast so
+
+---------17:27----------
+some 13 some 0 some 13 some 0 now this
+
+---------17:30----------
+transistor has an attachment of ground
+
+---------17:32----------
+and it seems like this is short it's
+
+---------17:34----------
+ground I'm gonna guess that this has
+
+---------17:35----------
+been shorted to ground on the PP 5 es 4
+
+---------17:37----------
+lime for the main reason that it looks
+
+---------17:40----------
+like crap and it was corroded and it's
+
+---------17:41----------
+sitting right there that's so that would
+
+---------17:43----------
+be my first culprit so we're gonna
+
+---------17:45----------
+remove that and see if it fixes my
+
+---------17:47----------
+bucket road so here it looks like we
+
+---------17:49----------
+have two problems we actually had two
+
+---------17:50----------
+shorted rails on this board not one and
+
+---------17:52----------
+since I'm using a hot air ride by the
+
+---------17:54----------
+webcam chip and I don't want somebody to
+
+---------17:55----------
+be angry at me when they can't take
+
+---------17:57----------
+selfies no more I'm going to cover that
+
+---------17:59----------
+up with a nice little metal shield
+
+---------18:05----------
+now this is a very common fix on the a
+
+---------18:08----------
+1708 because in the a 1708 the liquid
+
+---------18:11----------
+always appears to show up in the exact
+
+---------18:13----------
+same area
+
+---------18:14----------
+it always congregates in this little
+
+---------18:17----------
+corner so if you master how to diagnose
+
+---------18:20----------
+this issue you're you're doing yourself
+
+---------18:23----------
+a doing yourself some good because
+
+---------18:26----------
+you're going to see this issue again and
+
+---------18:27----------
+it's worth knowing how to how to
+
+---------18:30----------
+troubleshoot it and how to figure it out
+
+---------18:33----------
+so I'm just gonna change the hot air
+
+---------18:36----------
+station settings I need a little less
+
+---------18:37----------
+air a little more temperature I have
+
+---------18:38----------
+lowered the temperature before because I
+
+---------18:39----------
+just wanted to move the flux that
+
+---------18:43----------
+temperature is not going to melt right
+
+---------18:46----------
+all right so we remove the transistor
+
+---------18:48----------
+now remember one thing that I messed up
+
+---------18:51----------
+in a recent video and I'm trying to not
+
+---------18:54----------
+just teach you through what I do but
+
+---------18:55----------
+also through my mistakes so you stop
+
+---------18:57----------
+making the mistakes that I make is if
+
+---------18:59----------
+something shorted and you remove the
+
+---------19:00----------
+thing you think is shorted double check
+
+---------19:02----------
+afterwards to make sure your short is
+
+---------19:03----------
+actually gone so see here so you hear
+
+---------19:06----------
+how I measure
+
+---------19:06----------
+I thought the transistor was my short
+
+---------19:08----------
+but I'm measuring and I'm still shorted
+
+---------19:10----------
+which means that I still have a problem
+
+---------19:12----------
+so that I should still be looking around
+
+---------19:14----------
+the board so I haven't actually solved
+
+---------19:16----------
+my problem yet I just removed something
+
+---------19:17----------
+that was corroded that I thought was it
+
+---------19:19----------
+and if I had started a new transistor on
+
+---------19:21----------
+it still didn't work then I would have
+
+---------19:23----------
+been the idiot there so we're going to
+
+---------19:25----------
+look around the board and see if is any
+
+---------19:28----------
+obvious components that are getting hot
+
+---------19:31----------
+on that line before we involve anything
+
+---------19:33----------
+like a thermal camera so it looks like
+
+---------19:36----------
+PP 5 vs 4 goes to a camp over here it
+
+---------19:40----------
+goes to some tiny caps over there and it
+
+---------19:43----------
+goes to some large caps on the other
+
+---------19:44----------
+side of the board so let's just take a
+
+---------19:45----------
+look now this camp over here looks fine
+
+---------19:49----------
+there's nothing really wrong with it at
+
+---------19:51----------
+all that I can see you know if we take a
+
+---------19:54----------
+look on the other side of the board
+
+---------19:56----------
+again nothing here strikes me as odd
+
+---------19:59----------
+besides the side of all that I've whoops
+
+---------20:02----------
+yet nothing here strikes me as destroyed
+
+---------20:07----------
+perhaps I'm not paying enough attention
+
+---------20:09----------
+but this looks fine to me so at this
+
+---------20:13----------
+point we're going to inject one volt
+
+---------20:15----------
+into that power rail so I'm just going
+
+---------20:17----------
+to turn on my power supply
+
+---------20:18----------
+turn on the power supply software that
+
+---------20:20----------
+controls it and I'm going to tell this
+
+---------20:22----------
+to put one volt in there now I'm gonna
+
+---------20:24----------
+start with one volt the reason I start
+
+---------20:26----------
+with one volt
+
+---------20:26----------
+rather than a higher voltage like five
+
+---------20:29----------
+because the five volt line is because
+
+---------20:31----------
+that five volts goes to several other
+
+---------20:34----------
+chips just like this one so remember how
+
+---------20:36----------
+I said we're turning 13 volts into five
+
+---------20:38----------
+volts by switching well we also turned
+
+---------20:41----------
+five volts in a 1 volt for certain no 5
+
+---------20:43----------
+volts in the 3 volts in other parts of
+
+---------20:44----------
+these boards every now every now and
+
+---------20:45----------
+then with buck converters so let's say
+
+---------20:47----------
+that one of those buck converter
+
+---------20:49----------
+transistors is shorted and it's always
+
+---------20:51----------
+sending through 5 volts rather than
+
+---------20:53----------
+switching on and off I just inject 5
+
+---------20:55----------
+volts in there I may be sending 5 volts
+
+---------20:57----------
+into a 1 volt line so what I like to do
+
+---------20:59----------
+is I like to find one of the lowest
+
+---------21:01----------
+power you know lowest voltages in the
+
+---------21:02----------
+Machine usually something for DDR like
+
+---------21:04----------
+0.7 volts somewhere and then I will send
+
+---------21:08----------
+that voltage in so that I'm safe so that
+
+---------21:10----------
+even if one of those buck converter
+
+---------21:12----------
+transistors is shorted I'm not screwing
+
+---------21:14----------
+myself and destroying the board so we're
+
+---------21:16----------
+going to set my power supply here to
+
+---------21:18----------
+this point 6 volts to start and I'm
+
+---------21:22----------
+going to inject some power in here we're
+
+---------21:24----------
+gonna see what gets warm on my thermal
+
+---------21:27----------
+camera so I'm gonna side with a positive
+
+---------21:32----------
+end of my power supply here this is a
+
+---------21:34----------
+really nasty looking solder joint but I
+
+---------21:36----------
+don't really care because it's for
+
+---------21:37----------
+testing purposes it's not like that's
+
+---------21:38----------
+part of an inter for some component or
+
+---------21:40----------
+something
+
+---------21:40----------
+literally I'm soldering a wire there so
+
+---------21:43----------
+that I can you know burn something off
+
+---------21:45----------
+the board it's not of greatest concern
+
+---------21:48----------
+to me that the solder joint be perfect
+
+---------21:50----------
+so
+
+---------21:53----------
+to attach the ground to here and now
+
+---------21:57----------
+turn on my output and now it looks like
+
+---------22:00----------
+we're taking one amp at 0.6 volts so
+
+---------22:02----------
+this should be a short that's really
+
+---------22:03----------
+easy to detect so what I'm gonna do here
+
+---------22:05----------
+is I'm going to take my thermal camera
+
+---------22:08----------
+and get my thermal cam on the desk
+
+---------22:18----------
+okay
+
+---------22:25----------
+I'm gonna turn on the thermal cameras
+
+---------22:27----------
+software plug the thermal camera in that
+
+---------22:32----------
+something's got to be getting one
+
+---------22:33----------
+because we're using about a full watt
+
+---------22:41----------
+all right so it looks like something
+
+---------22:42----------
+right over here is taking fifty five
+
+---------22:44----------
+Celsius but I think it's on the other
+
+---------22:46----------
+side of the board that our problem
+
+---------22:48----------
+exists and the reason that I am saying
+
+---------22:51----------
+that is when I look on the actual board
+
+---------22:56----------
+view software I don't see anything that
+
+---------22:59----------
+uses PP 5vs5 over here PP 5 es 4 besides
+
+---------23:02----------
+these two cd32 15s and it doesn't look
+
+---------23:07----------
+like the heat is directly coming from
+
+---------23:08----------
+either cd32 and C&C they're both 43:42
+
+---------23:11----------
+so I think it's something on the other
+
+---------23:12----------
+side of the board that's heating them
+
+---------23:13----------
+both so what I'm gonna do now is I'm
+
+---------23:14----------
+gonna flip it over and I think it was
+
+---------23:16----------
+that camp that I thought looked fine
+
+---------23:17----------
+that may actually not be fine because
+
+---------23:19----------
+that's remember this camp was pp5 es 4
+
+---------23:22----------
+right over here so let's see if that's
+
+---------23:24----------
+what it is okay it looks like it may
+
+---------23:27----------
+actually be either that cap or the
+
+---------23:30----------
+webcam chip so there is a chance over
+
+---------23:32----------
+here that this is gonna be no selfies
+
+---------23:34----------
+board but before we confirm that
+
+---------23:44----------
+let's just up this a little bit okay one
+
+---------23:51----------
+volt now let's see what it is yeah it it
+
+---------23:58----------
+looks like the the issue here is gonna
+
+---------24:00----------
+be the selfie chip so this board is not
+
+---------24:04----------
+gonna be giving anybody any selfies yeah
+
+---------24:05----------
+so no webcam for you that's a hundred
+
+---------24:08----------
+twenty-seven Celsius oh my god now again
+
+---------24:12----------
+I it's hard to tell if it's the cap
+
+---------24:14----------
+itself or the chip but I'm pretty sure
+
+---------24:16----------
+that it's the it looks like the chip but
+
+---------24:19----------
+let's just see if pp5 es5 goes to it
+
+---------24:21----------
+that'll be our final condemnation okay
+
+---------24:25----------
+it looks like this yeah it's got to be
+
+---------24:27----------
+the cap is warming the chip I think
+
+---------24:28----------
+that's what's going on here it looks
+
+---------24:31----------
+like that's what's going on here it
+
+---------24:32----------
+looks like the cap is warming the chip
+
+---------24:33----------
+because I think that this demo camera
+
+---------24:37----------
+may be tricking me so let's see what
+
+---------24:40----------
+happens if we knock the cap off the
+
+---------24:42----------
+board I'm going to just stop the voltage
+
+---------24:44----------
+from going through it temporarily yeah I
+
+---------24:45----------
+would have thought it was the the webcam
+
+---------24:48----------
+chip but the reason I'm changing my mind
+
+---------24:49----------
+on that is that it's not it doesn't have
+
+---------24:53----------
+PP 5 years for going to it so it's just
+
+---------24:55----------
+not possible that that's my problem
+
+---------24:57----------
+even though it looks like it I think
+
+---------24:59----------
+that maybe Rowe is receiving the heat
+
+---------25:01----------
+from this capacitor
+
+---------25:14----------
+yeah let it solder is gonna be easier to
+
+---------25:17----------
+work with so let's
+
+---------25:26----------
+remove you
+
+---------25:30----------
+okay the cap has been removed and now
+
+---------25:35----------
+we're gonna see what's what's going on
+
+---------25:36----------
+when I and when I put the power the
+
+---------25:40----------
+thermo can back on obviously it's gonna
+
+---------25:43----------
+be hot because I had a soldering iron
+
+---------25:44----------
+there
+
+---------25:51----------
+okay so it looks like we're no longer
+
+---------25:53----------
+taking any amperage yeah 1 volt we're
+
+---------25:56----------
+not taking anything so I believe that it
+
+---------25:59----------
+was that cap it was actually
+
+---------26:01----------
+transmitting the heat to the webcam trip
+
+---------26:05----------
+that was very that's pretty interesting
+
+---------26:12----------
+so we're going to unplug power from the
+
+---------26:16----------
+power supply we're gonna replace that
+
+---------26:17----------
+capacitor and I'm also gonna double
+
+---------26:20----------
+check that my shorts gone even though
+
+---------26:22----------
+it's not measuring there with the power
+
+---------26:24----------
+supply I just I'm used to being trolled
+
+---------26:27----------
+and I'd like to make sure that I'm not
+
+---------26:29----------
+being controlled here so what happens
+
+---------26:32----------
+when I measure PP 5 es 4 right here what
+
+---------26:35----------
+he is doing there okay there we go
+
+---------26:41----------
+yeah open line and this works right I
+
+---------26:44----------
+can tap it together and it's yeah there
+
+---------26:45----------
+we go okay so it's that's good so
+
+---------26:47----------
+thermal camera helped us find our short
+
+---------26:49----------
+thank you very much the thermal camera
+
+---------26:51----------
+everybody give a nice wool
+
+---------26:57----------
+credit where credit's due thank you to
+
+---------27:00----------
+union repair they sent that thing I was
+
+---------27:03----------
+kind of kind of mean to it when he came
+
+---------27:04----------
+out I still think it a thousand bucks
+
+---------27:06----------
+the thing is just like I mean you know
+
+---------27:11----------
+that that short given the fact that it
+
+---------27:13----------
+was taking that it was getting that hot
+
+---------27:16----------
+I would have been able to find that with
+
+---------27:17----------
+alcohol but still feel like I should be
+
+---------27:20----------
+nice to that thing since I used it I
+
+---------27:24----------
+haven't checked I'm not sure if they've
+
+---------27:26----------
+any of these companies updated their
+
+---------27:27----------
+price for that thing if it's still a
+
+---------27:29----------
+thousand bucks
+
+---------27:29----------
+like you know lol but you see where the
+
+---------27:33----------
+thermal camera comes in handy
+
+---------27:42----------
+all right so I'm gonna grab a transistor
+
+---------27:46----------
+from a donor and also the capacitor as
+
+---------27:51----------
+well
+
+---------28:00----------
+this part of the board is going to be
+
+---------28:02----------
+very difficult to heat
+
+---------28:10----------
+somebody turned up my air turn down
+
+---------28:12----------
+because I don't want to heat up
+
+---------28:13----------
+everything in the surrounding area it's
+
+---------28:15----------
+no need for that
+
+---------28:21----------
+but that
+
+---------28:34----------
+you know absolutely
+
+---------28:38----------
+okay next up is replacing that cap
+
+---------28:51----------
+it's interesting so there's underfill
+
+---------28:53----------
+and right around that cap for this Wi-Fi
+
+---------28:56----------
+chip and I think that stuff was almost
+
+---------28:59----------
+conducting the heat if not actually
+
+---------29:02----------
+conduct pretty sure that stuff was
+
+---------29:03----------
+conducting the heat that's why that was
+
+---------29:05----------
+the Wi-Fi chip is getting hotter than
+
+---------29:09----------
+the capacitor when the capacitor is the
+
+---------29:10----------
+thing that was warm to begin with Paul
+
+---------29:13----------
+did you notice that the what the cap was
+
+---------29:15----------
+95 Celsius and the chip was 130 Celsius
+
+---------29:19----------
+but the cap was shorted and it was right
+
+---------29:20----------
+next to it huh okay
+
+---------29:28----------
+our my display is not calibrated good to
+
+---------29:30----------
+know
+
+---------29:35----------
+I thought it came calibrated from the
+
+---------29:37----------
+factory why would anybody mess with it
+
+---------29:43----------
+is there calibration on that
+
+---------29:57----------
+yeah I don't even know how to caliber I
+
+---------30:00----------
+don't even know where you would change
+
+---------30:01----------
+this
+
+---------30:20----------
+yeah side of this with no hot air
+
+---------30:32----------
+this capacitor looking neat to me is
+
+---------30:34----------
+less important than not heating up all
+
+---------30:37----------
+the surrounding stuff so I have a nice
+
+---------30:40----------
+slider connection they're nice and
+
+---------30:42----------
+strong make sure it's flat but I'm not
+
+---------30:48----------
+gonna use hot air for this I don't know
+
+---------30:51----------
+okay there we go
+
+---------31:28----------
+okay now we are going to desolder the
+
+---------31:31----------
+wire that was on the bottom of the board
+
+---------31:33----------
+no need for that anymore for the short
+
+---------31:35----------
+detection
+
+---------31:47----------
+yeah anytime I'm working and I've got
+
+---------31:49----------
+like a lot of tools kind of jumping
+
+---------31:51----------
+around everywhere it's like every now
+
+---------31:53----------
+and then reset the desk a little bit
+
+---------31:56----------
+makes it easier to be nice and calm and
+
+---------31:58----------
+happy and calm and happy the repairs
+
+---------32:00----------
+will occur a little bit easier so it's
+
+---------32:04----------
+putting all these little things back in
+
+---------32:05----------
+their right place everything in this
+
+---------32:08----------
+right place is Tom New York would say
+
+---------32:11----------
+huh now everything's clean again we're
+
+---------32:18----------
+gonna see how many amps this takes and
+
+---------32:19----------
+let's see if we're turning on so 5 volts
+
+---------32:22----------
+20 volts 500 milliamps BAM good to go
+
+---------32:27----------
+this is booting and just in case you
+
+---------32:31----------
+don't believe me okay we got an Apple
+
+---------32:36----------
+logo over there so it is booting up so
+
+---------32:38----------
+let's go over what it was that was wrong
+
+---------32:41----------
+with this what our thought process was
+
+---------32:43----------
+and what it is that you could learn from
+
+---------32:46----------
+it and if you weren't able to follow
+
+---------32:47----------
+along what it is I would suggest that
+
+---------32:49----------
+you read or look up so the first thing
+
+---------32:51----------
+we noticed is that it when I plugged it
+
+---------32:53----------
+in
+
+---------32:54----------
+it was taking 0.01 amps which is 10
+
+---------33:00----------
+milliamps which is no good I looked on
+
+---------33:02----------
+the board and I saw corrosion on a
+
+---------33:03----------
+specific cluster that cluster had three
+
+---------33:07----------
+power rails by it
+
+---------33:08----------
+pp bus g3 hot pp5 es 4 PP 3 b3 s 5
+
+---------33:13----------
+remember the hierarchy in order for the
+
+---------33:15----------
+machine to work you need to have your g3
+
+---------33:17----------
+hot rails then your s5 then your s4 then
+
+---------33:20----------
+your as three than your s o g3 hot our
+
+---------33:22----------
+rails like the battery you know
+
+---------33:24----------
+something that's always there always on
+
+---------33:26----------
+always needed as five and the machines
+
+---------33:28----------
+off as forming machines hibernating s3
+
+---------33:30----------
+when the machines sleeping s o when
+
+---------33:33----------
+machine is on and working so of the g3
+
+---------33:35----------
+hot would be something like your battery
+
+---------33:38----------
+s4 would be something like the keyboard
+
+---------33:41----------
+because you can awake your machine from
+
+---------33:43----------
+a hibernate with the keyboard something
+
+---------33:45----------
+like s3 would be the RAM because when
+
+---------33:46----------
+you put the machine asleep you are
+
+---------33:48----------
+suspending to RAM and s o would be
+
+---------33:51----------
+something like the screen because that's
+
+---------33:53----------
+all or the CPU because it's only gonna
+
+---------33:54----------
+be on when you're actually using the
+
+---------33:56----------
+computer so over the three rails in that
+
+---------33:58----------
+area the first one that I measured was
+
+---------33:59----------
+the g3 hot rail which was pp bus g3 hot
+
+---------34:02----------
+that's supposed to be 13 volts it was
+
+---------34:03----------
+zero and it had a zero ohm short to
+
+---------34:05----------
+ground so I went for the low-hanging
+
+---------34:07----------
+fruit which was the capacitor that was
+
+---------34:08----------
+the most corroded I removed it and that
+
+---------34:11----------
+short went away then when that short
+
+---------34:13----------
+went away it would take 10 to 30
+
+---------34:15----------
+milliamps so now I was doing something
+
+---------34:17----------
+called power cycling which is a little
+
+---------34:18----------
+different from it just flat pull so it's
+
+---------34:20----------
+kind of like flatlining versus little
+
+---------34:22----------
+blips of a pulse now he had little blips
+
+---------34:24----------
+of a pulse and that gives me hope so we
+
+---------34:26----------
+had 10 to 30 milliamps so then I took
+
+---------34:29----------
+the other rails in that area
+
+---------34:29----------
+check PP 5 es 4 because there was
+
+---------34:31----------
+corrosion by the transistor it was short
+
+---------34:33----------
+it's a ground the transistor creating it
+
+---------34:35----------
+looked a little nasty so I removed it
+
+---------34:36----------
+it's still short at that point since
+
+---------34:38----------
+everything else in the board looked ok I
+
+---------34:40----------
+couldn't tell what it was that was the
+
+---------34:41----------
+point in time where I was injecting
+
+---------34:43----------
+voltage because that is not going to be
+
+---------34:45----------
+something I'm just simply gonna find by
+
+---------34:46----------
+looking at it one thing I always do when
+
+---------34:48----------
+I'm doing these videos is I try to do
+
+---------34:49----------
+something called brain on brain off mode
+
+---------34:51----------
+it's difficult to solve them the more
+
+---------34:54----------
+complex problems this is a difficult job
+
+---------34:56----------
+because people are not telling you how
+
+---------34:57----------
+to do it and at least in the beginning
+
+---------34:59----------
+you had to figure it all out on your own
+
+---------35:00----------
+it was it's you know there's not like
+
+---------35:02----------
+you're getting guides and manufacture or
+
+---------35:04----------
+anything so you want to save your brain
+
+---------35:05----------
+for the things that matter so I like to
+
+---------35:08----------
+have brain off mode where I'm like this
+
+---------35:10----------
+look bad me fix this look bad me you
+
+---------35:13----------
+know
+
+---------35:13----------
+replace and then after that we go into
+
+---------35:16----------
+brain on mode which you know where I'm
+
+---------35:18----------
+actually doing something like injecting
+
+---------35:20----------
+voltage and then we're gonna use those
+
+---------35:22----------
+tools and see what happens so weekly fix
+
+---------35:24----------
+this stuff that looks bad first but then
+
+---------35:26----------
+we focus on the stuff that is doesn't
+
+---------35:29----------
+look bad but it's causing our problem
+
+---------35:30----------
+later so that it's just a more efficient
+
+---------35:33----------
+way to go about things and I inject 5
+
+---------35:35----------
+volts and it looks like the Wi-Fi trip
+
+---------35:38----------
+is getting hot because my my machine is
+
+---------35:41----------
+miscalibrated here because paul was
+
+---------35:42----------
+messing with it so after that ft let's
+
+---------35:47----------
+get a shoot me so after that I looked in
+
+---------35:50----------
+the schematic and I saw well it says
+
+---------35:52----------
+this is shorted but this thing right
+
+---------35:54----------
+below it is on pp 5 BS 4 and that's not
+
+---------35:56----------
+and I removed the thing that was below
+
+---------35:57----------
+it which was that cap replaced it and
+
+---------35:59----------
+then it worked and allowed it to boot
+
+---------36:01----------
+into an operating system also one
+
+---------36:03----------
+important thing to understand here is it
+
+---------36:05----------
+again any time doing that scraping and
+
+---------36:06----------
+cleaning I'm not putting solder on top
+
+---------36:08----------
+of corrosion don't do that
+
+---------36:10----------
+I'll put a lot of flux because flux is
+
+---------36:12----------
+very helpful in removing all that junk
+
+---------36:14----------
+that shouldn't be there in your solder
+
+---------36:15----------
+joints it's helpful in the cleaning
+
+---------36:17----------
+process which is kind of hard to
+
+---------36:19----------
+understand because flux is a gooey
+
+---------36:20----------
+sticky substance that's not what you
+
+---------36:22----------
+think of when you think of cleaning a
+
+---------36:23----------
+gooey sticky brown orange yellowish kind
+
+---------36:27----------
+of thing but it helps for that and then
+
+---------36:29----------
+what I'm doing is I'm using it like a
+
+---------36:30----------
+nail filer I'm not using it like come on
+
+---------36:33----------
+put this on there stick this on there
+
+---------36:35----------
+stick this on there no I'm not trying to
+
+---------36:36----------
+clump clump clump clump and add clumps
+
+---------36:39----------
+on it I'm doing this with the iron I'm
+
+---------36:41----------
+filing it you
+
+---------36:43----------
+like a nail file and you don't want to
+
+---------36:44----------
+do this on the actual board layer if the
+
+---------36:46----------
+board layer is not corroded I was doing
+
+---------36:48----------
+it to the components that I thought were
+
+---------36:49----------
+fine they didn't need replacing they
+
+---------36:51----------
+weren't like the absolutely disgusting
+
+---------36:52----------
+capacitor just the ones that could use a
+
+---------36:54----------
+little bit of TLC I'm not scraping on
+
+---------36:57----------
+the board because I don't want to rip up
+
+---------36:58----------
+the board or rip up the internal traces
+
+---------37:00----------
+but I'll do it right on those sections
+
+---------37:01----------
+that are attached to the component
+
+---------37:03----------
+itself so that after doing that it was
+
+---------37:05----------
+taking five hundred to six hundred
+
+---------37:06----------
+milliamps which is the amperage is
+
+---------37:09----------
+supposed to be taking and that point I
+
+---------37:10----------
+knew was turning on even though I hadn't
+
+---------37:12----------
+plugged it in yet and when I see you saw
+
+---------37:13----------
+when I plugged it in I was able to have
+
+---------37:15----------
+it boot into an operating system in work
+
+---------37:17----------
+so that's it for today as always I hope
+
+---------37:19----------
+you learned something this is a very
+
+---------37:21----------
+common issue on the a 1708 macbook
+
+---------37:23----------
+because that's where the water tends to
+
+---------37:25----------
+congregate in this machine and if you
+
+---------37:28----------
+can figure out how to do this type of
+
+---------37:30----------
+stuff you'll be able to fix a lot of
+
+---------37:32----------
+these machines and make a lot of people
+
+---------37:34----------
+happy that otherwise would have had to
+
+---------37:35----------
+spend over a thousand bucks at Apple or
+
+---------37:37----------
+whatever the hell they're charging
+
+---------37:38----------
+nowadays for stuff that can be done in
+
+---------37:40----------
+about a half hour by people that just
+
+---------37:42----------
+want to dig in and do a little bit of
+
+---------37:43----------
+work if there's lastly when it comes to
+
+---------37:46----------
+buck converters when I was explaining
+
+---------37:47----------
+how they work if you're confused when I
+
+---------37:49----------
+talk about the switching and all of that
+
+---------37:50----------
+I actually did a video on that about
+
+---------37:52----------
+five years ago and I included
+
+---------37:55----------
+illustrations in that video from an
+
+---------37:57----------
+oscilloscope I got to show up on the
+
+---------37:59----------
+screen so you could visually get a
+
+---------38:00----------
+representation of how it works
+
+---------38:02----------
+terms like buck converter and all that
+
+---------38:04----------
+type of stuff they're really confusing
+
+---------38:05----------
+and they're hard concepts and understand
+
+---------38:07----------
+in the beginning but they're actually
+
+---------38:08----------
+very basic and when you view it on a
+
+---------38:10----------
+graph everything that you were hearing
+
+---------38:12----------
+in your college class about how a buck
+
+---------38:13----------
+converter works you're just gonna go why
+
+---------38:15----------
+didn't they just explain this to me like
+
+---------38:16----------
+this it's gonna make a lot more sense so
+
+---------38:18----------
+please do watch that video now a buck
+
+---------38:19----------
+converter works if you were confused on
+
+---------38:21----------
+this thank you for watching and as
+
+---------38:22----------
+always I hope you learned something
+
+---------38:24----------
+[Music]
+
+---------38:26----------
+and is where I want to stay
+
+---------38:32----------
+[Music]
+
+---------38:35----------
+this can make me to find away
+

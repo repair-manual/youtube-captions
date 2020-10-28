@@ -1,0 +1,496 @@
+https://www.youtube.com/watch?v=v165GD0We3U
+---------00:00----------
+we have a MacBook Air in this MacBook
+
+---------00:02----------
+Air is dead let's see if we can fix our
+
+---------00:06----------
+dead MacBook Air by using our brain this
+
+---------00:09----------
+MacBook is not giving us a light on the
+
+---------00:10----------
+charger so let's check a couple of
+
+---------00:12----------
+voltages now as you all know the first
+
+---------00:14----------
+voltage we need in order to get a light
+
+---------00:16----------
+on the charger is going to be PP 3
+
+---------00:19----------
+before 2 so let's check our PP 3 V 4 to
+
+---------00:22----------
+voltage and PP 3 V 4 2 is going to be
+
+---------00:25----------
+found pp 3 V 4 2 is present now let's
+
+---------00:31----------
+make sure that the SMC is turning on
+
+---------00:33----------
+because if the SMC is turning on we
+
+---------00:34----------
+won't get a green light SMC reset is
+
+---------00:36----------
+found over here SMC reset is present all
+
+---------00:43----------
+right let's take a look at the DC and
+
+---------00:45----------
+connector to make sure that it's not
+
+---------00:46----------
+corroded and there's no corrosion
+
+---------00:48----------
+visible over here and all the pins look
+
+---------00:50----------
+fine so let's take a look and see what
+
+---------00:52----------
+if anything on the SMC is turning on at
+
+---------00:55----------
+all by checking the voltage at P P buzz
+
+---------00:57----------
+g3 huh
+
+---------00:58----------
+because if PP buzz g3 hot is too low
+
+---------01:01----------
+then we'll know that the SMC is not
+
+---------01:02----------
+communicating with anything I like the
+
+---------01:04----------
+il-62 five-nines and its 8.1 eight volts
+
+---------01:07----------
+TP buzz g3 hot is typically going to be
+
+---------01:09----------
+eight point 56 volts when the SMC is
+
+---------01:12----------
+able to communicate with it as can be
+
+---------01:14----------
+seen over here
+
+---------01:15----------
+the chip that creates PP buzz g3 high
+
+---------01:17----------
+use 70 100 is going to communicate with
+
+---------01:22----------
+the SMC and if the SMC which is up here
+
+---------01:24----------
+cannot communicate with this chip down
+
+---------01:26----------
+here then this chip will create eight
+
+---------01:27----------
+point one volts instead of eight point
+
+---------01:28----------
+five a dead giveaway that's probably
+
+---------01:30----------
+something wrong with our SMC let's take
+
+---------01:33----------
+a look what the SMC looks like the SMC
+
+---------01:34----------
+is over here we go over to the SMC and
+
+---------01:38----------
+we take a look at our SMC you know what
+
+---------01:44----------
+do you see on the SMC what's wrong with
+
+---------01:48----------
+little MacBook oh it appears that little
+
+---------01:51----------
+MacBook has some corrosion by SMC so
+
+---------01:54----------
+what do we do at that point we reflow
+
+---------01:56----------
+also unfortunately we're temporarily out
+
+---------01:58----------
+of flux I think I've used it all so
+
+---------02:01----------
+we're waiting to get new flux in stock
+
+---------02:03----------
+sorry to anybody who ordered it a little
+
+---------02:06----------
+bit delayed on that front but if you
+
+---------02:08----------
+want flux and you're willing to wait a
+
+---------02:09----------
+little bit you can check it out it's
+
+---------02:11----------
+store
+
+---------02:11----------
+Rossman group.com
+
+---------02:27----------
+so here we go just removing the edge
+
+---------02:29----------
+bonding from this nice little chip this
+
+---------02:32----------
+chips probably a fine little working
+
+---------02:33----------
+chip it just may have some corrosion
+
+---------02:34----------
+under it that's keeping it from working
+
+---------02:36----------
+the way it's posted that's fine
+
+---------02:38----------
+you can fix that with a little hot air
+
+---------02:41----------
+and a little bit of flux no big deal so
+
+---------02:50----------
+the board appears to have a little bit
+
+---------02:52----------
+of leprosy over here but that's fine I'm
+
+---------02:55----------
+optimistic we're going to work on that
+
+---------02:58----------
+in a moment
+
+---------02:58----------
+now do keep in mind we'd have a shortage
+
+---------03:01----------
+of flux I'm gonna be using one mill up
+
+---------03:03----------
+all of flux on the sport due to the flux
+
+---------03:10----------
+shortage we have only used one mill up
+
+---------03:12----------
+all of flux and we'll be reflowing this
+
+---------03:16----------
+SMC not only will reflow in the SMC
+
+---------03:19----------
+remove any of the corrosion on the board
+
+---------03:20----------
+under the SMC but it's also gonna help
+
+---------03:23----------
+the components around the SMC like these
+
+---------03:26----------
+little capacitors over here it's gonna
+
+---------03:28----------
+help remove dirt and grime and bring
+
+---------03:32----------
+make the solder around those pieces
+
+---------03:34----------
+great again
+
+---------03:36----------
+that's one nano pall of flux
+
+---------04:23----------
+as you can see the chip is now moving
+
+---------04:25----------
+around it's dancing which is a good
+
+---------04:31----------
+thing now I'm removing these nasty
+
+---------04:33----------
+components over here which I'll replace
+
+---------04:35----------
+momentarily let's zoom into this section
+
+---------04:39----------
+where there's a little bit of ripped off
+
+---------04:41----------
+pads and see if we can revive those pads
+
+---------04:43----------
+so as can be seen here the left pad are
+
+---------04:46----------
+over here is fine however the right pad
+
+---------04:49----------
+appears to have some challenges this is
+
+---------04:52----------
+going to be where pp3 before to
+
+---------04:54----------
+underscore g3 hot meets the SMC on PP 3
+
+---------04:59----------
+v 3s 5s MC V DD a this is part of the
+
+---------05:02----------
+powers apply to the SMC and without this
+
+---------05:05----------
+inductor being present the SMC is not
+
+---------05:07----------
+going to receive all the power that it
+
+---------05:08----------
+needs in order to turn on and work so we
+
+---------05:11----------
+should be very careful with this little
+
+---------05:13----------
+pad over here and ensuring that we
+
+---------05:16----------
+salvage it if it is salvageable so let's
+
+---------05:21----------
+see what we can do first thing I want to
+
+---------05:22----------
+do is just make a nice big solder ball
+
+---------05:24----------
+without touching the board and hope that
+
+---------05:26----------
+it sucks up any of the crap that may be
+
+---------05:28----------
+present and it will do some very mild
+
+---------05:31----------
+gentle scraping
+
+---------05:48----------
+my own gentle scraping will reveal where
+
+---------05:50----------
+the copper is under the board that I may
+
+---------05:52----------
+be able to directly solder to so we'll
+
+---------05:54----------
+grab ourselves a q-tip some alcohol some
+
+---------06:01----------
+alcohol some alcohol some alcohol there
+
+---------06:31----------
+we go
+
+---------06:35----------
+it's not too empty it still appears to
+
+---------06:37----------
+have some alcohol in it it's just the
+
+---------06:42----------
+dirty little piece of that deserves
+
+---------06:43----------
+to be punished and held accountable for
+
+---------06:46----------
+its crimes of not providing me with
+
+---------06:48----------
+alcohol the Prohibition era era of piece
+
+---------06:51----------
+of crap so here we go so we should have
+
+---------06:57----------
+a much cleaner view now of what we're
+
+---------06:59----------
+working with in that area
+
+---------07:02----------
+look at that
+
+---------07:08----------
+yeah see how much easier it is to work
+
+---------07:10----------
+with after it's been scraped and cleaned
+
+---------07:22----------
+okay now we're gonna try and be very
+
+---------07:25----------
+careful here as we apply some new solder
+
+---------07:28----------
+to the exposed copper and try and turn
+
+---------07:31----------
+that into a pad barely touching the
+
+---------07:39----------
+board I'm just hovering my solder over
+
+---------07:41----------
+it after I applied my flux and it sticks
+
+---------07:44----------
+directly to all the copper so now I've
+
+---------07:47----------
+got something to work with that makes
+
+---------07:50----------
+all the difference I'm gonna put on a
+
+---------07:52----------
+much thinner nozzle my massively thick
+
+---------07:59----------
+12.7 millimeter Nautilus well it's a bit
+
+---------08:02----------
+inappropriate for all it needs is these
+
+---------08:05----------
+components soldered on a little bit
+
+---------08:07----------
+sideways what do you know this may just
+
+---------08:09----------
+be another easy board repair
+
+---------08:27----------
+now this is where it gets tricky so they
+
+---------08:30----------
+got a solder to capacitors on here but
+
+---------08:32----------
+there's no pad to solder the capacitor
+
+---------08:35----------
+to on this section I got to do it kind
+
+---------08:39----------
+of sideways
+
+---------08:56----------
+everything there is kind of soldered
+
+---------08:58----------
+sideways but that's fine now I'm going
+
+---------09:04----------
+to wait for that board to cool off a
+
+---------09:05----------
+little bit
+
+---------09:06----------
+and we'll see if it turns on and if it
+
+---------09:09----------
+turns on we fixed it
+
+---------09:24----------
+[Applause]
+
+---------09:32----------
+charger
+
+---------09:34----------
+MacBook
+
+---------09:40----------
+we have a light
+
+---------09:45----------
+so we have a light on the charger now
+
+---------09:47----------
+and we have a fan spin and as I said in
+
+---------09:52----------
+the video that I did with Linus tech
+
+---------09:54----------
+tips once we got the iMac to have a fan
+
+---------09:56----------
+spin when you have a fan spin it's time
+
+---------09:59----------
+to say you're done in go home so that's
+
+---------10:01----------
+it for today this works and as always I
+
+---------10:04----------
+hope you learned something time for some
+
+---------10:08----------
+food
+
+---------10:10----------
+[Music]
+

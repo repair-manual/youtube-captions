@@ -1,0 +1,1225 @@
+https://www.youtube.com/watch?v=CElkBoJo8CY
+---------00:04----------
+so today we're going to be working on a
+
+---------00:06----------
+board with no backlight it has been
+
+---------00:07----------
+clean before and we are gonna try to get
+
+---------00:09----------
+an idea of why it has no backlight take
+
+---------00:13----------
+a look at this this is the board LCD
+
+---------00:17----------
+connector looks happy backlight circuit
+
+---------00:23----------
+yeah you know looks happy alright rest
+
+---------00:31----------
+of backlight circuit oh now check this
+
+---------00:36----------
+out
+
+---------00:37----------
+there's actually only one main problem
+
+---------00:39----------
+with this circuit even though all the
+
+---------00:41----------
+stuff here is garbage and one of the
+
+---------00:43----------
+things I kind of want to get across here
+
+---------00:44----------
+is how to tell what is important and
+
+---------00:47----------
+what is not
+
+---------00:48----------
+this being disgusting believe it or not
+
+---------00:50----------
+this is not important and I can this
+
+---------00:53----------
+looks like somebody has already cleaned
+
+---------00:54----------
+it and it still looks like this so I can
+
+---------00:56----------
+only imagine what it look like before
+
+---------00:57----------
+that's not important that's not a porn
+
+---------00:59----------
+all this green stuff is not important
+
+---------01:01----------
+the one thing that's important here is
+
+---------01:02----------
+this right over here you see a little
+
+---------01:05----------
+one probe point that's red and broken
+
+---------01:07----------
+we're gonna go over what that probe
+
+---------01:08----------
+point is for so let's take a look on the
+
+---------01:10----------
+schematic for the eight - zero - 3437
+
+---------01:13----------
+board and see if we can figure out why
+
+---------01:14----------
+this machine's not working so what is
+
+---------01:16----------
+the significance and importance of that
+
+---------01:17----------
+particular section that I was showing
+
+---------01:19----------
+you well a great question this here is
+
+---------01:23----------
+the backlight diode now why is this
+
+---------01:26----------
+important
+
+---------01:27----------
+let's this get the PDF on the screen
+
+---------01:29----------
+primarily it's gonna make this easier so
+
+---------01:31----------
+this here is a DC to DC boost circuit
+
+---------01:33----------
+the way a dc-to-dc boost circuit is
+
+---------01:35----------
+gonna work is you have your low voltage
+
+---------01:36----------
+coming in the beginning so this is where
+
+---------01:38----------
+the this is where the eight point five
+
+---------01:40----------
+volts from the battery is coming in
+
+---------01:42----------
+eight point one nine volts if your smc
+
+---------01:43----------
+is dead and it's gonna go to this
+
+---------01:45----------
+transistor and get to the coil now
+
+---------01:47----------
+you're eight volts up until this point
+
+---------01:48----------
+on this side you've got a higher voltage
+
+---------01:50----------
+now why how does that work well this is
+
+---------01:53----------
+a coil and a lecture you can have you
+
+---------01:57----------
+can tower can move through a coil but it
+
+---------01:59----------
+does not respond very well to quick
+
+---------02:01----------
+changes in current so if you ask this
+
+---------02:04----------
+thing to deliver a lot of power very
+
+---------02:06----------
+quickly it's not going to do it because
+
+---------02:08----------
+it's a coil and the coil is a lazy lazy
+
+---------02:10----------
+bum it's nice so
+
+---------02:13----------
+it's gonna happen if I said say we're
+
+---------02:15----------
+too short right after the coil to ground
+
+---------02:18----------
+over here on this chip see where it says
+
+---------02:20----------
+SW as W stands for switch that if we
+
+---------02:24----------
+were to let's say switch that coil to
+
+---------02:27----------
+ground it would not be able to send the
+
+---------02:29----------
+additional current that I want but it
+
+---------02:31----------
+would do since it can't send current and
+
+---------02:33----------
+this gotta send something you know what
+
+---------02:35----------
+laws of physics and whatnot are are true
+
+---------02:37----------
+there is that it would send voltage so
+
+---------02:40----------
+it's gonna send these big voltage spikes
+
+---------02:41----------
+so it's going to send let's say a spike
+
+---------02:44----------
+of 27 volts right at that point but then
+
+---------02:47----------
+it's gonna go all the way back down to
+
+---------02:48----------
+zero then 27 then go back down to zero
+
+---------02:50----------
+then 27 and go back down to zero and so
+
+---------02:52----------
+on and so forth now 27 0 27 0 27 0
+
+---------02:56----------
+that's gonna make for a very very
+
+---------02:57----------
+flickering screen so we have here in the
+
+---------03:00----------
+front of it is a diode and also some
+
+---------03:03----------
+caps the ground so these caps to ground
+
+---------03:05----------
+over here are going to store those
+
+---------03:06----------
+spikes of 27 volts and what the diode is
+
+---------03:09----------
+there for is to make sure that when
+
+---------03:10----------
+these camps store those spikes of 27
+
+---------03:12----------
+volts it doesn't go back into the system
+
+---------03:14----------
+because we keep in mind the battery over
+
+---------03:16----------
+here is giving 8 point 5 volts to the
+
+---------03:19----------
+circuit now if this is just think of
+
+---------03:22----------
+this just like a straight line right
+
+---------03:23----------
+over here let's say you have all these
+
+---------03:24----------
+components and you have this set making
+
+---------03:28----------
+27 volts and there's no diode that 27
+
+---------03:32----------
+volts is gonna go back back back destroy
+
+---------03:36----------
+destroy destroy destroy
+
+---------03:38----------
+and that's not very good you don't want
+
+---------03:40----------
+to have 25 7 volts going into your
+
+---------03:42----------
+battery when it's an Eightball battery
+
+---------03:44----------
+or all sort of look like some of the
+
+---------03:45----------
+hard drives that Steve tried to recover
+
+---------03:47----------
+today say hello to everybody this is our
+
+---------03:51----------
+data recovery expert in his clean room
+
+---------03:53----------
+uniform so how does the circuit know
+
+---------03:58----------
+what it's making how does it know when
+
+---------03:59----------
+to switch on and off and well that's an
+
+---------04:01----------
+excellent question so let's say we want
+
+---------04:02----------
+to make 27 volts what you need to do is
+
+---------04:04----------
+let this chip know what it's making so
+
+---------04:07----------
+this is back light output right over
+
+---------04:10----------
+here and this chip needs to know do I
+
+---------04:12----------
+switch faster do I switch slower I don't
+
+---------04:14----------
+know it's got to see what it's doing
+
+---------04:15----------
+just like you're not gonna know whether
+
+---------04:16----------
+it hit the gas pedal harder if you don't
+
+---------04:18----------
+know what speed you're going at so this
+
+---------04:20----------
+is called feedback C feedback and
+
+---------04:25----------
+let's take a look back on the board view
+
+---------04:27----------
+diagram over here so you can see that
+
+---------04:29----------
+well what's this feedback and it's
+
+---------04:33----------
+disconnected and the diode is also
+
+---------04:35----------
+broken so if I replace this diode Wow
+
+---------04:40----------
+if I replace that diode and then I run a
+
+---------04:43----------
+little jumper wire right over there
+
+---------04:45----------
+there's a chance that this just may work
+
+---------04:47----------
+again and also obviously there's no
+
+---------04:49----------
+place for me to run a diode to over
+
+---------04:50----------
+there so I'm going to use an exacto
+
+---------04:51----------
+knife most likely stolen from Paul's
+
+---------04:53----------
+desk don't tell him and we're going to
+
+---------04:56----------
+scrape away at this section until it
+
+---------04:59----------
+works
+
+---------05:33----------
+just so Paul knows it wasn't me
+
+---------05:39----------
+hey why are you walking out of the room
+
+---------05:41----------
+with Paul's exacto knife get back here
+
+---------05:44----------
+that's it we're going to scrape and I'm
+
+---------05:52----------
+gonna make my own solder pad over here
+
+---------06:01----------
+it's incredibly important that nobody
+
+---------06:03----------
+tell Paul
+
+---------06:18----------
+we have an interior designer / organizer
+
+---------06:23----------
+/ architect / whatever coming by on
+
+---------06:26----------
+Thursday by the way they're going to be
+
+---------06:28----------
+helping us arrange where people should
+
+---------06:30----------
+go and how things should be for the
+
+---------06:33----------
+maximum productivity I'm excited
+
+---------06:39----------
+very excited they're gonna be showing up
+
+---------06:43----------
+on Thursday morning
+
+---------06:51----------
+and I'm finishing up lease negotiations
+
+---------06:54----------
+on new store very exciting times
+
+---------07:15----------
+I hate these things they don't put out
+
+---------07:18----------
+the alcohol until you beat the crap out
+
+---------07:20----------
+of all right here we go alright so I
+
+---------07:26----------
+think we're ready to start our a new
+
+---------07:28----------
+diode into pace place well me removing
+
+---------07:33----------
+the L from words like solder is starting
+
+---------07:35----------
+to carry over into other aspects of my
+
+---------07:37----------
+vocabulary I just add solder into pace I
+
+---------07:40----------
+guess that's what you do
+
+---------07:42----------
+I would solder with pace if they didn't
+
+---------07:44----------
+charge twelve to thirteen hundred
+
+---------07:46----------
+dollars for a grandpa's hot air station
+
+---------07:48----------
+kind of thing something tells me tariffs
+
+---------07:55----------
+are not going to cause people to buy
+
+---------07:56----------
+American when the tariff product goes
+
+---------07:59----------
+from like 260 to 290 and the American
+
+---------08:02----------
+product was 1200 plus to begin with
+
+---------08:06----------
+assembled an America
+
+---------08:13----------
+as you can't make here the best you
+
+---------08:16----------
+can hope to do is assembly
+
+---------08:25----------
+what new store where that is for me to
+
+---------08:29----------
+know and for you to find out when season
+
+---------08:31----------
+two comes out of rossmann Realty
+
+---------08:57----------
+alright I'm gonna get myself a new diode
+
+---------09:51----------
+now this is the hard part over here
+
+---------09:53----------
+we're going to have to tend that and I
+
+---------09:58----------
+don't want to break it
+
+---------10:16----------
+okay that's about as much as we get
+
+---------10:18----------
+there we're going to run a little wire
+
+---------10:21----------
+over there I like I prefer 10 I know
+
+---------10:24----------
+you're not supposed to say that out loud
+
+---------10:26----------
+I used to prefer seven but now I prefer
+
+---------10:29----------
+10 I know I know I know I know I know
+
+---------10:39----------
+nice these tweezers are such it's
+
+---------10:45----------
+all my fault too because I keep using to
+
+---------10:47----------
+scrape things instead of the exacto and
+
+---------10:48----------
+I can't find the exact uh so anything
+
+---------10:52----------
+with Jessa Jessa always buys the
+
+---------10:53----------
+cheapest garbage tweezers because she
+
+---------10:55----------
+expects that she is going to do things
+
+---------10:59----------
+that you're not supposed to do with
+
+---------11:00----------
+tweezers and destroy them anyway where
+
+---------11:04----------
+that's gonna get hot aired into place
+
+---------11:05----------
+because I'm not comfortable with how
+
+---------11:06----------
+that's sitting there but that's okay
+
+---------11:08----------
+because that's not the final soldering
+
+---------11:10----------
+job
+
+---------12:20----------
+okay now I want to make sure that flows
+
+---------12:23----------
+in a place properly where it should have
+
+---------12:25----------
+be to begin with
+
+---------12:33----------
+we've got some good Amtech flux on here
+
+---------12:39----------
+oh yeah that's beautiful oh look at that
+
+---------12:44----------
+flow can't beat it okay wait for that
+
+---------12:53----------
+I'm gonna see if I have a backlight no
+
+---------12:55----------
+obviously I'm not you can't leave this
+
+---------12:58----------
+ here for obvious reasons is this
+
+---------13:00----------
+this got to go
+
+---------13:01----------
+those two have got to get the F out of
+
+---------13:03----------
+here but I just want to show you
+
+---------13:05----------
+oh we do sell that yeah nobody buys that
+
+---------13:09----------
+thing David can you talk a little bit
+
+---------13:12----------
+about the tool that just allowed you to
+
+---------13:14----------
+do a one thousand dollar data recovery
+
+---------13:15----------
+remember this is an eight to zero dash
+
+---------13:17----------
+34:37 so it's gonna turn on off on off
+
+---------13:19----------
+on off on my cats is like the a SMI you
+
+---------13:22----------
+really have a cat now copass 8 point 5
+
+---------13:28----------
+volts so the power is going through it's
+
+---------13:30----------
+simply not doing boosting now we're
+
+---------13:33----------
+gonna go on to the next thing that could
+
+---------13:35----------
+likely be wrong here since we're not
+
+---------13:36----------
+getting boosting so I like to think of
+
+---------13:39----------
+large masses of corrosion like a strike
+
+---------13:41----------
+of lightning and if we take a look on
+
+---------13:43----------
+the schematic and the board view you
+
+---------13:46----------
+will see that right over here is where
+
+---------13:49----------
+our strike of lightning hit so destroy
+
+---------13:50----------
+the capacitors but they're not short
+
+---------13:52----------
+it's a ground remember if these were
+
+---------13:53----------
+short it's a ground then these
+
+---------13:54----------
+capacitors would be causing there to be
+
+---------13:57----------
+zero volts here not eight heads right
+
+---------14:00----------
+over here so this chip you 7701 guts
+
+---------14:03----------
+punched in the face really hard and now
+
+---------14:05----------
+it's not working anymore
+
+---------14:07----------
+the you 7701 feels like a DJI Telo drone
+
+---------14:12----------
+after mr. Clinton Punk's it
+
+---------14:13----------
+I think mr. Clinton may have actually
+
+---------14:16----------
+ up one of one of the motors on
+
+---------14:19----------
+that thing because one of them doesn't
+
+---------14:22----------
+fly very well anymore he's gotten used
+
+---------14:24----------
+to punching that drone nothing is his
+
+---------14:27----------
+own little personal kiddie punching bag
+
+---------14:31----------
+Kitty has select things to say to that
+
+---------14:33----------
+drum right so we're gonna replace this
+
+---------14:36----------
+LED driver chip right here and this LED
+
+---------14:39----------
+driver just in case anybody's curious is
+
+---------14:41----------
+available on Strassman group.com I do
+
+---------14:48----------
+it's also a greenie addict a greenie
+
+---------14:52----------
+greenie my kitty loves it
+
+---------14:55----------
+I go up to my kitty and say a greenie
+
+---------14:59----------
+it's so excited
+
+---------15:17----------
+now I'm just gonna have to take a walk
+
+---------15:19----------
+over to store that Ross group calm and
+
+---------15:22----------
+get myself an LED driver you know it's
+
+---------15:27----------
+much safer to show than VPN services you
+
+---------15:31----------
+barely know it's jack about you
+
+---------15:32----------
+know it's safe thing to show LED drivers
+
+---------15:40----------
+what I'd really like to do is set up a
+
+---------15:42----------
+stream where if somebody donates $1 it
+
+---------15:45----------
+gives mr. Clinton a greenie
+
+---------16:00----------
+anytime somebody gives a dollar it would
+
+---------16:02----------
+release a greening to the kitty
+
+---------16:29----------
+I would become rich I can't would get
+
+---------16:32----------
+diabetes
+
+---------17:20----------
+oh it's smoking it's smoking that's a
+
+---------17:23----------
+lot of smoking stop it I don't want to
+
+---------17:27----------
+turn it off it's
+
+---------17:38----------
+well isn't this a great Louis dream
+
+---------17:45----------
+notice the fuse is not blowing see that
+
+---------17:48----------
+thing with the P over there that's
+
+---------17:49----------
+that's the backlight fuse though this
+
+---------17:51----------
+seriously this is this is this is an
+
+---------17:53----------
+Apple circuitry in action right
+
+---------17:55----------
+here look at this so I said maybe I
+
+---------17:56----------
+don't have to replace this capacitor
+
+---------17:58----------
+okay clearly this cap needs to be
+
+---------17:59----------
+replaced it's no good this is the fuse
+
+---------18:01----------
+the fuse is supposed to keep this from
+
+---------18:04----------
+blowing up this is in this is this is a
+
+---------18:07----------
+Apple protection circuit right here come
+
+---------18:09----------
+on come on I feel like I'm trying to
+
+---------18:13----------
+light a match right underneath my nose
+
+---------18:16----------
+okay let's see if the fuse blew David
+
+---------18:19----------
+what's your bet she's blue or didn't
+
+---------18:21----------
+blow okay what what are you all thinking
+
+---------18:26----------
+shaddid the fuse blower that the fuse is
+
+---------18:28----------
+not blow one second Paul Daniels a
+
+---------18:32----------
+software or showing voltage instead of
+
+---------18:34----------
+ohms damn it Paul Daniels alright let's
+
+---------18:37----------
+see
+
+---------18:45----------
+oh the fuse finally blew let's see if I
+
+---------18:47----------
+touch the probes together that's how
+
+---------18:53----------
+long it took for them to fit to blow
+
+---------18:55----------
+how many times did that thing go help it
+
+---------18:57----------
+was it was on fire fish out fire oh my
+
+---------19:02----------
+god
+
+---------19:05----------
+Apple that okay
+
+---------19:16----------
+that's what we call a an apple fast blow
+
+---------19:19----------
+fuse edit okay so clearly those caps
+
+---------19:21----------
+need to be replaced and obviously the
+
+---------19:23----------
+fuse now needs to be replaced as well
+
+---------19:26----------
+the fuse did its job it made sure that
+
+---------19:31----------
+the circuit went on fire and stayed on
+
+---------19:33----------
+fire for a good amount of time you got a
+
+---------19:36----------
+little Yule Log action in there man
+
+---------19:40----------
+Apple is such a mean
+
+---------19:57----------
+they were actually using currents and
+
+---------19:59----------
+circuits rather than relying on the fuse
+
+---------20:01----------
+in their designs from 2012 onwards but
+
+---------20:05----------
+the airs being the budget line at you
+
+---------20:08----------
+know starting at $1,000 for a laptop
+
+---------20:10----------
+they couldn't afford to put that circuit
+
+---------20:13----------
+in there
+
+---------20:45----------
+did you put the diode the correct right
+
+---------20:47----------
+around I sincerely hope so I'm going to
+
+---------20:51----------
+double check and see if the diode was
+
+---------20:57----------
+the wrong way it wouldn't do that you
+
+---------20:58----------
+just wouldn't get anything at all if the
+
+---------21:00----------
+diode was reverse biased then there
+
+---------21:03----------
+would be nothing going to the cap
+
+---------21:04----------
+therefore the cap would have no reason
+
+---------21:06----------
+to go on fire so I'm guessing that now
+
+---------21:13----------
+in a section uh beautiful board
+
+---------21:21----------
+it's a beautiful man but it's a
+
+---------21:24----------
+beautiful man look
+
+---------21:28----------
+oh man it stood as a joke I joke
+
+---------21:42----------
+I wish
+
+---------21:44----------
+what no it's not you'll see
+
+---------21:51----------
+I think I started this dream by saying
+
+---------21:53----------
+the whole point of this is to show you
+
+---------21:54----------
+that not everything is bad
+
+---------21:56----------
+oh that those eating those words right
+
+---------21:59----------
+now along with some solder
+
+---------22:07----------
+and what the what did I just do why that
+
+---------22:11----------
+did I not put the tiny cap on before the
+
+---------22:14----------
+big one that was dumb
+
+---------22:23----------
+it's a beautiful day in the neighborhood
+
+---------22:26----------
+a beautiful day won't you be my neighbor
+
+---------22:36----------
+all Daniel's is here everybody makes
+
+---------22:40----------
+sure to give a nice warm welcome to our
+
+---------22:42----------
+friend and neighbor Paul Daniels
+
+---------22:49----------
+all Daniel's is our neighbor
+
+---------23:07----------
+are you going to see the movie Lewis no
+
+---------23:10----------
+idea what the movie is
+
+---------23:18----------
+okay now let's do it any technician with
+
+---------23:22----------
+half a brain would have done in the
+
+---------23:23----------
+beginning check and diode mode
+
+---------23:35----------
+mmm that's a little on the low side
+
+---------23:40----------
+that's what I would expect with no
+
+---------23:42----------
+feedback but then again the still go on
+
+---------23:44----------
+fire so that that's not a bad reading
+
+---------23:47----------
+considering it just went on fire nearly
+
+---------23:49----------
+5:19 f 546 is the expected value range
+
+---------23:53----------
+here
+
+---------24:10----------
+all right let's check the voltage that
+
+---------24:12----------
+we have in the back light circuit
+
+---------24:29----------
+don't shoot the data recovery guy you
+
+---------24:32----------
+don't shoot the data recovery guy you
+
+---------24:34----------
+should had his active running data
+
+---------24:35----------
+recovery 24 of what 0.6 volts which
+
+---------24:43----------
+should be a backlight move this out of
+
+---------24:46----------
+the way backlight so the issue here was
+
+---------24:59----------
+actually twofold the first was that some
+
+---------25:03----------
+form of alien made its way into the
+
+---------25:04----------
+Machine and took a on the backlight
+
+---------25:06----------
+circuit after that it destroyed the
+
+---------25:09----------
+diode and the feedback trace but that
+
+---------25:11----------
+wasn't it because in addition to that it
+
+---------25:13----------
+also had a short of capacitor now I
+
+---------25:15----------
+tried to run it with the shorter
+
+---------25:16----------
+capacitor to make a point that that cap
+
+---------25:18----------
+is usually not what goes bad here it's
+
+---------25:20----------
+usually just the feedback trace and I
+
+---------25:22----------
+got on by trying to make a point before
+
+---------25:23----------
+measuring which was very very stupid of
+
+---------25:26----------
+me and when the cap was shorted and it
+
+---------25:29----------
+was running as you saw the backlight
+
+---------25:31----------
+fuse kicked into action and did exactly
+
+---------25:32----------
+what it's supposed to do because it's an
+
+---------25:34----------
+Apple product and they know how to
+
+---------25:35----------
+design circuit protection and a few you
+
+---------25:38----------
+know how to spec fuses and everything
+
+---------25:40----------
+perfectly
+
+---------25:41----------
+sike they actually did a fairly decent
+
+---------25:44----------
+job not the best in them and the retina
+
+---------25:48----------
+of that year because in that year uses
+
+---------25:50----------
+current sensing rather than a fuse here
+
+---------25:52----------
+it uses a fuse and as you can see yeah
+
+---------25:55----------
+it's it's fairly liberal and it's in the
+
+---------25:57----------
+value there so that's it for today and
+
+---------26:00----------
+as always I hope you learned something
+
+---------26:01----------
+thank you so much for watching thank you
+
+---------26:03----------
+so much for viewing I hope you learned
+
+---------26:04----------
+something from my idiocy every now and
+
+---------26:07----------
+then I get something wrong here i
+
+---------26:08----------
+misdiagnosed with those caps warned
+
+---------26:10----------
+obviously again they needed to go but I
+
+---------26:12----------
+didn't think that they were shorted I
+
+---------26:13----------
+didn't measure which was stupid I did
+
+---------26:15----------
+get to have some really interesting fun
+
+---------26:17----------
+contents with that which was face reveal
+
+---------26:19----------
+no but I did to get to have some
+
+---------26:22----------
+interesting fun content as a bonus
+
+---------26:24----------
+because of that which is you got to
+
+---------26:27----------
+watch the Yule Log that is a Macbook
+
+---------26:29----------
+hair with its backlight fuse activating
+
+---------26:32----------
+but that's it for today you know as
+
+---------26:34----------
+always I really hope
+
+---------26:35----------
+you learn something see you in the next
+
+---------26:36----------
+video
+
+---------26:38----------
+[Music]
+

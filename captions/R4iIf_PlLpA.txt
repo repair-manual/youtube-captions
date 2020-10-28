@@ -1,0 +1,706 @@
+https://www.youtube.com/watch?v=R4iIf_PlLpA
+---------00:00----------
+hey everybody how's it going today we're
+
+---------00:01----------
+gonna get started working on yet another
+
+---------00:03----------
+dead macbook this is an a 1706 that has
+
+---------00:06----------
+liquid damage let's open it up and see
+
+---------00:08----------
+if we can figure out why it's not
+
+---------00:09----------
+working and make it turn on again first
+
+---------00:13----------
+thing we got to do take the bottom cover
+
+---------00:15----------
+off of the computer
+
+---------00:16----------
+do you have Apple toilet paper in your
+
+---------00:18----------
+online store I wish I had toilet paper
+
+---------00:21----------
+in my store we didn't stock up in time
+
+---------00:24----------
+no what is this CD 3215 corroded the
+
+---------00:36----------
+battery sticker is on top of the CPU why
+
+---------00:41----------
+32:15 corrosion and these are
+
+---------00:44----------
+under-filled CD 32 15 s as well with any
+
+---------00:46----------
+luck it'll just be a short to ground on
+
+---------00:48----------
+the cam next to it nothing at all USB a
+
+---------00:52----------
+meter register zero doesn't register
+
+---------00:54----------
+anything actually it doesn't even think
+
+---------00:56----------
+I plugged anything in let's see what it
+
+---------00:59----------
+does on the other side of the board on
+
+---------01:00----------
+the other side of the board we get 5
+
+---------01:03----------
+volts at 300 milliamps and it doesn't
+
+---------01:08----------
+appear to jump up to 20 for those of you
+
+---------01:10----------
+who have problems reading upside down
+
+---------01:13----------
+look at that you just tap it twice and
+
+---------01:15----------
+by Bing baboom okay so the issue that we
+
+---------01:19----------
+appear to be having here is that it
+
+---------01:20----------
+stays at 5 volts which is understandable
+
+---------01:24----------
+given the amount of corrosion we have on
+
+---------01:25----------
+our USB C chip ok so the first thing is
+
+---------01:28----------
+you may have noticed the charge port
+
+---------01:29----------
+worked on the right half way but not on
+
+---------01:31----------
+the left this is what the charge board
+
+---------01:33----------
+on the left looks like that is one
+
+---------01:35----------
+corona DUP charge port oh man now the
+
+---------01:39----------
+main corrosion that troubles me is this
+
+---------01:41----------
+so remember folks anybody who's watching
+
+---------01:44----------
+out there at home on your television
+
+---------01:46----------
+sets that we need PP 3 V 3 underscore g3
+
+---------01:49----------
+hot to be present and if PP 3 V 3
+
+---------01:53----------
+underscore g3 hot is not present then
+
+---------01:57----------
+that this chip over here is not going to
+
+---------02:00----------
+speak to the charger and it's not going
+
+---------02:02----------
+to ask for the 20 volts that is needed
+
+---------02:05----------
+for this computer to turn on so what I'd
+
+---------02:07----------
+like to check and see is is pp 3 V 3
+
+---------02:12----------
+underscore
+
+---------02:13----------
+three hot actually present now some of
+
+---------02:16----------
+these capacitors that happen to have
+
+---------02:17----------
+heavy amounts of corrosion on them these
+
+---------02:20----------
+are the capacitors that have PP through
+
+---------02:21----------
+four three underscore g3 hot on them
+
+---------02:23----------
+which may leads me to believe that
+
+---------02:24----------
+perhaps the problem is that BP 3v3
+
+---------02:27----------
+underscore g3 hot doesn't exist as being
+
+---------02:29----------
+a short circuited to ground the best way
+
+---------02:31----------
+to figure that out is with a measurement
+
+---------02:33----------
+now it's a steady three point four very
+
+---------02:36----------
+interesting it's had a scrape at a
+
+---------02:38----------
+little bit point nine three point three
+
+---------02:42----------
+yeah no that's not what's messed up but
+
+---------02:45----------
+it's jumping I wonder if maybe there is
+
+---------02:48----------
+a minor short-circuit like a half short
+
+---------02:53----------
+piece of [ __ ] piece of sheet [ __ ] and
+
+---------03:00----------
+come on come on
+
+---------03:15----------
+go
+
+---------03:18----------
+and crap acid
+
+---------03:22----------
+perhaps this debug resistor is more
+
+---------03:24----------
+important than I give it credit for
+
+---------03:53----------
+[Music]
+
+---------04:37----------
+now the resistor that's gonna go there
+
+---------04:38----------
+is 1 million ohms you have any concept
+
+---------04:44----------
+of how many homes 1 million ohms are if
+
+---------04:49----------
+Michael Bloomberg gave 1 million ohms to
+
+---------04:53----------
+everybody in the United States we'd all
+
+---------04:55----------
+be a millionaire
+
+---------05:03----------
+[Applause]
+
+---------05:36----------
+still 330 milliamps at five volts and
+
+---------05:41----------
+then turns off kinda curious with the
+
+---------05:46----------
+resistance to ground on the good old P P
+
+---------05:48----------
+buses alright thousands of owns that's
+
+---------05:52----------
+good
+
+---------06:10----------
+[Applause]
+
+---------07:17----------
+all right now we have a ROM chip above
+
+---------07:19----------
+this CD 32 15 and I believe we found our
+
+---------07:22----------
+problem see that
+
+---------07:28----------
+[Music]
+
+---------07:29----------
+see these two resistors here there you
+
+---------07:34----------
+go now what I just showed you there take
+
+---------07:40----------
+a look on the schematic and the board
+
+---------07:41----------
+view it's gonna rotate it
+
+---------07:50----------
+thunderbolt rom RB 0 9 0 is going to be
+
+---------07:56----------
+a 3.3 kilohm resistor and the resistor
+
+---------08:00----------
+next to it is going to be a 100 ohm
+
+---------08:03----------
+resistor and what was that connected to
+
+---------08:08----------
+nothing
+
+---------08:36----------
+[Music]
+
+---------09:05----------
+I really need my micro pencil back some
+
+---------09:26----------
+alright so I'm gonna take out my
+
+---------09:28----------
+resistor booklet let's start off with a
+
+---------09:31----------
+3.3 kiloohm resistor gravity does not
+
+---------09:38----------
+work when coronavirus pandemic hits
+
+---------09:44----------
+these types of heights you'll notice
+
+---------09:47----------
+that some of the basic laws of physics
+
+---------09:48----------
+cease to operate one of them is gravity
+
+---------09:54----------
+see how the resistor doesn't drop on its
+
+---------09:56----------
+own anymore
+
+---------10:03----------
+okay I'm gonna put that down
+
+---------10:11----------
+using these shitty hot tweezers
+
+---------10:25----------
+this is so annoying
+
+---------10:45----------
+all right the next resistor I believe
+
+---------10:47----------
+was a 100 ohm resistor
+
+---------10:58----------
+yes 100 ohms goes next to it so that
+
+---------11:01----------
+looping that we saw is most likely the
+
+---------11:04----------
+result of it trying to read the ROM
+
+---------11:05----------
+failing to read the rom and turning off
+
+---------11:07----------
+so now I know what that is
+
+---------11:09----------
+see that's the beautiful part about
+
+---------11:11----------
+corrosion it allows and this is why
+
+---------11:13----------
+pattern recognition is so important it's
+
+---------11:14----------
+not like there's a book written that
+
+---------11:16----------
+says how all these things work out
+
+---------11:17----------
+rather you just kind of figure it out as
+
+---------11:20----------
+you go so I that I found out there was a
+
+---------11:23----------
+corroded resistor on the ROM and the
+
+---------11:28----------
+issue I was having prior to that was
+
+---------11:30----------
+stuck at five volts it stays that it
+
+---------11:32----------
+turns on with 300 milliamps for a few
+
+---------11:35----------
+seconds and then it turned the charger
+
+---------11:37----------
+turns off so when I have that problem
+
+---------11:39----------
+now what I do is I deduce that that
+
+---------11:42----------
+problem occurred when the resistor to
+
+---------11:46----------
+the ROM chip for thunderbolt wasn't
+
+---------11:48----------
+there so now I what I do is I have to
+
+---------11:50----------
+think and the thinking is very important
+
+---------11:52----------
+you're gonna to try and figure out for
+
+---------11:53----------
+your own without it being written down
+
+---------11:55----------
+anywhere without there being a manual
+
+---------11:57----------
+why why did that occur what what is the
+
+---------12:02----------
+relation that these two things have are
+
+---------12:04----------
+they related at all and I believe they
+
+---------12:08----------
+are and if this fixes the problem then
+
+---------12:10----------
+I'll have that relation to my head that
+
+---------12:12----------
+when the thunderbolt rom is corrupt or
+
+---------12:15----------
+just not there that you get 5 volts 300
+
+---------12:20----------
+Mel amps for 3 seconds and then it
+
+---------12:22----------
+doesn't just not go to 20 volts it
+
+---------12:24----------
+reboots itself but remember this is just
+
+---------12:29----------
+a theory at the moment
+
+---------12:32----------
+not a reality and oh [ __ ] I almost
+
+---------12:35----------
+ripped that freaking fat I really don't
+
+---------12:40----------
+like hot tweezers I can't wait to find
+
+---------12:44----------
+my micro pencil back okay now I'm gonna
+
+---------12:48----------
+see if I get any change when I plug this
+
+---------12:50----------
+in or is it the exact same [ __ ] 19.5
+
+---------12:55----------
+it's working now I just I just ruined my
+
+---------12:58----------
+overhead camera in the middle of this
+
+---------12:59----------
+damn video so I can't show you it and
+
+---------13:01----------
+the Oh doing that in the overhead camera
+
+---------13:03----------
+you could see nineteen point five volts
+
+---------13:06----------
+so we are getting somewhere here we are
+
+---------13:10----------
+getting somewhere here it turns on 5
+
+---------13:13----------
+volts 330ml amps 19 volts 400ml amps 19
+
+---------13:22----------
+volts 500 milliamps 19 volts 400
+
+---------13:25----------
+milliamps 19 volts 250 MLMs
+
+---------13:29----------
+19 volts 300 mil arms 19 volts 200
+
+---------13:32----------
+milliamps and then it goes to 10 then it
+
+---------13:34----------
+goes back and reboots to 340 MLMs
+
+---------13:37----------
+you know what just to show you all the
+
+---------13:39----------
+here I messed up my overhead camera but
+
+---------13:41----------
+I'll show you that it works in the main
+
+---------13:44----------
+camera by just plugging it in aha okay
+
+---------13:48----------
+so this machine is booted as you can see
+
+---------13:50----------
+here so the issue here was that we had
+
+---------13:54----------
+corrosion around the USBC chip the USBC
+
+---------13:58----------
+MUX now the main corrosion that I saw
+
+---------14:01----------
+was not the corrosion that actually
+
+---------14:03----------
+mattered the corrosion on the 3.3 volt
+
+---------14:04----------
+power line that's going to power that I
+
+---------14:07----------
+see the real corrosion that mattered was
+
+---------14:09----------
+the corrosion around the Thunderbolt ROM
+
+---------14:11----------
+so now I learned something so the
+
+---------14:12----------
+Thunderbolt ROM chip has resistors going
+
+---------14:15----------
+to it and when they were corroded I had
+
+---------14:18----------
+it turned on and give me 5 volts 4 5 4 3
+
+---------14:21----------
+2 1 seconds at 300 milliamps and then it
+
+---------14:24----------
+shuts trade off so now I know if it's
+
+---------14:26----------
+taking 5 volts or 5 seconds and then
+
+---------14:28----------
+just boot loops on me like that not boot
+
+---------14:29----------
+loops immediately 5 volts 300 milliamps
+
+---------14:31----------
+five seconds turns off ROM issue and the
+
+---------14:34----------
+way you figure that out is with pattern
+
+---------14:36----------
+recognition have a detective's mindset
+
+---------14:38----------
+and pattern recognition it's not written
+
+---------14:40----------
+down there's no manual that says that
+
+---------14:41----------
+this is how this works you just gotta
+
+---------14:43----------
+use your brain and if you want to dive
+
+---------14:45----------
+in
+
+---------14:45----------
+use your brain just a little bit every
+
+---------14:47----------
+now and then you can fix a MacBook I'm
+
+---------14:50----------
+gonna put those two capacitors back on
+
+---------14:52----------
+that I tossed off with a little MacBook
+
+---------14:55----------
+and once they're back on a little
+
+---------14:57----------
+MacBook I can give this back to the
+
+---------14:59----------
+customer and then I can collect some
+
+---------15:02----------
+money and I'll put that money towards my
+
+---------15:07----------
+seventy five thousand dollar credit card
+
+---------15:09----------
+bill isn't moving to Anubis base in New
+
+---------15:13----------
+York City just great and all right so
+
+---------15:16----------
+let's find a donor with those two little
+
+---------15:19----------
+capacitors buy it I Love New York
+
+---------15:42----------
+obviously this cap is semi optional
+
+---------15:44----------
+seeing that it turned on and booted up
+
+---------15:46----------
+perfectly without it but the nice thing
+
+---------15:50----------
+to do is to put it back
+
+---------16:32----------
+these hot tweezers are as useless as
+
+---------16:34----------
+tits on a bull I swear you know what
+
+---------16:38----------
+that can stay nice and crooked that
+
+---------16:45----------
+resistors gonna stay crooked I got this
+
+---------16:47----------
+one review on Yelp and Google or he says
+
+---------16:49----------
+Apple would have never put something
+
+---------16:50----------
+there and that's crooked so yep
+
+---------16:55----------
+Apple also was gonna charge you fifteen
+
+---------16:57----------
+hundred dollars and tell you no data
+
+---------16:58----------
+suck my dick
+
+---------17:00----------
+right now really these hot razors are so
+
+---------17:04----------
+[ __ ] beyond useless for this I have
+
+---------17:07----------
+to steal my micro pencil back from David
+
+---------17:09----------
+this is this is gonna happen I'm taking
+
+---------17:13----------
+that micro pencil I know that he never
+
+---------17:15----------
+uses it anyway
+
+---------17:23----------
+all right that's good that'll last
+
+---------17:36----------
+beautiful nice and crooked crooked just
+
+---------17:39----------
+like apple
+

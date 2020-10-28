@@ -1,0 +1,2653 @@
+https://www.youtube.com/watch?v=vE66VxAD6p4
+---------00:00----------
+hi so today we're gonna be going over a
+
+---------00:01----------
+machine that has no backlight on the
+
+---------00:04----------
+screen so the first thing that you're
+
+---------00:05----------
+gonna have to do with these issues is
+
+---------00:06----------
+try to determine whether you have no
+
+---------00:08----------
+backlight or no image and then you also
+
+---------00:10----------
+determine the difference between no
+
+---------00:11----------
+image and no brain so when a lot of
+
+---------00:14----------
+people say no image they mean no brain
+
+---------00:16----------
+which is that the computer doesn't have
+
+---------00:17----------
+vcore so when you first turn the machine
+
+---------00:18----------
+on it should go dumb it should have a
+
+---------00:21----------
+nice long chime where as Sonny would say
+
+---------00:24----------
+it should have a nice long dong once
+
+---------00:25----------
+you've confirmed that the computer has
+
+---------00:27----------
+chimed then you should look for an image
+
+---------00:30----------
+then if you see an image then and only
+
+---------00:32----------
+then can you look for a backlight you're
+
+---------00:34----------
+not gonna get a picture on the screen if
+
+---------00:35----------
+the CPU is not turning on the same way
+
+---------00:38----------
+you're not going to get a backlight on
+
+---------00:39----------
+the screen if the you're not gonna get a
+
+---------00:42----------
+backlight on the screen if the screen
+
+---------00:45----------
+itself is not turning on so this is a
+
+---------00:47----------
+pretty smart machine and it is going to
+
+---------00:49----------
+try to tell if the screen is turning on
+
+---------00:51----------
+before it turns on the backlight because
+
+---------00:53----------
+if there's no power going in the screen
+
+---------00:54----------
+then there's no need for that so let's
+
+---------00:57----------
+take a look now the first thing I like
+
+---------00:59----------
+to do in a case of no backlight is I
+
+---------01:01----------
+like to check the circuit all the way at
+
+---------01:02----------
+the output so whenever you're doing
+
+---------01:03----------
+stuff like this try to save time and
+
+---------01:05----------
+measuring as much as you can that is key
+
+---------01:08----------
+so what I'm gonna do is I'm gonna check
+
+---------01:09----------
+the voltage at output so when I check
+
+---------01:12----------
+the voltage and output meaning a black
+
+---------01:13----------
+probe on ground and red probe and output
+
+---------01:16----------
+I get output of zero volts now at the
+
+---------01:20----------
+beginning of the circuit I get 12 point
+
+---------01:24----------
+13 volts which means there is voltage in
+
+---------01:26----------
+the beginning but there's not voltage at
+
+---------01:27----------
+the end so that means that we are gonna
+
+---------01:29----------
+work our way through now let's just take
+
+---------01:32----------
+a look over here on the screen and try
+
+---------01:35----------
+to get an idea what's going on so if I
+
+---------01:39----------
+were to go over here and just look for
+
+---------01:41----------
+where backlight output is you're gonna
+
+---------01:44----------
+see that this is a DC to DC blue circuit
+
+---------01:47----------
+and the idea behind how the DC to DC
+
+---------01:49----------
+blue circuit works it seems complicated
+
+---------01:50----------
+but it's actually quite simple
+
+---------01:52----------
+so we're gonna have our 12 volts coming
+
+---------01:53----------
+over here this is our 12 volts coming in
+
+---------01:56----------
+through a backlight fuse and then it's
+
+---------01:57----------
+gonna come down here and go through this
+
+---------01:59----------
+inductor right after this inductor
+
+---------02:01----------
+there's a line between here and this
+
+---------02:03----------
+chip and over here it says SW which
+
+---------02:05----------
+stands for switch this chip is going to
+
+---------02:08----------
+switch this voltage to this 12 volts
+
+---------02:10----------
+coming to the circuit from here to
+
+---------02:11----------
+ground really really quickly
+
+---------02:13----------
+now this is gonna be kind of like
+
+---------02:14----------
+stopping short in the car when you stop
+
+---------02:16----------
+short in the car
+
+---------02:17----------
+even if you were only moving at 15 miles
+
+---------02:19----------
+an hour when you hit the brakes as hard
+
+---------02:21----------
+as you can so you stop immediately
+
+---------02:23----------
+you're gonna jolt for word and you're
+
+---------02:24----------
+gonna adult forward just a little bit
+
+---------02:26----------
+faster than that 15 miles an hour the
+
+---------02:28----------
+same way that when you stop short over
+
+---------02:29----------
+here you're gonna go to zero volts but
+
+---------02:32----------
+once it's no longer short it's a ground
+
+---------02:35----------
+once this switch goes back to you know
+
+---------02:38----------
+just not being switched to ground this
+
+---------02:41----------
+is not gonna just let out 12 volts
+
+---------02:43----------
+because what you've done is you've kind
+
+---------02:44----------
+of asked the supply power very very fast
+
+---------02:46----------
+and this reacts very very slow so it's
+
+---------02:49----------
+gonna try to send all that power out so
+
+---------02:51----------
+instead of sending out 12 volts it's
+
+---------02:53----------
+gonna send out whatever was stored in
+
+---------02:54----------
+this coil so this hump is gonna go and
+
+---------02:56----------
+then you're gonna have 15 and this hump
+
+---------02:58----------
+is not gonna have any power then you're
+
+---------02:59----------
+gonna have 18 this hump is not gonna
+
+---------03:01----------
+have any power then you can have 21 this
+
+---------03:03----------
+hump is not gonna have any power and
+
+---------03:05----------
+then you're gonna have 27 or something
+
+---------03:06----------
+like that so this is gonna continuously
+
+---------03:08----------
+happen over here and that's gonna raise
+
+---------03:09----------
+the voltage now once the voltage is
+
+---------03:11----------
+raised from that stopping short you're
+
+---------03:14----------
+going to have this is diode here now the
+
+---------03:16----------
+idea here is the diode is only gonna let
+
+---------03:18----------
+the power pass in one direction so
+
+---------03:20----------
+instead of going forward and backward it
+
+---------03:22----------
+can only go forward so it can only go
+
+---------03:24----------
+from left to right these capacitors over
+
+---------03:26----------
+here are going to be used as a battery
+
+---------03:27----------
+the capacitor is going to store the
+
+---------03:29----------
+power now the issue here is that if we
+
+---------03:31----------
+have the capacitors store the
+
+---------03:32----------
+electricity and then this over here
+
+---------03:34----------
+switches to ground then all the power
+
+---------03:36----------
+that was stored over here is just gonna
+
+---------03:38----------
+go right back here and go to ground
+
+---------03:40----------
+which is why we have the diode the diode
+
+---------03:41----------
+is gonna keep the voltage that's stored
+
+---------03:44----------
+in the capacitor from going to ground
+
+---------03:45----------
+when this decides the switch and if you
+
+---------03:48----------
+want to see what this looks like so this
+
+---------03:50----------
+over here is gonna be what it looks like
+
+---------03:52----------
+and when it's just your standard eight
+
+---------03:54----------
+volts before the inductor now when you
+
+---------03:56----------
+start this is gonna be the eight volts
+
+---------03:57----------
+after it's starting over here now when
+
+---------03:59----------
+you short it to ground it's gonna go to
+
+---------04:00----------
+zero that's your stopping short but then
+
+---------04:02----------
+after you stop short this is you getting
+
+---------04:04----------
+shot forward in the car and now you're
+
+---------04:06----------
+all the way up to twenty seven volts so
+
+---------04:08----------
+that's how that DC - these two blue
+
+---------04:09----------
+circuits gonna work
+
+---------04:10----------
+and right after those smooth and
+
+---------04:12----------
+capacitors that's gonna have a nice nice
+
+---------04:14----------
+smooth smooth 27 volts because keep in
+
+---------04:17----------
+mind when the voltage is up that gets
+
+---------04:19----------
+stored but when it goes down the
+
+---------04:20----------
+capacitors are then going to fill that
+
+---------04:23----------
+in and that is how this circuit is
+
+---------04:26----------
+working
+
+---------04:27----------
+so we want to do here is we want to
+
+---------04:28----------
+figure out what point here is the break
+
+---------04:31----------
+so I measured over here and I get 0 that
+
+---------04:33----------
+means a break in the line I measured
+
+---------04:34----------
+here I get 12 so now I'm gonna want to
+
+---------04:36----------
+measure one step after so after the fuse
+
+---------04:39----------
+over here after F 9700 we're going to
+
+---------04:42----------
+have this transistors the first thing we
+
+---------04:43----------
+don't want to do is is this transistor
+
+---------04:45----------
+opening so I'm gonna want to measure P P
+
+---------04:46----------
+bus SW it'll CD booklet per so I'm gonna
+
+---------04:50----------
+go over here to the board and I'm gonna
+
+---------04:53----------
+open up the right board view because
+
+---------04:54----------
+this is not the right board view that I
+
+---------04:55----------
+have on the screen over here it's where
+
+---------04:57----------
+I can open up the right board view and
+
+---------04:58----------
+then you see where everywhere on the
+
+---------04:59----------
+board that that signal shows up and
+
+---------05:01----------
+hopefully there's a place that it shows
+
+---------05:02----------
+up on the top would be really cool if I
+
+---------05:04----------
+could fix this board without taking it
+
+---------05:05----------
+out of the computer but Who am I kidding
+
+---------05:07----------
+that is luck that I simply never have so
+
+---------05:09----------
+we're gonna measure right over here on
+
+---------05:12----------
+this area and right over here we should
+
+---------05:15----------
+see if we have a voltage so I am going
+
+---------05:19----------
+to just put the multi-camera back on so
+
+---------05:22----------
+you can barely see the multimeter and
+
+---------05:23----------
+we're gonna measure voltage at that
+
+---------05:25----------
+point now one thing that I do want to do
+
+---------05:27----------
+here is just click the trackpad a little
+
+---------05:29----------
+bit click and just put the brightness
+
+---------05:30----------
+all the way up on the keyboard do keep
+
+---------05:32----------
+in mind that if you keep the Machine on
+
+---------05:33----------
+the desk that eventually the backlight
+
+---------05:34----------
+is going to go off simply to conserve
+
+---------05:37----------
+energy so once the computer is told to
+
+---------05:39----------
+turn the backlight off to preserve
+
+---------05:40----------
+energy obviously you're not going to
+
+---------05:42----------
+measure anything because it's not being
+
+---------05:44----------
+told to turn the light on so you do have
+
+---------05:46----------
+to keep in mind that you should press it
+
+---------05:47----------
+every now and then it would be really
+
+---------05:48----------
+silly to keep it on while doing all
+
+---------05:50----------
+these measurements now I have zero point
+
+---------05:52----------
+zero zero one zero point zero zero one
+
+---------05:55----------
+is not a voltage I can do anything with
+
+---------05:56----------
+so right now at this point I can go
+
+---------05:59----------
+ahead and just turn the Machine off and
+
+---------06:02----------
+we're going to take it out because all
+
+---------06:06----------
+the important things that I want to
+
+---------06:07----------
+measure on the bottom now if we go back
+
+---------06:09----------
+to the screen capture software over here
+
+---------06:10----------
+you gonna see on this area this is a
+
+---------06:13----------
+p-channel mosfet and the idea behind a
+
+---------06:15----------
+p-channel mosfet when it's used the way
+
+---------06:17----------
+it's used in this particular circuit is
+
+---------06:19----------
+that it's only going up and when the
+
+---------06:21----------
+voltage on the gate is lower than the
+
+---------06:23----------
+voltage of the source now unfortunately
+
+---------06:25----------
+this is not labeled because when they
+
+---------06:26----------
+were making the schematic they decided
+
+---------06:28----------
+not to label it there are some that are
+
+---------06:29----------
+labeled with the gate the source and the
+
+---------06:31----------
+drain this one is not labeled but you
+
+---------06:33----------
+can easily look up what each pin is if
+
+---------06:35----------
+you simply google this over here this is
+
+---------06:38----------
+this is the model
+
+---------06:40----------
+of that particular transistor and you
+
+---------06:42----------
+will be able to find the data sheet
+
+---------06:44----------
+which will tell you which pin is which
+
+---------06:45----------
+so on this this is the source which is
+
+---------06:48----------
+what's coming into it this is the drain
+
+---------06:50----------
+going out of it and this is the gate now
+
+---------06:52----------
+over here we have 12 volts on our source
+
+---------06:55----------
+which means that if we have 12 volts on
+
+---------06:57----------
+our gate then that is not going to be
+
+---------06:59----------
+taught to open however if we get a lower
+
+---------07:01----------
+voltage in the gate like five or six or
+
+---------07:03----------
+seven then this transistor over here is
+
+---------07:05----------
+going to open so what we're going to do
+
+---------07:07----------
+is we're going to try to ascertain
+
+---------07:09----------
+whether the transistor itself is bad or
+
+---------07:11----------
+if this ancestors not being told to open
+
+---------07:12----------
+remember a p-channel MOSFET like this
+
+---------07:16----------
+MOSFET on the screen is going open when
+
+---------07:17----------
+the voltage on the gate is lower than
+
+---------07:20----------
+the voltage on the source so if I have
+
+---------07:22----------
+12 volts on the source and five volts on
+
+---------07:26----------
+the gate and it's not opening that means
+
+---------07:28----------
+that there's something wrong over here
+
+---------07:31----------
+however if I have 12 volts on the gate
+
+---------07:34----------
+and 12 volts on the source and it's not
+
+---------07:36----------
+opening I cannot blame the transistor
+
+---------07:38----------
+because it's simply doing its job
+
+---------07:39----------
+another thing I'm gonna notice is I take
+
+---------07:41----------
+the Machine another computer is that I
+
+---------07:42----------
+was a complete this complete idiot and
+
+---------07:45----------
+that I didn't check the voltage after
+
+---------07:46----------
+the fuse because it's very simple that
+
+---------07:48----------
+the fuse itself could have simply blown
+
+---------07:50----------
+and that could be why nothing was
+
+---------07:52----------
+working so I know when I checked that
+
+---------07:53----------
+right now before I do all this crap
+
+---------07:55----------
+because that would be really stupid if I
+
+---------07:57----------
+didn't check the fuse so if we check the
+
+---------07:59----------
+fuse we're gonna put the multimeter here
+
+---------08:00----------
+in a continuity mode which is going to
+
+---------08:02----------
+do give us a nice zero if we connect the
+
+---------08:05----------
+two two probes together and we're gonna
+
+---------08:06----------
+check the back life fuse before we go
+
+---------08:08----------
+further so when I check the back light
+
+---------08:10----------
+fuse you'll see here that I get zero
+
+---------08:11----------
+which means love the fuse is good
+
+---------08:13----------
+now it'll make me look pretty stupid if
+
+---------08:15----------
+I were doing all this work when all I
+
+---------08:17----------
+needed to do was replace a fuse what
+
+---------08:19----------
+life is not usually that easy it's not
+
+---------08:21----------
+gonna be just a fuse most of the
+
+---------08:23----------
+machines were that's just the back light
+
+---------08:25----------
+fuse haven't been filtered through since
+
+---------08:27----------
+I've done two or three hundred
+
+---------08:28----------
+instructional videos and how to fix your
+
+---------08:29----------
+own machine that was the debt was the
+
+---------08:32----------
+the death sentence of easy or simple
+
+---------08:37----------
+repairs those oh we don't get any of
+
+---------08:40----------
+those anymore it's been a while since I
+
+---------08:44----------
+remember just getting a just back light
+
+---------08:46----------
+fuse repair that is those don't happen
+
+---------08:50----------
+more let's take the board out we're
+
+---------08:52----------
+gonna take a little bit of a look at
+
+---------08:53----------
+what it looks like on the other side I
+
+---------08:54----------
+do keep in mind that in order for the
+
+---------08:55----------
+backlights actually putting a back light
+
+---------08:57----------
+circuit to work it does have to detect a
+
+---------08:59----------
+screen as I said before which means I'm
+
+---------09:01----------
+gonna have to find some comms a little
+
+---------09:02----------
+way where we plug the screen in and then
+
+---------09:05----------
+do our measurements on the other side of
+
+---------09:08----------
+the board so I'm gonna plug in the
+
+---------09:09----------
+screen over here and I'm not going to
+
+---------09:12----------
+attach the harddrive because I don't
+
+---------09:13----------
+want the machine to go to sleep I don't
+
+---------09:15----------
+want the screen to turn off and if there
+
+---------09:16----------
+is no Drive plugged in there is no
+
+---------09:18----------
+operating system it's gonna stay on and
+
+---------09:19----------
+yeah if I mode and just never get to a
+
+---------09:21----------
+point where it's gonna turn the screen
+
+---------09:22----------
+off which is a good thing here so we're
+
+---------09:27----------
+just gonna do this I'm gonna try to plug
+
+---------09:29----------
+this in I'm gonna try to flip it over
+
+---------09:31----------
+and after I flip it over with the screen
+
+---------09:32----------
+plugged in I'm gonna hope that I don't
+
+---------09:34----------
+sure it anything out electrically that's
+
+---------09:36----------
+gonna light me on fire and if I manage
+
+---------09:38----------
+to do that I'll be a happy guy so it
+
+---------09:40----------
+looks like I've managed not short
+
+---------09:41----------
+anything out and now we're gonna go over
+
+---------09:43----------
+and check the gate of this transistor so
+
+---------09:45----------
+remember the gate on this transistor
+
+---------09:47----------
+needs to be a lower voltage than the
+
+---------09:49----------
+source of it so we're gonna check pin
+
+---------09:50----------
+four and pin three of qa9 706 we're
+
+---------09:53----------
+gonna look over here for q9 7:06
+
+---------09:56----------
+and let's see where we are so we can
+
+---------09:59----------
+rotating it so nice there's no errors in
+
+---------10:01----------
+this new board view software it's an
+
+---------10:03----------
+amazing amazing software thank you so
+
+---------10:05----------
+much to the person who made this and
+
+---------10:06----------
+absolutely amazing stuff a lot of people
+
+---------10:09----------
+have contacted me saying you know do you
+
+---------10:10----------
+think there's a market for this and I
+
+---------10:12----------
+always said no not because I didn't want
+
+---------10:13----------
+it but just because admittedly the other
+
+---------10:16----------
+software sucks but it's not it's not one
+
+---------10:19----------
+of those things where like I pay a
+
+---------10:20----------
+hundred bucks for a new I mean I know
+
+---------10:21----------
+that coding is very very difficult I
+
+---------10:24----------
+know that making the software is
+
+---------10:25----------
+difficult I respect that I don't want a
+
+---------10:28----------
+free I'm not gonna demand somebody make
+
+---------10:30----------
+it probably do I'm free I'm not gonna
+
+---------10:31----------
+demand something make it free but if I
+
+---------10:33----------
+can get it for free but you know if I
+
+---------10:35----------
+can't get it for free then I'll just
+
+---------10:37----------
+keep using that ceiling but it's
+
+---------10:38----------
+really nice that team like it doesn't
+
+---------10:39----------
+exist anymore so if you look over here I
+
+---------10:42----------
+get 12 point 51 volts on the source and
+
+---------10:46----------
+let's just see if I can get this so that
+
+---------10:48----------
+you can see what the board looks like in
+
+---------10:50----------
+that area and it seems like the
+
+---------10:53----------
+microscope camera is positive it's the
+
+---------10:55----------
+microscope camera yeah it does look
+
+---------10:59----------
+like we're stuck on an old image there
+
+---------11:00----------
+so the microscope camera
+
+---------11:03----------
+is let's see if I do this if we
+
+---------11:06----------
+can get the microscope camera back and
+
+---------11:07----------
+working I unplugged it I plugged it back
+
+---------11:11----------
+in and yeah that's pretty let's
+
+---------11:14----------
+restart open broadcaster and see if it
+
+---------11:16----------
+works okay and we're back oh and it's
+
+---------11:19----------
+let's see is it doing a weaving thing no
+
+---------11:22----------
+it looks good you have been having some
+
+---------11:24----------
+issues lately with this and I think a
+
+---------11:26----------
+lot of my issue that to do with the fact
+
+---------11:27----------
+that I'm using to capture cards from
+
+---------11:29----------
+different brands and instead of using a
+
+---------11:30----------
+single card that is dual HDMI input I'm
+
+---------11:33----------
+using a star tech capture card in a
+
+---------11:35----------
+black magic so first I got the black
+
+---------11:37----------
+magic and I realize that the black magic
+
+---------11:38----------
+card with one HDMI input check this out
+
+---------11:41----------
+check this out check this this is one of
+
+---------11:43----------
+those reasons where I would just never
+
+---------11:44----------
+endorse a black magic product for
+
+---------11:46----------
+anything and have regardless of all the
+
+---------11:47----------
+good press they get so they have an HDMI
+
+---------11:50----------
+capture card right that HDMI capture
+
+---------11:52----------
+card works with my camcorder every now
+
+---------11:54----------
+and then I'll start it up and the
+
+---------11:56----------
+software will not see the input their
+
+---------11:58----------
+software won't see it my software won't
+
+---------12:00----------
+see it I'll go in and I'll select the
+
+---------12:02----------
+exact 1080p 59.94 progressive all that
+
+---------12:05----------
+stuff and it just won't see anything I
+
+---------12:07----------
+mean by that's another thing if you it
+
+---------12:10----------
+won't auto detect like if I say 720p
+
+---------12:13----------
+59.94 P it will not work with this
+
+---------12:15----------
+camera I have to select the exact output
+
+---------12:18----------
+of the camera and if you don't know it
+
+---------12:19----------
+used to scroll through each one and keep
+
+---------12:21----------
+going back and forth and so you get a
+
+---------12:22----------
+picture so but even if I do all of that
+
+---------12:24----------
+rather than that that's not standard to
+
+---------12:27----------
+virtually any other capture hardware so
+
+---------12:29----------
+it's something that is gonna confuse you
+
+---------12:30----------
+at first and so you read through 13
+
+---------12:32----------
+pages of a forum thread but it works
+
+---------12:35----------
+with the camcorder it works with my
+
+---------12:36----------
+camera it doesn't work with the
+
+---------12:39----------
+microscope camera and when I contacted
+
+---------12:40----------
+Blackmagic about this cuz somebody if
+
+---------12:43----------
+you look up their website their stuff
+
+---------12:44----------
+isn't exactly cheap they're their reason
+
+---------12:47----------
+for the microscope camera not working
+
+---------12:48----------
+you check this oh that this is designed
+
+---------12:50----------
+for broadcast hardware not medical
+
+---------12:53----------
+hardware this is considered a medical
+
+---------12:55----------
+device so that's not going to be
+
+---------12:56----------
+compatible with our products and it's
+
+---------12:58----------
+like are you kidding me I mean
+
+---------13:00----------
+it's it's an HDMI capture heart like it
+
+---------13:03----------
+shouldn't matter if it's a broadcast
+
+---------13:05----------
+device a medical device a pornographic
+
+---------13:07----------
+device if I plug 8 an HDMI connector if
+
+---------13:11----------
+I plug an HDMI cable for something that
+
+---------13:13----------
+has an HDMI out into the capture
+
+---------13:15----------
+card that I paid professional
+
+---------13:16----------
+for it should his capture video so I got
+
+---------13:20----------
+the black magic and that's used for the
+
+---------13:21----------
+camcorder but then I had to figure out
+
+---------13:22----------
+that I had can't use a second black
+
+---------13:23----------
+magic for the for the for the microscope
+
+---------13:27----------
+so I bought a star tech cart which it's
+
+---------13:30----------
+kind of prosumer I like start deck stuff
+
+---------13:32----------
+but it's kind of prosumer in the
+
+---------13:33----------
+features and I don't know if it's just
+
+---------13:35----------
+each individual card doesn't work well
+
+---------13:37----------
+with Windows 10 or Windows 8.1 or if
+
+---------13:39----------
+it's the fact that I have both cards
+
+---------13:41----------
+working in capturing at the same time it
+
+---------13:43----------
+could be a number of different things
+
+---------13:45----------
+and I'm sure I'll have a lot of stuff in
+
+---------13:46----------
+the comments or people who've never
+
+---------13:47----------
+tried to use either one of these cards
+
+---------13:48----------
+telling me how to fix it but I digress
+
+---------13:50----------
+and I've tried this at this computer try
+
+---------13:52----------
+this in the home computer and it's the
+
+---------13:53----------
+same thing I think it's the fact that
+
+---------13:56----------
+the right thing to do is to have one
+
+---------13:58----------
+card that has two HDMI inputs that's
+
+---------14:00----------
+made for dual capture and I'm trying to
+
+---------14:02----------
+use two different cards with two
+
+---------14:03----------
+different drivers at the same time
+
+---------14:04----------
+capture two different very high bitrate
+
+---------14:06----------
+streams that's occasionally doing those
+
+---------14:08----------
+ where I'll click and it'll be
+
+---------14:10----------
+stuck on the last image that it saw or
+
+---------14:13----------
+it won't capture anything at all until I
+
+---------14:15----------
+reboot which is kind of annoying
+
+---------14:18----------
+in the middle of the video but the star
+
+---------14:19----------
+tech thing I'm okay with that but like
+
+---------14:21----------
+the Blackmagic you're telling me
+
+---------14:23----------
+that this microscope camera this is this
+
+---------14:25----------
+is not cheap this is an optics cam OC s
+
+---------14:28----------
+HDMI NH 1080 this was like seven or
+
+---------14:30----------
+eight hundred bucks on the body you're
+
+---------14:31----------
+saying that it it's not compatible with
+
+---------14:33----------
+this which it's a basic 1080p 60 frames
+
+---------14:35----------
+per second output I can output this to a
+
+---------14:38----------
+$90 a soar monitor and it works
+
+---------14:41----------
+I can output this to a piece of
+
+---------14:42----------
+$150 made well thing and it works
+
+---------14:45----------
+I can output that to any TV anything
+
+---------14:47----------
+that works but it doesn't work on a
+
+---------14:49----------
+black magic card are you kidding
+
+---------14:51----------
+me like can you list with the Blackmagic
+
+---------14:54----------
+product hi yes this is a professional
+
+---------14:57----------
+video product however there are a great
+
+---------14:59----------
+number of devices with HDMI outputs that
+
+---------15:01----------
+will not work with it and we will not
+
+---------15:03----------
+help you like this anyway rant over now
+
+---------15:08----------
+we're gonna go back to fixing this board
+
+---------15:09----------
+let me open up the PDF that had the
+
+---------15:11----------
+schematic on it so we can go back to
+
+---------15:12----------
+where we left off before dealing with
+
+---------15:14----------
+technical difficulties and that's one of
+
+---------15:17----------
+those things when you do a project like
+
+---------15:18----------
+this like when I first posted saying
+
+---------15:20----------
+this is what I want to do these are the
+
+---------15:21----------
+type of videos I want to do here's the
+
+---------15:23----------
+setup that I want I don't want to have
+
+---------15:24----------
+to do audio afterwards I want the audio
+
+---------15:26----------
+in single video I want to be able to
+
+---------15:28----------
+switch back and forth
+
+---------15:29----------
+microscope microscope view I don't have
+
+---------15:32----------
+like a camera that looks that the side
+
+---------15:34----------
+or zooms in on the board I wanted to see
+
+---------15:35----------
+exactly what's seen in the microscope I
+
+---------15:37----------
+want it to be high quality and not this
+
+---------15:39----------
+five frames per second mantis of
+
+---------15:40----------
+ it's real and I want to be able
+
+---------15:44----------
+to record all of it in real time it's
+
+---------15:46----------
+really hard when you're like trying to
+
+---------15:47----------
+do something that nobody else has tried
+
+---------15:49----------
+to do before to get it done that's what
+
+---------15:51----------
+I've noticed good thing you know a lot
+
+---------15:54----------
+of experimenting a lot of buying stuff
+
+---------15:56----------
+that doesn't work or that people don't
+
+---------15:57----------
+know if it'll work for an application so
+
+---------15:59----------
+I mean I'm happy with the fact that I
+
+---------16:00----------
+can do the videos the way that I can but
+
+---------16:02----------
+it would be nice if I'd not worry about
+
+---------16:03----------
+this every now and then
+
+---------16:04----------
+this morning's video pretty decent video
+
+---------16:07----------
+this randomly screwed up in the middle
+
+---------16:10----------
+of it just cuz of this whole dual
+
+---------16:11----------
+capture thing sometimes it works
+
+---------16:12----------
+sometimes it doesn't
+
+---------16:13----------
+and you know somebody else is fixing it
+
+---------16:15----------
+they're not gonna see but they're not
+
+---------16:17----------
+operating the camera and I just you know
+
+---------16:20----------
+this lame anyway so let's just rheic
+
+---------16:23----------
+splain what we were looking at here
+
+---------16:24----------
+before I went off on my complete tangent
+
+---------16:26----------
+um video capture so yeah we aren't
+
+---------16:30----------
+getting voltage over here we are getting
+
+---------16:31----------
+12 now on here on the gate on the gate I
+
+---------16:35----------
+want to get less voltage so we're gonna
+
+---------16:38----------
+check what pin three is giving you right
+
+---------16:40----------
+now so pin three is gonna be over there
+
+---------16:41----------
+so I'm going to switch back over to the
+
+---------16:43----------
+microscope view we are gonna measure pin
+
+---------16:45----------
+three and pin three is getting me 12
+
+---------16:46----------
+point 41 so this means I cannot blame
+
+---------16:49----------
+the transistor the transistor is doing
+
+---------16:50----------
+its job the transistor is not opening
+
+---------16:52----------
+because it is simply not being told to
+
+---------16:53----------
+open the voltage and the gate has to be
+
+---------16:55----------
+lower than the voltage in the source in
+
+---------16:57----------
+order for the transverse it open so
+
+---------16:58----------
+let's take a look in the schematic and
+
+---------17:00----------
+try to get a little bit of an idea of
+
+---------17:01----------
+why this happened and nor you go let's
+
+---------17:06----------
+see so yeah we're on those good so the
+
+---------17:08----------
+way this works is that this resistor
+
+---------17:10----------
+over here is gonna take the 12 volt from
+
+---------17:12----------
+the source and place it on the gate
+
+---------17:13----------
+that's gonna mean that this never opens
+
+---------17:15----------
+because the voltage in the gate is gonna
+
+---------17:17----------
+be the same as the voltage on the source
+
+---------17:18----------
+however however this resistor over here
+
+---------17:22----------
+that goes to ground is then going to
+
+---------17:23----------
+lower that this resistor turns this into
+
+---------17:26----------
+a voltage divider and if you don't know
+
+---------17:28----------
+what a voltage divider is you should
+
+---------17:29----------
+Google what a voltage divider is it's a
+
+---------17:30----------
+very simple little circuit that's going
+
+---------17:32----------
+to take a higher voltage and turn it
+
+---------17:34----------
+into a lower voltage so some voltage is
+
+---------17:36----------
+going to go here but then by putting a
+
+---------17:38----------
+resistor to ground and this resistor
+
+---------17:40----------
+over here is a much lower resistance
+
+---------17:42----------
+that means that a lot of the current is
+
+---------17:44----------
+gonna flow to ground which is but not
+
+---------17:45----------
+all of it which is then going to lower
+
+---------17:47----------
+the voltage so again if I simply put a
+
+---------17:49----------
+resistor to ground over here I just take
+
+---------17:51----------
+this resistor from here and put it to
+
+---------17:52----------
+ground it's not gonna lower the voltage
+
+---------17:54----------
+because this has a lot of capability to
+
+---------17:56----------
+deliver current however when I put this
+
+---------17:58----------
+little 301 kiloohm resistor here now I
+
+---------18:01----------
+very much so limit its ability to
+
+---------18:03----------
+deliver anything so when I put the
+
+---------18:05----------
+second resistor to ground
+
+---------18:06----------
+now I mean that that's just pounding it
+
+---------18:08----------
+into the floor and beating the voltage
+
+---------18:10----------
+down however this is not gonna work if
+
+---------18:13----------
+this doesn't go to ground what's keeping
+
+---------18:16----------
+this bottom resistor from going to
+
+---------18:17----------
+ground well these two transistors these
+
+---------18:20----------
+two transistors are the opposite of this
+
+---------18:21----------
+type this up here is AP channel and
+
+---------18:24----------
+these over here are in channels meaning
+
+---------18:25----------
+that the voltage in the gate has to be
+
+---------18:27----------
+equal or higher than the voltage in the
+
+---------18:29----------
+source in order for it to open now if we
+
+---------18:31----------
+look at this really carefully you'll see
+
+---------18:33----------
+that the source over here is ground and
+
+---------18:35----------
+the source over here is gonna be
+
+---------18:37----------
+probably the zero as well so here any
+
+---------18:40----------
+voltage on LCD backlight enabled and any
+
+---------18:42----------
+voltage in backlight platform risa is
+
+---------18:44----------
+going to make these open so let's try to
+
+---------18:47----------
+figure out if these two transistors are
+
+---------18:49----------
+opening and if they're being told to
+
+---------18:51----------
+open so let's check out LCD backlight
+
+---------18:53----------
+enable and backlight platform reset so
+
+---------18:56----------
+we're gonna check out pins 5 and pins 2
+
+---------18:58----------
+of q9 707 so let's lose q9 707 is this
+
+---------19:02----------
+thing right over here so we're gonna
+
+---------19:03----------
+check pens 2 and pin 5 so let's go over
+
+---------19:05----------
+into the microscope camera and check out
+
+---------19:07----------
+pins 2 and pin 5 see you evolved as we
+
+---------19:09----------
+get and see what conclusions we can draw
+
+---------19:11----------
+so I'm gonna measure voltage on pin 2
+
+---------19:15----------
+and I get 3 point 2 and I'm gonna
+
+---------19:17----------
+measure the voltage over here and I get
+
+---------19:19----------
+3 point 2 all right now we have so this
+
+---------19:23----------
+this transistors being told to open and
+
+---------19:25----------
+this transistor is being told to open
+
+---------19:26----------
+however the voltage over here is still
+
+---------19:28----------
+12 so it's not being told to go to
+
+---------19:30----------
+ground now we have a couple of different
+
+---------19:32----------
+possibilities over here the first
+
+---------19:33----------
+possibility is that this resistor is
+
+---------19:35----------
+blown this resistor is dead so it's not
+
+---------19:37----------
+going to do any voltage dividing the
+
+---------19:39----------
+second is that this set of transistors
+
+---------19:42----------
+are dead so they're not going to send it
+
+---------19:44----------
+to ground they're not doing a job the
+
+---------19:45----------
+third possibility is that this
+
+---------19:48----------
+transistor over here could actually have
+
+---------19:50----------
+a short between pin 4 and pin 3 so it's
+
+---------19:53----------
+constantly sending all of it so it's by
+
+---------19:55----------
+passing this resistor instead of sending
+
+---------19:57----------
+a little bit over here it's sending all
+
+---------19:59----------
+of it over here the fourth thing that
+
+---------20:01----------
+could be bad is this capacitor if this
+
+---------20:03----------
+capacitor is bad again this 301 kilohm
+
+---------20:05----------
+resistor is sitting between here and
+
+---------20:06----------
+here but if this capacitor dies and it
+
+---------20:09----------
+comes a wire if this transistor dies in
+
+---------20:11----------
+this link breaks and it's just shorts
+
+---------20:12----------
+then this resistor is just erased from
+
+---------20:15----------
+the equation so one way to figure out
+
+---------20:18----------
+what it is so we are going to do is
+
+---------20:20----------
+we're going to measure the resistance
+
+---------20:21----------
+between r97
+
+---------20:22----------
+of ah nine seven eight eight now
+
+---------20:24----------
+remember we're not just measuring those
+
+---------20:26----------
+the resistance of this resistor we're
+
+---------20:28----------
+measuring this pathway so you have a
+
+---------20:30----------
+pathway from here to here but we're also
+
+---------20:32----------
+measuring the pathway between here and
+
+---------20:33----------
+here and here in here so let's check our
+
+---------20:37----------
+nine seven eight eight we're gonna
+
+---------20:38----------
+measure our nine seven eighty eight over
+
+---------20:40----------
+here and we're gonna see what it is that
+
+---------20:42----------
+we get so our nine seven eight eight is
+
+---------20:43----------
+going to be this one you didn't see any
+
+---------20:46----------
+of that oh man
+
+---------20:48----------
+okay re-explaining time I'm sorry about
+
+---------20:52----------
+that so the idea here is that if we have
+
+---------20:56----------
+three volts here and three volts here
+
+---------20:58----------
+that means that these transistors being
+
+---------21:00----------
+told to open but the voltage over here
+
+---------21:02----------
+is not being dropped the voltage over
+
+---------21:03----------
+here not being dropped could be because
+
+---------21:05----------
+of a couple of things either the this is
+
+---------21:07----------
+not having a path to ground or there is
+
+---------21:09----------
+a path to ground
+
+---------21:10----------
+but the capacitor shorted or the
+
+---------21:13----------
+transistor shorted over here so that
+
+---------21:15----------
+even though there's a path to ground
+
+---------21:17----------
+there's 147 kilohm path to ground over
+
+---------21:20----------
+here it's not dropping anything because
+
+---------21:23----------
+the 12 volt rail is shorted to this so
+
+---------21:27----------
+remember this resistor is gonna be what
+
+---------21:29----------
+limits the currents so the current being
+
+---------21:31----------
+limited over here is what's going to
+
+---------21:33----------
+allow this resistor then drop the
+
+---------21:35----------
+voltage however if there's no current
+
+---------21:36----------
+limiting of all the entire ability of
+
+---------21:38----------
+the circuit to provide voltage is
+
+---------21:40----------
+present over here it's not gonna do much
+
+---------21:43----------
+it's not gonna actually drop anything
+
+---------21:44----------
+but voltage divider requires the top
+
+---------21:46----------
+resistor and the bottom resistor if we
+
+---------21:48----------
+take away the top resistor and just
+
+---------21:49----------
+replace it with a wire it's not gonna
+
+---------21:51----------
+drop so if this is shorted or this
+
+---------21:54----------
+is shorted we get nowhere now that being
+
+---------21:56----------
+said let's measure that resistor and see
+
+---------21:59----------
+what we figure out so the resistor that
+
+---------22:01----------
+I'm looking to measure over here is
+
+---------22:03----------
+going to be
+
+---------22:04----------
+that's 978
+
+---------22:08----------
+which is gonna be the one that's covered
+
+---------22:10----------
+in some some nasty looking over
+
+---------22:14----------
+here some pubes so let's just dig this
+
+---------22:17----------
+out and know that resistor is supposed
+
+---------22:19----------
+to be 301 killer homes and when I
+
+---------22:22----------
+measure that resistor I gay 301 Killa
+
+---------22:27----------
+home so that is doing its job all right
+
+---------22:31----------
+now keep it now let's check our load
+
+---------22:37----------
+well so let's see so this is 301 kilohms
+
+---------22:40----------
+over here right so that means that this
+
+---------22:42----------
+camp isn't shorted if this capacitor
+
+---------22:44----------
+were shorted this for shorted then this
+
+---------22:46----------
+would measure low it because they're in
+
+---------22:47----------
+the same path they're connected you know
+
+---------22:49----------
+literally in the same path they're
+
+---------22:51----------
+connected so if I measure this I'm
+
+---------22:54----------
+technically also adding this as well and
+
+---------22:56----------
+I'm adding 4 and 3 so I can rule out q9
+
+---------22:58----------
+706 being bad I can rule out c9 7 8 -
+
+---------23:01----------
+when I could rule out our 9 7 8 8 now
+
+---------23:03----------
+let's check on nine seven eight nine
+
+---------23:05----------
+let's see what our sign seven eight nine
+
+---------23:07----------
+is gonna get me so our nine seven eight
+
+---------23:09----------
+nine where are you actually where they
+
+---------23:12----------
+have a policy line 9 7 8 9 you're right
+
+---------23:16----------
+over here so let's measure this one and
+
+---------23:18----------
+see what we get so when I measure this
+
+---------23:20----------
+one over here I get 147 kilohms alright
+
+---------23:32----------
+that's so now huh this is genuinely
+
+---------23:37----------
+interesting gonna reconnect the power to
+
+---------23:43----------
+it and just see if I'm getting trolled
+
+---------23:54----------
+so this is being taught open
+
+---------24:02----------
+and we're getting a light on the screen
+
+---------24:04----------
+that we weren't getting before so check
+
+---------24:06----------
+it out what you don't you don't believe
+
+---------24:11----------
+me today is not a good day for repair
+
+---------24:15----------
+sir I remember that remember how I was
+
+---------24:18----------
+getting 12 volts on the gate of q9 706
+
+---------24:21----------
+we're now getting 4.3 and it's turning
+
+---------24:23----------
+on what did I do
+
+---------24:26----------
+I don't know no really what did
+
+---------24:31----------
+I do
+
+---------24:32----------
+ah aha yes the pubes are hiding the
+
+---------24:41----------
+liquid tell me this went black and white
+
+---------24:44----------
+again are you kidding it did you piece a
+
+---------24:49----------
+ count I need to get a real
+
+---------24:53----------
+proper HDMI setup this is this
+
+---------24:56----------
+is look at it you can see blue
+
+---------24:58----------
+and yellow from the last thing on here
+
+---------25:00----------
+all right and we're back and now you'll
+
+---------25:02----------
+be able to see everything in full colors
+
+---------25:05----------
+I really do need to get a better HDMI
+
+---------25:07----------
+capture set up see how color makes such
+
+---------25:09----------
+a big difference even though I did a
+
+---------25:11----------
+little bit of scraping over there you
+
+---------25:12----------
+can still see that water made its way
+
+---------25:16----------
+here and I am gonna try and get myself
+
+---------25:19----------
+some better agent some a better HDMI
+
+---------25:21----------
+capture I just got lighting from my
+
+---------25:25----------
+apartment to see you can see this in
+
+---------25:26----------
+blue this area over here has already
+
+---------25:29----------
+been scraped and this area here so we're
+
+---------25:37----------
+just going to go ahead and touch up this
+
+---------25:40----------
+area a little bit and then put it
+
+---------25:42----------
+through the ultrasonic cleaning for a
+
+---------25:43----------
+nice cleaning and after that we should
+
+---------25:46----------
+be set now one thing that is ashy yeah
+
+---------25:55----------
+let's just get rid of it first
+
+---------26:01----------
+I finally got it I actually what was
+
+---------26:03----------
+clean I went to the basement to get some
+
+---------26:04----------
+stuff the other day and I realized that
+
+---------26:06----------
+back from when I had a supply business
+
+---------26:10----------
+well I resisted looks like that's
+
+---------26:12----------
+got to go anyway
+
+---------26:14----------
+back when I had the supply business I
+
+---------26:16----------
+yeah I was taking pictures of the
+
+---------26:17----------
+screens and product photos we went to B
+
+---------26:19----------
+and H I got a camera which somebody
+
+---------26:21----------
+stole four years ago that's a long stats
+
+---------26:24----------
+the story in and of itself and we also
+
+---------26:26----------
+got this
+
+---------26:27----------
+these lights now the lights oh yeah the
+
+---------26:30----------
+bulbs themselves have been sodomized and
+
+---------26:32----------
+destroyed because they the you know they
+
+---------26:34----------
+got beat and they've been thrown in the
+
+---------26:35----------
+basement on top of boxes and all sorts
+
+---------26:37----------
+of other crap so the fluorescent bulbs
+
+---------26:39----------
+in there have however that's the
+
+---------26:41----------
+thing I was I was being cheap I didn't
+
+---------26:42----------
+want to buy a new fixtures and new
+
+---------26:45----------
+lights and all that but if I already
+
+---------26:46----------
+have working fixtures I already have
+
+---------26:49----------
+like the fixture and I have two fixtures
+
+---------26:52----------
+that will hold three bulbs each and has
+
+---------26:54----------
+like the defusing thingy well now it has
+
+---------26:57----------
+a thing to hold the light and everything
+
+---------26:58----------
+I might as well buy the bulb so I bought
+
+---------27:00----------
+six LED bulbs on Amazon some studio
+
+---------27:03----------
+lighting LED bulbs to plug in that are
+
+---------27:05----------
+gonna look all nice and stuff so I'm
+
+---------27:07----------
+gonna have that for the apartment
+
+---------27:09----------
+I just spent as much as I am cheap also
+
+---------27:15----------
+when it comes to yeah that's not good if
+
+---------27:18----------
+I already have something I feel this
+
+---------27:20----------
+compulsion to finish the set so I
+
+---------27:22----------
+already have that I can't let it go to
+
+---------27:24----------
+waste
+
+---------27:28----------
+some gentle scraping gentle scraping and
+
+---------27:31----------
+dinner
+
+---------27:36----------
+the resistors and that voltage divider
+
+---------27:38----------
+just don't look very good so we're just
+
+---------27:39----------
+going to take those resistors and get
+
+---------27:41----------
+and that capacitor and just goodbye
+
+---------27:45----------
+not even though it works now and even
+
+---------27:47----------
+though I may have scratched away
+
+---------27:49----------
+whatever was causing it to not work no
+
+---------27:51----------
+no we're not leaving that on the board
+
+---------27:54----------
+so let's just go ahead and remove that
+
+---------27:57----------
+junk yeah it's on the list I got to get
+
+---------28:02----------
+some better HDMI capture hardware cuz
+
+---------28:03----------
+someday I'm gonna do a video and I'm not
+
+---------28:05----------
+gonna be paying attention to it because
+
+---------28:06----------
+I'm watching the board I'm fixing and
+
+---------28:08----------
+it's going to work and it's gonna be an
+
+---------28:10----------
+amazing video with an amazing new
+
+---------28:12----------
+revelation and some really cool dialogue
+
+---------28:15----------
+and I'm not gonna be able to post it
+
+---------28:17----------
+because of the capture hardware
+
+---------28:20----------
+so a good dual HDMI solution duo that
+
+---------28:26----------
+can capture that's made for it it's
+
+---------28:27----------
+actually designed to have both use at
+
+---------28:29----------
+the same time none of this oh well it
+
+---------28:31----------
+may work but we don't support it now
+
+---------28:33----------
+ that I gotta find something that
+
+---------28:36----------
+works that is supported that way but I'm
+
+---------28:39----------
+gonna probably wind up paying ridiculous
+
+---------28:40----------
+amounts of money I saw something like
+
+---------28:42----------
+that it was something like that and the
+
+---------28:44----------
+reason I didn't go for it is it didn't
+
+---------28:45----------
+work in Linux and back at that time I
+
+---------28:47----------
+was using Linux and also it was 1800
+
+---------28:51----------
+bucks plus tax and oh my god
+
+---------28:54----------
+and plus tax and all that stuff and I
+
+---------28:57----------
+was just like yeah well no 1800 now
+
+---------29:01----------
+that's like a drop in the bucket with
+
+---------29:02----------
+how much I've spent on everything else
+
+---------29:04----------
+but the thing is I forgot the damn name
+
+---------29:05----------
+of the card but it's also it's got to
+
+---------29:07----------
+work with open broadcaster that is an
+
+---------29:09----------
+absolute must if it doesn't work with
+
+---------29:11----------
+open this is how I'm used to capturing
+
+---------29:13----------
+things open broadcaster makes my life
+
+---------29:15----------
+easy it has to either be something
+
+---------29:17----------
+that's compatible with open broadcaster
+
+---------29:18----------
+or it must come with its own software
+
+---------29:20----------
+that is better and it can't be any of
+
+---------29:22----------
+this where they don't let you
+
+---------29:24----------
+adjust the audio type that you use or
+
+---------29:27----------
+the codec you use or you're stuck using
+
+---------29:28----------
+their crappy ass codec I like open
+
+---------29:31----------
+broadcaster I can choose x264 I can
+
+---------29:34----------
+choose my parameters for live x264 I can
+
+---------29:36----------
+choose I can choose Pro res which
+
+---------29:39----------
+honestly is really good it is pretty
+
+---------29:41----------
+good to work with an edit
+
+---------29:42----------
+I can choose raw video if I want I can
+
+---------29:44----------
+choose for two - I can choose four for
+
+---------29:46----------
+each and I can I can choose four for
+
+---------29:47----------
+four I can just 4 choose 0 and that's
+
+---------29:50----------
+free so I'm spoiled I know that I got
+
+---------29:52----------
+options and I do want to keep these
+
+---------29:55----------
+videos looking good you want people to
+
+---------29:59----------
+be able to watch and really get what I'm
+
+---------30:00----------
+doing so I like I usually record a
+
+---------30:03----------
+really ridiculously high bitrate with
+
+---------30:05----------
+ProRes I export it usually to 60 to 85
+
+---------30:10----------
+megabit per second
+
+---------30:14----------
+h.264 file with flack audio usually
+
+---------30:20----------
+record in WAV and then after that's done
+
+---------30:22----------
+I upload it to YouTube
+
+---------30:25----------
+I give YouTube a really high bitrate
+
+---------30:27----------
+file the thing is I know that YouTube is
+
+---------30:28----------
+going to take whatever I upload and just
+
+---------30:30----------
+destroy it so I want to give you to the
+
+---------30:34----------
+best possible copy I also want to keep a
+
+---------30:37----------
+good copy for archival purposes for
+
+---------30:39----------
+myself what's up 100% at 10%
+
+---------30:49----------
+did you try another battery already yeah
+
+---------31:22----------
+hmm
+
+---------31:26----------
+all right
+
+---------31:28----------
+so now we're just going to flow that in
+
+---------31:30----------
+a place
+
+---------31:37----------
+it's like a nice little neighborhood I
+
+---------31:42----------
+mean we're gonna just double check and
+
+---------31:44----------
+confirm that our work works first we're
+
+---------31:46----------
+gonna turn off all this loud stuff
+
+---------31:48----------
+because it does eat your brain inhaling
+
+---------31:51----------
+flux all day eats your brain but
+
+---------31:55----------
+listening to that eats your brain just
+
+---------31:57----------
+like one step lower it's not that's
+
+---------32:01----------
+gonna turn it on see what I get on the
+
+---------32:02----------
+screen and we'll be happy from there now
+
+---------32:05----------
+this still is gonna have to go through
+
+---------32:06----------
+an ultrasonic cleaning process and also
+
+---------32:07----------
+get tested because it did have a liquid
+
+---------32:10----------
+spill that of course nobody ever admits
+
+---------32:15----------
+to but it did have a spill and as you
+
+---------32:20----------
+can see we get a light on the screen
+
+---------32:22----------
+which means that we have fixed our
+
+---------32:24----------
+problems so the corrosion was primarily
+
+---------32:27----------
+and uh I rebooted so my schematic closed
+
+---------32:32----------
+the corrosion was primarily in the and
+
+---------32:39----------
+so much it remembers where I left off
+
+---------32:41----------
+what an amazing PDF reader over here
+
+---------32:43----------
+over this over this and over this and it
+
+---------32:48----------
+was most likely shorting this to that
+
+---------32:49----------
+but as soon as I just touched it with
+
+---------32:51----------
+the multimeter the corrosion moved away
+
+---------32:53----------
+we did a little bit of flux and cleaning
+
+---------32:55----------
+we replace these components as
+
+---------32:56----------
+representative maintenance and we will
+
+---------32:58----------
+then be ultrasonic in the board to fix
+
+---------33:00----------
+any further problems hopefully so that's
+
+---------33:04----------
+it
+
+---------33:04----------
+you fix no backlight and as always I
+
+---------33:06----------
+hope you learned something and I'm gonna
+
+---------33:08----------
+go off and do some research on dual HDMI
+
+---------33:11----------
+capture hardware that isn't and
+
+---------33:14----------
+that's it for today
+

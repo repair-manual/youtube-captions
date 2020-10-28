@@ -1,0 +1,853 @@
+https://www.youtube.com/watch?v=5oKH0ZOeSVQ
+---------00:00----------
+okay so today we're gonna go over an
+
+---------00:01----------
+eight to zero 3209 that has no backlight
+
+---------00:03----------
+before I go over what's wrong with this
+
+---------00:05----------
+boy let's go over what's wrong with the
+
+---------00:06----------
+shipping so this board came in a little
+
+---------00:09----------
+box it had an envelope on it it was a
+
+---------00:11----------
+envelope and then a box inside the
+
+---------00:13----------
+envelope the envelope looks it came kind
+
+---------00:15----------
+of really tattered and crappy looking
+
+---------00:17----------
+because I had a box inside of it so we
+
+---------00:19----------
+rip up the envelope you see a box with a
+
+---------00:21----------
+Chinese return address on it and a
+
+---------00:23----------
+motherboard inside of it with no note no
+
+---------00:25----------
+nothing this has been sitting in a slot
+
+---------00:28----------
+for about you know three weeks waiting
+
+---------00:31----------
+for us to somebody to call and tell us
+
+---------00:33----------
+that they sent us it and we got a call
+
+---------00:35----------
+for status and I said hmm is this an air
+
+---------00:37----------
+board that came in a yellow box with no
+
+---------00:39----------
+note so long story short if you don't
+
+---------00:42----------
+include a note we get like 10 20 30
+
+---------00:44----------
+little packages and envelopes in the
+
+---------00:46----------
+mail everyday if you don't include a
+
+---------00:47----------
+note with your name your phone number
+
+---------00:49----------
+and order number anything that I can go
+
+---------00:52----------
+off of so that I have a clue what this
+
+---------00:53----------
+is I'm going to assume that it was a
+
+---------00:55----------
+supplier that sent it by mistake or a
+
+---------00:57----------
+gift so like anything just will go I
+
+---------01:00----------
+could use almost anything but just put
+
+---------01:02----------
+something in the box that says what it
+
+---------01:03----------
+is so that I know what you know and like
+
+---------01:06----------
+what what to expect cause this has been
+
+---------01:08----------
+this was like days away from getting
+
+---------01:11----------
+tossed into the trash anyway so this is
+
+---------01:13----------
+a no backlight problem so let's just
+
+---------01:15----------
+take a look at some of the backlight
+
+---------01:17----------
+area here looks like somebody tried to
+
+---------01:19----------
+do something themself and let's let's
+
+---------01:21----------
+just walk through and see what happened
+
+---------01:22----------
+here so this is the backlight for use
+
+---------01:24----------
+where you see the little peak now you
+
+---------01:26----------
+can't see that just yet see there we
+
+---------01:28----------
+have a nice little P know if I do this
+
+---------01:33----------
+and I try to measure it let's see if you
+
+---------01:36----------
+can see that so let's see if the
+
+---------01:37----------
+backlight fuse it's good it's fine the
+
+---------01:42----------
+connector looks fine now when you look
+
+---------01:43----------
+around the LED driver area that's when
+
+---------01:45----------
+it starts to get a little suspect so
+
+---------01:47----------
+you've been missing capacitor over here
+
+---------01:48----------
+which while important is not super duper
+
+---------01:50----------
+critical but what's really critical here
+
+---------01:53----------
+you can see that the feedback ball is
+
+---------01:56----------
+kind of damaged underneath the chip
+
+---------01:57----------
+which is very typical from liquid damage
+
+---------02:00----------
+it's not too damaged but you know enough
+
+---------02:02----------
+so but the main issue here is that the
+
+---------02:04----------
+backlight enable resistor one of them is
+
+---------02:06----------
+missing so there's a voltage divider
+
+---------02:07----------
+that takes the power going to the back
+
+---------02:09----------
+light circuit and turns that eight volt
+
+---------02:10----------
+into something like two point seven
+
+---------02:13----------
+three volts for the backlight enable in
+
+---------02:15----------
+and that's missing that resistor is gone
+
+---------02:19----------
+maybe it was knocked off when somebody
+
+---------02:20----------
+was soldering maybe it came off in the
+
+---------02:22----------
+cleaner I've been there I've knocked
+
+---------02:24----------
+stuff off before so that's like this
+
+---------02:28----------
+this is something that I can't I can't
+
+---------02:29----------
+really criticize because yeah I've done
+
+---------02:33----------
+that definitely been there and done that
+
+---------02:35----------
+so let's just let's just go over the
+
+---------02:37----------
+backlight circuit on this particular
+
+---------02:38----------
+machine let's find it so what's missing
+
+---------02:42----------
+here is this CR 9 731 so this is part of
+
+---------02:44----------
+a voltage divider so this is the DC to
+
+---------02:46----------
+DC boost circuit you should watch my
+
+---------02:47----------
+video on how a DC to DC boost circuit
+
+---------02:49----------
+works if you want to know how this works
+
+---------02:50----------
+I explain it all in depth because it's
+
+---------02:52----------
+probably very confusing
+
+---------02:53----------
+long story short pp bus SW LCD backlight
+
+---------02:56----------
+per is going to come down here and then
+
+---------02:58----------
+that's going to be turned into into 3
+
+---------03:02----------
+volts by this 2 point 7 volts something
+
+---------03:04----------
+like that by this voltage divider by the
+
+---------03:06----------
+way a little little glitch C which says
+
+---------03:09----------
+voltage 12 point equals twelve point six
+
+---------03:10----------
+this is an error so voltage will
+
+---------03:12----------
+actually equal eight point four that's a
+
+---------03:13----------
+mistake in the schematic I like catching
+
+---------03:15----------
+that it kind of reminds me that even the
+
+---------03:17----------
+you know we were kind of working in an
+
+---------03:19----------
+industry where all the people who say we
+
+---------03:21----------
+shouldn't work on these products say
+
+---------03:22----------
+we're not qualified we're unauthorized
+
+---------03:24----------
+will make mistakes so stuff like this
+
+---------03:26----------
+just kind of reminds me that we're all
+
+---------03:28----------
+human and it's a good point here because
+
+---------03:30----------
+you know it says even the people
+
+---------03:32----------
+designing this are getting the
+
+---------03:33----------
+schematics wrong if I were to inject
+
+---------03:34----------
+twelve point six volts there I would
+
+---------03:36----------
+destroy a good portion of the circuit
+
+---------03:38----------
+because the circuit is not meant to
+
+---------03:39----------
+handle more than eight point four so
+
+---------03:42----------
+it's just it's one of those things it's
+
+---------03:44----------
+just kind of you know just not not
+
+---------03:47----------
+correct and that's fine it's always okay
+
+---------03:50----------
+to not be correct but just don't be one
+
+---------03:51----------
+of those holier-than-thou only Apple is
+
+---------03:53----------
+allowed to touch this ship because
+
+---------03:54----------
+everybody else can't cuz see Apple
+
+---------03:56----------
+doesn't know how much voltage is going
+
+---------03:57----------
+through their own damn boards twelve
+
+---------04:00----------
+point six it's eight point four anyway
+
+---------04:02----------
+PP bus SW LCD backlight per so when this
+
+---------04:04----------
+transistor opens and allows P P bus g3
+
+---------04:08----------
+hot to go through to the boost circuit
+
+---------04:10----------
+it's going to have to turn on the enable
+
+---------04:13----------
+pin it's gonna have to send voltage the
+
+---------04:14----------
+enable pin to view nine 701 now that
+
+---------04:16----------
+enable pins expecting like two and a
+
+---------04:17----------
+half three and a half volts something
+
+---------04:19----------
+around there if I sent eight or 12 volts
+
+---------04:21----------
+to it not nice things are going to
+
+---------04:22----------
+happen so this little voltage divider is
+
+---------04:24----------
+there to to this is there too
+
+---------04:27----------
+the voltage of pp bus g3 hot so let's
+
+---------04:29----------
+see if we can save the pads here and get
+
+---------04:32----------
+this to work so that actually looks like
+
+---------04:34----------
+I can I can kind of make a pad out of it
+
+---------04:36----------
+again I'm just gonna put the micro iron
+
+---------04:37----------
+on instead of the standard sized one
+
+---------04:39----------
+because I don't want to I want to wipe
+
+---------04:41----------
+off the oxidation but I don't want to
+
+---------04:43----------
+destroy the pad and if I use my regular
+
+---------04:45----------
+sized iron there's a chance that a pad
+
+---------04:47----------
+that is savable might wind up getting
+
+---------04:49----------
+destroyed that would be a shame so just
+
+---------04:52----------
+turn on the air filter here
+
+---------04:59----------
+now right now I'm not I'm not really
+
+---------05:02----------
+looking to solder directly to the pad
+
+---------05:04----------
+what I'm looking to do is get all the
+
+---------05:06----------
+oxidation and the dirt and crap sucked
+
+---------05:08----------
+up onto a little solder ball that I run
+
+---------05:10----------
+over the pad so there's a big difference
+
+---------05:11----------
+because a lot of the people who were
+
+---------05:13----------
+involved with let's say IPC
+
+---------05:14----------
+certification will say that what I'm
+
+---------05:16----------
+doing is wrong here because I'm trying
+
+---------05:17----------
+to solder on top of oxidation and you
+
+---------05:19----------
+don't understand they will understand
+
+---------05:21----------
+what my actual point is here I don't
+
+---------05:22----------
+want to put solder on top of oxidation
+
+---------05:24----------
+because if you put if you try to solder
+
+---------05:25----------
+to oxidation you ruin the joint what I
+
+---------05:27----------
+want to do is scratch away the oxidation
+
+---------05:30----------
+and also have the oxidation kind of get
+
+---------05:31----------
+sucked up into the flux inside our ball
+
+---------05:34----------
+that I'm creating so that's that's why
+
+---------05:36----------
+I'm going over it repeatedly now the
+
+---------05:41----------
+bottom pad is savable and that wasn't
+
+---------05:43----------
+really a good view I should have focused
+
+---------05:45----------
+a little better before starting maybe a
+
+---------05:47----------
+little bit of zoom so the bottom pad is
+
+---------05:49----------
+something that's saved the top pad is
+
+---------05:51----------
+something that's going to require a wire
+
+---------05:52----------
+of some sort because that's that's not
+
+---------05:55----------
+really savable that's kind of screwed up
+
+---------06:00----------
+yeah that's actually very screwed up
+
+---------06:03----------
+really screwed up not gonna
+
+---------06:21----------
+it's not
+
+---------06:33----------
+all right so what I did there is I just
+
+---------06:35----------
+met I got rid of the at insulation stuff
+
+---------06:39----------
+all over there all over the the trace
+
+---------06:42----------
+I'm gonna put a little wire there and
+
+---------06:44----------
+then I'm going to find a resistor of
+
+---------06:46----------
+that value and I'm gonna put the
+
+---------06:48----------
+resistor of that that value over there
+
+---------06:58----------
+I'm just gonna take a here's where I'm
+
+---------07:00----------
+getting my jumper wire from by the way
+
+---------07:02----------
+this doesn't look familiar this is an a
+
+---------07:04----------
+a 1286 battery 2011-2012 so that's just
+
+---------07:10----------
+for what the wire on the inside of the
+
+---------07:13----------
+battery and and get this over here
+
+---------07:38----------
+yes
+
+---------07:51----------
+I have nothing holding that in place
+
+---------07:52----------
+which is why I'm kind of being careful
+
+---------07:54----------
+I'm gonna just put some flux and then
+
+---------07:56----------
+have the tweezers hold the wire in place
+
+---------07:58----------
+so that I can make a nice joint all
+
+---------08:00----------
+around it okay I'll hold the wire in
+
+---------08:05----------
+place here and try to hold the wire in
+
+---------08:07----------
+place the sad excuse for tweezers
+
+---------08:25----------
+nice and flat on the motherboard okay
+
+---------08:28----------
+now
+
+---------08:32----------
+now it's kind of safe for me to go ahead
+
+---------08:35----------
+and get rid of the excess wire
+
+---------08:37----------
+oh so we going like this and there we go
+
+---------08:46----------
+okay now
+
+---------08:55----------
+I have to replace it cap and also the
+
+---------08:59----------
+resistor that's gone now that's a very
+
+---------09:00----------
+common resistor value this one that I
+
+---------09:02----------
+actually really should have in my spool
+
+---------09:03----------
+I actually have it in my spool and zero
+
+---------09:06----------
+four zero two sides I just don't have
+
+---------09:07----------
+any in zero two zero one sighs so you
+
+---------09:10----------
+know what that means that means that we
+
+---------09:13----------
+begin the scavenging and that's what you
+
+---------09:15----------
+hear happening below weird looking
+
+---------09:21----------
+through the boards to find one that I
+
+---------09:24----------
+haven't stolen those resistors from yet
+
+---------09:28----------
+and yeah
+
+---------09:34----------
+about finding those two I've I really
+
+---------09:38----------
+gotta buy those zero two zero one I have
+
+---------09:41----------
+a bunch of zero four zero two because I
+
+---------09:43----------
+could cut the zero four zero two ones
+
+---------09:45----------
+and a half and use it on my wood
+
+---------10:18----------
+that's the sound of me going through a
+
+---------10:20----------
+lot of boards that are missing resistors
+
+---------10:25----------
+all right here we go all right let's
+
+---------10:30----------
+take some let's get the hot air station
+
+---------10:34----------
+turned on and ready
+
+---------10:48----------
+while we're waiting for this to get hot
+
+---------10:50----------
+here
+
+---------11:39----------
+wouldn't exactly call that my my best
+
+---------11:43----------
+I must even work but yeah it's not like
+
+---------11:50----------
+it's not like people send stuff for you
+
+---------11:52----------
+because they want everything started on
+
+---------11:53----------
+as even as possible I'm pretty sure
+
+---------11:57----------
+that's not why any I mean if you watch
+
+---------12:01----------
+all of these videos in their entirety
+
+---------12:03----------
+and you go through all the channel
+
+---------12:05----------
+content and like your goal is to find
+
+---------12:07----------
+somebody is gonna put the components on
+
+---------12:09----------
+perfectly straight and you send
+
+---------12:11----------
+something here anyway I don't know what
+
+---------12:12----------
+to say at that point
+
+---------12:21----------
+all righty
+
+---------12:26----------
+you know I just need to find some way to
+
+---------12:28----------
+test this and then I'll be set as this
+
+---------12:32----------
+was sent for it only I almost did all
+
+---------12:34----------
+that and forgot to replace the LED
+
+---------12:35----------
+driver all right so let's take a look at
+
+---------12:37----------
+that because that is ice I just showed
+
+---------12:40----------
+you what the ball looked like under that
+
+---------12:42----------
+and I have no expectation of that being
+
+---------12:43----------
+any good let's grab one kick on the air
+
+---------12:54----------
+filter
+
+---------13:46----------
+you see how nasty this stuff under the
+
+---------13:48----------
+this is almost like some solder paste
+
+---------13:51----------
+looking a and goo yes gross
+
+---------14:17----------
+just try and blow some of that away
+
+---------14:32----------
+let's see if you can actually wick with
+
+---------14:33----------
+a micro pencil probably one of the
+
+---------14:36----------
+dumbest things I've done in the history
+
+---------14:37----------
+of this channel let's see can this micro
+
+---------14:42----------
+pencil actually wick Pat's yeah
+
+---------14:47----------
+buddy can you just freakin for woah I'm
+
+---------14:54----------
+impressed okay I'm not gonna say that
+
+---------14:56----------
+this is exactly the ideal tool to be
+
+---------14:58----------
+doing the job with but you saw what it
+
+---------14:59----------
+was able to do just there right
+
+---------15:01----------
+staying wikked pads micro pencil the
+
+---------15:09----------
+hakko 2032 is a boss again didn't
+
+---------15:13----------
+exactly do the most perfect job in the
+
+---------15:16----------
+world but that's impressive to me what I
+
+---------15:21----------
+was able to do definitely impressed with
+
+---------15:23----------
+that okay we put flux and take this chip
+
+---------16:10----------
+just take a look at my balls
+
+---------16:17----------
+happy with the way my balls look okay
+
+---------16:24----------
+let's see if I'm an idiot
+
+---------16:26----------
+did I do something right or am I an
+
+---------16:29----------
+idiot I shouldn't say it in those terms
+
+---------16:32----------
+I can do something right and still be an
+
+---------16:34----------
+idiot
+
+---------16:34----------
+it's cuz I get something right doesn't
+
+---------16:36----------
+mean I'm not an idiot
+
+---------16:37----------
+okay let's plug this in this is an old
+
+---------16:42----------
+cracked screwed up assembly
+
+---------16:55----------
+what do we get
+
+---------17:07----------
+yay light I hope you learned something
+

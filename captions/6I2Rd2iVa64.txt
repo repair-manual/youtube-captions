@@ -1,0 +1,2557 @@
+https://www.youtube.com/watch?v=6I2Rd2iVa64
+---------00:00----------
+hi so today I'd like to talk about
+
+---------00:01----------
+what's going on when your MacBook does
+
+---------00:02----------
+not see the battery when your MacBook
+
+---------00:04----------
+will not run off the battery when it
+
+---------00:06----------
+does see the battery but won't charge or
+
+---------00:08----------
+does see it won't run off of it and the
+
+---------00:10----------
+differences between all these different
+
+---------00:11----------
+problems there's a lot of misconception
+
+---------00:13----------
+going on here and a lot of people have
+
+---------00:15----------
+this concept dead wrong and
+
+---------00:16----------
+don't have a basic understanding of how
+
+---------00:18----------
+the system works which is why I feel the
+
+---------00:20----------
+need to do this video and I was reminded
+
+---------00:22----------
+of this when I just got an email from an
+
+---------00:23----------
+ex client the other day asking about you
+
+---------00:25----------
+know the fuse that blows when it won't
+
+---------00:27----------
+see the battery because they of course
+
+---------00:29----------
+it's just like a magical fuse it's not
+
+---------00:30----------
+like there's a system running inside of
+
+---------00:32----------
+here with many different data
+
+---------00:33----------
+communication lines and detection x' and
+
+---------00:36----------
+other things no it's just diffused and
+
+---------00:38----------
+that's what the guy asks so if you have
+
+---------00:39----------
+a little backstory on this one
+
+---------00:41----------
+particular jackass it's somebody who's
+
+---------00:43----------
+sent in a bunch of machines awhile ago
+
+---------00:45----------
+and a bunch of boards only and as many
+
+---------00:47----------
+of you work in the business no board
+
+---------00:49----------
+only clients are the words they will
+
+---------00:52----------
+drive you nuts
+
+---------00:52----------
+and this person sent something in we fix
+
+---------00:54----------
+it we send it back this guy gives my
+
+---------00:56----------
+staff a good 20 minute lecture on how we
+
+---------00:59----------
+suck at everything we do and we
+
+---------01:00----------
+apologize and we say send it back but
+
+---------01:03----------
+this time send the whole machine so we
+
+---------01:04----------
+can see what's wrong with it
+
+---------01:05----------
+it was the RAM like his RAM was causing
+
+---------01:08----------
+it to beep and we weren't jackasses
+
+---------01:10----------
+about it I didn't rub it in his face the
+
+---------01:11----------
+way he would imagine because again in my
+
+---------01:13----------
+professional life when I get on the
+
+---------01:15----------
+professional phone in the real world I
+
+---------01:17----------
+am me but I'm the type of me that I
+
+---------01:19----------
+would give money to even if you know I
+
+---------01:21----------
+was an idiot and I did something stupid
+
+---------01:22----------
+I try to keep it you know civil and in
+
+---------01:26----------
+spite of that this he just fell all over
+
+---------01:29----------
+himself I'm pretty sure he murdered some
+
+---------01:31----------
+of his staff members after this because
+
+---------01:32----------
+of a lecture that he gave based on what
+
+---------01:34----------
+they told him but anyway I just get this
+
+---------01:36----------
+email the other day and every now and
+
+---------01:38----------
+then I get email asking for advice from
+
+---------01:39----------
+this one guy because he just lacks the
+
+---------01:41----------
+gall to ever send something to me again
+
+---------01:44----------
+or give me money again out of fear that
+
+---------01:47----------
+I'll probably just beat the living
+
+---------01:49----------
+out of him he pulls that crap again but
+
+---------01:52----------
+he sends me an email asking what do you
+
+---------01:55----------
+do what fuge do I replace which again it
+
+---------01:57----------
+just the fact that experienced repair
+
+---------01:59----------
+centers are asking me what fuse blows
+
+---------02:01----------
+when the battery stops working just
+
+---------02:02----------
+means that there's a fundamental lack of
+
+---------02:04----------
+understanding about how the system works
+
+---------02:06----------
+and that's what I'd like to discuss with
+
+---------02:08----------
+this video so I got the screen capture
+
+---------02:10----------
+going on here one of the things I hate
+
+---------02:12----------
+about the screen capture is that for
+
+---------02:13----------
+some reason and doesn't want to see the
+
+---------02:14----------
+damn mouse it is better than me using a
+
+---------02:17----------
+pointer and the quality you get with the
+
+---------02:19----------
+camcorder going on a TV but anyway
+
+---------02:21----------
+you're just going to have to listen to
+
+---------02:23----------
+me and where I tell you to look on the
+
+---------02:25----------
+screen when I'm trying to draw your
+
+---------02:26----------
+attention to something so here we're
+
+---------02:28----------
+going to start with in a 1278 from 2012
+
+---------02:31----------
+this is an 8 - 0 - 31 15 board and we're
+
+---------02:34----------
+going to start with the battery
+
+---------02:36----------
+connector so right over here where it
+
+---------02:38----------
+says battery connector hopefully you can
+
+---------02:41----------
+see what I'm selecting it's a J 69 50 so
+
+---------02:44----------
+let's see so over here we have actual
+
+---------02:48----------
+power we have a bunch of ground tabs we
+
+---------02:51----------
+have cysts detect l SM bus bat s CL and
+
+---------02:56----------
+SM bus bat s da
+
+---------02:57----------
+so the important thing here is obviously
+
+---------03:01----------
+power is coming from the battery so
+
+---------03:03----------
+that's going to be on PP v bat
+
+---------03:04----------
+underscore g3 hot underscore con then
+
+---------03:07----------
+there's communication with the battery
+
+---------03:09----------
+how does the system know the battery is
+
+---------03:10----------
+connected how does this is know the
+
+---------03:12----------
+percentage left in the battery how does
+
+---------03:13----------
+this isint know many cycles are on the
+
+---------03:15----------
+battery although this communication is
+
+---------03:17----------
+done with something called the system
+
+---------03:18----------
+management controller or the SMC you've
+
+---------03:21----------
+probably heard of the SMC in terms of
+
+---------03:22----------
+when something is going wonky or
+
+---------03:24----------
+up you use do an SMC reset and things
+
+---------03:26----------
+work nicely again the SMC controls all
+
+---------03:29----------
+of this it tells the system to turn on
+
+---------03:31----------
+it tells the system to charge the
+
+---------03:32----------
+battery stop charging the battery run
+
+---------03:33----------
+off the charger don't run off the
+
+---------03:35----------
+charger all of that good stuff
+
+---------03:36----------
+and you have these two lines here SM bus
+
+---------03:39----------
+anything as as SM bus is going to be
+
+---------03:41----------
+communication with the SMC and SM bus
+
+---------03:44----------
+bat SCL so let's see where these things
+
+---------03:47----------
+go what they do and I'm also going to go
+
+---------03:49----------
+into some basic concepts here such as
+
+---------03:51----------
+what is a pull-up resistor what is a
+
+---------03:53----------
+current sensing circuit so there's going
+
+---------03:55----------
+to be a lot of concepts merged into this
+
+---------03:57----------
+one video and they're all concepts that
+
+---------04:00----------
+you should read up on on your own if you
+
+---------04:01----------
+are a little behind in terms of
+
+---------04:03----------
+understanding how these types of
+
+---------04:04----------
+electronics work so if you'd like to
+
+---------04:06----------
+look up what is a pull-up resistor take
+
+---------04:08----------
+the time to do that now pause the video
+
+---------04:10----------
+if you want to look up what a current
+
+---------04:12----------
+sensing circuit is look up what a
+
+---------04:13----------
+current sensing circuit is do that now
+
+---------04:15----------
+pause the video and then come back to
+
+---------04:17----------
+this now what I'm going to do here is
+
+---------04:19----------
+I'm going to show you what a pull-up
+
+---------04:21----------
+resistor is and how it works at the very
+
+---------04:23----------
+least in this basic little circuit here
+
+---------04:25----------
+so this probably looks like a
+
+---------04:27----------
+bunch of confusing to you and you
+
+---------04:29----------
+have no idea what the is going on
+
+---------04:31----------
+and I assure you you have no reason to
+
+---------04:33----------
+feel bad because there was once a time
+
+---------04:35----------
+what I looked at this and I had no
+
+---------04:37----------
+goddamn idea what was going on so let me
+
+---------04:40----------
+show you how this basic thing works you
+
+---------04:41----------
+see over here where it says SMC of
+
+---------04:43----------
+course you can't tell that I'm pointing
+
+---------04:45----------
+but what the hell its I'm used to it
+
+---------04:46----------
+right here in the upper right corner
+
+---------04:48----------
+where it says SMC 5sm bus connections
+
+---------04:51----------
+where I'm selecting over here see this
+
+---------04:53----------
+whereas you have our fifty to eighty and
+
+---------04:55----------
+our fifty to eighty one let me show you
+
+---------04:56----------
+what this is so you have pp 3 V 4 to
+
+---------04:58----------
+underscore G 3 hot if you've seen my
+
+---------05:01----------
+other videos you understand that these
+
+---------05:02----------
+are just basic voltage rails don't be
+
+---------05:04----------
+scared by all that crap pp 3 V 4 and 2
+
+---------05:06----------
+just means that that's where 3.42 volts
+
+---------05:08----------
+is that is a power line on the system
+
+---------05:11----------
+the system as a 12-volt power line
+
+---------05:12----------
+called pp bus g3 hot it has a 5 volt
+
+---------05:15----------
+power line called PP 5 es 5 you have PP
+
+---------05:18----------
+3 V 4 2 which is a 3 point 42 volt power
+
+---------05:22----------
+line so that's the 3 point 42 volt power
+
+---------05:24----------
+line of the system now what this is is
+
+---------05:27----------
+this is a communication line so this is
+
+---------05:29----------
+where the SMC is talking to the battery
+
+---------05:31----------
+charger chip which is the u 7000 the u
+
+---------05:34----------
+7000 creates the 12 volt rail for the
+
+---------05:36----------
+computer and also creates the 12 volts
+
+---------05:38----------
+that charges the battery and the actual
+
+---------05:41----------
+battery itself so this is communication
+
+---------05:43----------
+between the SMC the battery charging
+
+---------05:45----------
+chip and the actual battery now they all
+
+---------05:48----------
+speak on this line SM bus SMC v g3 SEL
+
+---------05:52----------
+so right in the SMC tab over here where
+
+---------05:54----------
+it says u 4900 in the upper right corner
+
+---------05:56----------
+SM bus SMC v underscore g3 SEL and SM
+
+---------06:01----------
+bus SMC v g3 SDA so what is a pull-up
+
+---------06:05----------
+resistor and what is a pull up resistor
+
+---------06:06----------
+do and how is there a data line created
+
+---------06:09----------
+here with these things can talk well you
+
+---------06:11----------
+have the SMC the battery charger in the
+
+---------06:13----------
+battery and you have these two lines and
+
+---------06:16----------
+these two lines are attached between
+
+---------06:17----------
+these three chips by these resistors
+
+---------06:20----------
+over here now here's what this resistor
+
+---------06:22----------
+does this resistor takes 3.42 volts and
+
+---------06:24----------
+through 2 kilo ohms puts 3.42 volts over
+
+---------06:27----------
+here now the way these chips work is
+
+---------06:29----------
+they take that 3.42 volts and they lower
+
+---------06:32----------
+it so every now and then one of those
+
+---------06:34----------
+chips is going to short that actual rail
+
+---------06:36----------
+to ground and through shorting it to
+
+---------06:38----------
+ground it's going to make these pulses
+
+---------06:40----------
+and these pulses create communication
+
+---------06:41----------
+think of it like Morse code now the
+
+---------06:44----------
+problem here if you didn't have the
+
+---------06:46----------
+resistors is you wouldn't be able to
+
+---------06:48----------
+create a separate line so on the other
+
+---------06:50----------
+side of that resistor on the other side
+
+---------06:53----------
+of the resistor which is the just the
+
+---------06:54----------
+basic P P 3 V 4 2 line that's 3.42 volts
+
+---------06:58----------
+that's not going to be affected by
+
+---------06:59----------
+anything happening but on the other side
+
+---------07:01----------
+of that 2 kilo ohm resistor on the other
+
+---------07:02----------
+side of that resistor that's where all
+
+---------07:04----------
+of the shorting to ground can occur
+
+---------07:06----------
+without affecting the main power rail
+
+---------07:07----------
+the machine so what you do with these is
+
+---------07:09----------
+you create these separate power lines
+
+---------07:10----------
+that 2 kilo ohms of resistance in that
+
+---------07:12----------
+resistor is going to keep everything
+
+---------07:14----------
+that happens on the signal side of the
+
+---------07:17----------
+resistor from affecting the voltage side
+
+---------07:19----------
+of the transistor the power lines inside
+
+---------07:21----------
+and the easiest way to get this across
+
+---------07:23----------
+to you would be to actually show you
+
+---------07:24----------
+what it looks like on an oscilloscope so
+
+---------07:27----------
+that's a three point 42 volt line of the
+
+---------07:29----------
+system right now I'm going to show you
+
+---------07:31----------
+on the oscilloscope what this looks like
+
+---------07:33----------
+and unfortunately my oscilloscope does
+
+---------07:34----------
+not have an HDMI output or a screen
+
+---------07:36----------
+capture that I know how to use very
+
+---------07:38----------
+easily so I'm just going to be using the
+
+---------07:40----------
+old ghetto way of zooming in with the
+
+---------07:41----------
+camcorder so let me just zoom in with
+
+---------07:44----------
+the camcorder here and now you can see
+
+---------07:45----------
+the oscilloscope so now let's get the
+
+---------07:49----------
+probe over here now I attach the charge
+
+---------07:51----------
+and let's it go on one of these lines so
+
+---------07:54----------
+now the three is what the three-point 42
+
+---------07:57----------
+volts side of the resistor looks like
+
+---------07:58----------
+this is the three-point 42 volt power
+
+---------08:00----------
+line it's a standard three-point 42
+
+---------08:03----------
+volts or in this case here 3.6 because
+
+---------08:05----------
+either my machine or my oscilloscope
+
+---------08:07----------
+were running off speck good luck
+
+---------08:09----------
+expecting anything to work around here
+
+---------08:10----------
+the way it's supposed to it will never
+
+---------08:12----------
+ever happen so let's just now I'm
+
+---------08:16----------
+setting this to 1 volt over here here we
+
+---------08:18----------
+go so every single one of those lines
+
+---------08:20----------
+you see is 1 volt so that's 3.46 volts
+
+---------08:23----------
+that I got since I just set this thing
+
+---------08:25----------
+up properly when you have it set for
+
+---------08:28----------
+each line to be 10 volt it's not as
+
+---------08:30----------
+accurate as when you have each line set
+
+---------08:31----------
+to 1 volt so that's three point 42 volts
+
+---------08:33----------
+that's the system voltage now on the
+
+---------08:35----------
+other side of this resistor that's the
+
+---------08:36----------
+other side of this resistor that's where
+
+---------08:38----------
+the line that attaches the battery to
+
+---------08:40----------
+the SMC to the battery charger chip is
+
+---------08:43----------
+and let's see what that looks like when
+
+---------08:44----------
+we look at that side it's going to look
+
+---------08:46----------
+a lot different see that see that over
+
+---------08:49----------
+there now I'm going to try to make it so
+
+---------08:51----------
+you can see a little more
+
+---------08:55----------
+here we go
+
+---------08:56----------
+see those lines so you have three point
+
+---------08:58----------
+42 volts but then every now and then
+
+---------09:00----------
+with the chip is doing is it's actually
+
+---------09:01----------
+shorting that line to ground in order to
+
+---------09:04----------
+make these pulses and that's how the
+
+---------09:05----------
+chip communicates so the chip is doing
+
+---------09:07----------
+that and then the SMC or the battery
+
+---------09:10----------
+charger or the battery will be able to
+
+---------09:11----------
+read what's going on don't ask me what
+
+---------09:14----------
+the any of this means because I
+
+---------09:16----------
+have no idea what that means like what
+
+---------09:18----------
+those pulses mean what the distance
+
+---------09:19----------
+between the means that is all code to me
+
+---------09:22----------
+and that is something that unless you
+
+---------09:23----------
+are an Apple engineer you will never
+
+---------09:25----------
+understand because none of this is
+
+---------09:26----------
+documented but the basic point of this
+
+---------09:29----------
+is this that this is what a healthy
+
+---------09:31----------
+communication looks like you have three
+
+---------09:33----------
+point 42 volts at the top of the line so
+
+---------09:35----------
+it says V top in the lower left corner
+
+---------09:37----------
+is 3.46 and then you have it going from
+
+---------09:40----------
+3.46 to zero volts all the way at the
+
+---------09:42----------
+bottom and it's doing it in these little
+
+---------09:44----------
+intervals and again you can create as
+
+---------09:46----------
+many data lines as you want from a from
+
+---------09:48----------
+one power source it's very simple to do
+
+---------09:51----------
+you just take a resistor and you put it
+
+---------09:52----------
+between a power line and then you put it
+
+---------09:54----------
+between that power line and what you
+
+---------09:56----------
+want to be your data line so again on
+
+---------09:58----------
+one side of the resistor you're going to
+
+---------10:00----------
+have the three point 42 volts and you
+
+---------10:02----------
+can create a data line with anything it
+
+---------10:04----------
+doesn't have to be three point four you
+
+---------10:06----------
+can use four five six ten twenty eighty
+
+---------10:08----------
+whatever it is you want if you're making
+
+---------10:09----------
+your own circuit and on the other side
+
+---------10:11----------
+of it you're going to have the chip
+
+---------10:12----------
+shorting it to ground every now and then
+
+---------10:15----------
+to create these little pulses and the
+
+---------10:19----------
+length of the pulse and how far down it
+
+---------10:22----------
+goes and all of that control pretty much
+
+---------10:24----------
+the create is how you create this
+
+---------10:26----------
+communication that's going on here now
+
+---------10:30----------
+let's do that with the other one so you
+
+---------10:33----------
+can see what it looks like so that's a
+
+---------10:38----------
+data line so what the pull-up resistor
+
+---------10:40----------
+does is it allows you to create a data
+
+---------10:42----------
+line between different components that
+
+---------10:44----------
+use that method of communication so
+
+---------10:46----------
+let's go back to where you can see me
+
+---------10:50----------
+and where I can talk now a common
+
+---------10:53----------
+problem is going to be that something is
+
+---------10:56----------
+shorting your data line to ground and
+
+---------10:58----------
+now there are many different data lines
+
+---------10:59----------
+with the SMC in this machine the battery
+
+---------11:01----------
+talks to the battery charger which talks
+
+---------11:03----------
+to the SMC you have sensors so if your
+
+---------11:05----------
+machine is running
+
+---------11:06----------
+really really slow or your fan is on
+
+---------11:09----------
+high all the time you could have a sent
+
+---------11:10----------
+a sensor issue in your data line where
+
+---------11:12----------
+one of the data lines is being pulled
+
+---------11:13----------
+down by something and in this instance
+
+---------11:15----------
+let's see where this thing goes
+
+---------11:17----------
+so I knew that something was wrong with
+
+---------11:20----------
+the data line going to the battery which
+
+---------11:22----------
+is why I looked for smbus batt SDA and
+
+---------11:25----------
+smbus batt SCL so you have the battery
+
+---------11:28----------
+you have the u 7000 battery charger chip
+
+---------11:31----------
+which creates PP bus g3 huh which I've
+
+---------11:34----------
+talked about in other videos and you
+
+---------11:35----------
+have the SMC now one of these three
+
+---------11:38----------
+things was probably not working the way
+
+---------11:39----------
+it was supposed to I tried a new battery
+
+---------11:41----------
+and I still had an X on my battery I
+
+---------11:43----------
+checked our 5280 and our 50 to 81
+
+---------11:46----------
+because if one of these resistors over
+
+---------11:48----------
+here is blown if one of those resistors
+
+---------11:49----------
+is not there you will have no data line
+
+---------11:51----------
+these chips do not actually create data
+
+---------11:55----------
+what they do is they simply take a line
+
+---------11:57----------
+that already exists and by shorting it
+
+---------11:58----------
+to ground that creates data but without
+
+---------12:01----------
+3.42 volts therefore this too short to
+
+---------12:04----------
+ground there's no data line there's
+
+---------12:05----------
+going to be a constant 0 volts now I
+
+---------12:07----------
+checked on one of these resistors and I
+
+---------12:10----------
+had standard communication and I checked
+
+---------12:12----------
+on the other one and it was zero volts
+
+---------12:14----------
+all the time zero volts all the time
+
+---------12:16----------
+means that it's being shorted to ground
+
+---------12:17----------
+the resistor itself was still good so
+
+---------12:20----------
+what I notice is that somewhere along
+
+---------12:22----------
+this board something was shorting that
+
+---------12:24----------
+to ground so it's either the battery
+
+---------12:26----------
+it's the battery charger or the SMC or
+
+---------12:29----------
+it could be this little battery
+
+---------12:32----------
+indicator even though it's not listed on
+
+---------12:35----------
+here because you know sometimes these
+
+---------12:36----------
+schematics just don't do what they're
+
+---------12:37----------
+supposed to it that is actually one of
+
+---------12:40----------
+the things that it talks to so let's go
+
+---------12:41----------
+over to the board view so I can show you
+
+---------12:43----------
+what I mean I'm going to go over to the
+
+---------12:45----------
+board view I mean hit the N key which
+
+---------12:46----------
+allows me to look up everywhere
+
+---------12:48----------
+something shows up on the board and of
+
+---------12:50----------
+course it's going to take me all out of
+
+---------12:51----------
+where I was because the software sucks
+
+---------12:53----------
+so here we go so that's the pull-up
+
+---------12:55----------
+resistor R 5280 and how you know you
+
+---------12:58----------
+can't see my mouse so can't really now
+
+---------12:59----------
+right well then in the upper left corner
+
+---------13:01----------
+you have the battery indicator it goes
+
+---------13:04----------
+to the battery indicator obviously the
+
+---------13:06----------
+the battery indicator in order to know
+
+---------13:08----------
+what the battery is doing should be
+
+---------13:09----------
+attached to the data line that's going
+
+---------13:11----------
+to the battery you have it going to the
+
+---------13:13----------
+battery charger trip they use 7,000 a
+
+---------13:15----------
+little bit lower than that and then
+
+---------13:16----------
+below into the right you have it going
+
+---------13:18----------
+to the third
+
+---------13:19----------
+upper-right ball on the SMC which is you
+
+---------13:21----------
+4900 so there are four possibilities as
+
+---------13:25----------
+to why this is not working the battery
+
+---------13:27----------
+is bad there's something wrong with the
+
+---------13:30----------
+battery indicator or the connector for
+
+---------13:33----------
+the battery indicator could have some
+
+---------13:34----------
+crap in it there's something wrong with
+
+---------13:35----------
+our u 7000 or there's a short somewhere
+
+---------13:37----------
+over than around the u 7000 area or it's
+
+---------13:40----------
+the SMC so define the short I decided to
+
+---------13:43----------
+inject three volts into that line I
+
+---------13:45----------
+figured if I inject three volts into
+
+---------13:47----------
+that line whatever is pulling it to
+
+---------13:49----------
+ground is going to get very very hot and
+
+---------13:51----------
+I was dead wrong because the short while
+
+---------13:53----------
+being a short was not enough of a shorts
+
+---------13:55----------
+actually pull more than 0.1 amps good
+
+---------13:58----------
+luck feeling a short when it's 3 volts
+
+---------14:00----------
+at 0.1 amps nothing's going to get hot
+
+---------14:02----------
+so I decided ok I'm going to do this the
+
+---------14:04----------
+hard way
+
+---------14:05----------
+I removed the battery indicator I
+
+---------14:06----------
+without removing the connector still
+
+---------14:08----------
+same thing I removed u 7000 because it
+
+---------14:11----------
+was next on my list and the short went
+
+---------14:12----------
+away completely
+
+---------14:13----------
+thank God went away completely because
+
+---------14:16----------
+if it didn't go away completely when I
+
+---------14:18----------
+removed u 7000 that would have meant
+
+---------14:20----------
+that the SMC was bad and the SMC is a
+
+---------14:22----------
+chip that you were place by removing a
+
+---------14:25----------
+bunch of balls that are like 0.3 or 0.25
+
+---------14:27----------
+millimeters and putting them back on not
+
+---------14:31----------
+something that you want to be doing at
+
+---------14:32----------
+1:00 in the morning
+
+---------14:33----------
+so I replaced you 7000 and then instead
+
+---------14:36----------
+of seeing a question mark on my battery
+
+---------14:38----------
+and instead of seeing an X on my battery
+
+---------14:41----------
+the battery actually worked and one
+
+---------14:43----------
+thing you'll be able to see with this
+
+---------14:44----------
+computer
+
+---------14:44----------
+even after I unplug the charger its able
+
+---------14:47----------
+to stay on and it's going to work I
+
+---------14:50----------
+don't want to give away the wallpaper
+
+---------14:52----------
+because then they'll know that I use
+
+---------14:54----------
+their computer for a video and you'll
+
+---------14:55----------
+probably do creepy crap like Stockton's
+
+---------14:57----------
+because I know that's what some of the
+
+---------14:59----------
+people on YouTube like to do but let's
+
+---------15:02----------
+see yeah it I'll cover the desktop
+
+---------15:05----------
+as you can see it works it's on and all
+
+---------15:10----------
+as well so this what had an X through it
+
+---------15:12----------
+before and it was at 60% battery when I
+
+---------15:15----------
+initially started it and it's now at 75%
+
+---------15:17----------
+which means that I've done my job so
+
+---------15:20----------
+that's what I did to figure out why the
+
+---------15:22----------
+battery had an X and that's the
+
+---------15:24----------
+troubleshooting process I went through
+
+---------15:25----------
+to go from having a battery that was an
+
+---------15:28----------
+X to a battery that actually shows up
+
+---------15:30----------
+with information now to go over some
+
+---------15:32----------
+other common issue
+
+---------15:33----------
+is which are that the battery does not
+
+---------15:35----------
+charge it does not run off the battery
+
+---------15:37----------
+or it sees the charger but it won't
+
+---------15:39----------
+actually run off of the charger now
+
+---------15:40----------
+those are often current sensing issues
+
+---------15:43----------
+so let's go over what current sensing is
+
+---------15:46----------
+over here again if you that I haven't
+
+---------15:49----------
+done the best job of describing how a
+
+---------15:50----------
+data line works but the basic idea of it
+
+---------15:53----------
+is this you take 3.42 volts and you
+
+---------15:55----------
+create as flat 3.42 volts and then any
+
+---------15:59----------
+one of these components that would like
+
+---------16:00----------
+to communicate with one another will
+
+---------16:02----------
+simply take that 3.42 volts and decide
+
+---------16:04----------
+i'm going to short it to ground in short
+
+---------16:06----------
+intervals in order to create those
+
+---------16:08----------
+square looking things that you saw so
+
+---------16:10----------
+every time I would short it to ground
+
+---------16:11----------
+four it would shorted to ground for
+
+---------16:13----------
+certain intervals and the amount of
+
+---------16:15----------
+pulses that you get from those random
+
+---------16:16----------
+shorts to ground the way it draws that
+
+---------16:19----------
+little square looking thing is what
+
+---------16:21----------
+decides what data gets sent do I know
+
+---------16:24----------
+what the pulses mean no clue do I know
+
+---------16:26----------
+what any of those pulses mean what the
+
+---------16:28----------
+code is no and that is for people who
+
+---------16:31----------
+are much smarter than me you add a you
+
+---------16:34----------
+know much better college experience than
+
+---------16:36----------
+I did but all you need to do is see that
+
+---------16:38----------
+there's pulses there compared to another
+
+---------16:40----------
+board that works get an idea if it's
+
+---------16:42----------
+close and you'll know again if you see
+
+---------16:44----------
+that the pulses are only going up to a
+
+---------16:45----------
+maximum of two point six when the data
+
+---------16:48----------
+line is being created from a three point
+
+---------16:49----------
+four volt power line you know if this is
+
+---------16:53----------
+supposed to be three point four volt
+
+---------16:54----------
+power line that this is being created
+
+---------16:55----------
+from but it never goes higher than two
+
+---------16:57----------
+point six is something pulling the line
+
+---------16:59----------
+down I have had that happen before I had
+
+---------17:01----------
+a webcam connector that looked perfect
+
+---------17:03----------
+that was pulling a sensor line down to
+
+---------17:05----------
+two point six and as soon as I removed
+
+---------17:07----------
+the damn webcam connector I was up to
+
+---------17:08----------
+three point four nothing was running
+
+---------17:09----------
+slow anymore so these are all things to
+
+---------17:11----------
+think about but now let's move on to
+
+---------17:14----------
+current sensing let's move on to how
+
+---------17:17----------
+this stuff works because this is an so
+
+---------17:20----------
+there are two different types of current
+
+---------17:21----------
+sensing here this current sensing for
+
+---------17:23----------
+the battery and this current sensing for
+
+---------17:24----------
+the charger now the chip by itself
+
+---------17:26----------
+cannot really tell how much current or
+
+---------17:29----------
+amperage the computer is using it knows
+
+---------17:31----------
+I'm operating at eight volts and
+
+---------17:33----------
+operating at 12 volts I'm operating at
+
+---------17:35----------
+18 volts but it doesn't actually know
+
+---------17:37----------
+how much current how much power it's
+
+---------17:39----------
+using Ohm's law is going to allow you to
+
+---------17:42----------
+figure out how much power you're
+
+---------17:44----------
+actually using and if you don't know
+
+---------17:45----------
+what Ohm's law is the
+
+---------17:46----------
+get up in another tab look up what
+
+---------17:48----------
+voltage is look up what Caron is look up
+
+---------17:50----------
+with resistances and look up how you can
+
+---------17:52----------
+use those things to figure out how many
+
+---------17:54----------
+watts something is using so when
+
+---------17:56----------
+somebody says this is using 100 watts or
+
+---------17:57----------
+200 watts or 1000 watts of electricity
+
+---------18:00----------
+here's the problem with these systems
+
+---------18:02----------
+they use a standard voltage on the
+
+---------18:04----------
+charger so the charger puts out a
+
+---------18:07----------
+standard 17 or 18 volts most laptop
+
+---------18:09----------
+charges put out a standard 17 or 18
+
+---------18:11----------
+volts but how many watts are you
+
+---------18:13----------
+actually using at it how much actual
+
+---------18:15----------
+power you're using that's something that
+
+---------18:17----------
+these systems cannot detect it can
+
+---------18:19----------
+detect how much voltage is present in an
+
+---------18:21----------
+area but it cannot tell how much power
+
+---------18:23----------
+is actually being used without being
+
+---------18:25----------
+somewhere in the circuit so current is
+
+---------18:28----------
+sensed through a resistors right over
+
+---------18:30----------
+here you'll see it's as critical are 70
+
+---------18:32----------
+20 so the u 7000 which is the chip that
+
+---------18:35----------
+controls the charger and creates the
+
+---------18:37----------
+main 12 volt rail for the machine it can
+
+---------18:39----------
+see that there's 18 volts over here but
+
+---------18:41----------
+what the thing cannot see is how much
+
+---------18:43----------
+power the system is actually using it
+
+---------18:45----------
+needs to know how much power the system
+
+---------18:46----------
+is using let's say it senses that the
+
+---------18:48----------
+system is using 8 amps and the charger
+
+---------18:51----------
+itself is a pretty much made to deliver
+
+---------18:54----------
+four or five the little charge with a
+
+---------18:56----------
+little MagSafe that you have is going to
+
+---------18:57----------
+blow up in a bits and pieces and in
+
+---------18:59----------
+order to protect that from happening you
+
+---------19:00----------
+have a current sensing circuit so you
+
+---------19:02----------
+have a current sensing circuit for the
+
+---------19:04----------
+charger which is right over here by our
+
+---------19:05----------
+7020 and you have a current sensing
+
+---------19:07----------
+circuit for the battery which is right
+
+---------19:09----------
+here by our 70/50 now here's how that
+
+---------19:12----------
+works this chip can only sense voltage
+
+---------19:14----------
+it cannot sense how much power is being
+
+---------19:15----------
+used since it is not inside the actual
+
+---------19:18----------
+circuit in order to know what are what's
+
+---------19:20----------
+going on over here between our 7020
+
+---------19:23----------
+between the top and the bottom in order
+
+---------19:25----------
+to know what's going on over here and
+
+---------19:26----------
+this is the area of interest because you
+
+---------19:28----------
+get 12 volts for the system over here
+
+---------19:30----------
+the 12 volt rail is what the entire
+
+---------19:31----------
+system runs off of that is created by
+
+---------19:33----------
+these two transistors and these two
+
+---------19:35----------
+transistors come from right over here we
+
+---------19:37----------
+have our 70 20 so you have our 70 20
+
+---------19:39----------
+going to Q 70 30 and Q 70 35 getting
+
+---------19:42----------
+smooth by L 70 30 and going through the
+
+---------19:45----------
+fuse F 70 40 so going back over here our
+
+---------19:49----------
+70 20 is the point of interest this is
+
+---------19:50----------
+where you're going to be able to figure
+
+---------19:51----------
+out where 99% of the power the computer
+
+---------19:54----------
+is using is actually being used so you
+
+---------19:58----------
+have a resistor on the top of the
+
+---------20:00----------
+small resistor and then you have a
+
+---------20:01----------
+resistor on the bottom of the small
+
+---------20:02----------
+resistor now with the ISL 6259 this chip
+
+---------20:06----------
+called you 7,000 over here is going to
+
+---------20:08----------
+do it's going to read the voltage on top
+
+---------20:10----------
+of this very small resistor and the
+
+---------20:12----------
+voltage in the bottom of this very small
+
+---------20:13----------
+resistor so are 70 20 is a 0.02 ohm
+
+---------20:17----------
+resistor that is a very very small very
+
+---------20:19----------
+very negligible amount of resistance
+
+---------20:22----------
+it's not going to cause a lot of extra
+
+---------20:23----------
+load in the chargers not going to screw
+
+---------20:25----------
+up the system at all but it will create
+
+---------20:27----------
+a very very very small different in
+
+---------20:29----------
+voltage through this 0.02 ohm resistor
+
+---------20:32----------
+which is barely even a resistor there
+
+---------20:34----------
+will be a very very very very very small
+
+---------20:37----------
+voltage drop and that voltage drop is
+
+---------20:39----------
+actually going to be dependent on how
+
+---------20:41----------
+much power the system is using so
+
+---------20:43----------
+knowing that there is a constant here
+
+---------20:45----------
+knowing that the voltage drop across our
+
+---------20:48----------
+7020 is going to be constant it's going
+
+---------20:50----------
+to be different based on how much power
+
+---------20:52----------
+the system is using the u 7000 can
+
+---------20:54----------
+actually figure out current use amperage
+
+---------20:57----------
+that's actually going to the system
+
+---------20:58----------
+based on the voltage difference between
+
+---------21:00----------
+the top and the bottom of our 7020 so
+
+---------21:02----------
+from the top of our 70 20 you have a 10
+
+---------21:04----------
+ohm resistor going to you seven thousand
+
+---------21:06----------
+and on the bottom of our 70 20 you have
+
+---------21:08----------
+a 10 ohm resistor over here that's going
+
+---------21:11----------
+to use seven thousand and it's labeled
+
+---------21:13----------
+charger si si RP and charger si si RN
+
+---------21:16----------
+now here's what happens when it doesn't
+
+---------21:19----------
+want to work off the charge or a lot of
+
+---------21:21----------
+the times one of those 10 ohm resistors
+
+---------21:23----------
+will be blown will be destroyed so one
+
+---------21:24----------
+of the resistors will be 10 ohm and one
+
+---------21:26----------
+of those resistors will be something
+
+---------21:28----------
+silly like 500 ohms or one family in
+
+---------21:31----------
+ohms or oh and you know infinite
+
+---------21:33----------
+resistance and blown and what happens
+
+---------21:36----------
+when that happens is that it will sense
+
+---------21:38----------
+a huge difference in voltage between the
+
+---------21:40----------
+top and the bottom now what happens here
+
+---------21:42----------
+is if it senses a huge difference it's
+
+---------21:43----------
+going to think that the computer is
+
+---------21:45----------
+using millions of amps the u 7000 is
+
+---------21:48----------
+going to say okay it's not using 2 or 4
+
+---------21:50----------
+amps it's using you know thousand amps
+
+---------21:52----------
+and obviously the little MacBook can't
+
+---------21:54----------
+use two thousand amps but if the things
+
+---------21:56----------
+that's using a thousand amps it's going
+
+---------21:58----------
+to say F you charger turn off so
+
+---------22:00----------
+I've had cases where the computer will
+
+---------22:02----------
+actually charge when it's closed and
+
+---------22:04----------
+it's off but it won't charge when you
+
+---------22:06----------
+turn it on because the difference in
+
+---------22:08----------
+power usage when you turn it on would
+
+---------22:10----------
+actually be enough to trip this
+
+---------22:12----------
+and current sensing circuit into saying
+
+---------22:14----------
+no we're not a plus supplying power
+
+---------22:16----------
+anymore and you would get battery is not
+
+---------22:18----------
+charging and the same would happen off
+
+---------22:20----------
+the battery in there are a lot of times
+
+---------22:22----------
+there are a lot of times where it says
+
+---------22:23----------
+58% it can actually see how much power
+
+---------22:26----------
+the battery has you can read the cycle
+
+---------22:28----------
+count you can read all the information
+
+---------22:30----------
+about the battery you can read the cycle
+
+---------22:31----------
+count you can read the age of it and all
+
+---------22:33----------
+that good stuff and how much power is
+
+---------22:34----------
+left but it won't run off of it you'll
+
+---------22:36----------
+take the charger off and the thing will
+
+---------22:37----------
+just turn off and that the same is true
+
+---------22:39----------
+here so on this side of the system you
+
+---------22:42----------
+have our 70 50 and you have the exact
+
+---------22:44----------
+same happening so you have to and
+
+---------22:46----------
+from battery you're going to have your
+
+---------22:47----------
+12 volts and you have a 0.01 ohm
+
+---------22:50----------
+resistor here and with that 0.01 ohm
+
+---------22:53----------
+resistor is going to do again it's going
+
+---------22:55----------
+to be a very very very very small
+
+---------22:57----------
+negligible voltage drop across it but
+
+---------22:59----------
+that's going to be read by the u 7000
+
+---------23:01----------
+before our 70 50 you have our 70 52
+
+---------23:04----------
+which is a zero ohm resistor leading the
+
+---------23:06----------
+u 7000 and after our 70 50 you have a
+
+---------23:10----------
+2.2 ohm resistor that leads to you 7000
+
+---------23:13----------
+so u 7000 again this chip since it's not
+
+---------23:16----------
+actually inside the circuit u 7000 is
+
+---------23:19----------
+controlling transistors that create the
+
+---------23:22----------
+12 volt rail for the machine but u 7000
+
+---------23:24----------
+is not actually inside that 12 volt rail
+
+---------23:26----------
+it's not going to know what's happening
+
+---------23:27----------
+but what it does is it measures the
+
+---------23:30----------
+voltage drop across a constant in their
+
+---------23:33----------
+circuit which is that resistor that 0
+
+---------23:35----------
+point 1 ohm resister point 0 1 ohm
+
+---------23:38----------
+resistor is always going to be doing
+
+---------23:39----------
+pretty much what it's doing in that
+
+---------23:41----------
+circuit that 0.01 ohm resistor is always
+
+---------23:44----------
+going to be creating a voltage drop and
+
+---------23:46----------
+that voltage drop is always going to be
+
+---------23:48----------
+dependent on the amount of amperage and
+
+---------23:50----------
+system is using what the u 7000 is doing
+
+---------23:52----------
+is it's reading a constant within the
+
+---------23:54----------
+circuit to figure out how much amperage
+
+---------23:57----------
+it's using so it's using a constant
+
+---------23:59----------
+which is two voltages that are based on
+
+---------24:02----------
+the current the system is using to
+
+---------24:04----------
+figure it to calculate the current that
+
+---------24:05----------
+the system is using and I'm sorry if I'm
+
+---------24:07----------
+not that great at explaining this I'm
+
+---------24:08----------
+not much of a college professor in fact
+
+---------24:10----------
+I really wasn't that much great of
+
+---------24:12----------
+college student or an electronic student
+
+---------24:14----------
+for that matter honestly I know enough
+
+---------24:16----------
+to fix this stuff and get paid for it
+
+---------24:18----------
+but I am NOT a professor if you want a
+
+---------24:21----------
+professor by all means go to college
+
+---------24:23----------
+where it will take you four to six to
+
+---------24:24----------
+eight years to learn
+
+---------24:26----------
+practical application of this that you
+
+---------24:27----------
+can actually make money I'm just kind of
+
+---------24:29----------
+skipping ahead to the part where you get
+
+---------24:30----------
+to make money and have fun so long story
+
+---------24:33----------
+short you have a resistor in the circuit
+
+---------24:34----------
+it's actually in line with the voltage
+
+---------24:37----------
+rail that you'd like to measure current
+
+---------24:40----------
+usage on you measure the current you
+
+---------24:42----------
+measure the voltage at the top of that
+
+---------24:43----------
+resistor and you measure the voltage at
+
+---------24:45----------
+the other side of that resistor and what
+
+---------24:47----------
+those two voltages are get calculated by
+
+---------24:50----------
+you 7000 and based on whatever values
+
+---------24:53----------
+they program they're measured in there
+
+---------24:55----------
+or figure it out it pretty much tells
+
+---------24:58----------
+the system this is how much amperage
+
+---------24:59----------
+it's using if it's using too much
+
+---------25:01----------
+amperage it turns it off and if any one
+
+---------25:03----------
+of those resistors or any of the traces
+
+---------25:04----------
+to these resistors which are by the way
+
+---------25:06----------
+in high voltage so it's close to the
+
+---------25:10----------
+battery it's close to the source of the
+
+---------25:12----------
+charger so those are going to be spots
+
+---------25:13----------
+where if water hits there you're going
+
+---------25:15----------
+to see big explosions and nastiness on
+
+---------25:17----------
+the board
+
+---------25:17----------
+those are spots that you should look at
+
+---------25:19----------
+and those are spots that will usually be
+
+---------25:22----------
+screwed up if your battery your chargers
+
+---------25:23----------
+not working
+
+---------25:24----------
+so point is this is not simple this is
+
+---------25:27----------
+not just oh there's a fuse that goes to
+
+---------25:29----------
+the battery people will always ask why
+
+---------25:31----------
+don't they just design it's simple why
+
+---------25:33----------
+can't there just be a fuse on the
+
+---------25:35----------
+charger and a fuse on the battery that
+
+---------25:37----------
+would make this simple there already are
+
+---------25:39----------
+fuses there they never blow they only
+
+---------25:41----------
+blow if lightning hits it there is a lot
+
+---------25:43----------
+more to the system than just having a
+
+---------25:45----------
+fuse don't you actually want your system
+
+---------25:47----------
+to turn off if something happened
+
+---------25:48----------
+instead of blowing up the charger that's
+
+---------25:50----------
+what the high side current sensing is
+
+---------25:54----------
+for buy the charger don't you want the
+
+---------25:56----------
+system to turn off instead of the
+
+---------25:58----------
+battery blowing up and melting your
+
+---------25:59----------
+genitals that's what our 70 50 and our
+
+---------26:02----------
+70 51 and 52 are therefore two current
+
+---------26:04----------
+cents in the battery if it's drawing too
+
+---------26:06----------
+much current from the battery it's going
+
+---------26:07----------
+to turn itself off before it melts your
+
+---------26:09----------
+genitals don't you want to know how much
+
+---------26:11----------
+power you have left in your battery
+
+---------26:13----------
+don't you want to know if you're at 1
+
+---------26:15----------
+percent or 99 percent that's why you
+
+---------26:18----------
+have a system management controller that
+
+---------26:20----------
+speaks with the battery via a data line
+
+---------26:22----------
+that is controlled by pull-up resistors
+
+---------26:24----------
+you need these functions don't get
+
+---------26:27----------
+pissed off that this is a complicated
+
+---------26:29----------
+system because at the same time you're
+
+---------26:30----------
+getting pissed off this is a complicated
+
+---------26:32----------
+system you're going to be pissed off
+
+---------26:33----------
+when your charge is blowing up your
+
+---------26:35----------
+genitals are getting melted and you in
+
+---------26:36----------
+you and it turns off right in the middle
+
+---------26:38----------
+of an important word document that you
+
+---------26:40----------
+and saved because he didn't homage
+
+---------26:41----------
+battery you have left when water gets
+
+---------26:43----------
+spilled on this any one of these complex
+
+---------26:45----------
+parts of the machine can get turned to
+
+---------26:47----------
+ and you need to understand exactly
+
+---------26:49----------
+how they work if you want to repair them
+
+---------26:51----------
+you need to understand exactly how they
+
+---------26:52----------
+work if you want to make money repairing
+
+---------26:54----------
+them it's not going to be something as
+
+---------26:55----------
+simple as a fuse you are gonna have to
+
+---------26:57----------
+turn your brain on you're gonna have to
+
+---------26:59----------
+do some googling hopefully even if you
+
+---------27:01----------
+understand none of what I've talked
+
+---------27:02----------
+about in this video
+
+---------27:03----------
+even if I've done a terrible terrible
+
+---------27:05----------
+job of explaining it to the point where
+
+---------27:07----------
+you have no idea what I'm talking about
+
+---------27:08----------
+hopefully at the very least I've given
+
+---------27:10----------
+you things to Google so that you can
+
+---------27:12----------
+learn for yourself even if my
+
+---------27:13----------
+explanation sucks and I know how that
+
+---------27:15----------
+feels because I've went to look at some
+
+---------27:16----------
+of these videos and I want to look at
+
+---------27:18----------
+some of these online descriptions where
+
+---------27:20----------
+I'm like how the hell does this guy
+
+---------27:21----------
+expect that I'm gonna understand what
+
+---------27:22----------
+he's talking about this makes no goddamn
+
+---------27:24----------
+sense he's the only one who knows it at
+
+---------27:26----------
+the very least if you think that of me
+
+---------27:28----------
+you can Google what is a pull-up
+
+---------27:29----------
+resistor you can Google what is it data
+
+---------27:31----------
+line created by a pull-up resistor you
+
+---------27:33----------
+can Google what is high side current
+
+---------27:35----------
+sensing what is current sensing and how
+
+---------27:37----------
+does this work and then you can put it
+
+---------27:38----------
+together in your brain and figure out
+
+---------27:40----------
+why it is the machine isn't working but
+
+---------27:42----------
+what I want out of you is to stop asking
+
+---------27:44----------
+these simple ask questions and to stop
+
+---------27:46----------
+assuming that it's a few stop assuming
+
+---------27:48----------
+that everything is set up so simply and
+
+---------27:49----------
+stopping is living in a world that is
+
+---------27:52----------
+limited by your ignorance that is
+
+---------27:54----------
+limited by what you have not learned yet
+
+---------27:56----------
+learn google figure it out take the
+
+---------27:59----------
+terms that i've given and run with them
+
+---------28:01----------
+and learn how to make some money for
+
+---------28:03----------
+yourself off of things that other people
+
+---------28:04----------
+would have called unfixable when you go
+
+---------28:07----------
+to Apple when you go to the Apple Store
+
+---------28:09----------
+when you look at the Apple service
+
+---------28:10----------
+manual when there is a problem with this
+
+---------28:13----------
+part of the system the service manual
+
+---------28:14----------
+says replace MLB MLB is a part that is
+
+---------28:18----------
+often four hundred six hundred seven
+
+---------28:20----------
+hundred twelve hundred dollars are
+
+---------28:22----------
+seventy twenty are 70 twenty-one are
+
+---------28:25----------
+seventy twenty two these cost seventeen
+
+---------28:28----------
+cents the difference between seventeen
+
+---------28:30----------
+cents and twelve hundred dollars is
+
+---------28:32----------
+nothing other than the ability to use
+
+---------28:36----------
+your brain which is something that the
+
+---------28:38----------
+people at the Genius Bar have the
+
+---------28:39----------
+neither the time nor the inclination to
+
+---------28:42----------
+do but hopefully you do and again while
+
+---------28:44----------
+you do have to learn some concepts while
+
+---------28:46----------
+you will have to Google while you will
+
+---------28:47----------
+have to apply some knowledge to learn
+
+---------28:49----------
+this stuff it's not going to be that
+
+---------28:51----------
+hard I assure you there are
+
+---------28:53----------
+hundreds of people out there that will
+
+---------28:54----------
+attest of the fact that they don't think
+
+---------28:56----------
+that I have a working brain there are a
+
+---------28:58----------
+lot of people out to the think I'm
+
+---------28:59----------
+pretty damn dumb and if I can figure
+
+---------29:01----------
+this out to the point where I can
+
+---------29:02----------
+collect $325 plus tax for fixing this
+
+---------29:05----------
+type of problem then so can you if you
+
+---------29:08----------
+have any questions that are worthwhile
+
+---------29:09----------
+leave them in the comments and I will do
+
+---------29:11----------
+my best to reply to them as I get a
+
+---------29:12----------
+chance hopefully you learned something
+
+---------29:14----------
+about troubleshooting battery and
+
+---------29:15----------
+charging circuit issues on a MacBook Pro
+
+---------29:17----------
+unibody and have a good day
+

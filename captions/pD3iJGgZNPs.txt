@@ -1,0 +1,622 @@
+https://www.youtube.com/watch?v=pD3iJGgZNPs
+---------00:02----------
+all right so today we're going to start
+
+---------00:04----------
+with a liquid damaged Rena body somebody
+
+---------00:08----------
+donated here which is very nicely they
+
+---------00:12----------
+just went up and said you know I have
+
+---------00:14----------
+too much money and since I have too much
+
+---------00:16----------
+money I just kind of want to give this
+
+---------00:17----------
+way instead of selling it for hundred
+
+---------00:18----------
+dollars even though I don't really need
+
+---------00:20----------
+a new computer like soon when we turn it
+
+---------00:23----------
+on there's an image on the screen which
+
+---------00:26----------
+you'll never see what this shitty
+
+---------00:27----------
+camphor but I can but there's no
+
+---------00:29----------
+backlight so let's go about
+
+---------00:31----------
+troubleshooting the circuit now I've
+
+---------00:32----------
+said if you want to find a short in the
+
+---------00:33----------
+back blind circuit you can start from
+
+---------00:35----------
+the capacitor the diode on the other
+
+---------00:37----------
+side of the board from the backlight
+
+---------00:38----------
+output to ground diode mode or you can
+
+---------00:41----------
+check with resistance I prefer diode
+
+---------00:43----------
+mode and you can see what measurement
+
+---------00:44----------
+you get that was what I discussed in the
+
+---------00:46----------
+prior video on this one I'm just gonna
+
+---------00:48----------
+start from the top because the board is
+
+---------00:50----------
+already is still screwed in and honestly
+
+---------00:52----------
+I just don't feel like taking it out
+
+---------00:53----------
+right now I'm probing on the LVDS
+
+---------00:55----------
+connector the first thing I'm going to
+
+---------00:56----------
+do is check the fuse there is a fuse for
+
+---------00:59----------
+a 12 volt yeah you know we're 12 volts
+
+---------01:03----------
+goes through before it gets anywhere
+
+---------01:05----------
+else in the circuit that's this little
+
+---------01:08----------
+thing with the dot on it that looks like
+
+---------01:10----------
+ because this was liquid
+
+---------01:13----------
+this line
+
+---------01:15----------
+see that little thing with the dot on it
+
+---------01:16----------
+I'm going to point to you guys you're
+
+---------01:18----------
+black you can't see
+
+---------01:24----------
+I actually kind of like using the
+
+---------01:25----------
+oscilloscope just because I have the
+
+---------01:27----------
+little shitty alligator clips to them so
+
+---------01:30----------
+I don't have the hole both in my probe
+
+---------01:31----------
+is much smaller so I wound up using this
+
+---------01:34----------
+a lot even though the multimeter will
+
+---------01:35----------
+clearly do the job so on both sides of
+
+---------01:38----------
+my fuse I
+
+---------01:42----------
+12 volts and 12 volts
+
+---------01:48----------
+so the feels good
+
+---------01:50----------
+when the connector itself looks fun it's
+
+---------01:53----------
+not blowing up you know even though it
+
+---------01:54----------
+looks like and balls so next
+
+---------01:58----------
+I'm going to do is check backlight
+
+---------01:59----------
+enable a couple of things that you check
+
+---------02:01----------
+in the back light circuit is physical
+
+---------02:03----------
+damage like a broken LVDS connector
+
+---------02:05----------
+blown fuse usually because something in
+
+---------02:07----------
+there short in the ground or there's
+
+---------02:09----------
+something wrong with the basic circuit
+
+---------02:11----------
+that tells it to turn on so here you can
+
+---------02:13----------
+see the back light circuit and here you
+
+---------02:15----------
+see B Klem over here they're supposed to
+
+---------02:18----------
+be three volts but there is no three
+
+---------02:21----------
+volts here as I'm going to show you now
+
+---------02:24----------
+the way this works is you see also you
+
+---------02:26----------
+need Bikila to the power M enemies they
+
+---------02:31----------
+flip 4 so that is going to be 12 volts
+
+---------02:34----------
+and there is a FET on the other side
+
+---------02:35----------
+that's going to switch that off now are
+
+---------02:37----------
+nine seven three one nine nine seven
+
+---------02:38----------
+fifteen is a voltage divider network
+
+---------02:40----------
+that's going to turn that twelve volts
+
+---------02:42----------
+into three volts so let's see what we
+
+---------02:43----------
+get here now our nine seven fifteen and
+
+---------02:47----------
+our nine seven three one according to
+
+---------02:52----------
+this thing here let's plug in C we get
+
+---------02:54----------
+on nine seven three one nine seven
+
+---------02:58----------
+fifteen by the
+
+---------02:59----------
+bitching about the camera angle how
+
+---------03:01----------
+about you pay me so that I can hire a
+
+---------03:03----------
+ assistant the standard be my
+
+---------03:05----------
+cameraman thank you very much okay let's
+
+---------03:08----------
+see what we find
+
+---------03:08----------
+alright so it says that it's these two
+
+---------03:10----------
+right here so
+
+---------03:15----------
+let's see where we go now one of those
+
+---------03:18----------
+remember I'm supposed to be getting 12
+
+---------03:19----------
+volts from because that's going from 12
+
+---------03:21----------
+volts to the input of backlight enable
+
+---------03:25----------
+and as you can see I do get that 12
+
+---------03:28----------
+volts so there's a FET on the other side
+
+---------03:31----------
+of the board I believe it's on the other
+
+---------03:33----------
+side of the board on this one I honestly
+
+---------03:34----------
+don't even remember off the top my head
+
+---------03:35----------
+that gets us there's a FET on the other
+
+---------03:38----------
+side of the board that says whether or
+
+---------03:40----------
+not to send the 12 volts over here or
+
+---------03:42----------
+not so that I don't have to look through
+
+---------03:43----------
+that one because it already works that
+
+---------03:45----------
+FET was actually the problem in the
+
+---------03:46----------
+prior video there's a solder blob
+
+---------03:48----------
+on it on the other side of this I have
+
+---------03:53----------
+nothing because that's the end that's
+
+---------03:54----------
+going there now a voltage divider
+
+---------03:56----------
+circuit is going to be one resistor that
+
+---------03:59----------
+goes from the voltage you want to lower
+
+---------04:01----------
+to its destination and then from the
+
+---------04:03----------
+destination to ground and that's going
+
+---------04:06----------
+to do the voltage dividing so let's see
+
+---------04:08----------
+now yeah other resistor in the network
+
+---------04:12----------
+one of them is 301 K and one of the
+
+---------04:17----------
+I'm actually looking through the
+
+---------04:19----------
+viewfinder and I can't me
+
+---------04:21----------
+shitty viewfinder one of them is 100k
+
+---------04:26----------
+there we go like can't believe how shady
+
+---------04:28----------
+this few factories
+
+---------04:31----------
+so I'm going to try measuring them now
+
+---------04:33----------
+and try and measure gotta put some
+
+---------04:37----------
+tripod so you can see because I do need
+
+---------04:39----------
+both hands for this
+
+---------04:44----------
+I'm spending mr. wrong games can
+
+---------04:51----------
+we go
+
+---------04:54----------
+by the way if you want to measure the
+
+---------04:56----------
+resistance of something make sure to
+
+---------04:57----------
+turn the off booting awful they
+
+---------05:01----------
+drive with bad sectors that haze test
+
+---------05:03----------
+ so I don't go that I'm not
+
+---------05:04----------
+turning it off properly too close it's
+
+---------05:07----------
+already that's when I use it as
+
+---------05:08----------
+my test drive I can use something
+
+---------05:11----------
+obviously turn everything do not try to
+
+---------05:14----------
+measure resistance with on and just
+
+---------05:16----------
+don't don't don't do stupid don't
+
+---------05:19----------
+be lazy
+
+---------05:21----------
+all right so the first resistance
+
+---------05:33----------
+that did not work when he brought it and
+
+---------05:35----------
+it was flashing and blinking and booping
+
+---------05:37----------
+bopping
+
+---------05:40----------
+Oh
+
+---------05:42----------
+Marquess I'll promote you don't kill
+
+---------05:45----------
+this if you firm work that it's gonna
+
+---------05:46----------
+die say it was just leave it on like you
+
+---------05:50----------
+do some if you play a youtube video
+
+---------05:52----------
+it's gonna die thank you to be make sure
+
+---------05:55----------
+it's 360p or less play The Honeymooners
+
+---------06:02----------
+that smells or that smell that smells
+
+---------06:05----------
+worse than GPU so that's ten times worse
+
+---------06:11----------
+the GPU satiric good so this over here
+
+---------06:14----------
+is supposed to be it is really sad I'm
+
+---------06:21----------
+not standing my hands up
+
+---------06:28----------
+I think it's smaller probes for this
+
+---------06:30----------
+ thing
+
+---------06:34----------
+you could see I got through probs like
+
+---------06:36----------
+crazy I went offending them destroying
+
+---------06:47----------
+so this measures 106 colognes
+
+---------06:57----------
+and this measure is
+
+---------07:00----------
+17 and Counting kilohms and they're
+
+---------07:03----------
+supposed to be 301 K and 100 K which
+
+---------07:07----------
+means that this is I need to go
+
+---------07:12----------
+okay
+
+---------07:15----------
+it started
+
+---------08:11----------
+I'm putting this captain tape here
+
+---------08:13----------
+because I know that I'm going to wind up
+
+---------08:14----------
+burning the LVDS Maki
+
+---------08:26----------
+Venera it's 60 plus tax and give her the
+
+---------08:28----------
+protector but also read the notes
+
+---------08:32----------
+then you have to make sure to read the
+
+---------08:33----------
+notes
+
+---------08:49----------
+by
+
+---------08:55----------
+you read the notes in here
+
+---------08:58----------
+and so that you ready you read the notes
+
+---------09:00----------
+veneer Oh veneer that makes Steve reason
+
+---------09:07----------
+uh-huh excellent
+
+---------09:17----------
+okay so I left the side around the tip
+
+---------09:20----------
+of my iron which actually just came off
+
+---------09:21----------
+and burned my finger
+
+---------09:30----------
+and I can't see because I'm soldering
+
+---------09:32----------
+viewfinder over $100 camera
+
+---------09:36----------
+so now I have to find the 100 then the
+
+---------09:39----------
+301 kilometres
+
+---------10:54----------
+all right so I have another board here
+
+---------10:56----------
+that has the 101 and green to 1k ohm
+
+---------10:58----------
+resistor which is close enough for this
+
+---------11:00----------
+
+
+---------11:43----------
+I'm gonna eventually wind up getting one
+
+---------11:45----------
+of those cameras that you could put
+
+---------11:46----------
+inside the microscope so that I can
+
+---------11:49----------
+actually see what I'm doing because not
+
+---------11:50----------
+only can I not do this in the microscope
+
+---------11:52----------
+in order for you to see it in the candle
+
+---------11:53----------
+but I actually have to use the camera as
+
+---------11:56----------
+my as the as a microscope and that's
+
+---------12:00----------
+really awful
+
+---------12:07----------
+okay
+
+---------12:09----------
+in phones and it actually straight
+
+---------12:22----------
+your residency sparks fire excitement
+
+---------12:35----------
+okay back to the moment of truth
+
+---------12:58----------
+Oh
+
+---------13:25----------
+then we're done
+
+---------13:51----------
+and if I point to it on you so that's
+
+---------13:53----------
+good
+
+---------13:58----------
+keeping the probe on there and this is
+
+---------14:01----------
+all this is family how this is felon
+
+---------14:04----------
+let's just take it off the track
+
+---------14:24----------
+two volts 2.8 it really doesn't matter
+
+---------14:27----------
+as long as there's something that other
+
+---------14:28----------
+than zero here we have 2.8 and we're
+
+---------14:32----------
+good
+

@@ -1,0 +1,544 @@
+https://www.youtube.com/watch?v=oTHwxtpUUeE
+---------00:00----------
+all right today we have in a 1278
+
+---------00:02----------
+MacBook they say 1278 MacBook has no
+
+---------00:04----------
+power let's open up this MacBook and
+
+---------00:06----------
+figure out what's going on with it
+
+---------00:08----------
+it's another MacBook that's been chosen
+
+---------00:09----------
+at random so this MacBook is not turning
+
+---------00:12----------
+on this is an ancient 8 to 0 - 3115
+
+---------00:16----------
+board dual core Ivy Bridge CPU so we're
+
+---------00:21----------
+gonna now we have a light in the charger
+
+---------00:22----------
+which means our pp 3 before 2 is present
+
+---------00:24----------
+as can be seen here but as our pp bus
+
+---------00:26----------
+present it is is our pp 5vs5 present it
+
+---------00:31----------
+appears to be now the next question is
+
+---------00:33----------
+pp 5 es 3 present and it's not VP 5 es 3
+
+---------00:38----------
+is not present hmm 155 es 3 is a short
+
+---------00:42----------
+to ground it's always possible PP 5 es 3
+
+---------00:45----------
+is a short circuit to ground which to be
+
+---------00:47----------
+keeping you from working and look it
+
+---------00:49----------
+does have a short circuit to ground
+
+---------00:50----------
+that's keeping it from working so we did
+
+---------00:52----------
+here as we started going throughout the
+
+---------00:53----------
+main power rails went through our pp bus
+
+---------00:56----------
+g3 hotter pp 3 before 2 PP 5 vs 5 and
+
+---------00:59----------
+then we went to PP 5 es 3 so if I open
+
+---------01:01----------
+up the schematic and the board view for
+
+---------01:03----------
+this board you'll be able to get an idea
+
+---------01:04----------
+of what it is that I was looking at when
+
+---------01:07----------
+I was looking at these these lovely
+
+---------01:08----------
+things here so if I open up the
+
+---------01:10----------
+schematic in the board view and I go to
+
+---------01:12----------
+page 7 on this one you're going to see
+
+---------01:13----------
+that we have a list of rails and I was
+
+---------01:16----------
+measuring them one by one by one so we
+
+---------01:18----------
+checked for our pp bus g3 huh it says
+
+---------01:21----------
+over here supposed to be twelve point
+
+---------01:22----------
+eight it was twelve point six close
+
+---------01:23----------
+enough we checked pp 3 v4 - we take the
+
+---------01:26----------
+voltage er there it was three point
+
+---------01:28----------
+three close enough PP 5 es 5 we check
+
+---------01:30----------
+for that it was where it's supposed to
+
+---------01:32----------
+be then we checked for PP 5 es 3 PP 5 es
+
+---------01:35----------
+3 is gonna show up on this capacitor
+
+---------01:37----------
+over here and it wasn't showing up so
+
+---------01:40----------
+then what we did is we tried to figure
+
+---------01:41----------
+out if we had a short to ground so we
+
+---------01:43----------
+did I just went to that cup area - that
+
+---------01:45----------
+capacitor I have no power plugged into
+
+---------01:47----------
+the board as you can see here point 4
+
+---------01:50----------
+ohm short to ground and I'm at using
+
+---------01:53----------
+resistance mode so that means that there
+
+---------01:55----------
+is a short circuit of ground we're gonna
+
+---------01:56----------
+have to find in this MacBook so I'm just
+
+---------01:58----------
+gonna take this MacBook out of the case
+
+---------01:59----------
+and we are going to get started
+
+---------02:01----------
+troubleshooting and figuring out what it
+
+---------02:03----------
+is that is shorting our power rail to
+
+---------02:05----------
+ground you all excited folks hope you're
+
+---------02:08----------
+all excited that we're gonna fix yet
+
+---------02:09----------
+another MacBook cuz that's we do here on
+
+---------02:11----------
+this channel as we fix MacBooks so we're
+
+---------02:13----------
+gonna lower
+
+---------02:14----------
+my powers apply down to five volts maybe
+
+---------02:16----------
+even just one volt and output that into
+
+---------02:18----------
+where I think the short circuit is
+
+---------02:20----------
+according the somatic and board view PP
+
+---------02:21----------
+5 vs 3 is right here
+
+---------02:26----------
+[Music]
+
+---------02:46----------
+all right we're using five amps at 1.9
+
+---------02:49----------
+volt so this is a short that should be
+
+---------02:51----------
+fairly obvious to fine as you all know
+
+---------02:53----------
+I'm in the front of the store
+
+---------02:54----------
+not the back of the store and the
+
+---------02:56----------
+thermal camera is in the back of the
+
+---------02:59----------
+store and so that means that I would
+
+---------03:00----------
+have to walk to the back of the store in
+
+---------03:03----------
+order to use the thermal camera to find
+
+---------03:04----------
+shorts and that is absolutely not worth
+
+---------03:07----------
+the proposition look if I have to walk I
+
+---------03:10----------
+have to do any sort of work of any kind
+
+---------03:12----------
+not doing it not doing it so we're gonna
+
+---------03:15----------
+try to find the short circuit using
+
+---------03:16----------
+alcohol which I do have here in the
+
+---------03:19----------
+front of the store and if I can find the
+
+---------03:21----------
+short circuit using alcohol then I can
+
+---------03:22----------
+show you how to do this without having
+
+---------03:24----------
+to spend money on a thermal camera which
+
+---------03:26----------
+i think is way too much money for this
+
+---------03:28----------
+profession given how proficient one can
+
+---------03:30----------
+be with alcohol
+
+---------03:41----------
+okay so Tim Herman of TC RS circuit said
+
+---------03:46----------
+that the short is most likely near the
+
+---------03:48----------
+audio circuit and I want to show you
+
+---------03:49----------
+just how high-quality the advice that
+
+---------03:52----------
+you can get by going to TC RS circuit
+
+---------03:55----------
+dot repair slash contact - us that's TC
+
+---------03:57----------
+RS circuit dot repair slash contact - us
+
+---------04:00----------
+is if you need free advice on how to fix
+
+---------04:02----------
+your own motherboard if you take a look
+
+---------04:04----------
+at this board and we take a look at the
+
+---------04:06----------
+audio chip you'll notice that the
+
+---------04:08----------
+melting is happening right by the audio
+
+---------04:10----------
+IC which means that he was indeed
+
+---------04:12----------
+correct Wow look at that
+
+---------04:16----------
+imagine that this is the again the
+
+---------04:18----------
+quality of free help that you will get
+
+---------04:20----------
+from Tim Herrmann is utterly amazing
+
+---------04:22----------
+look at that look at that Wow folks I'm
+
+---------04:27----------
+telling you this kid is talented he knew
+
+---------04:30----------
+what was wrong with my board what we're
+
+---------04:31----------
+gonna do now is we're gonna remove that
+
+---------04:32----------
+cap and let's just take a look at on the
+
+---------04:35----------
+schematic and board view all waiting for
+
+---------04:36----------
+my hot air to get up get heat it up so
+
+---------04:39----------
+it looks like it's this cap over here
+
+---------04:41----------
+which is a long TP 5 vs 3 c this.c 6213
+
+---------04:46----------
+that is on people has one leg on PP 5 vs
+
+---------04:48----------
+3 one leg on ground that capacitor is
+
+---------04:50----------
+able to short circuit to ground if it
+
+---------04:52----------
+fails is able to send all the 5 volts to
+
+---------04:55----------
+ground so we're gonna remove that and
+
+---------04:56----------
+then this is gonna work right again
+
+---------04:58----------
+isn't it now is beautiful absolutely
+
+---------05:02----------
+beautiful and we couldn't have done it
+
+---------05:05----------
+without free help from 10 @ TC RS
+
+---------05:09----------
+circuit dot repair slash contact - UPS
+
+---------05:11----------
+don't delay contact em for free help on
+
+---------05:14----------
+how to fix your board today
+
+---------05:17----------
+this cap doesn't look bad either so it
+
+---------05:20----------
+really would trick you look at that
+
+---------05:21----------
+there's nothing you know there's no
+
+---------05:23----------
+solder ball next to it there's no
+
+---------05:24----------
+discoloration
+
+---------05:25----------
+there's no slash on it or anything
+
+---------05:33----------
+[Music]
+
+---------05:56----------
+[Music]
+
+---------06:01----------
+you didn't take a recipe all-nighter
+
+---------06:03----------
+what am rest you crazy
+
+---------06:05----------
+there are Mac books that need to be
+
+---------06:06----------
+fixed there are many Mac books that need
+
+---------06:08----------
+to be fixed so as we can see here look
+
+---------06:12----------
+at that look at that look at that fan
+
+---------06:14----------
+spin so you had a short-circuit I'm
+
+---------06:17----------
+people 5 es 3 remove the short-circuit
+
+---------06:18----------
+we found that short-circuit by injecting
+
+---------06:20----------
+a volt into the board pouring alcohol on
+
+---------06:22----------
+it and seeing what gets hot
+
+---------06:23----------
+very high-tech methodology here we use
+
+---------06:26----------
+it rossmann group but it does work it is
+
+---------06:27----------
+fast that is efficient and it is cheap
+
+---------06:29----------
+and above all it is easily replicable at
+
+---------06:32----------
+home by people who do not have super
+
+---------06:34----------
+expensive equipment which is what I'm
+
+---------06:36----------
+trying to get across that you don't need
+
+---------06:37----------
+to have the highest end setup to get
+
+---------06:40----------
+stuff done just got to use your brain a
+
+---------06:42----------
+little bit and if you use your brain you
+
+---------06:43----------
+can make the fan spin that's all I want
+
+---------06:47----------
+is to see that fan spin and if you can
+
+---------06:52----------
+do that then you too can fix a macbook
+
+---------06:55----------
+that's it for today and as always I hope
+
+---------06:57----------
+you learned something with that we move
+
+---------06:59----------
+on to the next macbook
+
+---------07:08----------
+you
+
+---------07:16----------
+do you have a Macbook that needs to be
+
+---------07:18----------
+fixed come by our store which is open to
+
+---------07:20----------
+the public in 186 first Avenue in
+
+---------07:22----------
+Manhattan are you located outside of New
+
+---------07:24----------
+York no problem send us a machine from
+
+---------07:27----------
+anywhere in the world by going to our
+
+---------07:28----------
+website and clicking on the mailbox or
+
+---------07:31----------
+simply heading over to send your macbook
+
+---------07:33----------
+comm that send your macbook comm will
+
+---------07:36----------
+you be redirected to our mail and
+
+---------07:38----------
+instructions page that includes the form
+
+---------07:40----------
+and the directions on how to send us a
+
+---------07:42----------
+Macbook for repair we have a live chat
+
+---------07:45----------
+where you can speak with us about the
+
+---------07:47----------
+repair that you need a phone number
+
+---------07:49----------
+where a representative will pick up
+
+---------07:50----------
+during our open hours and a contact form
+
+---------07:52----------
+where you can contact us about repairs
+

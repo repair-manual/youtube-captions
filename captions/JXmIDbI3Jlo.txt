@@ -1,0 +1,1267 @@
+https://www.youtube.com/watch?v=JXmIDbI3Jlo
+---------00:02----------
+hey everybody how's it going so today
+
+---------00:04----------
+we're gonna be working on an e 1707
+
+---------00:06----------
+MacBook Pro that has no power this is a
+
+---------00:08----------
+15-inch MacBook Pro touch bar that was
+
+---------00:09----------
+produced between 2016 and 2017 let's see
+
+---------00:12----------
+if we can figure out why this Mac Pro
+
+---------00:14----------
+has no power and make it work again the
+
+---------00:15----------
+first thing we have to do here is open
+
+---------00:16----------
+this MacBook up let's get put on the
+
+---------00:18----------
+table flip it over have it on the desk
+
+---------00:20----------
+get our pentalobe screwdriver because
+
+---------00:22----------
+Apple wouldn't be Apple if they didn't
+
+---------00:23----------
+have a proprietary screw required to
+
+---------00:25----------
+open the bottom of the machine I don't
+
+---------00:28----------
+know if I should say proprietary perhaps
+
+---------00:30----------
+rare
+
+---------00:30----------
+I haven't actually confirmed whether
+
+---------00:32----------
+these pendulums are specifically
+
+---------00:33----------
+proprietary to Apple or rare either way
+
+---------00:35----------
+kind of a dick move given that a Torx t3
+
+---------00:39----------
+would have been just fine for these
+
+---------00:40----------
+bottom screws but rather than that they
+
+---------00:42----------
+chose to go with this thing that you
+
+---------00:43----------
+can't get in any hardware store so that
+
+---------00:45----------
+if you actually managed to spill liquid
+
+---------00:46----------
+on your machine you can't unplug the
+
+---------00:47----------
+battery in time for it to not kill
+
+---------00:48----------
+everything on your machine so the whole
+
+---------00:50----------
+thing with liquid damages you want to
+
+---------00:52----------
+make sure that there's no power going in
+
+---------00:53----------
+the machine so you want to unplug power
+
+---------00:54----------
+to it as soon as you can so that when
+
+---------00:56----------
+you do decide to get a treat you don't
+
+---------00:58----------
+have that continuous decay that will
+
+---------01:01----------
+have occurred and with these products by
+
+---------01:03----------
+the time your screwdriver comes in the
+
+---------01:05----------
+mail your batteries already been plugged
+
+---------01:06----------
+in for probably 2 to 4 days and at that
+
+---------01:08----------
+point they're kind of already screwed
+
+---------01:09----------
+but that's Apple so let's I just had a
+
+---------01:14----------
+rubber band shot of me
+
+---------01:19----------
+[Music]
+
+---------01:27----------
+[Music]
+
+---------01:30----------
+it looks like we're going at 20 volts
+
+---------01:32----------
+but a zero point zero two amps see that
+
+---------01:35----------
+20 volts with zero point zero 2 amps
+
+---------01:37----------
+that's 20 milliamps so we're getting to
+
+---------01:39----------
+20 volts which means the cd32 15s are
+
+---------01:41----------
+speaking to the charger and telling it
+
+---------01:43----------
+I'm a Macbook I'm not a GoPro or a phone
+
+---------01:45----------
+give me 20 volts not 5
+
+---------01:47----------
+that also means PP 3 P 3 undersquare g3
+
+---------01:49----------
+has got to be there but we are stuck at
+
+---------01:51----------
+20 milliamps which means this is not
+
+---------01:53----------
+turning on so the first thing I'm gonna
+
+---------01:55----------
+want to do here is turn on Paul Daniels
+
+---------01:57----------
+is amazingly beautiful multimeter
+
+---------01:58----------
+software you can ask Paul Daniels for
+
+---------02:02----------
+this type of software by going to PL
+
+---------02:03----------
+Daniel's calm or following his YouTube
+
+---------02:06----------
+channel at youtube.com slash 19 p LD 73
+
+---------02:10----------
+that's 19 p LD 73 P P bus g3 hot is a
+
+---------02:19----------
+15.6 ohm short to ground now why did I
+
+---------02:24----------
+just measure that spot well it's a great
+
+---------02:25----------
+question and you may not be exactly sure
+
+---------02:28----------
+why measured that spot let's open up a
+
+---------02:31----------
+schematic for an e2 0-0 0 to 8 1 board
+
+---------02:35----------
+schematics are gonna have to find online
+
+---------02:37----------
+on your own the software to you to read
+
+---------02:39----------
+them with you can find it PL Daniels
+
+---------02:40----------
+comm don't delay check out Paul Daniels
+
+---------02:44----------
+a software but going to PL Daniels comm
+
+---------02:46----------
+today that's PL Daniels dot-com PL
+
+---------02:49----------
+Daniel's dot-com in this list when you
+
+---------02:52----------
+first thing is when you don't have a
+
+---------02:54----------
+power rail first thing you do is if you
+
+---------02:57----------
+have a no power situation likely one of
+
+---------02:58----------
+the power rails and the machine is
+
+---------03:00----------
+missing so you know how on a desktop PC
+
+---------03:02----------
+when you see those molex connectors or
+
+---------03:03----------
+stuff going from the powers apply to the
+
+---------03:05----------
+components when you're building a PC
+
+---------03:06----------
+you've got the yellow wire the you'll
+
+---------03:09----------
+see if yellow wire you have the red wire
+
+---------03:10----------
+and I believe the yellow is gonna be 12
+
+---------03:12----------
+volts the red wire is gonna be 5 volts
+
+---------03:15----------
+you have different power rails in the
+
+---------03:16----------
+desktop and the same thing is true for a
+
+---------03:18----------
+laptop so on a laptop of him getting no
+
+---------03:20----------
+power what I like to do is I like to
+
+---------03:21----------
+check the power rails and the power
+
+---------03:22----------
+rails used to be listed in the beginning
+
+---------03:24----------
+of the schematic on the diagram on page
+
+---------03:26----------
+3 and also on page 6 now because Apple
+
+---------03:28----------
+the most important part of the system is
+
+---------03:30----------
+going to be listed on page 107 or 109
+
+---------03:33----------
+because again Apple so we scroll over to
+
+---------03:35----------
+page 109 and we have a list of rails so
+
+---------03:38----------
+the different rails are going to come on
+
+---------03:39----------
+at different times
+
+---------03:40----------
+g3 hot rails are always on as for rails
+
+---------03:43----------
+are on when the machine
+
+---------03:44----------
+is hibernating as three rails of arm
+
+---------03:45----------
+when the machine is sleeping as a rails
+
+---------03:47----------
+are on when it's on so for example the
+
+---------03:49----------
+g3 hot rail that's let's say the power
+
+---------03:51----------
+to charge the battery because you want
+
+---------03:52----------
+your computer to be powering the battery
+
+---------03:54----------
+regardless of what it's doing always
+
+---------03:55----------
+charge the battery s4 hibernate only
+
+---------03:58----------
+have this rail be online machine is
+
+---------04:00----------
+hibernating so you don't want the
+
+---------04:01----------
+keyboard of the trackpad to be taking
+
+---------04:03----------
+power when the computers off right it's
+
+---------04:05----------
+a waste of electricity but you want it
+
+---------04:07----------
+to be on someone when the machine is
+
+---------04:10----------
+hibernating so that you can hit the
+
+---------04:11----------
+keyboard or the trackpad and wake it
+
+---------04:13----------
+from hibernation it's not going to know
+
+---------04:15----------
+to be woke from hibernation if it's not
+
+---------04:17----------
+getting power as three-rail is gonna be
+
+---------04:19----------
+something like memory you don't want
+
+---------04:20----------
+that to be on when the computers off but
+
+---------04:22----------
+you also don't want that to only be on
+
+---------04:23----------
+when the computers on because when you
+
+---------04:25----------
+put the computer to sleep
+
+---------04:26----------
+that's suspend the CPU doesn't have to
+
+---------04:28----------
+be on the screen doesn't have to be on
+
+---------04:29----------
+the fan doesn't be F that be on but the
+
+---------04:31----------
+memory has to be on so that whatever you
+
+---------04:33----------
+had going on your desktop or the
+
+---------04:36----------
+programs you had open stay open because
+
+---------04:37----------
+they were suspended to memory and the
+
+---------04:39----------
+next is the s over L that's the rails
+
+---------04:40----------
+when the machine is always on so think
+
+---------04:42----------
+of it like a little pyramid so you have
+
+---------04:44----------
+g3 hot as 5 s 4 s 3 is up and I checked
+
+---------04:48----------
+the first G 3 hot rail that was on this
+
+---------04:50----------
+list here P P bus G 3 hot now when I
+
+---------04:53----------
+right-click on PP XG 3 hot it will show
+
+---------04:55----------
+me everywhere in the schematic that it
+
+---------04:56----------
+shows up and I can see that it shows up
+
+---------04:58----------
+right over here that's where I measure
+
+---------04:59----------
+with the multimeter and it also says
+
+---------05:01----------
+over here voltage 13 point one volts so
+
+---------05:04----------
+I know what I'm supposed to get there
+
+---------05:05----------
+and obviously I'm not gonna be getting
+
+---------05:06----------
+anything because when I check over here
+
+---------05:08----------
+with my multimeter I get 16 ohms to
+
+---------05:14----------
+ground which means that there is a short
+
+---------05:15----------
+circuit to ground now in the document
+
+---------05:17----------
+that I have listed down below in all the
+
+---------05:18----------
+videos there is a guide that tells you
+
+---------05:20----------
+if you're not getting the power rail
+
+---------05:22----------
+these are expecting to get why what are
+
+---------05:25----------
+the causes it could be that the enable
+
+---------05:27----------
+is not present on the chip that makes it
+
+---------05:29----------
+just like a light switch you know the
+
+---------05:30----------
+light switch has to be flipped on for
+
+---------05:33----------
+the light to work I'm not gonna blame
+
+---------05:34----------
+the electrical in the store I'm not
+
+---------05:35----------
+gonna blame the outlet I'm not going to
+
+---------05:37----------
+blame the bulbs I'm not gonna blame the
+
+---------05:38----------
+fixtures if the light switch is switched
+
+---------05:40----------
+off second thing it could be the chip
+
+---------05:42----------
+itself is bad third thing it could be
+
+---------05:45----------
+the rail is being created the chip is
+
+---------05:47----------
+working the enable is present but it's
+
+---------05:49----------
+being shorted to ground fourth
+
+---------05:51----------
+everything there is good that chip is on
+
+---------05:53----------
+the enable is present but the input
+
+---------05:54----------
+voltage is supposed to go into that ship
+
+---------05:56----------
+is not present so if you don't have the
+
+---------05:57----------
+in you know of the
+
+---------05:57----------
+yeah here case three is true we have a
+
+---------06:01----------
+short circuit of ground 16 ohms that
+
+---------06:02----------
+means everything that supposed to be
+
+---------06:03----------
+going to that power rail is getting sent
+
+---------06:04----------
+to ground probably for it guess where
+
+---------06:06----------
+it's supposed to so we're gonna take
+
+---------06:07----------
+this board out of the case and see if we
+
+---------06:08----------
+can find this short on pH g3 Hut so the
+
+---------06:12----------
+board is out and on the desk now what do
+
+---------06:14----------
+we do from this point let's take a look
+
+---------06:16----------
+over the board and see if we can get an
+
+---------06:17----------
+idea why it's not turning on before we
+
+---------06:22----------
+use any other kind of tactics just see
+
+---------06:25----------
+what we've got all the eyesight gives us
+
+---------06:39----------
+that is a beautiful microscope image by
+
+---------06:42----------
+the way I just wanted to take this time
+
+---------06:43----------
+out to give a real heartfelt thank you
+
+---------06:46----------
+to every single one of you that bought
+
+---------06:47----------
+one of the 40 lemons you know that was a
+
+---------06:51----------
+40 limited-edition Rossmann microscopes
+
+---------06:56----------
+with the proper trinocular camera
+
+---------06:58----------
+adapter so that the image looks nice and
+
+---------07:01----------
+in focus and beautiful like this one I
+
+---------07:03----------
+really appreciate it thank you I will
+
+---------07:05----------
+not be selling another one of those
+
+---------07:07----------
+until all of that crap goes away but
+
+---------07:09----------
+still just thank you very much for all
+
+---------07:11----------
+of you who thank you I appreciate it
+
+---------07:15----------
+very much
+
+---------07:15----------
+those there are 40 people out there that
+
+---------07:18----------
+can start doing YouTube streams with
+
+---------07:20----------
+this level of microscope quality and
+
+---------07:22----------
+that's awesome I hope you use it for
+
+---------07:26----------
+amazing things
+
+---------07:41----------
+it's gonna go through this board
+
+---------08:24----------
+that little cap really did not want to
+
+---------08:26----------
+be here anymore
+
+---------09:15----------
+looks like the cable is for the camera
+
+---------09:17----------
+so cope has broke the motor and the
+
+---------09:20----------
+camera of my drone so far the camera
+
+---------09:21----------
+worked before I sent it to you the only
+
+---------09:23----------
+thing that didn't work was the road or
+
+---------09:28----------
+no seriously the camera actually did
+
+---------09:30----------
+work before I sent it's in the only
+
+---------09:31----------
+thing that didn't work was the motor
+
+---------09:33----------
+copass what the [ __ ] you did in my drone
+
+---------09:39----------
+he's certified DJI repair
+
+---------09:47----------
+that's what happened see this is what
+
+---------09:49----------
+happens when you send your device to a
+
+---------09:50----------
+certified shop
+
+---------09:51----------
+it sent my deejay Otello to a certified
+
+---------09:54----------
+DJ i repairmen rip my camera do they do
+
+---------10:01----------
+something like Apple where the cable for
+
+---------10:03----------
+the rotor me for the cable for the
+
+---------10:05----------
+propeller the motor is right next to a
+
+---------10:08----------
+wrapped around the camera cable with
+
+---------10:10----------
+glue or something like that because if
+
+---------10:11----------
+that's the case then it's understandable
+
+---------10:41----------
+all right now we're gonna find the board
+
+---------10:43----------
+to grab this off of and because I'm too
+
+---------10:45----------
+lazy to remove the display connector and
+
+---------10:47----------
+display cable because that would require
+
+---------10:49----------
+removing two screws finding a
+
+---------10:51----------
+screwdriver finding a magnet to put them
+
+---------10:53----------
+on I mean just saying it out loud is
+
+---------10:54----------
+making me sweat I can only imagine
+
+---------10:55----------
+actually doing the work I'm going to be
+
+---------10:57----------
+using the soldering iron by itself to
+
+---------11:00----------
+put this new cap on and I'll show you
+
+---------11:01----------
+how I do it it's glued otherwise the
+
+---------11:03----------
+ribbon would pop out after a single
+
+---------11:05----------
+crash and people would be raging for no
+
+---------11:06----------
+image on camera after crashing it
+
+---------11:08----------
+happens a lot even when they're glued
+
+---------11:09----------
+alright that makes sense that makes
+
+---------11:16----------
+sense
+
+---------11:17----------
+I understand it
+
+---------11:33----------
+all right so now what i'm gonna do is i
+
+---------11:36----------
+only put solder on one side notice that
+
+---------11:37----------
+see solder is on the on the bottom but
+
+---------11:40----------
+not on the top so the reason i did that
+
+---------11:42----------
+is because one of these i need to make
+
+---------11:43----------
+level so this has to be made level this
+
+---------11:47----------
+is really hard to do under a microscope
+
+---------11:49----------
+usually i would do this without the
+
+---------11:50----------
+microscope but then you wouldn't be able
+
+---------11:51----------
+to see it so i kind of have to do it
+
+---------11:55----------
+this way let's see if possible to do
+
+---------11:57----------
+this sideways like paul paul wall would
+
+---------12:00----------
+say sit in sideways it's impossible to
+
+---------12:05----------
+do this in sideways okay and now we saw
+
+---------12:13----------
+it on the top now this side over here is
+
+---------12:17----------
+gonna be closer to flat against the
+
+---------12:21----------
+board so this is how you could let's say
+
+---------12:23----------
+you didn't have a hot-air station
+
+---------12:24----------
+because something one of you asked in
+
+---------12:25----------
+the last AMA stream like what do i do if
+
+---------12:27----------
+i don't have all the tools or what if i
+
+---------12:28----------
+don with a budget have a hot-air station
+
+---------12:30----------
+well you could have you could have
+
+---------12:32----------
+bought a cap off a mauser and you could
+
+---------12:33----------
+have just kind of soldered it in like
+
+---------12:34----------
+this i didnt even though this is an SMD
+
+---------12:36----------
+component I didn't need I did not use a
+
+---------12:40----------
+hot-air station to put this in there now
+
+---------12:42----------
+is it straight
+
+---------12:43----------
+not really but do you think anybody
+
+---------12:44----------
+cares they're just going to notice that
+
+---------12:46----------
+the Apple store wanted 1500 to fix this
+
+---------12:47----------
+mop machine and that you wanted you know
+
+---------12:51----------
+100 to 500 to fix that's what's going to
+
+---------12:53----------
+matter so not perfect but clearly
+
+---------12:57----------
+something that's doable if and if you do
+
+---------13:00----------
+arch really triggered by that the way I
+
+---------13:03----------
+am right now honestly a little bit you
+
+---------13:05----------
+could just use hot air to flow it into
+
+---------13:06----------
+place I'm just going to remove that
+
+---------13:08----------
+display cable
+
+---------13:18----------
+before I burn it and we just flow that
+
+---------13:21----------
+in a place with a hot-air station but
+
+---------13:24----------
+you know the hot tweezers that Jesse
+
+---------13:27----------
+uses they're really good and they have
+
+---------13:28----------
+their use but just not for a cap that's
+
+---------13:30----------
+that large and for stuff like this it
+
+---------13:33----------
+really is handy to be able to do it with
+
+---------13:34----------
+a soldering iron this way you don't have
+
+---------13:36----------
+to serve to stuff around with heat if
+
+---------13:38----------
+that's an issue let's see what I do one
+
+---------13:42----------
+side I put solder on I put it down and
+
+---------13:44----------
+then it's flat on the board rez it's not
+
+---------13:45----------
+going to be flat on the board of both
+
+---------13:46----------
+sides of a bump and with the soldering
+
+---------13:48----------
+iron it's not odd tweezers I can't make
+
+---------13:50----------
+a I can't hit both sides at the same
+
+---------13:52----------
+time so that's why I put solder only on
+
+---------13:55----------
+one side not on both and now I pushed it
+
+---------14:00----------
+down on the board there's gonna be a
+
+---------14:01----------
+little bit of excess solder under there
+
+---------14:02----------
+it's fine I added some flux I'm just
+
+---------14:06----------
+gonna use my iron once it heats all the
+
+---------14:08----------
+way up and get that out of there no
+
+---------14:12----------
+excess beautiful beautiful so I'm just
+
+---------14:17----------
+gonna put the display cable back on
+
+---------14:19----------
+there
+
+---------14:24----------
+and then this thing is gonna work and I
+
+---------14:26----------
+think it's really important to throw
+
+---------14:27----------
+these little tidbits on there that can
+
+---------14:28----------
+help you to do some of the work that we
+
+---------14:30----------
+do even if you don't have the exact
+
+---------14:32----------
+tools because one of the things I used
+
+---------14:33----------
+to hear non-stop and drive me nuts Lois
+
+---------14:35----------
+I don't have a hot-air station I would
+
+---------14:36----------
+replace the fuse but I don't have a
+
+---------14:38----------
+hot-air station and I you don't need a
+
+---------14:40----------
+hot-air station to do everything do you
+
+---------14:42----------
+obviously you need a hot-air station if
+
+---------14:44----------
+you're gonna you want to redo an SMC or
+
+---------14:47----------
+something Duke would argue that he would
+
+---------14:49----------
+use a paint stripper which I say no to
+
+---------14:51----------
+but Duke is crazy
+
+---------14:55----------
+do you believe Duke when he says that he
+
+---------14:57----------
+uses a paint stripper for all of this
+
+---------15:03----------
+yeah she did not he wasn't up to the
+
+---------15:06----------
+using the hot air station so we're gonna
+
+---------15:08----------
+see if this thing I give us a boot
+
+---------15:09----------
+sequence now just clean off alcohol from
+
+---------15:13----------
+the desk playing the desk with a little
+
+---------15:16----------
+bit of Windex okay we're just gonna see
+
+---------15:21----------
+if we get an Apple logo this thing boo
+
+---------15:22----------
+does it turn on does it first thing I
+
+---------15:25----------
+want to do obviously is I want to see if
+
+---------15:26----------
+it takes more than 20 milliamps it was
+
+---------15:28----------
+before he was taking 20 milliamps
+
+---------15:30----------
+because the PP brush g3 hot circuit was
+
+---------15:32----------
+turning itself off rather than sitting
+
+---------15:35----------
+there and trying to deliver current it's
+
+---------15:37----------
+the short
+
+---------15:46----------
+just getting any of these cables with
+
+---------15:48----------
+metal on the top off
+
+---------16:00----------
+alright it looks like it's taking 1.5
+
+---------16:02----------
+amps that nineteen point nine volts so
+
+---------16:06----------
+we should be seeing an image shortly
+
+---------16:08----------
+says the computer has thin lines running
+
+---------16:10----------
+across the screen they disappeared and
+
+---------16:12----------
+seem to be functioning properly then the
+
+---------16:13----------
+computer would not turn on no power not
+
+---------16:15----------
+a hint of any power in one plugged in so
+
+---------16:19----------
+the lines across the screen that's gonna
+
+---------16:20----------
+be something else but I imagine perhaps
+
+---------16:23----------
+the lines happened across the screen
+
+---------16:25----------
+right as pp bus was shorting the ground
+
+---------16:27----------
+maybe that's the way the machine looks
+
+---------16:28----------
+when a crash but either way you could
+
+---------16:29----------
+see that there's an Apple logo this
+
+---------16:31----------
+machine is turning on it is taking 1.3
+
+---------16:33----------
+amps at nineteen point nine volts so we
+
+---------16:35----------
+were taking at nineteen point nine volts
+
+---------16:37----------
+we were taking 20 milliamps that tells
+
+---------16:39----------
+us that the CD 32 15 s are speaking to
+
+---------16:41----------
+the charger and tell them the charger to
+
+---------16:42----------
+put out 20 volts not 5 volts for a gopro
+
+---------16:44----------
+or 9 volts for phone but 20 volts for a
+
+---------16:46----------
+macbook that tells us to pay our CD 32
+
+---------16:48----------
+15 s are working in bpp 33 undersquare
+
+---------16:50----------
+g3 huh I work wired for the CD 33 to
+
+---------16:52----------
+needs to turn on is functioning and
+
+---------16:54----------
+working as it should so we shouldn't
+
+---------16:55----------
+look up PP 3 B 3 underscore g3 hot but
+
+---------16:56----------
+rather we should check all the other
+
+---------16:57----------
+people through all the other g3 hot
+
+---------16:59----------
+rails to ensure that they're working in
+
+---------17:00----------
+the next rail that two people three
+
+---------17:01----------
+three underscore g3 huh is going to be
+
+---------17:03----------
+PP + g3 huh we checked that rail we had
+
+---------17:05----------
+a short to ground we didn't have to
+
+---------17:06----------
+measure voltage or anything like that
+
+---------17:07----------
+and immediately when we first took out
+
+---------17:09----------
+the machine we were able to spot was a
+
+---------17:10----------
+cap on people HD 3 hot that was to
+
+---------17:12----------
+obviously short it's a ground without
+
+---------17:14----------
+having to measure with them altimeter or
+
+---------17:15----------
+replace that cap we put a new one on I
+
+---------17:16----------
+showed you how to do it without having
+
+---------17:18----------
+to use a hot-air station just in case
+
+---------17:19----------
+you're on a budget and you only have a
+
+---------17:20----------
+normal soldering iron to show you don't
+
+---------17:22----------
+even these sort of crazy special tools
+
+---------17:24----------
+to do what I do in some cases and it
+
+---------17:26----------
+works so that's it for today and as
+
+---------17:27----------
+always I hope you learned something
+
+---------17:28----------
+thank you so much for watching thank you
+
+---------17:30----------
+so much for being a part of what makes
+
+---------17:33----------
+this stuff worth doing and yeah I'll see
+
+---------17:36----------
+you in the next video bye
+
+---------17:41----------
+Paul what are you doing today taking
+
+---------17:45----------
+forever to get from one end to the other
+
+---------17:46----------
+with this drone they're too slow now
+
+---------17:48----------
+you have it on fast mode yes that's fast
+
+---------17:50----------
+it's so slow I'm still not to the wall
+
+---------17:54----------
+there I'm at the wall this place is huge
+
+---------17:57----------
+bomb I didn't even go into your office
+
+---------18:00----------
+Hey and now can you shoot it nineteen
+
+---------18:26----------
+nineteen point nine they should demolish
+
+---------18:49----------
+a bite-sized hole in yours a bike sized
+
+---------18:52----------
+hole in the office I'm gonna ride into
+
+---------18:53----------
+work every day I think I need to have a
+
+---------18:57----------
+button on my bike that opens the door so
+
+---------19:00----------
+that I could just ride
+

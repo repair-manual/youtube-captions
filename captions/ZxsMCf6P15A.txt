@@ -1,0 +1,1048 @@
+https://www.youtube.com/watch?v=ZxsMCf6P15A
+---------00:00----------
+all right so today we're gonna be
+
+---------00:01----------
+dealing with a motherboard that has no
+
+---------00:03----------
+battery recognition so it works it turns
+
+---------00:05----------
+on it doesn't charge the battery and it
+
+---------00:08----------
+doesn't see the battery this is an 8 to
+
+---------00:09----------
+0 there 8 to 0
+
+---------00:12----------
+29:36 board inside of an HMO of 70 a
+
+---------00:15----------
+2011 machine aka a really old piece of
+
+---------00:18----------
+ so I kind of don't know why
+
+---------00:20----------
+anybody's interested in spending money
+
+---------00:21----------
+to fix this but for some reason somebody
+
+---------00:23----------
+is interested in spending money to fix
+
+---------00:25----------
+it and as long as somebody's interested
+
+---------00:26----------
+in giving me money they have my
+
+---------00:28----------
+attention so let's go over this board so
+
+---------00:31----------
+let's go over some of the few things
+
+---------00:32----------
+that you should understand when you're
+
+---------00:34----------
+dealing with any type of battery issue
+
+---------00:35----------
+the first thing you need to understand
+
+---------00:37----------
+is that there's a difference between not
+
+---------00:39----------
+charging the battery and not seeing the
+
+---------00:41----------
+battery not charging the battery could
+
+---------00:43----------
+be a bad transistor it could be current
+
+---------00:46----------
+sensing issues it could be the IC that
+
+---------00:48----------
+actually controls charging is dead
+
+---------00:50----------
+whereas not seeing the battery that's a
+
+---------00:53----------
+battery recognition issue and battery
+
+---------00:55----------
+recognition issues are very different
+
+---------00:57----------
+from battery charging issues so I'm
+
+---------00:59----------
+gonna load up the schematic over here
+
+---------01:00----------
+and I'm gonna go over one of the most
+
+---------01:03----------
+basic rudimentary things that you should
+
+---------01:05----------
+check anytime you have this issue
+
+---------01:07----------
+alright and as you can see I finally
+
+---------01:09----------
+found the way to mount the multimeter so
+
+---------01:11----------
+that you can see it which I'm sure if I
+
+---------01:12----------
+knock on this thing too hard will come
+
+---------01:14----------
+back to bite me in the ass
+
+---------01:15----------
+so on to these schematics so let's just
+
+---------01:18----------
+get over to the schematic ah that was
+
+---------01:21----------
+loud
+
+---------01:22----------
+and alright so here we go so over here
+
+---------01:35----------
+you can see that the SMC talked to the
+
+---------01:37----------
+battery charging chip which is
+
+---------01:39----------
+improperly labeled is L six two five
+
+---------01:41----------
+eight when it's actually in is L six two
+
+---------01:43----------
+five nine Thank You Apple and at all
+
+---------01:45----------
+that's also talks to the battery this
+
+---------01:47----------
+happens on this data line over here and
+
+---------01:49----------
+this data line is created by these
+
+---------01:51----------
+pull-up resistors if you don't know what
+
+---------01:53----------
+a data line or a pull-up resistor R I
+
+---------01:54----------
+would highly suggest that you watch the
+
+---------01:56----------
+video series I did on a basic
+
+---------01:58----------
+electronics where I explain what a
+
+---------01:59----------
+pull-up resistor is and how it creates a
+
+---------02:01----------
+data line so let's see where these two
+
+---------02:03----------
+resistors are yeah let's see so
+
+---------02:07----------
+according to this they're over here now
+
+---------02:10----------
+let's see one end of the resistor is
+
+---------02:12----------
+going to be the voltage line and the
+
+---------02:13----------
+other
+
+---------02:13----------
+to be the data line so the whole idea
+
+---------02:15----------
+here is that these chips are going to
+
+---------02:17----------
+talk to each other very similar to the
+
+---------02:19----------
+way that Morse code works you know every
+
+---------02:21----------
+time you think of it like The Telegraph
+
+---------02:23----------
+you know like every time you're tapping
+
+---------02:24----------
+that little uh everything you're tapping
+
+---------02:26----------
+the little thing you're kind of
+
+---------02:27----------
+disconnecting the voltage for a short
+
+---------02:29----------
+period of time and that creates little
+
+---------02:31----------
+blips and those little blips are
+
+---------02:32----------
+considered data which is a god-awful
+
+---------02:34----------
+explanation just because I'm honestly
+
+---------02:36----------
+tired of explaining the same thing over
+
+---------02:38----------
+and over again but just go back and
+
+---------02:39----------
+watch the video where I explain it
+
+---------02:40----------
+because I'm doing a really bad job of
+
+---------02:42----------
+explaining it right here anyway
+
+---------02:43----------
+so I want to do is I want to see what
+
+---------02:46----------
+the number is on diode mode on the
+
+---------02:48----------
+multimeter so diode mode on the
+
+---------02:50----------
+multimeter is a special mode so I go up
+
+---------02:52----------
+to this little ohms reading over here
+
+---------02:55----------
+and then I'm gonna click the yellow
+
+---------02:55----------
+button until it gets me over to diode
+
+---------02:57----------
+mode now what diode mode does is it
+
+---------03:00----------
+measures the voltage drop across two
+
+---------03:02----------
+points so when these two points are
+
+---------03:04----------
+touching there is no voltage drop
+
+---------03:07----------
+because they're touching now what I can
+
+---------03:11----------
+do is I can take a board that works and
+
+---------03:13----------
+I can put the red probe on ground and I
+
+---------03:16----------
+can hit the black probe and I could put
+
+---------03:17----------
+that on my data line and I can try and
+
+---------03:20----------
+figure out what the differences are so
+
+---------03:22----------
+let's try and check that out over here
+
+---------03:25----------
+all right so let's first thing I have to
+
+---------03:28----------
+do is get this microscope camera in
+
+---------03:29----------
+focus because I see everything perfectly
+
+---------03:31----------
+but you can't see jack it's
+
+---------03:40----------
+right out of focus and I know as soon as
+
+---------03:41----------
+I touched this thing that damn
+
+---------03:42----------
+microscopes gonna fall down the the the
+
+---------03:47----------
+multimeter is gonna fall down that's how
+
+---------03:49----------
+this works you know all right here we go
+
+---------03:54----------
+okay and multimeter is trying to fall
+
+---------03:58----------
+down nice try mofo
+
+---------04:00----------
+okay so I'm gonna get in focus in my
+
+---------04:02----------
+eyes there we go
+
+---------04:05----------
+and now I get in focus in the camera
+
+---------04:07----------
+there we go that looks nice all right
+
+---------04:09----------
+I love open broadcaster I love that you
+
+---------04:11----------
+can actually see what you're recording
+
+---------04:12----------
+as you're recording it so what I do is I
+
+---------04:14----------
+take the red pro but I'm gonna put it on
+
+---------04:16----------
+ground which here is gonna be my screw
+
+---------04:18----------
+hole and then I take the black probe and
+
+---------04:20----------
+that isn't nice image I love
+
+---------04:22----------
+this this new capture hardware this is
+
+---------04:24----------
+being captured in four to two losslessly
+
+---------04:27----------
+I know you
+
+---------04:27----------
+tube is going to destroy it but still it
+
+---------04:29----------
+looks cool while it's there and let's
+
+---------04:31----------
+see what number I get now you can't see
+
+---------04:35----------
+the number I'm getting so let's just go
+
+---------04:37----------
+to that for you I can't even see the
+
+---------04:39----------
+number so I get zero point zero zero
+
+---------04:41----------
+that's no good
+
+---------04:43----------
+that is a short to ground on that data
+
+---------04:45----------
+line and on the other one I get zero
+
+---------04:46----------
+point zero six two zero point zero 62 is
+
+---------04:49----------
+also no good so what I'm expecting at
+
+---------04:51----------
+these points is something like zero
+
+---------04:53----------
+point four four to zero point four four
+
+---------04:56----------
+four zero point four six eight
+
+---------04:58----------
+now I'm not expecting that number out of
+
+---------05:00----------
+thin air it's not like I'm expecting
+
+---------05:01----------
+it's like I went to college and in
+
+---------05:03----------
+college they teach you that if the SMC
+
+---------05:04----------
+wants to talk to the battery that they
+
+---------05:06----------
+mowed your loop that you're looking for
+
+---------05:07----------
+that in diamo that's not how this works
+
+---------05:09----------
+at all rather the way this works is I
+
+---------05:11----------
+take a board that works I go what is it
+
+---------05:14----------
+supposed to be when it works and then I
+
+---------05:15----------
+compare it to this obviously the line
+
+---------05:17----------
+being at zero or zero point zero zero
+
+---------05:19----------
+two means it's shorted to ground so I
+
+---------05:21----------
+don't need a working board to tell me
+
+---------05:22----------
+that something's up here so one
+
+---------05:25----------
+of the things in the line must be
+
+---------05:26----------
+shorting to ground so let's go over
+
+---------05:28----------
+where this shows up so what I'm gonna do
+
+---------05:31----------
+is I'm going to use my board view and
+
+---------05:33----------
+I'm gonna type in n which is for nets
+
+---------05:35----------
+which is gonna show me everywhere in the
+
+---------05:37----------
+board that this shows up I mean let's go
+
+---------05:38----------
+sm bus underscore SMC underscore BSA
+
+---------05:41----------
+underscore SDA and it's gonna show me
+
+---------05:44----------
+everywhere that this shows up so what
+
+---------05:45----------
+could potentially be shorting it to
+
+---------05:47----------
+ground so let's see where are their
+
+---------05:49----------
+attachments to ground here so there is
+
+---------05:52----------
+one capacitor on this line on this side
+
+---------05:54----------
+that goes to ground so it could be that
+
+---------05:56----------
+there's a diode right here that goes to
+
+---------06:00----------
+ground so it could be that there's a few
+
+---------06:04----------
+other areas here let's see the software
+
+---------06:07----------
+really sucks this is some horseshit
+
+---------06:09----------
+software this is this is like playing
+
+---------06:12----------
+pac-man with a liquid damage at arcade
+
+---------06:14----------
+machine in the 80s this is
+
+---------06:16----------
+there's this connector over here and so
+
+---------06:22----------
+the pins are destroyed could be going to
+
+---------06:24----------
+ground
+
+---------06:25----------
+there's the u 7000 chip which is the
+
+---------06:27----------
+battery charging chip that you see over
+
+---------06:29----------
+here this chip could be destroyed or it
+
+---------06:33----------
+could be the SMC with it's some 1890
+
+---------06:37----------
+whatever balls let's hope it's not that
+
+---------06:39----------
+because that sucks so at this point
+
+---------06:41----------
+we know which different things it can be
+
+---------06:43----------
+so what I would do is I would just go a
+
+---------06:45----------
+quick run over the board and try to see
+
+---------06:49----------
+what area looks the nastiest so this
+
+---------06:52----------
+area looks semi nasty this is seven this
+
+---------06:55----------
+is what I would call semi nasty however
+
+---------06:57----------
+it's not really nasty like this over
+
+---------07:00----------
+here is nasty so you can tell that that
+
+---------07:02----------
+pin you know some nice stuff happen
+
+---------07:05----------
+there but it's not really nasty it's not
+
+---------07:08----------
+it's not necessarily shorting to ground
+
+---------07:10----------
+I don't see a short between them I don't
+
+---------07:12----------
+see a short circuit between the anchor
+
+---------07:15----------
+pin and that and that pin over there of
+
+---------07:18----------
+the connector so yeah so the anchor pin
+
+---------07:20----------
+is going to be this this is what anchors
+
+---------07:22----------
+it down into the board that's why I call
+
+---------07:24----------
+it an anchor pin and that I don't really
+
+---------07:26----------
+see those shorting then we look over the
+
+---------07:28----------
+SMC area and okay you got a little bit
+
+---------07:33----------
+of crud over here but this is crud for
+
+---------07:34----------
+CPU v core this is not crud this is not
+
+---------07:37----------
+like you know really widespread crud so
+
+---------07:40----------
+I'm pretty this area over here looks
+
+---------07:42----------
+nice you have this area down here okay I
+
+---------07:46----------
+can see that there's been some water
+
+---------07:48----------
+here there has been water but the diode
+
+---------07:51----------
+itself a little bit of water but you
+
+---------07:54----------
+know nothing to nuts and then we go up
+
+---------07:57----------
+here and let's look at the is L six to
+
+---------08:01----------
+five nine now there's all this red
+
+---------08:03----------
+everywhere here there's red really all
+
+---------08:06----------
+around the chip and what that red all
+
+---------08:07----------
+around the chip tells me is that there's
+
+---------08:09----------
+a good chance that this is what's doing
+
+---------08:11----------
+it so at this point what I'm gonna do is
+
+---------08:15----------
+I'm gonna remove the ISL because it's
+
+---------08:17----------
+I'm just gonna I'm not honestly I'm just
+
+---------08:19----------
+taking a guess that's really what this
+
+---------08:21----------
+comes down to is it's just me taking a
+
+---------08:23----------
+guess and remember it could be anything
+
+---------08:26----------
+on this line if I really wanted to see
+
+---------08:28----------
+what we're shorting it to ground I could
+
+---------08:29----------
+take my power supply and I could inject
+
+---------08:31----------
+three volts and whatever guy I can
+
+---------08:34----------
+inject three volts in the rail I've done
+
+---------08:35----------
+many videos on short detection and then
+
+---------08:37----------
+I could see what gets hot but that's
+
+---------08:39----------
+gonna take awhile I could just remove
+
+---------08:41----------
+the ISL in less time than it takes for
+
+---------08:43----------
+me to try to do you know short detection
+
+---------08:45----------
+so that's what I'm gonna do here so
+
+---------08:46----------
+let's get on that
+
+---------08:48----------
+it's going to remove this nasty looking
+
+---------08:52----------
+chip over here
+
+---------08:57----------
+I also should turn my JBC soldering
+
+---------09:00----------
+station up to 210 Celsius right now for
+
+---------09:03----------
+something I was doing before I don't
+
+---------09:05----------
+know what the hell I thought I was doing
+
+---------09:06----------
+at 210 Celsius
+
+---------09:40----------
+once I feel we've gotten reasonably huh
+
+---------09:44----------
+I'll just take you off now let's turn
+
+---------09:50----------
+off all this noisy really as noisy
+
+---------09:53----------
+as hell
+
+---------09:53----------
+oh yeah the professional mount for the
+
+---------09:59----------
+multimeter yeah so let's see if I get
+
+---------10:02----------
+you between the tension and the zoom
+
+---------10:04----------
+block I'm good yeah there we go
+
+---------10:08----------
+that's totally secure it's a great great
+
+---------10:11----------
+way to put a $100 piece of equipment on
+
+---------10:13----------
+top of a four hundred dollar piece of
+
+---------10:16----------
+equipment there's like no production
+
+---------10:20----------
+quality here I wish I had more time I've
+
+---------10:23----------
+had more time i put some production
+
+---------10:24----------
+quality in so let's see if we fix the
+
+---------10:27----------
+issue so i'm going to take the red put
+
+---------10:29----------
+it on the ground then the black probe
+
+---------10:30----------
+and put it on the data line and i get
+
+---------10:33----------
+zero point four four five now that's
+
+---------10:37----------
+pretty cool let's see how the other ones
+
+---------10:38----------
+looking cuz remember there's two lines
+
+---------10:39----------
+there zero point four three six that's
+
+---------10:42----------
+fine all right so it could have been the
+
+---------10:45----------
+ISL and again how did I choose the ISL I
+
+---------10:47----------
+simply went for the area that was most
+
+---------10:49----------
+nasty the ISL six to five line looked
+
+---------10:51----------
+the most nasty
+
+---------10:52----------
+therefore I assumed it was bad and that
+
+---------10:56----------
+was that so now I'm just going to give
+
+---------10:59----------
+this thing a little bit of a little bit
+
+---------11:02----------
+of a cleaning and also replace that that
+
+---------11:05----------
+ so what a nasty looking disgraceful
+
+---------11:09----------
+area so we have to get started cleaning
+
+---------11:12----------
+that all right I got my flux back from
+
+---------11:14----------
+the other table and I also grabbed
+
+---------11:17----------
+myself an ISL six two five nine so let's
+
+---------11:21----------
+get to some work
+
+---------11:46----------
+let's get the air filter up in nice and
+
+---------11:49----------
+close
+
+---------12:02----------
+yeah
+
+---------12:07----------
+what a nasty nasty boy
+
+---------12:15----------
+I haven't ultrasonically clean this yet
+
+---------12:17----------
+I'm actually gonna go put it through the
+
+---------12:18----------
+cleaner after I'm done so in addition
+
+---------12:22----------
+they're just replacing the chip I'm also
+
+---------12:23----------
+going to go over all these rusted
+
+---------12:25----------
+pathways and let's give him a make them
+
+---------12:30----------
+a little nicer scrape the oxidation away
+
+---------12:34----------
+wherever I see it
+
+---------12:37----------
+it is oxidation everywhere nasty looking
+
+---------12:43----------
+
+
+---------12:54----------
+the smaller iron would kind of help with
+
+---------12:56----------
+this but I can get by fine with this one
+
+---------13:19----------
+hey nice try offer
+
+---------13:32----------
+okay
+
+---------13:35----------
+that thing tried to fly away we're not
+
+---------13:38----------
+gonna let it get away
+
+---------14:01----------
+there's barely any solder on that right
+
+---------14:03----------
+pad
+
+---------14:26----------
+okay we get this into place
+
+---------14:34----------
+now we get the new ISL six two five nine
+
+---------14:38----------
+I'm gonna be selling these chips shortly
+
+---------14:40----------
+a lot of people have been saying is
+
+---------14:43----------
+there an alternative to buying from l2
+
+---------14:44----------
+if I don't want to buy from China very
+
+---------14:48----------
+soon it will be me I hate selling parts
+
+---------14:51----------
+but I hate the idea of l2 making money
+
+---------14:57----------
+even more rights push it down it's not
+
+---------15:02----------
+perfect all I care about now is that
+
+---------15:05----------
+it's flat in the board that's really my
+
+---------15:07----------
+only concern in the beginning it's gonna
+
+---------15:09----------
+go around it some flux buy some flux I
+
+---------15:13----------
+mean excessive flux anybody who's been
+
+---------15:15----------
+watching the channel regularly knows
+
+---------15:17----------
+that when I use the word some that's
+
+---------15:18----------
+just kind of a expression this is it's
+
+---------15:24----------
+not actually accurate okay here we go
+
+---------15:27----------
+around get that is l6 two five nine nice
+
+---------15:30----------
+on the board go over every pin ideally
+
+---------15:40----------
+slide the thing in a place cuz he'll if
+
+---------15:41----------
+that is even remotely close to aligned
+
+---------15:58----------
+they're awful
+
+---------16:05----------
+yeah this is gonna be one of those awful
+
+---------16:07----------
+soldering videos as you can see on the
+
+---------16:11----------
+lower left side it's not actually there
+
+---------16:13----------
+right right okay and a customer walk you
+
+---------16:19----------
+unlock the password on my iPhone 3G go
+
+---------16:22----------
+away go away
+
+---------16:45----------
+yeah this is the hakko FM 2032 iron with
+
+---------16:50----------
+the this is the t30 - k and tip my
+
+---------16:56----------
+favorite just makes the stuff a lot
+
+---------16:59----------
+easier makes me look a lot smarter then
+
+---------17:01----------
+I'm actually kind of an idiot I can't
+
+---------17:06----------
+get them ship on straight to save his
+
+---------17:08----------
+life
+
+---------17:11----------
+okay that's about as straight as this is
+
+---------17:13----------
+gonna get now I know this is gonna work
+
+---------17:21----------
+so what I'm gonna do is I'm gonna
+
+---------17:22----------
+ultrasonic this because looks pretty
+
+---------17:25----------
+shitty so does it work well you tell me
+
+---------17:28----------
+this is what we have after looks nicer
+
+---------17:32----------
+than the before section and I delete
+
+---------17:40----------
+that and let's see what do we have
+
+---------17:45----------
+here it's not plugged in and what do you
+
+---------17:51----------
+know works so that's that hope you
+
+---------17:55----------
+learned something
+

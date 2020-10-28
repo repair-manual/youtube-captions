@@ -1,0 +1,628 @@
+https://www.youtube.com/watch?v=DAJc3A79ezw
+---------00:00----------
+all right white is eight to zero thirty
+
+---------00:02----------
+three thirty not charged first gonna do
+
+---------00:04----------
+is see how many amps it's taking so I
+
+---------00:06----------
+plug it in and there's a battery already
+
+---------00:08----------
+in this MacBook and it's taking point
+
+---------00:12----------
+one amps point one amps is not even
+
+---------00:15----------
+enough to turn the damn thing on much
+
+---------00:16----------
+less charge it alright the first thing
+
+---------00:20----------
+I'd like to do is check my pp bus what
+
+---------00:23----------
+voltage is my pp bus is my pp bus g3 hot
+
+---------00:27----------
+or g3 not this is why I couldn't get a
+
+---------00:31----------
+real TV show with Vice so I can measure
+
+---------00:34----------
+my pp bus here on r6 905 for the input
+
+---------00:38----------
+of the Pepe 3v for two circuit now we
+
+---------00:40----------
+have one point to bolts on my PP buzz
+
+---------00:43----------
+that's no good see what do I get on DC n
+
+---------00:46----------
+kind of curious what I get there okay so
+
+---------00:49----------
+the DC and is 18 volts but the pp bus is
+
+---------00:52----------
+1.2 now the first thing we're gonna do
+
+---------00:54----------
+is let's see if we have a short to
+
+---------00:55----------
+ground on the pp bus six point twenty
+
+---------01:01----------
+three million ohms there's no short to
+
+---------01:03----------
+ground but our pp bus is not there so
+
+---------01:06----------
+let's take a look at the chip that's
+
+---------01:07----------
+gonna create our pp bus the chip that's
+
+---------01:09----------
+gonna create our pp bus is going to be u
+
+---------01:13----------
+7,000 so this is where pp bus g3 hot is
+
+---------01:16----------
+created where u 7000 it's gonna take the
+
+---------01:19----------
+18 volts from the adapter and send it to
+
+---------01:22----------
+the system it's going to take that 18
+
+---------01:24----------
+volts these transistors will turn on and
+
+---------01:26----------
+then off and then on and then off as the
+
+---------01:29----------
+u 7,000 tells them to so you'll get a
+
+---------01:32----------
+spike of 18 and then 0 spike of 18 and 0
+
+---------01:34----------
+spike of 18 and 0 and through this
+
+---------01:36----------
+magical coil and with these capacitors
+
+---------01:40----------
+to ground over here what you get is an
+
+---------01:42----------
+average down 12 point 56 volts but let's
+
+---------01:46----------
+take a look at what are you 7,000 looks
+
+---------01:48----------
+like u 7,000 can be found over here on
+
+---------01:50----------
+the board you 7,000 can also be found by
+
+---------01:53----------
+heading to our website ad store dot
+
+---------02:00----------
+Rossman group.com head over to store dot
+
+---------02:04----------
+Rossman group comm or you can find chips
+
+---------02:06----------
+tools drivers and more with five stars
+
+---------02:11----------
+on shopper approved comm you
+
+---------02:13----------
+go wrong same-day shipping from New York
+
+---------02:15----------
+City free shipping over $30 within the
+
+---------02:17----------
+continental United States and full
+
+---------02:19----------
+compatibility listed for every chip that
+
+---------02:22----------
+we sell simply type in ISL six two five
+
+---------02:25----------
+nine at the top and it will
+
+---------02:27----------
+automatically autocomplete and list
+
+---------02:30----------
+everything that people typically search
+
+---------02:31----------
+for as well as show you chips you can
+
+---------02:34----------
+simply click the first one that shows up
+
+---------02:35----------
+and it'll bring you right there because
+
+---------02:38----------
+of our fast servers there's no waiting
+
+---------02:40----------
+and if you buy in quantity you'll even
+
+---------02:42----------
+save over here at a list of compatible
+
+---------02:44----------
+boards it'll tell you what the chip is
+
+---------02:46----------
+for and we have high quality photos you
+
+---------02:49----------
+can compare it to what's on your
+
+---------02:50----------
+motherboard don't delay buy today with
+
+---------02:53----------
+that let's go back and see what it looks
+
+---------02:55----------
+like on our board that chip looks fine
+
+---------02:58----------
+nothing looks wrong with that chip it's
+
+---------03:00----------
+a lovely looking little chip why don't
+
+---------03:02----------
+you work why don't you work much sadness
+
+---------03:06----------
+well the first thing we have to do is
+
+---------03:09----------
+check out the current sensing circuit we
+
+---------03:11----------
+have to see the current sensing circuit
+
+---------03:14----------
+which is pretty cool the resistance
+
+---------03:17----------
+between pins 27 and 28 and pins 17 and
+
+---------03:20----------
+18 is what I would expect it to be given
+
+---------03:23----------
+the resistances in those areas this is a
+
+---------03:24----------
+current sensing resistor it's gonna be a
+
+---------03:26----------
+small voltage drop across at the ISL
+
+---------03:28----------
+65:9 is gonna read the drop across but
+
+---------03:31----------
+it's only gonna read the drop across it
+
+---------03:32----------
+if the pathway between the current
+
+---------03:33----------
+sensing resistors and the chip are
+
+---------03:37----------
+intact so let's check that out
+
+---------03:39----------
+good twice right yeah
+
+---------03:45----------
+sleepy pin 27 and 28 I want to go home
+
+---------03:52----------
+and see my kitty but I can't go home and
+
+---------03:57----------
+see my kitty I have to work and fix
+
+---------04:01----------
+MacBook
+
+---------04:05----------
+Masaya 3.2 all right so the current
+
+---------04:09----------
+sensing circuit is working as its
+
+---------04:11----------
+supposed to
+
+---------04:12----------
+what if it let's check everything else
+
+---------04:15----------
+around this chip alright so the first
+
+---------04:17----------
+thing I'm gonna do let's see if we're
+
+---------04:18----------
+getting the charger DC in on pin two you
+
+---------04:24----------
+get a green light
+
+---------04:25----------
+what's that green light it's not
+
+---------04:27----------
+producing anything pin two is gonna be
+
+---------04:35----------
+over here
+
+---------04:42----------
+and we get 15 volts that's actually
+
+---------04:45----------
+pretty low that's quite a bit of drop
+
+---------04:48----------
+from the 18 point 5 volts to my power
+
+---------04:51----------
+supply should be putting out so we got a
+
+---------04:53----------
+couple of options here so I was checking
+
+---------04:56----------
+for PP DC charger DC n this is where the
+
+---------05:00----------
+charger up here from adapter is going to
+
+---------05:05----------
+go to my is L to power it now that's 15
+
+---------05:10----------
+volts is a 2000 resistor and a diode
+
+---------05:14----------
+supposed to cause a drop of three and a
+
+---------05:16----------
+half volts I don't think so is my
+
+---------05:18----------
+resistor dead is my is L six two five
+
+---------05:21----------
+nine shorting nut to ground because my
+
+---------05:22----------
+is L is dead one way to find out we're
+
+---------05:25----------
+gonna check on our seven zero zero five
+
+---------05:27----------
+which can be found over here and see if
+
+---------05:30----------
+that's actually the 20 ohms that expect
+
+---------05:32----------
+to and it is and we're gonna send the
+
+---------05:38----------
+diodes probably good because the diodes
+
+---------05:40----------
+always good which means the chip may be
+
+---------05:43----------
+pulling it down let's remove that chip
+
+---------05:46----------
+that might be pulling our results down
+
+---------05:47----------
+and see if we can fix it with the new is
+
+---------05:50----------
+l6 to 59 courtesy of store Crossman
+
+---------05:53----------
+group.com don't delay by today help
+
+---------05:59----------
+support our shipping staff that we just
+
+---------06:01----------
+hired so that we don't have to fire them
+
+---------06:06----------
+they actually hired a customer service
+
+---------06:08----------
+person in addition he a customer service
+
+---------06:11----------
+person plus a shipping person for store
+
+---------06:14----------
+dot Rossmann group comm so even the
+
+---------06:17----------
+store has several of many employees but
+
+---------06:19----------
+now we have two employees who solely
+
+---------06:20----------
+deal with nothing but store dot Rossman
+
+---------06:23----------
+group comm just stored all of the data
+
+---------06:28----------
+what's on their mind is stored on
+
+---------06:30----------
+Rossman group comm shipping little
+
+---------06:33----------
+capacitors shipment quicks shipping
+
+---------06:35----------
+crests that's what they do and they are
+
+---------06:40----------
+supported through your generosity when
+
+---------06:42----------
+you decide to purchase your quick your
+
+---------06:44----------
+crest your ISL your LP 8550 or NXP 1683
+
+---------06:49----------
+B from store dot I just knocked
+
+---------06:52----------
+everything son of a [ __ ] bastard
+
+---------06:55----------
+ god damn it ah that sucks
+
+---------06:59----------
+ me what the mother piece of
+
+---------07:09----------
+ [ __ ] bastard
+
+---------07:11----------
+I knocked everything off on the bottom
+
+---------07:17----------
+don't chill while you're soldering
+
+---------07:21----------
+anymore
+
+---------07:22----------
+no shelling with soldering at the same
+
+---------07:24----------
+time son of a [ __ ]
+
+---------08:11----------
+yeah
+
+---------09:40----------
+I love my kitty my kitty is so cute it's
+
+---------09:48----------
+a kind kitty as well
+
+---------09:55----------
+okay we got some nice flux there so I
+
+---------09:57----------
+can do that now that one resistor that I
+
+---------10:00----------
+forgot about
+
+---------10:29----------
+[Music]
+
+---------10:51----------
+[Music]
+
+---------11:01----------
+and as you can see peepee bus is now g3
+
+---------11:06----------
+hot and we have a fan that's spinning I
+
+---------11:09----------
+were to measure my peepee bus my peepee
+
+---------11:13----------
+bus is gonna be a happy twelve point 56
+
+---------11:15----------
+volts look at that
+
+---------11:18----------
+12 point 55 volts and our pee pee bus so
+
+---------11:22----------
+what was going on was that we were
+
+---------11:23----------
+missing pee pee bus g3 Han the customer
+
+---------11:25----------
+said the computer would work off a
+
+---------11:26----------
+battery but it would not charge the
+
+---------11:28----------
+battery and when the battery was
+
+---------11:29----------
+discharged it would no longer work but
+
+---------11:31----------
+it would not charge a new battery so
+
+---------11:32----------
+what do we do well if it worked off a
+
+---------11:35----------
+battery PP bunch d3 hot which is applied
+
+---------11:37----------
+by the battery if the charges not
+
+---------11:38----------
+plugged in can't be shorted to ground so
+
+---------11:40----------
+we ruled that out as possibility and we
+
+---------11:42----------
+did check for a short to ground just in
+
+---------11:43----------
+case but I that wasn't gonna be the case
+
+---------11:45----------
+we check the current sensing circuitry
+
+---------11:47----------
+around the ISL six two five nine chip
+
+---------11:49----------
+aka you 7000 which is required in order
+
+---------11:51----------
+for the ISL six two five nine to create
+
+---------11:53----------
+our PP best g3 hot and that wasn't at a
+
+---------11:56----------
+wack so it wasn't the resistors of the
+
+---------11:57----------
+traces we then checked charger DC in
+
+---------11:59----------
+which with the charger is gonna be
+
+---------12:00----------
+supplying power to the ISL six two five
+
+---------12:03----------
+nine through a resistor called our
+
+---------12:05----------
+seventy twenty which is a resistor that
+
+---------12:07----------
+is going to limit the current that goes
+
+---------12:10----------
+to the ISL six two five nine on the
+
+---------12:12----------
+other side of that resistor we had a
+
+---------12:13----------
+voltage dropped from eighteen point five
+
+---------12:15----------
+volts to 15 volts which meant either a
+
+---------12:18----------
+the resistor was dead or being the ISL
+
+---------12:20----------
+sixty five and I was pulling it down
+
+---------12:21----------
+after taking a careful look the UH the
+
+---------12:24----------
+resistor was twenty ohms but the ISL six
+
+---------12:26----------
+two five nine appeared to be pulling
+
+---------12:27----------
+down that voltage and as a result of a
+
+---------12:29----------
+pull and it was pulling down that
+
+---------12:30----------
+voltage because was bad we replaced it
+
+---------12:32----------
+with one and it worked so if you need an
+
+---------12:35----------
+ISL six two five nine you can buy it at
+
+---------12:38----------
+store dot Rosman group.com don't delay
+
+---------12:43----------
+by today and we're moving on to the next
+
+---------12:48----------
+motherboard so next motherboard in our
+
+---------12:50----------
+list and go from there
+

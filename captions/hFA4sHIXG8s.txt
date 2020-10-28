@@ -1,0 +1,586 @@
+https://www.youtube.com/watch?v=hFA4sHIXG8s
+---------00:00----------
+all right so we're going to try to turn
+
+---------00:01----------
+on this MacBook Air over here and see
+
+---------00:03----------
+what happens as you can see when I try
+
+---------00:05----------
+to turn it on the fan doesn't spin it's
+
+---------00:08----------
+dead now if we were to take a look at
+
+---------00:11----------
+this under the microscope real quick
+
+---------00:13----------
+you'll notice that a familiar culprit
+
+---------00:15----------
+appears to look a little bit
+
+---------00:18----------
+questionable but I'll let you be the
+
+---------00:21----------
+judge
+
+---------00:21----------
+hmm what's up with that well I do
+
+---------00:28----------
+believe we have a job to do here be a
+
+---------00:34----------
+hunting jtag connector
+
+---------00:35----------
+[Music]
+
+---------00:44----------
+so it's time take our revenge on the
+
+---------00:49----------
+jtag connector
+
+---------00:52----------
+and she will do like so
+
+---------01:20----------
+dai jtech Dai Dai jtech
+
+---------01:32----------
+you and your pads can all go to hell
+
+---------02:01----------
+I don't care about a single pad on this
+
+---------02:05----------
+JPEG connector I don't care about the
+
+---------02:07----------
+connector I don't care about the traces
+
+---------02:10----------
+going to the connector I don't care
+
+---------02:12----------
+about this cloud or joins on the
+
+---------02:14----------
+connector I don't care about the
+
+---------02:16----------
+usability of the connector I want this
+
+---------02:23----------
+connector to feel pain suffering anguish
+
+---------02:26----------
+sorrow loneliness irritation
+
+---------02:43----------
+so we're back
+
+---------02:49----------
+sadly it appears that we may actually
+
+---------02:51----------
+have to use our brain for this one well
+
+---------02:53----------
+I was hoping not to have to do that
+
+---------02:55----------
+alright let's take it apart and see what
+
+---------02:58----------
+we get
+
+---------03:21----------
+now I know that I've got PP 3v4 to
+
+---------03:24----------
+because I have a green light my charger
+
+---------03:26----------
+which means the one wire work it circuit
+
+---------03:28----------
+and the SMC you're working so let's
+
+---------03:32----------
+check out the rest we're going to check
+
+---------03:35----------
+out pp bus g3 hot over here and alright
+
+---------03:50----------
+let's arrange 8.58 volts here zero volts
+
+---------03:58----------
+here alright so there we go
+
+---------04:01----------
+so we have a blown fuse 4 PP bus g3 hot
+
+---------04:04----------
+that is our first problem and that is
+
+---------04:10----------
+going to be F 71 40 over here so now I
+
+---------04:15----------
+have to see if there's a short to ground
+
+---------04:17----------
+on the system side of PP bus g3 hot that
+
+---------04:19----------
+would cause less use to blow excuse is
+
+---------04:22----------
+not going to blow for no reason so if I
+
+---------04:24----------
+take my red probe of my multimeter and
+
+---------04:26----------
+put it to ground in my black probe and I
+
+---------04:28----------
+put it to the fuse you'll see that we
+
+---------04:30----------
+have a zero direct zero voltage drop the
+
+---------04:33----------
+ground direct short now before I go nuts
+
+---------04:36----------
+trying to inject voltage into the board
+
+---------04:39----------
+to find where the short is I might as
+
+---------04:41----------
+well just take a brief look over the
+
+---------04:43----------
+board and see if anything looks out of
+
+---------04:48----------
+place to me that's a capacitor that's
+
+---------04:51----------
+exploding a chip that has a hole in it
+
+---------04:54----------
+anything that's going to give us a hint
+
+---------04:56----------
+and as to why this has happened so we
+
+---------04:59----------
+look by the CPU capacitors to see if any
+
+---------05:02----------
+of them is exploding common cause
+
+---------05:08----------
+look on the other side of the board here
+
+---------05:17----------
+it's a good idea to look around before
+
+---------05:19----------
+you inject voltage
+
+---------05:53----------
+alright nothing here is looking too
+
+---------05:55----------
+obviously messed up so let's remove our
+
+---------05:57----------
+fuse inject some voltage and see what we
+
+---------06:00----------
+get now we're not going to want to start
+
+---------06:02----------
+with more than 1 volt just in case any
+
+---------06:04----------
+one of the transistors for the CPU is
+
+---------06:07----------
+broken because then we would be
+
+---------06:08----------
+injecting a high amount of voltage into
+
+---------06:10----------
+the CPU do do note that this rail is
+
+---------06:13----------
+responsible for just about every other
+
+---------06:15----------
+rail on the machine so if we have a chip
+
+---------06:17----------
+that's trying to turn eight volts in a 1
+
+---------06:19----------
+volt and it's shorted it's going to send
+
+---------06:21----------
+the 8 volts directly to whatever is in
+
+---------06:25----------
+front of it so if that's something like
+
+---------06:27----------
+say the CPU you don't want to inject
+
+---------06:29----------
+voltage into here and then have that go
+
+---------06:31----------
+directly to the CPU because of a blown
+
+---------06:33----------
+fat that would be very bad that fuse is
+
+---------06:36----------
+gone
+
+---------06:40----------
+[Music]
+
+---------06:55----------
+[Music]
+
+---------06:59----------
+and I use this as my ground now I'm
+
+---------07:03----------
+going to take my power supply here
+
+---------07:07----------
+[Music]
+
+---------07:14----------
+okay
+
+---------07:15----------
+[Music]
+
+---------07:16----------
+power supply grounds out of to this
+
+---------07:18----------
+ground and then we're going to solder
+
+---------07:20----------
+the power supply positive to where our
+
+---------07:23----------
+short look is located
+
+---------07:24----------
+[Music]
+
+---------07:38----------
+now to see what gets warm because you
+
+---------07:42----------
+never know if my one volt is making the
+
+---------07:46----------
+CPU warm then I know what is shorted the
+
+---------07:52----------
+CPU is as cold as ice so that's most
+
+---------07:55----------
+likely not our problem let's turn up the
+
+---------07:57----------
+voltage just a little bit here can you
+
+---------07:59----------
+see what's getting hot here let's try
+
+---------08:01----------
+something we're going to put a little
+
+---------08:02----------
+bit of alcohol on the board we're going
+
+---------08:06----------
+to see where it evaporates so I think
+
+---------08:13----------
+it's something over here ooh see this
+
+---------08:21----------
+yeah
+
+---------08:31----------
+that is not a happy capacitor it's
+
+---------08:35----------
+sizzling
+
+---------08:41----------
+Tassadar at all so we're going to do is
+
+---------08:43----------
+we're going to repeal and replace with
+
+---------08:46----------
+the better one
+
+---------08:52----------
+come on
+
+---------08:55----------
+you can mouth off the board
+
+---------09:02----------
+and our short is gone no more power is
+
+---------09:05----------
+passing through
+
+---------09:06----------
+[Music]
+
+---------09:13----------
+[Music]
+
+---------09:23----------
+and this time we're going to be neat
+
+---------09:24----------
+about it
+
+---------09:27----------
+[Music]
+
+---------09:29----------
+and this side over here
+
+---------09:31----------
+[Music]
+
+---------09:36----------
+that's all we need not barely small
+
+---------09:40----------
+little clump
+
+---------09:45----------
+[Music]
+
+---------09:51----------
+[Music]
+
+---------10:04----------
+there we go nice and clean now we're
+
+---------10:10----------
+going to get a new PP bus G three hot
+
+---------10:11----------
+views this area over here needs a fresh
+
+---------10:14----------
+fuse
+
+---------10:17----------
+[Music]
+
+---------10:41----------
+[Music]
+
+---------11:01----------
+that's what we call fan spin and that is
+
+---------11:03----------
+a fixed board and as always I hope you
+
+---------11:06----------
+learned something now time for an
+
+---------11:07----------
+advertisement this is our website here
+
+---------11:09----------
+mail in dot repair you will be able to
+
+---------11:12----------
+find on most of the different cleaners
+
+---------11:14----------
+stencils connectors ICS and small chips
+
+---------11:18----------
+that we use throughout these repairs on
+
+---------11:19----------
+this website so here you'll find the
+
+---------11:22----------
+ultrasonic cleaner that we use at the
+
+---------11:23----------
+store that's fixed many other boards
+
+---------11:25----------
+that I was unable to fix in the video
+
+---------11:26----------
+this here is shipped straight from the
+
+---------11:28----------
+store here you'll see a bunch of LCD
+
+---------11:30----------
+connectors
+
+---------11:31----------
+we've got keyboard connectors we've got
+
+---------11:34----------
+digitizer connectors and they're all
+
+---------11:35----------
+organized here so if you go connectors
+
+---------11:37----------
+by type or you can search by your device
+
+---------11:40----------
+if we go here components by device
+
+---------11:42----------
+iPhone iPhone 6's it'll bring you to a
+
+---------11:45----------
+screen where you'll find a bunch of
+
+---------11:47----------
+different parts for your iPhone the same
+
+---------11:49----------
+is true for stencils you've got stencils
+
+---------11:51----------
+over here like the SMC stencil that it's
+
+---------11:53----------
+typically hard to buy directly in
+
+---------11:55----------
+America you have to wait a long time to
+
+---------11:56----------
+get that from China here we've got the
+
+---------11:59----------
+some different parts like the LPP 3v4 to
+
+---------12:02----------
+regulator over here so this is a TP 3
+
+---------12:05----------
+before to regulator you can actually
+
+---------12:07----------
+search by the number on the schematic
+
+---------12:09----------
+and if there are different ships with
+
+---------12:11----------
+that same number it'll bring up all the
+
+---------12:12----------
+different ships you can scroll down and
+
+---------12:14----------
+figure out which one is for your
+
+---------12:16----------
+motherboard because over here it'll say
+
+---------12:17----------
+compatible boards and it will list all
+
+---------12:19----------
+the boards the chip is compatible with
+
+---------12:21----------
+if you don't want to deal with that you
+
+---------12:23----------
+can even just search by your motherboard
+
+---------12:24----------
+so if I search over here for a t20 3462
+
+---------12:27----------
+it will only show me chips that are
+
+---------12:29----------
+compatible with my model motherboard and
+
+---------12:33----------
+this was all put together with
+
+---------12:35----------
+high-resolution pictures that you can
+
+---------12:37----------
+compare it to your chip to make sure
+
+---------12:39----------
+that you buy the right one and if you
+
+---------12:41----------
+ever have a question feel free to email
+
+---------12:42----------
+feel free to comment feel free to live
+
+---------12:44----------
+chat so thank you very much for watching
+
+---------12:46----------
+the video thank you very much for your
+
+---------12:48----------
+patronage if you use our website we've
+
+---------12:50----------
+also got flux here if you want flux
+
+---------12:52----------
+we've got solder paste over here if you
+
+---------12:55----------
+want solder paste and we've even got
+
+---------12:58----------
+mouse pads with pictures of my [ __ ]
+
+---------13:02----------
+of a cat
+

@@ -1,0 +1,409 @@
+https://www.youtube.com/watch?v=XbJIIh20cJs
+---------00:00----------
+we're gonna get started on a machine the
+
+---------00:02----------
+kamil does not want to work on because
+
+---------00:03----------
+it's a nightmare this is a MacBook Air
+
+---------00:06----------
+and no backlight
+
+---------00:07----------
+how a MacBook Air no backlight is a
+
+---------00:08----------
+nightmare I'm not sure but we're going
+
+---------00:10----------
+to find out since Paul is in here we
+
+---------00:11----------
+can't throw things into the Paul Q so
+
+---------00:13----------
+the first thing I'm going to do is see
+
+---------00:15----------
+what voltage it is I get it back light
+
+---------00:17----------
+output when I have this thing plugged in
+
+---------00:19----------
+okay so first thing to do here let's
+
+---------00:21----------
+check our backlight voltage and see what
+
+---------00:23----------
+we get we get eight point five volts
+
+---------00:26----------
+which means that we're not boosting so
+
+---------00:28----------
+first thing I'm gonna do is check a
+
+---------00:31----------
+couple of things on the bottom of the
+
+---------00:33----------
+machine here the first thing we need for
+
+---------00:35----------
+the backlight to be boosted is for it to
+
+---------00:38----------
+be enabled so this is the lp 8550 this
+
+---------00:41----------
+is the DC to DC boost I see it's going
+
+---------00:43----------
+to switch to ground over here if you
+
+---------00:45----------
+want more details on how that works you
+
+---------00:47----------
+can check out my video on how to DC to
+
+---------00:48----------
+DC boost circuit works and backlight
+
+---------00:51----------
+enable over here is going to have to be
+
+---------00:54----------
+present in order to turn the chip on and
+
+---------00:56----------
+enable so let's see what it is we're
+
+---------00:58----------
+getting at backlight enable oh dear god
+
+---------01:06----------
+this is a you poor little mess
+
+---------01:18----------
+so we have zero volts there eight volts
+
+---------01:23----------
+here now why is it that we have zero
+
+---------01:27----------
+volts and backlight enable I wonder so
+
+---------01:29----------
+this is supposed to be a voltage divider
+
+---------01:31----------
+either a our 77031 over here is not 200
+
+---------01:35----------
+kilo ohms
+
+---------01:36----------
+well it's not this is not 200 kilo ohms
+
+---------01:39----------
+this is actually much higher so that
+
+---------01:40----------
+there's zero volts on the other side or
+
+---------01:42----------
+be the LED driver is bad and pulling the
+
+---------01:44----------
+enable to ground this is supposed to be
+
+---------01:46----------
+a voltage divider this turns the 8 volts
+
+---------01:48----------
+from PPVs osw LCD backlight at 2.7 a 3
+
+---------01:51----------
+volt 4 backlight enable it's supposed to
+
+---------01:52----------
+be working as a voltage divider but it
+
+---------01:55----------
+doesn't appear to be because when I
+
+---------01:56----------
+measure the voltage at the top of the
+
+---------01:57----------
+voltage divider you can see we have
+
+---------01:59----------
+eight but on the other side of the net
+
+---------02:00----------
+we have zero so we are gonna do here is
+
+---------02:03----------
+I'm going to unplug the power from it so
+
+---------02:05----------
+that I can measure the resistance of
+
+---------02:08----------
+that resistor now as you can see that
+
+---------02:14----------
+resistor that's supposed to be 200
+
+---------02:16----------
+kilohms is measuring 7.3 million ohms so
+
+---------02:21----------
+we're going to replace that resistor
+
+---------02:23----------
+have to replace that resistor this board
+
+---------02:24----------
+should be working
+
+---------02:31----------
+a shifter says I just got my first boy
+
+---------02:34----------
+to do component of warfare and after
+
+---------02:35----------
+years of watching you do it thanks for
+
+---------02:36----------
+the work easy
+
+---------02:37----------
+awesome oh so this resistor is 7 million
+
+---------02:43----------
+ohms instead of 200 Killam so this is
+
+---------02:45----------
+the enable without the enable of on
+
+---------02:47----------
+boost now you had a a at the voltage
+
+---------02:54----------
+divider there's 8 volts at the beginning
+
+---------02:55----------
+but zero volts after because this is 7
+
+---------02:57----------
+million ohms yes yeah yeah yet 8 volts
+
+---------03:02----------
+here but zero volts here it says could
+
+---------03:03----------
+be like 2 or 3 someone coming
+
+---------03:12----------
+it just wasn't looking corroded looking
+
+---------03:15----------
+here but it was upside down that was
+
+---------03:16----------
+interesting oh did you notice that was
+
+---------03:17----------
+upside down because I like yeah
+
+---------03:33----------
+how long was it Oh Sonic for
+
+---------03:42----------
+yeah I like the green this board looks
+
+---------03:45----------
+like the got Jolly Green Giant
+
+---------03:52----------
+all the pads are all scraped and
+
+---------03:54----------
+corroded and for little magic
+
+---------04:03----------
+I hope you work a little magic
+
+---------04:11----------
+okay give me one second and make this
+
+---------04:14----------
+one measurement here and then I will be
+
+---------04:16----------
+right with you
+
+---------04:24----------
+it looks like backlights 24.7 volts and
+
+---------04:27----------
+now to see you for getting a
+
+---------04:28----------
+questionmark folder look at that look at
+
+---------04:32----------
+that question mark folder nice and
+
+---------04:34----------
+bright so this had a bad backlight
+
+---------04:37----------
+enable resistor do remember before you
+
+---------04:38----------
+check every single little thing involved
+
+---------04:40----------
+in the backlight circuit before you go
+
+---------04:42----------
+checking your switch your feedback trace
+
+---------04:44----------
+replacing the chip make sure that it's
+
+---------04:46----------
+actually being enabled and being told to
+
+---------04:47----------
+turn on it's not enough to have a fall
+
+---------04:49----------
+to top of the voltage divider you also
+
+---------04:52----------
+need to have three volts directly at
+
+---------04:55----------
+backlight enable that's what these two
+
+---------04:56----------
+resistors are here for to take the eight
+
+---------04:57----------
+volts or 12 volts depending on the
+
+---------04:59----------
+machine from PPV neso SW LCD backlight
+
+---------05:01----------
+and turn it into 3 volts for a backlight
+
+---------05:03----------
+enable so that the chip knows that it's
+
+---------05:05----------
+supposed to turn on can't blame a light
+
+---------05:07----------
+bulb you can't blame the electrical
+
+---------05:08----------
+wiring in the store if you didn't flip
+
+---------05:10----------
+the switch to turn the light on so
+
+---------05:12----------
+that's it for this one and it seemed to
+
+---------05:14----------
+be pretty obvious that that was the case
+
+---------05:15----------
+because that resistor was on upside-down
+
+---------05:16----------
+which led me to think this is the first
+
+---------05:18----------
+thing I should check because it's an
+
+---------05:20----------
+upside-down that being said we move on
+
+---------05:23----------
+to the next one let's move on to the
+
+---------05:25----------
+next MacBook
+
+---------05:33----------
+you
+
+---------05:41----------
+do you have a Macbook that needs to be
+
+---------05:42----------
+fixed come by our store which is open to
+
+---------05:45----------
+the public in 186 First Avenue in
+
+---------05:47----------
+Manhattan are you located outside of New
+
+---------05:49----------
+York no problem
+
+---------05:50----------
+send us a machine from anywhere in the
+
+---------05:52----------
+world by going to our website and
+
+---------05:54----------
+clicking on the mailbox or simply
+
+---------05:56----------
+heading over to send your macbook comm
+
+---------05:58----------
+that send your macbook comm will you be
+
+---------06:01----------
+redirected to our mail and instructions
+
+---------06:03----------
+page that includes the form and the
+
+---------06:05----------
+directions on how to send us a MacBook
+
+---------06:08----------
+for repair we have a live chat where you
+
+---------06:10----------
+can speak with us about the repair that
+
+---------06:12----------
+you need a phone number where a
+
+---------06:14----------
+representative will pick up during our
+
+---------06:15----------
+open hours and a contact form where you
+
+---------06:17----------
+can contact us about repairs
+

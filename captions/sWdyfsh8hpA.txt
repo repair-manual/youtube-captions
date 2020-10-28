@@ -1,0 +1,2689 @@
+https://www.youtube.com/watch?v=sWdyfsh8hpA
+---------00:00----------
+all right so today I'm going to be
+
+---------00:01----------
+working on an 8 to 0 29:36 motherboard
+
+---------00:04----------
+that runs insanely slow after a liquid
+
+---------00:07----------
+spill now when you have a machine and
+
+---------00:09----------
+it's just running insanely slow and you
+
+---------00:11----------
+can barely even see the mouse move like
+
+---------00:13----------
+it's running at 1 megahertz one of the
+
+---------00:15----------
+first things that I do is look at the
+
+---------00:17----------
+sensors these machines have sensors on
+
+---------00:20----------
+them that tell them if the CPU is
+
+---------00:22----------
+running too hot they tell them you know
+
+---------00:24----------
+what voltage the CPU is running out what
+
+---------00:26----------
+temperature it's running at how much
+
+---------00:27----------
+power the charger is taking how much
+
+---------00:29----------
+power the battery is taking and they all
+
+---------00:31----------
+report back to the SMC which is the
+
+---------00:33----------
+system management controller and if any
+
+---------00:35----------
+of these things are up the SMC
+
+---------00:37----------
+will then say to the CPU you know run
+
+---------00:40----------
+slower it'll tell the chargers stop
+
+---------00:41----------
+charging it'll tell the battery stop
+
+---------00:43----------
+sending power to the computer and you
+
+---------00:45----------
+know so on and so forth I have this
+
+---------00:47----------
+little air compressor here since this
+
+---------00:51----------
+machine I don't have a heatsink for this
+
+---------00:54----------
+is one of my boards and there's
+
+---------00:55----------
+something else wrong with it anyway so I
+
+---------00:57----------
+don't really care if I kill it because
+
+---------00:58----------
+it's fairly worthless to me outside of
+
+---------01:00----------
+just being able to compare values with
+
+---------01:02----------
+other machines because it turns on and
+
+---------01:04----------
+it works but there are other issues with
+
+---------01:05----------
+it that I'm not gonna get into with this
+
+---------01:07----------
+video anyway so what I have here is a
+
+---------01:10----------
+working board let me send me working
+
+---------01:12----------
+board at least for the purposes of this
+
+---------01:13----------
+discussion it turns on and does not run
+
+---------01:15----------
+slow and then I have this one that does
+
+---------01:17----------
+run slow which is the one that I have to
+
+---------01:19----------
+fix for the customer so what I did is I
+
+---------01:20----------
+ran a SD and it a s DS tests will tell
+
+---------01:24----------
+you what is going on and here it says
+
+---------01:26----------
+that the VPO R sensor is it says
+
+---------01:30----------
+that the sensor is reading below the low
+
+---------01:31----------
+point now I'm not gonna go through every
+
+---------01:33----------
+sensor on this board and measure it and
+
+---------01:35----------
+compare it with another one I'm not
+
+---------01:37----------
+gonna waste time on that I run the test
+
+---------01:38----------
+and it says VPO 0rp bus that's the
+
+---------01:41----------
+sensor that's running below now when it
+
+---------01:43----------
+says reading below low point it's
+
+---------01:45----------
+usually gonna run slow and it says
+
+---------01:46----------
+reading above high points or something
+
+---------01:48----------
+like that it doesn't it's not good but
+
+---------01:50----------
+you can get away with it but when it
+
+---------01:51----------
+says reading below a low point that's
+
+---------01:53----------
+when everything goes to so what I
+
+---------01:54----------
+did here is I looked at the schematic
+
+---------01:56----------
+again don't it by the way don't ask me
+
+---------01:57----------
+where to get these things don't ask me
+
+---------01:59----------
+to send them to you
+
+---------02:00----------
+I do not distribute schematics I do not
+
+---------02:02----------
+in any way give these out you can google
+
+---------02:06----------
+and you will find websites that sell
+
+---------02:09----------
+these schematics and these board views
+
+---------02:10----------
+for 10 20 or 30 bucks and if you do this
+
+---------02:13----------
+for a
+
+---------02:13----------
+just spend the 10 or 20 or 30 dollars
+
+---------02:15----------
+again I am not affiliated in any way
+
+---------02:17----------
+with any of the companies that sell
+
+---------02:19----------
+these I am simply a customer of the
+
+---------02:21----------
+websites that sell these things for 20
+
+---------02:24----------
+or 30 bucks that's pretty much it so
+
+---------02:26----------
+let's take a look here now you may be
+
+---------02:28----------
+looking at the 70 page schematic going
+
+---------02:30----------
+oh my god what do I do
+
+---------02:32----------
+well this says P bus sensor is reading
+
+---------02:35----------
+below the operating limit so what do you
+
+---------02:37----------
+know here this this zoom on this camera
+
+---------02:39----------
+is sexy oh my god I am
+
+---------02:43----------
+you don't understand after having that
+
+---------02:44----------
+piece of garbage for three years this
+
+---------02:47----------
+thing is just amazing anyway
+
+---------02:49----------
+yeah so do forgive me if it doesn't look
+
+---------02:51----------
+perfect I'm still getting used to this
+
+---------02:52----------
+whole new video setup and trying to work
+
+---------02:56----------
+with it so here we have P buss sense so
+
+---------03:06----------
+P bus sensor reading below limit P bus
+
+---------03:09----------
+sense here we go
+
+---------03:10----------
+so what this thing does I'm gonna you
+
+---------03:12----------
+know I'm not even gonna get into trying
+
+---------03:14----------
+to understand how the circuit works
+
+---------03:15----------
+because at this time I don't care as I
+
+---------03:17----------
+said the sensors report back to the SMC
+
+---------03:19----------
+here we have SMC P bus v sense so this
+
+---------03:22----------
+here is going to be what I'm interested
+
+---------03:24----------
+and I want to know what this is and I
+
+---------03:26----------
+want now before I'm not gonna measure
+
+---------03:27----------
+all this crap because all of this crap
+
+---------03:29----------
+is what causes this to come out what I
+
+---------03:32----------
+care about is what this is so the
+
+---------03:34----------
+voltage divider of r5 3 or 3 and r5 3 o
+
+---------03:36----------
+4 create this voltage that goes to SMC P
+
+---------03:40----------
+bus V cents
+
+---------03:41----------
+R 5 303 and R 5 304 and so this little
+
+---------03:45----------
+program over here is gonna tell me where
+
+---------03:46----------
+the those are because I am NOT a
+
+---------03:48----------
+mind reader I don't know where the
+
+---------03:50----------
+is on the board luckily this will tell
+
+---------03:53----------
+me and again I am not affiliated in any
+
+---------03:56----------
+way shape or form with any website you
+
+---------03:59----------
+may find that sells these things but if
+
+---------04:02----------
+you have 20 to 30 bucks and you google
+
+---------04:04----------
+you will find places with them alright
+
+---------04:06----------
+so here we go R 5 303 now
+
+---------04:09----------
+I've explained in another video
+
+---------04:12----------
+eventually what a voltage divider does
+
+---------04:13----------
+what a you know resists who does what a
+
+---------04:16----------
+transistor does but if you don't know
+
+---------04:18----------
+what those are you know you in the
+
+---------04:20----------
+meantime you can just search on youtube
+
+---------04:21----------
+and you'll see so at the top of my
+
+---------04:23----------
+voltage divider on the good boy on the
+
+---------04:25----------
+bad board I have 12.5 which is the P
+
+---------04:27----------
+phoebus g3 hot and on the other side of
+
+---------04:30----------
+it I have one point one two one let me
+
+---------04:35----------
+just zoom out here so you can actually
+
+---------04:36----------
+see that on the multimeter okay so
+
+---------04:39----------
+yeah it's it's for your benefit
+
+---------04:42----------
+yep I got 12.5 and on the other side of
+
+---------04:46----------
+it I have one point one now let's see
+
+---------04:50----------
+what that isn't a good board just walk
+
+---------04:54----------
+over here on my board that I know works
+
+---------04:58----------
+I have let's see I forget where I was
+
+---------05:03----------
+well yeah I really didn't think this
+
+---------05:06----------
+through
+
+---------05:06----------
+yeah here we go 12.5 and the other side
+
+---------05:11----------
+of the voltage divider I have two volts
+
+---------05:12----------
+okay this is the cool part this is the
+
+---------05:15----------
+aha moment this is where you're on or
+
+---------05:16----------
+something because when you have a
+
+---------05:17----------
+problem and you have a theory and your
+
+---------05:19----------
+theory isn't really correct that kind of
+
+---------05:21----------
+sucks but when you have a theory and the
+
+---------05:24----------
+and and the measurements don't line up
+
+---------05:25----------
+that's cool because now I'm set I can
+
+---------05:28----------
+fix something when the measurements do
+
+---------05:29----------
+line up then it's sad because you know
+
+---------05:32----------
+you don't really know why your problem
+
+---------05:33----------
+is occurring so what this means most
+
+---------05:36----------
+likely is that one of these most likely
+
+---------05:42----------
+either this capacitor or this resistor
+
+---------05:43----------
+here are shorting a ground because again
+
+---------05:45----------
+yo the way of voltage divider works take
+
+---------05:47----------
+big voltage and you put it to your
+
+---------05:50----------
+output and then from the output of
+
+---------05:52----------
+wherever you wanted that to go you put
+
+---------05:53----------
+it to ground and in the middle this is
+
+---------05:55----------
+what your voltage winds up being so this
+
+---------05:58----------
+resistor is doing its job but this one
+
+---------06:03----------
+it probably isn't or this capacitor is
+
+---------06:05----------
+leaking and up and short in the
+
+---------06:07----------
+ground my bets based on experience is
+
+---------06:09----------
+that it is the resistor that's
+
+---------06:11----------
+up because if the capacitor was leaking
+
+---------06:13----------
+most likely I'd have zero volts here a
+
+---------06:16----------
+capacitor cannot pass DC it can only
+
+---------06:18----------
+pass AC so when I capacitor breaks
+
+---------06:21----------
+usually it just winds up not passing
+
+---------06:23----------
+anything or it winds up passing DC so if
+
+---------06:27----------
+the capacitor was bad this would be a
+
+---------06:28----------
+dead short to ground the night of zero
+
+---------06:30----------
+or you know it wouldn't pass anything at
+
+---------06:33----------
+all which would mean that it would be
+
+---------06:35----------
+the resistor either way my bet
+
+---------06:36----------
+personally is on the resistor
+
+---------06:38----------
+so let's go to our five three or four
+
+---------06:40----------
+and measure it on both boards now to
+
+---------06:42----------
+measure resistance turn the
+
+---------06:44----------
+power to the board off please seriously
+
+---------06:46----------
+please please good leader just just just
+
+---------06:50----------
+make sure you always do that don't don't
+
+---------06:52----------
+try to measure resistance with the
+
+---------06:54----------
+ thing on that's just gonna end
+
+---------06:55----------
+very badly so the schematic honestly
+
+---------06:59----------
+there are times in the schematic says
+
+---------07:00----------
+the resistance is supposed to be
+
+---------07:01----------
+something and it's not which is why I
+
+---------07:03----------
+always like to measure on a board that I
+
+---------07:04----------
+know to be good in that area just for
+
+---------07:06----------
+the hell of it and what do you know my
+
+---------07:09----------
+this my boo this board looks like crap
+
+---------07:12----------
+in that area alright so here it says our
+
+---------07:15----------
+five three zero four is five kilo ohms
+
+---------07:19----------
+the schematic says is supposed to be
+
+---------07:21----------
+five point forty nine this is making me
+
+---------07:24----------
+sad very sad because my theory is going
+
+---------07:28----------
+to and on the good board it's 5.48
+
+---------07:32----------
+hmm now the question is is that enough
+
+---------07:35----------
+of a difference to up five
+
+---------07:39----------
+versus five point four that is
+
+---------07:43----------
+mathematically speaking it's about 10%
+
+---------07:47----------
+and over here now here here's by the way
+
+---------07:49----------
+the important part because when you
+
+---------07:50----------
+measure these resistors you're gonna say
+
+---------07:52----------
+the schematic says 343 kilo ohms and -
+
+---------07:54----------
+343 point five kilo ohms that must be
+
+---------07:57----------
+the problem
+
+---------07:58----------
+well you one of the things that you have
+
+---------07:59----------
+to look at with resistors is something
+
+---------08:01----------
+called Tolerance right over here you see
+
+---------08:05----------
+where it says 1% he over here it's is 1%
+
+---------08:08----------
+that resistor needs to be somewhat
+
+---------08:10----------
+within that range of Tolerance this is a
+
+---------08:12----------
+1 percent tolerance resistor that is
+
+---------08:14----------
+what that is so here you have five point
+
+---------08:16----------
+forty nine kilo ohms five point forty
+
+---------08:17----------
+nine kilo ohms is the resistance and 1%
+
+---------08:20----------
+is the tolerance meaning that this
+
+---------08:22----------
+resistor can be up or down 1 percent now
+
+---------08:25----------
+let's just do some basic Matthew
+
+---------08:27----------
+let's just rounds it for the hell of it
+
+---------08:28----------
+let's say this is five point five kilo
+
+---------08:30----------
+ohms five kilo ohms is gonna be almost
+
+---------08:35----------
+10% less than five point five kilo ohms
+
+---------08:38----------
+it's like a bit nine or ten percent
+
+---------08:39----------
+difference but this is that the
+
+---------08:41----------
+tolerance is only 1% which means that
+
+---------08:43----------
+that is bad now if you're at you have a
+
+---------08:45----------
+330 kilometres there and it's measuring
+
+---------08:47----------
+330 point five
+
+---------08:50----------
+it doesn't
+
+---------08:52----------
+because it's so little that could be
+
+---------08:53----------
+that your multimeter is off a little
+
+---------08:55----------
+that's such a high resistance which
+
+---------08:56----------
+again doesn't really matter so let's say
+
+---------08:58----------
+it says that that is a five percent
+
+---------08:59----------
+tolerance resistor 330 kilometres on a
+
+---------09:05----------
+330 kiloohm resistor means that I
+
+---------09:08----------
+honestly am ashamed that I can't do the
+
+---------09:10----------
+math in my head right now but the point
+
+---------09:11----------
+is that doesn't really matter but here
+
+---------09:14----------
+this is a fairly low impedance and a 1%
+
+---------09:16----------
+you know 1% tolerance which means that
+
+---------09:20----------
+that is probably important because again
+
+---------09:21----------
+we're off by about 9 or 10% now what
+
+---------09:24----------
+does drive the point home to me that
+
+---------09:26----------
+this may be the cause of my problem here
+
+---------09:27----------
+and why this thing is running like
+
+---------09:29----------
+and balls is that when I look over there
+
+---------09:31----------
+you can just see that that resistor kind
+
+---------09:33----------
+of looks like let's see if I can
+
+---------09:35----------
+get this on the tripod or bring this
+
+---------09:38----------
+board over to you so I can show you what
+
+---------09:39----------
+it looks like this is why I can't wait
+
+---------09:43----------
+to get the microscope camera I'm still
+
+---------09:44----------
+waiting on that I got I still have this
+
+---------09:46----------
+cheap cheap ball damn scope over here
+
+---------09:49----------
+that I'm using this this is great for
+
+---------09:50----------
+pretty normal use but in terms of
+
+---------09:52----------
+recording I can't really do anything
+
+---------09:53----------
+with it so I got this this new one but
+
+---------09:57----------
+the thing is the head is is up
+
+---------09:59----------
+it's as a trinocular head that I can put
+
+---------10:01----------
+a camera into which is cool but the head
+
+---------10:02----------
+itself has actually up so that
+
+---------10:04----------
+when you look in it you see a different
+
+---------10:06----------
+image in each one of these and as much
+
+---------10:07----------
+as I would like to use that to show you
+
+---------10:09----------
+things if I work in that eye I'm just
+
+---------10:11----------
+gonna wind up losing my map my damn mind
+
+---------10:13----------
+just turn the real workstation on since
+
+---------10:15----------
+I know I'm gonna be replacing something
+
+---------10:17----------
+ok so I'm not sure if you're gonna be
+
+---------10:29----------
+able to see this well here but see how
+
+---------10:32----------
+this resistor looks kind of shittier
+
+---------10:33----------
+than this resistor so this is the
+
+---------10:35----------
+resistor at the top of the voltage
+
+---------10:36----------
+divider and this is the resistor at the
+
+---------10:38----------
+bottom of the voltage divider let's get
+
+---------10:41----------
+a different angle in just in case it
+
+---------10:43----------
+doesn't show up because I have no idea
+
+---------10:45----------
+what this is gonna look like once I post
+
+---------10:47----------
+it to you once I actually done with the
+
+---------10:49----------
+editing you know I'm trying to use a
+
+---------10:50----------
+camcorder as a macro lens and this just
+
+---------10:52----------
+ain't how this is supposed to work so
+
+---------10:54----------
+this is the top resistor this is the
+
+---------10:56----------
+bottom one that measures 5 kilo ohms
+
+---------10:58----------
+instead of 5.5 you see how that looks
+
+---------11:00----------
+different you see how that looks kind of
+
+---------11:01----------
+brass shitty on the ends that tells me
+
+---------11:04----------
+that gives me a hint
+
+---------11:05----------
+that tells me that something bad has
+
+---------11:07----------
+happened here and this is also by the
+
+---------11:09----------
+way one of the reasons that I have a pet
+
+---------11:11----------
+peeve about getting boards that have
+
+---------11:13----------
+been ultrasonic you know before they get
+
+---------11:15----------
+sent to me again I I truly appreciate
+
+---------11:18----------
+that people want to make money on their
+
+---------11:20----------
+own that you don't you don't really want
+
+---------11:21----------
+to send something to me if you can fix
+
+---------11:23----------
+it with an ultrasonic but the thing is
+
+---------11:25----------
+these little marks over here these
+
+---------11:26----------
+little things when I see these the the
+
+---------11:29----------
+crap like this is seriously the
+
+---------11:31----------
+difference between me saying oh this is
+
+---------11:33----------
+gonna be an easy board because I know
+
+---------11:34----------
+where the problem is in Oh bottom of the
+
+---------11:37----------
+pile because I'm gonna have to spend 10
+
+---------11:38----------
+20 30 minutes diagnosing it again when
+
+---------11:41----------
+you have a stack like I do and you have
+
+---------11:42----------
+a stack of like 50 or 70 or 100 boards
+
+---------11:46----------
+that you have to fix in this very very
+
+---------11:48----------
+short time frame and your one person
+
+---------11:50----------
+what you what I tend to do is go for the
+
+---------11:53----------
+ones that are easy before I go for the
+
+---------11:56----------
+ones that are going to be completed
+
+---------11:58----------
+nightmares so yeah let's get this thing
+
+---------12:02----------
+back where it was before and back to
+
+---------12:07----------
+work here so uh I hope this to be a
+
+---------12:09----------
+little easier in the future once I get
+
+---------12:11----------
+the microscope camera well so I'm gonna
+
+---------12:14----------
+replace that resistor with a good one
+
+---------12:16----------
+which requires that I get a good one
+
+---------12:19----------
+alright so now am I gonna go to Mouser
+
+---------12:22----------
+comm and buy that resistor and then wait
+
+---------12:24----------
+for it to get here to test my theory or
+
+---------12:26----------
+am I going to take it off of a dead
+
+---------12:28----------
+motherboard mmm-hmm
+
+---------12:32----------
+what do I want to do yeah be smart
+
+---------12:37----------
+seriously
+
+---------12:41----------
+so here's but I've talked about this in
+
+---------12:44----------
+Prior videos here's the way I like to
+
+---------12:46----------
+work I like to work in a way where I
+
+---------12:50----------
+will I will do what I have to the first
+
+---------12:53----------
+time to get the work done
+
+---------12:55----------
+but then once I realize that this is
+
+---------12:56----------
+something that I needed for a paying job
+
+---------12:58----------
+I will buy enough of it that I have it
+
+---------13:00----------
+so I will add obviously I'm gonna add
+
+---------13:03----------
+this to my list of things that I need to
+
+---------13:05----------
+buy so I will go to master comm and buy
+
+---------13:08----------
+myself a bunch of five point forty nine
+
+---------13:10----------
+kilo ohm resistors but I'm not gonna
+
+---------13:12----------
+wait I'm not gonna make the customer
+
+---------13:14----------
+wait just so I can buy it from there I'm
+
+---------13:16----------
+gonna take
+
+---------13:16----------
+off of something and this here is a dead
+
+---------13:19----------
+board that is totally worthless
+
+---------13:23----------
+so and it's a five point forty nine
+
+---------13:27----------
+kiloohm resistor which is what I need so
+
+---------13:30----------
+off it goes I'm readjusting this
+
+---------13:34----------
+microscope here because I wasn't
+
+---------13:37----------
+actually expecting I have to use this
+
+---------13:39----------
+thing again I was kind of excited about
+
+---------13:40----------
+using the new one but the new one really
+
+---------13:44----------
+didn't work out again that holds do
+
+---------13:47----------
+seeing split vision thing I I can't use
+
+---------13:50----------
+a microscope and I can't see anything so
+
+---------13:54----------
+first things first let's take the
+
+---------13:57----------
+resistor off of this one and again in
+
+---------13:59----------
+the future you will actually be able to
+
+---------14:01----------
+see the soldering part in real time
+
+---------14:04----------
+because I am going to have a camera
+
+---------14:06----------
+inside of the microscope so you'll
+
+---------14:09----------
+actually be able to you know get all the
+
+---------14:11----------
+little bits of the bits and pieces of
+
+---------14:13----------
+soldering and learning how to do that
+
+---------14:14----------
+stuff in along with the video but for
+
+---------14:17----------
+now this will have to do what do you
+
+---------14:23----------
+know I barely put heat on there and that
+
+---------14:25----------
+thing came right the off which
+
+---------14:27----------
+tells me that and that that was probably
+
+---------14:30----------
+this just got sodomized by the liquid
+
+---------14:34----------
+and that was probably the cause of my
+
+---------14:35----------
+problem so I move the bad resistor this
+
+---------14:41----------
+is even though you see you may look at
+
+---------14:43----------
+this table and say it's a mess this is
+
+---------14:44----------
+probably the cleanest that my table has
+
+---------14:46----------
+been in a good four or six years I just
+
+---------14:48----------
+I completely ignored everything in the
+
+---------14:51----------
+new jobs thought today for about an hour
+
+---------14:52----------
+and did this and the funny thing is how
+
+---------14:55----------
+people raged when you do things like
+
+---------14:56----------
+that like there were people coming in
+
+---------14:58----------
+and leaving things and I told them a
+
+---------15:00----------
+time frame so I told him a time frame
+
+---------15:01----------
+let's say two hours and they were
+
+---------15:03----------
+totally okay with that but when they saw
+
+---------15:04----------
+that after I took the device in and then
+
+---------15:06----------
+I was the only tech here that I went
+
+---------15:07----------
+back to cleaning instead of working on
+
+---------15:09----------
+it they kind of started looking at me
+
+---------15:10----------
+like I'm just gonna start no aren't you
+
+---------15:11----------
+gonna start no aren't you gonna start
+
+---------15:12----------
+now we're just gonna start and it's like
+
+---------15:14----------
+you know I still got the thing done in
+
+---------15:17----------
+the time frame that I told you and you
+
+---------15:18----------
+were okay with the time frame that I
+
+---------15:19----------
+told you but you're just not okay with
+
+---------15:21----------
+me not instantly starting on your stuff
+
+---------15:24----------
+and again limited personnel limited time
+
+---------15:28----------
+I
+
+---------15:29----------
+no give me a break all right so I'm
+
+---------15:37----------
+putting the resistor in now another
+
+---------15:39----------
+thing that I'm gonna do is measure it
+
+---------15:41----------
+again because when you put the resistor
+
+---------15:43----------
+in the circuit other parts of the
+
+---------15:44----------
+circuit can actually wind up decreasing
+
+---------15:46----------
+the resistance so I just want to make
+
+---------15:48----------
+sure that that is actually what I needed
+
+---------15:51----------
+to do what I needed to replace and when
+
+---------16:00----------
+I measure it I still get five point
+
+---------16:02----------
+forty seven now this excites me because
+
+---------16:05----------
+I the way that really does suck when you
+
+---------16:07----------
+measure it on a good board it's 120 ohms
+
+---------16:09----------
+and then you measure on the bad 160 ohms
+
+---------16:11----------
+and then you replace the resistor and
+
+---------16:13----------
+then it's still 60 ohms because
+
+---------16:14----------
+something else in the circuit is
+
+---------16:15----------
+up I don't the reason I don't like that
+
+---------16:18----------
+is because I got I know this is stupid
+
+---------16:19----------
+but I get to surprise this happy feeling
+
+---------16:21----------
+when I win like I've done something good
+
+---------16:23----------
+and then that that little happy feeling
+
+---------16:25----------
+like I win and I knew what I was doing
+
+---------16:27----------
+and I did the right thing it all just
+
+---------16:28----------
+kind of goes to and those moments
+
+---------16:30----------
+you know like when you when you think
+
+---------16:32----------
+you did the right thing and and you're
+
+---------16:34----------
+excited and it's gonna work and then it
+
+---------16:37----------
+doesn't work and then you're back to
+
+---------16:38----------
+square one and yeah it's just it just
+
+---------16:42----------
+makes me sad it's just it's bad it's bad
+
+---------16:44----------
+hate it completely hate so now I'm gonna
+
+---------16:51----------
+turn this thing on the first thing I'm
+
+---------16:53----------
+gonna do is measure the voltage there to
+
+---------16:55----------
+see if I have a change and the second
+
+---------16:57----------
+thing that I'm gonna do is run that test
+
+---------17:02----------
+and see if the sensor has changed and
+
+---------17:04----------
+the third thing that I'm going to do
+
+---------17:06----------
+after I find that where I put my
+
+---------17:08----------
+DC here we go is see if the SLO problem
+
+---------17:12----------
+is actually been repaired so I'm gonna
+
+---------17:14----------
+check to see if what I did changed
+
+---------17:16----------
+voltage on the board then I'm going to
+
+---------17:19----------
+see if that change on the board actually
+
+---------17:22----------
+manifested itself as a change in the
+
+---------17:24----------
+test and then I'm gonna see if the
+
+---------17:25----------
+change in the test manifested itself in
+
+---------17:27----------
+something I can get 325 bucks for
+
+---------17:30----------
+because again there are a lot of times
+
+---------17:32----------
+or I fix let's say there's a bad current
+
+---------17:34----------
+sensor good right everything else works
+
+---------17:36----------
+but the current cent circuit doesn't
+
+---------17:37----------
+work I'm like yes it's the current cent
+
+---------17:39----------
+circuit that's why this is not way
+
+---------17:40----------
+that's why the charge is not working and
+
+---------17:41----------
+then I fix the current sense circuit
+
+---------17:43----------
+it measures exactly the way it's
+
+---------17:44----------
+supposed to and the charges still don't
+
+---------17:46----------
+ work and the any one wire
+
+---------17:47----------
+circuit works and you know the rest of
+
+---------17:50----------
+everything around the is all works and
+
+---------17:51----------
+it just like come on come on the way
+
+---------17:55----------
+it's supposed to it why like I have a
+
+---------17:57----------
+board right now that's been driving me
+
+---------17:58----------
+nuts puts out the exact amount of power
+
+---------18:00----------
+that it's supposed to the exact amount
+
+---------18:02----------
+of power that it's supposed to in order
+
+---------18:04----------
+to power the LCD backlight you get that
+
+---------18:06----------
+power on the LCD backlight like on the
+
+---------18:08----------
+actual LCD end of the connector you
+
+---------18:10----------
+measure and there's 30-something volts
+
+---------18:13----------
+going to the outlet the screen
+
+---------18:14----------
+and you see a picture and everything on
+
+---------18:16----------
+the board I mean every single part of
+
+---------18:18----------
+that back light circuit measures
+
+---------18:19----------
+identically to a good board but it
+
+---------18:22----------
+doesn't put that pack light like
+
+---------18:23----------
+like that it's just annoying you
+
+---------18:26----------
+know but such is life
+
+---------18:29----------
+such is life okay so in the meantime
+
+---------18:36----------
+while I'm waiting for this let's see do
+
+---------18:39----------
+I get two volts or one volt on there
+
+---------18:41----------
+here's hoping that I get two because
+
+---------18:44----------
+that's what the good board gives me what
+
+---------18:48----------
+do I get on that voltage divider you
+
+---------18:51----------
+can't see the multimeter go
+
+---------18:57----------
+mmm two volts you see that all right all
+
+---------19:02----------
+right all right we're going somewhere we
+
+---------19:05----------
+are yet in the somewhere I'm
+
+---------19:07----------
+excited I'm excited okay so first thing
+
+---------19:09----------
+is done the change in the component
+
+---------19:11----------
+resulted in a change on the board now
+
+---------19:13----------
+step two which is see if the change in
+
+---------19:16----------
+the value of the component on the board
+
+---------19:18----------
+and the change of the voltage as a
+
+---------19:19----------
+result is actually going to result in
+
+---------19:21----------
+test passing because again I could
+
+---------19:24----------
+change you know the board could save 50
+
+---------19:25----------
+volts on there two volts or three we
+
+---------19:27----------
+could say whatever the it wants if
+
+---------19:28----------
+it still fails the test then I have not
+
+---------19:30----------
+done then you know it's pointless and
+
+---------19:32----------
+we're back to square one
+
+---------19:34----------
+okay here's my favorite part where the I
+
+---------19:37----------
+don't know where I put my wireless mouse
+
+---------19:39----------
+so I'm using this trackpad and
+
+---------19:42----------
+keyboard setup to run a SD I hate this
+
+---------19:45----------
+ I really do this series like you
+
+---------19:47----------
+have no idea many times I do this I'm
+
+---------19:48----------
+like why isn't it clicking because
+
+---------19:50----------
+you're a and this is not inside
+
+---------19:53----------
+a computer alright let's see what I get
+
+---------19:57----------
+okay so we've made it to vp0 our and I
+
+---------20:01----------
+don't know if you saw when I first
+
+---------20:02----------
+started the video I don't know if this
+
+---------20:03----------
+was AMA but it's it failed across the
+
+---------20:04----------
+screen now it doesn't say failed and vp0
+
+---------20:06----------
+are works so now the change in the
+
+---------20:10----------
+component on the board has resulted in a
+
+---------20:12----------
+change in the voltage where so that it
+
+---------20:15----------
+matches a good board that change in
+
+---------20:17----------
+voltage has resulted in the test passing
+
+---------20:20----------
+now we do test number three which is
+
+---------20:22----------
+actually booting this up into an
+
+---------20:23----------
+operating system to make sure that it
+
+---------20:25----------
+doesn't run slow as balls anymore so
+
+---------20:28----------
+okay let's go let's go let's go let's go
+
+---------20:36----------
+let's go let's go oh dish
+
+---------20:42----------
+drives me crazy
+
+---------20:44----------
+it really does like I really wish there
+
+---------20:46----------
+were enough people doing this that's
+
+---------20:47----------
+somebody seriously somebody should just
+
+---------20:49----------
+come to market with a really long LVDS
+
+---------20:51----------
+cable and like a really really long
+
+---------20:54----------
+trackpad cable and a really long
+
+---------20:56----------
+keyboard cable so that you know I don't
+
+---------20:59----------
+have to suffer with this like
+
+---------21:00----------
+just a little workstation that has all
+
+---------21:02----------
+this crap so that it's already there
+
+---------21:03----------
+would be amazing but I'm not I'm not who
+
+---------21:07----------
+anybody's marketing this crap
+
+---------21:08----------
+- they don't want their them there's no
+
+---------21:11----------
+money in that
+
+---------21:12----------
+and they know that even if they did make
+
+---------21:14----------
+it that I probably too much of a cheap
+
+---------21:16----------
+ to spend on it they're making
+
+---------21:19----------
+things like gee tools that automatically
+
+---------21:22----------
+take the corners out for you and you
+
+---------21:25----------
+know screwdrivers that stop turning the
+
+---------21:28----------
+screw when you ask it - and you know
+
+---------21:30----------
+just all sorts of stupid crap that you
+
+---------21:33----------
+don't need but stuff that would
+
+---------21:36----------
+actually make my life easier I can find
+
+---------21:39----------
+it alright also the other reason by the
+
+---------21:43----------
+way that I keep the trackpad plugged in
+
+---------21:44----------
+is not just so that I can scroll through
+
+---------21:45----------
+ASD but there is an actual sensor in the
+
+---------21:47----------
+trackpad I know that that's not the
+
+---------21:49----------
+sensor I'm testing but knowing me I'm
+
+---------21:51----------
+gonna say why is it still running slow
+
+---------21:53----------
+or why is this still acting funky if I'm
+
+---------21:56----------
+troubleshooting a sensor issue I don't
+
+---------21:58----------
+really want to keep one of the primary
+
+---------22:00----------
+sensors unplug that just seems like a
+
+---------22:02----------
+dumb thing to do from a common-sense
+
+---------22:04----------
+plan point again I know that I'm the
+
+---------22:06----------
+type of that's gonna be like why
+
+---------22:08----------
+is it still slow why am I still getting
+
+---------22:10----------
+sensor errors and I'm not gonna notice
+
+---------22:11----------
+that I didn't plug in one of the
+
+---------22:13----------
+sensors that I need yeah that's one of
+
+---------22:16----------
+the things that I try to get across to
+
+---------22:17----------
+everybody watching this channel they're
+
+---------22:19----------
+all thinking like wow you're a genius
+
+---------22:20----------
+I'm never gonna know how to do this
+
+---------22:22----------
+you're a genius it's like I'm a
+
+---------22:23----------
+you know I mean trust me I I assure you
+
+---------22:26----------
+I am not that smart I'm pretty
+
+---------22:27----------
+dumb I do a lot of dumb things I
+
+---------22:30----------
+do a lot of dumb and I miss a lot
+
+---------22:32----------
+of things that I shouldn't miss I miss a
+
+---------22:34----------
+lot of stuff I shouldn't miss you know
+
+---------22:36----------
+yeah and if you they say I I've always
+
+---------22:39----------
+said I have sales guy here I don't have
+
+---------22:41----------
+a customer service representative I have
+
+---------22:42----------
+a Salesman and you know I say no sales
+
+---------22:45----------
+to people that we know that I'm
+
+---------22:47----------
+advertising to and I and I believe in
+
+---------22:50----------
+that we do not try to sell people stuff
+
+---------22:51----------
+that they don't need and I'm I don't
+
+---------22:53----------
+frankly I've want business but I'll
+
+---------22:55----------
+really give a if you shop here and
+
+---------22:57----------
+I'm not gonna jump head over heels to
+
+---------22:58----------
+get you to shop I believe in sales and
+
+---------23:00----------
+in terms of you know if you you know you
+
+---------23:04----------
+should want something and if you want
+
+---------23:05----------
+something you know I'm gonna show you
+
+---------23:07----------
+all the options I may even try to talk
+
+---------23:09----------
+you out of it and once you decide that
+
+---------23:10----------
+you really want something here then
+
+---------23:12----------
+maybe I'll consider doing business with
+
+---------23:13----------
+you but I call him the sales guy because
+
+---------23:15----------
+he has to sell people miserable stuff on
+
+---------23:17----------
+a regular basis like hey we were just
+
+---------23:20----------
+replaced you're screening your drive
+
+---------23:21----------
+died but that
+
+---------23:22----------
+nothing to do with us don't leave a
+
+---------23:23----------
+negative review or hey yeah I know you
+
+---------23:26----------
+came in with just a no backlight issue
+
+---------23:27----------
+but your board actually went on fire
+
+---------23:29----------
+while we were working on it so you know
+
+---------23:31----------
+stuff like that again if you if I felt
+
+---------23:34----------
+okay publishing all the dumb things if
+
+---------23:36----------
+you know you probably has a list I mean
+
+---------23:40----------
+a list they could just go a mile
+
+---------23:42----------
+long of all the dumb that I have
+
+---------23:44----------
+done that he has had to sell people you
+
+---------23:47----------
+know again I try I assure you I assure
+
+---------23:49----------
+you I am not that smart I'm not that
+
+---------23:53----------
+intelligent and I can figure this stuff
+
+---------23:55----------
+out so if I can't for the love of God
+
+---------23:58----------
+don't tell me that you can't see I can't
+
+---------24:00----------
+even put a screw into a damn motherboard
+
+---------24:02----------
+and Here I am fixing him you know one of
+
+---------24:07----------
+the things that always made me feel
+
+---------24:08----------
+comfortable when I was at any job or
+
+---------24:11----------
+anything I was looking to learn or a
+
+---------24:12----------
+class that I was looking to take one of
+
+---------24:13----------
+the things that I always looked for was
+
+---------24:16----------
+what was you man the humanity and the
+
+---------24:19----------
+people that were trying to do the same
+
+---------24:21----------
+thing I was an ice find what makes
+
+---------24:23----------
+people human is the realization that
+
+---------24:24----------
+there that everybody else out there is
+
+---------24:27----------
+just as dumb as they are you know it
+
+---------24:29----------
+kind of takes away some of the veil of
+
+---------24:30----------
+secrecy it takes away some of the
+
+---------24:32----------
+insecurity it takes away some of the I'm
+
+---------24:35----------
+never gonna be able to do this when you
+
+---------24:36----------
+realize that the people who are doing it
+
+---------24:38----------
+are dumb people just like you that do
+
+---------24:40----------
+dumb stupid just like you that
+
+---------24:41----------
+don't understand things just like you
+
+---------24:43----------
+that started out just like you it makes
+
+---------24:45----------
+it a lot easier to actually learn it
+
+---------24:47----------
+makes it a lot easier because it gives
+
+---------24:49----------
+you that confidence that you didn't have
+
+---------24:50----------
+before and that confidence is something
+
+---------24:52----------
+that is incredibly incredibly important
+
+---------24:53----------
+when it comes time to learn something so
+
+---------24:58----------
+again you may see that so that schematic
+
+---------25:00----------
+and see that it's 75 pages and that you
+
+---------25:02----------
+just may think this is Greek to me I
+
+---------25:03----------
+don't understand this this is insane
+
+---------25:05----------
+well yeah you know that the test said
+
+---------25:08----------
+the P bus voltage sense is not working
+
+---------25:11----------
+this schematic has a section that says P
+
+---------25:13----------
+bus voltage sense like do I need the
+
+---------25:14----------
+ spell it out for you you know I
+
+---------25:17----------
+mean again there that's the the it's not
+
+---------25:20----------
+that it's not that crazy hard again
+
+---------25:22----------
+there are a lot of these repairs that
+
+---------25:23----------
+are miserable don't get me wrong there
+
+---------25:24----------
+are lots there are lots of boards that I
+
+---------25:26----------
+can't fix there are lots of boards that
+
+---------25:27----------
+drive me nuts there are lots of things
+
+---------25:29----------
+that you know boards that are easy that
+
+---------25:31----------
+I overlook things on just because I'm
+
+---------25:33----------
+tired and I need to sleep you know I
+
+---------25:36----------
+I need to go on vacation but there are
+
+---------25:40----------
+also a lot of this isn't it's just not
+
+---------25:42----------
+as hard as you think and that's the
+
+---------25:44----------
+point that I keep trying to get across
+
+---------25:45----------
+because I know that you're in that deep
+
+---------25:48----------
+down you're never gonna try to do this
+
+---------25:49----------
+the same way I am if you believe that it
+
+---------25:52----------
+is difficult and what I'm trying to do
+
+---------25:54----------
+with these videos is demystify something
+
+---------25:57----------
+that has always been considered some
+
+---------25:58----------
+type of ridiculous black magic or black
+
+---------26:00----------
+art that you know you know you can't
+
+---------26:02----------
+learn how to do that only the most
+
+---------26:04----------
+intelligent genius engineers know how to
+
+---------26:08----------
+do not an engineer
+
+---------26:10----------
+I failed college I flunked out of
+
+---------26:12----------
+college three times I lasted 45 minutes
+
+---------26:16----------
+as a salesman at a health insurance
+
+---------26:17----------
+company I got fired from 3p delivery
+
+---------26:20----------
+which was a $12 an hour job doing data
+
+---------26:22----------
+entry of orders so before you actually
+
+---------26:24----------
+had systems like Magento and chip rush
+
+---------26:26----------
+that would take your orders and import
+
+---------26:29----------
+them into a system so that you could
+
+---------26:30----------
+then just automatically print little
+
+---------26:32----------
+shipping labels that the store is
+
+---------26:34----------
+actually used to fax this crap over the
+
+---------26:37----------
+stores used to fax all this over
+
+---------26:38----------
+and you know I used to have to type
+
+---------26:41----------
+those orders into a system I managed to
+
+---------26:43----------
+get fired after six weeks six weeks of
+
+---------26:47----------
+work at a $12 an hour job managed to get
+
+---------26:49----------
+fine and I was very nice to everybody
+
+---------26:50----------
+you know again I got fired from a job at
+
+---------26:54----------
+$10 an hour that was on my second day my
+
+---------26:58----------
+second day at the job I got fired from a
+
+---------27:00----------
+job made 10 bucks an hour at the mall
+
+---------27:02----------
+there was a furniture store and my job
+
+---------27:04----------
+is simply to carry furniture from the
+
+---------27:06----------
+back and put it out in the space and
+
+---------27:08----------
+throw the Box away I managed to clog the
+
+---------27:11----------
+machine they did the belt is sheet in
+
+---------27:13----------
+the back but that that you put the boxes
+
+---------27:17----------
+into I clogged it and the guy got fined
+
+---------27:20----------
+about a hundred fifty bucks and next day
+
+---------27:21----------
+you know I was because we call me is
+
+---------27:23----------
+like you're gone you know we don't we
+
+---------27:25----------
+don't need you anymore
+
+---------27:25----------
+you're fired you know this is a job
+
+---------27:28----------
+literally unboxing furniture for $10 an
+
+---------27:30----------
+hour and you may think 10 dollars an
+
+---------27:32----------
+hour is impressive wherever you are but
+
+---------27:34----------
+in New York City rent is $2,200 for a
+
+---------27:37----------
+studio apartment 10 bucks an hour comes
+
+---------27:39----------
+out to 1600 maybe and the 1,200 or 11
+
+---------27:43----------
+after-tax if you work full-time it's not
+
+---------27:46----------
+really that impressive
+
+---------27:48----------
+the name because that's I'm gonna cover
+
+---------27:50----------
+the name just because I feel like that's
+
+---------27:51----------
+the right thing to do but before the
+
+---------27:53----------
+mouse was not moving fast at all and it
+
+---------27:55----------
+was it the last time I booted this took
+
+---------27:57----------
+about eight minutes using a garbage
+
+---------27:59----------
+crappy 5400 rpm drive it boots quickly
+
+---------28:02----------
+and well look the mouse is following me
+
+---------28:06----------
+the way it's supposed to see moving nice
+
+---------28:08----------
+and fast and fluidly and it works and
+
+---------28:12----------
+again it's not booting that's slow
+
+---------28:15----------
+it is booting slow because it has a
+
+---------28:17----------
+Toshiba 550 400 rpm drive for those
+
+---------28:20----------
+people that say that Apple products use
+
+---------28:21----------
+the best hardware that you know that
+
+---------28:23----------
+it's on the market that you they use the
+
+---------28:25----------
+best hardware and that's why they're the
+
+---------28:26----------
+best I do want you to know that when you
+
+---------28:28----------
+spend $1200 I mean $1200 on a MacBook
+
+---------28:32----------
+Pro you get the exact same hardware that
+
+---------28:34----------
+you can find in a $400 PC and Best Buy
+
+---------28:37----------
+which is a the shittiest crappiest
+
+---------28:39----------
+slowest 500 gigabyte 5400 rpm drive from
+
+---------28:43----------
+Toshiba Toshiba makes very slow hard
+
+---------28:46----------
+drives for the most part and this drive
+
+---------28:48----------
+in particular is incredibly slow because
+
+---------28:49----------
+it's not an SSD it's and you know
+
+---------28:52----------
+doesn't have any SSD cache it's not 7200
+
+---------28:54----------
+rpm and in addition if you compare it to
+
+---------28:57----------
+a drives from other vendors and the that
+
+---------28:59----------
+are the same spec which is the whole
+
+---------29:00----------
+5400 rpm 500 gig thing it's slower than
+
+---------29:04----------
+those so that's pretty much as slow as
+
+---------29:05----------
+it gets you know the the 5400 rpm laptop
+
+---------29:09----------
+form factor and made by a crappy brand I
+
+---------29:11----------
+mean it's just it's just total
+
+---------29:13----------
+but point is that does boot up and it
+
+---------29:15----------
+does run quickly which means that I'm
+
+---------29:17----------
+done and I get to collect some money so
+
+---------29:20----------
+that resistor by the way the resistor on
+
+---------29:25----------
+this board this is free this is a dead
+
+---------29:28----------
+motherboard this is a dead board that
+
+---------29:30----------
+came out of my pile so this was
+
+---------29:32----------
+free pretty much free and if you need to
+
+---------29:34----------
+actually buy the resistor you can buy a
+
+---------29:35----------
+resistor off of malice or calm and even
+
+---------29:38----------
+have it shipped to you for 5 or 6 bucks
+
+---------29:39----------
+what I just did there is use my brain to
+
+---------29:42----------
+turn about something that was free to me
+
+---------29:45----------
+into $325 and that $325 is not money
+
+---------29:50----------
+that I'm taking from somebody who feels
+
+---------29:52----------
+like they're getting ripped off that's
+
+---------29:54----------
+$325 that you know the every other
+
+---------29:57----------
+repair shop in town said you need to buy
+
+---------29:59----------
+a new mother
+
+---------30:01----------
+you need to buy a new one and this board
+
+---------30:04----------
+is going on eBay and other vendors right
+
+---------30:06----------
+now for like 450 550 600 bucks and
+
+---------30:09----------
+they're charging their one hundred to
+
+---------30:11----------
+two hundred dollar fee on top of that
+
+---------30:12----------
+now there's a business nearby that just
+
+---------30:14----------
+went out of business and I'm not gonna
+
+---------30:15----------
+use the name but the guy said there's
+
+---------30:17----------
+just no money in this anymore like the
+
+---------30:18----------
+product itself is worth 800 bucks I'm
+
+---------30:21----------
+telling you the board is 600 and I'm
+
+---------30:23----------
+gonna ask one to two hundred to install
+
+---------30:24----------
+it it just doesn't make any sense
+
+---------30:26----------
+there's just no money in this anymore
+
+---------30:28----------
+and that's why I said in the other video
+
+---------30:29----------
+that you should follow your heart now
+
+---------30:31----------
+that guy is right if that's your
+
+---------30:33----------
+business model there really is no money
+
+---------30:35----------
+in it anymore
+
+---------30:35----------
+but if you decide to do something that
+
+---------30:37----------
+somebody else isn't doing like say use
+
+---------30:39----------
+your brain which is just such a
+
+---------30:42----------
+foreign concept nowadays you can do
+
+---------30:45----------
+things like this again this machine if
+
+---------30:47----------
+you wanted to sell it you know you could
+
+---------30:48----------
+get like seven hundred something bucks
+
+---------30:50----------
+for it
+
+---------30:50----------
+so and the guy can't afford to buy a new
+
+---------30:52----------
+one and you know this is a and I did so
+
+---------30:56----------
+I offered a service that other places
+
+---------30:58----------
+were not able to offer in the area and I
+
+---------31:00----------
+did it fairly quickly and I'm making a
+
+---------31:02----------
+fair amount of money for it for myself
+
+---------31:04----------
+and I'm also charging an amount that is
+
+---------31:06----------
+very fair compared to the complete
+
+---------31:07----------
+sodomy and rape of 750 at Apple or and
+
+---------31:12----------
+you know it has to go to Texas for a
+
+---------31:14----------
+week and a half or two weeks - we could
+
+---------31:15----------
+replace everything even though there's
+
+---------31:17----------
+one five cent component that
+
+---------31:18----------
+doesn't work and all the other places
+
+---------31:20----------
+that are saying it's gonna be you know
+
+---------31:22----------
+um - one to two months for us to fix the
+
+---------31:24----------
+board or maybe we can replace it at six
+
+---------31:29----------
+or seven hundred dollars I feel so
+
+---------31:31----------
+personally I feel good about that and
+
+---------31:33----------
+that's why I also tell you focus on if
+
+---------31:35----------
+you really want to get ahead focus on
+
+---------31:37----------
+ that other people don't want to do
+
+---------31:38----------
+you can focus on iPhone screens as much
+
+---------31:40----------
+as you want or cell phone screens but
+
+---------31:42----------
+that's something that you know again I
+
+---------31:44----------
+using a brain surprisingly enough using
+
+---------31:47----------
+your brain to figure out even the most
+
+---------31:49----------
+basic of things is something that most
+
+---------31:51----------
+people just don't bother doing it's far
+
+---------31:53----------
+into them and they don't want it but
+
+---------31:55----------
+replacing iPhone screen to something
+
+---------31:56----------
+that everybody wants to do which means
+
+---------31:58----------
+that you are gonna get low-balled by
+
+---------32:00----------
+your local metro pcs you are going to
+
+---------32:01----------
+get lowball to hell and back by every
+
+---------32:04----------
+other person in their apartment that
+
+---------32:06----------
+does the exact same thing that you do
+
+---------32:08----------
+and you know you're gonna wonder why is
+
+---------32:11----------
+it so hard to make $50 of profit for ten
+
+---------32:13----------
+minutes of work
+
+---------32:14----------
+that's cuz everybody's doing it that's
+
+---------32:15----------
+why I try to focus on high-value
+
+---------32:17----------
+services and I'm gonna have another
+
+---------32:19----------
+video soon idea that is about the
+
+---------32:21----------
+mission and purpose and why mission and
+
+---------32:23----------
+purpose is important to your business
+
+---------32:25----------
+and why you should know your mission and
+
+---------32:27----------
+purpose so that you could set your
+
+---------32:28----------
+services accordingly so that you know
+
+---------32:30----------
+what strategy you should use to succeed
+
+---------32:31----------
+I know what mine is and it's to do the
+
+---------32:34----------
+jobs that other people do not want to do
+
+---------32:36----------
+I know mine is to do jobs that other
+
+---------32:38----------
+places don't want to do and I know that
+
+---------32:40----------
+my mission and purpose is to do those
+
+---------32:41----------
+jobs that other people don't want to do
+
+---------32:43----------
+in a quick and efficient fashion while
+
+---------32:45----------
+bypassing the so this makes
+
+---------32:48----------
+sense to me and hopefully this video
+
+---------32:50----------
+helped you and hopefully it made sense
+
+---------32:52----------
+to you but above all hopefully it
+
+---------32:53----------
+inspired you to use your brain hopefully
+
+---------32:55----------
+it shows you again like I tell you in
+
+---------32:57----------
+every other video that you don't have to
+
+---------32:59----------
+be that smart to figure this out you
+
+---------33:01----------
+really don't all you got to do is be
+
+---------33:04----------
+willing to learn be willing to sound and
+
+---------33:07----------
+feel like a when you don't get
+
+---------33:09----------
+things right be willing to sit at the
+
+---------33:11----------
+table and just use your brain and think
+
+---------33:12----------
+and go through things and calmly realize
+
+---------33:15----------
+this is not a 76 page oh my god
+
+---------33:18----------
+nightmare that I have to be an engineer
+
+---------33:19----------
+for just break it down to the little
+
+---------33:21----------
+pieces use ctrl F on your laptop that's
+
+---------33:24----------
+what control F is here for control F is
+
+---------33:26----------
+there so that when it says P bus voltage
+
+---------33:28----------
+sense that you can just type in P bus
+
+---------33:30----------
+and find out oh that's the page where
+
+---------33:32----------
+sense comes up again I above all I want
+
+---------33:34----------
+you to realize that you don't have to be
+
+---------33:36----------
+a genius to figure it out
+
+---------33:37----------
+you just have you just have to start and
+
+---------33:40----------
+you should start
+

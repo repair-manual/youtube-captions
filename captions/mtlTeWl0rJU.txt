@@ -1,0 +1,1123 @@
+https://www.youtube.com/watch?v=mtlTeWl0rJU
+---------00:00----------
+hi so today we're gonna be going over an
+
+---------00:01----------
+eight to zero 2936 board that has no
+
+---------00:03----------
+green light on the charger and it also
+
+---------00:05----------
+doesn't turn on so we're gonna go into a
+
+---------00:07----------
+few couple basic measurements to see
+
+---------00:09----------
+where the problem is where it lies so
+
+---------00:11----------
+that I can get an idea where to start so
+
+---------00:13----------
+let's just open up the schematic for it
+
+---------00:14----------
+and hope that this time I finally
+
+---------00:16----------
+learned how to use open broadcaster so
+
+---------00:18----------
+that the scenes don't change and do
+
+---------00:19----------
+stupid things for no reason okay so
+
+---------00:23----------
+we're yeah okay so what I say to do is
+
+---------00:25----------
+you should check your power rails to see
+
+---------00:27----------
+what's present and what's not present so
+
+---------00:30----------
+I scroll down to the power rail section
+
+---------00:32----------
+and it's also important to open a board
+
+---------00:41----------
+view so you may look at the schematic
+
+---------00:42----------
+and go how do I find that stuff on the
+
+---------00:43----------
+board you will one of the big
+
+---------00:45----------
+misconceptions out there is that
+
+---------00:47----------
+everybody who does this for a living as
+
+---------00:48----------
+psychic and just knows where it is
+
+---------00:49----------
+because we're geniuses and that's not
+
+---------00:51----------
+true we're just idiots that use software
+
+---------00:52----------
+that tell us where the stuff is and the
+
+---------00:55----------
+reason this is important is because a
+
+---------00:56----------
+lot of websites will sell you the
+
+---------00:57----------
+schematic without selling it the board
+
+---------00:59----------
+view which is just a really shitty thing
+
+---------01:01----------
+to do so if you ever bought a schematic
+
+---------01:03----------
+without a board view you need to find
+
+---------01:05----------
+the person that sold you that schematic
+
+---------01:06----------
+without a board view and you know beat
+
+---------01:09----------
+their face and their file a PayPal claim
+
+---------01:11----------
+filing a PayPal claim is probably the
+
+---------01:12----------
+more civilized thing to do so first
+
+---------01:14----------
+thing we look for is pp 3 v 4 to
+
+---------01:15----------
+underscore G 3 hot yes you should be
+
+---------01:17----------
+able to see the camera kind of now there
+
+---------01:22----------
+we go so you can't see the top of my
+
+---------01:24----------
+head but who cares about the top of my
+
+---------01:25----------
+head we're looking for the multimeter on
+
+---------01:26----------
+the board top my head is completely
+
+---------01:28----------
+worthless
+
+---------01:29----------
+so we're gonna measure for pp 3 before
+
+---------01:31----------
+to here we should plug the MagSafe in
+
+---------01:37----------
+before we measure for pp 3 v 4 tail
+
+---------01:39----------
+button didn't that be smart ok so
+
+---------01:42----------
+you plug that down we have no green
+
+---------01:45----------
+light in the charger PP 3 V 4 2 is
+
+---------01:50----------
+nothing because we're in resistance mode
+
+---------01:52----------
+by the way if I was using a cheap
+
+---------01:53----------
+multimeter instead of a fluke that would
+
+---------01:55----------
+be dead right now
+
+---------01:56----------
+see so one dumb move in the fluke pays
+
+---------01:59----------
+for itself 3.42 volts it's not really
+
+---------02:02----------
+focused on it because it's at the facial
+
+---------02:04----------
+focus but you can see it's 3.42 volts
+
+---------02:06----------
+then we measure for PP brush g3 hot at 0
+
+---------02:09----------
+volts so there we know we have a problem
+
+---------02:10----------
+so we're gonna start going through that
+
+---------02:11----------
+circuit and looking for what's wrong so
+
+---------02:13----------
+I am
+
+---------02:13----------
+the charger and I put the multimeter
+
+---------02:14----------
+into diode modes that I can measure for
+
+---------02:16----------
+a shorter ground on that rail I'm gonna
+
+---------02:18----------
+take the red probe of my multimeter and
+
+---------02:20----------
+I'm gonna put the red probe of my
+
+---------02:21----------
+multimeter on ground and then I'm gonna
+
+---------02:24----------
+put the black probe of my multimeter on
+
+---------02:25----------
+a spot on the board or PP bus g3 hot
+
+---------02:27----------
+shows up and this tells me that I don't
+
+---------02:30----------
+have a short to ground a short to ground
+
+---------02:33----------
+to be this zero voltage drop to ground
+
+---------02:35----------
+that is not a short to ground so what
+
+---------02:39----------
+I'm gonna do now is I'm gonna look
+
+---------02:41----------
+around that circuit and try to get an
+
+---------02:42----------
+idea for what looks nasty what may be
+
+---------02:44----------
+nasty with me measure nasty but the
+
+---------02:46----------
+first things first is to actually look
+
+---------02:47----------
+at it because I don't feel like
+
+---------02:48----------
+measuring stuff and well I'm lazy and I
+
+---------02:50----------
+got a lot of stuff to do I have a long
+
+---------02:52----------
+day ahead of me and I got a lot of
+
+---------02:54----------
+things I want to do and one of them is
+
+---------02:55----------
+not staring at a board and measuring
+
+---------02:57----------
+stuff all day this is the ISL 65:9 area
+
+---------03:21----------
+it doesn't look very nice so what looks
+
+---------03:25----------
+funny to you here can you tell me what
+
+---------03:27----------
+looks funny
+
+---------03:28----------
+so the pins that look funny I'm gonna
+
+---------03:30----------
+try to point them out you tell me if you
+
+---------03:32----------
+agree this looks funny
+
+---------03:36----------
+this looks funny and also this over here
+
+---------03:42----------
+this does not look very nice see how
+
+---------03:44----------
+this is a nice shiny side of a resistor
+
+---------03:45----------
+shiny side of a resistor sodomized and
+
+---------03:48----------
+ side of the resistor shiny
+
+---------03:50----------
+capacitor over here shiny side of the
+
+---------03:53----------
+capacitor sodomized and skull-fucked
+
+---------03:55----------
+side of the capacitor that's no good so
+
+---------03:56----------
+let's try to see what that part of the
+
+---------03:58----------
+circuit actually does and let's try to
+
+---------03:59----------
+get an idea of what happened to cause
+
+---------04:02----------
+that to look nasty so the whole idea is
+
+---------04:04----------
+not to ask for a story from the
+
+---------04:06----------
+customers because you think of your
+
+---------04:08----------
+customers are not gonna tell you that oh
+
+---------04:10----------
+this board had a power spike through PP
+
+---------04:12----------
+18 v5 underscore s Oh or something like
+
+---------04:14----------
+that they're just gonna say that I
+
+---------04:15----------
+spilled on or even or in the case
+
+---------04:18----------
+of New York customers Andy's village
+
+---------04:20----------
+customers it's gonna be to do spill
+
+---------04:21----------
+something on it and then you open it
+
+---------04:25----------
+it's filled with a green and it's
+
+---------04:26----------
+Oh
+
+---------04:27----------
+you mean the orange juice that I spilled
+
+---------04:28----------
+on it yesterday or why didn't you say so
+
+---------04:30----------
+and it's like you know but anyway let's
+
+---------04:33----------
+move on and look through the circuit to
+
+---------04:34----------
+see what that stuff is and what it does
+
+---------04:36----------
+so the points on here that look nasty
+
+---------04:38----------
+let's just zoom in on those and let's
+
+---------04:40----------
+see if the software will allow me to
+
+---------04:41----------
+this is that software from Windows
+
+---------04:43----------
+3.1 days so every single time I maximize
+
+---------04:45----------
+the window but I with the window
+
+---------04:47----------
+and move it around I have to reopen the
+
+---------04:49----------
+board view because it just it's made for
+
+---------04:51----------
+a Windows 3.1 computer and we don't get
+
+---------04:55----------
+to get better software we're not
+
+---------04:56----------
+actually even supposed to have this
+
+---------04:57----------
+stuff because it's a bigger you know
+
+---------04:58----------
+that whole you to people who try to
+
+---------05:00----------
+fix Apple products is going on so that
+
+---------05:02----------
+pin look nasty this one looked nasty and
+
+---------05:07----------
+then let's see in terms of resistors
+
+---------05:10----------
+this one over here look nasty so let's
+
+---------05:17----------
+look at the schematic and see what's
+
+---------05:18----------
+going on there I actually click the
+
+---------05:24----------
+wrong thing or is our 7021 that looked
+
+---------05:26----------
+nasty nazi 7021 let's see so charger a
+
+---------05:30----------
+gate that pin looked nasty that's going
+
+---------05:33----------
+to open this and let the adapter voltage
+
+---------05:36----------
+through the machine and this over here
+
+---------05:39----------
+looked nasty no I don't really have a
+
+---------05:41----------
+way to measure a pin on you 7000 I could
+
+---------05:44----------
+measure its resistance to ground and
+
+---------05:46----------
+compare that resistance to ground with
+
+---------05:48----------
+another board but that would require
+
+---------05:51----------
+getting another board that works what I
+
+---------05:53----------
+can measure is our 70 21 this I can
+
+---------05:55----------
+measure instantly so which one I measure
+
+---------05:57----------
+first is not really a function of what
+
+---------05:58----------
+makes sense to measure first it's really
+
+---------06:00----------
+about what's right in front of me and
+
+---------06:01----------
+what I could do instantly to try to rule
+
+---------06:03----------
+out my problem which is our 70 21 now
+
+---------06:05----------
+that's supposed to be 10 ohms so when I
+
+---------06:07----------
+measure our 7021 let's see what I get
+
+---------06:10----------
+I'm gonna measure our 70 21 can you see
+
+---------06:14----------
+it over here yeah you can see it over
+
+---------06:16----------
+there so that whole thing of me dropping
+
+---------06:17----------
+the multimeter was all for nothing okay
+
+---------06:19----------
+I can move the microscope back a little
+
+---------06:21----------
+there you go all right
+
+---------06:25----------
+so we're gonna measure our 70 21 30
+
+---------06:33----------
+kilohms and then up to infinite to
+
+---------06:36----------
+kilohms
+
+---------06:37----------
+1.5 kilohms okay and let's just measure
+
+---------06:39----------
+the one under it for shits and giggles
+
+---------06:44----------
+700 kilo ohms okay let's talk a little
+
+---------06:49----------
+bit about what those do and what they're
+
+---------06:50----------
+for and what their purpose is in the
+
+---------06:51----------
+circuit and why we care that they look
+
+---------06:53----------
+ up this is part of a current
+
+---------06:55----------
+sensing circuit the way this works is
+
+---------06:58----------
+that the voltage from the charger is
+
+---------06:59----------
+going to come through this shunt
+
+---------07:00----------
+resistor this is a 0.02 ohm resistor
+
+---------07:03----------
+there is virtually no power drop across
+
+---------07:05----------
+this resistor because it's resistance is
+
+---------07:07----------
+very very very very very very very very
+
+---------07:09----------
+low however there is gonna be a really
+
+---------07:11----------
+small voltage drop just because it is a
+
+---------07:14----------
+resistor and just because it is
+
+---------07:15----------
+resisting power going through it and
+
+---------07:16----------
+that voltage drop is gonna be really
+
+---------07:18----------
+really low something like 0.0001 volts
+
+---------07:21----------
+it's gonna be something that's
+
+---------07:22----------
+ridiculous and negligible over the
+
+---------07:23----------
+course of the circuit however one
+
+---------07:24----------
+interesting part about this resistor is
+
+---------07:26----------
+that the voltage drop across the
+
+---------07:28----------
+resistor is going to be proportional to
+
+---------07:30----------
+the amount of power the amount of
+
+---------07:32----------
+current that's flowing through the
+
+---------07:33----------
+circuit so the more amperage this
+
+---------07:35----------
+circuit is using the more amperage the
+
+---------07:37----------
+system is using the more the voltage
+
+---------07:40----------
+drop is going to be so what the ISL 65:9
+
+---------07:44----------
+is doing is it as a resistor going to
+
+---------07:46----------
+the top of this resistor and this other
+
+---------07:47----------
+resistor here going to the bottom of
+
+---------07:49----------
+this resistor so it's what the ISL 65:9
+
+---------07:51----------
+is doing is it's reading the power on
+
+---------07:53----------
+the top and the bottom of this resistor
+
+---------07:55----------
+and what it's doing by looking at those
+
+---------07:57----------
+two voltages is it's figuring out how
+
+---------07:58----------
+much amperage the system is using based
+
+---------08:00----------
+on the voltage drop across this resistor
+
+---------08:02----------
+which allows it to see that it's
+
+---------08:04----------
+actually charging which allows it to see
+
+---------08:06----------
+that that how much amperage the system
+
+---------08:08----------
+is using so let's say the charger is
+
+---------08:09----------
+using 15 amps it's gonna know oh my god
+
+---------08:11----------
+this charge is always opposed to b4
+
+---------08:13----------
+using five amps the charge is probably
+
+---------08:14----------
+on fire I should turn off the system
+
+---------08:16----------
+whereas if it's only using one or two
+
+---------08:18----------
+M's it knows that it's fine and can
+
+---------08:19----------
+continue this is called high side
+
+---------08:21----------
+current sensing and it's a basic
+
+---------08:23----------
+protection feature basic thing that's
+
+---------08:25----------
+built in a most modern circuitry and
+
+---------08:26----------
+because our 7021 and our 70 22 or not
+
+---------08:29----------
+what they're supposed to be that it's
+
+---------08:31----------
+incredibly up so we're gonna I'm
+
+---------08:33----------
+gonna replace those two and I'm also
+
+---------08:35----------
+gonna replace C 70 20 over here because
+
+---------08:37----------
+that may be up as well and after
+
+---------08:39----------
+replacing all those things we're gonna
+
+---------08:40----------
+see if it works we're gonna see if we
+
+---------08:41----------
+need to replace the is l6 to 5.9 or if
+
+---------08:44----------
+the is l6 to 59 is actually usable I
+
+---------08:46----------
+have a feeling
+
+---------08:47----------
+we're gonna have to replace the il-62 59
+
+---------08:49----------
+because there are some other areas of it
+
+---------08:50----------
+that don't inspire confidence that don't
+
+---------08:52----------
+really look great and we're gonna look
+
+---------08:54----------
+at those right now I just want to make
+
+---------08:55----------
+sure that you can see what it is that
+
+---------08:56----------
+I'm looking at and let's just take a
+
+---------08:58----------
+look over here and show you what it is
+
+---------09:00----------
+that I don't have confidence in so when
+
+---------09:03----------
+I go over to the ISO 65:9 area there's
+
+---------09:05----------
+also this particular pin that just
+
+---------09:07----------
+doesn't really look nice it doesn't
+
+---------09:08----------
+strike me as something that I want to
+
+---------09:09----------
+keep on my motherboard yeah see that's
+
+---------09:16----------
+that's just kind of nasty it may work it
+
+---------09:18----------
+may not I'm not sure let's get the get
+
+---------09:29----------
+the microscope looking a little nicer we
+
+---------09:32----------
+can replace those two resistors with
+
+---------09:33----------
+some new ones okay turn on the air
+
+---------09:39----------
+filter don't want to die from inhaling
+
+---------09:42----------
+this crap
+
+---------09:48----------
+while I'm waiting for my hot air station
+
+---------09:50----------
+to get hot see if I can be impatient and
+
+---------09:54----------
+remove those resistors and capacitor
+
+---------09:56----------
+using pure solder this comes bad this is
+
+---------10:04----------
+one of those things that I learned how
+
+---------10:05----------
+to do back before I could afford a
+
+---------10:07----------
+hot-air station so if you don't have the
+
+---------10:10----------
+tools that you need to do your job
+
+---------10:12----------
+you'll find yourself coming up with fun
+
+---------10:15----------
+ways and creative ways to do your job
+
+---------11:08----------
+I don't like the way that looks so that
+
+---------11:10----------
+can also go in the trash see what I did
+
+---------11:13----------
+there as I didn't test the resistor with
+
+---------11:15----------
+the multimeter I tested the resistor
+
+---------11:16----------
+with my mind I determined that the
+
+---------11:19----------
+resistor was bad by looking at it and
+
+---------11:20----------
+seeing that it look like
+
+---------12:13----------
+so I have four volts we're making
+
+---------12:16----------
+progress four volts is considerably more
+
+---------12:20----------
+than zero but I don't want four volts
+
+---------12:23----------
+four volts is not good enough for me I
+
+---------12:25----------
+want 12 so now I'm gonna make a
+
+---------12:30----------
+measurement at another point in the
+
+---------12:31----------
+circuit I want to see the 16 volts is
+
+---------12:33----------
+actually making its way to the buck
+
+---------12:34----------
+converter
+
+---------12:34----------
+and this makes the in volts is indeed
+
+---------12:36----------
+making its way to the buck converter I
+
+---------12:38----------
+still got my green light though
+
+---------12:47----------
+let's see charger boot so this is
+
+---------12:50----------
+feedback so this is the chip itself near
+
+---------12:51----------
+the capacitor go for charger boot
+
+---------12:53----------
+anything going to is your home resistor
+
+---------12:55----------
+that is then going back to the chip
+
+---------12:57----------
+let's see how that measures is that
+
+---------12:59----------
+gonna measure properly or is that gonna
+
+---------13:00----------
+measure messed up I'm doing something
+
+---------13:09----------
+that many people are gonna hate which is
+
+---------13:10----------
+using Auto range on the multimeter I
+
+---------13:12----------
+know I'm a lazy prick I know I know I
+
+---------13:15----------
+know you can make fun of me it's okay
+
+---------13:18----------
+you can hate you can hate it's your own
+
+---------13:27----------
+close enough does your own so just for
+
+---------13:30----------
+the hell of it I'm gonna wind up
+
+---------13:31----------
+replacing let's see charger boot and I'm
+
+---------13:34----------
+also gonna replace the ISL six to five
+
+---------13:35----------
+nine and see if that works
+
+---------13:36----------
+so if a 16 volt surge went through that
+
+---------13:38----------
+part of the chip I really I have a good
+
+---------13:40----------
+feeling that good feeling that the chip
+
+---------13:43----------
+itself may have gone bad the ISL is
+
+---------13:46----------
+easily killed so let's get rid of it and
+
+---------13:49----------
+put a new one on there also one
+
+---------13:56----------
+important thing that you should have
+
+---------13:57----------
+gotten from the video of the class
+
+---------13:58----------
+what's one of the most important things
+
+---------13:59----------
+to remember when replacing a qfn package
+
+---------14:01----------
+the most important thing to remember is
+
+---------14:03----------
+to remember the orientation of the chip
+
+---------14:05----------
+unlike some people we don't want to take
+
+---------14:07----------
+our chances
+
+---------14:24----------
+before I replace the ISL let's just
+
+---------14:26----------
+replace this one capacitor in the
+
+---------14:28----------
+charger boot circuit see if we get
+
+---------14:32----------
+anywhere
+
+---------14:41----------
+because I see that nasty red pro point
+
+---------14:44----------
+over there and I don't like it
+
+---------14:45----------
+Oh sometime when you're stuck at 4 volts
+
+---------14:49----------
+that is the problem
+
+---------15:36----------
+now we're back down 0.3
+
+---------15:38----------
+oh yes try another
+
+---------16:39----------
+point one
+
+---------16:40----------
+yikes sweating here am i using a good
+
+---------16:47----------
+dcn board
+
+---------17:03----------
+oh let's try replacing the ISO maybe
+
+---------17:07----------
+since it's a bad ship and I heated it I
+
+---------17:09----------
+messed it up a little bit
+
+---------18:12----------
+one of the things I do is I put the old
+
+---------18:14----------
+chip on the desk so that I know the
+
+---------18:16----------
+orientation of the new chip that I have
+
+---------18:17----------
+to put on and I keep it there
+
+---------18:19----------
+so it doesn't fly away actually while
+
+---------18:21----------
+the solder is still hot I slam it onto
+
+---------18:23----------
+the table I'm sure my desk is not a fan
+
+---------18:28----------
+of me constantly burning it but sadly
+
+---------18:31----------
+for it it does not have a say in the
+
+---------18:33----------
+matter
+
+---------18:41----------
+again if I wasn't soldering the chip on
+
+---------18:43----------
+sideways I wouldn't be Louis rossmann so
+
+---------18:45----------
+let's fix that
+
+---------18:59----------
+I was in ripping things off for the
+
+---------19:01----------
+board as I started I wouldn't be Louis
+
+---------19:02----------
+rossman
+
+---------19:17----------
+why being lazy swish to the right tip
+
+---------20:03----------
+watch me solder must surely make you
+
+---------20:05----------
+sick
+
+---------20:07----------
+makes me sick watching you I know that
+
+---------20:09----------
+much
+
+---------22:06----------
+nasty we can clean that a little later
+
+---------22:12----------
+okay we get a green light in the charger
+
+---------22:18----------
+and after we get a green light in the
+
+---------22:20----------
+charger the fan spins and since the fan
+
+---------22:27----------
+spins at this point I'm good
+
+---------22:38----------
+and that's that so what happened is
+
+---------22:42----------
+there was a spike on the 16 volt rail
+
+---------22:44----------
+because of the spike on the 16 volt rail
+
+---------22:47----------
+that killed the current sensing
+
+---------22:48----------
+resistors despite they went to the
+
+---------22:50----------
+current sensing resistors killed the ISL
+
+---------22:51----------
+6259
+
+---------22:52----------
+and by replacing all the ally of a board
+
+---------22:54----------
+that works and that's about it
+
+---------22:56----------
+it's how logic reason just the basic
+
+---------23:00----------
+understanding of how this stuff works
+
+---------23:01----------
+and what to look for helps make it easy
+

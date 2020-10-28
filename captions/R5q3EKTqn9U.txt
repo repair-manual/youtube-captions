@@ -1,0 +1,550 @@
+https://www.youtube.com/watch?v=R5q3EKTqn9U
+---------00:00----------
+so today we're going to be working on a
+
+---------00:01----------
+machine that has intermittent graphics
+
+---------00:04----------
+so sometimes you get the graphics and at
+
+---------00:06----------
+other times you don't get any graphics
+
+---------00:08----------
+and this is an older MacBook this is a
+
+---------00:10----------
+2010 17-inch MacBook Pro now a lot of
+
+---------00:14----------
+people like these 2010 MacBook Pros
+
+---------00:16----------
+because they have the 17 inch screen
+
+---------00:19----------
+apples stop giving you a 17 inch screen
+
+---------00:21----------
+in 2011 and the 2011 model as I've said
+
+---------00:24----------
+many times as those rampant GPU failures
+
+---------00:26----------
+so they're completely useless so if you
+
+---------00:28----------
+want a 17 inch Mac you have the 2010 and
+
+---------00:30----------
+the 2009 is an option so let's just show
+
+---------00:34----------
+what this thing's doing if we turn it on
+
+---------00:36----------
+so this is MacBook and it's giving a
+
+---------00:40----------
+screen but if you tap it it stops giving
+
+---------00:44----------
+you a screen see now it's a black screen
+
+---------00:49----------
+so every now and then you get a screen
+
+---------00:51----------
+and sometimes you don't get a screen now
+
+---------00:53----------
+what I see is very common with these
+
+---------00:55----------
+machines is that people will try to
+
+---------00:57----------
+reflow the graphics chip when they have
+
+---------00:59----------
+this issue but what you have to remember
+
+---------01:01----------
+is that this machine has two graphics
+
+---------01:03----------
+cards it has the Intel built-in graphics
+
+---------01:05----------
+trip into the i-5 of the i7 processor
+
+---------01:08----------
+and also the GPU so if you get no video
+
+---------01:10----------
+at all and it's random like that it
+
+---------01:12----------
+isn't necessarily your graphics card
+
+---------01:14----------
+that's bad so I'm gonna switch over to
+
+---------01:15----------
+the schematic here and go over a theory
+
+---------01:18----------
+with you while also showing you what you
+
+---------01:20----------
+should check on these older boards and
+
+---------01:22----------
+even on some of the new ones actually
+
+---------01:23----------
+because I do believe they still use
+
+---------01:24----------
+muxing circuits which is something
+
+---------01:27----------
+called the LVDS MUX and on new machines
+
+---------01:30----------
+it's called the EDP or DisplayPort MUX
+
+---------01:32----------
+on here this is you 9600 so if we look
+
+---------01:35----------
+at this document you'll see that we have
+
+---------01:37----------
+two different graphics cards we have the
+
+---------01:40----------
+graphics card that's built into the CPU
+
+---------01:41----------
+which is you know which speaks with the
+
+---------01:44----------
+PCH and then we have the nvidia graphics
+
+---------01:49----------
+up here so the nvidia graphics will
+
+---------01:52----------
+speak to something called the MUX and
+
+---------01:54----------
+then the Intel graphics also speaks to
+
+---------01:56----------
+the MUX before it goes to the LCD
+
+---------01:59----------
+connector so in order for you to get a
+
+---------02:02----------
+switching graphics it has to go through
+
+---------02:04----------
+this chip before it gets to the LCD
+
+---------02:05----------
+connector it's not like the Intel
+
+---------02:07----------
+internal graphics and the NVIDIA
+
+---------02:08----------
+internal graphics both connect directly
+
+---------02:10----------
+to the LCD connector that wouldn't make
+
+---------02:12----------
+any sense that wouldn't work
+
+---------02:13----------
+so you have a chip that sits in between
+
+---------02:15----------
+it so let's see what happens when you
+
+---------02:16----------
+tap that chip on the board so right now
+
+---------02:22----------
+we have screen oh now it's gonna stay on
+
+---------02:26----------
+yeah go figure there you go so when you
+
+---------02:28----------
+tap it that's what happens now this is a
+
+---------02:31----------
+very very it's a compact chip and it
+
+---------02:35----------
+typically sits right underneath the PCH
+
+---------02:37----------
+which is a very well heat sink area so
+
+---------02:39----------
+it's a bit difficult to reflow but what
+
+---------02:41----------
+you could this is not a flip chip design
+
+---------02:43----------
+it's very similar to an SMC so you can
+
+---------02:45----------
+actually fix this often with a reflow
+
+---------02:48----------
+but if you reflow the GPU it will not
+
+---------02:51----------
+fix this problem it'll just add to the
+
+---------02:53----------
+destruction of the of the GPU because
+
+---------02:57----------
+you're putting it through a thermal
+
+---------02:58----------
+cycle it doesn't need and the MUX will
+
+---------03:00----------
+still be a problematic so let's see what
+
+---------03:02----------
+happens if you reflow the MUX on this
+
+---------03:03----------
+board and if it fixes the problem I'm
+
+---------03:06----------
+confident that since Paul soldering is
+
+---------03:08----------
+10 times better than mine it's a good
+
+---------03:09----------
+just fine now one thing that you have to
+
+---------03:11----------
+be careful about with this is you have
+
+---------03:12----------
+to make sure that you get rid of all the
+
+---------03:14----------
+edge bonding because if there's any edge
+
+---------03:15----------
+bonding under there it's going to
+
+---------03:17----------
+combine with the balls now the SMC uses
+
+---------03:19----------
+0.3 to 0.35 millimeter balls this chip
+
+---------03:23----------
+uses point 2 to 0.25 millimeter balls
+
+---------03:25----------
+that are very close together so with the
+
+---------03:28----------
+SMC you can get away with having a
+
+---------03:29----------
+little bit of edge bonding in there but
+
+---------03:31----------
+with this if you have any edge bonding
+
+---------03:32----------
+that gets under the chip you're never
+
+---------03:34----------
+ever ever going to get that fixed
+
+---------03:37----------
+without reball in the chip and with that
+
+---------03:43----------
+I will leave you to our main man Paul
+
+---------03:47----------
+and I left a bunch of bonding under it
+
+---------03:52----------
+do they actually have squares around the
+
+---------03:55----------
+chip yes they my Woodyard belongs
+
+---------03:57----------
+that's insane I did but edge bonding did
+
+---------04:02----------
+not come out cleanly so I'm gonna have
+
+---------04:03----------
+to grab an exacto knife and get it out
+
+---------04:05----------
+from underneath it maybe I can get this
+
+---------04:09----------
+side to come out cleanly
+
+---------04:13----------
+it's a very fine line between not enough
+
+---------04:16----------
+heat and too much heat for this edge
+
+---------04:17----------
+bonding someone come off with no problem
+
+---------04:20----------
+others ripped to shreds
+
+---------04:38----------
+see now I'm wondering if it even went
+
+---------04:39----------
+underneath the chip cuz that one came
+
+---------04:41----------
+off the same way well if they tilt it up
+
+---------04:44----------
+and see if it's still underneath the
+
+---------04:45----------
+chip where's my check there's my chip
+
+---------04:48----------
+okay we got a little piece down there
+
+---------04:57----------
+let's just clean that out a little bit
+
+---------05:03----------
+yeah it all came out let's do the other
+
+---------05:07----------
+corners
+
+---------05:35----------
+hi hi hi hi hi hi how are you hi
+
+---------06:16----------
+or he
+
+---------06:33----------
+mm rj45 cable 'z today mm-hmm I used to
+
+---------06:37----------
+work for Lucent Technologies and I sat
+
+---------06:40----------
+there
+
+---------06:40----------
+terminating BNC connectors for an entire
+
+---------06:43----------
+week one time at a central office
+
+---------06:55----------
+well this isn't my microscope this is
+
+---------06:57----------
+Louis's bench then I'm on my bench is
+
+---------07:00----------
+occupied by a obnoxious data recovery
+
+---------07:03----------
+for the entire or damn day
+
+---------07:05----------
+now let's reflow this thing so I have my
+
+---------07:09----------
+temperature at max my air at max and the
+
+---------07:11----------
+biggest nozzle on the quick that we have
+
+---------07:17----------
+I've been told that this is going to
+
+---------07:19----------
+take a lot of heat to get this thing to
+
+---------07:21----------
+move
+
+---------07:53----------
+and that is dancing dance little chip
+
+---------07:56----------
+dance oh that's all mixed up now find a
+
+---------08:05----------
+q-tip give this an SMC rapid cool even
+
+---------08:11----------
+though it's amongst
+
+---------08:23----------
+okay so how was reflow reflow was easy
+
+---------08:26----------
+huh it was it was as expected look at
+
+---------08:31----------
+all that stuff on the board that tells
+
+---------08:32----------
+the Machine what wait till that's done
+
+---------08:39----------
+come no I want a quick made quick work
+
+---------08:43----------
+of it
+
+---------08:43----------
+beautiful okay let's see if it works is
+
+---------08:47----------
+it cool it is cool now I have to see if
+
+---------08:53----------
+it works
+
+---------08:54----------
+Logan battery I do want to switch the
+
+---------08:56----------
+overhead camera yep
+
+---------09:03----------
+scary moment see if you had a stream
+
+---------09:06----------
+deck I would know which button to push
+
+---------09:08----------
+it's obviously f7 obviously I'm gonna
+
+---------09:13----------
+put a label on that camera f7
+
+---------09:27----------
+chime lights alright now if we tap the
+
+---------09:30----------
+board do we still have the intermittency
+
+---------09:31----------
+from before HD tap about phrase oh no
+
+---------09:38----------
+tap point two millimeter balls tap tap
+
+---------09:41----------
+and like moving the case around a little
+
+---------09:43----------
+tap tap tap tap tap flex flex flex we
+
+---------09:48----------
+look at how much flex this MacBook has
+
+---------09:50----------
+God Jesus Christ unibody baby aluminum
+
+---------09:58----------
+is better than plastic don't you know
+
+---------10:00----------
+oak oh yeah it gets warm it's a mech
+
+---------10:05----------
+yeah there you go
+
+---------10:08----------
+LDS MUX not enough so please please stop
+
+---------10:15----------
+Reef lowing the GPUs please reflow a GPU
+
+---------10:18----------
+is not effects reef lowing a little MUX
+
+---------10:20----------
+maybe a fix is that your first MUX
+
+---------10:24----------
+that's my first 2010 bucks huh it's all
+
+---------10:28----------
+mucked up now it usually takes at least
+
+---------10:32----------
+five years for that for the Vols under
+
+---------10:34----------
+that's a crack so you're probably not
+
+---------10:35----------
+gonna get those repairs besides older
+
+---------10:36----------
+models but they do use that same MUX
+
+---------10:39----------
+idea on everything up to the newest one
+
+---------10:42----------
+and on the newest one I think the
+
+---------10:43----------
+mauck's is between the CPU and the GPU
+
+---------10:45----------
+well that's it for today so we managed
+
+---------10:47----------
+to fix a buffing motor today and the
+
+---------10:49----------
+2010 MacBook so as always I hope you
+
+---------10:52----------
+learned something now we're going to go
+
+---------10:54----------
+back to listening to Taylor Swift yay
+
+---------11:03----------
+you
+

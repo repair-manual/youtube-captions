@@ -1,0 +1,937 @@
+https://www.youtube.com/watch?v=75YHMVHkj28
+---------00:00----------
+all right so today we're going to be
+
+---------00:00----------
+going over a board that doesn't see the
+
+---------00:02----------
+battery now I've already gone over the
+
+---------00:04----------
+theory as to the things that will keep
+
+---------00:06----------
+the board from running off of the
+
+---------00:07----------
+battery or seeing the battery or
+
+---------00:09----------
+charging the battery in a previous video
+
+---------00:10----------
+and here I'm going to go over a machine
+
+---------00:12----------
+that actually has the issue of it
+
+---------00:14----------
+doesn't recognize the battery that is
+
+---------00:15----------
+what it was brought in with so we'll
+
+---------00:17----------
+start from the beginning and we will
+
+---------00:18----------
+start the troubleshooting process so
+
+---------00:20----------
+first things first let's bring up a
+
+---------00:22----------
+schematic for this so as I've said the
+
+---------00:24----------
+battery speaks to the SMC on a data line
+
+---------00:26----------
+created by two resistors so that's the
+
+---------00:29----------
+first thing that we check before
+
+---------00:30----------
+anything else it is to give you a quick
+
+---------00:32----------
+recap if you didn't see the other video
+
+---------00:34----------
+over here you're going to see very poor
+
+---------00:38----------
+rendering of a PDF by windows is default
+
+---------00:40----------
+reader wow that's bad come on I don't
+
+---------00:45----------
+even get a hand tool oh this is the
+
+---------00:50----------
+default interface for Windows PDF Reader
+
+---------00:53----------
+sucks so I talked about what a data line
+
+---------00:57----------
+is so you have the 3.3 volt line of the
+
+---------01:01----------
+system here so you have a 3.4 volt line
+
+---------01:03----------
+of the system right over here and that
+
+---------01:06----------
+is going through a resistor this
+
+---------01:07----------
+resistor over here goes between several
+
+---------01:10----------
+points so this is going to be a flat
+
+---------01:12----------
+three point four volts here and every
+
+---------01:14----------
+time that there's communication one of
+
+---------01:16----------
+these chips whether the SMC the battery
+
+---------01:19----------
+charger which is the u 7000 chip or the
+
+---------01:21----------
+battery itself what it's going to do is
+
+---------01:22----------
+it's going to send pulses by shorting
+
+---------01:25----------
+that 3 point 4 volts to ground every
+
+---------01:27----------
+time that 3 point 4 volts gets shorted
+
+---------01:29----------
+to ground what's going to happen is that
+
+---------01:30----------
+you're going to see a spike or it goes
+
+---------01:33----------
+down to zero and every time it spikes
+
+---------01:35----------
+you're going to have it go down to zero
+
+---------01:36----------
+and then go back up to three point four
+
+---------01:38----------
+and go down to zero and go back up to
+
+---------01:39----------
+three point four and the duration of
+
+---------01:41----------
+these spikes how low and high in voltage
+
+---------01:42----------
+they go how far away they are from each
+
+---------01:44----------
+other it just think of it like Morse
+
+---------01:46----------
+code for a very oversimplified way of
+
+---------01:49----------
+describing and it's how these things
+
+---------01:50----------
+communicate so let's see what that looks
+
+---------01:52----------
+like on the board so our 50 to 80 and
+
+---------01:55----------
+our 50 to 80 1 right now as usual as
+
+---------01:59----------
+I've said in the past the board view
+
+---------02:00----------
+will always open differently than it
+
+---------02:02----------
+does on the schematic I mean the board
+
+---------02:04----------
+view will always open in a different
+
+---------02:06----------
+direction than the board is actually
+
+---------02:07----------
+facing you on the desk that's just how
+
+---------02:08----------
+this works so as you can see these are
+
+---------02:10----------
+the two resistors and on one side of the
+
+---------02:11----------
+resistor you have the 3 point 42 volts
+
+---------02:13----------
+and on
+
+---------02:13----------
+the other side of it you have this data
+
+---------02:15----------
+line which is smbus underscore SMC
+
+---------02:18----------
+underscore five underscore G three
+
+---------02:20----------
+underscore SDA and smbus underscore SMC
+
+---------02:23----------
+underscore five underscore G three
+
+---------02:25----------
+underscore SC l so let's look on the
+
+---------02:27----------
+board and see what those look like and
+
+---------02:29----------
+let's try and measure them let's see if
+
+---------02:31----------
+we actually get pulses so this is one of
+
+---------02:32----------
+the areas where the oscilloscope comes
+
+---------02:34----------
+in handy because with the oscilloscope I
+
+---------02:36----------
+will just be able to see it and what do
+
+---------02:38----------
+you know one of the resistors is not
+
+---------02:40----------
+there this is commonly caused when
+
+---------02:42----------
+people take things apart to fix it
+
+---------02:45----------
+themselves they were probably trying to
+
+---------02:46----------
+replace the battery connector on this
+
+---------02:47----------
+machine and this is what happened to it
+
+---------02:49----------
+so let's see what this looks like so
+
+---------02:51----------
+this is the battery indicator looks like
+
+---------02:56----------
+ so well somebody was probably
+
+---------02:59----------
+checking that what happened is probably
+
+---------03:00----------
+their nail went down here and the nail
+
+---------03:02----------
+just went
+
+---------03:03----------
+dink and ripped that resistor off the
+
+---------03:05----------
+board so I'm going to do is I'm going to
+
+---------03:06----------
+reattach that resistor I'm going to take
+
+---------03:07----------
+it off of another board and after I take
+
+---------03:09----------
+it off of another board and put it on
+
+---------03:10----------
+there we're going to see if we have
+
+---------03:11----------
+pulsing and we're going to see if the
+
+---------03:12----------
+battery works and if the battery charges
+
+---------03:18----------
+so first things first is to turn on my
+
+---------03:21----------
+fume extraction system because I have no
+
+---------03:24----------
+plans of getting cancer from soldering
+
+---------03:27----------
+the battery indicator connector has seen
+
+---------03:31----------
+better days as well might as well
+
+---------03:33----------
+measure that resistor while I'm here so
+
+---------03:34----------
+I put the multimeter here in resistance
+
+---------03:36----------
+mode multimeter in resistance mode we're
+
+---------03:41----------
+going to put the probes there so what
+
+---------03:48----------
+are the two kilo ohms that's supposed to
+
+---------03:49----------
+be that is exactly two kilo ohms why
+
+---------03:52----------
+argue with success well let's get some
+
+---------03:58----------
+solder I know I know you guys hate when
+
+---------04:01----------
+I say solder solder instead of solder I
+
+---------04:05----------
+can't say solder it just sounds like
+
+---------04:08----------
+such a terrible where they the pads are
+
+---------04:11----------
+not really looking very nice so what I
+
+---------04:12----------
+do is I just keep moving back and forth
+
+---------04:14----------
+with the iron this side are some flux
+
+---------04:17----------
+inside of it that's right I said solder
+
+---------04:19----------
+I said it again SOI duh
+
+---------04:24----------
+it was born in Staten Island you can
+
+---------04:26----------
+okay so that pat is nasty so we're just
+
+---------04:29----------
+going to rub a little more let's try to
+
+---------04:31----------
+get that pad to reappear shall we
+
+---------04:34----------
+temperature is not too high on this red
+
+---------04:36----------
+740 come on come on oh we're getting
+
+---------04:45----------
+somewhere
+
+---------04:45----------
+scrape it a little bit without
+
+---------04:46----------
+destroying it then send some new in
+
+---------04:49----------
+there how are we getting anyone
+
+---------05:06----------
+barely damn
+
+---------05:12----------
+all right this is going to take a little
+
+---------05:14----------
+bit of cleaning you know what I like
+
+---------05:22----------
+about the new setup is there's no split
+
+---------05:23----------
+for you so you can't see that I just
+
+---------05:25----------
+dropped to listen to the alcohol one of
+
+---------05:28----------
+them I usually don't like q-tips because
+
+---------05:33----------
+they leave crap on the board unless
+
+---------05:35----------
+you're really really good at your and
+
+---------05:38----------
+rotating it as you go so that it doesn't
+
+---------05:40----------
+leave junk on the board because if you
+
+---------05:45----------
+don't then this the stuff comes off my
+
+---------05:49----------
+brush is in the other room
+
+---------06:15----------
+yeah geez I should have just got up and
+
+---------06:18----------
+got the brush the reason I'm not I don't
+
+---------06:20----------
+really care too much about this is
+
+---------06:21----------
+because for these types of repairs this
+
+---------06:25----------
+is going to get taken out when it's done
+
+---------06:27----------
+and cleaned and put in the ultrasonic
+
+---------06:29----------
+anyway and then brushed so there is a
+
+---------06:31----------
+cleaning stage so wasting time and that
+
+---------06:32----------
+kind of stuff and the diagnosis and
+
+---------06:35----------
+trying to fix it stages it brings no
+
+---------06:37----------
+returns it's going to try to scratch
+
+---------06:40----------
+away until we get a pad here something
+
+---------06:42----------
+that we can actually solder to
+
+---------07:01----------
+got come out of sleep you little there
+
+---------07:05----------
+we go
+
+---------07:11----------
+that's not the important one anyway
+
+---------07:13----------
+because the that side is not coming off
+
+---------07:15----------
+at the data line keep in mind these
+
+---------07:17----------
+resistors both come from pp3 b4 to g3
+
+---------07:19----------
+hub but on the other side of them are
+
+---------07:21----------
+separate data lines if I really needed
+
+---------07:23----------
+to I could decide a resistor from there
+
+---------07:24----------
+to there I'd be fine
+
+---------07:26----------
+just being anal retentive about it for
+
+---------07:28----------
+no reason which is a bad habit you know
+
+---------07:33----------
+many times I've gone to take something
+
+---------07:35----------
+that works perfectly and make it a
+
+---------07:36----------
+little more perfect only for it to just
+
+---------07:38----------
+never work again for no reason no sense
+
+---------07:40----------
+I don't know why there but it's enough
+
+---------07:45----------
+times that I should have learned my
+
+---------07:46----------
+lesson by now to stuff doing it okay so
+
+---------07:50----------
+my good tweezers are not on my desk Wow
+
+---------07:54----------
+okay here we go
+
+---------07:55----------
+good choices are on the desk I'm going
+
+---------07:57----------
+to take that resistor off for the other
+
+---------07:59----------
+boy but you're not going to see because
+
+---------08:00----------
+I'm not using a microscope for that take
+
+---------08:03----------
+that resistor and we are going to fit it
+
+---------08:06----------
+on here and do our best to not melt the
+
+---------08:08----------
+battery indicator connector those are
+
+---------08:13----------
+our soldering tweezers will come in very
+
+---------08:14----------
+very handy I just don't have any because
+
+---------08:17----------
+I don't work on cell phone boards where
+
+---------08:19----------
+they're most often necessary and
+
+---------08:21----------
+required
+
+---------08:31----------
+you didn't see that so one of those
+
+---------08:35----------
+times where I really wish I had it in me
+
+---------08:36----------
+to edit the mistakes out I just don't
+
+---------08:38----------
+because it's so important to me that you
+
+---------08:40----------
+get the message that even idiots can do
+
+---------08:41----------
+this that I feel compelled to show you
+
+---------08:44----------
+all of the dumb things that I do so you
+
+---------08:47----------
+saw that and attempting to actually make
+
+---------08:49----------
+it sit on there nicely i melted the
+
+---------08:51----------
+resistor right off of the board I mean
+
+---------08:53----------
+that was literally a done done fine job
+
+---------08:57----------
+that would have worked it would have
+
+---------08:59----------
+never come back for years and years and
+
+---------09:00----------
+years and but no it wasn't good enough I
+
+---------09:05----------
+just had a how to be an idiot and do
+
+---------09:09----------
+that little thing to try to make it a
+
+---------09:10----------
+little better and it's just not a good
+
+---------09:15----------
+habit yeah
+
+---------09:32----------
+alright one of the things I really could
+
+---------09:38----------
+have done was cover that battery
+
+---------09:39----------
+indicator connector in captain tape but
+
+---------09:42----------
+something tells me and call me crazy but
+
+---------09:44----------
+something tells me based on that and
+
+---------09:46----------
+that that I'm going to wind up replacing
+
+---------09:47----------
+that thing anyway so if I'm going to be
+
+---------09:50----------
+replacing it I don't really care if I
+
+---------09:52----------
+burn it yet
+
+---------10:01----------
+because that old connector is most
+
+---------10:03----------
+likely going to get done in the garbage
+
+---------10:11----------
+that's not straight I know make fun
+
+---------10:15----------
+looks like it had too much Agra Meister
+
+---------10:18----------
+okay here we go to the fun part let's
+
+---------10:21----------
+see if this actually works so we're we
+
+---------10:27----------
+getting battery this is an H well of a
+
+---------10:43----------
+t6 battery for a 2011 and 12 machine but
+
+---------10:46----------
+it will still work just fine this the
+
+---------10:48----------
+only difference here is added capacity
+
+---------10:53----------
+okay so the fan is spinning which as I
+
+---------10:57----------
+like the joke very often means that the
+
+---------10:59----------
+board is done so we have a fan spinning
+
+---------11:02----------
+so usually when it doesn't recognize the
+
+---------11:04----------
+battery it won't turn off in the battery
+
+---------11:05----------
+at all so the fact that it turns on is
+
+---------11:07----------
+good but I'm going to be looking for
+
+---------11:09----------
+next is that it actually recognizes the
+
+---------11:11----------
+percentage of the battery and let's do
+
+---------11:15----------
+that here so they always say I want to
+
+---------11:18----------
+show you that the stuff that gets done
+
+---------11:19----------
+here actually works if what I do does
+
+---------11:22----------
+not work you should not listen to me
+
+---------11:24----------
+you should stop listening to me the
+
+---------11:26----------
+moment I start showing you things that
+
+---------11:27----------
+don't actually work alright I'm going to
+
+---------11:29----------
+put it on the desk here and as usual I'm
+
+---------11:30----------
+going to zoom out of the name of the
+
+---------11:31----------
+person because I'm sick and tired of
+
+---------11:33----------
+people doing creepy like look I
+
+---------11:35----------
+actually had once one person I had a
+
+---------11:37----------
+video that I uploaded that I delete
+
+---------11:39----------
+where they saw the name of the person
+
+---------11:41----------
+they contacted them on Facebook they
+
+---------11:44----------
+said hey look this dude did a video
+
+---------11:45----------
+fixing your board but he kept sending
+
+---------11:48----------
+the message about you know five or ten
+
+---------11:49----------
+times a day look at how cool you are
+
+---------11:50----------
+there's a video on look at how cool you
+
+---------11:52----------
+add the video on he was just sick
+
+---------11:54----------
+so I learned my lesson on there I don't
+
+---------11:55----------
+show the user names of anything anymore
+
+---------11:58----------
+so the board recognizes a charger it
+
+---------12:01----------
+works and runs off of the battery now
+
+---------12:03----------
+let's just sit here and see if this
+
+---------12:05----------
+actually charges
+
+---------12:10----------
+I'm probably going to hit fast forward
+
+---------12:12----------
+and up
+
+---------12:12----------
+again in Sony Vegas here because I'm
+
+---------12:14----------
+going to run out of patience
+
+---------12:19----------
+okay we're at 88% now what I'm also
+
+---------12:22----------
+going to do here is I want to see the
+
+---------12:24----------
+communication between the SMC and the
+
+---------12:26----------
+battery and when I actually show that to
+
+---------12:28----------
+you on my oscilloscope so to do that I'm
+
+---------12:34----------
+going to have to face the camera towards
+
+---------12:36----------
+the oscilloscope and manually focus that
+
+---------12:39----------
+in so let's see so oscilloscope is a
+
+---------12:46----------
+good tripod okay we're going to turn
+
+---------12:50----------
+that thing on
+
+---------12:58----------
+that's good enough all right now with my
+
+---------13:08----------
+desk be without a mess of wires so it
+
+---------13:10----------
+sets a 1 volt which is good because this
+
+---------13:12----------
+is 3 point 4 volts spikes you probably
+
+---------13:14----------
+can't see this because of the lighting
+
+---------13:15----------
+but there's a it is a line here a line
+
+---------13:19----------
+here a line here and a line at the top
+
+---------13:20----------
+so I want to be able to see all the way
+
+---------13:22----------
+up to 4 volts on my screen that's
+
+---------13:27----------
+pulsing now V top is 3.38 to 4 which is
+
+---------13:31----------
+pretty much what I expect you can see
+
+---------13:33----------
+I'm not really holding my hand steady
+
+---------13:34----------
+when I'm supposed to oh well I know it's
+
+---------13:38----------
+time to get new pros well at one point
+
+---------13:39----------
+you saw the three point four volts and
+
+---------13:41----------
+you saw the square and that's pretty
+
+---------13:43----------
+much what it was I was looking for so at
+
+---------13:46----------
+least I know now after this I get to go
+
+---------13:48----------
+online and spend 50 hundred bucks on new
+
+---------13:50----------
+probes for the oscilloscope boom
+
+---------13:54----------
+the dinky probe that comes with this is
+
+---------13:56----------
+such a piece of crap so I was expecting
+
+---------13:58----------
+to have to do that sometime soon anyway
+
+---------14:00----------
+so there you go the board itself works
+
+---------14:01----------
+it charges the battery it runs off of
+
+---------14:03----------
+the battery you got to see the
+
+---------14:06----------
+troubleshooting process you got to see
+
+---------14:07----------
+the repair of it you got to see that it
+
+---------14:09----------
+worked so this was kind of an easy one
+
+---------14:11----------
+so I guess it's kind of boring some
+
+---------14:13----------
+boards are damaged by water some boards
+
+---------14:16----------
+are damaged where you spill something on
+
+---------14:18----------
+and it corrodes it some boards are
+
+---------14:19----------
+damaged by idiots so somebody prize at
+
+---------14:23----------
+something and they rip things off and on
+
+---------14:24----------
+rare occasion you have something like
+
+---------14:26----------
+this where the board is damaged by both
+
+---------14:27----------
+either way was a fairly simple fix
+
