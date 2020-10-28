@@ -1,0 +1,21 @@
+kind: pipeline
+name: Installation
+
+- name: Import the captions
+  image: appleboy/drone-ssh
+  pull: if-not-exists
+  settings:
+    host:
+        from_secret: scp_host
+    user: 
+        from_secret: scp_user
+    password:
+        from_secret: scp_password
+    script:
+    - cd /var/www/products/repair-caption-search.zierhut-it.de/data
+    - git pull
+    - cd ../prod
+    - php import.php
+    trigger:
+        branch:
+        - master
