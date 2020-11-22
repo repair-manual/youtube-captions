@@ -1,0 +1,877 @@
+https://www.youtube.com/watch?v=k00kTHUe5t8
+---------00:00----------
+so today we're gonna be working on a mac
+
+---------00:02----------
+book and this mac book appears to be
+
+---------00:05----------
+dead if I look at the desk and I zoom in
+
+---------00:08----------
+on my USB amp meter here you'll see that
+
+---------00:11----------
+it's drawing nineteen point three volts
+
+---------00:13----------
+I mean it's at nineteen point three
+
+---------00:15----------
+volts and at zero point zero three amps
+
+---------00:17----------
+and then back to zero so it's trying to
+
+---------00:19----------
+turn on but then it's failing to turn on
+
+---------00:21----------
+so we're gonna try and figure out why it
+
+---------00:23----------
+is that it's failing to turn on so first
+
+---------00:25----------
+thing that we have to do in order to
+
+---------00:26----------
+figure that out is we have to go over
+
+---------00:28----------
+our power rails so let's go over the
+
+---------00:30----------
+power rails on this much bar and the
+
+---------00:33----------
+first rail that we need to find is pp
+
+---------00:35----------
+bus g3 hod VP bus is present next rail
+
+---------00:39----------
+pp 3 v3 underscore g3 hot and we can
+
+---------00:43----------
+measure that over here alright next for
+
+---------00:48----------
+this thingy that I imagine is the SMC
+
+---------00:53----------
+and we get 3 point 4 volts next rail our
+
+---------00:56----------
+RTC rail this used to be called PPV RTC
+
+---------01:00----------
+underscore g3 hot but now it's called
+
+---------01:03----------
+something new pp 3 vo underscore g3 hot
+
+---------01:06----------
+and that rail is supposed to show up
+
+---------01:08----------
+right next to this chip over here called
+
+---------01:09----------
+banjo which is our p.m. I see the p.m. I
+
+---------01:13----------
+see is called banjo in honor of Bo
+
+---------01:16----------
+Burnham song about country music and P 3
+
+---------01:20----------
+v 3o underscore G 3 hot is now 3 volts
+
+---------01:24----------
+so let's continue down the list here and
+
+---------01:26----------
+figure out what rails are missing 5 volt
+
+---------01:28----------
+rail let's check PP 5 vs 5 and that's
+
+---------01:32----------
+gonna be on this side of Macbook PP 5 vs
+
+---------01:38----------
+4 is not present well let's figure out
+
+---------01:41----------
+what makes PP 5 es for this chip over
+
+---------01:44----------
+here is gonna be our 3 volt and 5 volt
+
+---------01:47----------
+power supply
+
+---------01:47----------
+it creates PP 5 es 4 VA u 65 v u 60 70
+
+---------01:53----------
+650 using qu 7600 to send pulses of pp
+
+---------01:58----------
+bus g3 hot through this coil which will
+
+---------02:01----------
+then be averaged out by the caps into a
+
+---------02:02----------
+nice 5 volts it's enabled by P 5 vs 4
+
+---------02:06----------
+underscore en underscore our CD let's
+
+---------02:11----------
+see where that is
+
+---------02:12----------
+it's gonna be present on any one of
+
+---------02:18----------
+these three pins so the enable for the
+
+---------02:22----------
+s4 will be here and the enable is not
+
+---------02:28----------
+there
+
+---------02:28----------
+there's no enable now let's see if we
+
+---------02:32----------
+have the enable for PP 3 V 3 S 5 on the
+
+---------02:34----------
+side
+
+---------02:42----------
+I feel very trolled right now how much
+
+---------02:48----------
+do you expect aphaia to fix in the USB
+
+---------02:50----------
+port in the MacBook Pro I don't know
+
+---------02:53----------
+depends on where you go ends on it
+
+---------02:59----------
+depends on what's causing your USB port
+
+---------03:01----------
+to not work if it's a board issue or is
+
+---------03:04----------
+it one of the USB ports that just plugs
+
+---------03:05----------
+in is it a board issue or is it the
+
+---------03:07----------
+actual port plugging and that's doing it
+
+---------03:09----------
+alright so PP 3 V 3 S 5 is there and
+
+---------03:11----------
+it's being told to turn on but our s 4
+
+---------03:14----------
+rails are missing and our S 4 rails are
+
+---------03:17----------
+missing because this board needs is
+
+---------03:20----------
+begging for Paul I think this board is
+
+---------03:23----------
+begging for Paul so let's see wait well
+
+---------03:27----------
+we're gonna find that out and just one
+
+---------03:28----------
+man of course I say it's p.m. sleep s5l
+
+---------03:34----------
+p.m. sleep as 5l is what turns on the s
+
+---------03:38----------
+for rails so p.m. sleep as 5l would be
+
+---------03:42----------
+over here and it's missing so p.m. sleep
+
+---------03:47----------
+as 5 l comes from where does PM sleep s
+
+---------03:51----------
+5l gonna come from it comes from the CPU
+
+---------04:02----------
+so p.m. sleeve s 5l which comes from the
+
+---------04:06----------
+CPU appears to be missing now to
+
+---------04:11----------
+introduce you to Paul has anybody met
+
+---------04:16----------
+Paul actually this is not the CPU you
+
+---------04:18----------
+1100 is the PCH and the PCH is going to
+
+---------04:24----------
+be this thing over here
+
+---------04:32----------
+let's look at that area under the
+
+---------04:35----------
+microscope and as you can see this area
+
+---------04:44----------
+looks beautiful it looks like it's never
+
+---------04:47----------
+been challenged at all no water no
+
+---------04:50----------
+corrosion no drop damage ah ha ha ha
+
+---------04:57----------
+what's this what's that
+
+---------05:00----------
+what are you I see liquid damage on this
+
+---------05:03----------
+MacBook it has revealed itself via the
+
+---------05:07----------
+quality of my am scope microscope don't
+
+---------05:09----------
+delay by today by clicking one of the
+
+---------05:11----------
+affiliate links in the video description
+
+---------05:12----------
+down below let's see what that is what
+
+---------05:15----------
+are you what are you where are you what
+
+---------05:20----------
+are you I found you I found you on this
+
+---------05:26----------
+little MacBook you think I have a hint
+
+---------05:31----------
+so you are you are from banjo let me
+
+---------05:38----------
+mute if we look on the screen this has
+
+---------05:40----------
+something to do with the power supply
+
+---------05:42----------
+for P P 1 vo sus is this here a
+
+---------05:45----------
+prerequisite to p.m. sleep s 5l and also
+
+---------05:48----------
+what's this capacitor that's supposed to
+
+---------05:50----------
+be next to it that appears to be ripped
+
+---------05:51----------
+off the board
+
+---------05:52----------
+and /or no stuff ca 0 0 3 over here
+
+---------05:56----------
+appears to be a capacitor that's
+
+---------05:59----------
+supposed to be there because it doesn't
+
+---------06:00----------
+say no stuff but if we look on the
+
+---------06:03----------
+motherboard you can see that this looks
+
+---------06:06----------
+like it's ripped off as is this trace
+
+---------06:09----------
+over here ripped off so we're gonna
+
+---------06:11----------
+switch over to the microscope and zoom
+
+---------06:12----------
+in very nicely on this this is a machine
+
+---------06:17----------
+that's missing PM sleep s 5l and today
+
+---------06:20----------
+we're going to learn if P P 1 vo sus is
+
+---------06:24----------
+a prerequisite to PP p.m. sleep as 5l
+
+---------06:28----------
+this resistor looks like it would come
+
+---------06:30----------
+off if I tapped it the wrong way so
+
+---------06:32----------
+we're gonna be very careful here with
+
+---------06:34----------
+little MacBook and if this is all it is
+
+---------06:39----------
+this may be an easy touch bar that we
+
+---------06:41----------
+don't have to give to Paul ran
+
+---------06:44----------
+cherry picking what's aya grab the touch
+
+---------06:46----------
+bar I tried to grab a hard one
+
+---------06:48----------
+so we're gonna remove this
+
+---------07:08----------
+what's the donor board look like I
+
+---------07:10----------
+haven't I haven't gotten a donor board
+
+---------07:11----------
+yet that requires getting up so I've
+
+---------07:14----------
+been procrastinating doing that I also
+
+---------07:16----------
+got to leave in about 10 minutes to go
+
+---------07:19----------
+see my doctor I may have grabbed a touch
+
+---------07:21----------
+bar board that only needs one resistor
+
+---------07:24----------
+so check it out Paul
+
+---------07:26----------
+so this resistor was missing from the
+
+---------07:28----------
+board for pp1 I mean it was knocked off
+
+---------07:31----------
+no this resistor was corroded and the
+
+---------07:32----------
+capacitor that it's in series with was
+
+---------07:34----------
+missing for the 1vo sauce power supply
+
+---------07:37----------
+and p.m. sleep s5l was missing so I'm
+
+---------07:40----------
+thinking that this power rail over here
+
+---------07:41----------
+may be a prerequisite to having p.m.
+
+---------07:44----------
+sleep s5l on touch bars that's my guess
+
+---------07:47----------
+I'm hoping that that is it so if I
+
+---------07:49----------
+replace this stuff and run the jumpers
+
+---------07:50----------
+and it works
+
+---------07:50----------
+that means when p.m. sleep best 5l is
+
+---------07:52----------
+missing instead of just tossing it into
+
+---------07:54----------
+the garbage pile of four for Paul to
+
+---------07:57----------
+zelma we we should check this rail and
+
+---------08:02----------
+if this doesn't work then it goes in the
+
+---------08:05----------
+desk of you know this is probably gonna
+
+---------08:12----------
+work I don't know what knocked us off
+
+---------08:15----------
+though this it didn't look like this had
+
+---------08:17----------
+ever been open before and that barely
+
+---------08:19----------
+looked like liquid damage but I mean you
+
+---------08:20----------
+know it was because it's green but this
+
+---------08:23----------
+also looks like it was physically
+
+---------08:25----------
+knocked off the board which is where my
+
+---------08:26----------
+skepticism comes into play
+
+---------08:40----------
+I wanna be very careful here to not
+
+---------08:42----------
+destroy whatever's left this little
+
+---------08:43----------
+copper Pro point so not scraping too
+
+---------08:46----------
+hard I'm just running a solder ball over
+
+---------08:47----------
+it
+
+---------08:48----------
+solder blob we're just gonna add a tiny
+
+---------08:52----------
+bit of flux to that just to make sure it
+
+---------08:53----------
+continues to we did get new flux in the
+
+---------08:56----------
+stock by the way so I can go back to
+
+---------08:59----------
+using a mil appall of flux
+
+---------09:08----------
+okay I'm gonna try and rebuild it to
+
+---------09:10----------
+rehabilitate that pro point the most
+
+---------09:15----------
+gentle of scraping
+
+---------09:24----------
+we're working on making this Chooch
+
+---------09:27----------
+speaking of Kuching did we send the
+
+---------09:29----------
+laptops to a VE for a period we need to
+
+---------09:33----------
+send those laptops to a VE before those
+
+---------09:35----------
+customers get angry that the repair is
+
+---------09:37----------
+not being completed in a timely fashion
+
+---------09:39----------
+all right so I confirmed on the donor
+
+---------09:41----------
+board that those pieces are indeed
+
+---------09:42----------
+supposed to be here on the touch bar
+
+---------09:50----------
+much bar
+
+---------10:16----------
+America
+
+---------10:27----------
+and I don't want to take any chances
+
+---------10:29----------
+with this so I'm gonna make sure that
+
+---------10:34----------
+this is wired up all nicely since these
+
+---------10:42----------
+traces all look like crap
+
+---------10:47----------
+america [ __ ] yeah
+
+---------10:56----------
+so you just rebuild the reef ball the PM
+
+---------10:59----------
+I see that we don't need I'm sure we
+
+---------11:04----------
+will all right next one we're gonna do
+
+---------11:27----------
+what are you ultrasonic stop ruining my
+
+---------11:31----------
+video and that you know turn it off
+
+---------11:36----------
+hiss it's no point to ultrasonic a chip
+
+---------11:41----------
+okay next I'm taking no chances with
+
+---------11:47----------
+these crappy looking traces
+
+---------12:14----------
+all right so at this point I believe our
+
+---------12:17----------
+touch bar much bar should be fixed so
+
+---------12:24----------
+let's see if we get Chu Qing fan spin V
+
+---------12:28----------
+core amperage so it appears that it's
+
+---------12:35----------
+taking one point zero six amps which
+
+---------12:38----------
+means it's Chu Ching look at that oh
+
+---------12:42----------
+[ __ ] I moved it around so it stopped
+
+---------12:45----------
+got that here we go yeah one point four
+
+---------12:48----------
+amps one amp point nine one amp it's
+
+---------12:54----------
+turning on and Xu Qing
+
+---------12:56----------
+let's see if we get an image cuz if we
+
+---------12:57----------
+get an image that'll be even better I
+
+---------12:59----------
+don't expect to get an image on this I
+
+---------13:01----------
+mean that that's asking way too much the
+
+---------13:03----------
+touch bar actually have a picture I
+
+---------13:06----------
+don't want to get greedy now Macbook
+
+---------13:10----------
+gonna plug the screen in that's all I
+
+---------13:12----------
+care about let's see if we get a screen
+
+---------13:14----------
+and an Apple logo on this little MacBook
+
+---------13:18----------
+MacBook now stay in don't you tip over
+
+---------13:23----------
+you mofo when I plug here we go one
+
+---------13:26----------
+point 45 amps 1.2 1.1 0.9 1.2 1 ok it
+
+---------13:33----------
+seems like now it's staying on hey hey
+
+---------13:37----------
+macbook ok so I probably had the Wi-Fi
+
+---------13:40----------
+wire touching something that it wasn't
+
+---------13:42----------
+supposed to touch so it looks like this
+
+---------13:44----------
+is working it is booting it's true which
+
+---------13:49----------
+means that by a completely random choice
+
+---------13:52----------
+I managed that it's used the first touch
+
+---------13:54----------
+bar of the day and all it needed was a
+
+---------13:57----------
+resistor and a capacitor that were easy
+
+---------13:59----------
+to find this is entirely random random
+
+---------14:14----------
+ran
+
+---------14:17----------
+now so the important thing to go over
+
+---------14:19----------
+here is what we learned from this and
+
+---------14:21----------
+what I've said is even going back three
+
+---------14:23----------
+years is that you when you have water
+
+---------14:26----------
+damage the great thing about water
+
+---------14:27----------
+damage is that it illuminates where the
+
+---------14:29----------
+issue is so then what you can do is you
+
+---------14:31----------
+can match the symptoms that you had to
+
+---------14:33----------
+the issue that you can match the
+
+---------14:35----------
+symptoms you had to the physical
+
+---------14:38----------
+abnormalities on the board so what we
+
+---------14:40----------
+did is we went through the list of power
+
+---------14:41----------
+rails let me just find this over here
+
+---------14:44----------
+the list of power rails is at the end
+
+---------14:46----------
+here we go so we went through the list
+
+---------14:47----------
+of rails and we noticed that the rail
+
+---------14:51----------
+that we had missing was up PP 5 vs 4 and
+
+---------14:55----------
+this would be so we would typically
+
+---------14:58----------
+start with the S 5 rails go to the SOS
+
+---------15:00----------
+for rails and so on and so forth and
+
+---------15:02----------
+p.m. sleep s 5 l was missing that's one
+
+---------15:05----------
+of the things that's required to turn on
+
+---------15:07----------
+PP 5 es 4 and that was it used 7650 so
+
+---------15:10----------
+you 7650 we were missing p 5 vs for en
+
+---------15:15----------
+this would enable the PP 5 es for rail
+
+---------15:18----------
+and when we followed this back this
+
+---------15:21----------
+comes from p.m. sleep s 5l over here and
+
+---------15:26----------
+PM sleep s 5l is going to come from the
+
+---------15:31----------
+PCH over here which on the dual-core
+
+---------15:35----------
+models is integrated into the CPU on the
+
+---------15:38----------
+quad-core models here is on the platform
+
+---------15:40----------
+controller hub but it's kind of like a
+
+---------15:41----------
+north bridge in the South Bridge and a
+
+---------15:43----------
+graphics communicated between in telling
+
+---------15:45----------
+us and the MOX all at once Intel CPU and
+
+---------15:47----------
+the MUX all at once and some of the
+
+---------15:49----------
+older models so we were missing p.m.
+
+---------15:52----------
+sleep s 5l then we noticed that there
+
+---------15:54----------
+was corrosion on these two resistors
+
+---------15:58----------
+over here in capacitors this resistor
+
+---------16:00----------
+and capacitor are eight zero zero one
+
+---------16:02----------
+and C eight zero zero three these two
+
+---------16:06----------
+are responsible for allowing you 7800 to
+
+---------16:10----------
+create P P 1 vo sus so what I know now
+
+---------16:13----------
+is that if I'm missing PM sleep s 5l I
+
+---------16:15----------
+should check and ensure that I have P P
+
+---------16:18----------
+1 vo sus because P P 1 vo sus is
+
+---------16:21----------
+required and as you can see here the PCH
+
+---------16:24----------
+on these newer Mac books all operates on
+
+---------16:26----------
+P P 1 vo sus so this over here is the
+
+---------16:28----------
+PCH and as you can see all of the ins
+
+---------16:31----------
+balls on the PCH RP P 1 vo so P P 1 vo s
+
+---------16:35----------
+s is very important on the newer
+
+---------16:36----------
+MacBooks and touch bars so if you're
+
+---------16:38----------
+missing p.m. sleep as 5l rather than
+
+---------16:40----------
+doing what we used to do which is
+
+---------16:43----------
+frisbee 'm now we know for the next
+
+---------16:45----------
+machines when you're missing p.m. sleep
+
+---------16:47----------
+s 5l check P P 1 vo sus because it is
+
+---------16:49----------
+important that's it for today and as
+
+---------16:51----------
+always I hope you learned something and
+
+---------16:53----------
+as always when you're going to the Q
+
+---------16:56----------
+make sure that you pick all your boards
+
+---------16:58----------
+at random
+

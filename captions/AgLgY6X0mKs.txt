@@ -1,0 +1,1261 @@
+https://www.youtube.com/watch?v=AgLgY6X0mKs
+---------00:00----------
+hey everybody how's it going i have a
+
+---------00:02----------
+bit of a confession to make
+
+---------00:04----------
+so i haven't done a board repair video
+
+---------00:06----------
+in a while and what i've found
+
+---------00:09----------
+um is that i don't actually enjoy them
+
+---------00:12----------
+anymore
+
+---------00:13----------
+there's i i don't know how else to put
+
+---------00:16----------
+it but i used to kind of enjoy coming on
+
+---------00:18----------
+here and
+
+---------00:19----------
+opening up the machine and going through
+
+---------00:21----------
+the board in front of you all and
+
+---------00:22----------
+troubleshooting it
+
+---------00:23----------
+and figuring it out working together and
+
+---------00:26----------
+now that is not something that i get i
+
+---------00:28----------
+really
+
+---------00:29----------
+find fun i maybe it's because i've been
+
+---------00:31----------
+doing the exact same
+
+---------00:32----------
+type of video for about seven years
+
+---------00:35----------
+perhaps it's the fact that it's you know
+
+---------00:37----------
+seven years through but for whatever
+
+---------00:39----------
+reason
+
+---------00:40----------
+i just don't find logging on here to do
+
+---------00:44----------
+this to be fun
+
+---------00:45----------
+with you so as a result you've seen me
+
+---------00:47----------
+do uh less of these
+
+---------00:49----------
+but let's let's get one going today
+
+---------00:53----------
+so this machine the customer says
+
+---------00:56----------
+will not charge the battery they say it
+
+---------00:58----------
+will turn on but it will not charge the
+
+---------00:59----------
+battery
+
+---------01:00----------
+so let's get an idea of what's going on
+
+---------01:01----------
+here so when i plug this computer in
+
+---------01:06----------
+first thing we do let's see so it's
+
+---------01:09----------
+taking 20 volts so the machine is able
+
+---------01:11----------
+to activate the charger good stuff
+
+---------01:14----------
+it's taking 700 milliamps though that's
+
+---------01:15----------
+not charging amperage that's just enough
+
+---------01:17----------
+to turn it on
+
+---------01:18----------
+now let's see if this thing actually
+
+---------01:20----------
+does turn on that is important
+
+---------01:25----------
+i just heard it make a beep at me okay
+
+---------01:26----------
+it does turn on now next up
+
+---------01:29----------
+does it see a battery does it
+
+---------01:31----------
+acknowledge that there is a battery
+
+---------01:40----------
+i think a big part of it is also that i
+
+---------01:41----------
+spent the last few months kind of
+
+---------01:42----------
+restructuring my business to prepare for
+
+---------01:45----------
+having um
+
+---------01:46----------
+you know for having like over 10 or
+
+---------01:49----------
+20 employees and that has just kind of
+
+---------01:51----------
+sucked a lot of the fun out of streaming
+
+---------01:53----------
+for me
+
+---------01:54----------
+so as you can see it does see the
+
+---------01:55----------
+battery it sees it
+
+---------01:58----------
+but it says zero percent and obviously
+
+---------02:00----------
+it's not charging because it's not
+
+---------02:01----------
+taking enough amperage
+
+---------02:02----------
+so that this is a problem now
+
+---------02:06----------
+what i want to do here is see if i
+
+---------02:08----------
+unplug the battery from the system
+
+---------02:09----------
+altogether
+
+---------02:11----------
+i want to see if pbus g3 hot the main
+
+---------02:14----------
+power rail that goes to the battery is
+
+---------02:15----------
+present so this page over here
+
+---------02:18----------
+is for charging the battery it says
+
+---------02:19----------
+p-bus supply and battery charger
+
+---------02:21----------
+this is where pb g3 hot is created this
+
+---------02:23----------
+is where it's going to take the 20 volts
+
+---------02:25----------
+from the charger and turn it into 12 or
+
+---------02:26----------
+13 volts for the system
+
+---------02:28----------
+now this is a transistor that sits
+
+---------02:31----------
+between
+
+---------02:31----------
+pp bus d3 hot and the battery
+
+---------02:35----------
+so the first thing i want to do here is
+
+---------02:37----------
+see if it's being told open
+
+---------02:38----------
+now this here is a p channel mosfet a p
+
+---------02:41----------
+channel mosfet means it's going to
+
+---------02:43----------
+allow power to go through when the power
+
+---------02:44----------
+on the gate is lower than the power on
+
+---------02:46----------
+the source
+
+---------02:46----------
+so let's take a look at what's going on
+
+---------02:48----------
+there so i'm going to take a look at cue
+
+---------02:49----------
+70
+
+---------02:50----------
+65 put that on the screen right here
+
+---------02:55----------
+it knows mario it it knows i
+
+---------02:58----------
+it definitely it definitely knows okay
+
+---------03:02----------
+so let's look at that on the screen
+
+---------03:05----------
+now the source is going to be either
+
+---------03:06----------
+pins three two and one and the gate is
+
+---------03:08----------
+gonna be pin four
+
+---------03:10----------
+so we're gonna take a look at that we're
+
+---------03:11----------
+gonna get the multimeter on the screen i
+
+---------03:13----------
+don't need the power supply software
+
+---------03:14----------
+right now because we're not using it
+
+---------03:16----------
+so i'm going to exit out of that see a
+
+---------03:19----------
+little red dot on the screen there
+
+---------03:21----------
+because
+
+---------03:23----------
+i don't know okay so
+
+---------03:27----------
+all right okay we're getting 13 volts on
+
+---------03:30----------
+the gate
+
+---------03:31----------
+13 volts on the source well there you go
+
+---------03:36----------
+but you have 12 volts on the drain what
+
+---------03:41----------
+you son of a i i unplugged the battery
+
+---------03:44----------
+it doesn't make any sense
+
+---------03:47----------
+okay let's look up if i'm correct about
+
+---------03:49----------
+this si7137dp
+
+---------03:56----------
+is this actually a p channel this is
+
+---------03:58----------
+indeed a p-channel
+
+---------04:01----------
+all right so the board physically
+
+---------04:03----------
+appears to be kind of spotless
+
+---------04:09----------
+nothing on here that explains why it
+
+---------04:11----------
+would not be charging a battery
+
+---------04:17----------
+okay we do have some sign of idiot
+
+---------04:18----------
+damage here
+
+---------04:21----------
+let's see can you guys see the idiot
+
+---------04:26----------
+damage
+
+---------04:29----------
+see
+
+---------04:36----------
+looks like someone chewed on this
+
+---------04:40----------
+okay so what this tells me is that i
+
+---------04:42----------
+cannot trust that when they said i had a
+
+---------04:44----------
+computer repair shop replace the battery
+
+---------04:46----------
+that they actually replaced the battery
+
+---------04:49----------
+most likely they
+
+---------04:50----------
+they quality i don't know if any of you
+
+---------04:53----------
+have seen this but this has kind of been
+
+---------04:54----------
+i feel bad doing this but this is kind
+
+---------04:56----------
+of
+
+---------04:57----------
+thoughts in the new macbook air design
+
+---------04:59----------
+without fans i i did a video on this
+
+---------05:01----------
+three years ago
+
+---------05:02----------
+two years ago it doesn't have a fan like
+
+---------05:04----------
+what do you oh
+
+---------05:05----------
+wait no that was the a1534 well first i
+
+---------05:07----------
+got rid of the heat pipe
+
+---------05:08----------
+so i mean i don't know i mean like you
+
+---------05:10----------
+had a macbook that had a heatsink that
+
+---------05:12----------
+wasn't attached to the fan
+
+---------05:14----------
+so the next natural thing to do is to
+
+---------05:15----------
+get rid of the fan you know
+
+---------05:17----------
+so
+
+---------05:22----------
+where okay so this is what i think
+
+---------05:26----------
+probably happened and i'm trying to be
+
+---------05:28----------
+as unbiased as i can here
+
+---------05:31----------
+you know i realized having a computer
+
+---------05:32----------
+repair shop myself makes me a bit biased
+
+---------05:34----------
+when
+
+---------05:36----------
+discussing what other people are
+
+---------05:53----------
+poor koala
+
+---------05:56----------
+poor little koala and then he gets sad
+
+---------05:58----------
+and he's like oh no
+
+---------06:00----------
+i care
+
+---------06:04----------
+but so we have a saying here where when
+
+---------06:07----------
+some
+
+---------06:08----------
+so that's pretty much they quality
+
+---------06:11----------
+they clearly koala this so i have no
+
+---------06:14----------
+level of trust
+
+---------06:15----------
+that they have any idea what the
+
+---------06:16----------
+they're doing
+
+---------06:19----------
+i'm going to see if my battery works
+
+---------06:21----------
+with it
+
+---------06:27----------
+a 1819 battery goes into this computer
+
+---------06:31----------
+i think the equal is an adorable cute
+
+---------06:32----------
+little animal but
+
+---------06:34----------
+god is a dumb to be clear i don't know
+
+---------06:36----------
+if they screwed up the battery swap it's
+
+---------06:38----------
+just that trackpad thing gives me a hint
+
+---------06:40----------
+that i should not trust
+
+---------06:41----------
+anything in the notes about what the
+
+---------06:43----------
+first place did
+
+---------06:45----------
+it's just an indicator result just an
+
+---------06:46----------
+indicator remember this job is all
+
+---------06:48----------
+detective work
+
+---------06:49----------
+what we do here is detective work
+
+---------07:11----------
+it's kind of fun doing detective work
+
+---------07:13----------
+you know
+
+---------07:15----------
+so let's grab the battery screw
+
+---------07:18----------
+plug this in and i want to see if it
+
+---------07:19----------
+takes more than an amp
+
+---------07:21----------
+remember six to 700 milliamps is what
+
+---------07:23----------
+the machine will take by itself without
+
+---------07:26----------
+the battery
+
+---------07:53----------
+1.2 amps 1.4 amps
+
+---------07:56----------
+1.5 amps 1.6 amps
+
+---------08:00----------
+1.5 amps 1.5 1.6
+
+---------08:04----------
+now before this machine was only taking
+
+---------08:08----------
+800 to 900 milliamps max on the charge
+
+---------08:11----------
+port
+
+---------08:12----------
+and as you can see when i plug in a
+
+---------08:13----------
+different battery now it's taking 2.5
+
+---------08:16----------
+2.6 and continuing to go upwards
+
+---------08:19----------
+so the only problem with this computer
+
+---------08:20----------
+is a bad charge port now the way that we
+
+---------08:23----------
+figured that out
+
+---------08:23----------
+is we noticed that there was
+
+---------08:28----------
+there was really no sane reason for the
+
+---------08:31----------
+board to not be functioning
+
+---------08:33----------
+i noticed that there was no sane reason
+
+---------08:35----------
+for the board to not function
+
+---------08:40----------
+yeah let's show you here because there's
+
+---------08:42----------
+no liquid damage on it whatsoever
+
+---------08:44----------
+nothing is burned
+
+---------08:47----------
+now when the old battery was plugged in
+
+---------08:51----------
+the gate on this mosfet was
+
+---------08:54----------
+was the same as the source so it wasn't
+
+---------08:56----------
+passing anything through
+
+---------08:57----------
+the battery however when i plug in my
+
+---------08:59----------
+battery as you can see here
+
+---------09:01----------
+the gate is now oh paul daniels is
+
+---------09:05----------
+freaking software one second all right
+
+---------09:06----------
+let's redo that segment edit
+
+---------09:10----------
+so as you can see here the gate of that
+
+---------09:12----------
+mosfet is now
+
+---------09:13----------
+4 volts the source
+
+---------09:16----------
+is 12.4 which means that it is actually
+
+---------09:20----------
+going to be allowing
+
+---------09:21----------
+more currents to go through so you take
+
+---------09:24----------
+a look over here on the schematic in the
+
+---------09:25----------
+board view
+
+---------09:26----------
+this is going to be what
+
+---------09:29----------
+sits right over here this is going to be
+
+---------09:31----------
+what sits between
+
+---------09:33----------
+the charging voltage pp bus g3 hot
+
+---------09:36----------
+and the battery and this is a p channel
+
+---------09:39----------
+mosfet as i explained in my
+
+---------09:40----------
+sheet which is should be in the
+
+---------09:41----------
+description of all my board repair
+
+---------09:43----------
+videos for a p
+
+---------09:44----------
+channel mosfet to allow power to go
+
+---------09:46----------
+through the gate
+
+---------09:48----------
+g pin 4 needs to be lower than the
+
+---------09:51----------
+source
+
+---------09:53----------
+now with the existing battery it was
+
+---------09:56----------
+stuck
+
+---------09:57----------
+at 13 volts that means that this chip
+
+---------10:00----------
+the isl9239 which is going to be able to
+
+---------10:03----------
+communicate with the battery
+
+---------10:06----------
+was not turning on perhaps it spoke to
+
+---------10:08----------
+the battery and the battery said
+
+---------10:13----------
+i don't know yo mom is so ugly that
+
+---------10:19----------
+she writes isl6259 in her schematic even
+
+---------10:22----------
+when it uses an isl9239
+
+---------10:25----------
+and then the isl9239 said well you
+
+---------10:27----------
+i ain't charging you
+
+---------10:29----------
+and it didn't charge it so then i plug
+
+---------10:32----------
+in a different battery
+
+---------10:34----------
+and when i plug in a different battery
+
+---------10:35----------
+now i can tell that it's charging for
+
+---------10:37----------
+two reasons
+
+---------10:38----------
+first reason is that it's taking more
+
+---------10:41----------
+than an amp so the way i can figure out
+
+---------10:43----------
+what the battery is taking is quite
+
+---------10:44----------
+simple
+
+---------10:45----------
+so i unplug the battery right here and
+
+---------10:48----------
+then you see
+
+---------10:49----------
+how many amps the machine takes by
+
+---------10:52----------
+itself like how much does this specific
+
+---------10:54----------
+motherboard need
+
+---------10:55----------
+in order to turn on and now i see how
+
+---------10:57----------
+many amps it needs to turn on
+
+---------10:59----------
+so let's say 200 to 600 milliamps or in
+
+---------11:01----------
+this case in the booting
+
+---------11:02----------
+it's it's idling so it's sitting at 200
+
+---------11:04----------
+milliamps when you plug the battery in
+
+---------11:07----------
+everything that's over that we can
+
+---------11:09----------
+assume is the battery drawing power and
+
+---------11:11----------
+as you can see it's going back up again
+
+---------11:12----------
+it's going to be going back up to an amp
+
+---------11:14----------
+or more than an amp and so on and so
+
+---------11:16----------
+forth now the next way i could tell that
+
+---------11:18----------
+it was charging with the good battery in
+
+---------11:19----------
+addition to that
+
+---------11:20----------
+was that when i measure on the gate it's
+
+---------11:22----------
+no longer 13 volts
+
+---------11:24----------
+it's 4. now what controls the gate
+
+---------11:26----------
+voltage of this transistor
+
+---------11:28----------
+that's going to say whether or not pp
+
+---------11:29----------
+bus g3 hot gets to go to the battery
+
+---------11:32----------
+the iso 9239 the charging chip it's
+
+---------11:35----------
+going to control that
+
+---------11:36----------
+on its b gate battery gate line it's
+
+---------11:40----------
+going to send out 4 volts if it's
+
+---------11:41----------
+allowed to charge the battery or 13
+
+---------11:43----------
+volts if it's not
+
+---------11:44----------
+so what happened here is it spoke to the
+
+---------11:46----------
+battery which is going to happen
+
+---------11:48----------
+on this little data line right over here
+
+---------11:50----------
+so when you plug in the
+
+---------11:51----------
+battery there is a data line
+
+---------11:56----------
+there we go in this connector j6951
+
+---------12:00----------
+and that is going to go over to here
+
+---------12:05----------
+pin 35. see this
+
+---------12:08----------
+sda scl right over here that's going to
+
+---------12:11----------
+talk to the battery
+
+---------12:12----------
+right on this line and it spoke to this
+
+---------12:15----------
+battery and rather than saying
+
+---------12:17----------
+yo mama's so fat that's something else
+
+---------12:19----------
+it said
+
+---------12:20----------
+why hello i would be honored to power
+
+---------12:22----------
+you little macbook
+
+---------12:24----------
+and it worked now what led me to believe
+
+---------12:26----------
+that there i should check and see
+
+---------12:28----------
+if this battery had actually been
+
+---------12:30----------
+replaced
+
+---------12:32----------
+before moving forward why would i do
+
+---------12:35----------
+that when the node
+
+---------12:36----------
+said we have already tried replacing the
+
+---------12:38----------
+battery at a computer repair place and
+
+---------12:40----------
+that's an excellent question
+
+---------12:41----------
+what happened is i looked around the
+
+---------12:43----------
+board and i saw signs
+
+---------12:45----------
+of of what i like to call koala syndrome
+
+---------12:48----------
+here
+
+---------12:49----------
+that's one of the terms that we have
+
+---------12:50----------
+here at rossman repair
+
+---------12:52----------
+so i'll put the video over here again
+
+---------12:54----------
+just so you can get an idea
+
+---------12:56----------
+the koala is a very cute animal but
+
+---------12:58----------
+unfortunately the koala
+
+---------13:00----------
+as if frank explains he is who is one of
+
+---------13:03----------
+the
+
+---------13:03----------
+best people to listen to if you want to
+
+---------13:04----------
+learn about science
+
+---------13:06----------
+animals culture all this type of stuff
+
+---------13:10----------
+is that these koala has a smooth brain
+
+---------13:12----------
+so
+
+---------13:13----------
+if you put a koala in a room and you
+
+---------13:15----------
+paint a tree
+
+---------13:16----------
+on the on the wall it will actually try
+
+---------13:19----------
+to climb the wall
+
+---------13:20----------
+thinking it's a real tree because it's
+
+---------13:23----------
+it's a smooth brain
+
+---------13:24----------
+and you could see that there were some
+
+---------13:26----------
+signs unfortunately that this customer
+
+---------13:28----------
+had been to a smooth brain place
+
+---------13:30----------
+because when i look at this and you know
+
+---------13:32----------
+i feel bad for the customer i really do
+
+---------13:34----------
+they could have had this fixed locally
+
+---------13:35----------
+and they didn't but it is what it is
+
+---------13:37----------
+because you can see that there is this
+
+---------13:40----------
+chewing away at the trackpad connector
+
+---------13:42----------
+which means that they were not able to
+
+---------13:44----------
+figure out
+
+---------13:45----------
+how to remove that flex that was plugged
+
+---------13:47----------
+into the board
+
+---------13:49----------
+without damaging the board which is
+
+---------13:50----------
+really really bad i've hired people that
+
+---------13:53----------
+are
+
+---------13:53----------
+incapable i've hired morons before that
+
+---------13:57----------
+barely made it past one or two days of
+
+---------13:59----------
+training uh
+
+---------14:00----------
+you know i've i've been through some
+
+---------14:02----------
+really good and i've been through some
+
+---------14:03----------
+really bad and i don't know
+
+---------14:05----------
+how you would actually do this i mean
+
+---------14:06----------
+honestly functionally speaking
+
+---------14:08----------
+i don't know how you would damage this
+
+---------14:10----------
+because what you do is you put your
+
+---------14:12----------
+fingernail in
+
+---------14:13----------
+just to give you an idea when this is in
+
+---------14:14----------
+the machine the connector cable
+
+---------14:17----------
+comes over it this way it's right
+
+---------14:20----------
+so you're not going to come in from this
+
+---------14:22----------
+way to pry it off
+
+---------14:24----------
+you're going to come in from this way so
+
+---------14:26----------
+for your fingernail
+
+---------14:27----------
+to not scratch this but scratch that
+
+---------14:30----------
+would require an amazing level of um
+
+---------14:35----------
+i don't know honestly perhaps koala's
+
+---------14:37----------
+the wrong word because i think it would
+
+---------14:38----------
+require a high level of intellect
+
+---------14:40----------
+to manage to break this section without
+
+---------14:42----------
+breaking that section i don't know how
+
+---------14:44----------
+the hell they did it but they did it
+
+---------14:46----------
+and the fact that that occurred gave me
+
+---------14:48----------
+a hint that
+
+---------14:49----------
+this that i should not trust anything
+
+---------14:52----------
+that was in the initial nodes as to what
+
+---------14:54----------
+was done with the machine
+
+---------14:55----------
+and one of the things that people may
+
+---------14:57----------
+not understand so we get these notes all
+
+---------14:59----------
+the time we get like
+
+---------15:00----------
+you know people will send us this stuff
+
+---------15:02----------
+in the mail they'll send us like two or
+
+---------15:05----------
+three
+
+---------15:05----------
+or five pages of all the troubleshooting
+
+---------15:07----------
+stuff that was done and what
+
+---------15:09----------
+peop this this may come off as rude and
+
+---------15:11----------
+i truly don't mean it as such
+
+---------15:12----------
+but most of the texts here won't even
+
+---------15:14----------
+read the page they'll literally just
+
+---------15:15----------
+throw it in the garbage and then do
+
+---------15:16----------
+their own estimate because this is
+
+---------15:19----------
+incredibly incredibly commonplace like i
+
+---------15:21----------
+did this i did that it can't be this
+
+---------15:22----------
+because i did this already
+
+---------15:24----------
+and it this is you know if you have a
+
+---------15:27----------
+shop of a similar type
+
+---------15:28----------
+you may ask the customer for the history
+
+---------15:30----------
+and all that and we and we do when we
+
+---------15:32----------
+see them in person but when we're not
+
+---------15:33----------
+able to have that immediate conversation
+
+---------15:35----------
+because we're just taking it out of a
+
+---------15:36----------
+box or
+
+---------15:37----------
+putting it on our desk i will read the
+
+---------15:39----------
+paper but very often i read the paper
+
+---------15:41----------
+and the paper actually tricks me to some
+
+---------15:43----------
+extent
+
+---------15:44----------
+because this would lead me to believe
+
+---------15:46----------
+perhaps there's something wrong with my
+
+---------15:47----------
+transistor maybe my isl9239 is faulty
+
+---------15:51----------
+i would replace it and i would waste a
+
+---------15:52----------
+lot of time that didn't need to be
+
+---------15:53----------
+wasted
+
+---------15:54----------
+because i got quality so
+
+---------15:57----------
+always make sure that you're not getting
+
+---------15:59----------
+co-wallet and
+
+---------16:01----------
+that's about it for today and as always
+
+---------16:03----------
+i hope you learned something i will see
+
+---------16:05----------
+you all in the next video
+
+---------16:08----------
+bye now
+

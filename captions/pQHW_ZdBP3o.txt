@@ -1,0 +1,643 @@
+https://www.youtube.com/watch?v=pQHW_ZdBP3o
+---------00:00----------
+all right so go figure that the
+
+---------00:01----------
+day I decided to do a video on
+
+---------00:03----------
+microphones that my main microphone
+
+---------00:05----------
+literally I'm not I'm not kidding when I
+
+---------00:07----------
+say this this thing actually died right
+
+---------00:09----------
+after I did that video anyway so what I
+
+---------00:11----------
+want to do today is I want to talk a
+
+---------00:12----------
+little bit about a board that was fixed
+
+---------00:14----------
+while I was off camera so since this is
+
+---------00:18----------
+not gonna be real time so it's gonna be
+
+---------00:19----------
+a little boring but even though it's not
+
+---------00:22----------
+real time I still feel that you can
+
+---------00:24----------
+learn something from it so I want to go
+
+---------00:25----------
+over a board that was being a real pain
+
+---------00:26----------
+in the ass and this is a board that had
+
+---------00:28----------
+no v core was an 8 to 0 30 115 and I
+
+---------00:31----------
+want to talk a little bit about why this
+
+---------00:33----------
+was so let's talk a little bit about V
+
+---------00:35----------
+core for a moment so I've talked about
+
+---------00:37----------
+this many many times I've talked about
+
+---------00:38----------
+the things that can go wrong they can
+
+---------00:40----------
+cause your V core circuit to stop
+
+---------00:41----------
+working the way it's supposed to this is
+
+---------00:43----------
+a board with the CPU I MVP ton resistors
+
+---------00:45----------
+looks fine
+
+---------00:45----------
+the u 7400 area looked fine the actual
+
+---------00:49----------
+that the MOSFETs themselves looked fine
+
+---------00:51----------
+nothing looked like was really bad in
+
+---------00:53----------
+those areas so let's go back to the
+
+---------00:56----------
+overclocking and being a teenager rule
+
+---------00:57----------
+over clocks as computers kind of thing
+
+---------00:59----------
+when you actually have the time to do
+
+---------01:00----------
+that type of stuff before you and let's
+
+---------01:03----------
+think about this how do you set V core
+
+---------01:05----------
+when you want to overclock your computer
+
+---------01:07----------
+what do you do to set the vcore you set
+
+---------01:09----------
+that in the computer's bios so you do
+
+---------01:12----------
+that in the bios now how does the bios
+
+---------01:15----------
+communicate here so let's let's just go
+
+---------01:17----------
+over to the cpu v core circuit for a
+
+---------01:19----------
+moment alrighty so u 7400 yeah so we're
+
+---------01:26----------
+not used 7400 right here and let's see
+
+---------01:28----------
+so I'm not we've been over this circuit
+
+---------01:31----------
+many many times this is a buck converter
+
+---------01:32----------
+if you don't know what a buck converter
+
+---------01:33----------
+does go to any of the other videos where
+
+---------01:35----------
+I talk about it so these you know this
+
+---------01:37----------
+is buck converter number one buck
+
+---------01:39----------
+converting them to buck converter number
+
+---------01:40----------
+three so it's controlling and the high
+
+---------01:42----------
+side MOSFET the low side MOSFET blah
+
+---------01:45----------
+blah now let's see where any kind of
+
+---------01:47----------
+communication occurs here that tells it
+
+---------01:48----------
+how to set V core so this this is just a
+
+---------01:52----------
+bunch of resistors going to ground for a
+
+---------01:55----------
+bunch of random different things but
+
+---------01:56----------
+keep in mind that v core can actually
+
+---------01:58----------
+fluctuate a little bit depending on what
+
+---------02:00----------
+the computer is doing member this is a
+
+---------02:01----------
+core i5 i7 platform so this is since
+
+---------02:04----------
+this cannot be adjust this is just the
+
+---------02:06----------
+resistor that's set there that's static
+
+---------02:08----------
+so let's think of something else you
+
+---------02:11----------
+know how my static I mean something that
+
+---------02:12----------
+does not change
+
+---------02:13----------
+this is going out so it can't be that
+
+---------02:15----------
+that's going out so it can't be that so
+
+---------02:17----------
+it has to be one of these CPU imv PVR on
+
+---------02:20----------
+let's take a look where that goes
+
+---------02:22----------
+v core VR on maybe that's something this
+
+---------02:25----------
+no it's just a basic signal so when all
+
+---------02:28----------
+system power good is present it will say
+
+---------02:30----------
+that the CPU v core can come on all
+
+---------02:32----------
+system power good is not something that
+
+---------02:33----------
+ever changes it's a static signal to get
+
+---------02:35----------
+shot out to say that the system's power
+
+---------02:36----------
+is good let's see what else can come on
+
+---------02:38----------
+here
+
+---------02:39----------
+CPU vids out vids clock and if it alert
+
+---------02:43----------
+the CPU vids out vids clock and vid
+
+---------02:45----------
+alert comes from here the those three
+
+---------02:48----------
+signals and let's see where that comes
+
+---------02:50----------
+from
+
+---------02:50----------
+so that seems to come directly from you
+
+---------02:52----------
+1000 and you 1000 is the CPU so the CPU
+
+---------02:57----------
+is what's actually telling that to what
+
+---------03:01----------
+V court wants now you have to keep in
+
+---------03:03----------
+mind here that there are actually
+
+---------03:04----------
+several different power rails that power
+
+---------03:05----------
+the CPU so let's take a look over here
+
+---------03:09----------
+now let's see so we have a bunch of
+
+---------03:12----------
+different things over here so we have
+
+---------03:13----------
+this ppv CPU VCC i/o that's an Esso rail
+
+---------03:17----------
+and then you also have V core so the
+
+---------03:19----------
+whole idea here is see this is at the
+
+---------03:21----------
+top it's above this that means this
+
+---------03:23----------
+turns on before that so let's think
+
+---------03:25----------
+about this for a second year so the CPU
+
+---------03:27----------
+is going to set CPU V core the CPU is
+
+---------03:31----------
+actually going to set its V court
+
+---------03:32----------
+however V core powers the CPU this is
+
+---------03:34----------
+where you get into one of those little
+
+---------03:35----------
+confusing loops where if you don't
+
+---------03:37----------
+really understand exactly how the
+
+---------03:38----------
+circuit works you can get yourself
+
+---------03:40----------
+really really confused
+
+---------03:42----------
+so the CPU sets CPU v core but the CPU
+
+---------03:47----------
+has a no V core so how is the CPU
+
+---------03:48----------
+turning on it's one of those really
+
+---------03:49----------
+confusing things that again if you're
+
+---------03:51----------
+not really thinking about this you can
+
+---------03:53----------
+very easily get trap and a little rabbit
+
+---------03:55----------
+hole to hell where you don't know what
+
+---------03:56----------
+the hell is the problem so when you look
+
+---------03:58----------
+at this it makes a lot more sense CPU PP
+
+---------04:01----------
+the CPU VCC i/o it comes up first before
+
+---------04:05----------
+you get actual CPU v core and that's
+
+---------04:08----------
+going to set the V chord
+
+---------04:09----------
+however remember about think about this
+
+---------04:11----------
+when you were a kid and you were
+
+---------04:12----------
+overclocking your computer how did this
+
+---------04:13----------
+work it was in the BIOS area and the
+
+---------04:17----------
+BIOS over here is SPI boot ROM that's
+
+---------04:20----------
+what Apple calls it so the BIOS the SPI
+
+---------04:22----------
+ROM communicates with the PCH and then
+
+---------04:26----------
+PCH communicates with the CPU so let's
+
+---------04:29----------
+think about this for a second so the CPU
+
+---------04:31----------
+is not setting vcore it's obviously not
+
+---------04:34----------
+telling you 7400 to actually turn on and
+
+---------04:36----------
+do anything now the CPU is not setting
+
+---------04:39----------
+it's it's V core the vcore is going to
+
+---------04:42----------
+be set by the bios the bios talks to the
+
+---------04:44----------
+PCH
+
+---------04:45----------
+if the bios is okay if the bios is good
+
+---------04:47----------
+and that bios actually is working and
+
+---------04:50----------
+you know a little the way you could
+
+---------04:51----------
+guess you could test that as you can try
+
+---------04:54----------
+saving that dump and then reflashing a
+
+---------04:56----------
+new one obviously keeping in mind
+
+---------04:58----------
+Emme region issues with since this is a
+
+---------05:00----------
+core i5 i7 platform what you can do is
+
+---------05:02----------
+after that's done what do you think it
+
+---------05:04----------
+is the PCH is not communicating properly
+
+---------05:07----------
+to the CPU it's not telling the CPU to
+
+---------05:09----------
+turn on it's not telling the CPU hey
+
+---------05:11----------
+ tell you 7400 what the according
+
+---------05:13----------
+you need is that we could turn the
+
+---------05:14----------
+on the peace th is not doing its job so
+
+---------05:18----------
+I thought here maybe bios issue maybe
+
+---------05:20----------
+SMC issue or maybe PCH issue now the
+
+---------05:24----------
+issue here is that the SMC is the area
+
+---------05:26----------
+that had the original corrosion but you
+
+---------05:28----------
+have to think about here is that the SMC
+
+---------05:29----------
+on these 31:15 boards is right on the
+
+---------05:32----------
+other side of it is the PCH so if you're
+
+---------05:34----------
+thinking SMC issue then you could also
+
+---------05:35----------
+have an issue with the PCH now what I
+
+---------05:38----------
+wound up doing here since I saw that
+
+---------05:40----------
+there may have been corrosion that got
+
+---------05:41----------
+onto the PCH is eyes are mounted so I
+
+---------05:43----------
+put a bunch of Amtech 5:59 all around
+
+---------05:46----------
+that chip I remove the edge bonding of
+
+---------05:47----------
+the chip and then i zoom out it and
+
+---------05:50----------
+after zomling it on the ZM - r 6200 see
+
+---------05:53----------
+it turned on which is great
+
+---------05:55----------
+didn't see a battery and had a bunch of
+
+---------05:57----------
+sensor issues so then we replace SMC and
+
+---------06:00----------
+you know I always tell you I want to
+
+---------06:03----------
+show you that what we do here actually
+
+---------06:04----------
+works I have to show you because you
+
+---------06:06----------
+know you probably can't hear me
+
+---------06:07----------
+when I tell you that it actually works
+
+---------06:09----------
+at this piece of microphone
+
+---------06:10----------
+that I haven't and this sucks I don't
+
+---------06:13----------
+want to wait for DPA to fix this guys
+
+---------06:15----------
+the thing it's it's the Thanksgiving
+
+---------06:16----------
+season right now so I know if I send it
+
+---------06:18----------
+they're not going to get it back to me
+
+---------06:20----------
+for a while rightfully so they probably
+
+---------06:22----------
+have lives and families and stuff to do
+
+---------06:24----------
+for the holidays better than fix my
+
+---------06:26----------
+ microphone but see past beautiful
+
+---------06:29----------
+and that's pretty cool so you know one
+
+---------06:33----------
+of the things to really think about here
+
+---------06:34----------
+because a lot of people go on and on
+
+---------06:35----------
+about how do I test the components I
+
+---------06:37----------
+want to know how to test the individual
+
+---------06:39----------
+components I'm
+
+---------06:40----------
+know how to tell if this little thingy
+
+---------06:42----------
+is bad versus that little thingy oh you
+
+---------06:44----------
+think you have to realize is that it's
+
+---------06:46----------
+not about testing individual components
+
+---------06:48----------
+testing individual components can wind
+
+---------06:50----------
+up being the biggest waste of
+
+---------06:52----------
+time because a lot of it because that's
+
+---------06:54----------
+not what's important what's important is
+
+---------06:56----------
+understanding sequence what's important
+
+---------06:58----------
+is understanding how the circuit
+
+---------07:00----------
+actually works so that you can come up
+
+---------07:01----------
+with a solution
+
+---------07:02----------
+what's important is actually going
+
+---------07:03----------
+through these little things to really
+
+---------07:05----------
+try to figure out sequence what is
+
+---------07:07----------
+talking to what what tells this what to
+
+---------07:09----------
+do because so often it's it's it's a
+
+---------07:11----------
+little it's a little trace or it's not
+
+---------07:13----------
+it's just it's gonna be a little piece
+
+---------07:15----------
+of corrosion somewhere that you can't
+
+---------07:16----------
+even see that that's gonna be causing
+
+---------07:18----------
+your problem and it's not just gonna be
+
+---------07:20----------
+like you measure every single resistor
+
+---------07:21----------
+on the board and you fix it that's not
+
+---------07:23----------
+how this works but yeah that's that and
+
+---------07:26----------
+I again I hope you learned something
+

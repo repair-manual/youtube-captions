@@ -1,0 +1,526 @@
+https://www.youtube.com/watch?v=tOmEpi2V6Uc
+---------00:00----------
+all right we're gonna get started a nice
+
+---------00:01----------
+Friday night MacBook Board repair here
+
+---------00:04----------
+we got an eight two zero zero zero one
+
+---------00:06----------
+six floor board that appears to have the
+
+---------00:09----------
+problem of no power
+
+---------00:11----------
+let's first confirm the issue that they
+
+---------00:13----------
+claim which is that it doesn't power on
+
+---------00:15----------
+looks like on this MacBook the battery
+
+---------00:17----------
+has been lifted a little bit the DCN
+
+---------00:19----------
+board is unplugged all things that I'm
+
+---------00:22----------
+not exactly happy and excited to see on
+
+---------00:23----------
+a MacBook before it comes here what did
+
+---------00:26----------
+they do to you little MacBook who hurt
+
+---------00:29----------
+you
+
+---------00:29----------
+alright so it doesn't turn on and it
+
+---------00:31----------
+takes 16 milli amps of my power supply
+
+---------00:34----------
+reflow SMC then give it to Paul right
+
+---------00:37----------
+that's not what we're doing yeah that
+
+---------00:39----------
+sounds like a terrible idea we don't do
+
+---------00:41----------
+that on this channel I don't know what
+
+---------00:42----------
+you're talking about
+
+---------00:43----------
+that must be something new because that
+
+---------00:45----------
+just happened yesterday yeah that
+
+---------00:48----------
+doesn't happen here you must be watching
+
+---------00:49----------
+a different Channel all right let's see
+
+---------00:52----------
+what we have on this MacBook
+
+---------01:15----------
+no way there's no way I got this on the
+
+---------01:20----------
+void that's no way Steve put this in my
+
+---------01:24----------
+status no way what are the issues that
+
+---------01:32----------
+you have with how Steve sets the queue
+
+---------01:35----------
+well I got like six dead smc so far in
+
+---------01:39----------
+the last four days and I got this
+
+---------01:44----------
+capacity Paul what is Stephan putting in
+
+---------01:46----------
+your queue recently I had the same
+
+---------01:48----------
+capacitor on a on the same 11 inch air
+
+---------01:53----------
+earlier today so the queue is here's to
+
+---------01:56----------
+be working as intended new guy gets dead
+
+---------02:02----------
+SMC back to this air board so let's see
+
+---------02:05----------
+what this capacitors for you'll see that
+
+---------02:07----------
+this is C 74 30 this is a cap that sits
+
+---------02:11----------
+between PP bus s 5hs computing I sense
+
+---------02:15----------
+and ground this is used to smooth out
+
+---------02:19----------
+the that 8 point 5 volt rail before this
+
+---------02:23----------
+transistor in this buck converter
+
+---------02:25----------
+circuit here to makes PP 1 V 2 s 3 P P 1
+
+---------02:28----------
+V 2 s 3 is going to be a 1.2 volt power
+
+---------02:31----------
+line and that's going to be created by
+
+---------02:32----------
+this transistor and this chip switching
+
+---------02:35----------
+so here we have 8 volts right this is 8
+
+---------02:38----------
+volts now I transistor can turn on off
+
+---------02:40----------
+on off on off this chip over here is
+
+---------02:43----------
+going to control this transistor so
+
+---------02:46----------
+you're gonna get some 8 some zero some
+
+---------02:48----------
+of the 8 from up here and then it's
+
+---------02:50----------
+gonna close and you're gonna get 0 some
+
+---------02:51----------
+eight zero eight zero eight zero and
+
+---------02:53----------
+through this coil it's going to get
+
+---------02:56----------
+averaged out so instead of having a
+
+---------02:57----------
+bunch of eight and now a bunch of a
+
+---------02:59----------
+little bit of eight a bunch of zero a
+
+---------03:00----------
+little bit of eight a bunch of zero a
+
+---------03:01----------
+little bit of eight a bunch of zero
+
+---------03:02----------
+instead of having this waveform you're
+
+---------03:04----------
+just going to have it averaged out to
+
+---------03:06----------
+one point three volts and these
+
+---------03:09----------
+capacitors are going to provide the
+
+---------03:11----------
+smoothing down here now PP bus s 5hs
+
+---------03:15----------
+computing I sense is actually pp bus g3
+
+---------03:19----------
+hot now you may wonder why are there two
+
+---------03:21----------
+different names for this rail if it's
+
+---------03:23----------
+the same rail and that is a great
+
+---------03:25----------
+question that is going to confuse a lot
+
+---------03:27----------
+of people so let's take a look
+
+---------03:29----------
+over at our 5450 so what I just talked
+
+---------03:33----------
+about requires that you kind of
+
+---------03:34----------
+understand how a buck converter works I
+
+---------03:36----------
+would take a look at my basic
+
+---------03:38----------
+electronics video series and I'm a buck
+
+---------03:39----------
+converter works if you don't understand
+
+---------03:40----------
+that to understand why there's a
+
+---------03:42----------
+different name for P P bunch d3 hot when
+
+---------03:44----------
+it's on that side of the board you
+
+---------03:45----------
+should check out my current sensing
+
+---------03:47----------
+video from about three or four years ago
+
+---------03:49----------
+where I talked about how a current
+
+---------03:50----------
+sensing circuit works so P P bus g3 hot
+
+---------03:53----------
+over he's over here and it's going to go
+
+---------03:55----------
+through our 5450 before it becomes pp
+
+---------03:58----------
+bus s five high side I'm guessing high
+
+---------04:00----------
+side computing I sense before it becomes
+
+---------04:03----------
+this now on each side of this resistor
+
+---------04:07----------
+which is zero point zero zero two ohms
+
+---------04:09----------
+it's virtually no resistance at all on
+
+---------04:11----------
+each side of the resistor you have this
+
+---------04:12----------
+chip - that's right
+
+---------04:14----------
+you 5450 measuring the amount of current
+
+---------04:17----------
+me measuring the voltage at each side of
+
+---------04:18----------
+the resistor so it's gonna see how much
+
+---------04:20----------
+how much volts are here how many volts
+
+---------04:22----------
+are here how many volts not how much
+
+---------04:24----------
+volts that's that's dumb
+
+---------04:25----------
+if so you're gonna see how many volts
+
+---------04:27----------
+are on this side and how many volts are
+
+---------04:29----------
+on this side the greater the voltage
+
+---------04:30----------
+difference between these two sides the
+
+---------04:33----------
+more current is being used so that is a
+
+---------04:35----------
+way for the system to tell how much
+
+---------04:36----------
+current a specific part of the system is
+
+---------04:38----------
+using so for all intents and purposes I
+
+---------04:40----------
+like to consider that this capacitor
+
+---------04:42----------
+that we're looking at over here is on P
+
+---------04:45----------
+P bus g3 hot just to keep things simple
+
+---------04:47----------
+for me and that's that's just the way I
+
+---------04:50----------
+look at it in my head so all these
+
+---------04:52----------
+things that say pp bus underscore
+
+---------04:54----------
+something are typically on P P bus g3
+
+---------04:56----------
+hot so that cap is shorted to ground now
+
+---------04:58----------
+if we were to plug in my multimeter and
+
+---------05:03----------
+let's just pray that the Paul Daniel
+
+---------05:06----------
+software works today and see if I can
+
+---------05:08----------
+get that on the screen let's see what
+
+---------05:10----------
+voltage PP bus g3 hot winds up being we
+
+---------05:13----------
+get nothing
+
+---------05:21----------
+now I'm also going to check at the pp
+
+---------05:23----------
+bus g3 hot fuse where that rail is
+
+---------05:25----------
+directly created you get zero volts on
+
+---------05:28----------
+one side and 8.6 on the other so check
+
+---------05:31----------
+that out see zero volts on this side 8.6
+
+---------05:35----------
+on the other so if we look at the area
+
+---------05:37----------
+where PP bus g3 hot is actually created
+
+---------05:39----------
+at F 7 T 140 which is not far away this
+
+---------05:42----------
+is a fuse and this fuse is going to sit
+
+---------05:45----------
+between the circuit that creates PP but
+
+---------05:49----------
+g3 hot this is yet another buck
+
+---------05:51----------
+converter this is taking the 18 volts
+
+---------05:53----------
+from the charger and turning it into 8.6
+
+---------05:55----------
+volts for the system this is the fuse at
+
+---------05:57----------
+the end we get 8 volts on the left side
+
+---------06:00----------
+before the system and 0 on the right
+
+---------06:02----------
+side now if I were to check for a short
+
+---------06:05----------
+circuit to ground I bet we'd see one
+
+---------06:07----------
+time-warner is making your stream buffer
+
+---------06:09----------
+sure let me just call up Time Warner
+
+---------06:12----------
+tech support and have them fix that for
+
+---------06:14----------
+me while I'm doing the stream because
+
+---------06:15----------
+I'm confident that they're just gonna
+
+---------06:16----------
+fix my latency and make everything all
+
+---------06:19----------
+better again so we're gonna remove that
+
+---------06:23----------
+capacitor
+
+---------06:39----------
+you
+
+---------06:56----------
+alright that capacitor is off now we're
+
+---------06:59----------
+ready to wick the pads and install a
+
+---------07:01----------
+better one
+
+---------07:33----------
+load a new capacitor on there
+
+---------08:04----------
+in all its glory I already went on a
+
+---------08:11----------
+touch bar
+
+---------08:19----------
+you
+
+---------08:25----------
+I forgot which of the fuses on the desk
+
+---------08:27----------
+is the good one uh-oh my fuse fell on
+
+---------08:34----------
+the fan good luck
+
+---------08:38----------
+that's what I get for giving them a fuse
+
+---------08:43----------
+fuse now let's put that fuse on there
+
+---------08:50----------
+both Macbook generation can I recommend
+
+---------08:53----------
+my friends refuses to get anything else
+
+---------08:54----------
+is her facebook machine does your friend
+
+---------08:57----------
+really need to spend $1,200 to use
+
+---------08:58----------
+Facebook I have nothing to say to that
+
+---------09:02----------
+if you use a Mac because there a
+
+---------09:05----------
+specific audio software if you like
+
+---------09:08----------
+logic if there are certain plugins that
+
+---------09:10----------
+only work on Apple I can respect that if
+
+---------09:13----------
+you're saying I need to buy a MacBook
+
+---------09:15----------
+peak for my professional facebooking
+
+---------09:17----------
+just I have nothing to say to that I bet
+
+---------09:24----------
+we get fan spin fan spin
+

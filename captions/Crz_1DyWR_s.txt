@@ -1,0 +1,388 @@
+https://www.youtube.com/watch?v=Crz_1DyWR_s
+---------00:00----------
+next up we're gonna be going over a
+
+---------00:01----------
+MacBook Air that has no backlight on the
+
+---------00:04----------
+screen I'll turn it on so that you can
+
+---------00:05----------
+see what the backlight on the screen
+
+---------00:07----------
+looks like when it's missing as you can
+
+---------00:08----------
+see we have nothing on the screen even
+
+---------00:10----------
+though the fan itself is spinning the
+
+---------00:12----------
+first thing that I should point out here
+
+---------00:14----------
+if you're going to open the Machine and
+
+---------00:15----------
+try and take the board out or clean
+
+---------00:17----------
+anything or mess with it take a look and
+
+---------00:19----------
+how this Wi-Fi wire is routed see other
+
+---------00:21----------
+Wi-Fi wire is routed through this little
+
+---------00:24----------
+channel you want to keep that routing
+
+---------00:25----------
+going you don't want to put it around
+
+---------00:27----------
+the screw hole over here that's no good
+
+---------00:29----------
+take this wire and put it where it
+
+---------00:31----------
+belongs
+
+---------00:32----------
+you never want to be touching the wrong
+
+---------00:33----------
+spot as many dissatisfied women have
+
+---------00:35----------
+told me over the course of my life you
+
+---------00:37----------
+don't want to be touching the wrong spot
+
+---------00:38----------
+there we go let me just show you what
+
+---------00:40----------
+it's supposed to look like now just as a
+
+---------00:42----------
+tip in case you're ever taking this
+
+---------00:43----------
+apart goes like that and stretches
+
+---------00:46----------
+around the long wire for the Wi-Fi is
+
+---------00:49----------
+gonna go through the first slit and the
+
+---------00:51----------
+short Wi-Fi wire is gonna go through the
+
+---------00:53----------
+second slit so take a look here and
+
+---------00:54----------
+you'll see that the first noticeable
+
+---------00:56----------
+problem and the reason that this likely
+
+---------00:58----------
+doesn't work is our feedback trace is
+
+---------01:00----------
+blown between here and here this is back
+
+---------01:02----------
+light output this is where the backlight
+
+---------01:04----------
+diode is this is where it goes to the
+
+---------01:05----------
+capacitors that are gonna store the
+
+---------01:07----------
+backlight voltage and this is where it's
+
+---------01:09----------
+going to go back to the LED driver so
+
+---------01:11----------
+that the LED driver can see what it is
+
+---------01:13----------
+that it's creating the LED driver is
+
+---------01:15----------
+going to be doing all of its switching
+
+---------01:16----------
+on this side the switching is going to
+
+---------01:18----------
+make the inductor which is this piece
+
+---------01:19----------
+over here mad when the inductor gets mad
+
+---------01:22----------
+it's going to create more voltage and
+
+---------01:24----------
+that's going to allow our backlight
+
+---------01:26----------
+circuit to work which is the most
+
+---------01:27----------
+technical and advanced definition I can
+
+---------01:29----------
+give you at this time it doesn't know
+
+---------01:30----------
+what's going on on this side unless it
+
+---------01:32----------
+has a path back to the chip and this is
+
+---------01:33----------
+its path back to the chip if it doesn't
+
+---------01:35----------
+see what voltage it's creating a
+
+---------01:37----------
+backlight output it's not gonna do
+
+---------01:38----------
+anything and that's gonna be big problem
+
+---------01:40----------
+which is why we need to reconnect that
+
+---------01:42----------
+now this is actually gonna have a
+
+---------01:43----------
+backlight if I reconnect it so this is
+
+---------01:45----------
+the LED driver chip might as well show
+
+---------01:46----------
+you that the LED driver chip looks
+
+---------01:48----------
+pretty good the bottom side of the board
+
+---------01:49----------
+itself actually looks pretty good I
+
+---------01:50----------
+don't think we're gonna have any
+
+---------01:51----------
+problems there is it pube coming off of
+
+---------01:53----------
+our feedback ball on the right it's got
+
+---------01:56----------
+a pube coming out of it but that pube is
+
+---------01:57----------
+probably what's infusing it with power
+
+---------01:59----------
+we need that pube we're not gonna touch
+
+---------02:01----------
+that pube
+
+---------02:05----------
+I want to put some nice leaded solder on
+
+---------02:08----------
+this board and then we're gonna move all
+
+---------02:09----------
+the lead-free junk but some wick the
+
+---------02:11----------
+flux is gonna make it easier to get on
+
+---------02:13----------
+there and might as well touch up the
+
+---------02:15----------
+joints and those resistors those
+
+---------02:17----------
+resistors are gonna be fine they don't
+
+---------02:18----------
+carry a lot of current that's a little
+
+---------02:19----------
+bit corroded that's all come on cap get
+
+---------02:21----------
+out of here
+
+---------02:44----------
+[Music]
+
+---------02:48----------
+make this boy look great again okay
+
+---------02:55----------
+we're gonna solder to that little nub
+
+---------03:00----------
+see where we ran that little wire there
+
+---------03:03----------
+was a break if you go over to the
+
+---------03:04----------
+schematic and the board view software
+
+---------03:06----------
+you'll see that the break occurs over
+
+---------03:08----------
+here and this is going to go to feedback
+
+---------03:10----------
+feedback is going to go to this ball the
+
+---------03:13----------
+LED driver so most likely if something
+
+---------03:15----------
+happened that was harsh enough on this
+
+---------03:16----------
+board to actually rip a hole in it over
+
+---------03:18----------
+there then most likely the chip on the
+
+---------03:20----------
+other side is going to be bad as well
+
+---------03:21----------
+which is why we're going to repeal and
+
+---------03:23----------
+then replace it with a better one one
+
+---------03:26----------
+that's more suited a fitter happier back
+
+---------03:28----------
+light outputs yep that's my chip them's
+
+---------03:38----------
+my balls
+
+---------03:50----------
+oh yeah look at those solder balls yeah
+
+---------04:05----------
+let's see if we get a backlight so I get
+
+---------04:10----------
+eight volts at the fuse eight volts at
+
+---------04:14----------
+the other side of the fuse zero volts on
+
+---------04:16----------
+backlight output eight volts on one side
+
+---------04:19----------
+of the coil zero volts on the other side
+
+---------04:21----------
+of the coil oh there's no way that the
+
+---------04:25----------
+coil could be bad because iPad rehab
+
+---------04:27----------
+sells a shirt that says that it's never
+
+---------04:29----------
+the coil all right so this over here is
+
+---------04:32----------
+the backlight coil if we go over to l7
+
+---------04:35----------
+701 this is the coil in the backlight
+
+---------04:38----------
+circuit now we're gonna measure the
+
+---------04:40----------
+voltage that we get at one side of the
+
+---------04:42----------
+coil and you'll see on screen that we
+
+---------04:44----------
+get eight point five volts but on the
+
+---------04:46----------
+other side of the coil we get zero point
+
+---------04:49----------
+nineteen volts proving that when Jess is
+
+---------04:53----------
+stated that it's never the coil she only
+
+---------04:55----------
+did so because she didn't want any of
+
+---------04:57----------
+you to get easy repairs Jessa did that
+
+---------05:00----------
+so that she could get all of those easy
+
+---------05:02----------
+coil repairs and keep all the money for
+
+---------05:05----------
+herself let's move on and replace the
+
+---------05:08----------
+coil because I'm not sending this to
+
+---------05:10----------
+Jessa
+
+---------05:22----------
+we'll coil replacement fix this board
+
+---------05:25----------
+one way to find out
+
+---------05:27----------
+this doesn't light up it's gonna be
+
+---------05:28----------
+given to Paul backlight
+

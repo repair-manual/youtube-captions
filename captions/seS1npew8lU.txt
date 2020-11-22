@@ -1,0 +1,382 @@
+https://www.youtube.com/watch?v=seS1npew8lU
+---------00:00----------
+here we have a Macbook board this is an
+
+---------00:02----------
+8 - 0 - 31 15 - an a 1278 2012 through
+
+---------00:06----------
+2016 MacBook Pro we're going to take our
+
+---------00:09----------
+charger over here and plug it in to a
+
+---------00:11----------
+little MacBook and see if we get a green
+
+---------00:14----------
+light and the charger and as you can see
+
+---------00:16----------
+there is no green light in the charger
+
+---------00:18----------
+the first rail that we need in order to
+
+---------00:21----------
+have a charger green light is pp 3 V 4 -
+
+---------00:23----------
+and if any of you know the type of thing
+
+---------00:25----------
+by the way we are actually hiring we are
+
+---------00:28----------
+looking for new board or pair
+
+---------00:29----------
+technicians if you're interested in
+
+---------00:31----------
+applying for a job as a board repair
+
+---------00:34----------
+technician send an email - don't delay
+
+---------00:36----------
+work here today at Rosman group com
+
+---------00:39----------
+that's don't delay work here today at
+
+---------00:41----------
+Rosman group com
+
+---------00:43----------
+so as can be seen there is no green
+
+---------00:45----------
+light in the charger and to get a green
+
+---------00:47----------
+light in the charger the one wire
+
+---------00:48----------
+circuit needs to be working the one wire
+
+---------00:51----------
+circuit is the circuit that is going to
+
+---------00:53----------
+allow the charger to talk to the system
+
+---------00:55----------
+management controller so this is the
+
+---------00:57----------
+charger and where the green light is
+
+---------00:58----------
+located this is the system management
+
+---------01:00----------
+controller they need to talk to each
+
+---------01:02----------
+other in order for this green light to
+
+---------01:03----------
+turn on and for this charger start
+
+---------01:05----------
+working properly
+
+---------01:06----------
+this is the MagSafe power jack and it's
+
+---------01:09----------
+got three primary lines the first line
+
+---------01:11----------
+is 18 volts the second line is ground
+
+---------01:14----------
+the third line is adapter since adapter
+
+---------01:18----------
+sense is going to be responsible for
+
+---------01:19----------
+allowing the charger just and they or
+
+---------01:22----------
+the computer to sense that there's an
+
+---------01:23----------
+adapter there this one wire circuit so
+
+---------01:26----------
+adapter sense adapter sense is going to
+
+---------01:29----------
+talk to use 6900 you 6900 is what's
+
+---------01:33----------
+going to allow the charger external on
+
+---------01:35----------
+pin 5c pin 5 says X to communicate with
+
+---------01:38----------
+the SMC which is inside the computer see
+
+---------01:40----------
+how it says int and hint this is what
+
+---------01:42----------
+all this means going to the SMC this
+
+---------01:45----------
+chip is powered by PP 3 before - because
+
+---------01:48----------
+it comes from this chip so this chip is
+
+---------01:50----------
+powered by PP 3 before - which then
+
+---------01:51----------
+delivers the PP 3 before - - this trip
+
+---------01:53----------
+to power it on if SMC bc AC ok as
+
+---------01:55----------
+president but first we need PP 3 before
+
+---------01:57----------
+- so let's see if p b3 b4 - is present
+
+---------01:59----------
+on my board it seems like you could find
+
+---------02:01----------
+PP 3 before to present on this inductor
+
+---------02:04----------
+over here so we're gonna check on that
+
+---------02:06----------
+inductor we're going to check our PP 3
+
+---------02:08----------
+before - and it looks like we have 0
+
+---------02:10----------
+volts at PP 3 V 4 -
+
+---------02:13----------
+now we're gonna unplug the charger so
+
+---------02:15----------
+that we can check the resistance the
+
+---------02:16----------
+ground on that rail because that rail is
+
+---------02:18----------
+missing and it appears piers that we
+
+---------02:22----------
+have a 2.2 ohm short to ground on PP 3
+
+---------02:25----------
+before 2 if that line is short its
+
+---------02:27----------
+ground it's not going to work so we're
+
+---------02:29----------
+going to take a look around this board
+
+---------02:30----------
+and see if we can find out why that's
+
+---------02:33----------
+short it's a ground
+
+---------02:42----------
+aha
+
+---------02:45----------
+check that out
+
+---------02:53----------
+look at that wonder if that has anything
+
+---------02:55----------
+to do with it now this here is a little
+
+---------02:58----------
+sponge you may wonder if MacBooks are
+
+---------03:00----------
+not liquid resistant if MacBooks don't
+
+---------03:03----------
+like water then why would you find a
+
+---------03:05----------
+sponge inside of a Macbook well I'm not
+
+---------03:08----------
+quite sure let's see what happens if we
+
+---------03:11----------
+just knock off that thing where I buy
+
+---------03:12----------
+the sponge
+
+---------03:21----------
+as you can see you get a green light in
+
+---------03:23----------
+the charger and the fan is spinning now
+
+---------03:26----------
+why is it that Apple chooses to put a
+
+---------03:29----------
+sponge inside of a machine that is
+
+---------03:31----------
+really bad at resisting liquid damage
+
+---------03:34----------
+I'm not sure but one thing I am sure of
+
+---------03:37----------
+is that I would never own one of these
+
+---------03:39----------
+piles of crap this is actually a
+
+---------03:41----------
+ridiculously common problem on the a20
+
+---------03:43----------
+31:15 and eight to zero 29:36 boards
+
+---------03:46----------
+that have a little piece of foam a
+
+---------03:48----------
+sponge crap right by the place where
+
+---------03:51----------
+water gets in around PP 3 v 4 - that
+
+---------03:55----------
+will cause it to stop working and if
+
+---------03:56----------
+you're not good with soldering you could
+
+---------03:58----------
+just take your little exacto knife you
+
+---------03:59----------
+can take your tweezers you can take
+
+---------04:01----------
+probably your keys just knock that
+
+---------04:03----------
+little thing off and it'll likely work
+
+---------04:05----------
+well again we've gotten hundreds of
+
+---------04:07----------
+these with this very specific problem on
+
+---------04:08----------
+this very specific machine that was not
+
+---------04:10----------
+updated for four years that it was being
+
+---------04:14----------
+sold once not kidding 2016 500 gigabytes
+
+---------04:19----------
+spinning hard drive 5400 RPM dual-core
+
+---------04:22----------
+ivory Bridge processor 1280 by 800 1000
+
+---------04:26----------
+$49
+
+---------04:29----------
+anyway that's it for today and as always
+
+---------04:32----------
+I hope you learned something I'll be
+
+---------04:34----------
+coming back with some more videos soon I
+
+---------04:36----------
+just gotta I am ridiculously behind with
+
+---------04:39----------
+work recently so again my apologies that
+
+---------04:41----------
+I haven't been producing content and the
+
+---------04:42----------
+schedule that I usually do I got a deal
+
+---------04:44----------
+with the concussion I got a deal with
+
+---------04:46----------
+the legal case with with the batteries I
+
+---------04:47----------
+got a deal with the quadrupling in
+
+---------04:49----------
+business since the CBC news piece and it
+
+---------04:52----------
+there's just been a lot of work but I
+
+---------04:54----------
+really did use to enjoy responding to
+
+---------04:56----------
+all your comments I used to enjoy making
+
+---------04:58----------
+videos regularly used to enjoy engaging
+
+---------04:59----------
+with the audience so I really hope I
+
+---------05:01----------
+have time to do that again starting soon
+
+---------05:03----------
+in my apologies that I haven't been
+
+---------05:04----------
+keeping up and on top of it and as
+
+---------05:07----------
+always I hope you learned something
+

@@ -1,0 +1,868 @@
+https://www.youtube.com/watch?v=hD4rw27aYqs
+---------00:00----------
+next up is an 8 2 0 0 0 165 I believe
+
+---------00:05----------
+that doesn't turn on first thing you'll
+
+---------00:07----------
+notice is that there's a pin corroded on
+
+---------00:08----------
+the jtag connector it's almost broken
+
+---------00:10----------
+off look at that next up the DCN
+
+---------00:14----------
+transistor looks like it has a big notch
+
+---------00:17----------
+of oily looking stuff on it I don't know
+
+---------00:19----------
+what the hell that is this is where the
+
+---------00:21----------
+power from the charge is gonna come in
+
+---------00:23----------
+the board and you that's some wet oily
+
+---------00:25----------
+crap on the other side of the board it
+
+---------00:27----------
+looks kind of wet I don't know if that's
+
+---------00:28----------
+cleaning fluid water I can see that
+
+---------00:33----------
+somebody attempted to clean this before
+
+---------00:35----------
+and I can see that this oh yeah this is
+
+---------00:39----------
+a promenade a crowed so it looks like
+
+---------00:40----------
+maybe some solder was applied that this
+
+---------00:42----------
+was corroded at one point I can tell
+
+---------00:44----------
+that somebody has cleaned this before
+
+---------00:46----------
+simply because this area was previously
+
+---------00:48----------
+corroded see how this is not really the
+
+---------00:50----------
+proper silver like this is nice and
+
+---------00:52----------
+silver but this is not liquid spill on
+
+---------00:58----------
+computer through the fan port took the
+
+---------01:00----------
+local repair shop and they cleaned the
+
+---------01:01----------
+computer great thought charging port was
+
+---------01:03----------
+bad since it would not charge but was
+
+---------01:04----------
+able to run on battery was able to run
+
+---------01:07----------
+until battery died they changed the
+
+---------01:08----------
+charging port and battery but did not
+
+---------01:10----------
+help they believe the logic board needs
+
+---------01:11----------
+replaced when computer was running it
+
+---------01:13----------
+would start off quiet in about 10
+
+---------01:14----------
+seconds and the fan will go to high
+
+---------01:15----------
+speed until computer we shut back down
+
+---------01:17----------
+great so somebody else already messed
+
+---------01:19----------
+with it boo all of our hints are gonna
+
+---------01:22----------
+be gone that sucks
+
+---------01:24----------
+so first thing we're gonna do is plug it
+
+---------01:26----------
+in when I plug it in its drawing zero
+
+---------01:29----------
+amps on my power supply since its
+
+---------01:32----------
+drawing zero amps that tells me that
+
+---------01:35----------
+there's nothing going on okay so we're
+
+---------01:38----------
+gonna open up a zero zero 165 schematic
+
+---------01:40----------
+and board view and Paul Daniels is
+
+---------01:41----------
+amazing software let's see what I get on
+
+---------01:44----------
+some of the main power rails and I'm
+
+---------01:45----------
+getting a light on the charger which
+
+---------01:46----------
+means that PP 3 B 4 2 is there you need
+
+---------01:48----------
+PP 3 V 4 2 to be present in order to get
+
+---------01:50----------
+a light in the charger because this is
+
+---------01:52----------
+the rail that is responsible for the SMC
+
+---------01:54----------
+chip turning on if you take a look over
+
+---------01:56----------
+here you'll notice that you 5,000 which
+
+---------01:58----------
+is my system management controller this
+
+---------01:59----------
+is powered by PP 3 V 4 to underscore g3
+
+---------02:03----------
+hot and this is the chip that's going to
+
+---------02:05----------
+talk to the charger as we can see if I
+
+---------02:07----------
+look for is something called sis 1 wire
+
+---------02:09----------
+this one wire is on the DCN board this
+
+---------02:12----------
+is where the
+
+---------02:13----------
+speaks to the system management
+
+---------02:15----------
+controller and yes I'm seen used to work
+
+---------02:17----------
+for that to work so P P 3 B 4 2 is
+
+---------02:19----------
+present I know that because I'm getting
+
+---------02:20----------
+a green light might Roger next rail that
+
+---------02:22----------
+we want to look for is pepper bus G 3 ha
+
+---------02:25----------
+we're gonna find that on f71 40s let's
+
+---------02:27----------
+take a look and see what we're getting
+
+---------02:28----------
+on our peppy bus if I look over here
+
+---------02:30----------
+pepper bus G 3 hot is 1.5 volts at 1.5
+
+---------02:35----------
+volts is no good that's not that's not
+
+---------02:37----------
+that's not we're looking for we're
+
+---------02:38----------
+looking for something closer to 8 point
+
+---------02:40----------
+5 volts yeah that's that's no good where
+
+---------02:42----------
+is pp bus g 3 hot here we go pp bus G 3
+
+---------02:45----------
+hot it says 0.6 volts so you need 8.6
+
+---------02:49----------
+volts we're not getting 8.6 the first
+
+---------02:51----------
+thing we're gonna do is we're gonna see
+
+---------02:52----------
+if there's a short to ground on that
+
+---------02:53----------
+line let's see if that's the case 7.9
+
+---------02:56----------
+million ohms so we don't have the issue
+
+---------02:58----------
+of a short to ground there's no short to
+
+---------03:00----------
+ground on the line 7.4 million ohms so
+
+---------03:03----------
+we're gonna do next is check out what's
+
+---------03:04----------
+actually creating that line and what
+
+---------03:06----------
+creates the line pp bus G 3 hot is you
+
+---------03:09----------
+70 100 so you 70 100 is gonna be found
+
+---------03:11----------
+down here this is you 70 100 and let's
+
+---------03:14----------
+take a look around that area let's see
+
+---------03:15----------
+if we're getting all the things that
+
+---------03:16----------
+we're supposed to be getting over there
+
+---------03:17----------
+so first things first we're supposed to
+
+---------03:19----------
+be getting charged or DC in on pin 2 and
+
+---------03:22----------
+we our next thing let's check current
+
+---------03:25----------
+sensing
+
+---------03:34----------
+here we go I believe we have found the
+
+---------03:38----------
+cause of our problem there is something
+
+---------03:40----------
+called a current sensing circuit the way
+
+---------03:42----------
+a current sensing circuit works this
+
+---------03:43----------
+chip over here you 7100 which controls
+
+---------03:46----------
+my charger controls the power coming
+
+---------03:47----------
+from the daftar it wants to know how
+
+---------03:49----------
+much current is flowing through the
+
+---------03:51----------
+system it's a similar to wanting to know
+
+---------03:52----------
+how fast water is moving down the stream
+
+---------03:55----------
+you can't tell from looking at a stream
+
+---------03:56----------
+how fast the water is going but you can
+
+---------03:58----------
+tell if you put your hand in you can
+
+---------04:00----------
+feel how hard the waters moving let's
+
+---------04:02----------
+say that my friend wants to know how
+
+---------04:03----------
+fast the water is going to the stream
+
+---------04:04----------
+but my friend is really far away from
+
+---------04:06----------
+the stream I'm gonna put my hand in the
+
+---------04:07----------
+stream I'm gonna feel how fast the water
+
+---------04:09----------
+is moving and then I can yell to my
+
+---------04:10----------
+friend and tell him how fast the water
+
+---------04:11----------
+is moving through the stream the same
+
+---------04:13----------
+thing is happening over here in this
+
+---------04:14----------
+circuit if you take a look this is going
+
+---------04:16----------
+to be the hand in the stream over here
+
+---------04:18----------
+are 70 120 hmm why does it not follow my
+
+---------04:22----------
+cursor properly bastard follow my cursor
+
+---------04:27----------
+are 70 120 is like the hand in the
+
+---------04:29----------
+stream over here so you have from
+
+---------04:32----------
+adapter the voltage is gonna go from the
+
+---------04:34----------
+adapter and it's gonna go down here
+
+---------04:35----------
+before it goes to the system after it
+
+---------04:38----------
+goes through this resistor it's going to
+
+---------04:39----------
+go down here and become PP buzz g3 hot
+
+---------04:41----------
+which power is the battery along with
+
+---------04:43----------
+everything else in the computer now this
+
+---------04:44----------
+resistor is like the hand in the stream
+
+---------04:46----------
+and there's gonna be a voltage drop when
+
+---------04:49----------
+you move across this resistor that teeny
+
+---------04:50----------
+tiny voltage drop across the resistor is
+
+---------04:52----------
+going to be directly correlated to the
+
+---------04:55----------
+amount of current being used by the
+
+---------04:57----------
+circuit the more current being used by
+
+---------04:59----------
+the circuit the greater the voltage drop
+
+---------05:00----------
+the less the current being used by the
+
+---------05:02----------
+circuit the lower the voltage drop now
+
+---------05:03----------
+the ISL 6259 is kind of like my friend
+
+---------05:06----------
+whereas our 7120 is my hand in the
+
+---------05:08----------
+stream so the r 7120 is gonna yell over
+
+---------05:11----------
+to the unit 7100 hey there's this much
+
+---------05:13----------
+voltage drop in the circuit which is
+
+---------05:14----------
+gonna mean hey the circuits using three
+
+---------05:16----------
+amps you 7100 is gonna have a connection
+
+---------05:19----------
+to the top of the resistor and over here
+
+---------05:22----------
+to the bottom of the resistor that's
+
+---------05:24----------
+charger si si P and charger si si and so
+
+---------05:27----------
+what it's going to do is it's going to
+
+---------05:29----------
+figure out the difference between
+
+---------05:30----------
+charger si si P in charge of si si n the
+
+---------05:33----------
+larger that value is the more amperage
+
+---------05:35----------
+the circuits using the lower that value
+
+---------05:36----------
+is the less amperage the circuits using
+
+---------05:38----------
+now how would we measure to make sure
+
+---------05:40----------
+that this is working so we have charger
+
+---------05:42----------
+si si P which has a 10 ohm resistor in
+
+---------05:44----------
+between the chip and the current sense
+
+---------05:46----------
+resistor and charges si si n which
+
+---------05:48----------
+10 ohm resistance between it and the
+
+---------05:49----------
+current sense resistor now if I want to
+
+---------05:51----------
+see if the circuits working I could
+
+---------05:52----------
+either measure between the chip and this
+
+---------05:53----------
+resistor between this resistor and that
+
+---------05:55----------
+resistor between this resistor and that
+
+---------05:56----------
+resistor this resistor and then back but
+
+---------05:58----------
+that's a lot of work what I would rather
+
+---------05:59----------
+do is simply add up all the resistances
+
+---------06:01----------
+on screen which is 10 plus 10 plus 0.02
+
+---------06:05----------
+and then add that together that comes
+
+---------06:07----------
+out to 20 point zero 2 so if I measure
+
+---------06:09----------
+between pinch 27 and pin 28 on is l6 to
+
+---------06:13----------
+59 the total resistance that I get
+
+---------06:15----------
+should be equal to the sum which means
+
+---------06:17----------
+that the total resistance should be zero
+
+---------06:19----------
+a twenty point zero two now if I go over
+
+---------06:21----------
+here to the chip itself and I measure
+
+---------06:23----------
+between pins 27 and 28 let's see what I
+
+---------06:26----------
+get I get twenty seven point six million
+
+---------06:35----------
+ohms and the M is flashing Paul why is
+
+---------06:38----------
+the M flashing Paul I'm sure Paul will
+
+---------06:41----------
+fix that later somewhere in the line
+
+---------06:43----------
+this is broken so let's measure each one
+
+---------06:44----------
+of these resistors and see if it's
+
+---------06:46----------
+either one of these 10 ohm resistors so
+
+---------06:47----------
+that resistor is 10 ohms that's not the
+
+---------06:49----------
+connection that's broken this resistor
+
+---------06:52----------
+is 10 ohms that's not the connection
+
+---------06:53----------
+that's broken the connection between the
+
+---------06:55----------
+resistor and the chip is not broken the
+
+---------06:59----------
+connection between this resistor and
+
+---------07:00----------
+this chip is also not broken now if we
+
+---------07:02----------
+follow along the line it should be very
+
+---------07:05----------
+obvious why this is broken so let's zoom
+
+---------07:08----------
+in and follow along this resistor this
+
+---------07:11----------
+resistor up here is our 7121
+
+---------07:14----------
+R 7121 is going to attach to our 7120
+
+---------07:18----------
+over here that is gonna follow through
+
+---------07:21----------
+over here and what what's this
+
+---------07:24----------
+it's broken it's broken so where this is
+
+---------07:28----------
+supposed to go there's nothing there see
+
+---------07:31----------
+from here to here there's nothing
+
+---------07:38----------
+nothing left see is there
+
+---------07:48----------
+is there a nub can't even find a nub it
+
+---------07:53----------
+got burned out and it's expected to that
+
+---------07:55----------
+got burned out because this is 16 volts
+
+---------07:57----------
+this is a high voltage line compared to
+
+---------07:59----------
+everything else in the machine so it's
+
+---------08:00----------
+not wonder that that [ __ ] little probe
+
+---------08:01----------
+point got burned so now what we're gonna
+
+---------08:03----------
+do is find out where that's supposed to
+
+---------08:05----------
+go we're just gonna run a wire so it
+
+---------08:07----------
+seems like it's going to the other side
+
+---------08:08----------
+of the board
+
+---------08:09----------
+right over here right to this so let's
+
+---------08:14----------
+run a wire jumper wire and start a fire
+
+---------08:21----------
+as there as I like to say I lost my
+
+---------08:24----------
+exacto knife which is why I'm using this
+
+---------08:34----------
+because soldering to the resistor is a
+
+---------08:36----------
+very tiny area whereas this is a big
+
+---------08:38----------
+area so it'll be easier for me to do
+
+---------08:56----------
+okay
+
+---------09:09----------
+all right and I get rid of this stupid
+
+---------09:11----------
+foamy crap in the beginning
+
+---------10:08----------
+there's also this chip which let's face
+
+---------10:09----------
+it this is gonna wind up dying a week
+
+---------10:11----------
+after I give it back to them I can't
+
+---------10:12----------
+leave this like that so that's got to go
+
+---------10:15----------
+you nineteen fifty is for something to
+
+---------10:18----------
+do with Alice's power good and p.m. PCH
+
+---------10:21----------
+power good this is a common one this is
+
+---------10:24----------
+why you don't clean the board and leave
+
+---------10:26----------
+stuff like that on there that's just
+
+---------10:29----------
+gonna wind up failing a week after the
+
+---------10:31----------
+customer give it gets it back the chip
+
+---------10:33----------
+looks like it's bleeding doesn't it look
+
+---------10:36----------
+at that it looks like there's blood
+
+---------10:37----------
+coming out there's blood coming out from
+
+---------10:40----------
+the chip blood coming out from its
+
+---------10:42----------
+wherever oh man his blood came out of
+
+---------10:49----------
+the chips wherever and it's everywhere
+
+---------10:52----------
+well I hate when blood comes out of the
+
+---------10:55----------
+chips wherever wherever blood really
+
+---------11:06----------
+doesn't want to leave time to put a new
+
+---------11:08----------
+you 19:50 on there I'm gonna turn this
+
+---------11:12----------
+thing on and it's gonna be amazing it's
+
+---------11:13----------
+gonna be great
+
+---------11:28----------
+be nice and flat on the board
+
+---------11:47----------
+our current sensing circuit had a
+
+---------11:49----------
+disconnection between our 7121 and our
+
+---------11:52----------
+7120 so the ISL 6259
+
+---------11:55----------
+would not be able to see the voltage at
+
+---------11:57----------
+the top of this resistor it would not be
+
+---------11:59----------
+able to tell how much current the
+
+---------12:00----------
+charger was using so as a result of that
+
+---------12:03----------
+the ISL which controls whether the
+
+---------12:05----------
+charger gets to see the computer decided
+
+---------12:07----------
+to turn off and not let the charger see
+
+---------12:09----------
+the computer as a result of not being
+
+---------12:10----------
+able to tell how much power was using
+
+---------12:12----------
+since it couldn't tell how much power
+
+---------12:13----------
+was being used
+
+---------12:14----------
+it decided to shut everything down
+
+---------12:15----------
+that's that is your MacBook disgusting
+
+---------12:22----------
+is your MacBook filled to the brim with
+
+---------12:24----------
+sweaty pubic hair if that's the case you
+
+---------12:28----------
+need an ultrasonic cleaner and store dot
+
+---------12:30----------
+Rossmann group.com is the place to get
+
+---------12:32----------
+it to you on store dot Rossmann group
+
+---------12:34----------
+comm you can find an ultrasonic cleaner
+
+---------12:36----------
+tailored to your specific need
+
+---------12:38----------
+whether you need something that's small
+
+---------12:40----------
+for a cellphone board like a p 230 or a
+
+---------12:42----------
+large ultrasonic cleaner like the P 1200
+
+---------12:44----------
+for a larger touch bar we've got you
+
+---------12:46----------
+covered
+
+---------12:47----------
+we've even got large special order types
+
+---------12:49----------
+of ultrasonic cleaners like the P 2600 H
+
+---------12:51----------
+45 that are great for car parts and
+
+---------12:53----------
+Firearms with over one thousand five
+
+---------12:55----------
+star reviews on shopper approved comm
+
+---------12:57----------
+you can't go wrong
+
+---------12:59----------
+don't delay buy today as always I hope
+
+---------13:02----------
+you learned something thanks for
+
+---------13:04----------
+watching I'll see you in the next video
+

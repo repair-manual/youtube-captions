@@ -1,0 +1,673 @@
+https://www.youtube.com/watch?v=298QWlHtNaQ
+---------00:00----------
+since this channel is dedicated to the
+
+---------00:01----------
+repair of Apple products and discussing
+
+---------00:03----------
+the hardware faults within them a common
+
+---------00:05----------
+question that I get is are there any
+
+---------00:07----------
+Apple products that are designed that
+
+---------00:09----------
+are durable something that's not going
+
+---------00:11----------
+to blow within one or two years so today
+
+---------00:13----------
+I'd like to go over the one thing within
+
+---------00:16----------
+the Apple ecosystem that never ever
+
+---------00:18----------
+blows and we're going to be doing this
+
+---------00:21----------
+within the context of a board repair
+
+---------00:22----------
+video now if you just want to skip ahead
+
+---------00:25----------
+and figure out what it is
+
+---------00:26----------
+I'll leave something in the description
+
+---------00:27----------
+a little hint but I think that you
+
+---------00:29----------
+should watch the video rather than just
+
+---------00:31----------
+skip ahead to the hints because it's
+
+---------00:33----------
+going to be an interesting one so the no
+
+---------00:49----------
+back lights likely going to be because
+
+---------00:51----------
+of disconnected feedback see this disc
+
+---------00:59----------
+this is supposed to connect to this and
+
+---------01:02----------
+it's not but I have to connect this to
+
+---------01:11----------
+that
+
+---------01:14----------
+and you could see where it broke off
+
+---------01:17----------
+actually I can make the connection right
+
+---------01:19----------
+here I don't even have to run some long
+
+---------01:22----------
+convoluted wire
+
+---------01:33----------
+all right so that might just do it check
+
+---------01:38----------
+that out
+
+---------01:40----------
+this needs to know how fast it needs to
+
+---------01:42----------
+switch the more it switches the coil to
+
+---------01:44----------
+ground the more the coil rages and the
+
+---------01:46----------
+more the coil rages the more power you
+
+---------01:48----------
+get so it has to see what it's creating
+
+---------01:50----------
+so this chip that does the switching has
+
+---------01:52----------
+a line called feedback and the feedback
+
+---------01:54----------
+is going to be between backlight output
+
+---------01:56----------
+which is at the diode
+
+---------01:57----------
+bacala to the lp 8550 and that's this
+
+---------02:00----------
+little probe point where it says XW 7720
+
+---------02:04----------
+so it shows backlight output P pH VSOs W
+
+---------02:09----------
+LCD Bickel it is attaching to this
+
+---------02:11----------
+little thingy and that thingy it's gonna
+
+---------02:14----------
+go to the other side of the board and go
+
+---------02:16----------
+onto my LED driver on ball v so what
+
+---------02:19----------
+you're seeing over here is the break
+
+---------02:21----------
+between backlight output which is uh
+
+---------02:24----------
+over here and the via to the other side
+
+---------02:29----------
+of the board which is over there so what
+
+---------02:30----------
+I did is I ran my my little jumper wire
+
+---------02:34----------
+of fire from here to there bada-bing
+
+---------02:40----------
+bada-boom and just to give you an idea
+
+---------02:43----------
+of the size of that wire let me show you
+
+---------02:46----------
+what the tip of my tweezer looks like
+
+---------02:47----------
+these are some Dumont 5e tweezers and I
+
+---------02:52----------
+don't even know if I can yeah so that's
+
+---------02:57----------
+what my tweezer end looks like and
+
+---------03:00----------
+that's the size the wire back light
+
+---------03:03----------
+voltage is zero fuse voltage is eight
+
+---------03:14----------
+voltage into coil point one all right so
+
+---------03:22----------
+what's not opening here let's see all
+
+---------03:27----------
+right so Q seven seven oh six as a
+
+---------03:29----------
+p-channel MOSFET that's going to open
+
+---------03:31----------
+when the voltage on pin three is lower
+
+---------03:33----------
+than the voltage on pin four
+
+---------03:40----------
+we can find that down here so I'm gonna
+
+---------03:42----------
+measure pin three as you know that's pin
+
+---------03:47----------
+1 pin 3 has 2.77 volts on it pin 4 as
+
+---------03:55----------
+point 1 2 volts the back light fuse has
+
+---------03:59----------
+eight
+
+---------04:07----------
+you
+
+---------04:12----------
+okay so it seems like we have a break in
+
+---------04:14----------
+the path between the backlight fuse over
+
+---------04:18----------
+here and the MOSFET over here so that's
+
+---------04:22----------
+the next thing that we're gonna have to
+
+---------04:23----------
+observe let's see what that looks like
+
+---------04:25----------
+on the board cue 7706 looks sad on the
+
+---------04:30----------
+board hey long time no see game boy
+
+---------04:32----------
+genius the defuse actually do something
+
+---------04:35----------
+no of course the fuse didn't blow Chris
+
+---------04:36----------
+long the fuse never blows it's an Apple
+
+---------04:38----------
+product what blows is the actual pathway
+
+---------04:41----------
+between the fuse and important
+
+---------04:42----------
+components because if the fuse was doing
+
+---------04:44----------
+its job this would not be an Apple
+
+---------04:46----------
+product and it isn't so
+
+---------04:55----------
+you
+
+---------04:59----------
+I'm probably gonna remove that fuse
+
+---------05:00----------
+anyway just cuz it looks like garbage
+
+---------05:02----------
+but the fuse itself is not the problem
+
+---------05:04----------
+I'm just removing it to make it easier
+
+---------05:06----------
+to work in this area sad
+
+---------05:22----------
+watch I'll I'll prove it to you that
+
+---------05:24----------
+fuse is fine I'm just removing it
+
+---------05:26----------
+because it's cosmetically aggravating so
+
+---------05:29----------
+resistance measurement that fuse is that
+
+---------05:35----------
+fuse is not resisting
+
+---------05:56----------
+the transistor was likely good to is
+
+---------05:58----------
+just the solder or something had
+
+---------06:02----------
+corroded away by it
+
+---------06:03----------
+either way the stuff looks like so
+
+---------06:06----------
+we're just gonna go in the trash
+
+---------06:07----------
+we ran the jumper wire for feedback once
+
+---------06:12----------
+we saw that the feedback part was
+
+---------06:13----------
+damaged
+
+---------06:14----------
+now after that was fixed we turned it on
+
+---------06:16----------
+but we still had 0.2 volts back light
+
+---------06:18----------
+output zero point 2 instead of aid or 20
+
+---------06:24----------
+or 30 means that there's likely a break
+
+---------06:26----------
+in the line zero volts would mean blown
+
+---------06:27----------
+fuse or the machines telling the
+
+---------06:29----------
+backlight not to turn on but point 2
+
+---------06:30----------
+volts is not a valid state so we checked
+
+---------06:33----------
+and over here we had 0.2 volts so we
+
+---------06:37----------
+check back here at the beginning of the
+
+---------06:38----------
+circuit and we had 8 point 5 volts so
+
+---------06:41----------
+then we checked over here and we had
+
+---------06:43----------
+point 2 volts and then I checked here
+
+---------06:44----------
+and I had point 2 volts and I checked
+
+---------06:47----------
+here and I had point 2 volts and over
+
+---------06:49----------
+here I had point 2 volts at that point I
+
+---------06:52----------
+know that the issue has to be somewhere
+
+---------06:53----------
+between here and here so I measure here
+
+---------06:55----------
+and I get eight point five measure here
+
+---------06:58----------
+I get point two issue breaking the line
+
+---------07:01----------
+over here and when you look at the board
+
+---------07:02----------
+right in that section between the fuse
+
+---------07:04----------
+and here
+
+---------07:06----------
+BAM easily visible that top left pad
+
+---------07:12----------
+right over here
+
+---------07:14----------
+is the one that is destroyed and it's
+
+---------07:18----------
+going to be difficult for us to scrape
+
+---------07:21----------
+that off because I have the micro pencil
+
+---------07:23----------
+huh on not the standard iron but we'll
+
+---------07:26----------
+get it so time to put a little bit of
+
+---------07:33----------
+flux
+
+---------07:38----------
+a little bit of solder get down tonight
+
+---------08:05----------
+and the fuse pad we're also gonna try to
+
+---------08:08----------
+get rid of any of the junk and garbage
+
+---------08:10----------
+that may be present in there
+
+---------08:28----------
+okay we're gonna replace our fuse and
+
+---------08:30----------
+then we're gonna replace that transistor
+
+---------08:32----------
+and this is gonna be an amazing
+
+---------08:33----------
+beautiful lovely board okay we're gonna
+
+---------08:36----------
+prepare the board for my transistor next
+
+---------08:38----------
+a tiny bit of flux Chris long says Apple
+
+---------08:45----------
+make some damn good fuses that's all I'm
+
+---------08:47----------
+saying yeah that's a quality fuse it's
+
+---------08:51----------
+one of the few things Apple makes that
+
+---------08:53----------
+doesn't blow one of the few things Apple
+
+---------08:55----------
+makes that doesn't blow our the fuses
+
+---------09:00----------
+Apple engineering again what why have
+
+---------09:02----------
+the fuse blow and you can just have the
+
+---------09:04----------
+pathway between the fuse and the circuit
+
+---------09:06----------
+fail the funny thing is in the retina
+
+---------09:07----------
+model they had current sensing put in
+
+---------09:09----------
+that year and on this machine
+
+---------09:12----------
+they actually have current sensing on
+
+---------09:17----------
+the board but and they chew end up not
+
+---------09:19----------
+using it in the air of this year because
+
+---------09:23----------
+if this or the other model the fuse
+
+---------09:25----------
+wouldn't blow but you also would have
+
+---------09:26----------
+the burn circuit traces because it would
+
+---------09:28----------
+shut off the pathway not let anything
+
+---------09:32----------
+through
+
+---------09:40----------
+yeah I guess
+
+---------09:42----------
+I guess like $1,100 for this machine
+
+---------09:45----------
+wasn't enough to implement that feature
+
+---------09:49----------
+and you got to save that for like for
+
+---------09:51----------
+$13.99 once you know I'm saying Chris
+
+---------09:54----------
+long is right Apple does make some damn
+
+---------09:56----------
+good fuses that's all he's saying he's
+
+---------10:00----------
+just complimenting them on the quality
+
+---------10:01----------
+of their fuses that's durable stuff
+
+---------10:06----------
+right there
+
+---------10:19----------
+Apple knows how to make a very durable
+
+---------10:21----------
+fuse okay I bet we're gonna have a light
+
+---------10:27----------
+now we're gonna get a light you should
+
+---------10:30----------
+be excited I'm excited
+
+---------10:39----------
+come on Louis needs a new bicycle to
+
+---------10:45----------
+replace stolen bicycle Louis doesn't
+
+---------10:49----------
+want to take the train anymore train
+
+---------10:52----------
+sucks
+
+---------10:56----------
+aha there's a light
+
+---------11:01----------
+look at that it's an apple it's an apple
+
+---------11:08----------
+all right we have an Apple logo so
+
+---------11:12----------
+that's that yes in case you are
+
+---------11:16----------
+wondering the one thing inside of Apple
+
+---------11:19----------
+products that never blows is the
+
+---------11:21----------
+backlight fuse what will blow is the
+
+---------11:25----------
+screen cable the LCD connector
+
+---------11:27----------
+everything in between it but the
+
+---------11:30----------
+backlight fuse that is the most durable
+
+---------11:33----------
+component in the Apple product when they
+
+---------11:35----------
+engineered this device they engineered
+
+---------11:37----------
+it with such strong and powerful fuse
+
+---------11:40----------
+that it never blew so that's the one
+
+---------11:43----------
+component inside your Apple products and
+
+---------11:45----------
+you can be guaranteed is never gonna
+
+---------11:46----------
+blow the protection circuitry thanks for
+
+---------11:50----------
+watching and as always I hope you
+
+---------11:52----------
+learned something this video is brought
+
+---------11:53----------
+to you by our sponsors at store dot
+
+---------11:55----------
+Rosman group comm thank you for
+
+---------11:57----------
+supporting our sponsors that help keep
+
+---------11:59----------
+us in business on store dot Rosman group
+
+---------12:01----------
+comm you can find chips-- supplies
+
+---------12:03----------
+ultrasonics flux soldering stations and
+
+---------12:06----------
+more with 4.9 stars and shopper approved
+
+---------12:09----------
+same-day shipping from new york city and
+
+---------12:11----------
+free continental shipping over $30 you
+
+---------12:13----------
+can't lose we even offer free support
+
+---------12:16----------
+unless you are pleased bro live-chat
+
+---------12:17----------
+inter adding new products every day we
+
+---------12:20----------
+even got rid of our old terrible
+
+---------12:21----------
+merchant services provided that used to
+
+---------12:23----------
+decline random transactions for no
+
+---------12:24----------
+reason if you buy today we'll throw in a
+
+---------12:26----------
+special offer that your order will
+
+---------12:28----------
+actually go through properly what are
+
+---------12:29----------
+you waiting for
+
+---------12:30----------
+go to store dot rossmann group com to
+
+---------12:32----------
+get yourself some authentic antique flux
+
+---------12:34----------
+don't delay buy today
+
