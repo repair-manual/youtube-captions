@@ -1,0 +1,706 @@
+https://www.youtube.com/watch?v=83nIYK00uoM
+---------00:00----------
+hey everybody how's it going it looks
+
+---------00:02----------
+like you're all here and ready to work
+
+---------00:03----------
+so today we're gonna be working on
+
+---------00:05----------
+another MacBook here we have in a 1278
+
+---------00:09----------
+board this is the 8 to 0
+
+---------00:11----------
+- 31 15 it has a top-of-the-line Ivy
+
+---------00:16----------
+Bridge processor it has a 1280 by 800
+
+---------00:19----------
+high resolution screen it has support
+
+---------00:22----------
+for up to 16 gigabytes of RAM it comes
+
+---------00:25----------
+fully featured with a 500 gigabyte 5400
+
+---------00:28----------
+rpm hard drive and in 2016 this piece of
+
+---------00:32----------
+garbage with a dual-core Ivy Bridge CPU
+
+---------00:34----------
+I five not even i7 still sold for $1,050
+
+---------00:39----------
+plus tax
+
+---------00:40----------
+Apple anyway so let's get started on
+
+---------00:44----------
+this beauty what's going on with this
+
+---------00:46----------
+lovely machine is that it does not
+
+---------00:48----------
+appear to be turning on like it's
+
+---------00:50----------
+supposed to so first thing we're gonna
+
+---------00:51----------
+do over here is plug in the DCN board
+
+---------00:55----------
+and this DC and board is a little
+
+---------00:57----------
+sticker on it that appears to indicate
+
+---------00:58----------
+that it is not the original DC and board
+
+---------01:02----------
+so maybe somebody was trying to solve
+
+---------01:04----------
+their problem and as you can see we have
+
+---------01:07----------
+no green light on the charger now the
+
+---------01:10----------
+first thing that we need to get a green
+
+---------01:12----------
+light on the charger is a power rail
+
+---------01:14----------
+called pp3 before - so let's find out
+
+---------01:17----------
+where that is so we should be able to
+
+---------01:18----------
+find that right here now what's our pp 3
+
+---------01:21----------
+d4 - what is our pp 3 V 4 - 3 point 5
+
+---------01:25----------
+volts very good it's exactly what's
+
+---------01:29----------
+expected now next thing we have to do is
+
+---------01:32----------
+see if the SMC is running
+
+---------01:39----------
+and we do that by checking peepee bus g3
+
+---------01:42----------
+hot peepee bus g3 hot is one of the
+
+---------01:45----------
+system's main power rails peepee bus g3
+
+---------01:47----------
+hot is created by the u 7000 ship
+
+---------01:50----------
+how would that tell me if the SMC is
+
+---------01:51----------
+running you ask well great question you
+
+---------01:55----------
+7000 has a data line with the system
+
+---------01:57----------
+management controller that can be seen
+
+---------01:59----------
+right here it's a bi-directional data
+
+---------02:01----------
+line and if that data line is not
+
+---------02:04----------
+working because the SMC is not running
+
+---------02:06----------
+instead of producing 12 point 56 volts
+
+---------02:08----------
+on PP bus g3 hot it will produce 12
+
+---------02:11----------
+point 23 volts on PP bus g3 hot and as
+
+---------02:15----------
+you can see we're getting something
+
+---------02:17----------
+close to 12 point 23 volts on PP bus g3
+
+---------02:19----------
+hot which means that our system
+
+---------02:21----------
+management controller is not running
+
+---------02:23----------
+let's figure out what turns on our
+
+---------02:24----------
+system management controller and see if
+
+---------02:26----------
+that's what's causing our issue let's
+
+---------02:27----------
+take a look at the SMC reset circuit the
+
+---------02:30----------
+SMC reset circuit is going to send out a
+
+---------02:32----------
+signal called
+
+---------02:32----------
+SMC underscore reset underscore l
+
+---------02:34----------
+underscore l stands for low meaning when
+
+---------02:37----------
+the voltage on the signal is low then
+
+---------02:39----------
+the prefix is going to be true so the s
+
+---------02:43----------
+the purpose of the signal is to reset
+
+---------02:45----------
+the SMC when it is low when it is zero
+
+---------02:48----------
+volts when the signal is high the SMC
+
+---------02:51----------
+will no longer be in reset mode think of
+
+---------02:53----------
+reset mode like what happens when you
+
+---------02:54----------
+reset your computer or when you hold the
+
+---------02:57----------
+reset button down if you have a standard
+
+---------02:59----------
+traditional desktop PC and you hold down
+
+---------03:01----------
+the reset button it's on but the PC is
+
+---------03:04----------
+never really starting and the same is
+
+---------03:05----------
+true of the SMC this chip is kind of
+
+---------03:07----------
+like a brownout detector it's going to
+
+---------03:09----------
+ensure that the SMC weights about a
+
+---------03:12----------
+quarter of a second before it turns on
+
+---------03:14----------
+so that the PP 3v4 to rail has a second
+
+---------03:17----------
+to stabilize now let's just check it out
+
+---------03:20----------
+SMC reset l and see where we can find
+
+---------03:23----------
+that SMC reset l is gonna be present on
+
+---------03:26----------
+this chip over here so let's see if that
+
+---------03:29----------
+is present when I measure and it's not
+
+---------03:33----------
+0.2 volts we have two possibilities here
+
+---------03:37----------
+behind three possible another one the
+
+---------03:40----------
+pull-up resistor here at our 5000 is
+
+---------03:44----------
+corroded and as a result this signal is
+
+---------03:47----------
+not being created behind door number two
+
+---------03:49----------
+the SMC reset IC is bad and
+
+---------03:52----------
+permanently holding the signal down
+
+---------03:54----------
+behind door number Paul the SMC is dead
+
+---------03:58----------
+it needs to be replaced with another one
+
+---------04:00----------
+that is guaranteed to be good off of a
+
+---------04:01----------
+six year old donor board which good luck
+
+---------04:02----------
+finding that I'm hoping that it's number
+
+---------04:05----------
+one or number two one way to find out
+
+---------04:07----------
+so let's inspect let's go based on
+
+---------04:09----------
+what's easiest before me the easiest
+
+---------04:12----------
+thing to do is to check our 5,000
+
+---------04:13----------
+second-hardest replace you fifty ten
+
+---------04:16----------
+third heart is SMC so let's take a look
+
+---------04:20----------
+at where our five thousand is on this
+
+---------04:21----------
+donor board on this little little
+
+---------04:24----------
+MacBook and that's on the other side of
+
+---------04:28----------
+the board do keep in mind that that
+
+---------04:30----------
+would make for the easiest repair so
+
+---------04:32----------
+we're just going to look on the other
+
+---------04:33----------
+side of this MacBook and see if I have
+
+---------04:35----------
+the easiest repair which would be great
+
+---------04:38----------
+random remember all MacBooks fixed on
+
+---------04:42----------
+camera are picked at random well folks
+
+---------05:02----------
+that's a lot of dog fur cat hair
+
+---------05:08----------
+can you see the pull-up resistor it's
+
+---------05:12----------
+right here here
+
+---------05:28----------
+yeah
+
+---------05:37----------
+let's zoom into the heart of that
+
+---------05:38----------
+corrosion so happens and you spill
+
+---------05:44----------
+liquid on your MacBook mofo let's go
+
+---------05:50----------
+into the heart of that corrosion yeah
+
+---------05:55----------
+isn't that sexy
+
+---------05:59----------
+that's your MacBook baby
+
+---------06:12----------
+dog fur and random green is not a
+
+---------06:14----------
+proper conductor of electricity time to
+
+---------06:17----------
+fix this board we're gonna use some flux
+
+---------06:20----------
+some hot air just add a little bit of
+
+---------06:23----------
+flux over here
+
+---------06:33----------
+and get this garbage off of my board
+
+---------07:32----------
+the bad resistor has been removed from
+
+---------07:34----------
+the MacBook the filthy dog hair has been
+
+---------07:37----------
+burned and smells like such in my office
+
+---------07:41----------
+isn't it a joy to work in this industry
+
+---------07:45----------
+now we're gonna do is we're gonna fix
+
+---------07:48----------
+that broken pad as can be seen over here
+
+---------07:51----------
+they're supposed to be a pad where PP 3
+
+---------07:53----------
+v 4 - is it going to pull up the SMC
+
+---------07:55----------
+reset L signal and that PP 3 V 4 to pad
+
+---------07:59----------
+that we would expect to be right over
+
+---------08:01----------
+here
+
+---------08:01----------
+his nut is missing it is not present and
+
+---------08:06----------
+that is not going to help us so we are
+
+---------08:08----------
+going to scrape away and see if we can
+
+---------08:10----------
+bring back a happy little solder pad
+
+---------08:21----------
+we're just gonna scrape scrape
+
+---------08:36----------
+scrape
+
+---------08:39----------
+scrape
+
+---------08:44----------
+scrape
+
+---------09:00----------
+scrape
+
+---------09:12----------
+scrape scrape good
+
+---------09:26----------
+[Music]
+
+---------09:34----------
+great now my flux container has dog hair
+
+---------09:39----------
+on it yeah
+
+---------10:55----------
+it's gonna bulldoze this whole area
+
+---------10:59----------
+disgusting disgusting trash
+
+---------12:14----------
+all right little MacBook time for this
+
+---------12:23----------
+little MacBook to become a PC
+
+---------13:15----------
+how does a boy get so much dog hair dog
+
+---------13:20----------
+I had to guess probably a dog
+
+---------14:49----------
+now we're gonna see if we get a green
+
+---------14:51----------
+light in the charger and the
+
+---------14:53----------
+ever-important fans spin this is a fan
+
+---------15:01----------
+this is how you can see if it spins
+
+---------15:19----------
+I'm little MacBook
+
+---------15:25----------
+little MacBook nope let's check my ass
+
+---------15:31----------
+and see you reset first let's check my
+
+---------15:38----------
+peepee three before to present SMC reset
+
+---------15:43----------
+2.9 what hmm
+
+---------15:49----------
+let's poke around my ass MC reset area a
+
+---------15:52----------
+little bit so you're aware my peepee 3
+
+---------15:55----------
+before 2 is aha
+
+---------16:00----------
+pp 3 before 2 is not making it to this
+
+---------16:02----------
+section of the board
+
+---------16:03----------
+that's like half assed pp 3 before - all
+
+---------16:08----------
+right so we got to run a jumper
+
+---------16:09----------
+so pp 3 before 2 is not making it to
+
+---------16:12----------
+that section of the board over here so
+
+---------16:14----------
+where's the nearest place that I can
+
+---------16:15----------
+grab our pp 3 V 4 2 from it looks like
+
+---------16:18----------
+this capacitor over here so we're gonna
+
+---------16:20----------
+run a wire between this capacitor and
+
+---------16:22----------
+this part of the board repeat P 3 before
+
+---------16:24----------
+it too is supposed to be but isn't let's
+
+---------16:27----------
+find that capacitor that capacitor is
+
+---------16:30----------
+going to be right here and let's get
+
+---------16:38----------
+ourselves a little piece of wire first
+
+---------16:41----------
+thing we're gonna do is tin that little
+
+---------16:43----------
+capacitor now we're gonna run a wire
+
+---------16:46----------
+it's gonna be great
+
+---------17:00----------
+see what I did there I noticed SMC reset
+
+---------17:04----------
+was low but it wasn't totally gone so I
+
+---------17:07----------
+went to where the signal was created and
+
+---------17:08----------
+then I went to see if the pull up
+
+---------17:09----------
+resistor creating the signal was low and
+
+---------17:18----------
+it was in that area because pp3 v4 - was
+
+---------17:21----------
+not fully present however in another
+
+---------17:24----------
+spot of the board pp3 v4 - seems to be
+
+---------17:26----------
+present just fine
+
+---------18:01----------
+let's attach a micro pencil to make the
+
+---------18:03----------
+job easier
+
+---------18:17----------
+much better micro pencil
+
+---------18:34----------
+the bigger the glob the better the job
+
+---------18:36----------
+is Paul s would always say
+
+---------18:51----------
+the bigger the glob the better the job
+
+---------19:09----------
+we're just gonna route that wire around
+
+---------19:12----------
+nicely in here there we go
+
+---------19:15----------
+cut off the excess over here
+
+---------19:24----------
+we're gonna turn this board around and
+
+---------19:26----------
+witness the beauty of fans bin glory
+
+---------19:37----------
+fans been greenlight working board
+
+---------19:42----------
+that's all there is to it folks it's
+
+---------19:44----------
+just that simple so we had a board over
+
+---------19:48----------
+here that didn't have a green light in
+
+---------19:49----------
+the charger we had PP three before two
+
+---------19:51----------
+but the issue wound up being that SMC
+
+---------19:54----------
+reset L was not present and the SMC was
+
+---------19:56----------
+not turning on the place where SMC reset
+
+---------20:01----------
+L is pulled up was corroded on the board
+
+---------20:05----------
+we went over here we went to the part
+
+---------20:09----------
+where it was supposed to be pulled up
+
+---------20:10----------
+where it was corroded and we replaced
+
+---------20:13----------
+the resistor and other things in the
+
+---------20:15----------
+area
+
+---------20:15----------
+the connection between PP 3 V 4 2 and
+
+---------20:18----------
+pin 1 of the resistor was damaged so he
+
+---------20:20----------
+found PP 3 V 4 to from another area on
+
+---------20:22----------
+the board and ran a jumper wire to it
+
+---------20:25----------
+after running a jump of wire to it it
+
+---------20:27----------
+worked we had green light and fan spin
+
+---------20:30----------
+hopefully you learned something and with
+
+---------20:32----------
+that we're gonna move on to the next
+
+---------20:34----------
+board if you want to get a board fix
+
+---------20:37----------
+just like this one just go to rossmann
+
+---------20:39----------
+group comm or send your MacBook comm
+
+---------20:43----------
+that send your MacBook calm don't delay
+
+---------20:46----------
+head to our website and give us money
+
+---------20:49----------
+today
+

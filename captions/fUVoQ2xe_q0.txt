@@ -1,0 +1,1009 @@
+https://www.youtube.com/watch?v=fUVoQ2xe_q0
+---------00:00----------
+today I'm gonna try and answer a common
+
+---------00:01----------
+troubleshooting question with MacBooks
+
+---------00:03----------
+which is I've replaced the battery on my
+
+---------00:05----------
+a 1278 model unibody MacBook Pro but it
+
+---------00:09----------
+still doesn't recognize the battery how
+
+---------00:11----------
+do I know if it's an issue with the
+
+---------00:12----------
+motherboard another components in the
+
+---------00:14----------
+machine or my battery there's a short
+
+---------00:17----------
+and a long answer to this and I'm gonna
+
+---------00:18----------
+provide the short one first and then the
+
+---------00:20----------
+long answer and the why later long story
+
+---------00:22----------
+short if you've replace your battery
+
+---------00:24----------
+with one that you believe or know to be
+
+---------00:25----------
+good and it's still not working the
+
+---------00:27----------
+first thing I would do is check
+
+---------00:28----------
+something called the battery indicator
+
+---------00:30----------
+LED that's going to be on the side of
+
+---------00:33----------
+the computer so if I turn the light off
+
+---------00:35----------
+over here and I turn the computer on its
+
+---------00:37----------
+side and I press this button you'll be
+
+---------00:39----------
+able to see little lights that show up
+
+---------00:42----------
+that indicate how much the battery is
+
+---------00:44----------
+charged and that component plugs into
+
+---------00:47----------
+the computer right over here that's this
+
+---------00:50----------
+so if you unplug this and then unplug
+
+---------00:54----------
+your battery and then plug your battery
+
+---------00:57----------
+back in and then turn your computer on
+
+---------00:59----------
+and it recognizes the battery then you
+
+---------01:02----------
+can be assured that most likely this is
+
+---------01:04----------
+your culprit and if you replace this
+
+---------01:06----------
+piece which all you got to do to do that
+
+---------01:08----------
+take out the battery unscrew it buy
+
+---------01:10----------
+another one on line and replace it
+
+---------01:12----------
+everything will work if you unplug this
+
+---------01:15----------
+and you've tried a new battery and it
+
+---------01:17----------
+still doesn't recognize the battery then
+
+---------01:19----------
+you may have a board-level problem so
+
+---------01:22----------
+let's go over a little bit of how this
+
+---------01:24----------
+circuit works and how it was is that we
+
+---------01:26----------
+would troubleshoot this issue now the
+
+---------01:29----------
+macbook logic board is going to
+
+---------01:31----------
+recognize the battery by speaking to it
+
+---------01:33----------
+on a data line over here we have the SMC
+
+---------01:35----------
+which is the system management
+
+---------01:38----------
+controller this chip is going to manage
+
+---------01:41----------
+the system and also tell the system
+
+---------01:43----------
+whether or not a battery is connected
+
+---------01:44----------
+how to behave when there's a battery
+
+---------01:46----------
+connected that's charged versus not
+
+---------01:48----------
+charged it's going to activate the
+
+---------01:50----------
+charger and it talks to the battery
+
+---------01:52----------
+charging chip along with the battery if
+
+---------01:54----------
+anything goes wrong with this data line
+
+---------01:56----------
+over here if anything goes wrong with
+
+---------01:58----------
+the data line then the SMC won't be able
+
+---------02:01----------
+to communicate with the battery and the
+
+---------02:03----------
+way that I like to figure out if this is
+
+---------02:04----------
+the case very quickly is by measuring
+
+---------02:07----------
+voltage on a specific power line this
+
+---------02:09----------
+chip over here is supposed to produce 12
+
+---------02:12----------
+point 23 volts
+
+---------02:14----------
+but the SMC is picky Macs are picky
+
+---------02:16----------
+Apple is very picky with all their stuff
+
+---------02:18----------
+they go I know why don't you point 23
+
+---------02:21----------
+volts ion 12 point 56 volts
+
+---------02:24----------
+so the SMC is going to whine and tell
+
+---------02:27----------
+this chip over here which is the is l6
+
+---------02:29----------
+two five nine that 12 point 23 volts
+
+---------02:32----------
+isn't good enough
+
+---------02:33----------
+I want twelve point 56 volts and it does
+
+---------02:36----------
+that on this data line use seven
+
+---------02:39----------
+thousand which is the ISL 6259 takes the
+
+---------02:43----------
+16 to 18 volts from the adapter and then
+
+---------02:46----------
+over here it turns that into 12 point 56
+
+---------02:49----------
+volts that is the purpose of this
+
+---------02:51----------
+circuit that is what it does it takes 16
+
+---------02:53----------
+18 volts and turns it into 12 point 56
+
+---------02:56----------
+but if the SMC doesn't have an
+
+---------02:59----------
+opportunity to whine and say I'm a Mac I
+
+---------03:02----------
+don't like standards I want to do things
+
+---------03:04----------
+my special way then it won't produce 12
+
+---------03:08----------
+point 56 volts it will produce 12 point
+
+---------03:11----------
+23 volts so the first thing that I like
+
+---------03:14----------
+to do is measure that voltage rail which
+
+---------03:16----------
+is called pp bus g3 hot and I'm gonna
+
+---------03:19----------
+take a look on my board view software
+
+---------03:21----------
+and it's gonna tell me where I can find
+
+---------03:23----------
+that and it's gonna be on a different
+
+---------03:26----------
+place and every board this board view
+
+---------03:29----------
+software tells me I can find it on that
+
+---------03:30----------
+white fuse now you probably don't have a
+
+---------03:33----------
+board view and you probably don't have
+
+---------03:34----------
+board view software if you're a beginner
+
+---------03:36----------
+and you're just trying to fix your own
+
+---------03:38----------
+machine and you're watching this but on
+
+---------03:40----------
+the a12 78 model MacBook Pro that was
+
+---------03:43----------
+asked about there's gonna be a white
+
+---------03:44----------
+fuse somewhere around the vicinity of
+
+---------03:47----------
+the charger in this area on the newer
+
+---------03:50----------
+h-12 78 models the white fuse will be
+
+---------03:53----------
+somewhere over here on the older a 1278
+
+---------03:56----------
+models the white fuse will be over there
+
+---------03:57----------
+but it will be a white fuse somewhere
+
+---------03:59----------
+around here and I strongly suggest that
+
+---------04:01----------
+you find some sort of schematic online
+
+---------04:03----------
+just to confirm that you're looking at
+
+---------04:05----------
+the right thing so I'm gonna bring up my
+
+---------04:07----------
+multimeter on the screen I'm gonna put
+
+---------04:09----------
+it into voltage mode and we're going to
+
+---------04:12----------
+check out that fuse and see what voltage
+
+---------04:14----------
+we get now keep in mind that when you're
+
+---------04:17----------
+making this measurement you want to
+
+---------04:18----------
+unplug the battery because the battery
+
+---------04:20----------
+being plugged in is going to actually
+
+---------04:22----------
+mess with our measurements so ensure
+
+---------04:24----------
+that when you're doing this that you
+
+---------04:26----------
+unplug the bad
+
+---------04:27----------
+and plug in the charger so unplug
+
+---------04:31----------
+battery plug-in charger and we're going
+
+---------04:35----------
+to put the microscope on we're going to
+
+---------04:38----------
+take our black probe of our multimeter
+
+---------04:41----------
+and place that on ground which can be
+
+---------04:43----------
+any one of these little screw hole areas
+
+---------04:46----------
+so for example we could place our black
+
+---------04:48----------
+probe right over here and then we can
+
+---------04:51----------
+place the red probe of the meter on the
+
+---------04:53----------
+fuse itself now that number that we get
+
+---------04:57----------
+is twelve point sixty one volts which
+
+---------05:00----------
+means that the SMC is properly
+
+---------05:02----------
+communicating with the battery charging
+
+---------05:05----------
+chip which means that this data line is
+
+---------05:07----------
+functioning which means that if that's
+
+---------05:09----------
+the case
+
+---------05:10----------
+99% of the time that that's the case the
+
+---------05:12----------
+issue is with the battery you bought
+
+---------05:14----------
+some knockoff
+
+---------05:15----------
+eBay or Amazon garbage battery and well
+
+---------05:18----------
+you got what you paid for that's usually
+
+---------05:21----------
+the issue over there is that it's
+
+---------05:23----------
+something with the battery not with the
+
+---------05:24----------
+motherboard this can also happen if you
+
+---------05:27----------
+have a bad battery indicator led in
+
+---------05:29----------
+plugged in because what that will do is
+
+---------05:31----------
+it will pull down the data line this
+
+---------05:34----------
+entire section works based on pulses so
+
+---------05:38----------
+the way that this system works is this
+
+---------05:41----------
+data line is pulled up to three point 42
+
+---------05:44----------
+volts by this resistor over here and
+
+---------05:46----------
+you're going to see on the screen if I
+
+---------05:48----------
+were to put an oscilloscope over here
+
+---------05:50----------
+you will see a waveform so every time
+
+---------05:52----------
+one of these chips wants to talk it's
+
+---------05:54----------
+going to short that data line of three
+
+---------05:56----------
+point four volts to ground and that
+
+---------05:58----------
+shorting between 3.42 volts and zero
+
+---------06:01----------
+three point four and zero is going to
+
+---------06:03----------
+make a waveform and that waveform
+
+---------06:05----------
+represents data now if something is
+
+---------06:08----------
+broken over here if let's say the
+
+---------06:10----------
+battery indicator LED connection which
+
+---------06:13----------
+is this thing right over here is if this
+
+---------06:18----------
+battery indicator is broken and shorting
+
+---------06:21----------
+our data line to ground then we won't
+
+---------06:23----------
+get communication which is why I suggest
+
+---------06:26----------
+removing this so if you plug this in and
+
+---------06:29----------
+you get twelve point twenty three volts
+
+---------06:31----------
+but then you unplug it and you get
+
+---------06:33----------
+twelve point 56 volts then you know that
+
+---------06:36----------
+the issue is with your battery indicator
+
+---------06:38----------
+and not with your motherboard if you
+
+---------06:40----------
+unplug this
+
+---------06:41----------
+you get 12 point 26 volts then you know
+
+---------06:44----------
+that the issue is with something on your
+
+---------06:46----------
+motherboard so I'm going to do a quick
+
+---------06:47----------
+little demonstration here where I
+
+---------06:49----------
+actually short out that data line so if
+
+---------06:52----------
+we were to look at our board view over
+
+---------06:57----------
+here you would see that this data line
+
+---------06:58----------
+works on these are the two pull-up
+
+---------07:01----------
+resistors for that data line so I'm just
+
+---------07:03----------
+going to solder them together so that it
+
+---------07:07----------
+no longer is able to communicate we're
+
+---------07:11----------
+gonna solder them both to ground right
+
+---------07:15----------
+here with a little jumper wire all right
+
+---------07:19----------
+[Applause]
+
+---------07:21----------
+now that we have soldered that together
+
+---------07:24----------
+I am going to check what the pp bus g3
+
+---------07:28----------
+hull tidge is on the fuse and as you can
+
+---------07:32----------
+see we're getting twelve point three
+
+---------07:33----------
+volts opposed to the twelve point six we
+
+---------07:36----------
+were getting before we're getting twelve
+
+---------07:38----------
+point three volts because the SMC is not
+
+---------07:40----------
+able to communicate with the is l6 two
+
+---------07:42----------
+five nine ship and say that it's a
+
+---------07:44----------
+special little Apple snowflake that
+
+---------07:47----------
+wants its non-standard voltage and
+
+---------07:49----------
+you'll also notice that when we short
+
+---------07:51----------
+that data line to ground that the
+
+---------07:53----------
+battery level indicator is no longer
+
+---------07:55----------
+going to work so if we were to plug in
+
+---------07:57----------
+the battery and the battery level
+
+---------07:59----------
+indicator shut off the light over here
+
+---------08:02----------
+so that I could do this you'll see that
+
+---------08:05----------
+it's not giving us any result because
+
+---------08:08----------
+the batter that data line has now been
+
+---------08:10----------
+shorted to ground and no communication
+
+---------08:12----------
+can take place on it but if we remove
+
+---------08:16----------
+the wire okay wire has been taken out of
+
+---------08:20----------
+the way we plug our battery level
+
+---------08:25----------
+indicator back in we plug our battery
+
+---------08:28----------
+back in turn off our light turn the
+
+---------08:32----------
+Machine around press the button and it
+
+---------08:36----------
+is currently able to see the battery now
+
+---------08:39----------
+let's suppose that you narrowed it down
+
+---------08:41----------
+to where it's clearly a motherboard
+
+---------08:43----------
+issue most likely what's going to happen
+
+---------08:45----------
+is that you're going to have a short to
+
+---------08:47----------
+ground on that data line or the SMC was
+
+---------08:50----------
+simply going to be burned out the way
+
+---------08:52----------
+you're going to tell what on the board
+
+---------08:54----------
+is causing it is by
+
+---------08:55----------
+going through the individual components
+
+---------08:57----------
+that are on that data line so if we were
+
+---------08:59----------
+to look at the motherboard itself and
+
+---------09:02----------
+this board view software over here you
+
+---------09:04----------
+would be able to see everything on that
+
+---------09:06----------
+line by simply clicking a button and
+
+---------09:09----------
+this is where I would highly suggest
+
+---------09:11----------
+that you find yourself a schematic and
+
+---------09:14----------
+board view for your model boards
+
+---------09:16----------
+somewhere on Google so when I click over
+
+---------09:18----------
+here you'll see that there are several
+
+---------09:21----------
+components on the data line the first
+
+---------09:23----------
+one is the battery obviously the next
+
+---------09:26----------
+one is the battery level indicator the
+
+---------09:29----------
+next is this battery charging chip VN is
+
+---------09:31----------
+L six two five nine and then when we
+
+---------09:34----------
+turn the board around there is a
+
+---------09:36----------
+capacitor a diode and then at the top
+
+---------09:44----------
+and SMC chip so those are all the
+
+---------09:47----------
+different components on the line that
+
+---------09:49----------
+can cause the problem a lot of the time
+
+---------09:51----------
+it's going to be either the ISL six two
+
+---------09:53----------
+five nine chip that's pulling the data
+
+---------09:55----------
+line down or it's going to be the SMC
+
+---------09:58----------
+chip that's pulling the data line down
+
+---------10:00----------
+and in very rare cases it could be one
+
+---------10:03----------
+of the capacitors over here that's doing
+
+---------10:04----------
+it but it's going to be something on
+
+---------10:06----------
+that line and if you want it to be a
+
+---------10:07----------
+hundred ten percent sure what you could
+
+---------10:09----------
+do is you could inject 3.42 volts from
+
+---------10:12----------
+your power supply into that line and see
+
+---------10:14----------
+what gets hot for me it's quicker to
+
+---------10:16----------
+just remove the components because
+
+---------10:18----------
+there's not a lot on that line and leave
+
+---------10:20----------
+the SMC for last the SMC is the most
+
+---------10:23----------
+difficult chip to replace I'll leave a
+
+---------10:25----------
+link to that below the SMC is a chip
+
+---------10:27----------
+that has somewhere over 80 to around
+
+---------10:29----------
+eighty to a hundred really small solder
+
+---------10:32----------
+balls under it making it a real pain to
+
+---------10:34----------
+replace and you have to replace it from
+
+---------10:36----------
+an identical model donor board we
+
+---------10:38----------
+because it has firmware specific to the
+
+---------10:40----------
+board which you cannot program which is
+
+---------10:42----------
+not fun the most common cause of this
+
+---------10:44----------
+issue is typically water damage or
+
+---------10:46----------
+somebody using a flathead screwdriver or
+
+---------10:49----------
+something like a set of tweezers to pry
+
+---------10:50----------
+out the old battery rather than a
+
+---------10:52----------
+fingernail if we were to look on the
+
+---------10:54----------
+schematic you'll see that this machine
+
+---------10:56----------
+is uniquely designed to where the
+
+---------10:58----------
+battery connection and the data
+
+---------11:00----------
+connection are right next to each other
+
+---------11:02----------
+so if you put a screwdriver here you're
+
+---------11:04----------
+going to send the 12 volts of the
+
+---------11:06----------
+battery to your three volt data
+
+---------11:08----------
+in which that usually goes something
+
+---------11:11----------
+like this and it goes pop and that will
+
+---------11:13----------
+fry the SMC's data line and typically
+
+---------11:16----------
+everything else on that line but tip of
+
+---------11:19----------
+the time just the SMC now also if you
+
+---------11:23----------
+have a multimeter that allows you to you
+
+---------11:24----------
+diet use diode mode you can measure the
+
+---------11:26----------
+data line to get an idea of if you're
+
+---------11:28----------
+getting the proper number in diode mode
+
+---------11:30----------
+what you're going to want to have on
+
+---------11:32----------
+these data lines and keep in mind when
+
+---------11:34----------
+you use diode mode you can have all
+
+---------11:35----------
+power unplugged you can have battery
+
+---------11:37----------
+unplugged you're going to have the
+
+---------11:39----------
+charger unplugged when you have the red
+
+---------11:41----------
+probe on ground and the black probe on
+
+---------11:44----------
+the data line you're gonna want
+
+---------11:46----------
+something around 0.44 12.5 to zero
+
+---------11:54----------
+that's what you're going to expect and
+
+---------11:58----------
+that's what I'm getting
+
+---------12:00----------
+excuse the multimeter software here the
+
+---------12:03----------
+decimal point is two to the right of
+
+---------12:05----------
+what it's supposed to be but that is 0.5
+
+---------12:07----------
+1/4 which is within range you want
+
+---------12:11----------
+somewhere between 0.42 0 to 0.5 to zero
+
+---------12:15----------
+in my experience if you have something
+
+---------12:17----------
+that's around point to point one point
+
+---------12:20----------
+zero zero seven then that means that
+
+---------12:23----------
+there's likely a short to ground on the
+
+---------12:25----------
+line because the is L six two five nine
+
+---------12:27----------
+the SMC the battery indicator LED
+
+---------12:30----------
+plugged in or one of the capacitors on
+
+---------12:32----------
+that line have shorted to ground I hope
+
+---------12:35----------
+that's been helpful for you and I hope
+
+---------12:36----------
+that this helps you troubleshoot the
+
+---------12:38----------
+issue with your machine you can check
+
+---------12:39----------
+out the other videos in this playlist
+
+---------12:41----------
+I'm also gonna link another playlist
+
+---------12:42----------
+down below which are the most common
+
+---------12:45----------
+faults that Apple has either issued
+
+---------12:46----------
+recalls for or not issued recalls for
+
+---------12:49----------
+but have had serious design flaws with
+
+---------12:51----------
+so that you can better learn how to
+
+---------12:53----------
+troubleshoot these things and hopefully
+
+---------12:55----------
+bring some more max to life do let me
+
+---------12:57----------
+know if you have a better way of
+
+---------12:58----------
+troubleshooting or if you have any other
+
+---------13:00----------
+questions about common issues leave them
+
+---------13:02----------
+in the comments below and remember to
+
+---------13:04----------
+ring the bell if you want to actually
+
+---------13:06----------
+get notifications most of my subscribers
+
+---------13:08----------
+don't actually get notified because of
+
+---------13:10----------
+YouTube's change in policy so if you
+
+---------13:12----------
+want to actually know when we produce
+
+---------13:13----------
+videos ring the bell and that's it for
+
+---------13:16----------
+today and as always I hope you learned
+
+---------13:18----------
+something
+

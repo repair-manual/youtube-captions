@@ -1,0 +1,1132 @@
+https://www.youtube.com/watch?v=ei97mfbA6so
+---------00:05----------
+how much it would be for a liquid damage
+
+---------00:09----------
+book what's it doing what's wrong with
+
+---------00:14----------
+it they cleaned it the red light is on
+
+---------00:26----------
+but well it just depends on what it's
+
+---------00:35----------
+doing so when I say what is it doing I
+
+---------00:37----------
+mean is it not turning on does it turn
+
+---------00:39----------
+on but not have a screen does it turn on
+
+---------00:41----------
+and run slow cuz the pricing is going to
+
+---------00:42----------
+depend on what's what's going on yeah
+
+---------01:07----------
+all right so the range for that would be
+
+---------01:09----------
+usually somewhere between 200 to 475
+
+---------01:11----------
+depending on how much is messed up in
+
+---------01:13----------
+your machine usually somewhere in that
+
+---------01:15----------
+range 99% of the time we're open 12:00
+
+---------01:23----------
+to 4:00 tomorrow 12 to 8 on the weekday
+
+---------01:25----------
+and we do its Genius Bar are you it huh
+
+---------01:34----------
+but it'd take you long to get here yeah
+
+---------01:40----------
+cuz I'm gonna be here for at least the
+
+---------01:42----------
+next half hour so if you want you can
+
+---------01:43----------
+just stop by and knock on the door the
+
+---------01:51----------
+catch is that you may be you may have
+
+---------01:54----------
+have it fixed on stream so it will be
+
+---------01:56----------
+live stream to YouTube as its repaired
+
+---------01:58----------
+since that's what we do the catch is you
+
+---------02:01----------
+may be still caught on live stream on
+
+---------02:02----------
+YouTube since we live stream after-hours
+
+---------02:04----------
+to all the repair stuff alright I'll see
+
+---------02:08----------
+you soon all right good
+
+---------02:12----------
+what was I doing up here oh it's getting
+
+---------02:14----------
+my water bottle let's get the water
+
+---------02:16----------
+bottle
+
+---------02:20----------
+there's no such thing as time off if you
+
+---------02:22----------
+invested in agile therapeutics so what
+
+---------02:25----------
+comes up next is in a 1278 MacBook
+
+---------02:27----------
+that's not charging after somebody took
+
+---------02:29----------
+a flathead screwdriver to it mute my
+
+---------02:31----------
+customer privacy Oh for [ __ ] sake
+
+---------02:34----------
+customer privacy okay do you know his
+
+---------02:37----------
+name do you know his name do you know
+
+---------02:40----------
+his phone number do you know his
+
+---------02:41----------
+occupation do you know his hair color do
+
+---------02:43----------
+you know his race do you know his
+
+---------02:44----------
+religion do you know his medical do you
+
+---------02:46----------
+know anything about that person besides
+
+---------02:48----------
+the fact that they have a broken MacBook
+
+---------02:50----------
+and there's a good likelihood that they
+
+---------02:51----------
+identify as male I didn't think so Jesus
+
+---------02:56----------
+Christ people customer privacy the [ __ ]
+
+---------03:02----------
+is wrong with you
+
+---------03:07----------
+oh my god somebody has a broken macbook
+
+---------03:10----------
+and i know they exist
+
+---------03:12----------
+call HIPAA cool HIPAA
+
+---------03:19----------
+remove his license all right let's see
+
+---------03:23----------
+what's going on with little MacBook
+
+---------03:25----------
+first thing that I can see that was
+
+---------03:27----------
+abused on little MacBook is its keyboard
+
+---------03:31----------
+connector who was mean to you why do
+
+---------03:33----------
+they do this to your little keyboard
+
+---------03:34----------
+connector this little keyboard connector
+
+---------03:37----------
+did nothing wrong and it didn't deserve
+
+---------03:39----------
+this foul treatment let's look at what
+
+---------03:42----------
+else is wrong with little MacBook now
+
+---------03:43----------
+the first thing we're gonna do here
+
+---------03:45----------
+since they say it doesn't charge do they
+
+---------03:46----------
+mean doesn't turn on or actually doesn't
+
+---------03:48----------
+charge I'm gonna unplug the sleep sensor
+
+---------03:50----------
+and turn on my power supply and see if
+
+---------03:53----------
+we get fans spin and it appears that we
+
+---------03:55----------
+don't get any fan spin but we are
+
+---------03:57----------
+drawing point 1 amps this is an 8 to 0
+
+---------04:00----------
+31:15 board and I'll get started by
+
+---------04:04----------
+opening up the schematic for it so the
+
+---------04:05----------
+first thing we're gonna do with little
+
+---------04:06----------
+MacBook is go through a little MacBooks
+
+---------04:08----------
+power rails and see which power rails
+
+---------04:11----------
+seems to be missing so over here the
+
+---------04:13----------
+first power rail that we need in order
+
+---------04:15----------
+to get a green light in the charger
+
+---------04:16----------
+which at the moment we lack is pp 3 B 4
+
+---------04:18----------
+to underscore g3 hot that I can bring
+
+---------04:20----------
+myself to on the board view by simply
+
+---------04:22----------
+right-clicking it on the schematic
+
+---------04:24----------
+thanks to the wonder of paul daniels is
+
+---------04:25----------
+board view software so what i'm gonna do
+
+---------04:27----------
+here is i'm gonna measure on PP 3 v 4 2
+
+---------04:30----------
+and see if PP 3 before 2 is present
+
+---------04:32----------
+because if we're missing on pepper 3
+
+---------04:34----------
+before 2 then nothing else can come of
+
+---------04:36----------
+it
+
+---------04:37----------
+so it looks like we're getting 128
+
+---------04:39----------
+millivolts on pepper 3 before - that's
+
+---------04:42----------
+no good and if i change the range you'll
+
+---------04:44----------
+see it's point one volts pretty useless
+
+---------04:46----------
+I'm gonna turn off the power supply and
+
+---------04:48----------
+see if we have a short 2 grounds on
+
+---------04:49----------
+pepper through before 2 and appears that
+
+---------04:52----------
+we do we got a 1 point 3 ohm short to
+
+---------04:54----------
+ground on pepper 3 before - so how do we
+
+---------04:57----------
+get rid of our short and how we find out
+
+---------04:59----------
+what is shorted I'm Peppa the rivet 4 -
+
+---------05:01----------
+well that's a great question what is it
+
+---------05:03----------
+that's getting so warm here ok so I'm
+
+---------05:07----------
+gonna guess that it's the is l6 2.59
+
+---------05:09----------
+everything says that it's what's before
+
+---------05:11----------
+the iso 65 9 but i don't quite buy it
+
+---------05:42----------
+the fake news Union repair thermal
+
+---------05:44----------
+camera
+
+---------06:05----------
+I love Lee Union repairs thermal camera
+
+---------06:08----------
+they're a treasure they're a jewel and
+
+---------06:11----------
+have much respect for the institution I
+
+---------06:14----------
+actually meant that I would use the
+
+---------06:18----------
+Union repair thermal camera I meant to
+
+---------06:20----------
+say would not wouldn't it's actually
+
+---------06:24----------
+opposite day my bad bro
+
+---------08:02----------
+is pp3 before too good to go
+
+---------08:06----------
+no it's not alright so that wasn't it
+
+---------08:09----------
+our short circuit is something else in
+
+---------08:12----------
+that area but I don't know what's on PP
+
+---------08:16----------
+three of you four to two ground in that
+
+---------08:17----------
+area okay we're gonna route are you
+
+---------08:29----------
+gonna make me take the board out of the
+
+---------08:30----------
+computer you're gonna make me take the
+
+---------08:32----------
+board out of the computer aren't you I'm
+
+---------08:34----------
+not gonna forgive this board for that
+
+---------08:35----------
+this is the type of thing that I
+
+---------08:37----------
+remember and I will hold against you for
+
+---------08:40----------
+a long time
+
+---------09:36----------
+let's see who is here what's that I hear
+
+---------09:40----------
+a phone ringing hello
+
+---------09:47----------
+hey hey yeah come on have a seat
+
+---------10:05----------
+oh no worries alright okay so what it
+
+---------10:14----------
+app will tell you by the way welcome to
+
+---------10:16----------
+the Internet
+
+---------10:17----------
+it's 400 yeah so what
+
+---------10:24----------
+800 bucks all right let's see what it
+
+---------10:35----------
+looks like going
+
+---------10:55----------
+all right this is a eight to zero 4924
+
+---------10:59----------
+board and some corrosion on image
+
+---------11:03----------
+circuit this is one of the FETs I
+
+---------11:05----------
+believe that's going to turn it send
+
+---------11:06----------
+five volts over to the LCD you 8,300 is
+
+---------11:09----------
+only going to send five volts to the LCD
+
+---------11:11----------
+if pin two has EDP panel per a NRC so
+
+---------11:16----------
+let's see what that is where that is in
+
+---------11:19----------
+work we can't remember if the enable is
+
+---------11:23----------
+bad if the enable is high that it's not
+
+---------11:27----------
+shooting out we can blame the chip if
+
+---------11:28----------
+the enable is low we can't really
+
+---------11:30----------
+necessarily blame the chip and the
+
+---------11:32----------
+enable is low so we can't blame the chip
+
+---------11:34----------
+let's let's see what the other side of
+
+---------11:35----------
+this board looks like and also let's see
+
+---------11:37----------
+if it works at the different screen the
+
+---------11:40----------
+screen doesn't look too bad
+
+---------11:41----------
+screen cable looks like it's intact the
+
+---------11:44----------
+board looks like it's a little [ __ ]
+
+---------11:45----------
+though but let's see what the other side
+
+---------11:48----------
+of this looks like alright let's look
+
+---------11:52----------
+over the other side of the board here
+
+---------12:01----------
+the DisplayPort section looks fine
+
+---------12:03----------
+here's a hint
+
+---------12:05----------
+we have us there's a solder ball
+
+---------12:08----------
+sticking out there hey what are you
+
+---------12:10----------
+doing okay hit number one how much you
+
+---------12:16----------
+want to bet that's gonna be something
+
+---------12:17----------
+for DisplayPort hopefully DisplayPort
+
+---------12:20----------
+not Thunderbolt because that's the only
+
+---------12:23----------
+hint we have to go on right now okay so
+
+---------12:26----------
+where are you
+
+---------12:27----------
+let's zoom out so I can see there is the
+
+---------12:31----------
+diagonal thingies and then the thing
+
+---------12:33----------
+next to the diagonal things and then
+
+---------12:35----------
+this thing and you are
+
+---------12:38----------
+oh you're for the SSD okay so you're
+
+---------12:42----------
+needed but you're unrelated to primary
+
+---------12:44----------
+problem we'll come back to you later the
+
+---------12:46----------
+main issue is just gonna be this stuff
+
+---------12:48----------
+around you 8300 so let's see if that
+
+---------12:51----------
+rail is short it's a ground
+
+---------13:01----------
+no sure all right so let's see if this
+
+---------13:03----------
+works with a known good screen nope
+
+---------13:29----------
+are the cap shorted the cap for pp5 V on
+
+---------13:33----------
+the screen output is not shorted the
+
+---------13:36----------
+mosfet could be pulling the enable
+
+---------13:37----------
+signal low that's always a possibility
+
+---------13:38----------
+but that would be too easy that's why
+
+---------13:41----------
+I'm not checking that yet I don't think
+
+---------13:43----------
+I'd have such luck it hasn't been just a
+
+---------13:46----------
+MOSFET since 2012 retinas but you never
+
+---------13:50----------
+know and yeah okay it looks like we have
+
+---------13:53----------
+a screen so now we have to figure out
+
+---------13:54----------
+what they don't have a screen with the
+
+---------13:55----------
+original one see told you it wasn't it
+
+---------13:57----------
+never that easy see
+
+---------14:06----------
+also means that little SS that little
+
+---------14:08----------
+solder ball by the SSD my by that SSD
+
+---------14:12----------
+chip doesn't mean the SSD is dead
+
+---------14:14----------
+which is good it's just knocked that
+
+---------14:17----------
+solder ball out of the way
+
+---------14:18----------
+since this should not be there gtfo all
+
+---------14:24----------
+right back to this
+
+---------14:26----------
+why does original screen not get
+
+---------14:27----------
+recognized excited for the LTTE vid no
+
+---------14:31----------
+because I know the ending okay now we
+
+---------14:36----------
+try it again with this and just for the
+
+---------14:37----------
+hell of it let's stop turning it on with
+
+---------14:39----------
+corrosion
+
+---------14:57----------
+is the screen water damaged probably
+
+---------15:01----------
+we'll see in a few so let's see what it
+
+---------15:05----------
+does back with the original screen
+
+---------15:21----------
+all right with the original screen it
+
+---------15:23----------
+works there is actually an image now but
+
+---------15:25----------
+it's just for you yeah okay so we've
+
+---------15:27----------
+made some progress now let's figure out
+
+---------15:30----------
+why it's dim with the original screen um
+
+---------15:32----------
+now there are two different voltages
+
+---------15:33----------
+that are going to tell me something if
+
+---------15:35----------
+we see something along if we see like 52
+
+---------15:38----------
+volts it means that the vote that the
+
+---------15:40----------
+backlight voltage is not making its way
+
+---------15:42----------
+to the screen if we see zero volts it
+
+---------15:44----------
+means the screen is shorting that
+
+---------15:45----------
+voltage to ground there's two different
+
+---------15:46----------
+possibilities here so let's see which
+
+---------15:49----------
+one it is 39 volts oh oh well that's
+
+---------15:54----------
+[ __ ] oh it works well imagine that
+
+---------15:58----------
+it fixed itself yeah congratulations
+
+---------16:07----------
+well that's boring I have nothing to fix
+
+---------16:11----------
+now all right
+
+---------16:19----------
+let's took away all my fun what why did
+
+---------16:24----------
+it boot like that though is the sleep
+
+---------16:28----------
+sensor corrode your little sleep sensor
+
+---------16:35----------
+okay what's this [ __ ] maybe that has to
+
+---------16:37----------
+do with it what are these probe points
+
+---------16:38----------
+for that's not for the sleep stands for
+
+---------16:40----------
+though those pro points are gonna be for
+
+---------16:42----------
+something stupid that doesn't matter
+
+---------16:43----------
+let's see what the schematics say pp 3 v
+
+---------16:46----------
+3s oh who cares audio connector who
+
+---------16:49----------
+gives a [ __ ] audio ground DM audio again
+
+---------16:53----------
+who gives a [ __ ] yeah so all this crap
+
+---------16:56----------
+that's corroded is for tip detection
+
+---------16:59----------
+which has nothing to do with backlight
+
+---------17:02----------
+what I'm interested in is SMC lid
+
+---------17:04----------
+because remember if the things that's
+
+---------17:06----------
+sleeping it'll turn off the screen but
+
+---------17:07----------
+that is picture-perfect
+
+---------17:20----------
+that's not picture-perfect that with my
+
+---------17:22----------
+luck if I replace it it they'll stop
+
+---------17:24----------
+seeing the picture again learn my lesson
+
+---------17:27----------
+on perfection
+
+---------17:50----------
+you log in and try it out before I close
+
+---------17:52----------
+the bottle wait a second
+
+---------17:55----------
+it just turned itself off that's
+
+---------17:57----------
+interesting that's no good hmm what is
+
+---------18:05----------
+doing that way to say oh oh uh Jesus
+
+---------18:10----------
+Christ okay because I could so that the
+
+---------18:13----------
+charger light just turned colors which
+
+---------18:15----------
+means the SMC got reset and oh there's
+
+---------18:20----------
+more but wait
+
+---------18:23----------
+yeah it's hiding everywhere look at that
+
+---------18:26----------
+this is on the trackpad connector damn
+
+---------18:33----------
+ship coming out of every end of this
+
+---------18:35----------
+alright let's see
+
+---------18:45----------
+the is this trackpad savable
+
+---------18:54----------
+[Music]
+
+---------19:06----------
+just remember on the MacBook the SMC can
+
+---------19:09----------
+reset the trackpad I mean the trackpad
+
+---------19:12----------
+can reset the SMC what am I thinking
+
+---------19:17----------
+and of course you know don't expect any
+
+---------19:21----------
+conformal coating and under fill' on it
+
+---------19:22----------
+just because it's right by where water
+
+---------19:24----------
+gets built you'd be asking too much
+
+---------19:42----------
+take three
+
+---------20:12----------
+come on get in there
+
+---------20:17----------
+okay
+
+---------20:51----------
+don't you'd do anything funny now okay
+
+---------20:55----------
+try logging in now okay can you just see
+
+---------21:01----------
+what it says when you click on the
+
+---------21:02----------
+battery for me okay so it says battery
+
+---------21:07----------
+is charged a hundred percent did you
+
+---------21:12----------
+charge this all the way before this
+
+---------21:13----------
+happened there yeah all right so let's
+
+---------21:15----------
+see something huh Wow okay that explains
+
+---------21:18----------
+why I wasn't charged yeah there you go
+
+---------21:22----------
+all right let me just close it up and
+
+---------21:23----------
+you should be good to go so it already
+
+---------21:27----------
+worked you just needed a q-tip Paul's
+
+---------21:34----------
+gonna kill me if I don't put this thing
+
+---------21:35----------
+back in Paul if you're watching here I'm
+
+---------21:39----------
+not giving it to the cat this time Oh
+
+---------21:46----------
+Paul always gets on my case for giving
+
+---------21:48----------
+this to my cat here you go Oh sir just
+
+---------21:53----------
+make sure you pull the door when you
+
+---------21:54----------
+leave instead of push it because if you
+
+---------21:56----------
+push it it'll smash the glass into the
+
+---------21:57----------
+gate and then you okay where is the
+
+---------22:01----------
+other one
+
+---------22:01----------
+oh here we go all right so back to this
+
+---------22:05----------
+piece of [ __ ] that pp 3v4 to was shorted
+
+---------22:08----------
+on 1.7 kilohms
+
+---------22:10----------
+are you freaking kidding me Wow my short
+
+---------22:14----------
+burned at my 3.42 volts short which was
+
+---------22:16----------
+their showing around is l6 259 was still
+
+---------22:20----------
+there after I replaced is l6 two five
+
+---------22:22----------
+nine even though that seems to be what
+
+---------22:23----------
+was shorted is now gone when I picked
+
+---------22:26----------
+the board up so I put the board over
+
+---------22:29----------
+here to wait to work on it I put the
+
+---------22:31----------
+board over here while I was working on
+
+---------22:33----------
+the other dudes board right here I put
+
+---------22:35----------
+it down and this little thing that's
+
+---------22:37----------
+labeled Lewis's cube and now when I
+
+---------22:41----------
+bring it back to the desk over here this
+
+---------22:43----------
+short is gone what the [ __ ] did that do
+
+---------22:46----------
+that got rid of my short cube needs a
+
+---------22:48----------
+raise
+
+---------22:48----------
+I agree God was like all you fix that
+
+---------22:50----------
+kid's board for free here clear short
+
+---------22:53----------
+well yeah but let's see if it works
+
+---------22:54----------
+though let's see if that's the that's
+
+---------22:57----------
+what actually matters here do we have
+
+---------23:00----------
+three point 42 volts
+
+---------23:05----------
+are you freaking kidding me
+
+---------23:07----------
+it fixed itself it fixed itself you've
+
+---------23:13----------
+gotta be kidding me
+
+---------23:14----------
+you're you you're rich you're serious
+
+---------23:17----------
+wow this board did fix itself
+
+---------23:21----------
+that's Karma that's Karma this is
+
+---------23:24----------
+hilarious
+
+---------23:24----------
+so I'm trying to fix this board and it
+
+---------23:28----------
+has a short on PP 3v for two that I
+
+---------23:30----------
+cannot possibly locate I spent time with
+
+---------23:33----------
+the thermal camera I replaced a chip
+
+---------23:35----------
+that is close near this by to the short
+
+---------23:37----------
+that PP 3 before 2 is on and it's still
+
+---------23:40----------
+shorted I put the machine in here in
+
+---------23:43----------
+this slot labeled Lewis's cube eyes let
+
+---------23:47----------
+it sit right here a customer comes in
+
+---------23:50----------
+customer comes in with a problem with
+
+---------23:53----------
+their machine that Apple said they
+
+---------23:54----------
+wanted $830 4 I fix it I don't charge
+
+---------23:57----------
+that customer and what does karma do it
+
+---------24:00----------
+takes away my short look at that can't
+
+---------24:05----------
+make this stuff up look I've been
+
+---------24:07----------
+live-streaming this entire thing
+
+---------24:09----------
+there's been no editing so far look at
+
+---------24:11----------
+this look at this
+
+---------24:13----------
+voltage VP 3 before 2 with that hey this
+
+---------24:21----------
+3.42 volts you're welcome god damn ok I
+
+---------24:28----------
+maybe I'm gonna reconsider my
+
+---------24:30----------
+agnosticism that's something that's the
+
+---------24:33----------
+power of karma you do good things for
+
+---------24:35----------
+people and it comes back to you I'm
+
+---------24:37----------
+gonna end the night on that note cuz I
+
+---------24:39----------
+don't think I could do any better than
+
+---------24:41----------
+what I did just now I'm not gonna let
+
+---------24:42----------
+anything ruin this moment this is pretty
+
+---------24:45----------
+good stuff I'm happy with myself this is
+
+---------24:48----------
+a very magical little stream that
+
+---------24:49----------
+actually gave me a smile that's a smile
+
+---------24:53----------
+that it's gonna be hard to wipe off my
+
+---------24:54----------
+face for a while I bet I'm gonna go
+
+---------24:56----------
+outside I'm gonna walk straight outside
+
+---------24:59----------
+Ruby Lewis is gonna see me and say I
+
+---------25:01----------
+watch your YouTube videos and give me a
+
+---------25:03----------
+big hug and go I'm your biggest fan I
+
+---------25:06----------
+love board repair I was only performing
+
+---------25:09----------
+for Cirque du Soleil in Paramore because
+
+---------25:11----------
+I couldn't get a job at your store no
+
+---------25:14----------
+Who am I [ __ ] kidding I'm getting
+
+---------25:15----------
+delusional that's it for today and as
+
+---------25:17----------
+always
+
+---------25:18----------
+I hope you learned something make sure
+
+---------25:19----------
+to subscribe and watch and fix stuff and
+
+---------25:22----------
+spread good karma and time to go
+
+---------25:34----------
+you
+

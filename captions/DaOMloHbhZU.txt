@@ -1,0 +1,577 @@
+https://www.youtube.com/watch?v=DaOMloHbhZU
+---------00:18----------
+so the fourth pin over is something to
+
+---------00:23----------
+do with the BIOS chip so that sucks
+
+---------00:26----------
+because that means we're probably gonna
+
+---------00:28----------
+have some BIOS issue or the CPU issue
+
+---------00:32----------
+well let's get this out of here
+
+---------00:34----------
+pp bus g3 hot is what's needed first so
+
+---------00:36----------
+let's find and measure that we get
+
+---------00:39----------
+twelve point six which is expected next
+
+---------00:41----------
+TP three before two has to be there
+
+---------00:42----------
+because we get a green light PPV RTC g3
+
+---------00:45----------
+hot is gonna show up now I think we
+
+---------00:47----------
+found the your cause of our problem here
+
+---------00:48----------
+so check it out so I'm getting 3.3 volts
+
+---------00:53----------
+then one point six then three point
+
+---------00:56----------
+three so it's not fluctuating anymore
+
+---------00:58----------
+it's done fluctuating but tell me if
+
+---------01:01----------
+this is something that works like would
+
+---------01:03----------
+you trust this take a look at that how
+
+---------01:06----------
+trustworthy does this look so let me
+
+---------01:09----------
+show you what it is that I don't find
+
+---------01:10----------
+trustworthy about it see this this is
+
+---------01:15----------
+totally dug out of the board that's
+
+---------01:18----------
+broken and if we look over here you'll
+
+---------01:23----------
+see that that is where PP three before
+
+---------01:25----------
+to underscore g3 Hunt is supposed to go
+
+---------01:27----------
+into the chip so that doesn't look very
+
+---------01:29----------
+trustworthy to me I would think and
+
+---------01:32----------
+imagine that this chip is dead now this
+
+---------01:34----------
+is u 1900 u 1900 is my clock chip and if
+
+---------01:37----------
+there's a hole surrounding my clock chip
+
+---------01:40----------
+I would not trust this I trust this
+
+---------01:42----------
+clock chip as yeah I don't I trust this
+
+---------01:47----------
+clock chip as much as I trust the un--
+
+---------01:51----------
+unjust undisclosed to French authorities
+
+---------01:54----------
+in that case against Apple that I was
+
+---------01:58----------
+talking about yesterday so let's remove
+
+---------02:00----------
+this get this out of here see if we can
+
+---------02:05----------
+make this board great again see this is
+
+---------02:07----------
+one of those things where I'm not really
+
+---------02:08----------
+gonna bother measuring there's no point
+
+---------02:10----------
+to measuring good look at it let me just
+
+---------02:12----------
+look at it it's it's garbage
+
+---------02:14----------
+utter garbage
+
+---------02:16----------
+much so that ship obviously got
+
+---------02:21----------
+shocked by something and I'm knockin
+
+---------02:24----------
+there's no point to testing it even if
+
+---------02:26----------
+it tested good do you really want to
+
+---------02:27----------
+leave something on the board that looks
+
+---------02:29----------
+like that and my answer would typically
+
+---------02:31----------
+be no yep that is definitely one of
+
+---------02:42----------
+say bye
+
+---------02:49----------
+I'm probably gonna have to run a wire
+
+---------02:50----------
+underneath that I see and run it to a
+
+---------02:57----------
+point that is pp3 before too
+
+---------03:09----------
+[Music]
+
+---------04:27----------
+all right that's a little get aside but
+
+---------04:31----------
+fan spin no tax you sent me something
+
+---------04:36----------
+with a hole in it why did you send me
+
+---------04:38----------
+something with a hole in it all right
+
+---------04:40----------
+let's check some of the other voltages
+
+---------04:41----------
+EP 5vs5
+
+---------04:45----------
+consistent five
+
+---------04:56----------
+EP 5 vs 4 isn't being enabled isn't
+
+---------05:00----------
+being told to turn on and is not pulsing
+
+---------05:22----------
+let's take a look at the resistors by
+
+---------05:23----------
+the BIOS anything over here corroded
+
+---------05:32----------
+it doesn't look corroded to me wait a
+
+---------05:36----------
+second
+
+---------05:38----------
+what's this what's up little fella hey
+
+---------05:43----------
+what are you doing well check that out
+
+---------05:48----------
+here I was just about to give up on this
+
+---------05:51----------
+board well remember when I said in the
+
+---------05:54----------
+beginning of the other video remember
+
+---------05:56----------
+how I said that I would suspect that we
+
+---------05:58----------
+have some type of BIOS issue because
+
+---------06:00----------
+when you look at the jtag connector
+
+---------06:01----------
+which is all of the sig where all the
+
+---------06:03----------
+signals congregate into one point the
+
+---------06:07----------
+pin that's corroded is the fourth pin
+
+---------06:10----------
+SPI rom SPI ROM is the bios where there
+
+---------06:13----------
+was corrosion was pin 4 SPI ROM use spi
+
+---------06:17----------
+ROM use spi ROM this is the SPI ROM chip
+
+---------06:20----------
+aka the BIOS chip now the probe point
+
+---------06:23----------
+that is corroded on this board is this
+
+---------06:26----------
+one which goes to this resistor spi CS o
+
+---------06:30----------
+and connects SPI CSO which is this down
+
+---------06:39----------
+here or it's gonna go somewhere else
+
+---------06:44----------
+please bro
+
+---------06:46----------
+so watch what we're gonna do here let's
+
+---------06:49----------
+reconnect this so this is also a really
+
+---------06:50----------
+common issue on the 2013 to 15 MacBook
+
+---------06:53----------
+Airs I remember making a video entitled
+
+---------06:55----------
+this kills more MacBook Airs than
+
+---------06:57----------
+anything else and there's a reason that
+
+---------06:58----------
+I I made that with that title because it
+
+---------07:01----------
+really does
+
+---------07:11----------
+I could have saved that Pro point but
+
+---------07:13----------
+the hell with it I'm just gonna put a
+
+---------07:14----------
+little jumper wire here nice little
+
+---------07:18----------
+jumper and you'll you watch this is
+
+---------07:24----------
+gonna work this happens a lot in the air
+
+---------07:29----------
+but not often in the Ratna I'm very
+
+---------07:31----------
+rarely lucky to get an easy breezy BIOS
+
+---------07:33----------
+trace job like this but I'm happy to
+
+---------07:36----------
+I'll take it I'll take the easy stuff
+
+---------07:40----------
+where I can get it you know you feel me
+
+---------07:44----------
+because I don't get a lot of easy stuff
+
+---------07:47----------
+now that I have my chip where do I buy
+
+---------07:49----------
+flux from someone says buy your flux
+
+---------07:52----------
+from stored on Rossman group calm don't
+
+---------07:54----------
+delay by today never delay but by today
+
+---------08:11----------
+these tweezers are garbage I've used
+
+---------08:15----------
+them to scrape so many times that
+
+---------08:16----------
+they're bad they're not tweezers anymore
+
+---------08:23----------
+Jessa and I both have a bad habit of
+
+---------08:25----------
+using our tweezers for things that
+
+---------08:26----------
+tweezers are not designed to be used for
+
+---------08:32----------
+okay so that is connected so at this
+
+---------08:38----------
+point I'm gonna hope and pray that this
+
+---------08:42----------
+thing is gonna turn on you think I'm
+
+---------08:44----------
+gonna get a fan spin
+
+---------08:46----------
+show me that spinning fan show me that
+
+---------08:49----------
+sexy beautiful spinning fan Oh fan spin
+
+---------08:53----------
+point seven app usage BAM and there we
+
+---------08:57----------
+go our first issue was an issue of clock
+
+---------08:59----------
+chip the clock chip had a hole under it
+
+---------09:01----------
+why I don't know but this was sent to by
+
+---------09:03----------
+a store and stores like to screwing
+
+---------09:05----------
+things and I don't I don't know what was
+
+---------09:08----------
+done not gonna ask hey it works and it
+
+---------09:11----------
+actually might just last and the issue
+
+---------09:15----------
+that we were having with the rest of the
+
+---------09:17----------
+board here was that this probe point
+
+---------09:19----------
+that sits between SP IC Sol on our 6120
+
+---------09:25----------
+was broken so let's see what our 6120 is
+
+---------09:27----------
+going to so this is SPI bus series
+
+---------09:30----------
+termination these are the termination
+
+---------09:32----------
+resistors that exists between the BIOS
+
+---------09:34----------
+and the CPU on one side goes to SPI MLB
+
+---------09:38----------
+CSL which is the BIOS chip and on the
+
+---------09:41----------
+other side it's going to go to our 61:10
+
+---------09:44----------
+which goes to SP IC s o RL SP ICS o RL
+
+---------09:49----------
+goes straight to the CPU
+
+---------09:51----------
+now the BIOS needs to talk to the CPU in
+
+---------09:54----------
+order for the machine to work and that
+
+---------09:56----------
+trace facilitates that happening and it
+
+---------09:58----------
+was corroded away our first hint that
+
+---------10:00----------
+anything that was wrong was going to be
+
+---------10:01----------
+related to the BIOS area was in the jtag
+
+---------10:03----------
+connector our jtag connector as you
+
+---------10:05----------
+could see had a mark on it right along
+
+---------10:08----------
+that area so if I were to bring the
+
+---------10:11----------
+camera over and just bring this up on
+
+---------10:13----------
+the screen you'll be able to see that
+
+---------10:15----------
+this little connector over here had a
+
+---------10:17----------
+teeny tiny bit of mess right over here
+
+---------10:20----------
+on the SPI ROM use MLB pin and that
+
+---------10:24----------
+tells me look somewhere around SPI
+
+---------10:27----------
+circuitry if you get confused that's why
+
+---------10:29----------
+right after I replaced the clock chip
+
+---------10:31----------
+that I decided to look in the BIOS area
+
+---------10:33----------
+once it no longer worked because of my
+
+---------10:34----------
+hint this is all analytical thinking in
+
+---------10:37----------
+the
+
+---------10:37----------
+active work and problem-solving do you
+
+---------10:39----------
+need to know what SPI rom MLB is
+
+---------10:41----------
+honestly not really you just have to
+
+---------10:44----------
+have the ability to recognize patterns
+
+---------10:45----------
+analytical thinking and the willingness
+
+---------10:47----------
+to use your brain and it's fun isn't it
+
+---------10:56----------
+this video is brought to you by our
+
+---------10:57----------
+sponsors at store dot Rosman group comm
+
+---------11:00----------
+thank you for supporting our sponsors
+
+---------11:02----------
+that helped keep us in business on store
+
+---------11:04----------
+dot Rosman group comm you can find
+
+---------11:06----------
+chips-- supplies ultrasonics flux
+
+---------11:08----------
+soldering stations and more with 4.9
+
+---------11:11----------
+stars on shopper approved same-day
+
+---------11:13----------
+shipping from new york city and free
+
+---------11:15----------
+continental shipping over $30 you can't
+
+---------11:17----------
+lose we even offer free support unless
+
+---------11:20----------
+you are pleased bro live chat inter
+
+---------11:21----------
+adding new products every day we even
+
+---------11:23----------
+got rid of our old terrible merchant
+
+---------11:25----------
+services provided that used to decline
+
+---------11:26----------
+random transactions for no reason if you
+
+---------11:28----------
+buy today we'll throw in a special offer
+
+---------11:30----------
+that your order will actually go through
+
+---------11:32----------
+properly what are you waiting for go to
+
+---------11:34----------
+store dot Rossmann group comm to get
+
+---------11:35----------
+yourself some authentic antique flux
+
+---------11:37----------
+don't delay by today
+

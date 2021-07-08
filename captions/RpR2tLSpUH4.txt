@@ -1,0 +1,976 @@
+https://www.youtube.com/watch?v=RpR2tLSpUH4
+---------00:00----------
+so today we're working on an 8 to 0 - 31
+
+---------00:03----------
+15 MacBook Board for an a 1278 MacBook
+
+---------00:07----------
+Pro which is kind of old this is an old
+
+---------00:09----------
+pile of junk this has the 1280 by 800
+
+---------00:12----------
+display or 1280 by 8 7 something
+
+---------00:15----------
+whatever it has this hard drive cable
+
+---------00:17----------
+that fails constantly it shipped with a
+
+---------00:19----------
+5400 RPM 500 gigabyte Drive which is
+
+---------00:22----------
+slow as hell and a dual-core Ivy Bridge
+
+---------00:25----------
+processor Apple started making this
+
+---------00:27----------
+machine in 2012 and it shipped all the
+
+---------00:30----------
+way until 2016 with no refresh because
+
+---------00:33----------
+Apple so we're gonna do today is try and
+
+---------00:36----------
+see if we get a green light on the
+
+---------00:37----------
+MacBook so I'm gonna plug it into the
+
+---------00:38----------
+power supply and as can be seen here
+
+---------00:41----------
+there is no green light on macbook how
+
+---------00:44----------
+is it that this is going to know to turn
+
+---------00:46----------
+the charge of green light on well that's
+
+---------00:48----------
+a great question so this over here is
+
+---------00:50----------
+where the charging port plugs in on the
+
+---------00:51----------
+board so if you look over here you'll
+
+---------00:53----------
+see the charging port is right on the
+
+---------00:55----------
+upper left corner or left on the upper
+
+---------00:57----------
+right corner depending on how you feel
+
+---------00:59----------
+like phrasing it so if we go up here
+
+---------01:01----------
+you'll see J 6900 and we look for that
+
+---------01:04----------
+on the schematic and it brings us to
+
+---------01:05----------
+here and we've got three lines we have
+
+---------01:08----------
+18 volts the charger power ground which
+
+---------01:12----------
+is required to complete a circuit and
+
+---------01:13----------
+adapter sense adapter sense is going to
+
+---------01:16----------
+be responsible for sensing the adapter
+
+---------01:18----------
+for telling whether or not this is
+
+---------01:21----------
+plugged in and has a green light so
+
+---------01:23----------
+let's see where adapter sense goes so if
+
+---------01:24----------
+we follow adaptor sense it goes to this
+
+---------01:26----------
+chip over here use sixty nine hundred
+
+---------01:29----------
+and it's got int in xed int in X now X
+
+---------01:32----------
+attaches to the charger which is outside
+
+---------01:35----------
+the machine and int attaches to sis one
+
+---------01:37----------
+wire and sis one wire is a line that
+
+---------01:42----------
+goes to a chip called the system
+
+---------01:44----------
+management control the SMC here which is
+
+---------01:46----------
+inside the machine so SMC is system
+
+---------01:49----------
+management controller so what this thing
+
+---------01:52----------
+over here does is use 6900 that we were
+
+---------01:55----------
+just looking at allows the charger to
+
+---------01:57----------
+speak to the system management
+
+---------01:59----------
+controller so int it's internal and
+
+---------02:02----------
+external most of what you do here is
+
+---------02:04----------
+kind of guessing now that's gonna turn
+
+---------02:06----------
+on if it gets voltage at the VCC pin
+
+---------02:08----------
+typically if you see VCC V DD v n that's
+
+---------02:11----------
+always gonna be the voltage required to
+
+---------02:12----------
+power that chip
+
+---------02:13----------
+on the top in the drawing so he over
+
+---------02:15----------
+here the in voltage in that's gonna be
+
+---------02:17----------
+what powers the chip over here you have
+
+---------02:19----------
+VCC this is the voltage that's gonna
+
+---------02:21----------
+power the chip if I was talking about my
+
+---------02:23----------
+camera and I wanted to put the voltage
+
+---------02:25----------
+into my camera to turn it on I got my
+
+---------02:27----------
+little DC plug over here and this little
+
+---------02:30----------
+pin over here this would be the VCC or
+
+---------02:33----------
+the VDD you the VN pin now going back to
+
+---------02:36----------
+this where is the power for this gonna
+
+---------02:38----------
+work that's gonna allow the charger to
+
+---------02:39----------
+talk to the SMC that comes from this
+
+---------02:41----------
+chip now this chip is going to send out
+
+---------02:44----------
+3.42 volts on why assuming that smc bc
+
+---------02:49----------
+AC okay is present on a and b and that p
+
+---------02:51----------
+p3 v4 to is present so the first power
+
+---------02:53----------
+rail that we need for anything on this
+
+---------02:55----------
+board to work is pp 3 before 2 so the
+
+---------02:57----------
+first thing that i checked we don't have
+
+---------02:58----------
+a green light is pp 3 before 2 and we're
+
+---------03:01----------
+going to check for where i would expect
+
+---------03:02----------
+pp 3 before 2 to be now it says that i
+
+---------03:05----------
+can find people 3 before 2 over here so
+
+---------03:08----------
+let's see what voltage again on beat me
+
+---------03:09----------
+3 before - i get 0 volts now the next
+
+---------03:14----------
+thing i'm gonna want to do is kind of
+
+---------03:15----------
+try and figure out how that circuit
+
+---------03:16----------
+works so let's see where PP 3 before -
+
+---------03:19----------
+is created and it appears that you 6990
+
+---------03:22----------
+is responsible for the creation of pp 3
+
+---------03:24----------
+before - so what this does is it takes
+
+---------03:27----------
+the input from either the charger 18
+
+---------03:29----------
+volts DC n or the battery pit B bus g3
+
+---------03:32----------
+hot and it goes to the input of this
+
+---------03:34----------
+chip which is then going to send out
+
+---------03:37----------
+3.42 volts so this chip is gonna be
+
+---------03:40----------
+responsible for taking the 18 or 12
+
+---------03:42----------
+volts from the charger or the battery
+
+---------03:44----------
+and turning into 3.42 volts with the
+
+---------03:46----------
+system power supply well you also have a
+
+---------03:48----------
+chip pin called en en is gonna stand for
+
+---------03:51----------
+enable and if you don't know what any of
+
+---------03:53----------
+these pins do you could always just
+
+---------03:54----------
+google the name of the chip PM 66 40 and
+
+---------03:56----------
+get a nice description of it by the way
+
+---------03:58----------
+if you need a PM 6 666 40 look no
+
+---------04:01----------
+further than stored
+
+---------04:03----------
+Rossman group.com now we are going to
+
+---------04:06----------
+check and see if we have the input here
+
+---------04:09----------
+so I am gonna look on so we have a
+
+---------04:12----------
+little resistor right under here our 6 9
+
+---------04:14----------
+9 5 pin one of our 6 9 9 5 is attached
+
+---------04:17----------
+to voltage in on the chip so let's see
+
+---------04:20----------
+what we get there let's see if we have
+
+---------04:21----------
+input power let's see if anything is
+
+---------04:22----------
+coming in from the charger at all and it
+
+---------04:25----------
+looks like we do get 18 volts in
+
+---------04:27----------
+so that's working now I want to see what
+
+---------04:29----------
+I'm getting on the enable pin of that
+
+---------04:30----------
+chip what am I getting on the navel so
+
+---------04:33----------
+let's see where do we find you 6990 huh
+
+---------04:36----------
+you 6990 is gonna be on the other side
+
+---------04:39----------
+of the board and it's going to be right
+
+---------04:41----------
+over here
+
+---------04:44----------
+so over here so can anybody tell me what
+
+---------04:46----------
+they think might be wrong what's going
+
+---------04:49----------
+on here
+
+---------04:49----------
+well corrosion you are correct so let's
+
+---------04:52----------
+see what we get on the enable circuit
+
+---------04:53----------
+over here so enable is going to be pin
+
+---------04:56----------
+four remember and four so um you could
+
+---------05:01----------
+see that right here pin four I've you
+
+---------05:04----------
+6990 en enable that's gonna be pin four
+
+---------05:08----------
+so what do we get on pin four
+
+---------05:17----------
+Oh point 4 volts but on pin 7 18 volts
+
+---------05:31----------
+yeah so something's going on there
+
+---------05:33----------
+there's gonna be some corrosion there
+
+---------05:34----------
+now it looks like I will need a new PM
+
+---------05:37----------
+66 40 so the question at this point
+
+---------05:39----------
+becomes if I need a new PM 66 40 where
+
+---------05:44----------
+could I possibly find a new PM 66 40
+
+---------05:47----------
+because I bet that's gonna be really
+
+---------05:49----------
+hard like you know it's not like apples
+
+---------05:52----------
+gonna sell me at PM 66 40 well check no
+
+---------05:55----------
+further than store Osman group comm with
+
+---------05:58----------
+same day shipping from New York City
+
+---------05:59----------
+free shipping in the continental United
+
+---------06:01----------
+States over $30 and over twelve hundred
+
+---------06:03----------
+forty nine five-star ratings on shopper
+
+---------06:06----------
+approved you can't lose to simply type
+
+---------06:08----------
+in PM 66 40 and it will immediately
+
+---------06:11----------
+autocomplete and find you a chip after
+
+---------06:13----------
+that it'll tell you exactly which boards
+
+---------06:15----------
+it's compatible with and you'll even get
+
+---------06:17----------
+quantity discounts right here it says
+
+---------06:19----------
+compatible boards so if I need to know
+
+---------06:21----------
+if it's compatible with an eight to zero
+
+---------06:22----------
+39 for 3115 I don't need to delay I can
+
+---------06:26----------
+simply read today if you can't read the
+
+---------06:28----------
+text you could simply zoom in and see
+
+---------06:29----------
+it'll even tell you that what the thing
+
+---------06:32----------
+does and it'll give you a nice picture
+
+---------06:34----------
+that you can match up to your model
+
+---------06:36----------
+board don't delay buy today because
+
+---------06:38----------
+Louis needs to make up for buying lots
+
+---------06:40----------
+of shares of a gr X now we're going to
+
+---------06:43----------
+replace this little chip with a new one
+
+---------06:46----------
+from store dot rossmann group.com so I'm
+
+---------06:49----------
+gonna not delay and immediately run up
+
+---------06:52----------
+to the front of the store and get a chip
+
+---------06:53----------
+today alright we're gonna remove the old
+
+---------06:56----------
+chip and put a new one in and let's just
+
+---------07:03----------
+use some flux by the way if you need
+
+---------07:04----------
+flux you can buy flux on store down
+
+---------07:06----------
+trosman group calm and c55 9v 2tf so I'm
+
+---------07:11----------
+gonna be using this quick 861 DW over
+
+---------07:14----------
+here which by the way is that a new
+
+---------07:16----------
+everyday low price of 267 99 on sale for
+
+---------07:20----------
+a limited time
+
+---------07:20----------
+don't delay head over to store dot
+
+---------07:23----------
+Rossman group calm and buy a quick 861
+
+---------07:25----------
+DW while it's on sale today
+
+---------07:31----------
+shilling is what we do here at store
+
+---------07:33----------
+osmond group calm you'll even save two
+
+---------07:36----------
+dollars off of the price on tea
+
+---------07:38----------
+equipment for a limited time only to
+
+---------07:40----------
+sixty seven ninety-nine
+
+---------07:42----------
+everyday low price for a limited time
+
+---------07:45----------
+well every limited day low price every
+
+---------07:51----------
+day until the price is no longer limited
+
+---------08:03----------
+plus my shipping person is looking to
+
+---------08:05----------
+move away so he needs he needs some
+
+---------08:07----------
+money so by a quick and help my shipping
+
+---------08:10----------
+guy move and find an apartment in the in
+
+---------08:13----------
+New York City all right let's get this
+
+---------08:18----------
+chip off of the board and here you go so
+
+---------08:21----------
+now you can see by the way this
+
+---------08:24----------
+gentleman over here he does the shipping
+
+---------08:27----------
+so and notice that he's no longer
+
+---------08:30----------
+wearing ear pods ear pods what are they
+
+---------08:32----------
+called whatever the kids call him these
+
+---------08:34----------
+days
+
+---------08:35----------
+you're helping support him by buying
+
+---------08:38----------
+from store dot Rossman group comm if you
+
+---------08:41----------
+if you buy from somebody else's store he
+
+---------08:43----------
+will go back to wearing air pots you
+
+---------08:45----------
+don't want that right nobody wants that
+
+---------08:48----------
+so now I was able to get voltage over
+
+---------08:50----------
+here on pin 7 but not on pin 4 and you
+
+---------08:52----------
+can tell that's because the pin itself
+
+---------08:54----------
+is entirely corroded so we're gonna
+
+---------08:55----------
+scrape a little bit using these tweezers
+
+---------08:58----------
+that I affiliate link on stored Rossmann
+
+---------09:00----------
+group comm oh I'm gonna get that pad
+
+---------09:03----------
+back I'm gonna get that pad back and
+
+---------09:07----------
+then some
+
+---------09:09----------
+I'm gonna get that pad back and then
+
+---------09:12----------
+some Jesse you watch alright so who says
+
+---------09:16----------
+I wasn't gonna get this pad back oh
+
+---------09:22----------
+what's that mofo is that connected to
+
+---------09:29----------
+anything it's probably not connected to
+
+---------09:31----------
+anything ok maybe it is connected to
+
+---------09:33----------
+something thank you sis Damon well thank
+
+---------09:36----------
+you - does Rossman group ship - EU we do
+
+---------09:38----------
+for a very limited time I'm actually
+
+---------09:40----------
+considering getting rid of international
+
+---------09:42----------
+shipments without for the with post
+
+---------09:44----------
+office because they lose everything Oh
+
+---------09:45----------
+both both pads are destroyed all right
+
+---------09:48----------
+you're right I'm running some wires here
+
+---------09:50----------
+dammit
+
+---------09:51----------
+in turns bad karma got me this is the
+
+---------09:54----------
+fault of intern
+
+---------10:02----------
+I'll give it a go let's guess it's not
+
+---------10:06----------
+like this belongs to me anyway
+
+---------10:07----------
+kinda wait I'm streaming oh well
+
+---------10:11----------
+that's the beauty of life yeah that's
+
+---------10:14----------
+what we do with line this is iMac you
+
+---------10:16----------
+know that was a great machine to learn
+
+---------10:19----------
+how to fix an iMac on have cut up that's
+
+---------10:21----------
+his 4000 bucks down the drain what
+
+---------10:26----------
+yeah it's Linus seemed very scared of me
+
+---------10:29----------
+like breaking it what our Jessa back in
+
+---------10:33----------
+stock I need wick will have wick soon
+
+---------11:05----------
+don't delay by today
+
+---------11:07----------
+indeed all right so I'm gonna tin these
+
+---------11:11----------
+little traces and then I'll allow me to
+
+---------11:13----------
+put wires there
+
+---------11:23----------
+which
+
+---------11:26----------
+oh yeah I should should i wick with a
+
+---------11:29----------
+micro pencil now you're really trolling
+
+---------11:39----------
+me how did Alex break this micro pencil
+
+---------11:47----------
+damn alright
+
+---------11:51----------
+you said it's not hard to break you mean
+
+---------11:53----------
+it's not easy to break
+
+---------12:16----------
+okay you got one wire
+
+---------12:51----------
+and second wire
+
+---------13:19----------
+these tweezers can't grab anything
+
+---------13:21----------
+anymore
+
+---------13:59----------
+have steez permission to borrow the
+
+---------14:01----------
+light what why from where we're gonna
+
+---------14:12----------
+add some flux and solder this chip on
+
+---------14:27----------
+you got our jumpers
+
+---------14:34----------
+I'm gonna preheat the board from far
+
+---------14:36----------
+away for a little bit
+
+---------15:05----------
+stop that you little bastard chip
+
+---------15:15----------
+all right
+
+---------15:19----------
+now I'm gonna push down
+
+---------15:28----------
+all right needs a little bit more solder
+
+---------15:31----------
+on the bottom pads that's fine we got
+
+---------15:34----------
+the micro pencil for
+
+---------15:52----------
+now we could do a little bit better at
+
+---------15:54----------
+getting that to be even that's not
+
+---------15:57----------
+exactly my strong point here making
+
+---------16:00----------
+something go on straight but we'll try
+
+---------16:14----------
+and now instead of being too much to the
+
+---------16:16----------
+left it's too much to the right okay
+
+---------16:29----------
+I'm sure that's probably fine
+
+---------16:36----------
+so cool it off a little bit
+
+---------16:56----------
+MacBook
+
+---------17:06----------
+charger light fans been so this wasn't
+
+---------17:17----------
+working previously because when we look
+
+---------17:20----------
+at the schematic in the board view this
+
+---------17:22----------
+section was corroded pins four and three
+
+---------17:25----------
+were entirely corroded away and pins
+
+---------17:28----------
+four and three are four pin four enable
+
+---------17:31----------
+which tells the chip to work and pin 3 T
+
+---------17:34----------
+o n which stands for time on now
+
+---------17:37----------
+remember this chip can turn either the
+
+---------17:40----------
+charger voltage which is 18 volts or the
+
+---------17:44----------
+battery voltage which is twelve point
+
+---------17:46----------
+six volts into 3.42 volts so this is a
+
+---------17:48----------
+switching power supply now if we're
+
+---------17:50----------
+taking slices of eighteen volt and
+
+---------17:52----------
+trying to turn that into three we need
+
+---------17:54----------
+less slices if we're taking twelve volts
+
+---------17:56----------
+and trying to turn that into three we
+
+---------17:57----------
+need more slices in order to average it
+
+---------17:59----------
+out so with the reason that t/o n is
+
+---------18:02----------
+there is how long should this stay on
+
+---------18:04----------
+for so it's going to send pulses of
+
+---------18:07----------
+either eighteen or twelve volts out to
+
+---------18:08----------
+the inductor and that's going to get
+
+---------18:10----------
+smooth out to 3.42 volts so the amount
+
+---------18:12----------
+of pulses that are going to be required
+
+---------18:14----------
+to get to 3.42 volts are going to be
+
+---------18:16----------
+different based on the input voltage in
+
+---------18:18----------
+order to allow this chip to be able to
+
+---------18:20----------
+work with so many different ranges of
+
+---------18:21----------
+input voltages it needs to know at the
+
+---------18:23----------
+input voltages on that pin which is with
+
+---------18:26----------
+the t o n time on pin is four and now it
+
+---------18:29----------
+works and we have fan spin which as
+
+---------18:32----------
+anybody who's watched the channel for a
+
+---------18:33----------
+while knows is really the most important
+
+---------18:35----------
+thing of them all and we couldn't done
+
+---------18:37----------
+this without the help of aren't chips at
+
+---------18:38----------
+stored out rossmann group comm so don't
+
+---------18:40----------
+delay by today brand-new pricing on
+
+---------18:43----------
+quick slow is two sixty seven
+
+---------18:45----------
+ninety-nine
+
+---------18:46----------
+I got a nice good deal from quick I got
+
+---------18:48----------
+the prices lowered from what I used to
+
+---------18:49----------
+pay for them so I'm able to pass these
+
+---------18:51----------
+savings off to you that's it for today
+
+---------18:53----------
+and as always I hope you learned
+
+---------18:55----------
+something
+
+---------19:03----------
+you
+

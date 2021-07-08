@@ -1,0 +1,1693 @@
+https://www.youtube.com/watch?v=A8uF4aU2cu0
+---------00:00----------
+hi so today we're going to be going over
+
+---------00:01----------
+a machine for mr. mayor so this was sent
+
+---------00:03----------
+in with the no backlight issue and we
+
+---------00:07----------
+have some funny funky going on here
+
+---------00:10----------
+there's like there's a keyboard cable
+
+---------00:12----------
+that's like going above the board below
+
+---------00:14----------
+the battery and all wrapped up I will
+
+---------00:18----------
+yeah I will let's let's figure out
+
+---------00:20----------
+what's wrong with the backlight issue
+
+---------00:22----------
+first and maybe I'll with that
+
+---------00:25----------
+keyboard mess a little later so let's
+
+---------00:29----------
+turn it on and confirm problem confirm
+
+---------00:31----------
+what's going on with it before we do
+
+---------00:33----------
+anything so we turn it on chimes yay
+
+---------00:40----------
+let's see if I have a picture on the
+
+---------00:43----------
+screen so one of the easiest ways to do
+
+---------00:46----------
+that with a retina is with an LED ring
+
+---------00:48----------
+light from an old microscope so you just
+
+---------00:50----------
+take that ring light and you put it by
+
+---------00:53----------
+the Apple see this is one of those
+
+---------00:58----------
+things now because you know you got to
+
+---------01:00----------
+be careful when you're doing this you
+
+---------01:01----------
+got to be careful is this aim the same
+
+---------01:03----------
+no backlight this is no image there
+
+---------01:11----------
+ain't on the screen see so a lot of
+
+---------01:19----------
+people will think oh the problem is that
+
+---------01:22----------
+I don't have a light on the screen when
+
+---------01:24----------
+the actual problem is that this screen
+
+---------01:26----------
+has no picture or that the screen is not
+
+---------01:28----------
+recognized these are different problems
+
+---------01:30----------
+and then you get even further down the
+
+---------01:32----------
+rabbit hole where people are calling it
+
+---------01:33----------
+you know nothing on the screen or no
+
+---------01:35----------
+backlight when there's no vcore and
+
+---------01:36----------
+there's no actual power going at the CPU
+
+---------01:38----------
+this chimes so since the charms it tells
+
+---------01:41----------
+me that at the very least the CPU is
+
+---------01:42----------
+working but at the moment and that
+
+---------01:45----------
+there's nothing on the screen so the
+
+---------01:47----------
+first thing here to be careful of is you
+
+---------01:50----------
+don't want to chase a no backlight
+
+---------01:51----------
+rabbit hole on a board that has no image
+
+---------01:55----------
+on the screen so the first thing we want
+
+---------01:57----------
+to do is we want to see if power is
+
+---------01:58----------
+actually getting to the LCD so let's
+
+---------02:01----------
+just switch over here to the schematic
+
+---------02:04----------
+and we can start talking about what's
+
+---------02:06----------
+going on with the screen so this is an 8
+
+---------02:08----------
+to 0 37 87 board so we're going to go
+
+---------02:11----------
+over to the LCD connector here
+
+---------02:13----------
+we're gonna see where power goes so it's
+
+---------02:16----------
+J 8300 right so let's look on the
+
+---------02:18----------
+schematic here for J 8300 you Adobe
+
+---------02:26----------
+thanks for nothing
+
+---------02:31----------
+okay take two no I don't want any
+
+---------02:34----------
+foreign funds just play my schematic I
+
+---------02:37----------
+hate being sick okay so PP 5 vs Oh LC D
+
+---------02:43----------
+5 volt rail to power the LCD that is
+
+---------02:45----------
+supposed to be coming in on pins 28 29
+
+---------02:48----------
+and 30 ignore pins 33 through 41 and
+
+---------02:50----------
+they don't exist they're just here to
+
+---------02:52----------
+ with you because Apple likes making
+
+---------02:54----------
+life miserable I think they finally
+
+---------02:56----------
+started to figure out that we have
+
+---------02:57----------
+access to these schematics and I think
+
+---------02:59----------
+one of the things they did as a as a way
+
+---------03:01----------
+to screw with us is they've just made
+
+---------03:03----------
+some of the information they're a little
+
+---------03:04----------
+bit incorrect just to make life
+
+---------03:06----------
+miserable so let's get an idea what's
+
+---------03:08----------
+going on with that so let's plug this
+
+---------03:09----------
+thing back in over here and we're gonna
+
+---------03:13----------
+measure why does one make it so that you
+
+---------03:15----------
+can see what I measure got me a little
+
+---------03:17----------
+oscilloscope alright okay we plug it in
+
+---------03:23----------
+I'm gonna take my oscilloscope probe
+
+---------03:26----------
+over here okay I can't really do much
+
+---------03:33----------
+yeah that's there we go mount it on my
+
+---------03:35----------
+on my S 5 phone screen is theory there's
+
+---------03:38----------
+no way that anything's breaking in s5 as
+
+---------03:41----------
+I like to say so I'm gonna take one
+
+---------03:44----------
+probably here put it on ground the other
+
+---------03:46----------
+probe and put it over here so we have 5
+
+---------03:48----------
+volts going to the LCD
+
+---------03:51----------
+and let's check on the pins themselves
+
+---------03:54----------
+just to make sure that I'm not losing it
+
+---------03:57----------
+so we have 5 volts going to the actual
+
+---------03:59----------
+screen hmm
+
+---------04:01----------
+let's see where backlight is supposed to
+
+---------04:03----------
+be on your shall we because that may
+
+---------04:04----------
+give us a little bit of a hint as to
+
+---------04:05----------
+what's going on so let's check back
+
+---------04:09----------
+light is on pin one it's called PPV out
+
+---------04:14----------
+underscore s ou underscore LCD backlight
+
+---------04:17----------
+right ok so let's see where that shows
+
+---------04:20----------
+up on this board so we should be able to
+
+---------04:22----------
+see that on a bunch of these capacitors
+
+---------04:24----------
+over here so let's measure it and again
+
+---------04:26----------
+I'm not expecting to see anything I'm
+
+---------04:28----------
+just curious I'm just curious because
+
+---------04:29----------
+different levels of voltage can say
+
+---------04:31----------
+different things are wrong now if you
+
+---------04:34----------
+get 0 volts
+
+---------04:35----------
+maybe a blown fuse you get you get 12
+
+---------04:40----------
+volts okay it's it's it the least power
+
+---------04:42----------
+is going through but it's not boosting
+
+---------04:43----------
+you get 60 or 50 volts the problem there
+
+---------04:46----------
+is that it's not problem if you get 50
+
+---------04:51----------
+or 60 is that it may not see the screen
+
+---------04:52----------
+is actually connected so the problem
+
+---------04:55----------
+there would be the line from backlight
+
+---------04:58----------
+output backlight booze to the LCD
+
+---------05:00----------
+connector so here we have 0 volts on
+
+---------05:02----------
+backlight which speaks to maybe an issue
+
+---------05:06----------
+with fuse another thing to think about
+
+---------05:08----------
+the retinas and again this is something
+
+---------05:10----------
+that you should know because it's a it's
+
+---------05:12----------
+a common mistake and common problem so I
+
+---------05:14----------
+said a lot of people think that there's
+
+---------05:15----------
+no backlight when there's no video
+
+---------05:16----------
+another problem with the retina is
+
+---------05:18----------
+people do the opposite because they they
+
+---------05:20----------
+think there's no image when there is
+
+---------05:21----------
+when there is when there's no backlight
+
+---------05:23----------
+present because it is so hard to see the
+
+---------05:25----------
+screen on a retina without a light I
+
+---------05:26----------
+don't know what they did or what type of
+
+---------05:28----------
+different screen materials get used in
+
+---------05:29----------
+these newer model screens but without
+
+---------05:31----------
+the without the light there you damn
+
+---------05:34----------
+near can't see anything so since it is
+
+---------05:36----------
+sending 5 volts and again I want to show
+
+---------05:37----------
+you a little bit of how this works to
+
+---------05:38----------
+see them you have an idea the way this
+
+---------05:41----------
+works see this PP 5 ESO LCD this is not
+
+---------05:45----------
+going to come in without LCD power
+
+---------05:46----------
+enable being there LCD power and Nabal
+
+---------05:50----------
+comes from let's show you here
+
+---------05:57----------
+this comes from you let's see you have
+
+---------06:01----------
+your 9600 is one of the places that
+
+---------06:04----------
+you'll find it okay so you 9600 is
+
+---------06:17----------
+amongst so you have integrated video
+
+---------06:19----------
+over here with the iris graphics but
+
+---------06:21----------
+then you also have the grab of the
+
+---------06:24----------
+graphics chip the Nvidia graphics chip
+
+---------06:25----------
+and then also you have DisplayPort here
+
+---------06:27----------
+and then you have a display port and you
+
+---------06:29----------
+have HDMI this is this is all a lot of
+
+---------06:31----------
+stuff to manage an Apple as a chip that
+
+---------06:32----------
+manages it now
+
+---------06:34----------
+this sees the graphics this sees that
+
+---------06:36----------
+there's a screen there
+
+---------06:37----------
+hey this is obviously sees that there's
+
+---------06:39----------
+a screen there if it didn't see that
+
+---------06:40----------
+there was a screen there it would not be
+
+---------06:42----------
+showing you it five volts there would
+
+---------06:44----------
+not be sending out that signal to allow
+
+---------06:45----------
+5 volts to go through and we use
+
+---------06:48----------
+something called it is a D DC circuit
+
+---------06:51----------
+that detects that there's actually that
+
+---------06:54----------
+there's a screen there that's
+
+---------06:55----------
+responsible for detecting it so you know
+
+---------06:56----------
+when you plug in a VGA monitor or a DVI
+
+---------06:58----------
+monitor in the computer then magically
+
+---------07:00----------
+knows oh hey there's a monitor there oh
+
+---------07:02----------
+hey that's a 1600 by 900 or a 1600 by
+
+---------07:04----------
+1200 screen that's part of something
+
+---------07:07----------
+called a DD C MOC circuit so that's what
+
+---------07:09----------
+you're looking at over here anyway long
+
+---------07:11----------
+story short if we see 5 volts at the LCD
+
+---------07:14----------
+LCD being detected is not the problem
+
+---------07:16----------
+most likely it is a backlight problem
+
+---------07:18----------
+and the only issue here is that I
+
+---------07:20----------
+thought I didn't see a picture because
+
+---------07:22----------
+I'm sick and going blind so let's go
+
+---------07:25----------
+back oh you couldn't see me oh well no
+
+---------07:29----------
+big loss I'm sick anyway and I'm not
+
+---------07:31----------
+that handsome so we're good let's check
+
+---------07:33----------
+the rest of the backlight circuit so PPV
+
+---------07:37----------
+out LCD backlight where are we
+
+---------07:41----------
+okay so first it starts this is a
+
+---------07:45----------
+standard DC to DC boost circuit the way
+
+---------07:48----------
+this works is you're going to have let's
+
+---------07:51----------
+make sure that you see what I see
+
+---------07:52----------
+alright you have a certain low DC
+
+---------07:55----------
+voltage going through here right now
+
+---------07:57----------
+this is going to open based on other
+
+---------08:00----------
+signals and I'm not going to get into
+
+---------08:02----------
+that right now
+
+---------08:03----------
+but this is a transistor that's simply
+
+---------08:05----------
+going to let power through to the
+
+---------08:06----------
+backlight sir now the way this is gonna
+
+---------08:08----------
+work I have experience playing this in
+
+---------08:09----------
+the DC to DC booth circuit video is you
+
+---------08:12----------
+can only get in power to move through an
+
+---------08:13----------
+inductor so fast so what's going to
+
+---------08:15----------
+happen here when you short it to ground
+
+---------08:17----------
+is that the power can't move through it
+
+---------08:18----------
+as fast as at once and it's gonna build
+
+---------08:20----------
+up in certain areas and you're gonna
+
+---------08:23----------
+have this like stopping short effect
+
+---------08:25----------
+we're at one certain point in the
+
+---------08:26----------
+inductor you get instead of having 12
+
+---------08:28----------
+volts you're gonna have 15 because you
+
+---------08:29----------
+have this coil right this coil that can
+
+---------08:31----------
+store power and if you try to shove all
+
+---------08:34----------
+that power through it as fast as you can
+
+---------08:35----------
+it's not gonna be 12 it's gonna be 12
+
+---------08:37----------
+then when it stops short 12 15 18 21
+
+---------08:42----------
+it's like showstopping short in a car
+
+---------08:43----------
+like you're driving in your car at 50
+
+---------08:45----------
+miles an hour right but you yourself
+
+---------08:47----------
+you're you're you feel stationary when
+
+---------08:49----------
+that car stops short
+
+---------08:50----------
+for one second you're probably moving at
+
+---------08:52----------
+50 miles an hour and that's it's kids
+
+---------08:54----------
+kind of like the same thing going over
+
+---------08:55----------
+here so this thing is constantly
+
+---------08:56----------
+switching constantly stopping short and
+
+---------08:58----------
+then after this diode and in these
+
+---------09:00----------
+capacitors over here you're storing the
+
+---------09:02----------
+back light energy so let's check along
+
+---------09:04----------
+every part of the back light rail and
+
+---------09:07----------
+get an idea what's going on so I'm going
+
+---------09:08----------
+to turn the machine on again and we will
+
+---------09:10----------
+start with F 7700 if we go to the board
+
+---------09:13----------
+view over here we will see where F 7700
+
+---------09:15----------
+is okay F 7700 is over there so let's
+
+---------09:20----------
+see what we have on each side of the
+
+---------09:22----------
+fuse so we're gonna measure over here
+
+---------09:24----------
+and we have on one side of this fuse we
+
+---------09:27----------
+have 13.3 volts on the other side of
+
+---------09:29----------
+this fuse we have 13.3 volts which means
+
+---------09:32----------
+that power is getting through to the
+
+---------09:34----------
+back light circuit now we're going to
+
+---------09:35----------
+check over here at Q 7706
+
+---------09:38----------
+I want to see if power is getting
+
+---------09:40----------
+through to the rest of this thing so Q
+
+---------09:42----------
+7706 let's see where that is and I'm
+
+---------09:44----------
+gonna skip over the current sensing
+
+---------09:45----------
+resistor I've gone over all current
+
+---------09:47----------
+sensing resistors are thousands of times
+
+---------09:49----------
+yeah that's over here cut there that is
+
+---------09:52----------
+that is just never the problem and watch
+
+---------09:54----------
+it be the problem here because I said
+
+---------09:55----------
+it's never the problem but 99% of the
+
+---------09:57----------
+time it's just not the problem so see
+
+---------09:59----------
+Q's 30 706 by the way I don't remember
+
+---------10:02----------
+the last time I've actually had a
+
+---------10:03----------
+backlight issue on a retina that was a
+
+---------10:05----------
+fuse it's almost never the fuse the fuse
+
+---------10:07----------
+doesn't blow the LCD connector blows the
+
+---------10:10----------
+LCD cable blows
+
+---------10:12----------
+large traces and the motherboard will
+
+---------10:15----------
+blow but the fuse oh hell no that thing
+
+---------10:18----------
+never never never never never ever the
+
+---------10:21----------
+backlight oh no no now dare Apple design
+
+---------10:24----------
+a machine where the actually works
+
+---------10:25----------
+the way it's put the hardware as you
+
+---------10:28----------
+know works the way it's supposed to
+
+---------10:30----------
+through on Jeopardy reasons ah no
+
+---------10:32----------
+we can't have that okay so now we have
+
+---------10:35----------
+voltage at the fuse right but we don't
+
+---------10:37----------
+have voltage at the after it at the end
+
+---------10:41----------
+so let's start going to region
+
+---------10:43----------
+individual components in the line so you
+
+---------10:45----------
+have Q 7706 over here right so Q 7706
+
+---------10:53----------
+it's this thing so pin six that is going
+
+---------10:58----------
+to be where we see the power on the
+
+---------11:01----------
+output so let's see if that is actually
+
+---------11:02----------
+opening and that's not opening but we
+
+---------11:07----------
+does have power on input now let's try
+
+---------11:10----------
+to learn a little bit of how a basic
+
+---------11:12----------
+transistor works now as I've said there
+
+---------11:14----------
+are different types of transistors there
+
+---------11:16----------
+are transistors where the transistor
+
+---------11:18----------
+itself will open and send power through
+
+---------11:21----------
+when you have voltage on the transistors
+
+---------11:23----------
+gate and there are transistors that will
+
+---------11:25----------
+not open when you have voltage on the
+
+---------11:27----------
+transistors gate so I can do over here
+
+---------11:29----------
+is we can Google the model number of
+
+---------11:30----------
+that transistor and see what type of
+
+---------11:32----------
+transistor this one is so FDC six three
+
+---------11:35----------
+eight a pz okay so we search for the
+
+---------11:40----------
+transistor and we get a datasheet
+
+---------11:42----------
+there's gonna be a bunch of information
+
+---------11:44----------
+here that I don't know anything about
+
+---------11:46----------
+okay so this is one of them transistors
+
+---------11:48----------
+where if you have less voltage on the
+
+---------11:50----------
+gate than you do on your source
+
+---------11:52----------
+hypothetically speaking it should open
+
+---------11:54----------
+so on pin 4 and pin 3 those are going to
+
+---------11:56----------
+be the pins are that are of interest to
+
+---------11:58----------
+me
+
+---------11:58----------
+well pins 4 and 3 so we're gonna try to
+
+---------12:01----------
+measure pin 4 up here so pin 4 of this
+
+---------12:08----------
+transistor as 13 volts and pin 3
+
+---------12:16----------
+transistor is 12.4 so there's a good
+
+---------12:19----------
+reason that this is not opening so this
+
+---------12:23----------
+is not opening because there it is
+
+---------12:25----------
+saturated so over here this is saturated
+
+---------12:28----------
+so now there are a couple of things that
+
+---------12:30----------
+I'm gonna think are to blame now the way
+
+---------12:32----------
+this works again so this over here this
+
+---------12:35----------
+takes twelve point six volts and sends
+
+---------12:37----------
+it right over here to the transistors
+
+---------12:38----------
+gate however in order to get that volts
+
+---------12:41----------
+to drop you have our 7702 here which is
+
+---------12:44----------
+going to backlight SD now this over here
+
+---------12:48----------
+should short to ground to allow this
+
+---------12:50----------
+voltage divider to work to take voltage
+
+---------12:52----------
+off of the gate so that this P channel
+
+---------12:54----------
+MOSFET over here can let the power
+
+---------12:56----------
+through to the rest of the machine
+
+---------12:57----------
+however it's not happening why is that
+
+---------12:59----------
+not happening I'm not sure yet maybe
+
+---------13:02----------
+this chip is bad internally or maybe
+
+---------13:05----------
+it's simply not being sent a signal to
+
+---------13:07----------
+it now let's see a little bit more about
+
+---------13:09----------
+how this chip works so you have this
+
+---------13:10----------
+thing over here called en well why I
+
+---------13:12----------
+wonder what en means maybe that means
+
+---------13:14----------
+enable maybe that's why it's not enabled
+
+---------13:17----------
+is there voltage on the enable pin is
+
+---------13:20----------
+this actually going to ground the way
+
+---------13:22----------
+it's supposed to is our seventy seven
+
+---------13:24----------
+forty two good these are all great
+
+---------13:25----------
+questions and they're all things I'd
+
+---------13:26----------
+love to start figuring out so let's see
+
+---------13:28----------
+where to use 7701 is on the board and
+
+---------13:30----------
+let's see where our 77 42 is on the
+
+---------13:32----------
+board with any other old board these are
+
+---------13:34----------
+things I have memorized but since this
+
+---------13:35----------
+is a newer Apple board I have to
+
+---------13:37----------
+actually look it up and pretend that I'm
+
+---------13:39----------
+doing it for the first time so we have
+
+---------13:42----------
+our seventy seven forty two and you 7701
+
+---------13:46----------
+our seven seven four to use seven 701
+
+---------13:50----------
+and if these are on the bottom of the
+
+---------13:52----------
+board I will scream because I don't want
+
+---------13:54----------
+to take this mess apart okay let's see
+
+---------13:56----------
+so we go over here we make it fullscreen
+
+---------14:01----------
+and that zero resistor is in the middle
+
+---------14:09----------
+oh of course you're really tiny go
+
+---------14:13----------
+figure
+
+---------14:14----------
+okay let's see what that looks like
+
+---------14:16----------
+under the microscope so we're gonna go
+
+---------14:19----------
+over here and get that under the
+
+---------14:21----------
+microscope and get a little look at what
+
+---------14:24----------
+that looks like
+
+---------14:30----------
+CLE YouTube says good night to you
+
+---------14:52----------
+a little little piece of in the
+
+---------14:56----------
+middle all right let's see how many ohms
+
+---------15:02----------
+that is
+
+---------15:26----------
+it's zero ohms like it's supposed to be
+
+---------15:31----------
+now let's see if we actually have power
+
+---------15:33----------
+present at the back light enabled tab oh
+
+---------15:43----------
+measuring that is going to be a [ __ ]
+
+---------15:45----------
+and a half
+
+---------16:21----------
+three point two volts three point two
+
+---------16:27----------
+volts um so we're gonna do something bad
+
+---------16:37----------
+right about now so you can try to figure
+
+---------16:39----------
+out what's going on so what I'm thinking
+
+---------16:41----------
+right now I got a couple of things going
+
+---------16:44----------
+on in my head the first is that this
+
+---------16:46----------
+chip is bad and even though it's getting
+
+---------16:47----------
+the enable signal it is not allowing
+
+---------16:50----------
+this voltage divider to come through it
+
+---------16:52----------
+is not allowing the SD pen over here to
+
+---------16:54----------
+switch to ground to allow this to allow
+
+---------16:56----------
+power through to the Machine the second
+
+---------16:58----------
+is that this transistor is somehow
+
+---------17:00----------
+internally damaged as a result of that
+
+---------17:02----------
+it's sending the 12 volts from the input
+
+---------17:04----------
+to the gate and then not allowing it to
+
+---------17:05----------
+go through on the source it's not
+
+---------17:08----------
+allowing needed it's not allowing this
+
+---------17:10----------
+to go to there because somehow this is
+
+---------17:13----------
+getting sent to the gate and because
+
+---------17:15----------
+that's up in some way it's not
+
+---------17:17----------
+working I also forgot to check our 7702
+
+---------17:19----------
+which is pretty stupid I actually was I
+
+---------17:21----------
+think I type that in here
+
+---------17:23----------
+r7 702 did I put that in here because
+
+---------17:26----------
+that's oh that's a really important one
+
+---------17:28----------
+over here if that doesn't work then none
+
+---------17:30----------
+of this is gonna work well let's just
+
+---------17:32----------
+may let's just check that and that
+
+---------17:33----------
+theory but the bad thing I'm gonna do
+
+---------17:36----------
+and if you watch this channel long
+
+---------17:37----------
+enough you know exactly what it is it's
+
+---------17:39----------
+I'm just going to check for a short
+
+---------17:42----------
+after this and if there is no short
+
+---------17:44----------
+after this I'm just gonna solder blob
+
+---------17:45----------
+for it or one two five six and see if
+
+---------17:48----------
+anything blows up and then go from there
+
+---------17:50----------
+and that's actually a good thing to do
+
+---------17:52----------
+now so I'm gonna check both of those
+
+---------17:54----------
+things now so the first thing I'm gonna
+
+---------17:55----------
+do is I'm going to check resistance of
+
+---------17:57----------
+our 7702
+
+---------17:59----------
+after I check the resistance of our 7702
+
+---------18:04----------
+I'm gonna check for a short to ground on
+
+---------18:06----------
+back light rail if I have another short
+
+---------18:08----------
+to ground on back light rail then I will
+
+---------18:10----------
+do something really really bad
+
+---------18:16----------
+our 7702 is sixty three point three
+
+---------18:21----------
+killer ohms this schematic says it's
+
+---------18:24----------
+supposed to be sixty three point four
+
+---------18:26----------
+killer ohms okay fast forward ahead to
+
+---------18:29----------
+the fun part let's see if there is a
+
+---------18:31----------
+short to ground on the back light rail
+
+---------18:38----------
+let's see if that is there a short to
+
+---------18:41----------
+ground on the back light rail is there a
+
+---------18:44----------
+short to ground on the back light rail
+
+---------18:46----------
+so that is dial it's that it we're gonna
+
+---------18:51----------
+measure right over here so oh yes there
+
+---------18:55----------
+is zero point zero zero two voltage drop
+
+---------18:58----------
+to ground you know what you know what
+
+---------19:00----------
+Apple this is pretty cool you
+
+---------19:02----------
+know what I don't give you credit where
+
+---------19:04----------
+credit is due but and I think I may have
+
+---------19:06----------
+even started off this video by
+
+---------19:07----------
+complaining about the design of the new
+
+---------19:09----------
+board but this is cool this really is
+
+---------19:12----------
+pretty cool
+
+---------19:13----------
+so check this out to prevent the fuse
+
+---------19:14----------
+from blowing and I may be nuts here for
+
+---------19:17----------
+firm for being wrong cuz I'm not even
+
+---------19:19----------
+done so check this out so this is short
+
+---------19:21----------
+to ground over here right now on any
+
+---------19:23----------
+older board you know exactly what would
+
+---------19:24----------
+happen the power would go through here
+
+---------19:26----------
+there'd be a short two grounds over here
+
+---------19:28----------
+which would mean that it would shove all
+
+---------19:30----------
+this 12 volts through this circuit or
+
+---------19:32----------
+whatever 50 volts is coming out of here
+
+---------19:34----------
+through this boost circuit out to these
+
+---------19:37----------
+short to ground and this fuse over here
+
+---------19:39----------
+would get completely sodomized
+
+---------19:40----------
+or if the short to ground was after here
+
+---------19:43----------
+if the short to ground was in the
+
+---------19:45----------
+connector itself then the connector
+
+---------19:47----------
+would just get burnt and crisps to
+
+---------19:49----------
+pieces the fuse itself wouldn't even
+
+---------19:51----------
+ blow even though it had sent
+
+---------19:53----------
+enough power through to blow everything
+
+---------19:55----------
+to pieces
+
+---------19:55----------
+and you wouldn't get anything to work
+
+---------19:58----------
+what happens here is this actually
+
+---------20:00----------
+senses that there's a short to ground
+
+---------20:02----------
+and says you know what we're not gonna
+
+---------20:04----------
+blow the fuse we're not gonna blow you
+
+---------20:06----------
+we're not gonna let the fuse not blow
+
+---------20:08----------
+and then destroy the connector we're
+
+---------20:09----------
+actually gonna turn this transistor off
+
+---------20:11----------
+we're gonna use this switch the way it
+
+---------20:13----------
+should have been used seven damn years
+
+---------20:15----------
+ago and we put it on the unibody boards
+
+---------20:16----------
+but like again Late Late beads never you
+
+---------20:20----------
+know what you should have done it in
+
+---------20:21----------
+2008 2015 it's about time so
+
+---------20:25----------
+let's see what's causing that short
+
+---------20:27----------
+so I'm gonna unplug the screen and when
+
+---------20:29----------
+I unplug the screen I get no short at
+
+---------20:35----------
+all okay so what I'm going to do now is
+
+---------20:38----------
+I'm going to take another retina screen
+
+---------20:40----------
+and plug that in and if another retina
+
+---------20:42----------
+screen works then I'm afraid you're just
+
+---------20:44----------
+ because you're gonna be paying a
+
+---------20:46----------
+lot of money to fix that so this is a
+
+---------20:49----------
+Retina screen from back when we used to
+
+---------20:51----------
+replace the entire assembly and replace
+
+---------20:54----------
+the entire assembly if somebody wanted
+
+---------20:55----------
+their old one back we give it to them
+
+---------20:57----------
+but most people don't want this old
+
+---------20:58----------
+stuff back so we would keep it and now
+
+---------21:01----------
+we're refurbishing all of these and yes
+
+---------21:03----------
+so I'm good I just took one to see if
+
+---------21:06----------
+this one has a backlight this went on
+
+---------21:17----------
+for a second but this one's actually too
+
+---------21:20----------
+ but the test if it has a
+
+---------21:22----------
+backlight so I'm gonna get up again and
+
+---------21:25----------
+I'm gonna get another one that looks a
+
+---------21:27----------
+little less a little less up okay
+
+---------21:28----------
+got another one I can't say this looks
+
+---------21:30----------
+less up I'm just hoping that I
+
+---------21:32----------
+picked a good one I use the incredibly
+
+---------21:35----------
+scientific method of and then stopping
+
+---------21:38----------
+my hand that I ran the point to choose
+
+---------21:40----------
+this screen versus another okay we plug
+
+---------21:46----------
+this in wait a second this is not going
+
+---------21:57----------
+to turn on the screen because I have
+
+---------21:59----------
+this thing closed well duh yeah so the
+
+---------22:04----------
+other one wasn't even up it was
+
+---------22:05----------
+just that I had the computer closed so
+
+---------22:07----------
+as you can see this actually has a
+
+---------22:08----------
+perfectly fine backlight there's nothing
+
+---------22:11----------
+for me to fix here um you just have a
+
+---------22:14----------
+messed up screen yeah yeah yeah if you
+
+---------22:26----------
+need a new one of these I don't know if
+
+---------22:29----------
+you've seen what the prices are for them
+
+---------22:31----------
+but that is and when you crack the
+
+---------22:35----------
+screen when you crack it
+
+---------22:37----------
+you need just the new LCD when the light
+
+---------22:41----------
+inside of this thing died and is
+
+---------22:43----------
+shorting itself to ground you're you're
+
+---------22:47----------
+ you need a new you need this and
+
+---------22:52----------
+yeah this this is where you get a
+
+---------22:55----------
+disheartening call from from my salesman
+
+---------22:58----------
+because I I used to deliver this type of
+
+---------23:01----------
+bad news all the time and it is it is
+
+---------23:05----------
+luckily not my job anymore
+
+---------23:06----------
+I guess I'm delivering it kind of
+
+---------23:09----------
+through YouTube
+
+---------23:09----------
+so this goes on the side so that's all
+
+---------23:12----------
+the troubleshooting done again coolest
+
+---------23:14----------
+thing to make note of on these new
+
+---------23:15----------
+retina boards on the newest on the a20
+
+---------23:17----------
+37 87 I gotta say I gotta give some
+
+---------23:20----------
+props to Apple and props who do I've
+
+---------23:22----------
+been sitting here on this channel
+
+---------23:24----------
+bitching for the past three years and
+
+---------23:26----------
+how all their products are made like
+
+---------23:27----------
+ even the ones that are usable I'm
+
+---------23:29----------
+not gonna say that they're that they're
+
+---------23:30----------
+bad for everybody
+
+---------23:31----------
+Apple products are very usable for a lot
+
+---------23:33----------
+of people and there's a lot of things
+
+---------23:35----------
+with the software that make it easier to
+
+---------23:36----------
+get things done the hardware itself you
+
+---------23:38----------
+may like the way it looks but the inside
+
+---------23:40----------
+of the machine I'm not talking about the
+
+---------23:42----------
+processing power or the speed or any of
+
+---------23:43----------
+that I'm talking about just pure
+
+---------23:45----------
+durability is usually this computer
+
+---------23:48----------
+if it senses it tells that there is a
+
+---------23:51----------
+short to ground I detected the screen I
+
+---------23:54----------
+acknowledge the screen but since there
+
+---------23:55----------
+is a short to ground on the back light
+
+---------23:57----------
+rail let's not send power through not
+
+---------24:00----------
+let's blow a fuse that other people have
+
+---------24:02----------
+to learn at a fix not let's send the
+
+---------24:04----------
+power through the fuse and ignore the
+
+---------24:06----------
+fact that the fuse exists like and all
+
+---------24:08----------
+the AIF I mean all the a14 twenty-fives
+
+---------24:10----------
+all the early eight 1398 they just did
+
+---------24:13----------
+they just say sodomize that LCD
+
+---------24:15----------
+connector they destroy it completely
+
+---------24:17----------
+none of that nonsense while while leave
+
+---------24:19----------
+a letter letting the fuse sit perfectly
+
+---------24:20----------
+fine
+
+---------24:21----------
+it actually detects that there's a short
+
+---------24:23----------
+and says you know what don't send power
+
+---------24:25----------
+there that's pretty damn cool you know I
+
+---------24:28----------
+may not like Apple but I'm fair I'll
+
+---------24:30----------
+give credit where credit is due and this
+
+---------24:32----------
+this board is a step towards a more
+
+---------24:34----------
+sustainable and a more durable design
+
+---------24:35----------
+and whoever at Apple was responsible for
+
+---------24:38----------
+putting this together they just they
+
+---------24:39----------
+deserve a raise
+
+---------24:40----------
+deserve props this is good
+

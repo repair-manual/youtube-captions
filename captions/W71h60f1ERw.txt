@@ -1,0 +1,577 @@
+https://www.youtube.com/watch?v=W71h60f1ERw
+---------00:00----------
+all right so this board is not charging
+
+---------00:01----------
+a battery if I plug in a charger cable
+
+---------00:06----------
+there's no light so in order to get a
+
+---------00:07----------
+green light in the charger this is the
+
+---------00:09----------
+circuit that's got to start working this
+
+---------00:11----------
+circuit is going to allow the adapter
+
+---------00:13----------
+sense line of the charger to talk to the
+
+---------00:15----------
+SMC via this one wire line so this chip
+
+---------00:18----------
+over here is the system management
+
+---------00:20----------
+controller and this needs to talk to the
+
+---------00:23----------
+SMC in order for the charger to turn on
+
+---------00:25----------
+this is about a 3 volt data line the
+
+---------00:27----------
+charger has the 3 volt data line and the
+
+---------00:29----------
+18 volt power line but a lot of people
+
+---------00:30----------
+will do while they're drunk is they'll
+
+---------00:32----------
+do something where they're trying to
+
+---------00:33----------
+plug it in and they'll be the well and
+
+---------00:37----------
+then it'll wind up shorting the 18 volt
+
+---------00:39----------
+charger line to the 3 volt data line so
+
+---------00:42----------
+the reason that we've got this chip over
+
+---------00:44----------
+here is this chip is going to keep the
+
+---------00:46----------
+18 volts from going to the SMC and
+
+---------00:48----------
+frying the SMC for this chip to work it
+
+---------00:51----------
+has to be getting power on its VCC pin
+
+---------00:52----------
+from this chip and for this chip to work
+
+---------00:54----------
+it needs to be being powered on with PP
+
+---------00:56----------
+3 V 4 2 and it needs to be getting SMC
+
+---------00:58----------
+bc AC ok this logic gate will allow 3.42
+
+---------01:00----------
+volts to go through if sm c bc AC ok is
+
+---------01:04----------
+present so the first power rail that we
+
+---------01:05----------
+need before anything will turn on here
+
+---------01:07----------
+is pp 3 V 4 to underscore G 3 ha and
+
+---------01:09----------
+that power rail is created conveniently
+
+---------01:11----------
+down here by u 6990
+
+---------01:16----------
+so let's just take a look and see what
+
+---------01:18----------
+that looks like you'll see that it looks
+
+---------01:20----------
+like a complete disgusting wreck first
+
+---------01:23----------
+thing I'm gonna do is look at the stuff
+
+---------01:25----------
+that's corroded and try to match up what
+
+---------01:27----------
+it is now this capacitor over here see
+
+---------01:29----------
+6990 is this one and you can see that
+
+---------01:31----------
+the edge on it is really nasty the
+
+---------01:33----------
+reason that I can tell is instead of
+
+---------01:35----------
+having two silver edges like the nice
+
+---------01:37----------
+components that is a silver edge and
+
+---------01:38----------
+this edge is kind of all brown gray
+
+---------01:41----------
+blacked out and it's it's kind of junky
+
+---------01:44----------
+so see 6990 is one of the capacitors on
+
+---------01:47----------
+the input line
+
+---------01:49----------
+so this is where the 18 volts from the
+
+---------01:50----------
+charger or the 12 0.6 volts from the
+
+---------01:53----------
+battery is going to enter the input of
+
+---------01:55----------
+you 6990 which is going to take 18 volts
+
+---------01:58----------
+from the charger and turn it into 3.42
+
+---------02:00----------
+volts or it's gonna take the 12 point 6
+
+---------02:02----------
+volts from the battery ignore the Apple
+
+---------02:03----------
+typo here of 18 point 5 volts one of
+
+---------02:05----------
+their authorized technicians type that
+
+---------02:07----------
+in wrong it's gonna take that 12 point 6
+
+---------02:09----------
+volts from the battery and turn it into
+
+---------02:10----------
+3.42 volts if this capacitor is
+
+---------02:12----------
+short-circuited to ground that means
+
+---------02:14----------
+that this input line is not going to
+
+---------02:16----------
+work and my charger is not going to turn
+
+---------02:17----------
+on to work so the first thing I'm gonna
+
+---------02:19----------
+do is see if that's the case so we're
+
+---------02:21----------
+gonna see what the resistance is to
+
+---------02:23----------
+ground over here so put the black probe
+
+---------02:25----------
+on ground and this probe over here and
+
+---------02:26----------
+as you can see we have 1.4 ohms to
+
+---------02:28----------
+ground which means there is a shorter
+
+---------02:30----------
+ground on the input of the pp3 before to
+
+---------02:32----------
+line I'm gonna take a wild guess this
+
+---------02:33----------
+capacitor is one of the offenders and
+
+---------02:35----------
+you can see that it chips off very
+
+---------02:36----------
+easily because here at the inside of it
+
+---------02:38----------
+looks like it's pretty cool stuff never
+
+---------02:40----------
+seen the inside of a capacitor before
+
+---------02:45----------
+gross my tweezers are kind of nasty eyes
+
+---------02:50----------
+broken looking so I'm gonna remove that
+
+---------02:53----------
+stuff at the hot air station we're just
+
+---------02:54----------
+gonna jump all that get rid of all that
+
+---------02:57----------
+junk in the board I'm gonna cover this
+
+---------02:59----------
+keyboard backlight connected over here
+
+---------03:01----------
+is that keyboard backlight connector is
+
+---------03:03----------
+gonna get burned if I don't cover it
+
+---------03:04----------
+with something
+
+---------03:07----------
+now even though that chip may actually
+
+---------03:09----------
+be good I'm not gonna trust that it is
+
+---------03:12----------
+we're gonna take that off and we're
+
+---------03:15----------
+gonna take this little capacitor off as
+
+---------03:16----------
+well this pad over here looks completely
+
+---------03:20----------
+gone done for so I'm gonna scrape it a
+
+---------03:22----------
+little and see if there's anything under
+
+---------03:24----------
+there that I can solder to do the same
+
+---------03:27----------
+thing on this other side
+
+---------03:53----------
+I've also got to get myself a new chip
+
+---------03:55----------
+this board uses an LT 3470 AED shorter
+
+---------04:01----------
+Ross believe calm as chips for all
+
+---------04:03----------
+MacBook products and they're arranged by
+
+---------04:06----------
+the board model number by the model of
+
+---------04:07----------
+your machine you can even just search up
+
+---------04:09----------
+here use 6990 and we'll give you a list
+
+---------04:12----------
+of chips that are you 6990 or you can
+
+---------04:15----------
+check out by the model number of the
+
+---------04:16----------
+chip it will give you a detailed
+
+---------04:19----------
+description of what these things are for
+
+---------04:21----------
+don't delay by today yep we're just
+
+---------04:27----------
+gonna clean that area up a little bit
+
+---------04:28----------
+before putting replacement part you got
+
+---------04:31----------
+our pads redone then add some solder to
+
+---------04:33----------
+those new paths
+
+---------04:34----------
+it's gonna be a beautiful board
+
+---------04:49----------
+[Music]
+
+---------04:50----------
+check that out that area that was all
+
+---------04:54----------
+rusted away is now a nice little solder
+
+---------04:57----------
+pit and the reason I'm moving back and
+
+---------05:00----------
+forth is because if there's any
+
+---------05:01----------
+corrosion or any kind of junk left on
+
+---------05:03----------
+the pads I want it all to get stuck on
+
+---------05:05----------
+my iron rather than to stay on the board
+
+---------05:07----------
+there's a strategy to that alright time
+
+---------05:10----------
+to get this Mac turned into a PC
+
+---------05:16----------
+returning this Mac into a PC according
+
+---------05:23----------
+to the lobbyist that's folk for the
+
+---------05:26----------
+assembly person that I spoke to in 2015
+
+---------05:31----------
+beautiful
+
+---------05:38----------
+all right here we got a little solder
+
+---------05:39----------
+ball jump out there this makes we ran
+
+---------05:44----------
+out of there which is why those
+
+---------05:45----------
+joints look the way they do flux makes
+
+---------05:48----------
+everything better
+
+---------05:49----------
+my connector right next door actually
+
+---------05:50----------
+came out pretty good covering the
+
+---------05:52----------
+connector with a small metal shield that
+
+---------05:54----------
+came out of an iPhone was a good idea so
+
+---------05:56----------
+we plug in the charger and it looks like
+
+---------05:58----------
+we've still got nothing that we're gonna
+
+---------05:59----------
+go back to the scene of the crime so
+
+---------06:01----------
+where we're supposed to be getting 18
+
+---------06:02----------
+volts we're getting point 5 ah yes
+
+---------06:05----------
+because if there was a short-circuit
+
+---------06:06----------
+over here these two resistors that act
+
+---------06:08----------
+as fuses would have blown in our 70 20
+
+---------06:10----------
+and our seven zero zero five these to
+
+---------06:12----------
+act as fuses on the input of the circuit
+
+---------06:15----------
+so our 69 20 and our 6905 are here these
+
+---------06:18----------
+acts as a fuse between the charger and
+
+---------06:20----------
+the input of the pp 3 V 4 2 circuit and
+
+---------06:22----------
+the battery in the input of the pp 3 V 4
+
+---------06:24----------
+2 circuit and since C 6990 was
+
+---------06:26----------
+short-circuited to ground C 6990 would
+
+---------06:29----------
+have sent all the electricity from the
+
+---------06:32----------
+charger to ground which would have blown
+
+---------06:33----------
+this resistor that's acting as a fuse on
+
+---------06:35----------
+the input line and you can see that our
+
+---------06:37----------
+69 20 is here our 6905 is here if I just
+
+---------06:40----------
+go straight into microscope only view I
+
+---------06:42----------
+don't need the multimeter to show you
+
+---------06:44----------
+that these two look absolutely destroyed
+
+---------06:46----------
+that's this and this so we're gonna pop
+
+---------06:51----------
+those off and after we pop those off it
+
+---------06:53----------
+should work okay I don't want to melt
+
+---------06:55----------
+the charging connector which is right
+
+---------06:57----------
+above it so to be careful here I'm gonna
+
+---------06:59----------
+put my shield again all right so that
+
+---------07:02----------
+goes and this actually broke in half Wow
+
+---------07:05----------
+I was really damaged
+
+---------07:39----------
+[Music]
+
+---------07:43----------
+okay we're gonna give the board a second
+
+---------07:45----------
+to cool off and after that plug it in
+
+---------07:46----------
+and it'll probably work beautifully
+
+---------07:50----------
+what are you the state Attorney General
+
+---------07:53----------
+[Laughter]
+
+---------07:58----------
+aren't you
+
+---------07:59----------
+[Music]
+
+---------08:03----------
+check that out and that's beautiful
+
+---------08:11----------
+it's beautiful absolutely beautiful that
+
+---------08:15----------
+is a working board and that is how he
+
+---------08:17----------
+fixed the eight to zero 34 62 and it's
+
+---------08:20----------
+not charging 99% of the time your
+
+---------08:22----------
+corrosion is gonna be in the same spot
+
+---------08:23----------
+right down there you need help with any
+
+---------08:25----------
+other type of board repair make sure to
+
+---------08:26----------
+check out Rossman group comm slash
+
+---------08:28----------
+boards we've got parts we've got tools
+
+---------08:29----------
+we've got support we've got engineers
+
+---------08:31----------
+that will help you with your problem and
+
+---------08:33----------
+if you have absolutely no money you need
+
+---------08:34----------
+support just search the forum for free
+
+---------08:35----------
+you can search through and find answers
+
+---------08:37----------
+to all your problems
+

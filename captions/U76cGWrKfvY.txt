@@ -1,0 +1,1051 @@
+https://www.youtube.com/watch?v=U76cGWrKfvY
+---------00:00----------
+today before we get started with our
+
+---------00:01----------
+stream I just wanted to show you
+
+---------00:03----------
+something new that we have in stock
+
+---------00:05----------
+that's likely going to cause Paul s to
+
+---------00:07----------
+quit his job this here is a nozzle that
+
+---------00:11----------
+will allow us to work on touch bar CPUs
+
+---------00:14----------
+so all those touch bars with no image
+
+---------00:16----------
+that we think may be because of the CPU
+
+---------00:18----------
+now we can start taking CPUs off donor
+
+---------00:21----------
+boards if we ever find some with donor
+
+---------00:23----------
+that are good and we can use this nozzle
+
+---------00:26----------
+with this machine back here to replace
+
+---------00:29----------
+CPUs and this is going to be exclusively
+
+---------00:32----------
+the job of Paul s okay we're gonna open
+
+---------00:35----------
+this MacBook
+
+---------00:37----------
+[Music]
+
+---------00:51----------
+[Applause]
+
+---------00:53----------
+[Music]
+
+---------01:01----------
+all right today we have an age 1278 this
+
+---------01:04----------
+machine has the microphone tucked under
+
+---------01:06----------
+the board great job dumbass really
+
+---------01:10----------
+you're a store what the are you
+
+---------01:13----------
+doing that that it Emily
+
+---------01:18----------
+why would somebody do this it's a little
+
+---------01:22----------
+MacBook look at this why the is the
+
+---------01:31----------
+microphone not where it's supposed to be
+
+---------01:32----------
+so this microphone see this then I just
+
+---------01:36----------
+pushed out from under the board that's
+
+---------01:37----------
+supposed to be in little slot over here
+
+---------01:39----------
+with little holes our step the audio
+
+---------01:42----------
+comes through it's not supposed to be
+
+---------01:43----------
+shoved under the board greenlight fan
+
+---------01:46----------
+schooch the fan does not Chooch fan is
+
+---------01:49----------
+not spinning so we have to figure out
+
+---------01:52----------
+why the fan is not spinning so I'm gonna
+
+---------01:54----------
+take the Mac out of the book
+
+---------01:57----------
+[Music]
+
+---------02:11----------
+[Applause]
+
+---------02:17----------
+just like Tim Cook it only has one fan
+
+---------02:20----------
+you know what's been killing me about
+
+---------02:22----------
+Tim Cook recently as I've been reading
+
+---------02:23----------
+more and more of these articles saying
+
+---------02:24----------
+Tim Cook is what why is Tim Cook worth
+
+---------02:27----------
+less money than the CEOs of companies
+
+---------02:28----------
+that are worth less than Apple and then
+
+---------02:31----------
+there's I think that he's trying to
+
+---------02:32----------
+revitalize his image and make and have
+
+---------02:34----------
+this idea that he doesn't care about
+
+---------02:35----------
+money which the he does oh you
+
+---------02:38----------
+don't care about money that's great so
+
+---------02:39----------
+why is why is it that I can't use
+
+---------02:41----------
+screens that I bought to repair your
+
+---------02:43----------
+products why is it that you made it so
+
+---------02:44----------
+that the old edid codes won't work on an
+
+---------02:46----------
+on the newer operating systems that I'm
+
+---------02:48----------
+forced to buy display assemblies rather
+
+---------02:50----------
+than LCDs by themselves why do you sound
+
+---------02:52----------
+to the SSD to the board why do you sell
+
+---------02:54----------
+an $80 dongle for USBC and make it so
+
+---------02:57----------
+that that's the only dongle that works
+
+---------02:58----------
+with your math book why don't you admit
+
+---------03:00----------
+until the last minute that there are
+
+---------03:01----------
+problems and faults with your products
+
+---------03:02----------
+why don't you have extended warranty
+
+---------03:03----------
+program for the iPhone 6 plus which you
+
+---------03:05----------
+know has issues in but rather than
+
+---------03:06----------
+charge 149 for repair you don't care
+
+---------03:10----------
+about money really really yes I like
+
+---------03:13----------
+that's the thing you could tell which
+
+---------03:14----------
+journalists are the ones that are
+
+---------03:16----------
+completely full of first of the
+
+---------03:18----------
+ones that actually do reporting by just
+
+---------03:19----------
+reading this crap because I know that
+
+---------03:20----------
+Mark Zuckerberg tried to do the same
+
+---------03:22----------
+thing last year
+
+---------03:23----------
+Mark Zuckerberg went on this tour to try
+
+---------03:25----------
+to rehabilitate his reputation so that
+
+---------03:27----------
+people wouldn't hate him for being a
+
+---------03:29----------
+billionaire and wanted to spy on people
+
+---------03:31----------
+and all that like he was really trying
+
+---------03:33----------
+to undo this this you know why do they
+
+---------03:36----------
+trust me Oh stupid like that thing
+
+---------03:38----------
+that he did in 2004 I don't think people
+
+---------03:40----------
+fell for it but I think people have
+
+---------03:41----------
+fallen for the Tim Cook one you don't
+
+---------03:43----------
+care about money oh yeah
+
+---------03:44----------
+Tim Cook does it for the passion for the
+
+---------03:47----------
+love out of here no no he does not know
+
+---------03:57----------
+he does not you won't let your
+
+---------04:00----------
+own goddamn authorized service centers
+
+---------04:02----------
+replace batteries to a 2013 MacBook Air
+
+---------04:05----------
+no you don't do it for the passion you
+
+---------04:08----------
+know you don't no no no no all right
+
+---------04:14----------
+this is an eight to zero 3115
+
+---------04:16----------
+motherboard for a MacBook this is a
+
+---------04:22----------
+fan that's not cheating so we need to
+
+---------04:25----------
+figure out why this fan doesn't shoot
+
+---------04:26----------
+let's open up a schematic for an a20
+
+---------04:29----------
+3115 MacBook and put it on the screen
+
+---------04:31----------
+the first thing that we're going to need
+
+---------04:33----------
+is to check our power rails our power
+
+---------04:35----------
+rails are gonna be on page 7 of the
+
+---------04:37----------
+diagram we're gonna start at the top
+
+---------04:39----------
+with pp bus g3 hot as you can see over
+
+---------04:45----------
+here PP bus g3 hot is supposed to be
+
+---------04:47----------
+twelve point eight volts it's actually
+
+---------04:49----------
+supposed to be 12 point 56 volts but we
+
+---------04:52----------
+can't expect them to get it right on
+
+---------04:53----------
+their own schematic now can we so let's
+
+---------04:55----------
+put the multimeter on the screen and
+
+---------04:57----------
+we're gonna measure it some of these
+
+---------04:58----------
+rails and see what's present and what's
+
+---------05:01----------
+not present our pp bus is gonna be over
+
+---------05:03----------
+here and pp bus is 12 point 56 volts so
+
+---------05:08----------
+now we move on to the next rail pp bus s
+
+---------05:11----------
+5hs computing I sense we can find that
+
+---------05:15----------
+on the other side of the board right
+
+---------05:17----------
+over here on one of these capacitors and
+
+---------05:19----------
+there we get 12.5 now we can check this
+
+---------05:22----------
+one over here and we're gonna get this
+
+---------05:26----------
+on one of these bottom capacitors Kappa
+
+---------05:30----------
+sitters and we have 12 point 56 so we
+
+---------05:34----------
+continue now the DC and rail has to be
+
+---------05:35----------
+there because everything else is there
+
+---------05:36----------
+and PP 3 before 2 is there because we're
+
+---------05:38----------
+getting a green line let's continue down
+
+---------05:40----------
+a PP v RTC underscore g3 hard let's see
+
+---------05:43----------
+what we're getting a PP v r2 c
+
+---------05:45----------
+underscore g3 hard at PPP RTC underscore
+
+---------05:48----------
+g3 hon it looks like we're getting 3.3
+
+---------05:51----------
+volts so that's good next up we're gonna
+
+---------05:54----------
+go for people 5vs5 which is supposed to
+
+---------05:56----------
+be 5 volts when the computers in an s5
+
+---------05:58----------
+state so let's check out our p5 es v and
+
+---------06:02----------
+C we got going on there pp 5 vs 5 is
+
+---------06:06----------
+[Music]
+
+---------06:11----------
+zero that can't be right
+
+---------06:17----------
+no it's fine okay is it five four point
+
+---------06:22----------
+ninety seven now we're gonna go to in
+
+---------06:23----------
+the next one so now we're gonna check
+
+---------06:25----------
+out PP 5vs5 sauce let's see if that's
+
+---------06:28----------
+present on my board where's my PP 5vs5
+
+---------06:30----------
+sauce pp 5vs5 sauce four point ninety
+
+---------06:34----------
+seven volts alright let's see if PP 5e s
+
+---------06:36----------
+3 is present on this fat book PP 5 es 3
+
+---------06:39----------
+can be found over there
+
+---------06:42----------
+come on little fat book you can do it
+
+---------06:45----------
+give me some people 5 es 3 and it's not
+
+---------06:49----------
+there and if we were to chase that all
+
+---------06:51----------
+the way back you'd see that that's
+
+---------06:53----------
+because p.m. sleep as well is probably
+
+---------06:55----------
+missing now PP 5 es 3 is gonna be
+
+---------06:57----------
+created by our TPS 5 on 1 2 5 down here
+
+---------07:00----------
+TPS 5 & 1 2 5 okay TPS 5 1 1 to 5 is
+
+---------07:04----------
+responsible for the 3.3 volt s 5 & 5
+
+---------07:08----------
+volt s 3 power supply and it's enable is
+
+---------07:11----------
+gonna be this n tripping over here this
+
+---------07:13----------
+n tripping cannot be brought to ground
+
+---------07:15----------
+this transistor over here is gonna bring
+
+---------07:17----------
+the N trip to ground therefore not
+
+---------07:20----------
+allowing it to be tripped P now this
+
+---------07:22----------
+transistor is an n-channel transistor so
+
+---------07:24----------
+it's gonna work when the voltage and the
+
+---------07:26----------
+gate is higher than the source so we got
+
+---------07:27----------
+to get rid of this signal that's why
+
+---------07:28----------
+this thing has to be underscore L which
+
+---------07:30----------
+is low so let's find out where this
+
+---------07:32----------
+signal comes from on the schematic and
+
+---------07:34----------
+the board view that's gonna come from PM
+
+---------07:38----------
+sleep s for L so do you think PM sleep s
+
+---------07:41----------
+for L is gonna be present on my board do
+
+---------07:43----------
+a half PM sleep s4 L on my board PM
+
+---------07:46----------
+sleep s for L is missing boo
+
+---------07:55----------
+alright so let's take a look through my
+
+---------07:57----------
+board under the microscope and see where
+
+---------08:00----------
+that is hopefully we can find out what
+
+---------08:02----------
+is causing this problem by searching for
+
+---------08:04----------
+something that's obviously damaged
+
+---------08:06----------
+microscope time
+
+---------08:33----------
+what is wrong with this MacBook
+
+---------08:40----------
+let's see do we have anything by the RTC
+
+---------08:43----------
+area that's ground aha
+
+---------08:45----------
+hint hint hand
+
+---------08:50----------
+why are RTC area we have nastiness look
+
+---------08:55----------
+at that okay here we go we're finding
+
+---------09:04----------
+something I found a hole down in a hole
+
+---------09:11----------
+I want to fire but my wings have been so
+
+---------09:18----------
+denied dude so that is P P V RTC
+
+---------09:23----------
+underscore g3 hot and that is going to
+
+---------09:25----------
+be pulling up several signals RTC reset
+
+---------09:28----------
+l and system RCT reset l if those
+
+---------09:31----------
+signals are not pulled up if the RTC
+
+---------09:34----------
+circuit is not working the way that it's
+
+---------09:36----------
+supposed to be working
+
+---------09:37----------
+then this board is not going to church
+
+---------09:39----------
+you need RTC reset system RTC reset
+
+---------09:42----------
+intruder an IND vermin
+
+---------09:45----------
+so RTC reset l is going to cause a
+
+---------09:49----------
+system clock reset when it's low this is
+
+---------09:51----------
+gonna cause a system clock reset when
+
+---------09:53----------
+it's low this is gonna tell the system
+
+---------09:55----------
+oh my god there's a burglar there's a
+
+---------09:57----------
+burglar call the police there's an
+
+---------09:59----------
+intruder and down here you have inter
+
+---------10:02----------
+vermin which is going to tell the
+
+---------10:03----------
+computer oh my god look there's a ver
+
+---------10:06----------
+this vermin there's a mouse in here so
+
+---------10:08----------
+underscore L means when the signal is
+
+---------10:10----------
+low it's asserted so you don't want it
+
+---------10:12----------
+to reset you don't want the system to
+
+---------10:14----------
+think there's an intruder and you
+
+---------10:16----------
+definitely don't want the system to
+
+---------10:17----------
+think that there's a mouse MacBooks do
+
+---------10:19----------
+not like vermin so what we need to do
+
+---------10:21----------
+besides firing paul daniels for the fact
+
+---------10:25----------
+that my PDF reader just crashed for no
+
+---------10:27----------
+good reason but we need to do is see if
+
+---------10:29----------
+those signals are being pulled up now
+
+---------10:32----------
+they are pulled up by ppv RTC g3 hot
+
+---------10:37----------
+however is that going to be there at
+
+---------10:40----------
+these resistors when the place where RTC
+
+---------10:43----------
+reset where the PBV RTC goes from the
+
+---------10:45----------
+other side of the board to this board is
+
+---------10:46----------
+totally burned out look see watch this
+
+---------10:49----------
+you look right over here this
+
+---------10:52----------
+is all these resistors on this line all
+
+---------10:55----------
+that stuff that capacitor that resistor
+
+---------10:57----------
+comes from here and as you can see blown
+
+---------11:01----------
+that is blown and remember if you look
+
+---------11:04----------
+on the schematic the RTC voltage is
+
+---------11:07----------
+created by you 2600 over here you 2600
+
+---------11:10----------
+creates PP v RTC underscore g3 hot that
+
+---------11:16----------
+creates this voltage PPV RTC g3 hot out
+
+---------11:19----------
+so the voltage has to be able to make it
+
+---------11:23----------
+from this side of the board over here to
+
+---------11:29----------
+this side of the board over here and
+
+---------11:30----------
+it's going to do that through this
+
+---------11:33----------
+little hole and this little hole is
+
+---------11:36----------
+messed up so we need to run a wire and
+
+---------11:39----------
+fix that and thank you very much I think
+
+---------11:42----------
+that's really cool that you started
+
+---------11:43----------
+doing board repair I hope you don't have
+
+---------11:45----------
+15-inch 2011 yoona bodies hopefully for
+
+---------11:48----------
+your sake those are 13-inch because the
+
+---------11:50----------
+15-inch all of GPU issues and those are
+
+---------11:51----------
+gonna suck so what I'm gonna try doing
+
+---------11:53----------
+here is I'm gonna run a wire through
+
+---------11:55----------
+that little hole on the board let's see
+
+---------11:57----------
+if it'll actually fit this is gonna be
+
+---------11:59----------
+fun start watching YouTube videos love
+
+---------12:01----------
+them really entertaining even though I'm
+
+---------12:03----------
+more in engineering an avant engineering
+
+---------12:05----------
+cool alright so I'm gonna run this wire
+
+---------12:07----------
+through the board and I'm gonna use my
+
+---------12:09----------
+new set of tweezers and I'm not letting
+
+---------12:11----------
+anybody here touch especially me I'm
+
+---------12:15----------
+gonna run this wire into the board let's
+
+---------12:21----------
+see if I can make it through well you go
+
+---------12:25----------
+to the other side we'll go go
+
+---------12:34----------
+okay I want to see that wire on the
+
+---------12:36----------
+other end all right check it out you got
+
+---------12:43----------
+our tunnel wire so it's coming out the
+
+---------12:47----------
+other end and if we look on the
+
+---------12:48----------
+schematic you'll see that right where my
+
+---------12:51----------
+wire is coming out here on the other end
+
+---------12:53----------
+it's going to PPV our TCG three hot so
+
+---------12:56----------
+if I'm getting PPV our TCG three hot
+
+---------12:58----------
+over here what I'm hoping is that I will
+
+---------13:03----------
+get it on the other side if I solder
+
+---------13:04----------
+there
+
+---------13:05----------
+but I'm also not sure if I'm even
+
+---------13:07----------
+getting it over here so I'm gonna go I'm
+
+---------13:09----------
+gonna be very safe with this and I'm
+
+---------13:10----------
+actually gonna run my wire all over the
+
+---------13:12----------
+board so check this out
+
+---------13:13----------
+check out what I'm gonna do I'm gonna
+
+---------13:15----------
+run this wire all the way up here all
+
+---------13:19----------
+the way up to where PPV our TCG three
+
+---------13:21----------
+hot is supposed to be coming out right
+
+---------13:24----------
+up to this capacitor over there
+
+---------13:26----------
+and then I'm gonna run it all around the
+
+---------13:30----------
+board and after I run this little wire
+
+---------13:33----------
+all the way around the board this
+
+---------13:35----------
+MacBook is going to choose like a
+
+---------13:37----------
+MacBook again
+
+---------14:16----------
+you're using it wrong your Mac booking
+
+---------14:20----------
+it wrong
+
+---------14:25----------
+all right
+
+---------14:32----------
+good stuff now to the other side of the
+
+---------14:35----------
+board
+
+---------14:42----------
+and there's my wire now we're gonna hook
+
+---------14:45----------
+up my wire to where it's supposed to go
+
+---------14:46----------
+do all of you remember where that's
+
+---------14:48----------
+supposed to go I hope you do it's gonna
+
+---------14:51----------
+be going to this capacitor and these
+
+---------14:55----------
+three resistors first we're just gonna
+
+---------14:58----------
+add a little bit of flux small them out
+
+---------15:02----------
+there
+
+---------15:42----------
+love in you is easy cause you're
+
+---------15:47----------
+beautiful so now we're going to scrape
+
+---------15:56----------
+away at this do I even really need to
+
+---------15:58----------
+scrape away at that
+
+---------15:59----------
+how does wired directly to the capacitor
+
+---------16:01----------
+what am I thinking so where's my wire
+
+---------16:08----------
+wire wire jumper fire
+
+---------16:47----------
+how do I have Minnie Riperton stuck in
+
+---------16:49----------
+my head
+
+---------17:13----------
+all right that's soldered
+
+---------17:31----------
+now that's a sick looking wire it starts
+
+---------17:35----------
+at the RTC voltage creation chip you
+
+---------17:39----------
+just break off the excess so it starts
+
+---------17:43----------
+here runs around the board here you
+
+---------17:48----------
+might be able to make that a little
+
+---------17:49----------
+neater by doing this all right
+
+---------17:52----------
+that's neat so let's go through that
+
+---------17:56----------
+again the wire starts up here by the RTC
+
+---------17:58----------
+chip then it makes go down and makes a
+
+---------18:06----------
+left then it makes it right and it gets
+
+---------18:09----------
+soldered to the RTC via where it then
+
+---------18:12----------
+pops out on the other side over here and
+
+---------18:17----------
+then goes to that capacitor that
+
+---------18:20----------
+resistor that resistor and that resistor
+
+---------18:22----------
+and after that because I want to get a
+
+---------18:26----------
+fan spin Daniel I bought I invested in
+
+---------18:29----------
+Ag rx I can't afford a single missed
+
+---------18:31----------
+board I invested in agile therapeutics I
+
+---------18:36----------
+can't afford a single board to not be
+
+---------18:38----------
+repaired fans spin I can hit the table
+
+---------18:47----------
+as much as I want I will I will hold the
+
+---------18:50----------
+board by the wire how about that I'm
+
+---------18:52----------
+gonna pick the board up by the wire
+
+---------18:53----------
+Daniel do you think I can do it why not
+
+---------18:57----------
+I'm gonna pick up the board by the wire
+
+---------19:00----------
+Daniel while it's on I'm gonna pick it
+
+---------19:01----------
+up by the wire don't okay fine
+
+---------19:05----------
+my assistant is discrete literally
+
+---------19:06----------
+screaming at me that I'm not allowed to
+
+---------19:07----------
+pick up the board by the wire look at
+
+---------19:09----------
+that fan spin that was more art than
+
+---------19:11----------
+engineering yeah that wire is so thin it
+
+---------19:14----------
+actually fits through the holes on the
+
+---------19:15----------
+board so that's a fix that's awesome
+
+---------19:18----------
+that's a main Channel video
+
+---------19:21----------
+[Music]
+
+---------19:35----------
+[Applause]
+
+---------19:37----------
+[Music]
+
+---------20:16----------
+[Applause]
+
+---------20:22----------
+[Music]
+
+---------20:26----------
+[Applause]
+
+---------20:41----------
+[Music]
+
